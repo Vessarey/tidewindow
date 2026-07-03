@@ -45,3 +45,4 @@ next-env.d.ts
 docs-internal/posthog-api-key.txt
 docs-internal/*-secret*
 public/data-json/.pipeline-stamp
+pages-stubs/

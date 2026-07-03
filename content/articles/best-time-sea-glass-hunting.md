@@ -34,13 +34,13 @@ Here is where the verified part ends and beachcomber lore begins, so let's label
 
 Because the freshly exposed gravel sits low on the beach face, and much of it only comes out of the water below the 0.0 ft MLLW line — the long-run average of each day's lowest tide. A minus tide is any low predicted below that zero, and it uncovers ground that ordinary lows never touch.
 
-Winter adds a wrinkle on the West Coast: the good lows move to the end of the day. Across the 11 West Coast stations Tidewindow tracks, 2026 holds 940 minus tides, of which 535 land in daylight (57%). Bucket those daylight windows by hour and you get two rush hours: 6 AM (56 windows) and 5 PM (51), with midday nearly empty — 11 each at 11 AM and noon. Summer minus tides are breakfast events; winter minus tides are dinner events that end at dusk. (Computed 2026-07-03 from NOAA predictions across 11 West Coast stations; the full distribution is on the [daylight-minus-tide index](/tidewindow/data/daylight-minus-tide-index/).)
+Winter adds a wrinkle on the West Coast: the good lows move to the end of the day. Across the 11 West Coast stations Tidewindow tracks, 2026 holds 940 minus tides, of which 535 land in daylight (57%). Bucket those daylight windows by hour and you get two rush hours: 6 AM (56 windows) and 5 PM (51), with midday nearly empty — 11 each at 11 AM and noon. Summer minus tides are breakfast events; winter minus tides are dinner events that end at dusk. (Computed 2026-07-03 from NOAA predictions across 11 West Coast stations; the full distribution is on the [daylight-minus-tide index](/data/daylight-minus-tide-index/).)
 
 So the winter sea glass formula is specific: an afternoon, a minus low, and a beach the last storm worked over.
 
 ## When exactly? Port Orford, worked example
 
-Port Orford sits on Oregon's south coast; the [station page](/tidewindow/beaches/or/port-orford-or/) covers Battle Rock Beach, Rocky Point, and Agate Beach. Here are the five deepest daylight lows of the October 2026–March 2027 king-tide season there:
+Port Orford sits on Oregon's south coast; the [station page](/beaches/or/port-orford-or/) covers Battle Rock Beach, Rocky Point, and Agate Beach. Here are the five deepest daylight lows of the October 2026–March 2027 king-tide season there:
 
 | Date | Low (ft MLLW) | Time of low | Arrive by | Daylight in window | Score |
 |---|---|---|---|---|---|
@@ -54,7 +54,7 @@ Computed 2026-07-03 from NOAA station 9431647 predictions.
 
 Every one of the five lands in the afternoon, and the table shows why depth alone doesn't pick the winner. Take December 24: the window opens at 3:40 PM, but only 69 minutes of it fall in daylight — the light is gone by about 4:49 PM, a full 85 minutes before the 6:14 PM low. You hunt the falling tide, never the bottom of it. January 21 is the mirror image: shallowest low in the table, but its 152 daylight minutes stretch from the 2:45 PM window start to about 5:17 PM, just past the 5:12 PM low. It's the only window of the five where you can stand on the lowest ground in light, which is why it takes the top score of these five despite the modest number.
 
-If you'd rather not do that arithmetic, the [Tide Window Finder](/tidewindow/tools/tide-window-finder/) does it for every upcoming date, and the [king tides calendar](/tidewindow/king-tides/2026-2027/) covers the whole storm season.
+If you'd rather not do that arithmetic, the [Tide Window Finder](/tools/tide-window-finder/) does it for every upcoming date, and the [king tides calendar](/king-tides/2026-2027/) covers the whole storm season.
 
 ## How does winter compare with summer here?
 
@@ -71,7 +71,7 @@ On raw tide numbers, summer wins, and it isn't close on light:
 
 Computed 2026-07-03 from NOAA station 9431647 predictions.
 
-July 14's −2.46 ft low is about 3 inches deeper than the winter season's deepest daylight low (−2.21 ft on December 24) and comes with 217 minutes of daylight against December 24's 69. Notice the flip in the time column, too: through August the best lows are morning affairs, and from September on they're evening ones — September itself is the slump, with just 3 daylight minus tides and a best window that isn't even a minus tide. The [year heatmap](/tidewindow/tools/year-heatmap/) shows the whole pattern in one glance.
+July 14's −2.46 ft low is about 3 inches deeper than the winter season's deepest daylight low (−2.21 ft on December 24) and comes with 217 minutes of daylight against December 24's 69. Notice the flip in the time column, too: through August the best lows are morning affairs, and from September on they're evening ones — September itself is the slump, with just 3 daylight minus tides and a best window that isn't even a minus tide. The [year heatmap](/tools/year-heatmap/) shows the whole pattern in one glance.
 
 So why does the sea glass crowd cheer for the weaker winter windows? Because of the first section. The verified sand cycle means July's magnificent lows expose a beach at its sandiest, while December's best window — a cramped 113 minutes on the 23rd — arrives when storms have been mining the beach face for weeks. The tide table measures water; it can't measure what the water uncovered. Winter is when the two curves — beach condition rising, tide quality still decent — cross.
 
@@ -79,4 +79,4 @@ So why does the sea glass crowd cheer for the weaker winter windows? Because of 
 
 Winter surf on the Oregon coast deserves respect, and the guidance below is Oregon State Parks', not ours: always keep one eye on the ocean so a bigger wave doesn't catch you off guard — sneaker waves are unpredictable and can knock adults off their feet. Stay away from logs on the beach or in the surf. And know when the tide is coming in, especially when exploring tidepools or secluded beaches, since incoming water can strand you.
 
-One computed footnote to that: in four of the five winter windows above, daylight ends before the predicted low, so set your exit by the clock, not by the water. The scores, bands, and window math are all documented on the [methodology page](/tidewindow/methodology/) if you want to check our arithmetic — which, on this site, is always the right instinct.
+One computed footnote to that: in four of the five winter windows above, daylight ends before the predicted low, so set your exit by the clock, not by the water. The scores, bands, and window math are all documented on the [methodology page](/methodology/) if you want to check our arithmetic — which, on this site, is always the right instinct.

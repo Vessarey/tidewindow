@@ -28,7 +28,7 @@ sources:
 
 ## What counts as a golden-hour low tide?
 
-Two clocks have to agree. The tide clock decides how much reef and wet sand you get; the sun clock decides whether the light on it is worth carrying a tripod for. For each station Tidewindow crosses NOAA's harmonic tide predictions with the sun's computed position and keeps the windows where a deep low lands near sunrise or sunset. Each window carries two solar numbers alongside its 0–100 score: the sun's **azimuth** at the moment of the low, and the offset in minutes between the low and the nearest sunrise or sunset (negative means the low comes before the sun is up). The [golden-hour tool](/tidewindow/tools/golden-hour/) computes this live for every station we track; the formulas, including the scoring, are on the [methodology page](/tidewindow/methodology/).
+Two clocks have to agree. The tide clock decides how much reef and wet sand you get; the sun clock decides whether the light on it is worth carrying a tripod for. For each station Tidewindow crosses NOAA's harmonic tide predictions with the sun's computed position and keeps the windows where a deep low lands near sunrise or sunset. Each window carries two solar numbers alongside its 0–100 score: the sun's **azimuth** at the moment of the low, and the offset in minutes between the low and the nearest sunrise or sunset (negative means the low comes before the sun is up). The [golden-hour tool](/tools/golden-hour/) computes this live for every station we track; the formulas, including the scoring, are on the [methodology page](/methodology/).
 
 The mechanism explains the whole calendar. The morning low arrives roughly 30–60 minutes later each day — at La Push it steps 4:39, 5:35, 6:26 AM over July 11–13 — while July sunrise barely moves. Each spring-tide run therefore crosses dawn once or twice, and those crossing mornings, deep water out and sun just up, are what this page collects.
 
@@ -38,10 +38,10 @@ One best window per station, ranked by score:
 
 | Station | Date | Low (ft MLLW) | Low time | Low vs. sunrise | Sun azimuth | Score |
 |---|---|---|---|---|---|---|
-| [La Push, WA](/tidewindow/beaches/wa/la-push-wa/) (9442396) | Sun, Jul 12 | −2.14 | 5:35 AM | +3 min | 56° | 97 (Exceptional) |
-| [Garibaldi, OR](/tidewindow/beaches/or/garibaldi-or/) (9437540) | Mon, Jul 13 | −2.08 | 6:34 AM | +54 min | 66° | 90 (Exceptional) |
-| [Monterey, CA](/tidewindow/beaches/ca/monterey-ca/) (9413450) | Wed, Jul 15 | −1.59 | 6:14 AM | +13 min | 64° | 81 (Great) |
-| [La Jolla, CA](/tidewindow/beaches/ca/la-jolla-ca/) (9410230) | Wed, Jul 15 | −1.51 | 4:54 AM | −58 min | 55° | 68 (Good) |
+| [La Push, WA](/beaches/wa/la-push-wa/) (9442396) | Sun, Jul 12 | −2.14 | 5:35 AM | +3 min | 56° | 97 (Exceptional) |
+| [Garibaldi, OR](/beaches/or/garibaldi-or/) (9437540) | Mon, Jul 13 | −2.08 | 6:34 AM | +54 min | 66° | 90 (Exceptional) |
+| [Monterey, CA](/beaches/ca/monterey-ca/) (9413450) | Wed, Jul 15 | −1.59 | 6:14 AM | +13 min | 64° | 81 (Great) |
+| [La Jolla, CA](/beaches/ca/la-jolla-ca/) (9410230) | Wed, Jul 15 | −1.51 | 4:54 AM | −58 min | 55° | 68 (Good) |
 
 *Computed 2026-07-03 from NOAA predictions at stations 9442396, 9437540, 9413450, and 9410230, next 120 days.*
 
@@ -128,4 +128,4 @@ Because the season is compressed. The next 120 days of predictions run through l
 
 ## How early should you arrive?
 
-An hour before the low is the standard answer — La Push's July 12 arrive-by is 4:35 AM for the 5:35 AM low — but photographers have a better one: the window's opening time. That same window opens at 3:00 AM, which buys you blue hour and the low still falling. Pull any station's upcoming windows, with arrive-by times and these sun offsets, from the [golden-hour tool](/tidewindow/tools/golden-hour/). The tide does the composition twice a month. July 12–15 is when the light shows up to help.
+An hour before the low is the standard answer — La Push's July 12 arrive-by is 4:35 AM for the 5:35 AM low — but photographers have a better one: the window's opening time. That same window opens at 3:00 AM, which buys you blue hour and the low still falling. Pull any station's upcoming windows, with arrive-by times and these sun offsets, from the [golden-hour tool](/tools/golden-hour/). The tide does the composition twice a month. July 12–15 is when the light shows up to help.

@@ -12,6 +12,7 @@ export function initAnalytics() {
   }
   posthog.init(siteConfig.posthogKey, {
     api_host: siteConfig.posthogHost,
+    ui_host: "https://us.posthog.com",
     defaults: "2026-05-30",
     person_profiles: "identified_only",
     // Cookieless-friendly: memory persistence until identified, no banners needed.

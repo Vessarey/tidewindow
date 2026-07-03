@@ -1,7 +1,7 @@
 /**
  * Submit all sitemap URLs to IndexNow (Bing, Yandex, Seznam, Naver — and the
  * index ChatGPT search rides on). Keyless-account-less; the key file is
- * hosted at public/<key>.txt under our basePath, declared via keyLocation.
+ * hosted at the domain root (public/<key>.txt).
  * Run after each deploy: node scripts/indexnow.mjs
  */
 import fs from "node:fs";
@@ -9,8 +9,8 @@ import path from "node:path";
 
 const ROOT = path.join(import.meta.dirname, "..");
 const KEY = fs.readFileSync(path.join(ROOT, "docs-internal", "indexnow-key.txt"), "utf8").trim();
-const HOST = "vessarey.github.io";
-const KEY_LOCATION = `https://${HOST}/tidewindow/${KEY}.txt`;
+const HOST = "thetidewindow.com";
+const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 
 const sitemap = fs.readFileSync(path.join(ROOT, "out", "sitemap.xml"), "utf8");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);

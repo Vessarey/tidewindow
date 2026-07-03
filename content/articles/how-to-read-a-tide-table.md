@@ -56,7 +56,7 @@ Now the run that row sits inside:
 
 *Computed 2026-07-03 from NOAA station 9435380 (South Beach, Newport, OR) predictions.*
 
-Two patterns here hold at every station, so they are worth internalizing. First, the lows deepen toward the middle of the run and relax after — July 14 and 15 differ by five thousandths of a foot. Second, each day's low lands later than the last, by 42 to 53 minutes across this run; the tide keeps its own clock and drifts against ours. If Wednesday at 7:50 doesn't fit your week, Thursday at 8:33 nearly repeats it. July is a generous month for this: [Newport's July calendar](/tidewindow/beaches/or/newport-or/2026-07/) holds 24 lows below +1.0 ft, 19 of them with daylight windows, 17 of those minus tides.
+Two patterns here hold at every station, so they are worth internalizing. First, the lows deepen toward the middle of the run and relax after — July 14 and 15 differ by five thousandths of a foot. Second, each day's low lands later than the last, by 42 to 53 minutes across this run; the tide keeps its own clock and drifts against ours. If Wednesday at 7:50 doesn't fit your week, Thursday at 8:33 nearly repeats it. July is a generous month for this: [Newport's July calendar](/beaches/or/newport-or/2026-07/) holds 24 lows below +1.0 ft, 19 of them with daylight windows, 17 of those minus tides.
 
 ## Why isn't the lowest number automatically the best day?
 
@@ -78,10 +78,10 @@ That is the hidden filter in every tide table: depth and daylight are separate c
 
 ## Is the Window Score just a shortcut?
 
-Yes. That is the design, and it is worth being plain about. The score compresses the arithmetic above into a 0–100 rating: how deep the low goes, how much of the walkable window overlaps daylight, and how the timing sits within the day. July 15's 90 ("Exceptional") and December 23's 61 ("Good") are the two tables above, pre-computed. Every input is either a NOAA harmonic prediction or the sun's calculated position, and the formulas are public on the [methodology page](/tidewindow/methodology/).
+Yes. That is the design, and it is worth being plain about. The score compresses the arithmetic above into a 0–100 rating: how deep the low goes, how much of the walkable window overlaps daylight, and how the timing sits within the day. July 15's 90 ("Exceptional") and December 23's 61 ("Good") are the two tables above, pre-computed. Every input is either a NOAA harmonic prediction or the sun's calculated position, and the formulas are public on the [methodology page](/methodology/).
 
 Be equally plain about what the score is not. It knows nothing of swell, wind, rain, fog, or how carefully you move on wet rock. A 90 during a storm is still a bad trip. The score ranks tide-and-light geometry, nothing more — it saves you the sunrise arithmetic, not the judgment.
 
-Used that way, it turns table-reading from a chore into a glance. The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) lists upcoming windows with their arrive-by times, the [Trip Picker](/tidewindow/tools/trip-picker/) compares candidate days side by side, and the [Newport station page](/tidewindow/beaches/or/newport-or/) keeps the running calendar for spots like Yaquina Head and Otter Rock.
+Used that way, it turns table-reading from a chore into a glance. The [Tide Window Finder](/tools/tide-window-finder/) lists upcoming windows with their arrive-by times, the [Trip Picker](/tools/trip-picker/) compares candidate days side by side, and the [Newport station page](/beaches/or/newport-or/) keeps the running calendar for spots like Yaquina Head and Otter Rock.
 
 None of this replaces the tide table; it finishes it. Read the height against MLLW, trust the lower low, then do the daylight arithmetic — or let a score that shows its work do it for you.

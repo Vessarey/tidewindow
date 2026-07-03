@@ -32,7 +32,7 @@ Most tide pool guides give you the tide table and stop. At Cabrillo, the tide ta
 
 Cabrillo National Monument sits at the tip of Point Loma, and the National Park Service runs it on office hours. Per the [NPS hours page](https://www.nps.gov/cabr/planyourvisit/hours.htm), the park is "open daily from 9:00 AM to 5:00 PM, with the exception of Thanksgiving Day and Christmas Day," and the rule is explicit: "The main gate into Cabrillo National Monument closes at 5:00 PM, and all visitors must exit the park at this time. Public access after 5:00 PM and before 9:00 AM is not allowed." The tidepool area itself closes earlier, at 4:30 PM.
 
-So a usable low at Cabrillo has to land inside a window of roughly 9:00 AM to 4:30 PM — and since the standard play is to [arrive about an hour before the low](/tidewindow/methodology/), the practical requirement is a predicted low between about 10:00 AM and 4:00 PM. That single constraint deletes most of the year's best tides.
+So a usable low at Cabrillo has to land inside a window of roughly 9:00 AM to 4:30 PM — and since the standard play is to [arrive about an hour before the low](/methodology/), the practical requirement is a predicted low between about 10:00 AM and 4:00 PM. That single constraint deletes most of the year's best tides.
 
 ## Which 2026 minus tides can you actually use?
 
@@ -59,13 +59,13 @@ Five survivors, all in the last ten weeks of the year. And note the two holiday 
 
 On paper, July 2026 is San Diego's best tidepool month of the summer: 22 lows below 1 ft, 14 daylight windows, 10 of them genuine daylight minus tides (computed 2026-07-03 from NOAA station 9410170 predictions). Every ranked window bottoms out between 3:34 AM and 6:55 AM. The month's deepest low, −1.69 ft on Tuesday, July 14, arrives at 4:17 AM; by the time the gate opens at 9:00 AM the tide has been flooding back in for almost five hours. August repeats the pattern — its best window (Aug 13, −1.03 ft) hits at 4:30 AM.
 
-Those dawn lows aren't wasted, just wasted *at Cabrillo*. Station 9410170's predictions also cover Sunset Cliffs and Ocean Beach a couple of miles up the same peninsula, and Sunset Cliffs Natural Park is a City of San Diego park with no daytime gate — per the city's [park night-closures list](https://www.sandiego.gov/park-and-recreation/parks/night), its posted closures are late-night curfews (11 PM–4 AM at the Ladera Street entrance, 2–4 AM for the four Sunset Cliffs lots), not business hours. The [San Diego station page](/tidewindow/beaches/ca/san-diego-ca/) and the [July 2026 calendar](/tidewindow/beaches/ca/san-diego-ca/2026-07/) list every window either way.
+Those dawn lows aren't wasted, just wasted *at Cabrillo*. Station 9410170's predictions also cover Sunset Cliffs and Ocean Beach a couple of miles up the same peninsula, and Sunset Cliffs Natural Park is a City of San Diego park with no daytime gate — per the city's [park night-closures list](https://www.sandiego.gov/park-and-recreation/parks/night), its posted closures are late-night curfews (11 PM–4 AM at the Ladera Street entrance, 2–4 AM for the four Sunset Cliffs lots), not business hours. The [San Diego station page](/beaches/ca/san-diego-ca/) and the [July 2026 calendar](/beaches/ca/san-diego-ca/2026-07/) list every window either way.
 
 September, for the record, offers Cabrillo one headline consolation — the month's best-scored window: Sunday, Sep 27, a +0.21 ft low at 4:22 PM. That clears the NPS viewing threshold (see below) but bottoms out eight minutes before the tidepool area closes, so treat the 3:22 PM arrive-by time as firm.
 
 ## What's the best hour to arrive?
 
-An hour before the predicted low. That's the arrive-by column above, and it's how every window on this site is scored — you follow the water out and get the deepest rock at slack. The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) computes it for any date.
+An hour before the predicted low. That's the arrive-by column above, and it's how every window on this site is scored — you follow the water out and get the deepest rock at slack. The [Tide Window Finder](/tools/tide-window-finder/) computes it for any date.
 
 At Cabrillo there's a twist: the 4:30 PM close clips the back half of most winter windows, so the earlier days of a run trade a little depth for a lot of time. Simple arithmetic on the fact-sheet windows (computed 2026-07-03 from NOAA station 9410170 predictions):
 
@@ -87,6 +87,6 @@ Entrance is $20 per private vehicle, $15 per motorcycle, or $10 per person walki
 
 ## Is there anything after 2026?
 
-Yes, and it's better. The king-tide season delivers Cabrillo's real jackpot in January 2027: −1.72 ft at 2:11 PM on Jan 20, −1.97 ft at 2:51 PM on Jan 21, and −1.96 ft at 3:30 PM on Jan 22 (computed 2026-07-03 from NOAA station 9410170 predictions). All three sit comfortably inside gate hours. The Jan 21 low is the deepest daylight water of the whole October-to-March season, and the [2026–2027 king tides page](/tidewindow/king-tides/2026-2027/) tracks the full run. To see the whole shape of the year at a glance — summer lows at dawn, winter lows mid-afternoon — the [year heatmap](/tidewindow/tools/year-heatmap/) makes the pattern obvious in one screen.
+Yes, and it's better. The king-tide season delivers Cabrillo's real jackpot in January 2027: −1.72 ft at 2:11 PM on Jan 20, −1.97 ft at 2:51 PM on Jan 21, and −1.96 ft at 3:30 PM on Jan 22 (computed 2026-07-03 from NOAA station 9410170 predictions). All three sit comfortably inside gate hours. The Jan 21 low is the deepest daylight water of the whole October-to-March season, and the [2026–2027 king tides page](/king-tides/2026-2027/) tracks the full run. To see the whole shape of the year at a glance — summer lows at dawn, winter lows mid-afternoon — the [year heatmap](/tools/year-heatmap/) makes the pattern obvious in one screen.
 
 If you only put one date on the calendar, make it Wednesday, December 23: −1.81 ft at 3:05 PM, arrive by 2:05 PM, and the gate math finally works in your favor.

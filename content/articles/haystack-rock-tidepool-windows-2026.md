@@ -45,9 +45,9 @@ Mid-July. The moon does Cannon Beach a favor this year: July 13, 14, 15, and 16 
 
 *Best 8 windows in the next 60 days, computed 2026-07-03 from NOAA station 9437540 (Garibaldi, Tillamook Bay) predictions, MLLW.*
 
-Note the drift: each day the low arrives about 45 minutes later than the day before. If you want the deepest water-line with the least alarm-clock pain, July 15 and 16 are the picks. If you can only come on a weekend, Sunday July 12's −1.59 ft at 5:42 AM is still a fine tide — and its low lands right at the edge of morning golden light, which is why it tops our [golden hour overlap tool](/tidewindow/tools/golden-hour/) for this stretch of coast.
+Note the drift: each day the low arrives about 45 minutes later than the day before. If you want the deepest water-line with the least alarm-clock pain, July 15 and 16 are the picks. If you can only come on a weekend, Sunday July 12's −1.59 ft at 5:42 AM is still a fine tide — and its low lands right at the edge of morning golden light, which is why it tops our [golden hour overlap tool](/tools/golden-hour/) for this stretch of coast.
 
-The full day-by-day grid is on the [Garibaldi July 2026 calendar](/tidewindow/beaches/or/garibaldi-or/2026-07/).
+The full day-by-day grid is on the [Garibaldi July 2026 calendar](/beaches/or/garibaldi-or/2026-07/).
 
 ## Where do these numbers actually come from?
 
@@ -55,7 +55,7 @@ Honesty section. Cannon Beach has no NOAA harmonic station. The nearest one is *
 
 That matters because Garibaldi's gauge sits inside Tillamook Bay, and water funneling through a bay entrance doesn't keep exactly the same schedule as the open beach where Haystack Rock stands. The tide's *depth* pattern carries over well; the *clock time* of the low at Cannon Beach can differ from the Garibaldi prediction by a meaningful fraction of an hour, in either direction depending on conditions.
 
-Our answer to that uncertainty is width, not false precision. Each window above spans four to five hours, and the arrive-by time is a full hour before the predicted low — a buffer that comfortably absorbs the station offset. Arrive by the arrive-by time, follow the water out, and the exact minute of slack low stops mattering. The formulas behind the windows and scores are on the [methodology page](/tidewindow/methodology/), and the [Garibaldi station page](/tidewindow/beaches/or/garibaldi-or/) carries the live-updated list.
+Our answer to that uncertainty is width, not false precision. Each window above spans four to five hours, and the arrive-by time is a full hour before the predicted low — a buffer that comfortably absorbs the station offset. Arrive by the arrive-by time, follow the water out, and the exact minute of slack low stops mattering. The formulas behind the windows and scores are on the [methodology page](/methodology/), and the [Garibaldi station page](/beaches/or/garibaldi-or/) carries the live-updated list.
 
 ## How does the rest of 2026 look?
 
@@ -72,7 +72,7 @@ Like the whole US West Coast, the good daylight lows front-load into summer and 
 
 *Computed 2026-07-03 from NOAA station 9437540 predictions, MLLW.*
 
-Read that middle column twice: daylight minus tides drop from 17 in July to 4 in September and 2 in October. September still has 30 lows below +1.0 ft — the tides don't stop, they just move into darkness. What daylight lows remain in late fall shift to the last hour before sunset: the season's best is −1.35 ft at 5:26 PM on December 22, with only about an hour of usable light. Deep winter evening lows belong to the [king tide season](/tidewindow/king-tides/2026-2027/), which is a spectator sport, not a tidepool trip.
+Read that middle column twice: daylight minus tides drop from 17 in July to 4 in September and 2 in October. September still has 30 lows below +1.0 ft — the tides don't stop, they just move into darkness. What daylight lows remain in late fall shift to the last hour before sunset: the season's best is −1.35 ft at 5:26 PM on December 22, with only about an hour of usable light. Deep winter evening lows belong to the [king tide season](/king-tides/2026-2027/), which is a spectator sport, not a tidepool trip.
 
 ## What are the rules at the Marine Garden?
 
@@ -94,4 +94,4 @@ Now overlay the tide table. On July 15 the walkable window runs until 10:50 AM, 
 
 Oregon State Parks' beach safety guidance, quoted directly: "Know when the tide is coming in, especially when exploring tidepools or secluded beaches. Incoming tides can quickly leave you stranded away from shore." And: "Always keep one eye on the ocean so you won't be caught off guard if a bigger wave surges up the beach." The windows above end when they end; walk back in with the flood, not against it.
 
-For arrive-by times at any station we cover, the [Tide Window Finder](/tidewindow/tools/tide-window-finder/) computes them the same way: an hour before the low, daylight required, no exceptions for optimism.
+For arrive-by times at any station we cover, the [Tide Window Finder](/tools/tide-window-finder/) computes them the same way: an hour before the low, daylight required, no exceptions for optimism.

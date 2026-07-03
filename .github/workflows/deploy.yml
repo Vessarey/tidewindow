@@ -1,16 +1,11 @@
-name: Deploy to GitHub Pages
+# Since 2026-07-03 the site lives at https://thetidewindow.com (Vercel deploys
+# on every push via the GitHub integration). This workflow now only publishes
+# permanent-redirect stubs for the old vessarey.github.io/tidewindow/* URLs.
+# Run manually (workflow_dispatch) if the redirect set ever needs regenerating.
+name: Pages redirect stubs
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
-  # The daily-refresh job commits fresh NOAA data using the default GITHUB_TOKEN,
-  # and GitHub deliberately does NOT fire push-triggered workflows for such pushes
-  # (recursion guard). Without this, refreshed tide numbers never deploy. Listening
-  # for the refresh run's completion sidesteps that restriction.
-  workflow_run:
-    workflows: ["Daily data refresh"]
-    types: [completed]
 
 permissions:
   contents: read
@@ -23,10 +18,6 @@ concurrency:
 
 jobs:
   build:
-    # For workflow_run, only deploy when the refresh actually succeeded.
-    if: >-
-      github.event_name != 'workflow_run' ||
-      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,9 +27,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - run: node scripts/pages-redirect-stubs.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: pages-stubs
 
   deploy:
     needs: build
@@ -48,8 +40,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       # Pages intermittently rejects deployments with a transient "Deployment
-      # failed, try again later" (3 occurrences on 2026-07-03 alone) — retry
-      # twice with a backoff before declaring failure.
+      # failed, try again later" — retry twice with backoff.
       - id: deployment
         uses: actions/deploy-pages@v4
         continue-on-error: true

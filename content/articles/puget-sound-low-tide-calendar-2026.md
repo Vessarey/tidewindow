@@ -77,18 +77,18 @@ The tide keeps producing lows below +1 ft all year — roughly 19 to 23 per mont
 
 *Computed 2026-07-03 from NOAA station 9447130 and 9444900 predictions.*
 
-Sum the Seattle columns: 51 daylight windows from July through December, against 126 lows below +1 ft in the same span — about 40%. And 31 of the 37 daylight minus tides (84%) are packed into July and August. November and December contribute 42 sub-+1-ft lows between them and not one daylight window; October's best candidate (October 5, a +0.10 ft low at 6:42 AM) scores 22 and sits in our "Skip" band. The [year heatmap](/tidewindow/tools/year-heatmap/) makes this cliff easy to see at a glance.
+Sum the Seattle columns: 51 daylight windows from July through December, against 126 lows below +1 ft in the same span — about 40%. And 31 of the 37 daylight minus tides (84%) are packed into July and August. November and December contribute 42 sub-+1-ft lows between them and not one daylight window; October's best candidate (October 5, a +0.10 ft low at 6:42 AM) scores 22 and sits in our "Skip" band. The [year heatmap](/tools/year-heatmap/) makes this cliff easy to see at a glance.
 
 ## Seattle or Port Townsend?
 
 Same moon, different clock. Port Townsend's lows run 51 minutes ahead of Seattle's on both big weekend dates — 7:58 AM versus 8:49 AM on July 11, 7:38 AM versus 8:29 AM on August 9 — and 53 to 56 minutes ahead during the deep July 12–15 run. Its windows also stretch longer: 347 minutes of daylight window on July 11 against Seattle's 275, and 370 versus 295 on July 12. Early risers and photographers get more room to work up north.
 
-Seattle's advantage is access. The station's reference beaches — Alki Beach, Constellation Park, and Golden Gardens — sit inside the city, and recent observations within 5 km of the station include 13 sightings of horned nudibranchs and 7 of gumboot chitons in the last 60 days. Full date lists live on the [Seattle station page](/tidewindow/beaches/wa/seattle-wa/) and the [Port Townsend station page](/tidewindow/beaches/wa/port-townsend-wa/); the [July 2026 calendar for Seattle](/tidewindow/beaches/wa/seattle-wa/2026-07/) has every window in this article, day by day.
+Seattle's advantage is access. The station's reference beaches — Alki Beach, Constellation Park, and Golden Gardens — sit inside the city, and recent observations within 5 km of the station include 13 sightings of horned nudibranchs and 7 of gumboot chitons in the last 60 days. Full date lists live on the [Seattle station page](/beaches/wa/seattle-wa/) and the [Port Townsend station page](/beaches/wa/port-townsend-wa/); the [July 2026 calendar for Seattle](/beaches/wa/seattle-wa/2026-07/) has every window in this article, day by day.
 
 ## How do you work a window?
 
 Use the arrive-by time, not the low time. For Seattle's July 12 window, that's 8:40 AM — an hour before the 9:40 AM low. The National Park Service's tidepooling guidance says to be at the tidepools "at least an hour before low tide" so you can explore while the water is still receding, and to head back "no later than an hour after the tide has begun to rise." NPS also warns that the route out crosses slippery, algae-covered rock and pools a foot or more deep, so wear shoes that grip when wet.
 
-Planning a trip around one of these runs rather than a single day? The [trip picker](/tidewindow/tools/trip-picker/) finds the multi-day stretches — it will point you at July 11–16 without being asked. And if you want to check any number in this article, the [methodology page](/tidewindow/methodology/) documents how windows and scores are computed from NOAA's harmonic predictions.
+Planning a trip around one of these runs rather than a single day? The [trip picker](/tools/trip-picker/) finds the multi-day stretches — it will point you at July 11–16 without being asked. And if you want to check any number in this article, the [methodology page](/methodology/) documents how windows and scores are computed from NOAA's harmonic predictions.
 
 One of eight. Book the Sunday, or book the day off.

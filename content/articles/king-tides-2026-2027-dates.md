@@ -38,7 +38,7 @@ The part that matters for tidepoolers: the stacking works in both directions. Du
 
 Because water in a street is news, and bare rock at the tideline is not. NOAA maintains a monthly high tide flooding outlook that flags, up to a year ahead, the days when above-normal highs may cause minor flooding in flood-prone areas — and king tide events feature heavily in it. That side deserves the attention it gets.
 
-But every one of those headline highs has a quieter twin a few hours away, and the low side is what this site computes. We ran the full October 2026 through March 2027 season at our stations and pulled each station's five lowest daylight lows; the complete list lives on the [2026-27 king tide season page](/tidewindow/king-tides/2026-2027/). The four stations we profile in depth, one per region, are below.
+But every one of those headline highs has a quieter twin a few hours away, and the low side is what this site computes. We ran the full October 2026 through March 2027 season at our stations and pulled each station's five lowest daylight lows; the complete list lives on the [2026-27 king tide season page](/king-tides/2026-2027/). The four stations we profile in depth, one per region, are below.
 
 ## Which station gets the lowest daylight low?
 
@@ -51,13 +51,13 @@ But every one of those headline highs has a quieter twin a few hours away, and t
 
 *Computed 2026-07-03 from NOAA station 9447130, 9435380, 9410230, and 8413320 predictions (heights in ft MLLW, times local).*
 
-Read the daylight column before the depth column. [Newport](/tidewindow/beaches/or/newport-or/) posts the deepest number in the table, but its December 23 low arrives at 5:53 PM with only 60 daylight minutes in the window — you would be prospecting at dusk. All five of Newport's deepest king-season daylight lows land between 5:04 and 6:24 PM, with 46 to 100 minutes of light. Compare its summer benchmark, predicted for July 15, 2026: -2.52 ft at 7:50 AM, with 285 daylight minutes. Winter gives Newport almost the same depth and a fifth of the light.
+Read the daylight column before the depth column. [Newport](/beaches/or/newport-or/) posts the deepest number in the table, but its December 23 low arrives at 5:53 PM with only 60 daylight minutes in the window — you would be prospecting at dusk. All five of Newport's deepest king-season daylight lows land between 5:04 and 6:24 PM, with 46 to 100 minutes of light. Compare its summer benchmark, predicted for July 15, 2026: -2.52 ft at 7:50 AM, with 285 daylight minutes. Winter gives Newport almost the same depth and a fifth of the light.
 
 La Jolla inverts that trade. Its -1.89 ft low on January 21 arrives mid-afternoon with more daylight in the window (311 minutes) than any other entry in the table.
 
 ## Why does Seattle mostly sit this one out?
 
-Puget Sound's winter geometry is unforgiving. At station 9447130, November and December 2026 each have **zero** daylight low-tide windows — 21 lows below 1 ft in each month, every one of them in the dark. [Seattle's](/tidewindow/beaches/wa/seattle-wa/) five best daylight king-season lows all crowd into February and March 2027, and the deepest is just -0.65 ft (March 25 at 1:45 PM). Against the -3.8 ft daylight low NOAA predicts for Seattle on July 14, 2026, that is 3.15 ft of missing reef. If you tidepool in Puget Sound, the king tide season is spectator season; your dates are in July.
+Puget Sound's winter geometry is unforgiving. At station 9447130, November and December 2026 each have **zero** daylight low-tide windows — 21 lows below 1 ft in each month, every one of them in the dark. [Seattle's](/beaches/wa/seattle-wa/) five best daylight king-season lows all crowd into February and March 2027, and the deepest is just -0.65 ft (March 25 at 1:45 PM). Against the -3.8 ft daylight low NOAA predicts for Seattle on July 14, 2026, that is 3.15 ft of missing reef. If you tidepool in Puget Sound, the king tide season is spectator season; your dates are in July.
 
 ## Where does the season actually deliver? La Jolla, over the holidays
 
@@ -71,14 +71,14 @@ At station 9410230 the pattern flips: December 2026 produces 16 daylight minus t
 | Thu, Jan 21, 2027 | -1.89 | 2:48 PM | 311 min | 84 (Great) |
 | Fri, Jan 22, 2027 | -1.87 | 3:27 PM | 272 min | 88 (Great) |
 
-*[La Jolla's](/tidewindow/beaches/ca/la-jolla-ca/) five lowest daylight lows, Oct 2026-Mar 2027. Computed 2026-07-03 from NOAA station 9410230 predictions.*
+*[La Jolla's](/beaches/ca/la-jolla-ca/) five lowest daylight lows, Oct 2026-Mar 2027. Computed 2026-07-03 from NOAA station 9410230 predictions.*
 
 Note what Southern California's latitude buys: every one of those lows lands between 2:48 and 4:33 PM, in full afternoon light. La Jolla's deepest king-season low is also 0.26 ft deeper than the best daylight low its summer has to offer (-1.63 ft, predicted for July 14, 2026). For this station, king tide season is not a consolation prize. It is the main event.
 
 ## What about the East Coast?
 
-Bar Harbor holds its own. Its -1.89 ft low on Saturday, January 23, 2027 (5:20 PM) is about half a foot deeper than the best daylight low predicted for its summer 2026 (-1.35 ft, July 15), and three of its five deepest king-season lows fall on weekends. The highest-scoring of them is Saturday, February 20, 2027: -1.55 ft at 4:12 PM with 163 daylight minutes, scoring 79 (Great). For a station where only 52 of 2026's 90 minus tides land in daylight at all, a deep Saturday-afternoon low in February is worth marking now — details on the [Bar Harbor page](/tidewindow/beaches/me/bar-harbor-me/).
+Bar Harbor holds its own. Its -1.89 ft low on Saturday, January 23, 2027 (5:20 PM) is about half a foot deeper than the best daylight low predicted for its summer 2026 (-1.35 ft, July 15), and three of its five deepest king-season lows fall on weekends. The highest-scoring of them is Saturday, February 20, 2027: -1.55 ft at 4:12 PM with 163 daylight minutes, scoring 79 (Great). For a station where only 52 of 2026's 90 minus tides land in daylight at all, a deep Saturday-afternoon low in February is worth marking now — details on the [Bar Harbor page](/beaches/me/bar-harbor-me/).
 
 ## How to plan around these dates
 
-Winter windows are short and end at dusk, so timing matters more than in July. Arrive about an hour before the predicted low so you follow the water out and walk back with the flood. Every date above, plus the ones that did not make the cut, is plotted on the [year heatmap](/tidewindow/tools/year-heatmap/), and the full season list with arrive-by times is on the [king tide season page](/tidewindow/king-tides/2026-2027/). The floods will get the headlines this winter. The reef is where the quiet part happens.
+Winter windows are short and end at dusk, so timing matters more than in July. Arrive about an hour before the predicted low so you follow the water out and walk back with the flood. Every date above, plus the ones that did not make the cut, is plotted on the [year heatmap](/tools/year-heatmap/), and the full season list with arrive-by times is on the [king tide season page](/king-tides/2026-2027/). The floods will get the headlines this winter. The reef is where the quiet part happens.

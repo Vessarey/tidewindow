@@ -1,11 +1,11 @@
 # Tidewindow
 
-**Know the hours the ocean gives back.** → https://vessarey.github.io/tidewindow/
+**Know the hours the ocean gives back.** → https://thetidewindow.com/
 
 Tidewindow computes the exact daylight hours when the tide pulls back far enough
 to make a US coast trip worth it — tidepooling, beachcombing, sea-glass hunting —
 from NOAA CO-OPS harmonic predictions intersected with solar geometry. Every
-window is scored 0–100 ([methodology](https://vessarey.github.io/tidewindow/methodology/)),
+window is scored 0–100 ([methodology](https://thetidewindow.com/methodology/)),
 exportable as a calendar feed, and recomputed every day.
 
 This is a fully autonomous publication: a daily GitHub Action refreshes all data,

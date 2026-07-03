@@ -65,7 +65,7 @@ If declination is really steering the deep low toward summer daylight, the year'
 
 *Computed 2026-07-03 from NOAA predictions at Tidewindow's 11 West Coast stations (WA, OR, CA).*
 
-The shape is a two-humped day with a crater at lunch. The dawn hump peaks at 6 AM with 56 minus lows, five times the 11 apiece at 11 AM and noon, and 269 of the 535 (50%) land between 3 and 9 AM. A second, slightly smaller hump rises in the late afternoon, topping out at 51 events at 5 PM. Which months feed which hump is easy to see on the [year heatmap](/tidewindow/tools/year-heatmap/), which draws all twelve months for any station at once.
+The shape is a two-humped day with a crater at lunch. The dawn hump peaks at 6 AM with 56 minus lows, five times the 11 apiece at 11 AM and noon, and 269 of the 535 (50%) land between 3 and 9 AM. A second, slightly smaller hump rises in the late afternoon, topping out at 51 events at 5 PM. Which months feed which hump is easy to see on the [year heatmap](/tools/year-heatmap/), which draws all twelve months for any station at once.
 
 ## What does a summer run look like at one station?
 
@@ -80,9 +80,9 @@ Seattle, NOAA station 9447130, makes a clean specimen. Its best stretch of 2026 
 | Wed, Jul 15 | -3.49 | 12:08 PM | 11:08 AM |
 | Thu, Jul 16 | -2.73 | 12:55 PM | 11:55 AM |
 
-*Computed 2026-07-03 from NOAA station 9447130 (Seattle) predictions. The full month is on the [July 2026 calendar](/tidewindow/beaches/wa/seattle-wa/2026-07/).*
+*Computed 2026-07-03 from NOAA station 9447130 (Seattle) predictions. The full month is on the [July 2026 calendar](/beaches/wa/seattle-wa/2026-07/).*
 
-Read down the time column: 8:49, 9:40, 10:31, 11:20, 12:08, 12:55. Each low arrives 47 to 51 minutes after the previous day's — the lunar day's 50-minute lag, visible in a tide table. Over six days the low walks from mid-morning to just past lunch while deepening to -3.80 ft on July 14, the deepest daylight low of Seattle's year. This is what "summer minus tides land near dawn and midday" means in practice: the run starts early and the lunar lag walks it through noon. The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) turns any such run into an arrive-by time.
+Read down the time column: 8:49, 9:40, 10:31, 11:20, 12:08, 12:55. Each low arrives 47 to 51 minutes after the previous day's — the lunar day's 50-minute lag, visible in a tide table. Over six days the low walks from mid-morning to just past lunch while deepening to -3.80 ft on July 14, the deepest daylight low of Seattle's year. This is what "summer minus tides land near dawn and midday" means in practice: the run starts early and the lunar lag walks it through noon. The [Tide Window Finder](/tools/tide-window-finder/) turns any such run into an arrive-by time.
 
 ## Where do the deep lows go in winter?
 
@@ -99,6 +99,6 @@ Nowhere. They just stop being visible. Seattle's monthly supply of genuinely low
 
 *Computed 2026-07-03 from NOAA station 9447130 (Seattle) predictions.*
 
-October has 22 lows below +1 ft MLLW, exactly as many as July, and not one daylight minus tide. Two things did that: the deep low crossed to the night half of the clock as the declination geometry reversed, and daylight itself contracted around what remained. The daytime water in winter runs high instead — that is [king tide season](/tidewindow/king-tides/2026-2027/), the same tilt showing its other face. You can watch the collapse month by month, for every station, on the [daylight-minus-tide index](/tidewindow/data/daylight-minus-tide-index/).
+October has 22 lows below +1 ft MLLW, exactly as many as July, and not one daylight minus tide. Two things did that: the deep low crossed to the night half of the clock as the declination geometry reversed, and daylight itself contracted around what remained. The daytime water in winter runs high instead — that is [king tide season](/king-tides/2026-2027/), the same tilt showing its other face. You can watch the collapse month by month, for every station, on the [daylight-minus-tide index](/data/daylight-minus-tide-index/).
 
-The practical summary is unromantic. On the Pacific coast, a summer minus tide is a morning appointment, and the schedule was set by a 23.5-degree tilt long before you bought boots. The [methodology page](/tidewindow/methodology/) documents exactly how each window in these counts is defined and scored. Set the alarm; the moon will not move it for you.
+The practical summary is unromantic. On the Pacific coast, a summer minus tide is a morning appointment, and the schedule was set by a 23.5-degree tilt long before you bought boots. The [methodology page](/methodology/) documents exactly how each window in these counts is defined and scored. Set the alarm; the moon will not move it for you.

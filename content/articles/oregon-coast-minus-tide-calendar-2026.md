@@ -25,7 +25,7 @@ sources:
 
 ## How were these numbers computed?
 
-NOAA harmonic predictions for each station, crossed with the sun's computed position there, then scored 0–100 for depth and daylight overlap; formulas on the [methodology page](/tidewindow/methodology/). Counts are per station: one calendar day can appear up to four times.
+NOAA harmonic predictions for each station, crossed with the sun's computed position there, then scored 0–100 for depth and daylight overlap; formulas on the [methodology page](/methodology/). Counts are per station: one calendar day can appear up to four times.
 
 | Month (2026) | Garibaldi | Newport | Charleston | Port Orford | All four |
 |---|---|---|---|---|---|
@@ -47,14 +47,14 @@ Each table shows the month's highest-scoring daylight window per station; day-by
 
 | Station | Best day | Low (ft MLLW) | Low time | Score |
 |---|---|---|---|---|
-| [Garibaldi](/tidewindow/beaches/or/garibaldi-or/) | Mon Jul 13 | −2.08 | 6:34 AM | 90 |
-| [Newport](/tidewindow/beaches/or/newport-or/) | Mon Jul 13 | −2.23 | 6:15 AM | 90 |
-| [Charleston](/tidewindow/beaches/or/charleston-or/) | Mon Jul 13 | −2.19 | 6:04 AM | 90 |
-| [Port Orford](/tidewindow/beaches/or/port-orford-or/) | Tue Jul 14 | −2.46 | 6:37 AM | 90 |
+| [Garibaldi](/beaches/or/garibaldi-or/) | Mon Jul 13 | −2.08 | 6:34 AM | 90 |
+| [Newport](/beaches/or/newport-or/) | Mon Jul 13 | −2.23 | 6:15 AM | 90 |
+| [Charleston](/beaches/or/charleston-or/) | Mon Jul 13 | −2.19 | 6:04 AM | 90 |
+| [Port Orford](/beaches/or/port-orford-or/) | Tue Jul 14 | −2.46 | 6:37 AM | 90 |
 
 *Computed 2026-07-03 from NOAA stations 9437540, 9435380, 9432780, 9431647.*
 
-All four are Exceptional, and July 13 is only the front edge; the deepest water comes on the 14th and 15th (see the ten deepest Exceptional windows below). Day grids: [Garibaldi](/tidewindow/beaches/or/garibaldi-or/2026-07/), [Newport](/tidewindow/beaches/or/newport-or/2026-07/), [Charleston](/tidewindow/beaches/or/charleston-or/2026-07/), [Port Orford](/tidewindow/beaches/or/port-orford-or/2026-07/).
+All four are Exceptional, and July 13 is only the front edge; the deepest water comes on the 14th and 15th (see the ten deepest Exceptional windows below). Day grids: [Garibaldi](/beaches/or/garibaldi-or/2026-07/), [Newport](/beaches/or/newport-or/2026-07/), [Charleston](/beaches/or/charleston-or/2026-07/), [Port Orford](/beaches/or/port-orford-or/2026-07/).
 
 ### August 2026: one Wednesday carries the month
 
@@ -67,7 +67,7 @@ All four are Exceptional, and July 13 is only the front edge; the deepest water 
 
 *Computed 2026-07-03 from NOAA stations 9437540, 9435380, 9432780, 9431647.*
 
-All four sit in the Great band. August has *more* lows under +1.0 ft than July at every station (30 to 33, versus 24 apiece), yet fewer daylight minus tides: 51 against July's 66. The lows aren't going away; they're sliding out of daylight. August grids: [Garibaldi](/tidewindow/beaches/or/garibaldi-or/2026-08/), [Newport](/tidewindow/beaches/or/newport-or/2026-08/), [Charleston](/tidewindow/beaches/or/charleston-or/2026-08/), [Port Orford](/tidewindow/beaches/or/port-orford-or/2026-08/).
+All four sit in the Great band. August has *more* lows under +1.0 ft than July at every station (30 to 33, versus 24 apiece), yet fewer daylight minus tides: 51 against July's 66. The lows aren't going away; they're sliding out of daylight. August grids: [Garibaldi](/beaches/or/garibaldi-or/2026-08/), [Newport](/beaches/or/newport-or/2026-08/), [Charleston](/beaches/or/charleston-or/2026-08/), [Port Orford](/beaches/or/port-orford-or/2026-08/).
 
 ### September 2026: the fade
 
@@ -146,19 +146,19 @@ First and second place are the same beach two mornings apart, separated by five 
 
 Not the good ones: July 13–16 runs Monday through Thursday. A midweek day off earns you 1.7 vertical feet over the deepest weekend window.
 
-If weekends are what you have, circle **Sunday, October 25**: best-of-month at all four stations at once, with evening lows from −0.51 ft (Port Orford, 6:11 PM) to −0.79 ft (Newport, 6:37 PM). Port Orford adds Sunday, September 27, which misses minus-tide status by a fraction at +0.02 ft. Those are the only weekend days flagged among the best-of-month windows. The [Trip Picker](/tidewindow/tools/trip-picker/) does this juggling when your dates are fixed.
+If weekends are what you have, circle **Sunday, October 25**: best-of-month at all four stations at once, with evening lows from −0.51 ft (Port Orford, 6:11 PM) to −0.79 ft (Newport, 6:37 PM). Port Orford adds Sunday, September 27, which misses minus-tide status by a fraction at +0.02 ft. Those are the only weekend days flagged among the best-of-month windows. The [Trip Picker](/tools/trip-picker/) does this juggling when your dates are fixed.
 
 ## Which station should you watch?
 
-- **[Newport (South Beach)](/tidewindow/beaches/or/newport-or/)**, station 9435380: depth champion, with both −2.52 ft windows, four of the ten deepest Exceptional windows, and 50 daylight minus tides.
-- **[Port Orford](/tidewindow/beaches/or/port-orford-or/)**, station 9431647: volume and winter leader at 54, including 8 in November and 9 in December.
-- **[Charleston (Coos Bay)](/tidewindow/beaches/or/charleston-or/)**, station 9432780: a close second at 52, with 7 still alive in December.
-- **[Garibaldi (Tillamook Bay)](/tidewindow/beaches/or/garibaldi-or/)**, station 9437540: front-loaded, with 30 of its 42 in July and August and just 2 in October.
+- **[Newport (South Beach)](/beaches/or/newport-or/)**, station 9435380: depth champion, with both −2.52 ft windows, four of the ten deepest Exceptional windows, and 50 daylight minus tides.
+- **[Port Orford](/beaches/or/port-orford-or/)**, station 9431647: volume and winter leader at 54, including 8 in November and 9 in December.
+- **[Charleston (Coos Bay)](/beaches/or/charleston-or/)**, station 9432780: a close second at 52, with 7 still alive in December.
+- **[Garibaldi (Tillamook Bay)](/beaches/or/garibaldi-or/)**, station 9437540: front-loaded, with 30 of its 42 in July and August and just 2 in October.
 
-December's counts step south like odd numbers: Garibaldi 3, Newport 5, Charleston 7, Port Orford 9. If your trip is winter-flexible, drive south; all four stations are indexed under [Oregon beaches](/tidewindow/beaches/or/).
+December's counts step south like odd numbers: Garibaldi 3, Newport 5, Charleston 7, Port Orford 9. If your trip is winter-flexible, drive south; all four stations are indexed under [Oregon beaches](/beaches/or/).
 
 ## One safety note
 
 This guidance is Oregon State Parks', not ours: "Always keep one eye on the ocean so you won't be caught off guard if a bigger wave surges up the beach." Sneaker waves are unpredictable, powerful, and can knock adults off their feet. Know when the tide is coming in, especially when exploring tidepools or secluded beaches, since an incoming tide can quickly leave you stranded away from shore. Every window above lists an arrive-by time an hour before the low, so you work a falling tide.
 
-The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) turns any date here into an arrive-by plan, and the [Year Heatmap](/tidewindow/tools/year-heatmap/) shows all of 2026 at a glance. The July 13–16 band is hard to miss.
+The [Tide Window Finder](/tools/tide-window-finder/) turns any date here into an arrive-by plan, and the [Year Heatmap](/tools/year-heatmap/) shows all of 2026 at a glance. The July 13–16 band is hard to miss.

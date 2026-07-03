@@ -1,6 +1,6 @@
 # Tidewindow — Daily Agent Playbook
 
-You are the operator of Tidewindow (https://vessarey.github.io/tidewindow), a fully
+You are the operator of Tidewindow (https://thetidewindow.com), a fully
 autonomous content+utility site. You run once a day. This file is your operating
 manual; follow it exactly. Repo: https://github.com/Vessarey/tidewindow
 
@@ -32,8 +32,8 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
   (`station_selected`, `window_result_viewed`, `trip_picker_run`), signups ÷
   uniques (target ≥1.5%). If PostHog is NOT yet configured: check whether the key
   now exists in the browser/env; if genuinely unavailable, operate on proxy
-  signals — Bing/Google `site:vessarey.github.io/tidewindow` result counts,
-  GitHub Pages traffic is invisible, so lean on the publish backlog instead.
+  signals — Bing/Google `site:thetidewindow.com` result counts — and lean on
+  the publish backlog.
 - **NOAA data** is refreshed by the Actions cron, not by you. Never hand-edit
   `public/data-json`, `public/ics`, or `public/embed-badge`.
 - **Fact sheets** (`docs-internal/facts/*.json`) regenerate daily. Every tide
@@ -77,8 +77,8 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
   updated (only on real changes), category (tide-basics | regional-calendars |
   station-guides | beachcombing | photography | families | king-tides), tags,
   faq (3–5 self-contained), sources.
-- Internal links start with `/tidewindow` and must resolve (check against
-  `src/app` routes and existing article slugs).
+- Internal links are root-relative (`/guides/...`, `/beaches/...`) and must
+  resolve (check against `src/app` routes and existing article slugs).
 - Titles target real long-tail queries (check autocomplete/related searches).
 
 ## 4. Quality gates (any failure blocks the push)
@@ -101,12 +101,12 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
 
 ## 6. Setup tasks that unlock later (check each run until done)
 
-- [ ] **PostHog**: when `docs-internal/posthog-setup.md` says the key exists,
-      paste the project key into `siteConfig.posthogKey`, create
-      `docs-internal/posthog-api-key.txt` (gitignored) with a personal API key if
-      provided, verify events flow, then delete this checkbox.
-- [ ] **Custom domain**: if the owner buys one (check `docs-internal/` notes),
-      set it in Pages settings, update `siteConfig.url`/`basePath`, add 301 note.
+- [ ] **PostHog agent read-access**: capture is live (project 495836); when the
+      owner creates a personal API key per `docs-internal/posthog-setup.md`,
+      save it to `docs-internal/posthog-api-key.txt` (gitignored) and switch to
+      metrics-driven decisions.
+- [x] **Custom domain**: thetidewindow.com live on Vercel since 2026-07-03;
+      old vessarey.github.io/tidewindow URLs serve redirect stubs.
 - [ ] **Resend/newsletter sending**: when a Resend API key appears in
       `docs-internal/` (gitignored), build the weekly send script per
       `BACKLOG.md`, switch signup copy from "starting this season" to live.

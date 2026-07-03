@@ -39,7 +39,7 @@ Two elevations, two different searches.
 
 **High on the beach: the storm wrack line.** Wrack is the flotsam that receding tides strand — kelp, seagrass, shells, small sticks — and storms fatten it. COASST, the University of Washington's coastal survey program, notes that "stormy weather can create an especially dense wrack line because wave action dislodges more seaweed and deposits the free fronds high on the beach," and that small debris concentrates in the wrack zone. Anything that floats ends up here. The wrack pays at half tide; it does not need a minus low.
 
-**Low on the beach: the gravel beds.** These need the storm *and* the tide, because the lowest of the newly exposed beds only go dry on a good low. This is where minus-tide arithmetic earns its keep. The spots tracked at [Port Orford](/tidewindow/beaches/or/port-orford-or/) include Battle Rock Beach and, helpfully explicit, Agate Beach; at [La Push](/tidewindow/beaches/wa/la-push-wa/) they're Rialto Beach's Hole-in-the-Wall stretch, Second Beach, and Third Beach.
+**Low on the beach: the gravel beds.** These need the storm *and* the tide, because the lowest of the newly exposed beds only go dry on a good low. This is where minus-tide arithmetic earns its keep. The spots tracked at [Port Orford](/beaches/or/port-orford-or/) include Battle Rock Beach and, helpfully explicit, Agate Beach; at [La Push](/beaches/wa/la-push-wa/) they're Rialto Beach's Hole-in-the-Wall stretch, Second Beach, and Third Beach.
 
 ## What about glass floats?
 
@@ -79,7 +79,7 @@ Here are the two stations' five lowest daylight-window lows for the king-tide se
 
 Every row lands between 5:12 and 6:35 PM. Winter minus tides on this coast are dusk events, so read the daylight column hard: in nine of these ten windows the light runs out before the water does. La Push on Dec 23 is the honest extreme — the window opens at 3:50 PM with 39 daylight minutes, which puts last light near 4:29 PM, an hour and a half before the 6:03 PM low. You comb the falling tide, not the bottom of it. The exception is Port Orford on Jan 21, 2027: a window opening at 2:45 PM with 152 daylight minutes holds the light until about 5:17 PM, five minutes past the 5:12 PM low. It is the only one of these ten windows that serves the actual low in daylight, and it takes the best score of the ten, 76. The latitude tax shows up here too: La Push's five windows hold 270 daylight minutes combined, Port Orford's 490.
 
-For calibration, La Push's deepest daylight low of 2026 is a summer one: −2.996 ft on Jul 14 at 7:15 AM, scored 90. None of winter's ten deepest daylight windows clears 76. The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) keeps these ranked as the season approaches, the [Trip Picker](/tidewindow/tools/trip-picker/) will chain the consecutive days around Dec 22-24, and the [2026-27 king tides page](/tidewindow/king-tides/2026-2027/) covers the high-water end of these same spring-tide cycles.
+For calibration, La Push's deepest daylight low of 2026 is a summer one: −2.996 ft on Jul 14 at 7:15 AM, scored 90. None of winter's ten deepest daylight windows clears 76. The [Tide Window Finder](/tools/tide-window-finder/) keeps these ranked as the season approaches, the [Trip Picker](/tools/trip-picker/) will chain the consecutive days around Dec 22-24, and the [2026-27 king tides page](/king-tides/2026-2027/) covers the high-water end of these same spring-tide cycles.
 
 ## What do NWS and NPS say about winter surf?
 
@@ -87,4 +87,4 @@ Nothing in this section is worth improvising, so it is mostly quotation. The Nat
 
 Note that the wrack line you came to search sits within that 150-foot run-up, and a post-storm beach is newly floored with drift logs. NWS again: "A single sneaker wave can lift and roll these logs further up the beach, as well as roll them back down the beach, knocking over or pinning unsuspecting beachgoers." Stay off the logs. And Olympic National Park's standing rule for the coast that includes La Push's beaches: "Wherever you go along the coast, always carry a tide table and know how to use it!"
 
-The recipe: let the blow pass, take the first calm daylight window, work the high wrack early, and be on the low gravel by the arrive-by time in the table. In winter the clock that ends the search is usually the sun, not the flood. The scoring formulas live on the [methodology page](/tidewindow/methodology/).
+The recipe: let the blow pass, take the first calm daylight window, work the high wrack early, and be on the low gravel by the arrive-by time in the table. In winter the clock that ends the search is usually the sun, not the flood. The scoring formulas live on the [methodology page](/methodology/).

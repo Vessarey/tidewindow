@@ -29,7 +29,7 @@ sources:
 
 ## When is the lowest tide at Fitzgerald Marine Reserve in 2026?
 
-Tidewindow computes windows for the Moss Beach reef from the nearest NOAA prediction station, [Pillar Point Harbor (9414131)](/tidewindow/beaches/ca/pillar-point-ca/) in Half Moon Bay. Here are the eight deepest daylight lows of 2026, ranked by depth, with one column the tide chart never shows you: whether the moment of low water falls inside the reserve's posted hours.
+Tidewindow computes windows for the Moss Beach reef from the nearest NOAA prediction station, [Pillar Point Harbor (9414131)](/beaches/ca/pillar-point-ca/) in Half Moon Bay. Here are the eight deepest daylight lows of 2026, ranked by depth, with one column the tide chart never shows you: whether the moment of low water falls inside the reserve's posted hours.
 
 | Rank | Date | Low (ft MLLW) | Time of low | Low inside posted hours? |
 |---|---|---|---|---|
@@ -50,7 +50,7 @@ Two of eight. That is the whole story of this reserve in one column. San Mateo C
 
 Look at where the deep lows land. The July cluster bottoms out between 4:45 and 5:33 AM — dawn events, hours before the gate. The November and December cluster bottoms out between 4:22 and 6:12 PM, right as the winter close arrives. The moon does not consult the county.
 
-The days that thread the needle are worth circling. December 23 gives you the window from 1:30 PM until the 5:00 PM close — about 3.5 hours — with the −1.86 ft low itself at 4:22 PM. November 24 is nearly as good: −1.64 ft at 4:31 PM, with roughly 3 h 15 min of usable window after 1:45 PM. These are the same new- and full-moon alignments that produce the season's king high tides, so if you're tracking those, the [2026–2027 king tide calendar](/tidewindow/king-tides/2026-2027/) covers the other end of the same curve.
+The days that thread the needle are worth circling. December 23 gives you the window from 1:30 PM until the 5:00 PM close — about 3.5 hours — with the −1.86 ft low itself at 4:22 PM. November 24 is nearly as good: −1.64 ft at 4:31 PM, with roughly 3 h 15 min of usable window after 1:45 PM. These are the same new- and full-moon alignments that produce the season's king high tides, so if you're tracking those, the [2026–2027 king tide calendar](/king-tides/2026-2027/) covers the other end of the same curve.
 
 ## What is the July 2026 low-tide schedule?
 
@@ -69,7 +69,7 @@ July is generous by the numbers: 24 lows below +1.0 ft, 17 daylight windows, 14 
 
 Computed 2026-07-03 from NOAA station 9414131 predictions. Scores (0–100) weigh tide depth and daylight only — they don't know about gates, which is why July 13 scores a 73 while offering zero minutes inside the reserve.
 
-The practical July picks are the 15th through the 17th: shallower than the 14th, but with 80 to 130 minutes of workable water after the gate opens. And this holiday weekend has a quiet consolation prize — July 4's low is a barely-there −0.05 ft, but it arrives at 8:18 AM, eighteen minutes after opening, the rare morning when the county and the moon agree. Full day-by-day grids are on the [July 2026 calendar](/tidewindow/beaches/ca/pillar-point-ca/2026-07/) for this station.
+The practical July picks are the 15th through the 17th: shallower than the 14th, but with 80 to 130 minutes of workable water after the gate opens. And this holiday weekend has a quiet consolation prize — July 4's low is a barely-there −0.05 ft, but it arrives at 8:18 AM, eighteen minutes after opening, the rare morning when the county and the moon agree. Full day-by-day grids are on the [July 2026 calendar](/beaches/ca/pillar-point-ca/2026-07/) for this station.
 
 After July, the supply thins: August has 4 daylight minus tides (its best window isn't even negative — +0.10 ft on Saturday, August 1, at 7:10 AM), and September bottoms out at 3 as the good lows migrate to evening. October begins the recovery with 9, including a Sunday, October 25 low of −0.52 ft at 4:59 PM that fits entirely inside the 6 PM October close. November brings 12 and December 14.
 
@@ -93,6 +93,6 @@ On safety, the Friends of Fitzgerald Marine Reserve put it plainly: "never turn 
 
 ## How are these windows computed?
 
-Station 9414131's published harmonic constituents are thin by NOAA standards — the agency's constituent notes describe them as the average of three 29-day analyses, with the two seasonal constituents borrowed from San Francisco (station 9414290). Tidewindow takes NOAA's predicted highs and lows for the station and reconstructs the curve between them by cosine interpolation, so window edges (rounded to 5 minutes) are estimates; the low heights and times are NOAA's own. These are astronomical predictions, not observations — the full formula set is on the [methodology page](/tidewindow/methodology/).
+Station 9414131's published harmonic constituents are thin by NOAA standards — the agency's constituent notes describe them as the average of three 29-day analyses, with the two seasonal constituents borrowed from San Francisco (station 9414290). Tidewindow takes NOAA's predicted highs and lows for the station and reconstructs the curve between them by cosine interpolation, so window edges (rounded to 5 minutes) are estimates; the low heights and times are NOAA's own. These are astronomical predictions, not observations — the full formula set is on the [methodology page](/methodology/).
 
-To turn any of these dates into a plan, the [Tide Window Finder](/tidewindow/tools/tide-window-finder/) gives arrive-by times for every upcoming window, and the [Trip Picker](/tidewindow/tools/trip-picker/) filters for weekends — useful at a reserve where only 2 of the year's 8 deepest daylight lows fit inside the gates.
+To turn any of these dates into a plan, the [Tide Window Finder](/tools/tide-window-finder/) gives arrive-by times for every upcoming window, and the [Trip Picker](/tools/trip-picker/) filters for weekends — useful at a reserve where only 2 of the year's 8 deepest daylight lows fit inside the gates.

@@ -22,9 +22,9 @@ const ROOT = path.join(import.meta.dirname, "..", "..");
 const OUT_DATA = path.join(ROOT, "public", "data-json");
 const OUT_ICS = path.join(ROOT, "public", "ics");
 const OUT_BADGE = path.join(ROOT, "public", "embed-badge");
-const SITE_URL = "https://vessarey.github.io/tidewindow";
+const SITE_URL = "https://thetidewindow.com";
 const DAYS_AHEAD = 400;
-const USER_AGENT = "tidewindow-pipeline (https://vessarey.github.io/tidewindow; hello@tidewindow.example)";
+const USER_AGENT = "tidewindow-pipeline (https://thetidewindow.com; hello@thetidewindow.com)";
 
 // ---------- generic helpers ----------
 
@@ -213,7 +213,7 @@ function buildIcs(station, windows, generatedAt) {
       `DESCRIPTION:${icsEscape(
         `Score ${w.score}/100. Arrive by ${w.arriveByLocal}. Low of ${w.lowHeight.toFixed(1)} ft MLLW at ${w.lowTimeLocal}. ` +
           `Computed from NOAA station ${station.noaaId} predictions. Predictions are not observations — check conditions. ` +
-          `https://vessarey.github.io/tidewindow/beaches/${station.stateSlug}/${station.slug}/`
+          `https://thetidewindow.com/beaches/${station.stateSlug}/${station.slug}/`
       )}`,
       "BEGIN:VALARM",
       "ACTION:DISPLAY",

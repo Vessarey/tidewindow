@@ -56,9 +56,9 @@ A minus tide at 3 AM helps no one with a tide pool plan. So the honest way to co
 
 *Computed 2026-07-03 from NOAA predictions at the 12 stations Tidewindow tracks; east coast figures are NOAA station 8413320 (Bar Harbor, ME).*
 
-Two things stand out. First, the volume: 940 minus tides across 11 West Coast stations works out to about 85 per station for the year, and [Bar Harbor](/tidewindow/beaches/me/bar-harbor-me/) alone logs 90 — more than the Pacific per-station average. Second, the daylight share barely differs between coasts: 57% west, 58% east. Roughly four in seven minus tides are visible ones, whichever ocean you face. Add the coasts together and 2026 holds 587 daylight minus tides across the 12 stations; the other 443 happen in the dark.
+Two things stand out. First, the volume: 940 minus tides across 11 West Coast stations works out to about 85 per station for the year, and [Bar Harbor](/beaches/me/bar-harbor-me/) alone logs 90 — more than the Pacific per-station average. Second, the daylight share barely differs between coasts: 57% west, 58% east. Roughly four in seven minus tides are visible ones, whichever ocean you face. Add the coasts together and 2026 holds 587 daylight minus tides across the 12 stations; the other 443 happen in the dark.
 
-Where the coasts genuinely diverge is not *whether* the good lows land in daylight but *when* in the day they do. You can watch these shares shift month by month on the [daylight-minus-tide index](/tidewindow/data/daylight-minus-tide-index/).
+Where the coasts genuinely diverge is not *whether* the good lows land in daylight but *when* in the day they do. You can watch these shares shift month by month on the [daylight-minus-tide index](/data/daylight-minus-tide-index/).
 
 ## When in the day do daylight minus tides land?
 
@@ -72,7 +72,7 @@ On the West Coast, mornings dominate. The three busiest hours for a daylight min
 
 *Computed 2026-07-03 from NOAA predictions at Tidewindow's 11 West Coast stations.*
 
-The midday trough is real: set aside the sparse edge hours right at dawn and dusk, and 11 AM and noon are the two quietest hours of the core daytime, with 11 minus lows apiece all year — a fifth of what 6 AM delivers. That is the arithmetic behind the West Coast tidepooler's reputation as a dawn person. To see where your station's humps sit across the calendar, the [year heatmap](/tidewindow/tools/year-heatmap/) draws all twelve months at once.
+The midday trough is real: set aside the sparse edge hours right at dawn and dusk, and 11 AM and noon are the two quietest hours of the core daytime, with 11 minus lows apiece all year — a fifth of what 6 AM delivers. That is the arithmetic behind the West Coast tidepooler's reputation as a dawn person. To see where your station's humps sit across the calendar, the [year heatmap](/tools/year-heatmap/) draws all twelve months at once.
 
 Bar Harbor runs the other way. Of its 52 daylight minus lows in 2026, 34 — about 65% — land between 1 and 7 PM, with 4 PM the single busiest hour (9 events). Same daylight share as the Pacific stations, opposite end of the day. If your habit is coffee first, Maine agrees with you.
 
@@ -80,4 +80,4 @@ The lesson for reading any raw tide table: **don't scan for negative numbers; sc
 
 ## What to do with one
 
-The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) gives every upcoming window an **arrive-by time**, set an hour before the predicted low: arrive then and you follow the water out, get the deepest zone at slack, and walk back in with the flood. The [methodology page](/tidewindow/methodology/) shows every formula involved — that arrive-by rule included — and exactly where "daylight" begins and ends in the counts above.
+The [Tide Window Finder](/tools/tide-window-finder/) gives every upcoming window an **arrive-by time**, set an hour before the predicted low: arrive then and you follow the water out, get the deepest zone at slack, and walk back in with the flood. The [methodology page](/methodology/) shows every formula involved — that arrive-by rule included — and exactly where "daylight" begins and ends in the counts above.

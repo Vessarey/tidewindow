@@ -26,7 +26,7 @@ sources:
 
 The agates themselves are old news — banded chalcedony, formed millions of years ago in volcanic rock. What changes is the beach on top of them. Travel Oregon's agate guide relays the collector's case with a hedge: some argue the best time to find them is when winter wind scours the beaches, the loss of sand "revealing layers of rocks anytime from December to March." Collector lore adds the corollary: go soon after a big blow, before the next crowd and the next sand movement, and walk the freshly exposed gravel while it's still wet enough to make the translucent stones glow.
 
-Where to look is less mysterious than it sounds. Travel Oregon's list includes South Beach State Park at Newport, home of the "Newport Blues," a dark-gray local agate — and, conveniently for us, next door to the NOAA gauge (9435380) this site uses for Newport predictions. On the south coast, their picks run to Whiskey Run Beach and Otter Point. Our [Port Orford station page](/tidewindow/beaches/or/port-orford-or/) tracks Battle Rock Beach, Rocky Point, and a local Agate Beach of its own.
+Where to look is less mysterious than it sounds. Travel Oregon's list includes South Beach State Park at Newport, home of the "Newport Blues," a dark-gray local agate — and, conveniently for us, next door to the NOAA gauge (9435380) this site uses for Newport predictions. On the south coast, their picks run to Whiskey Run Beach and Otter Point. Our [Port Orford station page](/beaches/or/port-orford-or/) tracks Battle Rock Beach, Rocky Point, and a local Agate Beach of its own.
 
 ## What does Oregon let you keep?
 
@@ -65,7 +65,7 @@ Newport (South Beach), NOAA station 9435380:
 
 *Five lowest daylight lows of the Oct 2026–Mar 2027 king-tide season at each station, computed 2026-07-03 from NOAA station 9431647 and 9435380 predictions.*
 
-Read the daylight column before the depth column. At Newport on November 24, the window spans four and a half hours but holds only 46 daylight minutes — all at the front, before an early-winter sunset — so the 6:04 PM low itself arrives in the dark. In summer we tell you to show up an hour before the low; in winter, show up when the window *opens* and work the falling tide while you can still see it. The best light-to-depth trade on this shortlist is Port Orford on January 21, 2027: −1.89 ft, 152 daylight minutes, and the only Great-band window among the ten season-lowest lows in the tables above. If you're picking one trip, that's the [Trip Picker](/tidewindow/tools/trip-picker/)'s kind of answer, and the [2026–27 king tide calendar](/tidewindow/king-tides/2026-2027/) has the rest of the season's dates.
+Read the daylight column before the depth column. At Newport on November 24, the window spans four and a half hours but holds only 46 daylight minutes — all at the front, before an early-winter sunset — so the 6:04 PM low itself arrives in the dark. In summer we tell you to show up an hour before the low; in winter, show up when the window *opens* and work the falling tide while you can still see it. The best light-to-depth trade on this shortlist is Port Orford on January 21, 2027: −1.89 ft, 152 daylight minutes, and the only Great-band window among the ten season-lowest lows in the tables above. If you're picking one trip, that's the [Trip Picker](/tools/trip-picker/)'s kind of answer, and the [2026–27 king tide calendar](/king-tides/2026-2027/) has the rest of the season's dates.
 
 ## Do you actually need a minus tide?
 
@@ -84,10 +84,10 @@ For agates, honestly, no — and the monthly counts show why the question matter
 
 Summer is drowning in good tides: Port Orford's July best is −2.46 ft at 6:37 AM with 217 daylight minutes (score 90, Exceptional), and Newport's is −2.52 ft with 285. But July gravel is buried gravel. Winter flips it — the sand leaves, and the deep daylight lows thin out to a handful of dusk windows. Newport's deepest winter daylight low gives up 0.61 ft to its summer best; Port Orford, interestingly, gives up only 0.25 ft. The southern station keeps more of its depth in the dark months, one reason it punches above its size for winter beachcombing.
 
-So the strategy is a two-key lock. Storm first: that's weather, watch the forecast. Tide second: any daylight low helps, a minus low helps most, and the tables above are the winter shortlist. The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) recomputes the list any day you like, and the [year heatmap](/tidewindow/tools/year-heatmap/) shows the whole seasonal shape at a glance — including that September trough, when Port Orford manages just 3 daylight minus tides all month.
+So the strategy is a two-key lock. Storm first: that's weather, watch the forecast. Tide second: any daylight low helps, a minus low helps most, and the tables above are the winter shortlist. The [Tide Window Finder](/tools/tide-window-finder/) recomputes the list any day you like, and the [year heatmap](/tools/year-heatmap/) shows the whole seasonal shape at a glance — including that September trough, when Port Orford manages just 3 daylight minus tides all month.
 
 ## What about the ocean at your back?
 
 Post-storm beaches earn their reputation for surprises, and the state's own guidance is blunt. Travel Oregon's agate guide: "Never turn your back to the ocean, watch for sneaker waves" — and it warns how easy it is to get lost in the search and miss one coming. On a dusk window that goes double: the daylight minutes in the tables above end before the window does, so plan your walk back while the beach is still lit. The flood tide doesn't wait for you to finish sorting pebbles.
 
-One gallon, one bucket per person, eyes on the water. The gravel does the rest. For the summer counterpart to this calendar — those 90-point July mornings — see the [Newport](/tidewindow/beaches/or/newport-or/) station page.
+One gallon, one bucket per person, eyes on the water. The gravel does the rest. For the summer counterpart to this calendar — those 90-point July mornings — see the [Newport](/beaches/or/newport-or/) station page.
