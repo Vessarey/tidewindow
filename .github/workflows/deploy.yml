@@ -4,6 +4,13 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # The daily-refresh job commits fresh NOAA data using the default GITHUB_TOKEN,
+  # and GitHub deliberately does NOT fire push-triggered workflows for such pushes
+  # (recursion guard). Without this, refreshed tide numbers never deploy. Listening
+  # for the refresh run's completion sidesteps that restriction.
+  workflow_run:
+    workflows: ["Daily data refresh"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -16,6 +23,10 @@ concurrency:
 
 jobs:
   build:
+    # For workflow_run, only deploy when the refresh actually succeeded.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
