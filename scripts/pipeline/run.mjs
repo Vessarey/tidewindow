@@ -93,8 +93,17 @@ async function fetchPredictions(noaaId, interval, beginDate, endDate) {
   while (cursor < endDate) {
     const chunkEnd = new Date(Math.min(endDate.getTime(), cursor.getTime() + chunkDays * 86400_000));
     const url = `${COOPS}?product=predictions&application=tidewindow&begin_date=${ymdCompact(cursor)}&end_date=${ymdCompact(chunkEnd)}&datum=MLLW&station=${noaaId}&time_zone=gmt&units=english&interval=${interval}&format=json`;
-    const data = await fetchJson(url);
-    if (data.error) throw new Error(`NOAA error for ${noaaId} ${interval}: ${data.error.message}`);
+    // NOAA intermittently returns a 200 whose JSON body is {error: "No Predictions
+    // data was found..."} for a perfectly valid station/datum. fetchJson can't retry
+    // it (the HTTP request succeeded), so retry the soft error here — otherwise a
+    // momentary upstream blip fails the whole build and blocks the deploy.
+    let data;
+    for (let attempt = 1; ; attempt++) {
+      data = await fetchJson(url);
+      if (!data.error) break;
+      if (attempt >= 4) throw new Error(`NOAA error for ${noaaId} ${interval}: ${data.error.message}`);
+      await sleep(2000 * attempt);
+    }
     for (const p of data.predictions ?? []) {
       out.push({
         t: Date.parse(p.t.replace(" ", "T") + "Z"),
