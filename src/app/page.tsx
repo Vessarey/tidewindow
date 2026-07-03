@@ -1,65 +1,117 @@
-import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+import { getIndex, getStationData, fmtDate, fmtStamp } from "@/lib/windows";
+import { WindowCard, ScoreBadge, StationChip } from "@/components/window-bits";
+import TideCurve from "@/components/tide-curve";
+import EmailSignup from "@/components/email-signup";
+import { siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  title: `${siteConfig.name} — daylight minus tide windows, computed from NOAA data`,
+  description:
+    "The exact daylight hours the tide pulls back far enough for tidepooling, beachcombing, and sea-glass hunting — scored and ranked for US beaches, updated daily from NOAA predictions.",
+  alternates: { canonical: "./" },
+};
 
 export default function Home() {
+  const { generatedAt, stations } = getIndex();
+  const best = stations
+    .flatMap((s) => s.best30.map((w) => ({ s, w })))
+    .sort((a, b) => b.w.score - a.w.score)
+    .slice(0, 8);
+  const featured = best[0];
+  const featuredData = getStationData(featured.s.slug);
+  const featuredWindow = featuredData.windows.find((w) => w.lowTime === featured.w.lowTime) ?? featured.w;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div>
+      <section className="pt-6">
+        <h1 className="max-w-3xl text-4xl sm:text-5xl">Know the hours the ocean gives back.</h1>
+        <p className="mt-4 max-w-2xl text-lg text-ink-soft">
+          A few times a month, a very low tide lines up with daylight — and the coast opens up: tidepools, sandbars,
+          sea caves, glass beaches. Tidewindow computes those exact hours for US beaches from NOAA predictions, scores
+          them, and ranks them. No tide-table squinting.
+        </p>
+        <p className="mt-5 flex flex-wrap gap-3">
+          <Link href="/tools/tide-window-finder/" className="btn">
+            Find your beach&apos;s next window
+          </Link>
+          <Link href="/methodology/" className="btn btn-quiet">
+            How the math works
+          </Link>
+        </p>
+      </section>
+
+      <hr className="waterline" />
+
+      <section>
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="text-2xl">The best window in America right now</h2>
+          <span className="mono text-[0.78rem] text-ink-soft">computed {fmtStamp(generatedAt)} · NOAA CO-OPS</span>
+        </div>
+        <div className="answer-box">
+          <span className="stamp">
+            #1 of the next 30 days · <StationChip noaaId={featured.s.noaaId} />
+          </span>
+          <p className="text-lg">
+            <strong>{featured.s.name}</strong> — {fmtDate(featuredWindow.date)} ({featuredWindow.weekday}): the tide
+            drops to <strong className="num">{featuredWindow.lowHeight.toFixed(1)} ft</strong> at{" "}
+            <strong className="num">{featuredWindow.lowTimeLocal}</strong>, giving{" "}
+            {Math.floor(featuredWindow.daylightMin / 60)}h {featuredWindow.daylightMin % 60}m of walkable daylight
+            ({featuredWindow.windowStartLocal}–{featuredWindow.windowEndLocal}).{" "}
+            <ScoreBadge w={featuredWindow} />
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <TideCurve window={featuredWindow} />
+        <p className="mt-1 text-[0.8rem] text-ink-soft">
+          Computed tide curve · shaded band = below +1.0 ft · gold lines = sunrise/sunset ·{" "}
+          <Link className="underline" href={`/beaches/${featured.s.stateSlug}/${featured.s.slug}/`}>
+            full {featured.s.name} guide →
+          </Link>
+        </p>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl">Top windows, next 30 days</h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          {best.map(({ s, w }) => (
+            <WindowCard key={`${s.slug}-${w.lowTime}`} w={w} station={s} href={`/beaches/${s.stateSlug}/${s.slug}/`} />
+          ))}
         </div>
-      </main>
+      </section>
+
+      <hr className="waterline" />
+
+      <section className="grid gap-8 sm:grid-cols-3">
+        <div>
+          <h3 className="text-xl">Computed, not written</h3>
+          <p className="mt-2 text-[0.95rem] text-ink-soft">
+            Every window on this site is arithmetic over NOAA harmonic tide predictions intersected with the sun&apos;s
+            actual position. The methodology is public, and the numbers regenerate every day.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-xl">Scored honestly</h3>
+          <p className="mt-2 text-[0.95rem] text-ink-soft">
+            Depth, daylight, weekends, season — one 0–100 score. When a week is a washout, we say “skip it” and show
+            you the next date that isn&apos;t.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-xl">Yours to keep</h3>
+          <p className="mt-2 text-[0.95rem] text-ink-soft">
+            Any beach&apos;s next 12 months of good windows as a calendar feed or a printable year view — plus a weekly
+            alert for your stretch of coast.
+          </p>
+        </div>
+      </section>
+
+      <EmailSignup
+        source="home"
+        headline="The Minus Tide Alert"
+        blurb="One email a week: the exact hours your coast is worth the drive — computed from NOAA data, never padded. Starting this season."
+        cta="Join the list"
+      />
     </div>
   );
 }

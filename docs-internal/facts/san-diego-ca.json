@@ -1,0 +1,518 @@
+{
+ "generated_on": "2026-07-03",
+ "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
+ "station": {
+  "slug": "san-diego-ca",
+  "name": "San Diego (Cabrillo)",
+  "noaa_id": "9410170",
+  "state": "CA",
+  "lat": 32.715557,
+  "lng": -117.17667,
+  "spots": [
+   "Cabrillo National Monument tidepools",
+   "Sunset Cliffs",
+   "Ocean Beach"
+  ],
+  "method": "hourly-interpolation"
+ },
+ "next_60d_best_8": [
+  {
+   "date": "2026-07-15",
+   "weekday": "Wed",
+   "low_ft": -1.586,
+   "low_time_local": "4:59 AM",
+   "window_local": "2:25 AM–7:45 AM",
+   "arrive_by_local": "3:59 AM",
+   "daylight_min": 113,
+   "score": 70,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-16",
+   "weekday": "Thu",
+   "low_ft": -1.261,
+   "low_time_local": "5:39 AM",
+   "window_local": "3:15 AM–8:15 AM",
+   "arrive_by_local": "4:39 AM",
+   "daylight_min": 143,
+   "score": 68,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-17",
+   "weekday": "Fri",
+   "low_ft": -0.753,
+   "low_time_local": "6:18 AM",
+   "window_local": "4:05 AM–8:40 AM",
+   "arrive_by_local": "5:18 AM",
+   "daylight_min": 167,
+   "score": 67,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-14",
+   "weekday": "Tue",
+   "low_ft": -1.692,
+   "low_time_local": "4:17 AM",
+   "window_local": "1:40 AM–7:10 AM",
+   "arrive_by_local": "3:17 AM",
+   "daylight_min": 79,
+   "score": 66,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-03",
+   "weekday": "Fri",
+   "low_ft": -0.231,
+   "low_time_local": "6:21 AM",
+   "window_local": "4:15 AM–8:35 AM",
+   "arrive_by_local": "5:21 AM",
+   "daylight_min": 170,
+   "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-18",
+   "weekday": "Sat",
+   "low_ft": -0.112,
+   "low_time_local": "6:55 AM",
+   "window_local": "5:00 AM–8:50 AM",
+   "arrive_by_local": "5:55 AM",
+   "daylight_min": 176,
+   "score": 61,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-04",
+   "weekday": "Sat",
+   "low_ft": 0.052,
+   "low_time_local": "6:53 AM",
+   "window_local": "4:55 AM–8:50 AM",
+   "arrive_by_local": "5:53 AM",
+   "daylight_min": 184,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-13",
+   "weekday": "Mon",
+   "low_ft": -1.554,
+   "low_time_local": "3:34 AM",
+   "window_local": "12:55 AM–6:25 AM",
+   "arrive_by_local": "2:34 AM",
+   "daylight_min": 34,
+   "score": 56,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  }
+ ],
+ "months_2026": {
+  "2026-07": {
+   "lows_below_1ft": 22,
+   "daylight_windows": 14,
+   "daylight_minus_tides": 10,
+   "best_window": {
+    "date": "2026-07-15",
+    "weekday": "Wed",
+    "low_ft": -1.586,
+    "low_time_local": "4:59 AM",
+    "window_local": "2:25 AM–7:45 AM",
+    "arrive_by_local": "3:59 AM",
+    "daylight_min": 113,
+    "score": 70,
+    "band": "Good",
+    "weekend_or_holiday": false
+   }
+  },
+  "2026-08": {
+   "lows_below_1ft": 23,
+   "daylight_windows": 7,
+   "daylight_minus_tides": 4,
+   "best_window": {
+    "date": "2026-08-13",
+    "weekday": "Thu",
+    "low_ft": -1.025,
+    "low_time_local": "4:30 AM",
+    "window_local": "2:15 AM–6:50 AM",
+    "arrive_by_local": "3:30 AM",
+    "daylight_min": 39,
+    "score": 46,
+    "band": "Fair",
+    "weekend_or_holiday": false
+   }
+  },
+  "2026-09": {
+   "lows_below_1ft": 29,
+   "daylight_windows": 11,
+   "daylight_minus_tides": 0,
+   "best_window": {
+    "date": "2026-09-27",
+    "weekday": "Sun",
+    "low_ft": 0.209,
+    "low_time_local": "4:22 PM",
+    "window_local": "2:50 PM–5:50 PM",
+    "arrive_by_local": "3:22 PM",
+    "daylight_min": 180,
+    "score": 55,
+    "band": "Fair",
+    "weekend_or_holiday": true
+   }
+  },
+  "2026-10": {
+   "lows_below_1ft": 31,
+   "daylight_windows": 14,
+   "daylight_minus_tides": 6,
+   "best_window": {
+    "date": "2026-10-25",
+    "weekday": "Sun",
+    "low_ft": -0.35,
+    "low_time_local": "3:31 PM",
+    "window_local": "1:35 PM–5:30 PM",
+    "arrive_by_local": "2:31 PM",
+    "daylight_min": 235,
+    "score": 65,
+    "band": "Good",
+    "weekend_or_holiday": true
+   }
+  },
+  "2026-11": {
+   "lows_below_1ft": 26,
+   "daylight_windows": 15,
+   "daylight_minus_tides": 11,
+   "best_window": {
+    "date": "2026-11-26",
+    "weekday": "Thu",
+    "low_ft": -1.313,
+    "low_time_local": "4:49 PM",
+    "window_local": "2:15 PM–7:40 PM",
+    "arrive_by_local": "3:49 PM",
+    "daylight_min": 148,
+    "score": 78,
+    "band": "Great",
+    "weekend_or_holiday": true
+   }
+  },
+  "2026-12": {
+   "lows_below_1ft": 25,
+   "daylight_windows": 18,
+   "daylight_minus_tides": 16,
+   "best_window": {
+    "date": "2026-12-25",
+    "weekday": "Fri",
+    "low_ft": -1.707,
+    "low_time_local": "4:36 PM",
+    "window_local": "1:55 PM–7:35 PM",
+    "arrive_by_local": "3:36 PM",
+    "daylight_min": 174,
+    "score": 89,
+    "band": "Great",
+    "weekend_or_holiday": true
+   }
+  }
+ },
+ "deepest_2026_daylight_lows_top8": [
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "low_ft": -1.878,
+   "low_time_local": "3:50 PM",
+   "window_local": "1:05 PM–6:50 PM",
+   "arrive_by_local": "2:50 PM",
+   "daylight_min": 223,
+   "score": 84,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.808,
+   "low_time_local": "3:05 PM",
+   "window_local": "12:20 PM–6:05 PM",
+   "arrive_by_local": "2:05 PM",
+   "daylight_min": 268,
+   "score": 82,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-25",
+   "weekday": "Fri",
+   "low_ft": -1.707,
+   "low_time_local": "4:36 PM",
+   "window_local": "1:55 PM–7:35 PM",
+   "arrive_by_local": "3:36 PM",
+   "daylight_min": 174,
+   "score": 89,
+   "band": "Great",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-14",
+   "weekday": "Tue",
+   "low_ft": -1.692,
+   "low_time_local": "4:17 AM",
+   "window_local": "1:40 AM–7:10 AM",
+   "arrive_by_local": "3:17 AM",
+   "daylight_min": 79,
+   "score": 66,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-15",
+   "weekday": "Wed",
+   "low_ft": -1.586,
+   "low_time_local": "4:59 AM",
+   "window_local": "2:25 AM–7:45 AM",
+   "arrive_by_local": "3:59 AM",
+   "daylight_min": 113,
+   "score": 70,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-13",
+   "weekday": "Mon",
+   "low_ft": -1.554,
+   "low_time_local": "3:34 AM",
+   "window_local": "12:55 AM–6:25 AM",
+   "arrive_by_local": "2:34 AM",
+   "daylight_min": 34,
+   "score": 56,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -1.488,
+   "low_time_local": "2:20 PM",
+   "window_local": "11:40 AM–5:15 PM",
+   "arrive_by_local": "1:20 PM",
+   "daylight_min": 307,
+   "score": 76,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -1.448,
+   "low_time_local": "3:57 PM",
+   "window_local": "1:20 PM–6:50 PM",
+   "arrive_by_local": "2:57 PM",
+   "daylight_min": 203,
+   "score": 76,
+   "band": "Great",
+   "weekend_or_holiday": false
+  }
+ ],
+ "king_season_oct26_mar27_lowest5_daylight": [
+  {
+   "date": "2027-01-21",
+   "weekday": "Thu",
+   "low_ft": -1.97,
+   "low_time_local": "2:51 PM",
+   "window_local": "12:05 PM–5:50 PM",
+   "arrive_by_local": "1:51 PM",
+   "daylight_min": 306,
+   "score": 85,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2027-01-22",
+   "weekday": "Fri",
+   "low_ft": -1.958,
+   "low_time_local": "3:30 PM",
+   "window_local": "12:50 PM–6:25 PM",
+   "arrive_by_local": "2:30 PM",
+   "daylight_min": 262,
+   "score": 90,
+   "band": "Exceptional",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "low_ft": -1.878,
+   "low_time_local": "3:50 PM",
+   "window_local": "1:05 PM–6:50 PM",
+   "arrive_by_local": "2:50 PM",
+   "daylight_min": 223,
+   "score": 84,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.808,
+   "low_time_local": "3:05 PM",
+   "window_local": "12:20 PM–6:05 PM",
+   "arrive_by_local": "2:05 PM",
+   "daylight_min": 268,
+   "score": 82,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2027-01-20",
+   "weekday": "Wed",
+   "low_ft": -1.721,
+   "low_time_local": "2:11 PM",
+   "window_local": "11:25 AM–5:10 PM",
+   "arrive_by_local": "1:11 PM",
+   "daylight_min": 345,
+   "score": 80,
+   "band": "Great",
+   "weekend_or_holiday": false
+  }
+ ],
+ "golden_hour_overlaps_next120d_top6": [
+  {
+   "date": "2026-07-03",
+   "weekday": "Fri",
+   "low_ft": -0.231,
+   "low_time_local": "6:21 AM",
+   "window_local": "4:15 AM–8:35 AM",
+   "arrive_by_local": "5:21 AM",
+   "daylight_min": 170,
+   "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 66,
+   "min_to_sun_edge": 36
+  },
+  {
+   "date": "2026-07-04",
+   "weekday": "Sat",
+   "low_ft": 0.052,
+   "low_time_local": "6:53 AM",
+   "window_local": "4:55 AM–8:50 AM",
+   "arrive_by_local": "5:53 AM",
+   "daylight_min": 184,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 70,
+   "min_to_sun_edge": 67
+  },
+  {
+   "date": "2026-07-15",
+   "weekday": "Wed",
+   "low_ft": -1.586,
+   "low_time_local": "4:59 AM",
+   "window_local": "2:25 AM–7:45 AM",
+   "arrive_by_local": "3:59 AM",
+   "daylight_min": 113,
+   "score": 70,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 56,
+   "min_to_sun_edge": -53
+  },
+  {
+   "date": "2026-07-16",
+   "weekday": "Thu",
+   "low_ft": -1.261,
+   "low_time_local": "5:39 AM",
+   "window_local": "3:15 AM–8:15 AM",
+   "arrive_by_local": "4:39 AM",
+   "daylight_min": 143,
+   "score": 68,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 62,
+   "min_to_sun_edge": -13
+  },
+  {
+   "date": "2026-07-17",
+   "weekday": "Fri",
+   "low_ft": -0.753,
+   "low_time_local": "6:18 AM",
+   "window_local": "4:05 AM–8:40 AM",
+   "arrive_by_local": "5:18 AM",
+   "daylight_min": 167,
+   "score": 67,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 67,
+   "min_to_sun_edge": 25
+  },
+  {
+   "date": "2026-07-18",
+   "weekday": "Sat",
+   "low_ft": -0.112,
+   "low_time_local": "6:55 AM",
+   "window_local": "5:00 AM–8:50 AM",
+   "arrive_by_local": "5:55 AM",
+   "daylight_min": 176,
+   "score": 61,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 72,
+   "min_to_sun_edge": 61
+  }
+ ],
+ "species_last60d_5km": [
+  {
+   "commonName": "Los Angeles Goniodorid",
+   "scientificName": "Bermudella angelensis",
+   "count": 13
+  },
+  {
+   "commonName": "Hedgpeth's Dorid",
+   "scientificName": "Polycera hedgpethi",
+   "count": 8
+  },
+  {
+   "commonName": "Garden Snail",
+   "scientificName": "Cornu aspersum",
+   "count": 6
+  },
+  {
+   "commonName": "Milk Snail",
+   "scientificName": "Otala lactea",
+   "count": 5
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 3
+  },
+  {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 2
+  },
+  {
+   "commonName": "Wavy Turban",
+   "scientificName": "Megastraea undosa",
+   "count": 2
+  },
+  {
+   "commonName": "Pismo Clam",
+   "scientificName": "Tivela stultorum",
+   "count": 2
+  },
+  {
+   "commonName": "Steinberg's Corambe",
+   "scientificName": "Corambe steinbergae",
+   "count": 1
+  },
+  {
+   "commonName": "Ridge-tailed Dorid",
+   "scientificName": "Diaphorodoris lirulatocauda",
+   "count": 1
+  }
+ ]
+}

@@ -1,0 +1,929 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tidewindow//EN
+X-WR-CALNAME:Tidewindow — San Diego (Cabrillo)
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:san-diego-ca-20260703-1321@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20260703T111500Z
+DTEND:20260703T153500Z
+SUMMARY:Good low tide: -0.2 ft at 6:21 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 62/100. Arrive by 5:21 AM. Low of -0.2 ft MLLW at 6:21 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20260714-1117@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20260714T084000Z
+DTEND:20260714T141000Z
+SUMMARY:Good low tide: -1.7 ft at 4:17 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 66/100. Arrive by 3:17 AM. Low of -1.7 ft MLLW at 4:17 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20260715-1159@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20260715T092500Z
+DTEND:20260715T144500Z
+SUMMARY:Good low tide: -1.6 ft at 4:59 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 70/100. Arrive by 3:59 AM. Low of -1.6 ft MLLW at 4:59 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20260716-1239@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20260716T101500Z
+DTEND:20260716T151500Z
+SUMMARY:Good low tide: -1.3 ft at 5:39 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 68/100. Arrive by 4:39 AM. Low of -1.3 ft MLLW at 5:39 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20260717-1318@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20260717T110500Z
+DTEND:20260717T154000Z
+SUMMARY:Good low tide: -0.8 ft at 6:18 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 67/100. Arrive by 5:18 AM. Low of -0.8 ft MLLW at 6:18 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20260718-1355@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20260718T120000Z
+DTEND:20260718T155000Z
+SUMMARY:Good low tide: -0.1 ft at 6:55 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 5:55 AM. Low of -0.1 ft MLLW at 6:55 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261025-2231@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261025T203500Z
+DTEND:20261026T003000Z
+SUMMARY:Good low tide: -0.3 ft at 3:31 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 65/100. Arrive by 2:31 PM. Low of -0.3 ft MLLW at 3:31 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261026-2313@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261026T210500Z
+DTEND:20261027T013000Z
+SUMMARY:Good low tide: -0.7 ft at 4:13 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 3:13 PM. Low of -0.7 ft MLLW at 4:13 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261027-0000@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261027T214500Z
+DTEND:20261028T022500Z
+SUMMARY:Good low tide: -0.8 ft at 5:00 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 64/100. Arrive by 4:00 PM. Low of -0.8 ft MLLW at 5:00 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261107-2207@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261107T201500Z
+DTEND:20261108T000500Z
+SUMMARY:Good low tide: -0.2 ft at 2:07 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 60/100. Arrive by 1:07 PM. Low of -0.2 ft MLLW at 2:07 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261108-2243@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261108T204500Z
+DTEND:20261109T005500Z
+SUMMARY:Good low tide: -0.4 ft at 2:43 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 64/100. Arrive by 1:43 PM. Low of -0.4 ft MLLW at 2:43 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261122-2140@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261122T193500Z
+DTEND:20261122T235500Z
+SUMMARY:Good low tide: -0.5 ft at 1:40 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 67/100. Arrive by 12:40 PM. Low of -0.5 ft MLLW at 1:40 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261123-2224@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261123T200000Z
+DTEND:20261124T010000Z
+SUMMARY:Good low tide: -1.0 ft at 2:24 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 68/100. Arrive by 1:24 PM. Low of -1.0 ft MLLW at 2:24 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261124-2309@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261124T203500Z
+DTEND:20261125T015500Z
+SUMMARY:Good low tide: -1.4 ft at 3:09 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 74/100. Arrive by 2:09 PM. Low of -1.4 ft MLLW at 3:09 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261125-2357@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261125T212000Z
+DTEND:20261126T025000Z
+SUMMARY:Great low tide: -1.4 ft at 3:57 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 76/100. Arrive by 2:57 PM. Low of -1.4 ft MLLW at 3:57 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261126-0049@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261126T221500Z
+DTEND:20261127T034000Z
+SUMMARY:Great low tide: -1.3 ft at 4:49 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 78/100. Arrive by 3:49 PM. Low of -1.3 ft MLLW at 4:49 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261206-2204@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261206T195500Z
+DTEND:20261207T002500Z
+SUMMARY:Good low tide: -0.4 ft at 2:04 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 64/100. Arrive by 1:04 PM. Low of -0.4 ft MLLW at 2:04 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261220-2049@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261220T184500Z
+DTEND:20261220T230500Z
+SUMMARY:Good low tide: -0.2 ft at 12:49 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 60/100. Arrive by 11:49 AM. Low of -0.2 ft MLLW at 12:49 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261221-2135@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261221T190500Z
+DTEND:20261222T002000Z
+SUMMARY:Good low tide: -0.9 ft at 1:35 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 65/100. Arrive by 12:35 PM. Low of -0.9 ft MLLW at 1:35 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261222-2220@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261222T194000Z
+DTEND:20261223T011500Z
+SUMMARY:Great low tide: -1.5 ft at 2:20 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 76/100. Arrive by 1:20 PM. Low of -1.5 ft MLLW at 2:20 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261223-2305@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261223T202000Z
+DTEND:20261224T020500Z
+SUMMARY:Great low tide: -1.8 ft at 3:05 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 82/100. Arrive by 2:05 PM. Low of -1.8 ft MLLW at 3:05 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261224-2350@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261224T210500Z
+DTEND:20261225T025000Z
+SUMMARY:Great low tide: -1.9 ft at 3:50 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 84/100. Arrive by 2:50 PM. Low of -1.9 ft MLLW at 3:50 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261225-0036@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261225T215500Z
+DTEND:20261226T033500Z
+SUMMARY:Great low tide: -1.7 ft at 4:36 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 89/100. Arrive by 3:36 PM. Low of -1.7 ft MLLW at 4:36 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20261226-0122@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20261226T225000Z
+DTEND:20261227T041000Z
+SUMMARY:Good low tide: -1.3 ft at 5:22 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 73/100. Arrive by 4:22 PM. Low of -1.3 ft MLLW at 5:22 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270103-2125@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270103T191000Z
+DTEND:20270103T234500Z
+SUMMARY:Good low tide: -0.2 ft at 1:25 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 60/100. Arrive by 12:25 PM. Low of -0.2 ft MLLW at 1:25 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270106-2301@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270106T204000Z
+DTEND:20270107T014000Z
+SUMMARY:Good low tide: -0.7 ft at 3:01 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 2:01 PM. Low of -0.7 ft MLLW at 3:01 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270107-2330@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270107T211000Z
+DTEND:20270108T020500Z
+SUMMARY:Good low tide: -0.7 ft at 3:30 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 2:30 PM. Low of -0.7 ft MLLW at 3:30 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270108-2359@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270108T214000Z
+DTEND:20270109T023000Z
+SUMMARY:Good low tide: -0.7 ft at 3:59 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 65/100. Arrive by 2:59 PM. Low of -0.7 ft MLLW at 3:59 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270109-0027@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270109T221000Z
+DTEND:20270110T025000Z
+SUMMARY:Good low tide: -0.5 ft at 4:27 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 65/100. Arrive by 3:27 PM. Low of -0.5 ft MLLW at 4:27 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270118-2042@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270118T181500Z
+DTEND:20270118T232500Z
+SUMMARY:Good low tide: -0.5 ft at 12:42 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 67/100. Arrive by 11:42 AM. Low of -0.5 ft MLLW at 12:42 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270119-2128@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270119T184500Z
+DTEND:20270120T002500Z
+SUMMARY:Good low tide: -1.2 ft at 1:28 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 71/100. Arrive by 12:28 PM. Low of -1.2 ft MLLW at 1:28 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270120-2211@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270120T192500Z
+DTEND:20270121T011000Z
+SUMMARY:Great low tide: -1.7 ft at 2:11 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 80/100. Arrive by 1:11 PM. Low of -1.7 ft MLLW at 2:11 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270121-2251@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270121T200500Z
+DTEND:20270122T015000Z
+SUMMARY:Great low tide: -2.0 ft at 2:51 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 85/100. Arrive by 1:51 PM. Low of -2.0 ft MLLW at 2:51 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270122-2330@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270122T205000Z
+DTEND:20270123T022500Z
+SUMMARY:Exceptional low tide: -2.0 ft at 3:30 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 90/100. Arrive by 2:30 PM. Low of -2.0 ft MLLW at 3:30 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270123-0008@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270123T213500Z
+DTEND:20270124T025500Z
+SUMMARY:Exceptional low tide: -1.7 ft at 4:08 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 90/100. Arrive by 3:08 PM. Low of -1.7 ft MLLW at 4:08 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270124-0045@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270124T222000Z
+DTEND:20270125T031500Z
+SUMMARY:Great low tide: -1.2 ft at 4:45 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 79/100. Arrive by 3:45 PM. Low of -1.2 ft MLLW at 4:45 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270204-2240@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270204T202000Z
+DTEND:20270205T011500Z
+SUMMARY:Good low tide: -0.7 ft at 2:40 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 60/100. Arrive by 1:40 PM. Low of -0.7 ft MLLW at 2:40 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270205-2304@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270205T204500Z
+DTEND:20270206T013500Z
+SUMMARY:Good low tide: -0.8 ft at 3:04 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 66/100. Arrive by 2:04 PM. Low of -0.8 ft MLLW at 3:04 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270206-2328@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270206T211500Z
+DTEND:20270207T015000Z
+SUMMARY:Good low tide: -0.7 ft at 3:28 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 70/100. Arrive by 2:28 PM. Low of -0.7 ft MLLW at 3:28 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270207-2352@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270207T214000Z
+DTEND:20270208T020500Z
+SUMMARY:Good low tide: -0.5 ft at 3:52 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 67/100. Arrive by 2:52 PM. Low of -0.5 ft MLLW at 3:52 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270216-2030@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270216T175500Z
+DTEND:20270216T232000Z
+SUMMARY:Good low tide: -0.7 ft at 12:30 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 60/100. Arrive by 11:30 AM. Low of -0.7 ft MLLW at 12:30 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270217-2113@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270217T183500Z
+DTEND:20270218T000500Z
+SUMMARY:Good low tide: -1.2 ft at 1:13 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 71/100. Arrive by 12:13 PM. Low of -1.2 ft MLLW at 1:13 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270218-2152@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270218T191500Z
+DTEND:20270219T004000Z
+SUMMARY:Great low tide: -1.6 ft at 1:52 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 78/100. Arrive by 12:52 PM. Low of -1.6 ft MLLW at 1:52 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270219-2228@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270219T195500Z
+DTEND:20270220T011000Z
+SUMMARY:Great low tide: -1.7 ft at 2:28 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 85/100. Arrive by 1:28 PM. Low of -1.7 ft MLLW at 2:28 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270220-2303@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270220T203500Z
+DTEND:20270221T013500Z
+SUMMARY:Great low tide: -1.5 ft at 3:03 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 87/100. Arrive by 2:03 PM. Low of -1.5 ft MLLW at 3:03 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270221-2335@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270221T211500Z
+DTEND:20270222T020000Z
+SUMMARY:Great low tide: -1.2 ft at 3:35 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 79/100. Arrive by 2:35 PM. Low of -1.2 ft MLLW at 3:35 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270305-2205@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270305T195500Z
+DTEND:20270306T002000Z
+SUMMARY:Good low tide: -0.5 ft at 2:05 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 1:05 PM. Low of -0.5 ft MLLW at 2:05 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270306-2227@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270306T202000Z
+DTEND:20270307T003500Z
+SUMMARY:Good low tide: -0.5 ft at 2:27 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 66/100. Arrive by 1:27 PM. Low of -0.5 ft MLLW at 2:27 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270307-2249@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270307T205000Z
+DTEND:20270308T005000Z
+SUMMARY:Good low tide: -0.4 ft at 2:49 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 64/100. Arrive by 1:49 PM. Low of -0.4 ft MLLW at 2:49 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270317-2004@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270317T173000Z
+DTEND:20270317T224500Z
+SUMMARY:Good low tide: -0.7 ft at 1:04 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 60/100. Arrive by 12:04 PM. Low of -0.7 ft MLLW at 1:04 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270318-2046@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270318T181500Z
+DTEND:20270318T232000Z
+SUMMARY:Good low tide: -0.9 ft at 1:46 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 66/100. Arrive by 12:46 PM. Low of -0.9 ft MLLW at 1:46 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270319-2122@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270319T185500Z
+DTEND:20270319T235000Z
+SUMMARY:Good low tide: -1.0 ft at 2:22 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 73/100. Arrive by 1:22 PM. Low of -1.0 ft MLLW at 2:22 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270320-2156@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270320T194000Z
+DTEND:20270321T001500Z
+SUMMARY:Great low tide: -0.9 ft at 2:56 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 76/100. Arrive by 1:56 PM. Low of -0.9 ft MLLW at 2:56 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270321-2227@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270321T202500Z
+DTEND:20270322T003000Z
+SUMMARY:Good low tide: -0.7 ft at 3:27 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 70/100. Arrive by 2:27 PM. Low of -0.7 ft MLLW at 3:27 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270410-1329@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270410T110500Z
+DTEND:20270410T160000Z
+SUMMARY:Good low tide: -0.4 ft at 6:29 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 5:29 AM. Low of -0.4 ft MLLW at 6:29 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270411-1433@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270411T121500Z
+DTEND:20270411T171000Z
+SUMMARY:Good low tide: -0.2 ft at 7:33 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 6:33 AM. Low of -0.2 ft MLLW at 7:33 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270417-2043@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270417T185000Z
+DTEND:20270417T223500Z
+SUMMARY:Good low tide: -0.2 ft at 1:43 PM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 12:43 PM. Low of -0.2 ft MLLW at 1:43 PM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270507-1146@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270507T091500Z
+DTEND:20270507T143500Z
+SUMMARY:Good low tide: -1.2 ft at 4:46 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 63/100. Arrive by 3:46 AM. Low of -1.2 ft MLLW at 4:46 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270508-1234@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270508T095500Z
+DTEND:20270508T153000Z
+SUMMARY:Great low tide: -1.2 ft at 5:34 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 78/100. Arrive by 4:34 AM. Low of -1.2 ft MLLW at 5:34 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270509-1328@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270509T105000Z
+DTEND:20270509T162500Z
+SUMMARY:Great low tide: -1.0 ft at 6:28 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 79/100. Arrive by 5:28 AM. Low of -1.0 ft MLLW at 6:28 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270510-1427@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270510T115000Z
+DTEND:20270510T172000Z
+SUMMARY:Good low tide: -0.8 ft at 7:27 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 63/100. Arrive by 6:27 AM. Low of -0.8 ft MLLW at 7:27 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270522-1229@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270522T100500Z
+DTEND:20270522T151000Z
+SUMMARY:Good low tide: -0.6 ft at 5:29 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 65/100. Arrive by 4:29 AM. Low of -0.6 ft MLLW at 5:29 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270523-1310@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270523T105000Z
+DTEND:20270523T154500Z
+SUMMARY:Good low tide: -0.4 ft at 6:10 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 66/100. Arrive by 5:10 AM. Low of -0.4 ft MLLW at 6:10 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270604-1056@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270604T082000Z
+DTEND:20270604T135000Z
+SUMMARY:Good low tide: -1.4 ft at 3:56 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 63/100. Arrive by 2:56 AM. Low of -1.4 ft MLLW at 3:56 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270605-1141@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270605T090000Z
+DTEND:20270605T144000Z
+SUMMARY:Great low tide: -1.6 ft at 4:41 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 80/100. Arrive by 3:41 AM. Low of -1.6 ft MLLW at 4:41 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270606-1229@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270606T094500Z
+DTEND:20270606T153000Z
+SUMMARY:Great low tide: -1.6 ft at 5:29 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 89/100. Arrive by 4:29 AM. Low of -1.6 ft MLLW at 5:29 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270607-1318@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270607T104000Z
+DTEND:20270607T161500Z
+SUMMARY:Great low tide: -1.4 ft at 6:18 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 77/100. Arrive by 5:18 AM. Low of -1.4 ft MLLW at 6:18 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270608-1408@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270608T113500Z
+DTEND:20270608T165500Z
+SUMMARY:Good low tide: -1.1 ft at 7:08 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 70/100. Arrive by 6:08 AM. Low of -1.1 ft MLLW at 7:08 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270609-1459@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270609T123500Z
+DTEND:20270609T173000Z
+SUMMARY:Good low tide: -0.6 ft at 7:59 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 61/100. Arrive by 6:59 AM. Low of -0.6 ft MLLW at 7:59 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270619-1140@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270619T092000Z
+DTEND:20270619T142000Z
+SUMMARY:Good low tide: -0.7 ft at 4:40 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 60/100. Arrive by 3:40 AM. Low of -0.7 ft MLLW at 4:40 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:san-diego-ca-20270620-1214@tidewindow
+DTSTAMP:20260703T020448Z
+DTSTART:20270620T095500Z
+DTEND:20270620T145000Z
+SUMMARY:Good low tide: -0.6 ft at 5:14 AM (San Diego (Cabrillo))
+DESCRIPTION:Score 62/100. Arrive by 4:14 AM. Low of -0.6 ft MLLW at 5:14 AM. Computed from NOAA station 9410170 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/ca/san-diego-ca/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

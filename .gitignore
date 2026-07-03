@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local-only
+.claude/
+docs-internal/posthog-api-key.txt
+docs-internal/*-secret*
+public/data-json/.pipeline-stamp

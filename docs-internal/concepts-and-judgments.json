@@ -1,0 +1,560 @@
+{
+  "concepts": [
+    {
+      "lens": "tools-hub",
+      "name": "GrainMath",
+      "slug": "grainmath",
+      "niche": "Woodworking project math: wood movement, moisture, board feet, weight, glue-ups, epoxy pours, and cut planning for hobbyist furniture makers",
+      "one_liner": "Calculators that know your wood species AND your city — predict how much your tabletop will move, what your lumber weighs and costs, and how to cut it, all computed from USDA and NOAA data.",
+      "target_audience": "US/English hobbyist and semi-pro woodworkers (furniture, cabinetry, epoxy river tables) — an expensive recurring hobby with heavy tool spend, active forums, and strong newsletter culture. No credentials required to serve them.",
+      "content_engine": "The agent operates three self-refreshing, fully verifiable content lines. (1) Species data pages (~90 North American + common imported hardwoods/softwoods): shrinkage coefficients, density, weight per board foot, janka, movement-in-service — every number traced to USDA Forest Products Lab Wood Handbook (FPL-GTR-282, public domain) fetched during the pipeline run, with a per-page 'movement at 6/12/24 inches' computed table no competitor publishes. (2) City moisture pages (staged programmatic, ~250 US metros): monthly equilibrium moisture content and seasonal swing computed from NOAA Climate Normals + FPL-RN-268 methodology, refreshed each year with current normals and a visible changelog — freshness that satisfies Perplexity's reranker. (3) Long-tail Q&A cluster pages, one intent each (breadboard-end gaps, tabletop fastener choice, acclimating lumber, drawer fit by season, epoxy pour depth math), where every claim is either computed from the datasets or entailment-checked against fetched FPL/university-extension publications. Quarterly original dataset: anonymized telemetry from the site's own optimizer/calculators ('we analyzed 10,000 cut lists: median plywood waste is 14.2%') — original data the agent generates itself, zero hallucination risk. 30–50% of pipeline capacity goes to refreshing species/city pages with new-year data. Cadence: 2–5 edited pieces/week, programmatic city pages in staged batches of 10→50→100 only after GSC confirms indexing. YMYL-adjacent zones (structural span tables, electrical, dust-collection health claims) are on the config-level never-publish list.",
+      "initial_content_examples": [
+        "How Much Does a Walnut Tabletop Move? Seasonal Expansion by Width (with Calculator)",
+        "Breadboard Ends: Exactly How Much Gap to Leave (By Species and Region)",
+        "White Oak vs Red Oak Movement: Why One Warps More in Your Shop",
+        "How Much Does 8/4 Hard Maple Weigh Per Board Foot? (Full Species Weight Table)",
+        "Wood Movement in Phoenix: Monthly EMC and What It Does to Your Furniture",
+        "How Long to Acclimate Lumber Before a Glue-Up (It Depends on Your City)",
+        "Figure-8 Fasteners vs Z-Clips vs Elongated Holes: Which Tabletop Attachment Allows Enough Movement?",
+        "How Many Board Feet Do You Need for a Farmhouse Dining Table? (Worked Example with Waste Factor)",
+        "Epoxy River Table Pour Volume: How to Calculate It Without Wasting $80 of Resin",
+        "Quartersawn vs Flatsawn: How Much Less Does Quartersawn Actually Move? (USDA Data)"
+      ],
+      "interactive_tools": [
+        "Wood Movement Calculator (flagship): species + grain orientation + panel width + your city → predicted seasonal shrink/swell in inches, with fastener and gap recommendations; embeddable widget with attribution link",
+        "Shop Moisture Planner: city lookup → monthly EMC chart, 'your wood will stabilize at X% in January vs Y% in July', best months to build tight-fitting drawers",
+        "Board Foot & Project Cost Calculator: dimensions → board feet with waste factor and cost",
+        "Lumber Weight Calculator: species + dimensions → weight (will it fit in your car / on your bench)",
+        "Glue-Up Panel Planner: target width → board count, jointing loss, ring-orientation layout diagram",
+        "Cut List Optimizer with printable PDF shop diagram (table-stakes supporting tool in a crowded segment — differentiated by integration with movement/cost tools)",
+        "Epoxy Pour Volume Calculator for river tables (pure geometry, hot sub-niche)",
+        "Air-Drying Time Estimator: species + thickness + city climate → months to workable moisture content",
+        "Finish Mixing Calculator: shellac cuts, oil/varnish ratios by volume"
+      ],
+      "email_hook": "Click-triggered two-step opt-in on every tool: core result always free on screen; 'Email me my Project Sheet' bundles the cut diagram, board-foot shopping list, cost estimate, and movement allowances into one printable PDF — something woodworkers physically carry to the lumberyard and shop. Lead magnets per cluster: a one-page Wood Movement Cheat Sheet (top 25 species) and a 7-day 'Flat Panels That Stay Flat' email course. Weekly newsletter 'Shop Notes' is genuinely seasonal — humidity is cyclical, so 'what this month's moisture swing means for the project on your bench' never runs dry, plus one worked project-math example per issue.",
+      "seo_opportunity": "Long-tail supply is deep and unowned: species × dimension × question permutations ('how much does a 24 inch cherry panel move', '8/4 white oak weight per board foot', 'how much gap for breadboard ends') are 4+ word, KD<30 queries currently answered by 2013 forum threads, a 1990s-styled Shrinkulator widget, and retailer blog posts (KM Tools, Woodworkers Source) whose calculators are lead-gen afterthoughts. The city-level EMC data exists only as a 2016 university XLSX and a bare NC State lookup form — zero modern productization. Fine Woodworking/Popular Woodworking hold head terms but ignore calculator-intent long-tail. Verified via SERP sampling: no single site combines species data + location data + tools.",
+      "aeo_angle": "Every page leads with a 40–80-word computed answer ('A 24-inch flatsawn black walnut panel in Denver moves about 3/16 inch between January and July, per USDA shrinkage coefficients') — statistics with named authoritative sources, the exact pattern that lifts citation odds +41%/+40% in the Princeton GEO study. Pages answer AI Mode fan-out sub-questions (which fastener, how much gap, quartersawn vs flatsawn) rather than head terms. All numbers server-rendered in static HTML tables; robots.txt allows OAI-SearchBot/PerplexityBot/Claude-SearchBot; Bing Webmaster Tools + IndexNow from day one since ChatGPT rides Bing. City pages carry visible current-year date stamps for Perplexity's freshness reranker. When an LLM is asked 'how much will my oak table move', the honest answer requires a species coefficient × local humidity computation — engines cite the site that publishes the computed table.",
+      "zero_click_defense": "A chat answer can state the movement formula but cannot run your exact species + width + city + month through NOAA normals and hand you a printable shop sheet, a cut diagram PDF, or an embeddable result. Personalization (your city's EMC curve), interactivity (optimizer layouts), downloadables (project PDFs), and freshness (current-year normals, quarterly telemetry reports) are all things a static LLM answer can't replace — the Percentagecalculator.net pattern applied to a niche where the inputs are genuinely local and personal. The embeddable movement widget with attribution earns passive backlinks from woodworking blogs and forums.",
+      "autonomy_fit": "Nearly every fact on the site is arithmetic over two public-domain federal datasets (USDA FPL Wood Handbook coefficients; NOAA Climate Normals) ingested once and re-fetched on refresh — the agent can recompute and self-verify every number deterministically, and entailment-check the remaining prose claims against fetched FPL/extension PDFs. No UGC, no moderation, no partnerships, no outreach required: backlinks come passively from the embeddable widget, and the quarterly original dataset is generated from the site's own tool telemetry. Non-YMYL by construction, with a hard blocklist for structural/electrical/health-adjacent topics. Next.js SSG/ISR on Vercel handles everything: calculators are client-leaf components over server-rendered data tables, city pages are generateStaticParams over a static dataset, no paid APIs anywhere.",
+      "risks": [
+        "Cut-list optimizer segment is genuinely crowded (cutlistoptimizer.com, Cutlistor, OptiCutter, CutWize) — mitigated by making it a supporting tool integrated with movement/cost math rather than the flagship or SEO bet",
+        "Indoor shop EMC differs from FPL outdoor EMC tables; the methodology page must state assumptions honestly (heated-shop offsets per Wood Handbook guidance) or precision claims invite expert criticism on forums",
+        "Established woodworking authorities (Fine Woodworking DA~75) could ship a modern calculator suite; defense is the city-data layer and programmatic depth they won't build",
+        "Hobby is seasonal (shop time peaks fall–spring); summer traffic dips could be misread as algorithmic loss — measurement loop must compare year-over-year, not week-over-week",
+        "Species pages beyond the USDA-covered list (exotics like padauk, wenge) have thinner primary data; the agent must cap the species list at what FPL/university sources cover rather than fill gaps from parametric memory",
+        "NOAA humidity normals have station-coverage gaps in some metros; city list must be derived from available stations (~250) rather than a top-1000 city list, capping programmatic scale"
+      ],
+      "differentiation": "Only site that fuses the two public-domain datasets — USDA species shrinkage coefficients and NOAA/FPL city-level moisture normals — into one answer: not 'wood moves 1/4 inch per foot' but 'YOUR walnut top in YOUR city moves this much between January and July.' Competitors are either single-widget relics (Shrinkulator), retailer lead-gen calculators with no content depth, or generic calculator farms (Omni, Inch Calculator) with no woodworking authority. GrainMath is a coherent tool family plus a species/city data encyclopedia plus self-generated quarterly telemetry datasets — non-commodity by Google's own May 2026 definition, because none of it can be produced from an LLM's parametric memory."
+    },
+    {
+      "lens": "data-reference",
+      "name": "Dark Sky Almanac",
+      "slug": "dark-sky-almanac",
+      "niche": "Stargazing and astrophotography trip planning: a structured reference database of computed \"dark windows\" (moonless, astronomically dark hours), Milky Way core visibility, and meteor-shower conditions for every DarkSky-certified place and major US national/state park — non-YMYL, expensive recurring hobby (telescopes, astro cameras, park trips).",
+      "one_liner": "The cleanest reference for when it will actually be dark: computed, hour-by-hour moonless viewing windows for 250+ certified dark-sky places and US parks, updated every month, forever.",
+      "target_audience": "US and global English-speaking amateur astronomers, astrophotographers, and campers/road-trippers who plan trips around new moons, Milky Way season, and meteor showers — a hobby with recurring gear spend and an intrinsic monthly planning cycle.",
+      "content_engine": "Everything load-bearing is computed, not written. A nightly pipeline runs an open-source ephemeris library (astronomy-engine, MIT, local computation — no API) to generate per-place, per-month pages: astronomical-darkness start/end, moonrise/moonset, moon illumination, resulting moonless \"dark windows,\" galactic-core altitude/azimuth windows, and meteor-shower radiant conditions. Each of the 250+ certified places (public facts: coordinates, designation category/date) times 12 months times rolling years yields thousands of pages whose core content is genuinely unique numeric data that changes deterministically — the refresh cadence (30–50% of pipeline on updates) is intrinsic to the product, since every month brings new windows and every year a new calendar. On top, the agent writes a thin editorial layer under hard gates: a 100–150-word synthesis per page (\"the 5 best nights this month and why\"), monthly event pages (each 2026–2027 shower × top viewing regions), and one original dataset per quarter — e.g., VIIRS-derived sky-brightness trend report across all certified places, or \"which dark sky parks have the most usable moonless hours per year\" league tables computed from ephemeris + public cloud climatology (Open-Meteo/NASA, free). Velocity respects the brief: one pillar (\"How to plan a dark-sky trip\") + 15–20 cluster pages editorially first, then staged programmatic rollout (10–20 place pages, verify indexing, then batches) — the place database earns its velocity. It cannot go stale or repetitive for years because the sky itself supplies new, non-commodity data every single month.",
+      "initial_content_examples": [
+        "Best Stargazing Nights at Cherry Springs State Park in September 2026: Hour-by-Hour Moonless Windows",
+        "New Moon Weekends in 2026 and 2027: The Complete US Dark-Sky Trip Calendar",
+        "When Can You See the Milky Way Core From Big Bend National Park? Month-by-Month Visibility Windows for 2026",
+        "Perseids 2026 at Great Basin National Park: Peak Night, Moon Interference Score, and Best Viewing Hours",
+        "How Dark Is Joshua Tree, Really? VIIRS Radiance and Bortle-Class Estimates for Every Park Entrance",
+        "Geminids 2026 Viewing Guide: Peak Times by US Time Zone and the 27 Best Certified Dark Sky Parks to Watch From",
+        "Milky Way Season 2027 Starts Earlier Than You Think: Core Visibility Dates for 50 US Dark Sky Places",
+        "Death Valley Stargazing in December 2026: Dark Windows, Moonrise Times, and What's Overhead",
+        "The 2026 Dark Sky Report: How Sky Brightness Changed at All 250+ Certified Dark Sky Places (Original VIIRS Dataset)",
+        "Full Moon vs. New Moon Camping: A Month-by-Month Darkness Planner for Utah's Mighty Five"
+      ],
+      "interactive_tools": [
+        "Dark Window Finder: enter any location (or pick a park) + month, get a table of moonless astronomical-darkness windows with exact times — core result free, server-rendered for the default parks",
+        "Milky Way Core Calculator: when the galactic core is above the horizon during darkness at your location, with season start/end dates",
+        "Meteor Shower Score: per shower x location x night, a 0-100 viewing score combining radiant altitude, moon interference, and cloud climatology",
+        "ICS calendar generator: subscribe your phone calendar to new-moon weekends, Milky Way windows, and meteor peaks for your location",
+        "Printable 12-month dark-sky calendar (PDF) generator per location",
+        "Bortle/sky-brightness lookup by coordinates from public VIIRS data",
+        "Embeddable 'dark windows this month' widget for park and camping sites with attribution link (passive backlinks)"
+      ],
+      "email_hook": "Click-triggered two-step opt-in on every tool result: the on-screen answer is always free; \"Email me my full 12-month dark-sky calendar (PDF + ICS) for this location\" gates only the enhanced output — the single most natural tool gate imaginable, because a year-long personal calendar is exactly what you want in your inbox, not a chat window. Flagship newsletter: \"This Month After Dark,\" sent at each new moon (a cadence the audience already lives by), with that cycle's best windows, one shower/event brief, and one featured dark-sky place. Lead-magnet variants per cluster: \"Meteor Shower Cheat Sheet 2026–2027\" and a 5-day \"Plan your first dark-sky trip\" email course.",
+      "seo_opportunity": "Long-tail supply is enormous and specific: [park] x [month/year] x {stargazing, milky way, moon phase, meteor shower} — 4+ word, specific-intent, KD low. Current SERPs for queries like \"best time to see milky way at Cherry Springs 2026\" return hand-written travel blogs (UncoveringPA, Explore.com) and park pages with vague \"April–October, avoid the full moon\" advice — no dated, computed answers. Capture the Atlas owns \"milky way calendar\" for only ~24 broad regions; milkywayplanner.com is a client-rendered freemium app that produces zero indexable long-tail pages; PhotoPills is an app. Nobody holds the park-level, month-level layer, and yearly-dated queries (2026, 2027) reset competition annually in a new site's favor. First wins realistic within weeks on queries like \"new moon weekends October 2026 [state]\" where competition is near zero.",
+      "aeo_angle": "AI engines get exactly this wrong: LLMs hallucinate moonrise times, darkness hours, and shower peak dates, and the strongest competitor tools are JavaScript apps that no AI crawler except Googlebot can read. Dark Sky Almanac serves every number in server-rendered HTML tables with a 40-80-word extractable answer up top, question-formatted H2s (\"When is the Milky Way visible from Big Bend in June 2026?\"), a stated methodology (\"computed with astronomy-engine v2.x for coordinates X,Y on date D\"), fresh monthly date stamps (Perplexity's freshness reranker), sourced statistics (+41% citation lift), and Dataset/Article/BreadcrumbList schema. It directly answers the fan-out sub-questions behind \"stargazing trip to [park]\" — when, how dark, moon phase, what's visible — making it the citable source of record for precise, dated sky-planning numbers in Bing/Brave/Google alike.",
+      "zero_click_defense": "A chat answer cannot hand you a subscribable ICS feed, a personalized 12-month PDF calendar, an interactive month slider, or numbers you can trust to the minute — and savvy stargazers know LLMs fabricate rise times, so verification itself drives visits. The data expires monthly (this month's windows are worthless next month), the tools are the destination, and the embeddable widget puts the brand on other sites. AI referrals that do click arrive with trip-planning intent — the 4-23x converting kind — and land directly on an email-gated calendar.",
+      "autonomy_fit": "This is the rare content domain where ground truth is a deterministic computation: every date, time, altitude, and illumination percentage comes from a local ephemeris library, not from LLM memory — hallucination risk is structurally near zero, and the agent can fact-check itself by recomputing and by automated spot-checks against USNO/timeanddate values in the pipeline. Place metadata (coordinates, designations) comes from public lists and public-domain VIIRS rasters; no scraping of protected content, no paid APIs, no UGC, no moderation, no partnerships, no human editing. The editorial layer is a thin synthesis over data the agent just computed, so Tier-2 grounding gates are trivially enforceable, and Next.js ISR on Vercel regenerates monthly pages on schedule.",
+      "risks": [
+        "Programmatic place-x-month pages can pattern-match scaled-content abuse on a fresh domain — mitigated by the brief's staged rollout (editorial cluster first, then 10-20 page batches with indexing verification) and 30-60% page-specific computed content, but 'Discovered - currently not indexed' purgatory for months is likely",
+        "Astronomy queries have meaningful AI Overview presence for generic questions ('when is the next new moon'), so only the location- and date-specific layer is defensible — the site must resist drifting toward commodity explainers",
+        "timeanddate.com or an established outdoors site (Hipcamp already publishes a stargazing calendar) could add park-level computed pages and outrank on authority; the moat is depth, ICS/PDF utility, and the quarterly original datasets",
+        "Interest is seasonal (peaks around Milky Way season and big showers, dips in winter) so traffic and newsletter growth will be lumpy",
+        "Users may conflate climatological cloud averages with weather forecasts; pages must label climatology clearly and link out to forecast tools to avoid unhelpful-content signals",
+        "DarkSky International's list is public fact but the compilation should be independently assembled and attributed to avoid any database-rights complaint",
+        "The name/domain darkskyalmanac.com must be verified available; a near-collision with the DarkSky brand (or the defunct Dark Sky weather app) could force a rename before launch"
+      ],
+      "differentiation": "It occupies the empty middle between three incumbents that each miss the reference-database format: Capture the Atlas (hand-written blog, ~24 regions, no park-level data), milkywayplanner.com and PhotoPills (apps whose computed data is invisible to search and AI crawlers), and DarkSiteFinder/ClearDarkSky (maps and short-range forecasts with no planning horizon). Dark Sky Almanac is the only server-rendered, schema-marked, citation-ready database that joins the certified-places registry, computed ephemeris windows, and measured VIIRS sky brightness into one page per place per month — with exportable calendars as the utility layer. Its content is definitionally non-commodity: a generative model cannot produce these numbers, only cite whoever computed them."
+    },
+    {
+      "lens": "seasonal-planner",
+      "name": "The Dark Window",
+      "slug": "dark-window",
+      "niche": "Stargazing trip planning for campers, casual astronomers, and astrophotographers — specifically, computing and publishing the \"dark windows\" (moonless, astronomically dark nights) that make a night under the stars actually worth planning around.",
+      "one_liner": "A computed calendar of the best stargazing nights for your exact location — every night of the year scored for darkness, moon interference, and what's actually up there — so you never waste a camping trip on a washed-out sky.",
+      "target_audience": "US campers, hikers, RVers, dark-sky park visitors, casual telescope owners, and beginner astrophotographers who plan weekend trips 2–8 weeks ahead and ask questions like \"is the moon going to ruin the Perseids this year?\" or \"which October weekend should I book the campsite?\" Global-usable (the math works anywhere), US-first for cloud-cover data and location pages.",
+      "content_engine": "The engine is a deterministic ephemeris pipeline (astronomy-engine, MIT-licensed, cross-validated nightly against NASA JPL Horizons' free API), so every page is generated from freshly computed data rather than LLM recall. The agent publishes on natural celestial cadence, which regenerates itself forever: (1) monthly sky guides (\"Best stargazing nights in September 2026, every night scored\") — 12/year, never repetitive because moon-event geometry genuinely differs every year (Perseids under a new moon in 2026 is a different story than the 2025 washout, and the agent can prove it with numbers); (2) per-event pages for each meteor shower, eclipse, opposition, and conjunction × year, published 6–12 months ahead when competition is zero; (3) evergreen explainers (astronomical twilight, Bortle scale, magnitude math) refreshed with current-year examples; (4) staged programmatic location pages (\"Stargazing calendar for Asheville, NC\") where 100% of the table data is unique computed output plus a synthesized 150-word local summary (latitude effects, darkness duration, core season length) — satisfying the unique-data-asset gate. 30–50% of capacity goes to rolling every date-stamped page forward each month with visible changelogs. Quarterly original dataset: e.g., \"Moon Interference Index for every major meteor shower, 2026–2035\" — computed, citable, link-worthy. Quality gates are trivially enforceable: every number must match two independent ephemeris sources or the page doesn't ship.",
+      "initial_content_examples": [
+        "Best Stargazing Nights in July 2026: Every Night Scored for Darkness and Moon Interference",
+        "Perseids 2026: A New-Moon Peak Makes This the Best Meteor Shower Weekend of the Decade",
+        "Will the Moon Ruin the Geminids in 2026? We Did the Math",
+        "Every Moonless Weekend for Camping in 2026 and 2027 (New Moon Calendar)",
+        "When Does Milky Way Core Season End in 2026? Visibility Month by Month",
+        "Astronomical Darkness Explained: Why an Hour After Sunset Isn't Actually Dark",
+        "The 7 Darkest Camping Weekends of Fall 2026, Ranked by Computed Sky Score",
+        "Orionids 2026 Viewing Guide: Peak Night, Moon Phase, and Best Hours by US Time Zone",
+        "How Much Does a Full Moon Wash Out the Night Sky? The Magnitude Math, Explained Simply",
+        "The Complete 2026–2027 Dark Sky Calendar: 47 Nights Worth Planning a Trip Around"
+      ],
+      "interactive_tools": [
+        "Dark Window Finder — enter a city/zip, get the next 12 months of nights each scored 0–100 (moon illumination × altitude overlap with astronomical darkness, darkness duration, meteor-shower bonus), shown as a month grid",
+        "Meteor Shower Score Card — per shower per year per location: computed moon interference, radiant altitude by hour, and the single best viewing hour",
+        "Milky Way Core Planner — galactic-core rise/set and true-darkness overlap windows for any location and date",
+        "Tonight at [your city] — server-rendered nightly summary: darkness start/end, moon state, planets up, ISS-free viewing window",
+        "Personal Dark Sky Calendar exporter — free on-screen results; email-gated .ics subscription feed and printable 12-month PDF",
+        "Embeddable 'Best Stargazing Nights This Month' widget with attribution link, aimed at the campground/tourism blogs (Hipcamp, KOA, park sites) already writing static versions of this content by hand",
+        "7-day cloud-cover outlook overlay for US locations via the free National Weather Service API"
+      ],
+      "email_hook": "The Dark Sky Digest: a monthly email that says, for your region, \"here are next month's 3–5 best nights and exactly what you'll see\" — genuinely the product, because dark windows are perishable and trips need lead time. Capture mechanics per the playbook: core tool results always free; a click-triggered two-step opt-in gates the personalized .ics calendar feed and printable yearly PDF (\"email me my dark sky calendar\"); flagship magnet is a 5-night email course, \"Learn the Night Sky in 5 Nights,\" timed to start on the next dark window at the subscriber's location.",
+      "seo_opportunity": "Date-stamped long-tail queries regenerate annually and reset competition every year: \"Geminids 2026 moon phase,\" \"new moon weekends October 2026,\" \"best stargazing nights September 2026\" are 4+ word, specific-intent, KD-low queries where the current SERPs are hand-written blog posts by camping companies and tourism boards (Hipcamp, KOA, Moab tour operators) — none interactive, none personalized, most published once and left stale. The agent can publish 2027 event pages in mid-2026 before anyone else. Incumbent tools (timeanddate, in-the-sky.org) own head terms like \"moon phase\" — the site avoids those entirely and targets the intersection queries (event × year × moon × location × activity) they don't build pages for. Location × month programmatic pages have effectively zero direct competition because no incumbent server-renders per-location computed calendars.",
+      "aeo_angle": "AI engines constantly field \"when's the best night to see the Perseids in 2026?\" and \"will the moon interfere with the Geminids?\" — and the existing competitor tools (milky-way-calendar.com, Star Window, dark-sky planner apps) are client-rendered SPAs whose outputs no AI crawler can read. This site server-renders stat-dense, self-contained 40–80-word answers (\"The Perseids peak Aug 12–13, 2026, one day after new moon; moon interference score 2/100; best viewing 1–4 a.m. local\") with stated methodology and JPL Horizons cross-validation — exactly the +41% statistics and +40% authoritative-sourcing pattern the Princeton GEO study rewards. Question-formatted H2s answer Google's fan-out sub-queries (best hour? moon phase? which direction?), robots.txt allows OAI-SearchBot/PerplexityBot/Claude-SearchBot, and fresh computed date stamps feed Perplexity's freshness reranker.",
+      "zero_click_defense": "A chat answer can tell you the new moon date; it cannot hand you an interactive 12-month scored grid for your exact coordinates, a subscribable .ics feed that puts dark windows on your phone calendar, a printable PDF, an embeddable widget, or a cloud-cover overlay for this weekend. Personalization (your latitude changes darkness duration and core visibility materially), perishable freshness (this month's windows), and downloadables are the whole product. The 93%-zero-click reality is fine: the site optimizes for the high-intent minority planning a real trip — the 4–23x converters — and for the calendar subscription that brings them back every month without Google.",
+      "autonomy_fit": "This is close to the theoretical best case for an autonomous agent: every load-bearing fact (moonrise, illumination, twilight times, shower peaks, visibility windows) is computed deterministically from an MIT-licensed ephemeris library and can be machine-verified against a second independent source (NASA JPL Horizons free API, USNO data) before publish — the Tier-2 grounding gate becomes a numeric diff, not an LLM judgment call. No credentials required, firmly non-YMYL, no UGC or moderation, no partnerships or outreach needed (the embeddable widget earns backlinks passively), and all data sources are free and public-domain (NASA, USNO, NWS, VIIRS light-pollution data). The narrative layer the LLM writes sits on top of numbers it just computed, and the honest methodology page ('every figure on this site is computed from JPL-validated ephemerides') doubles as the E-E-A-T story.",
+      "risks": [
+        "Audience size is moderate: hyper-long-tail stargazing-planning queries have real but modest volume, so traffic compounds slowly and the newsletter must carry engagement through the 3-6 month dead zone",
+        "Astronomy is science-adjacent, so AI Overviews trigger on many informational queries; must verify AIO saturation on the 30-50 target SERPs and stay weighted toward planning/activity intent (trip timing, calendars, downloads) over pure explainers",
+        "Incumbent gravity: timeanddate and in-the-sky own head terms, and a well-resourced player (Hipcamp, AllTrails) could add a dark-sky planner feature; defense is depth, SSR citability, and the email list",
+        "Frontier LLMs with code execution are getting better at computing ephemerides on demand, eroding the pure-answer value over time; the .ics feed, alerts, and personalization must stay ahead of what a chat session bothers to do",
+        "Cloud cover is the true determinant of a good night and is only forecastable ~7 days out; the site must frame long-range scores honestly as astronomical (not weather) guarantees or it will burn trust",
+        "Seasonal traffic troughs (northern-hemisphere winter, moonlit halves of each month) make analytics noisy; circuit-breaker logic must account for natural seasonality before freezing publication"
+      ],
+      "differentiation": "Every competitor is one fragment: a light-pollution map, a Milky Way SPA, a UK events calendar, a paid weather app, or a hand-written annual blog post. The Dark Window is the only property that fuses computed per-night scoring + per-location personalization + forward-looking yearly event pages + a calendar you subscribe to — all server-rendered so both Google and AI engines can actually read the numbers. Its moat is structural: incumbdent tools are JS-invisible to AI crawlers, content publishers can't compute, and the agent's marginal cost of recomputing every page every month with visible changelogs is zero — the exact refresh-heavy survivor pattern the 2026 updates reward. The brand promise is falsifiable and honest: every number on the site is machine-checked against NASA data before publish, which is simultaneously the E-E-A-T story, the AEO citation bait, and the reason a human is glad they landed there."
+    },
+    {
+      "lens": "delight",
+      "name": "Tidewindow",
+      "slug": "tidewindow",
+      "niche": "Low-tide adventure planning: tidepooling, beachcombing, and sea-glass hunting windows computed from NOAA tide predictions for every US coastal station",
+      "one_liner": "Tidewindow computes the exact daylight hours when the ocean pulls back far enough to make a coast trip worth it — ranked minus-tide windows for 1,000+ US beaches, exportable to your calendar.",
+      "target_audience": "US coastal day-trippers and families planning tidepool visits, beachcombers and sea-glass collectors, beach photographers, teachers planning field trips, and Pacific Northwest / California / New England locals who ask \"is this weekend any good?\" every week from March to September.",
+      "content_engine": "The site is a data pipeline wearing a magazine's clothes. Every number on it is computed, not written: the agent pulls NOAA CO-OPS harmonic tide predictions (free, keyless, 10 years ahead) for ~1,000 US stations, computes sunrise/sunset locally (astronomy-engine), intersects them, and scores every \"window\" (tide depth below threshold × daylight overlap × weekend bonus × season). The daily agent's jobs: (1) refresh the rolling \"next 30 days\" rankings on every regional and station page — genuine daily freshness with zero hallucination risk; (2) publish per-station monthly calendar pages on a staged programmatic rollout (10-20, then 50-100, then weekly batches after indexing proof), each with a computed synthesis paragraph (\"Only 3 of July's 62 low tides at this station fall below -1.0 ft in daylight; the best is Tuesday the 14th at 7:12am\"); (3) enrich station guides with 'what you'll actually see' species-frequency tables computed from iNaturalist's free open-data API (real observation counts near each station, by month, CC-licensed photos only, attributed); (4) write the weekly regional roundup that doubles as the newsletter; (5) publish one original dataset per quarter — e.g. 'The 2027 Daylight Minus-Tide Index: all 500 major US coastal sites ranked by total explorable hours' — the link and citation magnet. Non-repetitive for years because the underlying data changes every month and year (2027 calendars are a full new content generation, king tide cycles shift, species frequencies shift seasonally), coverage expands station by station and use-case by use-case (photography golden-hour overlap, storm-wrack beachcombing via free NDBC buoy swell data), and 30-50% of capacity naturally goes to refreshing dated pages — the survivor pattern, built into the product rather than bolted on.",
+      "initial_content_examples": [
+        "Best Tide Pooling Days in July 2026 at Cabrillo National Monument, Ranked by Daylight Minus Tides",
+        "Oregon Coast Minus Tide Calendar 2026: Every Daylight Minus Tide, Month by Month",
+        "How Low Does the Tide Need to Be for Tide Pools? The -0.5 ft Rule, Tested Against 12 Months of NOAA Data",
+        "Pillar Point Tide Pools: Best 2026 Dates, Plus the 47 Species Observers Logged There Last Month",
+        "Puget Sound's 10 Best Daylight Low Tides of Summer 2026 (Only 4 Fall on Weekends)",
+        "La Jolla Tide Pools in August 2026: Just 5 Mornings Are Worth the Drive — Here's the Math",
+        "King Tides 2026–27: The Extreme-Low Dates for Every US Coast and What They Expose",
+        "Why East Coast Tide Pooling Needs a -1.0 ft Tide — and the 2026 Dates That Qualify from Maine to Florida",
+        "Haystack Rock Tidepool Windows 2026: The Dates the Reef Is Fully Walkable",
+        "Best Time for Sea Glass Hunting: How Minus Tides and Winter Swell Decide What the Beach Gives Back"
+      ],
+      "interactive_tools": [
+        "Tide Window Finder: enter a beach or zip → next 30 days of daylight low-tide windows, scored and ranked, with 'arrive by / leave by' times",
+        "Year-at-a-Glance Minus Tide Heatmap: 365-day calendar per station showing window quality at a glance, printable",
+        "Trip Picker: choose a beach + a date range (e.g. 'our vacation week') → the single best hour to go",
+        "iCal / Google Calendar export: subscribe to a station's minus-tide windows as a living calendar feed (email-gated)",
+        "Golden Hour × Low Tide overlap tool for beach and tidepool photographers",
+        "Embeddable 'Next Great Low Tide' badge for local blogs, aquariums, and park sites — with attribution link (passive backlink engine)"
+      ],
+      "email_hook": "The Minus Tide Alert: pick your stretch of coast and get one short weekly email — this week's best windows within driving distance, what's being spotted in the pools right now (live iNaturalist counts), and a heads-up when a rare daylight king-tide low is coming. Click-triggered two-step opt-ins gate the enhanced outputs people genuinely want: the full-year printable minus-tide calendar PDF for their station and the iCal subscription feed. The core 30-day tool result stays free and ungated. Tide windows are inherently perishable and recurring — exactly the cadence a weekly newsletter monetizes, with a natural 'don't miss June 16' urgency the site never has to fake.",
+      "seo_opportunity": "Demand is proven and annually renewed: local outlets hand-write 'exact dates to go tidepooling in 2026' listicles every single year (That Oregon Life, La Jolla Mom, Oregon Coast Weekend), and Washington's fish agency publishes a PDF of 'best daylight low tides' — people clearly want digested windows, not raw tables. Yet the queries are served by generic tide-table dumps (tides.net, tidetime.org) and single-town blog posts. The long-tail supply is enormous and near-zero difficulty: [station/beach] × [month] × [year] × [intent] ('best tide pooling days august 2026 fitzgerald marine reserve', 'minus tides seaside oregon 2027', 'is saturday good for tide pools la jolla') — thousands of 4-6 word specific-intent queries no authority site targets individually, ideal for a fresh domain's first wins in weeks on Bing/Brave and months 4-6 on Google.",
+      "aeo_angle": "Every page opens with a self-contained, dated 40-80-word answer ('The best daylight minus tide at Cabrillo NM in July 2026 is Tuesday July 14 at 7:12 AM, -1.4 ft — one of only 3 daylight tides below -1.0 ft this month, per NOAA station 9410170'). That is a statistic with a named primary source — the single strongest citation lifter (+41%) — on every page, structurally. LLMs cannot compute future tide-daylight intersections themselves, so answer engines must cite someone; today's citable sources are raw tables and blog posts. Question-formatted H2s answer the fan-out sub-questions ('how low is low enough', 'what will I see', 'is it safe at night'), pages carry visible update stamps (refreshed daily), everything is SSG HTML, and robots.txt welcomes OAI-SearchBot, PerplexityBot, and Claude-SearchBot with IndexNow on every publish for the Bing-backed engines.",
+      "zero_click_defense": "A chat answer can't replace a personalized, perishable computation: the value is 'the best hour for MY beach during MY week,' delivered as a ranked interactive list, a printable year calendar, an iCal feed that updates itself, and an embeddable widget. Even if an AI Overview quotes this weekend's best window (with our name attached — brand-recall win), users come to run the Trip Picker, export the calendar, and check the live 'what's in the pools now' species feed. Freshness is structural: the answer literally changes every day.",
+      "autonomy_fit": "This is the rare content site where the ground truth is an API, not a claim. Tide windows, rankings, calendars, and 'only 4 mornings qualify' synthesis lines are all deterministic computation over NOAA harmonic predictions fetched at build time — the entailment check is a unit test, not an LLM judgment. Species tables are counts from iNaturalist's open API with attribution; safety guidance is limited to quoting posted NPS/state-park pages verbatim with links. There are no opinions to fake, no experts to invent, no products to review. The honesty page writes itself: 'Every window on this site is computed from NOAA station predictions; here is the scoring formula.' Gates like 'all cited URLs return 200' and 'no parametric-memory statistics' are trivially satisfiable because the pipeline never needs the LLM to know a fact — only to phrase one.",
+      "risks": [
+        "Strong seasonality: traffic and newsletter relevance trough in winter (mitigate with king tide season, storm beachcombing, and Southern/Gulf coverage where winter lows are daytime)",
+        "US-coastal audience only — total addressable search volume is niche-sized by design; growth ceiling is real",
+        "NOAA API changes or outages would stall the pipeline (mitigate by pre-fetching full-year predictions and caching; predictions are stable years ahead)",
+        "Tide predictions differ from actual water levels in storms — must frame everything as 'predictions, check conditions' and never drift into safety/rescue or shellfish-consumption advice (biotoxin/harvest topics are YMYL-adjacent and stay off-limits)",
+        "A DA-70 local publisher (LaJollaMom-style) or tides.net could clone the 'best windows' format; moat is national coverage depth, calendar exports, and the quarterly index dataset",
+        "Programmatic station pages risk thin-content classification if the synthesis layer degrades — the 30-60% page-specific content gate must hold or the template gets pruned",
+        "iNaturalist photo licensing requires per-image CC filtering and attribution discipline",
+        "Exact .com availability for the name is unverified; fallbacks like tidewindows.com or minustide.co need checking before launch"
+      ],
+      "differentiation": "Everyone else ships raw tide tables (tides.net, US Harbors) or one-town, one-year blog posts written by hand each spring. Tidewindow is the only site that computes the answer people actually want — 'which daylight hours are worth the drive' — for every US station, every month, years ahead, with a stated scoring methodology, live species data layered on top, and calendar-native delivery (iCal, printable PDF, embeddable badge). It occupies the SmartAsset position for a charming hobby: one core computation engine, thousands of legitimate per-variant pages, and an annual original dataset (the Daylight Minus-Tide Index) that no blogger or generic tide site has ever compiled."
+    },
+    {
+      "lens": "problem-solver",
+      "name": "PrintDial",
+      "slug": "printdial",
+      "niche": "FDM 3D-printing troubleshooting and filament settings — the printer-model × filament-brand × symptom long tail (e.g. \"PETG stringing at 245C on a Bambu A1\"), backed by a cross-brand filament spec database compiled from manufacturer technical data sheets.",
+      "one_liner": "The site that answers the exact 3D-printing question you have — your printer, your filament, your symptom — with every number traced to a manufacturer spec sheet, plus calibration files generated for your machine.",
+      "target_audience": "Hobbyist FDM printer owners (Bambu Lab, Creality, Prusa, Elegoo, Anycubic) in the US/global English market — especially the huge wave of post-holiday beginners and intermediate users dialing in new filaments. An expensive, recurring, non-YMYL hobby with constant gear churn and strong newsletter habits.",
+      "content_engine": "Daily pipeline: pick one long-tail intent from a combinatorial backlog (symptom × printer model × material/brand, \"can I print X on Y\", drying questions, spec comparisons), fetch primary sources during the run (manufacturer TDS/spec pages, printer manuals, slicer release notes), entail-check every temperature/speed/spec against the fetched document, and publish an answer-first page carrying a non-commodity element: a cross-brand spec table, a computed threshold, or a generated calibration file. Editorial cadence 2–5/week; programmatic printer×filament combo pages roll out in staged batches only after the first cluster indexes, each populated 30–60% from the unique spec database. Freshness is structural: new printers and filament lines ship monthly (new zero-competition query space), slicer/firmware updates trigger refreshes, and 30–50% of capacity goes to updating combo pages with visible changelogs. One original dataset per quarter (e.g. drying times across 30 brands, price-per-kg index, published max volumetric speeds compared). The space — 100+ active printer models × ~20 material families × hundreds of branded products × ~30 symptoms — sustains years of daily publishing without repetition.",
+      "initial_content_examples": [
+        "PETG first layer not sticking to a textured PEI plate: 7 fixes, ranked",
+        "Why PETG strings at 245°C — exact temp and retraction fixes by brand",
+        "Can you print TPU on a Bambu Lab A1 Mini with the AMS lite? What the specs actually say",
+        "Overture PLA vs Polymaker PolyTerra: spec-sheet settings compared side by side",
+        "How long to dry PETG at 65°C: drying times from 9 manufacturer data sheets",
+        "Ender 3 V3 SE first layer too squished: z-offset or e-steps? A 2-minute diagnosis",
+        "Ghosting and ringing on a Creality K1 at 150 mm/s: what to change first",
+        "ASA vs ABS on an open-frame printer: warping thresholds from the data sheets",
+        "Wet filament vs clogged nozzle: how to tell the difference in 2 minutes",
+        "Elegoo Neptune 4 Pro PLA settings: the manual vs the filament TDS, reconciled"
+      ],
+      "interactive_tools": [
+        "Temperature tower / retraction test G-code generator tuned per printer + material (downloadable file)",
+        "Searchable cross-brand filament spec database (nozzle/bed temps, drying, density, max volumetric speed)",
+        "Filament remaining estimator (spool weight in → grams and meters left, per brand spool weights)",
+        "Print cost calculator (filament price, electricity, machine time)",
+        "Drying time lookup by material and dryer temperature, sourced from TDS documents",
+        "Max volumetric speed / flow calculator with per-hotend presets",
+        "Interactive first-layer troubleshooting decision tree"
+      ],
+      "email_hook": "Click-triggered two-step opt-in on every tool: core result free, then \"Email me my printer profile pack\" — a personalized PDF cheat sheet + slicer profile bundle for the user's printer and filaments. Flagship magnet: a 7-day \"Dial It In\" calibration email course. Weekly newsletter \"The Dry Box\": new printer/filament releases with sourced starting settings, one troubleshooting deep dive, and the updated spec-database changelog — the hobby's gear churn makes weekly genuinely useful.",
+      "seo_opportunity": "SERP sampling shows 4+ word combo queries (symptom × printer × filament) return only forum threads — a Prusa forum post was the sole strong result for \"first layer PETG not sticking Ender 3\". Incumbents are generic: All3DP and Simplify3D cover per-material basics, brand wikis (Bambu, Polymaker) cover only their own products; FilaScope is small and early. No one owns the cross-brand, per-combination layer. New printer models launch monthly, minting fresh KD~0 query space ('[new model] + [symptom]') that a daily agent can claim within weeks — realistic first Bing/Brave and Google long-tail wins on a new domain.",
+      "aeo_angle": "Every settings claim is a statistic with a named primary source (manufacturer TDS) — the exact pattern with the +41%/+40% citation lift. Pages answer fan-out sub-questions (X vs Y, is X worth it, can X do Y) with a self-contained 40–80-word answer up top, question-formatted H2s, and visible update dates keyed to real spec changes. The quarterly compiled datasets (drying times, volumetric speeds, price index) are exactly what answer engines cite when asked \"what temperature should I print [brand] PETG\" — no single authoritative cross-brand source currently exists for them to cite. Server-rendered tables, IndexNow to Bing (ChatGPT) and Brave (Claude) verified separately.",
+      "zero_click_defense": "A chat answer cannot hand you a temperature-tower G-code file generated for your specific printer and material, a downloadable slicer profile, or a live searchable spec database — and LLMs are notoriously unreliable on exact per-brand temps and specs, which users know from burned prints. Printable bench-side cheat sheets, interactive decision trees, and calculators give reasons to visit and return; the personalized profile pack gives a reason to hand over an email.",
+      "autonomy_fit": "Ground truth is public, machine-readable, and stable: manufacturer technical data sheets, printer spec pages, and slicer documentation — fetched during each pipeline run and entail-checked, never recalled from parametric memory. Calculator and G-code outputs are computed, not written, so they cannot hallucinate. The agent can regression-test every published number against its source URL on refresh. No credentials required, no YMYL exposure, no UGC, no partnerships — troubleshooting logic reduces to documented specs plus physics, the most self-verifiable corner of any hardware hobby.",
+      "risks": [
+        "Generic troubleshooting queries are increasingly answered by LLMs/AI Overviews — mitigated by focusing on combo-specific pages, tools, and downloads, and by sampling 30-50 target SERPs for AIO saturation before committing",
+        "Reddit and brand wikis hold strong positions for some queries; forum-flavored SERPs may resist blog-style pages",
+        "FilaScope or a brand (Bambu) could expand into cross-brand databases with more authority",
+        "Manufacturer spec URLs change or go behind redesigns — pipeline needs archived copies and link monitoring",
+        "Programmatic printer-x-filament pages pattern-match scaled content abuse if rolled out too fast on a fresh domain — must follow staged 10-20 / 50-100 / weekly-batch rollout with indexing proof",
+        "Bad generated settings could waste users' filament and erode trust — generators must stay within TDS-documented ranges with conservative defaults",
+        "Hardware churn means the spec database decays without continuous refresh (agent-manageable but a permanent crawl/verify cost)"
+      ],
+      "differentiation": "The only cross-brand, source-cited filament settings database with a page for every printer × filament combination and machine-generated calibration files — versus unstructured forum threads, single-brand wikis, and generic per-material guides. Its moat is the compounding, verifiable data asset: every number on the site traces to a fetched primary document, which is simultaneously the E-E-A-T proof, the link magnet, and the thing an LLM cannot safely improvise."
+    },
+    {
+      "lens": "fresh-data",
+      "name": "StockedWaters",
+      "slug": "stocked-waters",
+      "niche": "Live tracking of state fish (trout) stocking reports across the US — when, where, what species, and how many fish were planted, cross-referenced with river/lake conditions",
+      "one_liner": "A daily-updated national tracker that answers \"was my lake stocked this week?\" — normalizing every state's trout stocking reports into per-water pages with stocking history, freshness scores, and worth-the-trip conditions.",
+      "target_audience": "US stocked-trout anglers: the mass-market segment of ~40M fishing license holders — families, beginners, retirees, and weekend put-and-take anglers who plan trips around hatchery truck schedules, plus fly anglers chasing delayed-harvest and in-season plants",
+      "content_engine": "The daily agent ingests state stocking feeds (WDFW and CDFW ArcGIS open-data APIs, Virginia DWR and North Carolina daily lists, MA/OR/TX/PA/NJ/NY schedules — all public-domain government data) into a normalized database, then regenerates via ISR: per-water pages (last-stocked date, species, counts, full history chart, 'typically stocked' pattern), per-state weekly roundups, and a national 'stocked this week' map. Weekly it publishes one edited editorial piece per the 2-5/week cap (opening-day guides, delayed-harvest explainers, 'how state hatcheries decide where trucks go'). Quarterly it compiles an original dataset — e.g. 'How many trout each state stocked in 2026, by species' — from its own accumulated database. It stays non-repetitive for years because the underlying data changes weekly, coverage expands state-by-state and water-by-water (thousands of waters = staged programmatic expansion backed by unique data), and 30-50% of capacity goes to refreshing pages with new stocking events, which is the product itself, not busywork. Every number traces to a government source row fetched during the run — the entailment check is a literal data comparison.",
+      "initial_content_examples": [
+        "Washington Trout Plants This Week: Every Lake Stocked, Updated Daily from WDFW Data",
+        "When Will My Lake Be Stocked? How State Trout Stocking Schedules Actually Work",
+        "Virginia Daily Trout Stocking: Today's Stocked Waters, Mapped with History",
+        "How Long After Stocking Are Trout Still Catchable? What the Stocking Data Shows",
+        "North Carolina Delayed Harvest Stocking Dates 2026: Full Calendar by Water",
+        "Texas Winter Trout Stocking 2026-27: Every Neighborhood Pond on the Schedule",
+        "Best Baits and Flies for Freshly Stocked Trout (First Two Weeks After the Truck)",
+        "How to Find Pennsylvania's Unannounced In-Season Trout Stockings",
+        "California Trout Plants This Week: CDFW's Stocked Waters List, Explained and Mapped",
+        "How Many Trout Does Each State Stock Per Year? 2026 State-by-State Numbers"
+      ],
+      "interactive_tools": [
+        "Stocking lookup: pick a state and water body, get last-stocked date, species, count, and full stocking history chart",
+        "Days-since-stocked freshness meter with a 'catch window' indicator on every water page",
+        "Worth-the-trip weekend score: stocking recency cross-referenced with USGS gauge flow and Open-Meteo weather for that water",
+        "Stocking calendar generator: downloadable .ics feed for any water, county, or state's scheduled stockings",
+        "State stocking stats explorer: interactive charts of fish planted by state, species, and month from the site's own database",
+        "Embeddable 'Recently Stocked Near X' widget with attribution link for fishing club and tackle shop sites (passive backlink engine)"
+      ],
+      "email_hook": "\"Get an email when your waters are stocked\" — a click-triggered two-step opt-in on every water page. Most states either have no alert system or a clunky one-state-only list; ours watches specific waters and sends a weekly state digest (this week's plants + weekend best-bets + flow conditions). Lead magnets: per-state 2026 stocking calendar (.ics + PDF) matched to each state cluster, and a 5-day 'Stocked Trout Crash Course' email course as the flagship. Core lookup always free; email gates only the alerts and saved calendars.",
+      "seo_opportunity": "SERP sampling shows every state has recurring demand ('[state] trout stocking schedule 2026', 'trout stocking near me', '[lake] stocking') but the only results are state agency pages — authoritative yet per-state, history-free, often PDF or ASPX tables — plus one thin link-list guide (StateOutdoors.org). No national live aggregator exists. The per-water long-tail ('when was Lake Padden stocked', 'Dutch Springs delayed harvest dates') spans thousands of waters with effectively zero dedicated competing pages — classic KD<30, 4+ word specific-intent supply. Demand is sharply seasonal (spring/fall in the north, winter in TX/AZ, summer high-lakes in the west), which staggers into year-round coverage and justifies the weekly newsletter.",
+      "aeo_angle": "'Was X stocked this week' and 'when does [state] stock trout' are freshness-dependent queries no LLM can answer from parametric memory — engines must retrieve, and Perplexity's freshness-weighted reranker plus Google's query fan-out (sub-questions like 'what species', 'how many', 'how often') favor per-water pages that lead with a dated, self-contained 40-80-word answer, a sourced statistic (+41% citation lift), and a citation to the state agency (+40%). All data server-rendered HTML, question-formatted H2s, visible updated-today stamps, OAI-SearchBot/PerplexityBot/Claude-SearchBot allowed, IndexNow on every daily update. The quarterly national stocking dataset is the kind of compiled statistic AI answers about fishing will cite for years.",
+      "zero_click_defense": "Even if a chat answer cites us, anglers come for what chat can't hand them: the live map and lookup for their specific water, the history chart, the .ics calendar subscription, the embeddable widget, and per-water email alerts. The core value is a monitored feed, not a fact — it changes weekly, so a one-time answer decays immediately and the alert list is the durable relationship. AI referrals convert 4-23x, and 'alert me' is the natural high-intent conversion.",
+      "autonomy_fit": "The entire product is deterministic transformation of tabular government data: fetch official state feeds (public-domain/public-record, several via purpose-built ArcGIS open-data APIs), normalize, compute (days since, percentiles, typical-week patterns), render. No opinions, interviews, or judgment calls required; every published number is machine-checkable against the source row fetched in the same run, so Tier-2 grounding gates are literal equality checks. Editorial pieces are derived from the site's own database ('what the data shows'), which is the lowest-hallucination content class. No UGC, no moderation, no partnerships; alerts run on a daily cron with Resend. Not YMYL — the site presents data and links to official regulations rather than interpreting them.",
+      "risks": [
+        "Parser fragility: 50 states means 50 formats, some PDF-only or post-hoc; mitigate by launching with 8-12 clean-data states (WA, CA, VA, NC, MA, OR, TX, PA, NJ, NY) and hard-failing a state's updates rather than publishing stale/garbled data",
+        "State agency domains outrank for head terms like '[state] trout stocking schedule'; the win must come from per-water long-tail, history/context they don't offer, and AEO citations",
+        "Sharp seasonality: traffic troughs between stocking seasons; staggered state coverage (TX/AZ winter, western high lakes summer) and the newsletter smooth but don't eliminate it",
+        "A funded fishing app (onWater, Fishbrain, Troutlook) could ship free stocking aggregation; defense is web-first SEO surface, embeddable widgets, and the accumulated historical dataset",
+        "Some states change publication behavior (PA deliberately obscures in-season stockings; agencies may move or throttle endpoints), requiring adapter maintenance and respectful fetch cadence",
+        "New-domain reality: 3-6 months of near-zero Google traffic; survival depends on Bing/Brave indexing, directory/widget backlinks, and early email capture"
+      ],
+      "differentiation": "The only normalized, national, daily-updated stocking database with per-water history — government sources are siloed per state with no history, no freshness context, and no cross-referencing; apps that touch stocking data are mobile-only and paywalled. StockedWaters compounds a proprietary asset (multi-year, cross-state stocking history) that neither an LLM nor a copycat can reproduce without running the same pipeline for years, and layers the one thing no agency provides: 'is it worth going this weekend' — stocking recency joined with USGS flows and weather."
+    }
+  ],
+  "judgments": [
+    {
+      "judge": "seo-skeptic",
+      "scores": [
+        {
+          "concept": "Tidewindow",
+          "seo_traffic_realism": 7,
+          "aeo_citability": 8,
+          "autonomy_feasibility": 9,
+          "email_conversion": 8,
+          "user_delight": 9,
+          "penalty_risk_inverse": 7,
+          "total": 48,
+          "fatal_flaws": [],
+          "notes": "Only concept where SERP checks CONFIRM the pitch: demand is proven (local outlets hand-write 'exact 2026 dates' listicles every year; state agencies publish PDFs) and no computed national competitor exists — incumbents are single-town blog posts and raw tide tables. LLMs genuinely cannot compute future tide-times-daylight intersections, so AEO citation demand is structural. Caveats keeping it from higher: AI Overviews already summarize head-term date lists ('lowest tides 2026 May 17-19'), per-station long-tail volume is modest, sharp seasonality, and 1,000 programmatic station pages still carry thin-content risk on a fresh domain even staged."
+        },
+        {
+          "concept": "GrainMath",
+          "seo_traffic_realism": 6,
+          "aeo_citability": 7,
+          "autonomy_feasibility": 8,
+          "email_conversion": 7,
+          "user_delight": 8,
+          "penalty_risk_inverse": 8,
+          "total": 44,
+          "fatal_flaws": [
+            "Core differentiation claim is factually wrong: KM Tools' wood movement calculator already combines species + city + grain orientation + width, and Woodworkers Source has a species shrinkage calculator — the 'nobody fuses the two datasets' moat does not exist"
+          ],
+          "notes": "Still a solid concept despite the refuted uniqueness claim: KM Tools' calculator is retailer lead-gen with no content depth, and the long-tail Q&A layer (breadboard gaps by species/region, acclimation by city) is real and underserved. But pure number-lookup queries (board-foot weight) are already AIO-absorbed and answered by retailer tables, capping traffic upside. Evergreen non-dated demand, strong hobbyist email culture, deterministic public-domain data, and the most penalty-safe profile of the six (mostly editorial, modest programmatic footprint)."
+        },
+        {
+          "concept": "StockedWaters",
+          "seo_traffic_realism": 5,
+          "aeo_citability": 7,
+          "autonomy_feasibility": 6,
+          "email_conversion": 9,
+          "user_delight": 8,
+          "penalty_risk_inverse": 6,
+          "total": 41,
+          "fatal_flaws": [],
+          "notes": "Demand is real and mass-market, and the national normalized layer is genuinely open — existing third parties (trout-tracker-wa on vercel.app, hatcherytrackpnw) are tiny hobby projects. But three structural drags: state agency .gov domains own every head term; the core value prop is freshness ('stocked this week') on a new domain Google won't crawl or rank fast for 6+ months, so the product's best feature is invisible exactly when it matters; and thousands of per-water pages of republished government tables pattern-match scraped/thin content unless the history+conditions layer carries real weight. Best email hook of the set ('alert me when my lake is stocked') partially compensates. Autonomy dinged for 50-state parser fragility and agencies that obscure or throttle data."
+        },
+        {
+          "concept": "The Dark Window",
+          "seo_traffic_realism": 4,
+          "aeo_citability": 6,
+          "autonomy_feasibility": 9,
+          "email_conversion": 7,
+          "user_delight": 8,
+          "penalty_risk_inverse": 7,
+          "total": 41,
+          "fatal_flaws": [
+            "Its flagship query class (event x year x moon) is already triple-served: authority almanacs (EarthSky, Old Farmer's Almanac, AMS, timeanddate) plus a visible wave of 2026-dated AI-scaled entrants (telescopeadvisor, zendaruniverse, universaltimedate, fastool) plus complete AI Overview answers — SERP check showed the AIO fully resolving 'Perseids 2026 moon phase' including interference and best hours"
+          ],
+          "notes": "The better-executed of the two near-duplicate dark-sky concepts: it avoids the place-x-month page explosion, leads with monthly guides and event pages, and has honest risk framing. Autonomy is the best case in the set (deterministic ephemeris, machine-verifiable). But the traffic thesis fails my check: dated event queries are where competition is WORST, not zero — almanac giants publish these pages years ahead, and the AI-slop gold rush already arrived. Salvageable remainder is the genuinely empty 'new moon weekends October 2026 [state]' and location-personalized layer, which is small. Publishing 2027 pages early helps on Bing/Brave, not on a sandboxed Google domain."
+        },
+        {
+          "concept": "Dark Sky Almanac",
+          "seo_traffic_realism": 3,
+          "aeo_citability": 6,
+          "autonomy_feasibility": 9,
+          "email_conversion": 6,
+          "user_delight": 7,
+          "penalty_risk_inverse": 5,
+          "total": 36,
+          "fatal_flaws": [
+            "The programmatic core targets queries nobody types: park x specific-month x year phrasing ('best stargazing nights at Cherry Springs in September 2026') has near-zero search volume — real searchers use undated head phrasings owned by park authorities, PA DCNR, AccuWeather, and travel blogs",
+            "250+ places x 12 months x rolling years of templated computed pages on a fresh domain is the cleanest scaled-content-abuse pattern-match of all six concepts; 'Discovered - currently not indexed' purgatory is acknowledged in its own risks and I agree — likely indefinite for most of the corpus"
+          ],
+          "notes": "Same deterministic-computation strengths as The Dark Window (autonomy near-perfect, numbers LLMs cannot produce), but the reference-database framing manufactures inventory instead of matching demand. Shower/event queries face the same almanac-giant + AI-slop + AIO saturation found in spot-checks. The VIIRS original datasets and ICS export are genuinely citable/linkable assets, but they sit on top of thousands of zero-demand pages that put the whole domain at classifier risk. Also unresolved DarkSky International brand-collision risk on the name."
+        },
+        {
+          "concept": "PrintDial",
+          "seo_traffic_realism": 3,
+          "aeo_citability": 6,
+          "autonomy_feasibility": 7,
+          "email_conversion": 7,
+          "user_delight": 7,
+          "penalty_risk_inverse": 4,
+          "total": 34,
+          "fatal_flaws": [
+            "Its SERP-sampling premise is refuted: combo queries like 'PETG stringing Bambu A1' already return multiple 2026-dated purpose-built niche sites (filamentpicks.com, stacksheriff.com, adpindustries.com, call-3d.com) running the identical TDS-sourced settings-database playbook — the gold rush already happened and PrintDial would be the fifth lookalike, not the first mover",
+            "Troubleshooting Q&A is the single most LLM-absorbed query class: users paste symptoms into ChatGPT/AIO and get complete fixes (the AI Overview in my check resolved the query end-to-end), so even ranking pages bleed clicks"
+          ],
+          "notes": "The spec database, G-code generators, and downloadable profiles are real differentiators that the lookalikes lack, and TDS-sourced numbers are properly citable. But a SERP category already crowded with interchangeable AI-flavored settings sites is exactly the 'commodity content' class the January 2026 update hit with zero recoveries — being the best-executed member of a penalized cohort is not safe (penalty_risk_inverse 4). Printer-x-filament programmatic pages compound the pattern-match. Generated calibration G-code also carries burn-the-user's-filament trust risk the agent can't fully self-verify."
+        }
+      ],
+      "ranking": [
+        "Tidewindow",
+        "GrainMath",
+        "StockedWaters",
+        "The Dark Window",
+        "Dark Sky Almanac",
+        "PrintDial"
+      ],
+      "rationale": "I weighted traffic realism and penalty risk, and verified SERPs for all six concepts. Tidewindow wins because it is the only concept whose competitive-gap claim survived contact with the actual SERPs: demand is proven by annually hand-rewritten listicles and state PDF tide tables, no computed national aggregator exists, and LLMs structurally cannot compute future tide-daylight windows, forcing citation. GrainMath is second despite a refuted moat claim (KM Tools already ships a species+city movement calculator) because its demand is evergreen, its penalty profile is the safest in the set, and the calculator-intent long-tail is still weakly served. StockedWaters has real mass-market demand and the best email hook, but .gov domination plus the freshness-product-on-a-sandboxed-domain contradiction caps early traffic. The two dark-sky concepts split the same niche and both misread the SERP: dated event queries are saturated by almanac authorities, a visible AI-slop wave, and complete AI Overviews; The Dark Window ranks higher for its saner page architecture, while Dark Sky Almanac's place-x-month programmatic corpus targets queries nobody types and is the clearest scaled-content pattern-match. PrintDial is last: its founding SERP claim is false — four lookalike TDS-database sites launched ahead of it in 2025-2026 — and it would enter the most LLM-absorbed, most commodity-classified content category of the six, the exact cohort the January 2026 update killed with zero recoveries."
+    },
+    {
+      "judge": "autonomy-skeptic",
+      "scores": [
+        {
+          "concept": "Tidewindow",
+          "seo_traffic_realism": 7,
+          "aeo_citability": 7,
+          "autonomy_feasibility": 9,
+          "email_conversion": 7,
+          "user_delight": 8,
+          "penalty_risk_inverse": 7,
+          "total": 45,
+          "fatal_flaws": [],
+          "notes": "Closest thing to autonomy-proof in the set. ONE reliable, keyless federal API (NOAA CO-OPS harmonic predictions, published years ahead, cacheable for a full year) plus local sunrise math — the pipeline has essentially one failure point and it's the most stable data source in US government. The load-bearing content is arithmetic, and the prose layer ('only 3 of 62 low tides qualify') is a templated restatement of computed values — the LLM never has to know a fact, only phrase one. Hallucination surface is confined to optional iNaturalist enrichment (counts via API, low risk) and the strict instruction to never drift into safety/shellfish advice — the one place a daily agent could wander over years; the config blocklist must actually hold. Depth check passes: annual calendar regeneration, king tide cycles, station-by-station expansion, and use-case layers (photography, beachcombing) give the daily agent real work; and critically, Google already tolerates thin-but-matched tide-table pages in this vertical (tides.net ranks with raw tables), so the programmatic format has demonstrated survivability. Demand is proven by hand-written annual minus-tide listicles and a state agency literally publishing a 'best daylight tides' PDF. Honest weaknesses: hard winter trough, US-coastal-only ceiling, and the delight/traffic is regionally lopsided (PNW/CA carry it). Email hook (perishable weekly windows + alerts) is naturally recurring. Best autonomy-adjusted bet."
+        },
+        {
+          "concept": "GrainMath",
+          "seo_traffic_realism": 6,
+          "aeo_citability": 7,
+          "autonomy_feasibility": 7,
+          "email_conversion": 6,
+          "user_delight": 7,
+          "penalty_risk_inverse": 7,
+          "total": 40,
+          "fatal_flaws": [],
+          "notes": "Strong core, but less autonomous than it claims. The species×city computation layer is genuinely deterministic and both datasets are static/annual — near-zero refresh burden, near-zero pipeline fragility (best ingestion story after Tidewindow; USDA coefficients are a one-time extraction from a public-domain PDF). The cracks: (1) the Q&A cluster (breadboard gaps, fastener choice, acclimation) is craft judgment, not arithmetic — 'entailment-check against FPL PDFs' is aspirational for advice-shaped claims, and this hobby has vigilant forum experts who will publicly flag the indoor-vs-outdoor EMC precision problem the concept itself admits; one viral 'this site's numbers are wrong' Reddit thread damages the whole trust premise. (2) The quarterly telemetry dataset is a chicken-and-egg fiction for the first 12-18 months — no traffic, no '10,000 cut lists.' (3) Content depth is finite: ~90 species, ~250 cities, and maybe 150-250 genuinely distinct Q&A intents; a daily agent runs out of non-repetitive editorial work in year 2 and must slow down rather than degrade — acceptable if the config enforces it. Non-seasonal-ish demand, evergreen data, embeddable widget backlinks, and a real 'nobody fuses these two datasets' differentiation. Solid second."
+        },
+        {
+          "concept": "The Dark Window",
+          "seo_traffic_realism": 5,
+          "aeo_citability": 6,
+          "autonomy_feasibility": 8,
+          "email_conversion": 6,
+          "user_delight": 7,
+          "penalty_risk_inverse": 6,
+          "total": 38,
+          "fatal_flaws": [
+            "The zero-competition premise for event×year pages is false: EarthSky, Space.com, StarWalk, and timeanddate publish 'Perseids 2026' guides 6-12 months ahead, every year, with DA 80+ — the annually-resetting queries reset in incumbents' favor, not a new domain's"
+          ],
+          "notes": "Excellent autonomy mechanics — dual-source numeric verification (astronomy-engine vs JPL Horizons) turns the grounding gate into a diff, the single most enforceable QA design in the set. But the business premise is softer than the pipeline. Event-level queries with real volume are saturated by astronomy publishers who already do annual refreshes religiously; the truly uncontested layer (location×month scored nights) has vanishing search volume. AEO claim is overstated: engines answering 'Geminids 2026 moon phase' have abundant authoritative sources to cite already — the citation gap exists only where the queries barely exist. Content depth concern is real: ~15 meteor showers/events per year plus 12 monthly guides plus ~50 explainers means the daily agent exhausts distinct editorial intents within 18 months and drifts toward thin location pages — the degradation path is visible from here. Erosion risk is the highest in the set: ChatGPT with code execution already computes moon phases and rise times correctly, and will only get better through 2027-2028. The .ics feed and monthly digest are good retention mechanics that partially compensate. Ranks above StockedWaters purely on autonomy weighting."
+        },
+        {
+          "concept": "StockedWaters",
+          "seo_traffic_realism": 7,
+          "aeo_citability": 7,
+          "autonomy_feasibility": 5,
+          "email_conversion": 8,
+          "user_delight": 7,
+          "penalty_risk_inverse": 7,
+          "total": 41,
+          "fatal_flaws": [
+            "Multi-state ingestion rot: 8-12 launch states means 8-12 heterogeneous scrapers (ArcGIS, ASPX postbacks, PDFs, hand-edited HTML) against agencies that redesign without notice; over a multi-year unattended horizon, silent parser failures and silent misparses (wrong counts, wrong dates, wrong water via name-collision entity resolution) are near-certain, and a 'daily-updated' tracker that is quietly stale in 4 states has broken its core promise without anyone noticing"
+          ],
+          "notes": "The best demand and email story in the set — 40M license holders, 'alert me when my lake is stocked' is a genuinely superior conversion trigger, and the accumulated cross-state history is a real compounding moat no LLM can reproduce. Hallucination risk on published numbers is near zero (tabular copy-through with literal equality checks). But this is the concept where the pipeline, not the LLM, is the failure mode, and it fails in the worst way: silently and incrementally. Entity resolution across thousands of ambiguously-named waters ('Mill Pond' exists in every county) is exactly where agents make confident, user-visible errors. The agent can patch its own parsers — that's the strongest counterargument — but self-detecting a misparse that still yields plausible-looking rows is an unsolved problem, and stocking data errors are checkable by users against the agency source, so trust damage is immediate. Add PA-style deliberate obfuscation, agency throttling risk, and sharp seasonality. Highest raw total after Tidewindow; ranked fourth because the brief says weight autonomy, and this is a permanent ops job wearing an autonomy costume."
+        },
+        {
+          "concept": "Dark Sky Almanac",
+          "seo_traffic_realism": 4,
+          "aeo_citability": 6,
+          "autonomy_feasibility": 8,
+          "email_conversion": 6,
+          "user_delight": 7,
+          "penalty_risk_inverse": 5,
+          "total": 36,
+          "fatal_flaws": [
+            "Volume mismatch at the core programmatic unit: 'Cherry Springs September 2026 moonless windows' style place×month queries have near-zero search volume, while the queries with volume (park stargazing head terms, shower guides) are owned by NPS, travel publishers, and astronomy sites — the site is architected around thousands of pages almost nobody searches for",
+            "Place×month×year pages with a 100-150-word synthesis layer over structurally identical tables is the textbook scaled-content/thin-content pattern on a fresh domain; 'Discovered - currently not indexed' purgatory is conceded in its own risks and there is no fallback traffic channel while it lasts"
+          ],
+          "notes": "Same excellent deterministic core as The Dark Window (which it overlaps almost completely — these are the same idea at different granularity), but the worse instantiation: it commits to the place-level programmatic database as the product, which maximizes both the thin-content penalty surface and the volume mismatch, while The Dark Window at least centers event/monthly editorial with tools. Build is also heavier than admitted: VIIRS raster processing, 250-place metadata curation, ICS generation, cloud climatology joins — all doable but more moving parts than the 'no API, local computation' pitch implies. The DarkSky International name/trademark adjacency is a real launch blocker flagged in its own risks. Monthly refresh cadence is genuinely intrinsic (good), autonomy mechanics are strong (8), and the VIIRS annual report is a legitimately citable original dataset. If the two stargazing concepts were merged — Dark Window's editorial spine plus Almanac's ICS utility — you'd have one concept ranked second. As submitted, it's the weaker twin."
+        },
+        {
+          "concept": "PrintDial",
+          "seo_traffic_realism": 6,
+          "aeo_citability": 5,
+          "autonomy_feasibility": 4,
+          "email_conversion": 7,
+          "user_delight": 6,
+          "penalty_risk_inverse": 4,
+          "total": 32,
+          "fatal_flaws": [
+            "The core differentiator — printer×filament combo pages — has no primary source: a TDS gives a material's temp range and a printer manual gives machine limits, but the combination-specific settings that justify the page are LLM inference presented as data, unverifiable without physically printing, which the agent can never do",
+            "Machine-generated calibration G-code shipped without hardware testing can crash nozzles into beds or clog hotends across 100+ printer models with differing start-gcode conventions — one 'this site's file damaged my printer' Reddit thread is existential for a trust-based settings brand",
+            "TDS ingestion across 30+ manufacturer sites (PDFs, redesigns, region-variant sheets, discontinued SKUs) is a permanently fragile scraping operation — the same silent-rot failure mode as StockedWaters but against commercial sites with no obligation to stay parseable",
+            "Zero-click saturation is worst-in-set: 3D-printing troubleshooting is massively represented in training data, LLMs already answer 'PETG stringing at 245C' acceptably from memory, and post-Reddit-deal SERPs favor forum threads — the citation gap the concept needs largely doesn't exist"
+          ],
+          "notes": "Big market, great email hook (profile packs, gear-churn newsletter), and the cross-brand spec database is a genuinely missing asset. But it fails the skeptical autonomy test on every axis at once: the verifiable layer (TDS transcription) is commodity, and the valuable layer (troubleshooting judgment, combo tuning, ranked fixes) is exactly the craft knowledge an LLM writes from parametric memory — i.e., the commodity content the January 2026 update showed zero recoveries from, in the one vertical here where the audience can immediately falsify bad advice with a burned print. The combinatorial 'years of daily publishing' depth is illusory: symptom×printer×filament pages collapse into templated near-duplicates because the underlying physics doesn't vary per combination — repetition degradation within months, and scaled-content pattern-matching to go with it. The honest version of this site is a small, excellent spec database plus ~100 hand-quality guides — which is not a daily autonomous publishing engine. Rank last."
+        }
+      ],
+      "ranking": [
+        "Tidewindow",
+        "GrainMath",
+        "The Dark Window",
+        "StockedWaters",
+        "Dark Sky Almanac",
+        "PrintDial"
+      ],
+      "rationale": "Judged as a skeptic whose priority question is: can a daily LLM agent run this for years without a human, without hallucinating, without the pipeline rotting, and without the content space collapsing into repetition? Ranking weights autonomy_feasibility roughly double, so it diverges from raw totals in one place (StockedWaters outscores The Dark Window on raw sum but ranks below it). Key findings: (1) Tidewindow wins because it minimizes every failure surface simultaneously — one ultra-stable keyless federal API, pure arithmetic content where the LLM only phrases facts it never has to know, a programmatic format Google demonstrably tolerates in that vertical (tide sites rank with raw tables), proven annual demand, and a naturally perishable email hook. (2) GrainMath is second: static public-domain datasets mean near-zero pipeline risk, but its Q&A layer requires craft judgment that entailment-checking can't fully police, its telemetry dataset is chicken-and-egg for a year-plus, and its editorial space exhausts in ~2 years — survivable if cadence slows honestly. (3) The two stargazing concepts are near-duplicates with the best verification mechanics in the set (dual-ephemeris numeric diffs) but a shared business flaw: the queries with volume are owned by EarthSky/Space.com-class incumbents who already publish annually-refreshed event guides, the uncontested place×month layer has negligible volume, and LLM code execution is actively eroding the answer gap. The Dark Window's editorial-first architecture beats Dark Sky Almanac's thin-synthesis programmatic database, which is the textbook scaled-content pattern plus a trademark-adjacent name. (4) StockedWaters has the best demand and email conversion of all six and near-zero hallucination risk on published numbers, but it is an ops job disguised as autonomy: 8-12 heterogeneous government scrapers rotting silently over years, plus water-name entity resolution — the class of error agents make confidently and detect poorly. (5) PrintDial fails the skeptical test outright: its differentiating layer (combo-specific settings, ranked fixes, calibration G-code) is unverifiable-without-hardware LLM inference dressed as sourced data, in the vertical with the worst Reddit/AI-Overview saturation and an audience that falsifies bad advice with ruined prints. It is the only concept where the valuable content is precisely the content the agent cannot ground."
+    },
+    {
+      "judge": "user-advocate",
+      "ranking": [
+        "Tidewindow",
+        "StockedWaters",
+        "The Dark Window",
+        "GrainMath",
+        "Dark Sky Almanac",
+        "PrintDial"
+      ],
+      "rationale": "Judged as a skeptical end user asking: would I bookmark this, give it my email, and come back? The winners share one property: the email gate is the product, not a toll booth. Tidewindow wins because 'is this weekend worth the drive?' is a question real families ask every week, the incumbent answer (raw tide tables) is genuinely miserable, and 'alert me about MY beach' plus a year-at-a-glance calendar is an honest, wanted email — the delight is intrinsic ('only 3 mornings in July qualify — here's the math' is shareable and charming). StockedWaters has the single strongest email hook of the set ('email me when my lake is stocked' — urgent, recurring, no substitute anywhere) and a mass audience; it loses points only on parser fragility and agency-owned head terms. The Dark Window edges its sibling Dark Sky Almanac because the scored-night grid, event×year pages, and location personalization feel like a product, while the Almanac's place×month page factory feels like a database wearing SEO clothes — same math, more thin-page risk, weaker return-visit story, plus a brand-collision landmine. GrainMath is genuinely useful and the most 'non-commodity' content, but it's project-triggered (episodic visits, not weekly), the your-city precision is partly false precision for climate-controlled shops, and the quarterly telemetry dataset assumes traffic it won't have for a year. PrintDial ranks last despite the biggest audience: its core promise underdelivers — the answer to 'why does PETG string at 245 on a Bambu A1' is not in any TDS, TDS ranges are too wide to be the verdict users need, the '7 fixes, ranked' format is exactly the AI-slop shape, and these SERPs are Reddit-dominated and AI-Overview-saturated. It would feel like a confident site that can't actually know the thing it claims to know — the one failure mode a demanding user smells instantly.",
+      "scores": [
+        {
+          "concept": "Tidewindow",
+          "seo_traffic_realism": 7,
+          "aeo_citability": 8,
+          "autonomy_feasibility": 9,
+          "email_conversion": 8,
+          "user_delight": 9,
+          "penalty_risk_inverse": 7,
+          "total": 48,
+          "fatal_flaws": [],
+          "notes": "Best delight-per-page in the set: the incumbent experience (raw NOAA tables, one-town blog listicles rewritten yearly) is so bad that a computed 'only these 3 mornings are worth it' answer feels like magic. Proven demand — locals hand-write these lists every spring. Email hooks are honest and perishable (weekly best-windows alert, king-tide heads-up, year calendar PDF/iCal); I would give this my email. iNaturalist 'what's in the pools right now' layer adds return-visit charm no competitor has. Fully deterministic pipeline, keyless NOAA API. Watch-outs, not flaws: sharp winter trough, 1,000 station pages need the synthesis layer to hold or templates get pruned, and safety framing around sneaker waves must stay disciplined."
+        },
+        {
+          "concept": "StockedWaters",
+          "seo_traffic_realism": 7,
+          "aeo_citability": 7,
+          "autonomy_feasibility": 7,
+          "email_conversion": 9,
+          "user_delight": 8,
+          "penalty_risk_inverse": 8,
+          "total": 46,
+          "fatal_flaws": [],
+          "notes": "Strongest single email hook of all six: 'email me when my lake is stocked' is urgent, recurring, and has no substitute — most states have no alert system. Mass audience (40M license holders), not a boutique hobby. The accumulated cross-state history becomes a real moat no LLM can reproduce. Delight is real for the target user (freshness meter + worth-the-trip score answers the exact question). Docked on autonomy: 50-state parser fragility and agencies that deliberately obscure schedules make this the highest-maintenance pipeline here, and state agency domains own every head term, so growth is purely per-water long-tail plus alerts. AEO solid on freshness queries but fewer people ask chatbots 'was Lake Padden stocked' than ask Google."
+        },
+        {
+          "concept": "The Dark Window",
+          "seo_traffic_realism": 6,
+          "aeo_citability": 8,
+          "autonomy_feasibility": 9,
+          "email_conversion": 8,
+          "user_delight": 8,
+          "penalty_risk_inverse": 7,
+          "total": 46,
+          "fatal_flaws": [],
+          "notes": "The better of the two stargazing twins: scored night grids, 'will the moon ruin the Geminids' event×year pages published a year early, and a location-personalized .ics feed feel like a product rather than a page farm. Meteor-shower×year queries have genuine annual volume spikes and LLMs verifiably hallucinate ephemeris — strong citability. 'Learn the Night Sky in 5 Nights' timed to the subscriber's next dark window is a clever, honest magnet. Deductions: raw query volume outside shower peaks is thin, cloud cover (unknowable past 7 days) is the true determinant of a good night so long-range scores overpromise slightly, and frontier LLMs with code execution will erode the pure-number value — the calendar/alert layer must carry it."
+        },
+        {
+          "concept": "GrainMath",
+          "seo_traffic_realism": 7,
+          "aeo_citability": 7,
+          "autonomy_feasibility": 8,
+          "email_conversion": 7,
+          "user_delight": 8,
+          "penalty_risk_inverse": 8,
+          "total": 45,
+          "fatal_flaws": [],
+          "notes": "Most defensibly non-commodity content of the set — species coefficient × local humidity is a real computation nobody publishes, and the 'Project Sheet you carry to the lumberyard' is a tangible, honest gate. Wealthy, newsletter-friendly audience. But usage is project-triggered: I visit when building a table, not weekly, so the seasonal 'Shop Notes' newsletter has to manufacture cadence the tool itself doesn't create. The city-level precision is partly false precision — most shops are heated/cooled, so indoor EMC diverges from NOAA outdoor normals, and woodworking forums will litigate this (the concept admits it; the methodology page carries a lot of weight). Quarterly telemetry dataset ('we analyzed 10,000 cut lists') is chicken-and-egg — no traffic year one means no telemetry. Lowest penalty risk: ~250 city pages, capped species list, real per-page data."
+        },
+        {
+          "concept": "Dark Sky Almanac",
+          "seo_traffic_realism": 6,
+          "aeo_citability": 8,
+          "autonomy_feasibility": 9,
+          "email_conversion": 7,
+          "user_delight": 7,
+          "penalty_risk_inverse": 6,
+          "total": 43,
+          "fatal_flaws": [
+            "Near-duplicate of The Dark Window with a strictly weaker product framing — a place×month page database instead of a personalized planner; if both exist, this is the one to cut",
+            "Brand/domain collision with DarkSky International and the well-remembered Dark Sky weather app invites confusion and a possible forced rename"
+          ],
+          "notes": "Same excellent deterministic math and citability as its sibling, and the VIIRS sky-brightness annual report is a genuinely link-worthy original dataset. But 250 places × 12 months × rolling years is thousands of near-template pages whose prose layer is 100-150 words — this is the concept most likely to sit in 'Discovered - currently not indexed' purgatory and most likely to pattern-match scaled-content abuse on a fresh domain (own risks section concedes this). As a user, a page for 'Cherry Springs September 2026' is useful exactly once; the return visit and delight live in the calendar feed, which The Dark Window centers and this one treats as one tool among seven. Email hook (12-month PDF+ICS per location) is genuinely good."
+        },
+        {
+          "concept": "PrintDial",
+          "seo_traffic_realism": 7,
+          "aeo_citability": 6,
+          "autonomy_feasibility": 6,
+          "email_conversion": 6,
+          "user_delight": 5,
+          "penalty_risk_inverse": 6,
+          "total": 36,
+          "fatal_flaws": [
+            "Core epistemics don't close: TDS documents give wide ranges (PETG 230-250C), but the promised value is combo-specific verdicts ('245C on a Bambu A1') that no fetched source can entail — the agent must either hedge into uselessness or improvise the exact numbers it promises never to improvise",
+            "Troubleshooting advice is the most commodity-shaped, AI-Overview-saturated, Reddit-dominated vertical of the six; '7 fixes, ranked' pages are indistinguishable from the AI slop already flooding this niche"
+          ],
+          "notes": "Biggest audience and real recurring pain, and the legitimate assets (cross-brand spec database, per-printer G-code test generators, drying-time compilation) are genuinely useful and citable — as a user I'd use the spec table and the temp-tower generator. But the site's center of gravity is troubleshooting prose, where ground truth is experience (burned prints, community consensus), not documents, so the 'every number traced to a spec sheet' promise quietly fails on exactly the questions in the title tags. Experienced users already live on Reddit/Discord; beginners increasingly just ask ChatGPT, which handles generic FDM triage acceptably. Email hook (profile pack) is decent but slicer profiles built from TDS ranges rather than tested tuning risk disappointing — wasted filament is how this audience decides you're a fraud. Would work better re-scoped as pure database + generators with minimal editorial."
+        }
+      ]
+    }
+  ]
+}
