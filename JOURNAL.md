@@ -5,6 +5,24 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-03 — Launch content batch
+
+**Done:** All 20 launch articles live (write -> adversarial fact-check -> fix
+pipeline; every tide number traced to docs-internal/facts/, external claims
+web-verified with sources, internal links validated against routes). Sitemap now
+83 URLs. Resubmitted to IndexNow.
+
+**Notes:** First workflow run hit the session usage cap mid-verification; resumed
+after reset with cached writes — only verify/fix re-ran. Pillar Point article is
+dated 2026-07-03 (its data stamp) — correct behavior. NOAA station pages render
+client-side, so automated source-checks of tidesandcurrents.noaa.gov see a shell;
+the URLs are canonical and correct.
+
+**Tomorrow:** BACKLOG P0 — confirm daily-refresh cron ran green at 10:17 UTC and
+IndexNow succeeded in its logs; then start the weekly regional roundup (P1).
+
+---
+
 ## 2026-07-02 — Launch
 
 **Done:** Full launch build. NOAA pipeline (12 stations: 3 WA, 4 OR, 4 CA, 1 ME;

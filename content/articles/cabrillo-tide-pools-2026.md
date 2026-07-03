@@ -1,7 +1,7 @@
 ---
 title: "Cabrillo Tide Pools in 2026: The Low-Tide Schedule the Gate Hours Actually Allow"
 description: "Cabrillo's gate opens at 9 AM and the tidepools close at 4:30 PM, erasing July's minus tides. The usable 2026 dates are Oct 25, Nov 25, and Dec 22–24."
-date: "2026-07-02"
+date: "2026-07-03"
 category: "station-guides"
 tags: ["Cabrillo National Monument", "San Diego", "minus tides", "tide pool schedule", "station 9410170"]
 faq:
@@ -50,7 +50,7 @@ Here is 2026's headline list for station 9410170, run through the gate-hours fil
 | Thu, Nov 26 | −1.31 | 4:49 PM | — | Park closed (Thanksgiving); low is after 4:30 anyway |
 | Tue, Dec 22 | −1.49 | 2:20 PM | 1:20 PM | Usable, with 2+ hours after the low |
 | Wed, Dec 23 | −1.81 | 3:05 PM | 2:05 PM | Usable — best full window of 2026 |
-| Thu, Dec 24 | −1.88 | 3:50 PM | 2:50 PM | Usable; deepest low of the year, 40 minutes to enjoy it |
+| Thu, Dec 24 | −1.88 | 3:50 PM | 2:50 PM | Usable; deepest daylight low of the year, 40 minutes to enjoy it |
 | Fri, Dec 25 | −1.71 | 4:36 PM | — | Park closed (Christmas) |
 
 Five survivors, all in the last ten weeks of the year. And note the two holiday heartbreakers: 2026 puts a −1.31 ft low on Thanksgiving afternoon and a −1.71 ft low on Christmas afternoon, the only two days of the year the park closes entirely. Both lows fall after the tidepool area's 4:30 PM cutoff regardless, so the calendar is only rubbing it in.
@@ -59,9 +59,9 @@ Five survivors, all in the last ten weeks of the year. And note the two holiday 
 
 On paper, July 2026 is San Diego's best tidepool month of the summer: 22 lows below 1 ft, 14 daylight windows, 10 of them genuine daylight minus tides (computed 2026-07-03 from NOAA station 9410170 predictions). Every ranked window bottoms out between 3:34 AM and 6:55 AM. The month's deepest low, −1.69 ft on Tuesday, July 14, arrives at 4:17 AM; by the time the gate opens at 9:00 AM the tide has been flooding back in for almost five hours. August repeats the pattern — its best window (Aug 13, −1.03 ft) hits at 4:30 AM.
 
-Those dawn lows aren't wasted, just wasted *at Cabrillo*. Station 9410170's predictions also cover Sunset Cliffs and Ocean Beach a couple of miles up the same peninsula, and Sunset Cliffs Natural Park is a City of San Diego park with no daytime gate — its posted closures are late-night curfews, not business hours. The [San Diego station page](/tidewindow/beaches/ca/san-diego-ca/) and the [July 2026 calendar](/tidewindow/beaches/ca/san-diego-ca/2026-07/) list every window either way.
+Those dawn lows aren't wasted, just wasted *at Cabrillo*. Station 9410170's predictions also cover Sunset Cliffs and Ocean Beach a couple of miles up the same peninsula, and Sunset Cliffs Natural Park is a City of San Diego park with no daytime gate — per the city's [park night-closures list](https://www.sandiego.gov/park-and-recreation/parks/night), its posted closures are late-night curfews (11 PM–4 AM at the Ladera Street entrance, 2–4 AM for the four Sunset Cliffs lots), not business hours. The [San Diego station page](/tidewindow/beaches/ca/san-diego-ca/) and the [July 2026 calendar](/tidewindow/beaches/ca/san-diego-ca/2026-07/) list every window either way.
 
-September, for the record, offers Cabrillo exactly one consolation: Sunday, Sep 27, a +0.21 ft low at 4:22 PM. That clears the NPS viewing threshold (see below) but bottoms out eight minutes before the tidepool area closes, so treat the 3:22 PM arrive-by time as firm.
+September, for the record, offers Cabrillo one headline consolation — the month's best-scored window: Sunday, Sep 27, a +0.21 ft low at 4:22 PM. That clears the NPS viewing threshold (see below) but bottoms out eight minutes before the tidepool area closes, so treat the 3:22 PM arrive-by time as firm.
 
 ## What's the best hour to arrive?
 
@@ -75,7 +75,7 @@ At Cabrillo there's a twist: the 4:30 PM close clips the back half of most winte
 | Wed, Dec 23 | 12:20 PM–6:05 PM | 12:20 PM–4:30 PM | 250 |
 | Thu, Dec 24 | 1:05 PM–6:50 PM | 1:05 PM–4:30 PM | 205 |
 
-Dec 24 is the deepest low of 2026 at −1.88 ft, but Dec 22 at −1.49 ft gives you nearly five hours of workable rock. Depth is not the only number that matters.
+Dec 24 is the deepest daylight low of 2026 at −1.88 ft, but Dec 22 at −1.49 ft gives you nearly five hours of workable rock. Depth is not the only number that matters.
 
 The NPS pegs good viewing at a tide of 0.7 ft or lower. All five usable 2026 dates clear it with room to spare; the December lows sit more than 2 ft below it.
 

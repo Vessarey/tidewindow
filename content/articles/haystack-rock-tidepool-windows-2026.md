@@ -20,6 +20,7 @@ sources:
   - "https://www.haystackrockawareness.com/rules-and-regulations"
   - "https://www.haystackrockawareness.com/puffins"
   - "https://www.eregulations.com/oregon/fishing/management-designations-for-marine-areas"
+  - "https://www.oregon.gov/lcd/OCMP/SiteAssets/Pages/Territorial-Sea-Plan/Appendix%20E%20-%20Rocky%20Habitat%20Designations%20and%20Map%202023.pdf"
   - "https://stateparks.oregon.gov/index.cfm?do=v.page&id=96"
 ---
 
@@ -42,7 +43,7 @@ Mid-July. The moon does Cannon Beach a favor this year: July 13, 14, 15, and 16 
 | Wed Aug 12 | −1.77 | 7:04 AM | 5:00 AM–9:30 AM | 6:04 AM | 85 |
 | Thu Aug 13 | −1.66 | 7:47 AM | 5:45 AM–10:05 AM | 6:47 AM | 83 |
 
-*Best 8 windows in the next 60 days, computed 2026-07-02 from NOAA station 9437540 (Garibaldi, Tillamook Bay) predictions, MLLW.*
+*Best 8 windows in the next 60 days, computed 2026-07-03 from NOAA station 9437540 (Garibaldi, Tillamook Bay) predictions, MLLW.*
 
 Note the drift: each day the low arrives about 45 minutes later than the day before. If you want the deepest water-line with the least alarm-clock pain, July 15 and 16 are the picks. If you can only come on a weekend, Sunday July 12's −1.59 ft at 5:42 AM is still a fine tide — and its low lands right at the edge of morning golden light, which is why it tops our [golden hour overlap tool](/tidewindow/tools/golden-hour/) for this stretch of coast.
 
@@ -69,13 +70,13 @@ Like the whole US West Coast, the good daylight lows front-load into summer and 
 | November | 22 | 5 | 3 | Mon Nov 23, 5:43 PM | −1.25 ft |
 | December | 21 | 6 | 3 | Tue Dec 22, 5:26 PM | −1.35 ft |
 
-*Computed 2026-07-02 from NOAA station 9437540 predictions, MLLW.*
+*Computed 2026-07-03 from NOAA station 9437540 predictions, MLLW.*
 
 Read that middle column twice: daylight minus tides drop from 17 in July to 4 in September and 2 in October. September still has 30 lows below +1.0 ft — the tides don't stop, they just move into darkness. What daylight lows remain in late fall shift to the last hour before sunset: the season's best is −1.35 ft at 5:26 PM on December 22, with only about an hour of usable light. Deep winter evening lows belong to the [king tide season](/tidewindow/king-tides/2026-2027/), which is a spectator sport, not a tidepool trip.
 
 ## What are the rules at the Marine Garden?
 
-Haystack Rock is a designated **Oregon Marine Garden**, a status set by the Oregon Department of Fish and Wildlife under the state's Rocky Habitat Management Strategy. The rules, verified from the Haystack Rock Awareness Program and Oregon's fishing regulations:
+Haystack Rock is a designated **Oregon Marine Garden**, a status set by the Oregon Department of Fish and Wildlife and carried in the rocky habitat designations of Oregon's Territorial Sea Plan. The rules, verified from the Haystack Rock Awareness Program and Oregon's fishing regulations:
 
 - **No take of shellfish or other invertebrates within a 300-yard radius of the base of the rock**, including all tidepools and beach between extreme high and low tides. Harvesting marine vegetation is likewise prohibited.
 - **Everything above the barnacle line is off limits.** Land above the mean high tide line on the rock is part of the Oregon Islands National Wildlife Refuge, overseen by the US Fish and Wildlife Service and closed to public use. No climbing, ever.

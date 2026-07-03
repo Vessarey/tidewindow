@@ -2,6 +2,7 @@
 title: "What Is a Minus Tide? (And Why Only a Few Each Month Happen in Daylight)"
 description: "A minus tide is any low tide below 0.0 ft MLLW. What the datum means, why minus tides cluster around new and full moons, and how many land in daylight."
 date: "2026-07-02"
+updated: "2026-07-03"
 category: "tide-basics"
 tags: ["minus tide", "MLLW", "tide basics", "daylight windows"]
 faq:
@@ -15,6 +16,7 @@ faq:
     a: "For 2026: 57% on the US West Coast (535 of 940 predicted minus tides across the 11 stations Tidewindow tracks) and 58% at Bar Harbor, Maine, NOAA station 8413320 (52 of 90). The shares are nearly identical; the timing isn't. West Coast daylight minus lows cluster in the morning — 269 of 535 fall between 3 and 9 AM — while 34 of Bar Harbor's 52 land between 1 and 7 PM."
 sources:
   - "https://tidesandcurrents.noaa.gov/datum_options.html"
+  - "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html"
   - "https://oceanservice.noaa.gov/facts/springtide.html"
   - "https://oceanservice.noaa.gov/facts/perigean-spring-tide.html"
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=8413320"
@@ -24,7 +26,7 @@ sources:
 
 ## What does 0.0 ft actually mean?
 
-US tide predictions measure height against a datum called **MLLW**. NOAA takes each day's *lower* low tide (most US coasts get two lows of unequal depth per day) and averages it over a 19-year period called the National Tidal Datum Epoch — currently 1983 through 2001. That average becomes 0.0 ft, and it's the reference for US tide predictions and nautical chart depths.
+US tide predictions measure height against a datum called **MLLW**. NOAA takes each day's *lower* low tide (many US coasts, including the entire West Coast, get two lows of unequal depth per day) and averages it over a 19-year period called the National Tidal Datum Epoch — currently 1983 through 2001. That average becomes 0.0 ft, and it's the reference for US tide predictions and nautical chart depths.
 
 So a "0.0 ft" low isn't unusually low — it's *average*. The interesting days are the ones below it:
 
@@ -52,7 +54,7 @@ A minus tide at 3 AM helps no one with a tide pool plan. So the honest way to co
 | West (WA, OR, CA) | 11 | 940 | 535 | 57% |
 | East (Bar Harbor, ME) | 1 | 90 | 52 | 58% |
 
-*Computed 2026-07-02 from NOAA predictions at the 12 stations Tidewindow tracks; east coast figures are NOAA station 8413320 (Bar Harbor, ME).*
+*Computed 2026-07-03 from NOAA predictions at the 12 stations Tidewindow tracks; east coast figures are NOAA station 8413320 (Bar Harbor, ME).*
 
 Two things stand out. First, the volume: 940 minus tides across 11 West Coast stations works out to about 85 per station for the year, and [Bar Harbor](/tidewindow/beaches/me/bar-harbor-me/) alone logs 90 — more than the Pacific per-station average. Second, the daylight share barely differs between coasts: 57% west, 58% east. Roughly four in seven minus tides are visible ones, whichever ocean you face. Add the coasts together and 2026 holds 587 daylight minus tides across the 12 stations; the other 443 happen in the dark.
 
@@ -68,9 +70,9 @@ On the West Coast, mornings dominate. The three busiest hours for a daylight min
 | Midday (10 AM–2 PM) | 75 | 14% |
 | Afternoon (3–8 PM) | 191 | 36% |
 
-*Computed 2026-07-02 from NOAA predictions at Tidewindow's 11 West Coast stations.*
+*Computed 2026-07-03 from NOAA predictions at Tidewindow's 11 West Coast stations.*
 
-The midday trough is real: 11 AM and noon are the two quietest full daylight hours, with 11 minus lows apiece all year — a fifth of what 6 AM delivers. That is the arithmetic behind the West Coast tidepooler's reputation as a dawn person. To see where your station's humps sit across the calendar, the [year heatmap](/tidewindow/tools/year-heatmap/) draws all twelve months at once.
+The midday trough is real: set aside the sparse edge hours right at dawn and dusk, and 11 AM and noon are the two quietest hours of the core daytime, with 11 minus lows apiece all year — a fifth of what 6 AM delivers. That is the arithmetic behind the West Coast tidepooler's reputation as a dawn person. To see where your station's humps sit across the calendar, the [year heatmap](/tidewindow/tools/year-heatmap/) draws all twelve months at once.
 
 Bar Harbor runs the other way. Of its 52 daylight minus lows in 2026, 34 — about 65% — land between 1 and 7 PM, with 4 PM the single busiest hour (9 events). Same daylight share as the Pacific stations, opposite end of the day. If your habit is coffee first, Maine agrees with you.
 
@@ -78,4 +80,4 @@ The lesson for reading any raw tide table: **don't scan for negative numbers; sc
 
 ## What to do with one
 
-Arrive **about an hour before** the predicted low — you follow the water out, get the deepest zone at slack, and walk back in with the flood. The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) gives you the arrive-by time for every upcoming window, and the [methodology page](/tidewindow/methodology/) shows every formula involved, including exactly where "daylight" begins and ends in the counts above.
+The [Tide Window Finder](/tidewindow/tools/tide-window-finder/) gives every upcoming window an **arrive-by time**, set an hour before the predicted low: arrive then and you follow the water out, get the deepest zone at slack, and walk back in with the flood. The [methodology page](/tidewindow/methodology/) shows every formula involved — that arrive-by rule included — and exactly where "daylight" begins and ends in the counts above.

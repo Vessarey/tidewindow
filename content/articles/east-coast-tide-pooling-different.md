@@ -1,12 +1,12 @@
 ---
 title: "Why East Coast Tide Pooling Is Different (and When to Go)"
 description: "Semidiurnal tides on an 11 ft range make Maine tide pooling run on a different clock than SoCal. Computed 2026 lows, daylight shares, and timing."
-date: "2026-07-02"
+date: "2026-07-03"
 category: "tide-basics"
 tags: ["east coast tides", "semidiurnal", "tidal range", "bar harbor", "tide basics"]
 faq:
   - q: "When is the best time to tide pool on the East Coast?"
-    a: "Unlike the West Coast, there is no narrow season. At Bar Harbor, Maine (NOAA station 8413320), every month from July through December 2026 has 7 to 10 daylight minus tides, and 34 of the year's 52 daylight minus lows (65%) land between 1 PM and 7 PM. Arrive about an hour before the predicted low and leave as the tide turns."
+    a: "Unlike the West Coast, there is no narrow season. At Bar Harbor, Maine (NOAA station 8413320), every month from July through December 2026 has 7 to 10 daylight minus tides, and 34 of the year's 52 daylight minus lows (65%) land between 1 PM and 8 PM. Arrive about an hour before the predicted low and leave as the tide turns."
   - q: "How big are East Coast tides compared with Southern California?"
     a: "Bar Harbor's mean tide range is 10.56 ft and its great diurnal range is 11.37 ft; La Jolla's are 3.69 ft and 5.33 ft (NOAA published datums, 1983–2001 epoch). Maine's typical high-to-low drop is a bit more than double SoCal's."
   - q: "Does a −1.0 ft tide mean the same thing in Maine and California?"
@@ -31,7 +31,7 @@ If you learned tide pooling on the Pacific coast, the East Coast will quietly br
 
 NOAA sorts tide patterns into three types, and the coasts split cleanly: "a semidiurnal pattern is more typical of the East Coast," while "the U.S. West Coast tends to have mixed semidiurnal tides." Semidiurnal means two highs and two lows a day of roughly equal size. Mixed semidiurnal also means two of each, but they differ in height — one low is the *lower low*, and it does most of the tide-pooling work.
 
-Both patterns march to the same drummer: the lunar day is 24 hours and 50 minutes, so tides arrive roughly 50 minutes later each day. You can watch that drift in Bar Harbor's mid-July run — the morning minus low lands at 5:01, 5:56, 6:49, 7:41, then 8:31 AM across July 14–18, sliding 50 to 55 minutes per day (computed 2026-07-02 from NOAA station 8413320 predictions).
+Both patterns march to the same drummer: the lunar day is 24 hours and 50 minutes, so tides arrive roughly 50 minutes later each day. You can watch that drift in Bar Harbor's mid-July run — the morning minus low lands at 5:01, 5:56, 6:49, 7:41, then 8:31 AM across July 14–18, sliding 50 to 55 minutes per day (computed 2026-07-03 from NOAA station 8413320 predictions).
 
 The difference is what the drift does to daylight. On a semidiurnal coast, both daily lows are usable, so as they sweep around the clock every fortnight, some always cross daylight — in any season. On a mixed coast, only the lower low is deep enough to matter, and its clock position is locked to the season: mornings in summer, afternoons in winter, and stranded in darkness in the shoulder months.
 
@@ -44,13 +44,13 @@ More than double, per NOAA's published datums for the two stations:
 | Mean range of tide (MN) | 10.56 ft | 3.69 ft |
 | Great diurnal range (GT) | 11.37 ft | 5.33 ft |
 
-*NOAA published datums, 1983–2001 National Tidal Datum Epoch, retrieved 2026-07-02.*
+*NOAA published datums, 1983–2001 National Tidal Datum Epoch, retrieved 2026-07-03.*
 
 Physically, that means an ordinary Bar Harbor low sits at the bottom of a ten-and-a-half-foot drop twice a day. You don't need a minus tide to find exposed rock in Maine; the everyday intertidal apron is already enormous. At La Jolla the whole vertical show averages under four feet from mean high to mean low, so the extra inches below zero are where the interesting seafloor lives.
 
 ## Why does a −1.0 ft rule read differently by coast?
 
-Both stations measure against MLLW, the long-run average of each day's lowest tide (our [minus-tide explainer](/tidewindow/methodology/) covers the datum in detail — see also [what a minus tide is](/tidewindow/data/daylight-minus-tide-index/) in coast-wide numbers). Because MLLW is a local average, the datum absorbs the range difference: the deepest daylight lows of 2026 are −1.65 ft at Bar Harbor and −1.88 ft at La Jolla — both, pleasingly, on December 24.
+Both stations measure against MLLW, the long-run average of each day's lowest tide (the [methodology page](/tidewindow/methodology/) covers the datum in detail, and the [daylight-minus-tide index](/tidewindow/data/daylight-minus-tide-index/) tracks the coast-wide counts). Because MLLW is a local average, the datum absorbs the range difference: the deepest daylight lows of 2026 are −1.65 ft at Bar Harbor and −1.88 ft at La Jolla — both, pleasingly, on December 24.
 
 What the datum can't absorb is the *relative* payoff. A −1.0 ft low deepens Bar Harbor's typical 11.37 ft full drop by about 9%. The same −1.0 ft at La Jolla deepens a 5.33 ft drop by about 19%. So a West Coast rule of thumb like "only bother below −1.0 ft" translates poorly to Maine, where a +0.5 ft low still uncovers more vertical rock than SoCal's best day of the year.
 
@@ -62,9 +62,9 @@ What the datum can't absorb is the *relative* payoff. A −1.0 ft low deepens Ba
 | Best window | Fri Jul 17, −1.1 ft at 7:41 AM (score 77) | Wed Jul 15, −1.5 ft at 4:54 AM (score 68) |
 | Deepest daylight low of 2026 | −1.65 ft, Dec 24, 4:41 PM | −1.88 ft, Dec 24, 3:47 PM |
 
-*Computed 2026-07-02 from NOAA station 8413320 and 9410230 predictions.*
+*Computed 2026-07-03 from NOAA station 8413320 and 9410230 predictions.*
 
-Note the timing in that middle row: La Jolla's deepest July low bottoms out at 4:54 AM, with only 113 minutes of its window in daylight. Bar Harbor's best low arrives at a civilized 7:41 AM with 195 daylight minutes around it.
+Note the timing in that middle row: La Jolla's best July window is built around a 4:54 AM low, with only 113 of its minutes in daylight. Bar Harbor's best low arrives at a civilized 7:41 AM with 195 daylight minutes around it.
 
 ## When should you tide pool on the East Coast?
 
@@ -79,11 +79,11 @@ The short answer for "when": almost any month, usually in the afternoon. The lon
 | November | 8 | 12 |
 | December | 8 | 16 |
 
-*Daylight minus tides per month, computed 2026-07-02 from NOAA station 8413320 and 9410230 predictions.*
+*Daylight minus tides per month, computed 2026-07-03 from NOAA station 8413320 and 9410230 predictions.*
 
 La Jolla swings from 16 in December to zero in September — in that September, 29 lows dip below +1.0 ft and not one minus low touches daylight. Bar Harbor never leaves the 7–10 band. Across all of 2026, Bar Harbor gets 90 minus tides with 52 in daylight (58%), essentially the same share as the 57% across our 11 West Coast stations. The share matches; the calendar shape doesn't.
 
-The clock shifts too. The busiest daylight minus-tide hour across our West Coast stations in 2026 is 6 AM (56 events); at Bar Harbor it's 4 PM (9 events), and 34 of the station's 52 daylight minus lows (65%) land between 1 PM and 7 PM. East Coast tide pooling is more often an after-lunch habit than a dawn patrol.
+The clock shifts too. The busiest daylight minus-tide hour across our West Coast stations in 2026 is 6 AM (56 events); at Bar Harbor it's 4 PM (9 events), and 34 of the station's 52 daylight minus lows (65%) land between 1 PM and 8 PM. East Coast tide pooling is more often an after-lunch habit than a dawn patrol.
 
 Near-term, the [Bar Harbor July calendar](/tidewindow/beaches/me/bar-harbor-me/2026-07/) has back-to-back mornings on July 16 (−1.3 ft at 6:49 AM, score 76) and July 17 (−1.1 ft at 7:41 AM, score 77). If you need a weekend, Saturday August 15 brings −0.8 ft at 7:16 AM, score 75. The species lists differ as much as the tides: recent observations near [Bar Harbor](/tidewindow/beaches/me/bar-harbor-me/) run to periwinkles and tortoiseshell limpets (17 reports each), while [La Jolla's](/tidewindow/beaches/ca/la-jolla-ca/) recent list is wall-to-wall nudibranchs, led by 138 reports of the Sorcerer's Dorid.
 
