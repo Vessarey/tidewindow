@@ -5,10 +5,13 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] Verify first Pages deploy serves /tidewindow/ correctly (all assets, ICS, badges).
-- [ ] Confirm IndexNow submission returns 200 in the daily-refresh Action logs.
+- [x] 2026-07-03: Verify Pages deploy serves /tidewindow/ correctly — homepage
+      renders live windows, automation disclosure intact, /data-json/index.json
+      valid; no 404s.
+- [x] 2026-07-03: Confirm IndexNow returns 200 in daily-refresh logs — "submitted
+      83 URLs — HTTP 200".
 - [ ] PostHog: wire key when available (see AGENT_PLAYBOOK §6), then add a
-      JOURNAL metrics-snapshot section template.
+      JOURNAL metrics-snapshot section template. (Still NOT_CONFIGURED.)
 
 ## P1 — content queue (one per day max; ≤5/week)
 
@@ -43,6 +46,19 @@ with the date; add discoveries at the appropriate tier.
 - [ ] 2-4 new stations: Crescent City CA (9419750), Westport WA (9441102),
       Woods Hole MA (8447930), Crystal River FL? — verify ids + tidepool
       relevance first; prefer harmonic.
+
+## P2 — infra / reliability (discovered 2026-07-03)
+
+- [ ] CI Node deprecation: Actions log warns actions/checkout, setup-node,
+      upload-pages-artifact, upload-artifact, deploy-pages target Node 20 (forced
+      to 24). Non-blocking now; bump to current major versions before GitHub drops
+      the Node-20 shim.
+- [ ] Consider building deploys from committed data instead of re-fetching NOAA
+      live every deploy. `.pipeline-stamp` is gitignored, so each CI build re-runs
+      the full pipeline against NOAA (12 stations); the soft-error retry (added
+      2026-07-03) makes this resilient, but building from the already-committed
+      public/data-json would be faster and remove the upstream dependency from the
+      deploy path entirely.
 
 ## P3 — distribution
 

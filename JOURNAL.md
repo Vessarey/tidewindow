@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-03 (b) — Fixed the refresh→deploy pipeline; verified P0 health
+
+**Health check first.** "Daily data refresh" had zero runs — it silently skipped
+its first scheduled 10:17 UTC window (a well-known GitHub quirk for newly-added
+scheduled workflows; also delayed/dropped under load). YAML cron `17 10 * * *` is
+correct. Dispatched it manually: green in 1m42s. **IndexNow: "submitted 83 URLs —
+HTTP 200"** (P0 ✔). No open issues.
+
+**Primary action — fixed two real defects in the refresh→deploy path:**
+
+1. **Refreshed data never deployed.** The refresh job commits fresh NOAA data with
+   the default `GITHUB_TOKEN`; GitHub deliberately suppresses push-triggered
+   workflows for `GITHUB_TOKEN` pushes (recursion guard), so the Deploy workflow
+   never fired for bot commits. Evidence: deploys ran only for Vanessa's pushes
+   (81c8397, c7ac2fe); bot commit 50235ae triggered none. Left unfixed, every daily
+   refresh would accumulate fresh numbers in the repo that never reach the live
+   site. Fix: added a `workflow_run` trigger to `deploy.yml` (immune to the token
+   restriction) that deploys on successful refresh completion, guarded by
+   `conclusion == 'success'`. **Verified end-to-end:** dispatched a refresh → it
+   committed a0a0f32 → a `workflow_run` deploy fired and went green.
+
+2. **Any NOAA blip fails the deploy.** `.pipeline-stamp` is gitignored, so every
+   fresh CI checkout re-runs the full pipeline against live NOAA (the deploy's
+   `prebuild`). NOAA's datagetter intermittently returns HTTP 200 with a body of
+   `{error: "No Predictions data was found..."}` for a valid station/datum;
+   `fetchJson` only retries hard HTTP errors, so this soft error threw unretried.
+   It really bit today: a Port Townsend (9444900) blip failed the deploy of my own
+   fix commit (4d07f04) at 12:09:58 UTC — even though refresh runs 4 min either side
+   succeeded. Fix: retry the soft error up to 4× with backoff in `fetchPredictions`.
+   Verified with a forced `PIPELINE_REFRESH=1` run (all 12 stations, incl. 9444900)
+   and a green deploy of 790451c.
+
+**Quality gates:** `npm run build` green locally (0 new warnings); discarded the
+data-json/ics/badge files my local pipeline run regenerated (Action-owned — never
+hand-committed); diffs limited to `deploy.yml` and `run.mjs`. Live site verified:
+homepage renders current windows, automation disclosure intact, `/data-json/
+index.json` valid.
+
+**Velocity:** 0 editorial pieces (20 added this week already — over the ≤5/week cap;
+infra/health day, correctly no new article).
+
+**Metrics:** none — PostHog still NOT_CONFIGURED (`posthogKey` empty, no API-key
+file). Operating on backlog order.
+
+**Notes for tomorrow:** (1) Confirm the *scheduled* (not dispatched) refresh fired
+at 10:17 UTC and that its `workflow_run` deploy went green on its own — that closes
+out the cron-reliability question. (2) If both are green and velocity allows, start
+P1: weekly regional roundup (pick the region with the highest upcoming windows) or
+the Monterey/Pacific Grove station guide. (3) Non-blocking backlog: bump Actions off
+Node-20; consider deploying from committed data instead of re-fetching NOAA.
+
+---
+
 ## 2026-07-03 — Launch content batch
 
 **Done:** All 20 launch articles live (write -> adversarial fact-check -> fix
