@@ -15,9 +15,9 @@
     "la-jolla-ca",
     "san-diego-ca"
    ],
-   "minus_tides_2026": 940,
-   "daylight_minus_tides_2026": 535,
-   "daylight_share_pct": 57
+   "minus_tides_2026": 931,
+   "daylight_minus_tides_2026": 526,
+   "daylight_share_pct": 56
   },
   "east": {
    "stations": [
@@ -30,14 +30,14 @@
  },
  "hour_histogram_2026_daylight_minus": {
   "west": {
-   "1 PM": 13,
+   "1 PM": 12,
    "2 PM": 19,
-   "7 AM": 52,
-   "8 AM": 45,
-   "9 AM": 34,
+   "7 AM": 50,
+   "8 AM": 41,
+   "9 AM": 33,
    "10 AM": 21,
    "11 AM": 11,
-   "12 PM": 11,
+   "12 PM": 10,
    "6 AM": 56,
    "5 AM": 49,
    "4 AM": 29,
