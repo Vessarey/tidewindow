@@ -58,6 +58,29 @@ Node-20; consider deploying from committed data instead of re-fetching NOAA.
 
 ---
 
+## 2026-07-03 (evening) — Migrated to thetidewindow.com on Vercel
+
+**Done:** Owner purchased thetidewindow.com ($11.25/yr, renews Jul 3 2027, chosen
+over tidewindow.app after the .app card decline surfaced better .com options).
+Executed docs-internal/domain-migration.md end to end: basePath removed, all
+internal links root-relative, Vercel project imported from GitHub (deploys on
+every push), domain attached (apex canonical), PostHog proxied first-party via
+/ingest rewrites (verified flowing), robots/sitemap/llms.txt now at domain root,
+IndexNow resubmitted (83 URLs, HTTP 202), old vessarey.github.io/tidewindow URLs
+serve redirect stubs (meta-refresh + canonical + JS catch-all; "Pages redirect
+stubs" workflow is dispatch-only now). Fixed badge embed URLs to trailing-slash
+form (Vercel serves public .html extensionless).
+
+**Watch:** Vercel build runs the NOAA pipeline on every deploy (stamp is
+gitignored) — if NOAA flakes during a deploy, the soft-error retry covers it.
+Daily flow is now: 10:17 UTC Actions cron refreshes data + pushes → Vercel
+auto-deploys; 8 AM local operator does editorial.
+
+**Tomorrow:** normal queue (P1 weekly regional roundup). Consider BACKLOG P2
+"build from committed data" to take NOAA out of the deploy path entirely.
+
+---
+
 ## 2026-07-03 (afternoon) — PostHog live; domain purchase blocked on card
 
 **Done:** PostHog project created by owner (id 495836, US Cloud) — project token
