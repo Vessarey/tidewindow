@@ -15,7 +15,7 @@ export const siteConfig = {
   // PostHog: paste the project API key (starts with "phc_") to enable
   // analytics. Leave empty to keep analytics off. Publishable key — safe
   // to commit.
-  posthogKey: "",
+  posthogKey: "phc_DkedwnjqYT23MHadQyjUhfQ83jhvudqujZqRG8utdui9",
   posthogHost: "https://us.i.posthog.com",
   // Email capture is recorded as PostHog events (identify + capture).
   emailCaptureEvent: "newsletter_signup",

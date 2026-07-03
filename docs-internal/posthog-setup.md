@@ -1,22 +1,27 @@
-# PostHog setup — the one optional manual step
+# PostHog setup
 
-Status: **NOT CONFIGURED** (the daily agent checks this file every run).
+Status: **CONFIGURED** (event capture live as of 2026-07-03; agent read-access pending).
 
-Analytics is fully wired into the site but dormant until a key exists. To turn it
-on (~3 minutes, free tier is plenty):
+- Project: Tidewindow, id **495836**, US Cloud (us.posthog.com).
+- Project token `phc_DkedwnjqYT23MHadQyjUhfQ83jhvudqujZqRG8utdui9` is wired into
+  `src/lib/site-config.ts` (write-only token, safe in public code). Pageviews,
+  tool events, and `newsletter_signup` (identify+capture with email) flow.
+- Signup emails live in PostHog: Activity → filter event `newsletter_signup`,
+  or Persons (identified by email).
 
-1. Create a free account at https://us.posthog.com/signup (US Cloud).
-2. Create a project (name: Tidewindow). Copy the **Project API key** (`phc_...`)
-   from Settings → Project.
-3. Paste it into `src/lib/site-config.ts` → `posthogKey: "phc_..."` (this key is
-   publishable — safe to commit), commit and push. Pageviews, tool events, and
-   `newsletter_signup` (with email) start flowing immediately.
-4. Optional but recommended, so the daily agent can READ analytics: create a
-   **Personal API key** (Settings → Personal API keys, scope: Query read) and save
-   it as a single line in `docs-internal/posthog-api-key.txt` (gitignored), plus
-   the numeric project id on line 2.
-5. Update this file's Status line to CONFIGURED. The daily agent does the rest
-   (verifies events, starts metric-driven decisions, exports signup emails).
+## Remaining optional step (owner, ~1 min)
 
-Nothing else on the site depends on this — it runs fine without analytics; the
-agent just operates on backlog-order instead of metrics until then.
+The daily agent can only READ analytics (top pages, referrers, conversion
+trends) with a personal API key, and PostHog requires re-authentication to
+create one — an owner-only action:
+
+1. https://us.posthog.com/settings/user-api-keys → re-authenticate when asked.
+2. Create key: label `tidewindow-agent`, scope **Query: Read** only.
+3. Save it as line 1 of `docs-internal/posthog-api-key.txt` (gitignored),
+   line 2: `495836`.
+
+Until then the agent operates backlog-driven (its default), checking for this
+file each run. Query API endpoint for the agent:
+`POST https://us.posthog.com/api/projects/495836/query` with
+`Authorization: Bearer <personal key>` and a HogQL body, e.g.
+`{"query":{"kind":"HogQLQuery","query":"select properties.$pathname, count() from events where event='$pageview' and timestamp > now() - interval 7 day group by 1 order by 2 desc limit 20"}}`.

@@ -12,7 +12,8 @@ export function initAnalytics() {
   }
   posthog.init(siteConfig.posthogKey, {
     api_host: siteConfig.posthogHost,
-    defaults: "2025-05-24",
+    defaults: "2026-05-30",
+    person_profiles: "identified_only",
     // Cookieless-friendly: memory persistence until identified, no banners needed.
     persistence: "memory",
     capture_pageview: true,

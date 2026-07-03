@@ -58,6 +58,24 @@ Node-20; consider deploying from committed data instead of re-fetching NOAA.
 
 ---
 
+## 2026-07-03 (afternoon) — PostHog live; domain purchase blocked on card
+
+**Done:** PostHog project created by owner (id 495836, US Cloud) — project token
+wired into site-config (defaults 2026-05-30, person_profiles identified_only);
+analytics + newsletter_signup capture now LIVE on the github.io site. Owner
+approved buying tidewindow.app ($9.99) and migrating hosting to Vercel; checkout
+failed: card declined (owner must fix billing at Vercel). Full migration runbook
+written to docs-internal/domain-migration.md — execute when the domain appears.
+Re-dispatched the failed Pages deploy — succeeded (failures were transient).
+
+**Pending owner:** fix Vercel payment method; optional PostHog personal API key
+(docs-internal/posthog-setup.md) for agent metrics reads.
+
+**Tomorrow:** check whether tidewindow.app appears in Vercel domains → if yes,
+execute domain-migration.md as the day's primary action. Otherwise continue P1.
+
+---
+
 ## 2026-07-03 — Launch content batch
 
 **Done:** All 20 launch articles live (write -> adversarial fact-check -> fix
