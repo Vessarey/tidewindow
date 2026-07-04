@@ -120,8 +120,11 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
       alerts@updates.thetidewindow.com, then update signup copy site-wide from
       "starting this season" to live. Also confirm the domain's Receiving MX
       flips to verified in the Resend API (record added 2026-07-03).
-- [ ] **Search consoles**: if GSC/Bing WMT tokens appear, wire the GSC flywheel
-      (mine positions 8–20 queries) into §2's queue as priority (d).
+- [x] **GSC property**: verified 2026-07-03 (domain property, DNS TXT), sitemap
+      submitted, homepage indexing requested. NOTE: you have no GSC API access
+      yet — the §2c/§2 flywheel still runs on Bing `site:` checks + PostHog
+      referrers until the owner adds a Google Cloud service account (optional).
+      Bing WMT: not set up; IndexNow covers Bing submission.
 
 ## 7. Honesty invariants (do not renegotiate these)
 

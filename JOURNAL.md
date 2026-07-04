@@ -58,6 +58,21 @@ Node-20; consider deploying from committed data instead of re-fetching NOAA.
 
 ---
 
+## 2026-07-04 — Google Search Console live
+
+**Done:** GSC domain property for thetidewindow.com verified via DNS TXT (added
+to Vercel DNS), sitemap.xml submitted (Google read it within a minute — it
+already lists the sitemap as the homepage's discovery source), homepage added to
+the priority crawl queue via URL Inspection → Request Indexing.
+
+**Note:** No GSC API credential exists — indexing/queries flywheel uses Bing
+site: checks + PostHog referrers until a service account is added (optional
+owner step). Watch GSC → Pages report over the coming weeks via the owner.
+
+**Next:** newsletter go-live (BACKLOG P0) remains the top action.
+
+---
+
 ## 2026-07-03 (night) — Full metrics + email stack unlocked
 
 **Done:** Owner provided (a) PostHog personal API key (all-access) — saved to
