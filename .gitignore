@@ -47,3 +47,4 @@ docs-internal/*-secret*
 public/data-json/.pipeline-stamp
 pages-stubs/
 docs-internal/resend-api-key.txt
+docs-internal/gsc-service-account.json

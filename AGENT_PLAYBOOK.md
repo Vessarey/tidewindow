@@ -42,6 +42,10 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
   which handle unsubscribe automatically); honor unsubscribes immediately; max
   one weekly issue + rare king-tide alerts; watch bounce/complaint rates in the
   Resend dashboard API and stop sends if complaint rate nears 0.1%.
+- **Google Search Console** (LIVE): `node scripts/gsc-query.mjs flywheel 28`
+  lists queries ranking 8-20 (build/expand pages for these — highest-leverage
+  SEO action once data exists); `queries`/`pages` for the broader picture.
+  GSC data lags ~2 days and will be sparse for the first months.
 - **NOAA data** is refreshed by the Actions cron, not by you. Never hand-edit
   `public/data-json`, `public/ics`, or `public/embed-badge`.
 - **Fact sheets** (`docs-internal/facts/*.json`) regenerate daily. Every tide
@@ -120,10 +124,12 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
       alerts@updates.thetidewindow.com, then update signup copy site-wide from
       "starting this season" to live. Also confirm the domain's Receiving MX
       flips to verified in the Resend API (record added 2026-07-03).
-- [x] **GSC property**: verified 2026-07-03 (domain property, DNS TXT), sitemap
-      submitted, homepage indexing requested. NOTE: you have no GSC API access
-      yet — the §2c/§2 flywheel still runs on Bing `site:` checks + PostHog
-      referrers until the owner adds a Google Cloud service account (optional).
+- [x] **GSC property + API access**: verified 2026-07-03; API access LIVE since
+      2026-07-04 via service account gsc-reader@tidewindow-agent (key gitignored
+      at docs-internal/gsc-service-account.json). Use `node scripts/gsc-query.mjs
+      sites|queries|pages|flywheel [days]` — the flywheel command returns queries
+      at positions 8-20 to target with content (§2c). Expect empty data for the
+      first weeks; check weekly, act when rows appear.
       Bing WMT: not set up; IndexNow covers Bing submission.
 
 ## 7. Honesty invariants (do not renegotiate these)

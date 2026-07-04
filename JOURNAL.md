@@ -58,6 +58,21 @@ Node-20; consider deploying from committed data instead of re-fetching NOAA.
 
 ---
 
+## 2026-07-04 (cont.) — GSC API access for the agent
+
+**Done:** Owner enabled Google account MFA (Cloud Console prerequisite). Created
+GCP project `tidewindow-agent`, enabled Search Console API, service account
+gsc-reader@tidewindow-agent.iam.gserviceaccount.com with JSON key (gitignored at
+docs-internal/gsc-service-account.json, chmod 600), added as Full user on the
+sc-domain:thetidewindow.com property. New zero-dependency reader:
+scripts/gsc-query.mjs (sites|queries|pages|flywheel). Verified live: property
+lists with siteFullUser; analytics queries execute (0 rows — site is a day old).
+
+**Effect:** the GSC flywheel (§2c) is now fully unlocked — check
+`gsc-query.mjs flywheel 28` weekly; act when rows appear.
+
+---
+
 ## 2026-07-04 — Google Search Console live
 
 **Done:** GSC domain property for thetidewindow.com verified via DNS TXT (added
