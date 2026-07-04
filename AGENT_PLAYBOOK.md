@@ -24,16 +24,24 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
 
 ## 1. Data & measurement sources
 
-- **PostHog** (once `posthogKey` in `src/lib/site-config.ts` is non-empty and a
-  personal API key exists in `docs-internal/posthog-api-key.txt` — gitignored):
-  query the last 7/28 days via `POST https://us.posthog.com/api/projects/:id/query`
-  (HogQL). Core queries: pageviews by pathname, entry referrers (watch for
+- **PostHog** (LIVE — personal API key in `docs-internal/posthog-api-key.txt`,
+  gitignored; line 1 key, line 2 project id 495836): query the last 7/28 days via
+  `POST https://us.posthog.com/api/projects/495836/query` with
+  `Authorization: Bearer <key>` and a HogQL body. Use it EVERY run. Core queries: pageviews by pathname, entry referrers (watch for
   chatgpt.com / perplexity.ai / bing), `newsletter_signup` by form, tool events
   (`station_selected`, `window_result_viewed`, `trip_picker_run`), signups ÷
   uniques (target ≥1.5%). If PostHog is NOT yet configured: check whether the key
   now exists in the browser/env; if genuinely unavailable, operate on proxy
   signals — Bing/Google `site:thetidewindow.com` result counts — and lean on
   the publish backlog.
+- **Resend** (LIVE — API key in `docs-internal/resend-api-key.txt`, gitignored):
+  sending domain `updates.thetidewindow.com` (verified). Send as
+  `Tidewindow <alerts@updates.thetidewindow.com>`. Rules: only ever email
+  addresses captured via `newsletter_signup` events (export from PostHog);
+  every send includes a working unsubscribe (use Resend Audiences + Broadcasts,
+  which handle unsubscribe automatically); honor unsubscribes immediately; max
+  one weekly issue + rare king-tide alerts; watch bounce/complaint rates in the
+  Resend dashboard API and stop sends if complaint rate nears 0.1%.
 - **NOAA data** is refreshed by the Actions cron, not by you. Never hand-edit
   `public/data-json`, `public/ics`, or `public/embed-badge`.
 - **Fact sheets** (`docs-internal/facts/*.json`) regenerate daily. Every tide
@@ -101,15 +109,17 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
 
 ## 6. Setup tasks that unlock later (check each run until done)
 
-- [ ] **PostHog agent read-access**: capture is live (project 495836); when the
-      owner creates a personal API key per `docs-internal/posthog-setup.md`,
-      save it to `docs-internal/posthog-api-key.txt` (gitignored) and switch to
-      metrics-driven decisions.
+- [x] **PostHog agent read-access**: personal API key saved 2026-07-03; query
+      API verified. Metrics-driven decisions are ON.
 - [x] **Custom domain**: thetidewindow.com live on Vercel since 2026-07-03;
       old vessarey.github.io/tidewindow URLs serve redirect stubs.
-- [ ] **Resend/newsletter sending**: when a Resend API key appears in
-      `docs-internal/` (gitignored), build the weekly send script per
-      `BACKLOG.md`, switch signup copy from "starting this season" to live.
+- [ ] **Newsletter go-live** (key + domain ready since 2026-07-03): build the
+      weekly Minus Tide Alert per BACKLOG P0 — sync `newsletter_signup` emails
+      from PostHog into a Resend Audience, compose the regional digest from
+      computed window data, send as a Broadcast from
+      alerts@updates.thetidewindow.com, then update signup copy site-wide from
+      "starting this season" to live. Also confirm the domain's Receiving MX
+      flips to verified in the Resend API (record added 2026-07-03).
 - [ ] **Search consoles**: if GSC/Bing WMT tokens appear, wire the GSC flywheel
       (mine positions 8–20 queries) into §2's queue as priority (d).
 

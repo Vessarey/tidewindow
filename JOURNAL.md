@@ -58,6 +58,24 @@ Node-20; consider deploying from committed data instead of re-fetching NOAA.
 
 ---
 
+## 2026-07-03 (night) — Full metrics + email stack unlocked
+
+**Done:** Owner provided (a) PostHog personal API key (all-access) — saved to
+gitignored docs-internal/posthog-api-key.txt, query API verified working; the
+operator now runs metrics-driven per playbook §1; (b) Resend API key — saved to
+gitignored docs-internal/resend-api-key.txt. Resend sending domain
+updates.thetidewindow.com: DKIM/SPF verified (sending READY). The Receiving MX
+record was missing from Vercel DNS (the integration only adds sending records) —
+added it (updates → MX 10 inbound-smtp.us-east-1.amazonaws.com) plus optional
+DMARC (_dmarc.updates, p=none); both resolve at the authoritative NS; Resend
+shows Receiving "pending" until its next re-check.
+
+**Next (priority):** BACKLOG P0 newsletter go-live — audience sync from PostHog,
+weekly digest Broadcast, then flip signup copy to live. This outranks new
+articles: the list is the asset.
+
+---
+
 ## 2026-07-03 (evening) — Migrated to thetidewindow.com on Vercel
 
 **Done:** Owner purchased thetidewindow.com ($11.25/yr, renews Jul 3 2027, chosen

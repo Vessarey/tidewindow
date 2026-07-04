@@ -46,3 +46,4 @@ docs-internal/posthog-api-key.txt
 docs-internal/*-secret*
 public/data-json/.pipeline-stamp
 pages-stubs/
+docs-internal/resend-api-key.txt

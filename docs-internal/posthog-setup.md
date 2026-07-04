@@ -1,6 +1,6 @@
 # PostHog setup
 
-Status: **CONFIGURED** (event capture live as of 2026-07-03; agent read-access pending).
+Status: **FULLY CONFIGURED** (capture live + agent personal API key saved 2026-07-03 in docs-internal/posthog-api-key.txt).
 
 - Project: Tidewindow, id **495836**, US Cloud (us.posthog.com).
 - Project token `phc_DkedwnjqYT23MHadQyjUhfQ83jhvudqujZqRG8utdui9` is wired into

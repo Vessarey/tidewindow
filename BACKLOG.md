@@ -10,8 +10,21 @@ with the date; add discoveries at the appropriate tier.
       valid; no 404s.
 - [x] 2026-07-03: Confirm IndexNow returns 200 in daily-refresh logs — "submitted
       83 URLs — HTTP 200".
-- [ ] PostHog: wire key when available (see AGENT_PLAYBOOK §6), then add a
-      JOURNAL metrics-snapshot section template. (Still NOT_CONFIGURED.)
+- [x] 2026-07-03: PostHog fully wired (capture live + agent query key saved).
+- [ ] NEWSLETTER GO-LIVE (everything is ready — do this before new articles):
+      1) scripts/newsletter/sync-audience.mjs — HogQL-export distinct
+         newsletter_signup emails (+ station/source props) from PostHog, upsert
+         into a Resend Audience ("Minus Tide Alert").
+      2) scripts/newsletter/send-weekly.mjs — build the weekly digest (per
+         region: this week's ranked windows from public/data-json, species
+         highlights), send as Resend Broadcast from
+         alerts@updates.thetidewindow.com (Broadcasts auto-handle unsubscribe).
+      3) First issue: send manually-reviewed copy; then update EmailSignup
+         blurbs + /newsletter/ page from "starting this season" to live.
+      4) Add weekly cadence note to JOURNAL template (send day: Thursday).
+- [ ] Verify Resend Receiving MX flips to "verified" (added to Vercel DNS
+      2026-07-03; sending already verified). Check:
+      GET https://api.resend.com/domains/b06d98e7-4963-4e74-9cf3-7f73823194e2
 
 ## P1 — content queue (one per day max; ≤5/week)
 
