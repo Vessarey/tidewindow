@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-03",
+ "generated_on": "2026-07-04",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 24,
-   "daylight_windows": 19,
-   "daylight_minus_tides": 17,
+   "lows_below_1ft": 23,
+   "daylight_windows": 18,
+   "daylight_minus_tides": 16,
    "best_window": {
     "date": "2026-07-13",
     "weekday": "Mon",
@@ -467,7 +467,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 42
+   "count": 53
   },
   {
    "commonName": "Branched Dendronotid",
@@ -475,29 +475,29 @@
    "count": 32
   },
   {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 19
-  },
-  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 17
+   "count": 29
+  },
+  {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 23
   },
   {
    "commonName": "Pacific Banana Slug",
    "scientificName": "Ariolimax columbianus",
-   "count": 11
+   "count": 13
+  },
+  {
+   "commonName": "Three-lined Aeolid",
+   "scientificName": "Orienthella trilineata",
+   "count": 9
   },
   {
    "commonName": "Garden Snail",
    "scientificName": "Cornu aspersum",
    "count": 7
-  },
-  {
-   "commonName": "Three-lined Aeolid",
-   "scientificName": "Orienthella trilineata",
-   "count": 6
   },
   {
    "commonName": "Homely Aeolid",
@@ -510,8 +510,8 @@
    "count": 4
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
    "count": 4
   }
  ]

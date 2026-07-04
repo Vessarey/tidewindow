@@ -4,25 +4,12 @@ PRODID:-//Tidewindow//EN
 X-WR-CALNAME:Tidewindow — Charleston (Coos Bay)
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-UID:charleston-or-20260703-1606@tidewindow
-DTSTAMP:20260703T122107Z
-DTSTART:20260703T140000Z
-DTEND:20260703T182000Z
-SUMMARY:Great low tide: -0.8 ft at 9:06 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 75/100. Arrive by 8:06 AM. Low of -0.8 ft MLLW at 9:06 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tide window opens soon
-TRIGGER:-PT45M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:charleston-or-20260704-1639@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260704T144500Z
 DTEND:20260704T183500Z
 SUMMARY:Good low tide: -0.4 ft at 9:39 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 68/100. Arrive by 8:39 AM. Low of -0.4 ft MLLW at 9:39 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 68/100. Arrive by 8:39 AM. Low of -0.4 ft MLLW at 9:39 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -31,11 +18,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260711-1117@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260711T090000Z
 DTEND:20260711T135000Z
 SUMMARY:Good low tide: -1.1 ft at 4:17 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 62/100. Arrive by 3:17 AM. Low of -1.1 ft MLLW at 4:17 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 62/100. Arrive by 3:17 AM. Low of -1.1 ft MLLW at 4:17 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -44,11 +31,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260712-1212@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260712T094500Z
 DTEND:20260712T145500Z
 SUMMARY:Great low tide: -1.7 ft at 5:12 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 86/100. Arrive by 4:12 AM. Low of -1.7 ft MLLW at 5:12 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 86/100. Arrive by 4:12 AM. Low of -1.7 ft MLLW at 5:12 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -57,11 +44,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260713-1304@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260713T103000Z
 DTEND:20260713T155000Z
 SUMMARY:Exceptional low tide: -2.2 ft at 6:04 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 90/100. Arrive by 5:04 AM. Low of -2.2 ft MLLW at 6:04 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 90/100. Arrive by 5:04 AM. Low of -2.2 ft MLLW at 6:04 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -70,11 +57,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260714-1353@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260714T112000Z
 DTEND:20260714T164000Z
 SUMMARY:Exceptional low tide: -2.4 ft at 6:53 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 90/100. Arrive by 5:53 AM. Low of -2.4 ft MLLW at 6:53 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 90/100. Arrive by 5:53 AM. Low of -2.4 ft MLLW at 6:53 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -83,11 +70,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260715-1438@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260715T121000Z
 DTEND:20260715T172000Z
 SUMMARY:Exceptional low tide: -2.3 ft at 7:38 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 90/100. Arrive by 6:38 AM. Low of -2.3 ft MLLW at 7:38 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 90/100. Arrive by 6:38 AM. Low of -2.3 ft MLLW at 7:38 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -96,11 +83,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260716-1522@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260716T130000Z
 DTEND:20260716T175500Z
 SUMMARY:Exceptional low tide: -2.0 ft at 8:22 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 90/100. Arrive by 7:22 AM. Low of -2.0 ft MLLW at 8:22 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 90/100. Arrive by 7:22 AM. Low of -2.0 ft MLLW at 8:22 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -109,11 +96,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260717-1604@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260717T135000Z
 DTEND:20260717T182000Z
 SUMMARY:Great low tide: -1.4 ft at 9:04 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 84/100. Arrive by 8:04 AM. Low of -1.4 ft MLLW at 9:04 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 84/100. Arrive by 8:04 AM. Low of -1.4 ft MLLW at 9:04 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -122,11 +109,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260718-1645@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260718T145000Z
 DTEND:20260718T184000Z
 SUMMARY:Good low tide: -0.7 ft at 9:45 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 73/100. Arrive by 8:45 AM. Low of -0.7 ft MLLW at 9:45 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 73/100. Arrive by 8:45 AM. Low of -0.7 ft MLLW at 9:45 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -135,11 +122,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260728-1330@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260728T112500Z
 DTEND:20260728T154500Z
 SUMMARY:Good low tide: -0.8 ft at 6:30 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 62/100. Arrive by 5:30 AM. Low of -0.8 ft MLLW at 6:30 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 62/100. Arrive by 5:30 AM. Low of -0.8 ft MLLW at 6:30 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -148,11 +135,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260729-1403@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260729T115500Z
 DTEND:20260729T162000Z
 SUMMARY:Good low tide: -0.9 ft at 7:03 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 68/100. Arrive by 6:03 AM. Low of -0.9 ft MLLW at 7:03 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 68/100. Arrive by 6:03 AM. Low of -0.9 ft MLLW at 7:03 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -161,11 +148,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260730-1435@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260730T123000Z
 DTEND:20260730T164500Z
 SUMMARY:Good low tide: -0.9 ft at 7:35 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 68/100. Arrive by 6:35 AM. Low of -0.9 ft MLLW at 7:35 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 68/100. Arrive by 6:35 AM. Low of -0.9 ft MLLW at 7:35 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -174,11 +161,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260731-1505@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260731T130500Z
 DTEND:20260731T171000Z
 SUMMARY:Good low tide: -0.8 ft at 8:05 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 70/100. Arrive by 7:05 AM. Low of -0.8 ft MLLW at 8:05 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 70/100. Arrive by 7:05 AM. Low of -0.8 ft MLLW at 8:05 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -187,11 +174,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260801-1534@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260801T134500Z
 DTEND:20260801T172500Z
 SUMMARY:Good low tide: -0.5 ft at 8:34 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 70/100. Arrive by 7:34 AM. Low of -0.5 ft MLLW at 8:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 70/100. Arrive by 7:34 AM. Low of -0.5 ft MLLW at 8:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -200,11 +187,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260802-1604@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260802T143000Z
 DTEND:20260802T173500Z
 SUMMARY:Good low tide: -0.0 ft at 9:04 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 61/100. Arrive by 8:04 AM. Low of -0.0 ft MLLW at 9:04 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 61/100. Arrive by 8:04 AM. Low of -0.0 ft MLLW at 9:04 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -213,11 +200,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260811-1249@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260811T103000Z
 DTEND:20260811T152000Z
 SUMMARY:Good low tide: -1.6 ft at 5:49 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 73/100. Arrive by 4:49 AM. Low of -1.6 ft MLLW at 5:49 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 73/100. Arrive by 4:49 AM. Low of -1.6 ft MLLW at 5:49 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -226,11 +213,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260812-1335@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260812T111500Z
 DTEND:20260812T160000Z
 SUMMARY:Great low tide: -1.7 ft at 6:35 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 81/100. Arrive by 5:35 AM. Low of -1.7 ft MLLW at 6:35 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 81/100. Arrive by 5:35 AM. Low of -1.7 ft MLLW at 6:35 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -239,11 +226,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260813-1416@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260813T120500Z
 DTEND:20260813T163500Z
 SUMMARY:Great low tide: -1.5 ft at 7:16 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 81/100. Arrive by 6:16 AM. Low of -1.5 ft MLLW at 7:16 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 81/100. Arrive by 6:16 AM. Low of -1.5 ft MLLW at 7:16 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -252,11 +239,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260814-1455@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260814T125500Z
 DTEND:20260814T170000Z
 SUMMARY:Great low tide: -1.1 ft at 7:55 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 77/100. Arrive by 6:55 AM. Low of -1.1 ft MLLW at 7:55 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 77/100. Arrive by 6:55 AM. Low of -1.1 ft MLLW at 7:55 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -265,11 +252,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20260815-1532@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20260815T135000Z
 DTEND:20260815T171500Z
 SUMMARY:Good low tide: -0.5 ft at 8:32 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 69/100. Arrive by 7:32 AM. Low of -0.5 ft MLLW at 8:32 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 69/100. Arrive by 7:32 AM. Low of -0.5 ft MLLW at 8:32 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -278,11 +265,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20261124-0154@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20261124T234000Z
 DTEND:20261125T042000Z
 SUMMARY:Good low tide: -1.7 ft at 5:54 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 60/100. Arrive by 4:54 PM. Low of -1.7 ft MLLW at 5:54 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 60/100. Arrive by 4:54 PM. Low of -1.7 ft MLLW at 5:54 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -291,11 +278,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20261222-0054@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20261222T224000Z
 DTEND:20261223T032000Z
 SUMMARY:Good low tide: -1.5 ft at 4:54 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 63/100. Arrive by 3:54 PM. Low of -1.5 ft MLLW at 4:54 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 63/100. Arrive by 3:54 PM. Low of -1.5 ft MLLW at 4:54 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -304,11 +291,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20261223-0142@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20261223T232000Z
 DTEND:20261224T041500Z
 SUMMARY:Good low tide: -1.9 ft at 5:42 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 65/100. Arrive by 4:42 PM. Low of -1.9 ft MLLW at 5:42 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 65/100. Arrive by 4:42 PM. Low of -1.9 ft MLLW at 5:42 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -317,11 +304,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270120-0041@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270120T223000Z
 DTEND:20270121T030500Z
 SUMMARY:Good low tide: -1.3 ft at 4:41 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 67/100. Arrive by 3:41 PM. Low of -1.3 ft MLLW at 4:41 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 67/100. Arrive by 3:41 PM. Low of -1.3 ft MLLW at 4:41 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -330,11 +317,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270121-0128@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270121T231500Z
 DTEND:20270122T035500Z
 SUMMARY:Good low tide: -1.7 ft at 5:28 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 67/100. Arrive by 4:28 PM. Low of -1.7 ft MLLW at 5:28 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 67/100. Arrive by 4:28 PM. Low of -1.7 ft MLLW at 5:28 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -343,11 +330,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270122-0213@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270123T000000Z
 DTEND:20270123T043500Z
 SUMMARY:Good low tide: -1.8 ft at 6:13 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 66/100. Arrive by 5:13 PM. Low of -1.8 ft MLLW at 6:13 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 66/100. Arrive by 5:13 PM. Low of -1.8 ft MLLW at 6:13 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -356,11 +343,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270218-0023@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270218T222000Z
 DTEND:20270219T023000Z
 SUMMARY:Good low tide: -0.9 ft at 4:23 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 62/100. Arrive by 3:23 PM. Low of -0.9 ft MLLW at 4:23 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 62/100. Arrive by 3:23 PM. Low of -0.9 ft MLLW at 4:23 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -369,11 +356,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270219-0109@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270219T230500Z
 DTEND:20270220T031500Z
 SUMMARY:Good low tide: -1.1 ft at 5:09 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 69/100. Arrive by 4:09 PM. Low of -1.1 ft MLLW at 5:09 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 69/100. Arrive by 4:09 PM. Low of -1.1 ft MLLW at 5:09 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -382,11 +369,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270220-0150@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270220T235500Z
 DTEND:20270221T035000Z
 SUMMARY:Good low tide: -1.1 ft at 5:50 PM (Charleston (Coos Bay))
-DESCRIPTION:Score 64/100. Arrive by 4:50 PM. Low of -1.1 ft MLLW at 5:50 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 64/100. Arrive by 4:50 PM. Low of -1.1 ft MLLW at 5:50 PM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -395,11 +382,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270409-1534@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270409T133500Z
 DTEND:20270409T174000Z
 SUMMARY:Good low tide: -0.9 ft at 8:34 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 69/100. Arrive by 7:34 AM. Low of -0.9 ft MLLW at 8:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 69/100. Arrive by 7:34 AM. Low of -0.9 ft MLLW at 8:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -408,11 +395,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270410-1620@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270410T142000Z
 DTEND:20270410T183000Z
 SUMMARY:Good low tide: -0.9 ft at 9:20 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 74/100. Arrive by 8:20 AM. Low of -0.9 ft MLLW at 9:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 74/100. Arrive by 8:20 AM. Low of -0.9 ft MLLW at 9:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -421,11 +408,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270411-1712@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270411T151000Z
 DTEND:20270411T192000Z
 SUMMARY:Good low tide: -0.7 ft at 10:12 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 70/100. Arrive by 9:12 AM. Low of -0.7 ft MLLW at 10:12 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 70/100. Arrive by 9:12 AM. Low of -0.7 ft MLLW at 10:12 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -434,11 +421,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270421-1414@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270421T121500Z
 DTEND:20270421T162000Z
 SUMMARY:Good low tide: -1.0 ft at 7:14 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 66/100. Arrive by 6:14 AM. Low of -1.0 ft MLLW at 7:14 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 66/100. Arrive by 6:14 AM. Low of -1.0 ft MLLW at 7:14 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -447,11 +434,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270422-1454@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270422T125000Z
 DTEND:20270422T170500Z
 SUMMARY:Good low tide: -1.1 ft at 7:54 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 68/100. Arrive by 6:54 AM. Low of -1.1 ft MLLW at 7:54 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 68/100. Arrive by 6:54 AM. Low of -1.1 ft MLLW at 7:54 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -460,11 +447,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270423-1534@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270423T133000Z
 DTEND:20270423T174500Z
 SUMMARY:Good low tide: -1.0 ft at 8:34 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 70/100. Arrive by 7:34 AM. Low of -1.0 ft MLLW at 8:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 70/100. Arrive by 7:34 AM. Low of -1.0 ft MLLW at 8:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -473,11 +460,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270424-1614@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270424T141500Z
 DTEND:20270424T182000Z
 SUMMARY:Good low tide: -0.6 ft at 9:14 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 69/100. Arrive by 8:14 AM. Low of -0.6 ft MLLW at 9:14 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 69/100. Arrive by 8:14 AM. Low of -0.6 ft MLLW at 9:14 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -486,11 +473,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270425-1658@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270425T151000Z
 DTEND:20270425T185500Z
 SUMMARY:Good low tide: -0.2 ft at 9:58 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 60/100. Arrive by 8:58 AM. Low of -0.2 ft MLLW at 9:58 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 60/100. Arrive by 8:58 AM. Low of -0.2 ft MLLW at 9:58 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -499,11 +486,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270506-1353@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270506T114000Z
 DTEND:20270506T161000Z
 SUMMARY:Good low tide: -1.3 ft at 6:53 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 74/100. Arrive by 5:53 AM. Low of -1.3 ft MLLW at 6:53 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 74/100. Arrive by 5:53 AM. Low of -1.3 ft MLLW at 6:53 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -512,11 +499,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270507-1435@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270507T121500Z
 DTEND:20270507T170500Z
 SUMMARY:Great low tide: -1.7 ft at 7:35 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 87/100. Arrive by 6:35 AM. Low of -1.7 ft MLLW at 7:35 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 87/100. Arrive by 6:35 AM. Low of -1.7 ft MLLW at 7:35 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -525,11 +512,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270508-1520@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270508T125500Z
 DTEND:20270508T175500Z
 SUMMARY:Exceptional low tide: -1.8 ft at 8:20 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 95/100. Arrive by 7:20 AM. Low of -1.8 ft MLLW at 8:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 95/100. Arrive by 7:20 AM. Low of -1.8 ft MLLW at 8:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -538,11 +525,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270509-1608@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270509T134500Z
 DTEND:20270509T184500Z
 SUMMARY:Exceptional low tide: -1.7 ft at 9:08 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 93/100. Arrive by 8:08 AM. Low of -1.7 ft MLLW at 9:08 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 93/100. Arrive by 8:08 AM. Low of -1.7 ft MLLW at 9:08 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -551,11 +538,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270510-1700@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270510T144000Z
 DTEND:20270510T193000Z
 SUMMARY:Great low tide: -1.4 ft at 10:00 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 76/100. Arrive by 9:00 AM. Low of -1.4 ft MLLW at 10:00 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 76/100. Arrive by 9:00 AM. Low of -1.4 ft MLLW at 10:00 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -564,11 +551,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270511-1755@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270511T154500Z
 DTEND:20270511T201500Z
 SUMMARY:Good low tide: -1.0 ft at 10:55 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 67/100. Arrive by 9:55 AM. Low of -1.0 ft MLLW at 10:55 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 67/100. Arrive by 9:55 AM. Low of -1.0 ft MLLW at 10:55 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -577,11 +564,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270519-1318@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270519T110500Z
 DTEND:20270519T153500Z
 SUMMARY:Good low tide: -1.2 ft at 6:18 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 69/100. Arrive by 5:18 AM. Low of -1.2 ft MLLW at 6:18 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 69/100. Arrive by 5:18 AM. Low of -1.2 ft MLLW at 6:18 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -590,11 +577,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270520-1357@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270520T114000Z
 DTEND:20270520T162500Z
 SUMMARY:Great low tide: -1.3 ft at 6:57 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 75/100. Arrive by 5:57 AM. Low of -1.3 ft MLLW at 6:57 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 75/100. Arrive by 5:57 AM. Low of -1.3 ft MLLW at 6:57 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -603,11 +590,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270521-1436@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270521T122000Z
 DTEND:20270521T170500Z
 SUMMARY:Great low tide: -1.3 ft at 7:36 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 80/100. Arrive by 6:36 AM. Low of -1.3 ft MLLW at 7:36 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 80/100. Arrive by 6:36 AM. Low of -1.3 ft MLLW at 7:36 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -616,11 +603,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270522-1514@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270522T130000Z
 DTEND:20270522T174000Z
 SUMMARY:Great low tide: -1.2 ft at 8:14 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 81/100. Arrive by 7:14 AM. Low of -1.2 ft MLLW at 8:14 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 81/100. Arrive by 7:14 AM. Low of -1.2 ft MLLW at 8:14 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -629,11 +616,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270523-1552@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270523T134500Z
 DTEND:20270523T181000Z
 SUMMARY:Great low tide: -0.9 ft at 8:52 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 76/100. Arrive by 7:52 AM. Low of -0.9 ft MLLW at 8:52 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 76/100. Arrive by 7:52 AM. Low of -0.9 ft MLLW at 8:52 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -642,11 +629,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270603-1251@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270603T103000Z
 DTEND:20270603T152000Z
 SUMMARY:Good low tide: -1.4 ft at 5:51 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 74/100. Arrive by 4:51 AM. Low of -1.4 ft MLLW at 5:51 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 74/100. Arrive by 4:51 AM. Low of -1.4 ft MLLW at 5:51 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -655,11 +642,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270604-1336@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270604T110500Z
 DTEND:20270604T161500Z
 SUMMARY:Exceptional low tide: -2.0 ft at 6:36 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 93/100. Arrive by 5:36 AM. Low of -2.0 ft MLLW at 6:36 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 93/100. Arrive by 5:36 AM. Low of -2.0 ft MLLW at 6:36 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -668,11 +655,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270605-1422@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270605T114500Z
 DTEND:20270605T171000Z
 SUMMARY:Exceptional low tide: -2.3 ft at 7:22 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 99/100. Arrive by 6:22 AM. Low of -2.3 ft MLLW at 7:22 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 99/100. Arrive by 6:22 AM. Low of -2.3 ft MLLW at 7:22 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -681,11 +668,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270606-1508@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270606T123500Z
 DTEND:20270606T175500Z
 SUMMARY:Exceptional low tide: -2.4 ft at 8:08 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 99/100. Arrive by 7:08 AM. Low of -2.4 ft MLLW at 8:08 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 99/100. Arrive by 7:08 AM. Low of -2.4 ft MLLW at 8:08 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -694,11 +681,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270607-1556@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270607T132500Z
 DTEND:20270607T184000Z
 SUMMARY:Great low tide: -2.2 ft at 8:56 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 89/100. Arrive by 7:56 AM. Low of -2.2 ft MLLW at 8:56 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 89/100. Arrive by 7:56 AM. Low of -2.2 ft MLLW at 8:56 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -707,11 +694,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270608-1644@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270608T142000Z
 DTEND:20270608T192000Z
 SUMMARY:Great low tide: -1.8 ft at 9:44 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 85/100. Arrive by 8:44 AM. Low of -1.8 ft MLLW at 9:44 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 85/100. Arrive by 8:44 AM. Low of -1.8 ft MLLW at 9:44 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -720,11 +707,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270609-1734@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270609T152000Z
 DTEND:20270609T195500Z
 SUMMARY:Good low tide: -1.2 ft at 10:34 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 72/100. Arrive by 9:34 AM. Low of -1.2 ft MLLW at 10:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 72/100. Arrive by 9:34 AM. Low of -1.2 ft MLLW at 10:34 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -733,11 +720,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270617-1303@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270617T104500Z
 DTEND:20270617T153000Z
 SUMMARY:Good low tide: -1.1 ft at 6:03 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 71/100. Arrive by 5:03 AM. Low of -1.1 ft MLLW at 6:03 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 71/100. Arrive by 5:03 AM. Low of -1.1 ft MLLW at 6:03 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -746,11 +733,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270618-1343@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270618T112500Z
 DTEND:20270618T161500Z
 SUMMARY:Great low tide: -1.2 ft at 6:43 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 84/100. Arrive by 5:43 AM. Low of -1.2 ft MLLW at 6:43 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 84/100. Arrive by 5:43 AM. Low of -1.2 ft MLLW at 6:43 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -759,11 +746,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270619-1420@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270619T120000Z
 DTEND:20270619T165000Z
 SUMMARY:Great low tide: -1.2 ft at 7:20 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 84/100. Arrive by 6:20 AM. Low of -1.2 ft MLLW at 7:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 84/100. Arrive by 6:20 AM. Low of -1.2 ft MLLW at 7:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -772,11 +759,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270620-1456@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270620T124000Z
 DTEND:20270620T172000Z
 SUMMARY:Great low tide: -1.1 ft at 7:56 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 82/100. Arrive by 6:56 AM. Low of -1.1 ft MLLW at 7:56 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 82/100. Arrive by 6:56 AM. Low of -1.1 ft MLLW at 7:56 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -785,11 +772,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270621-1531@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270621T132000Z
 DTEND:20270621T175000Z
 SUMMARY:Good low tide: -0.9 ft at 8:31 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 68/100. Arrive by 7:31 AM. Low of -0.9 ft MLLW at 8:31 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 68/100. Arrive by 7:31 AM. Low of -0.9 ft MLLW at 8:31 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -798,11 +785,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270622-1605@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270622T140000Z
 DTEND:20270622T181500Z
 SUMMARY:Good low tide: -0.7 ft at 9:05 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 63/100. Arrive by 8:05 AM. Low of -0.7 ft MLLW at 9:05 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 63/100. Arrive by 8:05 AM. Low of -0.7 ft MLLW at 9:05 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -811,11 +798,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270702-1232@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270702T100500Z
 DTEND:20270702T151500Z
 SUMMARY:Great low tide: -1.6 ft at 5:32 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 83/100. Arrive by 4:32 AM. Low of -1.6 ft MLLW at 5:32 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 83/100. Arrive by 4:32 AM. Low of -1.6 ft MLLW at 5:32 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon
@@ -824,11 +811,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charleston-or-20270703-1320@tidewindow
-DTSTAMP:20260703T122107Z
+DTSTAMP:20260704T114800Z
 DTSTART:20270703T104500Z
 DTEND:20270703T161000Z
 SUMMARY:Exceptional low tide: -2.2 ft at 6:20 AM (Charleston (Coos Bay))
-DESCRIPTION:Score 100/100. Arrive by 5:20 AM. Low of -2.2 ft MLLW at 6:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://vessarey.github.io/tidewindow/beaches/or/charleston-or/
+DESCRIPTION:Score 100/100. Arrive by 5:20 AM. Low of -2.2 ft MLLW at 6:20 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tide window opens soon
+TRIGGER:-PT45M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:charleston-or-20270704-1407@tidewindow
+DTSTAMP:20260704T114800Z
+DTSTART:20270704T113000Z
+DTEND:20270704T165500Z
+SUMMARY:Exceptional low tide: -2.4 ft at 7:07 AM (Charleston (Coos Bay))
+DESCRIPTION:Score 100/100. Arrive by 6:07 AM. Low of -2.4 ft MLLW at 7:07 AM. Computed from NOAA station 9432780 predictions. Predictions are not observations — check conditions. https://thetidewindow.com/beaches/or/charleston-or/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Tide window opens soon

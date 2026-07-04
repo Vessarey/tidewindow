@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-03",
+ "generated_on": "2026-07-04",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -77,18 +77,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-03",
-   "weekday": "Fri",
-   "low_ft": -0.441,
-   "low_time_local": "7:45 AM",
-   "window_local": "5:20 AM–10:20 AM",
-   "arrive_by_local": "6:45 AM",
-   "daylight_min": 266,
-   "score": 68,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-07-12",
    "weekday": "Sun",
    "low_ft": -1.252,
@@ -111,13 +99,25 @@
    "score": 62,
    "band": "Good",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-18",
+   "weekday": "Sat",
+   "low_ft": -0.141,
+   "low_time_local": "8:17 AM",
+   "window_local": "6:15 AM–10:20 AM",
+   "arrive_by_local": "7:17 AM",
+   "daylight_min": 245,
+   "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 24,
-   "daylight_windows": 17,
-   "daylight_minus_tides": 14,
+   "lows_below_1ft": 23,
+   "daylight_windows": 16,
+   "daylight_minus_tides": 13,
    "best_window": {
     "date": "2026-07-15",
     "weekday": "Wed",
@@ -465,19 +465,19 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
-   "count": 43
-  },
-  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
+   "count": 47
+  },
+  {
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
    "count": 42
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 39
+   "count": 40
   },
   {
    "commonName": "Monterey Dorid",
@@ -487,31 +487,31 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 23
+   "count": 25
   },
   {
    "commonName": "White-speckled Dorid",
    "scientificName": "Doriopsilla fulva",
-   "count": 23
+   "count": 24
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 18
-  },
-  {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 18
+   "count": 19
   },
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 18
+   "count": 19
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 15
+  },
+  {
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
    "count": 14
   }
  ]

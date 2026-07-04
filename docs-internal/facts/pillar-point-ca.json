@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-03",
+ "generated_on": "2026-07-04",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-03",
-   "weekday": "Fri",
-   "low_ft": -0.365,
-   "low_time_local": "7:48 AM",
-   "window_local": "5:25 AM–10:20 AM",
-   "arrive_by_local": "6:48 AM",
-   "daylight_min": 266,
-   "score": 66,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-07-04",
    "weekday": "Sat",
    "low_ft": -0.05,
@@ -111,13 +99,25 @@
    "score": 60,
    "band": "Good",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-18",
+   "weekday": "Sat",
+   "low_ft": -0.05,
+   "low_time_local": "8:24 AM",
+   "window_local": "6:25 AM–10:20 AM",
+   "arrive_by_local": "7:24 AM",
+   "daylight_min": 235,
+   "score": 60,
+   "band": "Good",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 24,
-   "daylight_windows": 17,
-   "daylight_minus_tides": 14,
+   "lows_below_1ft": 23,
+   "daylight_windows": 16,
+   "daylight_minus_tides": 13,
    "best_window": {
     "date": "2026-07-14",
     "weekday": "Tue",
@@ -472,17 +472,17 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 80
+   "count": 81
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 68
+   "count": 69
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 57
+   "count": 58
   },
   {
    "commonName": "Stubby Dendronotid",
@@ -507,7 +507,7 @@
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 27
+   "count": 28
   },
   {
    "commonName": "Fisher's Aeolid",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-03",
+ "generated_on": "2026-07-04",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -65,18 +65,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-03",
-   "weekday": "Fri",
-   "low_ft": -0.231,
-   "low_time_local": "6:21 AM",
-   "window_local": "4:15 AM–8:35 AM",
-   "arrive_by_local": "5:21 AM",
-   "daylight_min": 170,
-   "score": 62,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-07-18",
    "weekday": "Sat",
    "low_ft": -0.112,
@@ -111,13 +99,25 @@
    "score": 56,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-05",
+   "weekday": "Sun",
+   "low_ft": 0.424,
+   "low_time_local": "7:24 AM",
+   "window_local": "5:50 AM–9:00 AM",
+   "arrive_by_local": "6:24 AM",
+   "daylight_min": 190,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 22,
-   "daylight_windows": 14,
-   "daylight_minus_tides": 10,
+   "lows_below_1ft": 21,
+   "daylight_windows": 13,
+   "daylight_minus_tides": 9,
    "best_window": {
     "date": "2026-07-15",
     "weekday": "Wed",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-03",
-   "weekday": "Fri",
-   "low_ft": -0.231,
-   "low_time_local": "6:21 AM",
-   "window_local": "4:15 AM–8:35 AM",
-   "arrive_by_local": "5:21 AM",
-   "daylight_min": 170,
-   "score": 62,
-   "band": "Good",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 66,
-   "min_to_sun_edge": 36
-  },
-  {
    "date": "2026-07-04",
    "weekday": "Sat",
    "low_ft": 0.052,
@@ -461,6 +447,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 72,
    "min_to_sun_edge": 61
+  },
+  {
+   "date": "2026-07-30",
+   "weekday": "Thu",
+   "low_ft": -0.451,
+   "low_time_local": "4:47 AM",
+   "window_local": "2:40 AM–7:00 AM",
+   "arrive_by_local": "3:47 AM",
+   "daylight_min": 58,
+   "score": 38,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 56,
+   "min_to_sun_edge": -75
   }
  ],
  "species_last60d_5km": [
@@ -468,11 +468,6 @@
    "commonName": "Los Angeles Goniodorid",
    "scientificName": "Bermudella angelensis",
    "count": 13
-  },
-  {
-   "commonName": "Hedgpeth's Dorid",
-   "scientificName": "Polycera hedgpethi",
-   "count": 8
   },
   {
    "commonName": "Garden Snail",
@@ -512,6 +507,11 @@
   {
    "commonName": "Ridge-tailed Dorid",
    "scientificName": "Diaphorodoris lirulatocauda",
+   "count": 1
+  },
+  {
+   "commonName": "Hedgpeth's Dorid",
+   "scientificName": "Polycera hedgpethi",
    "count": 1
   }
  ]

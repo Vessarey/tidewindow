@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-03",
+ "generated_on": "2026-07-04",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 23,
-   "daylight_windows": 23,
-   "daylight_minus_tides": 19,
+   "lows_below_1ft": 22,
+   "daylight_windows": 22,
+   "daylight_minus_tides": 18,
    "best_window": {
     "date": "2026-07-11",
     "weekday": "Sat",
@@ -483,13 +483,13 @@
    "count": 1
   },
   {
-   "commonName": "Giant Pacific Octopus",
-   "scientificName": "Enteroctopus dofleini",
+   "commonName": "Brown-lipped Snail",
+   "scientificName": "Cepaea nemoralis",
    "count": 1
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
+   "commonName": "Giant Pacific Octopus",
+   "scientificName": "Enteroctopus dofleini",
    "count": 1
   }
  ]

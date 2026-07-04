@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-03",
+ "generated_on": "2026-07-04",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 24,
-   "daylight_windows": 20,
-   "daylight_minus_tides": 17,
+   "lows_below_1ft": 23,
+   "daylight_windows": 19,
+   "daylight_minus_tides": 16,
    "best_window": {
     "date": "2026-07-13",
     "weekday": "Mon",

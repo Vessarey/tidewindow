@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-03",
+ "generated_on": "2026-07-04",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 24,
-   "daylight_windows": 19,
-   "daylight_minus_tides": 16,
+   "lows_below_1ft": 23,
+   "daylight_windows": 18,
+   "daylight_minus_tides": 15,
    "best_window": {
     "date": "2026-07-14",
     "weekday": "Tue",
@@ -477,11 +477,6 @@
   {
    "commonName": "Black Leather Chiton",
    "scientificName": "Katharina tunicata",
-   "count": 1
-  },
-  {
-   "commonName": "Robust Lancetooth Snail",
-   "scientificName": "Haplotrema vancouverense",
    "count": 1
   }
  ]
