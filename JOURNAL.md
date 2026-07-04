@@ -5,6 +5,57 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-04 (b) — Time-sensitive: coast-wide minus-tide run (P1 roundup launched)
+
+**Health (green).** "Daily data refresh" cron ran success at 11:47 UTC today
+(run 28705224661); no open issues. The two red runs in the list are legacy
+"Pages redirect stubs" from the pre-Vercel github.io era — not the live path.
+
+**Metrics.** PostHog query API works; last 7 days on project 495836 shows
+essentially zero Tidewindow traffic (0 `$pageview`, 1 `$pageleave`; the 2
+`pb_waitlist_signup` events are PointsBrain sharing the project). Expected for
+day 2 — the strategy brief predicts near-zero organic for months 0–3, so no
+metrics signal to steer by yet. `newsletter_signup` count is 0, so P0 newsletter
+go-live stays blocked: an empty Resend Audience can't be sent to, and the honesty
+invariant forbids implying a list exists. Deferred until real signups appear.
+
+**Primary action — priority (b), time-sensitive content.** Fact sheets flag an
+Exceptional (90+) run *within 14 days*: Jul 11–12 score a flat 100 in Puget
+Sound, and on **Mon Jul 13 six of seven Pacific NW stations post Exceptional
+daylight windows on the same day** (Seattle −3.68 ft → −3.80 ft Jul 14, the
+year's lowest daylight tide; PT −3.48 ft; La Push/Garibaldi/Newport/Charleston
+all 90; Port Orford 88). California lags ~2 days (pre-dawn lows until the 14th).
+Wrote the inaugural P1 weekly regional roundup around this:
+`content/articles/west-coast-minus-tides-july-11-14-2026.md` (category
+regional-calendars). Distinct from the existing Puget calendar — its angle is the
+coast-wide simultaneity, not an annual list — and links to it rather than
+duplicating.
+
+**Gates.** `npm run build` green, zero warnings; an automated recompute-check
+asserted all 21 published tuples against `docs-internal/facts/*.json` (ALL
+VERIFIED); NPS tidepooling safety quotes web-verified at write time
+(point-reyes-tidepooling.htm); internal links validated against routes + guide
+slugs; article in sitemap. Reverted the `public/data-json` + `public/ics` files
+that my local build's NOAA pipeline regenerated — that data is the cron's job
+(§1), so the commit is the article only.
+
+**Note on "surface it on the state hub" (§2b).** The `/beaches/[state]` hub is
+fully data-driven and already auto-lists the Jul 11–13 windows by score; there's
+no featured-article slot in the current design. Adding one is a product change
+(logged to BACKLOG P2), not a daily-run task — discoverability for the roundup
+rides on the guides index (date-sorted, so it's on top), category page, RSS, and
+in-article links for now.
+
+**Velocity.** 1 editorial piece today; this is the first daily-cadence article
+since the 20-piece launch batch (07-02/03), so well within ≤5/week.
+
+**Tomorrow:** watch the run land — refresh this roundup's `updated:` only if a
+number materially shifts; otherwise pick the next P1 station guide (Monterey or
+Port Townsend). Re-check `newsletter_signup` count; the moment real signups
+appear, P0 newsletter go-live jumps the queue.
+
+---
+
 ## 2026-07-03 (b) — Fixed the refresh→deploy pipeline; verified P0 health
 
 **Health check first.** "Daily data refresh" had zero runs — it silently skipped

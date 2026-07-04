@@ -28,9 +28,12 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
-- [ ] Weekly regional roundup format: "This week on the {region} coast" — start
-      with the region whose upcoming windows score highest; refresh weekly (this
-      doubles as the future newsletter body).
+- [x] 2026-07-04: Weekly regional roundup format LAUNCHED — inaugural instance
+      is the time-sensitive West Coast Jul 11–14 run
+      (content/articles/west-coast-minus-tides-july-11-14-2026.md), triggered by
+      priority (b) (coast-wide 90+ within 14 days). Recurring going forward:
+      refresh weekly with the highest-scoring upcoming region; doubles as the
+      future newsletter body.
 - [ ] Monterey / Pacific Grove station guide article (station exists, no guide).
 - [ ] Port Townsend / Fort Worden station guide article.
 - [ ] La Push / Rialto Beach + Hole-in-the-Wall station guide article (strong
@@ -53,6 +56,10 @@ with the date; add discoveries at the appropriate tier.
 - [ ] NDBC buoy swell for 7-day conditions row (spec §4f full version).
 - [ ] ZIP → nearest-station lookup for the finder (static lookup table).
 - [ ] Per-station OG images (station name + mini heatmap via ImageResponse).
+- [ ] Featured-roundup slot on /beaches/[state] hubs: surface the latest
+      regional roundup article (discovered 2026-07-04 — §2b says "surface on the
+      state hub" but the hub is fully data-driven with no article slot; roundups
+      currently ride the guides index + internal links only).
 - [ ] Exit-intent signup (desktop only, frequency-capped, 2nd pageview+).
 - [ ] "Tidepooling 101 in 5 days" email course content (ships with Resend).
 - [ ] Print stylesheet polish for month pages (page-break rules).
