@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-04",
+ "generated_on": "2026-07-05",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-04",
-   "weekday": "Sat",
-   "low_ft": -0.15,
-   "low_time_local": "8:17 AM",
-   "window_local": "6:00 AM–10:35 AM",
-   "arrive_by_local": "7:17 AM",
-   "daylight_min": 275,
-   "score": 62,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-07-18",
    "weekday": "Sat",
    "low_ft": -0.141,
@@ -111,13 +99,25 @@
    "score": 62,
    "band": "Good",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-31",
+   "weekday": "Fri",
+   "low_ft": -0.292,
+   "low_time_local": "6:36 AM",
+   "window_local": "4:25 AM–8:55 AM",
+   "arrive_by_local": "5:36 AM",
+   "daylight_min": 162,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 23,
-   "daylight_windows": 16,
-   "daylight_minus_tides": 13,
+   "lows_below_1ft": 22,
+   "daylight_windows": 15,
+   "daylight_minus_tides": 12,
    "best_window": {
     "date": "2026-07-15",
     "weekday": "Wed",
@@ -472,12 +472,12 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 42
+   "count": 41
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 40
+   "count": 41
   },
   {
    "commonName": "Monterey Dorid",
@@ -495,13 +495,13 @@
    "count": 24
   },
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 19
-  },
-  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
+   "count": 20
+  },
+  {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
    "count": 19
   },
   {
@@ -510,9 +510,9 @@
    "count": 15
   },
   {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
-   "count": 14
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
+   "count": 15
   }
  ]
 }

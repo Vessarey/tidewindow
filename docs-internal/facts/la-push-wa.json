@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-04",
+ "generated_on": "2026-07-05",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 24,
-   "daylight_windows": 19,
-   "daylight_minus_tides": 18,
+   "lows_below_1ft": 23,
+   "daylight_windows": 18,
+   "daylight_minus_tides": 17,
    "best_window": {
     "date": "2026-07-12",
     "weekday": "Sun",
@@ -477,7 +477,7 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 15
+   "count": 14
   },
   {
    "commonName": "Black Tegula",
@@ -495,6 +495,11 @@
    "count": 5
   },
   {
+   "commonName": "Hind's Chiton",
+   "scientificName": "Mopalia hindsii",
+   "count": 4
+  },
+  {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
    "count": 4
@@ -507,11 +512,6 @@
   {
    "commonName": "Black Leather Chiton",
    "scientificName": "Katharina tunicata",
-   "count": 3
-  },
-  {
-   "commonName": "Hind's Chiton",
-   "scientificName": "Mopalia hindsii",
    "count": 3
   }
  ]

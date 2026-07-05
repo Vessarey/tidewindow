@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-04",
+ "generated_on": "2026-07-05",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -77,18 +77,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-04",
-   "weekday": "Sat",
-   "low_ft": 0.052,
-   "low_time_local": "6:53 AM",
-   "window_local": "4:55 AM–8:50 AM",
-   "arrive_by_local": "5:53 AM",
-   "daylight_min": 184,
-   "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-07-13",
    "weekday": "Mon",
    "low_ft": -1.554,
@@ -111,12 +99,24 @@
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-13",
+   "weekday": "Thu",
+   "low_ft": -1.025,
+   "low_time_local": "4:30 AM",
+   "window_local": "2:15 AM–6:50 AM",
+   "arrive_by_local": "3:30 AM",
+   "daylight_min": 39,
+   "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 21,
-   "daylight_windows": 13,
+   "lows_below_1ft": 20,
+   "daylight_windows": 12,
    "daylight_minus_tides": 9,
    "best_window": {
     "date": "2026-07-15",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-04",
-   "weekday": "Sat",
-   "low_ft": 0.052,
-   "low_time_local": "6:53 AM",
-   "window_local": "4:55 AM–8:50 AM",
-   "arrive_by_local": "5:53 AM",
-   "daylight_min": 184,
-   "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 70,
-   "min_to_sun_edge": 67
-  },
-  {
    "date": "2026-07-15",
    "weekday": "Wed",
    "low_ft": -1.586,
@@ -461,6 +447,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 56,
    "min_to_sun_edge": -75
+  },
+  {
+   "date": "2026-07-31",
+   "weekday": "Fri",
+   "low_ft": -0.306,
+   "low_time_local": "5:13 AM",
+   "window_local": "3:15 AM–7:20 AM",
+   "arrive_by_local": "4:13 AM",
+   "daylight_min": 78,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 61,
+   "min_to_sun_edge": -49
   }
  ],
  "species_last60d_5km": [
