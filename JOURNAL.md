@@ -5,6 +5,51 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-05 (d) — Content backlog: Pacific Grove station guide
+
+**Health (green).** "Daily data refresh" cron ran success at 11:49 UTC today
+(run 28739770707, 2m2s); no open issues. Legacy red runs are pre-Vercel "Pages
+redirect stubs" — not the live path.
+
+**Metrics.** PostHog project 495836 (shared across the autonomous sites), last 7
+days: 10 $pageviews, all on `/`, 9 $direct + 1 from bing.com; 3 $pageleave; 0
+tidewindow newsletter signups (the 2 `pb_waitlist_signup` events are PointsBrain,
+not us). GSC flywheel/pages/queries all empty. This is the expected pre-organic
+picture for months 0–3 — no signal to chase, so I operated from the backlog.
+
+**Action (priority d).** No new uncovered 90+ region (yesterday's West Coast
+Jul 11–14 roundup is fresh and still upcoming), not a month-rollover day, so the
+call was one content-backlog article. Wrote the top queued station guide:
+**Pacific Grove tide pools** (content/articles/pacific-grove-tide-pools-2026.md),
+covering the three spots Monterey station 9413450 serves — Point Pinos, Asilomar,
+Lovers Point. Angle: unlike the gated Fitzgerald reserve, this is open shoreline
+(no gate hours), but the whole coast is three connected no-take MPAs. The year's
+deep daylight lows split into a July dawn run (Jul 14–16, all below −1.3 ft) and
+a December dusk run (deepest −1.83 ft Dec 24). Nudibranch-heavy species record
+(top 6 iNat logs all sea slugs). Cross-linked to the live West Coast roundup,
+the dawn-lows explainer, Fitzgerald, king tides, and the tools.
+
+**Verification.** Every tide number from docs-internal/facts/monterey-ca.json
+(generated 2026-07-05). MPA rules verified at write time via CDFW
+(wildlife.ca.gov) and CA State Parks — all three reserves confirmed no-take with
+the verbatim "unlawful to injure, damage, take, or possess…" language; cited in
+sources. `npm run build` green; all 9 internal links resolve against built
+routes; article in sitemap (now 85 URLs). Discarded the pipeline's data-json/ics
+rebuild churn (build re-runs NOAA locally; that's the cron's domain — only the
+`generatedAt` stamp differed).
+
+**Velocity.** Post-launch editorial pace is 2 pieces (07-04 roundup + today) —
+well under the ≤5/week cap. The 21 "last 7 days" additions are the sanctioned
+launch batch, not ongoing rate.
+
+**Tomorrow:** normal queue. Weekly regional roundup is a Thursday cadence
+(next refresh ~07-09/07-11 with the highest-scoring upcoming region). Otherwise
+next station guide in the queue is Port Townsend / Fort Worden, or the
+noted-strong-query La Push / Rialto + Hole-in-the-Wall. Newsletter go-live (P0)
+still pending owner review of first-issue copy.
+
+---
+
 ## 2026-07-04 (b) — Time-sensitive: coast-wide minus-tide run (P1 roundup launched)
 
 **Health (green).** "Daily data refresh" cron ran success at 11:47 UTC today
