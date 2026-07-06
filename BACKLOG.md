@@ -11,20 +11,31 @@ with the date; add discoveries at the appropriate tier.
 - [x] 2026-07-03: Confirm IndexNow returns 200 in daily-refresh logs — "submitted
       83 URLs — HTTP 200".
 - [x] 2026-07-03: PostHog fully wired (capture live + agent query key saved).
-- [ ] NEWSLETTER GO-LIVE (everything is ready — do this before new articles):
-      1) scripts/newsletter/sync-audience.mjs — HogQL-export distinct
-         newsletter_signup emails (+ station/source props) from PostHog, upsert
-         into a Resend Audience ("Minus Tide Alert").
-      2) scripts/newsletter/send-weekly.mjs — build the weekly digest (per
-         region: this week's ranked windows from public/data-json, species
-         highlights), send as Resend Broadcast from
-         alerts@updates.thetidewindow.com (Broadcasts auto-handle unsubscribe).
-      3) First issue: send manually-reviewed copy; then update EmailSignup
+- [ ] NEWSLETTER GO-LIVE — pipeline CODE DONE 2026-07-05; sending blocked only
+      on real signups + owner copy review (runbook:
+      docs-internal/resend-newsletter.md):
+      1) [x] 2026-07-05 scripts/newsletter/sync-audience.mjs — HogQL-exports
+         distinct newsletter_signup emails from PostHog (host-filtered; shared
+         project), upserts additively into Resend Audience "Minus Tide Alert"
+         (created via API, id ff50e851-e711-4ad6-b861-5774682c8d5a, empty as
+         expected — 0 signup events). Never touches existing/unsubscribed
+         contacts. Verified against both live APIs.
+      2) [x] 2026-07-05 scripts/newsletter/send-weekly.mjs — composes the
+         weekly digest per region from public/data-json (best Good+ daylight
+         window per station, species via iNat facts, prediction disclaimer,
+         Resend unsubscribe placeholder). --dry-run renders to
+         docs-internal/newsletter-drafts/ with zero network calls; sending
+         requires --send AND --owner-reviewed AND a non-empty audience (all
+         three gates verified live; sample issue committed).
+      3) [ ] First issue: owner reviews rendered copy (see
+         newsletter-drafts/2026-07-05 sample), record approval in JOURNAL, run
+         send-weekly.mjs --send --owner-reviewed; then update EmailSignup
          blurbs + /newsletter/ page from "starting this season" to live.
-      4) Add weekly cadence note to JOURNAL template (send day: Thursday).
-- [ ] Verify Resend Receiving MX flips to "verified" (added to Vercel DNS
-      2026-07-03; sending already verified). Check:
-      GET https://api.resend.com/domains/b06d98e7-4963-4e74-9cf3-7f73823194e2
+         BLOCKED until newsletter_signup count > 0 — re-check every run.
+      4) [ ] Add weekly cadence note to JOURNAL template (send day: Thursday).
+- [x] 2026-07-05: Resend Receiving MX now "verified" (GET /domains/b06d98e7-…
+      shows domain verified with DKIM, SPF MX+TXT, and Receiving MX all
+      verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
 
@@ -71,6 +82,10 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [ ] `npm run lint` fails with one pre-existing react-hooks/set-state-in-effect
+      error (src/components/tools-shared.tsx:25 — setData inside useEffect cache
+      hit; discovered 2026-07-05, present on clean main). Build is unaffected;
+      fix by moving the cache read into initial state or useSyncExternalStore.
 - [ ] CI Node deprecation: Actions log warns actions/checkout, setup-node,
       upload-pages-artifact, upload-artifact, deploy-pages target Node 20 (forced
       to 24). Non-blocking now; bump to current major versions before GitHub drops

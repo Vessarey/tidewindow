@@ -5,6 +5,76 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-05 (P0, second run) — Newsletter pipeline built; MX verified
+
+**Why a second run today:** declared P0 — build the newsletter code NOW so that
+the day real signups exist, sending is a one-command action instead of a
+build-from-scratch scramble.
+
+**Done:**
+
+1. **scripts/newsletter/sync-audience.mjs** (+ shared lib.mjs, zero deps like
+   gsc-query.mjs): HogQL-exports distinct `newsletter_signup` emails (+ source
+   prop, first-seen) from PostHog — filtered to Tidewindow hosts because
+   project 495836 is shared across sites — and upserts them additively into
+   the Resend Audience "Minus Tide Alert", creating it via API if absent.
+   Unsubscribed or existing contacts are never modified (unsubscribes win,
+   permanently). Ran it for real: 0 signup events (expected), audience created
+   empty, id ff50e851-e711-4ad6-b861-5774682c8d5a.
+2. **scripts/newsletter/send-weekly.mjs**: composes the weekly Minus Tide
+   Alert from public/data-json only — per region, each station's best
+   Good-or-better (score ≥60) daylight window for the 7 days from --start
+   (default today), extra Good+ days, iNat species near the week's best
+   station, prediction-not-observation disclaimer, automation disclosure, and
+   Resend's unsubscribe placeholder. Three independent gates before anything
+   sends: explicit --send flag (default and --dry-run never touch the send
+   path), non-empty audience (refuses at 0 subscribed), and --owner-reviewed
+   (first-send gate: this flag may only be passed once owner copy review is
+   recorded here — printed by the script itself).
+3. **Dry-ran everything against the live APIs, sent nothing:** sync (real,
+   zero events); send --dry-run → sample issue committed at
+   docs-internal/newsletter-drafts/2026-07-05-minus-tide-alert.{html,txt}
+   (subject: "Minus Tide Alert, Jul 5-Jul 11: Port Townsend hits -2.36 ft
+   Sat"); send --send without --owner-reviewed → aborts; --send
+   --owner-reviewed → aborts on empty audience. Quiet-week fallback exercised
+   with --start=2026-10-05 (renders "least-bad option" copy; test files not
+   committed). Recompute-checked rendered numbers against
+   public/data-json/stations/ (PT −2.361/7:58 AM/100, Garibaldi set) — match.
+4. **Receiving MX is now VERIFIED**: GET /domains/b06d98e7-… shows
+   updates.thetidewindow.com fully verified (DKIM, SPF MX+TXT, Receiving MX).
+   Closed the BACKLOG item; records + send runbook written to
+   docs-internal/resend-newsletter.md.
+
+**Copy honesty choices:** species section says "Recently logged near
+{station}", not "in the pools" — the 5 km iNat radius pulls in terrestrial
+strays (today's render literally surfaced Pacific Banana Slug at Port
+Townsend; the P2 taxa-filter item stands). Negative-zero heights render as
+0.00. Digest includes the predictions-not-observations disclaimer and the
+automation disclosure, mirroring /methodology/.
+
+**Side-fix:** removed the party-popper emoji from the EmailSignup success
+message (studio no-emoji rule; it was UI-facing).
+
+**Gates:** `npm run build` green, zero warnings introduced; diff reviewed (no
+data-json churn — pipeline stamp was fresh from today's cron). `npm run lint`
+reports ONE pre-existing error (react-hooks/set-state-in-effect in
+src/components/tools-shared.tsx:25) — verified present on clean main via
+`git stash`, not introduced here; logged to BACKLOG P2. No email sent to
+anyone — the audience is empty and the send path was never reached with a
+sendable state.
+
+**Owner action requested (when signups exist):** review the rendered sample at
+docs-internal/newsletter-drafts/2026-07-05-minus-tide-alert.html; on approval
+we record it here and the first send becomes:
+`node scripts/newsletter/sync-audience.mjs && node scripts/newsletter/send-weekly.mjs --send --owner-reviewed`.
+
+**Tomorrow:** re-check `newsletter_signup` count each run (sync-audience.mjs
+is now the fast way); the moment it is > 0, request owner copy review, then
+first send + flip signup copy to live (BACKLOG P0 step 3). Weekly send day:
+Thursday.
+
+---
+
 ## 2026-07-05 (d) — Content backlog: Pacific Grove station guide
 
 **Health (green).** "Daily data refresh" cron ran success at 11:49 UTC today
