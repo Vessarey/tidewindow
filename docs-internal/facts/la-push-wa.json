@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-05",
+ "generated_on": "2026-07-06",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 23,
-   "daylight_windows": 18,
-   "daylight_minus_tides": 17,
+   "lows_below_1ft": 22,
+   "daylight_windows": 17,
+   "daylight_minus_tides": 16,
    "best_window": {
     "date": "2026-07-12",
     "weekday": "Sun",
@@ -465,11 +465,6 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Pacific Banana Slug",
-   "scientificName": "Ariolimax columbianus",
-   "count": 19
-  },
-  {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
    "count": 17
@@ -482,7 +477,7 @@
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Striped Dogwinkle",
@@ -492,7 +487,7 @@
   {
    "commonName": "Rough Keyhole Limpet",
    "scientificName": "Diodora aspera",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": "Hind's Chiton",
@@ -512,6 +507,11 @@
   {
    "commonName": "Black Leather Chiton",
    "scientificName": "Katharina tunicata",
+   "count": 3
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 3
   }
  ]

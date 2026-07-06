@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-05",
+ "generated_on": "2026-07-06",
  "region": "Puget Sound / Salish Sea",
  "stations": [
   {
@@ -8,8 +8,8 @@
    "noaa_id": "9447130",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 20,
-     "daylight_windows": 20,
+     "lows_below_1ft": 19,
+     "daylight_windows": 19,
      "daylight_minus_tides": 16,
      "best_window": {
       "date": "2026-07-11",
@@ -145,8 +145,8 @@
    "noaa_id": "9444900",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 21,
-     "daylight_windows": 21,
+     "lows_below_1ft": 20,
+     "daylight_windows": 20,
      "daylight_minus_tides": 17,
      "best_window": {
       "date": "2026-07-11",

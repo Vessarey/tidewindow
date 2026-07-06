@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-05",
+ "generated_on": "2026-07-06",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-05",
-   "weekday": "Sun",
-   "low_ft": 0.425,
-   "low_time_local": "7:20 AM",
-   "window_local": "5:40 AM–9:00 AM",
-   "arrive_by_local": "6:20 AM",
-   "daylight_min": 194,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-08-13",
    "weekday": "Thu",
    "low_ft": -0.916,
@@ -111,12 +99,24 @@
    "score": 44,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-01",
+   "weekday": "Sat",
+   "low_ft": 0.013,
+   "low_time_local": "5:35 AM",
+   "window_local": "3:45 AM–7:30 AM",
+   "arrive_by_local": "4:35 AM",
+   "daylight_min": 87,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 22,
-   "daylight_windows": 12,
+   "lows_below_1ft": 21,
+   "daylight_windows": 11,
    "daylight_minus_tides": 9,
    "best_window": {
     "date": "2026-07-15",
@@ -467,51 +467,51 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 142
+   "count": 143
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 124
+   "count": 131
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 94
-  },
-  {
-   "commonName": "White-spotted Sea Goddess",
-   "scientificName": "Doriopsilla albopunctata",
-   "count": 47
+   "count": 97
   },
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 46
+   "count": 49
+  },
+  {
+   "commonName": "White-spotted Sea Goddess",
+   "scientificName": "Doriopsilla albopunctata",
+   "count": 49
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 46
-  },
-  {
-   "commonName": "White-crusted Aeolid",
-   "scientificName": "Tenellia albocrusta",
-   "count": 39
+   "count": 47
   },
   {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
-   "count": 39
+   "count": 42
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
+   "count": 39
+  },
+  {
+   "commonName": "White-crusted Aeolid",
+   "scientificName": "Tenellia albocrusta",
    "count": 38
   },
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
+   "commonName": "McDonald's Dorid",
+   "scientificName": "Limacia mcdonaldi",
    "count": 37
   }
  ]
