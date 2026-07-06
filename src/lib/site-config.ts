@@ -13,10 +13,18 @@ export const siteConfig = {
   url: "https://thetidewindow.com",
   basePath: "",
   locale: "en-US",
-  // PostHog project key (publishable, safe to commit). Events are proxied
-  // through /ingest (vercel.json rewrites) to survive ad-blockers.
+  // PostHog project key (publishable, safe to commit).
   posthogKey: "phc_DkedwnjqYT23MHadQyjUhfQ83jhvudqujZqRG8utdui9",
-  posthogHost: "/ingest",
+  // NOTE: same-origin "/ingest" proxying is BROKEN under output:"export" +
+  // trailingSlash — Vercel serves 404.html for the extensionless ingestion
+  // paths (/e/, /flags, /decide/), so zero events reached PostHog from the
+  // 2026-07-03 domain migration until this fix (2026-07-05). Only the .js
+  // asset GETs (config.js, /static/*) proxied, so the SDK loaded but every
+  // capture POST 404'd silently. Pointing api_host straight at PostHog Cloud
+  // restores capture (us-assets.i.posthog.com is derived automatically).
+  // First-party proxying can be revisited (BACKLOG) for content-blocker
+  // resilience — it needs a real proxy that forwards extensionless POSTs.
+  posthogHost: "https://us.i.posthog.com",
   // Email capture is recorded as PostHog events (identify + capture).
   emailCaptureEvent: "newsletter_signup",
 };
