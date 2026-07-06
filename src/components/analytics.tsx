@@ -17,7 +17,16 @@ export function initAnalytics() {
     person_profiles: "identified_only",
     // Cookieless-friendly: memory persistence until identified, no banners needed.
     persistence: "memory",
-    capture_pageview: true,
+    // "history_change", not bare `true`: this is a Next.js static export, so
+    // internal navigation is client-side history (pushState). posthog-js gates
+    // its History API monitor on capture_pageview === "history_change", so with
+    // `true` that monitor is disabled — only hard page loads recorded a $pageview
+    // and soft route changes recorded none (root cause of the 2026-07-05 zero-
+    // pageviews incident, alongside the separately-fixed /ingest proxy outage).
+    // "history_change" keeps the initial pageview (still truthy -> the load-time
+    // capture path) and adds soft navigations; it is also exactly what the
+    // defaults:"2026-05-30" preset resolves capture_pageview to on its own.
+    capture_pageview: "history_change",
     capture_pageleave: true,
     autocapture: true,
   });
