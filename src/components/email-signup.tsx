@@ -43,7 +43,7 @@ export default function EmailSignup({
     return (
       <div className="signup-box" data-signup-source={source}>
         <p className="signup-done">
-          You&apos;re on the list — first issue lands soon. 🎉
+          You&apos;re on the list — first issue lands soon.
         </p>
       </div>
     );
