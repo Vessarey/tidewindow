@@ -63,16 +63,23 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — product
 
-- [ ] iNat taxa filter: land species occasionally slip in (e.g. Garden Snail at
-      Seattle). Constrain to marine taxa ids or filter terrestrial families in
-      the pipeline.
+- [x] 2026-07-05: iNat taxa filter DONE — terrestrial strays (Garden Snail,
+      Pacific Banana Slug, land Helicidae, woodlice) excluded by ancestry.
+      scripts/pipeline/species.mjs owns fetchSpecies + a TERRESTRIAL_CLADE_IDS
+      ancestor-id blocklist (Stylommatophora, Insecta, Arachnida, Myriapoda,
+      Entognatha/Collembola, Oniscidea); over-fetches per_page=30 then filters to
+      top 10. scripts/pipeline/refresh-species.mjs re-ran the 12 stations from
+      stored lat/lng (species-only diff, no NOAA churn). Verified Garden Snail
+      gone from Seattle; marine sea slugs (incl. Hopkins' Rose) retained.
 - [ ] NDBC buoy swell for 7-day conditions row (spec §4f full version).
 - [ ] ZIP → nearest-station lookup for the finder (static lookup table).
 - [ ] Per-station OG images (station name + mini heatmap via ImageResponse).
-- [ ] Featured-roundup slot on /beaches/[state] hubs: surface the latest
-      regional roundup article (discovered 2026-07-04 — §2b says "surface on the
-      state hub" but the hub is fully data-driven with no article slot; roundups
-      currently ride the guides index + internal links only).
+- [x] 2026-07-05: Featured-roundup slot on /beaches/[state] hubs DONE — data
+      driven from article frontmatter (new optional `featuredRoundup: {states,
+      event, until, teaser}`; getActiveRoundup() in src/lib/content.ts). Renders a
+      kelp-accented .roundup-card under the answer-box only while `until` >= build
+      date, so it clears itself on the daily rebuild after the event. The West
+      Coast Jul 11-14 roundup now surfaces on wa/or/ca hubs and is absent from me.
 - [ ] Exit-intent signup (desktop only, frequency-capped, 2nd pageview+).
 - [ ] "Tidepooling 101 in 5 days" email course content (ships with Resend).
 - [ ] Print stylesheet polish for month pages (page-break rules).

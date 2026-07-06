@@ -5,6 +5,72 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-05 (third run) — State-hub roundup slot; terrestrial species filter
+
+**Why a third run:** two scoped, time-boxed items — one with a hard July 11
+deadline (surface the West Coast roundup on the state hubs before the event),
+one a brand-integrity bug (land animals in tide-pool species tables). Both are
+priority-(a)-class: a time-sensitive surfacing gap and a wrong-content defect.
+
+**Task 1 — featured-roundup slot on /beaches/[state] (deadline Jul 11).**
+The hub was fully data-driven with no article slot, so the Jul 11-14 roundup
+only rode the guides index + internal links (logged 2026-07-04). Added an
+opt-in, data-driven slot:
+
+- New optional article frontmatter `featuredRoundup: { states, event, until,
+  teaser }` and `getActiveRoundup(stateSlug, today)` in src/lib/content.ts. A
+  roundup surfaces only while it targets the state AND `until` >= the build
+  date; articles are date-sorted so the newest qualifying one wins.
+- The West Coast roundup declares `states: [wa, or, ca]`, `until: 2026-07-14`.
+- The hub renders a kelp-accented `.roundup-card` (new globals.css class,
+  built only from existing theme tokens — foam-deep/sand/kelp/ink, display +
+  mono type) directly under the computed answer-box. Distinct from the
+  gold-accented answer-box on purpose so it reads as editorial, not as the
+  computed number. Typography only, no emoji.
+- Graceful expiry: because the site rebuilds daily, the slot disappears on the
+  first rebuild after 2026-07-14 with no code change. Verified it shows on the
+  wa/or/ca built hubs and is absent from me (no covered stations there).
+
+**Task 2 — terrestrial species leaking into tide-pool tables.** The iNat
+`species_counts` call filters to four iconic taxa (Mollusca, Echinodermata,
+Cnidaria, Arthropoda), but a 5 km coastal radius plus those broad phyla let
+land snails/slugs and terrestrial arthropods through — the render literally
+showed Garden Snail (Cornu aspersum) at Seattle, Pacific Banana Slug at Port
+Townsend, Milk/Brown-lipped Snails farther south.
+
+- Extracted the iNat logic into scripts/pipeline/species.mjs (imported by
+  run.mjs; run.mjs self-executes on import so it could not be reused directly).
+  Added a `TERRESTRIAL_CLADE_IDS` ancestor-id blocklist and `isTerrestrialTaxon`
+  — a taxon is dropped if its `ancestor_ids` (or own id) hits Stylommatophora
+  (land snails/slugs, 47485), Insecta (47158), Arachnida (47119), Myriapoda
+  (144128), Entognatha/Collembola (243773/49470), or Oniscidea (woodlice,
+  84718; land Crustacea that read as marine). Ids verified against the iNat
+  taxa API. Over-fetches per_page=30 then filters to top 10 so tables stay full.
+- Marine slug clades are deliberately NOT blocked (Sacoglossa, nudibranchs,
+  Systellommatophora incl. intertidal Onchidiidae), so real sea slugs survive.
+- Regenerated species with scripts/pipeline/refresh-species.mjs, which reads
+  each station's stored lat/lng and rewrites ONLY the `species` field — no NOAA
+  refetch, no window/curve/timestamp churn (the daily cron owns that). 11 of 12
+  stations changed; verified programmatically that the diff is species-only.
+
+**Verification.** `npm run build` green, zero warnings introduced; prebuild
+pipeline skipped (data 15h old) so the build ran against the patched data.
+Garden Snail gone from the built Seattle page (grep count 0); spot-checked
+La Jolla — Hopkins' Rose Nudibranch (Ceratodoris rosacea) is correctly kept as
+marine (it only dropped in ranking as iNat's 60-day counts shifted, not from
+the filter). Removed set across stations was exclusively land snails/slugs and
+woodlice. `npm run lint` still reports only the one pre-existing
+set-state-in-effect error in tools-shared.tsx (BACKLOG P2) — none added.
+No emails sent, nothing purchased, no accounts created.
+
+**Tomorrow:** the roundup slot expires itself after Jul 14; the Thursday weekly
+roundup refresh (next region) should set `featuredRoundup` on its own article
+to reuse the slot. Newsletter go-live (P0) still pending owner review + first
+real signup. The species filter is a blocklist — if a new terrestrial clade
+ever surfaces, add its iNat id to TERRESTRIAL_CLADE_IDS in species.mjs.
+
+---
+
 ## 2026-07-05 (P0, second run) — Newsletter pipeline built; MX verified
 
 **Why a second run today:** declared P0 — build the newsletter code NOW so that

@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getIndex, fmtDate, fmtStamp } from "@/lib/windows";
+import { getActiveRoundup } from "@/lib/content";
 import { WindowCard } from "@/components/window-bits";
 import { BreadcrumbJsonLd } from "@/components/json-ld";
 import EmailSignup from "@/components/email-signup";
@@ -35,6 +36,11 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
     .sort((a, b) => b.w.score - a.w.score)
     .slice(0, 9);
 
+  // Time-sensitive featured roundup, if one is active for this state today.
+  // Data-driven: renders only while the roundup's `until` date hasn't passed,
+  // so it clears itself on the next daily rebuild after the event.
+  const roundup = getActiveRoundup(state, fmtStamp(generatedAt));
+
   return (
     <div>
       <BreadcrumbJsonLd
@@ -67,6 +73,21 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
           )}
         </p>
       </div>
+
+      {roundup && (
+        <aside className="roundup-card">
+          <span className="eyebrow">Featured roundup · time-sensitive</span>
+          <h2 className="roundup-title">
+            <Link href={`/guides/${roundup.slug}/`}>{roundup.title}</Link>
+          </h2>
+          <p className="roundup-teaser">
+            {roundup.featuredRoundup.event} — {roundup.featuredRoundup.teaser}
+          </p>
+          <Link href={`/guides/${roundup.slug}/`} className="roundup-more">
+            Read the full roundup →
+          </Link>
+        </aside>
+      )}
 
       <h2 className="mt-8 text-2xl">Best {stateName} windows, next 30 days</h2>
       <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

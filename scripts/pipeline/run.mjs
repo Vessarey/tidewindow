@@ -17,6 +17,7 @@ import * as Astronomy from "astronomy-engine";
 import { STATIONS, SEASON_COMFORT, STATES } from "./stations.mjs";
 import { holidaySetForRange } from "./holidays.mjs";
 import { windowFromHourly, windowFromExtremes, overlapMinutes, scoreWindow, band, WALKABLE_FT, makeHeightAt, sampleCurve } from "./tide-math.mjs";
+import { fetchSpecies } from "./species.mjs";
 
 const ROOT = path.join(import.meta.dirname, "..", "..");
 const OUT_DATA = path.join(ROOT, "public", "data-json");
@@ -162,26 +163,8 @@ async function fetchNwsPeriods(lat, lng) {
   }
 }
 
-// ---------- iNaturalist ----------
-
-async function fetchSpecies(lat, lng) {
-  try {
-    const d1 = ymd(new Date(Date.now() - 60 * 86400_000));
-    const url =
-      `https://api.inaturalist.org/v1/observations/species_counts?lat=${lat}&lng=${lng}&radius=5` +
-      `&d1=${d1}&quality_grade=research&per_page=10` +
-      `&iconic_taxa=Mollusca,Echinodermata,Cnidaria,Arthropoda`;
-    const data = await fetchJson(url);
-    await sleep(1100); // iNat rate limit: stay well under 60 req/min
-    return (data.results ?? []).map((r) => ({
-      commonName: r.taxon?.preferred_common_name ?? null,
-      scientificName: r.taxon?.name ?? "unknown",
-      count: r.count,
-    }));
-  } catch {
-    return null;
-  }
-}
+// iNaturalist species enrichment lives in ./species.mjs (fetchSpecies), which
+// also strips terrestrial strays by ancestry — shared with refresh-species.mjs.
 
 // ---------- ICS ----------
 

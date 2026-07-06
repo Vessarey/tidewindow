@@ -4,6 +4,19 @@ import matter from "gray-matter";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
+/**
+ * Marks an article as a time-sensitive regional roundup that should surface in
+ * the featured slot on matching /beaches/[state] hubs. Set in article
+ * frontmatter; the slot renders only while `until` is on or after the build date,
+ * so it disappears on its own once the event has passed (the site rebuilds daily).
+ */
+export interface FeaturedRoundup {
+  states: string[]; // state slugs the roundup surfaces on, e.g. ["wa", "or", "ca"]
+  event: string; // human date label for the run, e.g. "July 11-14, 2026"
+  until: string; // ISO yyyy-mm-dd; last build date the slot shows (inclusive)
+  teaser: string; // one self-contained sentence, no numbers we can't stand behind
+}
+
 export interface ArticleFrontmatter {
   title: string;
   description: string;
@@ -13,6 +26,7 @@ export interface ArticleFrontmatter {
   tags?: string[];
   faq?: { q: string; a: string }[]; // rendered + emitted as FAQPage JSON-LD
   sources?: string[]; // URLs backing factual claims
+  featuredRoundup?: FeaturedRoundup; // opt-in state-hub featured slot
   draft?: boolean;
 }
 
@@ -49,6 +63,23 @@ export function getAllArticles(): Article[] {
 
 export function getArticle(slug: string): Article | undefined {
   return getAllArticles().find((a) => a.slug === slug);
+}
+
+export type RoundupArticle = Article & { featuredRoundup: FeaturedRoundup };
+
+/**
+ * The active featured roundup for a state hub, or undefined if none applies.
+ * `today` is the build date (yyyy-mm-dd); a roundup shows only while it targets
+ * this state and its `until` date has not passed. Articles are date-sorted
+ * newest-first, so the most recent qualifying roundup wins.
+ */
+export function getActiveRoundup(stateSlug: string, today: string): RoundupArticle | undefined {
+  return getAllArticles().find(
+    (a): a is RoundupArticle =>
+      !!a.featuredRoundup &&
+      a.featuredRoundup.states.includes(stateSlug) &&
+      a.featuredRoundup.until >= today
+  );
 }
 
 export function getCategories(): { category: string; count: number }[] {

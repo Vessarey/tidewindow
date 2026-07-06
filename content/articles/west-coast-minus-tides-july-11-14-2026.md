@@ -4,6 +4,11 @@ description: "One July run does most of summer's work. On Monday the 13th, six o
 date: "2026-07-04"
 category: "regional-calendars"
 tags: ["minus tide", "july 2026", "west coast", "tide pools", "puget sound", "oregon coast"]
+featuredRoundup:
+  states: ["wa", "or", "ca"]
+  event: "July 11-14, 2026"
+  until: "2026-07-14"
+  teaser: "A single new-moon run drops the tide deeper, and in more daylight, than anything else on the 2026 West Coast calendar."
 faq:
   - q: "When is the best tidepooling on the West Coast in July 2026?"
     a: "The four days of July 11–14, 2026 hold the deepest daylight lows of the Pacific summer. Monday, July 13 is the peak: six of Tidewindow's seven Pacific Northwest stations post an Exceptional (90+) daylight window that day. Seattle (NOAA station 9447130) drops to −3.68 ft at 10:31 AM on the 13th and −3.80 ft at 11:20 AM on Tuesday the 14th — the lowest daylight tide of its year."
