@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-06 — P0 closed: $pageview capture fixed (soft-nav pageviews now land)
+
+**Health first:** Daily data refresh cron green (07-05 11:49Z success, 07-04
+green before it). No open GitHub issues. Build green.
+
+**Primary action (priority a — the top P0 unblocker that blinds all metrics).**
+Fixed the remaining half of the 2026-07-05 pageview incident. The /ingest proxy
+outage was already fixed (commit 2159b6e); this was the second, independent bug.
+
+- **Root cause**, confirmed by reading posthog-js 1.396.5 source, not guessed:
+  the SDK's History API monitor — the thing that emits a `$pageview` on client-
+  side (pushState) navigation — has `get isEnabled(){return "history_change" ===
+  config.capture_pageview}`. With our `capture_pageview: true` that monitor was
+  disabled entirely. On a Next.js `output:"export"` site, internal `<Link>`
+  clicks are soft pushState navigations, so only hard page loads recorded a
+  `$pageview` and every in-site route change recorded nothing — exactly the
+  "client-side route change → zero capture requests" symptom logged yesterday.
+  (The load-time initial pageview fires on any truthy value via a separate path,
+  so hard loads were unaffected; the `defaults:"2026-05-30"` preset in fact
+  resolves `capture_pageview` to `"history_change"` on its own — we were
+  overriding it back to `true`.)
+- **Fix (commit 1e88dbc):** `capture_pageview: true` → `"history_change"` in
+  src/components/analytics.tsx, with an explanatory comment. One-line behavioral
+  change; keeps the initial pageview, adds soft-nav pageviews. No double-count
+  (the history monitor captures nothing on init).
+- **Quality gates:** `npm run build` green. The prebuild re-fetched NOAA and
+  churned public/data-json + public/ics (12 stations) — reverted those before
+  commit per the "cron owns the data files" rule; the diff is analytics.tsx only.
+  Confirmed `capture_pageview:"history_change"` (and no residual
+  `capture_pageview:!0`) in the built bundle, then polled the live site until the
+  deployed chunk served it.
+
+**Verified end-to-end (live):** connected to the local browser, loaded
+thetidewindow.com (transport healthy — /s/ and /i/v0/e/ POSTs return 200), then
+did a real `history.pushState` soft-nav to /guides/ then /tools/. A `/i/v0/e/`
+capture POST fired (200), and a PostHog query confirmed **both `$pageview` events
+landed** (path=/guides/ and /tools/, ~08:14 ET) within seconds. With the old
+`true` value a pushState produced zero capture requests, so this is a clean
+before/after. Those two are test pageviews — filter them from today's metrics.
+
+**Metrics snapshot (last 7d, host=thetidewindow.com):** $pageview 4 (pre-fix,
+all hard loads) + 2 test, $pageleave 5, $autocapture 1, plus 2 legacy
+$diagnostic_fetch_probe. Real organic still ~zero (expected months 0–3; do not
+panic-pivot) — but from now on soft navigations count, so the pageview number
+will finally reflect actual browsing depth. newsletter_signup still 0 (newsletter
+go-live stays blocked on first real signup + owner copy review).
+
+**Tomorrow:** trust the pageview number now — check the pageview:pageleave ratio
+and per-path distribution for the first real sessions. Then resume the P1 content
+queue (next: Port Townsend / Fort Worden station guide, or the weekly regional
+roundup refresh which also reuses the featuredRoundup slot). Newsletter P0
+re-check: is newsletter_signup > 0 yet?
+
 ## 2026-07-05 (P0 incident) — PostHog capture was fully dark since domain migration
 
 **Trigger:** owner asked for real-session metrics. Splitting the shared PostHog

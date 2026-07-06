@@ -5,18 +5,20 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] **$pageview CAPTURE BROKEN (thetidewindow.com).** After fixing the /ingest
-      proxy outage (2026-07-05, commit 2159b6e — events now flow), pageviews
-      still don't record: 0 all-time vs 16 for pointsbrain. Instrumented live
-      page (fetch/sendBeacon patched, confirmed alive) + client-side route
-      change + 5s wait → posthog-js made zero capture requests. Ruled out CORS
-      (POST 200), proxy (fixed), bot-block (navigator.webdriver false). Localized
-      to src/components/analytics.tsx capture_pageview behavior (likely
-      capture_pageview:true × defaults:"2026-05-30" in posthog-js 1.396.5).
-      Pageleave + custom tool events DO work. Fix candidates: set
-      capture_pageview:"history_change"; verify the defaults preset is valid for
-      1.396.5; or bump posthog-js. MUST re-verify a live pageview lands before
-      trusting any Tidewindow traffic number.
+- [x] 2026-07-06: **$pageview CAPTURE FIXED** (commit 1e88dbc) —
+      `capture_pageview: true` → `"history_change"` in src/components/analytics.tsx.
+      Root cause (verified in posthog-js 1.396.5 source): the History API monitor
+      that records soft (pushState) navigations is gated on
+      `capture_pageview === "history_change"`; with bare `true` it is disabled, so
+      on this Next.js static export only hard page loads emitted a $pageview and
+      client-side route changes emitted none (that is the "zero capture requests
+      on route change" symptom). NB: the earlier "0 all-time" was pre-proxy-fix;
+      by 2026-07-06 hard-load pageviews were already landing (4 all-time). Verified
+      end-to-end: fix present in the deployed bundle; a live pushState soft-nav to
+      /guides/ then /tools/ produced a /i/v0/e/ capture POST (200) and both
+      $pageview events landed in PostHog within seconds (they would not have with
+      `true`). Two test pageviews (/guides/, /tools/, ~08:14 ET 07-06) are from
+      this verification — filter them from today's metrics.
 - [x] 2026-07-05: PostHog /ingest proxy outage FIXED (commit 2159b6e) — the
       same-origin proxy 404'd all ingestion endpoints under output:"export" +
       trailingSlash, so zero events reached PostHog from the 2026-07-03 domain
