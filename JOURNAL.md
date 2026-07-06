@@ -5,6 +5,55 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-05 (P0 incident) — PostHog capture was fully dark since domain migration
+
+**Trigger:** owner asked for real-session metrics. Splitting the shared PostHog
+project (495836) by `$host` revealed thetidewindow.com had **zero** events all
+time (one stray legacy github.io $pageleave aside), while pointsbrain.com — same
+project — flowed normally. That's an outage, not just pre-organic quiet.
+
+**Root cause (confirmed via live browser smoke test):** the first-party
+`/ingest` reverse proxy never worked for ingestion under `output:"export"` +
+`trailingSlash:true`. Vercel serves the static 404.html for the extensionless
+PostHog endpoints, so every capture POST 404'd; only the `.js` asset GETs
+(`/ingest/array/{key}/config.js`, `/ingest/static/*`) proxied. So posthog-js
+loaded and looked healthy (this is why the 07-03 "verified flowing" note was a
+false positive — it only confirmed config.js loaded, not that events ingested).
+Measured matrix: GET/POST `/ingest/e/`, `/ingest/i/v0/e/`, `/ingest/flags`,
+`/ingest/decide/` → 404 site HTML; GET `…/config.js` → 200 proxied.
+
+**Fix shipped (commit 2159b6e):** `posthogHost` `/ingest` → `https://us.i.posthog.com`
+in src/lib/site-config.ts (posts direct to Cloud; us-assets host derived
+automatically). Deployed via Vercel.
+
+**Verified post-deploy:** live bundle now uses us.i.posthog.com; assets load
+from us-assets (200); cross-origin fetch POST to `/i/v0/e/` and `/e/` return 200
+(CORS ok); **thetidewindow.com $pageleave events now land in PostHog** (they did
+not before — transport restored). Two `$diagnostic_fetch_probe` events were sent
+during testing (clearly named; filter them out of metrics).
+
+**SECOND issue found, still OPEN (see BACKLOG P0):** even with transport fixed,
+`$pageview` events specifically are NOT captured — 0 pageviews all-time for
+thetidewindow.com, vs 16 for pointsbrain. Instrumented the live page (fetch +
+sendBeacon patched, confirmed alive), did a client-side route change, waited 5s
+past the flush interval → posthog-js made ZERO capture requests. Not CORS (POST
+200), not the proxy (fixed), not bot-blocking (`navigator.webdriver` false, normal
+UA). Localized to client `capture_pageview` behavior in analytics.tsx (likely the
+`capture_pageview: true` + `defaults: "2026-05-30"` interaction in posthog-js
+1.396.5). Custom tool events and pageleave work; only pageview is affected.
+Did NOT blind-ship a second guess — needs a verified fix (try
+`capture_pageview: "history_change"`, sanity-check the `defaults` preset value,
+or bump posthog-js).
+
+**Note:** this is thetidewindow-specific; pointsbrain.com analytics are healthy
+(pageviews + waitlist signups flowing). PointsBrain does not use the /ingest
+proxy pattern.
+
+**Tomorrow / next:** land the $pageview fix (BACKLOG P0) and re-verify a live
+pageview reaches PostHog before trusting any Tidewindow traffic metric.
+
+---
+
 ## 2026-07-05 (third run) — State-hub roundup slot; terrestrial species filter
 
 **Why a third run:** two scoped, time-boxed items — one with a hard July 11

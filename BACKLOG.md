@@ -5,6 +5,24 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **$pageview CAPTURE BROKEN (thetidewindow.com).** After fixing the /ingest
+      proxy outage (2026-07-05, commit 2159b6e — events now flow), pageviews
+      still don't record: 0 all-time vs 16 for pointsbrain. Instrumented live
+      page (fetch/sendBeacon patched, confirmed alive) + client-side route
+      change + 5s wait → posthog-js made zero capture requests. Ruled out CORS
+      (POST 200), proxy (fixed), bot-block (navigator.webdriver false). Localized
+      to src/components/analytics.tsx capture_pageview behavior (likely
+      capture_pageview:true × defaults:"2026-05-30" in posthog-js 1.396.5).
+      Pageleave + custom tool events DO work. Fix candidates: set
+      capture_pageview:"history_change"; verify the defaults preset is valid for
+      1.396.5; or bump posthog-js. MUST re-verify a live pageview lands before
+      trusting any Tidewindow traffic number.
+- [x] 2026-07-05: PostHog /ingest proxy outage FIXED (commit 2159b6e) — the
+      same-origin proxy 404'd all ingestion endpoints under output:"export" +
+      trailingSlash, so zero events reached PostHog from the 2026-07-03 domain
+      migration until this fix. Now posts direct to us.i.posthog.com; $pageleave
+      + custom events verified landing. NOTE: this invalidates the earlier
+      "PostHog fully wired (capture live)" item below — capture was dark.
 - [x] 2026-07-03: Verify Pages deploy serves /tidewindow/ correctly — homepage
       renders live windows, automation disclosure intact, /data-json/index.json
       valid; no 404s.
