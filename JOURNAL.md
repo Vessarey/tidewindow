@@ -5,6 +5,64 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-07 — Port Townsend / Fort Worden station guide (WA), timed to this week's peak
+
+**Health first:** Daily data refresh cron green (07-06 14:03Z success; 07-05,
+07-04 green before it). No open GitHub issues. Build green, no new warnings.
+
+**Metrics (PostHog, last 7d, host-filtered to thetidewindow.com):** 19
+pageviews / 8 pageleaves, 13 of them on `/` (some are self/verification hits),
+plus single views on /about/, /guides/, /tools/, and three article/guide pages.
+Referrers: 17 $direct, 2 www.google.com — Google is starting to trickle in.
+Zero `newsletter_signup` events, so newsletter go-live stays blocked (P0 item 3
+re-checked, still 0 signups). The `pb_waitlist_signup` events in the raw feed
+are a different product on this shared PostHog project, not Tidewindow. Near-zero
+organic is exactly the months-0–3 expectation in the strategy brief — not a
+signal to pivot.
+
+**Primary action (priority d — content backlog, chosen over a bare priority-b
+refresh).** Priority b (time-sensitive) is *already satisfied*: the West Coast
+Jul 11–14 roundup is live, still numerically correct against the 07-06 fact
+sheets, and self-clears after the 14th — refreshing it would add nothing today.
+So I took the highest-leverage backlog item: the **Port Townsend / Fort Worden
+station guide** (content/articles/port-townsend-fort-worden-tide-pools-2026.md,
+served at /guides/port-townsend-fort-worden-tide-pools-2026/). Rationale: Port
+Townsend (NOAA 9444900) is *peaking this very week* — Sat/Sun Jul 11–12 both
+score a flat 100, and Mon/Tue Jul 13–14 hold the year's deepest daylight lows
+(−3.48 ft) — so a station guide published now catches any "Fort Worden low tide
+/ Port Townsend tide pools" interest right as the best window of the year lands.
+It also advances the WA station-guide set toward the "Best tide pools in WA" hub
+(needs ≥3 WA guides).
+
+**Sourcing discipline:** every tide number traced to
+docs-internal/facts/port-townsend-wa.json (generated_on 2026-07-06; facts file
+untouched by my build, so citations stay valid). Fort Worden access + the
+Discover Pass ($10 day / $45 annual) and the Point Wilson "not on state parks
+land" note verified via parks.wa.gov at write time. Tidepool timing/footing/
+etiquette quoted verbatim from NPS (Point Reyes tidepooling page). The one
+natural-history claim — gumboot chiton = world's largest chiton, ~a foot long —
+web-verified (up to 36 cm / 14 in) and cited. Species list from the station's
+iNaturalist facts (CC BY-NC, © observers) with the attribution line intact.
+
+**Quality gates:** `npm run build` green; new route prerendered and in
+out/sitemap.xml; all 7 internal links resolve to built routes; regenerated
+07-07 pipeline data confirms Jul 11–16 scores unchanged (100/100/90/90/90/90),
+so predictions are stable. Committed the article ONLY — left the pipeline-
+regenerated public/data-json + public/ics uncommitted (the deploy regenerates
+them fresh, and they're the cron's domain, never hand-edited).
+
+**Velocity:** post-launch editorial this week = roundup (07-04) + Pacific Grove
+(07-05) + this = 3 of the ≤5/week cap. One article, no bulk generation.
+
+**Note for tomorrow:** Priority b likely applies again — the Jul 15–16 tail is
+still Exceptional coast-wide and the Jul 11–14 roundup's featuredRoundup card
+expires after the 14th, so consider refreshing the roundup to the next upcoming
+region (Aug 8–11 Puget run is the next 100-scorer) or advancing the next WA
+guide (La Push / Rialto — strong "hole in the wall rialto beach low tide"
+query). Re-check newsletter_signup count every run; still 0.
+
+---
+
 ## 2026-07-06 — P0 closed: $pageview capture fixed (soft-nav pageviews now land)
 
 **Health first:** Daily data refresh cron green (07-05 11:49Z success, 07-04

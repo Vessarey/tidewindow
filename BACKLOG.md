@@ -68,7 +68,12 @@ with the date; add discoveries at the appropriate tier.
 - [x] 2026-07-05: Monterey / Pacific Grove station guide LAUNCHED
       (content/articles/pacific-grove-tide-pools-2026.md) — covers Point Pinos,
       Asilomar, Lovers Point; dawn/dusk split; 3 no-take MPAs verified via CDFW.
-- [ ] Port Townsend / Fort Worden station guide article.
+- [x] 2026-07-07: Port Townsend / Fort Worden station guide LAUNCHED
+      (content/articles/port-townsend-fort-worden-tide-pools-2026.md) — NOAA
+      9444900; timed to the Jul 11–16 Exceptional run (Sat/Sun 100, Mon/Tue
+      −3.48 ft year-deepest); Discover Pass + Fort Worden access via parks.wa.gov,
+      etiquette via NPS, gumboot-chiton claim web-verified. First of the WA
+      station guides toward the "Best tide pools in WA" hub.
 - [ ] La Push / Rialto Beach + Hole-in-the-Wall station guide article (strong
       query: "hole in the wall rialto beach low tide").
 - [ ] Seattle / Alki + Constellation Park station guide article.
