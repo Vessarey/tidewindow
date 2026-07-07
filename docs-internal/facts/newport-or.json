@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-06",
+ "generated_on": "2026-07-07",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -115,8 +115,8 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 21,
-   "daylight_windows": 16,
+   "lows_below_1ft": 20,
+   "daylight_windows": 15,
    "daylight_minus_tides": 14,
    "best_window": {
     "date": "2026-07-13",
@@ -477,7 +477,7 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 26
+   "count": 25
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-06",
+ "generated_on": "2026-07-07",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -115,8 +115,8 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 22,
-   "daylight_windows": 17,
+   "lows_below_1ft": 21,
+   "daylight_windows": 16,
    "daylight_minus_tides": 16,
    "best_window": {
     "date": "2026-07-12",
@@ -477,7 +477,7 @@
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Striped Dogwinkle",

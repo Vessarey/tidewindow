@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-06",
+ "generated_on": "2026-07-07",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -463,6 +463,11 @@
    "count": 2
   },
   {
+   "commonName": "East Pacific Red Octopus",
+   "scientificName": "Octopus rubescens",
+   "count": 1
+  },
+  {
    "commonName": null,
    "scientificName": "Aeolidia",
    "count": 1
@@ -480,11 +485,6 @@
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
-   "count": 1
-  },
-  {
-   "commonName": "Nuttall's Cockle",
-   "scientificName": "Clinocardium nuttallii",
    "count": 1
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-06",
+ "generated_on": "2026-07-07",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -443,23 +443,23 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 12
+  },
+  {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
    "count": 11
   },
   {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
    "count": 11
   },
   {
    "commonName": "Taylor's Seahare",
    "scientificName": "Phyllaplysia taylori",
-   "count": 10
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
    "count": 10
   },
   {
