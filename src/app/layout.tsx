@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter, IBM_Plex_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   robots: { index: true, follow: true },
+};
+
+export const viewport: Viewport = {
+  // Browser-UI tint on mobile; matches the icon/manifest ink.
+  themeColor: "#0f3038",
 };
 
 const nav = [

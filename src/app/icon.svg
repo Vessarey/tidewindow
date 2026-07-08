@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Tidewindow mark: gold sun over a receding foam-crested tide, framed in ink.
+       Palette matches globals.css: ink #0f3038, gold #e0a93e, kelp #1e7a6f, foam #eff7f3. -->
+  <defs>
+    <clipPath id="frame">
+      <rect width="48" height="48" rx="11"/>
+    </clipPath>
+  </defs>
+  <rect width="48" height="48" rx="11" fill="#0f3038"/>
+  <g clip-path="url(#frame)">
+    <circle cx="24" cy="18" r="7" fill="#e0a93e"/>
+    <path d="M-2 29 Q 6 24.5 14 29 T 30 29 T 46 29 T 62 29 V 50 H -2 Z" fill="#1e7a6f"/>
+    <path d="M-2 29 Q 6 24.5 14 29 T 30 29 T 46 29 T 62 29" fill="none" stroke="#eff7f3" stroke-width="2.4"/>
+  </g>
+</svg>
