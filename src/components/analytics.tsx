@@ -29,6 +29,10 @@ export function initAnalytics() {
     capture_pageview: "history_change",
     capture_pageleave: true,
     autocapture: true,
+    // Web vitals (LCP/CLS/FCP/INP) land as $web_vitals events. Safe with
+    // persistence:"memory" — per @posthog/types, cookieless vitals are still
+    // captured and ingestion assigns $session_id server-side.
+    capture_performance: { web_vitals: true },
   });
   initialized = true;
 }
