@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-07",
+ "generated_on": "2026-07-08",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -477,16 +477,16 @@
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 97
-  },
-  {
-   "commonName": "Hamann's Aeolid",
-   "scientificName": "Cuthona hamanni",
-   "count": 49
+   "count": 98
   },
   {
    "commonName": "White-spotted Sea Goddess",
    "scientificName": "Doriopsilla albopunctata",
+   "count": 51
+  },
+  {
+   "commonName": "Hamann's Aeolid",
+   "scientificName": "Cuthona hamanni",
    "count": 49
   },
   {

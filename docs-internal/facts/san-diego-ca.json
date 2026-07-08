@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-07",
+ "generated_on": "2026-07-08",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -510,8 +510,8 @@
    "count": 1
   },
   {
-   "commonName": "File Limpet",
-   "scientificName": "Lottia limatula",
+   "commonName": "Giant Rock Scallop",
+   "scientificName": "Crassadoma gigantea",
    "count": 1
   }
  ]

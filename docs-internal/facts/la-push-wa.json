@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-07",
+ "generated_on": "2026-07-08",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -492,7 +492,7 @@
   {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
-   "count": 4
+   "count": 5
   },
   {
    "commonName": "Mossy Chiton",
