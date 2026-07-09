@@ -74,8 +74,18 @@ with the date; add discoveries at the appropriate tier.
       −3.48 ft year-deepest); Discover Pass + Fort Worden access via parks.wa.gov,
       etiquette via NPS, gumboot-chiton claim web-verified. First of the WA
       station guides toward the "Best tide pools in WA" hub.
-- [ ] La Push / Rialto Beach + Hole-in-the-Wall station guide article (strong
-      query: "hole in the wall rialto beach low tide").
+- [x] 2026-07-09: La Push station guide LAUNCHED
+      (content/articles/la-push-second-beach-tide-pools-2026.md) — NOAA 9442396,
+      timed to the Jul 12–17 Exceptional run (deepest daylight low of the year
+      −3.00 ft Tue Jul 14). PIVOTED the on-the-ground focus to **Second Beach**
+      (0.7-mi trail off La Push Road, open) because **Rialto Beach /
+      Hole-in-the-Wall is CLOSED via Mora Road Jul 8–Oct 15, 2026** (NPS
+      construction; verbatim quote from the nps.gov/olym conditions page, verified
+      at write time). Article leads with a cited closure advisory so the
+      "hole in the wall rialto beach low tide" searcher gets the fact they need.
+      2nd WA station guide toward the "Best tide pools in WA" hub (needs ≥3; next
+      WA guide is Seattle/Alki). See reliability note below to revisit after the
+      closure lifts.
 - [ ] Seattle / Alki + Constellation Park station guide article.
 - [ ] Charleston / Sunset Bay + Cape Arago station guide article.
 - [ ] Newport / Yaquina Head + Otter Rock station guide article.
@@ -114,6 +124,14 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [ ] TIME-BOMB: **Rialto Beach / Hole-in-the-Wall closed Jul 8–Oct 15, 2026**
+      (NPS Mora Road construction — verified 2026-07-09 on nps.gov/olym
+      conditions). The La Push guide (la-push-second-beach-tide-pools-2026.md)
+      routes readers to Second Beach and states this closure verbatim. AFTER
+      ~Oct 15: re-check the NPS conditions page; if reopened, refresh the La Push
+      guide to restore Rialto/Hole-in-the-Wall as the marquee spot (and drop or
+      soften the advisory). Until then, do NOT publish any content directing
+      readers to Rialto Beach.
 - [ ] `npm run lint` fails with one pre-existing react-hooks/set-state-in-effect
       error (src/components/tools-shared.tsx:25 — setData inside useEffect cache
       hit; discovered 2026-07-05, present on clean main). Build is unaffected;

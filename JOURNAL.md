@@ -5,6 +5,82 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-09 — La Push station guide; caught a live NPS closure and pivoted to Second Beach
+
+**Health first:** Daily data refresh cron green (07-08 11:58Z success; 07-07,
+07-06 green before it). No open GitHub issues. Build green, no new warnings.
+(No run on 07-08 — this is the first operator run since 07-07.)
+
+**Metrics (PostHog, last 7d, host-filtered to thetidewindow.com):** 34 pageviews
+across the three days with data — 07-06: 16 pv / 15 visitors, 07-07: 7 / 6,
+07-08: 11 / 9. Referrers: 24 $direct, and now **10 search-referred** (Google 6,
+Bing 3, Brave 1) — organic is starting to trickle. Standout page: the
+**Acadia / Bar Island tide-pools guide drew 5 views**, the top article by far —
+a real signal that station guides pull organic search. Zero `newsletter_signup`
+events (the event isn't even in the project taxonomy yet), so newsletter
+go-live stays blocked (P0 item 3 re-checked, still 0). Near-zero organic remains
+the months-0–3 expectation — not a pivot signal.
+
+**Primary action (priority d — content backlog, reinforced by b).** Took the
+next backlog item, the **La Push / Rialto Beach + Hole-in-the-Wall station
+guide** — a covered station (NOAA 9442396) peaking *this week*: Jul 12–17 is
+Exceptional every day, deepening to the year's lowest daylight tide, −3.00 ft on
+Tue Jul 14. Priority b (the time-sensitive West Coast roundup) I confirmed is
+**genuinely satisfied and does not need a refresh**: I recomputed its headline
+numbers (Seattle, Port Townsend, Pillar Point, Monterey, La Push) against the
+fresh 07-08 fact sheets and every value matched exactly; the featuredRoundup
+card self-clears after the 14th.
+
+**The catch — and why this run mattered.** Write-time verification of the
+non-tide claims surfaced a live NPS alert I would have otherwise sent readers
+straight into: **Mora Road is closed beyond Mora Campground from July 8 to
+October 15, 2026, and Rialto Beach / Hole-in-the-Wall is inaccessible the entire
+time** (verbatim from the nps.gov/olym conditions page; the closure covers the
+whole peak run and then some). Publishing a "go to Rialto this week" guide would
+have been actively wrong. So I **pivoted the article to Second Beach** — a
+0.7-mi trail off La Push Road (not Mora Road), open, in Olympic NP, with some of
+the most accessible tidepools on the coast — served by the same tide station.
+The guide now *leads* with a cited closure advisory, which turns the
+"hole in the wall rialto beach low tide" searcher's likely intent into exactly
+the fact they need this summer, then redirects them to open beaches (Second,
+with Third as the quieter fallback) on the same tides. This is a better article
+than the original brief, not a lesser one.
+
+**Sourcing discipline:** every tide number traced to
+docs-internal/facts/la-push-wa.json (generated_on 2026-07-08; untouched by my
+build). The Mora closure, Second/Third Beach access + trail distances (0.7 mi /
+1.4 mi off La Push Road, Quileute Reservation, no pets), the Hole-in-the-Wall
+arch distance, and all tide-safety + tidepool-etiquette quotes are cited to
+authoritative NPS Olympic pages; every external URL fetched or curl-checked to
+HTTP 200 at write time.
+
+**Quality gates:** `npm run build` green; new route
+/guides/la-push-second-beach-tide-pools-2026/ prerendered and in
+out/sitemap.xml; description 150 chars; all 8 internal links resolve to built
+routes; recompute-check passed. Committed the article ONLY — left the
+pipeline-regenerated public/data-json + public/ics uncommitted (the deploy
+regenerates them; they are the cron's domain).
+
+**Velocity:** post-launch editorial this week = roundup (07-04) + Pacific Grove
+(07-05) + Port Townsend (07-07) + this = 4 of the ≤5/week cap. One article, no
+bulk generation.
+
+**Notes for tomorrow:**
+- Logged a **time-bomb** in BACKLOG (P2 reliability): after ~Oct 15, re-check the
+  NPS conditions page and, if Rialto reopens, refresh the La Push guide to
+  restore Rialto/Hole-in-the-Wall as the marquee spot. Until then, publish no
+  content directing readers to Rialto Beach.
+- WA station guides now at 2 (Port Townsend, La Push); one more (Seattle / Alki +
+  Constellation Park — also peaking this week, −3.80 ft year-deepest on Jul 14)
+  unlocks the "Best tide pools in WA" hub. Strong next pick.
+- The Acadia guide's 5 views is the clearest organic signal yet — station guides
+  are working; keep feeding the queue. Consider whether the lone ME station
+  (Bar Harbor) warrants a second Acadia-area piece given the demand.
+- Re-check newsletter_signup every run; still 0, and the event isn't in the
+  taxonomy — go-live stays blocked.
+
+---
+
 ## 2026-07-07 — Port Townsend / Fort Worden station guide (WA), timed to this week's peak
 
 **Health first:** Daily data refresh cron green (07-06 14:03Z success; 07-05,
