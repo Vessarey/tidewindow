@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-08",
+ "generated_on": "2026-07-10",
  "region": "California",
  "stations": [
   {
@@ -8,7 +8,7 @@
    "noaa_id": "9414131",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 20,
+     "lows_below_1ft": 18,
      "daylight_windows": 13,
      "daylight_minus_tides": 12,
      "best_window": {
@@ -167,7 +167,7 @@
    "noaa_id": "9413450",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 20,
+     "lows_below_1ft": 18,
      "daylight_windows": 13,
      "daylight_minus_tides": 12,
      "best_window": {
@@ -326,7 +326,7 @@
    "noaa_id": "9410230",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 20,
+     "lows_below_1ft": 18,
      "daylight_windows": 10,
      "daylight_minus_tides": 9,
      "best_window": {
@@ -485,7 +485,7 @@
    "noaa_id": "9410170",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 18,
+     "lows_below_1ft": 17,
      "daylight_windows": 10,
      "daylight_minus_tides": 9,
      "best_window": {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-08",
+ "generated_on": "2026-07-10",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 20,
+   "lows_below_1ft": 18,
    "daylight_windows": 16,
    "daylight_minus_tides": 14,
    "best_window": {
@@ -463,5 +463,11 @@
    "min_to_sun_edge": 25
   }
  ],
- "species_last60d_5km": []
+ "species_last60d_5km": [
+  {
+   "commonName": "Opalescent Inshore Squid",
+   "scientificName": "Doryteuthis opalescens",
+   "count": 1
+  }
+ ]
 }

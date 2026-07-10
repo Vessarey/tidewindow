@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-08",
+ "generated_on": "2026-07-10",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -115,8 +115,8 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 19,
-   "daylight_windows": 19,
+   "lows_below_1ft": 18,
+   "daylight_windows": 18,
    "daylight_minus_tides": 16,
    "best_window": {
     "date": "2026-07-11",

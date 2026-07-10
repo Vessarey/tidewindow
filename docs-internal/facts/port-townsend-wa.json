@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-08",
+ "generated_on": "2026-07-10",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 20,
-   "daylight_windows": 20,
-   "daylight_minus_tides": 17,
+   "lows_below_1ft": 19,
+   "daylight_windows": 19,
+   "daylight_minus_tides": 16,
    "best_window": {
     "date": "2026-07-11",
     "weekday": "Sat",
@@ -357,20 +357,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-09",
-   "weekday": "Thu",
-   "low_ft": -0.085,
-   "low_time_local": "6:21 AM",
-   "window_local": "4:40 AM–8:20 AM",
-   "arrive_by_local": "5:21 AM",
-   "daylight_min": 179,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 65,
-   "min_to_sun_edge": 60
-  },
-  {
    "date": "2026-07-22",
    "weekday": "Wed",
    "low_ft": 0.814,
@@ -439,13 +425,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 72,
    "min_to_sun_edge": 43
+  },
+  {
+   "date": "2026-08-21",
+   "weekday": "Fri",
+   "low_ft": 0.441,
+   "low_time_local": "5:37 AM",
+   "window_local": "4:15 AM–7:10 AM",
+   "arrive_by_local": "4:37 AM",
+   "daylight_min": 56,
+   "score": 26,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 64,
+   "min_to_sun_edge": -37
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 9
+   "count": 7
   },
   {
    "commonName": "Mossy Chiton",
@@ -478,11 +478,6 @@
    "count": 1
   },
   {
-   "commonName": "Giant Pacific Octopus",
-   "scientificName": "Enteroctopus dofleini",
-   "count": 1
-  },
-  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 1
@@ -490,6 +485,11 @@
   {
    "commonName": "Pacific Geoduck",
    "scientificName": "Panopea generosa",
+   "count": 1
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
    "count": 1
   }
  ]
