@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-10",
+ "generated_on": "2026-07-11",
  "region": "Oregon coast",
  "stations": [
   {
@@ -167,9 +167,9 @@
    "noaa_id": "9435380",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 18,
-     "daylight_windows": 15,
-     "daylight_minus_tides": 14,
+     "lows_below_1ft": 17,
+     "daylight_windows": 14,
+     "daylight_minus_tides": 13,
      "best_window": {
       "date": "2026-07-13",
       "weekday": "Mon",
@@ -326,9 +326,9 @@
    "noaa_id": "9432780",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 18,
-     "daylight_windows": 15,
-     "daylight_minus_tides": 14,
+     "lows_below_1ft": 17,
+     "daylight_windows": 14,
+     "daylight_minus_tides": 13,
      "best_window": {
       "date": "2026-07-13",
       "weekday": "Mon",
@@ -485,9 +485,9 @@
    "noaa_id": "9431647",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 18,
-     "daylight_windows": 15,
-     "daylight_minus_tides": 14,
+     "lows_below_1ft": 17,
+     "daylight_windows": 14,
+     "daylight_minus_tides": 13,
      "best_window": {
       "date": "2026-07-14",
       "weekday": "Tue",

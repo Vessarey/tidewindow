@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-10",
+ "generated_on": "2026-07-11",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 18,
-   "daylight_windows": 15,
-   "daylight_minus_tides": 14,
+   "lows_below_1ft": 17,
+   "daylight_windows": 14,
+   "daylight_minus_tides": 13,
    "best_window": {
     "date": "2026-07-13",
     "weekday": "Mon",
@@ -485,6 +485,11 @@
    "count": 2
   },
   {
+   "commonName": "Black and White Dorid",
+   "scientificName": "Acanthodoris rhodoceras",
+   "count": 2
+  },
+  {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
    "count": 2
@@ -507,11 +512,6 @@
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
-   "count": 1
-  },
-  {
-   "commonName": "Hedgpeth's Sapsucker",
-   "scientificName": "Elysia hedgpethi",
    "count": 1
   }
  ]

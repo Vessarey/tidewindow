@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-10",
+ "generated_on": "2026-07-11",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 18,
-   "daylight_windows": 15,
-   "daylight_minus_tides": 14,
+   "lows_below_1ft": 17,
+   "daylight_windows": 14,
+   "daylight_minus_tides": 13,
    "best_window": {
     "date": "2026-07-13",
     "weekday": "Mon",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-11",
-   "weekday": "Sat",
-   "low_ft": -1.006,
-   "low_time_local": "4:26 AM",
-   "window_local": "2:20 AM–6:50 AM",
-   "arrive_by_local": "3:26 AM",
-   "daylight_min": 68,
-   "score": 61,
-   "band": "Good",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 43,
-   "min_to_sun_edge": -76
-  },
-  {
    "date": "2026-07-12",
    "weekday": "Sun",
    "low_ft": -1.713,
@@ -461,18 +447,37 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 63,
    "min_to_sun_edge": 8
+  },
+  {
+   "date": "2026-07-28",
+   "weekday": "Tue",
+   "low_ft": -0.731,
+   "low_time_local": "6:41 AM",
+   "window_local": "4:40 AM–8:50 AM",
+   "arrive_by_local": "5:41 AM",
+   "daylight_min": 172,
+   "score": 63,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 69,
+   "min_to_sun_edge": 43
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 59
+   "count": 74
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 29
+   "count": 31
+  },
+  {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 30
   },
   {
    "commonName": "Branched Dendronotid",
@@ -480,9 +485,9 @@
    "count": 25
   },
   {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 24
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
+   "count": 9
   },
   {
    "commonName": "Three-lined Aeolid",
@@ -490,13 +495,13 @@
    "count": 9
   },
   {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
-   "count": 7
-  },
-  {
    "commonName": "Homely Aeolid",
    "scientificName": "Eubranchus rustyus",
+   "count": 5
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
    "count": 5
   },
   {
@@ -507,11 +512,6 @@
   {
    "commonName": "Humped Ancula Sea Slug",
    "scientificName": "Ancula gibbosa",
-   "count": 4
-  },
-  {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
    "count": 4
   }
  ]

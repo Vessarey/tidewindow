@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-10",
+ "generated_on": "2026-07-11",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 18,
+   "lows_below_1ft": 17,
    "daylight_windows": 13,
    "daylight_minus_tides": 12,
    "best_window": {
@@ -472,12 +472,12 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 40
+   "count": 41
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 38
+   "count": 39
   },
   {
    "commonName": "Monterey Dorid",
@@ -500,13 +500,13 @@
    "count": 18
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 18
-  },
-  {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
+   "count": 17
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 17
   },
   {

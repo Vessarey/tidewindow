@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-10",
+ "generated_on": "2026-07-11",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 18,
+   "lows_below_1ft": 17,
    "daylight_windows": 13,
    "daylight_minus_tides": 12,
    "best_window": {
@@ -467,27 +467,32 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 118
+   "count": 113
   },
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 78
+   "count": 79
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 65
+   "count": 67
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 57
+   "count": 60
   },
   {
    "commonName": "Stubby Dendronotid",
    "scientificName": "Dendronotus subramosus",
-   "count": 50
+   "count": 54
+  },
+  {
+   "commonName": "Hammerhead Doto",
+   "scientificName": "Doto amyra",
+   "count": 46
   },
   {
    "commonName": "Gumboot Chiton",
@@ -495,14 +500,9 @@
    "count": 45
   },
   {
-   "commonName": "Hammerhead Doto",
-   "scientificName": "Doto amyra",
-   "count": 43
-  },
-  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 34
+   "count": 35
   },
   {
    "commonName": "San Diego Dorid",
@@ -510,8 +510,8 @@
    "count": 28
   },
   {
-   "commonName": "Fisher's Aeolid",
-   "scientificName": "Orienthella piunca",
+   "commonName": "Heath's Dorid",
+   "scientificName": "Geitodoris heathi",
    "count": 27
   }
  ]

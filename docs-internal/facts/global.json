@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-10",
+ "generated_on": "2026-07-11",
  "coasts": {
   "west": {
    "stations": [
@@ -15,9 +15,9 @@
     "la-jolla-ca",
     "san-diego-ca"
    ],
-   "minus_tides_2026": 907,
-   "daylight_minus_tides_2026": 502,
-   "daylight_share_pct": 55
+   "minus_tides_2026": 898,
+   "daylight_minus_tides_2026": 500,
+   "daylight_share_pct": 56
   },
   "east": {
    "stations": [
@@ -30,7 +30,6 @@
  },
  "hour_histogram_2026_daylight_minus": {
   "west": {
-   "7 AM": 48,
    "8 AM": 38,
    "9 AM": 26,
    "10 AM": 16,
@@ -39,6 +38,7 @@
    "1 PM": 10,
    "2 PM": 18,
    "6 AM": 53,
+   "7 AM": 46,
    "5 AM": 49,
    "4 AM": 29,
    "8 PM": 6,
