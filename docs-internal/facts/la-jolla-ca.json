@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-11",
+ "generated_on": "2026-07-12",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 17,
+   "lows_below_1ft": 16,
    "daylight_windows": 10,
    "daylight_minus_tides": 9,
    "best_window": {
@@ -467,7 +467,7 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 144
+   "count": 145
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -477,7 +477,17 @@
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 97
+   "count": 100
+  },
+  {
+   "commonName": "Hamann's Aeolid",
+   "scientificName": "Cuthona hamanni",
+   "count": 54
+  },
+  {
+   "commonName": "cockscomb nudibranch",
+   "scientificName": "Antiopella barbarensis",
+   "count": 51
   },
   {
    "commonName": "White-spotted Sea Goddess",
@@ -485,19 +495,14 @@
    "count": 51
   },
   {
-   "commonName": "Hamann's Aeolid",
-   "scientificName": "Cuthona hamanni",
-   "count": 49
-  },
-  {
-   "commonName": "cockscomb nudibranch",
-   "scientificName": "Antiopella barbarensis",
-   "count": 45
-  },
-  {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
    "count": 42
+  },
+  {
+   "commonName": "White-crusted Aeolid",
+   "scientificName": "Tenellia albocrusta",
+   "count": 40
   },
   {
    "commonName": "Salt-and-pepper Doris",
@@ -505,13 +510,8 @@
    "count": 39
   },
   {
-   "commonName": "White-crusted Aeolid",
-   "scientificName": "Tenellia albocrusta",
-   "count": 39
-  },
-  {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
+   "commonName": "McDonald's Dorid",
+   "scientificName": "Limacia mcdonaldi",
    "count": 39
   }
  ]

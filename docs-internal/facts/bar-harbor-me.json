@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-11",
+ "generated_on": "2026-07-12",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -115,8 +115,8 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 24,
-   "daylight_windows": 18,
+   "lows_below_1ft": 22,
+   "daylight_windows": 17,
    "daylight_minus_tides": 9,
    "best_window": {
     "date": "2026-07-17",
@@ -470,34 +470,29 @@
    "count": 21
   },
   {
-   "commonName": "Tortoiseshell Limpet",
-   "scientificName": "Testudinalia testudinalis",
-   "count": 17
-  },
-  {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
-   "count": 16
-  },
-  {
-   "commonName": "Atlantic Dogwhelk",
-   "scientificName": "Nucella lapillus",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
-   "count": 13
+   "count": 12
+  },
+  {
+   "commonName": "Atlantic Dogwhelk",
+   "scientificName": "Nucella lapillus",
+   "count": 11
+  },
+  {
+   "commonName": "Tortoiseshell Limpet",
+   "scientificName": "Testudinalia testudinalis",
+   "count": 11
   },
   {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 12
-  },
-  {
-   "commonName": "Soft-shelled Clam",
-   "scientificName": "Mya arenaria",
-   "count": 5
+   "count": 10
   },
   {
    "commonName": "Eastern Oyster",
@@ -505,14 +500,19 @@
    "count": 2
   },
   {
-   "commonName": "Northern Horse Mussel",
-   "scientificName": "Modiolus modiolus",
+   "commonName": "Soft-shelled Clam",
+   "scientificName": "Mya arenaria",
    "count": 2
   },
   {
-   "commonName": "West Atlantic Surfclam",
-   "scientificName": "Spisula solidissima",
-   "count": 2
+   "commonName": "Crowned Seaslug",
+   "scientificName": "Doto coronata",
+   "count": 1
+  },
+  {
+   "commonName": "Eastern White Slippersnail",
+   "scientificName": "Crepidula plana",
+   "count": 1
   }
  ]
 }
