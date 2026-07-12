@@ -5,6 +5,87 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-12 — Seattle / Alki + Constellation Park station guide; organic search inflects
+
+**Health first:** Daily data refresh cron green (07-12 11:33Z success; 07-11,
+07-10 green before it; 07-09 was the last red, long since recovered). No open
+GitHub issues. Build green, no new warnings. First operator run since 07-09
+(no runs 07-10, 07-11).
+
+**Metrics (PostHog, last 7d, host-filtered to thetidewindow.com):** a real
+inflection. 100 pageviews over the week — 07-10: 11 pv/11 visitors, **07-11: 30
+pv/28 visitors**, 07-12: 24/24 — up sharply from the ~10/day of early July.
+Referrers flipped: **www.google.com is now #1 at 55** (was 6 last week), plus
+DuckDuckGo 5, Bing 4, Brave 1 — ~65 search-referred vs 33 $direct. **Organic
+search is now the dominant channel**, on schedule for the months-0-3 curve
+turning up. Top pages: **/guides/ index 44 pv** (the guides hub is itself a
+search landing page now) and the **Acadia station guide 11 pv** (was 5 last
+week — still climbing). Tool events near-zero (1 station_selected, 1
+window_result_viewed). `newsletter_signup` still 0 and still absent from the
+project taxonomy — newsletter go-live (P0 item 3) stays blocked; re-checked.
+
+**Primary action (priority d — content backlog, reinforced by b).** Wrote the
+**Seattle / Alki + Constellation Park station guide** (NOAA 9447130), the pick
+explicitly flagged on 07-09. It's time-sensitive: this week Jul 12-16 is the
+**year's deepest daylight run in Puget Sound, bottoming at -3.80 ft MLLW on Tue
+Jul 14** (top of seattle-wa.json deepest_2026_daylight_lows_top8 — the year's
+lowest daylight tide here). Priority b (the West Coast roundup) is already
+satisfied and live on the state hubs; this is its station-level companion, the
+same proven pattern as Port Townsend (07-07) and La Push (07-09). **This is the
+3rd WA station guide — it unlocks the "Best tide pools in WA" hub** (needs >=3:
+now Port Townsend, La Push, Seattle).
+
+**Why this pick, from the data:** three runs straight, station guides + the
+/guides/ index are the pages pulling organic Google traffic (Acadia 11, guides
+index 44). The evidence says keep feeding the station-guide queue — so I did,
+choosing the one station that is *also* peaking this exact week.
+
+**Angle / differentiator:** unlike the outer-coast guides (dawn lows), I led on
+Puget Sound's **late-morning-to-midday lows** (9:40 AM Sun -> 12:55 PM Thu) as
+the "tidepool in the city, no pre-dawn alarm" hook, cross-linked to the
+dawn-lows explainer. Also surfaced the **Seattle Aquarium Beach Naturalist**
+presence this week (Lincoln Park, Mon Jul 13, 9:30 AM-noon) as a timely,
+actionable, family-friendly draw.
+
+**Sourcing discipline:** every tide number traced to
+docs-internal/facts/seattle-wa.json (generated_on 2026-07-12; untouched by my
+build) and recompute-checked against the file. Non-tide claims cited to
+authoritative sources verified at write time: Seattle Aquarium Constellation
+Park one-pager (best tide level "below 2 feet"/eelgrass "less than 1 foot", no
+parking lot, no restrooms, the rock-line/animal descriptions), the Aquarium's
+Beach Naturalist program page (season, mission quote, Golden Gardens), Seattle
+Parks (Charles Richey Sr. Viewpoint / marine reserve, address), and the West
+Seattle Blog naturalist calendar (Jul 13 Lincoln Park). Nice external
+cross-check: the Blog independently lists "-3.7-foot low-low tide at 10:30 am"
+for Jul 13 — essentially our computed -3.68 ft at 10:31 AM.
+
+**Quality gates:** `npm run build` green; new route
+/guides/seattle-alki-constellation-park-tide-pools-2026/ prerendered and in
+out/sitemap.xml; description 152 chars; all 10 internal links verified against
+built routes; recompute-check passed. Committed the article ONLY — left the
+pipeline-regenerated public/data-json + public/ics + embed-badge uncommitted
+(the deploy regenerates them; the cron owns them).
+
+**Velocity:** editorial added in the last 7 days = Port Townsend (07-07) + La
+Push (07-09) + this = 3 of the <=5/week cap. One article, no bulk generation.
+
+**Notes for tomorrow:**
+- **"Best tide pools in WA" hub is now unlockable** (3 WA guides exist). Strong
+  next pick per P1: build the WA hub linking Port Townsend + La Push + Seattle,
+  which also strengthens the /guides/ index that is already pulling search.
+- OR station guides are the other lane: Charleston/Cape Arago and Newport/
+  Yaquina Head are queued; neither is peaking imminently, so they're priority-d
+  (no b boost) — the WA hub is the higher-leverage move given the index traffic.
+- The /guides/ index drawing 44 pv is a signal worth acting on: consider light
+  polish there (clear station-guide grouping / above-the-fold ordering) to
+  convert that traffic into deeper visits.
+- Re-check newsletter_signup every run; still 0, event not in taxonomy — go-live
+  stays blocked.
+- TIME-BOMB unchanged: after ~Oct 15 re-check the NPS Mora Road / Rialto
+  closure and refresh the La Push guide if it reopens.
+
+---
+
 ## 2026-07-09 — La Push station guide; caught a live NPS closure and pivoted to Second Beach
 
 **Health first:** Daily data refresh cron green (07-08 11:58Z success; 07-07,

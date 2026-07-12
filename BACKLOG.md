@@ -86,11 +86,20 @@ with the date; add discoveries at the appropriate tier.
       2nd WA station guide toward the "Best tide pools in WA" hub (needs ≥3; next
       WA guide is Seattle/Alki). See reliability note below to revisit after the
       closure lifts.
-- [ ] Seattle / Alki + Constellation Park station guide article.
+- [x] 2026-07-12: Seattle / Alki + Constellation Park station guide LAUNCHED
+      (content/articles/seattle-alki-constellation-park-tide-pools-2026.md) —
+      NOAA 9447130, timed to the Jul 12–16 Exceptional run (year-deepest daylight
+      low −3.80 ft Tue Jul 14). Constellation Park access + "below 2 ft / eelgrass
+      below 1 ft" best-tide-level cited to the Seattle Aquarium one-pager; Beach
+      Naturalist program (Lincoln Park Jul 13) and marine reserve cited. Led on
+      the Puget Sound midday-lows differentiator vs the outer-coast dawn lows.
+      **3rd WA station guide → the "Best tide pools in WA" hub is now unlockable.**
 - [ ] Charleston / Sunset Bay + Cape Arago station guide article.
 - [ ] Newport / Yaquina Head + Otter Rock station guide article.
 - [ ] "Best tide pools in {state}" hub articles (OR, WA, CA, ME) once ≥3 station
-      guides per state exist.
+      guides per state exist. **WA IS NOW READY** (Port Townsend + La Push +
+      Seattle) — strong next pick; also strengthens the /guides/ index that is
+      already pulling organic search (44 pv/wk as of 07-12).
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
 - [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).
