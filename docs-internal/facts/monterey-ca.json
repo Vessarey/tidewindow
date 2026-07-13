@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-12",
+ "generated_on": "2026-07-13",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -65,18 +65,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.583,
-   "low_time_local": "4:43 AM",
-   "window_local": "1:50 AM–7:50 AM",
-   "arrive_by_local": "3:43 AM",
-   "daylight_min": 110,
-   "score": 69,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-18",
    "weekday": "Sat",
    "low_ft": -0.141,
@@ -111,13 +99,25 @@
    "score": 57,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-12",
+   "weekday": "Wed",
+   "low_ft": -1.112,
+   "low_time_local": "5:07 AM",
+   "window_local": "2:35 AM–7:45 AM",
+   "arrive_by_local": "4:07 AM",
+   "daylight_min": 82,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 16,
-   "daylight_windows": 12,
-   "daylight_minus_tides": 11,
+   "lows_below_1ft": 15,
+   "daylight_windows": 11,
+   "daylight_minus_tides": 10,
    "best_window": {
     "date": "2026-07-15",
     "weekday": "Wed",
@@ -279,18 +279,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.583,
-   "low_time_local": "4:43 AM",
-   "window_local": "1:50 AM–7:50 AM",
-   "arrive_by_local": "3:43 AM",
-   "daylight_min": 110,
-   "score": 69,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-11-25",
    "weekday": "Wed",
    "low_ft": -1.531,
@@ -313,6 +301,18 @@
    "score": 72,
    "band": "Good",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -1.405,
+   "low_time_local": "3:31 PM",
+   "window_local": "12:45 PM–6:35 PM",
+   "arrive_by_local": "2:31 PM",
+   "daylight_min": 251,
+   "score": 73,
+   "band": "Good",
+   "weekend_or_holiday": false
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -378,20 +378,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.583,
-   "low_time_local": "4:43 AM",
-   "window_local": "1:50 AM–7:50 AM",
-   "arrive_by_local": "3:43 AM",
-   "daylight_min": 110,
-   "score": 69,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 49,
-   "min_to_sun_edge": -77
-  },
   {
    "date": "2026-07-14",
    "weekday": "Tue",
@@ -461,6 +447,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 61,
    "min_to_sun_edge": -32
+  },
+  {
+   "date": "2026-07-30",
+   "weekday": "Thu",
+   "low_ft": -0.458,
+   "low_time_local": "6:08 AM",
+   "window_local": "3:50 AM–8:35 AM",
+   "arrive_by_local": "5:08 AM",
+   "daylight_min": 143,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 66,
+   "min_to_sun_edge": -4
   }
  ],
  "species_last60d_5km": [
@@ -472,7 +472,7 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 41
+   "count": 42
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -482,7 +482,7 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 26
+   "count": 25
   },
   {
    "commonName": "White-speckled Dorid",

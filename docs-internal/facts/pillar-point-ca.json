@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-12",
+ "generated_on": "2026-07-13",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -53,18 +53,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.721,
-   "low_time_local": "4:45 AM",
-   "window_local": "1:55 AM–8:00 AM",
-   "arrive_by_local": "3:45 AM",
-   "daylight_min": 120,
-   "score": 73,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-17",
    "weekday": "Fri",
    "low_ft": -0.717,
@@ -111,13 +99,25 @@
    "score": 56,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-31",
+   "weekday": "Fri",
+   "low_ft": -0.222,
+   "low_time_local": "6:43 AM",
+   "window_local": "4:35 AM–8:55 AM",
+   "arrive_by_local": "5:43 AM",
+   "daylight_min": 162,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 16,
-   "daylight_windows": 12,
-   "daylight_minus_tides": 11,
+   "lows_below_1ft": 15,
+   "daylight_windows": 11,
+   "daylight_minus_tides": 10,
    "best_window": {
     "date": "2026-07-14",
     "weekday": "Tue",
@@ -267,18 +267,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.721,
-   "low_time_local": "4:45 AM",
-   "window_local": "1:55 AM–8:00 AM",
-   "arrive_by_local": "3:45 AM",
-   "daylight_min": 120,
-   "score": 73,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-25",
    "weekday": "Fri",
    "low_ft": -1.717,
@@ -311,6 +299,18 @@
    "arrive_by_local": "3:31 PM",
    "daylight_min": 189,
    "score": 79,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-15",
+   "weekday": "Wed",
+   "low_ft": -1.633,
+   "low_time_local": "6:19 AM",
+   "window_local": "3:35 AM–9:20 AM",
+   "arrive_by_local": "5:19 AM",
+   "daylight_min": 199,
+   "score": 82,
    "band": "Great",
    "weekend_or_holiday": false
   }
@@ -378,20 +378,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.721,
-   "low_time_local": "4:45 AM",
-   "window_local": "1:55 AM–8:00 AM",
-   "arrive_by_local": "3:45 AM",
-   "daylight_min": 120,
-   "score": 73,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 49,
-   "min_to_sun_edge": -75
-  },
   {
    "date": "2026-07-14",
    "weekday": "Tue",
@@ -461,6 +447,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 61,
    "min_to_sun_edge": -29
+  },
+  {
+   "date": "2026-07-30",
+   "weekday": "Thu",
+   "low_ft": -0.428,
+   "low_time_local": "6:14 AM",
+   "window_local": "4:00 AM–8:40 AM",
+   "arrive_by_local": "5:14 AM",
+   "daylight_min": 147,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 66,
+   "min_to_sun_edge": -1
   }
  ],
  "species_last60d_5km": [

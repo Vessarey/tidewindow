@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-12",
+ "generated_on": "2026-07-13",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-12",
-   "weekday": "Sun",
-   "low_ft": -1.713,
-   "low_time_local": "5:22 AM",
-   "window_local": "3:00 AM–8:00 AM",
-   "arrive_by_local": "4:22 AM",
-   "daylight_min": 137,
-   "score": 87,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-08-13",
    "weekday": "Thu",
    "low_ft": -1.788,
@@ -111,13 +99,25 @@
    "score": 86,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-14",
+   "weekday": "Fri",
+   "low_ft": -1.378,
+   "low_time_local": "8:06 AM",
+   "window_local": "6:05 AM–10:15 AM",
+   "arrive_by_local": "7:06 AM",
+   "daylight_min": 237,
+   "score": 83,
+   "band": "Great",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 17,
-   "daylight_windows": 14,
-   "daylight_minus_tides": 13,
+   "lows_below_1ft": 16,
+   "daylight_windows": 13,
+   "daylight_minus_tides": 12,
    "best_window": {
     "date": "2026-07-13",
     "weekday": "Mon",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-12",
-   "weekday": "Sun",
-   "low_ft": -1.713,
-   "low_time_local": "5:22 AM",
-   "window_local": "3:00 AM–8:00 AM",
-   "arrive_by_local": "4:22 AM",
-   "daylight_min": 137,
-   "score": 87,
-   "band": "Great",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 54,
-   "min_to_sun_edge": -21
-  },
-  {
    "date": "2026-07-13",
    "weekday": "Mon",
    "low_ft": -2.234,
@@ -461,23 +447,37 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 69,
    "min_to_sun_edge": 43
+  },
+  {
+   "date": "2026-07-29",
+   "weekday": "Wed",
+   "low_ft": -0.933,
+   "low_time_local": "7:14 AM",
+   "window_local": "5:10 AM–9:25 AM",
+   "arrive_by_local": "6:14 AM",
+   "daylight_min": 205,
+   "score": 69,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 75,
+   "min_to_sun_edge": 74
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 74
+   "count": 73
+  },
+  {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 32
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
    "count": 31
-  },
-  {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 30
   },
   {
    "commonName": "Branched Dendronotid",

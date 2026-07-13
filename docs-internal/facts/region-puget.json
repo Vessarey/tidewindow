@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-12",
+ "generated_on": "2026-07-13",
  "region": "Puget Sound / Salish Sea",
  "stations": [
   {
@@ -8,20 +8,20 @@
    "noaa_id": "9447130",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 16,
-     "daylight_windows": 16,
-     "daylight_minus_tides": 14,
+     "lows_below_1ft": 15,
+     "daylight_windows": 15,
+     "daylight_minus_tides": 13,
      "best_window": {
-      "date": "2026-07-12",
-      "weekday": "Sun",
-      "low_ft": -3.16,
-      "low_time_local": "9:40 AM",
-      "window_local": "7:15 AM–12:10 PM",
-      "arrive_by_local": "8:40 AM",
-      "daylight_min": 295,
-      "score": 100,
+      "date": "2026-07-13",
+      "weekday": "Mon",
+      "low_ft": -3.681,
+      "low_time_local": "10:31 AM",
+      "window_local": "8:00 AM–1:05 PM",
+      "arrive_by_local": "9:31 AM",
+      "daylight_min": 305,
+      "score": 90,
       "band": "Exceptional",
-      "weekend_or_holiday": true
+      "weekend_or_holiday": false
      }
     },
     "2026-08": {
@@ -126,16 +126,16 @@
      "weekend_or_holiday": false
     },
     {
-     "date": "2026-07-12",
-     "weekday": "Sun",
-     "low_ft": -3.16,
-     "low_time_local": "9:40 AM",
-     "window_local": "7:15 AM–12:10 PM",
-     "arrive_by_local": "8:40 AM",
-     "daylight_min": 295,
-     "score": 100,
+     "date": "2026-07-16",
+     "weekday": "Thu",
+     "low_ft": -2.728,
+     "low_time_local": "12:55 PM",
+     "window_local": "10:40 AM–3:10 PM",
+     "arrive_by_local": "11:55 AM",
+     "daylight_min": 270,
+     "score": 90,
      "band": "Exceptional",
-     "weekend_or_holiday": true
+     "weekend_or_holiday": false
     }
    ]
   },
@@ -145,20 +145,20 @@
    "noaa_id": "9444900",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 17,
-     "daylight_windows": 17,
-     "daylight_minus_tides": 14,
+     "lows_below_1ft": 16,
+     "daylight_windows": 16,
+     "daylight_minus_tides": 13,
      "best_window": {
-      "date": "2026-07-12",
-      "weekday": "Sun",
-      "low_ft": -3.095,
-      "low_time_local": "8:47 AM",
-      "window_local": "6:00 AM–12:10 PM",
-      "arrive_by_local": "7:47 AM",
-      "daylight_min": 370,
-      "score": 100,
+      "date": "2026-07-13",
+      "weekday": "Mon",
+      "low_ft": -3.478,
+      "low_time_local": "9:36 AM",
+      "window_local": "6:45 AM–1:05 PM",
+      "arrive_by_local": "8:36 AM",
+      "daylight_min": 380,
+      "score": 90,
       "band": "Exceptional",
-      "weekend_or_holiday": true
+      "weekend_or_holiday": false
      }
     },
     "2026-08": {
@@ -263,16 +263,16 @@
      "weekend_or_holiday": false
     },
     {
-     "date": "2026-07-12",
-     "weekday": "Sun",
-     "low_ft": -3.095,
-     "low_time_local": "8:47 AM",
-     "window_local": "6:00 AM–12:10 PM",
-     "arrive_by_local": "7:47 AM",
-     "daylight_min": 370,
-     "score": 100,
+     "date": "2026-08-11",
+     "weekday": "Tue",
+     "low_ft": -2.418,
+     "low_time_local": "9:24 AM",
+     "window_local": "6:50 AM–12:30 PM",
+     "arrive_by_local": "8:24 AM",
+     "daylight_min": 340,
+     "score": 90,
      "band": "Exceptional",
-     "weekend_or_holiday": true
+     "weekend_or_holiday": false
     }
    ]
   }

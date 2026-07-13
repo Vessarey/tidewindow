@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-12",
+ "generated_on": "2026-07-13",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -77,18 +77,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.554,
-   "low_time_local": "3:34 AM",
-   "window_local": "12:55 AM–6:25 AM",
-   "arrive_by_local": "2:34 AM",
-   "daylight_min": 34,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-08-13",
    "weekday": "Thu",
    "low_ft": -1.025,
@@ -111,13 +99,25 @@
    "score": 46,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-01",
+   "weekday": "Sat",
+   "low_ft": -0.037,
+   "low_time_local": "5:40 AM",
+   "window_local": "3:50 AM–7:30 AM",
+   "arrive_by_local": "4:40 AM",
+   "daylight_min": 87,
+   "score": 44,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 15,
-   "daylight_windows": 10,
-   "daylight_minus_tides": 9,
+   "lows_below_1ft": 14,
+   "daylight_windows": 9,
+   "daylight_minus_tides": 8,
    "best_window": {
     "date": "2026-07-15",
     "weekday": "Wed",
@@ -279,18 +279,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -1.554,
-   "low_time_local": "3:34 AM",
-   "window_local": "12:55 AM–6:25 AM",
-   "arrive_by_local": "2:34 AM",
-   "daylight_min": 34,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.488,
@@ -312,6 +300,18 @@
    "daylight_min": 203,
    "score": 76,
    "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "low_ft": -1.361,
+   "low_time_local": "3:09 PM",
+   "window_local": "12:35 PM–5:55 PM",
+   "arrive_by_local": "2:09 PM",
+   "daylight_min": 249,
+   "score": 74,
+   "band": "Good",
    "weekend_or_holiday": false
   }
  ],

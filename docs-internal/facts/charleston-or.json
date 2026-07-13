@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-12",
+ "generated_on": "2026-07-13",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -65,18 +65,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-12",
-   "weekday": "Sun",
-   "low_ft": -1.738,
-   "low_time_local": "5:12 AM",
-   "window_local": "2:45 AM–7:55 AM",
-   "arrive_by_local": "4:12 AM",
-   "daylight_min": 127,
-   "score": 86,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-07-17",
    "weekday": "Fri",
    "low_ft": -1.43,
@@ -111,13 +99,25 @@
    "score": 81,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-14",
+   "weekday": "Fri",
+   "low_ft": -1.099,
+   "low_time_local": "7:55 AM",
+   "window_local": "5:55 AM–10:00 AM",
+   "arrive_by_local": "6:55 AM",
+   "daylight_min": 218,
+   "score": 77,
+   "band": "Great",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 17,
-   "daylight_windows": 14,
-   "daylight_minus_tides": 13,
+   "lows_below_1ft": 16,
+   "daylight_windows": 13,
+   "daylight_minus_tides": 12,
    "best_window": {
     "date": "2026-07-13",
     "weekday": "Mon",
@@ -303,16 +303,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-12",
-   "weekday": "Sun",
-   "low_ft": -1.738,
-   "low_time_local": "5:12 AM",
-   "window_local": "2:45 AM–7:55 AM",
-   "arrive_by_local": "4:12 AM",
-   "daylight_min": 127,
-   "score": 86,
+   "date": "2026-08-12",
+   "weekday": "Wed",
+   "low_ft": -1.715,
+   "low_time_local": "6:35 AM",
+   "window_local": "4:15 AM–9:00 AM",
+   "arrive_by_local": "5:35 AM",
+   "daylight_min": 161,
+   "score": 81,
    "band": "Great",
-   "weekend_or_holiday": true
+   "weekend_or_holiday": false
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -378,20 +378,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-07-12",
-   "weekday": "Sun",
-   "low_ft": -1.738,
-   "low_time_local": "5:12 AM",
-   "window_local": "2:45 AM–7:55 AM",
-   "arrive_by_local": "4:12 AM",
-   "daylight_min": 127,
-   "score": 86,
-   "band": "Great",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 52,
-   "min_to_sun_edge": -36
-  },
   {
    "date": "2026-07-13",
    "weekday": "Mon",
@@ -461,6 +447,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 67,
    "min_to_sun_edge": 27
+  },
+  {
+   "date": "2026-07-29",
+   "weekday": "Wed",
+   "low_ft": -0.886,
+   "low_time_local": "7:03 AM",
+   "window_local": "4:55 AM–9:20 AM",
+   "arrive_by_local": "6:03 AM",
+   "daylight_min": 196,
+   "score": 68,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 73,
+   "min_to_sun_edge": 59
   }
  ],
  "species_last60d_5km": [
@@ -490,11 +490,6 @@
    "count": 2
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 2
-  },
-  {
    "commonName": "Odhner's Dorid",
    "scientificName": "Doris odhneri",
    "count": 2
@@ -512,6 +507,11 @@
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
+   "count": 1
+  },
+  {
+   "commonName": "Hedgpeth's Sapsucker",
+   "scientificName": "Elysia hedgpethi",
    "count": 1
   }
  ]
