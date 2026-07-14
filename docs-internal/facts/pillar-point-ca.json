@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-13",
+ "generated_on": "2026-07-14",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -482,7 +482,7 @@
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 60
+   "count": 59
   },
   {
    "commonName": "Stubby Dendronotid",

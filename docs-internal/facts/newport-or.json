@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-13",
+ "generated_on": "2026-07-14",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -2.234,
-   "low_time_local": "6:15 AM",
-   "window_local": "3:50 AM–9:00 AM",
-   "arrive_by_local": "5:15 AM",
-   "daylight_min": 196,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-07-14",
    "weekday": "Tue",
@@ -111,21 +99,33 @@
    "score": 83,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-11",
+   "weekday": "Tue",
+   "low_ft": -1.761,
+   "low_time_local": "6:00 AM",
+   "window_local": "3:45 AM–8:30 AM",
+   "arrive_by_local": "5:00 AM",
+   "daylight_min": 136,
+   "score": 78,
+   "band": "Great",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 16,
-   "daylight_windows": 13,
-   "daylight_minus_tides": 12,
+   "lows_below_1ft": 15,
+   "daylight_windows": 12,
+   "daylight_minus_tides": 11,
    "best_window": {
-    "date": "2026-07-13",
-    "weekday": "Mon",
-    "low_ft": -2.234,
-    "low_time_local": "6:15 AM",
-    "window_local": "3:50 AM–9:00 AM",
-    "arrive_by_local": "5:15 AM",
-    "daylight_min": 196,
+    "date": "2026-07-14",
+    "weekday": "Tue",
+    "low_ft": -2.517,
+    "low_time_local": "7:04 AM",
+    "window_local": "4:35 AM–9:50 AM",
+    "arrive_by_local": "6:04 AM",
+    "daylight_min": 246,
     "score": 90,
     "band": "Exceptional",
     "weekend_or_holiday": false
@@ -243,18 +243,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -2.234,
-   "low_time_local": "6:15 AM",
-   "window_local": "3:50 AM–9:00 AM",
-   "arrive_by_local": "5:15 AM",
-   "daylight_min": 196,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-16",
    "weekday": "Thu",
    "low_ft": -2.233,
@@ -311,6 +299,18 @@
    "arrive_by_local": "6:28 AM",
    "daylight_min": 213,
    "score": 86,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-11",
+   "weekday": "Tue",
+   "low_ft": -1.761,
+   "low_time_local": "6:00 AM",
+   "window_local": "3:45 AM–8:30 AM",
+   "arrive_by_local": "5:00 AM",
+   "daylight_min": 136,
+   "score": 78,
    "band": "Great",
    "weekend_or_holiday": false
   }
@@ -378,20 +378,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-07-13",
-   "weekday": "Mon",
-   "low_ft": -2.234,
-   "low_time_local": "6:15 AM",
-   "window_local": "3:50 AM–9:00 AM",
-   "arrive_by_local": "5:15 AM",
-   "daylight_min": 196,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 63,
-   "min_to_sun_edge": 31
-  },
   {
    "date": "2026-07-14",
    "weekday": "Tue",
@@ -461,13 +447,27 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 75,
    "min_to_sun_edge": 74
+  },
+  {
+   "date": "2026-08-10",
+   "weekday": "Mon",
+   "low_ft": -1.374,
+   "low_time_local": "5:10 AM",
+   "window_local": "2:55 AM–7:40 AM",
+   "arrive_by_local": "4:10 AM",
+   "daylight_min": 87,
+   "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 55,
+   "min_to_sun_edge": -63
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 73
+   "count": 74
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",

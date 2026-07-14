@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-13",
+ "generated_on": "2026-07-14",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -37,18 +37,6 @@
    "arrive_by_local": "4:34 AM",
    "daylight_min": 143,
    "score": 66,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-07-14",
-   "weekday": "Tue",
-   "low_ft": -1.63,
-   "low_time_local": "4:12 AM",
-   "window_local": "1:30 AM–7:10 AM",
-   "arrive_by_local": "3:12 AM",
-   "daylight_min": 79,
-   "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
   },
@@ -111,13 +99,25 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-19",
+   "weekday": "Sun",
+   "low_ft": 0.65,
+   "low_time_local": "7:27 AM",
+   "window_local": "6:15 AM–8:35 AM",
+   "arrive_by_local": "6:27 AM",
+   "daylight_min": 140,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 15,
-   "daylight_windows": 9,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 14,
+   "daylight_windows": 8,
+   "daylight_minus_tides": 7,
    "best_window": {
     "date": "2026-07-15",
     "weekday": "Wed",
@@ -255,18 +255,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-14",
-   "weekday": "Tue",
-   "low_ft": -1.63,
-   "low_time_local": "4:12 AM",
-   "window_local": "1:30 AM–7:10 AM",
-   "arrive_by_local": "3:12 AM",
-   "daylight_min": 79,
-   "score": 65,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-15",
    "weekday": "Wed",
    "low_ft": -1.507,
@@ -313,6 +301,18 @@
    "score": 82,
    "band": "Great",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "low_ft": -1.396,
+   "low_time_local": "3:06 PM",
+   "window_local": "12:30 PM–6:05 PM",
+   "arrive_by_local": "2:06 PM",
+   "daylight_min": 254,
+   "score": 75,
+   "band": "Great",
+   "weekend_or_holiday": false
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -467,32 +467,32 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 145
+   "count": 141
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 132
+   "count": 130
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 100
+   "count": 102
   },
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 54
+   "count": 61
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 51
+   "count": 58
   },
   {
    "commonName": "White-spotted Sea Goddess",
    "scientificName": "Doriopsilla albopunctata",
-   "count": 51
+   "count": 50
   },
   {
    "commonName": "Fisher's Aeolid",
@@ -500,18 +500,18 @@
    "count": 42
   },
   {
+   "commonName": "McDonald's Dorid",
+   "scientificName": "Limacia mcdonaldi",
+   "count": 41
+  },
+  {
    "commonName": "White-crusted Aeolid",
    "scientificName": "Tenellia albocrusta",
-   "count": 41
+   "count": 40
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 39
-  },
-  {
-   "commonName": "McDonald's Dorid",
-   "scientificName": "Limacia mcdonaldi",
    "count": 39
   }
  ]

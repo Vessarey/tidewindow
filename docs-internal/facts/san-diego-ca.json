@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-13",
+ "generated_on": "2026-07-14",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -53,18 +53,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-14",
-   "weekday": "Tue",
-   "low_ft": -1.692,
-   "low_time_local": "4:17 AM",
-   "window_local": "1:40 AM–7:10 AM",
-   "arrive_by_local": "3:17 AM",
-   "daylight_min": 79,
-   "score": 66,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-18",
    "weekday": "Sat",
    "low_ft": -0.112,
@@ -111,13 +99,25 @@
    "score": 44,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-31",
+   "weekday": "Fri",
+   "low_ft": -0.306,
+   "low_time_local": "5:13 AM",
+   "window_local": "3:15 AM–7:20 AM",
+   "arrive_by_local": "4:13 AM",
+   "daylight_min": 78,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 14,
-   "daylight_windows": 9,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 13,
+   "daylight_windows": 8,
+   "daylight_minus_tides": 7,
    "best_window": {
     "date": "2026-07-15",
     "weekday": "Wed",
@@ -255,18 +255,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-14",
-   "weekday": "Tue",
-   "low_ft": -1.692,
-   "low_time_local": "4:17 AM",
-   "window_local": "1:40 AM–7:10 AM",
-   "arrive_by_local": "3:17 AM",
-   "daylight_min": 79,
-   "score": 66,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-15",
    "weekday": "Wed",
    "low_ft": -1.586,
@@ -313,6 +301,18 @@
    "score": 74,
    "band": "Good",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-26",
+   "weekday": "Sat",
+   "low_ft": -1.33,
+   "low_time_local": "5:22 PM",
+   "window_local": "2:50 PM–8:10 PM",
+   "arrive_by_local": "4:22 PM",
+   "daylight_min": 120,
+   "score": 73,
+   "band": "Good",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
