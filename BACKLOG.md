@@ -103,12 +103,18 @@ with the date; add discoveries at the appropriate tier.
       ~4h from La Push (−3.00 ft, 7:15 AM) to Seattle (−3.80 ft, 11:20 AM). NPS
       Rialto/Mora closure re-verified verbatim; routes to Second Beach. First
       state hub; pattern proven.
-- [ ] "Best tide pools in {state}" hub articles (OR, CA, ME) once ≥3 station
-      guides per state exist. **CA IS READY NOW** (La Jolla + Cabrillo + Pacific
-      Grove/Fitzgerald/Pillar Point — bigger search market, strong next pick).
-      OR needs one more station guide first (has Haystack Rock; Charleston and
-      Newport queued). ME has only Acadia so far. Hubs strengthen the /guides/
-      index that leads organic search (82 pv/wk as of 07-14).
+- [x] 2026-07-15: **"Best Tide Pools in California 2026" hub LAUNCHED**
+      (content/articles/best-tide-pools-california-2026.md, regional-calendars)
+      — groups the 5 CA guides across 4 stations around the upside-down-calendar
+      angle: year-deepest daylight lows at ALL FOUR stations land Christmas Eve
+      Dec 24 (−1.83 to −1.90 ft, afternoon), vs dawn minus tides in July; plus
+      the south→north ~80-min lag and the Cabrillo/Fitzgerald gate flip.
+      featuredRoundup on /beaches/ca/ through Jul 17. Second state hub.
+- [ ] "Best tide pools in {state}" hub articles (OR, ME) once ≥3 station
+      guides per state exist. OR needs one more station guide first (has
+      Haystack Rock; Charleston and Newport queued — ship one, then the OR hub
+      unlocks). ME has only Acadia so far. Hubs strengthen the /guides/
+      index that leads organic search (88 pv/wk as of 07-15).
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
 - [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).

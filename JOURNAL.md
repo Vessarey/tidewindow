@@ -5,7 +5,76 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-07-14 (addendum) — Favicon audit + Organization-logo structured data
+## 2026-07-15 — "Best Tide Pools in California 2026" state hub
+
+**Health first:** Daily data refresh cron green (07-15 11:51Z success; 5
+consecutive green). No open GitHub issues. Found stale local modifications to
+pipeline-generated files (data-json/ics/embed-badge) from a previous local run —
+discarded them (the cron owns those files) and pulled clean. Fact sheets fresh
+(generated_on 2026-07-15).
+
+**Metrics (PostHog, last 7d, host-filtered):** growth holds. 07-11: 30 pv,
+07-12: 43, 07-13: 14, 07-14: 38, 07-15: 5 (partial). Referrers: **www.google.com
+119** vs $direct 21, DuckDuckGo 6, Bing 4 — organic ~6:1 over direct. Top pages:
+/guides/ 88 pv (still the #1 landing page), homepage 23, **Seattle July calendar
+16 pv** (new — the WA cluster shipped 07-12/07-14 is already pulling search),
+Acadia guide 11. GSC flywheel now returns rows: "port townsend tide pools" at
+pos ~10-12 (4 impressions) — first evidence the station-guide → hub pattern
+ranks. Tool events near-zero (1+1). `newsletter_signup` still 0, still absent
+from taxonomy — go-live (P0 item 3) stays blocked; re-checked.
+
+**Primary action (priority d — content backlog):** built the **"Best Tide Pools
+in California 2026" hub** (content/articles/best-tide-pools-california-2026.md,
+regional-calendars, commit 1c88c2d) — the pick BACKLOG flagged "CA IS READY NOW"
+(5 station guides across 4 stations; bigger search market than WA).
+
+**The angle — CA's calendar is upside down.** Computed from the 07-15 fact
+sheets: the year's deepest daylight low at ALL FOUR CA stations lands on
+Christmas Eve, Dec 24, in the afternoon (LJ/SD −1.88, Mont −1.83, PP −1.90 ft),
+while the summer minus tides are dawn events — the exact opposite of WA, where
+the year-deepest came Jul 14. Two supporting computed facts: (1) the south→north
+lag — the same low hits La Jolla ~80-85 min before Pillar Point in BOTH seasons
+(Jul 15: 4:54 AM vs 6:19 AM; Dec 24: 3:47 PM vs 5:10 PM), which is why northern
+stations score better in July (more post-sunrise light: PP 199 daylight min/82
+vs LJ 113/68) and southern ones in December; (2) the gate flip — Cabrillo
+(gate 9 AM) and Fitzgerald (gate 8 AM) lock out summer dawn lows entirely but
+comfortably hold December's afternoon lows. Time-sensitive hook: Jul 15-17 is
+the summer's last deep dawn run (verified against full station JSON: no CA
+daylight low below −1.3 ft again until Nov 24). Added a featuredRoundup card on
+/beaches/ca/ through Jul 17 (self-clearing).
+
+**Sourcing discipline:** every tide number recompute-checked against the
+2026-07-15 fact sheets (~40 values, all matched). Caught and fixed one false
+draft claim ("no daylight low reaches −1.2 ft until November" — two ~4 AM
+August windows technically qualify; re-thresholded to −1.3 ft/Nov 24, verified
+against full window data). Non-tide claims re-verified verbatim at write time:
+Cabrillo hours + holiday closures (nps.gov/cabr hours page), Fitzgerald 8 AM
+open + winter 5 PM close (smcgov.org), NPS tidepool guidance quotes
+(nps.gov/cabr tidepools page), and the MPA nuance — Pacific Grove Marine
+Gardens is an SMCA with take exceptions, NOT no-take (Asilomar SMR is) — so the
+hub says "some full no-take, some with narrow exceptions" and routes to child
+guides. Dec-24-year-deepest cross-checked against each child guide's recorded
+July numbers (fact-sheet top8 excludes past dates).
+
+**Quality gates:** build green, zero new warnings; route prerendered + in
+sitemap; all 16 internal links resolve against out/; description 153 chars;
+roundup card renders on /beaches/ca/ only; diff = the one new file.
+
+**Velocity:** trailing 7 days = Seattle (07-12) + WA hub (07-14) + CA hub
+(07-15) = 3 of ≤5. One article, no bulk generation.
+
+**Notes for tomorrow:**
+- **OR hub needs one more station guide** — Charleston/Cape Arago or
+  Newport/Yaquina Head (both queued P1). Either is a solid next pick; after it
+  ships, the OR hub unlocks (same proven pattern, third instance).
+- **/guides/ index polish carried over again** (88 pv/wk, flat date list) —
+  grouping station guides + hubs above the fold is overdue; consider making it
+  the primary action if metrics hold and no time-sensitive content appears.
+- Re-check newsletter_signup every run; still 0 — go-live blocked.
+- TIME-BOMB unchanged: after ~Oct 15 re-check NPS Mora Road/Rialto closure
+  (refresh La Push guide + WA hub if reopened).
+- New TIME-BOMB (minor): the CA hub's featuredRoundup expires 2026-07-17 —
+  no action needed (self-clearing on rebuild), just don't be surprised.
 
 **Trigger:** owner noticed the Search Console property shows a generic
 placeholder icon (black circle/triangle) and asked whether searchers see no
