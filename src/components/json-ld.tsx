@@ -10,15 +10,45 @@ function JsonLd({ data }: { data: object }) {
   );
 }
 
+/** Stable @id for the publishing organization; referenced from Article/WebApp publisher. */
+export const ORG_ID = absoluteUrl("/#organization");
+
+/** The organization logo Google uses for the site (favicon is separate; this feeds
+ *  the logo in rich results and any knowledge panel). Square 512px brand mark. */
+const orgLogo = {
+  "@type": "ImageObject",
+  "@id": absoluteUrl("/#logo"),
+  url: absoluteUrl("/icon-512.png"),
+  contentUrl: absoluteUrl("/icon-512.png"),
+  width: 512,
+  height: 512,
+  caption: siteConfig.name,
+};
+
 export function WebSiteJsonLd() {
   return (
     <JsonLd
       data={{
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        name: siteConfig.name,
-        description: siteConfig.description,
-        url: absoluteUrl("/"),
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": ORG_ID,
+            name: siteConfig.name,
+            url: absoluteUrl("/"),
+            description: siteConfig.description,
+            logo: orgLogo,
+            image: { "@id": absoluteUrl("/#logo") },
+          },
+          {
+            "@type": "WebSite",
+            "@id": absoluteUrl("/#website"),
+            name: siteConfig.name,
+            description: siteConfig.description,
+            url: absoluteUrl("/"),
+            publisher: { "@id": ORG_ID },
+          },
+        ],
       }}
     />
   );
@@ -39,7 +69,17 @@ export function ArticleJsonLd({ article }: { article: Article }) {
           name: siteConfig.name,
           url: absoluteUrl("/about"),
         },
-        publisher: { "@type": "Organization", name: siteConfig.name },
+        publisher: {
+          "@type": "Organization",
+          "@id": ORG_ID,
+          name: siteConfig.name,
+          logo: {
+            "@type": "ImageObject",
+            url: absoluteUrl("/icon-512.png"),
+            width: 512,
+            height: 512,
+          },
+        },
         mainEntityOfPage: absoluteUrl(`/guides/${article.slug}`),
       }}
     />
@@ -81,7 +121,7 @@ export function StationDatasetJsonLd({
         dateModified: new Date(generatedAt).toISOString(),
         isBasedOn: `https://tidesandcurrents.noaa.gov/stationhome.html?id=${station.noaaId}`,
         license: "https://creativecommons.org/licenses/by/4.0/",
-        creator: { "@type": "Organization", name: siteConfig.name, url: absoluteUrl("/about/") },
+        creator: { "@type": "Organization", "@id": ORG_ID, name: siteConfig.name, url: absoluteUrl("/about/") },
         spatialCoverage: {
           "@type": "Place",
           geo: { "@type": "GeoCoordinates", latitude: station.lat, longitude: station.lng },
@@ -108,7 +148,7 @@ export function WebApplicationJsonLd({ name, description, path }: { name: string
         applicationCategory: "UtilityApplication",
         operatingSystem: "Any (web)",
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-        publisher: { "@type": "Organization", name: siteConfig.name },
+        publisher: { "@type": "Organization", "@id": ORG_ID, name: siteConfig.name },
       }}
     />
   );
