@@ -5,6 +5,44 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-14 (addendum) — Favicon audit + Organization-logo structured data
+
+**Trigger:** owner noticed the Search Console property shows a generic
+placeholder icon (black circle/triangle) and asked whether searchers see no
+favicon. **Diagnosis: the favicon is correct and not the problem.** Full audit:
+favicon.ico (16/32/48px), icon.svg, icon1.png (96px), apple-icon.png (180px),
+manifest icons (192/512) all present; homepage `<head>` declares all four icon
+`<link>`s; robots.txt blocks nothing; homepage is `index,follow`, self-canonical,
+in sitemap; every icon serves 200 with the right content-type on the live domain;
+the SVG renders correctly in-browser (navy tile, gold sun, teal foam-crest wave —
+bold and legible small). The GSC placeholder is Google's default, shown because
+Google hasn't re-fetched/associated the favicon with thetidewindow.com yet — the
+domain is only ~11 days old (migrated 07-03). Favicon adoption lags a homepage
+recrawl by days–weeks; nothing to fix there.
+
+**What I did fix (the one on-target optimization):** the site had **no
+Organization/logo in structured data** — homepage JSON-LD was WebSite-only and
+Article `publisher` had no `logo`. Added (src/components/json-ld.tsx, commit
+458e742): homepage now emits an `@graph` with an `Organization`
+(@id /#organization) carrying a `logo` ImageObject (/icon-512.png, 512x512) plus a
+`WebSite` referencing it; `ArticleJsonLd` publisher is the same org @id with an
+inline logo ImageObject (Google Article guidelines want `publisher.logo`);
+WebApplication publisher + Dataset creator now reference the same @id so Google
+consolidates one logo-bearing entity. Build green, all JSON-LD validates, only
+json-ld.tsx committed (pipeline data left to the cron).
+
+**Found + backlogged (not fixed):** guide/article pages emit **no `og:image`**
+(root opengraph-image covers only the homepage; `/opengraph-image` 308-redirects).
+Left Article JSON-LD `image` unset for now (square logo = poor thumbnail); added a
+P2 backlog item to add a real per-article/site OG image and then wire it in.
+
+**Owner action to speed favicon pickup:** in GSC, run URL Inspection on
+https://thetidewindow.com/ and click "Request Indexing" to nudge a homepage
+recrawl; the favicon + new logo markup get picked up on Google's next crawl.
+Verify the markup anytime with Google's Rich Results Test on the homepage.
+
+---
+
 ## 2026-07-14 — "Best Tide Pools in Washington" state hub; organic search accelerating
 
 **Health first:** Daily data refresh cron green (07-14 11:46Z success; 07-13,

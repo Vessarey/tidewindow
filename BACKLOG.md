@@ -127,6 +127,15 @@ with the date; add discoveries at the appropriate tier.
 - [ ] NDBC buoy swell for 7-day conditions row (spec §4f full version).
 - [ ] ZIP → nearest-station lookup for the finder (static lookup table).
 - [ ] Per-station OG images (station name + mini heatmap via ImageResponse).
+- [ ] **Article/guide pages emit NO `og:image`** (discovered 2026-07-14 while
+      auditing the favicon). The root `app/opengraph-image.tsx` covers the
+      homepage, but nested `/guides/[slug]` pages inherit no og:image in the
+      static export, and `/opengraph-image` itself 308-redirects. Add a
+      per-article (or at least a stable site-wide) og:image so social shares and
+      article rich-result thumbnails have an image. Pairs with the per-station
+      OG-image item above. NB: Article JSON-LD `image` was intentionally left
+      unset for now (a square logo makes a poor thumbnail) — set it to the real
+      OG image when this lands.
 - [x] 2026-07-05: Featured-roundup slot on /beaches/[state] hubs DONE — data
       driven from article frontmatter (new optional `featuredRoundup: {states,
       event, until, teaser}`; getActiveRoundup() in src/lib/content.ts). Renders a
