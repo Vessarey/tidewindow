@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-14",
+ "generated_on": "2026-07-15",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -16,18 +16,6 @@
   "method": "cosine-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-14",
-   "weekday": "Tue",
-   "low_ft": -1.794,
-   "low_time_local": "5:33 AM",
-   "window_local": "2:45 AM–8:45 AM",
-   "arrive_by_local": "4:33 AM",
-   "daylight_min": 165,
-   "score": 82,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-07-15",
    "weekday": "Wed",
@@ -111,21 +99,33 @@
    "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-13",
+   "weekday": "Thu",
+   "low_ft": -0.841,
+   "low_time_local": "5:53 AM",
+   "window_local": "3:35 AM–8:20 AM",
+   "arrive_by_local": "4:53 AM",
+   "daylight_min": 116,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 15,
-   "daylight_windows": 11,
-   "daylight_minus_tides": 10,
+   "lows_below_1ft": 14,
+   "daylight_windows": 10,
+   "daylight_minus_tides": 9,
    "best_window": {
-    "date": "2026-07-14",
-    "weekday": "Tue",
-    "low_ft": -1.794,
-    "low_time_local": "5:33 AM",
-    "window_local": "2:45 AM–8:45 AM",
-    "arrive_by_local": "4:33 AM",
-    "daylight_min": 165,
+    "date": "2026-07-15",
+    "weekday": "Wed",
+    "low_ft": -1.633,
+    "low_time_local": "6:19 AM",
+    "window_local": "3:35 AM–9:20 AM",
+    "arrive_by_local": "5:19 AM",
+    "daylight_min": 199,
     "score": 82,
     "band": "Great",
     "weekend_or_holiday": false
@@ -243,18 +243,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-14",
-   "weekday": "Tue",
-   "low_ft": -1.794,
-   "low_time_local": "5:33 AM",
-   "window_local": "2:45 AM–8:45 AM",
-   "arrive_by_local": "4:33 AM",
-   "daylight_min": 165,
-   "score": 82,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-11-25",
    "weekday": "Wed",
    "low_ft": -1.77,
@@ -311,6 +299,18 @@
    "arrive_by_local": "5:19 AM",
    "daylight_min": 199,
    "score": 82,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -1.562,
+   "low_time_local": "3:34 PM",
+   "window_local": "12:45 PM–6:45 PM",
+   "arrive_by_local": "2:34 PM",
+   "daylight_min": 251,
+   "score": 76,
    "band": "Great",
    "weekend_or_holiday": false
   }
@@ -378,20 +378,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-07-14",
-   "weekday": "Tue",
-   "low_ft": -1.794,
-   "low_time_local": "5:33 AM",
-   "window_local": "2:45 AM–8:45 AM",
-   "arrive_by_local": "4:33 AM",
-   "daylight_min": 165,
-   "score": 82,
-   "band": "Great",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 57,
-   "min_to_sun_edge": -27
-  },
   {
    "date": "2026-07-15",
    "weekday": "Wed",
@@ -461,6 +447,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 66,
    "min_to_sun_edge": -1
+  },
+  {
+   "date": "2026-07-31",
+   "weekday": "Fri",
+   "low_ft": -0.222,
+   "low_time_local": "6:43 AM",
+   "window_local": "4:35 AM–8:55 AM",
+   "arrive_by_local": "5:43 AM",
+   "daylight_min": 162,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 71,
+   "min_to_sun_edge": 30
   }
  ],
  "species_last60d_5km": [
@@ -472,7 +472,7 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 79
+   "count": 82
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -482,7 +482,7 @@
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 59
+   "count": 61
   },
   {
    "commonName": "Stubby Dendronotid",
@@ -507,7 +507,7 @@
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 28
+   "count": 29
   },
   {
    "commonName": "Heath's Dorid",

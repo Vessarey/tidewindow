@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-14",
+ "generated_on": "2026-07-15",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -467,27 +467,27 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 141
+   "count": 142
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 130
+   "count": 131
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 102
+   "count": 103
   },
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 61
+   "count": 69
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 58
+   "count": 59
   },
   {
    "commonName": "White-spotted Sea Goddess",
@@ -495,23 +495,23 @@
    "count": 50
   },
   {
+   "commonName": "White-crusted Aeolid",
+   "scientificName": "Tenellia albocrusta",
+   "count": 43
+  },
+  {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
-   "count": 42
+   "count": 43
   },
   {
    "commonName": "McDonald's Dorid",
    "scientificName": "Limacia mcdonaldi",
-   "count": 41
+   "count": 42
   },
   {
-   "commonName": "White-crusted Aeolid",
-   "scientificName": "Tenellia albocrusta",
-   "count": 40
-  },
-  {
-   "commonName": "Salt-and-pepper Doris",
-   "scientificName": "Aegires albopunctatus",
+   "commonName": "Spotted Dorid",
+   "scientificName": "Triopha maculata",
    "count": 39
   }
  ]

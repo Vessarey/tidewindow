@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-14",
+ "generated_on": "2026-07-15",
  "region": "Oregon coast",
  "stations": [
   {
@@ -8,17 +8,17 @@
    "noaa_id": "9437540",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 15,
-     "daylight_windows": 13,
-     "daylight_minus_tides": 11,
+     "lows_below_1ft": 14,
+     "daylight_windows": 12,
+     "daylight_minus_tides": 10,
      "best_window": {
-      "date": "2026-07-14",
-      "weekday": "Tue",
-      "low_ft": -2.347,
-      "low_time_local": "7:23 AM",
-      "window_local": "5:05 AM–10:05 AM",
-      "arrive_by_local": "6:23 AM",
-      "daylight_min": 264,
+      "date": "2026-07-15",
+      "weekday": "Wed",
+      "low_ft": -2.349,
+      "low_time_local": "8:09 AM",
+      "window_local": "5:55 AM–10:50 AM",
+      "arrive_by_local": "7:09 AM",
+      "daylight_min": 295,
       "score": 90,
       "band": "Exceptional",
       "weekend_or_holiday": false
@@ -124,18 +124,6 @@
      "weekend_or_holiday": false
     },
     {
-     "date": "2026-07-14",
-     "weekday": "Tue",
-     "low_ft": -2.347,
-     "low_time_local": "7:23 AM",
-     "window_local": "5:05 AM–10:05 AM",
-     "arrive_by_local": "6:23 AM",
-     "daylight_min": 264,
-     "score": 90,
-     "band": "Exceptional",
-     "weekend_or_holiday": false
-    },
-    {
      "date": "2026-07-16",
      "weekday": "Thu",
      "low_ft": -2.079,
@@ -158,6 +146,18 @@
      "score": 85,
      "band": "Great",
      "weekend_or_holiday": false
+    },
+    {
+     "date": "2026-08-13",
+     "weekday": "Thu",
+     "low_ft": -1.663,
+     "low_time_local": "7:47 AM",
+     "window_local": "5:45 AM–10:05 AM",
+     "arrive_by_local": "6:47 AM",
+     "daylight_min": 231,
+     "score": 83,
+     "band": "Great",
+     "weekend_or_holiday": false
     }
    ]
   },
@@ -167,17 +167,17 @@
    "noaa_id": "9435380",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 15,
-     "daylight_windows": 12,
-     "daylight_minus_tides": 11,
+     "lows_below_1ft": 14,
+     "daylight_windows": 11,
+     "daylight_minus_tides": 10,
      "best_window": {
-      "date": "2026-07-14",
-      "weekday": "Tue",
-      "low_ft": -2.517,
-      "low_time_local": "7:04 AM",
-      "window_local": "4:35 AM–9:50 AM",
-      "arrive_by_local": "6:04 AM",
-      "daylight_min": 246,
+      "date": "2026-07-15",
+      "weekday": "Wed",
+      "low_ft": -2.522,
+      "low_time_local": "7:50 AM",
+      "window_local": "5:25 AM–10:30 AM",
+      "arrive_by_local": "6:50 AM",
+      "daylight_min": 285,
       "score": 90,
       "band": "Exceptional",
       "weekend_or_holiday": false
@@ -283,18 +283,6 @@
      "weekend_or_holiday": false
     },
     {
-     "date": "2026-07-14",
-     "weekday": "Tue",
-     "low_ft": -2.517,
-     "low_time_local": "7:04 AM",
-     "window_local": "4:35 AM–9:50 AM",
-     "arrive_by_local": "6:04 AM",
-     "daylight_min": 246,
-     "score": 90,
-     "band": "Exceptional",
-     "weekend_or_holiday": false
-    },
-    {
      "date": "2026-07-16",
      "weekday": "Thu",
      "low_ft": -2.233,
@@ -317,6 +305,18 @@
      "score": 88,
      "band": "Great",
      "weekend_or_holiday": false
+    },
+    {
+     "date": "2026-12-23",
+     "weekday": "Wed",
+     "low_ft": -1.91,
+     "low_time_local": "5:53 PM",
+     "window_local": "3:40 PM–8:20 PM",
+     "arrive_by_local": "4:53 PM",
+     "daylight_min": 60,
+     "score": 61,
+     "band": "Good",
+     "weekend_or_holiday": false
     }
    ]
   },
@@ -326,17 +326,17 @@
    "noaa_id": "9432780",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 15,
-     "daylight_windows": 12,
-     "daylight_minus_tides": 11,
+     "lows_below_1ft": 14,
+     "daylight_windows": 11,
+     "daylight_minus_tides": 10,
      "best_window": {
-      "date": "2026-07-14",
-      "weekday": "Tue",
-      "low_ft": -2.395,
-      "low_time_local": "6:53 AM",
-      "window_local": "4:20 AM–9:40 AM",
-      "arrive_by_local": "5:53 AM",
-      "daylight_min": 230,
+      "date": "2026-07-15",
+      "weekday": "Wed",
+      "low_ft": -2.334,
+      "low_time_local": "7:38 AM",
+      "window_local": "5:10 AM–10:20 AM",
+      "arrive_by_local": "6:38 AM",
+      "daylight_min": 269,
       "score": 90,
       "band": "Exceptional",
       "weekend_or_holiday": false
@@ -430,18 +430,6 @@
    },
    "deepest": [
     {
-     "date": "2026-07-14",
-     "weekday": "Tue",
-     "low_ft": -2.395,
-     "low_time_local": "6:53 AM",
-     "window_local": "4:20 AM–9:40 AM",
-     "arrive_by_local": "5:53 AM",
-     "daylight_min": 230,
-     "score": 90,
-     "band": "Exceptional",
-     "weekend_or_holiday": false
-    },
-    {
      "date": "2026-07-15",
      "weekday": "Wed",
      "low_ft": -2.334,
@@ -476,6 +464,18 @@
      "score": 90,
      "band": "Exceptional",
      "weekend_or_holiday": false
+    },
+    {
+     "date": "2026-12-23",
+     "weekday": "Wed",
+     "low_ft": -1.897,
+     "low_time_local": "5:42 PM",
+     "window_local": "3:20 PM–8:15 PM",
+     "arrive_by_local": "4:42 PM",
+     "daylight_min": 86,
+     "score": 65,
+     "band": "Good",
+     "weekend_or_holiday": false
     }
    ]
   },
@@ -485,17 +485,17 @@
    "noaa_id": "9431647",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 15,
-     "daylight_windows": 12,
-     "daylight_minus_tides": 11,
+     "lows_below_1ft": 14,
+     "daylight_windows": 11,
+     "daylight_minus_tides": 10,
      "best_window": {
-      "date": "2026-07-14",
-      "weekday": "Tue",
-      "low_ft": -2.459,
-      "low_time_local": "6:37 AM",
-      "window_local": "3:55 AM–9:30 AM",
-      "arrive_by_local": "5:37 AM",
-      "daylight_min": 217,
+      "date": "2026-07-15",
+      "weekday": "Wed",
+      "low_ft": -2.377,
+      "low_time_local": "7:23 AM",
+      "window_local": "4:45 AM–10:10 AM",
+      "arrive_by_local": "6:23 AM",
+      "daylight_min": 256,
       "score": 90,
       "band": "Exceptional",
       "weekend_or_holiday": false
@@ -589,18 +589,6 @@
    },
    "deepest": [
     {
-     "date": "2026-07-14",
-     "weekday": "Tue",
-     "low_ft": -2.459,
-     "low_time_local": "6:37 AM",
-     "window_local": "3:55 AM–9:30 AM",
-     "arrive_by_local": "5:37 AM",
-     "daylight_min": 217,
-     "score": 90,
-     "band": "Exceptional",
-     "weekend_or_holiday": false
-    },
-    {
      "date": "2026-07-15",
      "weekday": "Wed",
      "low_ft": -2.377,
@@ -633,6 +621,18 @@
      "arrive_by_local": "4:26 PM",
      "daylight_min": 113,
      "score": 72,
+     "band": "Good",
+     "weekend_or_holiday": false
+    },
+    {
+     "date": "2026-11-25",
+     "weekday": "Wed",
+     "low_ft": -2.053,
+     "low_time_local": "6:25 PM",
+     "window_local": "3:55 PM–9:05 PM",
+     "arrive_by_local": "5:25 PM",
+     "daylight_min": 53,
+     "score": 63,
      "band": "Good",
      "weekend_or_holiday": false
     }
