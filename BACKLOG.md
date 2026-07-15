@@ -96,10 +96,19 @@ with the date; add discoveries at the appropriate tier.
       **3rd WA station guide → the "Best tide pools in WA" hub is now unlockable.**
 - [ ] Charleston / Sunset Bay + Cape Arago station guide article.
 - [ ] Newport / Yaquina Head + Otter Rock station guide article.
-- [ ] "Best tide pools in {state}" hub articles (OR, WA, CA, ME) once ≥3 station
-      guides per state exist. **WA IS NOW READY** (Port Townsend + La Push +
-      Seattle) — strong next pick; also strengthens the /guides/ index that is
-      already pulling organic search (44 pv/wk as of 07-12).
+- [x] 2026-07-14: **"Best Tide Pools in Washington 2026" hub LAUNCHED**
+      (content/articles/best-tide-pools-washington-2026.md, regional-calendars) —
+      groups the 3 WA station guides (Port Townsend + La Push + Seattle) around the
+      Jul 14–17 year-deepest run and the propagation lag that staggers the same low
+      ~4h from La Push (−3.00 ft, 7:15 AM) to Seattle (−3.80 ft, 11:20 AM). NPS
+      Rialto/Mora closure re-verified verbatim; routes to Second Beach. First
+      state hub; pattern proven.
+- [ ] "Best tide pools in {state}" hub articles (OR, CA, ME) once ≥3 station
+      guides per state exist. **CA IS READY NOW** (La Jolla + Cabrillo + Pacific
+      Grove/Fitzgerald/Pillar Point — bigger search market, strong next pick).
+      OR needs one more station guide first (has Haystack Rock; Charleston and
+      Newport queued). ME has only Acadia so far. Hubs strengthen the /guides/
+      index that leads organic search (82 pv/wk as of 07-14).
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
 - [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).

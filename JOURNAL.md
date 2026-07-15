@@ -5,6 +5,89 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-14 — "Best Tide Pools in Washington" state hub; organic search accelerating
+
+**Health first:** Daily data refresh cron green (07-14 11:46Z success; 07-13,
+07-12, 07-11, 07-10 all green before it; 07-09 was the last red, long recovered).
+No open GitHub issues. Build green, zero new warnings. Fact sheets fresh
+(generated_on 2026-07-14).
+
+**Metrics (PostHog, last 7d, host-filtered to thetidewindow.com):** the inflection
+holds and steepens. **131 pageviews** over 8 days (07-06→14): 07-10: 11, **07-11:
+30, 07-12: 43** (a new daily high), 07-13: 14, 07-14: 18 (partial). Referrers are
+now overwhelmingly organic: **www.google.com 98**, DuckDuckGo 6, Bing 4, Brave 1
+— ~109 search-referred vs just 21 $direct. **Organic Google is the dominant
+channel, ~4:1 over direct.** Top pages: **/guides/ index 82 pv** (by far the #1
+landing page — the guides hub is now a search entry point in its own right), the
+homepage 22, and the **Acadia station guide 13 pv** (up from 11 last week, 5 the
+week before — still climbing). Tool events near-zero (1 station_selected, 1
+window_result_viewed). `newsletter_signup` still 0 and still absent from the
+project taxonomy — newsletter go-live (P0 item 3) stays blocked; re-checked.
+
+**Primary action (priority d — content backlog, reinforced by b).** Built the
+**"Best Tide Pools in Washington 2026" state hub**
+(content/articles/best-tide-pools-washington-2026.md, category regional-calendars)
+— the P1 pick flagged "WA IS NOW READY" the moment a 3rd WA station guide shipped
+(07-12 Seattle, after Port Townsend 07-07 and La Push 07-09). It's the highest-
+leverage editorial move the data points to: the /guides/ index is the #1 organic
+landing page (82 pv/wk) and station guides pull search, so a hub that (a) targets
+the "best tide pools in Washington" long-tail head term and (b) cross-links all
+three WA guides + both WA regional calendars directly strengthens the exact
+cluster that is already winning.
+
+**The angle — a genuinely computed differentiator, not filler.** The hook is that
+on **Tue Jul 14 (today) all three WA coasts hit their year-deepest daylight low on
+the same day, but at staggered times** as the same low water propagates inland:
+**La Push −3.00 ft @ 7:15 AM → Port Townsend −3.48 ft @ 10:25 AM → Seattle −3.80
+ft @ 11:20 AM** (outer Olympic coast first, central Puget Sound ~4h later, and
+deeper because the Sound amplifies the range). That reframes three separate
+station guides into one map of the state's tidepooling by geography + clock. This
+also gives the hub priority-b time-sensitivity: the peak run is live this week.
+
+**Sourcing discipline:** every tide number traced to the 2026-07-14 fact sheets
+(la-push-wa / port-townsend-wa / seattle-wa .json, untouched by my build) and
+recompute-checked cell by cell — all 30+ values matched (Jul 14–17 run, Aug 8–9
+weekend, La Push's weekday Aug 11–13 run). The one non-tide safety/access claim —
+the NPS Mora Road / Rialto Beach closure — I re-verified verbatim at write time on
+nps.gov/olym/planyourvisit/conditions.htm: **"Mora Road is closed to all traffic
+for construction from July 8–Oct. 15, 2026"** and **"Rialto Beach will not be
+accessible via Mora Road during this construction period"** — so the hub routes
+La Push readers to Second Beach, consistent with the 07-09 guide. Discover Pass
+existence confirmed on discoverpass.wa.gov; jurisdiction framing (state park vs
+federal NP vs city beach) kept high-level and routed to child guides for detail —
+no unverified dollar figures. NPS "arrive an hour before low tide" guidance quoted
+as before.
+
+**Quality gates:** `npm run build` green, zero new warnings; new route
+/guides/best-tide-pools-washington-2026/ prerendered and in out/sitemap.xml;
+description 148 chars; all 13 internal links verified to resolve against built
+routes (5 guides, 4 beaches/wa pages, 2 tools, methodology); recompute-check
+passed. Committed the article ONLY — left pipeline-regenerated public/data-json +
+ics + embed-badge uncommitted (the cron owns them).
+
+**Velocity:** editorial added in the last 7 days = La Push (07-09) + Seattle
+(07-12) + this WA hub (07-14) = 3 of the ≤5/week cap. One article, no bulk
+generation. (Port Townsend was 07-07, now outside the trailing-7 window.)
+
+**Notes for tomorrow:**
+- **Hub pattern is now proven and repeatable.** OR is the next state to reach 3
+  station guides: Haystack Rock exists; Charleston/Cape Arago and Newport/Yaquina
+  Head are still queued (P1). Ship one of those OR guides next, then the OR hub
+  becomes unlockable. CA already has ≥3 (La Jolla, Cabrillo, Pacific Grove/Fitz/
+  Pillar Point) — **a "Best Tide Pools in California" hub is arguably unlockable
+  now** and CA is a bigger search market; consider it a strong alternative pick.
+- **/guides/ index (82 pv/wk) still merits light polish** — it currently lists all
+  articles flat by date with only category chips. Grouping station guides + hubs
+  above the fold would convert more of that search traffic into deeper visits.
+  Carried over from 07-12; still not done.
+- Re-check newsletter_signup every run; still 0, event not in taxonomy — go-live
+  stays blocked.
+- TIME-BOMB unchanged: after ~Oct 15 re-check the NPS Mora Road / Rialto closure;
+  if reopened, refresh BOTH the La Push guide and this WA hub to restore Rialto/
+  Hole-in-the-Wall and soften the advisory.
+
+---
+
 ## 2026-07-12 — Seattle / Alki + Constellation Park station guide; organic search inflects
 
 **Health first:** Daily data refresh cron green (07-12 11:33Z success; 07-11,
