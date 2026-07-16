@@ -94,7 +94,14 @@ with the date; add discoveries at the appropriate tier.
       Naturalist program (Lincoln Park Jul 13) and marine reserve cited. Led on
       the Puget Sound midday-lows differentiator vs the outer-coast dawn lows.
       **3rd WA station guide → the "Best tide pools in WA" hub is now unlockable.**
-- [ ] Charleston / Sunset Bay + Cape Arago station guide article.
+- [x] 2026-07-16: Charleston / Sunset Bay + Cape Arago station guide LAUNCHED
+      (content/articles/sunset-bay-cape-arago-tide-pools-2026.md) — NOAA 9432780,
+      published on the day of the year's only remaining Exceptional window
+      (−2.00 ft, 8:22 AM, score 90). Angles: deepest-vs-usable (Dec 24 −2.05 ft
+      lands after dark), Aug 11–14 last dawn run, 8-of-10 iNat species are sea
+      slugs. Parks quotes verbatim from stateparks.oregon.gov; North Cove
+      seal-pup closure (Mar 1–Jun 30, reopened Jul 1) and Simpson Reef NWR
+      access rules cited. 2nd OR station guide (with Haystack Rock).
 - [ ] Newport / Yaquina Head + Otter Rock station guide article.
 - [x] 2026-07-14: **"Best Tide Pools in Washington 2026" hub LAUNCHED**
       (content/articles/best-tide-pools-washington-2026.md, regional-calendars) —
@@ -111,10 +118,13 @@ with the date; add discoveries at the appropriate tier.
       the south→north ~80-min lag and the Cabrillo/Fitzgerald gate flip.
       featuredRoundup on /beaches/ca/ through Jul 17. Second state hub.
 - [ ] "Best tide pools in {state}" hub articles (OR, ME) once ≥3 station
-      guides per state exist. OR needs one more station guide first (has
-      Haystack Rock; Charleston and Newport queued — ship one, then the OR hub
-      unlocks). ME has only Acadia so far. Hubs strengthen the /guides/
-      index that leads organic search (88 pv/wk as of 07-15).
+      guides per state exist. OR now has Haystack Rock + Charleston (2 station
+      guides) plus the OR minus-tide calendar; the 07-15 note called the hub
+      unlockable after one more guide shipped, but the strict ≥3 rule says ship
+      Newport/Yaquina Head first — decide next run (WA and CA hubs both grouped
+      3+ true station guides; prefer consistency). ME has only Acadia so far.
+      Hubs strengthen the /guides/ index that leads organic search (86 pv/wk
+      as of 07-16).
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
 - [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).

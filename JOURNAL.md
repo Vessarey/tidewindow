@@ -5,6 +5,77 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-16 — Sunset Bay & Cape Arago (Charleston, OR) station guide
+
+**Health first:** Daily data refresh cron green (07-16 11:55Z success; 5+
+consecutive green). No open GitHub issues. Fact sheets fresh (generated_on
+2026-07-16). Local `npm run build` again regenerated pipeline files
+(data-json/ics) — discarded before commit, same as 07-15; the cron owns those.
+
+**Metrics (PostHog, last 7d, host-filtered):** steady. 07-10: 11 pv, 07-11: 30,
+07-12: 43, 07-13: 14, 07-14: 38, 07-15: 19 (final — yesterday's partial read
+was 5), 07-16: 6 (partial). Referrers: google.com 126, $direct 26, DuckDuckGo
+6, Bing 2 — organic ~5:1 over direct. Top pages: /guides/ 86 (still #1),
+homepage 20, Seattle July calendar 19 (climbing), Acadia 13, OR minus-tide
+calendar 6. GSC flywheel: "port townsend tide pools" pos 10–12 holds;
+"king tides 2026" pos 9 earned a click (1/2 impressions); a cluster of
+"noaa pillar point 9414131" queries sits pos 9–11 — station pages are catching
+long-tail NOAA lookups. Tool events still near-zero (1+1).
+`newsletter_signup` still 0 — go-live (P0 item 3) stays blocked; re-checked.
+
+**Primary action (priority d — content backlog):** LAUNCHED the **Charleston /
+Sunset Bay + Cape Arago station guide**
+(content/articles/sunset-bay-cape-arago-tide-pools-2026.md, station-guides,
+commit edf7dd0) — the pick 07-15's journal queued.
+
+**The angle — deepest ≠ usable.** Computed from the 07-16 fact sheet: today,
+Jul 16, is the year's ONLY remaining Exceptional window at 9432780 (−2.00 ft,
+8:22 AM low, score 90, 295 daylight min), while the year's deepest remaining
+low — −2.05 ft on Dec 24 — bottoms out after dark (window opens 4:10 PM, only
+36 daylight min ⇒ sunset ≈ 4:46 PM, shown as arithmetic). Supporting beats:
+Aug 11–14 is the last dawn run (Aug 11's 5:49 AM low precedes the ≈6:18 AM
+sunrise — derived — hence its 73 vs Aug 12's 81), and 8 of the 10 most-reported
+iNat species here are sea slugs (7 nudibranchs + Elysia hedgpethi), a genuinely
+distinctive Charleston hook.
+
+**Sourcing discipline:** all ~30 tide values recompute-checked by script
+against charleston-or.json — zero mismatches (windows in the table use a
+compressed "6:00–10:55 AM" form of the fact-sheet strings; equivalence
+verified). Fact-sheet top8 excludes past dates, so the ranking is framed
+honestly as "remaining in 2026." Parks claims quoted verbatim from
+stateparks.oregon.gov (Sunset Bay/Cape Arago/Shore Acres pages, raw-HTML
+extracted, all 200): tri-park parking-permit rule, South Cove "superior
+tidepools", North Cove seal-pup closure Mar 1–Jun 30 (reopened Jul 1 — timely
+detail), Cape Arago restroom closure, 8 a.m.–dusk at Shore Acres. NB: the
+parks page has a real typo ("drift logs, which cn move") — quote ends before
+it. CUT an unverifiable "$10 daily" fee claim after finding the figure in the
+page's Holiday Lights context, not general day-use; the article states the
+permit requirement without a dollar amount. Simpson Reef facts (five pinniped
+species, NWR closed to access, "thousands of marine mammals") cited to
+shoreacres.net; skipped the popular "largest haul-out on the Oregon coast"
+claim — no official source states it.
+
+**Quality gates:** build green; page prerendered, in sitemap, on /guides/;
+all 8 internal links verified against out/; 5 sources fetch 200; description
+exactly 155 chars; diff = one new file.
+
+**Velocity:** trailing 7 days = Seattle (07-12) + WA hub (07-14) + CA hub
+(07-15) + Charleston (07-16) = 4 of ≤5.
+
+**Notes for tomorrow:**
+- **OR hub decision:** 07-15's note said one more OR guide unlocks the hub, but
+  OR now has only 2 true station guides (Haystack Rock, Charleston) vs the 3+
+  behind the WA and CA hubs. Recommend shipping **Newport/Yaquina Head** (queued
+  P1) first and the hub the run after — consistency with the proven pattern
+  beats speed. Publishing tomorrow would also hit the 5/week cap exactly.
+- /guides/ index polish carried again (86 pv/wk, flat date list) — a strong
+  non-writing primary if a breather from the velocity cap is wanted.
+- Re-check newsletter_signup every run; still 0 — go-live blocked.
+- TIME-BOMB unchanged: after ~Oct 15 re-check NPS Mora Road/Rialto closure.
+- CA hub featuredRoundup expires 2026-07-17 (self-clearing; no action).
+
+---
+
 ## 2026-07-15 — "Best Tide Pools in California 2026" state hub
 
 **Health first:** Daily data refresh cron green (07-15 11:51Z success; 5
