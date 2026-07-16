@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-15",
+ "generated_on": "2026-07-16",
  "coasts": {
   "west": {
    "stations": [
@@ -15,32 +15,32 @@
     "la-jolla-ca",
     "san-diego-ca"
    ],
-   "minus_tides_2026": 854,
-   "daylight_minus_tides_2026": 462,
-   "daylight_share_pct": 54
+   "minus_tides_2026": 843,
+   "daylight_minus_tides_2026": 451,
+   "daylight_share_pct": 53
   },
   "east": {
    "stations": [
     "bar-harbor-me"
    ],
-   "minus_tides_2026": 86,
-   "daylight_minus_tides_2026": 50,
-   "daylight_share_pct": 58
+   "minus_tides_2026": 84,
+   "daylight_minus_tides_2026": 48,
+   "daylight_share_pct": 57
   }
  },
  "hour_histogram_2026_daylight_minus": {
   "west": {
-   "12 PM": 9,
+   "12 PM": 8,
    "1 PM": 10,
    "2 PM": 18,
-   "8 AM": 36,
+   "8 AM": 34,
    "9 AM": 24,
    "10 AM": 14,
-   "11 AM": 10,
-   "6 AM": 47,
-   "7 AM": 42,
+   "11 AM": 9,
+   "6 AM": 45,
+   "7 AM": 39,
    "5 AM": 42,
-   "4 AM": 19,
+   "4 AM": 17,
    "8 PM": 6,
    "7 PM": 23,
    "6 PM": 36,
@@ -49,8 +49,6 @@
    "3 PM": 30
   },
   "east": {
-   "5 AM": 3,
-   "6 PM": 6,
    "6 AM": 7,
    "7 PM": 3,
    "7 AM": 2,
@@ -58,6 +56,8 @@
    "9 AM": 1,
    "4 AM": 1,
    "5 PM": 6,
+   "5 AM": 2,
+   "6 PM": 5,
    "4 PM": 9,
    "3 PM": 6,
    "2 PM": 3,

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-15",
+ "generated_on": "2026-07-16",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-15",
-   "weekday": "Wed",
-   "low_ft": -2.334,
-   "low_time_local": "7:38 AM",
-   "window_local": "5:10 AM–10:20 AM",
-   "arrive_by_local": "6:38 AM",
-   "daylight_min": 269,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-07-16",
    "weekday": "Thu",
@@ -111,21 +99,33 @@
    "score": 73,
    "band": "Good",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-07-31",
+   "weekday": "Fri",
+   "low_ft": -0.772,
+   "low_time_local": "8:05 AM",
+   "window_local": "6:05 AM–10:10 AM",
+   "arrive_by_local": "7:05 AM",
+   "daylight_min": 244,
+   "score": 70,
+   "band": "Good",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 14,
-   "daylight_windows": 11,
-   "daylight_minus_tides": 10,
+   "lows_below_1ft": 13,
+   "daylight_windows": 10,
+   "daylight_minus_tides": 9,
    "best_window": {
-    "date": "2026-07-15",
-    "weekday": "Wed",
-    "low_ft": -2.334,
-    "low_time_local": "7:38 AM",
-    "window_local": "5:10 AM–10:20 AM",
-    "arrive_by_local": "6:38 AM",
-    "daylight_min": 269,
+    "date": "2026-07-16",
+    "weekday": "Thu",
+    "low_ft": -2.004,
+    "low_time_local": "8:22 AM",
+    "window_local": "6:00 AM–10:55 AM",
+    "arrive_by_local": "7:22 AM",
+    "daylight_min": 295,
     "score": 90,
     "band": "Exceptional",
     "weekend_or_holiday": false
@@ -219,18 +219,6 @@
  },
  "deepest_2026_daylight_lows_top8": [
   {
-   "date": "2026-07-15",
-   "weekday": "Wed",
-   "low_ft": -2.334,
-   "low_time_local": "7:38 AM",
-   "window_local": "5:10 AM–10:20 AM",
-   "arrive_by_local": "6:38 AM",
-   "daylight_min": 269,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-24",
    "weekday": "Thu",
    "low_ft": -2.053,
@@ -312,6 +300,18 @@
    "daylight_min": 194,
    "score": 81,
    "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "low_ft": -1.469,
+   "low_time_local": "7:53 PM",
+   "window_local": "5:45 PM–10:10 PM",
+   "arrive_by_local": "6:53 PM",
+   "daylight_min": 30,
+   "score": 50,
+   "band": "Fair",
    "weekend_or_holiday": false
   }
  ],
@@ -465,13 +465,13 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 6
-  },
-  {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
+   "count": 7
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 6
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-15",
+ "generated_on": "2026-07-16",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-15",
-   "weekday": "Wed",
-   "low_ft": -2.349,
-   "low_time_local": "8:09 AM",
-   "window_local": "5:55 AM–10:50 AM",
-   "arrive_by_local": "7:09 AM",
-   "daylight_min": 295,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-07-16",
    "weekday": "Thu",
@@ -111,21 +99,33 @@
    "score": 76,
    "band": "Great",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-15",
+   "weekday": "Sat",
+   "low_ft": -0.67,
+   "low_time_local": "9:05 AM",
+   "window_local": "7:30 AM–10:50 AM",
+   "arrive_by_local": "8:05 AM",
+   "daylight_min": 200,
+   "score": 73,
+   "band": "Good",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 14,
-   "daylight_windows": 12,
-   "daylight_minus_tides": 10,
+   "lows_below_1ft": 13,
+   "daylight_windows": 11,
+   "daylight_minus_tides": 9,
    "best_window": {
-    "date": "2026-07-15",
-    "weekday": "Wed",
-    "low_ft": -2.349,
-    "low_time_local": "8:09 AM",
-    "window_local": "5:55 AM–10:50 AM",
-    "arrive_by_local": "7:09 AM",
-    "daylight_min": 295,
+    "date": "2026-07-16",
+    "weekday": "Thu",
+    "low_ft": -2.079,
+    "low_time_local": "8:54 AM",
+    "window_local": "6:45 AM–11:25 AM",
+    "arrive_by_local": "7:54 AM",
+    "daylight_min": 280,
     "score": 90,
     "band": "Exceptional",
     "weekend_or_holiday": false
@@ -219,18 +219,6 @@
  },
  "deepest_2026_daylight_lows_top8": [
   {
-   "date": "2026-07-15",
-   "weekday": "Wed",
-   "low_ft": -2.349,
-   "low_time_local": "8:09 AM",
-   "window_local": "5:55 AM–10:50 AM",
-   "arrive_by_local": "7:09 AM",
-   "daylight_min": 295,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-16",
    "weekday": "Thu",
    "low_ft": -2.079,
@@ -312,6 +300,18 @@
    "daylight_min": 235,
    "score": 81,
    "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "low_ft": -1.245,
+   "low_time_local": "5:43 PM",
+   "window_local": "3:50 PM–7:45 PM",
+   "arrive_by_local": "4:43 PM",
+   "daylight_min": 48,
+   "score": 47,
+   "band": "Fair",
    "weekend_or_holiday": false
   }
  ],
