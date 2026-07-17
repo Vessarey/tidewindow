@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-16",
+ "generated_on": "2026-07-17",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-16",
-   "weekday": "Thu",
-   "low_ft": -1.172,
-   "low_time_local": "5:34 AM",
-   "window_local": "3:05 AM–8:15 AM",
-   "arrive_by_local": "4:34 AM",
-   "daylight_min": 143,
-   "score": 66,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-07-17",
    "weekday": "Fri",
@@ -111,22 +99,34 @@
    "score": 42,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-12",
+   "weekday": "Sat",
+   "low_ft": 0.537,
+   "low_time_local": "4:41 PM",
+   "window_local": "3:35 PM–5:55 PM",
+   "arrive_by_local": "3:41 PM",
+   "daylight_min": 140,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 13,
-   "daylight_windows": 7,
-   "daylight_minus_tides": 6,
+   "lows_below_1ft": 12,
+   "daylight_windows": 6,
+   "daylight_minus_tides": 5,
    "best_window": {
-    "date": "2026-07-16",
-    "weekday": "Thu",
-    "low_ft": -1.172,
-    "low_time_local": "5:34 AM",
-    "window_local": "3:05 AM–8:15 AM",
-    "arrive_by_local": "4:34 AM",
-    "daylight_min": 143,
-    "score": 66,
+    "date": "2026-07-17",
+    "weekday": "Fri",
+    "low_ft": -0.666,
+    "low_time_local": "6:13 AM",
+    "window_local": "3:55 AM–8:35 AM",
+    "arrive_by_local": "5:13 AM",
+    "daylight_min": 162,
+    "score": 64,
     "band": "Good",
     "weekend_or_holiday": false
    }
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-16",
-   "weekday": "Thu",
-   "low_ft": -1.172,
-   "low_time_local": "5:34 AM",
-   "window_local": "3:05 AM–8:15 AM",
-   "arrive_by_local": "4:34 AM",
-   "daylight_min": 143,
-   "score": 66,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 61,
-   "min_to_sun_edge": -18
-  },
-  {
    "date": "2026-07-17",
    "weekday": "Fri",
    "low_ft": -0.666,
@@ -461,28 +447,42 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 64,
    "min_to_sun_edge": -28
+  },
+  {
+   "date": "2026-08-02",
+   "weekday": "Sun",
+   "low_ft": 0.39,
+   "low_time_local": "6:00 AM",
+   "window_local": "4:30 AM–7:30 AM",
+   "arrive_by_local": "5:00 AM",
+   "daylight_min": 86,
+   "score": 36,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 68,
+   "min_to_sun_edge": -4
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Sorcerer's Dorid",
-   "scientificName": "Polycera atra",
-   "count": 137
-  },
-  {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 133
+   "count": 126
+  },
+  {
+   "commonName": "Sorcerer's Dorid",
+   "scientificName": "Polycera atra",
+   "count": 115
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 107
+   "count": 92
   },
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 70
+   "count": 60
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -490,29 +490,29 @@
    "count": 59
   },
   {
-   "commonName": "White-spotted Sea Goddess",
-   "scientificName": "Doriopsilla albopunctata",
-   "count": 50
-  },
-  {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
-   "count": 43
+   "count": 41
   },
   {
-   "commonName": "Salt-and-pepper Doris",
-   "scientificName": "Aegires albopunctatus",
-   "count": 42
+   "commonName": "Colorful Dirona",
+   "scientificName": "Dirona picta",
+   "count": 39
+  },
+  {
+   "commonName": "White-spotted Sea Goddess",
+   "scientificName": "Doriopsilla albopunctata",
+   "count": 39
   },
   {
    "commonName": "McDonald's Dorid",
    "scientificName": "Limacia mcdonaldi",
-   "count": 41
+   "count": 39
   },
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 40
+   "commonName": "Spotted Dorid",
+   "scientificName": "Triopha maculata",
+   "count": 36
   }
  ]
 }
