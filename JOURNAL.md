@@ -5,6 +5,80 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-17 — Yaquina Head & Otter Rock (Newport, OR) station guide
+
+**Health first:** Daily data refresh cron green (07-17 11:42Z success; 5+
+consecutive green). No open GitHub issues. Fact sheets fresh (generated_on
+2026-07-17). Local `npm run build` again regenerated pipeline files
+(data-json/ics) — discarded before commit, same as 07-15/07-16; the cron owns
+those.
+
+**Metrics (PostHog, last 7d, host-filtered):** steady. 07-10: 11 pv, 07-11: 30,
+07-12: 43, 07-13: 14, 07-14: 38, 07-15: 19, 07-16: 26 (final — yesterday's
+partial read was 6), 07-17: 4 (partial). Referrers: google.com 140, $direct 32,
+DuckDuckGo 6, Bing 2 — organic ~4.4:1 over direct. Top pages: /guides/ 83
+(still #1), Acadia 29 (resurgent), homepage 22, Seattle July calendar 19,
+OR minus-tide calendar 6. GSC flywheel: "port townsend tide pools" pos 10–12
+holds; "king tides 2026" pos 9 (1 click / 2 impressions); the "noaa pillar
+point 9414131" long-tail cluster persists at pos 9–11. Tool events near-zero
+(1+1). `newsletter_signup` still 0 — go-live (P0 item 3) stays blocked;
+re-checked.
+
+**Primary action (priority d — content backlog):** LAUNCHED the **Newport /
+Yaquina Head + Otter Rock station guide**
+(content/articles/yaquina-head-otter-rock-tide-pools-2026.md, station-guides,
+commit ffc453e) — the pick 07-16's journal queued. Only Exceptional window in
+the next 14 days is today's at La Push (95), already covered by the La Push
+guide + WA hub, so priority (b) triggered nothing new.
+
+**The angles.** Computed from the 07-17 fact sheet: (1) photo finish — the
+year's two deepest remaining daylight lows differ by 0.003 ft (~1 mm): Aug 12
+−1.913 ft at 6:46 AM (score 88) vs Dec 23 −1.910 ft at 5:53 PM (score 61,
+low ~73 min after a ≈4:40 PM derived sunset); (2) the year's two best
+remaining days tie at 88 for opposite reasons — Jul 17 (publish day) is
+−1.66 ft with 270 daylight min, the only fully-daylight window of the deepest
+eight, vs Aug 12's depth-for-daylight trade; (3) gate math — Yaquina Head's
+8:00 AM summer opening (BLM, verbatim) fits Jul 17's 9:15 AM low but locks out
+all three Aug 11–13 dawn lows (6:00/6:46/7:28 AM), routing the dawn run to
+Otter Rock; (4) all TEN of the ten most-reported iNat species near the station
+are nudibranchs (Charleston was 8 of 10).
+
+**Sourcing discipline:** all ~35 tide values recompute-checked by script
+against newport-or.json — zero mismatches; sunrise/sunset times derived from
+window daylight minutes and shown as arithmetic. Caught in self-review before
+push: a wrong "six hundredths" Aug 11→12 depth delta (actual 0.152 ft),
+an unverifiable "eight miles north" distance, and an unverified "below the
+lighthouse" placement for Cobble Beach — all fixed or cut. Non-tide claims
+quoted verbatim at write time: BLM fees/hours/seasonal-access
+("limited or no access to Cobble Beach, the tidepools" May–Sep seabird
+window — honestly flagged since it spans the whole summer season), state
+parks punchbowl + "tidepools on the north side of the punch bowl" + parking
+advisory, ODFW marine reserve (1.2 sq mi, "No take of animals or seaweeds",
+intertidal-at-north-end quote supports pools-in-reserve framing). Devils
+Punchbowl day-use fee re-fetched to get the verbatim line after a first fetch
+returned only a paraphrase.
+
+**Quality gates:** build green; page prerendered, in sitemap, on /guides/;
+all 8 internal links verified against out/; 4 sources fetch 200; description
+exactly 155 chars; diff = one new file.
+
+**Velocity:** trailing 7 days = Seattle (07-12) + WA hub (07-14) + CA hub
+(07-15) + Charleston (07-16) + Newport (07-17) = **5 of ≤5 — cap reached.**
+
+**Notes for tomorrow:**
+- **No articles tomorrow (07-18)** — the cap stays exhausted until 07-19
+  (Seattle rolls out of the window then). Tomorrow's primary should be
+  non-writing: the **/guides/ index polish** (83 pv/wk, #1 landing page, flat
+  date list) has now been carried three runs — make it the primary.
+- **OR hub is unlocked**: 3 OR station guides exist (Haystack Rock,
+  Charleston, Newport) — same ≥3 bar the WA and CA hubs met. Earliest ship
+  date 2026-07-19; queue it as that run's primary if nothing outranks it.
+- Re-check newsletter_signup every run; still 0 — go-live blocked.
+- TIME-BOMB unchanged: after ~Oct 15 re-check NPS Mora Road/Rialto closure.
+- CA hub featuredRoundup expired today (self-clearing; no action).
+
+---
+
 ## 2026-07-16 — Sunset Bay & Cape Arago (Charleston, OR) station guide
 
 **Health first:** Daily data refresh cron green (07-16 11:55Z success; 5+

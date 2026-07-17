@@ -102,7 +102,14 @@ with the date; add discoveries at the appropriate tier.
       slugs. Parks quotes verbatim from stateparks.oregon.gov; North Cove
       seal-pup closure (Mar 1–Jun 30, reopened Jul 1) and Simpson Reef NWR
       access rules cited. 2nd OR station guide (with Haystack Rock).
-- [ ] Newport / Yaquina Head + Otter Rock station guide article.
+- [x] 2026-07-17: Newport / Yaquina Head + Otter Rock station guide LAUNCHED
+      (content/articles/yaquina-head-otter-rock-tide-pools-2026.md) — NOAA
+      9435380, published on the month's best window (−1.66 ft, 9:15 AM,
+      score 88, the year's only fully-daylight deep window). Angles: Aug 12 vs
+      Dec 23 deepest-low photo finish (0.003 ft), Yaquina Head 8 AM gate math
+      vs Otter Rock dawn access, all-10-nudibranch iNat top ten. BLM +
+      state parks + ODFW marine reserve claims quoted verbatim. 3rd OR station
+      guide — **OR hub now unlockable (earliest 07-19 per velocity cap).**
 - [x] 2026-07-14: **"Best Tide Pools in Washington 2026" hub LAUNCHED**
       (content/articles/best-tide-pools-washington-2026.md, regional-calendars) —
       groups the 3 WA station guides (Port Townsend + La Push + Seattle) around the
@@ -118,13 +125,11 @@ with the date; add discoveries at the appropriate tier.
       the south→north ~80-min lag and the Cabrillo/Fitzgerald gate flip.
       featuredRoundup on /beaches/ca/ through Jul 17. Second state hub.
 - [ ] "Best tide pools in {state}" hub articles (OR, ME) once ≥3 station
-      guides per state exist. OR now has Haystack Rock + Charleston (2 station
-      guides) plus the OR minus-tide calendar; the 07-15 note called the hub
-      unlockable after one more guide shipped, but the strict ≥3 rule says ship
-      Newport/Yaquina Head first — decide next run (WA and CA hubs both grouped
-      3+ true station guides; prefer consistency). ME has only Acadia so far.
-      Hubs strengthen the /guides/ index that leads organic search (86 pv/wk
-      as of 07-16).
+      guides per state exist. **OR qualifies as of 07-17** (Haystack Rock +
+      Charleston + Newport) — ship the OR hub on 2026-07-19 or later (velocity
+      cap: 5 articles in the trailing 7 days through 07-18). ME has only
+      Acadia so far. Hubs strengthen the /guides/ index that leads organic
+      search (83 pv/wk as of 07-17).
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
 - [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).
