@@ -5,6 +5,71 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-18 — NOAA outage broke the cron; deploys de-risked; FIRST SIGNUP
+
+**Health first:** Daily data refresh cron FAILED (11:25Z, run 29642522424) —
+today's only task per playbook §2a. Root cause: a **service-wide NOAA CO-OPS
+predictions outage**, not our bug. Evidence: every station tested (Seattle
+9447130, Port Townsend 9444900, Pillar Point 9414131, Bar Harbor 8413320) and
+every datum (MLLW, MSL, STND, NAVD) returned "No Predictions data was found";
+meanwhile product=water_level returned live data and station metadata was
+intact, so the API itself was up — only predictions were dark. Still down at
+~12:10 ET. No open GitHub issues. **Site unaffected:** committed data covers
+2026-07-17 → 2027-08-18 (281 windows/station); homepage and
+/data-json/index.json serve 200.
+
+**Fix (commit 4365733):** the outage exposed the real risk BACKLOG P2 had
+flagged — `prebuild` re-ran the NOAA pipeline on every Vercel deploy (the
+stamp file is gitignored, so CI never skipped), meaning any push today would
+have failed to deploy. Two changes:
+1. `run.mjs`: plain builds now use committed `public/data-json` whenever
+   `index.json` exists; only `PIPELINE_REFRESH=1` fetches NOAA. NOAA is out of
+   the deploy path entirely (P2 item done). Side benefit: ends the local
+   `npm run build` data churn noted on 07-15/16/17 — verified zero churn today.
+2. `daily-refresh.yml`: the refresh step now retries up to 6 times over ~100
+   minutes, so a morning NOAA blip self-heals; a sustained outage still fails
+   loudly.
+Verified: plain pipeline run prints the committed-data skip, build green, diff
+was exactly the two files. Pushed (deploy no longer needs NOAA). Dispatched a
+catch-up refresh (run 29643735412, in progress) — if NOAA recovers inside its
+retry window today's data lands; otherwise data is one day stale (harmless
+with 13 months of coverage) and tomorrow's 10:17Z cron catches up.
+
+**FIRST NEWSLETTER SIGNUP (organic):** all-time `newsletter_signup` went
+0 → 1 — 2026-07-17 10:07 ET on /beaches/ca/, arrived from google.com, form
+source state_hub. Ran `sync-audience.mjs`: 1 added, 1 total contact in the
+Resend "Minus Tide Alert" audience. Rendered a fresh dry-run issue for review
+(docs-internal/newsletter-drafts/2026-07-18-minus-tide-alert.html/.txt —
+Jul 18–24, 11 Good+ windows across 10 stations). **OWNER ACTION REQUESTED:**
+review that draft; on approval, record it in JOURNAL and run
+`node scripts/newsletter/send-weekly.mjs --send --owner-reviewed`, then flip
+signup copy site-wide from "starting this season" to live (BACKLOG P0 item 3).
+Sending remains blocked until that review — honesty invariant.
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-11: 30 pv, 07-12: 43,
+07-13: 14, 07-14: 38, 07-15: 19, 07-16: 26, 07-17: 23 (final), 07-18: 5
+(partial). Referrers: google.com 145, $direct 32, DuckDuckGo 6, Yandex 2,
+Bing 1 — organic ~4.5:1. Top pages: /guides/ 75 (still #1), Acadia 32,
+Seattle July calendar 20, homepage 17, /beaches/ca/ 7 (the hub that converted
+the signup), OR minus-tide calendar 7. Tool events still near-zero (1+1).
+
+**Velocity:** no article today (cap was exhausted through 07-18 anyway;
+trailing 7 days stays at 5).
+
+**Notes for tomorrow (07-19):**
+- Confirm the catch-up run went green (or, if NOAA stayed down, that the
+  10:17Z cron recovered). If predictions are STILL down, check the CO-OPS
+  status page and journal it — data would then be 2 days stale, still fine.
+- **Velocity cap clears** (Seattle 07-12 rolls out) and the **OR hub is
+  eligible** (3 OR guides: Haystack Rock, Charleston, Newport) — make it the
+  primary unless something outranks it. /guides/ index polish (75 pv/wk, #1)
+  has now been carried four runs — do it as the next non-writing primary.
+- If the owner approved the newsletter draft, send the first issue and flip
+  the signup copy (P0 item 3, then item 4: Thursday cadence going forward).
+- TIME-BOMB unchanged: after ~Oct 15 re-check NPS Mora Road/Rialto closure.
+
+---
+
 ## 2026-07-17 — Yaquina Head & Otter Rock (Newport, OR) station guide
 
 **Health first:** Daily data refresh cron green (07-17 11:42Z success; 5+

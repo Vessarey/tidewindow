@@ -47,11 +47,13 @@ with the date; add discoveries at the appropriate tier.
          docs-internal/newsletter-drafts/ with zero network calls; sending
          requires --send AND --owner-reviewed AND a non-empty audience (all
          three gates verified live; sample issue committed).
-      3) [ ] First issue: owner reviews rendered copy (see
-         newsletter-drafts/2026-07-05 sample), record approval in JOURNAL, run
-         send-weekly.mjs --send --owner-reviewed; then update EmailSignup
-         blurbs + /newsletter/ page from "starting this season" to live.
-         BLOCKED until newsletter_signup count > 0 — re-check every run.
+      3) [ ] First issue: owner reviews rendered copy (CURRENT draft:
+         newsletter-drafts/2026-07-18-minus-tide-alert.html), record approval
+         in JOURNAL, run send-weekly.mjs --send --owner-reviewed; then update
+         EmailSignup blurbs + /newsletter/ page from "starting this season" to
+         live. Signup gate CLEARED 2026-07-18: first organic signup landed
+         (07-17, /beaches/ca/ via Google); audience synced, 1 contact. Now
+         blocked ONLY on owner copy review — re-check every run.
       4) [ ] Add weekly cadence note to JOURNAL template (send day: Thursday).
 - [x] 2026-07-05: Resend Receiving MX now "verified" (GET /domains/b06d98e7-…
       shows domain verified with DKIM, SPF MX+TXT, and Receiving MX all
@@ -188,12 +190,12 @@ with the date; add discoveries at the appropriate tier.
       upload-pages-artifact, upload-artifact, deploy-pages target Node 20 (forced
       to 24). Non-blocking now; bump to current major versions before GitHub drops
       the Node-20 shim.
-- [ ] Consider building deploys from committed data instead of re-fetching NOAA
-      live every deploy. `.pipeline-stamp` is gitignored, so each CI build re-runs
-      the full pipeline against NOAA (12 stations); the soft-error retry (added
-      2026-07-03) makes this resilient, but building from the already-committed
-      public/data-json would be faster and remove the upstream dependency from the
-      deploy path entirely.
+- [x] 2026-07-18: Deploys now build from committed data (commit 4365733) —
+      done as the fix for the day's service-wide NOAA predictions outage, which
+      failed the cron and would have failed any Vercel deploy. Plain builds use
+      committed public/data-json; only PIPELINE_REFRESH=1 (the cron) fetches
+      NOAA. The cron also retries 6x over ~100 min through upstream blips.
+      `.pipeline-stamp` gating removed. Local builds no longer churn data files.
 
 ## P3 — distribution
 
