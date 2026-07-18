@@ -21,8 +21,22 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # NOAA CO-OPS has service-wide outages now and then (e.g. 2026-07-18, when
+      # every predictions request errored for hours). Retry across ~100 minutes
+      # so a morning blip self-heals; a day-long outage still fails the run loudly.
       - name: Refresh NOAA data
-        run: PIPELINE_REFRESH=1 node scripts/pipeline/run.mjs
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            if PIPELINE_REFRESH=1 node scripts/pipeline/run.mjs; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 6 ]; then
+              echo "NOAA refresh failed (attempt $attempt/6); retrying in 20 minutes..."
+              sleep 1200
+            fi
+          done
+          echo "NOAA refresh failed after 6 attempts (~100 minutes)."
+          exit 1
       - name: Regenerate fact sheets
         run: node scripts/pipeline/facts.mjs
       - name: Build (verifies data integrity)

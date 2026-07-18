@@ -8,8 +8,12 @@
  *   public/data-json/index.json             condensed cross-station summary
  *   public/ics/{slug}.ics                   calendar feed of Good+ windows
  *
- * Run: node scripts/pipeline/run.mjs            (skips if data <20h old)
- *      PIPELINE_REFRESH=1 node scripts/pipeline/run.mjs   (force)
+ * Run: node scripts/pipeline/run.mjs            (uses committed data if present)
+ *      PIPELINE_REFRESH=1 node scripts/pipeline/run.mjs   (fetch fresh NOAA data)
+ *
+ * Only the daily-refresh cron (and explicit local runs) set PIPELINE_REFRESH.
+ * Plain builds — including every Vercel deploy — use the committed
+ * public/data-json files, so a NOAA outage can never block a deploy.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -386,13 +390,9 @@ async function processStation(station, holidays, generatedAt) {
 }
 
 async function main() {
-  const stampFile = path.join(OUT_DATA, ".pipeline-stamp");
-  if (!process.env.PIPELINE_REFRESH && fs.existsSync(stampFile)) {
-    const age = Date.now() - +fs.readFileSync(stampFile, "utf8");
-    if (age < 20 * 3600_000) {
-      console.log(`pipeline: data is ${Math.round(age / 3600_000)}h old, skipping (PIPELINE_REFRESH=1 to force)`);
-      return;
-    }
+  if (!process.env.PIPELINE_REFRESH && fs.existsSync(path.join(OUT_DATA, "index.json"))) {
+    console.log("pipeline: using committed data-json (PIPELINE_REFRESH=1 to fetch fresh NOAA data)");
+    return;
   }
 
   const generatedAt = Date.now();
@@ -431,7 +431,6 @@ async function main() {
     path.join(OUT_DATA, "index.json"),
     JSON.stringify({ generatedAt, stations: summaries })
   );
-  fs.writeFileSync(stampFile, String(generatedAt));
   console.log(`pipeline: done — ${summaries.length} stations`);
 }
 
