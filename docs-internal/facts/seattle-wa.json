@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-17",
+ "generated_on": "2026-07-19",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -77,18 +77,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-17",
-   "weekday": "Fri",
-   "low_ft": -1.547,
-   "low_time_local": "1:40 PM",
-   "window_local": "11:45 AM–3:30 PM",
-   "arrive_by_local": "12:40 PM",
-   "daylight_min": 225,
-   "score": 86,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-08-08",
    "weekday": "Sat",
    "low_ft": -1.261,
@@ -111,22 +99,34 @@
    "score": 77,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-07",
+   "weekday": "Mon",
+   "low_ft": -0.93,
+   "low_time_local": "8:12 AM",
+   "window_local": "6:25 AM–10:05 AM",
+   "arrive_by_local": "7:12 AM",
+   "daylight_min": 209,
+   "score": 77,
+   "band": "Great",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 11,
-   "daylight_windows": 11,
-   "daylight_minus_tides": 9,
+   "lows_below_1ft": 9,
+   "daylight_windows": 9,
+   "daylight_minus_tides": 7,
    "best_window": {
-    "date": "2026-07-17",
-    "weekday": "Fri",
-    "low_ft": -1.547,
-    "low_time_local": "1:40 PM",
-    "window_local": "11:45 AM–3:30 PM",
-    "arrive_by_local": "12:40 PM",
-    "daylight_min": 225,
-    "score": 86,
+    "date": "2026-07-29",
+    "weekday": "Wed",
+    "low_ft": -1.35,
+    "low_time_local": "11:33 AM",
+    "window_local": "9:40 AM–1:30 PM",
+    "arrive_by_local": "10:33 AM",
+    "daylight_min": 230,
+    "score": 77,
     "band": "Great",
     "weekend_or_holiday": false
    }
@@ -257,18 +257,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-17",
-   "weekday": "Fri",
-   "low_ft": -1.547,
-   "low_time_local": "1:40 PM",
-   "window_local": "11:45 AM–3:30 PM",
-   "arrive_by_local": "12:40 PM",
-   "daylight_min": 225,
-   "score": 86,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-07-29",
    "weekday": "Wed",
    "low_ft": -1.35,
@@ -291,6 +279,18 @@
    "score": 76,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-08",
+   "weekday": "Sat",
+   "low_ft": -1.261,
+   "low_time_local": "7:28 AM",
+   "window_local": "5:30 AM–9:30 AM",
+   "arrive_by_local": "6:28 AM",
+   "daylight_min": 214,
+   "score": 85,
+   "band": "Great",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -448,23 +448,23 @@
    "count": 13
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 12
-  },
-  {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 12
-  },
-  {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
    "count": 11
   },
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 11
+  },
+  {
    "commonName": "Taylor's Seahare",
    "scientificName": "Phyllaplysia taylori",
+   "count": 10
+  },
+  {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
    "count": 10
   },
   {
@@ -485,12 +485,12 @@
   {
    "commonName": "Lined Chiton",
    "scientificName": "Tonicella lineata",
-   "count": 7
+   "count": 4
   },
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 5
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 4
   }
  ]
 }

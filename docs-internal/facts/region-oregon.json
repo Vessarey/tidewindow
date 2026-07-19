@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-17",
+ "generated_on": "2026-07-19",
  "region": "Oregon coast",
  "stations": [
   {
@@ -8,19 +8,19 @@
    "noaa_id": "9437540",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 10,
-     "daylight_minus_tides": 8,
+     "lows_below_1ft": 10,
+     "daylight_windows": 8,
+     "daylight_minus_tides": 6,
      "best_window": {
-      "date": "2026-07-17",
+      "date": "2026-07-31",
       "weekday": "Fri",
-      "low_ft": -1.551,
-      "low_time_local": "9:36 AM",
-      "window_local": "7:35 AM–11:55 AM",
-      "arrive_by_local": "8:36 AM",
-      "daylight_min": 260,
-      "score": 86,
-      "band": "Great",
+      "low_ft": -0.852,
+      "low_time_local": "8:37 AM",
+      "window_local": "6:45 AM–10:35 AM",
+      "arrive_by_local": "7:37 AM",
+      "daylight_min": 230,
+      "score": 72,
+      "band": "Good",
       "weekend_or_holiday": false
      }
     },
@@ -148,15 +148,15 @@
      "weekend_or_holiday": false
     },
     {
-     "date": "2026-07-17",
-     "weekday": "Fri",
-     "low_ft": -1.551,
-     "low_time_local": "9:36 AM",
-     "window_local": "7:35 AM–11:55 AM",
-     "arrive_by_local": "8:36 AM",
-     "daylight_min": 260,
-     "score": 86,
-     "band": "Great",
+     "date": "2026-12-22",
+     "weekday": "Tue",
+     "low_ft": -1.353,
+     "low_time_local": "5:26 PM",
+     "window_local": "3:30 PM–7:40 PM",
+     "arrive_by_local": "4:26 PM",
+     "daylight_min": 65,
+     "score": 51,
+     "band": "Fair",
      "weekend_or_holiday": false
     }
    ]
@@ -167,19 +167,19 @@
    "noaa_id": "9435380",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 9,
-     "daylight_minus_tides": 8,
+     "lows_below_1ft": 10,
+     "daylight_windows": 7,
+     "daylight_minus_tides": 6,
      "best_window": {
-      "date": "2026-07-17",
+      "date": "2026-07-31",
       "weekday": "Fri",
-      "low_ft": -1.664,
-      "low_time_local": "9:15 AM",
-      "window_local": "7:05 AM–11:35 AM",
-      "arrive_by_local": "8:15 AM",
-      "daylight_min": 270,
-      "score": 88,
-      "band": "Great",
+      "low_ft": -0.939,
+      "low_time_local": "8:15 AM",
+      "window_local": "6:20 AM–10:20 AM",
+      "arrive_by_local": "7:15 AM",
+      "daylight_min": 240,
+      "score": 74,
+      "band": "Good",
       "weekend_or_holiday": false
      }
     },
@@ -326,19 +326,19 @@
    "noaa_id": "9432780",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 9,
-     "daylight_minus_tides": 8,
+     "lows_below_1ft": 10,
+     "daylight_windows": 7,
+     "daylight_minus_tides": 6,
      "best_window": {
-      "date": "2026-07-17",
+      "date": "2026-07-31",
       "weekday": "Fri",
-      "low_ft": -1.43,
-      "low_time_local": "9:04 AM",
-      "window_local": "6:50 AM–11:20 AM",
-      "arrive_by_local": "8:04 AM",
-      "daylight_min": 270,
-      "score": 84,
-      "band": "Great",
+      "low_ft": -0.772,
+      "low_time_local": "8:05 AM",
+      "window_local": "6:05 AM–10:10 AM",
+      "arrive_by_local": "7:05 AM",
+      "daylight_min": 244,
+      "score": 70,
+      "band": "Good",
       "weekend_or_holiday": false
      }
     },
@@ -485,19 +485,19 @@
    "noaa_id": "9431647",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 9,
-     "daylight_minus_tides": 8,
+     "lows_below_1ft": 10,
+     "daylight_windows": 7,
+     "daylight_minus_tides": 6,
      "best_window": {
-      "date": "2026-07-17",
+      "date": "2026-07-31",
       "weekday": "Fri",
-      "low_ft": -1.422,
-      "low_time_local": "8:48 AM",
-      "window_local": "6:30 AM–11:10 AM",
-      "arrive_by_local": "7:48 AM",
-      "daylight_min": 280,
-      "score": 83,
-      "band": "Great",
+      "low_ft": -0.762,
+      "low_time_local": "7:50 AM",
+      "window_local": "5:45 AM–10:00 AM",
+      "arrive_by_local": "6:50 AM",
+      "daylight_min": 231,
+      "score": 70,
+      "band": "Good",
       "weekend_or_holiday": false
      }
     },

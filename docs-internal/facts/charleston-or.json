@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-17",
+ "generated_on": "2026-07-19",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-17",
-   "weekday": "Fri",
-   "low_ft": -1.43,
-   "low_time_local": "9:04 AM",
-   "window_local": "6:50 AM–11:20 AM",
-   "arrive_by_local": "8:04 AM",
-   "daylight_min": 270,
-   "score": 84,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-12",
    "weekday": "Wed",
@@ -65,18 +53,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-18",
-   "weekday": "Sat",
-   "low_ft": -0.664,
-   "low_time_local": "9:45 AM",
-   "window_local": "7:50 AM–11:40 AM",
-   "arrive_by_local": "8:45 AM",
-   "daylight_min": 230,
-   "score": 73,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-08-11",
    "weekday": "Tue",
    "low_ft": -1.65,
@@ -111,23 +87,47 @@
    "score": 70,
    "band": "Good",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-15",
+   "weekday": "Sat",
+   "low_ft": -0.462,
+   "low_time_local": "8:32 AM",
+   "window_local": "6:50 AM–10:15 AM",
+   "arrive_by_local": "7:32 AM",
+   "daylight_min": 205,
+   "score": 69,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-29",
+   "weekday": "Wed",
+   "low_ft": -0.886,
+   "low_time_local": "7:03 AM",
+   "window_local": "4:55 AM–9:20 AM",
+   "arrive_by_local": "6:03 AM",
+   "daylight_min": 196,
+   "score": 68,
+   "band": "Good",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 12,
-   "daylight_windows": 9,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 10,
+   "daylight_windows": 7,
+   "daylight_minus_tides": 6,
    "best_window": {
-    "date": "2026-07-17",
+    "date": "2026-07-31",
     "weekday": "Fri",
-    "low_ft": -1.43,
-    "low_time_local": "9:04 AM",
-    "window_local": "6:50 AM–11:20 AM",
-    "arrive_by_local": "8:04 AM",
-    "daylight_min": 270,
-    "score": 84,
-    "band": "Great",
+    "low_ft": -0.772,
+    "low_time_local": "8:05 AM",
+    "window_local": "6:05 AM–10:10 AM",
+    "arrive_by_local": "7:05 AM",
+    "daylight_min": 244,
+    "score": 70,
+    "band": "Good",
     "weekend_or_holiday": false
    }
   },
@@ -467,17 +467,17 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 7
+   "count": 6
   },
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "San Diego Dorid",
@@ -485,33 +485,33 @@
    "count": 5
   },
   {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 4
-  },
-  {
-   "commonName": "Red Sponge Dorid",
-   "scientificName": "Rostanga pulchra",
-   "count": 3
-  },
-  {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
-   "count": 3
-  },
-  {
-   "commonName": "Odhner's Dorid",
-   "scientificName": "Doris odhneri",
-   "count": 3
-  },
-  {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
    "count": 3
   },
   {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 3
+  },
+  {
+   "commonName": "Clown Dorid",
+   "scientificName": "Triopha catalinae",
+   "count": 2
+  },
+  {
+   "commonName": "Red Sponge Dorid",
+   "scientificName": "Rostanga pulchra",
+   "count": 2
+  },
+  {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
+   "count": 2
+  },
+  {
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
    "count": 2
   }
  ]

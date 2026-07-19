@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-17",
+ "generated_on": "2026-07-19",
  "region": "California",
  "stations": [
   {
@@ -8,19 +8,19 @@
    "noaa_id": "9414131",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 8,
-     "daylight_minus_tides": 7,
+     "lows_below_1ft": 10,
+     "daylight_windows": 6,
+     "daylight_minus_tides": 5,
      "best_window": {
-      "date": "2026-07-17",
+      "date": "2026-07-31",
       "weekday": "Fri",
-      "low_ft": -0.717,
-      "low_time_local": "7:45 AM",
-      "window_local": "5:25 AM–10:10 AM",
-      "arrive_by_local": "6:45 AM",
-      "daylight_min": 248,
-      "score": 68,
-      "band": "Good",
+      "low_ft": -0.222,
+      "low_time_local": "6:43 AM",
+      "window_local": "4:35 AM–8:55 AM",
+      "arrive_by_local": "5:43 AM",
+      "daylight_min": 162,
+      "score": 55,
+      "band": "Fair",
       "weekend_or_holiday": false
      }
     },
@@ -167,19 +167,19 @@
    "noaa_id": "9413450",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 8,
-     "daylight_minus_tides": 7,
+     "lows_below_1ft": 10,
+     "daylight_windows": 6,
+     "daylight_minus_tides": 5,
      "best_window": {
-      "date": "2026-07-17",
+      "date": "2026-07-31",
       "weekday": "Fri",
-      "low_ft": -0.777,
-      "low_time_local": "7:37 AM",
-      "window_local": "5:10 AM–10:10 AM",
-      "arrive_by_local": "6:37 AM",
-      "daylight_min": 248,
-      "score": 70,
-      "band": "Good",
+      "low_ft": -0.292,
+      "low_time_local": "6:36 AM",
+      "window_local": "4:25 AM–8:55 AM",
+      "arrive_by_local": "5:36 AM",
+      "daylight_min": 162,
+      "score": 57,
+      "band": "Fair",
       "weekend_or_holiday": false
      }
     },
@@ -326,20 +326,20 @@
    "noaa_id": "9410230",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 6,
-     "daylight_minus_tides": 5,
+     "lows_below_1ft": 10,
+     "daylight_windows": 4,
+     "daylight_minus_tides": 3,
      "best_window": {
-      "date": "2026-07-17",
-      "weekday": "Fri",
-      "low_ft": -0.666,
-      "low_time_local": "6:13 AM",
-      "window_local": "3:55 AM–8:35 AM",
-      "arrive_by_local": "5:13 AM",
-      "daylight_min": 162,
-      "score": 64,
-      "band": "Good",
-      "weekend_or_holiday": false
+      "date": "2026-07-19",
+      "weekday": "Sun",
+      "low_ft": 0.65,
+      "low_time_local": "7:27 AM",
+      "window_local": "6:15 AM–8:35 AM",
+      "arrive_by_local": "6:27 AM",
+      "daylight_min": 140,
+      "score": 42,
+      "band": "Fair",
+      "weekend_or_holiday": true
      }
     },
     "2026-08": {
@@ -485,19 +485,19 @@
    "noaa_id": "9410170",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 11,
-     "daylight_windows": 6,
-     "daylight_minus_tides": 5,
+     "lows_below_1ft": 9,
+     "daylight_windows": 4,
+     "daylight_minus_tides": 3,
      "best_window": {
-      "date": "2026-07-17",
+      "date": "2026-07-31",
       "weekday": "Fri",
-      "low_ft": -0.753,
-      "low_time_local": "6:18 AM",
-      "window_local": "4:05 AM–8:40 AM",
-      "arrive_by_local": "5:18 AM",
-      "daylight_min": 167,
-      "score": 67,
-      "band": "Good",
+      "low_ft": -0.306,
+      "low_time_local": "5:13 AM",
+      "window_local": "3:15 AM–7:20 AM",
+      "arrive_by_local": "4:13 AM",
+      "daylight_min": 78,
+      "score": 43,
+      "band": "Fair",
       "weekend_or_holiday": false
      }
     },

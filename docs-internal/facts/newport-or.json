@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-17",
+ "generated_on": "2026-07-19",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-17",
-   "weekday": "Fri",
-   "low_ft": -1.664,
-   "low_time_local": "9:15 AM",
-   "window_local": "7:05 AM–11:35 AM",
-   "arrive_by_local": "8:15 AM",
-   "daylight_min": 270,
-   "score": 88,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-12",
    "weekday": "Wed",
@@ -77,18 +65,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-18",
-   "weekday": "Sat",
-   "low_ft": -0.864,
-   "low_time_local": "9:55 AM",
-   "window_local": "8:00 AM–11:55 AM",
-   "arrive_by_local": "8:55 AM",
-   "daylight_min": 235,
-   "score": 77,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-07-31",
    "weekday": "Fri",
    "low_ft": -0.939,
@@ -111,23 +87,47 @@
    "score": 74,
    "band": "Good",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-01",
+   "weekday": "Sat",
+   "low_ft": -0.668,
+   "low_time_local": "8:45 AM",
+   "window_local": "6:55 AM–10:40 AM",
+   "arrive_by_local": "7:45 AM",
+   "daylight_min": 225,
+   "score": 73,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-07-30",
+   "weekday": "Thu",
+   "low_ft": -1.017,
+   "low_time_local": "7:45 AM",
+   "window_local": "5:45 AM–10:00 AM",
+   "arrive_by_local": "6:45 AM",
+   "daylight_min": 239,
+   "score": 70,
+   "band": "Good",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 12,
-   "daylight_windows": 9,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 10,
+   "daylight_windows": 7,
+   "daylight_minus_tides": 6,
    "best_window": {
-    "date": "2026-07-17",
+    "date": "2026-07-31",
     "weekday": "Fri",
-    "low_ft": -1.664,
-    "low_time_local": "9:15 AM",
-    "window_local": "7:05 AM–11:35 AM",
-    "arrive_by_local": "8:15 AM",
-    "daylight_min": 270,
-    "score": 88,
-    "band": "Great",
+    "low_ft": -0.939,
+    "low_time_local": "8:15 AM",
+    "window_local": "6:20 AM–10:20 AM",
+    "arrive_by_local": "7:15 AM",
+    "daylight_min": 240,
+    "score": 74,
+    "band": "Good",
     "weekend_or_holiday": false
    }
   },
@@ -279,18 +279,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-17",
-   "weekday": "Fri",
-   "low_ft": -1.664,
-   "low_time_local": "9:15 AM",
-   "window_local": "7:05 AM–11:35 AM",
-   "arrive_by_local": "8:15 AM",
-   "daylight_min": 270,
-   "score": 88,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.418,
@@ -312,6 +300,18 @@
    "daylight_min": 237,
    "score": 83,
    "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-10",
+   "weekday": "Mon",
+   "low_ft": -1.374,
+   "low_time_local": "5:10 AM",
+   "window_local": "2:55 AM–7:40 AM",
+   "arrive_by_local": "4:10 AM",
+   "daylight_min": 87,
+   "score": 62,
+   "band": "Good",
    "weekend_or_holiday": false
   }
  ],
@@ -467,7 +467,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 83
+   "count": 79
   },
   {
    "commonName": "Monterey Dorid",
@@ -482,7 +482,7 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 33
+   "count": 28
   },
   {
    "commonName": "White-lined Dirona",
@@ -497,11 +497,6 @@
   {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
-   "count": 7
-  },
-  {
-   "commonName": "Homely Aeolid",
-   "scientificName": "Eubranchus rustyus",
    "count": 6
   },
   {
@@ -510,9 +505,14 @@
    "count": 5
   },
   {
-   "commonName": "Rose-pink Cuthona",
-   "scientificName": "Cuthona divae",
+   "commonName": "Homely Aeolid",
+   "scientificName": "Eubranchus rustyus",
    "count": 5
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
+   "count": 4
   }
  ]
 }
