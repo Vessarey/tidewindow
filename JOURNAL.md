@@ -5,6 +5,70 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-19 — "Best Tide Pools in Oregon 2026" state hub (3rd of 4)
+
+**Health first:** Daily data refresh cron GREEN at 11:32Z — NOAA CO-OPS
+predictions recovered from Friday's service-wide outage. (Yesterday's manual
+catch-up dispatch 29643735412 exhausted its 6 retries and failed overnight;
+harmless — today's scheduled run landed fresh data, so the site was stale for
+exactly one day as designed.) No open GitHub issues. Fact sheets fresh
+(generated_on 2026-07-19). New commit-data build path verified again: plain
+`npm run build` produced zero pipeline churn.
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-13: 14 pv, 07-14: 38,
+07-15: 19, 07-16: 26, 07-17: 23, 07-18: 14 (final — down from the 5 partial
+read), 07-19: 10 (partial). Referrers: google.com 127, $direct 36,
+DuckDuckGo 3, Yandex 2, Bing 1. Top pages: /guides/ 50 (still #1 but cooling
+from 75-83), Acadia 30, Seattle July calendar 20, Fitzgerald 12, king-tides
+11. Tool events: zero this week. `newsletter_signup` still 1 all-time; owner
+has NOT yet reviewed the 2026-07-18 draft — sending stays blocked (re-checked).
+
+**Primary action (priority d — content backlog):** LAUNCHED **"Best Tide
+Pools in Oregon 2026"** (content/articles/best-tide-pools-oregon-2026.md,
+regional-calendars, commit 3c36485) — the hub the 07-17 Newport guide
+unlocked, shipped on the first day the velocity cap allowed (5th article in
+trailing 7 days; cap exactly met, no more writing until 07-21).
+
+**The angles.** All computed from today's fact sheets: (1) Aug 11-14 is the
+last deep dawn run of 2026 — every OR station peaks Wed Aug 12 (PO −1.74 /
+CH −1.72 / NP −1.91 / GAR −1.77 ft), sweeping south→north in 45 min (6:19→
+7:04 AM); verified against committed data-json that NO OR station posts
+another AM low ≤ −1 ft in 2026 after Aug 15 (had to soften "last dawn run" →
+"last deep dawn run": September still has −0.5 ft-class dawn minus tides).
+(2) King-season depth staircase runs south-deep: −2.21 PO / −2.05 CH /
+−1.91 NP / −1.66 GAR — and the summer/winter crossover lands at Newport by
+0.003 ft (echoes the Newport guide's photo finish, now as a coast-wide
+pattern; Garibaldi is the one station where August wins outright). (3) Gate
+math: Yaquina Head's 8 AM open kills the Aug 11-13 dawn lows; every other
+shore in the table is open at dawn. Honest winter caveat: all December lows
+bottom after dark; the king season's only Great-band OR window is Jan 21
+2027 at Port Orford (−1.89 ft, 5:12 PM, dl 152, score 76).
+
+**Sourcing discipline:** all ~45 numbers recompute-checked by script against
+facts/*.json — zero mismatches; the "no AM low ≤ −1 after the run" claim
+checked against all four stations' full committed window lists (night windows
+included). BLM hours/fees/seabird-closure, HRAP no-harvest, Sunset Bay
+day-use + "eyes only", and Otter Rock reserve (1.2 sq mi, no-take)
+re-fetched and quote-verified today. Build green; all 40 internal links in
+the rendered page resolve; featuredRoundup (until 2026-08-14) verified
+rendering on /beaches/or/; sitemap/feed/guides index all picked it up; diff
+was exactly the one new file.
+
+**Notes for tomorrow (07-20):**
+- Velocity cap is HARD-EXHAUSTED (5 in trailing 7 days through 07-21).
+  Primary should be the **/guides/ index polish** — top page every single
+  week (50-83 pv/wk), carried five runs now. Alternative non-writing work:
+  refresh pass on west-coast-minus-tides-july-11-14-2026.md (dates fully
+  past) or the P2 og:image gap.
+- Newsletter: re-check owner review of the 07-18 draft; if approved, send
+  and flip signup copy (P0 item 3).
+- ME hub still needs 2 more station guides (only Acadia); next station-guide
+  slot could go to Port Orford (only OR station without a guide) — but not
+  before 07-21.
+- TIME-BOMB unchanged: after ~Oct 15 re-check NPS Mora Road/Rialto closure.
+
+---
+
 ## 2026-07-18 — NOAA outage broke the cron; deploys de-risked; FIRST SIGNUP
 
 **Health first:** Daily data refresh cron FAILED (11:25Z, run 29642522424) —

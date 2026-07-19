@@ -126,12 +126,15 @@ with the date; add discoveries at the appropriate tier.
       Dec 24 (−1.83 to −1.90 ft, afternoon), vs dawn minus tides in July; plus
       the south→north ~80-min lag and the Cabrillo/Fitzgerald gate flip.
       featuredRoundup on /beaches/ca/ through Jul 17. Second state hub.
-- [ ] "Best tide pools in {state}" hub articles (OR, ME) once ≥3 station
-      guides per state exist. **OR qualifies as of 07-17** (Haystack Rock +
-      Charleston + Newport) — ship the OR hub on 2026-07-19 or later (velocity
-      cap: 5 articles in the trailing 7 days through 07-18). ME has only
-      Acadia so far. Hubs strengthen the /guides/ index that leads organic
-      search (83 pv/wk as of 07-17).
+- [x] 2026-07-19: **"Best Tide Pools in Oregon 2026" hub LAUNCHED**
+      (content/articles/best-tide-pools-oregon-2026.md, regional-calendars) —
+      groups the 3 OR guides (Haystack Rock + Newport + Charleston) around the
+      Aug 11-14 last-deep-dawn-run (all four OR stations peak Aug 12,
+      south→north lag 45 min) and the king-season depth staircase (−2.21 ft
+      Port Orford → −1.66 ft Garibaldi) whose summer/winter crossover lands at
+      Newport by 0.003 ft. featuredRoundup on /beaches/or/ through Aug 14.
+      Third state hub; ME still needs ≥2 more guides (only Acadia). Port
+      Orford is now the only OR station without a guide — noted in the hub.
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
 - [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).
