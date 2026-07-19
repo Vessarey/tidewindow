@@ -1,7 +1,8 @@
 ---
 title: "West Coast Minus Tides, July 11–14, 2026: The Best Tidepooling Week of Summer"
-description: "One July run does most of summer's work. On Monday the 13th, six of seven Pacific Northwest stations hit Exceptional daylight windows at once. Dates, times, and depths."
+description: "July 11–14 was the deepest daylight run of the 2026 Pacific summer. The next comparable West Coast minus tides land August 9–12 — dates, times, and depths from NOAA predictions."
 date: "2026-07-04"
+updated: "2026-07-19"
 category: "regional-calendars"
 tags: ["minus tide", "july 2026", "west coast", "tide pools", "puget sound", "oregon coast"]
 featuredRoundup:
@@ -31,6 +32,8 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410170"
   - "https://www.nps.gov/thingstodo/point-reyes-tidepooling.htm"
 ---
+
+> **Update, July 19, 2026:** this run has passed. The next comparable West Coast stretch lands the second week of August: Puget Sound peaks Sunday, August 9 — Port Townsend (NOAA 9444900) at −2.05 ft, 7:38 AM, a flat-100 window, with Seattle (9447130) at −1.91 ft, 8:29 AM — and Newport, OR (9435380) bottoms at −1.91 ft, 6:46 AM on Wednesday, August 12 (computed 2026-07-19 from NOAA predictions). Every remaining window, scored day by day: [Seattle](/beaches/wa/seattle-wa/2026-08/) · [Port Townsend](/beaches/wa/port-townsend-wa/2026-08/) · [Newport](/beaches/or/newport-or/2026-08/) · [all beaches](/beaches/).
 
 **The best tidepooling stretch of the Pacific summer runs July 11–14, 2026. Monday, July 13 is the peak: six of Tidewindow's seven Pacific Northwest stations post an Exceptional (90+) daylight window on the same day, led by Seattle (NOAA station 9447130) at −3.68 ft at 10:31 AM — deepening to −3.80 ft on Tuesday, the lowest daylight tide of its year. Want a weekend instead? Puget Sound scores a flat 100 on both July 11 and 12.**
 

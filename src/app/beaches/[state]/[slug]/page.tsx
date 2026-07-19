@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   if (!s) return {};
   const best = s.best30[0];
   return {
-    title: `${s.name} low tide windows — best ${best ? "dates" : "times"} to go`,
-    description: `When to visit ${s.spots[0]} and nearby: every daylight low-tide window for ${s.name}, scored and ranked from NOAA station ${s.noaaId} predictions.${best ? ` Next best: ${fmtDate(best.date)}, ${best.lowHeight.toFixed(1)} ft at ${best.lowTimeLocal}.` : ""}`,
+    title: `${s.name} low tide chart — tide pool days & times (NOAA ${s.noaaId})`,
+    description: `${best ? `Next good low tide at ${s.name}: ${fmtDate(best.date)}, ${best.lowHeight.toFixed(1)} ft at ${best.lowTimeLocal}. ` : ""}Low tide chart & tide pool windows for ${s.spots[0]} — scored and ranked from NOAA station ${s.noaaId} predictions, updated daily.`,
     alternates: { canonical: "./" },
   };
 }

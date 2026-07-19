@@ -1,7 +1,8 @@
 ---
-title: "Acadia Tide Pools at Low Tide: 2026 Windows for Bar Island, Ship Harbor, and Wonderland"
-description: "The 2026 daylight minus tides at Bar Harbor (NOAA 8413320), plus the National Park Service crossing rule for the Bar Island land bridge."
+title: "Acadia Tide Pools & 2026 Low Tide Chart: Best Times for Bar Island, Ship Harbor, and Wonderland"
+description: "Acadia's 2026 low tide schedule for tide poolers: every daylight minus tide at Bar Harbor (NOAA 8413320), plus the National Park Service crossing rule for the Bar Island land bridge."
 date: "2026-07-03"
+updated: "2026-07-19"
 category: "station-guides"
 tags: ["Acadia", "Bar Island", "Ship Harbor", "minus tide", "Maine"]
 faq:

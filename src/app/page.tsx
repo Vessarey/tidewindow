@@ -1,15 +1,17 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getIndex, getStationData, fmtDate, fmtStamp } from "@/lib/windows";
+import { PUBLISHED_MONTHS } from "@/lib/rollout";
 import { WindowCard, ScoreBadge, StationChip } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import EmailSignup from "@/components/email-signup";
 import { siteConfig } from "@/lib/site-config";
 
+const seasonYear = PUBLISHED_MONTHS[PUBLISHED_MONTHS.length - 1].slice(0, 4);
+
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — daylight minus tide windows, computed from NOAA data`,
-  description:
-    "The exact daylight hours the tide pulls back far enough for tidepooling, beachcombing, and sea-glass hunting — scored and ranked for US beaches, updated daily from NOAA predictions.",
+  title: `${siteConfig.name} — ${seasonYear} low tide calendar & minus tide finder for US beaches`,
+  description: `When are the lowest tides of ${seasonYear}? The exact daylight hours the tide pulls back far enough for tidepooling, beachcombing, and sea-glass hunting — scored and ranked per beach, updated daily from NOAA predictions.`,
   alternates: { canonical: "./" },
 };
 

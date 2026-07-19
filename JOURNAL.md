@@ -5,6 +5,55 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-19 (session 2, owner-directed) — GSC CTR pass: retitle programmatic pages toward query language
+
+**Trigger:** owner asked why 1.84K impressions produced only 31 clicks
+(28d GSC: 1.7% CTR, avg pos 10.7) and to fix it.
+
+**Diagnosis (GSC 28d, page+query level):** (1) ~90 impressions are unwinnable
+movie-piracy queries ("low tide on demand/pdvd/dvdscreener", pos 60–80) —
+exclude from CTR math. (2) The real sink: programmatic beach pages ranking
+pos 5–10 with **0% CTR** — pillar-point-ca station+month pages 394 impr /
+0 clicks (~pos 9); la-jolla-ca 2026-08 0/34 @ 5.2; san-diego-ca 2026-08
+0/41 @ 7.7; seattle-wa 2026-08 0/45 @ 6.5; homepage 0/22 @ 5.3. Expected
+CTR at pos 5–8 is ~3–7%. Titles said "low tide windows — best dates to go"
+while demonstrated queries say "tide chart", "tide pools <place>",
+"noaa station <id>", "<place> tide predictions <date>". (3) Guides with
+concrete promises already convert (king-tides 3.6% @ 6.7, Alki 5.7% @ 7.5,
+Puget Sound calendar 4.2%) — that's the title style to copy.
+
+**Changes:**
+- Station pages: title `{name} low tide chart — tide pool days & times
+  (NOAA {id})`; description front-loads the next-best window (date/ft/time).
+- Month pages: generateMetadata now reads the station JSON — title
+  `{name} low tide chart & calendar, {Month} — best days to go`; description
+  carries the month's lowest tide (ft, date, time) + daylight-minus count,
+  same definitions as the on-page answer box (isMinusTide && daylightMin>=30).
+- Homepage: "{year} low tide calendar & minus tide finder for US beaches",
+  year derived from PUBLISHED_MONTHS so it can't go stale.
+- Acadia guide: title/desc gain "Low Tide Chart / Best Times / low tide
+  schedule" — GSC shows pos 19–50 for exactly those words; the tables were
+  already in the article, only the title didn't say so.
+- King-tides guide: title now "King Tides 2026-2027 Dates: …" +
+  "predictions" in description (verbatim match to its top query family).
+- Stale Jul 11–14 roundup (79 impr/28d, event past): dated update block at
+  top pointing to the Aug 9–12 run — PT −2.05 ft 7:38 AM (100) Sun Aug 9,
+  SEA −1.91 ft 8:29 AM, Newport −1.91 ft 6:46 AM Wed Aug 12, all from
+  today's fact sheets — plus a forward-looking meta description.
+
+**Verification:** plain `npm run build` green (106 pages); every new
+title/description grep-verified in out/. Update-block numbers recompute from
+docs-internal/facts (seattle/port-townsend/newport 2026-08 best_window).
+`npm run lint` has ONE error, pre-existing on clean HEAD
+(tools-shared.tsx react-hooks/set-state-in-effect) — not from this change,
+queued separately.
+
+**Notes for tomorrow:** DO NOT iterate these titles before ~Aug 5 — recrawl
+takes 1–2 weeks. Judge per-page CTR against today's baseline (31 / 1.84K /
+1.7% / 10.7; pillar-point 394 impr 0 clicks), not the aggregate (movie junk
+pollutes it). New backlog: tide-window-finder landing intent (pos ~52 on
+67 impr), "high tide acadia" query family unserved (we only publish lows).
+
 ## 2026-07-19 — "Best Tide Pools in Oregon 2026" state hub (3rd of 4)
 
 **Health first:** Daily data refresh cron GREEN at 11:32Z — NOAA CO-OPS

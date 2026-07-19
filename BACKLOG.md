@@ -142,6 +142,18 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — product
 
+- [ ] **2026-08-05: judge the 07-19 CTR retitle** against the GSC baseline
+      (31 clicks / 1.84K impr / 1.7% / pos 10.7; pillar-point pages 394 impr,
+      0 clicks; beach/month pages 0% at pos 5–8). Compare per-page CTR, not
+      aggregate (movie-piracy junk queries pollute the aggregate). Do NOT
+      iterate titles before this date — recrawl needs 1–2 weeks.
+- [ ] /tools/tide-window-finder/ ranks pos ~52 on 67 impr/28d (GSC 07-19) —
+      the landing copy targets no query; add intent-bearing H1/intro
+      ("find the next low tide / minus tide near you") + internal links.
+- [ ] "high tide acadia" / "acadia high tide time" queries land on our
+      low-only pages at pos 20–45 (GSC 07-19) — highs aren't in fact sheets
+      or pages; decide whether the pipeline should publish daily high/low
+      pairs before writing anything.
 - [x] 2026-07-05: iNat taxa filter DONE — terrestrial strays (Garden Snail,
       Pacific Banana Slug, land Helicidae, woodlice) excluded by ancestry.
       scripts/pipeline/species.mjs owns fetchSpecies + a TERRESTRIAL_CLADE_IDS

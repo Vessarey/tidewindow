@@ -25,9 +25,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { stations } = getIndex();
   const s = stations.find((x) => x.slug === slug);
   if (!s || !PUBLISHED_MONTHS.includes(month)) return {};
+  let description = `Every daylight low-tide window at ${s.name} in ${fmtMonth(month)}, scored and ranked — computed from NOAA station ${s.noaaId} predictions. Printable.`;
+  try {
+    const monthWindows = getStationData(slug).windows.filter((w) => w.date.startsWith(month));
+    const lowest = [...monthWindows].sort((a, b) => a.lowHeight - b.lowHeight)[0];
+    const daylightMinus = monthWindows.filter((w) => w.isMinusTide && w.daylightMin >= 30).length;
+    if (lowest) {
+      description = `${fmtMonth(month)} low tide chart for ${s.name}, NOAA station ${s.noaaId}: lowest tide ${lowest.lowHeight.toFixed(1)} ft on ${fmtDate(lowest.date)} at ${lowest.lowTimeLocal}, ${daylightMinus} daylight minus tide${daylightMinus === 1 ? "" : "s"} — every window scored and ranked. Printable.`;
+    }
+  } catch {
+    // fall back to the generic description if station data is unavailable
+  }
   return {
-    title: `${s.name} low tide calendar, ${fmtMonth(month)}`,
-    description: `Every daylight low-tide window at ${s.name} in ${fmtMonth(month)}, scored and ranked — computed from NOAA station ${s.noaaId} predictions. Printable.`,
+    title: `${s.name} low tide chart & calendar, ${fmtMonth(month)} — best days to go`,
+    description,
     alternates: { canonical: "./" },
   };
 }

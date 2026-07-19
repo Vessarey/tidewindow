@@ -1,7 +1,8 @@
 ---
-title: "King Tides 2026-27: The Extreme Daylight Lows Coast by Coast"
-description: "The 2026-27 king tide season's lowest daylight tides, coast by coast: Newport -1.91 ft, La Jolla -1.89 ft, Bar Harbor -1.89 ft, Seattle just -0.65 ft."
+title: "King Tides 2026-2027 Dates: The Extreme Daylight Lows, Coast by Coast"
+description: "Dates and predictions for the 2026-2027 king tide season's lowest daylight tides, coast by coast: Newport -1.91 ft, La Jolla -1.89 ft, Bar Harbor -1.89 ft, Seattle just -0.65 ft."
 date: "2026-07-03"
+updated: "2026-07-19"
 category: "king-tides"
 tags: ["king tides", "perigean spring tide", "minus tide", "winter tidepooling", "2026-2027 season"]
 faq:
