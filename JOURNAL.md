@@ -5,6 +5,33 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-19 (addendum) — NEWSLETTER APPROVED by owner; first send set for Thu 07-23
+
+**OWNER REVIEW RECORDED:** the owner reviewed the rendered Minus Tide Alert
+draft (2026-07-18 issue, resent to them today) and approved with "proceed
+with what you see fit." The first-send gate (JOURNAL 2026-07-05) is CLEARED —
+`--owner-reviewed` may now be passed. Approval covers the template/voice, not
+a specific issue; every send still composes fresh from committed data.
+
+**Decision — send Thursday, not today.** Audience re-synced (0 added, 1 total).
+A fresh dry-run for today's week (Jul 19-25) came out thin: 0 Great windows,
+3 of 12 stations, best −0.56 ft — and literally nothing Good+ in California,
+where our one subscriber signed up. A Jul 23 dry-run (the planned Thursday
+cadence day, covering Jul 23-29 with the late-July run) renders 22 Good+
+windows across 7 stations. First impressions matter and the alert is most
+useful just before its windows, so the first issue goes out **Thursday
+2026-07-23** as that run's REQUIRED action:
+1. `node scripts/newsletter/sync-audience.mjs`
+2. `node scripts/newsletter/send-weekly.mjs --send --owner-reviewed`
+3. Flip signup copy site-wide from "starting this season" to live
+   (EmailSignup blurbs + /newsletter/ page), build, push.
+4. Journal the send + Broadcast id; check Resend bounce/complaint after.
+Weekly cadence: every Thursday thereafter (BACKLOG P0 item 4 — done).
+Exploratory dry-runs for 07-23/07-26 were rendered to compare weeks and
+deleted; today's 07-19 render kept as the review-era artifact.
+
+---
+
 ## 2026-07-19 (session 2, owner-directed) — GSC CTR pass: retitle programmatic pages toward query language
 
 **Trigger:** owner asked why 1.84K impressions produced only 31 clicks

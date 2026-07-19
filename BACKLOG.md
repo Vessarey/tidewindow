@@ -47,14 +47,15 @@ with the date; add discoveries at the appropriate tier.
          docs-internal/newsletter-drafts/ with zero network calls; sending
          requires --send AND --owner-reviewed AND a non-empty audience (all
          three gates verified live; sample issue committed).
-      3) [ ] First issue: owner reviews rendered copy (CURRENT draft:
-         newsletter-drafts/2026-07-18-minus-tide-alert.html), record approval
-         in JOURNAL, run send-weekly.mjs --send --owner-reviewed; then update
-         EmailSignup blurbs + /newsletter/ page from "starting this season" to
-         live. Signup gate CLEARED 2026-07-18: first organic signup landed
-         (07-17, /beaches/ca/ via Google); audience synced, 1 contact. Now
-         blocked ONLY on owner copy review — re-check every run.
-      4) [ ] Add weekly cadence note to JOURNAL template (send day: Thursday).
+      3) [ ] **OWNER APPROVED 2026-07-19** ("proceed with what you see fit";
+         recorded in JOURNAL) — all gates cleared. First send is the REQUIRED
+         primary of the **Thursday 2026-07-23 run** (chosen over a same-day
+         send because the Jul 19-25 week is neap-thin — 0 Great, nothing in
+         the subscriber's CA — while Jul 23-29 renders 22 Good+ windows):
+         sync-audience, then send-weekly.mjs --send --owner-reviewed, then
+         flip EmailSignup blurbs + /newsletter/ page from "starting this
+         season" to live, journal the Broadcast id.
+      4) [x] 2026-07-19: Weekly cadence set — send day is Thursday.
 - [x] 2026-07-05: Resend Receiving MX now "verified" (GET /domains/b06d98e7-…
       shows domain verified with DKIM, SPF MX+TXT, and Receiving MX all
       verified; recorded in docs-internal/resend-newsletter.md).
