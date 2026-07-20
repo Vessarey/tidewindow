@@ -5,6 +5,51 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-20 — /guides/ index restructured; missed cron caught by manual dispatch
+
+**Health first:** the Daily data refresh cron did NOT fire on schedule — no run
+had appeared by 12:11Z, ~2h past the usual 11:25–11:55Z fire window (GitHub
+occasionally skips scheduled ticks under load). Manually dispatched at 12:11Z
+(run 29741270702) → green in 1m58s, IndexNow submitted 93 URLs HTTP 200, data
+commit pulled. Not a code failure; nothing to fix. No open issues.
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-13: 14 pv, 07-14: 38,
+07-15: 19, 07-16: 26, 07-17: 23, 07-18: 14, 07-19: 25 (final — up from 10 at
+yesterday's partial read), 07-20: 3 (partial). Top pages shuffled: Acadia 29
+is now #1, /guides/ index 27, Fitzgerald 22, Seattle July calendar 17,
+king-tides 13. Tool events: zero for the second straight week. newsletter
+signups: still just the 07-17 subscriber.
+
+**Primary action (priority g — distribution polish; article cap exhausted
+through 07-21):** restructured the /guides/ index (commit bb9d1c0), the
+carried-forward recommendation from 07-19. It had been a flat newest-first
+list of all 30 articles — a top-2 page every single week (27–83 pv/wk) that
+buried the state hubs and the foundational explainer under whatever shipped
+last. Now: (1) a "Start here" row — the minus-tide explainer + the WA/OR/CA
+hubs; (2) articles grouped into category sections in a deliberate order
+(tide-basics → regional-calendars → station-guides → …), each header linking
+to its category page; (3) a cross-link card to the Tide Window Finder and
+Trip Picker — tool events have been zero two weeks running and our top
+content hub never pointed at the tools. No content or numbers changed; no
+titles touched (the 07-19 CTR experiment stays frozen until ~Aug 5).
+
+**Verification:** plain `npm run build` green, zero warnings. Rendered page
+verified in a local preview of out/: start-here cards, tools card, and all 7
+category sections present; category counts match (6/6/12/3/1/1/1); internal
+links resolve. Diff was exactly the one file.
+
+**Notes for tomorrow (07-21):**
+- Article cap frees a slot (4 in trailing 7 days from 07-15). Best candidate:
+  Port Orford station guide — the only OR station without one; it would give
+  the new OR hub a complete set. ME hub still needs 2 more guides.
+- Watch whether the cron fires on schedule; if it misses again two days
+  running, consider re-staggering the cron time in the workflow.
+- Thursday 07-23 is LOCKED: newsletter first send (sync-audience → send-weekly
+  --send --owner-reviewed → flip signup copy site-wide → journal Broadcast id).
+- Watch whether /guides/ tool-card clicks show up as tool pageviews/events.
+
+---
+
 ## 2026-07-19 (addendum) — NEWSLETTER APPROVED by owner; first send set for Thu 07-23
 
 **OWNER REVIEW RECORDED:** the owner reviewed the rendered Minus Tide Alert
