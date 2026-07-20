@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-19",
+ "generated_on": "2026-07-20",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 11,
-   "daylight_windows": 8,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 10,
+   "daylight_windows": 7,
+   "daylight_minus_tides": 7,
    "best_window": {
     "date": "2026-07-31",
     "weekday": "Fri",
@@ -477,7 +477,7 @@
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "barnacle-eating dorid",

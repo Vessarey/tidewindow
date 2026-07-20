@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-19",
+ "generated_on": "2026-07-20",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -468,11 +468,6 @@
    "count": 1
   },
   {
-   "commonName": null,
-   "scientificName": "Aeolidia",
-   "count": 1
-  },
-  {
    "commonName": "Striped Nudibranch",
    "scientificName": "Armina californica",
    "count": 1
@@ -490,6 +485,11 @@
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
+   "count": 1
+  },
+  {
+   "commonName": null,
+   "scientificName": "Calyptraea fastigiata",
    "count": 1
   }
  ]

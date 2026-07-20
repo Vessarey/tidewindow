@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-19",
+ "generated_on": "2026-07-20",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -458,11 +458,6 @@
    "count": 11
   },
   {
-   "commonName": "Taylor's Seahare",
-   "scientificName": "Phyllaplysia taylori",
-   "count": 10
-  },
-  {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
    "count": 10
@@ -490,6 +485,11 @@
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
+   "count": 4
+  },
+  {
+   "commonName": "Northern Leopard Dorid",
+   "scientificName": "Diaulula odonoghuei",
    "count": 4
   }
  ]

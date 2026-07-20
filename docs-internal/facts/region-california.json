@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-19",
+ "generated_on": "2026-07-20",
  "region": "California",
  "stations": [
   {
@@ -8,8 +8,8 @@
    "noaa_id": "9414131",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 10,
-     "daylight_windows": 6,
+     "lows_below_1ft": 9,
+     "daylight_windows": 5,
      "daylight_minus_tides": 5,
      "best_window": {
       "date": "2026-07-31",
@@ -167,8 +167,8 @@
    "noaa_id": "9413450",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 10,
-     "daylight_windows": 6,
+     "lows_below_1ft": 9,
+     "daylight_windows": 5,
      "daylight_minus_tides": 5,
      "best_window": {
       "date": "2026-07-31",
@@ -326,20 +326,20 @@
    "noaa_id": "9410230",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 10,
-     "daylight_windows": 4,
+     "lows_below_1ft": 9,
+     "daylight_windows": 3,
      "daylight_minus_tides": 3,
      "best_window": {
-      "date": "2026-07-19",
-      "weekday": "Sun",
-      "low_ft": 0.65,
-      "low_time_local": "7:27 AM",
-      "window_local": "6:15 AM–8:35 AM",
-      "arrive_by_local": "6:27 AM",
-      "daylight_min": 140,
+      "date": "2026-07-31",
+      "weekday": "Fri",
+      "low_ft": -0.255,
+      "low_time_local": "5:09 AM",
+      "window_local": "3:05 AM–7:20 AM",
+      "arrive_by_local": "4:09 AM",
+      "daylight_min": 78,
       "score": 42,
       "band": "Fair",
-      "weekend_or_holiday": true
+      "weekend_or_holiday": false
      }
     },
     "2026-08": {
@@ -485,8 +485,8 @@
    "noaa_id": "9410170",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 9,
-     "daylight_windows": 4,
+     "lows_below_1ft": 8,
+     "daylight_windows": 3,
      "daylight_minus_tides": 3,
      "best_window": {
       "date": "2026-07-31",
