@@ -92,7 +92,7 @@ The winter numbers come with an honest catch: in the December run, the low itsel
 
 - **Charleston.** [Sunset Bay and Cape Arago](/guides/sunset-bay-cape-arago-tide-pools-2026/), open for day use year round with a parking permit. Oregon State Parks calls the South Cove tidepools at Cape Arago "superior" and asks that you enjoy them "with your eyes only." The south coast's winter depth without the south coast's drive.
 
-- **Port Orford.** The far south: Battle Rock Beach, Rocky Point, and the deepest daylight water in Oregon this king season (−2.21 ft on Christmas Eve). No station guide yet — the [Port Orford station page](/beaches/or/port-orford-or/) carries every computed window in the meantime.
+- **Port Orford.** The far south: [Battle Rock Beach, Rocky Point, and Agate Beach](/guides/port-orford-tide-pools-2026/), and the deepest daylight water in Oregon this king season (−2.21 ft on Christmas Eve). The rocks south of Battle Rock run to the Redfish Rocks Marine Reserve boundary — look-only ground since 2012.
 
 Every window in this article, day by day, lives on the station pages: [Garibaldi](/beaches/or/garibaldi-or/), [Newport](/beaches/or/newport-or/), [Charleston](/beaches/or/charleston-or/), and [Port Orford](/beaches/or/port-orford-or/) — the [August calendar for Newport](/beaches/or/newport-or/2026-08/) has the dawn run in full. The [Oregon beaches hub](/beaches/or/) collects all four, and the [Oregon minus-tide calendar](/guides/oregon-coast-minus-tide-calendar-2026/) runs the whole year in one table.
 
