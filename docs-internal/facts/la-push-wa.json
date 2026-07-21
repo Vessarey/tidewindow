@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-20",
+ "generated_on": "2026-07-21",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -472,7 +472,7 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 14
+   "count": 11
   },
   {
    "commonName": "Black Tegula",
@@ -505,14 +505,14 @@
    "count": 5
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 4
-  },
-  {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
    "count": 4
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 3
   }
  ]
 }

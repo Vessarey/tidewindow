@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-20",
+ "generated_on": "2026-07-21",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -470,11 +470,6 @@
    "count": 13
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 3
-  },
-  {
    "commonName": "Pismo Clam",
    "scientificName": "Tivela stultorum",
    "count": 3
@@ -482,6 +477,11 @@
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
+   "count": 2
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 2
   },
   {

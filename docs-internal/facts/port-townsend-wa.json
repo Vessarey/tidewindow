@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-20",
+ "generated_on": "2026-07-21",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -445,7 +445,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "Mossy Chiton",
