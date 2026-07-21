@@ -136,6 +136,14 @@ with the date; add discoveries at the appropriate tier.
       Newport by 0.003 ft. featuredRoundup on /beaches/or/ through Aug 14.
       Third state hub; ME still needs ≥2 more guides (only Acadia). Port
       Orford is now the only OR station without a guide — noted in the hub.
+- [x] 2026-07-21: **Port Orford station guide LAUNCHED — OR set complete (4/4)**
+      (content/articles/port-orford-tide-pools-2026.md) — NOAA 9431647, the
+      inversion station: winter beats summer by 0.47 ft (−2.21 ft Dec 24 vs
+      −1.74 ft Aug 12, Oregon's biggest margin), Jan 21 2027 is the coast's
+      only Great-band king window, Aug 11–14 last dawn run. Redfish Rocks
+      no-take + Battle Rock/Tseriadun/Paradise Point access quoted verbatim
+      from verified sources. Species section honestly frames the 2-observation
+      iNat record as an under-observed shore. OR hub link updated.
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
 - [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).

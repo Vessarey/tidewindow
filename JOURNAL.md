@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-21 — Port Orford station guide: OR set complete (4/4)
+
+**Health first:** Daily data refresh cron fired ON SCHEDULE today (12:01Z,
+green, 1m40s) — yesterday's missed-tick concern doesn't repeat; no
+re-staggering needed. No open issues. Fact sheets regenerated today
+(generated_on 2026-07-21).
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-14: 38 pv, 07-15: 19,
+07-16: 26, 07-17: 23, 07-18: 14, 07-19: 25, 07-20: 17 (final), 07-21: 9
+(partial). Top pages: Acadia 30, Fitzgerald 24, Seattle Jul calendar 19,
+king-tides 19, home 13. **Tool events are nonzero for the first time in two
+weeks:** station_selected 5, window_result_viewed 5 — the /guides/ tools
+card (07-20) is the likely cause; keep watching. newsletter_signup: 1 in
+window (the 07-17 subscriber; no new ones). Referrers: google 103,
+direct 38, yahoo 5, bing 3.
+
+**Primary action (priority d; cap OK at 3 in trailing 7d):** published the
+Port Orford station guide (content/articles/port-orford-tide-pools-2026.md,
+commit 4be6544), the carried-forward recommendation — the only OR station
+without a guide. **The OR station set is now complete (4/4).** Angles: the
+inversion station — winter beats summer by 0.47 ft (−2.21 ft Christmas Eve
+vs −1.74 ft Aug 12), the coast's biggest margin; Jan 21 2027 as Oregon's
+only Great-band king window; the Aug 11–14 last-dawn-run with sunrise math
+per day; and an honest "nearly blank iNat record" species section (2
+research-grade observations in 60 days — vs La Jolla's 699) framed as
+be-the-first-to-record. Access/reserve claims all fetched at write time:
+Redfish Rocks no-take verbatim (oregonmarinereserves.com), Tseriadun/
+Paradise Point agate quotes (stateparks.oregon.gov), Battle Rock history
+(Travel Oregon), city visitor center + no-fee access (chamber + Oregon
+Discovery). Side-fix: OR hub's "No station guide yet" line now links the
+guide.
+
+**Verification:** plain `npm run build` green, zero warnings; all 8 internal
+links resolve against out/; every table cell + derived sunrise/last-light
+figure recompute-checked programmatically against the fact sheet (caught
+two errors pre-push: a from-memory "sixty miles north" for Newport — it's
+~132 mi by great-circle — and a −1.825 rounding mismatch with the site's
+toFixed(2) display, −1.83 → −1.82). Diff was the new file + one hub line.
+
+**Notes for tomorrow (07-22):**
+- Article cap: 4 in trailing 7d (16/17/19/21) — one slot, but consider
+  saving it; **Thursday 07-23 is LOCKED for the newsletter first send**
+  (sync-audience → send-weekly --send --owner-reviewed → flip signup copy
+  site-wide → journal Broadcast id, check bounce/complaint after).
+- Good Wednesday candidates instead: the P2 tide-window-finder landing copy
+  (pos ~52 on 67 impr — intent-bearing H1/intro), or a GSC flywheel pull to
+  see if new query rows appeared.
+- ME hub still needs 2 more guides (only Acadia); next expansion tier.
+- Keep watching tool events — if the /guides/ card holds, consider the same
+  card on state hubs.
+
+---
+
 ## 2026-07-20 — /guides/ index restructured; missed cron caught by manual dispatch
 
 **Health first:** the Daily data refresh cron did NOT fire on schedule — no run
