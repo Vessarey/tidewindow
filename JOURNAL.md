@@ -5,6 +5,65 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-22 — Finder landing copy: intent-bearing title/H1 + internal links
+
+**Health first:** Daily data refresh cron fired at 12:05Z mid-session, green
+in 1m36s (third on-schedule day in a row; the 07-20 missed-tick concern is
+closed). No open issues. Rebased today's data commit under my change before
+pushing.
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-15: 19 pv, 07-16: 26,
+07-17: 23, 07-18: 14, 07-19: 25, 07-20: 17, 07-21: 16 (final; 11 uniques —
+yesterday's partial read was 9), 07-22: 2 (partial). Top pages: Acadia 31,
+Fitzgerald 25, king-tides 19, home 12, /beaches/ca/ 8. Tool events cooled
+from the 07-21 spike but stayed nonzero: station_selected 2,
+window_result_viewed 2. newsletter_signup: still just the 07-17 subscriber.
+Referrers: google 86, direct 36, yahoo 5, bing 4, duckduckgo 3. GSC
+flywheel: no big new rows; Port Townsend / Constellation Park queries sit
+pos 10–12 at 0% CTR (their guides exist; watch after the 08-05 retitle
+review), "king tides 2026" converting well (2 clicks on 3 impr).
+
+**Primary action (P2, carried from 07-21 notes; article slot deliberately
+saved):** rewrote the /tools/tide-window-finder/ landing copy (commit
+386e4e6). It ranked pos ~52 on 67 impr/28d with a title targeting no query.
+Now: title/H1 carry demonstrated query language ("Find the next low tide
+near you"), description front-loads what you get, and three short sections
+below the tool link the depth explainers (what-is-a-minus-tide, how-low,
+how-to-read-a-tide-table), methodology, all four state hubs, and the
+sibling tools (Trip Picker, Year at a Glance). The finder was NOT part of
+the frozen 07-19 retitle set, so this doesn't pollute that experiment.
+
+**Verification:** plain `npm run build` green, zero warnings; all 10 new
+internal links resolve against out/; page + tool verified in local preview
+(Seattle selection loads NOAA 9447130 results; console clean). The one
+tide-behavior claim ("tides shift by minutes over tens of miles of open
+coast; bays and sounds lag") recompute-checked against 2026-07-21 fact
+sheets: Aug 12 low sweeps Port Orford 6:19 AM → Garibaldi 7:04 AM (~45 min,
+~230 mi of open coast) vs Seattle 11:07 AM inside the Sound. Diff was
+exactly the one file.
+
+**Discovery:** the finder's station dropdown labels La Push with "Rialto
+Beach / Hole-in-the-Wall" — the spot that is CLOSED via Mora Road until
+~Oct 15 (see P2 time-bomb). Label lives in station spots data
+(scripts/pipeline/stations.mjs → committed data-json), so changing it means
+a pipeline data change; noted on the backlog item rather than side-fixed.
+
+**Notes for tomorrow (07-23, Thursday):**
+- **NEWSLETTER FIRST SEND is the REQUIRED primary** (owner-approved
+  07-19): 1) node scripts/newsletter/sync-audience.mjs; 2) node
+  scripts/newsletter/send-weekly.mjs --send --owner-reviewed; 3) flip
+  EmailSignup blurbs + /newsletter/ page from "starting this season" to
+  live, build, push; 4) journal the Broadcast id; check Resend
+  bounce/complaint after. Jul 23–29 week renders 22 Good+ windows across
+  7 stations per the 07-19 dry-run comparison.
+- Article cap: 4 in trailing 7d (16/17/19/21) — a slot frees 07-23 but the
+  send is the primary; next article candidates remain ME guides (hub needs
+  2 more) or the sneaker-waves explainer.
+- Watch whether the finder's GSC position/CTR moves over ~2 weeks (compare
+  to the 67 impr / pos ~52 baseline from 07-19).
+
+---
+
 ## 2026-07-21 — Port Orford station guide: OR set complete (4/4)
 
 **Health first:** Daily data refresh cron fired ON SCHEDULE today (12:01Z,

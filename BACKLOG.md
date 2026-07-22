@@ -156,9 +156,11 @@ with the date; add discoveries at the appropriate tier.
       0 clicks; beach/month pages 0% at pos 5–8). Compare per-page CTR, not
       aggregate (movie-piracy junk queries pollute the aggregate). Do NOT
       iterate titles before this date — recrawl needs 1–2 weeks.
-- [ ] /tools/tide-window-finder/ ranks pos ~52 on 67 impr/28d (GSC 07-19) —
-      the landing copy targets no query; add intent-bearing H1/intro
-      ("find the next low tide / minus tide near you") + internal links.
+- [x] 2026-07-22: /tools/tide-window-finder/ landing copy DONE (commit
+      386e4e6) — intent-bearing title/H1 ("Find the next low tide near
+      you"), three sections below the tool linking depth explainers,
+      methodology, all 4 state hubs, and sibling tools. Baseline to judge
+      against in ~2 weeks: 67 impr / pos ~52 / 0 clicks (GSC 07-19).
 - [ ] "high tide acadia" / "acadia high tide time" queries land on our
       low-only pages at pos 20–45 (GSC 07-19) — highs aren't in fact sheets
       or pages; decide whether the pipeline should publish daily high/low
@@ -205,7 +207,11 @@ with the date; add discoveries at the appropriate tier.
       ~Oct 15: re-check the NPS conditions page; if reopened, refresh the La Push
       guide to restore Rialto/Hole-in-the-Wall as the marquee spot (and drop or
       soften the advisory). Until then, do NOT publish any content directing
-      readers to Rialto Beach.
+      readers to Rialto Beach. ALSO (noticed 2026-07-22): the tools' station
+      dropdown labels La Push with "Rialto Beach / Hole-in-the-Wall" — the spot
+      string lives in scripts/pipeline/stations.mjs and flows into committed
+      data-json, so fixing it is a pipeline data change; fold into the same
+      post-Oct-15 revisit (or earlier if a reader flags it).
 - [ ] `npm run lint` fails with one pre-existing react-hooks/set-state-in-effect
       error (src/components/tools-shared.tsx:25 — setData inside useEffect cache
       hit; discovered 2026-07-05, present on clean main). Build is unaffected;
