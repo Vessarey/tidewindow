@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-21",
+ "generated_on": "2026-07-22",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -448,24 +448,24 @@
    "count": 13
   },
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 12
+  },
+  {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
    "count": 11
   },
   {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 11
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
+   "count": 10
   },
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
    "count": 10
-  },
-  {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
-   "count": 9
   },
   {
    "commonName": "Rough Keyhole Limpet",

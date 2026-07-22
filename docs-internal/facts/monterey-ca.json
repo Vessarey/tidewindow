@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-21",
+ "generated_on": "2026-07-22",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -507,7 +507,7 @@
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 16
+   "count": 15
   },
   {
    "commonName": "Black Tegula",

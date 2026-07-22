@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-21",
+ "generated_on": "2026-07-22",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 10,
+   "lows_below_1ft": 9,
    "daylight_windows": 7,
    "daylight_minus_tides": 7,
    "best_window": {
@@ -505,14 +505,14 @@
    "count": 5
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 4
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 3
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 4
   }
  ]
 }

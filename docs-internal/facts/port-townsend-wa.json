@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-21",
+ "generated_on": "2026-07-22",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -450,7 +450,7 @@
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 4
+   "count": 5
   },
   {
    "commonName": "Frilled Dogwinkle",
