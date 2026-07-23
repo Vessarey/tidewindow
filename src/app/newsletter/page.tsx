@@ -19,7 +19,7 @@ export default function Newsletter() {
       <h1 className="text-3xl sm:text-4xl">The Minus Tide Alert</h1>
       <p className="mt-3 max-w-2xl text-lg text-ink-soft">
         One email a week: the exact hours your coast is worth the drive — computed from NOAA data, never padded.
-        Launching for this season; join now and you&apos;re in the first issue.
+        Issues go out every Thursday; join now and the next one is yours.
       </p>
 
       <EmailSignup

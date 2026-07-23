@@ -87,7 +87,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <EmailSignup
         source="end_article"
         headline="The Minus Tide Alert"
-        blurb="One email a week: the exact hours your coast is worth the drive — computed from NOAA data, never padded. Starting this season."
+        blurb="One email a week: the exact hours your coast is worth the drive — computed from NOAA data, never padded. Sent every Thursday."
         cta="Join the list"
       />
     </div>

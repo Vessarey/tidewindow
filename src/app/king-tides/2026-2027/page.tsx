@@ -67,7 +67,7 @@ export default function KingTides() {
       <EmailSignup
         source="king_tides"
         headline="Get a heads-up before each king-tide low"
-        blurb="The Minus Tide Alert flags rare daylight extreme lows for your coast a week ahead. Starting this season."
+        blurb="The Minus Tide Alert flags rare daylight extreme lows for your coast a week ahead. Sent every Thursday."
         cta="Join the list"
       />
     </div>

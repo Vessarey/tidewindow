@@ -181,7 +181,7 @@ export default async function StationPage({ params }: { params: Promise<{ state:
       <EmailSignup
         source="station"
         headline={`Never miss a ${s.name} window`}
-        blurb="One email a week with your coast's ranked windows — computed from NOAA data, never padded. Starting this season."
+        blurb="One email a week with your coast's ranked windows — computed from NOAA data, never padded. Sent every Thursday."
         cta="Join the list"
       />
     </div>

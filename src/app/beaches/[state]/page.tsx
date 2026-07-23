@@ -111,7 +111,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
       <EmailSignup
         source="state_hub"
         headline={`${stateName}'s Minus Tide Alert`}
-        blurb="One email a week with the ranked windows for your coast — computed from NOAA data, never padded. Starting this season."
+        blurb="One email a week with the ranked windows for your coast — computed from NOAA data, never padded. Sent every Thursday."
         cta="Join the list"
       />
     </div>
