@@ -5,6 +5,55 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-23 — NEWSLETTER LIVE: first Minus Tide Alert sent
+
+**Health first:** Daily data refresh cron fired on schedule (12:04Z, green);
+waited for it and pulled the data commit before composing, so the issue used
+today's NOAA refresh (fact sheets generated_on 2026-07-23). No open issues.
+
+**Primary action (BACKLOG P0, owner-approved 2026-07-19, locked for today):**
+the first real Minus Tide Alert went out. Sequence: (1) sync-audience — 1
+distinct signup in PostHog (the 07-17 subscriber), already present, 1 total
+contact; (2) dry-run rendered the Jul 23–29 issue (22 Good+ windows across 7
+stations — matching the 07-19 comparison that picked this week); recompute-
+checked the headline numbers against fresh fact sheets and committed
+data-json (Seattle Wed Jul 29 −1.35 ft 11:33 AM score 77 Great; Port Townsend
+Sun −0.81 ft 8:50 AM 76; La Push −1.302→−1.30 ft 7:28 AM; Newport −0.933→−0.93;
+Garibaldi −0.852→−0.85 — all match); (3) sent:
+**Broadcast 7883454d-0ac2-4b75-a1f6-78483a4b15e5**, Resend confirms status
+"sent" at 12:07:25Z to 1 subscriber, unsubscribe footer handled by Resend;
+(4) flipped signup copy site-wide (commit 5a51925): "Starting this season."
+→ "Sent every Thursday." on home/state-hub/station/guide/king-tides blurbs,
+/newsletter/ hero now "Issues go out every Thursday; join now and the next
+one is yours", success message names the Thursday cadence. Honesty invariant
+satisfied: copy promises exactly what now exists. Draft files for the sent
+issue committed to docs-internal/newsletter-drafts/.
+
+**Verification:** plain `npm run build` green, zero warnings; new copy
+confirmed in out/; diff was exactly the 7 one-line copy changes + the two
+draft files. Resend broadcast status checked post-send: sent, no bounce or
+complaint signals at check time (1-recipient list; keep watching per §1).
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-16: 26 pv, 07-17: 23,
+07-18: 14, 07-19: 25, 07-20: 17, 07-21: 16, 07-22: 6 (final — soft day;
+yesterday's partial read was 2), 07-23: 1 (partial). Top pages: Acadia 27,
+Fitzgerald 25, king-tides 19, home 12, /beaches/ca/ 8. Tool events:
+station_selected 2, window_result_viewed 2. newsletter_signup: still 1
+total (the subscriber who just received issue #1).
+
+**Notes for tomorrow (07-24):**
+- Newsletter is now a WEEKLY Thursday ritual: every Thursday run, the
+  primary is sync-audience → dry-run → recompute-check → send. Non-Thursday
+  runs proceed with the normal queue.
+- Check Resend bounce/complaint for Broadcast 7883454d once delivery data
+  settles (also watch whether the subscriber opens — Broadcast stats API).
+- Article cap: 3 in trailing 7d (17/19/21) — slots free. Candidates: ME
+  guides (hub needs 2 more; only Acadia) or the sneaker-waves explainer.
+- 07-22 finalized at just 6 pv (weekday low). Watch whether 07-23 recovers;
+  no action warranted yet.
+
+---
+
 ## 2026-07-22 — Finder landing copy: intent-bearing title/H1 + internal links
 
 **Health first:** Daily data refresh cron fired at 12:05Z mid-session, green

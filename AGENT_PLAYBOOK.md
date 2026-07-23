@@ -117,13 +117,12 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
       API verified. Metrics-driven decisions are ON.
 - [x] **Custom domain**: thetidewindow.com live on Vercel since 2026-07-03;
       old vessarey.github.io/tidewindow URLs serve redirect stubs.
-- [ ] **Newsletter go-live** (key + domain ready since 2026-07-03): build the
-      weekly Minus Tide Alert per BACKLOG P0 — sync `newsletter_signup` emails
-      from PostHog into a Resend Audience, compose the regional digest from
-      computed window data, send as a Broadcast from
-      alerts@updates.thetidewindow.com, then update signup copy site-wide from
-      "starting this season" to live. Also confirm the domain's Receiving MX
-      flips to verified in the Resend API (record added 2026-07-03).
+- [x] **Newsletter LIVE since 2026-07-23** (first Broadcast
+      7883454d-0ac2-4b75-a1f6-78483a4b15e5; signup copy live site-wide;
+      Receiving MX verified 2026-07-05). Standing ritual: EVERY THURSDAY run,
+      the primary action is sync-audience → send-weekly --dry-run →
+      recompute-check against fact sheets → send-weekly --send
+      --owner-reviewed → journal the Broadcast id and watch bounce/complaint.
 - [x] **GSC property + API access**: verified 2026-07-03; API access LIVE since
       2026-07-04 via service account gsc-reader@tidewindow-agent (key gitignored
       at docs-internal/gsc-service-account.json). Use `node scripts/gsc-query.mjs

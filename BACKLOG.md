@@ -31,9 +31,12 @@ with the date; add discoveries at the appropriate tier.
 - [x] 2026-07-03: Confirm IndexNow returns 200 in daily-refresh logs — "submitted
       83 URLs — HTTP 200".
 - [x] 2026-07-03: PostHog fully wired (capture live + agent query key saved).
-- [ ] NEWSLETTER GO-LIVE — pipeline CODE DONE 2026-07-05; sending blocked only
-      on real signups + owner copy review (runbook:
-      docs-internal/resend-newsletter.md):
+- [x] 2026-07-23: NEWSLETTER GO-LIVE COMPLETE — first Broadcast
+      7883454d-0ac2-4b75-a1f6-78483a4b15e5 sent 12:07Z to 1 subscriber
+      (Jul 23–29 issue, 22 Good+ windows); signup copy flipped site-wide to
+      "Sent every Thursday" (commit 5a51925). Weekly Thursday send is now a
+      standing ritual: sync-audience → dry-run → recompute-check → send.
+      History (runbook: docs-internal/resend-newsletter.md):
       1) [x] 2026-07-05 scripts/newsletter/sync-audience.mjs — HogQL-exports
          distinct newsletter_signup emails from PostHog (host-filtered; shared
          project), upserts additively into Resend Audience "Minus Tide Alert"
@@ -47,7 +50,7 @@ with the date; add discoveries at the appropriate tier.
          docs-internal/newsletter-drafts/ with zero network calls; sending
          requires --send AND --owner-reviewed AND a non-empty audience (all
          three gates verified live; sample issue committed).
-      3) [ ] **OWNER APPROVED 2026-07-19** ("proceed with what you see fit";
+      3) [x] 2026-07-23 SENT. **OWNER APPROVED 2026-07-19** ("proceed with what you see fit";
          recorded in JOURNAL) — all gates cleared. First send is the REQUIRED
          primary of the **Thursday 2026-07-23 run** (chosen over a same-day
          send because the Jul 19-25 week is neap-thin — 0 Great, nothing in
