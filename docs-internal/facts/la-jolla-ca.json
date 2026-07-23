@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-22",
+ "generated_on": "2026-07-23",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 9,
+   "lows_below_1ft": 8,
    "daylight_windows": 3,
    "daylight_minus_tides": 3,
    "best_window": {
@@ -512,7 +512,7 @@
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 38
+   "count": 37
   }
  ]
 }

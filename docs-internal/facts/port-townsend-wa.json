@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-22",
+ "generated_on": "2026-07-23",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -115,8 +115,8 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 10,
-   "daylight_windows": 10,
+   "lows_below_1ft": 9,
+   "daylight_windows": 9,
    "daylight_minus_tides": 8,
    "best_window": {
     "date": "2026-07-26",
@@ -357,20 +357,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-22",
-   "weekday": "Wed",
-   "low_ft": 0.814,
-   "low_time_local": "5:51 AM",
-   "window_local": "5:00 AM–6:40 AM",
-   "arrive_by_local": "4:51 AM",
-   "daylight_min": 65,
-   "score": 21,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 61,
-   "min_to_sun_edge": 16
-  },
-  {
    "date": "2026-07-23",
    "weekday": "Thu",
    "low_ft": 0.217,
@@ -439,13 +425,27 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 64,
    "min_to_sun_edge": -37
+  },
+  {
+   "date": "2026-08-22",
+   "weekday": "Sat",
+   "low_ft": 0.327,
+   "low_time_local": "6:37 AM",
+   "window_local": "5:05 AM–8:20 AM",
+   "arrive_by_local": "5:37 AM",
+   "daylight_min": 124,
+   "score": 44,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 75,
+   "min_to_sun_edge": 21
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "Mossy Chiton",

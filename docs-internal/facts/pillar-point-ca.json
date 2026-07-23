@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-22",
+ "generated_on": "2026-07-23",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 9,
+   "lows_below_1ft": 8,
    "daylight_windows": 5,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -477,7 +477,7 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 58
+   "count": 57
   },
   {
    "commonName": "Hilton's Aeolid",
@@ -490,14 +490,14 @@
    "count": 46
   },
   {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
+   "count": 43
+  },
+  {
    "commonName": "Hammerhead Doto",
    "scientificName": "Doto amyra",
    "count": 42
-  },
-  {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 41
   },
   {
    "commonName": "Monterey Dorid",

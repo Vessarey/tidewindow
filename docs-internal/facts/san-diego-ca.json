@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-22",
+ "generated_on": "2026-07-23",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -467,17 +467,12 @@
   {
    "commonName": "Los Angeles Goniodorid",
    "scientificName": "Bermudella angelensis",
-   "count": 13
+   "count": 11
   },
   {
    "commonName": "Pismo Clam",
    "scientificName": "Tivela stultorum",
    "count": 3
-  },
-  {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 2
   },
   {
    "commonName": "California Mussel",
@@ -495,13 +490,8 @@
    "count": 1
   },
   {
-   "commonName": "Hedgpeth's Dorid",
-   "scientificName": "Polycera hedgpethi",
-   "count": 1
-  },
-  {
-   "commonName": "Gland Dorid",
-   "scientificName": "Polycerella glandulosa",
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
    "count": 1
   },
   {
@@ -512,6 +502,16 @@
   {
    "commonName": "File Limpet",
    "scientificName": "Lottia limatula",
+   "count": 1
+  },
+  {
+   "commonName": "California Sunset Clam",
+   "scientificName": "Gari californica",
+   "count": 1
+  },
+  {
+   "commonName": "White-spotted Sea Goddess",
+   "scientificName": "Doriopsilla albopunctata",
    "count": 1
   }
  ]

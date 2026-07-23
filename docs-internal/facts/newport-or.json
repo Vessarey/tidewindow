@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-22",
+ "generated_on": "2026-07-23",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 9,
+   "lows_below_1ft": 8,
    "daylight_windows": 6,
    "daylight_minus_tides": 6,
    "best_window": {
@@ -477,7 +477,7 @@
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 35
+   "count": 36
   },
   {
    "commonName": "Branched Dendronotid",
@@ -510,8 +510,8 @@
    "count": 5
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
    "count": 4
   }
  ]
