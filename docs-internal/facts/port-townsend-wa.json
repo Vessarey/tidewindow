@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-23",
+ "generated_on": "2026-07-24",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -115,8 +115,8 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 9,
-   "daylight_windows": 9,
+   "lows_below_1ft": 8,
+   "daylight_windows": 8,
    "daylight_minus_tides": 8,
    "best_window": {
     "date": "2026-07-26",
@@ -357,20 +357,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-23",
-   "weekday": "Thu",
-   "low_ft": 0.217,
-   "low_time_local": "6:40 AM",
-   "window_local": "5:00 AM–8:35 AM",
-   "arrive_by_local": "5:40 AM",
-   "daylight_min": 179,
-   "score": 45,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 70,
-   "min_to_sun_edge": 64
-  },
-  {
    "date": "2026-08-06",
    "weekday": "Thu",
    "low_ft": 0.007,
@@ -439,6 +425,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 75,
    "min_to_sun_edge": 21
+  },
+  {
+   "date": "2026-08-23",
+   "weekday": "Sun",
+   "low_ft": 0.166,
+   "low_time_local": "7:34 AM",
+   "window_local": "5:55 AM–9:25 AM",
+   "arrive_by_local": "6:34 AM",
+   "daylight_min": 188,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 86,
+   "min_to_sun_edge": 77
   }
  ],
  "species_last60d_5km": [
@@ -478,11 +478,6 @@
    "count": 1
   },
   {
-   "commonName": "Pacific Geoduck",
-   "scientificName": "Panopea generosa",
-   "count": 1
-  },
-  {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
    "count": 1
@@ -490,6 +485,11 @@
   {
    "commonName": null,
    "scientificName": "Calyptraea fastigiata",
+   "count": 1
+  },
+  {
+   "commonName": "Pacific Oyster",
+   "scientificName": "Magallana gigas",
    "count": 1
   }
  ]

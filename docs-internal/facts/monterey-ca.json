@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-23",
+ "generated_on": "2026-07-24",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 8,
+   "lows_below_1ft": 7,
    "daylight_windows": 5,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -467,17 +467,17 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 33
-  },
-  {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
    "count": 31
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 30
+  },
+  {
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
+   "count": 29
   },
   {
    "commonName": "Noble Dorid",
@@ -490,11 +490,6 @@
    "count": 17
   },
   {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
-   "count": 15
-  },
-  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
    "count": 14
@@ -505,14 +500,19 @@
    "count": 14
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 14
-  },
-  {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
    "count": 11
+  },
+  {
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 11
+  },
+  {
+   "commonName": "Hooked Slippersnail",
+   "scientificName": "Crepidula adunca",
+   "count": 9
   }
  ]
 }

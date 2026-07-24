@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-23",
+ "generated_on": "2026-07-24",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 8,
+   "lows_below_1ft": 7,
    "daylight_windows": 6,
    "daylight_minus_tides": 6,
    "best_window": {
@@ -472,12 +472,12 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 37
+   "count": 39
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 36
+   "count": 37
   },
   {
    "commonName": "Branched Dendronotid",
@@ -487,7 +487,7 @@
   {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
-   "count": 9
+   "count": 10
   },
   {
    "commonName": "Three-lined Aeolid",

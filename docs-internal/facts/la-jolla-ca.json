@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-23",
+ "generated_on": "2026-07-24",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 8,
+   "lows_below_1ft": 7,
    "daylight_windows": 3,
    "daylight_minus_tides": 3,
    "best_window": {
@@ -467,7 +467,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 144
+   "count": 143
   },
   {
    "commonName": "Sorcerer's Dorid",
@@ -487,17 +487,12 @@
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 62
+   "count": 61
   },
   {
    "commonName": "McDonald's Dorid",
    "scientificName": "Limacia mcdonaldi",
    "count": 43
-  },
-  {
-   "commonName": "Colorful Dirona",
-   "scientificName": "Dirona picta",
-   "count": 41
   },
   {
    "commonName": "Colorful Aeolid",
@@ -508,6 +503,11 @@
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
    "count": 41
+  },
+  {
+   "commonName": "Colorful Dirona",
+   "scientificName": "Dirona picta",
+   "count": 39
   },
   {
    "commonName": "Salt-and-pepper Doris",
