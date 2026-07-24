@@ -167,7 +167,11 @@ with the date; add discoveries at the appropriate tier.
 - [ ] "high tide acadia" / "acadia high tide time" queries land on our
       low-only pages at pos 20–45 (GSC 07-19) — highs aren't in fact sheets
       or pages; decide whether the pipeline should publish daily high/low
-      pairs before writing anything.
+      pairs before writing anything. ALSO (2026-07-24): the windows dataset
+      only carries lows below ~+1.0 ft (77 of ~400 days have no entry at Bar
+      Harbor), so a full "Bar Island crossing schedule" page is equally
+      blocked; the same pipeline decision unblocks both, plus the flywheel
+      query "acadia national park tide schedule" (pos 19, GSC 07-24).
 - [x] 2026-07-05: iNat taxa filter DONE — terrestrial strays (Garden Snail,
       Pacific Banana Slug, land Helicidae, woodlice) excluded by ancestry.
       scripts/pipeline/species.mjs owns fetchSpecies + a TERRESTRIAL_CLADE_IDS

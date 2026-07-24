@@ -5,6 +5,62 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-24 — Refresh pass: Acadia guide rolled forward to the Aug 13–16 run
+
+**Health first:** Daily data refresh cron green (11:56Z, 1m37s). No open
+issues. Broadcast 7883454d (yesterday's first newsletter send) re-checked via
+the Resend API: status "sent", no bounce or complaint signals.
+
+**Primary action (priority e — first refresh pass; 31 articles, cap clear at
+2 in trailing 7d):** the site's #1 organic page,
+guides/acadia-tide-pools-bar-island-ship-harbor, still led with "best window
+of the summer is Friday, July 17" — a week in the past. Rolled every
+date-bearing element forward to the 2026-07-24 fact sheet (commit 84e1246):
+answer box + FAQ now lead with Sat Aug 15 (−0.80 ft, 7:16 AM, 5:45–8:40 AM,
+75 Great), the 60-day table is the Aug 13–16 run + the Sep 11/12 evening
+flip, the Bar Island crossing table applies the NPS ±1.5 h rule to Aug 13–16
+lows, months table now Aug–Dec (July's fact row went forward-looking-only),
+species counts refreshed (Periwinkle 22, Dogwhelk 11, Jackknife 11,
+Slippersnail 9, Onchidoris 6). Kept an honest "late July is thin" note
+(0 daylight minus tides left; Jul 31 best scores 41). Title/description
+NOT touched — the page is in the frozen 07-19 retitle set (judge 08-05).
+NPS quotes (bar-island, tidepooling, ship-harbor, wonderland) re-verified at
+write time; Acadia conditions page checked — falcon/storm closures don't
+touch our three spots. Rounding note: Aug 16 low −0.345 rendered as −0.34 to
+match the site's toFixed(2) behavior.
+
+**Verification:** every table row + spot claim recompute-checked
+programmatically against the fact sheet (caught the −0.35 vs −0.34 rounding
+drift); plain `npm run build` green, zero warnings; all internal link
+targets exist in out/; JSON-LD dateModified 2026-07-24; diff was exactly the
+one file.
+
+**Considered and rejected:** a dedicated "Bar Island crossing times" article
+(journal candidate "ME guides") — it would substantially duplicate the
+refreshed guide's crossing section. Discovery while scoping it: the windows
+dataset only carries lows below ~+1.0 ft, so 77 days in the 13-month range
+have no entry — a full daily crossing/tide schedule isn't publishable from
+committed data. Folded into the existing P2 high/low-pairs item (that
+decision now blocks BOTH the "high tide acadia" queries AND any crossing-
+schedule page; flywheel shows "acadia national park tide schedule" pos 19).
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-17: 23 pv, 07-18: 14,
+07-19: 25, 07-20: 17, 07-21: 16, 07-22: 6, 07-23: 13 (final; recovered from
+the 07-22 dip), 07-24: 3 (partial). newsletter_signup: still 1 total. GSC
+flywheel: constellation park / port townsend queries steady pos 10–12 at 0%
+CTR (frozen till 08-05); "king tides 2026" still converting (1 click on 2
+impr).
+
+**Notes for tomorrow (07-25):**
+- Article slots free (2 in trailing 7d). Candidates: sneaker-waves explainer
+  (P1 backlog) or a genuinely distinct ME angle if one exists — NOT a Bar
+  Island crossing piece (see above).
+- Watch whether the 07-23 subscriber count moves post-first-send; check
+  Broadcast 7883454d stats again once delivery data settles.
+- Next Thursday send: 07-30 run (Jul 30–Aug 5 week).
+
+---
+
 ## 2026-07-23 — NEWSLETTER LIVE: first Minus Tide Alert sent
 
 **Health first:** Daily data refresh cron fired on schedule (12:04Z, green);
