@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-24",
+ "generated_on": "2026-07-25",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 8,
-   "daylight_windows": 8,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 7,
+   "daylight_windows": 7,
+   "daylight_minus_tides": 7,
    "best_window": {
     "date": "2026-07-26",
     "weekday": "Sun",
@@ -445,12 +445,12 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": "Frilled Dogwinkle",
@@ -478,18 +478,18 @@
    "count": 1
   },
   {
+   "commonName": "Shield Limpet",
+   "scientificName": "Lottia pelta",
+   "count": 1
+  },
+  {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
    "count": 1
   },
   {
-   "commonName": null,
-   "scientificName": "Calyptraea fastigiata",
-   "count": 1
-  },
-  {
-   "commonName": "Pacific Oyster",
-   "scientificName": "Magallana gigas",
+   "commonName": "Lewis's Moon Snail",
+   "scientificName": "Neverita lewisii",
    "count": 1
   }
  ]

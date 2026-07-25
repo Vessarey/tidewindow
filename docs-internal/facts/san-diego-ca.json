@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-24",
+ "generated_on": "2026-07-25",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 7,
+   "lows_below_1ft": 6,
    "daylight_windows": 3,
    "daylight_minus_tides": 3,
    "best_window": {
@@ -465,11 +465,6 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Los Angeles Goniodorid",
-   "scientificName": "Bermudella angelensis",
-   "count": 11
-  },
-  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 2
@@ -485,14 +480,9 @@
    "count": 2
   },
   {
-   "commonName": "Ridge-tailed Dorid",
-   "scientificName": "Diaphorodoris lirulatocauda",
-   "count": 1
-  },
-  {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 1
+   "commonName": "Los Angeles Goniodorid",
+   "scientificName": "Bermudella angelensis",
+   "count": 2
   },
   {
    "commonName": "Giant Rock Scallop",
@@ -512,6 +502,16 @@
   {
    "commonName": "White-spotted Sea Goddess",
    "scientificName": "Doriopsilla albopunctata",
+   "count": 1
+  },
+  {
+   "commonName": "White Venus",
+   "scientificName": "Amiantis callosa",
+   "count": 1
+  },
+  {
+   "commonName": "Pacific Oyster",
+   "scientificName": "Magallana gigas",
    "count": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-24",
+ "generated_on": "2026-07-25",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -482,7 +482,7 @@
   {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
-   "count": 7
+   "count": 8
   },
   {
    "commonName": "Striped Dogwinkle",
@@ -505,13 +505,13 @@
    "count": 5
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
    "count": 4
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 4
   }
  ]

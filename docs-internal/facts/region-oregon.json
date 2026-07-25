@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-24",
+ "generated_on": "2026-07-25",
  "region": "Oregon coast",
  "stations": [
   {
@@ -326,7 +326,7 @@
    "noaa_id": "9432780",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 7,
+     "lows_below_1ft": 6,
      "daylight_windows": 6,
      "daylight_minus_tides": 6,
      "best_window": {
@@ -485,7 +485,7 @@
    "noaa_id": "9431647",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 7,
+     "lows_below_1ft": 6,
      "daylight_windows": 6,
      "daylight_minus_tides": 6,
      "best_window": {
