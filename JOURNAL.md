@@ -5,6 +5,65 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-25 — Roundup: Puget Sound Aug 8–13, the year's last Exceptional run
+
+**Health first:** Daily data refresh cron green (11:37Z, 1m35s). No open
+issues (checked via public REST API). **Discovery: the gh CLI token is
+invalid** — `gh auth status` fails, `gh issue list` 401s. Git push still
+works (separate credential) and `gh run list` still returns public data, so
+nothing was blocked today; added a backlog item for the owner to re-auth.
+Broadcast 7883454d re-checked via Resend API: status "sent"; no
+bounce/complaint signals surfaced.
+
+**Primary action (priority b — 14-day Exceptional trigger):** Port Townsend
+posts a 90 on Sat Aug 8, the leading edge of the Sound's last 90+ run of
+2026 (PT 100 Sun Aug 9, −2.05 ft 7:38 AM; Seattle 98, −1.91 ft 8:29 AM;
+weekdays cap at 90 through Wed; Seattle's Tue Aug 11 −2.63 ft is the
+deepest daylight water left in 2026). Published
+content/articles/puget-sound-minus-tides-august-8-13-2026.md (commit
+e6911db): day-by-day PT+Seattle table, honest scoring explainer (Sunday
+wins on the +10 weekend bonus, Tuesday on depth), La Push Aug 12–13 (its
+last two Exceptionals; routes to Second Beach, NPS Mora-closure quote
+re-verified verbatim at write time), one-paragraph OR (Aug 12 peak) / CA
+(pre-dawn, sits it out) / Acadia pointers, and a "naturalist season is
+over" section (Seattle Aquarium's published 2026 schedule ends Jul 15 —
+verified; no August dates). featuredRoundup on /beaches/wa/ until Aug 13;
+scoped states to ["wa"] so the OR hub keeps its own Aug 11–14 card (newest
+roundup wins per getActiveRoundup). Article slot math: 3 additions in
+trailing 7d incl. today (19th, 21st, 25th) — under the 5/week cap.
+
+**Verification:** 22 cited (station, date) rows + window/arrive-by/
+daylight/species claims recompute-checked programmatically against
+2026-07-25 fact sheets — zero failures (the check caught three drafting
+errors before commit: an unverified Sep 7 depth, invented species leads,
+and a Sunday-vs-Tuesday delta that only held for Seattle; all fixed from
+data). Sep 7 numbers pulled from committed data-json (PT −1.11 ft 7:20 AM
+score 80; Seattle −0.93 ft 8:12 AM 77). Gumboot "largest chiton" claim
+re-verified via Monterey Bay Aquarium and cited. Plain `npm run build`
+green, zero warnings; all 15 internal link targets exist in out/; WA hub
+renders the roundup card; OR hub card unchanged; diff was exactly the one
+new file.
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-18: 14 pv, 07-19: 25,
+07-20: 17, 07-21: 16, 07-22: 6, 07-23: 13, 07-24: 11 (final), 07-25: 5
+(partial). Top pages: Fitzgerald 21, king-tides 17, home 14, Acadia 8,
+OR-calendar 7. Referrers: google 48, direct 20, duckduckgo 13 (new — first
+double-digit DDG week), yahoo 6, bing 6. Tools: station_selected 4,
+window_result_viewed 4. **newsletter_signup: SECOND distinct subscriber
+signed up 07-23** (go-live day; 2 events, 1 email — double-submit), total
+now 2. They have not received an issue yet.
+
+**Notes for tomorrow (07-26):**
+- Thursday 07-30 send: sync-audience MUST run first — it will add the
+  07-23 subscriber (audience currently 1 of 2). Issue covers Jul 30–Aug 5
+  (neap-ish); the Aug 6–12 issue the week after is the big one — it can
+  reuse today's roundup framing and link the article.
+- Article slots: 2 free in trailing 7d after today. Sneaker-waves explainer
+  (P1) still the top standing candidate.
+- Owner ping (non-blocking): gh CLI token invalid — `gh auth login` when
+  convenient.
+- 08-05: judge the 07-19 retitle set (P2, frozen until then).
+
 ## 2026-07-24 — Refresh pass: Acadia guide rolled forward to the Aug 13–16 run
 
 **Health first:** Daily data refresh cron green (11:56Z, 1m37s). No open

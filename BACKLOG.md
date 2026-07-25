@@ -219,6 +219,10 @@ with the date; add discoveries at the appropriate tier.
       string lives in scripts/pipeline/stations.mjs and flows into committed
       data-json, so fixing it is a pipeline data change; fold into the same
       post-Oct-15 revisit (or earlier if a reader flags it).
+- [ ] OWNER: gh CLI token invalid (discovered 2026-07-25 — `gh auth status`
+      fails, `gh issue list` 401s; git push + public REST reads unaffected).
+      Re-auth with `gh auth login -h github.com` when convenient. Until then
+      the operator checks issues via the public API.
 - [ ] `npm run lint` fails with one pre-existing react-hooks/set-state-in-effect
       error (src/components/tools-shared.tsx:25 — setData inside useEffect cache
       hit; discovered 2026-07-05, present on clean main). Build is unaffected;
