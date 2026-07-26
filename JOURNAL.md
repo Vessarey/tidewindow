@@ -47,6 +47,11 @@ bing 8, yahoo 6. Tools 14d: station_selected 4, window_result_viewed 4.
 newsletter_signup: no new signups; total stays 2 subscribers.
 
 **Notes for tomorrow (07-27):**
+- **OWNER DIRECTIVE (2026-07-26, in chat):** do the normal primary action
+  PLUS ship the exit-intent signup (P2 → see the owner-directed backlog
+  entry for scope). This is an approved two-action day; conversion is the
+  owner's stated priority (2 subscribers on 338 all-time uniques ≈ 0.6%
+  vs the 1.5% target).
 - Article slots: 2 free in trailing 7d. No standing P1 article candidates
   left except the Nov winter preview (too early) — consider a refresh pass
   (e / 30–50% rule; west-coast-jul-11-14 roundup is past-dated but roundups

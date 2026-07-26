@@ -206,7 +206,17 @@ with the date; add discoveries at the appropriate tier.
       kelp-accented .roundup-card under the answer-box only while `until` >= build
       date, so it clears itself on the daily rebuild after the event. The West
       Coast Jul 11-14 roundup now surfaces on wa/or/ca hubs and is absent from me.
-- [ ] Exit-intent signup (desktop only, frequency-capped, 2nd pageview+).
+- [ ] **OWNER-DIRECTED 2026-07-26, scheduled for the 07-27 run:** Exit-intent
+      signup (desktop only, frequency-capped, 2nd pageview+). Owner asked that
+      tomorrow's run do its normal primary action PLUS this item — it is the
+      approved exception to the one-primary-action rule for 07-27. Context:
+      signup rate is ~0.6% of uniques vs the 1.5% target; conversion work is
+      the owner's priority. Keep it honest and unobtrusive: fires once per
+      visitor (localStorage frequency cap), desktop only, 2nd pageview or
+      later, never on a page where the inline form is already in view, easy
+      dismiss, copy matches the live "Sent every Thursday" promise. Emit a
+      PostHog event distinguishing this form (e.g. form: "exit-intent") so
+      signups-by-form stays measurable per playbook §1.
 - [ ] "Tidepooling 101 in 5 days" email course content (ships with Resend).
 - [ ] Print stylesheet polish for month pages (page-break rules).
 - [ ] 2-4 new stations: Crescent City CA (9419750), Westport WA (9441102),
