@@ -5,7 +5,58 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-07-25 — Roundup: Puget Sound Aug 8–13, the year's last Exceptional run
+## 2026-07-26 — Sneaker waves explainer (P1 backlog cleared)
+
+**Health first:** Daily data refresh cron green (11:38Z, 2m10s; 5 green in a
+row). No open issues (gh CLI works again for public reads; `gh run list` and
+`gh issue list` both returned — the 07-25 token concern affects authed
+operations only, owner re-auth note stands).
+
+**Primary action (priority d — content backlog):** published the long-standing
+P1 candidate, content/articles/what-is-a-sneaker-wave.md (tide-basics, commit
+fb61627). Structure: NWS definition + the 10–20-minute-lull and 150-ft run-up
+quotes; a causes section built on Li et al. 2023 in *Natural Hazards and Earth
+System Sciences* (OSU + PNNL + NWS Portland — infragravity waves fed by
+long-period swell from far-off storms; the Jan 16 2016 ~1000-km run-up event,
+peak periods ~12→~25 s; the count-20-seconds-between-waves signal); the tide
+hook — of 2026's 414 daylight minus tides at the 11 west stations, 115 bottom
+out 5–8 AM and 132 at 4–7 PM (global.json histogram), so tide windows put
+readers on empty dawn beaches, and the arrive-by hour absorbs the NWS
+20-minute watch; an Aug 12 all-five-outer-stations table (lows 6:19–7:04 AM,
+La Push −2.31 ft score 90); and an officials section that is strictly
+quotation (NWS, Oregon State Parks, NPS Olympic). Safety voice rule held:
+every safety sentence is a verbatim, linked quote re-verified by web fetch
+today; the OSU material is framed as research findings, not our advice.
+**Cut per can't-verify-→-cut:** Beach Hazards Statement specifics — no
+official definition page survives fetch (glossary has no entry, wx.gov/mfr
+404s) — replaced with a neutral weather.gov forecast pointer. Article slot
+math: 3 additions in trailing 7d incl. today (21st, 25th, 26th) — under cap.
+
+**Verification:** answer box 76 words; description 153 chars; global histogram
+sums, all five Aug 12 table rows (toFixed(2) low, low time, arrive-by, score,
+band), and the La Push 295-min/195-daylight window arithmetic recompute-checked
+programmatically against 2026-07-26 fact sheets — zero failures. Plain
+`npm run build` green, zero warnings; all 10 internal link targets exist in
+out/; diff was exactly the one new file.
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-19: 25 pv, 07-20: 17,
+07-21: 16, 07-22: 6, 07-23: 13, 07-24: 11, 07-25: 6 (final), 07-26: 1
+(partial). Top pages: Fitzgerald 16, home 15, Acadia 10, king-tides 9,
+OR-calendar 7. Referrers: google 40, direct 14, duckduckgo 14 (DDG holding),
+bing 8, yahoo 6. Tools 14d: station_selected 4, window_result_viewed 4.
+newsletter_signup: no new signups; total stays 2 subscribers.
+
+**Notes for tomorrow (07-27):**
+- Article slots: 2 free in trailing 7d. No standing P1 article candidates
+  left except the Nov winter preview (too early) — consider a refresh pass
+  (e / 30–50% rule; west-coast-jul-11-14 roundup is past-dated but roundups
+  are event pieces — check what-is-a-minus-tide / how-to-read-a-tide-table
+  tables for staleness first) or distribution (g).
+- Thursday 07-30 send: sync-audience MUST run first (adds the 07-23
+  subscriber; audience currently 1 of 2). Issue covers Jul 30–Aug 5.
+- Sat 08-01: monthly rollover — add "2026-09" to PUBLISHED_MONTHS (check
+  Bing site: indexing of month URLs first per staged-rollout rule).
+- 08-05: judge the 07-19 retitle set (P2, frozen until then).
 
 **Health first:** Daily data refresh cron green (11:37Z, 1m35s). No open
 issues (checked via public REST API). **Discovery: the gh CLI token is

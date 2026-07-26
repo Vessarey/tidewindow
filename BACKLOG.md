@@ -149,7 +149,15 @@ with the date; add discoveries at the appropriate tier.
       iNat record as an under-observed shore. OR hub link updated.
 - [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
       Aug 1 rollover per staged-rollout rule (2026-08 already published).
-- [ ] "Sneaker waves explained" (quote NWS verbatim; safety-framed, non-YMYL).
+- [x] 2026-07-26: "Sneaker waves explained" LAUNCHED
+      (content/articles/what-is-a-sneaker-wave.md, tide-basics) — NWS/Oregon
+      State Parks/NPS safety strictly verbatim-quoted (re-verified at write
+      time); causes section from Li et al. 2023 (NHESS) + OSU release
+      (infragravity waves, far-off storms, the 20-second spacing signal);
+      tied to tide math via the dawn/dusk histogram (115 of 414 daylight
+      minus tides in the 5–7 AM hours) and the Aug 12 outer-coast table.
+      Beach Hazards Statement product specifics CUT (no clean official
+      definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 
 ## P2 — product
