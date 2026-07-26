@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-25",
+ "generated_on": "2026-07-26",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 7,
-   "daylight_windows": 7,
-   "daylight_minus_tides": 7,
+   "lows_below_1ft": 6,
+   "daylight_windows": 6,
+   "daylight_minus_tides": 6,
    "best_window": {
     "date": "2026-07-31",
     "weekday": "Fri",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-25",
-   "weekday": "Sat",
-   "low_ft": -0.095,
-   "low_time_local": "4:55 AM",
-   "window_local": "3:05 AM–6:50 AM",
-   "arrive_by_local": "3:55 AM",
-   "daylight_min": 63,
-   "score": 42,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 49,
-   "min_to_sun_edge": -52
-  },
-  {
    "date": "2026-07-26",
    "weekday": "Sun",
    "low_ft": -0.482,
@@ -461,6 +447,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 67,
    "min_to_sun_edge": 4
+  },
+  {
+   "date": "2026-08-12",
+   "weekday": "Wed",
+   "low_ft": -2.313,
+   "low_time_local": "6:58 AM",
+   "window_local": "4:30 AM–9:25 AM",
+   "arrive_by_local": "5:58 AM",
+   "daylight_min": 195,
+   "score": 90,
+   "band": "Exceptional",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 75,
+   "min_to_sun_edge": 48
   }
  ],
  "species_last60d_5km": [
@@ -490,6 +490,11 @@
    "count": 7
   },
   {
+   "commonName": "Hind's Chiton",
+   "scientificName": "Mopalia hindsii",
+   "count": 6
+  },
+  {
    "commonName": "Rough Keyhole Limpet",
    "scientificName": "Diodora aspera",
    "count": 6
@@ -498,11 +503,6 @@
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
    "count": 6
-  },
-  {
-   "commonName": "Hind's Chiton",
-   "scientificName": "Mopalia hindsii",
-   "count": 5
   },
   {
    "commonName": "Monterey Dorid",
