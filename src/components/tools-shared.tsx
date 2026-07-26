@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import type { StationData } from "@/lib/format";
 import { assetUrl } from "@/lib/site-config";
 import { capture } from "@/components/analytics";
@@ -14,32 +14,49 @@ export interface StationOption {
   spots: string[];
 }
 
+// Module-level store the hook subscribes to via useSyncExternalStore: the
+// effect only mutates this store and notifies; render derives from it.
 const cache = new Map<string, StationData>();
+const inflight = new Set<string>();
+const listeners = new Set<() => void>();
+
+function subscribe(listener: () => void) {
+  listeners.add(listener);
+  return () => {
+    listeners.delete(listener);
+  };
+}
+
+function emit() {
+  for (const listener of listeners) listener();
+}
 
 export function useStationData(slug: string | null) {
-  const [data, setData] = useState<StationData | null>(slug ? cache.get(slug) ?? null : null);
-  const [loading, setLoading] = useState(false);
+  const data = useSyncExternalStore(
+    subscribe,
+    () => (slug ? cache.get(slug) ?? null : null),
+    () => null,
+  );
+  const loading = useSyncExternalStore(
+    subscribe,
+    () => (slug ? inflight.has(slug) : false),
+    () => false,
+  );
   useEffect(() => {
-    if (!slug) return;
-    if (cache.has(slug)) {
-      setData(cache.get(slug)!);
-      return;
-    }
-    let alive = true;
-    setLoading(true);
+    if (!slug || cache.has(slug)) return;
+    inflight.add(slug);
+    emit();
     fetch(assetUrl(`/data-json/stations/${slug}.json`))
       .then((r) => r.json())
       .then((d: StationData) => {
         cache.set(slug, d);
-        if (alive) {
-          setData(d);
-          setLoading(false);
-        }
+        inflight.delete(slug);
+        emit();
       })
-      .catch(() => alive && setLoading(false));
-    return () => {
-      alive = false;
-    };
+      .catch(() => {
+        inflight.delete(slug);
+        emit();
+      });
   }, [slug]);
   return { data: data && data.station.slug === slug ? data : null, loading };
 }
