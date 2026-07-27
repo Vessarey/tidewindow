@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-26",
+ "generated_on": "2026-07-27",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -101,34 +101,34 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-26",
+   "date": "2026-09-06",
    "weekday": "Sun",
-   "low_ft": -0.808,
-   "low_time_local": "8:50 AM",
-   "window_local": "6:35 AM–11:25 AM",
-   "arrive_by_local": "7:50 AM",
-   "daylight_min": 290,
-   "score": 76,
-   "band": "Great",
+   "low_ft": -1.084,
+   "low_time_local": "6:15 AM",
+   "window_local": "3:55 AM–9:00 AM",
+   "arrive_by_local": "5:15 AM",
+   "daylight_min": 144,
+   "score": 74,
+   "band": "Good",
    "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 6,
-   "daylight_windows": 6,
-   "daylight_minus_tides": 6,
+   "lows_below_1ft": 5,
+   "daylight_windows": 5,
+   "daylight_minus_tides": 5,
    "best_window": {
-    "date": "2026-07-26",
-    "weekday": "Sun",
-    "low_ft": -0.808,
-    "low_time_local": "8:50 AM",
-    "window_local": "6:35 AM–11:25 AM",
-    "arrive_by_local": "7:50 AM",
-    "daylight_min": 290,
-    "score": 76,
-    "band": "Great",
-    "weekend_or_holiday": true
+    "date": "2026-07-28",
+    "weekday": "Tue",
+    "low_ft": -1.132,
+    "low_time_local": "10:05 AM",
+    "window_local": "7:50 AM–12:45 PM",
+    "arrive_by_local": "9:05 AM",
+    "daylight_min": 295,
+    "score": 73,
+    "band": "Good",
+    "weekend_or_holiday": false
    }
   },
   "2026-08": {
@@ -458,6 +458,11 @@
    "count": 3
   },
   {
+   "commonName": "Pacific Oyster",
+   "scientificName": "Magallana gigas",
+   "count": 3
+  },
+  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
    "count": 2
@@ -485,11 +490,6 @@
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
-   "count": 1
-  },
-  {
-   "commonName": "Lewis's Moon Snail",
-   "scientificName": "Neverita lewisii",
    "count": 1
   }
  ]

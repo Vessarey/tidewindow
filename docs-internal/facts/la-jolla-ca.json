@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-26",
+ "generated_on": "2026-07-27",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 5,
+   "lows_below_1ft": 4,
    "daylight_windows": 3,
    "daylight_minus_tides": 3,
    "best_window": {
@@ -472,22 +472,27 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 123
+   "count": 124
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 104
+   "count": 111
   },
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 72
+   "count": 75
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 61
+   "count": 64
+  },
+  {
+   "commonName": "McDonald's Dorid",
+   "scientificName": "Limacia mcdonaldi",
+   "count": 44
   },
   {
    "commonName": "Gould Beanclam",
@@ -495,14 +500,9 @@
    "count": 43
   },
   {
-   "commonName": "McDonald's Dorid",
-   "scientificName": "Limacia mcdonaldi",
-   "count": 43
-  },
-  {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 41
+   "count": 42
   },
   {
    "commonName": "Fisher's Aeolid",
