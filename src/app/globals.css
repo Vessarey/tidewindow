@@ -217,6 +217,38 @@ h1, h2, h3, h4 {
 .signup-error { color: var(--color-gold); font-size: 0.85rem; margin-top: 0.5rem; }
 .signup-done { font-family: var(--font-display); font-size: 1.15rem; }
 
+/* Exit-intent newsletter prompt (desktop only; see exit-intent-signup.tsx) */
+.exit-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--color-ink) 55%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.exit-dialog {
+  position: relative;
+  width: min(30rem, 100%);
+}
+.exit-dialog .signup-box { margin: 0; box-shadow: 0 18px 50px rgb(6 24 29 / 0.45); }
+.exit-close {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.7rem;
+  z-index: 1;
+  background: transparent;
+  border: none;
+  color: var(--color-foam);
+  opacity: 0.7;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.25rem 0.4rem;
+}
+.exit-close:hover { opacity: 1; }
+
 /* Heatmap */
 .heatmap-cell {
   aspect-ratio: 1;

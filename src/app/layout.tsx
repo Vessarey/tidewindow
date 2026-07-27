@@ -3,6 +3,7 @@ import { Fraunces, Inter, IBM_Plex_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import Analytics from "@/components/analytics";
+import ExitIntentSignup from "@/components/exit-intent-signup";
 import { WebSiteJsonLd } from "@/components/json-ld";
 import { siteConfig, absoluteUrl } from "@/lib/site-config";
 
@@ -47,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <WebSiteJsonLd />
         <Analytics />
+        <ExitIntentSignup />
         <header className="border-b border-ink/15 bg-foam">
           <div className="mx-auto flex max-w-5xl flex-wrap items-baseline gap-x-8 gap-y-2 px-5 py-4">
             <Link href="/" className="text-2xl" style={{ fontFamily: "var(--font-display)", fontWeight: 600 }}>
