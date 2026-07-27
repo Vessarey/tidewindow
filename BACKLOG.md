@@ -206,17 +206,25 @@ with the date; add discoveries at the appropriate tier.
       kelp-accented .roundup-card under the answer-box only while `until` >= build
       date, so it clears itself on the daily rebuild after the event. The West
       Coast Jul 11-14 roundup now surfaces on wa/or/ca hubs and is absent from me.
-- [ ] **OWNER-DIRECTED 2026-07-26, scheduled for the 07-27 run:** Exit-intent
-      signup (desktop only, frequency-capped, 2nd pageview+). Owner asked that
-      tomorrow's run do its normal primary action PLUS this item — it is the
-      approved exception to the one-primary-action rule for 07-27. Context:
-      signup rate is ~0.6% of uniques vs the 1.5% target; conversion work is
-      the owner's priority. Keep it honest and unobtrusive: fires once per
-      visitor (localStorage frequency cap), desktop only, 2nd pageview or
-      later, never on a page where the inline form is already in view, easy
-      dismiss, copy matches the live "Sent every Thursday" promise. Emit a
-      PostHog event distinguishing this form (e.g. form: "exit-intent") so
-      signups-by-form stays measurable per playbook §1.
+- [x] 2026-07-27: **OWNER-DIRECTED exit-intent signup SHIPPED** (commit
+      bf8f73b) — desktop pointers only (hover+fine media query), real
+      top-edge exits only, 2nd pageview or later (tw_pageviews localStorage
+      counter), once per visitor ever (tw_exit_prompt cap), suppressed while
+      any inline .signup-box is in viewport (without burning the cap) and
+      for visitors with a prior local signup; dismiss via close button,
+      Escape, or backdrop click; copy matches "Sent every Thursday".
+      Signups go through the shared EmailSignup with **source:
+      "exit-intent"** (NB: the measurable property on newsletter_signup is
+      `source`, not `form` — existing inline forms already use it) and a
+      capped `exit_intent_shown` event records prompt impressions. All six
+      behavior gates verified in-browser against the built site;
+      exit_intent_shown verified landing in PostHog (from localhost —
+      host-filtered out of production metrics).
+- [ ] **2026-08-10: judge the exit-intent prompt** — in PostHog compare
+      `exit_intent_shown` count vs `newsletter_signup` where
+      source="exit-intent" (host-filtered) over the first 2 weeks. If
+      impressions accumulate with zero signups, revisit copy; if it
+      converts, consider extending eligibility (e.g. 1st pageview).
 - [ ] "Tidepooling 101 in 5 days" email course content (ships with Resend).
 - [ ] Print stylesheet polish for month pages (page-break rules).
 - [ ] 2-4 new stations: Crescent City CA (9419750), Westport WA (9441102),

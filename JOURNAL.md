@@ -5,6 +5,100 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-27 — Exit-intent signup shipped (owner-directed) + first refresh pass
+
+**Health first:** As of 12:40 UTC today's "Daily data refresh" cron had NOT
+fired (scheduled 10:17 UTC; the last five fired 11:37–12:05). The workflow
+reports state "active" via the public API and the last five runs are green,
+so this reads as GitHub scheduler delay, not a failure — but it was still
+missing when this run closed. Site correctness is unaffected (committed
+data-json covers through Aug 2027; deploys build from committed data). I
+cannot re-dispatch it: workflow_dispatch needs auth and the gh token is
+still invalid (owner re-auth note stands). **Tomorrow: verify a 07-27 or
+07-28 refresh landed; if the cron went silent without a red run, that is
+the day's only task per §2a.** No open reader issues (public API).
+
+**Owner-directed action (approved two-action day): exit-intent signup
+SHIPPED** (commit bf8f73b). Scope exactly per the owner's constraints:
+desktop pointers only via `(hover: hover) and (pointer: fine)`; triggers
+only on a real top-edge mouse exit; 2nd pageview or later (localStorage
+`tw_pageviews`, counted across hard loads and soft navs via usePathname);
+fires once per visitor ever (`tw_exit_prompt` cap, and no-storage browsers
+fail closed to never-show); suppressed while any inline signup form is in
+the viewport — without burning the cap, so it can still fire on a later
+page — and for visitors who already signed up locally; dismissible by
+close button, Escape, or backdrop click; copy repeats the live "Sent every
+Thursday" promise, nothing more. Signups reuse the shared EmailSignup with
+**source: "exit-intent"** — note the segmenting property on
+newsletter_signup events is `source` (the existing inline forms populate
+it; the owner's note said `form`, but a new property would have split the
+schema). A capped `exit_intent_shown` event (with pathname) records
+impressions so prompt-to-signup conversion is measurable; judgment item
+dated 2026-08-10 added to BACKLOG. Verified on the built site in-browser:
+all six gates exercised (fires when eligible; no fire on 1st pageview,
+with cap set, with inline form in view — cap preserved —, or when already
+subscribed; Escape/backdrop dismiss) and exit_intent_shown confirmed
+landing in PostHog. Test events came from host localhost:4174, which the
+host-filtered queries already exclude.
+
+**Primary action (priority e — first refresh pass of the site):**
+content/articles/how-to-read-a-tide-table.md (commit fc7f7aa). Its worked
+example — the July 12–17 Newport run, the article's spine — had fully
+passed. Rolled the example to Wed Aug 12 (−1.913 ft, 6:46 AM, 4:30–9:15
+AM, 179 daylight min, score 88), which doubles as the August half of the
+article's existing Aug-12-vs-Dec-23 twin comparison, so the piece now
+reads one row and then meets that row's December near-twin (−1.910 ft,
+0.003 ft apart — both re-verified). Run table is now Aug 10–15; the two
+pattern claims were recomputed, not carried over (shoulders Aug 11/13
+differ 0.027 ft; low-to-low drift 37–50 min across the run); the
+month-generosity sentence rolled July→August (31 lows below +1.0 ft, 17
+daylight windows, 13 minus tides) with the internal link now pointing at
+/beaches/or/newport-or/2026-08/. July 15's −2.522 ft stays as an
+explicitly past-tense historical reference (verified against fact sheets
+at original publish; forward-looking facts can no longer recompute past
+dates). Recompute-check ran programmatically against the 2026-07-26 fact
+sheets + committed data-json: every table row, window duration, delta,
+and month stat passed (the only "failures" were a checker string-format
+bug, re-run clean). `updated: 2026-07-27` set; renders as "updated Jul
+27, 2026". Article-slot note: this was a refresh, not an addition — the
+trailing-7d addition count stays 3 (21st, 25th, 26th).
+
+**Deliberate choice:** ran plain `npm run build` despite touching code.
+§0.6 says PIPELINE_REFRESH=1 for code changes, but that flag exists to
+exercise the NOAA fetch path (§1: the cron owns data refresh), and this
+change is UI-only — a local refresh would have churned data-json ahead of
+the late cron and raced its push. Both builds green, zero warnings; diff
+reviewed both commits (feature files + one article file, no data churn).
+
+**Metrics (PostHog, last 7d, host-filtered):** 07-20: 17 pv, 07-21: 16,
+07-22: 6, 07-23: 13, 07-24: 11, 07-25: 6, 07-26: 11 (final), 07-27: 6
+(partial). Top pages: home 19, king-tides 10, Acadia 9, Fitzgerald 9,
+OR-calendar 7. Referrers: google 35, duckduckgo 17 (DDG holding strong),
+direct 15, bing 7, yahoo 6. Tools 14d: station_selected 4,
+window_result_viewed 4. newsletter_signup: no new signups — the 3rd event
+now in the 14d window is the known 07-17 signup; total stays 2
+subscribers. Signup rate context for the exit-intent work: 2 distinct
+subscribers on ~350 all-time uniques ≈ 0.6% vs the 1.5% target.
+
+**Notes for tomorrow (07-28):**
+- **First: confirm the daily refresh cron recovered** (a 07-27 or 07-28
+  green run + data commit). If it silently stopped firing, that is the
+  day's only task; without gh auth the fallback is investigating the
+  workflow file/API and journaling for the owner.
+- Watch `exit_intent_shown` in PostHog (host-filtered) — first real
+  impressions should appear within days; formal judgment 2026-08-10.
+- Thursday 07-30 send: sync-audience MUST run first (adds the 07-23
+  subscriber; audience currently 1 of 2). Issue covers Jul 30–Aug 5.
+- Sat 08-01: monthly rollover — add "2026-09" to PUBLISHED_MONTHS (check
+  Bing site: indexing of month URLs first per staged-rollout rule).
+- 08-05: judge the 07-19 retitle set (P2, frozen until then).
+- Article slots: 2 free in trailing 7d (additions 25th, 26th remain).
+  No standing P1 candidates; next refresh-pass candidate:
+  what-is-a-minus-tide (its 12-station tables still read correctly but
+  were computed 07-03; FAQ example dates have passed).
+
+---
+
 ## 2026-07-26 — Sneaker waves explainer (P1 backlog cleared)
 
 **Health first:** Daily data refresh cron green (11:38Z, 2m10s; 5 green in a
