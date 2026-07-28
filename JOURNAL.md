@@ -5,6 +5,71 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-28 — Haystack Rock guide refreshed to the Aug 11–14 run
+
+**Health first:** Yesterday's cron worry resolved — the 07-27 "Daily data
+refresh" ran green at 13:22Z (late by ~3h, GitHub scheduler delay as
+suspected; 6 green in a row). Today's run had not fired yet when checked at
+12:04Z — same delay pattern, not alarming; fact sheets are fresh
+(generated 2026-07-27). No open issues (public API; gh CLI still needs
+owner re-auth).
+
+**Priority-queue walk:** (b) triggered — the Aug 8–14 run is inside 14
+days with Exceptional windows (Port Townsend 100 on Sun Aug 9, Seattle
+98; La Push 90s Aug 12–13) — but it is already fully covered: the
+2026-07-25 Puget Sound roundup (featured on the WA hub through Aug 13)
+and the OR hub roundup (through Aug 14). I verified the roundup's full
+PT/Seattle table against the 07-27 fact sheets — every number still
+matches. (c) rollover waits for Aug 1; (d) P1 queue is empty; so (e)
+refresh pass.
+
+**Primary action (priority e — refresh):** Haystack Rock guide (commit
+234a8b6), the oldest stale article (published 07-02, untouched, spine =
+the passed Jul 13–16 run). Rolled the spine to Aug 11–14 — conveniently
+also "four mornings," and genuinely the year's last minus-tide dawn run
+at Garibaldi (after it, deepest remaining daylight low is Dec 22's
+−1.35 ft — verified). New best-8 table (computed 2026-07-27), month
+table now Aug–Dec (fact-sheet months are forward-looking; July's row
+can no longer be recomputed and was dropped), FAQ answers rolled
+(lowest-2026 split into past/remaining, arrive-by → Aug 12 6:04 AM,
+puffins → Aug 13/14), golden-hour pick now Aug 11 (6:18 AM low, 6 min
+off the sun edge, best of the run), weekend pick Sat Aug 15. July 15's
+−2.35 ft stays as explicit past-tense history per the 07-27 precedent.
+Puffin claims (April–August presence, 8–11 AM viewing, second-largest
+onshore colony, northeast grassy patch) re-verified verbatim from
+haystackrockawareness.com/puffins at write time. Recompute-check ran
+programmatically: 38 checks against the fact sheet, all pass (one
+apparent failure was the checker's toFixed float artifact on −0.595 →
+−0.60; site renders one decimal, −0.6, so −0.60 is right). Plain build
+green, zero warnings; diff reviewed, one file only. This was a refresh,
+not an addition — trailing-7d additions stay 2 (25th, 26th).
+
+**Metrics (PostHog, host-filtered):** 07-27 spiked to 29 pv / 18 uniques
+(recent baseline 6–16), driven by duckduckgo (18 refs that day; 33 over
+7d vs google 27 — DDG is now the top 7d referrer). Spread across pages:
+king-tides 4, La Push hub 3, La Push guide 3, /beaches/ 3. 7d top pages:
+home 14, Acadia 10, OR calendar 8, Fitzgerald 8, king-tides 7. Signups:
+none new; all-time stays 2 distinct subscribers (the 07-23 tool_gate
+event double-fired but is one email — kuschs@). exit_intent_shown:
+zero impressions so far (shipped 07-27; desktop-only + 2nd-pageview +
+top-edge gates make impressions naturally rare at this traffic).
+
+**Notes for tomorrow (07-29):**
+- Verify the 07-28 cron eventually fired green (pattern: 1–3h late).
+- Thursday 07-30 is send day: sync-audience FIRST (audience currently 1
+  of 2 — must pick up kuschs@), then dry-run → recompute-check →
+  --send --owner-reviewed. Issue covers Jul 30–Aug 5.
+- Next refresh candidate: how-to-plan-a-tidepooling-trip-around-minus-tides
+  (present-tense "marquee run is July 13–16" + a stale "/2026-07/"
+  month link and 07-03-computed aggregates) — noted while checking
+  inbound links to Haystack. Also still pending: what-is-a-minus-tide
+  (tables computed 07-03).
+- Sat 08-01: monthly rollover — add "2026-09" to PUBLISHED_MONTHS
+  (check Bing site: indexing of month URLs first).
+- Watch exit_intent_shown; formal judgment 2026-08-10.
+
+---
+
 ## 2026-07-27 — Exit-intent signup shipped (owner-directed) + first refresh pass
 
 **Health first:** As of 12:40 UTC today's "Daily data refresh" cron had NOT

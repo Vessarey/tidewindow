@@ -159,6 +159,13 @@ with the date; add discoveries at the appropriate tier.
       Beach Hazards Statement product specifics CUT (no clean official
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
+- [ ] Refresh-pass queue (priority e, not additions): 1)
+      how-to-plan-a-tidepooling-trip-around-minus-tides — present-tense
+      "marquee run is July 13–16", stale /beaches/or/newport-or/2026-07/
+      link, 07-03-computed OR aggregates (spotted 2026-07-28); 2)
+      what-is-a-minus-tide — 12-station tables computed 07-03, FAQ
+      example dates passed. Haystack Rock done 2026-07-28 (commit
+      234a8b6); how-to-read-a-tide-table done 2026-07-27.
 
 ## P2 — product
 
