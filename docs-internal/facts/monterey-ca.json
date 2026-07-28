@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-27",
+ "generated_on": "2026-07-28",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 4,
-   "daylight_windows": 4,
-   "daylight_minus_tides": 4,
+   "lows_below_1ft": 3,
+   "daylight_windows": 3,
+   "daylight_minus_tides": 3,
    "best_window": {
     "date": "2026-07-31",
     "weekday": "Fri",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-28",
-   "weekday": "Tue",
-   "low_ft": -0.47,
-   "low_time_local": "5:08 AM",
-   "window_local": "2:45 AM–7:40 AM",
-   "arrive_by_local": "4:08 AM",
-   "daylight_min": 89,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 55,
-   "min_to_sun_edge": -63
-  },
-  {
    "date": "2026-07-29",
    "weekday": "Wed",
    "low_ft": -0.51,
@@ -461,6 +447,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 78,
    "min_to_sun_edge": 77
+  },
+  {
+   "date": "2026-08-12",
+   "weekday": "Wed",
+   "low_ft": -1.112,
+   "low_time_local": "5:07 AM",
+   "window_local": "2:35 AM–7:45 AM",
+   "arrive_by_local": "4:07 AM",
+   "daylight_min": 82,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 58,
+   "min_to_sun_edge": -76
   }
  ],
  "species_last60d_5km": [
@@ -470,23 +470,23 @@
    "count": 34
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 33
-  },
-  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 33
   },
   {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 18
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 32
   },
   {
    "commonName": "White-speckled Dorid",
    "scientificName": "Doriopsilla fulva",
+   "count": 19
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
    "count": 18
   },
   {

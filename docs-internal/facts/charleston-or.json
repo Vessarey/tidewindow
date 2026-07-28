@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-27",
+ "generated_on": "2026-07-28",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -475,14 +475,14 @@
    "count": 7
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 5
-  },
-  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
    "count": 5
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 4
   },
   {
    "commonName": "Chan's Dorid",

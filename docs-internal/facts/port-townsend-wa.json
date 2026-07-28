@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-27",
+ "generated_on": "2026-07-28",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 5,
-   "daylight_windows": 5,
-   "daylight_minus_tides": 5,
+   "lows_below_1ft": 4,
+   "daylight_windows": 4,
+   "daylight_minus_tides": 4,
    "best_window": {
     "date": "2026-07-28",
     "weekday": "Tue",
@@ -445,12 +445,17 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 12
+   "count": 13
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
    "count": 7
+  },
+  {
+   "commonName": "Nuttall's Cockle",
+   "scientificName": "Clinocardium nuttallii",
+   "count": 3
   },
   {
    "commonName": "Frilled Dogwinkle",
@@ -485,11 +490,6 @@
   {
    "commonName": "Shield Limpet",
    "scientificName": "Lottia pelta",
-   "count": 1
-  },
-  {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
    "count": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-27",
+ "generated_on": "2026-07-28",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -115,7 +115,7 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 4,
+   "lows_below_1ft": 3,
    "daylight_windows": 3,
    "daylight_minus_tides": 0,
    "best_window": {
@@ -467,7 +467,7 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 22
+   "count": 21
   },
   {
    "commonName": "Atlantic Dogwhelk",
@@ -475,24 +475,14 @@
    "count": 11
   },
   {
-   "commonName": "Atlantic Jackknife",
-   "scientificName": "Ensis leei",
-   "count": 10
-  },
-  {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
    "count": 8
   },
   {
-   "commonName": "Soft-shelled Clam",
-   "scientificName": "Mya arenaria",
-   "count": 3
-  },
-  {
-   "commonName": "Tortoiseshell Limpet",
-   "scientificName": "Testudinalia testudinalis",
-   "count": 3
+   "commonName": "Atlantic Jackknife",
+   "scientificName": "Ensis leei",
+   "count": 8
   },
   {
    "commonName": "barnacle-eating dorid",
@@ -500,18 +490,28 @@
    "count": 2
   },
   {
-   "commonName": "Eastern Oyster",
-   "scientificName": "Crassostrea virginica",
+   "commonName": "Soft-shelled Clam",
+   "scientificName": "Mya arenaria",
    "count": 2
   },
   {
-   "commonName": "West Atlantic Surfclam",
-   "scientificName": "Spisula solidissima",
+   "commonName": "Tortoiseshell Limpet",
+   "scientificName": "Testudinalia testudinalis",
    "count": 2
+  },
+  {
+   "commonName": "Eastern Oyster",
+   "scientificName": "Crassostrea virginica",
+   "count": 1
   },
   {
    "commonName": "Crowned Seaslug",
    "scientificName": "Doto coronata",
+   "count": 1
+  },
+  {
+   "commonName": "Blue Mussel",
+   "scientificName": "Mytilus edulis",
    "count": 1
   }
  ]
