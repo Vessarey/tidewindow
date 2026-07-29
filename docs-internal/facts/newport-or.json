@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-28",
+ "generated_on": "2026-07-29",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -115,9 +115,9 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 4,
-   "daylight_windows": 4,
-   "daylight_minus_tides": 4,
+   "lows_below_1ft": 3,
+   "daylight_windows": 3,
+   "daylight_minus_tides": 3,
    "best_window": {
     "date": "2026-07-31",
     "weekday": "Fri",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-28",
-   "weekday": "Tue",
-   "low_ft": -0.731,
-   "low_time_local": "6:41 AM",
-   "window_local": "4:40 AM–8:50 AM",
-   "arrive_by_local": "5:41 AM",
-   "daylight_min": 172,
-   "score": 63,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 69,
-   "min_to_sun_edge": 43
-  },
-  {
    "date": "2026-07-29",
    "weekday": "Wed",
    "low_ft": -0.933,
@@ -461,13 +447,27 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 81,
    "min_to_sun_edge": 71
+  },
+  {
+   "date": "2026-08-25",
+   "weekday": "Tue",
+   "low_ft": -0.083,
+   "low_time_local": "5:35 AM",
+   "window_local": "3:55 AM–7:20 AM",
+   "arrive_by_local": "4:35 AM",
+   "daylight_min": 49,
+   "score": 30,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 64,
+   "min_to_sun_edge": -56
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 76
+   "count": 77
   },
   {
    "commonName": "Monterey Dorid",
