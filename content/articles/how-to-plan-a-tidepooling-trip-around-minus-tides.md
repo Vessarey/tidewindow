@@ -2,15 +2,16 @@
 title: "How to Plan a Tidepooling Trip Around Minus Tides (Complete 2026 Guide)"
 description: "The 2026 daylight minus-tide season region by region: how low is low enough, when to arrive, and why the deepest windows land on weekday mornings."
 date: "2026-07-03"
+updated: "2026-07-29"
 category: "tide-basics"
 tags: ["trip planning", "minus tide", "tide windows", "2026 season", "tidepooling"]
 faq:
   - q: "When is the best time to go tidepooling in 2026?"
-    a: "On the Pacific Northwest coast, the week of July 13–16, 2026: Newport, Oregon (NOAA 9435380) bottoms at −2.52 ft at 7:50 AM on July 15, and Seattle (NOAA 9447130) hits −3.80 ft at 11:20 AM on July 14. Southern California flips seasons — La Jolla (NOAA 9410230) gets 16 daylight minus tides in December 2026, with a −1.72 ft low at 4:33 PM on December 25."
+    a: "The year's deepest week — July 13–16, when Seattle (NOAA 9447130) hit −3.80 ft — has passed. The best remaining Pacific Northwest stretch is August 8–14, 2026: Port Townsend (NOAA 9444900) scores a perfect 100 on Sunday, August 9 (−2.05 ft at 7:38 AM), and Newport, Oregon (NOAA 9435380) bottoms at −1.91 ft at 6:46 AM on August 12. Southern California flips seasons — La Jolla (NOAA 9410230) gets 16 daylight minus tides in December 2026, with a −1.72 ft low at 4:33 PM on December 25."
   - q: "How long before low tide should I arrive?"
-    a: "The National Park Service advises arriving at least 30 minutes before the lowest tide; Tidewindow's arrive-by times are set a full hour before the predicted low. For Newport's −2.52 ft low at 7:50 AM on July 15, 2026, that means being on the sand by 6:50 AM, following the water out, and turning back as the flood starts."
+    a: "The National Park Service advises arriving at least 30 minutes before the lowest tide; Tidewindow's arrive-by times are set a full hour before the predicted low. For Newport's −1.91 ft low at 6:46 AM on August 12, 2026, that means being on the sand by 5:46 AM, following the water out, and turning back as the flood starts."
   - q: "Do good minus tides ever happen on weekends?"
-    a: "Rarely. Of the 40 deepest daylight windows of 2026 — the four deepest at each of ten regional stations, every West Coast station Tidewindow tracks except La Push — only 5 fall on a weekend or holiday, and three of those are Christmas Day in Southern California. The only summer weekend entries are Sunday, July 12 in Puget Sound: −3.16 ft at Seattle and −3.10 ft at Port Townsend."
+    a: "Rarely. Of the 40 deepest daylight windows of 2026 — the four deepest at each of ten regional stations, every West Coast station Tidewindow tracks except La Push — only 5 fall on a weekend or holiday, and three of those are Christmas Day in Southern California. The only summer weekend entries were Sunday, July 12 in Puget Sound: −3.16 ft at Seattle and −3.10 ft at Port Townsend. By score rather than raw depth, the next weekend worth circling is August 8–9, 2026, also in Puget Sound."
   - q: "How low does the tide need to be for tide pools?"
     a: "Anything below 0.0 ft MLLW is a minus tide and worth a look. Tidewindow's working rule on the Pacific coast is −0.5 ft or lower for a proper tidepool trip, and about −1.0 ft on the East Coast, where daily lows sit differently against the datum. In 2026, West Coast stations get 940 minus tides, but only 535 (57 percent) happen in daylight."
 sources:
@@ -31,7 +32,7 @@ sources:
   - "https://www.nps.gov/places/endertsbeach.htm"
 ---
 
-**Pick a daylight minus tide first, then build the day around its arrive-by time. In 2026, the eleven West Coast stations Tidewindow tracks get 940 minus tides, but only 535 of them — 57 percent — fall in daylight, and the deepest cluster lands July 13–16. Newport, Oregon (NOAA station 9435380) bottoms out at −2.52 ft at 7:50 AM on July 15; be on the sand by 6:50 AM. Everything else in this guide is detail on that one move.**
+**Pick a daylight minus tide first, then build the day around its arrive-by time. In 2026, the eleven West Coast stations Tidewindow tracks get 940 minus tides, but only 535 of them — 57 percent — fall in daylight. The deepest cluster, July 13–16, has passed; the best remaining stretch is August 8–14. Newport, Oregon (NOAA station 9435380) bottoms out at −1.91 ft at 6:46 AM on August 12; be on the sand by 5:46 AM. Everything else in this guide is detail on that one move.**
 
 Tidepooling is the rare trip where the schedule is genuinely not up to you. The moon picks the day, the sun picks the hour, and your job is reading the intersection. The good news: NOAA publishes harmonic tide predictions years ahead, so the intersection is computable for 2026, for every station, right now. Here's how to use it.
 
@@ -52,25 +53,25 @@ Two working rules, both tested against a year of NOAA predictions in [the −0.5
 - **Pacific coast: −0.5 ft or lower** for a trip worth planning around.
 - **East Coast: about −1.0 ft**, because the tide range and the datum sit differently there; the full reasoning is in [Why East Coast Tide Pooling Is Different](/guides/east-coast-tide-pooling-different/).
 
-Thresholds matter because they decide which days qualify. Newport logs 24 lows below +1.0 ft in July 2026, nearly one per day, which sounds abundant. But only 19 of those produce a usable daylight window, and only 17 are daylight *minus* tides. Tighten the filter to the truly deep stuff and you get four mornings: July 13–16, all below −2.2 ft. Scarcity is the normal condition. (Computed 2026-07-03 from NOAA station 9435380 predictions.)
+Thresholds matter because they decide which days qualify. Newport logs 31 lows below +1.0 ft in August 2026, one a day, which sounds abundant. But only 17 of those produce a usable daylight window, and only 13 are daylight *minus* tides. Tighten the filter to the truly deep stuff and you get four mornings: August 11–14, all below −1.3 ft. Scarcity is the normal condition. (Computed 2026-07-29 from NOAA station 9435380 predictions.)
 
 ## How do you read a tide window?
 
-A **window** is the stretch when the water is below the walkable threshold *and* the sun is up. Every window on Tidewindow carries the same five numbers. Here is the best one at Newport this month, straight from the [tide window finder](/tools/tide-window-finder/):
+A **window** is the stretch when the water is below the walkable threshold *and* the sun is up. Every window on Tidewindow carries the same five numbers. Here is Newport's best remaining one this season, straight from the [tide window finder](/tools/tide-window-finder/):
 
-| Field | Wednesday, July 15, 2026 — Newport (NOAA 9435380) |
+| Field | Wednesday, August 12, 2026 — Newport (NOAA 9435380) |
 |---|---|
-| Window | 5:25 AM – 10:30 AM |
-| Predicted low | −2.52 ft at 7:50 AM |
-| **Arrive by** | **6:50 AM** |
-| Daylight in window | 285 of 305 minutes |
-| Score | 90 — Exceptional |
+| Window | 4:30 AM – 9:15 AM |
+| Predicted low | −1.91 ft at 6:46 AM |
+| **Arrive by** | **5:46 AM** |
+| Daylight in window | 179 of 285 minutes |
+| Score | 88 — Great |
 
-*Computed 2026-07-03 from NOAA station 9435380 predictions.*
+*Computed 2026-07-29 from NOAA station 9435380 predictions.*
 
 Reading it, top to bottom:
 
-**The window edges** are when the tide crosses the threshold going out and coming back. The full span is 305 minutes, but the sun isn't up for the first 20 of them, hence the 285.
+**The window edges** are when the tide crosses the threshold going out and coming back. The full span is 285 minutes, but the sun isn't up for the first 106 of them, hence the 179.
 
 **Arrive by** is one hour before the predicted low. This is the core habit of the whole hobby: you walk out *with* the ebb, reach the deepest exposed zone right at slack low, and let the flood push you back toward the trailhead. Arrive at the predicted low instead and you get half the trip; arrive after it and the ocean is already reclaiming the good stuff. (The National Park Service's floor is "at least 30 minutes before the lowest tide," quoted in full in the safety section. We build in sixty.)
 
@@ -95,19 +96,19 @@ Read the columns and you can see the season migrating: the Northwest gets a summ
 
 ### Puget Sound: big numbers, civilized hours
 
-The Salish Sea has the friendliest tidepooling schedule in the country. Lows are deep and they arrive mid-to-late morning, no headlamp required: [Seattle](/beaches/wa/seattle-wa/) (NOAA 9447130) bottoms at **−3.80 ft at 11:20 AM on July 14**, with the entire 8:50 AM–1:55 PM window in daylight. [Port Townsend](/beaches/wa/port-townsend-wa/) (NOAA 9444900) does even better on duration: its July 11 window runs 347 daylight minutes around a −2.36 ft low.
+The Salish Sea has the friendliest tidepooling schedule in the country. Lows are deep and they arrive mid-to-late morning, no headlamp required: [Seattle](/beaches/wa/seattle-wa/) (NOAA 9447130) bottomed at **−3.80 ft at 11:20 AM on July 14**, the deepest daylight water of the Sound's year, with the entire window in daylight.
 
-July gives the two stations 37 daylight minus tides between them; August brings a genuine weekend gift, with Sunday, August 9 scoring 98 at Seattle (−1.91 ft at 8:29 AM) and 100 at Port Townsend (−2.05 ft at 7:38 AM). Then the door closes hard: Seattle records zero daylight minus tides in October, November, and December. If Puget Sound is your water, the [2026 Puget Sound low tide calendar](/guides/puget-sound-low-tide-calendar-2026/) ranks the whole summer, and the [August calendar for Seattle](/beaches/wa/seattle-wa/2026-08/) has every window that month. We also track [La Push](/beaches/wa/la-push-wa/) on Washington's outer coast. (Computed 2026-07-03 from NOAA stations 9447130 and 9444900 predictions.)
+What's left is still generous. August brings a genuine weekend gift: Sunday, August 9 scores 98 at Seattle (−1.91 ft at 8:29 AM) and a perfect 100 at Port Townsend (−2.05 ft at 7:38 AM), the opening of the Sound's last Exceptional run of the year, August 8–13 — day-by-day numbers in the [Puget Sound August 8–13 roundup](/guides/puget-sound-minus-tides-august-8-13-2026/). Then the door closes hard: Seattle records zero daylight minus tides in October, November, and December. If Puget Sound is your water, the [2026 Puget Sound low tide calendar](/guides/puget-sound-low-tide-calendar-2026/) ranks the whole summer, and the [August calendar for Seattle](/beaches/wa/seattle-wa/2026-08/) has every window that month. We also track [La Push](/beaches/wa/la-push-wa/) on Washington's outer coast. (Computed 2026-07-29 from NOAA stations 9447130 and 9444900 predictions; the July 14 figure was computed at original publish, 2026-07-03.)
 
 ### Oregon: dawn in July, dusk in December
 
-Outer-coast Oregon lows land around sunrise in summer. The marquee run is **July 13–16**, when all four stations we track ([Garibaldi](/beaches/or/garibaldi-or/), [Newport](/beaches/or/newport-or/), [Charleston](/beaches/or/charleston-or/), and [Port Orford](/beaches/or/port-orford-or/)) post their deepest daylight tide of the year, each one an Exceptional-band weekday morning. Newport strings together four consecutive dawns below −2.2 ft. The [full-year Oregon minus tide calendar](/guides/oregon-coast-minus-tide-calendar-2026/) lists them month by month, and the [Newport July calendar](/beaches/or/newport-or/2026-07/) has this month's windows; reef-specific dates for Cannon Beach are in the [Haystack Rock windows guide](/guides/haystack-rock-tidepool-windows-2026/).
+Outer-coast Oregon lows land around sunrise in summer. The marquee run was **July 13–16**, when all four stations we track ([Garibaldi](/beaches/or/garibaldi-or/), [Newport](/beaches/or/newport-or/), [Charleston](/beaches/or/charleston-or/), and [Port Orford](/beaches/or/port-orford-or/)) posted their deepest daylight tide of the year. One dawn run remains: **August 11–14**, all four stations peaking on Wednesday the 12th, Newport deepest at −1.91 ft — the coast-wide picture is in the [Best Tide Pools in Oregon hub](/guides/best-tide-pools-oregon-2026/). The [full-year Oregon minus tide calendar](/guides/oregon-coast-minus-tide-calendar-2026/) lists windows month by month, and the [Newport August calendar](/beaches/or/newport-or/2026-08/) has this month's; reef-specific dates for Cannon Beach are in the [Haystack Rock windows guide](/guides/haystack-rock-tidepool-windows-2026/).
 
 The season sags in fall (the four Oregon stations combined drop from 66 daylight minus tides in July to 18 in September), then does something useful: it comes back in the late afternoon. Port Orford alone gets 9 daylight minus tides in December, the best a −2.07 ft low at 5:26 PM on December 23. Those pre-sunset winter lows are prime [agate-hunting](/guides/agate-hunting-oregon-coast/) conditions, and post-storm lows are their own discipline; see [storm beachcombing](/guides/storm-beachcombing-winter-swell/). (Computed 2026-07-03 from NOAA stations 9437540, 9435380, 9432780, and 9431647 predictions.)
 
 ### California: the calendar flips in November
 
-July in California is a pre-dawn problem. The deep lows come very early: [Pillar Point](/beaches/ca/pillar-point-ca/) (NOAA 9414131) gets a −1.79 ft low on July 14 at 5:33 AM, with just 165 daylight minutes around it; [La Jolla](/beaches/ca/la-jolla-ca/) (NOAA 9410230) hits −1.51 ft on July 15 at *4:54 AM*, leaving only 113 minutes of usable light. By August 13 the La Jolla low arrives at 4:25 AM with 39 daylight minutes, a window in name only. September is the true floor: Monterey, La Jolla, and San Diego record zero daylight minus tides that month.
+Summer in California is a pre-dawn problem. The deep lows come very early: [Pillar Point](/beaches/ca/pillar-point-ca/) (NOAA 9414131) got its −1.79 ft July low at 5:33 AM, and [La Jolla](/beaches/ca/la-jolla-ca/) (NOAA 9410230) hit −1.51 ft on July 15 at *4:54 AM*, with only 113 minutes of usable light. It keeps worsening: on August 13 the La Jolla low arrives at 4:25 AM with 39 daylight minutes, a window in name only. September is the true floor: Monterey, La Jolla, and San Diego record zero daylight minus tides that month.
 
 Then the flip. From November, the deep lows migrate to mid-afternoon, and Southern California becomes the best tidepooling in the country while the Northwest goes dark. La Jolla gets 12 daylight minus tides in November and 16 in December, capped by a −1.72 ft low at 4:33 PM on **Christmas Day** — an Exceptional 90, on a holiday, in shirtsleeve light. [San Diego](/beaches/ca/san-diego-ca/) (NOAA 9410170) matches it nearly wave for wave. Station-level date lists live in the [La Jolla guide](/guides/la-jolla-tide-pools-best-dates-2026/), the [Cabrillo National Monument guide](/guides/cabrillo-tide-pools-2026/), the [Pillar Point guide](/guides/pillar-point-tide-pools-2026/), and, for the reserve up the coast from [Monterey](/beaches/ca/monterey-ca/) waters, the [Fitzgerald Marine Reserve guide](/guides/fitzgerald-marine-reserve-tide-pooling-2026/). (Computed 2026-07-03 from NOAA stations 9414131, 9413450, 9410230, and 9410170 predictions.)
 
@@ -129,7 +130,7 @@ Because orbital mechanics doesn't take meetings. Summer's deepest Pacific lows l
 
 *The only weekend-or-holiday entries among the 40 deepest daylight windows of 2026; computed 2026-07-03 from NOAA predictions for stations 9447130, 9444900, 9437540, 9435380, 9432780, 9431647, 9414131, 9413450, 9410230, and 9410170.*
 
-Oregon's count in that table is zero: all sixteen of its deepest windows land Monday through Thursday. This is why our score carries a weekend bonus: for most households, a −2.29 ft Saturday beats a −3.80 ft Tuesday, which is exactly how Saturday, July 11 (8:49 AM low) outscores July 14 at Seattle, 100 to 90. If your crew is school-aged, the weekend-only windows worth a tank of gas are collected in [Tidepooling With Kids](/guides/tidepooling-with-kids/).
+Oregon's count in that table is zero: all sixteen of its deepest windows land Monday through Thursday. This is why our score carries a weekend bonus: for most households, a −2.29 ft Saturday beats a −3.80 ft Tuesday, which is exactly how Saturday, July 11 (8:49 AM low) outscored July 14 at Seattle, 100 to 90 — and how Sunday, August 9's −1.91 ft earns a 98 there while the deeper Tuesday after it holds at 90. If your crew is school-aged, the weekend-only windows worth a tank of gas are collected in [Tidepooling With Kids](/guides/tidepooling-with-kids/).
 
 The hour-of-day pattern is just as lopsided as the day-of-week pattern. Across all 535 daylight minus tides on the 2026 West Coast, the most common hour for the low is 6 AM (56 of them), and 312 of the 535 (58 percent) hit before 1 PM. The afternoon consolation peak, 51 lows in the 5 PM hour, belongs to fall and winter. Set the alarm; that's the price of admission. (Computed 2026-07-03 from NOAA predictions across the eleven West Coast stations.) And when the November–January perigean cycle produces the extreme highs *and* the rare daylight extreme lows, the dates are on the [king tides 2026–27 page](/king-tides/2026-2027/).
 
@@ -160,7 +161,7 @@ Check the managing park's own page before you go; access, closures, and local ru
 
 1. **Pick the season for your coast.** Northwest: July–August mornings. Southern California: November–January afternoons. Use the [Year Heatmap](/tools/year-heatmap/) to see it at a glance.
 2. **Pick the day.** [Tide Window Finder](/tools/tide-window-finder/) for the next 30 days, or [Trip Picker](/tools/trip-picker/) if your dates are fixed. Expect the deepest tides on weekdays; only 5 of 2026's 40 deepest West Coast daylight windows are weekend-or-holiday days.
-3. **Anchor on the arrive-by time.** One hour before the predicted low. For Newport's July 15 window that's 6:50 AM against a 7:50 AM, −2.52 ft low.
+3. **Anchor on the arrive-by time.** One hour before the predicted low. For Newport's August 12 window that's 5:46 AM against a 6:46 AM, −1.91 ft low.
 4. **Read the park page, then the sky.** Rules and closures from the land manager; a weather check the night before, because storms can push real water levels well above the prediction.
 5. **Walk out with the ebb, back with the flood.** The low is the midpoint of your visit, not the start.
 
