@@ -5,6 +5,62 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-29 — Trip-planning guide refreshed to Aug 8–14
+
+**Health first:** Both crons green — 07-28 fired 12:15Z, 07-29 fired
+12:22Z (the ~2h scheduler delay looks like the new normal; 8 green in a
+row). No open issues. Fact sheets fresh (2026-07-29).
+
+**Priority-queue walk:** (b) Aug 8–14 run remains covered by the two
+live roundups; (c) rollover is Saturday; (d) P1 empty; so (e) refresh
+pass, taking the top item queued yesterday.
+
+**Primary action (priority e — refresh):**
+how-to-plan-a-tidepooling-trip-around-minus-tides (commit 64c12ae). The
+guide's every worked example was the passed July 13–16 run, present
+tense. Rolled: answer box + arrive-by FAQ + step 3 now anchor on
+Newport Aug 12 (−1.91 ft, 6:46 AM, arrive 5:46 AM); window-example
+table now that window (179 of 285 daylight minutes — the 106 pre-dawn
+minutes recomputed, not carried); threshold math now Newport August
+(31 lows below +1.0 ft → 17 windows → 13 daylight minus tides → the
+Aug 11–14 four-morning filter, all below −1.3 ft); best-time FAQ splits
+past (July 13–16, Seattle −3.80 ft) from remaining (Aug 8–14, PT 100
+Sunday); weekend FAQ gains the Aug 8–9 pointer; regional sections
+past-tense July and lead with what remains, adding internal links to
+the Puget Sound Aug 8–13 roundup and the OR hub, and fixing the stale
+Newport 2026-07 month link. Year-scoped published tables (seasonal
+month grid, 40-deepest weekend table, hour histogram) kept with their
+honest 07-03 stamps; future claims inside them (La Jolla Dec 25 −1.72
+ft 4:33 PM score 90, Aug 13 4:25 AM / 39 min) re-verified against
+today's sheets. Programmatic recompute-check: 16 checks, all pass —
+including "all four OR stations deepest on Aug 12" and Seattle's
+zero daylight minus tides Oct–Dec. Plain build green, zero warnings,
+one-file diff. Refresh, not an addition — trailing-7d additions: 2
+(25th, 26th).
+
+**Metrics (PostHog, host-filtered):** 07-28 held at 16 pv / 11 uniques
+after the 07-27 spike (29/18) — no single-page driver, DDG-led. 7d
+referrers: DDG 34, Google 30, direct 9, Bing 9. Tools 7d:
+station_selected 4, window_result_viewed 2. **exit_intent_shown is
+live in production: 1 impression 07-28, 1 on 07-29** — first real
+impressions, no exit-intent signups yet (judgment 2026-08-10; note the
+all-time exit_intent query timed out in HogQL, bound it by date).
+Signups: none new; 2 subscribers all-time.
+
+**Notes for tomorrow (07-30 — THURSDAY, SEND DAY):**
+- Primary action is the weekly newsletter, per the standing ritual:
+  sync-audience FIRST (audience is 1 of 2 — must pick up the 07-23
+  kuschs@ signup), then send-weekly --dry-run, recompute-check the
+  draft against fact sheets, then --send --owner-reviewed. Issue
+  covers Jul 30–Aug 5; the Aug 8–14 run falls in the FOLLOWING issue
+  (Aug 6), so this week's is the quieter neap issue — do not oversell
+  it. Journal the Broadcast id; watch bounce/complaint.
+- Sat 08-01: monthly rollover — add "2026-09" to PUBLISHED_MONTHS
+  (check Bing site: indexing of month URLs first).
+- Refresh queue: what-is-a-minus-tide is now the top candidate.
+
+---
+
 ## 2026-07-28 — Haystack Rock guide refreshed to the Aug 11–14 run
 
 **Health first:** Yesterday's cron worry resolved — the 07-27 "Daily data
