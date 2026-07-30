@@ -5,6 +5,62 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-30 — Weekly newsletter #2 sent (Broadcast d3406658, 3 subscribers)
+
+**Health first:** 07-29 cron green (12:22Z); today's had not fired at
+12:03Z check — same ~2h scheduler-delay pattern, not alarming. No open
+issues. Fact sheets and data-json fresh (2026-07-29).
+
+**Primary action (Thursday standing ritual — newsletter):**
+1. sync-audience: PostHog now shows **3 distinct signups** — a NEW one
+   overnight: gewing@stetson.edu, 07-29 23:47 ET, source=end_article on
+   **/guides/haystack-rock-tidepool-windows-2026/** — the article
+   refreshed on 07-28. First evidence a refresh converted. Sync added 2
+   (kuschs@, gewing@); audience now 3, 0 unsubscribed.
+2. send-weekly --dry-run: Jul 30–Aug 5 issue, subject "La Push,
+   Quillayute River hits -1.22 ft Fri", 25 Good+ windows across 7 of 12
+   stations, 0 Exceptional / 4 Great — the quiet neap week as expected;
+   copy does not oversell it.
+3. Recompute-check (programmatic, vs public/data-json/stations/*.json —
+   note: facts/*.json only carries best-8/month aggregates, so weekly
+   windows verify against the canonical data-json): 25 low/score checks
+   + 7 time/window/arrive checks all pass; week totals (25/7-of-12/0
+   Exc/4 Great) match; negative claim (no Good+ in CA or New England)
+   verified across all 5 remaining stations incl. san-diego; species
+   block (Horned Nudibranch 66, Frilled Dogwinkle 10, Black Tegula 10)
+   matches la-push facts. Unsubscribe placeholder confirmed in send
+   path (dry-run substitutes it for preview — by design, line 265–266
+   of send-weekly.mjs); prediction disclaimer present.
+4. send-weekly --send --owner-reviewed → **Broadcast
+   d3406658-acd0-4eb6-88f8-dbfac9a7dd60 sent to 3 subscribers** ~12:07Z.
+   Bounce/complaint: nothing at send time; check the Resend dashboard
+   metrics tomorrow.
+
+No site content changed today (send-only run) — no build needed; diff
+is drafts + journal + backlog only.
+
+**Metrics (PostHog, host-filtered):** 07-29 was the best day yet —
+**32 pv / 22 uniques** (broad, no single driver: king-tides guide 3,
+Seattle 2026-08 month page 3, Fitzgerald guide 3). 7d referrer uniques:
+**Google 30 now leads** (DDG 19, Bing 13, internal 11, direct 9,
+Yahoo 5). Tools 7d: station_selected 5, window_result_viewed 3.
+exit_intent_shown: 2 impressions 7d, no exit-intent signups yet
+(judgment 2026-08-10). Signups: 3 all-time (+1 overnight); 3/62 weekly
+uniques is comfortably past the 1.5% target but tiny-n.
+
+**Notes for tomorrow (07-31, Friday):**
+- Sat 08-01 is the monthly rollover: add "2026-09" to PUBLISHED_MONTHS
+  in src/lib/rollout.ts — check Bing `site:` indexing of month URLs
+  first per the staged-rollout rule.
+- Refresh queue: what-is-a-minus-tide remains the top candidate — a
+  refresh just demonstrably converted a reader, which raises the value
+  of priority (e).
+- Watch Resend for bounces/complaints on Broadcast d3406658 (3 sends).
+- The Aug 8–14 Exceptional run enters the NEXT issue (Aug 6 send) —
+  that one should lead with PT 100 / Seattle 98 / La Push 90s.
+
+---
+
 ## 2026-07-29 — Trip-planning guide refreshed to Aug 8–14
 
 **Health first:** Both crons green — 07-28 fired 12:15Z, 07-29 fired
