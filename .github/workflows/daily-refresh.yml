@@ -11,6 +11,12 @@ on:
 permissions:
   contents: write
 
+# One refresh at a time — a manual dispatch overlapping the scheduled run
+# would race on the data commit push.
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -53,5 +59,16 @@ jobs:
             echo "No data changes."
           else
             git commit -m "data: daily NOAA refresh $(date -u +%F)"
+            # The editorial agent may push to main while this job runs (it did
+            # on 2026-07-30, rejecting our push and losing the day's refresh).
+            # Data commits only touch pipeline output paths, so rebasing over
+            # editorial commits is conflict-free — retry a few times.
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push rejected (attempt $attempt/3); rebasing onto latest main..."
+              git pull --rebase origin main
+            done
             git push
           fi
