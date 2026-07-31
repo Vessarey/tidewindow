@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-29",
+ "generated_on": "2026-07-31",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -101,23 +101,23 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-30",
-   "weekday": "Thu",
-   "low_ft": -1.017,
-   "low_time_local": "7:45 AM",
-   "window_local": "5:45 AM–10:00 AM",
-   "arrive_by_local": "6:45 AM",
-   "daylight_min": 239,
-   "score": 70,
+   "date": "2026-08-02",
+   "weekday": "Sun",
+   "low_ft": -0.192,
+   "low_time_local": "9:16 AM",
+   "window_local": "7:40 AM–10:50 AM",
+   "arrive_by_local": "8:16 AM",
+   "daylight_min": 190,
+   "score": 64,
    "band": "Good",
-   "weekend_or_holiday": false
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 3,
-   "daylight_windows": 3,
-   "daylight_minus_tides": 3,
+   "lows_below_1ft": 1,
+   "daylight_windows": 1,
+   "daylight_minus_tides": 1,
    "best_window": {
     "date": "2026-07-31",
     "weekday": "Fri",
@@ -379,20 +379,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-29",
-   "weekday": "Wed",
-   "low_ft": -0.933,
-   "low_time_local": "7:14 AM",
-   "window_local": "5:10 AM–9:25 AM",
-   "arrive_by_local": "6:14 AM",
-   "daylight_min": 205,
-   "score": 69,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 75,
-   "min_to_sun_edge": 74
-  },
-  {
    "date": "2026-08-10",
    "weekday": "Mon",
    "low_ft": -1.374,
@@ -461,13 +447,27 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 64,
    "min_to_sun_edge": -56
+  },
+  {
+   "date": "2026-08-26",
+   "weekday": "Wed",
+   "low_ft": -0.378,
+   "low_time_local": "6:09 AM",
+   "window_local": "4:25 AM–8:05 AM",
+   "arrive_by_local": "5:09 AM",
+   "daylight_min": 93,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 71,
+   "min_to_sun_edge": -23
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 77
+   "count": 76
   },
   {
    "commonName": "Monterey Dorid",

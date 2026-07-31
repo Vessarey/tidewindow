@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-29",
+ "generated_on": "2026-07-31",
  "region": "Puget Sound / Salish Sea",
  "stations": [
   {
@@ -8,19 +8,19 @@
    "noaa_id": "9447130",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 3,
-     "daylight_windows": 3,
-     "daylight_minus_tides": 3,
+     "lows_below_1ft": 1,
+     "daylight_windows": 1,
+     "daylight_minus_tides": 1,
      "best_window": {
-      "date": "2026-07-29",
-      "weekday": "Wed",
-      "low_ft": -1.35,
-      "low_time_local": "11:33 AM",
-      "window_local": "9:40 AM–1:30 PM",
-      "arrive_by_local": "10:33 AM",
-      "daylight_min": 230,
-      "score": 77,
-      "band": "Great",
+      "date": "2026-07-31",
+      "weekday": "Fri",
+      "low_ft": -0.933,
+      "low_time_local": "12:43 PM",
+      "window_local": "11:00 AM–2:20 PM",
+      "arrive_by_local": "11:43 AM",
+      "daylight_min": 200,
+      "score": 74,
+      "band": "Good",
       "weekend_or_holiday": false
      }
     },
@@ -145,18 +145,18 @@
    "noaa_id": "9444900",
    "months_2026": {
     "2026-07": {
-     "lows_below_1ft": 3,
-     "daylight_windows": 3,
-     "daylight_minus_tides": 3,
+     "lows_below_1ft": 1,
+     "daylight_windows": 1,
+     "daylight_minus_tides": 1,
      "best_window": {
-      "date": "2026-07-29",
-      "weekday": "Wed",
-      "low_ft": -1.164,
-      "low_time_local": "10:40 AM",
-      "window_local": "8:25 AM–1:15 PM",
-      "arrive_by_local": "9:40 AM",
-      "daylight_min": 290,
-      "score": 73,
+      "date": "2026-07-31",
+      "weekday": "Fri",
+      "low_ft": -0.694,
+      "low_time_local": "11:48 AM",
+      "window_local": "9:50 AM–1:55 PM",
+      "arrive_by_local": "10:48 AM",
+      "daylight_min": 245,
+      "score": 69,
       "band": "Good",
       "weekend_or_holiday": false
      }
