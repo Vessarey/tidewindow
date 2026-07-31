@@ -77,18 +77,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -0.306,
-   "low_time_local": "5:13 AM",
-   "window_local": "3:15 AM–7:20 AM",
-   "arrive_by_local": "4:13 AM",
-   "daylight_min": 78,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-09-12",
    "weekday": "Sat",
    "low_ft": 0.489,
@@ -111,25 +99,26 @@
    "score": 42,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-26",
+   "weekday": "Sat",
+   "low_ft": 0.494,
+   "low_time_local": "3:42 PM",
+   "window_local": "2:35 PM–4:50 PM",
+   "arrive_by_local": "2:42 PM",
+   "daylight_min": 135,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 1,
-   "daylight_windows": 1,
-   "daylight_minus_tides": 1,
-   "best_window": {
-    "date": "2026-07-31",
-    "weekday": "Fri",
-    "low_ft": -0.306,
-    "low_time_local": "5:13 AM",
-    "window_local": "3:15 AM–7:20 AM",
-    "arrive_by_local": "4:13 AM",
-    "daylight_min": 78,
-    "score": 43,
-    "band": "Fair",
-    "weekend_or_holiday": false
-   }
+   "lows_below_1ft": 0,
+   "daylight_windows": 0,
+   "daylight_minus_tides": 0,
+   "best_window": null
   },
   "2026-08": {
    "lows_below_1ft": 23,
@@ -379,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -0.306,
-   "low_time_local": "5:13 AM",
-   "window_local": "3:15 AM–7:20 AM",
-   "arrive_by_local": "4:13 AM",
-   "daylight_min": 78,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 61,
-   "min_to_sun_edge": -49
-  },
-  {
    "date": "2026-08-01",
    "weekday": "Sat",
    "low_ft": -0.037,
@@ -461,6 +436,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 67,
    "min_to_sun_edge": -38
+  },
+  {
+   "date": "2026-08-16",
+   "weekday": "Sun",
+   "low_ft": 0.641,
+   "low_time_local": "6:03 AM",
+   "window_local": "4:55 AM–7:05 AM",
+   "arrive_by_local": "5:03 AM",
+   "daylight_min": 52,
+   "score": 28,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 72,
+   "min_to_sun_edge": -10
   }
  ],
  "species_last60d_5km": [
