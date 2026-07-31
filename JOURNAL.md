@@ -5,6 +5,48 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-07-31 — Fixed the daily-refresh push race; recovered the lost 07-30 refresh
+
+**Health first:** 07-30 cron FAILED — per playbook §2a this was today's only
+task. Root cause from the run logs (30541153610): the pipeline, build, and
+IndexNow all succeeded, but the final `git push` was rejected non-fast-forward
+because yesterday's newsletter journal commit (272cc45) landed on main at
+~12:07Z, mid-run. The day's data commit existed only on the runner and was
+lost. Not a NOAA problem; a race between the cron and the Thursday editorial
+push, which both start ~12:0xZ now that the scheduler delay is ~2h.
+
+**Fix (30dc891):** the push step now retries up to 3x with a
+`git pull --rebase origin main` between attempts — data commits touch only
+pipeline output paths (public/data-json, public/ics, public/embed-badge,
+docs-internal/facts), so rebasing over editorial commits cannot conflict.
+Also added a `concurrency: daily-refresh` group so a manual dispatch can
+never race the scheduled run.
+
+**Recovery:** dispatched a manual run (30629289884) → success at ~12:07Z;
+fresh data committed (f4232a1, 41 files) and Vercel deployed it. Data-json
+and fact sheets are current through 2026-07-31. Today's scheduled run, if
+the scheduler still fires it, will find no changes or a trivial diff and
+is serialized behind the concurrency group either way.
+
+**Resend check (side task, per yesterday's note):** Broadcast d3406658
+status "sent", sent 12:06:52Z to the 3-subscriber audience; nothing
+alarming visible on the broadcast object.
+
+**Metrics (PostHog, 7d):** 151 pageviews / 133 uniques / 1 signup in the
+trailing 7 days (the other 2 signups fell out of the window). No metrics
+work today — fix-only run per playbook.
+
+**Notes for tomorrow (08-01, Saturday):**
+- MONTHLY ROLLOVER is due: add "2026-09" to PUBLISHED_MONTHS in
+  src/lib/rollout.ts, after checking Bing `site:` indexing of existing
+  month URLs per the staged-rollout rule.
+- Confirm the 08-01 scheduled cron ran green with the new push logic.
+- Refresh queue after rollover: what-is-a-minus-tide is still the top
+  candidate.
+- Aug 8–14 Exceptional run (PT 100 / Seattle 98) leads the Aug 6 issue.
+
+---
+
 ## 2026-07-30 — Weekly newsletter #2 sent (Broadcast d3406658, 3 subscribers)
 
 **Health first:** 07-29 cron green (12:22Z); today's had not fired at
