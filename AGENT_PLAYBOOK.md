@@ -27,7 +27,12 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
 - **PostHog** (LIVE — personal API key in `docs-internal/posthog-api-key.txt`,
   gitignored; line 1 key, line 2 project id 495836): query the last 7/28 days via
   `POST https://us.posthog.com/api/projects/495836/query` with
-  `Authorization: Bearer <key>` and a HogQL body. Use it EVERY run. Core queries: pageviews by pathname, entry referrers (watch for
+  `Authorization: Bearer <key>` and a HogQL body. Use it EVERY run. Since
+  2026-08-01 the project is Tidewindow-only again (PointsBrain moved to its own
+  project 538082); legacy pb_*/pointsbrain.com events from the shared era
+  (2026-07-04→08-01) remain here until purged — when querying that window,
+  exclude them ($host in thetidewindow.com hosts) so counts stay honest.
+  Core queries: pageviews by pathname, entry referrers (watch for
   chatgpt.com / perplexity.ai / bing), `newsletter_signup` by form, tool events
   (`station_selected`, `window_result_viewed`, `trip_picker_run`), signups ÷
   uniques (target ≥1.5%). If PostHog is NOT yet configured: check whether the key

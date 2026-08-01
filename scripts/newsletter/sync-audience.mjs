@@ -8,8 +8,10 @@
  *
  * Behavior:
  *   - HogQL-exports distinct signup emails (+ first source prop, first-seen
- *     timestamp) from PostHog. The PostHog project is shared across sites, so
- *     events are filtered to Tidewindow hosts.
+ *     timestamp) from PostHog. The host filter is defense-in-depth: the
+ *     project was shared with PointsBrain until 2026-08-01 (now on its own
+ *     project 538082) and legacy events remain, plus the github.io era used
+ *     a different host.
  *   - Creates the audience via the Resend API if it does not exist yet.
  *   - Upserts additively: only emails not already in the audience are added.
  *     Existing contacts are NEVER modified — in particular an unsubscribed

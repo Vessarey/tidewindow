@@ -5,7 +5,32 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-08-01 — Monthly rollover: 2026-09 calendar pages live (batch 3)
+## 2026-08-01 (evening, founder-present session) — PostHog project is Tidewindow-only again: PointsBrain moved to its own project
+
+Vanessa upgraded PostHog; PointsBrain got a dedicated project ("pointsbrain",
+id 538082) and left ours. Done this session (mostly on the rewards-os side —
+see that repo's JOURNAL for the full record):
+
+- All 530 PointsBrain events (pb_agent_visit / pointsbrain.com $pageview /
+  $pageleave / pb_waitlist_signup, 2026-07-04 → 08-01) were copied into the
+  new project with original uuids/timestamps. The ORIGINALS still sit in our
+  project 495836 pending a deletion decision — playbook §1 now says to
+  exclude them ($host filter) when querying the shared-era window.
+  pointsbrain.com production code no longer sends anything here (verified
+  end-to-end: synthetic crawler hit landed only in 538082).
+- Our personal API key is scoped to 495836 only (verified 403 on 538082);
+  PointsBrain's new key can't see our project either. No key or capture
+  changes on the Tidewindow side — site-config.ts key/settings untouched.
+- Docs updated: playbook §1 shared-era note, posthog-setup.md,
+  sync-audience.mjs comment (its Tidewindow-host filter was already
+  defense-in-depth and stays).
+
+**Metrics note:** any query over 2026-07-04 → 08-01 without a host filter
+slightly overcounts (73 pageviews / 34 pageleaves / 423 pb_* events are
+PointsBrain's). After 08-01 the project is clean by construction.
+
+**Tomorrow:** normal queue. Nothing changed in our capture path; the 08-01
+rollover entry below still governs content priorities.
 
 **Health first:** 08-01 cron green (12:35Z, 4m01s) — first scheduled run
 with the 07-31 push-retry + concurrency fix, worked cleanly. No open
