@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-31",
+ "generated_on": "2026-08-01",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -65,18 +65,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -1.219,
-   "low_time_local": "8:29 AM",
-   "window_local": "6:20 AM–10:35 AM",
-   "arrive_by_local": "7:29 AM",
-   "daylight_min": 255,
-   "score": 79,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-08-15",
    "weekday": "Sat",
    "low_ft": -0.961,
@@ -111,25 +99,26 @@
    "score": 74,
    "band": "Good",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-29",
+   "weekday": "Sat",
+   "low_ft": -0.494,
+   "low_time_local": "7:53 AM",
+   "window_local": "6:10 AM–9:35 AM",
+   "arrive_by_local": "6:53 AM",
+   "daylight_min": 182,
+   "score": 70,
+   "band": "Good",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 1,
-   "daylight_windows": 1,
-   "daylight_minus_tides": 1,
-   "best_window": {
-    "date": "2026-07-31",
-    "weekday": "Fri",
-    "low_ft": -1.219,
-    "low_time_local": "8:29 AM",
-    "window_local": "6:20 AM–10:35 AM",
-    "arrive_by_local": "7:29 AM",
-    "daylight_min": 255,
-    "score": 79,
-    "band": "Great",
-    "weekend_or_holiday": false
-   }
+   "lows_below_1ft": 0,
+   "daylight_windows": 0,
+   "daylight_minus_tides": 0,
+   "best_window": null
   },
   "2026-08": {
    "lows_below_1ft": 35,
@@ -477,7 +466,7 @@
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 10
+   "count": 9
   },
   {
    "commonName": "barnacle-eating dorid",

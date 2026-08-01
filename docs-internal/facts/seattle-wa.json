@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-31",
+ "generated_on": "2026-08-01",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -101,13 +101,13 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-07-31",
+   "date": "2026-08-14",
    "weekday": "Fri",
-   "low_ft": -0.933,
-   "low_time_local": "12:43 PM",
-   "window_local": "11:00 AM–2:20 PM",
-   "arrive_by_local": "11:43 AM",
-   "daylight_min": 200,
+   "low_ft": -0.926,
+   "low_time_local": "12:35 PM",
+   "window_local": "11:00 AM–2:10 PM",
+   "arrive_by_local": "11:35 AM",
+   "daylight_min": 190,
    "score": 74,
    "band": "Good",
    "weekend_or_holiday": false
@@ -115,21 +115,10 @@
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 1,
-   "daylight_windows": 1,
-   "daylight_minus_tides": 1,
-   "best_window": {
-    "date": "2026-07-31",
-    "weekday": "Fri",
-    "low_ft": -0.933,
-    "low_time_local": "12:43 PM",
-    "window_local": "11:00 AM–2:20 PM",
-    "arrive_by_local": "11:43 AM",
-    "daylight_min": 200,
-    "score": 74,
-    "band": "Good",
-    "weekend_or_holiday": false
-   }
+   "lows_below_1ft": 0,
+   "daylight_windows": 0,
+   "daylight_minus_tides": 0,
+   "best_window": null
   },
   "2026-08": {
    "lows_below_1ft": 21,
@@ -281,16 +270,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -0.933,
-   "low_time_local": "12:43 PM",
-   "window_local": "11:00 AM–2:20 PM",
-   "arrive_by_local": "11:43 AM",
-   "daylight_min": 200,
-   "score": 74,
-   "band": "Good",
-   "weekend_or_holiday": false
+   "date": "2026-09-07",
+   "weekday": "Mon",
+   "low_ft": -0.93,
+   "low_time_local": "8:12 AM",
+   "window_local": "6:25 AM–10:05 AM",
+   "arrive_by_local": "7:12 AM",
+   "daylight_min": 209,
+   "score": 77,
+   "band": "Great",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -445,12 +434,7 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 13
-  },
-  {
-   "commonName": "barnacle-eating dorid",
-   "scientificName": "Onchidoris bilamellata",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "Horned Nudibranch",
@@ -463,19 +447,14 @@
    "count": 10
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
+   "commonName": "barnacle-eating dorid",
+   "scientificName": "Onchidoris bilamellata",
    "count": 10
   },
   {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
-   "count": 8
-  },
-  {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
-   "count": 8
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 10
   },
   {
    "commonName": "Lined Chiton",
@@ -483,14 +462,24 @@
    "count": 4
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 4
-  },
-  {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
    "count": 4
+  },
+  {
+   "commonName": "Cockerell's Dorid",
+   "scientificName": "Limacia cockerelli",
+   "count": 4
+  },
+  {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
+   "count": 3
+  },
+  {
+   "commonName": "Merten's Chiton",
+   "scientificName": "Lepidozona mertensii",
+   "count": 3
   }
  ]
 }

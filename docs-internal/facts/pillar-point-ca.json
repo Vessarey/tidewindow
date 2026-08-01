@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-31",
+ "generated_on": "2026-08-01",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -37,18 +37,6 @@
    "arrive_by_local": "4:12 AM",
    "daylight_min": 86,
    "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -0.222,
-   "low_time_local": "6:43 AM",
-   "window_local": "4:35 AM–8:55 AM",
-   "arrive_by_local": "5:43 AM",
-   "daylight_min": 162,
-   "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
   },
@@ -111,25 +99,26 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-02",
+   "weekday": "Sun",
+   "low_ft": 0.512,
+   "low_time_local": "7:37 AM",
+   "window_local": "6:15 AM–9:00 AM",
+   "arrive_by_local": "6:37 AM",
+   "daylight_min": 165,
+   "score": 47,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 1,
-   "daylight_windows": 1,
-   "daylight_minus_tides": 1,
-   "best_window": {
-    "date": "2026-07-31",
-    "weekday": "Fri",
-    "low_ft": -0.222,
-    "low_time_local": "6:43 AM",
-    "window_local": "4:35 AM–8:55 AM",
-    "arrive_by_local": "5:43 AM",
-    "daylight_min": 162,
-    "score": 55,
-    "band": "Fair",
-    "weekend_or_holiday": false
-   }
+   "lows_below_1ft": 0,
+   "daylight_windows": 0,
+   "daylight_minus_tides": 0,
+   "best_window": null
   },
   "2026-08": {
    "lows_below_1ft": 24,
@@ -379,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -0.222,
-   "low_time_local": "6:43 AM",
-   "window_local": "4:35 AM–8:55 AM",
-   "arrive_by_local": "5:43 AM",
-   "daylight_min": 162,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 71,
-   "min_to_sun_edge": 30
-  },
-  {
    "date": "2026-08-01",
    "weekday": "Sat",
    "low_ft": 0.095,
@@ -461,18 +436,32 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 72,
    "min_to_sun_edge": 7
+  },
+  {
+   "date": "2026-08-15",
+   "weekday": "Sat",
+   "low_ft": 0.225,
+   "low_time_local": "7:08 AM",
+   "window_local": "5:30 AM–8:45 AM",
+   "arrive_by_local": "6:08 AM",
+   "daylight_min": 139,
+   "score": 48,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 78,
+   "min_to_sun_edge": 42
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 99
+   "count": 94
   },
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 74
+   "count": 73
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -492,7 +481,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 44
+   "count": 42
   },
   {
    "commonName": "Hammerhead Doto",

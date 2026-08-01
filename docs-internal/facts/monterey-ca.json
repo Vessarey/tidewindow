@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-31",
+ "generated_on": "2026-08-01",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -0.292,
-   "low_time_local": "6:36 AM",
-   "window_local": "4:25 AM–8:55 AM",
-   "arrive_by_local": "5:36 AM",
-   "daylight_min": 162,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-01",
    "weekday": "Sat",
@@ -111,25 +99,26 @@
    "score": 47,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-27",
+   "weekday": "Sun",
+   "low_ft": 0.462,
+   "low_time_local": "5:48 PM",
+   "window_local": "4:30 PM–7:10 PM",
+   "arrive_by_local": "4:48 PM",
+   "daylight_min": 147,
+   "score": 44,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
   "2026-07": {
-   "lows_below_1ft": 1,
-   "daylight_windows": 1,
-   "daylight_minus_tides": 1,
-   "best_window": {
-    "date": "2026-07-31",
-    "weekday": "Fri",
-    "low_ft": -0.292,
-    "low_time_local": "6:36 AM",
-    "window_local": "4:25 AM–8:55 AM",
-    "arrive_by_local": "5:36 AM",
-    "daylight_min": 162,
-    "score": 57,
-    "band": "Fair",
-    "weekend_or_holiday": false
-   }
+   "lows_below_1ft": 0,
+   "daylight_windows": 0,
+   "daylight_minus_tides": 0,
+   "best_window": null
   },
   "2026-08": {
    "lows_below_1ft": 24,
@@ -379,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-07-31",
-   "weekday": "Fri",
-   "low_ft": -0.292,
-   "low_time_local": "6:36 AM",
-   "window_local": "4:25 AM–8:55 AM",
-   "arrive_by_local": "5:36 AM",
-   "daylight_min": 162,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 70,
-   "min_to_sun_edge": 23
-  },
-  {
    "date": "2026-08-01",
    "weekday": "Sat",
    "low_ft": 0.002,
@@ -461,23 +436,37 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 71,
    "min_to_sun_edge": -1
+  },
+  {
+   "date": "2026-08-15",
+   "weekday": "Sat",
+   "low_ft": 0.184,
+   "low_time_local": "6:57 AM",
+   "window_local": "5:20 AM–8:35 AM",
+   "arrive_by_local": "5:57 AM",
+   "daylight_min": 130,
+   "score": 47,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 77,
+   "min_to_sun_edge": 32
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 34
+   "count": 36
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 33
+   "count": 32
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 31
+   "count": 30
   },
   {
    "commonName": "White-speckled Dorid",
@@ -487,12 +476,12 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 18
+   "count": 17
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Gumboot Chiton",
@@ -500,14 +489,14 @@
    "count": 12
   },
   {
-   "commonName": null,
-   "scientificName": "Doto urak",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 11
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 10
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 11
   },
   {
    "commonName": "California Mussel",

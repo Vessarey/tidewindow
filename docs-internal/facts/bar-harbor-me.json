@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-07-31",
+ "generated_on": "2026-08-01",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 41,
-   "daylight_windows": 25,
+   "lows_below_1ft": 40,
+   "daylight_windows": 24,
    "daylight_minus_tides": 10,
    "best_window": {
     "date": "2026-08-15",
@@ -471,7 +471,7 @@
   {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 7
+   "count": 6
   },
   {
    "commonName": "barnacle-eating dorid",
