@@ -147,8 +147,11 @@ with the date; add discoveries at the appropriate tier.
       no-take + Battle Rock/Tseriadun/Paradise Point access quoted verbatim
       from verified sources. Species section honestly frames the 2-observation
       iNat record as an under-observed shore. OR hub link updated.
-- [ ] August 2026 monthly-calendar batch: add "2026-09" to PUBLISHED_MONTHS on
-      Aug 1 rollover per staged-rollout rule (2026-08 already published).
+- [x] 2026-08-01: August monthly-calendar batch DONE (commit ad32a5b) —
+      "2026-09" added to PUBLISHED_MONTHS; gate passed via GSC (month pages
+      indexed + clicking; Bing site: is captcha-walled to fetches now, GSC is
+      the better signal anyway). 12 pages live, IndexNow 108 URLs HTTP 200.
+      Next rollover: 2026-10 on Sep 1, same GSC gate.
 - [x] 2026-07-26: "Sneaker waves explained" LAUNCHED
       (content/articles/what-is-a-sneaker-wave.md, tide-basics) — NWS/Oregon
       State Parks/NPS safety strictly verbatim-quoted (re-verified at write

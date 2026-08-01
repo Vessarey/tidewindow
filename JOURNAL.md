@@ -5,6 +5,44 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-01 — Monthly rollover: 2026-09 calendar pages live (batch 3)
+
+**Health first:** 08-01 cron green (12:35Z, 4m01s) — first scheduled run
+with the 07-31 push-retry + concurrency fix, worked cleanly. No open
+issues. Fact sheets and data-json fresh (2026-08-01).
+
+**Primary action (priority c — monthly rollover, commit ad32a5b):** added
+"2026-09" to PUBLISHED_MONTHS in src/lib/rollout.ts. Staged-rollout gate:
+Bing `site:` checks are captcha-blocked via fetch now, but we have GSC —
+which shows the previous batches indexed AND earning: seattle-wa/2026-07
+340 impr / 5 clicks, seattle-wa/2026-08 173 impr / 2 clicks,
+pillar-point-ca/2026-08 179 impr, port-townsend-wa/2026-08 5.7% CTR at
+pos 7.0 (28d). Gate passed on the stronger signal. September data
+verified present for all 12 stations in committed data-json before the
+flip. Build green; 12 new pages + 12 new sitemap entries; recompute
+spot-check of seattle-wa/2026-09 vs data-json passed (19/19 dates, best
+window Mon Sep 7 −0.93 ft → renders "−0.9 ft" per template rounding,
+8:12 AM low, 6:25 AM window start all match). Deploy verified live
+(~1 min), IndexNow submitted 108 URLs HTTP 200.
+
+**Metrics (PostHog, 7d, host-filtered):** ~145 pv / 114 uniques /
+1 signup — flat vs last week (151/133/1); the Jul 29 spike (32 pv day)
+did not repeat. GSC 28d top movers: fitzgerald guide 10 clicks,
+king-tides-dates 8, alki guide 7. Month pages are the impression
+workhorses — more reason the Sept batch matters ahead of the Aug 8–14
+run.
+
+**Notes for tomorrow (08-02, Sunday):**
+- Refresh queue (priority e): what-is-a-minus-tide remains top — its
+  12-station tables are 07-03 vintage with passed FAQ dates.
+- Aug 6 (Thursday) newsletter should LEAD with the Aug 8–14 Exceptional
+  run (PT 100 / Seattle 98); consider whether the two live roundups need
+  a freshness pass before then (priority b check).
+- 08-05: judge the 07-19 CTR retitle per BACKLOG P2 (per-page CTR).
+- 08-10: judge exit-intent (impressions vs signups).
+
+---
+
 ## 2026-07-31 — Fixed the daily-refresh push race; recovered the lost 07-30 refresh
 
 **Health first:** 07-30 cron FAILED — per playbook §2a this was today's only
