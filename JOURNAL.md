@@ -13,8 +13,12 @@ see that repo's JOURNAL for the full record):
 
 - All 530 PointsBrain events (pb_agent_visit / pointsbrain.com $pageview /
   $pageleave / pb_waitlist_signup, 2026-07-04 → 08-01) were copied into the
-  new project with original uuids/timestamps. The ORIGINALS still sit in our
-  project 495836 pending a deletion decision — playbook §1 now says to
+  new project with original uuids/timestamps. Vanessa then approved the
+  purge: the 11 pointsbrain persons (verified zero Tidewindow events each)
+  were bulk-deleted with delete_events — persons gone immediately, their
+  423 pb_* events queued for PostHog's async deletion (~a day to vanish
+  from queries). The ~107 anonymous pointsbrain.com $pageview/$pageleave
+  events have no person profiles and cannot be deleted; playbook §1 says to
   exclude them ($host filter) when querying the shared-era window.
   pointsbrain.com production code no longer sends anything here (verified
   end-to-end: synthetic crawler hit landed only in 538082).
@@ -26,8 +30,9 @@ see that repo's JOURNAL for the full record):
   defense-in-depth and stays).
 
 **Metrics note:** any query over 2026-07-04 → 08-01 without a host filter
-slightly overcounts (73 pageviews / 34 pageleaves / 423 pb_* events are
-PointsBrain's). After 08-01 the project is clean by construction.
+slightly overcounts by the ~107 leftover anonymous pointsbrain pageview/
+pageleave events (the 423 pb_* events are deleting asynchronously and may
+appear until the job runs). After 08-01 the project is clean by construction.
 
 **Tomorrow:** normal queue. Nothing changed in our capture path; the 08-01
 rollover entry below still governs content priorities.

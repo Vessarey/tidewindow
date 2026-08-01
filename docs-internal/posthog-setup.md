@@ -6,10 +6,12 @@ Status: **FULLY CONFIGURED** (capture live + agent personal API key saved 2026-0
 - **Tidewindow-only again since 2026-08-01**: PointsBrain, which had shared
   this project since 2026-07-04 (free-plan limit), moved to its own project
   "pointsbrain" (id 538082) after the plan upgrade; all 530 of its events
-  were migrated there with original uuids/timestamps. The original copies
-  still sit in this project until deletion is confirmed — when querying
-  pre-August history, filter to Tidewindow hosts (or exclude
-  `product = 'pointsbrain'` / pointsbrain.com `$host`) if precision matters.
+  were migrated there with original uuids/timestamps. Purge of the originals
+  ran 2026-08-01: the 11 pointsbrain persons were deleted with their 423
+  pb_* events (async deletion — allow ~a day); the ~107 anonymous
+  pointsbrain.com $pageview/$pageleave events cannot be deleted (no person
+  profiles) and stay — when querying 2026-07-04→08-01 history, filter to
+  Tidewindow hosts if precision matters.
 - The agent's personal API key here is scoped to THIS project only (403 on
   538082); PointsBrain's agent has its own key scoped the other way.
 - Project token `phc_DkedwnjqYT23MHadQyjUhfQ83jhvudqujZqRG8utdui9` is wired into
