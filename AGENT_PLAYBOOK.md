@@ -12,7 +12,14 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
 1. `git pull` latest main.
 2. Read `JOURNAL.md` (last 3 entries) and `BACKLOG.md`.
 3. Check GitHub Actions status (`gh run list --limit 5`): the "Daily data refresh"
-   cron must be green. If it failed, fixing it is today's ONLY task.
+   cron must be green. A green run is NOT enough — verify the refresh actually
+   LANDED: the newest `data: daily NOAA refresh` commit on origin/main must be
+   dated today (UTC), or yesterday only if the cron (10:17 UTC, plus up to ~3h
+   scheduler drift) hasn't plausibly fired yet. A run that succeeded but whose
+   commit never reached main (push race — it happened 2026-07-30), or no run at
+   all by your session, counts as red. If red, fixing/recovering it is today's
+   ONLY task (recover via `gh workflow run daily-refresh.yml`). Do not
+   normalize lateness: log actual fire times drifting past ~3h as an incident.
 4. Check open GitHub issues (`gh issue list`) — a reader-reported error outranks
    everything except a broken build.
 5. Do ONE primary action from the priority queue (§2). Small side-fixes are fine.
@@ -74,12 +81,23 @@ d. **Content backlog** (`BACKLOG.md` → Content queue): write ONE article per t
 e. **Refresh pass** (30–50% of runs once >25 articles exist): pick the oldest
    article whose data tables have gone stale (past dates), roll it forward to
    current fact-sheet data, update `updated:` frontmatter honestly.
-f. **Coverage expansion:** add a new NOAA station to
+f. **Conversion & distribution pass (run at least twice a week — as of the
+   2026-08-01 audit, production is proven and capture is the constraint: the
+   Tide Window Finder got ~12 views in July and signups÷uniques sits near 0.6%
+   vs the 1.5% target):**
+   - On-site: strengthen pathways from the highest-traffic articles (check
+     PostHog top pathnames) into the Tide Window Finder, ICS calendar feeds,
+     and signup forms — internal links, in-article "check your dates" CTAs,
+     related-tools blocks. Improve embed page, llms.txt, internal linking;
+     check IndexNow submissions succeed in the cron logs.
+   - Off-site: pursue ONE listing/outreach item per pass from the BACKLOG P3
+     distribution queue (directories, resource pages, embed-badge outreach).
+     Honesty rules apply in full: no fake personas, no astroturf, no Reddit;
+     journal every submission with where/what/when.
+g. **Coverage expansion:** add a new NOAA station to
    `scripts/pipeline/stations.mjs` (verify the station id exists via the NOAA
    metadata API first; harmonic preferred; then add spots/blurb, run pipeline,
    add a station-guide article to the content queue). Cap: ≤2 new stations/week.
-g. **Distribution:** improve embed page, llms.txt, internal linking; check that
-   IndexNow submissions succeed in the cron logs.
 
 ## 3. Writing rules (identical to launch standards)
 
@@ -107,12 +125,23 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
 3. All new external links fetch 200 and support the claims they back.
 4. No placeholder text, no lorem, no "as an AI".
 5. Diff review: `git diff` — nothing unintended (especially `public/data-json`).
-6. Velocity caps respected (§2d, §2f); NEVER bulk-generate content in one run.
+6. Velocity caps respected (§2d, §2g); NEVER bulk-generate content in one run.
 
-## 5. Circuit breakers
+## 5. Circuit breakers & experiment judgments
 
 - Any cluster's pages losing Bing-indexed status for 2+ weeks → pause that
   template's expansion, note it in JOURNAL, investigate next run.
+- **Minimum sample before verdicts.** An experiment (retitles, signup prompts,
+  copy changes) is only judged once the affected surface has ~100+ impressions
+  or 30+ clicks/events since the change. Below that, extend the observation
+  window and journal the extension — never revert or double down on tiny-n
+  noise. Record baseline numbers in JOURNAL the day an experiment starts.
+- **Judge search changes on GSC date-dimension data** (`node
+  scripts/gsc-query.mjs dates 60`: clicks, impressions, position by day), not
+  on PostHog referrer counts — referrer weeks mix repeat views with sessions
+  and already produced one false "Google traffic crashed" scare after the
+  2026-07-19 retitle pass (referrer views fell while GSC position improved
+  from ~11 to ~7–9 and clicks held).
 - A factual error reported by a reader → fix same run, add a regression note to
   JOURNAL, and add a gate if the class of error is preventable.
 - Never delete published content; if a page must go, note it in JOURNAL first,
@@ -130,6 +159,13 @@ g. **Distribution:** improve embed page, llms.txt, internal linking; check that
       the primary action is sync-audience → send-weekly --dry-run →
       recompute-check against fact sheets → send-weekly --send
       --owner-reviewed → journal the Broadcast id and watch bounce/complaint.
+      **What `--owner-reviewed` means (formalized 2026-08-01):** it invokes the
+      owner's standing blanket approval of 2026-07-19, which covers the
+      established template and voice ONLY — computed windows plus links to
+      published articles. It is not a per-issue human review and must not be
+      presented as one. Any deviation (new sections, tone changes, promotions,
+      anything beyond windows + article links) requires a fresh, explicit
+      owner OK before sending; absent that, skip the send and journal why.
 - [x] **GSC property + API access**: verified 2026-07-03; API access LIVE since
       2026-07-04 via service account gsc-reader@tidewindow-agent (key gitignored
       at docs-internal/gsc-service-account.json). Use `node scripts/gsc-query.mjs

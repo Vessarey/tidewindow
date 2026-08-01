@@ -10,6 +10,7 @@
  *   node scripts/gsc-query.mjs queries [days=28]     # top queries w/ position
  *   node scripts/gsc-query.mjs pages [days=28]       # top pages
  *   node scripts/gsc-query.mjs flywheel [days=28]    # queries at positions 8-20
+ *   node scripts/gsc-query.mjs dates [days=28]       # daily clicks/impr/pos trend
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -73,7 +74,7 @@ if (cmd === "sites") {
   const data = await api(token, "https://www.googleapis.com/webmasters/v3/sites");
   console.log(JSON.stringify(data, null, 2));
 } else {
-  const dimension = cmd === "pages" ? "page" : "query";
+  const dimension = cmd === "dates" ? "date" : cmd === "pages" ? "page" : "query";
   const body = {
     startDate: dateStr(days + 2),
     endDate: dateStr(2), // GSC data lags ~2 days
@@ -92,7 +93,7 @@ if (cmd === "sites") {
   if (!rows.length) {
     console.log(`No ${cmd} rows for the last ${days} days (normal for a new site — GSC data lags and accumulates slowly).`);
   } else {
-    for (const r of rows.slice(0, 40)) {
+    for (const r of cmd === "dates" ? rows : rows.slice(0, 40)) {
       console.log(
         `${r.keys[0]}  clicks=${r.clicks} impressions=${r.impressions} ctr=${(r.ctr * 100).toFixed(1)}% pos=${r.position.toFixed(1)}`
       );
