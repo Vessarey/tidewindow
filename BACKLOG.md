@@ -162,11 +162,21 @@ with the date; add discoveries at the appropriate tier.
       Beach Hazards Statement product specifics CUT (no clean official
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
-- [ ] Refresh-pass queue (priority e, not additions): next is
-      what-is-a-minus-tide — 12-station tables computed 07-03, FAQ
-      example dates passed. Done so far: how-to-read-a-tide-table
-      2026-07-27, Haystack Rock 2026-07-28 (234a8b6),
-      how-to-plan-a-tidepooling-trip 2026-07-29 (64c12ae).
+- [ ] Refresh-pass queue (priority e, not additions): next candidate is
+      oregon-coast-minus-tide-calendar-2026 (07-03 vintage, 9 July date
+      mentions — evaluate its tables first; puget-sound-low-tide-calendar and
+      the four CA station guides queue behind it). NOTE 2026-08-02:
+      what-is-a-minus-tide was listed here but is NOT actually stale — its
+      tables are calendar-2026 aggregate constants (940 minus tides / 535
+      daylight etc.), no passed dates; the "Computed 2026-07-03" stamps stay
+      honest, and the annual counts can no longer be recomputed anyway (the
+      rolling data-json window starts at today). Done so far:
+      how-to-read-a-tide-table 2026-07-27, Haystack Rock 2026-07-28 (234a8b6),
+      how-to-plan-a-tidepooling-trip 2026-07-29 (64c12ae),
+      golden-hour-low-tide-photography-calendar 2026-08-02 (all 24 windows
+      were passed July dates → rewritten to the Aug 10-13 last-dawn-run story;
+      Rialto/Mora closure advisory added; north-vs-south light split is the
+      new angle).
 
 ## P2 — product
 

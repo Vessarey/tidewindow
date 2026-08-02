@@ -5,6 +5,61 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-02 — Golden-hour calendar refreshed to the Aug 10–13 last-dawn-run; Aug 8–13 roundup verified fresh
+
+**Health first:** 08-02 cron green (11:35Z, 1m53s) and the data commit landed
+on main (f0609c8, dated today) — the 07-31 push-retry fix is 2-for-2. No open
+issues. Also pushed yesterday's stranded local commit b6123a9 (playbook
+audit-driven updates) — it was committed 08-01 but never pushed.
+
+**Priority b check (no changes needed):** with the Aug 8–14 Exceptional run
+now 6 days out, verified the live Puget Sound Aug 8–13 roundup against
+today's fact sheets — every low, time, window, and score matches for
+Port Townsend, Seattle, and La Push (Aug 8–13), plus the OR cameo
+(Newport −1.91 / Garibaldi −1.77 / Charleston −1.72 / Port Orford −1.74,
+all Aug 12), Pillar Point −1.13 @ 5:12 AM, and Acadia Aug 15 −0.80 @ 7:16 AM.
+featuredRoundup is live on the WA hub through Aug 13. NOAA predictions have
+not drifted since 07-25; the roundup needs nothing before the run.
+
+**Primary action (priority e — refresh):** rewrote
+golden-hour-low-tide-photography-calendar-2026 — ALL 24 of its windows were
+passed July dates (the most-stale article on the site). Backlog had
+what-is-a-minus-tide as next, but inspection shows that article is not
+stale (calendar-2026 aggregate constants, no passed dates) — corrected the
+backlog note. The refreshed calendar tells the honest new story: Aug 10–13
+is the year's last dawn run, and only the northern stations keep the light
+(La Push −2.31 ft 48 min after sunrise Aug 12, score 90; Garibaldi 85;
+Monterey and La Jolla now bottom 74–76 min BEFORE sunrise, Fair/Skip).
+New material: sunset-side windows appear for the first time (both Skip —
+honest "backlight still barely on the menu" framing), Rialto/Mora closure
+advisory added for photographers (NPS quotes re-verified verbatim at write
+time, conditions.htm added to sources), Monterey's late-December sunset-side
+comeback (−1.73/−1.83 ft, score 80) framed as dormant-not-done, cross-link
+to the Puget Sound roundup. All 24 table rows script-verified against
+today's fact sheets (rounded lows, times, scores, azimuths, sun-edge
+offsets); 14-of-24 minus-tide count script-verified; La Jolla species
+updated (141 Opalescent Nudibranch, was 138 Sorcerer's Dorid). NOAA solar
+glossary + NPS safety quotes re-verified. Build green; updated: 2026-08-02.
+
+**Metrics (PostHog, 7d, host-filtered):** 155 pv / 123 uniques / 1 signup —
+slightly up vs 145/114/1. Top pages: king-tides-dates 27, home 15, Acadia 10,
+Fitzgerald 8, La Push 7. The golden-hour article is not in the top 10
+(≈0–3 views/7d) — that near-zero is the baseline for judging this refresh
+in a few weeks via GSC impressions on the page.
+
+**Notes for tomorrow (08-03, Monday):**
+- Priority f (conversion/distribution) has NOT yet run this week — due at
+  least twice by Saturday; strongest on-site candidate: route the
+  high-traffic king-tides page (27 views/7d, 8 GSC clicks/28d) into the
+  finder + signup with an in-article "check your dates" CTA.
+- 08-05: judge the 07-19 CTR retitle per BACKLOG P2 (per-page CTR, GSC).
+- 08-06 (Thursday): newsletter #4 leads with the Aug 8–14 run — the
+  roundup verified today is the source; template unchanged per the
+  owner-reviewed scope formalized 08-01.
+- Refresh queue: evaluate oregon-coast-minus-tide-calendar-2026 next.
+
+---
+
 ## 2026-08-01 (evening, founder-present session) — PostHog project is Tidewindow-only again: PointsBrain moved to its own project
 
 Vanessa upgraded PostHog; PointsBrain got a dedicated project ("pointsbrain",
