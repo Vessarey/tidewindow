@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-01",
+ "generated_on": "2026-08-02",
  "region": "California",
  "stations": [
   {
@@ -14,20 +14,20 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 24,
-     "daylight_windows": 12,
+     "lows_below_1ft": 23,
+     "daylight_windows": 11,
      "daylight_minus_tides": 4,
      "best_window": {
-      "date": "2026-08-01",
-      "weekday": "Sat",
-      "low_ft": 0.095,
-      "low_time_local": "7:10 AM",
-      "window_local": "5:20 AM–9:05 AM",
-      "arrive_by_local": "6:10 AM",
-      "daylight_min": 171,
+      "date": "2026-08-12",
+      "weekday": "Wed",
+      "low_ft": -1.134,
+      "low_time_local": "5:12 AM",
+      "window_local": "2:45 AM–7:50 AM",
+      "arrive_by_local": "4:12 AM",
+      "daylight_min": 86,
       "score": 56,
       "band": "Fair",
-      "weekend_or_holiday": true
+      "weekend_or_holiday": false
      }
     },
     "2026-09": {
@@ -162,20 +162,20 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 24,
-     "daylight_windows": 13,
+     "lows_below_1ft": 23,
+     "daylight_windows": 12,
      "daylight_minus_tides": 5,
      "best_window": {
-      "date": "2026-08-01",
-      "weekday": "Sat",
-      "low_ft": 0.002,
-      "low_time_local": "7:04 AM",
-      "window_local": "5:05 AM–9:05 AM",
-      "arrive_by_local": "6:04 AM",
-      "daylight_min": 171,
-      "score": 57,
+      "date": "2026-08-12",
+      "weekday": "Wed",
+      "low_ft": -1.112,
+      "low_time_local": "5:07 AM",
+      "window_local": "2:35 AM–7:45 AM",
+      "arrive_by_local": "4:07 AM",
+      "daylight_min": 82,
+      "score": 55,
       "band": "Fair",
-      "weekend_or_holiday": true
+      "weekend_or_holiday": false
      }
     },
     "2026-09": {
@@ -310,8 +310,8 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 23,
-     "daylight_windows": 7,
+     "lows_below_1ft": 22,
+     "daylight_windows": 6,
      "daylight_minus_tides": 2,
      "best_window": {
       "date": "2026-08-13",
@@ -458,9 +458,9 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 23,
-     "daylight_windows": 7,
-     "daylight_minus_tides": 4,
+     "lows_below_1ft": 22,
+     "daylight_windows": 6,
+     "daylight_minus_tides": 3,
      "best_window": {
       "date": "2026-08-13",
       "weekday": "Thu",

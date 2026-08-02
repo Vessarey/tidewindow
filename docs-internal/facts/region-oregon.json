@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-01",
+ "generated_on": "2026-08-02",
  "region": "Oregon coast",
  "stations": [
   {
@@ -14,9 +14,9 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 30,
-     "daylight_windows": 18,
-     "daylight_minus_tides": 13,
+     "lows_below_1ft": 29,
+     "daylight_windows": 17,
+     "daylight_minus_tides": 12,
      "best_window": {
       "date": "2026-08-12",
       "weekday": "Wed",
@@ -162,9 +162,9 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 31,
-     "daylight_windows": 17,
-     "daylight_minus_tides": 13,
+     "lows_below_1ft": 30,
+     "daylight_windows": 16,
+     "daylight_minus_tides": 12,
      "best_window": {
       "date": "2026-08-12",
       "weekday": "Wed",
@@ -310,9 +310,9 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 33,
-     "daylight_windows": 17,
-     "daylight_minus_tides": 13,
+     "lows_below_1ft": 32,
+     "daylight_windows": 16,
+     "daylight_minus_tides": 12,
      "best_window": {
       "date": "2026-08-12",
       "weekday": "Wed",
@@ -458,9 +458,9 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 30,
-     "daylight_windows": 16,
-     "daylight_minus_tides": 12,
+     "lows_below_1ft": 29,
+     "daylight_windows": 15,
+     "daylight_minus_tides": 11,
      "best_window": {
       "date": "2026-08-12",
       "weekday": "Wed",

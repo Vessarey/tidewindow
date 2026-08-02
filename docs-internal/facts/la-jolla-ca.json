@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-01",
+ "generated_on": "2026-08-02",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -53,18 +53,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-01",
-   "weekday": "Sat",
-   "low_ft": 0.013,
-   "low_time_local": "5:35 AM",
-   "window_local": "3:45 AM–7:30 AM",
-   "arrive_by_local": "4:35 AM",
-   "daylight_min": 87,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-08-14",
    "weekday": "Fri",
    "low_ft": -0.498,
@@ -111,6 +99,18 @@
    "score": 42,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-13",
+   "weekday": "Sun",
+   "low_ft": 0.589,
+   "low_time_local": "5:24 PM",
+   "window_local": "4:15 PM–6:35 PM",
+   "arrive_by_local": "4:24 PM",
+   "daylight_min": 140,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 23,
-   "daylight_windows": 7,
+   "lows_below_1ft": 22,
+   "daylight_windows": 6,
    "daylight_minus_tides": 2,
    "best_window": {
     "date": "2026-08-13",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-01",
-   "weekday": "Sat",
-   "low_ft": 0.013,
-   "low_time_local": "5:35 AM",
-   "window_local": "3:45 AM–7:30 AM",
-   "arrive_by_local": "4:35 AM",
-   "daylight_min": 87,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 64,
-   "min_to_sun_edge": -28
-  },
-  {
    "date": "2026-08-02",
    "weekday": "Sun",
    "low_ft": 0.39,
@@ -450,13 +436,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 71,
    "min_to_sun_edge": -15
+  },
+  {
+   "date": "2026-09-14",
+   "weekday": "Mon",
+   "low_ft": 0.758,
+   "low_time_local": "6:11 PM",
+   "window_local": "5:15 PM–7:10 PM",
+   "arrive_by_local": "5:11 PM",
+   "daylight_min": 101,
+   "score": 26,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 268,
+   "min_to_sun_edge": 45
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 140
+   "count": 141
   },
   {
    "commonName": "Sorcerer's Dorid",
@@ -479,19 +479,19 @@
    "count": 63
   },
   {
-   "commonName": "Gould Beanclam",
-   "scientificName": "Donax gouldii",
-   "count": 43
-  },
-  {
    "commonName": "McDonald's Dorid",
    "scientificName": "Limacia mcdonaldi",
    "count": 43
   },
   {
+   "commonName": "Gould Beanclam",
+   "scientificName": "Donax gouldii",
+   "count": 42
+  },
+  {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 41
+   "count": 40
   },
   {
    "commonName": "Colorful Dirona",
