@@ -5,6 +5,82 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-03 — Conversion pass: king-tides page routed into finder/ICS/newsletter; stale calendar-gate copy fixed
+
+**Health first:** no open issues. At the 12:04Z check the 08-03 scheduled
+refresh had NOT yet fired (cron 10:17Z; recent fires 11:35/11:35/12:19Z —
+inside the ~3h drift envelope, so not red by playbook §0.3). Monitored
+through the session; see the cron postscript below for how it resolved.
+Data-json and fact sheets current through 2026-08-02 either way; today's
+edits touch no tide numbers, so nothing published depends on today's
+refresh.
+
+**Cron postscript (drift incident, logged per §0.3):** the scheduled run
+fired at 13:21:19Z — 3h04m after the 10:17Z cron, the first fire past the
+~3h line (recent history: ~1h20m twice, ~2h once). Run completed green in
+~2.5m; data commit 1fbd139 landed on main at 13:23:44Z, rebasing cleanly
+over my 12:10Z editorial push (push-retry fix now 3-for-3, and this run
+proves the retry against a mid-day editorial commit, not just clean main).
+IndexNow: 108 URLs, HTTP 200. No action needed today, but per the
+don't-normalize rule: one fire past 3h is now on record — if it happens
+again this week, treat it as a pattern and consider moving the cron
+earlier (e.g. 09:47Z) or adding a late-fire alarm to the workflow.
+
+**Primary action (priority f — first conversion/distribution pass of the
+week, per yesterday's note):** the king-tides dates article is the site's
+top page (28 uniques/7d ≈ 23% of all traffic; 8 GSC clicks/28d) and — alone
+among high-traffic pages — linked to neither the Tide Window Finder nor the
+calendar feeds, with no in-article signup mention (grep showed ~20 other
+articles already link the finder). Commit 9f0fe1e:
+- "Check your dates" CTA added directly after the main four-station table
+  (peak scan position): fixed-travel-dates framing → finder.
+- Planning section now ends in a three-way capture block: finder
+  (check your own dates) / station-page ICS feeds (La Jolla, Newport,
+  Bar Harbor, Seattle — "12-month calendar feed…arrive-by time and a
+  reminder built in", claims verified against the generated .ics: Good+
+  windows, arrive-by in DESCRIPTION, VALARM -PT45M) / Thursday email
+  (matches live "Sent every Thursday" copy).
+- Deliberate choices: `updated:` frontmatter NOT bumped (no tide/data
+  content changed; also keeps the 08-05 CTR-retitle judgment clean) and
+  plain build, not PIPELINE_REFRESH (UI/content only — pipeline untouched).
+- Side-fix (honesty): calendar-gate.tsx blurb still promised the weekly
+  alert "(starting this season)" — stale since the 07-23 go-live and missed
+  by the 5a51925 copy flip because it lives in the tool-gate path. Now
+  "every Thursday." Site-wide grep confirms zero "starting this season"
+  instances remain.
+
+**Quality gates:** build green (0 warnings); all 7 internal link targets
+verified present in out/; both changes exercised in the built site via the
+local preview (article renders both CTAs; gate click reveals the corrected
+blurb; no console errors); diff reviewed — only the 2 intended files.
+
+**Velocity:** 0 new articles (5th consecutive non-article run is fine;
+priority f is the week's mandated first pass). No station adds.
+
+**Metrics (PostHog, 7d, host-filtered):** 152 pv / 119 uniques / 1 signup
+(flat vs 155/123/1). Tool events remain thin: station_selected 5,
+window_result_viewed 4, exit_intent_shown 5, finder page 6 pv. Baselines
+for judging this pass in ~2 weeks: finder pageviews (6/7d), king-tides →
+finder click-through (0 by construction), signups÷uniques 0.8% vs 1.5%
+target. tool_gate signups to date: 0 — worth watching whether the
+king-tides ICS bullet changes that.
+
+**Notes for tomorrow (08-04, Tuesday):**
+- Second priority-f pass is due by Saturday; strongest remaining candidate:
+  off-site — ONE directory/listing submission from BACKLOG P3, or an
+  on-site pass routing the Acadia guide (10 uniques/7d, #3 page) into
+  finder/ICS (it links the finder twice already, but no ICS/newsletter
+  mention).
+- 08-05: judge the 07-19 CTR retitle per BACKLOG P2 (per-page GSC CTR).
+- 08-06 (Thursday): newsletter #4 leads with the Aug 8–14 Exceptional run;
+  roundup was verified fresh 08-02; template unchanged per owner-reviewed
+  scope.
+- Refresh queue (priority e): oregon-coast-minus-tide-calendar-2026 next.
+- If today's cron logged a >3h drift or needed a manual dispatch, treat
+  recurrence as an incident pattern per §0.3, not noise.
+
+---
+
 ## 2026-08-02 — Golden-hour calendar refreshed to the Aug 10–13 last-dawn-run; Aug 8–13 roundup verified fresh
 
 **Health first:** 08-02 cron green (11:35Z, 1m53s) and the data commit landed
