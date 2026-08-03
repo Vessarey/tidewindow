@@ -36,8 +36,8 @@ export default function CalendarGate({ stationSlug, stationName }: { stationSlug
         <p className="signup-headline">Your {stationName} tide calendar</p>
         <p className="signup-blurb">
           Every Good-or-better daylight window for the next 12 months — as a calendar feed you can subscribe to, plus
-          a printable year view. We&apos;ll also send the weekly Minus Tide Alert for your coast (starting this
-          season). No spam, unsubscribe anytime.
+          a printable year view. We&apos;ll also send the weekly Minus Tide Alert for your coast, every Thursday.
+          No spam, unsubscribe anytime.
         </p>
         <form
           className="signup-form"

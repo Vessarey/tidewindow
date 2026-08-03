@@ -52,6 +52,8 @@ But every one of those headline highs has a quieter twin a few hours away, and t
 
 *Computed 2026-07-03 from NOAA station 9447130, 9435380, 9410230, and 8413320 predictions (heights in ft MLLW, times local).*
 
+If your travel dates are already fixed, the question runs the other way — not "when is the lowest low" but "what is the tide doing on my days." The [Tide Window Finder](/tools/tide-window-finder/) answers that for any upcoming date at all twelve stations we track, with an arrive-by time computed an hour before each low.
+
 Read the daylight column before the depth column. [Newport](/beaches/or/newport-or/) posts the deepest number in the table, but its December 23 low arrives at 5:53 PM with only 60 daylight minutes in the window — you would be prospecting at dusk. All five of Newport's deepest king-season daylight lows land between 5:04 and 6:24 PM, with 46 to 100 minutes of light. Compare its summer benchmark, predicted for July 15, 2026: -2.52 ft at 7:50 AM, with 285 daylight minutes. Winter gives Newport almost the same depth and a fifth of the light.
 
 La Jolla inverts that trade. Its -1.89 ft low on January 21 arrives mid-afternoon with more daylight in the window (311 minutes) than any other entry in the table.
@@ -82,4 +84,12 @@ Bar Harbor holds its own. Its -1.89 ft low on Saturday, January 23, 2027 (5:20 P
 
 ## How to plan around these dates
 
-Winter windows are short and end at dusk, so timing matters more than in July. Arrive about an hour before the predicted low so you follow the water out and walk back with the flood. Every date above, plus the ones that did not make the cut, is plotted on the [year heatmap](/tools/year-heatmap/), and the full season list with arrive-by times is on the [king tide season page](/king-tides/2026-2027/). The floods will get the headlines this winter. The reef is where the quiet part happens.
+Winter windows are short and end at dusk, so timing matters more than in July. Arrive about an hour before the predicted low so you follow the water out and walk back with the flood.
+
+These dates are also months away, which is exactly how they get lost. Three ways to keep them:
+
+- **Check your own dates.** The [Tide Window Finder](/tools/tide-window-finder/) lists every upcoming daylight window at the twelve stations we track, each with its arrive-by time — the fastest answer when the trip is booked and the tide is the open question.
+- **Put the season in your calendar.** Every station page — [La Jolla](/beaches/ca/la-jolla-ca/), [Newport](/beaches/or/newport-or/), [Bar Harbor](/beaches/me/bar-harbor-me/), [Seattle](/beaches/wa/seattle-wa/) — offers a 12-month calendar feed: subscribe once and every Good-or-better daylight window lands in your calendar app with its arrive-by time and a reminder built in.
+- **Or let the dates find you.** The signup at the bottom of this page is one email a week, sent Thursdays, with the windows worth the drive on your coast.
+
+Every date above, plus the ones that did not make the cut, is plotted on the [year heatmap](/tools/year-heatmap/), and the full season list with arrive-by times is on the [king tide season page](/king-tides/2026-2027/). The floods will get the headlines this winter. The reef is where the quiet part happens.
