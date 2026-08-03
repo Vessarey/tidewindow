@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-02",
+ "generated_on": "2026-08-03",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-08-02",
-   "weekday": "Sun",
-   "low_ft": 0.512,
-   "low_time_local": "7:37 AM",
-   "window_local": "6:15 AM–9:00 AM",
-   "arrive_by_local": "6:37 AM",
-   "daylight_min": 165,
-   "score": 47,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-28",
    "weekday": "Mon",
    "low_ft": -0.106,
@@ -111,6 +99,18 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-26",
+   "weekday": "Sat",
+   "low_ft": 0.597,
+   "low_time_local": "5:16 PM",
+   "window_local": "4:05 PM–6:25 PM",
+   "arrive_by_local": "4:16 PM",
+   "daylight_min": 140,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 23,
-   "daylight_windows": 11,
+   "lows_below_1ft": 22,
+   "daylight_windows": 10,
    "daylight_minus_tides": 4,
    "best_window": {
     "date": "2026-08-12",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-02",
-   "weekday": "Sun",
-   "low_ft": 0.512,
-   "low_time_local": "7:37 AM",
-   "window_local": "6:15 AM–9:00 AM",
-   "arrive_by_local": "6:37 AM",
-   "daylight_min": 165,
-   "score": 47,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 79,
-   "min_to_sun_edge": 82
-  },
-  {
    "date": "2026-08-12",
    "weekday": "Wed",
    "low_ft": -1.134,
@@ -450,48 +436,62 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 83,
    "min_to_sun_edge": 75
+  },
+  {
+   "date": "2026-08-28",
+   "weekday": "Fri",
+   "low_ft": 0.101,
+   "low_time_local": "5:34 AM",
+   "window_local": "3:50 AM–7:20 AM",
+   "arrive_by_local": "4:34 AM",
+   "daylight_min": 43,
+   "score": 29,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 67,
+   "min_to_sun_edge": -63
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 96
+   "count": 89
   },
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 72
+   "count": 68
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 59
+   "count": 56
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 54
+   "count": 50
   },
   {
    "commonName": "Stubby Dendronotid",
    "scientificName": "Dendronotus subramosus",
-   "count": 43
+   "count": 42
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 42
+   "count": 40
   },
   {
    "commonName": "Hammerhead Doto",
    "scientificName": "Doto amyra",
-   "count": 38
+   "count": 37
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 28
+   "count": 27
   },
   {
    "commonName": "San Diego Dorid",
@@ -501,7 +501,7 @@
   {
    "commonName": "Heath's Dorid",
    "scientificName": "Geitodoris heathi",
-   "count": 23
+   "count": 21
   }
  ]
 }

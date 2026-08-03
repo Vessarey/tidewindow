@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-02",
+ "generated_on": "2026-08-03",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 22,
-   "daylight_windows": 6,
+   "lows_below_1ft": 21,
+   "daylight_windows": 5,
    "daylight_minus_tides": 3,
    "best_window": {
     "date": "2026-08-13",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-02",
-   "weekday": "Sun",
-   "low_ft": 0.351,
-   "low_time_local": "6:05 AM",
-   "window_local": "4:35 AM–7:35 AM",
-   "arrive_by_local": "5:05 AM",
-   "daylight_min": 91,
-   "score": 37,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 68,
-   "min_to_sun_edge": 1
-  },
-  {
    "date": "2026-08-03",
    "weekday": "Mon",
    "low_ft": 0.838,
@@ -450,6 +436,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 268,
    "min_to_sun_edge": 45
+  },
+  {
+   "date": "2026-09-29",
+   "weekday": "Tue",
+   "low_ft": 0.122,
+   "low_time_local": "5:56 PM",
+   "window_local": "4:10 PM–7:45 PM",
+   "arrive_by_local": "4:56 PM",
+   "daylight_min": 146,
+   "score": 41,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 262,
+   "min_to_sun_edge": 40
   }
  ],
  "species_last60d_5km": [

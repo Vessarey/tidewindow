@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-02",
+ "generated_on": "2026-08-03",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -77,18 +77,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-08-02",
-   "weekday": "Sun",
-   "low_ft": -0.031,
-   "low_time_local": "9:04 AM",
-   "window_local": "7:30 AM–10:35 AM",
-   "arrive_by_local": "8:04 AM",
-   "daylight_min": 185,
-   "score": 61,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-08-10",
    "weekday": "Mon",
    "low_ft": -1.36,
@@ -111,6 +99,18 @@
    "score": 56,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-28",
+   "weekday": "Fri",
+   "low_ft": -0.322,
+   "low_time_local": "7:00 AM",
+   "window_local": "5:20 AM–8:45 AM",
+   "arrive_by_local": "6:00 AM",
+   "daylight_min": 128,
+   "score": 53,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 32,
-   "daylight_windows": 16,
-   "daylight_minus_tides": 12,
+   "lows_below_1ft": 31,
+   "daylight_windows": 15,
+   "daylight_minus_tides": 11,
    "best_window": {
     "date": "2026-08-12",
     "weekday": "Wed",
@@ -474,6 +474,11 @@
    "count": 4
   },
   {
+   "commonName": "Red Sponge Dorid",
+   "scientificName": "Rostanga pulchra",
+   "count": 3
+  },
+  {
    "commonName": "Chan's Dorid",
    "scientificName": "Hallaxa chani",
    "count": 3
@@ -484,23 +489,18 @@
    "count": 3
   },
   {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 3
+  },
+  {
    "commonName": "Clown Dorid",
    "scientificName": "Triopha catalinae",
    "count": 2
   },
   {
-   "commonName": "Red Sponge Dorid",
-   "scientificName": "Rostanga pulchra",
-   "count": 2
-  },
-  {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
-   "count": 2
-  },
-  {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
    "count": 2
   }
  ]
