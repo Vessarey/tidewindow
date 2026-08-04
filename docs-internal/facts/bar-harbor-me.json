@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-03",
+ "generated_on": "2026-08-04",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 37,
+   "lows_below_1ft": 36,
    "daylight_windows": 22,
    "daylight_minus_tides": 10,
    "best_window": {
@@ -461,7 +461,7 @@
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "Atlantic Jackknife",

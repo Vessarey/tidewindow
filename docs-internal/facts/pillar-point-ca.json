@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-03",
+ "generated_on": "2026-08-04",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -456,12 +456,12 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 89
+   "count": 88
   },
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 68
+   "count": 69
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
