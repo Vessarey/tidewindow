@@ -162,10 +162,13 @@ with the date; add discoveries at the appropriate tier.
       Beach Hazards Statement product specifics CUT (no clean official
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
-- [ ] Refresh-pass queue (priority e, not additions): next candidate is
-      oregon-coast-minus-tide-calendar-2026 (07-03 vintage, 9 July date
-      mentions — evaluate its tables first; puget-sound-low-tide-calendar and
-      the four CA station guides queue behind it). NOTE 2026-08-02:
+- [ ] Refresh-pass queue (priority e, not additions): next candidates are
+      puget-sound-low-tide-calendar-2026 (check for passed dates; the Aug 8–13
+      roundup already covers the imminent run) and the four CA station guides.
+      Done 2026-08-04: oregon-coast-minus-tide-calendar-2026 (123e903) —
+      answer box/FAQ/weekend section now lead with Aug 11–14; July preserved
+      as history; Sat Aug 15 flagged as 2026's best remaining weekend window;
+      verified no Great-band daylight window after Aug 14. NOTE 2026-08-02:
       what-is-a-minus-tide was listed here but is NOT actually stale — its
       tables are calendar-2026 aggregate constants (940 minus tides / 535
       daylight etc.), no passed dates; the "Computed 2026-07-03" stamps stay

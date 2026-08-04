@@ -5,6 +5,68 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-04 — Oregon coast calendar refreshed: Aug 11–14 last-dawn-run now leads; July moved to the record books
+
+**Health first:** 08-04 cron green, fired 12:20Z (~2h drift — back inside
+the envelope, so yesterday's 3h04m fire stays a one-off for now; the
+incident note stands). Data commit 2d661c8 landed on main; no open issues.
+
+**Primary action (priority e — refresh, commit 123e903):** rewrote
+oregon-coast-minus-tide-calendar-2026 (5 pv/7d, #5 guide). Its answer box
+still told readers "if one trip is all you can manage, aim for July
+13–16" — three weeks past — exactly one week before the Aug 11–14 run its
+August section undersold in a single table. This was also the timeliest
+possible refresh: OR content is now fresh before the traffic the run
+should bring. Changes: answer box leads with Aug 11–14 (Newport −1.91 ft,
+6:46 AM low, arrive 5:46); new Newport day-by-day run-shape table
+(Aug 10–15, depth peaks Wed / daylight peaks Fri, 37–50 min lunar lag);
+south→north sweep spelled out (PO 6:19 → Garibaldi 7:04, 45 min); Sat
+Aug 15 surfaced as 2026's best remaining weekend window (all four
+stations Good, morning lows −0.71 to −0.37 ft) in both prose and FAQ;
+honest closer verified from facts: NO Great-band daylight window returns
+in 2026 after Aug 14 (Nov/Dec dusk lows top out at 72). July tables and
+the 13 Exceptional windows kept as historical record with original
+2026-07-03 stamps, prose past-tensed. Aggregate Jul–Dec counts (198/117)
+kept with stamps — the rolling data window can no longer recompute them
+(starts today), and predictions haven't drifted. Light conversion touch
+in the closer: station-page calendar feeds mentioned (this week's theme).
+updated: 2026-08-04.
+
+**Quality gates:** 24-check verification script PASS (run-shape table,
+sweep times, Aug 12 + Aug 15 all-station rows, no-Great-after-Aug-14 via
+months_2026 Sep–Dec maxima AND top-8 cutoffs, September deepest −0.57);
+build green, 0 warnings; diff single-file; rendered page shows
+"updated Aug 4, 2026".
+
+**Velocity:** 0 new articles (refresh, not addition). Refresh cadence:
+2 of the last 3 runs (08-02, 08-04) — inside the 30–50% band.
+
+**Metrics (PostHog, 7d, host-filtered):** king-tides 25 pv, home 16,
+Acadia 11, finder 7 (was 6 — watch, day-old post-conversion-pass),
+seattle 2026-08 month page 7, this article 5. GSC not pulled today
+(retitle judgment is tomorrow's job, with fresh 28d data).
+
+**Notes for tomorrow (08-05, Wednesday):**
+- PRIMARY per BACKLOG P2: judge the 07-19 CTR retitle — per-page GSC CTR
+  vs the recorded baseline (31 clicks / 1.84K impr / 1.7% / pos 10.7;
+  pillar-point 394 impr 0 clicks; beach/month pages 0% at pos 5–8).
+  Remember the tiny-n rule (§5): pages under ~100 impressions since
+  07-19 get an extended window, not a verdict. Also check the 07-22
+  finder landing-copy baseline (67 impr / pos ~52 / 0 clicks) while in
+  GSC.
+- 08-06 (Thursday): newsletter #4 — Aug 8–14 Exceptional run leads;
+  recompute-check against data-json as always; owner-reviewed scope
+  unchanged (template only).
+- Priority-f pass #2 due by Saturday (off-site P3 item, or route the
+  Acadia guide into ICS/newsletter).
+- Refresh queue: puget-sound-low-tide-calendar-2026 and the four CA
+  station guides are next candidates — but the Puget roundup already
+  covers Aug 8–13; evaluate whether the calendar's tables have passed
+  dates first.
+- 08-10: judge exit-intent (impressions vs signups, PostHog).
+
+---
+
 ## 2026-08-03 — Conversion pass: king-tides page routed into finder/ICS/newsletter; stale calendar-gate copy fixed
 
 **Health first:** no open issues. At the 12:04Z check the 08-03 scheduled
