@@ -5,6 +5,76 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-05 — Verdict on the 07-19 retitle: qualified win. Month pages now click; Pillar Point + La Jolla don't — and the data says it's intent, not titles
+
+**Health first:** no open issues. At the 12:07Z check today's scheduled
+refresh had not yet fired — inside the ~3h drift envelope (recent fires
+11:35/13:21/12:20Z); see cron postscript. Today's edits are journal/backlog
+only (no tide numbers), so nothing published depends on today's refresh.
+
+**Primary action (BACKLOG P2, scheduled for today — judge the 2026-07-19
+CTR retitle):** per §5, judged on GSC date + page dimensions, post-change
+window 07-20→08-03 (15d, GSC lags 2d) vs the recorded 07-19 baseline (28d).
+
+**Verdict: qualified win — keep every new title, iterate nothing.**
+- Site-wide (date dimension): 14d pre-retitle 33 clicks / 1,993 impr
+  (1.66%); 15d post 42 / 2,170 (1.94%), daily avg position now mostly
+  6–9 vs 10.7 baseline.
+- The target class flipped. Beach/month pages went from 0 clicks in the
+  entire 28d baseline to ~12 clicks post: seattle 2026-08 4/257 (1.6% @
+  7.3, was 0/45), seattle 2026-07 3/139 (2.2%), la-push 2026-08 2/102
+  (2.0%), port-townsend 2026-08 2/55 (3.6%), san-diego 2026-08 1/116
+  (0.9%, was 0/41 — first click, still weak). Impression growth on
+  2026-08 pages is partly seasonal (August arrived), but CTR is
+  per-impression and that's what moved off zero.
+- Retitled guides held or improved: king-tides 4/94 = 4.3% @ 6.4 (was
+  3.6% @ 6.7); Acadia 3/131 = 2.3% @ 7.9 — the "low tide schedule" title
+  words it gained now show pos ~8 vs 19–50 pre-retitle.
+- Still failing, with judgeable n (≥100 impr per §5): pillar-point
+  cluster 0/129 (station 0/66 @ 8.1, months 0/63) and la-jolla 2026-08
+  0/128 @ 6.6. Query drill-down (page-filtered): la-jolla's impressions
+  are 100% anonymized — zero visible query rows, nothing to diagnose
+  from; pillar-point's few visible rows are people hunting NOAA annual
+  tide-table PDFs for station 9414131 — i.e. highs+lows chart intent our
+  lows-only pages don't serve. That is evidence for the existing P2
+  "publish daily high/low pairs" pipeline decision, not for another
+  retitle. Do NOT iterate these two clusters' titles; route the problem
+  to the highs+lows item (BACKLOG P2 updated with this evidence).
+- Homepage 0/16 @ 20.6 (was 0/22 @ 5.3) — n far too small, extended
+  window; note the position slide to ~21 and re-check with the next
+  monthly look.
+
+**Also checked while in GSC — the 07-22 finder landing copy (baseline
+0/67 @ ~52, 28d):** post-window 0/49 @ 41.5. Impression rate up
+(2.4→3.3/day) and position better, but composition is still ~80%
+movie-piracy junk ("low tide on demand/dvdscreener/…"); the only
+real-intent rows are "when is the next low tide" (2 impr @ 21.5) and
+"when is low tide at my location" (1 impr @ 29). Under 100 impressions →
+tiny-n rule: NO verdict, window extended to ~08-19.
+
+**Velocity:** 0 new articles (analysis run). No station adds. No build
+needed — diff is JOURNAL/BACKLOG only.
+
+**Metrics (PostHog, 7d, host-filtered):** 142 pv / 124 uniques / 1 signup
+(flat vs 152/119/1); signups÷uniques 0.8% vs 1.5% target. king-tides 29 pv
+(#1), home 22, Acadia 11, seattle 2026-08 6, finder 5. Tool events:
+station_selected 4, window_result_viewed 5, exit_intent_shown 3.
+
+**Notes for tomorrow (08-06, THURSDAY — newsletter #4 is the primary):**
+- sync-audience → send-weekly --dry-run → recompute-check against
+  data-json → send --owner-reviewed → journal Broadcast id, watch
+  bounce/complaint. Lead is the Aug 8–14 Exceptional run. Scope
+  unchanged (template + computed windows + article links only).
+- Priority-f pass #2 due by Saturday (off-site P3 item, or route the
+  Acadia guide into ICS/newsletter).
+- 08-10: judge exit-intent (3 shown / 0 signups so far — small n).
+- Refresh queue (priority e): puget-sound-low-tide-calendar-2026 (check
+  for passed dates) and the four CA station guides.
+- ~08-19: finder landing re-check. Next monthly GSC look: homepage
+  position drift, san-diego 2026-08 CTR.
+
+---
+
 ## 2026-08-04 — Oregon coast calendar refreshed: Aug 11–14 last-dawn-run now leads; July moved to the record books
 
 **Health first:** 08-04 cron green, fired 12:20Z (~2h drift — back inside

@@ -183,11 +183,15 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — product
 
-- [ ] **2026-08-05: judge the 07-19 CTR retitle** against the GSC baseline
-      (31 clicks / 1.84K impr / 1.7% / pos 10.7; pillar-point pages 394 impr,
-      0 clicks; beach/month pages 0% at pos 5–8). Compare per-page CTR, not
-      aggregate (movie-piracy junk queries pollute the aggregate). Do NOT
-      iterate titles before this date — recrawl needs 1–2 weeks.
+- [x] 2026-08-05: **07-19 CTR retitle JUDGED — qualified win, titles stay**
+      (see JOURNAL 2026-08-05). Site CTR 1.66%→1.94%, month pages 0→~12
+      clicks (seattle-08 1.6%, pt-08 3.6%, la-push-08 2.0%), king-tides
+      4.3%, Acadia 2.3% @ ~8. Still 0%: pillar-point 0/129 and la-jolla
+      2026-08 0/128 — but query drill-down shows intent mismatch (NOAA
+      highs+lows table seekers / fully-anonymized queries), NOT title
+      weakness → routed to the high/low-pairs item below; no re-retitle.
+      Finder landing (07-22): 0/49 @ 41.5, still junk-dominated, <100
+      impr → tiny-n window extended to ~08-19.
 - [x] 2026-07-22: /tools/tide-window-finder/ landing copy DONE (commit
       386e4e6) — intent-bearing title/H1 ("Find the next low tide near
       you"), three sections below the tool linking depth explainers,
@@ -201,6 +205,11 @@ with the date; add discoveries at the appropriate tier.
       Harbor), so a full "Bar Island crossing schedule" page is equally
       blocked; the same pipeline decision unblocks both, plus the flywheel
       query "acadia national park tide schedule" (pos 19, GSC 07-24).
+      MORE EVIDENCE (2026-08-05, retitle post-mortem): pillar-point's only
+      visible GSC queries post-retitle hunt NOAA annual tide-table PDFs for
+      station 9414131 (highs+lows) — the cluster's 0/129 CTR looks like
+      this same lows-only intent gap, not titles. Three query families now
+      point at one fix; this is the strongest-evidenced P2 product item.
 - [x] 2026-07-05: iNat taxa filter DONE — terrestrial strays (Garden Snail,
       Pacific Banana Slug, land Helicidae, woodlice) excluded by ancestry.
       scripts/pipeline/species.mjs owns fetchSpecies + a TERRESTRIAL_CLADE_IDS
