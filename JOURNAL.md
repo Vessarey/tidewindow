@@ -12,6 +12,13 @@ refresh had not yet fired — inside the ~3h drift envelope (recent fires
 11:35/13:21/12:20Z); see cron postscript. Today's edits are journal/backlog
 only (no tide numbers), so nothing published depends on today's refresh.
 
+**Cron postscript:** fired 12:18:41Z (~2h drift, inside the envelope),
+green in ~2m; data commit 1861136 landed on main at 12:20:29Z, rebasing
+cleanly over this morning's 12:08Z editorial push (push-retry now 4-for-4
+against mid-day editorial commits). The 08-03 past-3h fire remains a
+one-off — no drift pattern this week; keep watching per the
+don't-normalize rule.
+
 **Primary action (BACKLOG P2, scheduled for today — judge the 2026-07-19
 CTR retitle):** per §5, judged on GSC date + page dimensions, post-change
 window 07-20→08-03 (15d, GSC lags 2d) vs the recorded 07-19 baseline (28d).
