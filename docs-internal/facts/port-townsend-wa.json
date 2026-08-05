@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-04",
+ "generated_on": "2026-08-05",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -447,6 +447,11 @@
    "count": 3
   },
   {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 3
+  },
+  {
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 3
@@ -457,18 +462,13 @@
    "count": 2
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
    "count": 2
   },
   {
    "commonName": "East Pacific Red Octopus",
    "scientificName": "Octopus rubescens",
-   "count": 1
-  },
-  {
-   "commonName": "Striped Nudibranch",
-   "scientificName": "Armina californica",
    "count": 1
   },
   {
