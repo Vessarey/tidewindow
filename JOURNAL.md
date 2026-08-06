@@ -5,6 +5,62 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-06 — Newsletter #4 sent: Aug 8–14 spring run leads, Port Townsend 100/100 Sunday
+
+**Health first:** no open issues; 08-05 cron green. At the 12:03Z check
+today's refresh had not yet fired — inside the ~3h drift envelope (recent
+fires 11:35/12:20/12:18Z). Newsletter numbers come from committed
+data-json (astronomical predictions, stable between refreshes), so
+nothing sent depends on today's refresh. Still not fired at the 12:10Z
+push — TOMORROW: verify an 08-06 "data: daily NOAA refresh" commit landed
+on main (and log the fire time against the ~3h drift rule).
+
+**Primary action (Thursday standing ritual — newsletter #4):**
+1. sync-audience: 3 PostHog signups → 3 already present in Resend
+   audience, 0 new, 0 unsubscribed (untouched).
+2. dry-run rendered Aug 6–12 issue: subject "Minus Tide Alert, Aug 6–Aug
+   12: Port Townsend hits -2.05 ft Sun"; 26 Good+ windows across 7 of 12
+   stations.
+3. Recompute-check PASS — independently recounted from
+   public/data-json/stations/*.json: 26 Good+ (10 Exceptional / 8 Great /
+   8 Good) exactly matches the draft; every height/time/window/score
+   spot-checked across all 7 stations (PT Sun −2.049→−2.05 @ 7:38 AM,
+   walkable 5:00–10:50, arriveBy 6:38 ✓; Seattle −1.908 @ 8:29 ✓; La Push
+   Wed −2.313 @ 6:58 ✓; Newport −1.913 @ 6:46 ✓; Garibaldi −1.767 ✓;
+   Charleston −1.715 ✓; Port Orford −1.742 ✓; all "also" rows ✓).
+   "Nothing Good+ in Central CA / SoCal / New England" verified (monterey,
+   pillar-point, la-jolla, san-diego, bar-harbor all zero Good+).
+   Digit-stripped diff vs the 07-30 issue confirms structure identical —
+   template + computed windows + article links only, so the 07-19
+   standing approval covers it (no fresh owner OK needed).
+4. Sent: Broadcast **2bf7020a-f510-4fdd-bb37-ec1391568319** to 3
+   subscribers, Resend status "sent" 12:05:34Z. Unsubscribe placeholder
+   present. Watch bounce/complaint next run.
+
+**Velocity:** 0 new articles (newsletter run). No station adds. No build
+needed — diff is drafts + JOURNAL + BACKLOG only.
+
+**Metrics (PostHog, 7d, host-filtered):** 119 pv / 114 uniques / 0
+signups (was 142/124/1) — signups÷uniques 0% this week; list stuck at 3.
+king-tides 27 pv (#1), home 19, Acadia 11, about 5, seattle 2026-08 4,
+finder 3. Tool events: station_selected 3, window_result_viewed 4,
+exit_intent_shown 4 (still 0 attributable signups — judgment 08-10).
+
+**Notes for tomorrow (08-07, Friday):**
+- Priority-f pass #2 is due by Saturday — do it tomorrow: either one
+  off-site P3 distribution item, or route the Acadia guide (steady #3
+  page) into ICS/newsletter pathways. Capture is still the constraint
+  (0.6→0% signup rate vs 1.5% target).
+- Refresh queue (priority e) if f is somehow blocked:
+  puget-sound-low-tide-calendar-2026 (check for passed dates; the Aug
+  8–13 run it covers is now current) and the four CA station guides.
+- 08-10: judge exit-intent (4 shown / 0 signups — n still tiny; likely
+  extend).
+- ~08-19: finder landing copy re-check. Next monthly GSC look: homepage
+  position drift, san-diego 2026-08 CTR.
+
+---
+
 ## 2026-08-05 — Verdict on the 07-19 retitle: qualified win. Month pages now click; Pillar Point + La Jolla don't — and the data says it's intent, not titles
 
 **Health first:** no open issues. At the 12:07Z check today's scheduled
