@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-05",
+ "generated_on": "2026-08-06",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 21,
-   "daylight_windows": 19,
+   "lows_below_1ft": 20,
+   "daylight_windows": 18,
    "daylight_minus_tides": 12,
    "best_window": {
     "date": "2026-08-09",
@@ -346,20 +346,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-06",
-   "weekday": "Thu",
-   "low_ft": 0.007,
-   "low_time_local": "4:41 AM",
-   "window_local": "3:05 AM–6:30 AM",
-   "arrive_by_local": "3:41 AM",
-   "daylight_min": 36,
-   "score": 26,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 49,
-   "min_to_sun_edge": -73
-  },
-  {
    "date": "2026-08-07",
    "weekday": "Fri",
    "low_ft": -0.833,
@@ -428,32 +414,36 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 86,
    "min_to_sun_edge": 77
+  },
+  {
+   "date": "2026-09-05",
+   "weekday": "Sat",
+   "low_ft": -1.007,
+   "low_time_local": "5:05 AM",
+   "window_local": "2:50 AM–7:45 AM",
+   "arrive_by_local": "4:05 AM",
+   "daylight_min": 70,
+   "score": 60,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 62,
+   "min_to_sun_edge": -90
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 6
+   "count": 4
   },
   {
    "commonName": "Nuttall's Cockle",
    "scientificName": "Clinocardium nuttallii",
-   "count": 3
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 3
-  },
-  {
-   "commonName": "Pacific Oyster",
-   "scientificName": "Magallana gigas",
    "count": 3
   },
   {
@@ -462,8 +452,18 @@
    "count": 2
   },
   {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 2
+  },
+  {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
+   "count": 2
+  },
+  {
+   "commonName": "Pacific Oyster",
+   "scientificName": "Magallana gigas",
    "count": 2
   },
   {
@@ -472,13 +472,13 @@
    "count": 1
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
+   "commonName": "Shield Limpet",
+   "scientificName": "Lottia pelta",
    "count": 1
   },
   {
-   "commonName": "Shield Limpet",
-   "scientificName": "Lottia pelta",
+   "commonName": "Channeled Dog Winkle",
+   "scientificName": "Nucella canaliculata",
    "count": 1
   }
  ]

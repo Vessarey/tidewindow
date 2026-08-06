@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-05",
+ "generated_on": "2026-08-06",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -456,17 +456,12 @@
   {
    "commonName": "Pismo Clam",
    "scientificName": "Tivela stultorum",
-   "count": 4
+   "count": 3
   },
   {
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 3
-  },
-  {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 2
   },
   {
    "commonName": "Gould Beanclam",
@@ -476,6 +471,11 @@
   {
    "commonName": "Giant Rock Scallop",
    "scientificName": "Crassadoma gigantea",
+   "count": 1
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 1
   },
   {
@@ -489,6 +489,11 @@
    "count": 1
   },
   {
+   "commonName": "Spiny Cup-and-Saucer",
+   "scientificName": "Crucibulum spinosum",
+   "count": 1
+  },
+  {
    "commonName": "File Limpet",
    "scientificName": "Lottia limatula",
    "count": 1
@@ -496,11 +501,6 @@
   {
    "commonName": "California Sunset Clam",
    "scientificName": "Gari californica",
-   "count": 1
-  },
-  {
-   "commonName": "White-spotted Sea Goddess",
-   "scientificName": "Doriopsilla albopunctata",
    "count": 1
   }
  ]

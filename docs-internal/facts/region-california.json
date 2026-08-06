@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-05",
+ "generated_on": "2026-08-06",
  "region": "California",
  "stations": [
   {
@@ -14,7 +14,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 22,
+     "lows_below_1ft": 21,
      "daylight_windows": 10,
      "daylight_minus_tides": 4,
      "best_window": {
@@ -162,7 +162,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 21,
+     "lows_below_1ft": 20,
      "daylight_windows": 10,
      "daylight_minus_tides": 5,
      "best_window": {
