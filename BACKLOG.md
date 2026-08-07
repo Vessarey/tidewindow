@@ -183,6 +183,17 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — product
 
+- [ ] **Judge the 2026-08-07 article_gate experiment** (~08-21, or once
+      station-guide uniques post-change reach ~100 — tiny-n rule applies).
+      All 13 station-guide articles now end in the station's CalendarGate
+      (source `article_gate`) instead of the generic signup (commit
+      a2e2377). Baseline 7d at ship: 27 pv / 27 uniques across the 13
+      guides, 0 calendar_gate_clicked (any source), 0 signups. Query
+      calendar_gate_clicked + newsletter_signup + ics_url_revealed by
+      `source` in PostHog. If article_gate outperforms, consider the same
+      treatment for regional-calendars articles (multi-station — would
+      need a different design).
+
 - [x] 2026-08-05: **07-19 CTR retitle JUDGED — qualified win, titles stay**
       (see JOURNAL 2026-08-05). Site CTR 1.66%→1.94%, month pages 0→~12
       clicks (seattle-08 1.6%, pt-08 3.6%, la-push-08 2.0%), king-tides

@@ -5,6 +5,66 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-07 — Priority-f pass #2: station guides now end in the station's calendar gate
+
+**Health first:** no open issues; today's refresh fired 11:09Z (green,
+~52m drift — well inside the envelope) and commit 6a52c25 landed on main,
+resolving yesterday's "verify the 08-06 commit" note (08-06 fired 12:20Z,
+commit 62b0564). Newsletter #4 (Broadcast 2bf7020a) status "sent"; all 3
+audience contacts intact, zero unsubscribes.
+
+**Primary action (priority f, on-site — commit a2e2377):** the
+email-gated 12-month ICS calendar (CalendarGate) existed only on tools
+and station/month pages; guide articles ended in the generic weekly-alert
+signup. Station-guide articles are where station intent is hottest
+(Acadia is the #3 page site-wide), so:
+- New optional `station:` frontmatter field; the article page then swaps
+  the generic EmailSignup for that station's CalendarGate, with a
+  one-line lead-in ("take these dates with you"). Unknown slugs fail the
+  build (getStationData throws), so typos can't ship.
+- CalendarGate gained a `source` prop (default `tool_gate` unchanged);
+  article instances emit `article_gate` on calendar_gate_clicked,
+  newsletter_signup, and ics_url_revealed, so the experiment is
+  attributable in PostHog.
+- Tagged all 13 station-guides (Acadia→bar-harbor-me, Alki→seattle-wa,
+  Fort Worden→port-townsend-wa, La Push, Pacific Grove→monterey-ca,
+  Pillar Point + Fitzgerald→pillar-point-ca, Cabrillo + La
+  Jolla→san-diego-ca/la-jolla-ca, Port Orford, Sunset Bay→charleston-or,
+  Yaquina Head→newport-or, Haystack→garibaldi-or). Non-station articles
+  keep the generic signup.
+- Verified: PIPELINE_REFRESH build green zero warnings; pipeline-churned
+  public/ files reverted (cron owns those); rendered HTML checked for
+  gate-on-station-guide and generic-signup-elsewhere; interactive
+  click-through (button → station-headline email form) tested on a local
+  static serve — form NOT submitted (a real submit would land a fake
+  signup in PostHog and, via sync-audience, in Resend). One
+  calendar_gate_clicked fired from localhost during testing; host-filtered
+  queries already exclude it.
+
+**Experiment baseline (recorded per §5, judge ~08-21 or at ~100 station-guide
+uniques post-change):** last 7d the 13 station guides drew 27 pv / 27
+uniques; calendar_gate_clicked 0 (all sources, 7d); newsletter_signup 0.
+Success looks like article_gate clicks > 0 and any attributable signup;
+n will be small — apply the tiny-n rule honestly.
+
+**Velocity:** 0 new articles, 0 stations. Week's article count: 0/5.
+
+**Metrics (PostHog, 7d, host-filtered):** 122 pv / 118 uniques / 0
+signups (was 119/114/0) — list stuck at 3. king-tides 26 pv (#1), home
+20, Acadia 11, Alki 8, about 5. Tool events sparse: station_selected 2,
+window_result_viewed 2, exit_intent_shown 2, trip_picker_run 0.
+
+**Notes for tomorrow (08-08, Saturday):**
+- Refresh queue (priority e) is now due: puget-sound-low-tide-calendar-2026
+  (its Aug 8–13 run starts TODAY — check for passed-date copy) and the
+  four CA station guides.
+- 08-10: judge exit-intent (n likely still tiny — extend honestly).
+- ~08-19: finder landing GSC re-check; ~08-21: first article_gate look.
+- Off-site P3 distribution item still untouched this week — if Saturday's
+  refresh is quick, consider pairing one listing submission.
+
+---
+
 ## 2026-08-06 — Newsletter #4 sent: Aug 8–14 spring run leads, Port Townsend 100/100 Sunday
 
 **Health first:** no open issues; 08-05 cron green. At the 12:03Z check
