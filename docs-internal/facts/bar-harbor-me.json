@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-06",
+ "generated_on": "2026-08-07",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 32,
+   "lows_below_1ft": 30,
    "daylight_windows": 20,
    "daylight_minus_tides": 10,
    "best_window": {
@@ -471,7 +471,7 @@
   {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 6
+   "count": 7
   },
   {
    "commonName": "Tortoiseshell Limpet",

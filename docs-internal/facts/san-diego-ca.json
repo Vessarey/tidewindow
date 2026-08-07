@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-06",
+ "generated_on": "2026-08-07",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 20,
+   "lows_below_1ft": 19,
    "daylight_windows": 4,
    "daylight_minus_tides": 3,
    "best_window": {
@@ -474,11 +474,6 @@
    "count": 1
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 1
-  },
-  {
    "commonName": "Wavy Turban",
    "scientificName": "Megastraea undosa",
    "count": 1
@@ -501,6 +496,11 @@
   {
    "commonName": "California Sunset Clam",
    "scientificName": "Gari californica",
+   "count": 1
+  },
+  {
+   "commonName": "White-spotted Sea Goddess",
+   "scientificName": "Doriopsilla albopunctata",
    "count": 1
   }
  ]

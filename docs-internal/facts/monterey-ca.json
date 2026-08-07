@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-06",
+ "generated_on": "2026-08-07",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 20,
+   "lows_below_1ft": 19,
    "daylight_windows": 10,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -459,14 +459,14 @@
    "count": 41
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 34
-  },
-  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 32
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 31
   },
   {
    "commonName": "White-speckled Dorid",
@@ -499,9 +499,9 @@
    "count": 12
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 9
+   "commonName": "Bodega Tellin",
+   "scientificName": "Megangulus bodegensis",
+   "count": 10
   }
  ]
 }

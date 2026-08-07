@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-06",
+ "generated_on": "2026-08-07",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 30,
+   "lows_below_1ft": 29,
    "daylight_windows": 16,
    "daylight_minus_tides": 14,
    "best_window": {
@@ -461,12 +461,7 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 13
-  },
-  {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 9
+   "count": 10
   },
   {
    "commonName": "barnacle-eating dorid",
@@ -474,13 +469,13 @@
    "count": 8
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
-   "count": 8
-  },
-  {
    "commonName": "Rough Keyhole Limpet",
    "scientificName": "Diodora aspera",
+   "count": 6
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 6
   },
   {
@@ -491,6 +486,11 @@
   {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
+   "count": 5
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
    "count": 5
   },
   {
