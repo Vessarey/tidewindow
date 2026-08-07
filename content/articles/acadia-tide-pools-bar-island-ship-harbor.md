@@ -4,6 +4,7 @@ description: "Acadia's 2026 low tide schedule for tide poolers: every daylight m
 date: "2026-07-03"
 updated: "2026-07-24"
 category: "station-guides"
+station: "bar-harbor-me"
 tags: ["Acadia", "Bar Island", "Ship Harbor", "minus tide", "Maine"]
 faq:
   - q: "When is the best low tide for Acadia tide pools in 2026?"

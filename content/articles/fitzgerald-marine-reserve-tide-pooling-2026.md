@@ -3,6 +3,7 @@ title: "Fitzgerald Marine Reserve Low-Tide Schedule 2026: The Best Days, and the
 description: "Fitzgerald Marine Reserve's best 2026 low tides, computed from NOAA station 9414131, and which of them actually fit inside the reserve's posted hours."
 date: "2026-07-03"
 category: "station-guides"
+station: "pillar-point-ca"
 tags: ["fitzgerald marine reserve", "moss beach", "pillar point harbor", "low tide schedule", "tide pooling"]
 faq:
   - q: "What is the best day for tide pooling at Fitzgerald Marine Reserve in 2026?"

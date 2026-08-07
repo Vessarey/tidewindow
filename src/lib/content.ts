@@ -27,6 +27,7 @@ export interface ArticleFrontmatter {
   faq?: { q: string; a: string }[]; // rendered + emitted as FAQPage JSON-LD
   sources?: string[]; // URLs backing factual claims
   featuredRoundup?: FeaturedRoundup; // opt-in state-hub featured slot
+  station?: string; // covered-station slug; article page renders that station's calendar gate (build fails on unknown slugs)
   draft?: boolean;
 }
 

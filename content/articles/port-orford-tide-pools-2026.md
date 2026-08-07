@@ -3,6 +3,7 @@ title: "Port Orford Tide Pools 2026: Battle Rock Beach & Oregon's Deepest Winter
 description: "Oregon's deepest daylight low of 2026 is −2.21 ft at Port Orford on Dec 24 (NOAA 9431647). Battle Rock access, Redfish Rocks rules, the Aug 11–14 dawn run."
 date: "2026-07-21"
 category: "station-guides"
+station: "port-orford-or"
 tags: ["port orford tide pools", "battle rock beach low tide", "port orford tides", "redfish rocks marine reserve", "agate beach port orford", "southern oregon coast tidepooling", "port orford oregon beaches"]
 faq:
   - q: "When is the best tidepooling at Port Orford in 2026?"

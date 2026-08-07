@@ -4,6 +4,7 @@ description: "Haystack Rock's remaining 2026 tide windows from NOAA Garibaldi st
 date: "2026-07-02"
 updated: "2026-07-28"
 category: "station-guides"
+station: "garibaldi-or"
 tags: ["haystack rock", "cannon beach", "oregon coast", "minus tide", "tidepooling"]
 faq:
   - q: "What is the lowest tide at Haystack Rock in 2026?"

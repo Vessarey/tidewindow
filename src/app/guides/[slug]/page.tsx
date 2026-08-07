@@ -3,9 +3,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllArticles, getArticle } from "@/lib/content";
 import { markdownToHtml } from "@/lib/markdown";
-import { fmtDate } from "@/lib/windows";
+import { fmtDate, getStationData } from "@/lib/windows";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/components/json-ld";
 import EmailSignup from "@/components/email-signup";
+import CalendarGate from "@/components/calendar-gate";
 
 export function generateStaticParams() {
   return getAllArticles().map((a) => ({ slug: a.slug }));
@@ -28,6 +29,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const a = getArticle(slug);
   if (!a) notFound();
   const html = await markdownToHtml(a.body);
+  const station = a.station ? getStationData(a.station).station : undefined;
 
   return (
     <div>
@@ -84,12 +86,23 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </section>
       )}
 
-      <EmailSignup
-        source="end_article"
-        headline="The Minus Tide Alert"
-        blurb="One email a week: the exact hours your coast is worth the drive — computed from NOAA data, never padded. Sent every Thursday."
-        cta="Join the list"
-      />
+      {station ? (
+        <div className="mt-8">
+          <p className="mb-3 text-[0.95rem] text-ink-soft">
+            Every date above comes from NOAA station {station.noaaId} predictions. Take them with you: the{" "}
+            {station.name} calendar feed puts every Good-or-better daylight window in your calendar app, and it
+            updates itself as new predictions land.
+          </p>
+          <CalendarGate stationSlug={station.slug} stationName={station.name} source="article_gate" />
+        </div>
+      ) : (
+        <EmailSignup
+          source="end_article"
+          headline="The Minus Tide Alert"
+          blurb="One email a week: the exact hours your coast is worth the drive — computed from NOAA data, never padded. Sent every Thursday."
+          cta="Join the list"
+        />
+      )}
     </div>
   );
 }

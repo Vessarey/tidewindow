@@ -3,6 +3,7 @@ title: "Pillar Point Tide Pools: 2026 Low-Tide Windows, and What's Been in the P
 description: "Every good daylight low tide at Pillar Point reef in 2026, from NOAA station 9414131: the July dawn run, December king lows, parking, and the species list."
 date: "2026-07-03"
 category: "station-guides"
+station: "pillar-point-ca"
 tags: ["pillar point", "half moon bay", "tide pools", "minus tides", "california"]
 faq:
   - q: "What is the best low tide at Pillar Point in 2026?"

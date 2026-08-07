@@ -9,7 +9,15 @@ import { assetUrl, siteConfig } from "@/lib/site-config";
  * station's iCal subscription URL + printable calendar link. The on-screen
  * results above this component are never gated.
  */
-export default function CalendarGate({ stationSlug, stationName }: { stationSlug: string; stationName: string }) {
+export default function CalendarGate({
+  stationSlug,
+  stationName,
+  source = "tool_gate",
+}: {
+  stationSlug: string;
+  stationName: string;
+  source?: string;
+}) {
   const [step, setStep] = useState<"closed" | "form" | "open">("closed");
   const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
@@ -21,7 +29,7 @@ export default function CalendarGate({ stationSlug, stationName }: { stationSlug
       <button
         className="btn"
         onClick={() => {
-          capture("calendar_gate_clicked", { station_id: stationSlug, asset: "ics" });
+          capture("calendar_gate_clicked", { station_id: stationSlug, asset: "ics", source });
           setStep("form");
         }}
       >
@@ -48,8 +56,8 @@ export default function CalendarGate({ stationSlug, stationName }: { stationSlug
               setError(true);
               return;
             }
-            captureEmailSignup(trimmed, "tool_gate");
-            capture("ics_url_revealed", { station_id: stationSlug });
+            captureEmailSignup(trimmed, source);
+            capture("ics_url_revealed", { station_id: stationSlug, source });
             setStep("open");
           }}
         >

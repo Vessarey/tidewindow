@@ -3,6 +3,7 @@ title: "Port Townsend Tide Pools 2026: Best Low-Tide Days at Fort Worden & North
 description: "Port Townsend's best 2026 tide-pool days at Fort Worden from NOAA station 9444900 — a July 11–16 Exceptional run, what to look for, and the Discover Pass."
 date: "2026-07-07"
 category: "station-guides"
+station: "port-townsend-wa"
 tags: ["port townsend tide pools", "fort worden", "north beach", "point wilson", "puget sound low tide", "tide pooling"]
 faq:
   - q: "What is the best day for tide pooling in Port Townsend in 2026?"

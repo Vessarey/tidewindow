@@ -3,6 +3,7 @@ title: "Sunset Bay & Cape Arago Tide Pools 2026: Coos Bay's Best Low-Tide Days"
 description: "The best remaining 2026 low at Cape Arago is −2.00 ft on July 16 (NOAA 9432780). Sunset Bay and South Cove windows, the August dawn run, winter dusk tides."
 date: "2026-07-16"
 category: "station-guides"
+station: "charleston-or"
 tags: ["sunset bay tide pools", "cape arago tide pools", "coos bay low tide", "charleston oregon", "south cove", "simpson reef", "oregon coast tidepooling"]
 faq:
   - q: "When is the best tidepooling at Sunset Bay and Cape Arago in 2026?"

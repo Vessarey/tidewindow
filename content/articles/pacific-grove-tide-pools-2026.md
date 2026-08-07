@@ -3,6 +3,7 @@ title: "Pacific Grove Tide Pools 2026: Best Low-Tide Days at Point Pinos, Asilom
 description: "Pacific Grove's best 2026 tide-pool days from NOAA Monterey station 9413450 — a July dawn run, a December dusk run, and the no-take reserve rules."
 date: "2026-07-05"
 category: "station-guides"
+station: "monterey-ca"
 tags: ["pacific grove tide pools", "point pinos", "asilomar state beach", "lovers point", "monterey low tide", "tide pooling"]
 faq:
   - q: "What is the best day for tide pooling in Pacific Grove in 2026?"

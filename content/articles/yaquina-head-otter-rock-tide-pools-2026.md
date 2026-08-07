@@ -3,6 +3,7 @@ title: "Yaquina Head & Otter Rock Tide Pools 2026: Newport's Best Low-Tide Days"
 description: "Newport's deepest 2026 daylight low is −1.91 ft at dawn on August 12 (NOAA 9435380). Yaquina Head gate math, Otter Rock's Marine Gardens, winter dusk lows."
 date: "2026-07-17"
 category: "station-guides"
+station: "newport-or"
 tags: ["yaquina head tide pools", "otter rock tide pools", "devils punchbowl low tide", "newport oregon tide pools", "cobble beach", "marine gardens otter rock", "oregon coast tidepooling"]
 faq:
   - q: "When is the best tidepooling at Yaquina Head and Otter Rock in 2026?"

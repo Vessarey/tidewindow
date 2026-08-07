@@ -3,6 +3,7 @@ title: "La Push Tide Pools 2026: Second Beach's Best Low-Tide Days (Rialto Beach
 description: "La Push's best 2026 tidepool run is July 12–17 (NOAA 9442396). But Rialto Beach and Hole-in-the-Wall are closed until Oct 15 — go to Second Beach."
 date: "2026-07-09"
 category: "station-guides"
+station: "la-push-wa"
 tags: ["la push tide pools", "second beach", "rialto beach", "hole in the wall", "olympic national park", "washington coast low tide"]
 faq:
   - q: "Is Rialto Beach and Hole-in-the-Wall open in summer 2026?"

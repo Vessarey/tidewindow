@@ -3,6 +3,7 @@ title: "Cabrillo Tide Pools in 2026: The Low-Tide Schedule the Gate Hours Actual
 description: "Cabrillo's gate opens at 9 AM and the tidepools close at 4:30 PM, erasing July's minus tides. The usable 2026 dates are Oct 25, Nov 25, and Dec 22–24."
 date: "2026-07-03"
 category: "station-guides"
+station: "san-diego-ca"
 tags: ["Cabrillo National Monument", "San Diego", "minus tides", "tide pool schedule", "station 9410170"]
 faq:
   - q: "When are the best tide pool days at Cabrillo National Monument in 2026?"

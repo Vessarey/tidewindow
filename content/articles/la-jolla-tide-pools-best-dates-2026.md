@@ -3,6 +3,7 @@ title: "La Jolla Tide Pools: The Best Dates of 2026, Ranked"
 description: "La Jolla's best 2026 tide pool dates from NOAA station 9410230 — early-morning July minus tides, big December afternoons, spot notes, and recent species logs."
 date: "2026-07-03"
 category: "station-guides"
+station: "la-jolla-ca"
 tags: ["la jolla", "tide pools", "minus tide", "san diego", "NOAA 9410230"]
 faq:
   - q: "When is the best time to visit the La Jolla tide pools in 2026?"

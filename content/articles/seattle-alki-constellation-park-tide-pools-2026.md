@@ -3,6 +3,7 @@ title: "Seattle Tide Pools 2026: Alki & Constellation Park's Best Low-Tide Days"
 description: "Seattle's deepest daylight tide of 2026 is −3.80 ft on Tuesday, July 14 (NOAA 9447130). Here's the Alki and Constellation Park low-tide run, July 12–16."
 date: "2026-07-12"
 category: "station-guides"
+station: "seattle-wa"
 tags: ["seattle tide pools", "constellation park", "alki beach", "puget sound low tide", "west seattle tide pooling", "beach naturalists"]
 faq:
   - q: "When is the best tidepooling in Seattle in 2026?"
