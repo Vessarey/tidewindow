@@ -5,6 +5,55 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-08 — Puget Sound calendar rolled forward to the Aug 8–13 run; first gate conversion landed
+
+**Health first:** no open issues; today's refresh fired 10:52Z (~35m
+drift, green in ~1m46s), commit c55b5c2 on main.
+
+**Primary action (priority e — refresh, commit b025d62):**
+puget-sound-low-tide-calendar-2026 still led with the passed July 11–16
+run on the very morning its Aug 8–13 run began. Regenerated fact sheets
+(facts.mjs), then: new answer box + "What's left in 2026" table leading
+with the current six-day run (Sun Aug 9: Seattle −1.91 ft @ 8:29 AM
+score 98 / PT −2.05 ft @ 7:38 AM score 100; deepest Tue Aug 11 −2.63
+ft), July tables kept as record-books in past tense (07-03 stamps
+retained honestly), weekend FAQ rewritten, species + arrive-by example +
+trip-picker line refreshed, Seattle month link July→August. `updated:
+2026-08-08`.
+
+**Recompute-check caught three would-be errors before push** (the gate
+works): a "nothing deeper than −1.0 ft remains" claim falsified by
+Seattle's Sep 8 −1.02 ft window (→ −1.11 ft at either station, exact);
+the Aug 8→9 drift step is 61 min, outside my "45 min to an hour" phrasing
+(→ "roughly"); and "Labor Day is the only weekend option left" missed
+PT's Sun Sep 6 −1.08 ft Good-74 window (→ FAQ lists both). Every number
+in changed prose re-verified against 2026-08-08 fact sheets.
+
+**Milestone — first calendar-gate conversion with attribution:**
+2026-08-07 15:00 ET, a visitor on /beaches/or/newport-or/ ran the full
+funnel calendar_gate_clicked → ics_url_revealed → newsletter_signup
+(source tool_gate — post-deploy of yesterday's source tagging, so
+attribution works in production). List should go 3→4 at Thursday's
+sync-audience. article_gate: 0 clicks day 1 (n tiny, judgment ~08-21).
+
+**Velocity:** refresh only — 0 new articles (week: 0/5), 0 stations.
+
+**Metrics (PostHog, 7d, host-filtered):** 141 pv (rising vs 122
+yesterday) / 1 signup (the Newport one). Funnel events above; tool_gate
+now measurable end to end.
+
+**Notes for tomorrow (08-09, Sunday):**
+- Priority-f pass could go off-site (P3 distribution item) — still zero
+  off-site items this week; or refresh the four CA station guides
+  (priority e queue).
+- 08-10: judge exit-intent (extend if n still tiny — likely).
+- Thursday 08-13: newsletter #5; sync should pick up the Newport
+  subscriber (verify 4 contacts post-sync).
+- ~08-21: first article_gate readout vs the 08-07 baseline (27 pv/27
+  uniques/0 clicks).
+
+---
+
 ## 2026-08-07 — Priority-f pass #2: station guides now end in the station's calendar gate
 
 **Health first:** no open issues; today's refresh fired 11:09Z (green,
