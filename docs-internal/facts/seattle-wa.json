@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-07",
+ "generated_on": "2026-08-08",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 18,
-   "daylight_windows": 17,
-   "daylight_minus_tides": 12,
+   "lows_below_1ft": 17,
+   "daylight_windows": 16,
+   "daylight_minus_tides": 11,
    "best_window": {
     "date": "2026-08-09",
     "weekday": "Sun",
@@ -345,20 +345,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-08-07",
-   "weekday": "Fri",
-   "low_ft": -0.536,
-   "low_time_local": "6:25 AM",
-   "window_local": "4:50 AM–8:10 AM",
-   "arrive_by_local": "5:25 AM",
-   "daylight_min": 135,
-   "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 70,
-   "min_to_sun_edge": 30
-  },
   {
    "date": "2026-08-22",
    "weekday": "Sat",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-07",
+ "generated_on": "2026-08-08",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 29,
+   "lows_below_1ft": 28,
    "daylight_windows": 16,
    "daylight_minus_tides": 14,
    "best_window": {
@@ -459,24 +459,14 @@
    "count": 66
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 10
-  },
-  {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
    "count": 8
   },
   {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
-   "count": 6
-  },
-  {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 6
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 8
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
@@ -489,19 +479,29 @@
    "count": 5
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
-   "count": 5
-  },
-  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
    "count": 4
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
    "count": 4
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
+   "count": 3
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 3
+  },
+  {
+   "commonName": "Chocolate Aeolid",
+   "scientificName": "Margina cocoachroma",
+   "count": 3
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-07",
+ "generated_on": "2026-08-08",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 20,
+   "lows_below_1ft": 19,
    "daylight_windows": 10,
    "daylight_minus_tides": 4,
    "best_window": {
@@ -501,7 +501,7 @@
   {
    "commonName": "Heath's Dorid",
    "scientificName": "Geitodoris heathi",
-   "count": 21
+   "count": 22
   }
  ]
 }

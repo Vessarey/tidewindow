@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-07",
+ "generated_on": "2026-08-08",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 19,
+   "lows_below_1ft": 18,
    "daylight_windows": 10,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -499,8 +499,8 @@
    "count": 12
   },
   {
-   "commonName": "Bodega Tellin",
-   "scientificName": "Megangulus bodegensis",
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
    "count": 10
   }
  ]
