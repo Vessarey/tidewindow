@@ -16,8 +16,7 @@ export default function Contact() {
         site&apos;s daily maintenance run, and corrections normally ship within 24 hours.
       </p>
       <p>
-        If you&apos;d rather not use GitHub, reply to any Minus Tide Alert email once the newsletter is live — replies
-        are read.
+        If you&apos;d rather not use GitHub, reply to any Minus Tide Alert email — replies are read.
       </p>
     </div>
   );

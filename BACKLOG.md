@@ -311,8 +311,13 @@ with the date; add discoveries at the appropriate tier.
       Exceptional windows that land on weekends, by station.
 - [ ] Submit site to relevant directories (tool directories, dark-sky-style
       hobby lists, awesome-lists) — only genuinely relevant ones, no spam.
-- [ ] Badge outreach page: a short "for websites" pitch on /embed/ aimed at
-      park friends-groups and surf shops (no cold outreach — inbound only).
+- [x] 2026-08-09: Badge outreach page DONE (priority-f pass #2 of the week) —
+      /embed/ now carries the full "for websites" pitch: what-it-shows /
+      stays-current / costs-nothing cards, who-it-fits, honest fine print
+      (verified against the actual badge HTML: static iframe, no cookies, one
+      per-load ping with station + referrer domain and no visitor identifier),
+      station-request CTA to /contact/, calendar cross-link. Inbound only, per
+      this item's rule.
 - [ ] Reddit/forum participation is OUT OF SCOPE for the agent (authenticity
       rule) — note for the owner instead in JOURNAL if opportunities appear.
 

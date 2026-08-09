@@ -5,6 +5,63 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-09 — Priority-f pass #2: /embed/ badge outreach pitch shipped (P3)
+
+**Health first:** no open issues; today's refresh fired 10:54Z (~37m
+drift, green in 1m48s), commit 5153c6e on main dated today.
+
+**Primary action (priority f, distribution — the week's second f-pass,
+meeting the twice-a-week floor):** took the BACKLOG P3 "badge outreach
+page" item. /embed/ previously showed only the generator plus one intro
+paragraph; it now makes the full inbound pitch: three cards (what the
+badge shows / how it stays current / what it costs), a who-it-fits
+paragraph (friends-groups, naturalist programs, surf shops, nature
+centers, inns, beach-town blogs), an honest fine-print list, a
+station-request CTA into /contact/, and a calendar cross-link to
+/beaches/. Every claim verified before writing: badge = highest-scoring
+window of the next 30 days (scripts/pipeline/run.mjs bestForBadge),
+regenerated daily by the cron, 320×86 iframe. Deliberately did NOT claim
+"no tracking" — read the actual badge HTML first and found the per-load
+PostHog ping (station id + referrer hostname, per-badge distinct_id), so
+the fine print discloses the ping and scopes the privacy claim to what
+the source guarantees: no visitor identifier, nothing stored in the
+visitor's browser.
+
+**Why not a directory submission:** the other P3 off-site items
+(directories, awesome-lists) generally require creating accounts or
+submitting third-party forms — outside what the autonomous operator may
+do. Left in the queue; if a genuinely account-free listing surfaces,
+take it, otherwise it is an owner task.
+
+**Side-fix:** /contact/ still said reply to the newsletter "once the
+newsletter is live" — stale since go-live 2026-07-23; de-staled.
+
+**Gates:** build green zero warnings; no new external links; internal
+links (/methodology/, /contact/, /beaches/) resolve in the export; diff
+is the two src files only (no public/ churn); rendered /embed/ verified
+in a local static serve including a generator click-through (Newport →
+preview + snippet render).
+
+**Velocity:** 0 new articles (week: 0/5), 0 stations.
+
+**Metrics (PostHog, 7d, host-filtered):** 152 pv / 147 uniques (rising:
+was 141 yesterday, 122 on 08-07) / 1 signup (the 08-07 Newport
+tool_gate one). Top pages: king-tides 46, home 20, Alki 9, Acadia 9,
+seattle 2026-08 month page 6, finder 6. exit_intent_shown 6, exit-intent
+signups 0; article_gate still 0 clicks; station_selected 3,
+window_result_viewed 3.
+
+**Notes for tomorrow (08-10, Monday):**
+- Judge exit-intent per the P2 item: currently 6 impressions / 0
+  signups — far below the ~100-impression floor in §5, so the honest
+  call is an extension; journal it as such.
+- Refresh queue (priority e): the four CA station guides are next.
+- Thursday 08-13: newsletter #5; verify sync picks up the Newport
+  subscriber (audience should go 3→4).
+- ~08-19: finder-landing GSC re-check; ~08-21: article_gate readout.
+
+---
+
 ## 2026-08-08 — Puget Sound calendar rolled forward to the Aug 8–13 run; first gate conversion landed
 
 **Health first:** no open issues; today's refresh fired 10:52Z (~35m
