@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-08",
+ "generated_on": "2026-08-09",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 18,
+   "lows_below_1ft": 17,
    "daylight_windows": 4,
    "daylight_minus_tides": 3,
    "best_window": {

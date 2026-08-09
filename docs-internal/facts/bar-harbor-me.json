@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-08",
+ "generated_on": "2026-08-09",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 29,
+   "lows_below_1ft": 28,
    "daylight_windows": 20,
    "daylight_minus_tides": 10,
    "best_window": {
@@ -456,7 +456,7 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 20
+   "count": 19
   },
   {
    "commonName": "Atlantic Dogwhelk",

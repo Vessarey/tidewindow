@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-08",
+ "generated_on": "2026-08-09",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 18,
+   "lows_below_1ft": 17,
    "daylight_windows": 10,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -456,17 +456,17 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 41
+   "count": 43
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 35
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 32
-  },
-  {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 31
   },
   {
    "commonName": "White-speckled Dorid",
@@ -479,14 +479,14 @@
    "count": 16
   },
   {
-   "commonName": null,
-   "scientificName": "Doto urak",
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
    "count": 15
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 14
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 15
   },
   {
    "commonName": "Mossy Chiton",
@@ -496,7 +496,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "Branched Dendronotid",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-08",
+ "generated_on": "2026-08-09",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -474,11 +474,6 @@
    "count": 5
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 4
-  },
-  {
    "commonName": "Red Sponge Dorid",
    "scientificName": "Rostanga pulchra",
    "count": 3
@@ -501,6 +496,11 @@
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
+   "count": 2
+  },
+  {
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
    "count": 2
   }
  ]
