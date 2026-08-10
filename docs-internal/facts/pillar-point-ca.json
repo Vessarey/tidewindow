@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-09",
+ "generated_on": "2026-08-10",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 18,
+   "lows_below_1ft": 17,
    "daylight_windows": 10,
    "daylight_minus_tides": 4,
    "best_window": {
@@ -479,14 +479,14 @@
    "count": 42
   },
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 38
-  },
-  {
    "commonName": "Hammerhead Doto",
    "scientificName": "Doto amyra",
    "count": 37
+  },
+  {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
+   "count": 35
   },
   {
    "commonName": "Monterey Dorid",

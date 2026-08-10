@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-09",
+ "generated_on": "2026-08-10",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 28,
+   "lows_below_1ft": 27,
    "daylight_windows": 20,
    "daylight_minus_tides": 10,
    "best_window": {
@@ -456,12 +456,12 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 19
+   "count": 18
   },
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Atlantic Jackknife",
@@ -471,7 +471,7 @@
   {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 7
+   "count": 6
   },
   {
    "commonName": "Tortoiseshell Limpet",
@@ -481,7 +481,7 @@
   {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
-   "count": 2
+   "count": 1
   },
   {
    "commonName": "Eastern Oyster",
