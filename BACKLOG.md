@@ -163,8 +163,14 @@ with the date; add discoveries at the appropriate tier.
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): next candidates are
-      puget-sound-low-tide-calendar-2026 (check for passed dates; the Aug 8–13
-      roundup already covers the imminent run) and the four CA station guides.
+      the remaining three 07-03 CA guides — fitzgerald-marine-reserve
+      (shares pillar-point-ca facts), cabrillo, la-jolla — then
+      pacific-grove (07-05).
+      Done 2026-08-10: pillar-point-tide-pools-2026 (af4719a) — best-8
+      table rolled to the Aug 11–14 last-dawn-run + Sep dusk pivot,
+      July retired to record-book caption, partial-Aug month row,
+      Nov 22–27 preview, species re-pulled (Heath's Dorid in).
+      Done 2026-08-08: puget-sound-low-tide-calendar-2026 (b025d62).
       Done 2026-08-04: oregon-coast-minus-tide-calendar-2026 (123e903) —
       answer box/FAQ/weekend section now lead with Aug 11–14; July preserved
       as history; Sat Aug 15 flagged as 2026's best remaining weekend window;
@@ -261,7 +267,11 @@ with the date; add discoveries at the appropriate tier.
       behavior gates verified in-browser against the built site;
       exit_intent_shown verified landing in PostHog (from localhost —
       host-filtered out of production metrics).
-- [ ] **2026-08-10: judge the exit-intent prompt** — in PostHog compare
+- [ ] **~2026-08-24 (extended 2026-08-10; was 08-10): judge the
+      exit-intent prompt** — at 08-10 check-in: 12 impressions all-time,
+      0 signups — below the §5 ~100-impression floor, so the window was
+      extended per the tiny-n rule (re-check at ~100 impressions or
+      08-24). Original spec: in PostHog compare
       `exit_intent_shown` count vs `newsletter_signup` where
       source="exit-intent" (host-filtered) over the first 2 weeks. If
       impressions accumulate with zero signups, revisit copy; if it

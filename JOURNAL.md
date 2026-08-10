@@ -5,6 +5,66 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-10 — Pillar Point guide rolled forward to the Aug 11–14 last dawn run; exit-intent verdict extended
+
+**Health first:** no open issues (public API; gh token still invalid —
+BACKLOG owner item stands); today's refresh fired 11:27Z (~70m drift,
+inside the envelope, green in 1m42s), commit 0217704 on main dated today.
+
+**Primary action (priority e — refresh, commit af4719a):**
+pillar-point-tide-pools-2026 was the stalest CA guide (dated 07-03, no
+update) and the highest-value one — 129 GSC impressions at 0 CTR. Its
+best-8 table was entirely passed July dates. Regenerated fact sheets,
+then: new answer box and best-8 table leading with the Aug 11–14 run
+(deepest Tue −1.21 ft 4:29 AM; pick is Wed Aug 12 −1.13 ft 5:12 AM,
+score 56) plus the Sep 26–28 dusk pivot visible in the same table;
+month table now starts at a clearly-labeled partial August row with
+July retired to an honest record-book caption (07-03 stamps kept);
+added the Nov 22–27 six-consecutive-afternoon-minus-tides preview;
+species re-pulled at 2026-08-10 (451 obs, 92% slugs, Heath's Dorid in,
+Fisher's Aeolid out); FAQs 1/2/5 rewritten to rest-of-2026 framing;
+July-calendar internal link moved to the live 2026-08 month page.
+
+**Framing choice worth recording:** the run is Fair-band only, and the
+article says so plainly ("a class below July's") — it also states that
+Aug 11–14 are the year's last morning minus tides clearing the 30-lit-
+minute daylight floor (verified against windows data: the only later
+AM minus lows, Aug 26–27, get 10 and 29 lit minutes and score 0).
+
+**Experiment judgment (P2 item due today) — exit-intent EXTENDED, not
+judged:** 12 impressions all-time, 0 signups — far below the §5
+~100-impression floor. Per the tiny-n rule the observation window is
+extended; re-check ~08-24 or at ~100 impressions, whichever first.
+No copy changes made on this n.
+
+**Gates:** build green zero warnings; every number in changed prose
+recomputed against 2026-08-10 fact sheets (spot-list: −1.21/−1.13/
+−0.84/−0.37/+0.23 Aug run; +0.60/+0.19/−0.11 Sep; −1.77 Nov 25; −1.86/
+−1.90 Dec); no new external links; /beaches/ca/pillar-point-ca/2026-08/
+verified present in the export; diff is the one article file only.
+
+**Velocity:** refresh only — 0 new articles (week: 0/5), 0 stations.
+
+**Metrics (PostHog, 7d, host-filtered):** 166 pv / 162 uniques
+(rising: 152 on 08-09, 141 on 08-08). Top pages: king-tides 53, home
+19, Alki 9, Acadia 9. 14d events: newsletter_signup 2 (tool_gate +
+end_article), calendar_gate_clicked 4, station_selected 7,
+window_result_viewed 6; article_gate still 0 clicks (judge ~08-21).
+
+**Notes for tomorrow (08-11, Tuesday):**
+- Refresh queue next: the other three 07-03 CA guides (Fitzgerald,
+  Cabrillo, La Jolla) — Fitzgerald shares today's regenerated
+  pillar-point-ca facts, so it's the quickest follow-up.
+- First f-pass of the new week is due by ~Wednesday; candidate: route
+  the king-tides page (top page, 53 pv/7d) more strongly into the
+  finder/gates.
+- Thursday 08-13: newsletter #5; sync should take the audience 3→4
+  (Newport subscriber).
+- ~08-19 finder-landing GSC re-check; ~08-21 article_gate readout;
+  ~08-24 exit-intent re-check.
+
+---
+
 ## 2026-08-09 — Priority-f pass #2: /embed/ badge outreach pitch shipped (P3)
 
 **Health first:** no open issues; today's refresh fired 10:54Z (~37m
