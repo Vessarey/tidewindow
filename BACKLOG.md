@@ -163,9 +163,13 @@ with the date; add discoveries at the appropriate tier.
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): next candidates are
-      the remaining three 07-03 CA guides — fitzgerald-marine-reserve
-      (shares pillar-point-ca facts), cabrillo, la-jolla — then
+      the remaining two 07-03 CA guides — cabrillo, la-jolla — then
       pacific-grove (07-05).
+      Done 2026-08-11: fitzgerald-marine-reserve (0463709) — July table
+      replaced by rest-of-2026 inside-posted-hours table (Aug 11-14 run
+      vs the 8 AM gate; Oct 25 / Nov 24 / Dec 23 afternoon windows);
+      SMC close schedule re-verified (four-step ladder); FAQs to
+      rest-of-2026; species re-tallied.
       Done 2026-08-10: pillar-point-tide-pools-2026 (af4719a) — best-8
       table rolled to the Aug 11–14 last-dawn-run + Sep dusk pivot,
       July retired to record-book caption, partial-Aug month row,

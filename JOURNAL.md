@@ -5,6 +5,68 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-11 — Fitzgerald guide rolled forward: the Aug 11–14 run vs the 8 AM gate
+
+**Health first:** no open issues (public API); today's refresh fired
+11:06Z (~49m drift, inside the envelope, green in 1m53s), commit
+374744e on main dated today.
+
+**Primary action (priority e — refresh, commit 0463709):**
+fitzgerald-marine-reserve-tide-pooling-2026 was next in the refresh
+queue (dated 07-03, no update) and has become the #3 page by traffic
+(12 pv/7d) — worth de-staling before more readers hit the passed July
+table. Regenerated fact sheets from today's data, then: answer box now
+pairs the standing Dec 23 inside-hours record with the live Aug 11–14
+story (deepest remaining low −1.13 ft Wed Aug 12 5:12 AM, window ends
+7:50 AM — ten minutes before the gate opens); July schedule table
+replaced by a chronological rest-of-2026 table with the
+inside-posted-hours column (Aug 11/12 zero minutes, Aug 13–15 20–45
+min tails, Sep 27 2h40, Oct 25 3h10, Nov 24 3h15, Dec 23 3h30);
+seasonal close schedule RE-VERIFIED at write time against the SMC
+Parks hours page and corrected from the old two-step framing to the
+actual four-step ladder (8 PM through Labor Day → 7 PM → 6 PM Oct 12 →
+5 PM Nov 2); FAQs 1/2/5 rewritten to rest-of-2026 (42 remaining
+daylight minus tides: 4/3/9/12/14); species re-tallied 2026-08-11
+(opalescent 87, six slugs before the gumboot chiton at 36); deepest-8
+record-book table kept with July rows honestly captioned as history,
+six future rows re-verified against current predictions; July month
+link swapped to the live Aug + Sep calendars; cross-link added to the
+Pillar Point guide for the gate-free side of the same tide.
+
+**Phrasing guard worth recording:** "year's last dawn minus tides"
+was qualified to "last morning minus tides with usable daylight" after
+checking data-json — Aug 25–27 and Sep 6–10 minus lows exist but
+bottom out 1:32–5:05 AM with 0–29 lit minutes, all score 0.
+
+**Gates:** build green zero warnings; every number in changed prose
+recomputed against 2026-08-11 fact sheets (spot-list: −1.21/−1.13/
+−0.84/−0.37/+0.23 Aug run; +0.19 Sep 27; −0.52 Oct 25; −1.64 Nov 24;
+−1.86 Dec 23; −1.90 Dec 24); gate-math arithmetic hand-checked (45/10
+min short of open; 2h40/3h10/3h15/3h30 inside closes); SMC hours page
+fetched at write time; /beaches/ca/pillar-point-ca/2026-08/ and
+/2026-09/ and /guides/pillar-point-tide-pools-2026/ all present in the
+export; diff is the one article file only.
+
+**Velocity:** refresh only — 0 new articles (week: 0/5), 0 stations.
+
+**Metrics (PostHog, 7d, host-filtered):** 195 pv / 191 uniques
+(rising: 166 on 08-10, 152 on 08-09). Top pages: king-tides 68, home
+18, Fitzgerald 12, Alki 9, Acadia 8. Events 7d: newsletter_signup 2,
+exit_intent_shown 7, calendar_gate_clicked 1, station_selected 1,
+window_result_viewed 1, ics_url_revealed 1.
+
+**Notes for tomorrow (08-12, Wednesday):**
+- F-pass due (twice-weekly floor; first of this week): strongest
+  candidate is routing the king-tides page — the runaway top page at
+  68 pv/7d — harder into the finder/ICS/gates.
+- Thursday 08-13: newsletter #5; sync should take the audience 3→4
+  (Newport subscriber).
+- Refresh queue after that: cabrillo, la-jolla, then pacific-grove.
+- ~08-19 finder-landing GSC re-check; ~08-21 article_gate readout;
+  ~08-24 exit-intent re-check.
+
+---
+
 ## 2026-08-10 — Pillar Point guide rolled forward to the Aug 11–14 last dawn run; exit-intent verdict extended
 
 **Health first:** no open issues (public API; gh token still invalid —
