@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-10",
+ "generated_on": "2026-08-11",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -89,6 +89,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-10-09",
+   "weekday": "Fri",
+   "low_ft": 0.299,
+   "low_time_local": "4:45 PM",
+   "window_local": "3:15 PM–6:15 PM",
+   "arrive_by_local": "3:45 PM",
+   "daylight_min": 180,
+   "score": 47,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-09-28",
    "weekday": "Mon",
    "low_ft": -0.106,
@@ -99,18 +111,6 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-26",
-   "weekday": "Sat",
-   "low_ft": 0.597,
-   "low_time_local": "5:16 PM",
-   "window_local": "4:05 PM–6:25 PM",
-   "arrive_by_local": "4:16 PM",
-   "daylight_min": 140,
-   "score": 42,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -486,7 +486,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 35
+   "count": 36
   },
   {
    "commonName": "Monterey Dorid",

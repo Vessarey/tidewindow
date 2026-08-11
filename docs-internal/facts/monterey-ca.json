@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-10",
+ "generated_on": "2026-08-11",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -89,6 +89,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-10-09",
+   "weekday": "Fri",
+   "low_ft": 0.538,
+   "low_time_local": "4:34 PM",
+   "window_local": "3:25 PM–5:50 PM",
+   "arrive_by_local": "3:34 PM",
+   "daylight_min": 145,
+   "score": 37,
+   "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-09-28",
    "weekday": "Mon",
    "low_ft": 0.173,
@@ -99,18 +111,6 @@
    "score": 36,
    "band": "Skip",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.788,
-   "low_time_local": "6:14 PM",
-   "window_local": "5:30 PM–7:05 PM",
-   "arrive_by_local": "5:14 PM",
-   "daylight_min": 95,
-   "score": 35,
-   "band": "Skip",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -456,12 +456,12 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 42
+   "count": 41
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 38
+   "count": 37
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -479,6 +479,11 @@
    "count": 16
   },
   {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 15
+  },
+  {
    "commonName": null,
    "scientificName": "Doto urak",
    "count": 15
@@ -486,17 +491,12 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 13
-  },
-  {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "Branched Dendronotid",
