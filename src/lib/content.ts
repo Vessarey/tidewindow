@@ -28,6 +28,7 @@ export interface ArticleFrontmatter {
   sources?: string[]; // URLs backing factual claims
   featuredRoundup?: FeaturedRoundup; // opt-in state-hub featured slot
   station?: string; // covered-station slug; article page renders that station's calendar gate (build fails on unknown slugs)
+  gateStations?: string[]; // multi-station articles: slugs for a station-picker calendar gate (build fails on unknown slugs; takes precedence over `station`)
   draft?: boolean;
 }
 

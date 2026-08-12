@@ -7,6 +7,7 @@ import { fmtDate, getStationData } from "@/lib/windows";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/components/json-ld";
 import EmailSignup from "@/components/email-signup";
 import CalendarGate from "@/components/calendar-gate";
+import MultiStationGate from "@/components/multi-station-gate";
 
 export function generateStaticParams() {
   return getAllArticles().map((a) => ({ slug: a.slug }));
@@ -30,6 +31,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   if (!a) notFound();
   const html = await markdownToHtml(a.body);
   const station = a.station ? getStationData(a.station).station : undefined;
+  const gateStations = a.gateStations?.map((slug) => getStationData(slug).station);
 
   return (
     <div>
@@ -86,7 +88,19 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </section>
       )}
 
-      {station ? (
+      {gateStations && gateStations.length > 0 ? (
+        <div className="mt-8">
+          <p className="mb-3 text-[0.95rem] text-ink-soft">
+            Every date above comes from NOAA predictions. Take yours with you: each station&apos;s calendar feed puts
+            every Good-or-better daylight window in your calendar app with its arrive-by time, and it updates itself
+            as new predictions land.
+          </p>
+          <MultiStationGate
+            stations={gateStations.map((s) => ({ slug: s.slug, name: s.name }))}
+            source="article_gate_multi"
+          />
+        </div>
+      ) : station ? (
         <div className="mt-8">
           <p className="mb-3 text-[0.95rem] text-ink-soft">
             Every date above comes from NOAA station {station.noaaId} predictions. Take them with you: the{" "}
