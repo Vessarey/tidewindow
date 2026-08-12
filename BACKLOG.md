@@ -202,7 +202,15 @@ with the date; add discoveries at the appropriate tier.
       calendar_gate_clicked + newsletter_signup + ics_url_revealed by
       `source` in PostHog. If article_gate outperforms, consider the same
       treatment for regional-calendars articles (multi-station — would
-      need a different design).
+      need a different design). UPDATE 2026-08-12: that multi-station
+      design SHIPPED early on the king-tides guide only (commit 8491e72,
+      f-pass — the page is 35% of traffic; see JOURNAL) as
+      `MultiStationGate` + `gateStations` frontmatter, source
+      **article_gate_multi** so this readout stays clean. At the ~08-21
+      readout, tally article_gate_multi separately (baseline at ship:
+      69 pv/7d on the page, 0 gate events any source); if it converts,
+      extend gateStations to the state hubs / other regional-calendars
+      articles.
 
 - [x] 2026-08-05: **07-19 CTR retitle JUDGED — qualified win, titles stay**
       (see JOURNAL 2026-08-05). Site CTR 1.66%→1.94%, month pages 0→~12

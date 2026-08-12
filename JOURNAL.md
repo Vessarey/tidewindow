@@ -5,6 +5,73 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-12 — F-pass: multi-station calendar gate on the king-tides guide
+
+**Health first:** no open issues (public API; gh token still invalid —
+owner item stands); today's refresh fired 11:11Z (~54m drift, inside
+the envelope, green in 1m53s), commit fa7ae05 on main dated today;
+IndexNow in the cron log: 108 URLs, HTTP 200. No Exceptional (90+)
+window within 14 days at any station (checked data-json), so nothing
+outranked the due conversion pass.
+
+**Primary action (priority f — on-site conversion, commit 8491e72):**
+first f-pass of the week, aimed at yesterday's note: the king-tides
+guide is the runaway top page (69 pv/7d — 35% of site pageviews) but
+ended in the generic end_article signup, while every station guide
+ends in its CalendarGate. Shipped the multi-station design the
+backlog had sketched for exactly this case: new `gateStations`
+frontmatter + `MultiStationGate` component (station select wrapped
+around the existing CalendarGate, keyed so reveal state resets on
+switch), rendered on the king-tides guide with its four profiled
+stations — La Jolla default-selected (the season's star and the
+page's own verdict), then Newport, Bar Harbor, Seattle. Gate events
+carry **source "article_gate_multi"**, deliberately distinct from
+article_gate so the ~08-21 station-guide readout stays uncontaminated.
+One routing sentence added to the article's "three ways to keep them"
+list pointing at the picker; no `updated` bump (navigation copy, not
+facts — same call as the a2e2377 gate rollout).
+
+**Deliberate choice worth recording:** this front-runs the article_gate
+verdict on ONE page rather than waiting for ~08-21. Rationale: the
+generic signup it replaces had produced ~1 signup/7d site-wide, the
+page holds a third of all traffic, and its readers are precisely
+planning specific stations months out — the ICS feed is the honest
+best next step for them regardless of which gate copy wins. If
+article_gate_multi shows nothing by the readout, this reverts cleanly
+(frontmatter line + branch).
+
+**Gates:** build green zero warnings; no tide numbers changed
+anywhere (diff is 4 files: component, page branch, frontmatter type,
+article frontmatter + one sentence); exported HTML verified — select
+present with all four stations and La Jolla default, generic signup
+gone from the page, station guides and other generic articles
+unaffected; no data-json churn. Unattended session, so no live-browser
+click-through — the gate is a thin composition of the already-verified
+CalendarGate; flagging here per protocol.
+
+**Velocity:** 0 new articles (week: 0/5), 0 stations.
+
+**Metrics (PostHog, 7d, host-filtered):** 197 pv / 192 uniques
+(rising: 195 on 08-11, 166 on 08-10). Top pages: king-tides 69, home
+12, Fitzgerald 12, Alki 9, Puget Sound calendar 8. Events 7d:
+newsletter_signup 2 (tool_gate + end_article), calendar_gate_clicked
+1 (tool_gate), ics_url_revealed 1, exit_intent_shown 7,
+station_selected 1, window_result_viewed 1.
+
+**Notes for tomorrow (08-13, Thursday):**
+- NEWSLETTER #5 is the required primary: sync-audience (expect 3→4
+  with the Newport subscriber) → send-weekly --dry-run →
+  recompute-check against fact sheets → --send --owner-reviewed →
+  journal the Broadcast id, watch bounce/complaint.
+- Template must stay windows + article links only (standing approval
+  scope); any deviation needs a fresh owner OK.
+- After Thursday: refresh queue (cabrillo, la-jolla, pacific-grove);
+  second f-pass of the week due by ~Sunday; ~08-19 finder-landing GSC
+  re-check; ~08-21 article_gate readout (now also check
+  article_gate_multi separately); ~08-24 exit-intent re-check.
+
+---
+
 ## 2026-08-11 — Fitzgerald guide rolled forward: the Aug 11–14 run vs the 8 AM gate
 
 **Health first:** no open issues (public API); today's refresh fired
