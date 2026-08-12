@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-11",
+ "generated_on": "2026-08-12",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-11",
-   "weekday": "Tue",
-   "low_ft": -2.418,
-   "low_time_local": "9:24 AM",
-   "window_local": "6:50 AM–12:30 PM",
-   "arrive_by_local": "8:24 AM",
-   "daylight_min": 340,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-12",
    "weekday": "Wed",
@@ -111,6 +99,18 @@
    "score": 62,
    "band": "Good",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-05",
+   "weekday": "Sat",
+   "low_ft": -1.007,
+   "low_time_local": "5:05 AM",
+   "window_local": "2:50 AM–7:45 AM",
+   "arrive_by_local": "4:05 AM",
+   "daylight_min": 70,
+   "score": 60,
+   "band": "Good",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,17 +121,17 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 16,
-   "daylight_windows": 14,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 15,
+   "daylight_windows": 13,
+   "daylight_minus_tides": 7,
    "best_window": {
-    "date": "2026-08-11",
-    "weekday": "Tue",
-    "low_ft": -2.418,
-    "low_time_local": "9:24 AM",
-    "window_local": "6:50 AM–12:30 PM",
-    "arrive_by_local": "8:24 AM",
-    "daylight_min": 340,
+    "date": "2026-08-12",
+    "weekday": "Wed",
+    "low_ft": -2.144,
+    "low_time_local": "10:11 AM",
+    "window_local": "7:45 AM–1:05 PM",
+    "arrive_by_local": "9:11 AM",
+    "daylight_min": 320,
     "score": 90,
     "band": "Exceptional",
     "weekend_or_holiday": false
@@ -185,18 +185,6 @@
   }
  },
  "deepest_2026_daylight_lows_top8": [
-  {
-   "date": "2026-08-11",
-   "weekday": "Tue",
-   "low_ft": -2.418,
-   "low_time_local": "9:24 AM",
-   "window_local": "6:50 AM–12:30 PM",
-   "arrive_by_local": "8:24 AM",
-   "daylight_min": 340,
-   "score": 90,
-   "band": "Exceptional",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-12",
    "weekday": "Wed",
@@ -278,6 +266,18 @@
    "arrive_by_local": "8:08 AM",
    "daylight_min": 245,
    "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-14",
+   "weekday": "Fri",
+   "low_ft": -0.598,
+   "low_time_local": "11:38 AM",
+   "window_local": "9:50 AM–1:35 PM",
+   "arrive_by_local": "10:38 AM",
+   "daylight_min": 225,
+   "score": 67,
    "band": "Good",
    "weekend_or_holiday": false
   }
@@ -434,7 +434,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Nuttall's Cockle",

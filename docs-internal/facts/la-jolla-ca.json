@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-11",
+ "generated_on": "2026-08-12",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-10-10",
+   "weekday": "Sat",
+   "low_ft": 0.014,
+   "low_time_local": "3:49 PM",
+   "window_local": "2:05 PM–5:35 PM",
+   "arrive_by_local": "2:49 PM",
+   "daylight_min": 210,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-09-27",
    "weekday": "Sun",
@@ -99,18 +111,6 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.537,
-   "low_time_local": "4:41 PM",
-   "window_local": "3:35 PM–5:55 PM",
-   "arrive_by_local": "3:41 PM",
-   "daylight_min": 140,
-   "score": 42,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 15,
+   "lows_below_1ft": 14,
    "daylight_windows": 4,
    "daylight_minus_tides": 2,
    "best_window": {
@@ -456,42 +456,37 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 138
+   "count": 139
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 112
+   "count": 113
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 103
+   "count": 104
   },
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 73
+   "count": 74
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 65
+   "count": 66
   },
   {
    "commonName": "McDonald's Dorid",
    "scientificName": "Limacia mcdonaldi",
-   "count": 44
-  },
-  {
-   "commonName": "Gould Beanclam",
-   "scientificName": "Donax gouldii",
-   "count": 43
+   "count": 45
   },
   {
    "commonName": "Colorful Dirona",
    "scientificName": "Dirona picta",
-   "count": 39
+   "count": 40
   },
   {
    "commonName": "Colorful Aeolid",
@@ -501,6 +496,11 @@
   {
    "commonName": "Olive's Aeolid",
    "scientificName": "Anteaeolidiella oliviae",
+   "count": 36
+  },
+  {
+   "commonName": "Fisher's Aeolid",
+   "scientificName": "Orienthella piunca",
    "count": 36
   }
  ]
