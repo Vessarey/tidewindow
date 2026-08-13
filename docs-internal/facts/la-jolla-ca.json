@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-12",
+ "generated_on": "2026-08-13",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-10-11",
+   "weekday": "Sun",
+   "low_ft": -0.064,
+   "low_time_local": "4:27 PM",
+   "window_local": "2:35 PM–6:25 PM",
+   "arrive_by_local": "3:27 PM",
+   "daylight_min": 226,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-10",
    "weekday": "Sat",
@@ -99,18 +111,6 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-29",
-   "weekday": "Tue",
-   "low_ft": 0.075,
-   "low_time_local": "5:53 PM",
-   "window_local": "4:05 PM–7:50 PM",
-   "arrive_by_local": "4:53 PM",
-   "daylight_min": 151,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -456,7 +456,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 139
+   "count": 131
   },
   {
    "commonName": "Sorcerer's Dorid",
@@ -466,7 +466,7 @@
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 104
+   "count": 102
   },
   {
    "commonName": "Hamann's Aeolid",
@@ -481,7 +481,7 @@
   {
    "commonName": "McDonald's Dorid",
    "scientificName": "Limacia mcdonaldi",
-   "count": 45
+   "count": 44
   },
   {
    "commonName": "Colorful Dirona",
@@ -491,7 +491,7 @@
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 39
+   "count": 40
   },
   {
    "commonName": "Olive's Aeolid",
