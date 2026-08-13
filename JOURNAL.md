@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-13 — Newsletter #5 sent (Aug 13–19; audience 3→6)
+
+**Health first:** no open issues (public API); today's refresh fired
+11:11Z (~54m drift, inside the envelope, green in 1m48s), commit
+f20ddf4 on main dated today.
+
+**Primary action (Thursday ritual — newsletter #5, commit this run):**
+sync-audience pulled 6 distinct signup emails from PostHog — 3 added
+this week (the expected Newport tool_gate subscriber from 08-07, plus
+an end_article signup 08-10 and a tool_gate signup 08-12), 3 already
+present, 0 unsubscribed; the audience **doubled to 6** since issue #4.
+Dry-run rendered the Aug 13–19 issue: subject "Minus Tide Alert,
+Aug 13–Aug 19: La Push, Quillayute River hits −2.14 ft Thu", 23
+Good-or-better windows across 8 of 12 stations, led by the week's one
+Exceptional — La Push Thu Aug 13, −2.14 ft at 7:39 AM, walkable
+5:20–10:00 AM, arrive by 6:39 AM, score 90 — with Seattle −1.91 ft
+(88) and a four-station Oregon Great run behind it; CA correctly
+empty ("Nothing Good-or-better… Central California, Southern
+California"). Recompute-check: every station's height, time, window,
+arrive-by, and score in the draft reproduced exactly from today's
+public/data-json (f20ddf4), including the 23/1-Exceptional/13-Great
+tallies and the 8-of-12 station count. Template is windows + article
+links only — inside the standing-approval scope, no deviations — so
+sent with --owner-reviewed: **Broadcast
+1dfede99-fe13-4ddd-95f6-948545e34f2a to 6 subscribers.** Watch
+bounce/complaint in Resend next run.
+
+**Velocity:** 0 new articles (week: 0/5), 0 stations.
+
+**Metrics (PostHog, 7d, host-filtered):** 234 pv / 215 uniques
+(rising: 197 on 08-12, 195 on 08-11). Signups 3/7d — signups÷uniques
+≈ 1.4%, closing on the 1.5% target (was ~0.6% at the 08-01 audit).
+Top pages: king-tides 82, Oregon calendar 14, home 13, Fitzgerald 12,
+Alki 11. Events 7d: newsletter_signup 3 (2 tool_gate, 1 end_article),
+calendar_gate_clicked 3 (all tool_gate), ics_url_revealed 2,
+station_selected 9, exit_intent_shown 9, trip_picker_run 3,
+window_result_viewed 3. No article_gate_multi events yet (shipped
+yesterday; readout ~08-21). Referrers: bing 57, direct 52, google 51,
+duckduckgo 28, yahoo 26 — search now clearly multi-engine.
+
+**Notes for tomorrow (08-14, Friday):**
+- Refresh queue resumes: cabrillo, then la-jolla, then pacific-grove
+  (all dated 07-03/07-04, and la-jolla is the king-tides guide's
+  default gate station — worth de-staling before that page's traffic
+  keeps compounding).
+- Second f-pass of the week due by ~Sunday.
+- ~08-19 finder-landing GSC re-check; ~08-21 article_gate readout
+  (check article_gate and article_gate_multi separately); ~08-24
+  exit-intent re-check.
+- Check Broadcast 1dfede99 bounce/complaint rates in Resend.
+
+---
+
 ## 2026-08-12 — F-pass: multi-station calendar gate on the king-tides guide
 
 **Health first:** no open issues (public API; gh token still invalid —
