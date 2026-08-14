@@ -5,6 +5,8 @@ import { getIndex, getStationData, fmtMonth, fmtStamp, fmtDate } from "@/lib/win
 import { PUBLISHED_MONTHS } from "@/lib/rollout";
 import { WindowTable, StationChip, ScoreBadge } from "@/components/window-bits";
 import CalendarGate from "@/components/calendar-gate";
+import EmailSignup from "@/components/email-signup";
+import { getStationGuide } from "@/lib/content";
 import { BreadcrumbJsonLd, StationDatasetJsonLd } from "@/components/json-ld";
 
 export function generateStaticParams() {
@@ -75,6 +77,7 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
   const idx = PUBLISHED_MONTHS.indexOf(month);
   const prev = idx > 0 ? PUBLISHED_MONTHS[idx - 1] : null;
   const next = idx < PUBLISHED_MONTHS.length - 1 ? PUBLISHED_MONTHS[idx + 1] : null;
+  const guide = getStationGuide(slug);
 
   return (
     <div>
@@ -161,6 +164,35 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
             {fmtMonth(next)} →
           </Link>
         )}
+      </div>
+
+      <div className="no-print mt-8">
+        <h2 className="text-2xl">Plan a visit</h2>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-[0.95rem]">
+          {guide && (
+            <li>
+              Field guide: <Link href={`/guides/${guide.slug}/`} className="underline">{guide.title}</Link> — where to
+              park, what the access rules are, and what lives in these pools.
+            </li>
+          )}
+          <li>
+            The <Link href="/tools/tide-window-finder/" className="underline">Tide Window Finder</Link> turns any date
+            above into an arrive-by plan for {s.name}.
+          </li>
+          <li>
+            Fixed travel dates? The <Link href="/tools/trip-picker/" className="underline">Trip Picker</Link> finds the
+            best stretch of days across every station we cover.
+          </li>
+        </ul>
+      </div>
+
+      <div className="no-print">
+        <EmailSignup
+          source="month_page"
+          headline={`Never miss a ${s.name} window`}
+          blurb="One email a week with your coast's ranked windows — computed from NOAA data, never padded. Sent every Thursday."
+          cta="Join the list"
+        />
       </div>
 
       <p className="mt-8 text-[0.85rem] text-ink-soft">

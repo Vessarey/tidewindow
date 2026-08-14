@@ -67,6 +67,11 @@ export function getArticle(slug: string): Article | undefined {
   return getAllArticles().find((a) => a.slug === slug);
 }
 
+/** The station-guide article covering a station, if one has been published. */
+export function getStationGuide(stationSlug: string): Article | undefined {
+  return getAllArticles().find((a) => a.category === "station-guides" && a.station === stationSlug);
+}
+
 export type RoundupArticle = Article & { featuredRoundup: FeaturedRoundup };
 
 /**
