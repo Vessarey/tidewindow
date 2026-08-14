@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-13",
+ "generated_on": "2026-08-14",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-13",
-   "weekday": "Thu",
-   "low_ft": -1.528,
-   "low_time_local": "7:16 AM",
-   "window_local": "5:05 AM–9:35 AM",
-   "arrive_by_local": "6:16 AM",
-   "daylight_min": 194,
-   "score": 81,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-14",
    "weekday": "Fri",
@@ -111,6 +99,18 @@
    "score": 45,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-11",
+   "weekday": "Sun",
+   "low_ft": -0.477,
+   "low_time_local": "7:30 PM",
+   "window_local": "5:45 PM–9:20 PM",
+   "arrive_by_local": "6:30 PM",
+   "daylight_min": 56,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,18 +121,18 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 23,
-   "daylight_windows": 11,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 22,
+   "daylight_windows": 10,
+   "daylight_minus_tides": 7,
    "best_window": {
-    "date": "2026-08-13",
-    "weekday": "Thu",
-    "low_ft": -1.528,
-    "low_time_local": "7:16 AM",
-    "window_local": "5:05 AM–9:35 AM",
-    "arrive_by_local": "6:16 AM",
-    "daylight_min": 194,
-    "score": 81,
+    "date": "2026-08-14",
+    "weekday": "Fri",
+    "low_ft": -1.099,
+    "low_time_local": "7:55 AM",
+    "window_local": "5:55 AM–10:00 AM",
+    "arrive_by_local": "6:55 AM",
+    "daylight_min": 218,
+    "score": 77,
     "band": "Great",
     "weekend_or_holiday": false
    }
@@ -244,18 +244,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-13",
-   "weekday": "Thu",
-   "low_ft": -1.528,
-   "low_time_local": "7:16 AM",
-   "window_local": "5:05 AM–9:35 AM",
-   "arrive_by_local": "6:16 AM",
-   "daylight_min": 194,
-   "score": 81,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-10-27",
    "weekday": "Tue",
    "low_ft": -1.469,
@@ -301,6 +289,18 @@
    "daylight_min": 72,
    "score": 51,
    "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-14",
+   "weekday": "Fri",
+   "low_ft": -1.099,
+   "low_time_local": "7:55 AM",
+   "window_local": "5:55 AM–10:00 AM",
+   "arrive_by_local": "6:55 AM",
+   "daylight_min": 218,
+   "score": 77,
+   "band": "Great",
    "weekend_or_holiday": false
   }
  ],
@@ -367,20 +367,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-08-13",
-   "weekday": "Thu",
-   "low_ft": -1.528,
-   "low_time_local": "7:16 AM",
-   "window_local": "5:05 AM–9:35 AM",
-   "arrive_by_local": "6:16 AM",
-   "daylight_min": 194,
-   "score": 81,
-   "band": "Great",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 78,
-   "min_to_sun_edge": 55
-  },
   {
    "date": "2026-08-25",
    "weekday": "Tue",
@@ -450,6 +436,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 85,
    "min_to_sun_edge": 52
+  },
+  {
+   "date": "2026-08-30",
+   "weekday": "Sun",
+   "low_ft": 0.304,
+   "low_time_local": "7:59 AM",
+   "window_local": "6:45 AM–9:10 AM",
+   "arrive_by_local": "6:59 AM",
+   "daylight_min": 145,
+   "score": 48,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 91,
+   "min_to_sun_edge": 80
   }
  ],
  "species_last60d_5km": [
@@ -476,12 +476,12 @@
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 4
+   "count": 5
   },
   {
    "commonName": "Red Sponge Dorid",
    "scientificName": "Rostanga pulchra",
-   "count": 3
+   "count": 4
   },
   {
    "commonName": "Chan's Dorid",

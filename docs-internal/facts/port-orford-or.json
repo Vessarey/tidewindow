@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-13",
+ "generated_on": "2026-08-14",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-13",
-   "weekday": "Thu",
-   "low_ft": -1.512,
-   "low_time_local": "7:00 AM",
-   "window_local": "4:40 AM–9:20 AM",
-   "arrive_by_local": "6:00 AM",
-   "daylight_min": 177,
-   "score": 80,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-14",
    "weekday": "Fri",
@@ -111,6 +99,18 @@
    "score": 44,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-27",
+   "weekday": "Thu",
+   "low_ft": -0.382,
+   "low_time_local": "6:16 AM",
+   "window_local": "4:25 AM–8:10 AM",
+   "arrive_by_local": "5:16 AM",
+   "daylight_min": 92,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,18 +121,18 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 20,
-   "daylight_windows": 10,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 19,
+   "daylight_windows": 9,
+   "daylight_minus_tides": 7,
    "best_window": {
-    "date": "2026-08-13",
-    "weekday": "Thu",
-    "low_ft": -1.512,
-    "low_time_local": "7:00 AM",
-    "window_local": "4:40 AM–9:20 AM",
-    "arrive_by_local": "6:00 AM",
-    "daylight_min": 177,
-    "score": 80,
+    "date": "2026-08-14",
+    "weekday": "Fri",
+    "low_ft": -1.039,
+    "low_time_local": "7:38 AM",
+    "window_local": "5:35 AM–9:45 AM",
+    "arrive_by_local": "6:38 AM",
+    "daylight_min": 201,
+    "score": 76,
     "band": "Great",
     "weekend_or_holiday": false
    }
@@ -268,18 +268,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-13",
-   "weekday": "Thu",
-   "low_ft": -1.512,
-   "low_time_local": "7:00 AM",
-   "window_local": "4:40 AM–9:20 AM",
-   "arrive_by_local": "6:00 AM",
-   "daylight_min": 177,
-   "score": 80,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-10-27",
    "weekday": "Tue",
    "low_ft": -1.459,
@@ -301,6 +289,18 @@
    "daylight_min": 129,
    "score": 61,
    "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "low_ft": -1.118,
+   "low_time_local": "6:53 PM",
+   "window_local": "4:45 PM–9:05 PM",
+   "arrive_by_local": "5:53 PM",
+   "daylight_min": 93,
+   "score": 54,
+   "band": "Fair",
    "weekend_or_holiday": false
   }
  ],
@@ -367,20 +367,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-08-13",
-   "weekday": "Thu",
-   "low_ft": -1.512,
-   "low_time_local": "7:00 AM",
-   "window_local": "4:40 AM–9:20 AM",
-   "arrive_by_local": "6:00 AM",
-   "daylight_min": 177,
-   "score": 80,
-   "band": "Great",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 75,
-   "min_to_sun_edge": 37
-  },
   {
    "date": "2026-08-14",
    "weekday": "Fri",
@@ -450,6 +436,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 77,
    "min_to_sun_edge": 6
+  },
+  {
+   "date": "2026-08-29",
+   "weekday": "Sat",
+   "low_ft": -0.004,
+   "low_time_local": "7:13 AM",
+   "window_local": "5:40 AM–8:45 AM",
+   "arrive_by_local": "6:13 AM",
+   "daylight_min": 125,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 82,
+   "min_to_sun_edge": 33
   }
  ],
  "species_last60d_5km": [
