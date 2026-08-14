@@ -5,6 +5,58 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-14 — Month pages get plan-a-visit links + month_page signup (f-pass #2)
+
+**Health first:** refresh cron fired 11:10Z (green, 1m47s, ~53m drift —
+inside the envelope), commit 9d2e1f3 on main dated today. No open
+issues. NOTE: the gh CLI auth from the 07-25 backlog item appears
+FIXED — `gh run list` and `gh issue list` both worked without 401s;
+checked off in BACKLOG.
+
+**Primary action (priority f, conversion pass #2 of the week):** month
+pages (/beaches/[state]/[slug]/[month]/) are where search clicks land
+(seattle/pt/la-push 2026-08 CTRs 1.6–3.6% post-retitle; seattle 2026-08
+was 8 pv this 7d) but below the window table they dead-ended: a
+CalendarGate and prev/next buttons, no link to the station's field
+guide, no tools pathway, no newsletter capture. Shipped (commit
+c7d676c): a no-print "Plan a visit" block — station field guide (new
+getStationGuide() lookup on existing station-guide frontmatter; every
+station has one), Tide Window Finder, Trip Picker — plus an EmailSignup
+with distinct **source=month_page**, chosen so the ~08-21 article_gate
+/ article_gate_multi readout and tool_gate tallies stay uncontaminated.
+Deliberately did NOT touch the king-tides guide (experiment surface) or
+extend gates to regional-calendars (P2 says only after the readout).
+Verified in built HTML: guide link, both tool links, and month_page
+signup present on seattle-wa/2026-08. Build green, diff clean (2 files,
++37, no data churn).
+
+**Why f over e:** week of 08-10 already has two refresh passes
+(pillar-point 08-10, fitzgerald 08-11) but only one f-pass (08-12
+multi-gate); playbook requires two f-passes/week.
+
+**No priority-b trigger:** best window in next 14d is today's 89 at
+La Push (tail of the Aug 11–14 run, already covered); next notable is
+the Sep 6–9 Great run (Seattle −1.02 ft Sep 8) — watch as it enters the
+14-day horizon around 08-24.
+
+**Velocity:** 0 new articles (week: 0/5), 0 stations.
+
+**Metrics (PostHog, 7d, host-filtered):** ~190 pv led by king-tides
+79, Fitzgerald 13, Oregon calendar 12, home 11. Signups 3/7d
+(2 tool_gate, 1 end_article). Referrers: Bing 58, direct 51, Google 39,
+DuckDuckGo 27, Yahoo 23 — no AI referrers yet. GSC impressions still
+climbing: 148→382/day over the last two weeks, position ~8.5. Flywheel
+unchanged: pillar-point NOAA highs+lows queries dominate (the known
+lows-only intent gap, P2).
+
+**Tomorrow:** refresh-pass candidates cabrillo or la-jolla (07-03
+vintage, stale July tables) — both now also linked from their month
+pages, so staleness is more visible. Exit-intent readout ~08-24;
+article_gate readout ~08-21 (add month_page to that query). Sep window
+run enters the 14-day horizon ~08-24.
+
+---
+
 ## 2026-08-13 — Newsletter #5 sent (Aug 13–19; audience 3→6)
 
 **Health first:** no open issues (public API); today's refresh fired
