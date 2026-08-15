@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-14",
+ "generated_on": "2026-08-15",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-14",
-   "weekday": "Fri",
-   "low_ft": -0.498,
-   "low_time_local": "4:58 AM",
-   "window_local": "2:55 AM–7:05 AM",
-   "arrive_by_local": "3:58 AM",
-   "daylight_min": 53,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-09-26",
    "weekday": "Sat",
    "low_ft": 0.506,
@@ -111,6 +99,18 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-29",
+   "weekday": "Tue",
+   "low_ft": 0.075,
+   "low_time_local": "5:53 PM",
+   "window_local": "4:05 PM–7:50 PM",
+   "arrive_by_local": "4:53 PM",
+   "daylight_min": 151,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,20 +121,20 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 13,
-   "daylight_windows": 3,
-   "daylight_minus_tides": 1,
+   "lows_below_1ft": 12,
+   "daylight_windows": 2,
+   "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-14",
-    "weekday": "Fri",
-    "low_ft": -0.498,
-    "low_time_local": "4:58 AM",
-    "window_local": "2:55 AM–7:05 AM",
-    "arrive_by_local": "3:58 AM",
-    "daylight_min": 53,
-    "score": 43,
-    "band": "Fair",
-    "weekend_or_holiday": false
+    "date": "2026-08-15",
+    "weekday": "Sat",
+    "low_ft": 0.058,
+    "low_time_local": "5:29 AM",
+    "window_local": "3:45 AM–7:15 AM",
+    "arrive_by_local": "4:29 AM",
+    "daylight_min": 62,
+    "score": 38,
+    "band": "Skip",
+    "weekend_or_holiday": true
    }
   },
   "2026-09": {
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-14",
-   "weekday": "Fri",
-   "low_ft": -0.498,
-   "low_time_local": "4:58 AM",
-   "window_local": "2:55 AM–7:05 AM",
-   "arrive_by_local": "3:58 AM",
-   "daylight_min": 53,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 61,
-   "min_to_sun_edge": -74
-  },
-  {
    "date": "2026-08-15",
    "weekday": "Sat",
    "low_ft": 0.058,
@@ -450,58 +436,72 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 270,
    "min_to_sun_edge": -21
+  },
+  {
+   "date": "2026-10-12",
+   "weekday": "Mon",
+   "low_ft": 0.005,
+   "low_time_local": "5:06 PM",
+   "window_local": "3:15 PM–7:05 PM",
+   "arrive_by_local": "4:06 PM",
+   "daylight_min": 184,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 251,
+   "min_to_sun_edge": 73
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 121
+   "commonName": "Hamann's Aeolid",
+   "scientificName": "Cuthona hamanni",
+   "count": 117
   },
   {
-   "commonName": "Sorcerer's Dorid",
-   "scientificName": "Polycera atra",
-   "count": 107
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 92
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 101
+   "count": 85
   },
   {
-   "commonName": "Hamann's Aeolid",
-   "scientificName": "Cuthona hamanni",
-   "count": 101
+   "commonName": "Sorcerer's Dorid",
+   "scientificName": "Polycera atra",
+   "count": 78
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 68
-  },
-  {
-   "commonName": "McDonald's Dorid",
-   "scientificName": "Limacia mcdonaldi",
-   "count": 42
-  },
-  {
-   "commonName": "Olive's Aeolid",
-   "scientificName": "Anteaeolidiella oliviae",
-   "count": 40
-  },
-  {
-   "commonName": "Colorful Aeolid",
-   "scientificName": "Anteaeolidiella chromosoma",
-   "count": 39
-  },
-  {
-   "commonName": "Colorful Dirona",
-   "scientificName": "Dirona picta",
-   "count": 38
+   "count": 64
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 36
+   "count": 42
+  },
+  {
+   "commonName": "McDonald's Dorid",
+   "scientificName": "Limacia mcdonaldi",
+   "count": 41
+  },
+  {
+   "commonName": "Olive's Aeolid",
+   "scientificName": "Anteaeolidiella oliviae",
+   "count": 38
+  },
+  {
+   "commonName": "Colorful Aeolid",
+   "scientificName": "Anteaeolidiella chromosoma",
+   "count": 38
+  },
+  {
+   "commonName": "Colorful Dirona",
+   "scientificName": "Dirona picta",
+   "count": 33
   }
  ]
 }

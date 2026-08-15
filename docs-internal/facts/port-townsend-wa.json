@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-14",
+ "generated_on": "2026-08-15",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -53,18 +53,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-14",
-   "weekday": "Fri",
-   "low_ft": -0.598,
-   "low_time_local": "11:38 AM",
-   "window_local": "9:50 AM–1:35 PM",
-   "arrive_by_local": "10:38 AM",
-   "daylight_min": 225,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-09-09",
    "weekday": "Wed",
    "low_ft": -0.678,
@@ -111,6 +99,18 @@
    "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-25",
+   "weekday": "Tue",
+   "low_ft": -0.191,
+   "low_time_local": "9:05 AM",
+   "window_local": "7:20 AM–11:10 AM",
+   "arrive_by_local": "8:05 AM",
+   "daylight_min": 230,
+   "score": 54,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,20 +121,20 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 13,
-   "daylight_windows": 11,
-   "daylight_minus_tides": 5,
+   "lows_below_1ft": 12,
+   "daylight_windows": 10,
+   "daylight_minus_tides": 4,
    "best_window": {
-    "date": "2026-08-14",
-    "weekday": "Fri",
-    "low_ft": -0.598,
-    "low_time_local": "11:38 AM",
-    "window_local": "9:50 AM–1:35 PM",
-    "arrive_by_local": "10:38 AM",
-    "daylight_min": 225,
-    "score": 67,
-    "band": "Good",
-    "weekend_or_holiday": false
+    "date": "2026-08-23",
+    "weekday": "Sun",
+    "low_ft": 0.166,
+    "low_time_local": "7:34 AM",
+    "window_local": "5:55 AM–9:25 AM",
+    "arrive_by_local": "6:34 AM",
+    "daylight_min": 188,
+    "score": 57,
+    "band": "Fair",
+    "weekend_or_holiday": true
    }
   },
   "2026-09": {
@@ -246,18 +246,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-14",
-   "weekday": "Fri",
-   "low_ft": -0.598,
-   "low_time_local": "11:38 AM",
-   "window_local": "9:50 AM–1:35 PM",
-   "arrive_by_local": "10:38 AM",
-   "daylight_min": 225,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-08-26",
    "weekday": "Wed",
    "low_ft": -0.255,
@@ -279,6 +267,18 @@
    "daylight_min": 39,
    "score": 27,
    "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-08-25",
+   "weekday": "Tue",
+   "low_ft": -0.191,
+   "low_time_local": "9:05 AM",
+   "window_local": "7:20 AM–11:10 AM",
+   "arrive_by_local": "8:05 AM",
+   "daylight_min": 230,
+   "score": 54,
+   "band": "Fair",
    "weekend_or_holiday": false
   }
  ],
@@ -434,7 +434,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Nuttall's Cockle",
@@ -445,16 +445,6 @@
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
    "count": 4
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 2
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 2
   },
   {
    "commonName": "Striped Dogwinkle",
@@ -479,6 +469,16 @@
   {
    "commonName": "Shield Limpet",
    "scientificName": "Lottia pelta",
+   "count": 1
+  },
+  {
+   "commonName": "Channeled Dog Winkle",
+   "scientificName": "Nucella canaliculata",
+   "count": 1
+  },
+  {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
    "count": 1
   }
  ]

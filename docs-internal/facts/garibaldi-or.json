@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-14",
+ "generated_on": "2026-08-15",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-14",
-   "weekday": "Fri",
-   "low_ft": -1.29,
-   "low_time_local": "8:27 AM",
-   "window_local": "6:35 AM–10:30 AM",
-   "arrive_by_local": "7:27 AM",
-   "daylight_min": 235,
-   "score": 81,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-08-15",
    "weekday": "Sat",
@@ -111,6 +99,18 @@
    "score": 52,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-08-30",
+   "weekday": "Sun",
+   "low_ft": 0.158,
+   "low_time_local": "8:36 AM",
+   "window_local": "7:25 AM–9:45 AM",
+   "arrive_by_local": "7:36 AM",
+   "daylight_min": 140,
+   "score": 50,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,20 +121,20 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 19,
-   "daylight_windows": 10,
-   "daylight_minus_tides": 6,
+   "lows_below_1ft": 17,
+   "daylight_windows": 9,
+   "daylight_minus_tides": 5,
    "best_window": {
-    "date": "2026-08-14",
-    "weekday": "Fri",
-    "low_ft": -1.29,
-    "low_time_local": "8:27 AM",
-    "window_local": "6:35 AM–10:30 AM",
-    "arrive_by_local": "7:27 AM",
-    "daylight_min": 235,
-    "score": 81,
-    "band": "Great",
-    "weekend_or_holiday": false
+    "date": "2026-08-15",
+    "weekday": "Sat",
+    "low_ft": -0.67,
+    "low_time_local": "9:05 AM",
+    "window_local": "7:30 AM–10:50 AM",
+    "arrive_by_local": "8:05 AM",
+    "daylight_min": 200,
+    "score": 73,
+    "band": "Good",
+    "weekend_or_holiday": true
    }
   },
   "2026-09": {
@@ -220,18 +220,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-14",
-   "weekday": "Fri",
-   "low_ft": -1.29,
-   "low_time_local": "8:27 AM",
-   "window_local": "6:35 AM–10:30 AM",
-   "arrive_by_local": "7:27 AM",
-   "daylight_min": 235,
-   "score": 81,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-11-23",
    "weekday": "Mon",
    "low_ft": -1.245,
@@ -300,6 +288,18 @@
    "arrive_by_local": "3:37 PM",
    "daylight_min": 100,
    "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "Fri",
+   "low_ft": -0.497,
+   "low_time_local": "7:18 AM",
+   "window_local": "5:45 AM–9:00 AM",
+   "arrive_by_local": "6:18 AM",
+   "daylight_min": 131,
+   "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
   }
@@ -456,11 +456,6 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 1
-  },
-  {
-   "commonName": "Opalescent Inshore Squid",
-   "scientificName": "Doryteuthis opalescens",
    "count": 1
   },
   {
