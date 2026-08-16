@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-15",
+ "generated_on": "2026-08-16",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -65,18 +65,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": 0.225,
-   "low_time_local": "7:08 AM",
-   "window_local": "5:30 AM–8:45 AM",
-   "arrive_by_local": "6:08 AM",
-   "daylight_min": 139,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-10-09",
    "weekday": "Fri",
    "low_ft": 0.299,
@@ -111,6 +99,18 @@
    "score": 42,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-12",
+   "weekday": "Sat",
+   "low_ft": 0.629,
+   "low_time_local": "6:26 PM",
+   "window_local": "5:20 PM–7:35 PM",
+   "arrive_by_local": "5:26 PM",
+   "daylight_min": 122,
+   "score": 39,
+   "band": "Skip",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,19 +121,19 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 13,
-   "daylight_windows": 6,
+   "lows_below_1ft": 12,
+   "daylight_windows": 5,
    "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-15",
-    "weekday": "Sat",
-    "low_ft": 0.225,
-    "low_time_local": "7:08 AM",
-    "window_local": "5:30 AM–8:45 AM",
-    "arrive_by_local": "6:08 AM",
-    "daylight_min": 139,
-    "score": 48,
-    "band": "Fair",
+    "date": "2026-08-16",
+    "weekday": "Sun",
+    "low_ft": 0.887,
+    "low_time_local": "7:42 AM",
+    "window_local": "7:05 AM–8:20 AM",
+    "arrive_by_local": "6:42 AM",
+    "daylight_min": 75,
+    "score": 32,
+    "band": "Skip",
     "weekend_or_holiday": true
    }
   },
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": 0.225,
-   "low_time_local": "7:08 AM",
-   "window_local": "5:30 AM–8:45 AM",
-   "arrive_by_local": "6:08 AM",
-   "daylight_min": 139,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 78,
-   "min_to_sun_edge": 42
-  },
-  {
    "date": "2026-08-16",
    "weekday": "Sun",
    "low_ft": 0.887,
@@ -450,58 +436,72 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 282,
    "min_to_sun_edge": -7
+  },
+  {
+   "date": "2026-09-12",
+   "weekday": "Sat",
+   "low_ft": 0.629,
+   "low_time_local": "6:26 PM",
+   "window_local": "5:20 PM–7:35 PM",
+   "arrive_by_local": "5:26 PM",
+   "daylight_min": 122,
+   "score": 39,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 267,
+   "min_to_sun_edge": 56
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 81
+   "count": 67
   },
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 68
+   "count": 54
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 52
-  },
-  {
-   "commonName": "Hilton's Aeolid",
-   "scientificName": "Phidiana hiltoni",
    "count": 42
-  },
-  {
-   "commonName": "Hammerhead Doto",
-   "scientificName": "Doto amyra",
-   "count": 40
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 36
+   "count": 34
+  },
+  {
+   "commonName": "Hilton's Aeolid",
+   "scientificName": "Phidiana hiltoni",
+   "count": 30
+  },
+  {
+   "commonName": "Hammerhead Doto",
+   "scientificName": "Doto amyra",
+   "count": 25
   },
   {
    "commonName": "Stubby Dendronotid",
    "scientificName": "Dendronotus subramosus",
-   "count": 34
+   "count": 24
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 25
+   "count": 19
   },
   {
    "commonName": "Heath's Dorid",
    "scientificName": "Geitodoris heathi",
-   "count": 23
+   "count": 18
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 22
+   "count": 17
   }
  ]
 }

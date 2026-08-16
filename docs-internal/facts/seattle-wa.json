@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-15",
+ "generated_on": "2026-08-16",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 10,
-   "daylight_windows": 9,
+   "lows_below_1ft": 9,
+   "daylight_windows": 8,
    "daylight_minus_tides": 4,
    "best_window": {
     "date": "2026-08-26",
@@ -425,7 +425,7 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 13
+   "count": 10
   },
   {
    "commonName": "barnacle-eating dorid",
@@ -440,12 +440,7 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 9
-  },
-  {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 9
+   "count": 10
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
@@ -458,13 +453,18 @@
    "count": 7
   },
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 7
+  },
+  {
    "commonName": "Lined Chiton",
    "scientificName": "Tonicella lineata",
    "count": 5
   },
   {
-   "commonName": "Merten's Chiton",
-   "scientificName": "Lepidozona mertensii",
+   "commonName": "Northern Leopard Dorid",
+   "scientificName": "Diaulula odonoghuei",
    "count": 4
   }
  ]

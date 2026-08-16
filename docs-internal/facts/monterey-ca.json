@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-15",
+ "generated_on": "2026-08-16",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -37,18 +37,6 @@
    "arrive_by_local": "5:00 PM",
    "daylight_min": 146,
    "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": 0.184,
-   "low_time_local": "6:57 AM",
-   "window_local": "5:20 AM–8:35 AM",
-   "arrive_by_local": "5:57 AM",
-   "daylight_min": 130,
-   "score": 47,
    "band": "Fair",
    "weekend_or_holiday": true
   },
@@ -111,6 +99,18 @@
    "score": 35,
    "band": "Skip",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-13",
+   "weekday": "Sun",
+   "low_ft": 0.691,
+   "low_time_local": "7:02 PM",
+   "window_local": "5:55 PM–8:05 PM",
+   "arrive_by_local": "6:02 PM",
+   "daylight_min": 83,
+   "score": 33,
+   "band": "Skip",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,19 +121,19 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 12,
-   "daylight_windows": 6,
+   "lows_below_1ft": 11,
+   "daylight_windows": 5,
    "daylight_minus_tides": 1,
    "best_window": {
-    "date": "2026-08-15",
-    "weekday": "Sat",
-    "low_ft": 0.184,
-    "low_time_local": "6:57 AM",
-    "window_local": "5:20 AM–8:35 AM",
-    "arrive_by_local": "5:57 AM",
-    "daylight_min": 130,
-    "score": 47,
-    "band": "Fair",
+    "date": "2026-08-16",
+    "weekday": "Sun",
+    "low_ft": 0.848,
+    "low_time_local": "7:31 AM",
+    "window_local": "6:50 AM–8:10 AM",
+    "arrive_by_local": "6:31 AM",
+    "daylight_min": 80,
+    "score": 32,
+    "band": "Skip",
     "weekend_or_holiday": true
    }
   },
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": 0.184,
-   "low_time_local": "6:57 AM",
-   "window_local": "5:20 AM–8:35 AM",
-   "arrive_by_local": "5:57 AM",
-   "daylight_min": 130,
-   "score": 47,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 77,
-   "min_to_sun_edge": 32
-  },
-  {
    "date": "2026-08-16",
    "weekday": "Sun",
    "low_ft": 0.848,
@@ -450,13 +436,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 266,
    "min_to_sun_edge": 65
+  },
+  {
+   "date": "2026-09-13",
+   "weekday": "Sun",
+   "low_ft": 0.691,
+   "low_time_local": "7:02 PM",
+   "window_local": "5:55 PM–8:05 PM",
+   "arrive_by_local": "6:02 PM",
+   "daylight_min": 83,
+   "score": 33,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 273,
+   "min_to_sun_edge": 16
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 43
+   "count": 42
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -466,22 +466,27 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 32
-  },
-  {
-   "commonName": "White-speckled Dorid",
-   "scientificName": "Doriopsilla fulva",
-   "count": 19
-  },
-  {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 15
+   "count": 31
   },
   {
    "commonName": null,
    "scientificName": "Doto urak",
+   "count": 16
+  },
+  {
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
    "count": 15
+  },
+  {
+   "commonName": "White-speckled Dorid",
+   "scientificName": "Doriopsilla fulva",
+   "count": 15
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
+   "count": 14
   },
   {
    "commonName": "Mossy Chiton",
@@ -489,18 +494,13 @@
    "count": 13
   },
   {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
-   "count": 12
-  },
-  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 11
+   "count": 10
   },
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
+   "commonName": "Bodega Tellin",
+   "scientificName": "Megangulus bodegensis",
    "count": 10
   }
  ]

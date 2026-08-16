@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-15",
+ "generated_on": "2026-08-16",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": -0.961,
-   "low_time_local": "8:54 AM",
-   "window_local": "7:00 AM–10:45 AM",
-   "arrive_by_local": "7:54 AM",
-   "daylight_min": 225,
-   "score": 79,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-08-29",
    "weekday": "Sat",
@@ -111,6 +99,18 @@
    "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-12",
+   "weekday": "Sat",
+   "low_ft": -0.134,
+   "low_time_local": "7:45 AM",
+   "window_local": "6:25 AM–9:10 AM",
+   "arrive_by_local": "6:45 AM",
+   "daylight_min": 138,
+   "score": 54,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,19 +121,19 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 21,
-   "daylight_windows": 9,
-   "daylight_minus_tides": 8,
+   "lows_below_1ft": 19,
+   "daylight_windows": 8,
+   "daylight_minus_tides": 7,
    "best_window": {
-    "date": "2026-08-15",
+    "date": "2026-08-29",
     "weekday": "Sat",
-    "low_ft": -0.961,
-    "low_time_local": "8:54 AM",
-    "window_local": "7:00 AM–10:45 AM",
-    "arrive_by_local": "7:54 AM",
-    "daylight_min": 225,
-    "score": 79,
-    "band": "Great",
+    "low_ft": -0.494,
+    "low_time_local": "7:53 AM",
+    "window_local": "6:10 AM–9:35 AM",
+    "arrive_by_local": "6:53 AM",
+    "daylight_min": 182,
+    "score": 70,
+    "band": "Good",
     "weekend_or_holiday": true
    }
   },
@@ -292,16 +292,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": -0.961,
-   "low_time_local": "8:54 AM",
-   "window_local": "7:00 AM–10:45 AM",
-   "arrive_by_local": "7:54 AM",
-   "daylight_min": 225,
-   "score": 79,
-   "band": "Great",
-   "weekend_or_holiday": true
+   "date": "2026-08-27",
+   "weekday": "Thu",
+   "low_ft": -0.775,
+   "low_time_local": "6:55 AM",
+   "window_local": "5:00 AM–8:50 AM",
+   "arrive_by_local": "5:55 AM",
+   "daylight_min": 140,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -456,22 +456,22 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 94
-  },
-  {
-   "commonName": "barnacle-eating dorid",
-   "scientificName": "Onchidoris bilamellata",
-   "count": 8
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 7
+   "count": 81
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 5
+   "count": 6
+  },
+  {
+   "commonName": "barnacle-eating dorid",
+   "scientificName": "Onchidoris bilamellata",
+   "count": 6
+  },
+  {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 6
   },
   {
    "commonName": "Hind's Chiton",
@@ -479,29 +479,29 @@
    "count": 5
   },
   {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 5
-  },
-  {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
-   "count": 4
-  },
-  {
    "commonName": "Chocolate Aeolid",
    "scientificName": "Margina cocoachroma",
    "count": 4
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
    "count": 3
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
    "count": 3
+  },
+  {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 3
+  },
+  {
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
+   "count": 2
   }
  ]
 }

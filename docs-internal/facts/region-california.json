@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-15",
+ "generated_on": "2026-08-16",
  "region": "California",
  "stations": [
   {
@@ -14,19 +14,19 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 13,
-     "daylight_windows": 6,
+     "lows_below_1ft": 12,
+     "daylight_windows": 5,
      "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-15",
-      "weekday": "Sat",
-      "low_ft": 0.225,
-      "low_time_local": "7:08 AM",
-      "window_local": "5:30 AM–8:45 AM",
-      "arrive_by_local": "6:08 AM",
-      "daylight_min": 139,
-      "score": 48,
-      "band": "Fair",
+      "date": "2026-08-16",
+      "weekday": "Sun",
+      "low_ft": 0.887,
+      "low_time_local": "7:42 AM",
+      "window_local": "7:05 AM–8:20 AM",
+      "arrive_by_local": "6:42 AM",
+      "daylight_min": 75,
+      "score": 32,
+      "band": "Skip",
       "weekend_or_holiday": true
      }
     },
@@ -162,19 +162,19 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 6,
+     "lows_below_1ft": 11,
+     "daylight_windows": 5,
      "daylight_minus_tides": 1,
      "best_window": {
-      "date": "2026-08-15",
-      "weekday": "Sat",
-      "low_ft": 0.184,
-      "low_time_local": "6:57 AM",
-      "window_local": "5:20 AM–8:35 AM",
-      "arrive_by_local": "5:57 AM",
-      "daylight_min": 130,
-      "score": 47,
-      "band": "Fair",
+      "date": "2026-08-16",
+      "weekday": "Sun",
+      "low_ft": 0.848,
+      "low_time_local": "7:31 AM",
+      "window_local": "6:50 AM–8:10 AM",
+      "arrive_by_local": "6:31 AM",
+      "daylight_min": 80,
+      "score": 32,
+      "band": "Skip",
       "weekend_or_holiday": true
      }
     },
@@ -310,18 +310,18 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 2,
+     "lows_below_1ft": 11,
+     "daylight_windows": 1,
      "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-15",
-      "weekday": "Sat",
-      "low_ft": 0.058,
-      "low_time_local": "5:29 AM",
-      "window_local": "3:45 AM–7:15 AM",
-      "arrive_by_local": "4:29 AM",
-      "daylight_min": 62,
-      "score": 38,
+      "date": "2026-08-16",
+      "weekday": "Sun",
+      "low_ft": 0.7,
+      "low_time_local": "5:58 AM",
+      "window_local": "4:55 AM–7:00 AM",
+      "arrive_by_local": "4:58 AM",
+      "daylight_min": 47,
+      "score": 27,
       "band": "Skip",
       "weekend_or_holiday": true
      }
@@ -458,19 +458,19 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 12,
-     "daylight_windows": 2,
-     "daylight_minus_tides": 1,
+     "lows_below_1ft": 11,
+     "daylight_windows": 1,
+     "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-15",
-      "weekday": "Sat",
-      "low_ft": -0.029,
-      "low_time_local": "5:34 AM",
-      "window_local": "3:50 AM–7:15 AM",
-      "arrive_by_local": "4:34 AM",
-      "daylight_min": 63,
-      "score": 40,
-      "band": "Fair",
+      "date": "2026-08-16",
+      "weekday": "Sun",
+      "low_ft": 0.641,
+      "low_time_local": "6:03 AM",
+      "window_local": "4:55 AM–7:05 AM",
+      "arrive_by_local": "5:03 AM",
+      "daylight_min": 52,
+      "score": 28,
+      "band": "Skip",
       "weekend_or_holiday": true
      }
     },

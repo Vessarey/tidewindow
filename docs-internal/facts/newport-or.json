@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-15",
+ "generated_on": "2026-08-16",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": -0.714,
-   "low_time_local": "8:43 AM",
-   "window_local": "7:00 AM–10:30 AM",
-   "arrive_by_local": "7:43 AM",
-   "daylight_min": 210,
-   "score": 74,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-08-29",
    "weekday": "Sat",
@@ -111,6 +99,18 @@
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-12",
+   "weekday": "Sat",
+   "low_ft": -0.035,
+   "low_time_local": "7:34 AM",
+   "window_local": "6:15 AM–9:00 AM",
+   "arrive_by_local": "6:34 AM",
+   "daylight_min": 128,
+   "score": 50,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,18 +121,18 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 19,
-   "daylight_windows": 9,
-   "daylight_minus_tides": 6,
+   "lows_below_1ft": 17,
+   "daylight_windows": 8,
+   "daylight_minus_tides": 5,
    "best_window": {
-    "date": "2026-08-15",
+    "date": "2026-08-29",
     "weekday": "Sat",
-    "low_ft": -0.714,
-    "low_time_local": "8:43 AM",
-    "window_local": "7:00 AM–10:30 AM",
-    "arrive_by_local": "7:43 AM",
-    "daylight_min": 210,
-    "score": 74,
+    "low_ft": -0.32,
+    "low_time_local": "7:41 AM",
+    "window_local": "6:05 AM–9:20 AM",
+    "arrive_by_local": "6:41 AM",
+    "daylight_min": 165,
+    "score": 64,
     "band": "Good",
     "weekend_or_holiday": true
    }
@@ -456,7 +456,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 68
+   "count": 67
   },
   {
    "commonName": "Monterey Dorid",
@@ -471,7 +471,7 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 25
+   "count": 24
   },
   {
    "commonName": "White-lined Dirona",

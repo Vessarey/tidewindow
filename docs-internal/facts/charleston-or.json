@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-15",
+ "generated_on": "2026-08-16",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-15",
-   "weekday": "Sat",
-   "low_ft": -0.462,
-   "low_time_local": "8:32 AM",
-   "window_local": "6:50 AM–10:15 AM",
-   "arrive_by_local": "7:32 AM",
-   "daylight_min": 205,
-   "score": 69,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-08-29",
    "weekday": "Sat",
@@ -111,6 +99,18 @@
    "score": 44,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "Fri",
+   "low_ft": -0.282,
+   "low_time_local": "6:47 AM",
+   "window_local": "5:15 AM–8:20 AM",
+   "arrive_by_local": "5:47 AM",
+   "daylight_min": 87,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,19 +121,19 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 20,
-   "daylight_windows": 9,
-   "daylight_minus_tides": 6,
+   "lows_below_1ft": 18,
+   "daylight_windows": 8,
+   "daylight_minus_tides": 5,
    "best_window": {
-    "date": "2026-08-15",
+    "date": "2026-08-29",
     "weekday": "Sat",
-    "low_ft": -0.462,
-    "low_time_local": "8:32 AM",
-    "window_local": "6:50 AM–10:15 AM",
-    "arrive_by_local": "7:32 AM",
-    "daylight_min": 205,
-    "score": 69,
-    "band": "Good",
+    "low_ft": -0.092,
+    "low_time_local": "7:30 AM",
+    "window_local": "5:55 AM–9:05 AM",
+    "arrive_by_local": "6:30 AM",
+    "daylight_min": 147,
+    "score": 56,
+    "band": "Fair",
     "weekend_or_holiday": true
    }
   },
