@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-16",
+ "generated_on": "2026-08-17",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -39,18 +39,6 @@
    "score": 67,
    "band": "Good",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-08-16",
-   "weekday": "Sun",
-   "low_ft": -0.066,
-   "low_time_local": "9:29 AM",
-   "window_local": "8:00 AM–10:55 AM",
-   "arrive_by_local": "8:29 AM",
-   "daylight_min": 175,
-   "score": 60,
-   "band": "Good",
-   "weekend_or_holiday": true
   },
   {
    "date": "2026-08-27",
@@ -111,6 +99,18 @@
    "score": 54,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-09",
+   "weekday": "Wed",
+   "low_ft": -1.142,
+   "low_time_local": "5:52 AM",
+   "window_local": "3:50 AM–7:55 AM",
+   "arrive_by_local": "4:52 AM",
+   "daylight_min": 67,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 19,
-   "daylight_windows": 8,
-   "daylight_minus_tides": 7,
+   "lows_below_1ft": 17,
+   "daylight_windows": 7,
+   "daylight_minus_tides": 6,
    "best_window": {
     "date": "2026-08-29",
     "weekday": "Sat",
@@ -471,12 +471,12 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
-   "count": 5
+   "count": 4
   },
   {
    "commonName": "Chocolate Aeolid",

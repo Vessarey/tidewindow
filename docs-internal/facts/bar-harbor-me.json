@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-16",
+ "generated_on": "2026-08-17",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-16",
-   "weekday": "Sun",
-   "low_ft": -0.345,
-   "low_time_local": "8:02 AM",
-   "window_local": "6:45 AM–9:15 AM",
-   "arrive_by_local": "7:02 AM",
-   "daylight_min": 150,
-   "score": 62,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-09-11",
    "weekday": "Fri",
@@ -111,6 +99,18 @@
    "score": 53,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-26",
+   "weekday": "Sat",
+   "low_ft": 0.014,
+   "low_time_local": "5:13 PM",
+   "window_local": "4:00 PM–6:20 PM",
+   "arrive_by_local": "4:13 PM",
+   "daylight_min": 140,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,19 +121,19 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 16,
-   "daylight_windows": 10,
-   "daylight_minus_tides": 2,
+   "lows_below_1ft": 14,
+   "daylight_windows": 9,
+   "daylight_minus_tides": 1,
    "best_window": {
-    "date": "2026-08-16",
+    "date": "2026-08-30",
     "weekday": "Sun",
-    "low_ft": -0.345,
-    "low_time_local": "8:02 AM",
-    "window_local": "6:45 AM–9:15 AM",
-    "arrive_by_local": "7:02 AM",
-    "daylight_min": 150,
-    "score": 62,
-    "band": "Good",
+    "low_ft": -0.016,
+    "low_time_local": "6:42 AM",
+    "window_local": "5:35 AM–7:50 AM",
+    "arrive_by_local": "5:42 AM",
+    "daylight_min": 117,
+    "score": 50,
+    "band": "Fair",
     "weekend_or_holiday": true
    }
   },
@@ -456,7 +456,7 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 21
+   "count": 22
   },
   {
    "commonName": "Atlantic Dogwhelk",
@@ -464,14 +464,14 @@
    "count": 13
   },
   {
-   "commonName": "Atlantic Jackknife",
-   "scientificName": "Ensis leei",
-   "count": 8
-  },
-  {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
    "count": 7
+  },
+  {
+   "commonName": "Atlantic Jackknife",
+   "scientificName": "Ensis leei",
+   "count": 5
   },
   {
    "commonName": "Tortoiseshell Limpet",

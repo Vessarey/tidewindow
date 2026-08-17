@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-16",
+ "generated_on": "2026-08-17",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -420,26 +420,11 @@
   {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
-   "count": 14
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 10
+   "count": 13
   },
   {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
-   "count": 10
-  },
-  {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
-   "count": 10
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
    "count": 10
   },
   {
@@ -448,24 +433,39 @@
    "count": 9
   },
   {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 8
+  },
+  {
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
+   "count": 8
+  },
+  {
    "commonName": "Woody Chiton",
    "scientificName": "Mopalia lignosa",
    "count": 7
   },
   {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 7
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 6
   },
   {
-   "commonName": "Lined Chiton",
-   "scientificName": "Tonicella lineata",
-   "count": 5
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 6
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
    "count": 4
+  },
+  {
+   "commonName": "Lined Chiton",
+   "scientificName": "Tonicella lineata",
+   "count": 3
   }
  ]
 }

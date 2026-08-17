@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-16",
+ "generated_on": "2026-08-17",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -39,18 +39,6 @@
    "score": 53,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-08-16",
-   "weekday": "Sun",
-   "low_ft": 0.321,
-   "low_time_local": "9:08 AM",
-   "window_local": "7:55 AM–10:20 AM",
-   "arrive_by_local": "8:08 AM",
-   "daylight_min": 145,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": true
   },
   {
    "date": "2026-08-30",
@@ -111,6 +99,18 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-27",
+   "weekday": "Sun",
+   "low_ft": -0.151,
+   "low_time_local": "7:28 PM",
+   "window_local": "5:55 PM–9:05 PM",
+   "arrive_by_local": "6:28 PM",
+   "daylight_min": 70,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 18,
-   "daylight_windows": 8,
+   "lows_below_1ft": 16,
+   "daylight_windows": 7,
    "daylight_minus_tides": 5,
    "best_window": {
     "date": "2026-08-29",
@@ -466,7 +466,7 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 8
+   "count": 9
   },
   {
    "commonName": "Red Sponge Dorid",
