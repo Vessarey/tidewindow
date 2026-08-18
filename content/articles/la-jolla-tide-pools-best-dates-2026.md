@@ -1,17 +1,18 @@
 ---
 title: "La Jolla Tide Pools: The Best Dates of 2026, Ranked"
-description: "La Jolla's best 2026 tide pool dates from NOAA station 9410230 — early-morning July minus tides, big December afternoons, spot notes, and recent species logs."
+description: "La Jolla's best remaining 2026 tide pool dates from NOAA station 9410230 — the December afternoon minus-tide run, fall's pivot, spot notes, and species logs."
 date: "2026-07-03"
+updated: "2026-08-18"
 category: "station-guides"
 station: "la-jolla-ca"
 tags: ["la jolla", "tide pools", "minus tide", "san diego", "NOAA 9410230"]
 faq:
-  - q: "When is the best time to visit the La Jolla tide pools in 2026?"
-    a: "Two stretches: July 13–17, with early-morning minus tides down to −1.63 ft (4:12 AM on July 14), and December 22–25, with afternoon lows down to −1.878 ft (3:47 PM on December 24). December is more practical, with 16 daylight minus tides at NOAA station 9410230 versus 10 in July."
+  - q: "When is the best time to visit the La Jolla tide pools for the rest of 2026?"
+    a: "December 22–25, when afternoon minus tides bottom out at −1.878 ft (3:47 PM on December 24) at NOAA station 9410230. November 24–26 is a strong warm-up, with lows from −1.396 to −1.507 ft. December has 16 daylight minus tides, the most of any 2026 month at this station."
   - q: "What is the single best La Jolla tide pool date of 2026?"
-    a: "December 25, 2026. A −1.715 ft low at 4:33 PM with a 1:45–7:40 PM window scores 90/100, the only Exceptional rating in our July–December data for NOAA station 9410230. The deepest daylight low of 2026 is the day before: −1.878 ft at 3:47 PM on December 24."
-  - q: "Are there good tide pool days in La Jolla this summer?"
-    a: "July 2026 has 10 daylight minus tides at NOAA station 9410230, the best being −1.507 ft at 4:54 AM on Wednesday, July 15 (arrive by 3:54 AM). August drops to 2 daylight minus tides and September has none, so July is the summer month that counts."
+    a: "December 25, 2026. A −1.715 ft low at 4:33 PM with a 1:45–7:40 PM window scores 90/100, the only Exceptional rating in our rest-of-2026 data for NOAA station 9410230. The deepest daylight low of 2026 is the day before: −1.878 ft at 3:47 PM on December 24."
+  - q: "Are there good tide pool days in La Jolla this fall?"
+    a: "Not until late October. September has 29 lows below +1.0 ft at NOAA station 9410230 but zero daylight minus tides — every negative low that month lands in the dark. Daylight minus tides return in the afternoon starting October 25 (−0.366 ft at 3:27 PM), and November brings 12 of them."
   - q: "Can you collect shells or animals at the La Jolla tide pools?"
     a: "Not in the reserves. La Jolla Cove sits in Matlahuayl State Marine Reserve, and the Bird Rock/False Point shoreline is in the South La Jolla MPA, where CDFW regulations make it unlawful to injure, damage, take, or possess any living, geological, or cultural marine resource."
   - q: "Which La Jolla tide pool spot is easiest to reach?"
@@ -29,63 +30,63 @@ sources:
   - "https://www.inaturalist.org/"
 ---
 
-**La Jolla's best tide-pool dates of 2026 come in two runs: early-morning minus tides July 13–17 (deepest: −1.63 ft at 4:12 AM on July 14) and afternoon minus tides December 22–25, when the year's lowest daylight water, −1.878 ft, arrives at 3:47 PM on December 24. All heights and times here are computed from NOAA station 9410230, La Jolla (Scripps Pier). December is the better trip; nobody needs an alarm for a 3:47 PM low.**
+**La Jolla's best remaining tide-pool dates of 2026 all land after lunch: November 24–26 (afternoon lows to −1.507 ft) and the December 22–25 run, when the year's lowest daylight water, −1.878 ft, arrives at 3:47 PM on December 24. All heights and times here are computed from NOAA station 9410230, La Jolla (Scripps Pier). July's dawn minus tides are done for the year; from here the pools keep civilized hours — nobody needs an alarm for a 3:47 PM low.**
 
-## Which 2026 dates are worth planning around?
+## Which remaining 2026 dates are worth planning around?
 
-Rank the year's daylight lows by depth and the list splits into a July cluster you visit half-asleep and a November–December cluster you visit after lunch.
+Rank the rest of the year's daylight lows by depth and every one of the top eight is a November or December afternoon.
 
 | Date | Day | Low (ft MLLW) | Low time | Daylight in window | Score |
 |---|---|---|---|---|---|
 | Dec 24 | Thu | −1.878 | 3:47 PM | 233 min | 84 · Great |
 | Dec 23 | Wed | −1.803 | 3:02 PM | 278 min | 82 · Great |
 | Dec 25 | Fri | −1.715 | 4:33 PM | 184 min | 90 · Exceptional |
-| Jul 14 | Tue | −1.630 | 4:12 AM | 79 min | 65 · Good |
-| Jul 13 | Mon | −1.517 | 3:29 AM | 39 min | 56 · Fair |
-| Jul 15 | Wed | −1.507 | 4:54 AM | 113 min | 68 · Good |
 | Nov 25 | Wed | −1.507 | 3:55 PM | 213 min | 77 · Great |
 | Dec 22 | Tue | −1.485 | 2:17 PM | 317 min | 76 · Great |
+| Nov 26 | Thu | −1.400 | 4:46 PM | 163 min | 82 · Great |
+| Nov 24 | Tue | −1.396 | 3:06 PM | 254 min | 75 · Great |
+| Dec 26 | Sat | −1.346 | 5:18 PM | 130 min | 75 · Great |
 
-*Computed 2026-07-03 from NOAA station 9410230 predictions.*
+*Computed 2026-08-18 from NOAA station 9410230 predictions.*
 
-Two things stand out. First, the July dates are deep but dim. On July 13, only 39 minutes of the window fall in daylight, and even July 14's −1.63 ft low at 4:12 AM gets just 79 daylight minutes; you walk out under a headlamp and watch the reef appear as the sky does. Second, the December dates pair nearly identical depths with hours of light — December 22's window holds 317 daylight minutes, more than five hours. That is why December 25 carries the only Exceptional score in our July–December data, 90 of 100: a −1.715 ft low at 4:33 PM, a 1:45–7:40 PM window, and a holiday to spend it on. Our scorer weighs depth, daylight overlap, and weekends together, which is how the deepest day (December 24) ranks below the most usable one.
+The depths cluster tight while the light varies a lot — December 22's window holds 317 daylight minutes, more than five hours, while December 26's 5:18 PM low leaves 130. December 25 carries the only Exceptional score in our rest-of-2026 data, 90 of 100: a −1.715 ft low at 4:33 PM, a 1:45–7:40 PM window, and a holiday to spend it on. Our scorer weighs depth, daylight overlap, and weekends together, which is how the deepest day (December 24) ranks below the most usable one. November's trio deserves more attention than it gets: the Thanksgiving stretch of November 24–26 puts three sub-−1.39 ft afternoons in a row on the reef.
+
+For the record book: the July 13–17 dawn run went off as computed — deepest −1.63 ft at 4:12 AM on Tuesday, July 14 — and closed out La Jolla's 2026 headlamp season. Everything left this year happens in daylight you can see your feet in.
 
 The really deep water arrives after New Year's. January 21, 2027 brings a −1.894 ft low at 2:48 PM, the lowest daylight tide of the October-to-March king season; the [2026–2027 king tide calendar](/king-tides/2026-2027/) tracks that whole stretch.
 
-## How does the rest of summer look?
+## How does the rest of 2026 look?
 
-July 2026 is a legitimately good month at this station: 24 lows below +1.0 ft, 14 daylight windows, and 10 daylight minus tides. Then the floor drops.
+The short version: a quiet stretch, then a very good winter. What's left of August (from the 18th) holds 10 lows below +1.0 ft and converts none of them into daylight windows — the month is finished here.
 
 | Month (2026) | Lows below +1.0 ft | Daylight windows | Daylight minus tides | Best window |
 |---|---|---|---|---|
-| July | 24 | 14 | 10 | Jul 15 · −1.507 ft · 4:54 AM · 68 |
-| August | 23 | 7 | 2 | Aug 13 · −0.916 ft · 4:25 AM · 44 |
 | September | 29 | 11 | 0 | Sep 27 · +0.218 ft · 4:17 PM · 55 |
 | October | 34 | 14 | 6 | Oct 25 · −0.366 ft · 3:27 PM · 65 |
 | November | 29 | 17 | 12 | Nov 26 · −1.400 ft · 4:46 PM · 82 |
 | December | 25 | 20 | 16 | Dec 25 · −1.715 ft · 4:33 PM · 90 |
 
-*Computed 2026-07-03 from NOAA station 9410230 predictions.*
+*Computed 2026-08-18 from NOAA station 9410230 predictions.*
 
-August keeps 23 sub-+1.0-ft lows but converts only 2 into daylight minus tides. September has 29 lows under +1.0 ft and not a single daylight minus tide; every negative low that month lands in the dark. The pattern flips in October as the good lows migrate to afternoon, and by December there are 16 daylight minus tides in one month.
+September is the trap month: 29 lows under +1.0 ft and not a single daylight minus tide — every negative low lands in the dark. The pattern flips in October as the good lows migrate to afternoon, and by December there are 16 daylight minus tides in one month.
 
-For this week: Friday, July 3 offers a −0.224 ft low at 6:17 AM (score 63) and Saturday, July 4 a +0.061 ft low at 6:48 AM (58). Neither is dramatic, but the hours are civilized, and the July 3 low lands 32 minutes inside the morning golden-hour edge — the [golden hour tool](/tools/golden-hour/) computes that overlap for every window. The stronger play is the following week: arrive by 3:54 AM on Wednesday, July 15 for the month's best window, −1.507 ft at 4:54 AM. The [July calendar for this station](/beaches/ca/la-jolla-ca/2026-07/) lists all 14 windows.
+Near-term, temper expectations: nothing in the next 60 days scores above Fair. The best of it is the Saturday-to-Monday stretch of October 10–12, three afternoons hovering right at the zero line (deepest: −0.064 ft at 4:27 PM on Sunday, October 11, score 59), with Sunday, September 27's +0.218 ft at 4:17 PM the only comparable window before that — the [September calendar for this station](/beaches/ca/la-jolla-ca/2026-09/) lists all 11 of that month's windows, and the [golden hour tool](/tools/golden-hour/) computes light overlap for every window as the lows drift toward sunset. The first real minus tide back is −0.366 ft at 3:27 PM on Sunday, October 25 — the fall season opener.
 
 ## What are observers finding right now?
 
-Every one of the ten most-logged species within 5 km of the station over the past 60 days is a sea slug — 639 iNaturalist observations of nudibranchs and dorids, with nothing else cracking the top ten.
+Every one of the ten most-logged species within 5 km of the station over the past 60 days is a sea slug — 538 iNaturalist observations, with nothing else cracking the top ten. The lead has changed hands since early July, when Sorcerer's dorid topped the list: the summer's surge species is Hamann's aeolid, which now leads by a wide margin.
 
 | Species | Scientific name | Observations |
 |---|---|---|
-| Sorcerer's dorid | *Polycera atra* | 138 |
-| Opalescent nudibranch | *Hermissenda opalescens* | 119 |
-| Stearns' aeolid | *Austraeolis stearnsi* | 95 |
-| Cockscomb nudibranch | *Antiopella barbarensis* | 46 |
-| White-spotted sea goddess | *Doriopsilla albopunctata* | 46 |
+| Hamann's aeolid | *Cuthona hamanni* | 111 |
+| Opalescent nudibranch | *Hermissenda opalescens* | 74 |
+| Stearns' aeolid | *Austraeolis stearnsi* | 70 |
+| Sorcerer's dorid | *Polycera atra* | 63 |
+| Cockscomb nudibranch | *Antiopella barbarensis* | 52 |
 
-*Compiled 2026-07-03 from iNaturalist observations within 5 km of NOAA station 9410230, previous 60 days.*
+*Compiled 2026-08-18 from iNaturalist observations within 5 km of NOAA station 9410230, previous 60 days.*
 
-Further down the same list sit Hopkins' rose nudibranch (38 observations) and the salt-and-pepper doris (36). Sea slugs are among the animals visitors regularly report on the reef at Hospitals, along with anemones, crabs, limpets, and urchins. The practical translation of a list like this: walk slowly and give each pool a full minute before moving on.
+Further down the same list sit the salt-and-pepper doris (40 observations), Olive's aeolid (34), McDonald's dorid (33), and the California aglaja (30). Sea slugs are among the animals visitors regularly report on the reef at Hospitals, along with anemones, crabs, limpets, and urchins. The practical translation of a list like this: walk slowly and give each pool a full minute before moving on.
 
 ## Shell Beach, Hospitals Reef, or False Point?
 
