@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-17",
+ "generated_on": "2026-08-18",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 15,
+   "lows_below_1ft": 14,
    "daylight_windows": 6,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -454,11 +454,6 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Black Leather Chiton",
-   "scientificName": "Katharina tunicata",
-   "count": 2
-  },
-  {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
    "count": 2
@@ -471,6 +466,11 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
+   "count": 1
+  },
+  {
+   "commonName": "Black Leather Chiton",
+   "scientificName": "Katharina tunicata",
    "count": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-17",
+ "generated_on": "2026-08-18",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -445,47 +445,47 @@
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 112
+   "count": 111
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 83
+   "count": 74
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 75
+   "count": 70
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 68
+   "count": 63
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 58
+   "count": 52
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 41
+   "count": 40
   },
   {
    "commonName": "Olive's Aeolid",
    "scientificName": "Anteaeolidiella oliviae",
-   "count": 37
+   "count": 34
   },
   {
    "commonName": "McDonald's Dorid",
    "scientificName": "Limacia mcdonaldi",
-   "count": 37
+   "count": 33
   },
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 34
+   "count": 31
   },
   {
    "commonName": "California Aglaja",

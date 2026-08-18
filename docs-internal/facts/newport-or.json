@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-17",
+ "generated_on": "2026-08-18",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 15,
+   "lows_below_1ft": 14,
    "daylight_windows": 7,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -489,11 +489,6 @@
    "count": 4
   },
   {
-   "commonName": "Three-lined Aeolid",
-   "scientificName": "Orienthella trilineata",
-   "count": 4
-  },
-  {
    "commonName": "Rose-pink Cuthona",
    "scientificName": "Cuthona divae",
    "count": 3
@@ -501,6 +496,11 @@
   {
    "commonName": "Lined Chiton",
    "scientificName": "Tonicella lineata",
+   "count": 3
+  },
+  {
+   "commonName": "Nanaimo Dorid",
+   "scientificName": "Acanthodoris nanaimoensis",
    "count": 3
   }
  ]

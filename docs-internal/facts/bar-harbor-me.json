@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-17",
+ "generated_on": "2026-08-18",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 14,
-   "daylight_windows": 9,
+   "lows_below_1ft": 12,
+   "daylight_windows": 8,
    "daylight_minus_tides": 1,
    "best_window": {
     "date": "2026-08-30",
@@ -476,7 +476,7 @@
   {
    "commonName": "Tortoiseshell Limpet",
    "scientificName": "Testudinalia testudinalis",
-   "count": 4
+   "count": 3
   },
   {
    "commonName": "Eastern Oyster",

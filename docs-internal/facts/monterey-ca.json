@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-17",
+ "generated_on": "2026-08-18",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -456,17 +456,17 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 41
+   "count": 40
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 39
+   "count": 37
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 27
+   "count": 26
   },
   {
    "commonName": "Branched Dendronotid",
@@ -476,11 +476,6 @@
   {
    "commonName": null,
    "scientificName": "Doto urak",
-   "count": 15
-  },
-  {
-   "commonName": "White-speckled Dorid",
-   "scientificName": "Doriopsilla fulva",
    "count": 14
   },
   {
@@ -494,9 +489,14 @@
    "count": 13
   },
   {
+   "commonName": "White-speckled Dorid",
+   "scientificName": "Doriopsilla fulva",
+   "count": 13
+  },
+  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "Bodega Tellin",

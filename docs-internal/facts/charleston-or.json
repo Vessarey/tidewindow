@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-17",
+ "generated_on": "2026-08-18",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 16,
+   "lows_below_1ft": 15,
    "daylight_windows": 7,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -489,6 +489,11 @@
    "count": 3
   },
   {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 3
+  },
+  {
    "commonName": "Clown Dorid",
    "scientificName": "Triopha catalinae",
    "count": 2
@@ -496,11 +501,6 @@
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
-   "count": 2
-  },
-  {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
    "count": 2
   }
  ]
