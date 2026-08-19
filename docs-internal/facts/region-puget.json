@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-18",
+ "generated_on": "2026-08-19",
  "region": "Puget Sound / Salish Sea",
  "stations": [
   {
@@ -140,7 +140,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 11,
+     "lows_below_1ft": 10,
      "daylight_windows": 9,
      "daylight_minus_tides": 4,
      "best_window": {

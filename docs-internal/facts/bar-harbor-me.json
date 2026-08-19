@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-18",
+ "generated_on": "2026-08-19",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 12,
+   "lows_below_1ft": 10,
    "daylight_windows": 8,
    "daylight_minus_tides": 1,
    "best_window": {
