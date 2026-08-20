@@ -163,8 +163,15 @@ with the date; add discoveries at the appropriate tier.
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): next candidates are
-      the remaining two 07-03 CA guides — cabrillo, la-jolla — then
-      pacific-grove (07-05).
+      cabrillo (07-03), then pacific-grove (07-05).
+      Done 2026-08-18: la-jolla-tide-pools-best-dates-2026 (9d347c2) —
+      ranked table now the remaining Nov–Dec afternoon lows (July run
+      retired to record-book note), month table Sep–Dec + honest
+      partial-August line, Oct 10–12 zero-line stretch and Oct 25
+      opener as near-term guidance, species re-pulled (Hamann's Aeolid
+      new #1, 111 obs), FAQs rest-of-2026, July month links → Sep
+      calendar. Picked over cabrillo: it's the king-tides guide's
+      default gate station (top page, 54 pv/7d).
       Done 2026-08-11: fitzgerald-marine-reserve (0463709) — July table
       replaced by rest-of-2026 inside-posted-hours table (Aug 11-14 run
       vs the 8 AM gate; Oct 25 / Nov 24 / Dec 23 afternoon windows);

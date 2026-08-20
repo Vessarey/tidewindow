@@ -5,6 +5,66 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-18 — Refresh pass: la-jolla guide rolled to rest-of-2026
+
+**Health first:** refresh cron fired 10:48Z (green, 1m59s, ~31m drift),
+commit on main dated today. No open issues; gh CLI auth still good.
+Broadcast 1dfede99 (newsletter #5) shows status "sent" in Resend, no
+problems surfaced. No priority-b trigger: zero windows ≥80 in the next
+14 days at any station (checked data-json); the Sep 6–9 Great run
+enters the horizon ~08-24 as predicted on 08-14.
+
+**Primary action (priority e — refresh pass, commit 9d347c2):** rolled
+la-jolla-tide-pools-best-dates-2026 forward from its 07-03 vintage.
+Chosen over cabrillo (same vintage) because la-jolla is the default
+gate station on the king-tides guide — the top page at 54 pv/7d — so
+its staleness had the most exposure. Changes: ranked table is now the
+eight remaining Nov–Dec afternoon deep lows (July 13–17 dawn run
+retired to a record-book sentence); month table Sep–Dec with an honest
+partial-August line (from the 18th: 10 sub-+1.0 ft lows, 0 daylight
+windows); near-term guidance rewritten around the Oct 10–12 zero-line
+stretch (deepest −0.064 ft Sun Oct 11) and the Oct 25 season opener
+(−0.366 ft, 3:27 PM, first minus tide back); species re-pulled —
+Hamann's Aeolid is the new #1 at 111 obs (was Sorcerer's Dorid in
+July), top-ten total now 538, all still sea slugs; FAQs updated to
+rest-of-2026. Every number recompute-checked against
+docs-internal/facts/la-jolla-ca.json regenerated today. July month
+links swapped to the September calendar (October's page isn't
+published until the Sep 1 rollover). Build green, diff was the one
+article file only. Post-push, owner ran the site locally (serve out/):
+home + article + Sep month page all 200, all content checks pass,
+stale July-as-future copy gone.
+
+**Velocity:** 0 new articles (week 08-16–: 0/5), 0 stations. This is
+the week's first operator run (no runs 08-15–08-17).
+
+**Metrics (PostHog, 7d, host-filtered):** 174 pv / 152 uniques —
+down from 234 on 08-13, consistent with the neap lull (no deep
+windows anywhere this fortnight). King-tides guide still dominant at
+54 pv, then Oregon calendar 9, Fitzgerald 8, home 8, Acadia 7.
+Signups 3/7d → signups÷uniques ≈ 2.0%, first week above the 1.5%
+target. Notably the king-tides MultiStationGate produced its first
+full conversion chain: 1 calendar_gate_clicked, 1 ics_url_revealed,
+and 1 newsletter_signup all with source article_gate_multi (plus 2
+tool_gate signups). exit_intent_shown 8/7d, still accumulating toward
+the ~08-24 readout. Referrers: bing 45, direct 38, duckduckgo 34,
+google 30, yahoo 16, ecosia 2 — no AI referrers yet.
+
+**Notes for tomorrow (08-19, Wed):**
+- Finder-landing GSC re-check is due (~08-19 per the 08-05 extension):
+  `node scripts/gsc-query.mjs pages 28`, look at
+  /tools/tide-window-finder/ impressions/CTR vs the 67-impr baseline.
+- First f-pass of the week is due (two required by Sunday); Thursday
+  08-20 is newsletter #6 (standing ritual), so f-passes likely Wed +
+  Fri/Sat.
+- article_gate readout ~08-21: tally article_gate, article_gate_multi,
+  month_page separately — the multi gate already has a full chain.
+- Refresh queue next: cabrillo, then pacific-grove.
+- ~08-24: exit-intent readout AND the Sep 6–9 run enters the 14-day
+  horizon (priority-b roundup candidate).
+
+---
+
 ## 2026-08-14 — Month pages get plan-a-visit links + month_page signup (f-pass #2)
 
 **Health first:** refresh cron fired 11:10Z (green, 1m47s, ~53m drift —
