@@ -231,7 +231,11 @@ with the date; add discoveries at the appropriate tier.
       highs+lows table seekers / fully-anonymized queries), NOT title
       weakness → routed to the high/low-pairs item below; no re-retitle.
       Finder landing (07-22): 0/49 @ 41.5, still junk-dominated, <100
-      impr → tiny-n window extended to ~08-19.
+      impr → tiny-n window extended to ~08-19. UPDATE 2026-08-20:
+      re-check ran — /tools/tide-window-finder/ now returns zero rows
+      in GSC pages 28d (baseline was 67 impr @ ~52). No verdict at
+      n=0; no re-title. The ZIP→nearest-station lookup (P3) is the
+      more plausible lever for this surface.
 - [x] 2026-07-22: /tools/tide-window-finder/ landing copy DONE (commit
       386e4e6) — intent-bearing title/H1 ("Find the next low tide near
       you"), three sections below the tool linking depth explainers,

@@ -5,6 +5,73 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-20 — Newsletter #6 sent (quiet week; audience 6→8)
+
+**Health first:** refresh cron fired 10:49Z (green, 1m52s, ~32m drift),
+commit d685441 on main dated today. No open issues. Broadcast 1dfede99
+(newsletter #5) shows status "sent" in Resend; no bounce/complaint
+problems surfaced.
+
+**Primary action (Thursday ritual — newsletter #6):** sync-audience
+pulled 8 distinct signup emails from PostHog — 2 new since issue #5
+(an article_gate_multi signup 08-15 and a tool_gate signup 08-16), 6
+already present, 0 unsubscribed; **audience 6→8**. Dry-run rendered a
+genuinely quiet week: subject "Minus Tide Alert, Aug 20–Aug 26: a
+quiet week on the coast", 0 Good-or-better windows at any station —
+the template's built-in quiet-week rendering (honest "no station posts
+a Good-or-better daylight window" plus one computed least-bad option).
+Recompute-check against public/data-json/stations (d685441): all 65
+windows Aug 20–26 across 12 stations score <70 — 0 Good+ confirmed —
+and the least-bad line reproduces exactly (Seattle Wed Aug 26:
+lowHeight −0.348 → −0.35 ft at 10:33 AM, window 9:05 AM–12:05 PM,
+score 57, band Fair). Note: Port Townsend Sun Aug 23 ties at 57; the
+composer's pick is fine (Seattle's is the true minus tide, −0.35 vs
++0.17 ft). Template output only — windows + disclaimer + unsubscribe,
+no deviations — so within the 07-19 standing-approval scope; sent with
+--owner-reviewed: **Broadcast a9fd5234-26a4-4da6-8774-111b3a9c0675 to
+8 subscribers.** Watch bounce/complaint next run.
+
+**Side checks (no site changes):**
+- **Finder-landing GSC re-check (was due ~08-19):**
+  /tools/tide-window-finder/ returns ZERO rows in `gsc-query.mjs pages
+  28` — not even a 0-click row (0-click rows do appear, e.g. /about/),
+  vs the 67-impr / pos ~52 baseline of 07-19. The 07-22 landing copy
+  has not earned impressions; still below any judgeable sample. Don't
+  re-title on this; the ZIP→nearest-station lookup (P3) remains the
+  more plausible lever for that surface.
+- **Gate tallies since the 08-07 ship (readout due ~08-21):**
+  article_gate 1 click / 0 reveals / 0 signups; article_gate_multi
+  full chain 1/1/1; tool_gate 5/3/3; month_page 0 signups;
+  end_article 1 signup; exit_intent_shown 10 since 08-12. Tomorrow's
+  readout must first check station-guide uniques since 08-07 against
+  the ~100-unique tiny-n rule before judging article_gate.
+
+**Velocity:** 0 new articles (week 08-16–: 0/5), 0 stations. No
+f-pass yet this week — two are required by Sunday (Fri + Sat/Sun).
+
+**Metrics (PostHog, 7d, host-filtered):** 137 pv / 127 uniques — down
+from 174 on 08-18, the deep-neap floor (zero Good+ windows anywhere
+this week). King-tides guide 36 pv, Oregon calendar 19, Fitzgerald 8,
+home 7. Signups 2/7d → signups÷uniques ≈ 1.6%, second consecutive
+week above the 1.5% target. Referrers: direct 33, DuckDuckGo 30,
+Google 29, Bing 28, Yahoo 15, Ecosia 1 — still no AI referrers.
+GSC 28d: Fitzgerald 13 clicks @ pos 7.0, king-tides 10 @ 6.1 (CTR
+4.0%), seattle 2026-08 7 clicks / 931 impr, Puget Sound calendar 7 @
+6.8 (CTR 5.6%).
+
+**Notes for tomorrow (08-21, Fri):**
+- article_gate readout is due — run the tiny-n uniques check first;
+  tallies above. If judging, article_gate_multi is the only gate with
+  a full conversion chain so far.
+- f-pass #1 of the week (two required by Sunday). The readout, if it
+  leads to extending gateStations, can itself count as the f-pass.
+- ~08-24: exit-intent readout AND Sep 6–9 Great run enters the 14-day
+  horizon (priority-b roundup candidate; Seattle −1.02 ft Sep 8).
+- Refresh queue next: cabrillo, then pacific-grove.
+- Watch Broadcast a9fd5234 bounce/complaint in Resend.
+
+---
+
 ## 2026-08-18 — Refresh pass: la-jolla guide rolled to rest-of-2026
 
 **Health first:** refresh cron fired 10:48Z (green, 1m59s, ~31m drift),
