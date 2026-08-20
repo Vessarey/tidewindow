@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-19",
+ "generated_on": "2026-08-20",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -456,7 +456,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 39
+   "count": 38
   },
   {
    "commonName": "Spotted Dorid",
@@ -466,12 +466,17 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 25
+   "count": 24
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 19
+  },
+  {
+   "commonName": "Hammerhead Doto",
+   "scientificName": "Doto amyra",
+   "count": 15
   },
   {
    "commonName": "Stubby Dendronotid",
@@ -484,23 +489,18 @@
    "count": 15
   },
   {
-   "commonName": "Hammerhead Doto",
-   "scientificName": "Doto amyra",
-   "count": 14
-  },
-  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
    "count": 14
   },
   {
-   "commonName": "Heath's Dorid",
-   "scientificName": "Geitodoris heathi",
-   "count": 11
-  },
-  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
+   "count": 13
+  },
+  {
+   "commonName": "Heath's Dorid",
+   "scientificName": "Geitodoris heathi",
    "count": 11
   }
  ]

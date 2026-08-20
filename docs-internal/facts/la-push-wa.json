@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-19",
+ "generated_on": "2026-08-20",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 14,
+   "lows_below_1ft": 13,
    "daylight_windows": 7,
    "daylight_minus_tides": 6,
    "best_window": {
@@ -484,14 +484,14 @@
    "count": 4
   },
   {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
-   "count": 4
-  },
-  {
    "commonName": "Chocolate Aeolid",
    "scientificName": "Margina cocoachroma",
    "count": 4
+  },
+  {
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
+   "count": 3
   },
   {
    "commonName": "Branched Dendronotid",

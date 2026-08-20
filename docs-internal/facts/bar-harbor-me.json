@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-19",
+ "generated_on": "2026-08-20",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -471,7 +471,7 @@
   {
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
-   "count": 5
+   "count": 4
   },
   {
    "commonName": "Tortoiseshell Limpet",
