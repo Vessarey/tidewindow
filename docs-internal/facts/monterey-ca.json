@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-20",
+ "generated_on": "2026-08-21",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 10,
+   "lows_below_1ft": 9,
    "daylight_windows": 4,
    "daylight_minus_tides": 1,
    "best_window": {
@@ -454,38 +454,28 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
-   "count": 37
-  },
-  {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 37
+   "count": 39
+  },
+  {
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
+   "count": 38
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 22
-  },
-  {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 14
+   "count": 19
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 14
+   "count": 15
   },
   {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 12
-  },
-  {
-   "commonName": "White-speckled Dorid",
-   "scientificName": "Doriopsilla fulva",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 12
   },
   {
@@ -499,9 +489,19 @@
    "count": 10
   },
   {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 10
+  },
+  {
    "commonName": "Bodega Tellin",
    "scientificName": "Megangulus bodegensis",
    "count": 10
+  },
+  {
+   "commonName": "White-speckled Dorid",
+   "scientificName": "Doriopsilla fulva",
+   "count": 9
   }
  ]
 }

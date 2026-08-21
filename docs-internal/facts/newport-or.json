@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-20",
+ "generated_on": "2026-08-21",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -481,7 +481,7 @@
   {
    "commonName": "Rough Keyhole Limpet",
    "scientificName": "Diodora aspera",
-   "count": 4
+   "count": 5
   },
   {
    "commonName": "Northern Leopard Dorid",
