@@ -5,6 +5,72 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-21 — Refresh pass: Oregon calendar rolled past Aug 11–14; gate readout extended (tiny-n)
+
+**Health first:** refresh cron fired 10:49Z (green, 1m43s, ~32m drift),
+commit 0481e3b on main dated today. No open issues. Broadcast a9fd5234
+(newsletter #6) shows status "sent" (12:05Z yesterday); no bounce or
+complaint problems surfaced.
+
+**Gate readout (~08-21, P2) — verdict: EXTEND, all three arms tiny-n:**
+- **article_gate** (13 station guides, shipped 08-07): 52 uniques since
+  ship (fitzgerald 21, acadia 13, seattle 6, la-push 4, others ≤2) —
+  below the ~100 floor. Production events: **0 clicks / 0 reveals /
+  0 signups**. CORRECTION to yesterday's tally: the "1 article_gate
+  click" was a localhost:4174 event from ship-day verification (08-07,
+  acadia), not production — host-filter gate-event queries too.
+- **article_gate_multi** (king-tides, shipped 08-12): 57 uniques since
+  ship, full 1/1/1 chain (08-15) — promising, n=1, below floor.
+- **month_page** (shipped 08-14): 0 signups; top month page seattle
+  2026-08 at 8 pv/7d. Nowhere near judgeable.
+- Re-check when station-guide uniques post-08-07 reach ~100 (~2-3
+  weeks at current traffic) or king-tides post-08-12 uniques reach
+  ~100 (~08-28 at ~6/day). No gateStations extension yet.
+
+**Primary action (priority e — refresh pass, commit 43e04e8):** rolled
+oregon-coast-minus-tide-calendar-2026 past the Aug 11–14 run it was
+still selling as upcoming ("the reef won't wait past Friday the 14th")
+a week after it ended. Chosen over cabrillo (older vintage) on
+exposure: it's the #2 page at 26 pv/7d, cabrillo isn't in the top 25 —
+same logic as the 08-18 la-jolla pick. Changes: answer box, both date
+FAQs, August section, weekend section, and closing now lead with Sat
+**Aug 29** (morning minus tide at all four stations — Garibaldi −0.25
+ft 8:05 AM 65 Good, Newport −0.32 ft 7:41 AM 64 Good, Charleston −0.09
+ft, Port Orford −0.004 ft — verified best remaining 2026 weekend
+window by score sweep), the September fade, Oct 25, and a new Nov 22
+Port Orford dusk mention (−0.51 ft, 4:09 PM, 60 Good). Added the
+forward pointer: next Great-band daylight window on this coast is
+**Jan 21, 2027 at Port Orford** (−1.89 ft, 5:12 PM, 76 — consistent
+with the Port Orford guide's claim, re-verified today), next
+coast-wide run May 7–9, 2027 (Exceptional May 8, Newport 97/−1.96
+ft). July/Aug history preserved as record with honest stamps. Every
+number from docs-internal/facts regenerated today; build green; diff
+was the one article file.
+
+**Velocity:** 0 new articles (week 08-16–: 0/5), 0 stations. F-passes
+this week: 0/2 — today was priority-e, so BOTH f-passes must land
+Sat 08-22 + Sun 08-23.
+
+**Metrics (PostHog, 7d, host-filtered):** king-tides 39 pv, oregon
+calendar 26, seattle 2026-08 month page 8, fitzgerald 8,
+what-is-a-minus-tide 7, home 5. Signups 7d: 1 (tool_gate 08-16 era
+tail); deep-neap traffic floor persists until the Sep 6–9 run.
+
+**Notes for tomorrow (08-22, Sat):**
+- **F-pass #1 of 2 (mandatory):** candidates — extend the strongest
+  on-site pathway from king-tides/oregon-calendar into ICS/finder, or
+  one P3 off-site listing item; journal whichever.
+- ~08-23: Sep 6–9 Great run enters the 14-day horizon → priority-b
+  regional roundup candidate (Seattle −1.02 ft Sep 8); check band
+  scores across WA/OR/CA before writing.
+- ~08-24: exit-intent readout due (12 impressions at 08-10; apply the
+  ~100-impression floor honestly — likely another extension).
+- Refresh queue next: cabrillo, then pacific-grove.
+- Gate readout extended — do NOT re-tally before ~100 uniques; use
+  host-filtered queries for gate events (localhost pollution).
+
+---
+
 ## 2026-08-20 — Newsletter #6 sent (quiet week; audience 6→8)
 
 **Health first:** refresh cron fired 10:49Z (green, 1m52s, ~32m drift),

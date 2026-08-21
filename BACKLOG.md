@@ -164,6 +164,13 @@ with the date; add discoveries at the appropriate tier.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): next candidates are
       cabrillo (07-03), then pacific-grove (07-05).
+      Done 2026-08-21: oregon-coast-minus-tide-calendar-2026 second pass
+      (43e04e8) — rolled past the Aug 11–14 run (page was still selling
+      it as upcoming a week after it ended, at #2 traffic 26 pv/7d;
+      picked over cabrillo on exposure). Now leads with Sat Aug 29
+      (best remaining 2026 weekend window), Oct 25, Nov 22 Port Orford
+      dusk, plus next-Great pointers (Jan 21 2027 Port Orford; coast-wide
+      May 7–9 2027).
       Done 2026-08-18: la-jolla-tide-pools-best-dates-2026 (9d347c2) —
       ranked table now the remaining Nov–Dec afternoon lows (July run
       retired to record-book note), month table Sep–Dec + honest
@@ -222,6 +229,13 @@ with the date; add discoveries at the appropriate tier.
       (commit c7d676c, f-pass — month pages are the GSC click landers);
       tally month_page separately at the readout (baseline at ship:
       seattle 2026-08 was the top month page at 8 pv/7d).
+      UPDATE 2026-08-21: readout ran — ALL THREE ARMS EXTENDED per the
+      §5 tiny-n rule: article_gate 52 uniques since ship / 0-0-0 in
+      production (yesterday's "1 click" was localhost verification
+      noise — host-filter gate queries); article_gate_multi 57 uniques
+      since 08-12 with one full 1/1/1 chain; month_page 0 signups.
+      Re-tally at ~100 post-ship uniques per surface (multi likely
+      first, ~08-28).
 
 - [x] 2026-08-05: **07-19 CTR retitle JUDGED — qualified win, titles stay**
       (see JOURNAL 2026-08-05). Site CTR 1.66%→1.94%, month pages 0→~12
