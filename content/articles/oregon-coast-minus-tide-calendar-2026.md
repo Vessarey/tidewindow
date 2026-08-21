@@ -2,14 +2,14 @@
 title: "Oregon Coast Minus Tide Calendar 2026: Every Daylight Minus Tide, Month by Month"
 description: "Every daylight minus tide on the Oregon coast, July–December 2026, computed from NOAA predictions for Garibaldi, Newport, Charleston, and Port Orford."
 date: "2026-07-03"
-updated: "2026-08-04"
+updated: "2026-08-21"
 category: "regional-calendars"
 tags: ["minus tide", "Oregon coast", "tide calendar", "tidepooling", "2026"]
 faq:
   - q: "When is the best minus tide on the Oregon coast in the second half of 2026?"
-    a: "July 13–16, 2026 was the peak: all four Oregon NOAA stations scored 90/100 (Exceptional), and the single deepest daylight low was −2.52 ft at Newport (station 9435380) on July 15. The best remaining run is August 11–14, 2026 — all four stations bottom out Wednesday, August 12, led by Newport at −1.91 ft with a 6:46 AM low — and it is the coast's last Great-band daylight run of the year."
+    a: "July 13–16, 2026 was the peak: all four Oregon NOAA stations scored 90/100 (Exceptional), and the single deepest daylight low was −2.52 ft at Newport (station 9435380) on July 15. The last Great-band run followed on August 11–14, bottoming out Wednesday, August 12 at −1.91 ft at Newport. The best window still ahead is Saturday, August 29 — a morning minus tide at all four stations — and by score, Port Orford's 72 (Good) on December 23 is the strongest date left in 2026."
   - q: "Are there any weekend minus tides on the Oregon coast in late 2026?"
-    a: "Saturday, August 15, 2026 is the best weekend window left: a morning minus tide at all four stations, from −0.71 ft at Newport (8:43 AM low) to −0.37 ft at Port Orford (8:15 AM), all scoring Good. After that, Sunday, October 25 is best-of-month at all four stations at once, with evening lows from −0.51 ft (Port Orford, 6:11 PM) to −0.79 ft (Newport, 6:37 PM). Port Orford also gets a Sunday-evening window on September 27, but at +0.02 ft it is not technically a minus tide."
+    a: "Saturday, August 29, 2026 is the best weekend window left: a morning minus tide at Garibaldi (−0.25 ft, 8:05 AM low) and Newport (−0.32 ft, 7:41 AM), with Charleston at −0.09 ft and Port Orford grazing the line at −0.004 ft — the two northern stations score Good. After that, Sunday, October 25 is best-of-month at all four stations at once, with evening lows from −0.51 ft (Port Orford, 6:11 PM) to −0.79 ft (Newport, 6:37 PM), and Sunday, November 22 gives Port Orford a Good-band dusk window (−0.51 ft, 4:09 PM low)."
   - q: "How many daylight minus tides does the Oregon coast get from July through December 2026?"
     a: "Summed across the four NOAA stations, 198: 66 in July, 51 in August, 18 in September, 17 in October, 22 in November, and 24 in December. Per station, Port Orford leads with 54, then Charleston with 52, Newport with 50, and Garibaldi with 42."
   - q: "Do Oregon minus tides happen in daylight during winter?"
@@ -22,7 +22,9 @@ sources:
   - "https://stateparks.oregon.gov/index.cfm?do=v.page&id=96"
 ---
 
-**The Oregon coast's last big daylight minus-tide run of 2026 is August 11–14: all four NOAA stations bottom out Wednesday, August 12, led by −1.91 ft at Newport (station 9435380) at a 6:46 AM low — arrive by 5:46 AM. After that the calendar fades fast (September's best is −0.57 ft) until deep lows return at dusk in late November and December. Across the half-year the coast gets 198 daylight minus tides; 117 landed in July and August.**
+**The Oregon coast's dawn runs are done for 2026 — August 11–14 was the year's last Great-band daylight run. Still ahead: a Saturday-morning minus tide at all four stations on August 29, led by Newport (station 9435380) at −0.32 ft, 7:41 AM low, arrive by 6:41 AM; a September fade to −0.57 ft at best; one coast-wide Sunday evening on October 25; then deep dusk lows from late November.**
+
+Across the half-year the coast gets 198 daylight minus tides; 117 landed in July and August.
 
 ## How were these numbers computed?
 
@@ -57,7 +59,7 @@ Each table shows the month's highest-scoring daylight window per station; day-by
 
 All four were Exceptional, and July 13 was only the front edge; the deepest water came on the 14th and 15th (the ten deepest windows of the half-year, preserved below, all fell in this run). Day grids: [Garibaldi](/beaches/or/garibaldi-or/2026-07/), [Newport](/beaches/or/newport-or/2026-07/), [Charleston](/beaches/or/charleston-or/2026-07/), [Port Orford](/beaches/or/port-orford-or/2026-07/).
 
-### August 2026: the last dawn run — August 11–14
+### August 2026: the last dawn run, August 11–14 — and one Saturday encore
 
 | Station | Best day | Low (ft MLLW) | Low time | Score |
 |---|---|---|---|---|
@@ -68,7 +70,7 @@ All four were Exceptional, and July 13 was only the front edge; the deepest wate
 
 *Computed 2026-07-03, re-verified 2026-08-04, from NOAA stations 9437540, 9435380, 9432780, 9431647.*
 
-All four sit in the Great band, and this is it for the year: after August 14, no Oregon station posts another Great-band daylight window in 2026 — the deep dusk lows of late November and December bring the depth back but top out at 72 (Good). The run's shape, day by day at Newport, the depth leader:
+All four landed in the Great band, and that was it for the year: after August 14, no Oregon station posts another Great-band daylight window in 2026 — the deep dusk lows of late November and December bring the depth back but top out at 72 (Good). The next Great-band daylight window anywhere on this coast is January 21, 2027 at Port Orford (−1.89 ft at a 5:12 PM low), and the next coast-wide run waits for May 7–9, 2027. The run's shape, day by day at Newport, the depth leader, preserved for the record:
 
 | Date (2026) | Low (ft MLLW) | Low time | Arrive by | Daylight in window | Score |
 |---|---|---|---|---|---|
@@ -81,7 +83,9 @@ All four sit in the Great band, and this is it for the year: after August 14, no
 
 *Computed 2026-08-04 from NOAA station 9435380 predictions.*
 
-Read the two curves crossing: depth peaks Wednesday, daylight peaks Friday — each low arrives 37 to 50 minutes later than the day before (the lunar day's lag), walking the window out of the pre-dawn dark and into full morning light. Monday the 10th is deep but mostly dark; Friday the 14th is shallower but the most comfortable morning of the run. The same shape repeats at all four stations, with the low sweeping south to north — on the 12th it hits Port Orford at 6:19 AM, Charleston at 6:35, Newport at 6:46, and Garibaldi at 7:04, a 45-minute lag end to end.
+Read the two curves crossing: depth peaked Wednesday, daylight peaked Friday — each low arrived 37 to 50 minutes later than the day before (the lunar day's lag), walking the window out of the pre-dawn dark and into full morning light. The same shape repeated at all four stations, with the low sweeping south to north — on the 12th it hit Port Orford at 6:19 AM, Charleston at 6:35, Newport at 6:46, and Garibaldi at 7:04, a 45-minute lag end to end.
+
+What's left of August is one date: **Saturday the 29th**, a morning minus tide at all four stations — −0.25 ft at Garibaldi (8:05 AM low), −0.32 ft at Newport (7:41 AM), −0.09 ft at Charleston (7:30 AM), and Port Orford grazing the line at −0.004 ft (7:13 AM). The two northern stations score Good, and it is the best weekend window remaining in 2026 (computed 2026-08-21 from the same four stations).
 
 August has *more* lows under +1.0 ft than July at every station (30 to 33, versus 24 apiece, computed 2026-07-03), yet fewer daylight minus tides: 51 against July's 66. The lows aren't going away; they're sliding out of daylight. August grids: [Garibaldi](/beaches/or/garibaldi-or/2026-08/), [Newport](/beaches/or/newport-or/2026-08/), [Charleston](/beaches/or/charleston-or/2026-08/), [Port Orford](/beaches/or/port-orford-or/2026-08/).
 
@@ -160,9 +164,9 @@ First and second place are the same beach two mornings apart, separated by five 
 
 ## Which windows fall on a weekend?
 
-Not the big ones: July 13–16 ran Monday through Thursday, and August 11–14 runs Tuesday through Friday. Midweek is where the depth lives on this coast.
+Not the big ones: July 13–16 ran Monday through Thursday, and August 11–14 ran Tuesday through Friday. Midweek is where the depth lives on this coast.
 
-But the August run does spill into a usable Saturday. **August 15** is a morning minus tide at all four stations — −0.71 ft at Newport (8:43 AM low), −0.67 ft at Garibaldi (9:05 AM), −0.46 ft at Charleston (8:32 AM), −0.37 ft at Port Orford (8:15 AM) — every one scoring Good, in full daylight, at civilized hours. It is the best weekend window left in 2026. After that, circle **Sunday, October 25**: best-of-month at all four stations at once, with evening lows from −0.51 ft (Port Orford, 6:11 PM) to −0.79 ft (Newport, 6:37 PM). Port Orford adds Sunday, September 27, which misses minus-tide status by a fraction at +0.02 ft. The [Trip Picker](/tools/trip-picker/) does this juggling when your dates are fixed.
+But the calendar still owes 2026 a few weekends. **Saturday, August 29** is the best one left: a morning minus tide at all four stations — −0.25 ft at Garibaldi (8:05 AM low), −0.32 ft at Newport (7:41 AM), −0.09 ft at Charleston (7:30 AM), −0.004 ft at Port Orford (7:13 AM) — with the two northern stations scoring Good. After that, circle **Sunday, October 25**: best-of-month at all four stations at once, with evening lows from −0.51 ft (Port Orford, 6:11 PM) to −0.79 ft (Newport, 6:37 PM). Port Orford adds a Good-band dusk window on **Sunday, November 22** (−0.51 ft, 4:09 PM low, arrive by 3:09 PM), while its Sunday-evening window on September 27 misses minus-tide status by a fraction at +0.02 ft. The [Trip Picker](/tools/trip-picker/) does this juggling when your dates are fixed.
 
 ## Which station should you watch?
 
@@ -177,4 +181,4 @@ December's counts step south like odd numbers: Garibaldi 3, Newport 5, Charlesto
 
 This guidance is Oregon State Parks', not ours: "Always keep one eye on the ocean so you won't be caught off guard if a bigger wave surges up the beach." Sneaker waves are unpredictable, powerful, and can knock adults off their feet. Know when the tide is coming in, especially when exploring tidepools or secluded beaches, since an incoming tide can quickly leave you stranded away from shore. Every window above lists an arrive-by time an hour before the low, so you work a falling tide.
 
-The [Tide Window Finder](/tools/tide-window-finder/) turns any date here into an arrive-by plan, and the [Year Heatmap](/tools/year-heatmap/) shows all of 2026 at a glance. Each station page above also offers a 12-month calendar feed, so the August 11–14 run — and everything after it — can land in your calendar app instead of on a sticky note. One dawn run left; the reef won't wait past Friday the 14th.
+The [Tide Window Finder](/tools/tide-window-finder/) turns any date here into an arrive-by plan, and the [Year Heatmap](/tools/year-heatmap/) shows all of 2026 at a glance. Each station page above also offers a 12-month calendar feed, so August 29, October 25, and the dusk lows beyond can land in your calendar app instead of on a sticky note. The dawn runs are done for the year; what's left arrives one day at a time.
