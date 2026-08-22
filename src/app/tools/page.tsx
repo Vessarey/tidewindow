@@ -30,6 +30,11 @@ const tools = [
     desc: "For photographers: the rare windows when a real low tide overlaps golden light, with sun direction.",
   },
   {
+    href: "/calendars/",
+    name: "Calendar feeds",
+    desc: "Every Good-or-better window at your beach, delivered to your calendar app — auto-updating, 12 months ahead.",
+  },
+  {
     href: "/embed/",
     name: "Embeddable badge",
     desc: "Put “next great low tide” on your own site — auto-updating, free, one copy-paste.",

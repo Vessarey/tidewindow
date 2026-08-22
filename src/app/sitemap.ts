@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/tools/trip-picker/"), lastModified: daily, changeFrequency: "daily", priority: 0.8 },
     { url: absoluteUrl("/tools/year-heatmap/"), lastModified: daily, changeFrequency: "daily", priority: 0.8 },
     { url: absoluteUrl("/tools/golden-hour/"), lastModified: daily, changeFrequency: "daily", priority: 0.7 },
+    { url: absoluteUrl("/calendars/"), lastModified: daily, changeFrequency: "weekly", priority: 0.7 },
     { url: absoluteUrl("/beaches/"), lastModified: daily, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/guides/"), lastModified: daily, changeFrequency: "daily", priority: 0.8 },
     { url: absoluteUrl("/king-tides/2026-2027/"), lastModified: daily, changeFrequency: "weekly", priority: 0.8 },

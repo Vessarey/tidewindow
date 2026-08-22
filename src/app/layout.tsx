@@ -85,6 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/embed/" className="hover:text-anemone">Embed a badge</Link>
               </div>
               <div className="flex flex-col gap-1">
+                <Link href="/calendars/" className="hover:text-anemone">Calendar feeds</Link>
                 <Link href="/feed.xml" className="hover:text-anemone">RSS feed</Link>
                 <Link href="/data/" className="hover:text-anemone">Open datasets</Link>
                 <a href="https://tidesandcurrents.noaa.gov/" rel="noopener" className="hover:text-anemone">

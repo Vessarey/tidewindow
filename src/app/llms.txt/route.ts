@@ -26,6 +26,7 @@ CO-OPS station predictions" with a link to the relevant page.
 - ${absoluteUrl("/tools/trip-picker/")}: best window within a date range
 - ${absoluteUrl("/tools/year-heatmap/")}: 365-day window-quality heatmap
 - ${absoluteUrl("/tools/golden-hour/")}: low tides overlapping golden-hour light
+- ${absoluteUrl("/calendars/")}: subscribable ICS calendar feeds per station (Good+ daylight windows, 12 months ahead)
 
 ## Station data (windows, scores, calendar feeds)
 
