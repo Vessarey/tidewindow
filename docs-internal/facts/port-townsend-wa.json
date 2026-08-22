@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-21",
+ "generated_on": "2026-08-22",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 9,
-   "daylight_windows": 9,
+   "lows_below_1ft": 8,
+   "daylight_windows": 8,
    "daylight_minus_tides": 4,
    "best_window": {
     "date": "2026-08-23",
@@ -346,20 +346,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-21",
-   "weekday": "Fri",
-   "low_ft": 0.441,
-   "low_time_local": "5:37 AM",
-   "window_local": "4:15 AM–7:10 AM",
-   "arrive_by_local": "4:37 AM",
-   "daylight_min": 56,
-   "score": 26,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 64,
-   "min_to_sun_edge": -37
-  },
-  {
    "date": "2026-08-22",
    "weekday": "Sat",
    "low_ft": 0.327,
@@ -428,6 +414,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 88,
    "min_to_sun_edge": 43
+  },
+  {
+   "date": "2026-09-22",
+   "weekday": "Tue",
+   "low_ft": 0.896,
+   "low_time_local": "7:43 AM",
+   "window_local": "7:20 AM–8:10 AM",
+   "arrive_by_local": "6:43 AM",
+   "daylight_min": 50,
+   "score": 16,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 97,
+   "min_to_sun_edge": 45
   }
  ],
  "species_last60d_5km": [

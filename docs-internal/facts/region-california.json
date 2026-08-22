@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-21",
+ "generated_on": "2026-08-22",
  "region": "California",
  "stations": [
   {
@@ -14,7 +14,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 10,
+     "lows_below_1ft": 9,
      "daylight_windows": 4,
      "daylight_minus_tides": 0,
      "best_window": {
@@ -162,7 +162,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 9,
+     "lows_below_1ft": 8,
      "daylight_windows": 4,
      "daylight_minus_tides": 1,
      "best_window": {
@@ -310,7 +310,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 10,
+     "lows_below_1ft": 9,
      "daylight_windows": 0,
      "daylight_minus_tides": 0,
      "best_window": null
@@ -447,7 +447,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 10,
+     "lows_below_1ft": 9,
      "daylight_windows": 0,
      "daylight_minus_tides": 0,
      "best_window": null

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-21",
+ "generated_on": "2026-08-22",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 10,
+   "lows_below_1ft": 9,
    "daylight_windows": 0,
    "daylight_minus_tides": 0,
    "best_window": null
@@ -455,22 +455,22 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 65
+   "count": 63
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 57
+   "count": 56
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 49
+   "count": 48
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 39
+   "count": 37
   },
   {
    "commonName": "Olive's Aeolid",
@@ -478,14 +478,14 @@
    "count": 33
   },
   {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 28
-  },
-  {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
    "count": 28
+  },
+  {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 27
   },
   {
    "commonName": "Colorful Dirona",

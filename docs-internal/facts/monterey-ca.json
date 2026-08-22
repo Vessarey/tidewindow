@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-21",
+ "generated_on": "2026-08-22",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 9,
+   "lows_below_1ft": 8,
    "daylight_windows": 4,
    "daylight_minus_tides": 1,
    "best_window": {
@@ -461,7 +461,7 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 38
+   "count": 37
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -472,6 +472,11 @@
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
    "count": 15
+  },
+  {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 12
   },
   {
    "commonName": "Mossy Chiton",
@@ -486,11 +491,6 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 10
-  },
-  {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
    "count": 10
   },
   {

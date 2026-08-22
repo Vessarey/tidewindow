@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-21",
+ "generated_on": "2026-08-22",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 12,
+   "lows_below_1ft": 11,
    "daylight_windows": 7,
    "daylight_minus_tides": 5,
    "best_window": {
@@ -456,22 +456,22 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 26
+   "count": 28
   },
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 16
+   "count": 17
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 9
+   "count": 10
   },
   {
    "commonName": "Red Sponge Dorid",
    "scientificName": "Rostanga pulchra",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": "San Diego Dorid",
