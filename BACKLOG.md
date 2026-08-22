@@ -163,7 +163,11 @@ with the date; add discoveries at the appropriate tier.
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): next candidates are
-      cabrillo (07-03), then pacific-grove (07-05).
+      puget-sound-low-tide-calendar-2026 (FIRST — top-CTR GSC lander at
+      7.7%/pos 6.6 but still selling the passed Aug 8–13 run as current;
+      two worst sentences side-fixed 2026-08-22 in 634f5b6, answer box /
+      description / tables / FAQs still need the full roll-forward),
+      then cabrillo (07-03), then pacific-grove (07-05).
       Done 2026-08-21: oregon-coast-minus-tide-calendar-2026 second pass
       (43e04e8) — rolled past the Aug 11–14 run (page was still selling
       it as upcoming a week after it ended, at #2 traffic 26 pv/7d;
@@ -235,7 +239,10 @@ with the date; add discoveries at the appropriate tier.
       noise — host-filter gate queries); article_gate_multi 57 uniques
       since 08-12 with one full 1/1/1 chain; month_page 0 signups.
       Re-tally at ~100 post-ship uniques per surface (multi likely
-      first, ~08-28).
+      first, ~08-28). UPDATE 2026-08-22: a fifth arm exists — the new
+      /calendars/ hub (commit 634f5b6) runs CalendarGate with source
+      **calendars_page** (baseline at ship: 0 events, page brand-new);
+      tally it separately alongside the others.
 
 - [x] 2026-08-05: **07-19 CTR retitle JUDGED — qualified win, titles stay**
       (see JOURNAL 2026-08-05). Site CTR 1.66%→1.94%, month pages 0→~12

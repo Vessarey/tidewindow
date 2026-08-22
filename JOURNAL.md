@@ -5,6 +5,89 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-22 — F-pass: /calendars/ hub ships — one page for all 12 ICS feeds
+
+**Health first:** refresh cron fired 10:42Z (green, 1m55s, ~25m drift),
+commit 99520ad on main dated today. IndexNow in the cron log: 108 URLs,
+HTTP 200. No open issues. Broadcast a9fd5234 (newsletter #6) status
+"sent" (12:05Z 08-20); no bounce/complaint problems surfaced.
+
+**Primary action (priority f — conversion pass #1, commit 634f5b6):**
+the subscribable ICS feeds had no single home — a reader had to land on
+an individual station page (or a tool result) to find a CalendarGate,
+and the calendar-intent articles referenced the feeds only abstractly
+("each station page above also offers a 12-month calendar feed", no
+link). Shipped **/calendars/**: all 12 stations grouped by state, each
+with spots, a live "N windows in the feed right now" count, and the
+existing CalendarGate under a NEW source **calendars_page** so the
+article_gate / article_gate_multi / month_page / tool_gate tallies stay
+clean (tally calendars_page separately at future readouts). Honest
+copy: email step disclosed up front, "on-screen tables are never
+gated", subscribe-vs-download explained, prediction disclaimer +
+methodology link. Wired in from the site footer ("Calendar feeds"),
+/tools/ index card, llms.txt tools list, sitemap, and direct links from
+the two calendar-intent articles (oregon-coast closing now links
+/calendars/ instead of the abstract sentence; puget-sound closing adds
+it). Chosen over the P3 off-site directory item: on-site was yesterday's
+named candidate, and every listed surface funnels a page whose whole
+offer converts (tool_gate is the best-converting source to date).
+
+**Recompute-check:** all 12 rendered feed counts verified equal to
+`grep -c BEGIN:VEVENT` of the corresponding public/ics file (seattle 74,
+port-townsend 80, la-push 75, garibaldi 53, newport 64, charleston 60,
+port-orford 69, monterey 71, pillar-point 73, la-jolla 78, san-diego 70,
+bar-harbor 32); the count predicate mirrors buildIcs exactly (score
+>= 60, windowStart within 365d of generatedAt). Plain `npm run build`
+green (code touched is app pages only, not pipeline; PIPELINE_REFRESH
+deliberately not run so the cron's data snapshot stays untouched —
+consistent with 08-18/08-21 practice). All new internal links verified
+present in built output; no external links added. Diff: 7 files, all
+intended.
+
+**Side-fix (same commit):** the puget-sound calendar article was
+selling the passed Aug 8–13 run in present tense — "this week's run"
+and "the trip picker will point you at August 8–13" (false since the
+13th; the picker only surfaces future dates). Fixed those two
+sentences minimally; the article's answer box, tables, and FAQs still
+need a full roll-forward → added to the refresh queue AHEAD of cabrillo
+on exposure (it's a top GSC lander: 6 clicks / 78 impr / 7.7% CTR /
+pos 6.6 in the last 14d).
+
+**Velocity:** 0 new articles (week 08-16–08-22 closes at 0/5), 0
+stations. F-passes this week: 1/2 — the 08-21 plan to land both on
+Sat+Sun miscounted the week boundary (Sun 08-23 starts a new week), so
+the 08-16 week closes at 1 of 2. Journaled as a miss, not normalized;
+the fix is not to bunch f-passes at week's end.
+
+**Metrics (PostHog, 7d, host-filtered):** 170 pv / 147 uniques (deep-
+neap floor continues). Top paths: king-tides 34, oregon calendar 26,
+home 13, seattle 2026-08 month page 10, fitzgerald 9, finder 6.
+Signups 2/7d (home 1, tool_gate 1) → signups÷uniques ≈ 1.4%, a hair
+under target after two weeks above. GSC 14d: month pages are the
+impression engine (seattle-08 746 impr, la-jolla-08 461, la-push-08
+326, san-diego-08 246) — the /calendars/ offer sits one click from all
+of them via the station-page gates and month-page "plan a visit" block.
+
+**Notes for tomorrow (08-23, Sun):**
+- **Priority b likely triggers:** the Sep 6–9 Great run enters the
+  14-day horizon (Seattle −1.02 ft Sep 8 per the 08-14 sweep) — check
+  band scores across WA/OR/CA in data-json first; if a 90+ or king
+  event is inside 14d, the regional roundup outranks everything else
+  queued. It would double as newsletter #7 body on Thu 08-27.
+- New week's f-passes (2 required): candidates — P3 off-site directory
+  item (untouched), or watch calendars_page gate events and iterate.
+- ~08-24: exit-intent readout due (12 impressions at 08-10; apply the
+  ~100-impression floor honestly — likely another extension).
+- Verify /calendars/ deployed and live on Vercel (this session ended
+  before the deploy finished); spot-check the footer link.
+- Refresh queue order is now: puget-sound (top-CTR lander, stale run),
+  cabrillo, pacific-grove.
+- Gate readouts: no re-tally before ~100 post-ship uniques per surface
+  (multi likely first, ~08-28); calendars_page is a new arm — record
+  its baseline as 0 events at ship (2026-08-22).
+
+---
+
 ## 2026-08-21 — Refresh pass: Oregon calendar rolled past Aug 11–14; gate readout extended (tiny-n)
 
 **Health first:** refresh cron fired 10:49Z (green, 1m43s, ~32m drift),
