@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-22",
+ "generated_on": "2026-08-23",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 9,
+   "lows_below_1ft": 8,
    "daylight_windows": 0,
    "daylight_minus_tides": 0,
    "best_window": null
@@ -460,12 +460,12 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 56
+   "count": 54
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 48
+   "count": 47
   },
   {
    "commonName": "Salt-and-pepper Doris",
@@ -483,13 +483,13 @@
    "count": 28
   },
   {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 27
-  },
-  {
    "commonName": "Colorful Dirona",
    "scientificName": "Dirona picta",
+   "count": 26
+  },
+  {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
    "count": 26
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-22",
+ "generated_on": "2026-08-23",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -471,7 +471,7 @@
   {
    "commonName": "Red Sponge Dorid",
    "scientificName": "Rostanga pulchra",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "San Diego Dorid",

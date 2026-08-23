@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-22",
+ "generated_on": "2026-08-23",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 8,
+   "lows_below_1ft": 7,
    "daylight_windows": 4,
    "daylight_minus_tides": 1,
    "best_window": {
@@ -454,13 +454,13 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 39
-  },
-  {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
+   "count": 38
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
    "count": 37
   },
   {
@@ -471,7 +471,12 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 15
+   "count": 17
+  },
+  {
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 13
   },
   {
    "commonName": "California Seahare",
@@ -481,11 +486,6 @@
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 12
-  },
-  {
-   "commonName": null,
-   "scientificName": "Doto urak",
    "count": 12
   },
   {
@@ -499,9 +499,9 @@
    "count": 10
   },
   {
-   "commonName": "White-speckled Dorid",
-   "scientificName": "Doriopsilla fulva",
-   "count": 9
+   "commonName": "Fisher's Aeolid",
+   "scientificName": "Orienthella piunca",
+   "count": 10
   }
  ]
 }

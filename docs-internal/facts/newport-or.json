@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-22",
+ "generated_on": "2026-08-23",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -456,7 +456,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 62
+   "count": 61
   },
   {
    "commonName": "Monterey Dorid",
