@@ -163,11 +163,15 @@ with the date; add discoveries at the appropriate tier.
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): next candidates are
-      puget-sound-low-tide-calendar-2026 (FIRST — top-CTR GSC lander at
-      7.7%/pos 6.6 but still selling the passed Aug 8–13 run as current;
-      two worst sentences side-fixed 2026-08-22 in 634f5b6, answer box /
-      description / tables / FAQs still need the full roll-forward),
-      then cabrillo (07-03), then pacific-grove (07-05).
+      cabrillo (07-03 vintage), then pacific-grove (07-05).
+      Done 2026-08-23: puget-sound-low-tide-calendar-2026 FULL
+      roll-forward (64160c4) — answer box, description, first table,
+      FAQs, weekend section, station comparison, and closing now lead
+      with the Sep 5–10 Labor Day run (PT −1.11 ft Labor Day, Great 80;
+      Seattle −1.02 ft Sep 8; the year's last run, a Puget-Sound-only
+      event — outer-coast lows land pre-dawn). July/Aug preserved as
+      record with honest stamps; run-link now targets the 2026-09
+      month page.
       Done 2026-08-21: oregon-coast-minus-tide-calendar-2026 second pass
       (43e04e8) — rolled past the Aug 11–14 run (page was still selling
       it as upcoming a week after it ended, at #2 traffic 26 pv/7d;

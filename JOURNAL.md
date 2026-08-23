@@ -5,7 +5,74 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-08-22 — F-pass: /calendars/ hub ships — one page for all 12 ICS feeds
+## 2026-08-23 — Refresh pass: puget-sound calendar rolled to the Sep 5–10 Labor Day run
+
+**Health first:** refresh cron fired 10:43Z (green, 2m3s, ~26m drift),
+commit 90c6747 on main dated today. No open issues. /calendars/ verified
+deployed and live (HTTP 200, footer "Calendar feeds" link present) —
+closes yesterday's deploy-verification note.
+
+**Priority-b check (yesterday's flag):** the Sep 6–9 run entered the
+14-day horizon, but it does NOT trigger priority b — no 90+ window and
+no king event. Current data says it's a **Puget-Sound-only** event:
+Port Townsend peaks Mon Sep 7 (Labor Day) at 80 Great (−1.11 ft,
+7:20 AM), Seattle at 77 Great same day (−0.93 ft, 8:12 AM; deepest
+−1.02 ft Tue Sep 8). Outer-coast WA/OR/CA lows all land pre-dawn
+(score 0 Skip); OR gets only Fair Sep 9–10. The 08-14 sweep's
+"Seattle −1.02 ft Sep 8" was right but it's a Good 68, not a Great
+peak — the Great band is Labor Day itself.
+
+**Primary action (priority e — refresh pass, commit 64160c4):** rolled
+puget-sound-low-tide-calendar-2026 (FIRST in the refresh queue; top-CTR
+GSC lander at 7.7%/pos 6.6) fully forward — it was still selling the
+passed Aug 8–13 run in its answer box, description, first table, and
+FAQs (only two sentences were side-fixed 08-22). New spine: the Sep
+5–10 run as the year's last, with the Labor Day three-day-weekend angle
+(Sat/Sun/Mon chances, holiday Monday the weekend peak, Tue Sep 8 the
+deepest Seattle water left). July/Aug tables preserved as record with
+their honest 2026-07-03/08-08 stamps. Also refreshed: PT-vs-Seattle
+examples to Sep (52-min offset, 251-vs-220-min windows), species line
+re-pulled (white-lined dirona 10 now #1), month-table verified still
+matching current facts (unchanged), run-link now points at
+/beaches/wa/seattle-wa/2026-09/. Caught + fixed my own draft error
+pre-push: late August still has four shallow daylight minus tides
+(Aug 25–28), so the table caption claims "every remaining window
+better than Fair," not "every remaining minus tide."
+
+**Recompute-check:** every number verified against
+docs-internal/facts/{seattle-wa,port-townsend-wa}.json regenerated
+today (08-23); "no weekend daylight minus tide after Sep 7" and "no
+Seattle daylight minus tide after this run" cross-checked against
+months_2026 (Oct–Dec daylight_minus_tides 0; PT's lone Oct one is
+Mon Oct 5). Plain `npm run build` green, zero warnings (content-only
+change). Diff: 1 file, 23+/23−, all intended. No new external links.
+
+**Velocity:** 0 new articles (new week 08-23–08-29: 0/5), 0 stations.
+F-passes this week: 0/2 — two must land by Sat 08-29; today was
+priority-e on the strength of the top-lander staleness + the run
+entering its 14-day window (the refresh IS the time-sensitive surface).
+
+**Metrics (PostHog, 7d, host-filtered):** 172 uniques. Top paths:
+king-tides guide 33, oregon calendar 26, home 27 pv/22 uniq,
+king-tides hub 14, seattle 2026-08 month page 11, finder 9, seattle
+2026-09 month page 6. Signups 2/7d (home 1, tool_gate 1) ≈ 1.2% —
+second week under the 1.5% target. Gate events 7d: tool_gate 3 clicks
+/ 1 reveal / 1 signup (still the only converting source);
+exit_intent_shown +7.
+
+**Notes for tomorrow (08-24, Mon):**
+- **Exit-intent readout is DUE** (extended from 08-10): tally
+  exit_intent_shown all-time vs newsletter_signup source=exit-intent;
+  ~100-impression floor applies (was 12 on 08-10, +7 this week —
+  likely another honest extension).
+- F-pass #1 of 2 candidates: P3 off-site directory item (untouched),
+  or a pathway from king-tides/oregon-calendar into /calendars/.
+- Thu 08-27 is newsletter #7: the Sep 5–10 Puget Sound run is the
+  natural lead body (established template — windows + article links —
+  stays inside the standing approval).
+- Refresh queue next: cabrillo (07-03 vintage), then pacific-grove.
+- Gate readouts: multi arm likely hits ~100 uniques ~08-28;
+  calendars_page baseline 0 at 08-22 ship.
 
 **Health first:** refresh cron fired 10:42Z (green, 1m55s, ~25m drift),
 commit 99520ad on main dated today. IndexNow in the cron log: 108 URLs,
