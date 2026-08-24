@@ -319,11 +319,12 @@ with the date; add discoveries at the appropriate tier.
       behavior gates verified in-browser against the built site;
       exit_intent_shown verified landing in PostHog (from localhost —
       host-filtered out of production metrics).
-- [ ] **~2026-08-24 (extended 2026-08-10; was 08-10): judge the
-      exit-intent prompt** — at 08-10 check-in: 12 impressions all-time,
-      0 signups — below the §5 ~100-impression floor, so the window was
-      extended per the tiny-n rule (re-check at ~100 impressions or
-      08-24). Original spec: in PostHog compare
+- [ ] **~2026-09-21 (extended 2026-08-24, before that 08-10): judge the
+      exit-intent prompt** — at 08-24 check-in: 25 impressions all-time,
+      0 signups — still below the §5 ~100-impression floor, extended
+      again per the tiny-n rule (re-check at ~100 impressions or ~09-21;
+      accrual rate is ~6/week). At 08-10: 12 impressions, 0 signups.
+      Original spec: in PostHog compare
       `exit_intent_shown` count vs `newsletter_signup` where
       source="exit-intent" (host-filtered) over the first 2 weeks. If
       impressions accumulate with zero signups, revisit copy; if it

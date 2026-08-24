@@ -5,6 +5,70 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-24 — Conversion pass: king-tide surfaces routed into /calendars/; exit-intent extended again
+
+**Health first:** refresh cron fired 10:55Z (green, 1m57s, ~38m drift),
+commit 686c140 on main dated today. No open issues.
+
+**Exit-intent readout (DUE today, extended from 08-10):** 25 impressions
+all-time, 0 signups (source=exit-intent, host-filtered). Still far under
+the §5 ~100-impression floor (+13 since 08-10) — EXTENDED again, honestly.
+At ~6 impressions/week the floor is ~3 months out; re-check ~09-21 or at
+~100 impressions. If it's still 0-for-N near the floor, the copy revisit
+is the named next step.
+
+**Primary action (priority f — conversion pass #1 of the 08-23 week,
+commit a319cd7):** the king-tide cluster is the site's biggest traffic
+pool (guide 30 uniq/7d #1, season hub 15 uniq/7d #4) but the season page
+dead-ended at its EmailSignup — no route to /calendars/, the finder, or
+the heatmap. Added a "Keep these dates" section (feeds pitch + finder +
+heatmap, months-away-dates-get-lost angle). The guide's calendar bullet
+now routes through /calendars/ too (was: four station-page links only),
+matching the oregon-coast/puget-sound pattern. No new gate arm — the
+page links into /calendars/ where the calendars_page source already
+tallies, so the experiment table stays clean.
+
+**Honesty catch (pre-push):** first draft claimed the feeds carry the
+king-season lows "included" — FALSE for Garibaldi (all four of its
+listed season lows score 47–59, under the feeds' Good >=60 bar) and
+partially false at four more stations. Reworded to "every Good-or-better
+window … and the whole season sits inside that range" (feed range
+365d from generatedAt = through Aug 2027; season ends Mar 31 2027 —
+verified against public/data-json).
+
+**Gates:** plain `npm run build` green, zero warnings (app page +
+link-level article edit; PIPELINE_REFRESH not run, consistent 08-18/
+08-21/08-22 practice). Both links verified present in built output.
+Diff 2 files, all intended. No new external links, no new tide numbers.
+Article `updated:` not bumped (link-level reroute, same as 08-22).
+
+**Velocity:** 0 new articles (week 08-23–08-29: 0/5), 0 stations.
+F-passes this week: 1/2 — second must land by Sat 08-29 (don't bunch;
+the P3 off-site directory item remains the untouched candidate).
+
+**Metrics (PostHog, 7d, host-filtered):** 161 uniques. Top paths:
+king-tides guide 30, oregon calendar 25, home 23 pv/19 uniq, king-tides
+hub 15, seattle 2026-08 month page 11 pv/9 uniq, seattle 2026-09 month
+page 9 pv/7 uniq, finder 7 pv/6 uniq. Signups 1/7d (home) ≈ 0.6% —
+third week under the 1.5% target; capture is still the constraint.
+Gate events 7d: tool_gate 3 clicks / 0 reveals / 0 signups;
+calendars_page 0 (page is 2 days old).
+
+**Notes for tomorrow (08-25, Tue):**
+- Refresh queue next: cabrillo (07-03 vintage, oldest), then
+  pacific-grove. Cabrillo is the natural priority-e primary.
+- F-pass #2 of the week: P3 off-site directory item (untouched since
+  launch), or watch calendars_page events and iterate on-site.
+- Thu 08-27 is newsletter #7: lead body is the Sep 5–10 Puget Sound
+  Labor Day run (established template — windows + article links —
+  stays inside the standing approval).
+- Gate readouts: article_gate_multi likely hits ~100 post-ship uniques
+  ~08-28; tally all five arms (article_gate, multi, month_page,
+  calendars_page, tool_gate) separately.
+- Exit-intent: extended to ~09-21 / ~100 impressions (see above).
+
+---
+
 ## 2026-08-23 — Refresh pass: puget-sound calendar rolled to the Sep 5–10 Labor Day run
 
 **Health first:** refresh cron fired 10:43Z (green, 2m3s, ~26m drift),
