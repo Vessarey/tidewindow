@@ -64,6 +64,28 @@ export default function KingTides() {
         forecasts and local advisories before any winter reef walk. Predictions ≠ observations.
       </p>
 
+      <section className="mt-8 max-w-2xl">
+        <h2 className="text-2xl">Keep these dates</h2>
+        <p className="mt-2 text-[0.95rem]">
+          These windows are months away, which is exactly how they get lost. The{" "}
+          <Link href="/calendars/" className="underline">
+            calendar feeds page
+          </Link>{" "}
+          has a subscribable 12-month feed for every station above — subscribe once and every Good-or-better daylight
+          window lands in your calendar app with an arrive-by alarm, and the whole season on this page sits inside
+          that range. If your travel dates
+          are already fixed, the{" "}
+          <Link href="/tools/tide-window-finder/" className="underline">
+            Tide Window Finder
+          </Link>{" "}
+          checks what the tide is doing on your days, and the{" "}
+          <Link href="/tools/year-heatmap/" className="underline">
+            year heatmap
+          </Link>{" "}
+          plots the whole season at a glance.
+        </p>
+      </section>
+
       <EmailSignup
         source="king_tides"
         headline="Get a heads-up before each king-tide low"
