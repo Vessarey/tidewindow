@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-24",
+ "generated_on": "2026-08-25",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 11,
+   "lows_below_1ft": 10,
    "daylight_windows": 7,
    "daylight_minus_tides": 6,
    "best_window": {
@@ -469,11 +469,6 @@
    "count": 6
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 5
-  },
-  {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
    "count": 4
@@ -486,6 +481,11 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
+   "count": 4
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 4
   },
   {

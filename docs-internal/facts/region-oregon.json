@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-24",
+ "generated_on": "2026-08-25",
  "region": "Oregon coast",
  "stations": [
   {
@@ -14,7 +14,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 10,
+     "lows_below_1ft": 9,
      "daylight_windows": 7,
      "daylight_minus_tides": 4,
      "best_window": {
@@ -162,7 +162,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 11,
+     "lows_below_1ft": 10,
      "daylight_windows": 7,
      "daylight_minus_tides": 5,
      "best_window": {
@@ -310,7 +310,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 10,
+     "lows_below_1ft": 9,
      "daylight_windows": 7,
      "daylight_minus_tides": 5,
      "best_window": {
@@ -458,7 +458,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 9,
+     "lows_below_1ft": 8,
      "daylight_windows": 6,
      "daylight_minus_tides": 5,
      "best_window": {

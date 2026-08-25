@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-24",
+ "generated_on": "2026-08-25",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -489,14 +489,14 @@
    "count": 15
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 13
-  },
-  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
    "count": 13
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 12
   },
   {
    "commonName": "Heath's Dorid",

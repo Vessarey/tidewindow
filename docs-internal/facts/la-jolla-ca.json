@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-24",
+ "generated_on": "2026-08-25",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 7,
+   "lows_below_1ft": 6,
    "daylight_windows": 0,
    "daylight_minus_tides": 0,
    "best_window": null
@@ -455,7 +455,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 63
+   "count": 61
   },
   {
    "commonName": "Sorcerer's Dorid",
@@ -475,7 +475,7 @@
   {
    "commonName": "Olive's Aeolid",
    "scientificName": "Anteaeolidiella oliviae",
-   "count": 33
+   "count": 32
   },
   {
    "commonName": "Colorful Aeolid",
