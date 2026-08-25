@@ -162,8 +162,16 @@ with the date; add discoveries at the appropriate tier.
       Beach Hazards Statement product specifics CUT (no clean official
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
-- [ ] Refresh-pass queue (priority e, not additions): next candidates are
-      cabrillo (07-03 vintage), then pacific-grove (07-05).
+- [ ] Refresh-pass queue (priority e, not additions): next candidate is
+      pacific-grove (07-05 vintage), now the oldest unrefreshed guide.
+      Done 2026-08-25: cabrillo-tide-pools-2026 (df090e5) — July/Aug dawn
+      lows retired to record (07-03 stamps preserved; rolling window can't
+      recompute them), ranked table now the six remaining usable dates
+      (Nov 24 −1.36 ft 3:09 PM added; Dec 26 after-close near-miss row),
+      new Sep–Dec month-cadence table (Nov's and Dec's best windows both
+      land on the two park-closed holidays), species note honestly rolled
+      (sea hares out of the 60d log, Pismo clams in), all five external
+      sources re-fetched and claims re-verified, July month link → Sep.
       Done 2026-08-23: puget-sound-low-tide-calendar-2026 FULL
       roll-forward (64160c4) — answer box, description, first table,
       FAQs, weekend section, station comparison, and closing now lead

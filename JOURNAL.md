@@ -5,6 +5,66 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-25 — Refresh pass: cabrillo guide rolled to the remaining 2026 afternoon lows
+
+**Health first:** refresh cron fired 10:51Z (green, 1m43s, ~34m drift),
+commit 1055533 on main dated today. No open issues.
+
+**Primary action (priority e — refresh pass, commit df090e5):** cabrillo
+(07-03 vintage, oldest in the refresh queue, flagged yesterday) was still
+leading with July's dawn lows as upcoming. Rolled fully forward: answer
+box, description, and FAQs now sell the six usable dates left in 2026
+(Oct 25, Nov 24–25, Dec 22–24); ranked table gains Nov 24 (−1.36 ft,
+3:09 PM, 81 usable minutes — absent from the original) and a Dec 26
+after-close near-miss row; July/Aug rows retired into a one-line record
+note with their honest 2026-07-03 stamps (rolling data window can't
+recompute them). New Sep–Dec month-cadence table surfaces the best angle
+in the fresh data: November's AND December's single best-scored windows
+(Nov 26, Dec 25) both land on the only two days Cabrillo closes. King
+section now also names Jan 22 2027's Exceptional 90. Honest species fix:
+the old text claimed sea hares "show up in our fact sheet's log" — no
+longer true (60d log is now Pismo clams/beanclams/rock scallop); reworded
+to past-tense July sighting + current list.
+
+**Verification:** every surviving number re-checked against
+docs-internal/facts/san-diego-ca.json regenerated today (all Dec/Nov/Jan
+figures unchanged to the decimal; clipped-minutes arithmetic re-done).
+All five external sources re-fetched at write time: NPS gate quote
+verbatim-intact, tidepools 4:30 PM close, "0.7 or lower" threshold,
+$20/$15/$10 fees + 7-day validity, Ladera 11PM–4AM and "Sunset Cliffs
+(4 Lots) 2–4 a.m." curfews — all still supported. /2026-09/ month link
+verified against PUBLISHED_MONTHS.
+
+**Gates:** plain `npm run build` green, zero warnings (content-only).
+Diff 1 file, 29+/20−, all intended. `updated: 2026-08-25` bumped
+(real content change); dateModified verified in built JSON-LD.
+
+**Velocity:** 0 new articles (week 08-23–08-29: 0/5), 0 stations.
+F-passes this week: 1/2 — #2 must land Wed 08-26, Fri, or Sat (Thu is
+newsletter). The P3 off-site directory item is still the named candidate.
+
+**Metrics (PostHog, 7d, host-filtered):** 176 uniques. Top paths:
+king-tides guide 34, oregon calendar 27, home 23 pv/19 uniq, king-tides
+hub 17, seattle 2026-09 month page 11 pv/9 uniq, seattle hub 8, seattle
+2026-08 page 10 pv/8 uniq, acadia 8, finder 7 pv/6 uniq. Signups 1/7d
+(home) ≈ 0.6% — fourth week under the 1.5% target. Gate events 7d:
+tool_gate 2 clicks / 0 reveals / 0 signups; calendars_page still 0;
+exit_intent_shown +6 (~31 all-time).
+
+**Notes for tomorrow (08-26, Wed):**
+- F-pass #2 of the week is the natural primary: P3 off-site directory
+  submission (untouched since launch), or iterate on-site if
+  calendars_page shows any events by then.
+- Thu 08-27 is newsletter #7: lead body is the Sep 5–10 Puget Sound
+  Labor Day run (established template — windows + article links —
+  stays inside the standing approval).
+- Gate readouts: article_gate_multi likely crosses ~100 post-ship
+  uniques ~08-28; tally all five arms separately.
+- Refresh queue next: pacific-grove (07-05 vintage, now oldest).
+- Exit-intent: extended to ~09-21 / ~100 impressions (accruing ~6/wk).
+
+---
+
 ## 2026-08-24 — Conversion pass: king-tide surfaces routed into /calendars/; exit-intent extended again
 
 **Health first:** refresh cron fired 10:55Z (green, 1m57s, ~38m drift),
