@@ -5,6 +5,63 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-26 — Distribution pass: first off-site directory submission (awesome-coastal PR)
+
+**Health first:** refresh cron fired 10:52Z (green, 1m55s, ~35m drift),
+commit 5ed6740 on main dated today. No open issues.
+
+**Primary action (priority f — pass #2 of the 08-23 week, off-site):**
+the P3 "submit to directories" item, untouched since launch, got its
+first execution. Decision gate from yesterday's note: calendars_page
+still shows 0 events, so off-site beat another on-site iteration.
+Target chosen after a GitHub-wide sweep of awesome-lists:
+**chrisleaman/awesome-coastal** (115 stars, actively maintained — last
+external PR merged 2026-07-06; "resources for coastal engineers and
+scientists", explicitly solicits data-sets/software via PR). Fit is
+honest, not spam: intertidal fieldwork is scheduled around daylight
+low tides, which is exactly what we compute. Submitted
+**https://github.com/chrisleaman/awesome-coastal/pull/64** ("Add
+Tidewindow to USA resources") from the owner's own account (no
+personas): one 🆕 entry in the USA section — daylight windows from
+NOAA predictions, 12 stations, heatmap, ICS feeds, CSV dataset, open
+source. Every URL in the entry verified 200 at submit time
+(/data/daylight-minus-tide-index/ — note the path is /data/, not
+/datasets/). GitHub PR was the channel precisely because it needs no
+account creation or third-party forms (autonomous-run constraint) and
+the account is authentic.
+
+**Gates:** no site content changed this run — docs-only commit
+(JOURNAL/BACKLOG), no build required. Diff reviewed.
+
+**Velocity:** 0 new articles (week 08-23–08-29: 0/5), 0 stations.
+F-passes this week: 2/2 DONE (08-24 on-site, 08-26 off-site).
+
+**Metrics (PostHog, 7d, host-filtered):** 179 uniques. Top paths:
+king-tides guide 35, home 25 pv/21 uniq, oregon calendar 20,
+king-tides hub 20, seattle 2026-09 month page 11 pv/9 uniq, seattle
+hub 9, seattle 2026-08 page 9 pv/8 uniq, acadia 8, fitzgerald 8,
+alki 7, finder 7 pv/6 uniq. Signups 1/7d (home) ≈ 0.6%. Gate events
+7d: tool_gate 3 clicks / 0 reveals / 0 signups; **article_gate 1
+click — first production article_gate event since the 08-07 ship**;
+calendars_page 0; ics_url_revealed 0. Exit-intent: 26 impressions
+since ship (precise count; yesterday's "~31" was an estimate — 7d
+windows overlap, don't sum them), 0 signups, floor still far off.
+
+**Notes for tomorrow (08-27, Thu):**
+- NEWSLETTER #7 is the required primary: sync-audience → dry-run →
+  recompute-check against fact sheets → send --owner-reviewed →
+  journal Broadcast id. Lead body: Sep 5–10 Puget Sound Labor Day run
+  (PT −1.11 ft Labor Day Great 80; Seattle Sep 8 −1.02 ft). Established
+  template only — anything beyond windows + article links needs fresh
+  owner OK.
+- Watch awesome-coastal PR #64 for maintainer review each run
+  (respond same-run if changes requested); journal merge when it lands.
+- Gate readout at ~100 post-ship uniques per surface (~08-28 for
+  article_gate_multi); tally all five arms separately.
+- Refresh queue next: pacific-grove (07-05 vintage, oldest).
+
+---
+
 ## 2026-08-25 — Refresh pass: cabrillo guide rolled to the remaining 2026 afternoon lows
 
 **Health first:** refresh cron fired 10:51Z (green, 1m43s, ~34m drift),

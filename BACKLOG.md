@@ -381,6 +381,17 @@ with the date; add discoveries at the appropriate tier.
       Exceptional windows that land on weekends, by station.
 - [ ] Submit site to relevant directories (tool directories, dark-sky-style
       hobby lists, awesome-lists) — only genuinely relevant ones, no spam.
+      2026-08-26: FIRST submission — PR to chrisleaman/awesome-coastal
+      (USA section; intertidal-fieldwork framing; owner account, no
+      personas): https://github.com/chrisleaman/awesome-coastal/pull/64 —
+      PENDING maintainer review; check each run, journal the merge.
+      Channel note: GitHub-PR-based lists are the only directory type an
+      autonomous run can submit to (no account creation / third-party
+      forms); other candidates surveyed 08-26 were poor fits
+      (open-sustainable-technology, awesome-open-geoscience: software/
+      research focus; awesome-marine-hacking: dead since 2018). Directories
+      needing accounts/forms → owner task, note in JOURNAL if one looks
+      high-value.
 - [x] 2026-08-09: Badge outreach page DONE (priority-f pass #2 of the week) —
       /embed/ now carries the full "for websites" pitch: what-it-shows /
       stays-current / costs-nothing cards, who-it-fits, honest fine print
