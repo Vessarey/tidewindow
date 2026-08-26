@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-25",
+ "generated_on": "2026-08-26",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 10,
+   "lows_below_1ft": 9,
    "daylight_windows": 8,
    "daylight_minus_tides": 1,
    "best_window": {
@@ -456,17 +456,22 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 18
+   "count": 41
   },
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 12
+   "count": 15
   },
   {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 6
+   "count": 13
+  },
+  {
+   "commonName": "Atlantic Jackknife",
+   "scientificName": "Ensis leei",
+   "count": 7
   },
   {
    "commonName": "Tortoiseshell Limpet",
@@ -474,9 +479,19 @@
    "count": 4
   },
   {
-   "commonName": "Atlantic Jackknife",
-   "scientificName": "Ensis leei",
-   "count": 4
+   "commonName": "Flat Periwinkle",
+   "scientificName": "Littorina obtusata",
+   "count": 2
+  },
+  {
+   "commonName": "Northern Horse Mussel",
+   "scientificName": "Modiolus modiolus",
+   "count": 2
+  },
+  {
+   "commonName": "West Atlantic Surfclam",
+   "scientificName": "Spisula solidissima",
+   "count": 2
   },
   {
    "commonName": "Eastern Oyster",
@@ -486,21 +501,6 @@
   {
    "commonName": "Rim-backed Nudibranch",
    "scientificName": "Palio dubia",
-   "count": 1
-  },
-  {
-   "commonName": "Crowned Seaslug",
-   "scientificName": "Doto coronata",
-   "count": 1
-  },
-  {
-   "commonName": "Rough Periwinkle",
-   "scientificName": "Littorina saxatilis",
-   "count": 1
-  },
-  {
-   "commonName": "Soft-shelled Clam",
-   "scientificName": "Mya arenaria",
    "count": 1
   }
  ]

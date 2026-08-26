@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-25",
+ "generated_on": "2026-08-26",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 8,
-   "daylight_windows": 6,
-   "daylight_minus_tides": 5,
+   "lows_below_1ft": 7,
+   "daylight_windows": 5,
+   "daylight_minus_tides": 4,
    "best_window": {
     "date": "2026-08-29",
     "weekday": "Sat",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-25",
-   "weekday": "Tue",
-   "low_ft": -0.163,
-   "low_time_local": "5:12 AM",
-   "window_local": "3:20 AM–7:05 AM",
-   "arrive_by_local": "4:12 AM",
-   "daylight_min": 30,
-   "score": 28,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 60,
-   "min_to_sun_edge": -83
-  },
-  {
    "date": "2026-08-26",
    "weekday": "Wed",
    "low_ft": -0.333,
@@ -450,6 +436,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 87,
    "min_to_sun_edge": 61
+  },
+  {
+   "date": "2026-09-10",
+   "weekday": "Thu",
+   "low_ft": -0.573,
+   "low_time_local": "5:52 AM",
+   "window_local": "4:00 AM–7:45 AM",
+   "arrive_by_local": "4:52 AM",
+   "daylight_min": 52,
+   "score": 38,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 72,
+   "min_to_sun_edge": -61
   }
  ],
  "species_last60d_5km": [

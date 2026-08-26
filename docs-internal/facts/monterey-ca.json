@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-25",
+ "generated_on": "2026-08-26",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -36,6 +36,18 @@
    "window_local": "4:10 PM–7:55 PM",
    "arrive_by_local": "5:00 PM",
    "daylight_min": 146,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.374,
+   "low_time_local": "4:09 PM",
+   "window_local": "2:40 PM–5:40 PM",
+   "arrive_by_local": "3:09 PM",
+   "daylight_min": 180,
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": true
@@ -99,18 +111,6 @@
    "score": 35,
    "band": "Skip",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": 0.691,
-   "low_time_local": "7:02 PM",
-   "window_local": "5:55 PM–8:05 PM",
-   "arrive_by_local": "6:02 PM",
-   "daylight_min": 83,
-   "score": 33,
-   "band": "Skip",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 6,
+   "lows_below_1ft": 5,
    "daylight_windows": 4,
    "daylight_minus_tides": 1,
    "best_window": {
@@ -456,7 +456,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 46
+   "count": 47
   },
   {
    "commonName": "Spanish Shawl",
@@ -466,7 +466,7 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 19
+   "count": 21
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -474,19 +474,19 @@
    "count": 15
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 13
-  },
-  {
    "commonName": null,
    "scientificName": "Doto urak",
-   "count": 13
+   "count": 14
   },
   {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
    "count": 13
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 12
   },
   {
    "commonName": "California Seahare",

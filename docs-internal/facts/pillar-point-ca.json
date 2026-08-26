@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-25",
+ "generated_on": "2026-08-26",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -25,6 +25,18 @@
    "arrive_by_local": "4:27 PM",
    "daylight_min": 179,
    "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.054,
+   "low_time_local": "4:19 PM",
+   "window_local": "2:35 PM–6:10 PM",
+   "arrive_by_local": "3:19 PM",
+   "daylight_min": 215,
+   "score": 57,
    "band": "Fair",
    "weekend_or_holiday": true
   },
@@ -99,18 +111,6 @@
    "score": 42,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.629,
-   "low_time_local": "6:26 PM",
-   "window_local": "5:20 PM–7:35 PM",
-   "arrive_by_local": "5:26 PM",
-   "daylight_min": 122,
-   "score": 39,
-   "band": "Skip",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 7,
+   "lows_below_1ft": 6,
    "daylight_windows": 4,
    "daylight_minus_tides": 0,
    "best_window": {
@@ -466,7 +466,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 27
+   "count": 26
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -489,14 +489,14 @@
    "count": 15
   },
   {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 13
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 12
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 13
   },
   {
    "commonName": "Heath's Dorid",
