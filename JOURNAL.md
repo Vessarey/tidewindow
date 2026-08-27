@@ -5,6 +5,65 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-27 — Newsletter #7 sent (Aug 27–Sep 2 issue); cron drift recovered by dispatch
+
+**Health first:** the 10:17Z refresh cron had NOT fired by 12:03Z (~1h46m
+late; prior five days all fired 10:42–10:55Z). Inside the ~3h drift window,
+so not a formal incident, but I didn't wait: recovered per playbook via
+`gh workflow run daily-refresh.yml` (run 33070143723, green, 1m45s), commit
+b2ef145 on main dated today 12:05Z. Watch tomorrow whether the scheduled
+trigger resumes on its own; a late same-day scheduled run would just
+produce a second (harmless) refresh commit. No open issues. awesome-coastal
+PR #64: still open, no maintainer comments — keep watching.
+
+**Primary action (Thursday ritual — newsletter #7):** full ritual executed:
+facts regenerated from today's b2ef145 data → sync-audience (**1 added, 8
+already present, 9 total; 0 unsubscribed**) → dry-run → recompute-check →
+send. **Broadcast fbec3fb0-de21-471e-9255-37bd282de94d sent to 9
+subscribers.** Issue: "Minus Tide Alert, Aug 27–Sep 2: La Push, Quillayute
+River hits −0.49 ft Sat" — a neap-ish week, 6 Good windows across 3
+stations (La Push 70/67, Garibaldi 65/61, Newport 64/61), 0 Great+.
+Recompute-check: all six windows verified to the decimal against
+docs-internal/facts/{la-push-wa,garibaldi-or,newport-or}.json (lows, times,
+walkable windows, arrive-by, scores); species block matches la-push-wa
+species_last60d_5km exactly; all four links fetch 200.
+
+**Template-boundary decision:** yesterday's note wanted the Sep 5–10 Puget
+Sound Labor Day run as the lead body, but the established template renders
+the current issue week only (Aug 27–Sep 2) and has no look-ahead section
+(verified in send-weekly.mjs). Hand-adding one would exceed the 2026-07-19
+standing approval (windows + article links only), so I sent the template
+as-is. The Labor Day run lands naturally in next Thursday's issue
+(Sep 3–9 covers Sep 5–9) — no owner action needed.
+
+**Gates:** no site content changed — docs-only commit (JOURNAL). No build
+required. Diff reviewed.
+
+**Velocity:** 0 new articles (week 08-23–08-29: 0/5), 0 stations.
+F-passes this week: 2/2 already done (08-24, 08-26).
+
+**Metrics (PostHog, 7d, host-filtered):** 208 uniques (up from 179). Top
+paths: king-tides guide 40, home 34 pv/30 uniq, king-tides hub 20,
+methodology 20, DMTI dataset 11, oregon calendar 11, fitzgerald 9,
+acadia 9, seattle 2026-09 page 10 pv/8 uniq, seattle hub 8, finder
+7 pv/6 uniq. Signups 1/7d (home) ≈ 0.5% — still under the 1.5% target.
+Tool events 7d: station_selected 6, window_result_viewed 4.
+exit_intent_shown +4 (≈30 all-time), 0 signups. No gate CTA events in the
+last 7d window.
+
+**Notes for tomorrow (08-28, Fri):**
+- Check Resend bounce/complaint numbers on Broadcast fbec3fb0 (stop sends
+  if complaints near 0.1%).
+- Verify the 10:17Z cron fired ON SCHEDULE; two straight days of manual
+  recovery = investigate the workflow (GitHub scheduled-run throttling of
+  low-activity repos is the usual suspect) and journal as an incident.
+- Gate readout due: article_gate_multi should cross ~100 post-ship
+  uniques — tally all five arms separately.
+- Refresh queue next: pacific-grove (07-05 vintage, oldest).
+- Watch awesome-coastal PR #64; respond same-run if changes requested.
+
+---
+
 ## 2026-08-26 — Distribution pass: first off-site directory submission (awesome-coastal PR)
 
 **Health first:** refresh cron fired 10:52Z (green, 1m55s, ~35m drift),
