@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-26",
+ "generated_on": "2026-08-27",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -16,6 +16,18 @@
   "method": "cosine-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "low_ft": -0.518,
+   "low_time_local": "4:59 PM",
+   "window_local": "2:50 PM–7:15 PM",
+   "arrive_by_local": "3:59 PM",
+   "daylight_min": 209,
+   "score": 68,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-10",
    "weekday": "Sat",
@@ -99,18 +111,6 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-26",
-   "weekday": "Sat",
-   "low_ft": 0.597,
-   "low_time_local": "5:16 PM",
-   "window_local": "4:05 PM–6:25 PM",
-   "arrive_by_local": "4:16 PM",
-   "daylight_min": 140,
-   "score": 42,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 6,
+   "lows_below_1ft": 5,
    "daylight_windows": 4,
    "daylight_minus_tides": 0,
    "best_window": {
@@ -466,7 +466,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 26
+   "count": 27
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",

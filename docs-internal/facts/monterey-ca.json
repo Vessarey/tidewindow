@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-26",
+ "generated_on": "2026-08-27",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "low_ft": -0.165,
+   "low_time_local": "4:52 PM",
+   "window_local": "2:50 PM–6:55 PM",
+   "arrive_by_local": "3:52 PM",
+   "daylight_min": 208,
+   "score": 61,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-10",
    "weekday": "Sat",
@@ -99,18 +111,6 @@
    "score": 36,
    "band": "Skip",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.788,
-   "low_time_local": "6:14 PM",
-   "window_local": "5:30 PM–7:05 PM",
-   "arrive_by_local": "5:14 PM",
-   "daylight_min": 95,
-   "score": 35,
-   "band": "Skip",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 5,
-   "daylight_windows": 4,
-   "daylight_minus_tides": 1,
+   "lows_below_1ft": 3,
+   "daylight_windows": 3,
+   "daylight_minus_tides": 0,
    "best_window": {
     "date": "2026-08-28",
     "weekday": "Fri",
@@ -456,7 +456,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 47
+   "count": 46
   },
   {
    "commonName": "Spanish Shawl",
@@ -484,11 +484,6 @@
    "count": 13
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 12
-  },
-  {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
    "count": 12
@@ -497,6 +492,11 @@
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
    "count": 12
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 11
   },
   {
    "commonName": "Bodega Tellin",

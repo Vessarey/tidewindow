@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-26",
+ "generated_on": "2026-08-27",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "low_ft": -0.366,
+   "low_time_local": "3:27 PM",
+   "window_local": "1:25 PM–5:35 PM",
+   "arrive_by_local": "2:27 PM",
+   "daylight_min": 250,
+   "score": 65,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-11",
    "weekday": "Sun",
@@ -99,18 +111,6 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-26",
-   "weekday": "Sat",
-   "low_ft": 0.506,
-   "low_time_local": "3:37 PM",
-   "window_local": "2:25 PM–4:50 PM",
-   "arrive_by_local": "2:37 PM",
-   "daylight_min": 145,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 5,
+   "lows_below_1ft": 4,
    "daylight_windows": 0,
    "daylight_minus_tides": 0,
    "best_window": null
@@ -448,24 +448,19 @@
    "count": 108
   },
   {
-   "commonName": "Stearns' Aeolid",
-   "scientificName": "Austraeolis stearnsi",
-   "count": 60
-  },
-  {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
    "count": 54
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
+   "commonName": "Stearns' Aeolid",
+   "scientificName": "Austraeolis stearnsi",
    "count": 54
   },
   {
-   "commonName": "cockscomb nudibranch",
-   "scientificName": "Antiopella barbarensis",
-   "count": 39
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 49
   },
   {
    "commonName": "Salt-and-pepper Doris",
@@ -473,14 +468,14 @@
    "count": 37
   },
   {
+   "commonName": "cockscomb nudibranch",
+   "scientificName": "Antiopella barbarensis",
+   "count": 37
+  },
+  {
    "commonName": "Olive's Aeolid",
    "scientificName": "Anteaeolidiella oliviae",
    "count": 27
-  },
-  {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 26
   },
   {
    "commonName": "Colorful Aeolid",
@@ -491,6 +486,11 @@
    "commonName": "Two-spotted Dorid",
    "scientificName": "Thordisa bimaculata",
    "count": 25
+  },
+  {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 23
   }
  ]
 }
