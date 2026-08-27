@@ -77,18 +77,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-27",
-   "weekday": "Thu",
-   "low_ft": -0.544,
-   "low_time_local": "6:41 AM",
-   "window_local": "4:55 AM–8:35 AM",
-   "arrive_by_local": "5:41 AM",
-   "daylight_min": 122,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.88,
@@ -111,6 +99,18 @@
    "score": 50,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-09",
+   "weekday": "Wed",
+   "low_ft": -0.954,
+   "low_time_local": "5:39 AM",
+   "window_local": "3:40 AM–7:45 AM",
+   "arrive_by_local": "4:39 AM",
+   "daylight_min": 57,
+   "score": 47,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 8,
-   "daylight_windows": 5,
-   "daylight_minus_tides": 3,
+   "lows_below_1ft": 7,
+   "daylight_windows": 4,
+   "daylight_minus_tides": 2,
    "best_window": {
     "date": "2026-08-29",
     "weekday": "Sat",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-27",
-   "weekday": "Thu",
-   "low_ft": -0.544,
-   "low_time_local": "6:41 AM",
-   "window_local": "4:55 AM–8:35 AM",
-   "arrive_by_local": "5:41 AM",
-   "daylight_min": 122,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 77,
-   "min_to_sun_edge": 8
-  },
-  {
    "date": "2026-08-28",
    "weekday": "Fri",
    "low_ft": -0.534,
@@ -450,6 +436,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 84,
    "min_to_sun_edge": 7
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "Fri",
+   "low_ft": 0.342,
+   "low_time_local": "7:19 PM",
+   "window_local": "6:20 PM–8:25 PM",
+   "arrive_by_local": "6:19 PM",
+   "daylight_min": 74,
+   "score": 28,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 274,
+   "min_to_sun_edge": 15
   }
  ],
  "species_last60d_5km": [
