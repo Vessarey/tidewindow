@@ -77,6 +77,18 @@
    "weekend_or_holiday": false
   },
   {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "low_ft": -1.366,
+   "low_time_local": "7:20 PM",
+   "window_local": "5:20 PM–9:30 PM",
+   "arrive_by_local": "6:20 PM",
+   "daylight_min": 53,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.88,
@@ -99,18 +111,6 @@
    "score": 50,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-09",
-   "weekday": "Wed",
-   "low_ft": -0.954,
-   "low_time_local": "5:39 AM",
-   "window_local": "3:40 AM–7:45 AM",
-   "arrive_by_local": "4:39 AM",
-   "daylight_min": 57,
-   "score": 47,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
