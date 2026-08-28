@@ -6,6 +6,11 @@ name: Daily data refresh
 on:
   schedule:
     - cron: "17 10 * * *" # 10:17 UTC daily (~3:17 AM Pacific)
+    # Backup slot: GitHub scheduler drift left the 10:17 slot unfired for
+    # hours on 2026-08-26..28 (20:33Z once, twice recovered by manual
+    # dispatch). The guard step below makes this a no-op whenever the
+    # morning slot already landed today's refresh.
+    - cron: "47 13 * * *" # 13:47 UTC daily watchdog
   workflow_dispatch:
 
 permissions:
@@ -22,15 +27,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+        with:
+          fetch-depth: 30
+      # Scheduled runs (either slot) skip when today's refresh already
+      # committed — so the 13:47 watchdog is a no-op on normal days and the
+      # 10:17 slot is a no-op if it fires late after a recovery. Manual
+      # dispatches always run in full.
+      - name: Check whether today's refresh already landed
+        id: guard
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && \
+             git log --format=%s -30 | grep -q "^data: daily NOAA refresh $(date -u +%F)$"; then
+            echo "done=true" >> "$GITHUB_OUTPUT"
+            echo "Refresh for $(date -u +%F) already on main; skipping."
+          else
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.guard.outputs.done != 'true'
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      - if: steps.guard.outputs.done != 'true'
+        run: npm ci
       # NOAA CO-OPS has service-wide outages now and then (e.g. 2026-07-18, when
       # every predictions request errored for hours). Retry across ~100 minutes
       # so a morning blip self-heals; a day-long outage still fails the run loudly.
       - name: Refresh NOAA data
+        if: steps.guard.outputs.done != 'true'
         run: |
           for attempt in 1 2 3 4 5 6; do
             if PIPELINE_REFRESH=1 node scripts/pipeline/run.mjs; then
@@ -44,13 +68,17 @@ jobs:
           echo "NOAA refresh failed after 6 attempts (~100 minutes)."
           exit 1
       - name: Regenerate fact sheets
+        if: steps.guard.outputs.done != 'true'
         run: node scripts/pipeline/facts.mjs
       - name: Build (verifies data integrity)
+        if: steps.guard.outputs.done != 'true'
         run: npm run build
       - name: Submit to IndexNow
+        if: steps.guard.outputs.done != 'true'
         run: node scripts/indexnow.mjs
         continue-on-error: true
       - name: Commit and push
+        if: steps.guard.outputs.done != 'true'
         run: |
           git config user.name "tidewindow-bot"
           git config user.email "actions@users.noreply.github.com"
