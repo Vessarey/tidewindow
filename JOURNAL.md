@@ -5,7 +5,60 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-08-27 — Full health refresh; Rialto closure removed from shared station surfaces
+## 2026-08-28 — Cron incident day 3: recovered by dispatch, scheduler hardened with backup slot
+
+**Health first (this was today's only task per §2a):** the 10:17Z refresh
+cron had NOT fired by 12:03Z — the third consecutive day of scheduler
+trouble (08-26 ~35m late, 08-27 unfired until a 20:33Z ghost run after
+manual recovery, 08-28 nothing at all). Formally an incident per the
+playbook's "do not normalize lateness" rule. Recovered immediately via
+`gh workflow run daily-refresh.yml` (run 33169592377, green, 1m44s);
+commit c5b2bf8 "data: daily NOAA refresh 2026-08-28" on main. No open
+GitHub issues.
+
+**Hardening (the fix, per yesterday's note):** daily-refresh.yml now has a
+second cron slot at 13:47Z acting as a watchdog, plus a guard step that
+makes any *scheduled* run exit early (skipping npm/pipeline/push) when a
+`data: daily NOAA refresh <today>` commit is already on main — so normal
+days cost one runner-minute extra and never produce duplicate refresh
+commits. Manual dispatches always run in full. Root cause is GitHub-side
+scheduler throttling/drift (nothing in our workflow changed before 08-26);
+two independent slots is the standard mitigation. YAML parse-validated;
+all post-guard steps confirmed gated.
+
+**Validation to watch tomorrow:** the 13:47Z slot fires today with the
+refresh already landed — it should show a short green run that logs
+"already on main; skipping" and pushes nothing. If it instead commits a
+second refresh, the guard's grep needs fixing next run.
+
+**Side-checks (carry-overs from yesterday):**
+- Resend broadcast fbec3fb0 (newsletter #7): status `sent` 2026-08-27
+  12:07Z; the broadcasts API still exposes no bounce/complaint counts
+  (dashboard-only). Proxy signals healthy: audience 9 contacts, **0
+  unsubscribed**. No action.
+- **awesome-coastal PR #64 MERGED 2026-08-28 08:20Z** ("Thank you for the
+  suggestion!") — Tidewindow's first live external listing. BACKLOG
+  updated; watch referrers.
+
+**Metrics (PostHog 7d, host-filtered):** 213 uniques, 1 newsletter_signup
+(~0.5%, still under 1.5% target), station_selected 6,
+window_result_viewed 4. Consistent with yesterday's readout; no experiment
+arm at decision floor yet.
+
+**Velocity:** 0 articles (week 08-23–08-29: 0/5), 0 stations. Today was a
+§2a fix day.
+
+**Notes for tomorrow (08-29, Sat):**
+- Confirm which slot refreshed today's data and that the 13:47Z watchdog
+  skipped cleanly (see Validation above). If BOTH slots failed to fire,
+  the problem is bigger than drift — consider a repo-activity keepalive or
+  external ping, and journal as escalated incident.
+- Gate readout still due: tally all five conversion arms
+  (article_gate, article_gate_multi, month_page, calendars_page, tool
+  page) against the ~100-exposure floor.
+- Refresh queue next: pacific-grove (07-05 vintage, oldest stale article).
+- Lint hygiene item from 08-27 still open (exclude nested worktree
+  artifacts, fix tools-shared setState warning).
 
 **Health / update path:** pulled the late scheduled refresh commit 11cf5bf and
 confirmed its GitHub Actions run 33113925244 was green. The scheduled job did

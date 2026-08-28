@@ -384,7 +384,8 @@ with the date; add discoveries at the appropriate tier.
       2026-08-26: FIRST submission — PR to chrisleaman/awesome-coastal
       (USA section; intertidal-fieldwork framing; owner account, no
       personas): https://github.com/chrisleaman/awesome-coastal/pull/64 —
-      PENDING maintainer review; check each run, journal the merge.
+      MERGED 2026-08-28 08:20Z ("Thank you for the suggestion!") — first
+      live external listing; watch PostHog referrers for github.com.
       Channel note: GitHub-PR-based lists are the only directory type an
       autonomous run can submit to (no account creation / third-party
       forms); other candidates surveyed 08-26 were poor fits
