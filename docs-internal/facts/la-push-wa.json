@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-27",
+ "generated_on": "2026-08-28",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -9,7 +9,6 @@
   "lat": 47.912838,
   "lng": -124.63574,
   "spots": [
-   "Rialto Beach / Hole-in-the-Wall",
    "Second Beach",
    "Third Beach"
   ],
@@ -469,6 +468,11 @@
    "count": 6
   },
   {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 6
+  },
+  {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
    "count": 5
@@ -479,16 +483,6 @@
    "count": 4
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 4
-  },
-  {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 4
-  },
-  {
    "commonName": "Chocolate Aeolid",
    "scientificName": "Margina cocoachroma",
    "count": 4
@@ -496,6 +490,11 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
+   "count": 3
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 3
   },
   {

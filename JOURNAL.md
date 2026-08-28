@@ -5,6 +5,69 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-27 — Full health refresh; Rialto closure removed from shared station surfaces
+
+**Health / update path:** pulled the late scheduled refresh commit 11cf5bf and
+confirmed its GitHub Actions run 33113925244 was green. The scheduled job did
+not start until 20:33Z — more than 10 hours after the 10:17Z slot and after the
+operator's 12:03Z manual recovery — so this is a scheduling-reliability
+incident even though the two-layer recovery prevented stale site data. The
+previous six refreshes were also green. No open GitHub issues. Live homepage
+and `/calendars/` both showed data computed 2026-08-27 and produced no browser
+warnings or errors before this change.
+
+**Primary action (reader accuracy / safety):** `/calendars/`, the beach lists,
+and tool selector all inherited "Rialto Beach / Hole-in-the-Wall" from the La
+Push station registry despite the active NPS Mora Road closure through October
+15. Removed the inaccessible destination from the shared `spots` list and
+replaced the Rialto-specific blurb with stable Second Beach / Third Beach copy.
+Ran a fresh `PIPELINE_REFRESH=1 npm run pipeline`: all 12 stations completed;
+regenerated facts and committed data/ICS/badge outputs. The generated La Push
+record now contains exactly `Second Beach` and `Third Beach`, with no stale
+Rialto/Hole-in-the-Wall string in current pipeline, fact, or app sources.
+
+**Current performance readout (complete weeks, host-filtered and known Chrome
+149/Linux QA signature excluded):** Aug 20–26 delivered 209 sessions and 233
+pageviews versus 126 / 136 on Aug 13–19 (**+66% sessions, +71% pageviews**).
+Depth stayed low: 1.11 pages/session, 96.2% one-page sessions, 12s median
+session span, and 5.7% of sessions with a custom interaction. Newsletter
+signup sessions fell from 2/126 (1.59%) to 1/209 (0.48%). Tool use improved
+from 1 station selection / 1 result to 6 selections / 4 results. No experiment
+is at the documented ~100-exposure decision floor yet: article_gate 77 unique
+viewers, article_gate_multi 90, month_page 27, calendars_page 0, tool page 13.
+Extend all arms; do not claim a winner.
+
+**Search + performance:** GSC Jul 29–Aug 25 versus Jul 1–28: clicks 111 vs 61
+(+82%), impressions 8,094 vs 3,246 (+149%), weighted position 8.70 vs 9.58,
+CTR 1.37% vs 1.88%. The latest complete week improved to 39 clicks / 2,428
+impressions / 1.61% CTR from 24 / 2,257 / 1.06%. Core interaction vitals remain
+healthy: Aug 20–26 p75 LCP 1,013ms, INP 28ms, CLS 0.007; desktop LCP improved
+to 2,147ms. Pillar Point's zero-click impressions are dominated by NOAA tide
+table intent, so no misleading title rewrite.
+
+**Gates / caveats:** production build passed (122/122 static pages, TypeScript
+clean). Scoped ESLint on the changed station source passed. The repository-wide
+lint command still fails because it descends into an old nested
+`.claude/worktrees/...` build tree (913 generated-artifact errors) and also
+retains the already-known real `setState`-in-effect warning in
+`src/components/tools-shared.tsx`; build is unaffected, but lint is not yet a
+trustworthy whole-repo gate. PostHog session replay/heatmaps are on, but
+exception autocapture remains disabled. Newsletter #7 broadcast status is
+`sent`; the connector did not expose bounce/complaint counts in this readout.
+
+**Notes for tomorrow (08-28, Fri):**
+- Verify the 10:17Z scheduled refresh fires normally. A second delayed day
+  warrants hardening the scheduler/watchdog rather than relying on manual
+  recovery.
+- Recheck newsletter #7 bounce/complaint metrics in Resend before another send.
+- Keep every conversion arm running to ~100 exposures; fix distribution to the
+  new `/calendars/` page before judging its copy (0 visits since ship).
+- Put lint hygiene in reliability work: exclude nested agent/build artifacts,
+  then resolve the real tools-shared cache warning so `npm run lint` can become
+  a useful gate.
+
+---
+
 ## 2026-08-27 — Newsletter #7 sent (Aug 27–Sep 2 issue); cron drift recovered by dispatch
 
 **Health first:** the 10:17Z refresh cron had NOT fired by 12:03Z (~1h46m

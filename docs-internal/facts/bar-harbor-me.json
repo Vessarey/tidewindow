@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-27",
+ "generated_on": "2026-08-28",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -476,7 +476,7 @@
   {
    "commonName": "Soft-shelled Clam",
    "scientificName": "Mya arenaria",
-   "count": 4
+   "count": 5
   },
   {
    "commonName": "Tortoiseshell Limpet",

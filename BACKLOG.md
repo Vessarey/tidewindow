@@ -350,13 +350,13 @@ with the date; add discoveries at the appropriate tier.
       conditions). The La Push guide (la-push-second-beach-tide-pools-2026.md)
       routes readers to Second Beach and states this closure verbatim. AFTER
       ~Oct 15: re-check the NPS conditions page; if reopened, refresh the La Push
-      guide to restore Rialto/Hole-in-the-Wall as the marquee spot (and drop or
-      soften the advisory). Until then, do NOT publish any content directing
-      readers to Rialto Beach. ALSO (noticed 2026-07-22): the tools' station
-      dropdown labels La Push with "Rialto Beach / Hole-in-the-Wall" — the spot
-      string lives in scripts/pipeline/stations.mjs and flows into committed
-      data-json, so fixing it is a pipeline data change; fold into the same
-      post-Oct-15 revisit (or earlier if a reader flags it).
+      guide and shared station metadata to restore Rialto/Hole-in-the-Wall only
+      if access is confirmed (and drop or soften the advisory). Until then, do
+      NOT publish any content directing readers to Rialto Beach.
+      **2026-08-27 interim fix:** removed Rialto/Hole-in-the-Wall from the shared
+      La Push `spots` and blurb in scripts/pipeline/stations.mjs, then regenerated
+      committed data/ICS/fact outputs. Finder, beach, and calendar surfaces now
+      lead with Second Beach and Third Beach; the post-Oct-15 recheck remains.
 - [x] 2026-08-14: gh CLI auth WORKING again (`gh run list` + `gh issue list`
       both succeed, no 401) — owner appears to have re-authed; item closed.
       (Was: token invalid since 2026-07-25, operator used the public API.)

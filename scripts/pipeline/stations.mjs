@@ -42,9 +42,9 @@ export const STATIONS = [
     region: "outer-coast-nw",
     tz: "America/Los_Angeles",
     kind: "harmonic",
-    spots: ["Rialto Beach / Hole-in-the-Wall", "Second Beach", "Third Beach"],
+    spots: ["Second Beach", "Third Beach"],
     blurb:
-      "Outer Olympic coast station at the Quillayute River mouth. The Hole-in-the-Wall arch north of Rialto Beach is only comfortably reachable on a good low.",
+      "Outer Olympic coast station at the Quillayute River mouth, covering the sea stacks and tidepools at Second Beach and Third Beach.",
   },
   {
     slug: "garibaldi-or",

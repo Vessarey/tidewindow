@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-27",
+ "generated_on": "2026-08-28",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -27,6 +27,18 @@
    "score": 61,
    "band": "Good",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "low_ft": -0.582,
+   "low_time_local": "5:37 PM",
+   "window_local": "3:20 PM–8:05 PM",
+   "arrive_by_local": "4:37 PM",
+   "daylight_min": 177,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false
   },
   {
    "date": "2026-10-10",
@@ -97,18 +109,6 @@
    "arrive_by_local": "3:34 PM",
    "daylight_min": 145,
    "score": 37,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-28",
-   "weekday": "Mon",
-   "low_ft": 0.173,
-   "low_time_local": "6:36 PM",
-   "window_local": "4:50 PM–8:25 PM",
-   "arrive_by_local": "5:36 PM",
-   "daylight_min": 125,
-   "score": 36,
    "band": "Skip",
    "weekend_or_holiday": false
   }
