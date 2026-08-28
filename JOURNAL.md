@@ -5,6 +5,45 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-28 — Heartbeat verification: live freshness confirmed; journal boundary repaired
+
+**Coordination:** today's owner operator had already completed the one primary
+action before this heartbeat: it recovered the missing scheduled NOAA refresh,
+landed commit c5b2bf8, added a guarded 13:47Z backup slot, and recorded the
+incident in fcb3930. No second primary action was taken. Main and origin matched;
+the worktree was clean; no GitHub issues were open.
+
+**Health checks:** the manual refresh run 33169592377 is green and the live
+homepage reports `computed 2026-08-28 · NOAA CO-OPS`; a fresh production-browser
+load produced no console errors. The 13:47Z watchdog slot was not due yet at
+13:01Z, so its skip guard cannot honestly be called validated today. Moved this
+Codex heartbeat from 09:00 to 10:30 America/New_York so future checks run after
+both scheduled slots and can observe the watchdog instead of pre-empting it.
+
+**Fresh analytics (production host + Regular traffic):** the moving seven-day
+trend contained 240 pageviews, 1 signup, 6 station selections, 4 window results,
+7 calendar-gate clicks, 0 calendar reveals, and 0 trip-picker runs. Since ship,
+article_gate_multi is still below its decision floor at 92 unique viewers with
+one 1/1/1 click/reveal/signup chain. `/calendars/` is at 4 unique viewers and
+3/0/0; the finder page is at 14 uniques and tool_gate remains 8/3/3. These are
+observed zeros with verified events/properties, but still tiny samples — extend,
+do not judge. PostHog returned no active error issues, but exception autocapture
+is disabled, so that remains missing instrumentation rather than proof of zero
+client errors.
+
+**Search:** the latest complete GSC week (Aug 20–26) reached 39 clicks / 2,703
+impressions / 1.44% CTR / 8.50 weighted position versus 22 / 2,118 / 1.04% /
+8.44 for Aug 13–19: clicks +77%, impressions +28%, CTR +0.40pp, rank essentially
+flat. No new flywheel query has enough volume to justify a same-day content
+change.
+
+**Small integrity fix:** fcb3930 inserted today's journal entry by replacing,
+rather than preceding, the `## 2026-08-27 — Full health refresh` heading. Restored
+that missing heading and separator without changing the older entry's body. This
+was the only repository change; docs-only, so no build required.
+
+---
+
 ## 2026-08-28 — Cron incident day 3: recovered by dispatch, scheduler hardened with backup slot
 
 **Health first (this was today's only task per §2a):** the 10:17Z refresh
@@ -59,6 +98,10 @@ arm at decision floor yet.
 - Refresh queue next: pacific-grove (07-05 vintage, oldest stale article).
 - Lint hygiene item from 08-27 still open (exclude nested worktree
   artifacts, fix tools-shared setState warning).
+
+---
+
+## 2026-08-27 — Full health refresh; Rialto closure removed from shared station surfaces
 
 **Health / update path:** pulled the late scheduled refresh commit 11cf5bf and
 confirmed its GitHub Actions run 33113925244 was green. The scheduled job did
