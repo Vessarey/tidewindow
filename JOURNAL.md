@@ -42,6 +42,15 @@ rather than preceding, the `## 2026-08-27 — Full health refresh` heading. Rest
 that missing heading and separator without changing the older entry's body. This
 was the only repository change; docs-only, so no build required.
 
+**10:30 follow-up:** the new 13:47Z watchdog run was still absent 43 minutes
+after its slot. That remains inside the playbook's ~3-hour GitHub scheduler
+drift allowance, so it is not evidence that the backup failed. Production still
+reported computed 2026-08-28 data with no browser errors; PostHog added only two
+pageviews and no conversion events; GSC had no newer complete day. Moved this
+heartbeat again, to 13:15 America/New_York, so future checks occur after the
+watchdog's full drift window and can make an honest pass/fail call. No site or
+pipeline change was justified.
+
 ---
 
 ## 2026-08-28 — Cron incident day 3: recovered by dispatch, scheduler hardened with backup slot
