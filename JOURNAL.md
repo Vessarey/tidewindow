@@ -51,6 +51,36 @@ heartbeat again, to 13:15 America/New_York, so future checks occur after the
 watchdog's full drift window and can make an honest pass/fail call. No site or
 pipeline change was justified.
 
+**13:16 follow-up — backup slot missed:** GitHub still had no scheduled run at
+17:16Z, 3h29m after the new 13:47Z slot, so both scheduled slots missed today.
+The workflow is active on the default branch and `gh workflow view` returns both
+valid cron entries; GitHub simply recorded no `schedule` event, leaving the skip
+guard unvalidated. I did not dispatch a duplicate run because the manual recovery
+already landed today's data. The live homepage and data endpoint returned 200,
+the homepage still reported `computed 2026-08-28 · NOAA CO-OPS`, and a fresh
+browser load had zero console errors. The successful manual path fetched all 12
+NOAA stations, built 122/122 pages, submitted 109 IndexNow URLs (HTTP 200), and
+pushed c5b2bf8.
+
+Production PostHog (host=`thetidewindow.com`, traffic=`Regular`) now has 246
+pageviews, 1 signup, 7 station selections, 5 window results, 7 gate clicks, 0
+reveals, and 0 trip-picker runs in the moving seven-day window. Since ship,
+article_gate_multi remains at 92 unique viewers with a 1/1/1 chain — still below
+the ~100 floor. The other observed chains remain article_gate 1/0/0,
+calendars_page 3/0/0, and tool_gate 8/3/3; no verdict. PostHog returned no active
+issues, but pageviews still report exception capture disabled, so that is missing
+instrumentation rather than proof of zero errors. GSC's newest complete date is
+still Aug 26; the Aug 20–26 weekly comparison above is unchanged. NPS conditions,
+updated Aug 27, still confirm Mora Road and Rialto access closed through Oct 15,
+so the current Second Beach routing remains correct.
+
+No second primary change was made: today's §2a recovery/hardening action was
+already complete and production data is current. The 13:15 Codex heartbeat is
+now the independent, no-cost backstop outside GitHub's scheduler. Tomorrow:
+observe whether GitHub registers either slot; if neither fires and the day's data
+is stale, dispatch exactly one recovery run through the playbook, then treat the
+native schedules as unreliable rather than adding more same-scheduler slots.
+
 ---
 
 ## 2026-08-28 — Cron incident day 3: recovered by dispatch, scheduler hardened with backup slot
