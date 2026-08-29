@@ -35,6 +35,25 @@ conversion arms all still below decision floors, extend. GSC newest complete
 day is still Aug 26 (3 clicks / 518 impressions / pos 8.2); impressions
 trending up (427–518/day Aug 22–26 vs ~250–300 the prior week).
 
+**13:16 heartbeat follow-up:** today's 13:47Z watchdog fired at 15:05Z
+(1h18m drift, inside the playbook's ~3h allowance), logged `Refresh for
+2026-08-29 already on main; skipping.`, and pushed nothing. This validates the
+guard again on the same day as the manual recovery. Production still returned
+200 for the homepage and data index, reported `computed 2026-08-29 · NOAA
+CO-OPS`, and produced no browser-console errors. No issues were open.
+
+Fresh PostHog with both `host=thetidewindow.com` and `traffic=Regular` filters:
+219 pageviews / 208 unique visitors, 0 signups, 4 station selections, 3 window
+results, 6 gate clicks, 0 reveals, and 0 trip-picker runs in the moving
+seven-day window. `article_gate_multi` reached 97 unique viewers since ship
+with its existing 1/1/1 chain — three viewers short of the ~100 floor, so it
+remains extended. The other observed chains are unchanged: article_gate 1/0/0,
+calendars_page 3/0/0, tool_gate 8/3/3. PostHog has no active error issues, but
+exception capture still reports disabled; that is missing instrumentation, not
+evidence of zero errors. GSC still ends Aug 26. NPS conditions, last updated
+Aug 27, still confirm Mora Road/Rialto access closed through Oct 15, so the
+Second Beach routing remains correct. No second primary change was justified.
+
 **Notes for tomorrow (08-30, Sun):**
 - Check whether today's drifted slots fired overnight and skipped cleanly
   (expect same pattern as 08-28). If the scheduler pattern holds — slots
