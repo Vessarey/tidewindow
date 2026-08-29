@@ -5,6 +5,51 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-29 — Cron incident day 4: recovered by dispatch; 08-28 skip guard validated
+
+**Health first (§2a — today's only task):** at 12:04Z neither scheduled slot
+had fired for 2026-08-29 (primary 10:17Z was 1h47m late; the 13:47Z watchdog
+not yet due). Fourth consecutive day without an on-time scheduled fire.
+Following the 08-27/08-28 precedent, dispatched exactly one recovery run:
+33251611565, green in ~2m. Commit d1de281 "data: daily NOAA refresh
+2026-08-29" on main; build generated 122/122 pages; IndexNow submitted 109
+URLs, HTTP 200. Production verified serving `computed 2026-08-29` after the
+Vercel deploy. The dispatch was made inside the ~3h drift window — the guard
+makes it harmless: any later drifted scheduled run will skip.
+
+**Skip guard VALIDATED (closes 08-28's watch item):** yesterday's two
+scheduled slots did eventually fire, massively drifted (10:17Z slot at
+21:11Z, 13:47Z slot at 23:11Z). Both logged "Refresh for 2026-08-28 already
+on main; skipping." and pushed nothing. The guard works exactly as designed;
+no duplicate refresh commits. So the failure mode is now purely GitHub
+scheduler drift of 10–13 hours, not lost runs — the guard plus one manual
+dispatch per late morning keeps data fresh at ~zero risk.
+
+**No open GitHub issues.** No second primary action (fix-day rule).
+
+**Metrics (PostHog 7d, host=thetidewindow.com):** 209 pageviews / 201
+uniques, 0 newsletter_signup (the window's lone signup aged out),
+station_selected 1, window_result_viewed 1, trip_picker_run 0. Tool usage
+this week is near-zero — consistent with the capture-constraint diagnosis;
+conversion arms all still below decision floors, extend. GSC newest complete
+day is still Aug 26 (3 clicks / 518 impressions / pos 8.2); impressions
+trending up (427–518/day Aug 22–26 vs ~250–300 the prior week).
+
+**Notes for tomorrow (08-30, Sun):**
+- Check whether today's drifted slots fired overnight and skipped cleanly
+  (expect same pattern as 08-28). If the scheduler pattern holds — slots
+  firing 10+ hours late — treat "dispatch by ~12:00Z if no scheduled run"
+  as the standing morning routine rather than an incident each day; journal
+  drift times but stop re-diagnosing.
+- Still owed: conversion-gate readout once arms reach ~100 exposures;
+  refresh pass on pacific-grove (oldest stale article, 07-05 vintage);
+  lint hygiene item from 08-27 (nested worktree artifacts, tools-shared
+  setState warning).
+- Saturday next week is monthly-rollover territory (2026-09 first run
+  falls on Tue 09-01): check PUBLISHED_MONTHS staged-rollout gate then.
+
+---
+
 ## 2026-08-28 — Heartbeat verification: live freshness confirmed; journal boundary repaired
 
 **Coordination:** today's owner operator had already completed the one primary
