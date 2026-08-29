@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -29,6 +29,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "low_ft": -1.459,
+   "low_time_local": "7:37 PM",
+   "window_local": "5:20 PM–10:00 PM",
+   "arrive_by_local": "6:37 PM",
+   "daylight_min": 57,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-10-26",
    "weekday": "Mon",
    "low_ft": -1.118,
@@ -51,18 +63,6 @@
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.278,
-   "low_time_local": "6:45 AM",
-   "window_local": "5:00 AM–8:30 AM",
-   "arrive_by_local": "5:45 AM",
-   "daylight_min": 111,
-   "score": 49,
-   "band": "Fair",
-   "weekend_or_holiday": false
   },
   {
    "date": "2026-10-11",
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 5,
-   "daylight_windows": 3,
-   "daylight_minus_tides": 2,
+   "lows_below_1ft": 4,
+   "daylight_windows": 2,
+   "daylight_minus_tides": 1,
    "best_window": {
     "date": "2026-08-29",
     "weekday": "Sat",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.278,
-   "low_time_local": "6:45 AM",
-   "window_local": "5:00 AM–8:30 AM",
-   "arrive_by_local": "5:45 AM",
-   "daylight_min": 111,
-   "score": 49,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 77,
-   "min_to_sun_edge": 6
-  },
-  {
    "date": "2026-08-29",
    "weekday": "Sat",
    "low_ft": -0.004,
@@ -450,6 +436,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 269,
    "min_to_sun_edge": 44
+  },
+  {
+   "date": "2026-09-12",
+   "weekday": "Sat",
+   "low_ft": 0.369,
+   "low_time_local": "7:04 AM",
+   "window_local": "5:55 AM–8:15 AM",
+   "arrive_by_local": "6:04 AM",
+   "daylight_min": 80,
+   "score": 34,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 85,
+   "min_to_sun_edge": 9
   }
  ],
  "species_last60d_5km": [

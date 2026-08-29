@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -37,6 +37,18 @@
    "arrive_by_local": "4:42 PM",
    "daylight_min": 183,
    "score": 67,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "low_ft": -1.152,
+   "low_time_local": "6:29 PM",
+   "window_local": "3:55 PM–9:20 PM",
+   "arrive_by_local": "5:29 PM",
+   "daylight_min": 142,
+   "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
   },
@@ -99,18 +111,6 @@
    "score": 50,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-09",
-   "weekday": "Fri",
-   "low_ft": 0.299,
-   "low_time_local": "4:45 PM",
-   "window_local": "3:15 PM–6:15 PM",
-   "arrive_by_local": "3:45 PM",
-   "daylight_min": 180,
-   "score": 47,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,8 +121,8 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 4,
-   "daylight_windows": 4,
+   "lows_below_1ft": 3,
+   "daylight_windows": 3,
    "daylight_minus_tides": 0,
    "best_window": {
     "date": "2026-08-29",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": 0.101,
-   "low_time_local": "5:34 AM",
-   "window_local": "3:50 AM–7:20 AM",
-   "arrive_by_local": "4:34 AM",
-   "daylight_min": 43,
-   "score": 29,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 67,
-   "min_to_sun_edge": -63
-  },
-  {
    "date": "2026-08-29",
    "weekday": "Sat",
    "low_ft": 0.405,
@@ -450,13 +436,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 274,
    "min_to_sun_edge": 8
+  },
+  {
+   "date": "2026-09-14",
+   "weekday": "Mon",
+   "low_ft": 0.567,
+   "low_time_local": "7:58 PM",
+   "window_local": "6:40 PM–9:25 PM",
+   "arrive_by_local": "6:58 PM",
+   "daylight_min": 39,
+   "score": 16,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 281,
+   "min_to_sun_edge": -39
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 37
+   "count": 36
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -471,7 +471,7 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 19
+   "count": 18
   },
   {
    "commonName": "Hammerhead Doto",

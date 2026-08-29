@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.017,
-   "low_time_local": "11:42 AM",
-   "window_local": "10:35 AM–12:55 PM",
-   "arrive_by_local": "10:42 AM",
-   "daylight_min": 140,
-   "score": 49,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-08-29",
    "weekday": "Sat",
    "low_ft": 0.626,
@@ -111,6 +99,18 @@
    "score": 33,
    "band": "Skip",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "Fri",
+   "low_ft": 0.512,
+   "low_time_local": "11:34 AM",
+   "window_local": "10:50 AM–12:15 PM",
+   "arrive_by_local": "10:34 AM",
+   "daylight_min": 85,
+   "score": 27,
+   "band": "Skip",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,20 +121,20 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 2,
-   "daylight_windows": 2,
-   "daylight_minus_tides": 1,
+   "lows_below_1ft": 1,
+   "daylight_windows": 1,
+   "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-28",
-    "weekday": "Fri",
-    "low_ft": -0.017,
-    "low_time_local": "11:42 AM",
-    "window_local": "10:35 AM–12:55 PM",
-    "arrive_by_local": "10:42 AM",
-    "daylight_min": 140,
-    "score": 49,
-    "band": "Fair",
-    "weekend_or_holiday": false
+    "date": "2026-08-29",
+    "weekday": "Sat",
+    "low_ft": 0.626,
+    "low_time_local": "12:17 PM",
+    "window_local": "11:40 AM–1:00 PM",
+    "arrive_by_local": "11:17 AM",
+    "daylight_min": 80,
+    "score": 33,
+    "band": "Skip",
+    "weekend_or_holiday": true
    }
   },
   "2026-09": {
@@ -258,18 +258,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.017,
-   "low_time_local": "11:42 AM",
-   "window_local": "10:35 AM–12:55 PM",
-   "arrive_by_local": "10:42 AM",
-   "daylight_min": 140,
-   "score": 49,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-10-05",
    "weekday": "Mon",
    "low_ft": 0.102,
@@ -278,6 +266,18 @@
    "arrive_by_local": "5:42 AM",
    "daylight_min": 46,
    "score": 22,
+   "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "Tue",
+   "low_ft": 0.509,
+   "low_time_local": "7:51 AM",
+   "window_local": "6:55 AM–8:45 AM",
+   "arrive_by_local": "6:51 AM",
+   "daylight_min": 89,
+   "score": 21,
    "band": "Skip",
    "weekend_or_holiday": false
   }
@@ -424,6 +424,11 @@
    "count": 7
   },
   {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 7
+  },
+  {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
    "count": 7
@@ -431,11 +436,6 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 6
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
    "count": 6
   },
   {

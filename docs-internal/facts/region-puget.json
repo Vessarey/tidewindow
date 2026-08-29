@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "region": "Puget Sound / Salish Sea",
  "stations": [
   {
@@ -14,20 +14,20 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 2,
-     "daylight_windows": 2,
-     "daylight_minus_tides": 1,
+     "lows_below_1ft": 1,
+     "daylight_windows": 1,
+     "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-28",
-      "weekday": "Fri",
-      "low_ft": -0.017,
-      "low_time_local": "11:42 AM",
-      "window_local": "10:35 AM–12:55 PM",
-      "arrive_by_local": "10:42 AM",
-      "daylight_min": 140,
-      "score": 49,
-      "band": "Fair",
-      "weekend_or_holiday": false
+      "date": "2026-08-29",
+      "weekday": "Sat",
+      "low_ft": 0.626,
+      "low_time_local": "12:17 PM",
+      "window_local": "11:40 AM–1:00 PM",
+      "arrive_by_local": "11:17 AM",
+      "daylight_min": 80,
+      "score": 33,
+      "band": "Skip",
+      "weekend_or_holiday": true
      }
     },
     "2026-09": {
@@ -140,20 +140,20 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 2,
-     "daylight_windows": 2,
+     "lows_below_1ft": 1,
+     "daylight_windows": 1,
      "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-28",
-      "weekday": "Fri",
-      "low_ft": 0.192,
-      "low_time_local": "10:47 AM",
-      "window_local": "9:30 AM–12:10 PM",
-      "arrive_by_local": "9:47 AM",
-      "daylight_min": 160,
-      "score": 48,
-      "band": "Fair",
-      "weekend_or_holiday": false
+      "date": "2026-08-29",
+      "weekday": "Sat",
+      "low_ft": 0.795,
+      "low_time_local": "11:20 AM",
+      "window_local": "10:45 AM–12:00 PM",
+      "arrive_by_local": "10:20 AM",
+      "daylight_min": 75,
+      "score": 33,
+      "band": "Skip",
+      "weekend_or_holiday": true
      }
     },
     "2026-09": {

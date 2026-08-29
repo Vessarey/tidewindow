@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -41,18 +41,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.322,
-   "low_time_local": "7:00 AM",
-   "window_local": "5:20 AM–8:45 AM",
-   "arrive_by_local": "6:00 AM",
-   "daylight_min": 128,
-   "score": 53,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-10-26",
    "weekday": "Mon",
    "low_ft": -1.162,
@@ -61,6 +49,18 @@
    "arrive_by_local": "6:09 PM",
    "daylight_min": 72,
    "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "low_ft": -1.469,
+   "low_time_local": "7:53 PM",
+   "window_local": "5:45 PM–10:10 PM",
+   "arrive_by_local": "6:53 PM",
+   "daylight_min": 30,
+   "score": 50,
    "band": "Fair",
    "weekend_or_holiday": false
   },
@@ -121,9 +121,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 6,
-   "daylight_windows": 4,
-   "daylight_minus_tides": 2,
+   "lows_below_1ft": 5,
+   "daylight_windows": 3,
+   "daylight_minus_tides": 1,
    "best_window": {
     "date": "2026-08-29",
     "weekday": "Sat",
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.322,
-   "low_time_local": "7:00 AM",
-   "window_local": "5:20 AM–8:45 AM",
-   "arrive_by_local": "6:00 AM",
-   "daylight_min": 128,
-   "score": 53,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 80,
-   "min_to_sun_edge": 23
-  },
-  {
    "date": "2026-08-29",
    "weekday": "Sat",
    "low_ft": -0.092,
@@ -450,6 +436,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 82,
    "min_to_sun_edge": -6
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "Fri",
+   "low_ft": 0.467,
+   "low_time_local": "7:09 PM",
+   "window_local": "6:10 PM–8:10 PM",
+   "arrive_by_local": "6:09 PM",
+   "daylight_min": 84,
+   "score": 28,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 272,
+   "min_to_sun_edge": 25
   }
  ],
  "species_last60d_5km": [

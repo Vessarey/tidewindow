@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -26,18 +26,6 @@
    "score": 70,
    "band": "Good",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.734,
-   "low_time_local": "7:24 AM",
-   "window_local": "5:35 AM–9:15 AM",
-   "arrive_by_local": "6:24 AM",
-   "daylight_min": 163,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": false
   },
   {
    "date": "2026-08-30",
@@ -110,6 +98,18 @@
    "score": 52,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "low_ft": -1.337,
+   "low_time_local": "7:29 PM",
+   "window_local": "5:30 PM–9:30 PM",
+   "arrive_by_local": "6:29 PM",
+   "daylight_min": 40,
+   "score": 49,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -120,9 +120,9 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 7,
-   "daylight_windows": 4,
-   "daylight_minus_tides": 3,
+   "lows_below_1ft": 6,
+   "daylight_windows": 3,
+   "daylight_minus_tides": 2,
    "best_window": {
     "date": "2026-08-29",
     "weekday": "Sat",
@@ -291,16 +291,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.734,
-   "low_time_local": "7:24 AM",
-   "window_local": "5:35 AM–9:15 AM",
-   "arrive_by_local": "6:24 AM",
-   "daylight_min": 163,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": false
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "low_ft": -0.714,
+   "low_time_local": "6:48 PM",
+   "window_local": "5:00 PM–8:35 PM",
+   "arrive_by_local": "5:48 PM",
+   "daylight_min": 71,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -366,20 +366,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": -0.734,
-   "low_time_local": "7:24 AM",
-   "window_local": "5:35 AM–9:15 AM",
-   "arrive_by_local": "6:24 AM",
-   "daylight_min": 163,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 84,
-   "min_to_sun_edge": 52
-  },
   {
    "date": "2026-08-29",
    "weekday": "Sat",
@@ -449,6 +435,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 86,
    "min_to_sun_edge": 19
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "Fri",
+   "low_ft": 0.228,
+   "low_time_local": "7:32 PM",
+   "window_local": "6:25 PM–8:40 PM",
+   "arrive_by_local": "6:32 PM",
+   "daylight_min": 74,
+   "score": 31,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 276,
+   "min_to_sun_edge": 7
   }
  ],
  "species_last60d_5km": [
@@ -470,22 +470,22 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
-   "count": 5
-  },
-  {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
    "count": 4
   },
   {
    "commonName": "Chocolate Aeolid",
    "scientificName": "Margina cocoachroma",
    "count": 4
+  },
+  {
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
+   "count": 3
   },
   {
    "commonName": "Branched Dendronotid",

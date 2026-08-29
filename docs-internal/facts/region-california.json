@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "region": "California",
  "stations": [
   {
@@ -14,8 +14,8 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 4,
-     "daylight_windows": 4,
+     "lows_below_1ft": 3,
+     "daylight_windows": 3,
      "daylight_minus_tides": 0,
      "best_window": {
       "date": "2026-08-29",
@@ -162,20 +162,20 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 3,
-     "daylight_windows": 3,
+     "lows_below_1ft": 2,
+     "daylight_windows": 2,
      "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-28",
-      "weekday": "Fri",
-      "low_ft": 0.07,
-      "low_time_local": "5:26 AM",
-      "window_local": "3:40 AM–7:15 AM",
-      "arrive_by_local": "4:26 AM",
-      "daylight_min": 39,
+      "date": "2026-08-29",
+      "weekday": "Sat",
+      "low_ft": 0.358,
+      "low_time_local": "5:53 AM",
+      "window_local": "4:25 AM–7:20 AM",
+      "arrive_by_local": "4:53 AM",
+      "daylight_min": 43,
       "score": 29,
       "band": "Skip",
-      "weekend_or_holiday": false
+      "weekend_or_holiday": true
      }
     },
     "2026-09": {
@@ -310,7 +310,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 3,
+     "lows_below_1ft": 2,
      "daylight_windows": 0,
      "daylight_minus_tides": 0,
      "best_window": null
@@ -447,7 +447,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 3,
+     "lows_below_1ft": 2,
      "daylight_windows": 0,
      "daylight_minus_tides": 0,
      "best_window": null

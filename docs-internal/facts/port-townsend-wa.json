@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-28",
+ "generated_on": "2026-08-29",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": 0.192,
-   "low_time_local": "10:47 AM",
-   "window_local": "9:30 AM–12:10 PM",
-   "arrive_by_local": "9:47 AM",
-   "daylight_min": 160,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-08-29",
    "weekday": "Sat",
    "low_ft": 0.795,
@@ -111,6 +99,18 @@
    "score": 33,
    "band": "Skip",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-05",
+   "weekday": "Mon",
+   "low_ft": -0.234,
+   "low_time_local": "5:48 AM",
+   "window_local": "3:55 AM–7:55 AM",
+   "arrive_by_local": "4:48 AM",
+   "daylight_min": 39,
+   "score": 27,
+   "band": "Skip",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -121,20 +121,20 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 2,
-   "daylight_windows": 2,
+   "lows_below_1ft": 1,
+   "daylight_windows": 1,
    "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-28",
-    "weekday": "Fri",
-    "low_ft": 0.192,
-    "low_time_local": "10:47 AM",
-    "window_local": "9:30 AM–12:10 PM",
-    "arrive_by_local": "9:47 AM",
-    "daylight_min": 160,
-    "score": 48,
-    "band": "Fair",
-    "weekend_or_holiday": false
+    "date": "2026-08-29",
+    "weekday": "Sat",
+    "low_ft": 0.795,
+    "low_time_local": "11:20 AM",
+    "window_local": "10:45 AM–12:00 PM",
+    "arrive_by_local": "10:20 AM",
+    "daylight_min": 75,
+    "score": 33,
+    "band": "Skip",
+    "weekend_or_holiday": true
    }
   },
   "2026-09": {
@@ -270,15 +270,15 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-28",
-   "weekday": "Fri",
-   "low_ft": 0.192,
-   "low_time_local": "10:47 AM",
-   "window_local": "9:30 AM–12:10 PM",
-   "arrive_by_local": "9:47 AM",
-   "daylight_min": 160,
-   "score": 48,
-   "band": "Fair",
+   "date": "2026-10-06",
+   "weekday": "Tue",
+   "low_ft": 0.28,
+   "low_time_local": "6:56 AM",
+   "window_local": "5:35 AM–8:25 AM",
+   "arrive_by_local": "5:56 AM",
+   "daylight_min": 67,
+   "score": 22,
+   "band": "Skip",
    "weekend_or_holiday": false
   }
  ],
