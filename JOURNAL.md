@@ -43,6 +43,13 @@ clicks 7/7/3/6/2, impressions 353–518/day, position 7.9–10.2 — impressions
 holding at the elevated late-Aug level; Aug 27–28 look soft but are within
 the incomplete-data tail.
 
+**Afternoon follow-up:** the drifted 10:17Z slot fired at 14:52Z (4h35m
+drift, run 33318076084), logged "Refresh for 2026-08-30 already on main;
+skipping." and pushed nothing — skip guard clean again, same pattern as
+08-28/08-29. Re-verified the morning's work end to end: all three commits
+on origin/main, CA hub serving the multi gate in production (HTTP 200),
+no open issues. No second primary action.
+
 **Notes for tomorrow (08-31, Mon):**
 - Standing morning routine: if no scheduled run by ~12:00Z, dispatch one
   recovery run; journal drift only.
