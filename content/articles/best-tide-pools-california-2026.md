@@ -3,6 +3,7 @@ title: "Best Tide Pools in California 2026: Four Coasts, and a Calendar That Pea
 description: "California's four tidepool coasts run dawn minus tides this July, but the year's deepest daylight lows land Dec 22-25 — afternoon water down to −1.90 ft."
 date: "2026-07-15"
 category: "regional-calendars"
+gateStations: ["san-diego-ca", "la-jolla-ca", "pillar-point-ca", "monterey-ca"]
 tags: ["best tide pools california", "california tide pools", "la jolla tide pools", "cabrillo tide pools", "pacific grove tide pools", "fitzgerald marine reserve", "pillar point tide pools"]
 featuredRoundup:
   states: ["ca"]

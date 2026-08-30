@@ -3,6 +3,7 @@ title: "Best Tide Pools in Oregon 2026: One Deep Dawn Run Left, and a Coast That
 description: "Oregon's four tidepool stations share one last deep 2026 dawn run, Aug 11-14 — then deep water moves to December dusk, deeper the farther south you go."
 date: "2026-07-19"
 category: "regional-calendars"
+gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 tags: ["best tide pools oregon", "oregon coast tide pools", "haystack rock", "yaquina head", "otter rock", "sunset bay", "cape arago", "minus tide"]
 featuredRoundup:
   states: ["or"]

@@ -4,6 +4,7 @@ description: "The last run of 2026 is Labor Day week, Sep 5–10: the holiday Mo
 date: "2026-07-03"
 updated: "2026-08-23"
 category: "regional-calendars"
+gateStations: ["port-townsend-wa", "seattle-wa"]
 tags: ["puget sound", "low tide calendar", "seattle", "port townsend", "minus tide"]
 faq:
   - q: "What is the deepest daylight low tide in Puget Sound in 2026?"

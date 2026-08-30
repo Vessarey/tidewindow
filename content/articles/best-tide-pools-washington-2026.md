@@ -3,6 +3,7 @@ title: "Best Tide Pools in Washington 2026: Three Coasts, One Deep-Tide Week"
 description: "Washington's three tidepool coasts hit their deepest daylight lows of 2026 the same day — July 14 — from −3.00 ft at La Push to −3.80 ft at Seattle."
 date: "2026-07-14"
 category: "regional-calendars"
+gateStations: ["la-push-wa", "port-townsend-wa", "seattle-wa"]
 tags: ["best tide pools washington", "washington tide pools", "puget sound tide pools", "olympic coast tide pools", "la push tide pools", "port townsend tide pools"]
 faq:
   - q: "Where are the best tide pools in Washington?"

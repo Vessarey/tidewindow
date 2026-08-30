@@ -4,6 +4,7 @@ description: "Every daylight minus tide on the Oregon coast, July–December 202
 date: "2026-07-03"
 updated: "2026-08-21"
 category: "regional-calendars"
+gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 tags: ["minus tide", "Oregon coast", "tide calendar", "tidepooling", "2026"]
 faq:
   - q: "When is the best minus tide on the Oregon coast in the second half of 2026?"
