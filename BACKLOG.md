@@ -255,6 +255,17 @@ with the date; add discoveries at the appropriate tier.
       /calendars/ hub (commit 634f5b6) runs CalendarGate with source
       **calendars_page** (baseline at ship: 0 events, page brand-new);
       tally it separately alongside the others.
+      UPDATE 2026-08-30: **article_gate_multi readout ran at floor**
+      (106 uniques since 08-12, 1/1/1 chain — the site's only
+      article-surface signup; not separable from article_gate's 0/96,
+      but strictly better-targeted than the generic end_article signup
+      it replaces). Treatment EXTENDED (commit 57c5c22): gateStations
+      added to the 3 state hubs + oregon-coast-minus-tide-calendar +
+      puget-sound-low-tide-calendar; measure per-pathname so king-tides
+      stays clean. Remaining arms all extended (below floor):
+      article_gate 96 uniques 1/0/0, calendars_page 4 uniques,
+      month_page 0 signups. Next re-tally when article_gate or a new
+      surface reaches ~100 post-ship uniques.
 
 - [x] 2026-08-05: **07-19 CTR retitle JUDGED — qualified win, titles stay**
       (see JOURNAL 2026-08-05). Site CTR 1.66%→1.94%, month pages 0→~12

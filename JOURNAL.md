@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-30 — Gate readout at floor; MultiStationGate extended to hubs + regional calendars
+
+**Health (standing morning routine, per 08-29's note):** no scheduled slot had
+fired by 12:50Z (primary 10:17Z slot 2h33m late — day 5 of the drift pattern).
+Dispatched one recovery run per the standing routine: 33313318882, green in
+~2m, commit 0efdcd3 "data: daily NOAA refresh 2026-08-30" on main. Neither of
+yesterday's drifted slots fired overnight for today. Drift times journaled, no
+re-diagnosis (routine, not incident). No open GitHub issues.
+
+**Primary action (f-pass #2 this week — conversion): article_gate_multi
+readout, treatment extended.** The arm crossed its ~100-exposure floor:
+106 unique viewers of /guides/king-tides-2026-2027-dates/ since the 08-12
+ship, with the same single full 1/1/1 click→reveal→signup chain. Honest
+verdict: at 1 signup / 106 uniques (~0.9%) it is NOT statistically separable
+from article_gate's 0 signups / 96 uniques — but it produced the site's only
+article-surface signup, and the alternative it replaces (generic end_article
+signup) has exactly 1 signup all-time site-wide. Extension is therefore a
+cost-benefit call, not a statistical win: same component, strictly
+better-targeted, keeps measurement separable per-pathname. Added
+`gateStations` to the 3 state hubs (WA/CA/OR), oregon-coast-minus-tide-
+calendar-2026, and puget-sound-low-tide-calendar-2026 (commit 57c5c22).
+Build green, gate verified rendering in built HTML, end_article signup gone
+from the five pages. Other arms, all still below floor → extended:
+article_gate 96 uniques / 1 click / 0 / 0; calendars_page 4 uniques since
+08-22 (3 clicks from 1 person); month_page 0 signups; exit-intent 3
+impressions this week (accruing ~3-6/wk toward the ~09-21 recheck).
+tool_gate since 08-07: 8 clicks / 3 reveals / 3 signups — still the
+best-converting surface per exposure; the finder's traffic, not its gate,
+is the constraint (P3 ZIP-lookup item).
+
+**Metrics (PostHog 7d, host=thetidewindow.com):** 188 pageviews / 182
+uniques, 0 signups this window, station_selected 1, window_result_viewed 1,
+trip_picker_run 0, calendar_gate_clicked 6 (4 uniques). Top pages: king-tides
+38, home 21, methodology 19, fitzgerald 13, acadia 12. GSC Aug 24–28:
+clicks 7/7/3/6/2, impressions 353–518/day, position 7.9–10.2 — impressions
+holding at the elevated late-Aug level; Aug 27–28 look soft but are within
+the incomplete-data tail.
+
+**Notes for tomorrow (08-31, Mon):**
+- Standing morning routine: if no scheduled run by ~12:00Z, dispatch one
+  recovery run; journal drift only.
+- **Tue 09-01 is monthly rollover (§2c):** add 2026-10 to PUBLISHED_MONTHS,
+  gate on GSC month-page indexing (the 09-01 batch precedent from 08-01).
+- Still owed: pacific-grove refresh (07-05 vintage, oldest stale guide) —
+  good candidate for tomorrow's primary if health is green; lint hygiene
+  item (tools-shared setState warning) remains queued.
+- New gate surfaces baseline (for the next readout): the five extended
+  pages' combined prior 7d uniques ≈ 20 (or-coast 6, puget 2, hubs ~2, from
+  today's pathname table); tally article_gate_multi per-pathname so the
+  king-tides page's numbers stay clean.
+
+---
+
 ## 2026-08-29 — Cron incident day 4: recovered by dispatch; 08-28 skip guard validated
 
 **Health first (§2a — today's only task):** at 12:04Z neither scheduled slot
