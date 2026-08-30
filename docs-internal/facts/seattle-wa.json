@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-29",
+ "generated_on": "2026-08-30",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-08-29",
-   "weekday": "Sat",
-   "low_ft": 0.626,
-   "low_time_local": "12:17 PM",
-   "window_local": "11:40 AM–1:00 PM",
-   "arrive_by_local": "11:17 AM",
-   "daylight_min": 80,
-   "score": 33,
-   "band": "Skip",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-11",
    "weekday": "Fri",
    "low_ft": 0.512,
@@ -109,6 +97,18 @@
    "arrive_by_local": "10:34 AM",
    "daylight_min": 85,
    "score": 27,
+   "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-05",
+   "weekday": "Mon",
+   "low_ft": 0.102,
+   "low_time_local": "6:42 AM",
+   "window_local": "5:30 AM–8:00 AM",
+   "arrive_by_local": "5:42 AM",
+   "daylight_min": 46,
+   "score": 22,
    "band": "Skip",
    "weekend_or_holiday": false
   }
@@ -121,21 +121,10 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 1,
-   "daylight_windows": 1,
+   "lows_below_1ft": 0,
+   "daylight_windows": 0,
    "daylight_minus_tides": 0,
-   "best_window": {
-    "date": "2026-08-29",
-    "weekday": "Sat",
-    "low_ft": 0.626,
-    "low_time_local": "12:17 PM",
-    "window_local": "11:40 AM–1:00 PM",
-    "arrive_by_local": "11:17 AM",
-    "daylight_min": 80,
-    "score": 33,
-    "band": "Skip",
-    "weekend_or_holiday": true
-   }
+   "best_window": null
   },
   "2026-09": {
    "lows_below_1ft": 19,
@@ -419,6 +408,11 @@
    "count": 8
   },
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 8
+  },
+  {
    "commonName": "Woody Chiton",
    "scientificName": "Mopalia lignosa",
    "count": 7
@@ -426,11 +420,6 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 7
-  },
-  {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
    "count": 7
   },
   {

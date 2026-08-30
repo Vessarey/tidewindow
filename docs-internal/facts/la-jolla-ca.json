@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-29",
+ "generated_on": "2026-08-30",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -65,6 +65,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "low_ft": -0.77,
+   "low_time_local": "5:51 PM",
+   "window_local": "3:25 PM–8:35 PM",
+   "arrive_by_local": "4:51 PM",
+   "daylight_min": 156,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": 0.014,
@@ -99,18 +111,6 @@
    "score": 55,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.132,
-   "low_time_local": "2:47 PM",
-   "window_local": "1:05 PM–4:30 PM",
-   "arrive_by_local": "1:47 PM",
-   "daylight_min": 205,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 2,
+   "lows_below_1ft": 1,
    "daylight_windows": 0,
    "daylight_minus_tides": 0,
    "best_window": null
@@ -445,17 +445,17 @@
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 108
+   "count": 105
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 54
+   "count": 53
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 53
+   "count": 51
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -465,12 +465,12 @@
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 37
+   "count": 36
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 37
+   "count": 36
   },
   {
    "commonName": "Olive's Aeolid",

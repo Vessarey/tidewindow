@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-29",
+ "generated_on": "2026-08-30",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -77,6 +77,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "low_ft": -1.172,
+   "low_time_local": "7:21 PM",
+   "window_local": "4:40 PM–10:20 PM",
+   "arrive_by_local": "6:21 PM",
+   "daylight_min": 96,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-10-11",
    "weekday": "Sun",
    "low_ft": -0.174,
@@ -99,18 +111,6 @@
    "score": 52,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-12",
-   "weekday": "Mon",
-   "low_ft": -0.174,
-   "low_time_local": "6:49 PM",
-   "window_local": "4:45 PM–9:05 PM",
-   "arrive_by_local": "5:49 PM",
-   "daylight_min": 112,
-   "score": 50,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,18 +121,18 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 3,
-   "daylight_windows": 3,
+   "lows_below_1ft": 2,
+   "daylight_windows": 2,
    "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-29",
-    "weekday": "Sat",
-    "low_ft": 0.405,
-    "low_time_local": "6:01 AM",
-    "window_local": "4:35 AM–7:30 AM",
-    "arrive_by_local": "5:01 AM",
-    "daylight_min": 52,
-    "score": 30,
+    "date": "2026-08-30",
+    "weekday": "Sun",
+    "low_ft": 0.813,
+    "low_time_local": "6:29 AM",
+    "window_local": "5:40 AM–7:20 AM",
+    "arrive_by_local": "5:29 AM",
+    "daylight_min": 41,
+    "score": 26,
     "band": "Skip",
     "weekend_or_holiday": true
    }
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-29",
-   "weekday": "Sat",
-   "low_ft": 0.405,
-   "low_time_local": "6:01 AM",
-   "window_local": "4:35 AM–7:30 AM",
-   "arrive_by_local": "5:01 AM",
-   "daylight_min": 52,
-   "score": 30,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 72,
-   "min_to_sun_edge": -37
-  },
-  {
    "date": "2026-08-30",
    "weekday": "Sun",
    "low_ft": 0.813,
@@ -450,6 +436,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 281,
    "min_to_sun_edge": -39
+  },
+  {
+   "date": "2026-09-27",
+   "weekday": "Sun",
+   "low_ft": 0.19,
+   "low_time_local": "5:57 PM",
+   "window_local": "4:20 PM–7:40 PM",
+   "arrive_by_local": "4:57 PM",
+   "daylight_min": 159,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 259,
+   "min_to_sun_edge": 62
   }
  ],
  "species_last60d_5km": [

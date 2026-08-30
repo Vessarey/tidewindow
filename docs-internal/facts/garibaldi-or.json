@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-29",
+ "generated_on": "2026-08-30",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-29",
-   "weekday": "Sat",
-   "low_ft": -0.247,
-   "low_time_local": "8:05 AM",
-   "window_local": "6:35 AM–9:35 AM",
-   "arrive_by_local": "7:05 AM",
-   "daylight_min": 180,
-   "score": 65,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-09-11",
    "weekday": "Fri",
@@ -111,6 +99,18 @@
    "score": 41,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.069,
+   "low_time_local": "6:20 PM",
+   "window_local": "5:05 PM–7:35 PM",
+   "arrive_by_local": "5:20 PM",
+   "daylight_min": 70,
+   "score": 36,
+   "band": "Skip",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -121,19 +121,19 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 5,
-   "daylight_windows": 3,
-   "daylight_minus_tides": 1,
+   "lows_below_1ft": 4,
+   "daylight_windows": 2,
+   "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-29",
-    "weekday": "Sat",
-    "low_ft": -0.247,
-    "low_time_local": "8:05 AM",
-    "window_local": "6:35 AM–9:35 AM",
-    "arrive_by_local": "7:05 AM",
-    "daylight_min": 180,
-    "score": 65,
-    "band": "Good",
+    "date": "2026-08-30",
+    "weekday": "Sun",
+    "low_ft": 0.158,
+    "low_time_local": "8:36 AM",
+    "window_local": "7:25 AM–9:45 AM",
+    "arrive_by_local": "7:36 AM",
+    "daylight_min": 140,
+    "score": 50,
+    "band": "Fair",
     "weekend_or_holiday": true
    }
   },

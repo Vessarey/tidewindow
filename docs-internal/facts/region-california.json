@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-29",
+ "generated_on": "2026-08-30",
  "region": "California",
  "stations": [
   {
@@ -14,18 +14,18 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 3,
-     "daylight_windows": 3,
+     "lows_below_1ft": 2,
+     "daylight_windows": 2,
      "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-29",
-      "weekday": "Sat",
-      "low_ft": 0.405,
-      "low_time_local": "6:01 AM",
-      "window_local": "4:35 AM–7:30 AM",
-      "arrive_by_local": "5:01 AM",
-      "daylight_min": 52,
-      "score": 30,
+      "date": "2026-08-30",
+      "weekday": "Sun",
+      "low_ft": 0.813,
+      "low_time_local": "6:29 AM",
+      "window_local": "5:40 AM–7:20 AM",
+      "arrive_by_local": "5:29 AM",
+      "daylight_min": 41,
+      "score": 26,
       "band": "Skip",
       "weekend_or_holiday": true
      }
@@ -162,18 +162,18 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 2,
-     "daylight_windows": 2,
+     "lows_below_1ft": 1,
+     "daylight_windows": 1,
      "daylight_minus_tides": 0,
      "best_window": {
-      "date": "2026-08-29",
-      "weekday": "Sat",
-      "low_ft": 0.358,
-      "low_time_local": "5:53 AM",
-      "window_local": "4:25 AM–7:20 AM",
-      "arrive_by_local": "4:53 AM",
-      "daylight_min": 43,
-      "score": 29,
+      "date": "2026-08-30",
+      "weekday": "Sun",
+      "low_ft": 0.766,
+      "low_time_local": "6:20 AM",
+      "window_local": "5:30 AM–7:10 AM",
+      "arrive_by_local": "5:20 AM",
+      "daylight_min": 33,
+      "score": 25,
       "band": "Skip",
       "weekend_or_holiday": true
      }
@@ -310,7 +310,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 2,
+     "lows_below_1ft": 1,
      "daylight_windows": 0,
      "daylight_minus_tides": 0,
      "best_window": null
@@ -447,7 +447,7 @@
      "best_window": null
     },
     "2026-08": {
-     "lows_below_1ft": 2,
+     "lows_below_1ft": 1,
      "daylight_windows": 0,
      "daylight_minus_tides": 0,
      "best_window": null

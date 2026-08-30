@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-29",
+ "generated_on": "2026-08-30",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -89,6 +89,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "low_ft": -0.914,
+   "low_time_local": "7:20 PM",
+   "window_local": "4:45 PM–10:10 PM",
+   "arrive_by_local": "6:20 PM",
+   "daylight_min": 90,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-10-12",
    "weekday": "Mon",
    "low_ft": 0.034,
@@ -97,18 +109,6 @@
    "arrive_by_local": "5:42 PM",
    "daylight_min": 110,
    "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": 0.462,
-   "low_time_local": "5:48 PM",
-   "window_local": "4:30 PM–7:10 PM",
-   "arrive_by_local": "4:48 PM",
-   "daylight_min": 147,
-   "score": 44,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -121,18 +121,18 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 2,
-   "daylight_windows": 2,
+   "lows_below_1ft": 1,
+   "daylight_windows": 1,
    "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-29",
-    "weekday": "Sat",
-    "low_ft": 0.358,
-    "low_time_local": "5:53 AM",
-    "window_local": "4:25 AM–7:20 AM",
-    "arrive_by_local": "4:53 AM",
-    "daylight_min": 43,
-    "score": 29,
+    "date": "2026-08-30",
+    "weekday": "Sun",
+    "low_ft": 0.766,
+    "low_time_local": "6:20 AM",
+    "window_local": "5:30 AM–7:10 AM",
+    "arrive_by_local": "5:20 AM",
+    "daylight_min": 33,
+    "score": 25,
     "band": "Skip",
     "weekend_or_holiday": true
    }
@@ -368,20 +368,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-08-29",
-   "weekday": "Sat",
-   "low_ft": 0.358,
-   "low_time_local": "5:53 AM",
-   "window_local": "4:25 AM–7:20 AM",
-   "arrive_by_local": "4:53 AM",
-   "daylight_min": 43,
-   "score": 29,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 71,
-   "min_to_sun_edge": -44
-  },
-  {
    "date": "2026-08-30",
    "weekday": "Sun",
    "low_ft": 0.766,
@@ -450,6 +436,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 265,
    "min_to_sun_edge": 19
+  },
+  {
+   "date": "2026-09-29",
+   "weekday": "Tue",
+   "low_ft": 0.001,
+   "low_time_local": "7:29 PM",
+   "window_local": "5:35 PM–9:30 PM",
+   "arrive_by_local": "6:29 PM",
+   "daylight_min": 79,
+   "score": 32,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 272,
+   "min_to_sun_edge": -35
   }
  ],
  "species_last60d_5km": [
