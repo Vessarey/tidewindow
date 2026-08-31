@@ -264,8 +264,11 @@ with the date; add discoveries at the appropriate tier.
       puget-sound-low-tide-calendar; measure per-pathname so king-tides
       stays clean. Remaining arms all extended (below floor):
       article_gate 96 uniques 1/0/0, calendars_page 4 uniques,
-      month_page 0 signups. Next re-tally when article_gate or a new
-      surface reaches ~100 post-ship uniques.
+      month_page 0 signups. FOLLOW-UP later 2026-08-30: article_gate
+      crossed the surface floor at 102 uniques with 2 clicks / 0 reveals /
+      0 signups. Only two click events still means no defensible treatment
+      change; extend and re-tally after meaningful click volume. The newly
+      extended multi-gate surfaces remain below floor.
 
 - [x] 2026-08-05: **07-19 CTR retitle JUDGED — qualified win, titles stay**
       (see JOURNAL 2026-08-05). Site CTR 1.66%→1.94%, month pages 0→~12
@@ -355,6 +358,17 @@ with the date; add discoveries at the appropriate tier.
       relevance first; prefer harmonic.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
+
+- [x] 2026-08-30: **Next.js August security release applied** — upgraded
+      `next` + `eslint-config-next` from 16.2.10 to 16.3.3 after the official
+      08-25 release and a production audit flagged the pinned version. Build
+      green on 16.3.3, 122/122 pages. Production-only audit dropped from
+      6 findings (5 high, 1 moderate) to 2 transitive findings; direct Next.js
+      and bundled sharp findings cleared.
+- [ ] Residual production audit findings after the 16.3.3 upgrade: js-yaml
+      3.15.0 via gray-matter (high) and DOMPurify 3.4.11 (moderate). Review
+      narrow lock/dependency upgrades and applicability; do not run an
+      unreviewed bulk `npm audit fix`.
 
 - [ ] TIME-BOMB: **Rialto Beach / Hole-in-the-Wall closed Jul 8–Oct 15, 2026**
       (NPS Mora Road construction — verified 2026-07-09 on nps.gov/olym

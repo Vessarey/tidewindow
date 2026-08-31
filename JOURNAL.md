@@ -50,6 +50,32 @@ skipping." and pushed nothing — skip guard clean again, same pattern as
 on origin/main, CA hub serving the multi gate in production (HTTP 200),
 no open issues. No second primary action.
 
+**Security follow-up (single evidence-backed improvement in this review):**
+the later dependency audit found production pinned to Next.js 16.2.10 while
+the official 08-25 security release requires 16.3.3. Upgraded `next` and
+`eslint-config-next` together to 16.3.3. `npm run build` is green on 16.3.3
+and generated 122/122 pages. Production-only `npm audit` fell from 6 findings
+(5 high, 1 moderate) to 2 transitive findings (js-yaml high, DOMPurify
+moderate); the direct Next.js and bundled sharp findings cleared. Full lint
+remains non-green for the already-queued source error plus generated
+`.claude/worktrees/**/.next` and `out` artifacts; none is in the dependency
+diff. A second scheduled slot then fired at 17:45Z (run 33326147017), logged
+the same already-refreshed skip, and pushed nothing.
+
+Fresh verification used both production filters (`$host=thetidewindow.com`,
+`$virt_traffic_type=Regular`): 199 pageviews / 193 uniques, 0 signups, 1
+station selection, 1 result view, 6 gate clicks (4 people), 0 reveals, 0 trip
+picker runs; live browser checks may contribute up to three pageviews but no
+custom events. Web Vitals had 189 observations with p75 LCP 1.33s, INP 22ms,
+CLS 0.018. Error Tracking matched no active issues, but exception capture is
+explicitly false, so this remains missing instrumentation rather than observed
+zero errors. `article_gate` also crossed its surface floor at 102 unique
+viewers with 2 clicks / 0 reveals / 0 signups; that is still only two events,
+so it is extended rather than changed. GSC remains current through 08-28;
+late-Aug impressions are 308–518/day and position 7.9–10.2, with the last two
+days inside the incomplete tail. NPS still lists Mora Road/Rialto access closed
+through 10-15 (page updated 08-27), so the Second Beach routing stays correct.
+
 **Notes for tomorrow (08-31, Mon):**
 - Standing morning routine: if no scheduled run by ~12:00Z, dispatch one
   recovery run; journal drift only.
@@ -58,6 +84,9 @@ no open issues. No second primary action.
 - Still owed: pacific-grove refresh (07-05 vintage, oldest stale guide) —
   good candidate for tomorrow's primary if health is green; lint hygiene
   item (tools-shared setState warning) remains queued.
+- Security follow-up: direct Next.js/sharp findings are cleared on 16.3.3;
+  assess the remaining transitive js-yaml + DOMPurify updates separately rather
+  than running an unreviewed bulk audit fix.
 - New gate surfaces baseline (for the next readout): the five extended
   pages' combined prior 7d uniques ≈ 20 (or-coast 6, puget 2, hubs ~2, from
   today's pathname table); tally article_gate_multi per-pathname so the
