@@ -56,10 +56,16 @@ station JSON files contain H/L events; 33 guide + 12 station cards generated;
 desktop/mobile browser checks passed for ZIP lookup, far-distance warning,
 month H/L expansion, guide pathways, and metadata with no console errors.
 
-**Next action:** after this candidate lands, verify the production commit,
-homepage/data freshness, ZIP-map asset, one station/month table, one refreshed
-guide, social image assets, and browser console. On Sep 1, add 2026-10 to
-`PUBLISHED_MONTHS`; do not alter experiments before meaningful click volume.
+**Production release:** commit e810e79 landed on `origin/main`; Vercel reported
+success. Live checks confirmed the homepage and all 12 station files at the
+2026-08-31 refresh, the 33,791-entry ZIP map, Pillar Point's complete August
+H/L table and updated search metadata, the refreshed Pacific Grove guide and
+its contextual links, and both guide/station PNG card families (HTTP 200).
+Production browser navigation across home, month, and guide pages produced no
+console warnings or errors.
+
+**Next action:** on Sep 1, add 2026-10 to `PUBLISHED_MONTHS`; do not alter
+experiments before meaningful click volume. Keep the Oct 15 Rialto recheck.
 
 ---
 
