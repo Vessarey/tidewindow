@@ -121,19 +121,19 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 2,
-   "daylight_windows": 2,
+   "lows_below_1ft": 1,
+   "daylight_windows": 1,
    "daylight_minus_tides": 0,
    "best_window": {
     "date": "2026-08-31",
     "weekday": "Mon",
-    "low_ft": 0.049,
-    "low_time_local": "7:19 AM",
-    "window_local": "6:10 AM–8:25 AM",
-    "arrive_by_local": "6:19 AM",
-    "daylight_min": 135,
-    "score": 42,
-    "band": "Fair",
+    "low_ft": 0.036,
+    "low_time_local": "7:43 PM",
+    "window_local": "6:35 PM–8:50 PM",
+    "arrive_by_local": "6:43 PM",
+    "daylight_min": 36,
+    "score": 25,
+    "band": "Skip",
     "weekend_or_holiday": false
    }
   },
@@ -370,20 +370,6 @@
   {
    "date": "2026-08-31",
    "weekday": "Mon",
-   "low_ft": 0.049,
-   "low_time_local": "7:19 AM",
-   "window_local": "6:10 AM–8:25 AM",
-   "arrive_by_local": "6:19 AM",
-   "daylight_min": 135,
-   "score": 42,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 92,
-   "min_to_sun_edge": 84
-  },
-  {
-   "date": "2026-08-31",
-   "weekday": "Mon",
    "low_ft": 0.036,
    "low_time_local": "7:43 PM",
    "window_local": "6:35 PM–8:50 PM",
@@ -450,6 +436,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 272,
    "min_to_sun_edge": 22
+  },
+  {
+   "date": "2026-09-13",
+   "weekday": "Sun",
+   "low_ft": -0.267,
+   "low_time_local": "6:48 AM",
+   "window_local": "5:35 AM–8:05 AM",
+   "arrive_by_local": "5:48 AM",
+   "daylight_min": 115,
+   "score": 53,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 91,
+   "min_to_sun_edge": 38
   }
  ],
  "species_last60d_5km": [
