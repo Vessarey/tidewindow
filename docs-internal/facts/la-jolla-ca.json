@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-30",
+ "generated_on": "2026-08-31",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -485,12 +485,12 @@
   {
    "commonName": "Two-spotted Dorid",
    "scientificName": "Thordisa bimaculata",
-   "count": 25
+   "count": 24
   },
   {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
-   "count": 23
+   "count": 21
   }
  ]
 }

@@ -31,6 +31,15 @@ export interface TideWindow {
   curve: { t0: number; dt: number; vals: (number | null)[] };
 }
 
+export interface TideExtreme {
+  date: string;
+  weekday: string;
+  time: number;
+  timeLocal: string;
+  height: number;
+  type: "H" | "L";
+}
+
 export interface StationMeta {
   slug: string;
   noaaId: string;
@@ -53,6 +62,7 @@ export interface StationData {
   generatedAt: number;
   method: string;
   species: { commonName: string | null; scientificName: string; count: number }[] | null;
+  tides?: TideExtreme[];
   windows: TideWindow[];
 }
 

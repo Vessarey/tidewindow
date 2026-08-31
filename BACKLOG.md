@@ -162,8 +162,12 @@ with the date; add discoveries at the appropriate tier.
       Beach Hazards Statement product specifics CUT (no clean official
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
-- [ ] Refresh-pass queue (priority e, not additions): next candidate is
-      pacific-grove (07-05 vintage), now the oldest unrefreshed guide.
+- [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
+      exposed guide after the completed Pacific Grove pass.
+      Done 2026-08-30: pacific-grove-tide-pools-2026 — rolled the lead and
+      ranked tables through Dec 2026, refreshed the iNaturalist snapshot,
+      rechecked NOAA/CDFW/California State Parks sources, and added direct
+      pathways into the finder, Trip Picker, calendars, and Monterey chart.
       Done 2026-08-25: cabrillo-tide-pools-2026 (df090e5) — July/Aug dawn
       lows retired to record (07-03 stamps preserved; rolling window can't
       recompute them), ranked table now the six remaining usable dates
@@ -288,10 +292,11 @@ with the date; add discoveries at the appropriate tier.
       you"), three sections below the tool linking depth explainers,
       methodology, all 4 state hubs, and sibling tools. Baseline to judge
       against in ~2 weeks: 67 impr / pos ~52 / 0 clicks (GSC 07-19).
-- [ ] "high tide acadia" / "acadia high tide time" queries land on our
-      low-only pages at pos 20–45 (GSC 07-19) — highs aren't in fact sheets
-      or pages; decide whether the pipeline should publish daily high/low
-      pairs before writing anything. ALSO (2026-07-24): the windows dataset
+- [x] 2026-08-30: **Full high/low tide sequence published.** "high tide acadia"
+      / "acadia high tide time" queries had landed on our
+      low-only pages at pos 20–45 (GSC 07-19). At the time, highs weren't in
+      fact sheets or pages, so the pipeline decision came before new copy.
+      ALSO (2026-07-24): the windows dataset
       only carries lows below ~+1.0 ft (77 of ~400 days have no entry at Bar
       Harbor), so a full "Bar Island crossing schedule" page is equally
       blocked; the same pipeline decision unblocks both, plus the flywheel
@@ -300,7 +305,9 @@ with the date; add discoveries at the appropriate tier.
       visible GSC queries post-retitle hunt NOAA annual tide-table PDFs for
       station 9414131 (highs+lows) — the cluster's 0/129 CTR looks like
       this same lows-only intent gap, not titles. Three query families now
-      point at one fix; this is the strongest-evidenced P2 product item.
+      pointed at one fix. The NOAA pipeline now stores daily H/L extremes;
+      station pages expose the next seven days and every published month page
+      includes a complete high-and-low table. Metadata now names that intent.
 - [x] 2026-07-05: iNat taxa filter DONE — terrestrial strays (Garden Snail,
       Pacific Banana Slug, land Helicidae, woodlice) excluded by ancestry.
       scripts/pipeline/species.mjs owns fetchSpecies + a TERRESTRIAL_CLADE_IDS
@@ -310,17 +317,22 @@ with the date; add discoveries at the appropriate tier.
       stored lat/lng (species-only diff, no NOAA churn). Verified Garden Snail
       gone from Seattle; marine sea slugs (incl. Hopkins' Rose) retained.
 - [ ] NDBC buoy swell for 7-day conditions row (spec §4f full version).
-- [ ] ZIP → nearest-station lookup for the finder (static lookup table).
-- [ ] Per-station OG images (station name + mini heatmap via ImageResponse).
-- [ ] **Article/guide pages emit NO `og:image`** (discovered 2026-07-14 while
+- [x] 2026-08-30: ZIP → nearest-station lookup for the finder — generated
+      static table from the official 2025 Census ZCTA Gazetteer; lookup and
+      distance math run locally in the browser and analytics never receive the
+      submitted ZIP.
+- [x] 2026-08-30: Per-station OG images — generated 1200×630 PNGs with station
+      name, next-window fact, and mini annual heatmap during every build.
+- [x] 2026-08-30: **Article/guide `og:image` coverage completed.** (Discovered
+      2026-07-14 while
       auditing the favicon). The root `app/opengraph-image.tsx` covers the
       homepage, but nested `/guides/[slug]` pages inherit no og:image in the
       static export, and `/opengraph-image` itself 308-redirects. Add a
       per-article (or at least a stable site-wide) og:image so social shares and
       article rich-result thumbnails have an image. Pairs with the per-station
       OG-image item above. NB: Article JSON-LD `image` was intentionally left
-      unset for now (a square logo makes a poor thumbnail) — set it to the real
-      OG image when this lands.
+      unset until the real image landed; it now references each generated guide
+      card, matching Open Graph and Twitter metadata.
 - [x] 2026-07-05: Featured-roundup slot on /beaches/[state] hubs DONE — data
       driven from article frontmatter (new optional `featuredRoundup: {states,
       event, until, teaser}`; getActiveRoundup() in src/lib/content.ts). Renders a
@@ -365,10 +377,10 @@ with the date; add discoveries at the appropriate tier.
       green on 16.3.3, 122/122 pages. Production-only audit dropped from
       6 findings (5 high, 1 moderate) to 2 transitive findings; direct Next.js
       and bundled sharp findings cleared.
-- [ ] Residual production audit findings after the 16.3.3 upgrade: js-yaml
-      3.15.0 via gray-matter (high) and DOMPurify 3.4.11 (moderate). Review
-      narrow lock/dependency upgrades and applicability; do not run an
-      unreviewed bulk `npm audit fix`.
+- [x] 2026-08-30: Residual audit findings cleared — removed gray-matter and its
+      old js-yaml chain in favor of a narrow YAML frontmatter parser, upgraded
+      PostHog/sharp directly, then applied npm's reviewed three-package
+      transitive fix. Both full and production-only audits report zero findings.
 
 - [ ] TIME-BOMB: **Rialto Beach / Hole-in-the-Wall closed Jul 8–Oct 15, 2026**
       (NPS Mora Road construction — verified 2026-07-09 on nps.gov/olym
@@ -385,14 +397,16 @@ with the date; add discoveries at the appropriate tier.
 - [x] 2026-08-14: gh CLI auth WORKING again (`gh run list` + `gh issue list`
       both succeed, no 401) — owner appears to have re-authed; item closed.
       (Was: token invalid since 2026-07-25, operator used the public API.)
-- [ ] `npm run lint` fails with one pre-existing react-hooks/set-state-in-effect
+- [x] 2026-08-30: `npm run lint` is green. Fixed the pre-existing
+      react-hooks/set-state-in-effect
       error (src/components/tools-shared.tsx:25 — setData inside useEffect cache
-      hit; discovered 2026-07-05, present on clean main). Build is unaffected;
-      fix by moving the cache read into initial state or useSyncExternalStore.
-- [ ] CI Node deprecation: Actions log warns actions/checkout, setup-node,
+      hit) by deriving cache/loading state without a synchronous effect write;
+      generated worktrees/stubs are excluded from the lint surface.
+- [x] 2026-08-30: CI Node deprecation cleared in source — Actions log had warned
+      actions/checkout, setup-node,
       upload-pages-artifact, upload-artifact, deploy-pages target Node 20 (forced
-      to 24). Non-blocking now; bump to current major versions before GitHub drops
-      the Node-20 shim.
+      to 24). Workflow refs now use the official current majors: checkout v7,
+      setup-node v7, upload-pages-artifact v5, and deploy-pages v5.
 - [x] 2026-07-18: Deploys now build from committed data (commit 4365733) —
       done as the fix for the day's service-wide NOAA predictions outage, which
       failed the cron and would have failed any Vercel deploy. Plain builds use

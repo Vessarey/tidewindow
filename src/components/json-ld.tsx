@@ -62,6 +62,7 @@ export function ArticleJsonLd({ article }: { article: Article }) {
         "@type": "Article",
         headline: article.title,
         description: article.description,
+        image: absoluteUrl(`/og/guides/${article.slug}.png`),
         datePublished: article.date,
         dateModified: article.updated ?? article.date,
         author: {

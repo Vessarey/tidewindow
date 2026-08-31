@@ -8,13 +8,13 @@
     "start": "next start",
     "lint": "eslint",
     "pipeline": "node scripts/pipeline/run.mjs",
-    "prebuild": "node scripts/pipeline/run.mjs"
+    "zip-map": "node scripts/build-zip-station-map.mjs",
+    "prebuild": "node scripts/pipeline/run.mjs && node scripts/build-og-images.mjs"
   },
   "dependencies": {
     "astronomy-engine": "^2.1.19",
-    "gray-matter": "^4.0.3",
     "next": "16.3.3",
-    "posthog-js": "^1.396.5",
+    "posthog-js": "1.422.5",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "rehype-autolink-headings": "^7.1.0",
@@ -23,7 +23,9 @@
     "remark-gfm": "^4.0.1",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
-    "unified": "^11.0.5"
+    "sharp": "0.35.4",
+    "unified": "^11.0.5",
+    "yaml": "2.9.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

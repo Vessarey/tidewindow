@@ -260,10 +260,14 @@ const posthogKey = (() => {
 async function processStation(station, holidays, generatedAt) {
   const meta = await fetchStationMeta(station.noaaId);
   const observer = new Astronomy.Observer(meta.lat, meta.lng, 0);
+  // Keep the full current calendar year's high/low events so published month
+  // pages can answer complete tide-chart queries, including earlier dates in
+  // the current year. Window math still starts near the refresh time below.
+  const extremesBegin = new Date(Date.UTC(new Date(generatedAt).getUTCFullYear(), 0, 1));
   const begin = new Date(generatedAt - 86400_000);
   const end = new Date(generatedAt + DAYS_AHEAD * 86400_000);
 
-  const extremes = await fetchPredictions(station.noaaId, "hilo", begin, end);
+  const extremes = await fetchPredictions(station.noaaId, "hilo", extremesBegin, end);
   if (extremes.length < 100) throw new Error(`${station.slug}: suspiciously few extremes (${extremes.length})`);
 
   let hourly = null;
@@ -371,6 +375,14 @@ async function processStation(station, holidays, generatedAt) {
   }
 
   const species = await fetchSpecies(meta.lat, meta.lng);
+  const tides = extremes.map((ext) => ({
+    date: localDateStr(station.tz, ext.t),
+    weekday: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][localWeekday(station.tz, ext.t)],
+    time: ext.t,
+    timeLocal: localTimeStr(station.tz, ext.t),
+    height: ext.v,
+    type: ext.type,
+  }));
 
   return {
     station: {
@@ -385,6 +397,7 @@ async function processStation(station, holidays, generatedAt) {
     method: station.kind === "harmonic" ? "hourly-interpolation" : "cosine-interpolation",
     cosineSelfTest: cosineDiffStats,
     species,
+    tides,
     windows,
   };
 }

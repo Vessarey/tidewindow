@@ -29,6 +29,11 @@ export function initAnalytics() {
     capture_pageview: "history_change",
     capture_pageleave: true,
     autocapture: true,
+    // Keep this explicit instead of relying on the project's remote toggle:
+    // uncaught browser errors and unhandled promise rejections land as
+    // $exception events, turning Error Tracking from an instrumentation gap
+    // into an observed production signal.
+    capture_exceptions: true,
     // Web vitals (LCP/CLS/FCP/INP) land as $web_vitals events. Safe with
     // persistence:"memory" — per @posthog/types, cookieless vitals are still
     // captured and ingestion assigns $session_id server-side.

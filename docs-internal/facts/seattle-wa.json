@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-30",
+ "generated_on": "2026-08-31",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -403,13 +403,13 @@
    "count": 10
   },
   {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
-   "count": 8
-  },
-  {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
+   "count": 9
+  },
+  {
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
    "count": 8
   },
   {
@@ -433,13 +433,13 @@
    "count": 4
   },
   {
-   "commonName": "Lined Chiton",
-   "scientificName": "Tonicella lineata",
-   "count": 3
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
+   "count": 4
   },
   {
-   "commonName": null,
-   "scientificName": "Aeolidia",
+   "commonName": "Lined Chiton",
+   "scientificName": "Tonicella lineata",
    "count": 3
   }
  ]

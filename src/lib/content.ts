@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import matter from "gray-matter";
+import { parse as parseYaml } from "yaml";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
@@ -42,14 +42,21 @@ function articlesDir(): string {
   return path.join(CONTENT_DIR, "articles");
 }
 
+function parseFrontmatter(raw: string): { data: ArticleFrontmatter; content: string } {
+  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  if (!match) throw new Error("Article is missing YAML frontmatter");
+  const data = parseYaml(match[1]);
+  if (!data || typeof data !== "object") throw new Error("Article frontmatter must be a YAML object");
+  return { data: data as ArticleFrontmatter, content: raw.slice(match[0].length) };
+}
+
 export function getAllArticles(): Article[] {
   const dir = articlesDir();
   if (!fs.existsSync(dir)) return [];
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md"));
   const articles = files.map((file) => {
     const raw = fs.readFileSync(path.join(dir, file), "utf8");
-    const { data, content } = matter(raw);
-    const fm = data as ArticleFrontmatter;
+    const { data: fm, content } = parseFrontmatter(raw);
     const words = content.split(/\s+/).length;
     return {
       ...fm,

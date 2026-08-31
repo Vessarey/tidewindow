@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getIndex, getStationData, fmtMonth, fmtStamp, fmtDate } from "@/lib/windows";
 import { PUBLISHED_MONTHS } from "@/lib/rollout";
-import { WindowTable, StationChip, ScoreBadge } from "@/components/window-bits";
+import { WindowTable, TideTable, StationChip, ScoreBadge } from "@/components/window-bits";
 import CalendarGate from "@/components/calendar-gate";
 import EmailSignup from "@/components/email-signup";
 import { getStationGuide } from "@/lib/content";
@@ -27,21 +27,24 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { stations } = getIndex();
   const s = stations.find((x) => x.slug === slug);
   if (!s || !PUBLISHED_MONTHS.includes(month)) return {};
-  let description = `Every daylight low-tide window at ${s.name} in ${fmtMonth(month)}, scored and ranked — computed from NOAA station ${s.noaaId} predictions. Printable.`;
+  const socialImage = `/og/stations/${s.slug}.png`;
+  let description = `Complete high and low tide times for ${s.name} in ${fmtMonth(month)}, plus daylight tide-pool windows scored from NOAA station ${s.noaaId}. Printable.`;
   try {
     const monthWindows = getStationData(slug).windows.filter((w) => w.date.startsWith(month));
     const lowest = [...monthWindows].sort((a, b) => a.lowHeight - b.lowHeight)[0];
     const daylightMinus = monthWindows.filter((w) => w.isMinusTide && w.daylightMin >= 30).length;
     if (lowest) {
-      description = `${fmtMonth(month)} low tide chart for ${s.name}, NOAA station ${s.noaaId}: lowest tide ${lowest.lowHeight.toFixed(1)} ft on ${fmtDate(lowest.date)} at ${lowest.lowTimeLocal}, ${daylightMinus} daylight minus tide${daylightMinus === 1 ? "" : "s"} — every window scored and ranked. Printable.`;
+      description = `${fmtMonth(month)} high and low tide chart for ${s.name}, NOAA ${s.noaaId}: lowest qualifying tide ${lowest.lowHeight.toFixed(1)} ft on ${fmtDate(lowest.date)} at ${lowest.lowTimeLocal}; ${daylightMinus} daylight minus tide${daylightMinus === 1 ? "" : "s"}.`;
     }
   } catch {
     // fall back to the generic description if station data is unavailable
   }
   return {
-    title: `${s.name} low tide chart & calendar, ${fmtMonth(month)} — best days to go`,
+    title: `${s.name} tide chart, ${fmtMonth(month)} — high & low tide times`,
     description,
     alternates: { canonical: "./" },
+    openGraph: { images: [{ url: socialImage, width: 1200, height: 630, alt: `${s.name} tide chart` }] },
+    twitter: { card: "summary_large_image", images: [socialImage] },
   };
 }
 
@@ -62,6 +65,7 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
   const minus = monthWindows.filter((w) => w.isMinusTide);
   const daylightMinus = minus.filter((w) => w.daylightMin >= 30);
   const best = [...daylight].sort((a, b) => b.score - a.score)[0];
+  const monthTides = (data.tides ?? []).filter((t) => t.date.startsWith(month));
 
   // month grid
   const [y, m] = month.split("-").map(Number);
@@ -151,6 +155,17 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
       <h2 className="mt-8 text-2xl">Every window in {fmtMonth(month)}</h2>
       <p className="mb-3 mt-1 text-[0.9rem] text-ink-soft">Heights in feet MLLW. ✳ = federal holiday. Night lows score 0.</p>
       <WindowTable windows={monthWindows} />
+
+      <details className="mt-8 rounded-lg border border-ink/15 bg-white/60 p-4" open={monthTides.length <= 40}>
+        <summary className="cursor-pointer font-semibold">
+          Full {fmtMonth(month)} high and low tide table ({monthTides.length} events)
+        </summary>
+        <p className="mb-3 mt-3 text-[0.9rem] text-ink-soft">
+          Every NOAA-published high and low for station {s.noaaId}, in local time and feet MLLW. Use this complete
+          chart for water-level timing; use the scored table above to decide when the shore is both low enough and light.
+        </p>
+        <TideTable tides={monthTides} caption={`NOAA ${s.noaaId} predictions · ${fmtMonth(month)}`} />
+      </details>
 
       <div className="no-print mt-6 flex flex-wrap items-center gap-3">
         <CalendarGate stationSlug={s.slug} stationName={s.name} />

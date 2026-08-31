@@ -45,6 +45,7 @@ next-env.d.ts
 docs-internal/posthog-api-key.txt
 docs-internal/*-secret*
 public/data-json/.pipeline-stamp
+public/og/
 pages-stubs/
 docs-internal/resend-api-key.txt
 docs-internal/gsc-service-account.json

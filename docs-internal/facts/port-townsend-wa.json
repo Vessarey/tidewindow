@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-30",
+ "generated_on": "2026-08-31",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -446,6 +446,11 @@
    "count": 1
   },
   {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 1
+  },
+  {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
    "count": 1
@@ -463,11 +468,6 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 1
-  },
-  {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
    "count": 1
   }
  ]

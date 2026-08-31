@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-30",
+ "generated_on": "2026-08-31",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -15,18 +15,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-08-30",
-   "weekday": "Sun",
-   "low_ft": -0.057,
-   "low_time_local": "8:23 AM",
-   "window_local": "6:55 AM–9:45 AM",
-   "arrive_by_local": "7:23 AM",
-   "daylight_min": 170,
-   "score": 59,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-09-11",
    "weekday": "Fri",
@@ -110,6 +98,18 @@
    "score": 45,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-10",
+   "weekday": "Sat",
+   "low_ft": -0.375,
+   "low_time_local": "7:14 PM",
+   "window_local": "5:40 PM–8:50 PM",
+   "arrive_by_local": "6:14 PM",
+   "daylight_min": 59,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -120,20 +120,20 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 4,
-   "daylight_windows": 2,
-   "daylight_minus_tides": 1,
+   "lows_below_1ft": 3,
+   "daylight_windows": 1,
+   "daylight_minus_tides": 0,
    "best_window": {
-    "date": "2026-08-30",
-    "weekday": "Sun",
-    "low_ft": -0.057,
-    "low_time_local": "8:23 AM",
-    "window_local": "6:55 AM–9:45 AM",
-    "arrive_by_local": "7:23 AM",
-    "daylight_min": 170,
-    "score": 59,
-    "band": "Fair",
-    "weekend_or_holiday": true
+    "date": "2026-08-31",
+    "weekday": "Mon",
+    "low_ft": 0.55,
+    "low_time_local": "8:53 AM",
+    "window_local": "7:55 AM–9:45 AM",
+    "arrive_by_local": "7:53 AM",
+    "daylight_min": 110,
+    "score": 28,
+    "band": "Skip",
+    "weekend_or_holiday": false
    }
   },
   "2026-09": {
@@ -460,7 +460,7 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 7
+   "count": 6
   },
   {
    "commonName": "barnacle-eating dorid",

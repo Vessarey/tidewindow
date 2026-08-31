@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { StationMeta, TideWindow } from "@/lib/format";
+import type { StationMeta, TideExtreme, TideWindow } from "@/lib/format";
 import { fmtDate } from "@/lib/format";
 
 export function ScoreBadge({ w }: { w: Pick<TideWindow, "score" | "band"> }) {
@@ -63,6 +63,39 @@ export function WindowTable({
               <td>
                 <ScoreBadge w={w} />
               </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+/** NOAA-published high/low events, kept separate from Tidewindow's scored
+ *  daylight-window table so chart-seeking readers get the complete sequence. */
+export function TideTable({ tides, caption }: { tides: TideExtreme[]; caption?: string }) {
+  if (!tides.length) {
+    return <p className="text-ink-soft italic">No high/low events are available in this range.</p>;
+  }
+  return (
+    <div className="overflow-x-auto">
+      <table className="data-table max-w-2xl">
+        {caption && <caption className="pb-2 text-left text-[0.85rem] text-ink-soft">{caption}</caption>}
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Time</th>
+            <th>Height</th>
+          </tr>
+        </thead>
+        <tbody>
+          {tides.map((t) => (
+            <tr key={`${t.time}-${t.type}`}>
+              <td className="whitespace-nowrap"><time dateTime={t.date}>{fmtDate(t.date)}</time> {t.weekday}</td>
+              <td>{t.type === "H" ? "High" : "Low"}</td>
+              <td className="num whitespace-nowrap">{t.timeLocal}</td>
+              <td className="num whitespace-nowrap">{t.height.toFixed(1)} ft</td>
             </tr>
           ))}
         </tbody>

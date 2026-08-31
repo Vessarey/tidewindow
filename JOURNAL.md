@@ -5,6 +5,64 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-30 — Owner-directed recommendation completion pass
+
+**Coordination and health:** began from clean `main` at 309c33f after reading
+the playbook, today's commits, this journal/backlog, recent Actions runs, and
+open issues. The existing operator had already recovered the day's NOAA run
+with commit 0efdcd3 and completed the conversion-gate readout, so this pass did
+not repeat either action. Recent workflows were green and GitHub had no open
+issues. A fresh `PIPELINE_REFRESH=1 npm run build` then fetched all 12 NOAA
+stations successfully; because the run crossed midnight UTC, its artifacts are
+stamped 2026-08-31 even though this owner session began Aug 30 Eastern.
+
+**Production evidence held constant:** the pre-change PostHog snapshot used
+both required filters (`$host=thetidewindow.com`, Regular traffic): 199
+pageviews / 193 uniques over 7 days, 0 newsletter signups, 1 station selection,
+1 result view, 6 gate clicks from 4 people, 0 reveals, and 0 Trip Picker runs.
+Web Vitals remained healthy (189 observations; p75 LCP 1.33s, INP 22ms, CLS
+0.018). Error Tracking's prior empty result was missing instrumentation, not
+observed zero; `capture_exceptions: true` is now explicit in the browser SDK.
+No experiment treatment changed: `article_gate` had crossed the ~100-viewer
+surface floor but only had 2 clicks / 0 reveals / 0 signups, and the newly
+extended multi/calendar surfaces remain below their documented floors.
+
+**Owner-directed product/SEO release candidate:** added an on-device ZIP
+finder backed by 33,791 official 2025 Census ZCTAs; the submitted ZIP is not
+sent to analytics, while station and coarse distance band remain measurable.
+The NOAA pipeline now publishes complete H/L extremes, station pages show the
+next seven days, and all 36 published month pages expose a full high/low table.
+This directly closes the GSC intent gap behind the high-impression, zero-click
+La Jolla month and Pillar Point station clusters. Added contextual guide links
+after the existing gate so its treatment is unchanged. Build-time social cards
+now cover all 33 guides and 12 stations, with matching Open Graph, Twitter, and
+Article JSON-LD image metadata.
+
+**Freshness/content:** fully refreshed the Pacific Grove guide through Dec 2026
+from the new NOAA/fact outputs and rechecked its CDFW, California State Parks,
+and NOAA sources. It now leads with the Oct 25 Good window and uses the current
+60-day iNaturalist counts. The Rialto/Mora closure remains active through Oct
+15 and the Second Beach routing stays in place. October month pages remain
+intentionally gated until Sep 1; GSC indexing evidence is sufficient, but the
+documented temporal gate has not yet opened.
+
+**Reliability/security:** replaced gray-matter's vulnerable legacy YAML chain
+with the maintained `yaml` parser, updated PostHog and sharp, reviewed and
+applied the three safe transitive audit fixes, fixed the queued hooks lint
+error, and moved GitHub workflow actions to their current Node-24 majors. Full
+and production-only `npm audit` both report 0 findings. Final local validation:
+`npm run lint` green; Next 16.3.3 production build green, 122/122 pages; all 12
+station JSON files contain H/L events; 33 guide + 12 station cards generated;
+desktop/mobile browser checks passed for ZIP lookup, far-distance warning,
+month H/L expansion, guide pathways, and metadata with no console errors.
+
+**Next action:** after this candidate lands, verify the production commit,
+homepage/data freshness, ZIP-map asset, one station/month table, one refreshed
+guide, social image assets, and browser console. On Sep 1, add 2026-10 to
+`PUBLISHED_MONTHS`; do not alter experiments before meaningful click volume.
+
+---
+
 ## 2026-08-30 — Gate readout at floor; MultiStationGate extended to hubs + regional calendars
 
 **Health (standing morning routine, per 08-29's note):** no scheduled slot had

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getIndex, getStationData, upcomingWindows, fmtDate, fmtMonth, fmtStamp } from "@/lib/windows";
 import { PUBLISHED_MONTHS } from "@/lib/rollout";
-import { WindowTable, ScoreBadge, StationChip } from "@/components/window-bits";
+import { WindowTable, TideTable, ScoreBadge, StationChip } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import CalendarGate from "@/components/calendar-gate";
 import EmailSignup from "@/components/email-signup";
@@ -20,10 +20,13 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const s = stations.find((x) => x.slug === slug);
   if (!s) return {};
   const best = s.best30[0];
+  const socialImage = `/og/stations/${s.slug}.png`;
   return {
-    title: `${s.name} low tide chart — tide pool days & times (NOAA ${s.noaaId})`,
-    description: `${best ? `Next good low tide at ${s.name}: ${fmtDate(best.date)}, ${best.lowHeight.toFixed(1)} ft at ${best.lowTimeLocal}. ` : ""}Low tide chart & tide pool windows for ${s.spots[0]} — scored and ranked from NOAA station ${s.noaaId} predictions, updated daily.`,
+    title: `${s.name} tide chart — next highs, lows & tide-pool times (NOAA ${s.noaaId})`,
+    description: `${best ? `Next good low tide at ${s.name}: ${fmtDate(best.date)}, ${best.lowHeight.toFixed(1)} ft at ${best.lowTimeLocal}. ` : ""}Daily high and low tide times plus ranked daylight tide-pool windows from NOAA station ${s.noaaId}.`,
     alternates: { canonical: "./" },
+    openGraph: { images: [{ url: socialImage, width: 1200, height: 630, alt: `${s.name} tide chart` }] },
+    twitter: { card: "summary_large_image", images: [socialImage] },
   };
 }
 
@@ -44,6 +47,9 @@ export default async function StationPage({ params }: { params: Promise<{ state:
   const months = PUBLISHED_MONTHS;
   const minusCount = next30.filter((w) => w.isMinusTide).length;
   const daylightMinus = next30.filter((w) => w.isMinusTide && w.daylightMin >= 30).length;
+  const nextTides = (data.tides ?? [])
+    .filter((t) => t.time >= data.generatedAt && t.time < data.generatedAt + 7 * 86400_000)
+    .slice(0, 32);
 
   const faq = [
     {
@@ -120,6 +126,13 @@ export default async function StationPage({ params }: { params: Promise<{ state:
         {s.kind === "subordinate" ? ", window bounds cosine-interpolated" : ""}. ✳ = federal holiday.
       </p>
       <WindowTable windows={next30} />
+
+      <h2 className="mt-10 text-2xl">Next 7 days of high and low tides</h2>
+      <p className="mb-3 mt-1 text-[0.9rem] text-ink-soft">
+        The complete high/low sequence from NOAA station {s.noaaId}, in local time. Tidewindow&apos;s scored table
+        above is the smaller decision set: lows under +1.0 ft with a usable shoreline window.
+      </p>
+      <TideTable tides={nextTides} caption={`NOAA ${s.noaaId} predictions · feet MLLW · local time`} />
 
       <div className="mt-6">
         <CalendarGate stationSlug={s.slug} stationName={s.name} />

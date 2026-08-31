@@ -18,30 +18,24 @@ const cache = new Map<string, StationData>();
 
 export function useStationData(slug: string | null) {
   const [data, setData] = useState<StationData | null>(slug ? cache.get(slug) ?? null : null);
-  const [loading, setLoading] = useState(false);
   useEffect(() => {
     if (!slug) return;
-    if (cache.has(slug)) {
-      setData(cache.get(slug)!);
-      return;
-    }
+    if (cache.has(slug)) return;
     let alive = true;
-    setLoading(true);
     fetch(assetUrl(`/data-json/stations/${slug}.json`))
       .then((r) => r.json())
       .then((d: StationData) => {
         cache.set(slug, d);
-        if (alive) {
-          setData(d);
-          setLoading(false);
-        }
+        if (alive) setData(d);
       })
-      .catch(() => alive && setLoading(false));
+      .catch(() => {});
     return () => {
       alive = false;
     };
   }, [slug]);
-  return { data: data && data.station.slug === slug ? data : null, loading };
+  const current = slug ? cache.get(slug) ?? data : null;
+  const selected = current && current.station.slug === slug ? current : null;
+  return { data: selected, loading: !!slug && !selected };
 }
 
 export function StationSelect({

@@ -17,11 +17,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const a = getArticle(slug);
   if (!a) return {};
+  const socialImage = `/og/guides/${a.slug}.png`;
   return {
     title: a.title,
     description: a.description,
     alternates: { canonical: "./" },
-    openGraph: { title: a.title, description: a.description, type: "article", publishedTime: a.date, modifiedTime: a.updated ?? a.date },
+    openGraph: {
+      title: a.title,
+      description: a.description,
+      type: "article",
+      publishedTime: a.date,
+      modifiedTime: a.updated ?? a.date,
+      images: [{ url: socialImage, width: 1200, height: 630, alt: a.title }],
+    },
+    twitter: { card: "summary_large_image", images: [socialImage] },
   };
 }
 
@@ -117,6 +126,34 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           cta="Join the list"
         />
       )}
+
+      <nav className="mt-8 rounded-lg border border-ink/15 bg-foam-deep/60 p-5" aria-label="Planning tools for this guide">
+        <h2 className="text-xl">Put this guide to work</h2>
+        <ul className="mt-3 grid gap-2 text-[0.95rem] sm:grid-cols-2">
+          <li>
+            <Link href="/tools/tide-window-finder/" className="underline decoration-kelp/50 hover:decoration-kelp">
+              Find the next low tide near you
+            </Link>
+          </li>
+          <li>
+            <Link href="/tools/trip-picker/" className="underline decoration-kelp/50 hover:decoration-kelp">
+              Compare fixed travel dates
+            </Link>
+          </li>
+          <li>
+            <Link href="/calendars/" className="underline decoration-kelp/50 hover:decoration-kelp">
+              Add a tide-window calendar
+            </Link>
+          </li>
+          {station && (
+            <li>
+              <Link href={`/beaches/${station.stateSlug}/${station.slug}/`} className="underline decoration-kelp/50 hover:decoration-kelp">
+                Open the full {station.name} tide chart
+              </Link>
+            </li>
+          )}
+        </ul>
+      </nav>
     </div>
   );
 }
