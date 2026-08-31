@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-08-31 — Port Townsend refresh: Labor Day run is the year's last call
+
+**Health (standing morning routine):** no scheduled slot had fired by 12:03Z
+(primary 10:17Z slot ~1h46m late — the drift pattern continues; still inside
+the ~3h allowance but past my session start). Dispatched one recovery run:
+33389899043, green in ~2m, commit dc41f57 "data: daily NOAA refresh
+2026-08-31" on main. Drift journaled, no re-diagnosis. No open GitHub issues.
+Fact sheets already carried a 2026-08-31 stamp from last night's
+midnight-crossing owner build; the pipeline re-stamp confirmed them.
+
+**Primary action (refresh pass, §2e):** rolled
+port-townsend-fort-worden-tide-pools-2026 forward (commit f99a545) — at 07-07
+it was the oldest exposed station guide and still sold July 11–16 as upcoming
+("do it in the next two weeks"). It now leads with the Sep 5–10 run: the
+year's LAST usable run at this station, peaking on Labor Day itself (Mon Sep
+7, −1.11 ft 7:20 AM, Great 80 — deepest remaining daylight low of 2026), with
+the sunrise math explaining why Monday outranks the nearly-equal-depth
+weekend days (Sat's low is ~90 min pre-sunrise, Sun's ~21 min, Mon's +43).
+Timing is the point: the run starts this Saturday, and
+/beaches/wa/seattle-wa/2026-09/ is already drawing views (6 pv/7d). July
+tables preserved as record with original 2026-07-06 stamps (rolling window
+can't recompute them); species rolled to the current 60d log (Gumboot Chiton
+still #1 at 9 obs; GPO/geoduck honestly dropped out; Nuttall's Cockle now
+#2); after-September darkness quantified from months_2026 (Oct 5 the only
+daylight minus tide left, Skip 27; Nov/Dec 22 sub-+1ft lows each, zero
+daylight windows; next daylight lows at dusk, Feb 17 2027 −1.64 ft 7:06 PM).
+New FAQ targets "low tides after September". Added finder/trip-picker/month-
+page pathways (f-adjacent, but this counts as the refresh pass, not an
+f-pass). Verification: NPS quotes re-fetched verbatim; Discover Pass $10/$45
+re-confirmed; **www.parks.wa.gov no longer resolves (DNS)** — source URL
+fixed to parks.wa.gov (grep confirms no other content/src file cites the
+dead www host); North Beach adjacency now cited verbatim to Jefferson County's
+Active Living page. Build green, only the article in the diff, built HTML
+spot-checked, pushed after the data commit rebase.
+
+**Metrics (PostHog 7d, host=thetidewindow.com, Regular):** 201 pv / 198
+uniques, 0 signups, station_selected 1, window_result_viewed 1,
+trip_picker_run 0, calendar_gate_clicked 6. Top: king-tides 39, home 25,
+methodology 19, fitzgerald 15, acadia 14. GSC Aug 24–29: clicks 7/7/3/6/2/1,
+impressions 300–518/day, position 7.9–10.2 — Aug 28–29 look soft but sit in
+the incomplete tail; judge on the date dimension later, not today.
+
+**Notes for tomorrow (09-01, Tue):**
+- **Monthly rollover is the primary (§2c):** add "2026-10" to
+  PUBLISHED_MONTHS in src/lib/rollout.ts; GSC month-page indexing gate was
+  already judged sufficient on 08-30. PIPELINE_REFRESH=1 build (code change).
+- Standing morning routine: if no scheduled run by ~12:00Z, dispatch one
+  recovery; journal drift only.
+- Week's f-pass count resets today: schedule two conversion/distribution
+  passes this week (none yet).
+
+---
+
 ## 2026-08-30 — Owner-directed recommendation completion pass
 
 **Coordination and health:** began from clean `main` at 309c33f after reading

@@ -163,7 +163,14 @@ with the date; add discoveries at the appropriate tier.
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
-      exposed guide after the completed Pacific Grove pass.
+      exposed guide after the completed Port Townsend pass. Next-oldest
+      station guides by vintage: la-push (07-09; NOTE Rialto/Mora closure
+      language must stay until Oct 15), seattle-alki (07-12), WA hub (07-14).
+      Done 2026-08-31: port-townsend-fort-worden-tide-pools-2026 (f99a545) —
+      rolled to the Sep 5–10 Labor Day run (year's last; Mon Sep 7 −1.11 ft
+      Great 80), July 11–16 preserved as record, species re-pulled, after-Sep
+      darkness quantified, dead www.parks.wa.gov source host fixed →
+      parks.wa.gov, North Beach adjacency cited to Jefferson County.
       Done 2026-08-30: pacific-grove-tide-pools-2026 — rolled the lead and
       ranked tables through Dec 2026, refreshed the iNaturalist snapshot,
       rechecked NOAA/CDFW/California State Parks sources, and added direct
