@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-31",
+ "generated_on": "2026-09-01",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 1,
+   "lows_below_1ft": 0,
    "daylight_windows": 0,
    "daylight_minus_tides": 0,
    "best_window": null
@@ -480,6 +480,11 @@
   {
    "commonName": "Clipped Semele",
    "scientificName": "Semele decisa",
+   "count": 1
+  },
+  {
+   "commonName": "Purple Olive Snail",
+   "scientificName": "Callianax biplicata",
    "count": 1
   }
  ]

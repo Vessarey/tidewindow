@@ -29,6 +29,18 @@ const OUT_ICS = path.join(ROOT, "public", "ics");
 const OUT_BADGE = path.join(ROOT, "public", "embed-badge");
 const SITE_URL = "https://thetidewindow.com";
 const DAYS_AHEAD = 400;
+
+// Published month pages (src/lib/published-months.json, shared with the site)
+// anchor how far BACK window math must reach: every published month page must
+// render its complete month, even after the month has passed. Windows before
+// the refresh time are kept but stored without the sampled curve (tools only
+// chart upcoming windows, and the curve dominates file size).
+const PUBLISHED_MONTHS = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "src", "lib", "published-months.json"), "utf8")
+);
+const [floorYear, floorMonth] = PUBLISHED_MONTHS[0].split("-").map(Number);
+// One day of slack so station-local midnight on the 1st is always covered.
+const WINDOW_FLOOR_MS = Date.UTC(floorYear, floorMonth - 1, 1) - 86400_000;
 const USER_AGENT = "tidewindow-pipeline (https://thetidewindow.com; hello@thetidewindow.com)";
 
 // ---------- generic helpers ----------
@@ -189,7 +201,10 @@ function buildIcs(station, windows, generatedAt) {
   ];
   const yearAhead = generatedAt + 365 * 86400_000;
   for (const w of windows) {
-    if (w.score < 60 || w.windowStart > yearAhead) continue;
+    // Upcoming (or in-progress) Good+ windows only — the windows array also
+    // carries past months for the published month pages, and a calendar feed
+    // must never emit retroactive events.
+    if (w.score < 60 || w.windowStart > yearAhead || w.windowEnd < generatedAt) continue;
     lines.push(
       "BEGIN:VEVENT",
       `UID:${station.slug}-${w.date.replace(/-/g, "")}-${icsDate(w.lowTime).slice(9, 13)}@tidewindow`,
@@ -262,9 +277,14 @@ async function processStation(station, holidays, generatedAt) {
   const observer = new Astronomy.Observer(meta.lat, meta.lng, 0);
   // Keep the full current calendar year's high/low events so published month
   // pages can answer complete tide-chart queries, including earlier dates in
-  // the current year. Window math still starts near the refresh time below.
-  const extremesBegin = new Date(Date.UTC(new Date(generatedAt).getUTCFullYear(), 0, 1));
-  const begin = new Date(generatedAt - 86400_000);
+  // the current year. Window math reaches back to the earliest published
+  // month (WINDOW_FLOOR_MS), so past month pages keep their real numbers.
+  const extremesBegin = new Date(
+    Math.min(Date.UTC(new Date(generatedAt).getUTCFullYear(), 0, 1), WINDOW_FLOOR_MS)
+  );
+  // Hourly series must extend a day past the window floor on each side:
+  // windowFromHourly returns null for any window touching the series edge.
+  const begin = new Date(Math.min(generatedAt - 86400_000, WINDOW_FLOOR_MS - 86400_000));
   const end = new Date(generatedAt + DAYS_AHEAD * 86400_000);
 
   const extremes = await fetchPredictions(station.noaaId, "hilo", extremesBegin, end);
@@ -290,7 +310,7 @@ async function processStation(station, holidays, generatedAt) {
   for (let i = 0; i < extremes.length; i++) {
     const ext = extremes[i];
     if (ext.type !== "L" || ext.v >= WALKABLE_FT) continue;
-    if (ext.t < generatedAt - 12 * 3600_000) continue;
+    if (ext.t < Math.min(WINDOW_FLOOR_MS, generatedAt - 12 * 3600_000)) continue;
 
     const bounds = hourly ? windowFromHourly(hourly, ext.t) : windowFromExtremes(extremes, i);
     if (!bounds) continue;
@@ -360,7 +380,10 @@ async function processStation(station, holidays, generatedAt) {
       band: band(s.score),
       night: s.night,
       scoreParts: { depth: s.depth, daylight: s.daylight, timing: s.timing, season: s.season },
-      curve: sampleCurve(heightAt, bounds.start - 2.5 * 3600_000, bounds.end + 2.5 * 3600_000),
+      curve:
+        ext.t < generatedAt
+          ? null // past window: kept for month-page records, never charted
+          : sampleCurve(heightAt, bounds.start - 2.5 * 3600_000, bounds.end + 2.5 * 3600_000),
     });
   }
 
@@ -429,13 +452,13 @@ async function main() {
     fs.writeFileSync(path.join(OUT_BADGE, `${station.slug}.html`), buildBadgeHtml(result.station, bestForBadge));
     summaries.push({
       ...result.station,
-      windowCount: result.windows.length,
+      windowCount: upcoming.length,
       speciesCount: result.species?.length ?? 0,
       best30: [...next30].sort((a, b) => b.score - a.score).slice(0, 5),
       nextWindow: upcoming[0] ?? null,
     });
     console.log(
-      `${result.windows.length} windows, best-30d score ${summaries.at(-1).best30[0]?.score ?? "n/a"}` +
+      `${result.windows.length} windows (${upcoming.length} upcoming), best-30d score ${summaries.at(-1).best30[0]?.score ?? "n/a"}` +
         (result.cosineSelfTest ? `, cosine self-test ±${Math.max(result.cosineSelfTest.startDiffMin, result.cosineSelfTest.endDiffMin)}min` : "")
     );
   }

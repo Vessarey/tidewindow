@@ -45,11 +45,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  // Past months are archival records: advertise their real end-of-month
+  // lastModified instead of the daily refresh stamp.
+  const monthLastModified = (m: string) => {
+    const [y, mo] = m.split("-").map(Number);
+    const monthEnd = new Date(Date.UTC(y, mo, 0, 23, 59, 59));
+    return monthEnd < daily ? monthEnd : daily;
+  };
   const monthPages: MetadataRoute.Sitemap = stations.flatMap((s) =>
     PUBLISHED_MONTHS.map((m) => ({
       url: absoluteUrl(`/beaches/${s.stateSlug}/${s.slug}/${m}/`),
-      lastModified: daily,
-      changeFrequency: "weekly" as const,
+      lastModified: monthLastModified(m),
+      changeFrequency: monthLastModified(m) < daily ? ("yearly" as const) : ("weekly" as const),
       priority: 0.6,
     }))
   );

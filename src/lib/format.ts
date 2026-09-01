@@ -28,7 +28,8 @@ export interface TideWindow {
   night: boolean;
   scoreParts: { depth: number; daylight: number; timing: number; season: number };
   conditions?: { tempF: number; forecast: string; asOf: number };
-  curve: { t0: number; dt: number; vals: (number | null)[] };
+  /** Sampled height curve; null on past windows (kept only for month-page records). */
+  curve: { t0: number; dt: number; vals: (number | null)[] } | null;
 }
 
 export interface TideExtreme {

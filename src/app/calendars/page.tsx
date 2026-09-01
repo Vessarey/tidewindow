@@ -18,7 +18,9 @@ export default function CalendarsPage() {
 
   const feedCount = (slug: string) => {
     try {
-      return getStationData(slug).windows.filter((w) => w.score >= 60 && w.windowStart <= yearAhead).length;
+      return getStationData(slug).windows.filter(
+        (w) => w.score >= 60 && w.windowEnd > generatedAt && w.windowStart <= yearAhead
+      ).length;
     } catch {
       return null;
     }

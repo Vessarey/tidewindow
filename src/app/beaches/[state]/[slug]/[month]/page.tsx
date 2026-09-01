@@ -83,6 +83,16 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
   const next = idx < PUBLISHED_MONTHS.length - 1 ? PUBLISHED_MONTHS[idx + 1] : null;
   const guide = getStationGuide(slug);
 
+  // Station-local current month at data-refresh time; months before it are
+  // finished and render as an honest archive rather than a planning page.
+  const currentMonth = new Intl.DateTimeFormat("en-CA", {
+    timeZone: s.tz,
+    year: "numeric",
+    month: "2-digit",
+  }).format(new Date(data.generatedAt));
+  const isPast = month < currentMonth;
+  const planMonth = PUBLISHED_MONTHS.find((m) => m >= currentMonth) ?? PUBLISHED_MONTHS[PUBLISHED_MONTHS.length - 1];
+
   return (
     <div>
       <BreadcrumbJsonLd
@@ -108,15 +118,32 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
         <StationChip noaaId={s.noaaId} />
       </div>
 
+      {isPast && (
+        <div className="mt-4 rounded-lg border border-ink/15 bg-white/60 p-4 text-[0.95rem]">
+          <strong>{fmtMonth(month)} has ended.</strong> The tables below stay up as a record of what the tide did.
+          Planning a visit? See the{" "}
+          <Link href={`/beaches/${s.stateSlug}/${s.slug}/${planMonth}/`} className="underline">
+            {fmtMonth(planMonth)} calendar
+          </Link>{" "}
+          or the{" "}
+          <Link href={`/beaches/${s.stateSlug}/${s.slug}/`} className="underline">
+            {s.name} station page
+          </Link>{" "}
+          for upcoming windows.
+        </div>
+      )}
+
       <div className="answer-box">
         <span className="stamp">Computed {fmtStamp(data.generatedAt)} · NOAA station {s.noaaId}</span>
         <p>
-          {fmtMonth(month)} gives {s.name} <strong className="num">{monthWindows.length}</strong> low tides under +1.0
+          {fmtMonth(month)} {isPast ? "gave" : "gives"} {s.name} <strong className="num">{monthWindows.length}</strong>{" "}
+          low tide{monthWindows.length === 1 ? "" : "s"} under +1.0
           ft, of which <strong className="num">{daylightMinus.length}</strong>{" "}
-          {daylightMinus.length === 1 ? "is a" : "are"} daylight minus tide{daylightMinus.length === 1 ? "" : "s"}.
+          {daylightMinus.length === 1 ? (isPast ? "was a" : "is a") : isPast ? "were" : "are"} daylight minus tide
+          {daylightMinus.length === 1 ? "" : "s"}.
           {best && (
             <>
-              {" "}The month&apos;s best window is <strong>{fmtDate(best.date)} ({best.weekday})</strong> — a{" "}
+              {" "}The month&apos;s best window {isPast ? "was" : "is"} <strong>{fmtDate(best.date)} ({best.weekday})</strong> — a{" "}
               <strong className="num">{best.lowHeight.toFixed(1)} ft</strong> low at{" "}
               <strong className="num">{best.lowTimeLocal}</strong>, walkable {best.windowStartLocal}–{best.windowEndLocal}.{" "}
               <ScoreBadge w={best} />
@@ -168,7 +195,7 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
       </details>
 
       <div className="no-print mt-6 flex flex-wrap items-center gap-3">
-        <CalendarGate stationSlug={s.slug} stationName={s.name} />
+        <CalendarGate stationSlug={s.slug} stationName={s.name} source="month_gate" />
         {prev && (
           <Link className="btn btn-quiet" href={`/beaches/${s.stateSlug}/${s.slug}/${prev}/`}>
             ← {fmtMonth(prev)}

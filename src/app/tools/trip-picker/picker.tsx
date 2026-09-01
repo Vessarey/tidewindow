@@ -23,11 +23,15 @@ export default function TripPicker({ stations }: { stations: StationOption[] }) 
       end = maxEnd;
       clampedNote = "Range capped at 21 days.";
     }
-    ranked = data.windows.filter((w) => w.date >= from && w.date <= end).sort((a, b) => b.score - a.score);
+    // lowTime floor: the windows array also carries past months for the
+    // published month pages — a trip can only be planned forward.
+    ranked = data.windows
+      .filter((w) => w.lowTime > data.generatedAt && w.date >= from && w.date <= end)
+      .sort((a, b) => b.score - a.score);
   }
   const best = ranked[0];
   const nextGreat = data && best && best.score < 40
-    ? data.windows.find((w) => w.date > to && w.score >= 60)
+    ? data.windows.find((w) => w.lowTime > data.generatedAt && w.date > to && w.score >= 60)
     : null;
 
   useEffect(() => {

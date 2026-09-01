@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-31",
+ "generated_on": "2026-09-01",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -461,13 +461,13 @@
    "count": 1
   },
   {
-   "commonName": "Channeled Dog Winkle",
-   "scientificName": "Nucella canaliculata",
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
    "count": 1
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
+   "commonName": "Channeled Dog Winkle",
+   "scientificName": "Nucella canaliculata",
    "count": 1
   }
  ]

@@ -16,6 +16,7 @@ export default function TideCurve({
   height?: number;
   showLabels?: boolean;
 }) {
+  if (!w.curve) return null;
   const { t0, dt, vals } = w.curve;
   const pts = vals
     .map((v, i) => (v === null ? null : { t: t0 + i * dt * 60000, v }))

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-31",
+ "generated_on": "2026-09-01",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -121,21 +121,10 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 2,
-   "daylight_windows": 1,
+   "lows_below_1ft": 1,
+   "daylight_windows": 0,
    "daylight_minus_tides": 0,
-   "best_window": {
-    "date": "2026-08-31",
-    "weekday": "Mon",
-    "low_ft": 0.844,
-    "low_time_local": "8:30 AM",
-    "window_local": "7:55 AM–9:05 AM",
-    "arrive_by_local": "7:30 AM",
-    "daylight_min": 70,
-    "score": 22,
-    "band": "Skip",
-    "weekend_or_holiday": false
-   }
+   "best_window": null
   },
   "2026-09": {
    "lows_below_1ft": 31,
@@ -499,8 +488,8 @@
    "count": 2
   },
   {
-   "commonName": "Nanaimo Dorid",
-   "scientificName": "Acanthodoris nanaimoensis",
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
    "count": 2
   }
  ]

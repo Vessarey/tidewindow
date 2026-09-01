@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-08-31",
+ "generated_on": "2026-09-01",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -120,21 +120,10 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 2,
-   "daylight_windows": 1,
+   "lows_below_1ft": 1,
+   "daylight_windows": 0,
    "daylight_minus_tides": 0,
-   "best_window": {
-    "date": "2026-08-31",
-    "weekday": "Mon",
-    "low_ft": 0.55,
-    "low_time_local": "8:53 AM",
-    "window_local": "7:55 AM–9:45 AM",
-    "arrive_by_local": "7:53 AM",
-    "daylight_min": 110,
-    "score": 28,
-    "band": "Skip",
-    "weekend_or_holiday": false
-   }
+   "best_window": null
   },
   "2026-09": {
    "lows_below_1ft": 30,
@@ -478,11 +467,6 @@
    "count": 4
   },
   {
-   "commonName": "Hind's Chiton",
-   "scientificName": "Mopalia hindsii",
-   "count": 4
-  },
-  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 4
@@ -491,6 +475,11 @@
    "commonName": "Chocolate Aeolid",
    "scientificName": "Margina cocoachroma",
    "count": 4
+  },
+  {
+   "commonName": "Hind's Chiton",
+   "scientificName": "Mopalia hindsii",
+   "count": 3
   },
   {
    "commonName": "Rough Keyhole Limpet",
