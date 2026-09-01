@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/verify-output.mjs",
     "start": "next start",
     "lint": "eslint",
     "pipeline": "node scripts/pipeline/run.mjs",

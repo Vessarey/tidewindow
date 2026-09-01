@@ -5,11 +5,16 @@ name: Daily data refresh
 
 on:
   schedule:
+    # GitHub's scheduler has drifted every slot 2-9h late daily since
+    # 2026-08-26, so we run FOUR staggered slots: with the observed drift, at
+    # least one lands the refresh well before the editorial agent's ~12:00Z
+    # session. The skip-if-refreshed guard below makes every slot after the
+    # first successful one a ~10s no-op, so extra fires cost nothing and
+    # never double-commit. 04:47 is the early bird; 10:17 remains the
+    # "canonical" refresh time referenced in docs.
+    - cron: "47 4 * * *" # 04:47 UTC early slot
+    - cron: "17 7 * * *" # 07:17 UTC backup
     - cron: "17 10 * * *" # 10:17 UTC daily (~3:17 AM Pacific)
-    # Backup slot: GitHub scheduler drift left the 10:17 slot unfired for
-    # hours on 2026-08-26..28 (20:33Z once, twice recovered by manual
-    # dispatch). The guard step below makes this a no-op whenever the
-    # morning slot already landed today's refresh.
     - cron: "47 13 * * *" # 13:47 UTC daily watchdog
   workflow_dispatch:
 
