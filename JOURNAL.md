@@ -5,7 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-08-31 (evening) — Owner review pass: month-page integrity, output gate, cron slots, ZIP pathways
+## 2026-09-01 — Facts-generator integrity fix + La Push refresh (Sep 9–12 run)
+
+**Health:** first day of the 4-slot cron era worked as designed — the refresh
+landed via a scheduled run at 09:38Z, before session start, no dispatch needed
+(yesterday's two later slots skipped in 10s via the guard, as intended). No open
+issues. Rollover already done 08-31 — not repeated. Live spot-check per
+yesterday's note: seattle 2026-08 now renders the archival banner ("August 2026
+has ended…") with real counts (21 lows / 13 daylight minus — matches data).
+
+**Side-fix first (commit b162593):** found while sourcing numbers — facts.mjs
+filtered its "2026" views to future windows, so since Aug 1 the writer-facing
+fact sheets reported ended months as zeros and let "deepest 2026" shrink to
+whatever remained (seattle's deepest_2026 claimed −1.02 ft Sep 8; the real
+answer is −3.80 ft Jul 14). The SITE was never wrong — the 08-31 backfill fixed
+the published pages — but the sheets every article number must come from were
+quietly lying. Now annual views span the dataset floor (Jul 1–Dec 31, stated in
+a new annual_note) and a separate deepest_2026_daylight_lows_remaining_top8
+serves "deepest remaining" claims. NB the 08-31 entry's "aggregates cover
+Jul 1–Dec 31" claim was about the keys existing, not the values being right.
+
+**Primary (refresh pass §2e, commit e2a4b26):** rolled
+la-push-second-beach-tide-pools-2026 (07-09, the oldest exposed guide — it
+still sold July 12–17 as upcoming). Now leads with **Sep 9–12, the year's last
+morning minus tides** (−1.14 ft Wed Sep 9 5:52 AM; Fri 11th the top score at 57
+because its low lands 19 min after sunrise) — "last" verified directly against
+the committed dataset: zero AM daylight-minus windows remain after Sep 12 in
+2026. Sep 8 (−1.00 ft pre-dawn, Skip) is the new score-vs-depth teaching
+moment. July/Aug tables preserved as record with original 2026-07-08 stamps.
+Chose la-push over the also-stale seattle-alki (07-12) by queue order; Seattle's
+Labor Day run is already carried by the PT guide, Puget calendar, and month
+pages. Verification: Rialto/Mora closure re-confirmed on nps.gov today (still
+Jul 8–Oct 15) — the conditions page REWORDED its closure sentence, so the
+verbatim quote was updated to current wording; trail figures aligned to NPS
+pages (Second Beach "80' gain/100' loss" replaces our ~200-ft descent claim;
+Third Beach 240' not 270'); species rolled to the current 60d log (Horned
+Nudibranch 82 obs > rest of list combined; "Chocolate Aeolid" Margina
+cocoachroma verified as an active iNat taxon via the API before publishing).
+Added pathways: finder+ZIP mention, la-push 2026-09 month page, PT/Puget
+cross-links, golden-hour (all four lows within ~1h of sunrise). Build + output
+gate green; only intended files in the diff.
+
+**Metrics (PostHog 7d, host-filtered):** ~160 pv; top: home 35, king-tides 33,
+methodology 19, fitzgerald 16, acadia 13, dataset 11. Signups 0 this week.
+New 08-31 sources: zip_lookup_used still 0 (one day in field). Gate clicks:
+calendars_page 3, article_gate 2, tool_gate 1. GSC last 10d: 300–518 impr/day,
+pos ~8–10, clicks 1–7/day (the 08-28/29 dip is inside normal noise; data lags).
+Judgment date for the 08-30/31 pass stays ~09-14.
+
+**Tomorrow (09-02):** normal queue. A conversion/distribution pass (§2f) is due
+this week (last ones 08-31/08-30); Thursday 09-03 is the newsletter send — the
+Sep 5–10 Puget run + Sep 9–12 La Push run make a strong issue body. Keep
+watching the cron slot pattern a few more days. Next refresh targets:
+seattle-alki (07-12), WA hub (07-14).
 
 **Why:** the owner ran a full site/loop/analytics review and directed an
 end-to-end implementation of its findings. The review found the operation

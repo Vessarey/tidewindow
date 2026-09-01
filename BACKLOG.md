@@ -166,9 +166,15 @@ with the date; add discoveries at the appropriate tier.
       definition page verifiable) — kept a neutral weather.gov pointer.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
-      exposed guide after the completed Port Townsend pass. Next-oldest
-      station guides by vintage: la-push (07-09; NOTE Rialto/Mora closure
-      language must stay until Oct 15), seattle-alki (07-12), WA hub (07-14).
+      exposed guide after the completed La Push pass. Next-oldest
+      station guides by vintage: seattle-alki (07-12), WA hub (07-14).
+      Done 2026-09-01: la-push-second-beach-tide-pools-2026 (e2a4b26) —
+      rolled to the Sep 9–12 last-morning-minus-tide run (verified against
+      the dataset: no AM daylight-minus windows remain after Sep 12 in
+      2026); July/Aug preserved as record; Rialto closure re-verified and
+      the NPS quote updated to the page's current wording (closure language
+      stays until Oct 15); NPS trail figures corrected; species re-pulled;
+      Mar 23–26 2027 return pointer; finder/month-page/Puget pathways.
       Done 2026-08-31: port-townsend-fort-worden-tide-pools-2026 (f99a545) —
       rolled to the Sep 5–10 Labor Day run (year's last; Mon Sep 7 −1.11 ft
       Great 80), July 11–16 preserved as record, species re-pulled, after-Sep
