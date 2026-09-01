@@ -5,7 +5,34 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-09-01 — Facts-generator integrity fix + La Push refresh (Sep 9–12 run)
+## 2026-09-01 (afternoon) — Owner follow-up sweep: all-clear + one preventive floor
+
+**Why:** owner directed a proactive second pass over the site after
+yesterday's review-and-fix deploy.
+
+**One fix shipped:** /king-tides/2026-2027/ filtered its per-station season
+lows by date range only, so once the season starts Oct 1 the 08-31 backfill
+would have kept passed dates listed as plannable (pre-backfill, the rolling
+dataset dropped them daily). Added the `lowTime > generatedAt` floor now,
+while it is provably a no-op (all season dates still future; built page
+byte-identical in coverage — 48 date entries, 4 × 12 stations). The
+matching date-range views in facts.mjs (king_season, y2026) are LEFT
+full-range on purpose — this morning's b162593 established that fact-sheet
+annual/season views span the whole range with a past-tense note.
+
+**Sweep results, everything else clean:** npm audit 0 findings (full and
+prod); PostHog Error Tracking 0 $exception events in 3 days; web vitals
+p75 LCP 748 ms (24h, n=29); internal-link check over all 136 built pages —
+0 broken hrefs/srcs among 150 unique internal URLs; plain build + output
+gate green on today's cron data (12×4 month pages, 121 sitemap URLs);
+newsletter week-range semantics unaffected by the backfill (today-forward,
+same as the old 12h grace); llms.txt (25 guide entries) and feed.xml (30
+items) healthy; La Push refresh + August archival banners confirmed live.
+Cron note: today's refresh landed via the 09:36Z fire with a clean 12:35Z
+skip; the 04:47/07:17 slots produced no runs at all today — consistent with
+drift, keep watching per this morning's note.
+
+**Nothing for tomorrow beyond the standing queue.**
 
 **Health:** first day of the 4-slot cron era worked as designed — the refresh
 landed via a scheduled run at 09:38Z, before session start, no dispatch needed

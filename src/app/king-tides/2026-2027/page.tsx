@@ -20,7 +20,10 @@ export default function KingTides() {
   const perStation = stations.map((s) => {
     const data = getStationData(s.slug);
     const lows = data.windows
-      .filter((w) => w.date >= seasonStart && w.date <= seasonEnd && w.daylightMin >= 30)
+      // lowTime floor: the windows array keeps past months for the published
+      // month pages, so without it this page would keep listing season dates
+      // after they pass (pre-backfill, the rolling dataset dropped them daily).
+      .filter((w) => w.lowTime > generatedAt && w.date >= seasonStart && w.date <= seasonEnd && w.daylightMin >= 30)
       .sort((a, b) => a.lowHeight - b.lowHeight)
       .slice(0, 4)
       .sort((a, b) => a.lowTime - b.lowTime);
