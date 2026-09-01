@@ -35,7 +35,12 @@ function stationFacts(slug) {
   const d = stations[slug];
   const now = d.generatedAt;
   const up = d.windows.filter((w) => w.lowTime > now);
-  const y2026 = d.windows.filter((w) => w.date.startsWith("2026") && w.lowTime > now);
+  // Full-year view: the dataset backfills to the earliest published month
+  // (2026-07), so annual aggregates cover Jul 1–Dec 31. Filtering to future
+  // windows here made months_2026 report ended months as zeros and let
+  // "deepest 2026" claims silently shrink as the year passed.
+  const y2026 = d.windows.filter((w) => w.date.startsWith("2026"));
+  const y2026up = y2026.filter((w) => w.lowTime > now);
   const daylight = (ws) => ws.filter((w) => w.daylightMin >= 30);
 
   const months2026 = {};
@@ -71,7 +76,12 @@ function stationFacts(slug) {
       .slice(0, 8)
       .map(brief),
     months_2026: months2026,
+    annual_note: "2026 aggregates cover Jul 1–Dec 31 (dataset floor is the earliest published month); ended months are included, so cite past windows in the past tense.",
     deepest_2026_daylight_lows_top8: daylight(y2026)
+      .sort((a, b) => a.lowHeight - b.lowHeight)
+      .slice(0, 8)
+      .map(brief),
+    deepest_2026_daylight_lows_remaining_top8: daylight(y2026up)
       .sort((a, b) => a.lowHeight - b.lowHeight)
       .slice(0, 8)
       .map(brief),
