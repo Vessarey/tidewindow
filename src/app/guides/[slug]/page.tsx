@@ -8,6 +8,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/components/json-ld
 import EmailSignup from "@/components/email-signup";
 import CalendarGate from "@/components/calendar-gate";
 import MultiStationGate from "@/components/multi-station-gate";
+import ZipJump from "@/components/zip-jump";
 
 export function generateStaticParams() {
   return getAllArticles().map((a) => ({ slug: a.slug }));
@@ -129,10 +130,17 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
       <nav className="mt-8 rounded-lg border border-ink/15 bg-foam-deep/60 p-5" aria-label="Planning tools for this guide">
         <h2 className="text-xl">Put this guide to work</h2>
+        <div className="mt-3">
+          <ZipJump
+            origin="guide_footer"
+            headline="Check your own dates"
+            blurb="Enter a ZIP and the Tide Window Finder shows the next 30 days of scored windows at the nearest covered NOAA station. The lookup runs in your browser — the ZIP is never sent or recorded."
+          />
+        </div>
         <ul className="mt-3 grid gap-2 text-[0.95rem] sm:grid-cols-2">
           <li>
             <Link href="/tools/tide-window-finder/" className="underline decoration-kelp/50 hover:decoration-kelp">
-              Find the next low tide near you
+              Browse all stations in the finder
             </Link>
           </li>
           <li>

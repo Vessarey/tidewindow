@@ -135,7 +135,7 @@ export default async function StationPage({ params }: { params: Promise<{ state:
       <TideTable tides={nextTides} caption={`NOAA ${s.noaaId} predictions · feet MLLW · local time`} />
 
       <div className="mt-6">
-        <CalendarGate stationSlug={s.slug} stationName={s.name} />
+        <CalendarGate stationSlug={s.slug} stationName={s.name} source="station_gate" />
       </div>
 
       <h2 className="mt-10 text-2xl">Monthly calendars</h2>

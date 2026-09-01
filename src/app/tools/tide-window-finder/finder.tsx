@@ -9,6 +9,7 @@ import CalendarGate from "@/components/calendar-gate";
 import { capture } from "@/components/analytics";
 import { fmtDate, fmtStamp } from "@/lib/format";
 import { assetUrl } from "@/lib/site-config";
+import { ZIP_HANDOFF_KEY } from "@/components/zip-jump";
 
 type Depth = "any" | "minus" | "deep";
 type ZipMap = {
@@ -53,6 +54,10 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
       setZipStatus({ kind: "error", message: "Enter a five-digit US ZIP code." });
       return;
     }
+    await runZipLookup(normalized);
+  }
+
+  async function runZipLookup(normalized: string) {
     setZipStatus({ kind: "loading" });
     try {
       const map = await loadZipMap();
@@ -85,6 +90,28 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
       setZipStatus({ kind: "error", message: "The ZIP lookup could not load. Choose a station below." });
     }
   }
+
+  // A ZIP entered elsewhere on the site (homepage, guide footers) arrives via
+  // a sessionStorage handoff — never the URL, which analytics would record.
+  // The lookup is deferred a tick so no state is set synchronously in the
+  // effect (react-hooks/set-state-in-effect).
+  useEffect(() => {
+    let handoff: string | null = null;
+    try {
+      handoff = sessionStorage.getItem(ZIP_HANDOFF_KEY);
+      if (handoff !== null) sessionStorage.removeItem(ZIP_HANDOFF_KEY);
+    } catch {
+      // storage unavailable — nothing to hand off
+    }
+    if (!handoff || !/^\d{5}$/.test(handoff)) return;
+    const zipFromHandoff = handoff;
+    const timer = setTimeout(() => {
+      setZip(zipFromHandoff);
+      void runZipLookup(zipFromHandoff);
+    }, 0);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const results = data
     ? data.windows

@@ -5,6 +5,7 @@ import { PUBLISHED_MONTHS } from "@/lib/rollout";
 import { WindowCard, ScoreBadge, StationChip } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import EmailSignup from "@/components/email-signup";
+import ZipJump from "@/components/zip-jump";
 import { siteConfig } from "@/lib/site-config";
 
 const seasonYear = PUBLISHED_MONTHS[PUBLISHED_MONTHS.length - 1].slice(0, 4);
@@ -34,9 +35,16 @@ export default function Home() {
           sea caves, glass beaches. Tidewindow computes those exact hours for US beaches from NOAA predictions, scores
           them, and ranks them. No tide-table squinting.
         </p>
-        <p className="mt-5 flex flex-wrap gap-3">
-          <Link href="/tools/tide-window-finder/" className="btn">
-            Find your beach&apos;s next window
+        <div className="mt-5 max-w-xl">
+          <ZipJump
+            origin="home"
+            headline="Start with your ZIP"
+            blurb="The finder picks the nearest of our 12 NOAA stations and shows its next 30 days of windows. The lookup runs in your browser — the ZIP is never sent or recorded."
+          />
+        </div>
+        <p className="mt-4 flex flex-wrap gap-3">
+          <Link href="/tools/tide-window-finder/" className="btn btn-quiet">
+            Or browse all stations
           </Link>
           <Link href="/methodology/" className="btn btn-quiet">
             How the math works

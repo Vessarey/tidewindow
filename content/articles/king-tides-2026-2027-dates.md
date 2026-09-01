@@ -89,7 +89,7 @@ Winter windows are short and end at dusk, so timing matters more than in July. A
 
 These dates are also months away, which is exactly how they get lost. Three ways to keep them:
 
-- **Check your own dates.** The [Tide Window Finder](/tools/tide-window-finder/) lists every upcoming daylight window at the twelve stations we track, each with its arrive-by time — the fastest answer when the trip is booked and the tide is the open question.
+- **Check your own dates.** The [Tide Window Finder](/tools/tide-window-finder/) lists every upcoming daylight window at the twelve stations we track, each with its arrive-by time — the fastest answer when the trip is booked and the tide is the open question. It now takes a ZIP code and picks the nearest covered station for you (the lookup runs in your browser; the ZIP is never sent or recorded).
 - **Put the season in your calendar.** The [calendar feeds page](/calendars/) has a subscribable 12-month feed for all twelve stations, [La Jolla](/beaches/ca/la-jolla-ca/), [Newport](/beaches/or/newport-or/), [Bar Harbor](/beaches/me/bar-harbor-me/), and [Seattle](/beaches/wa/seattle-wa/) included: subscribe once and every Good-or-better daylight window lands in your calendar app with its arrive-by time and a reminder built in. (Or skip the detour: the station picker at the end of this page hands you the same feed.)
 - **Or let the dates find you.** The signup at the bottom of this page is one email a week, sent Thursdays, with the windows worth the drive on your coast.
 
