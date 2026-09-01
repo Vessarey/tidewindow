@@ -151,7 +151,10 @@ with the date; add discoveries at the appropriate tier.
       "2026-09" added to PUBLISHED_MONTHS; gate passed via GSC (month pages
       indexed + clicking; Bing site: is captcha-walled to fetches now, GSC is
       the better signal anyway). 12 pages live, IndexNow 108 URLs HTTP 200.
-      Next rollover: 2026-10 on Sep 1, same GSC gate.
+      Next rollover: 2026-10 on Sep 1, same GSC gate. DONE 2026-08-31 (one
+      day early, in the owner review pass — gate was already judged passed
+      08-30; PUBLISHED_MONTHS moved to src/lib/published-months.json, the
+      shared source of truth). Next rollover: 2026-11 on Oct 1.
 - [x] 2026-07-26: "Sneaker waves explained" LAUNCHED
       (content/articles/what-is-a-sneaker-wave.md, tide-basics) — NWS/Oregon
       State Parks/NPS safety strictly verbatim-quoted (re-verified at write
@@ -370,6 +373,12 @@ with the date; add discoveries at the appropriate tier.
       source="exit-intent" (host-filtered) over the first 2 weeks. If
       impressions accumulate with zero signups, revisit copy; if it
       converts, consider extending eligibility (e.g. 1st pageview).
+      **PRE-REGISTERED DECISION (owner review 2026-08-31): hard deadline
+      2026-10-01 — if still <100 impressions by then, RETIRE the prompt
+      instead of extending again.** Rationale: desktop-pointer-only by
+      design while 44% of traffic is mobile, and ~6 impressions/week can
+      never reach the floor in useful time; the ZIP pathways shipped
+      2026-08-31 serve the same intent on every device.
 - [ ] "Tidepooling 101 in 5 days" email course content (ships with Resend).
 - [ ] Print stylesheet polish for month pages (page-break rules).
 - [ ] 2-4 new stations: Crescent City CA (9419750), Westport WA (9441102),
@@ -377,6 +386,37 @@ with the date; add discoveries at the appropriate tier.
       relevance first; prefer harmonic.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
+
+- [x] 2026-08-31: **Past-month pages fixed — they had been publishing wrong
+      numbers** (owner review pass). The rolling windows dataset had dropped
+      July/August, so every published past-month page said "0 low tides"
+      (July pages wrong since ~Aug 1; seattle 2026-08 was 1,291 GSC impr/28d).
+      Pipeline now backfills windows to the earliest month in
+      published-months.json (past windows stored curve-less to hold file size);
+      ended months render an archival banner + past tense and keep real
+      numbers; ICS/index.json/calendars/trip-picker got explicit forward
+      floors so no surface regresses to past windows. Guarded forever by the
+      new **postbuild gate `scripts/verify-output.mjs`** (rendered numbers
+      vs data, no retro ICS events, sitemap↔out parity) which runs locally,
+      in the cron, and on Vercel. Cron drift also mitigated: 4 staggered
+      schedule slots (04:47/07:17/10:17/13:47Z) + skip guard, so a refresh
+      should land before the agent session without manual dispatch — watch
+      the first few days.
+- [ ] **~2026-09-14: judge the 2026-08-30/31 search+conversion pass on GSC
+      date-dimension data** (tiny-n rules apply). Baselines at ship
+      (GSC 28d to 08-29): site CTR ~1.3%, clicks ~3-5/day, impressions
+      300-500/day; pillar-point station page 0 clicks / 897 impr;
+      la-jolla 2026-08 month page 0 / 837; seattle 2026-08 10 / 1291.
+      Things shipped against them: full H/L tables + metadata (08-30),
+      past-month integrity + archival forward-routing (08-31), ZIP
+      pathways (08-31). Also tally the new PostHog sources:
+      zip_lookup_used tool=home/guide_footer (result=redirected),
+      station_selected selection_method=zip, and signups by source.
+      **Attribution note: before 2026-08-31, month-page and station-page
+      CalendarGates reported source=tool_gate** (no prop passed) — the
+      "tool_gate = finder" readouts in earlier journal entries conflate
+      those surfaces. From 08-31 they report month_gate / station_gate;
+      segment all gate readouts at that date.
 
 - [x] 2026-08-30: **Next.js August security release applied** — upgraded
       `next` + `eslint-config-next` from 16.2.10 to 16.3.3 after the official

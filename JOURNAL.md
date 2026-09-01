@@ -5,7 +5,85 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-08-31 — Port Townsend refresh: Labor Day run is the year's last call
+## 2026-08-31 (evening) — Owner review pass: month-page integrity, output gate, cron slots, ZIP pathways
+
+**Why:** the owner ran a full site/loop/analytics review and directed an
+end-to-end implementation of its findings. The review found the operation
+healthy but surfaced one P0 the loop had never caught: **published past-month
+pages were live with wrong numbers.** The windows dataset is rolling and
+forward-only, so since ~Aug 1 every 2026-07 month page said "July gives X 0
+low tides" with a blank heatmap, and the 2026-08 pages (our biggest GSC
+impression earners — seattle 1,291 impr/28d, la-jolla 837) were about to flip
+to zeros on Sep 1. Builds stayed green throughout; nothing checked what the
+templates rendered.
+
+**Shipped (four commits, this push):**
+1. *Data integrity:* pipeline now backfills windows to the earliest month in
+   `src/lib/published-months.json` (new single source of truth shared by site
+   and pipeline; replaces the array in rollout.ts). Past windows are stored
+   without the sampled curve to hold client file size (seattle json ~504 KB).
+   Ended months render an archival banner ("July 2026 has ended…" routing to
+   the current month + station page), past-tense copy, and their real
+   numbers. Explicit forward floors added everywhere the rolling-forward
+   assumption was baked in: ICS builder (no retroactive VEVENTs),
+   index.json windowCount, /calendars/ feedCount, trip-picker. Fixed the
+   "1 low tides" pluralization. Past-month sitemap entries now carry
+   end-of-month lastModified instead of the daily stamp.
+2. *Loop fix:* new postbuild gate `scripts/verify-output.mjs` (npm postbuild
+   → runs locally, in the refresh cron, and on Vercel; failure blocks
+   deploy). It compares every published month page's rendered counts against
+   the committed data, requires the archival banner on ended months only,
+   bans retro ICS events and past next-window picks, and checks every
+   sitemap URL exists in out/. First real run: 12 stations × 4 months,
+   121 URLs, OK. Playbook §4 updated.
+3. *Cron:* 4 staggered schedule slots (04:47/07:17/10:17/13:47Z) with the
+   existing skip guard — sized against the observed 2–9h drift so a refresh
+   lands before the morning session without manual dispatch. Playbook §0
+   updated: late individual slots are routine; only "nothing landed by
+   session start" warrants a dispatch.
+4. *Conversion (data-driven):* signups÷uniques sits ~0.6–0.9% vs the 1.5%
+   target and the finder is the only proven converter but gets ~20 pv/28d
+   while king-tides holds 27% of traffic. New reusable ZIP entry (ZipJump)
+   on the homepage hero and in every guide's "Put this guide to work"
+   footer, handing off to the finder via sessionStorage — NOT a URL param,
+   which would have leaked the ZIP into $current_url and broken the
+   published "never sent or recorded" promise. Finder consumes the handoff
+   on mount and auto-runs the lookup (events: zip_lookup_used
+   tool=home/guide_footer result=redirected, then the normal finder
+   events). Works for the 44% mobile audience exit-intent can't reach.
+   Also fixed gate attribution: month/station-page CalendarGates were
+   silently reporting source=tool_gate; now month_gate / station_gate —
+   segment gate readouts at this date (see BACKLOG). King-tides article's
+   "Check your own dates" bullet now mentions the ZIP lookup. Exit-intent
+   untouched, but its verdict is pre-registered: retire at 2026-10-01 if
+   still <100 impressions.
+5. *Rollover:* 2026-10 published a day early (gate judged passed 08-30) —
+   **09-01 agent: monthly rollover is DONE, do not repeat it.** 134 pages
+   build (121 sitemap URLs + assets).
+
+**Verification:** lint green; PIPELINE_REFRESH=1 build green (fresh NOAA
+fetch crossed midnight UTC, so data/facts stamp 2026-09-01 — same pattern as
+the 08-30 owner pass); postbuild gate OK; facts regenerated (2026 aggregates
+now consistently cover Jul 1–Dec 31 — the H2 window; article constants keep
+their historical stamps per the 08-02 note). Browser-verified on the built
+site: homepage ZIP 93950 → finder auto-selects Monterey (2 mi); guide-footer
+ZIP 98101 → Seattle; handoff key consumed; no console errors. July Seattle
+page: banner + "gave 24 low tides / 20 daylight minus" + colored heatmap.
+
+**Metrics snapshot (PostHog 28d, host-filtered):** ~700 pv, top pages
+king-tides 189u / home 75 / or-coast 47 / fitzgerald 39 / acadia 35; signups
+6 (3 tool_gate, 1 home, 1 end_article, 1 article_gate_multi); devices 54%
+desktop / 44% mobile. GSC 28d: impressions 300–500/day (doubled over Aug),
+position ~8, CTR ~1.3%. Judgment date for this pass: ~09-14 (BACKLOG item).
+
+**Notes for tomorrow (09-01):**
+- Rollover already done (above). Health check per updated §0: with 4 slots,
+  expect a refresh landed by session start; verify the new slots actually
+  fire over the next few days and journal the observed pattern.
+- The 2026-08 pages flip to archival on the first post-Sep-1 station-local
+  refresh — the postbuild gate checks the flip; spot-check one live.
+- New PostHog sources to watch: zip_lookup_used (home/guide_footer),
+  month_gate, station_gate. Baselines are all zero as of this ship.
 
 **Health (standing morning routine):** no scheduled slot had fired by 12:03Z
 (primary 10:17Z slot ~1h46m late — the drift pattern continues; still inside

@@ -14,8 +14,12 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
 3. Check GitHub Actions status (`gh run list --limit 5`): the "Daily data refresh"
    cron must be green. A green run is NOT enough — verify the refresh actually
    LANDED: the newest `data: daily NOAA refresh` commit on origin/main must be
-   dated today (UTC), or yesterday only if the cron (10:17 UTC, plus up to ~3h
-   scheduler drift) hasn't plausibly fired yet. A run that succeeded but whose
+   dated today (UTC), or yesterday only if no scheduled slot has plausibly fired
+   yet. Since 2026-08-31 the workflow runs FOUR staggered slots (04:47, 07:17,
+   10:17, 13:47 UTC) with a skip-if-refreshed guard, sized so that even with the
+   observed 2–9h scheduler drift at least one lands before your session — an
+   individual slot firing late is routine and needs no journal incident; only
+   "no refresh landed by session start" does (then dispatch one recovery run). A run that succeeded but whose
    commit never reached main (push race — it happened 2026-07-30), or no run at
    all by your session, counts as red. If red, fixing/recovering it is today's
    ONLY task (recover via `gh workflow run daily-refresh.yml`). Do not
@@ -72,7 +76,9 @@ b. **Time-sensitive content:** an Exceptional (90+) window or king-tide event
    within 14 days at a covered region → write/refresh the regional roundup and
    surface it on the relevant state hub.
 c. **Monthly rollover** (first run of a new month): add the next month to
-   `PUBLISHED_MONTHS` in `src/lib/rollout.ts` (staged rollout rule: only if the
+   `src/lib/published-months.json` (single source of truth shared by the site
+   and the pipeline; the pipeline backfills window data to the earliest month
+   listed, so past month pages keep real numbers) (staged rollout rule: only if the
    previous batch shows indexing — check Bing `site:` results for month URLs;
    without search-console access, wait 2 weeks between batches).
 d. **Content backlog** (`BACKLOG.md` → Content queue): write ONE article per the
@@ -120,7 +126,13 @@ g. **Coverage expansion:** add a new NOAA station to
 
 ## 4. Quality gates (any failure blocks the push)
 
-1. `npm run build` green, zero warnings you introduced.
+1. `npm run build` green, zero warnings you introduced. The build now ends with
+   `scripts/verify-output.mjs` (npm postbuild, added 2026-08-31 after past-month
+   pages shipped "0 low tides" for a month unnoticed): it checks every published
+   month page's rendered numbers against the committed data, bans retroactive
+   ICS events and past "next window" picks, and requires every sitemap URL to
+   exist in `out/`. It runs locally, in the refresh cron, and on Vercel — trust
+   it, and extend it when you add a new data-driven surface.
 2. Recompute-check: numbers in new/changed content match current fact sheets.
 3. All new external links fetch 200 and support the claims they back.
 4. No placeholder text, no lorem, no "as an AI".
