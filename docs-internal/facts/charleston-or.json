@@ -121,7 +121,7 @@
    "best_window": null
   },
   "2026-08": {
-   "lows_below_1ft": 1,
+   "lows_below_1ft": 0,
    "daylight_windows": 0,
    "daylight_minus_tides": 0,
    "best_window": null
