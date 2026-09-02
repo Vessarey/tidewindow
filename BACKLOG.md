@@ -423,6 +423,14 @@ with the date; add discoveries at the appropriate tier.
       "tool_gate = finder" readouts in earlier journal entries conflate
       those surfaces. From 08-31 they report month_gate / station_gate;
       segment all gate readouts at that date.
+- [ ] **~2026-09-16: judge the 09-02 end_article_gated signup on the
+      king-tides guide** (tiny-n rules apply; needs ~100+ pv on the page
+      since 09-02). Baselines at ship: guide 124 pv since 08-12 with
+      article_gate_multi 1 click / 1 signup all-time; site signups÷uniques
+      0.47% (1/214) trailing 7d vs 1.5% target. Compare newsletter_signup
+      source=end_article_gated against the gate's continued readout; if
+      both stay near zero at real volume the article-end surface itself is
+      the suspect, not the component.
 
 - [x] 2026-08-30: **Next.js August security release applied** — upgraded
       `next` + `eslint-config-next` from 16.2.10 to 16.3.3 after the official

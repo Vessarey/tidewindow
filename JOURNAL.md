@@ -5,6 +5,50 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-02 — Conversion pass: signup restored on the king-tides guide
+
+**Health:** green. Today's refresh landed via the 09:04Z scheduled fire
+(commit 4d4c163, before session start — second clean day of the 4-slot era;
+yesterday's noted 04:47/07:17 no-shows did not repeat as a blocker). No open
+issues. No 85+ window at any station in the next 14 days, so §2b idle.
+
+**Primary (§2f on-site, commit 88c2f5d):** due-this-week conversion pass,
+aimed at the top-traffic surface. Found while sourcing it: the 08-12
+multi-station gate REPLACED the email signup on the king-tides guide (the
+template renders gate OR signup, never both), so the site's #1 page (40
+pv/7d; 124 pv since 08-12) had no standalone newsletter capture — and its
+body's "the signup at the bottom of this page is one email a week" bullet
+had been false since 08-12. The gate's own email step exists but converted
+once in 3 weeks (1 click / 124 pv; its button reads as a calendar download,
+not a signup). Fix: new opt-in `endSignup` frontmatter (headline+blurb)
+renders EmailSignup after the gate, source `end_article_gated`; enabled on
+the king-tides guide with season copy ("King tide season starts October 1…")
+that promises ONLY the weekly Thursday issue — no standalone king-tide-alert
+promise, since none has ever been sent. The stale body bullet is true again
+with no copy change, so `updated:` was not bumped. Off-site §2f flavor
+skipped: P3 queue is owner-gated (account/form directories) after
+awesome-coastal.
+
+**Verification:** plain build + output gate green (121 sitemap URLs); built
+king-tides page renders gate button then signup box with the new source
+attr; diff was the three intended files only. Judgment item added to BACKLOG
+for ~09-16 with baselines (site signups÷uniques 0.47%, 1/214 trailing 7d).
+
+**Metrics (PostHog 7d, host-filtered):** 214 uniques, ~160+ pv; top paths:
+king-tides guide 40, home 37, methodology 20, fitzgerald 17, acadia 14.
+Signups 1 (0.47% vs 1.5% target). ZIP jump working in the field: 8
+zip_lookup_used (home 2, guide_footer 1 redirected; finder 5 matched).
+Referrers: google 52, ddg 28, yahoo 21, bing 28 — healthy engine spread.
+
+**Tomorrow (09-03, Thursday):** NEWSLETTER is the primary action — standing
+ritual per playbook §6: sync-audience → send-weekly --dry-run →
+recompute-check against fact sheets → send --owner-reviewed → journal the
+Broadcast id. The Sep 5–10 Puget run and Sep 9–12 La Push last-morning-run
+make the issue body; template/voice unchanged (blanket approval applies).
+After that, refresh targets remain seattle-alki (07-12) then WA hub (07-14).
+
+---
+
 ## 2026-09-01 (afternoon) — Owner follow-up sweep: all-clear + one preventive floor
 
 **Why:** owner directed a proactive second pass over the site after
