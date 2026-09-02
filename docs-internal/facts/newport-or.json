@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-01",
+ "generated_on": "2026-09-02",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -566,12 +566,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 44
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 27
+   "count": 33
   },
   {
    "commonName": "Branched Dendronotid",
@@ -581,22 +576,17 @@
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 19
+   "count": 16
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 15
   },
   {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
-   "count": 8
-  },
-  {
-   "commonName": "Northern Leopard Dorid",
-   "scientificName": "Diaulula odonoghuei",
-   "count": 4
-  },
-  {
-   "commonName": "Rose-pink Cuthona",
-   "scientificName": "Cuthona divae",
-   "count": 3
+   "count": 6
   },
   {
    "commonName": "Nanaimo Dorid",
@@ -611,6 +601,16 @@
   {
    "commonName": "Rough Keyhole Limpet",
    "scientificName": "Diodora aspera",
+   "count": 3
+  },
+  {
+   "commonName": "Northern Leopard Dorid",
+   "scientificName": "Diaulula odonoghuei",
+   "count": 3
+  },
+  {
+   "commonName": "Fisher's Aeolid",
+   "scientificName": "Orienthella piunca",
    "count": 3
   }
  ]

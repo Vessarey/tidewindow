@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-01",
+ "generated_on": "2026-09-02",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -564,24 +564,19 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
    "count": 46
   },
   {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
-   "count": 45
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 44
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
    "count": 17
-  },
-  {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 14
   },
   {
    "commonName": null,
@@ -606,12 +601,17 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 11
+   "count": 10
+  },
+  {
+   "commonName": "Bodega Tellin",
+   "scientificName": "Megangulus bodegensis",
+   "count": 10
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 10
+   "count": 9
   }
  ]
 }

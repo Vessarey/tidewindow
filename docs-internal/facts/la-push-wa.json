@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-01",
+ "generated_on": "2026-09-02",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -583,11 +583,6 @@
    "count": 5
   },
   {
-   "commonName": "Black Leather Chiton",
-   "scientificName": "Katharina tunicata",
-   "count": 4
-  },
-  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 4
@@ -598,18 +593,23 @@
    "count": 4
   },
   {
+   "commonName": "Black Leather Chiton",
+   "scientificName": "Katharina tunicata",
+   "count": 3
+  },
+  {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
    "count": 3
   },
   {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
    "count": 3
   },
   {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 3
   }
  ]
