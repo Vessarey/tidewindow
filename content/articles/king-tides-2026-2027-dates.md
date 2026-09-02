@@ -5,6 +5,9 @@ date: "2026-07-03"
 updated: "2026-07-19"
 category: "king-tides"
 gateStations: ["la-jolla-ca", "newport-or", "bar-harbor-me", "seattle-wa"]
+endSignup:
+  headline: "King tide season starts October 1"
+  blurb: "One email a week, sent Thursdays: the daylight windows worth the drive on your coast, this season's king-tide lows included as they come into range. Computed from NOAA predictions, never padded."
 tags: ["king tides", "perigean spring tide", "minus tide", "winter tidepooling", "2026-2027 season"]
 faq:
   - q: "What is a king tide?"

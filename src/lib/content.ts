@@ -29,6 +29,7 @@ export interface ArticleFrontmatter {
   featuredRoundup?: FeaturedRoundup; // opt-in state-hub featured slot
   station?: string; // covered-station slug; article page renders that station's calendar gate (build fails on unknown slugs)
   gateStations?: string[]; // multi-station articles: slugs for a station-picker calendar gate (build fails on unknown slugs; takes precedence over `station`)
+  endSignup?: { headline: string; blurb: string }; // opt-in: render the newsletter signup after the calendar gate (gated articles otherwise have no standalone signup box); copy must only promise what the weekly issue actually does
   draft?: boolean;
 }
 

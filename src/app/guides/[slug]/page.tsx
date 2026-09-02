@@ -128,6 +128,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         />
       )}
 
+      {a.endSignup && (station || (gateStations && gateStations.length > 0)) && (
+        <EmailSignup
+          source="end_article_gated"
+          headline={a.endSignup.headline}
+          blurb={a.endSignup.blurb}
+          cta="Join the list"
+        />
+      )}
+
       <nav className="mt-8 rounded-lg border border-ink/15 bg-foam-deep/60 p-5" aria-label="Planning tools for this guide">
         <h2 className="text-xl">Put this guide to work</h2>
         <div className="mt-3">
