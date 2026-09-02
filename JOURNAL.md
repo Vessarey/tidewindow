@@ -5,6 +5,42 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-02 (heartbeat) — Cleared a new dev-dependency advisory
+
+**Coordination:** today's operator had already completed the conversion pass
+(88c2f5d / 10bf891), so this run did not duplicate or extend that primary
+action. The restored king-tides signup is live and browser-visible after the
+calendar gate.
+
+**One maintenance fix:** the 09:04Z refresh log and a fresh full `npm audit`
+both surfaced two new high-severity Browserslist advisories against 4.28.4
+(the production-only audit remained clean). Ran the bounded npm audit fix,
+which changed only `package-lock.json`: Browserslist 4.28.4 → 4.28.8 plus its
+five patch-level browser-data dependencies. Full and production audits now
+report zero vulnerabilities.
+
+**Validation and current health:** plain build + output gate green (12 stations
+× 4 published months; 121 sitemap URLs), `git diff --check` clean. Today's NOAA
+refresh landed as 4d4c163 at 09:06Z; production reports generatedAt
+2026-09-02T09:04:41.846Z and all eight sampled routes return 200. Real-browser
+checks covered the homepage, restored king-tides signup, La Push guide, August
+archive, October month page, and finder with zero console warnings/errors.
+No open issues and no 85+ window in the next 14 days. The NPS Mora Road closure
+still runs through Oct. 15.
+
+**Measurement:** PostHog project 495836, filtered to
+`$host=thetidewindow.com` + Regular traffic, shows 231 pageviews, 1 signup,
+5 calendar-gate clicks, 1 reveal, 5 ZIP uses, and 0 observed exceptions in the
+trailing 7 days; exception capture is present in production code, so this is
+observed zero, not an instrumentation gap. LCP p75 is 733 ms (32 web-vitals
+events, 24h). Gate variants remain far below the 30-event verdict floor
+(largest source: tool_gate at 9 clicks since Aug. 7), so no treatment changed.
+GSC added Aug. 30–31 at 8/411 and 5/310 clicks/impressions, average positions
+8.5 and 8.3; the highest-impression low-CTR pages remain under observation.
+
+**Next:** Thursday 09-03 newsletter stays the only primary action tomorrow;
+judge `end_article_gated` around 09-16 at the documented sample floor.
+
 ## 2026-09-02 — Conversion pass: signup restored on the king-tides guide
 
 **Health:** green. Today's refresh landed via the 09:04Z scheduled fire
