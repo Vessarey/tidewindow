@@ -428,6 +428,16 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [ ] **~2026-09-06: recheck production LCP after 72h.** The 09-03 heartbeat
+      measured p75 3.84s across 44 `$web_vitals` events/24h versus 0.73s on 32
+      events the prior day. Slow slices were Port Townsend 6.93s (n=2), Seattle
+      5.51s (n=5), methodology 4.60s (n=4), calendars 3.36s (n=2), and trip
+      picker 3.40s (n=2), while the two highest-traffic guides remained ~0.68s
+      and a live-browser route sweep produced no warnings/errors. Do not tune
+      on these tiny per-route samples. If station-page LCP stays above 2.5s
+      with ~30+ samples, profile the station payload/font/render path before
+      changing code.
+
 - [x] 2026-09-02 **Sitemap `lastmod` told the truth for 57 of 121 URLs** — the
       other 64 (all beach/tool/hub/static pages) carried the daily refresh
       timestamp regardless of change; Google discounts an unreliable lastmod.

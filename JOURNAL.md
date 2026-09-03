@@ -5,6 +5,44 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-03 (heartbeat) — Post-send safety sweep + fflate patch
+
+**Coordination:** today's operator had already recovered the stranded SEO
+commit and sent Thursday's established newsletter to 10 subscribers, so this
+run did not repeat either action. The two generated 09-03 newsletter drafts
+remain untracked and untouched as operator-owned artifacts.
+
+**One maintenance fix:** a fresh full and production `npm audit` surfaced a
+new moderate fflate advisory after the operator run: 0.4.8 can loop forever on
+a malformed ZIP64 archive, pulled transitively by posthog-js. Applied npm's
+bounded fix, changing only the lockfile entry to fflate 0.4.9. Full and
+production audits now report zero vulnerabilities.
+
+**Validation and current health:** plain build + output gate green (12 stations
+× 4 months; 121 sitemap URLs), `git diff --check` clean. Today's 09:12Z cron
+landed 8da8425 after a successful 12-station refresh/build/IndexNow run; later
+slots skipped against the landed commit. Production data is stamped
+2026-09-03T09:12:54.664Z. The homepage, both WA station pages, finder, La Push,
+the new Oregon 2027 guide, and the consolidated national guide all return 200;
+the retired hub returns the intended permanent 308. Real-browser checks found
+zero console warnings/errors. No open issues or Exceptional window in the next
+14 days; NPS still lists Mora Road closed through Oct. 15.
+
+**Measurement:** PostHog project 495836, filtered to
+`$host=thetidewindow.com` + Regular traffic, reports 221 pageviews, 1 signup,
+5 gate clicks, 1 calendar reveal, 5 ZIP uses, and 0 observed exceptions in 7d.
+Exception capture is configured, so zero is observed rather than missing.
+Every gate source remains below the 30-event floor (tool_gate leads at 9 clicks
+since Aug. 7), so no experiment changed. LCP p75 rose to 3.84s on 44 events in
+24h, but the slow route slices have only 2–5 samples apiece while both top
+guides remain ~0.68s and the real-browser sweep is clean; logged a 72h recheck
+instead of optimizing tiny-n noise. GSC's newest day (Sep. 1) is 8 clicks / 509
+impressions at position 7.9, inside the healthy recent range.
+
+**Next:** 09-04 returns to the refilled P1 queue (WA king tides 2026/27 first).
+Check the new broadcast's bounce/complaint result on the next run, and recheck
+LCP after enough route samples accumulate.
+
 ## 2026-09-03 (Thursday) — Weekly newsletter sent; stranded audit commit recovered and deployed
 
 **Health:** green. Daily refresh landed on origin as 8da8425 (09:12Z fire,
