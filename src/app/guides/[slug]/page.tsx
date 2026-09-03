@@ -43,6 +43,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const station = a.station ? getStationData(a.station).station : undefined;
   const gateStations = a.gateStations?.map((slug) => getStationData(slug).station);
 
+  // Contextual links between guides: same category first, then the newest of
+  // the rest. Added 2026-09-02 after the GSC audit found 15 guides that Google
+  // had discovered but never crawled — sibling links from indexed guides are
+  // the one on-site signal that raises a page's crawl priority.
+  const others = getAllArticles().filter((x) => x.slug !== a.slug);
+  const related = [
+    ...others.filter((x) => x.category === a.category),
+    ...others.filter((x) => x.category !== a.category),
+  ].slice(0, 4);
+
   return (
     <div>
       <ArticleJsonLd article={a} />
@@ -135,6 +145,22 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           blurb={a.endSignup.blurb}
           cta="Join the list"
         />
+      )}
+
+      {related.length > 0 && (
+        <section className="mt-8" aria-label="Related guides">
+          <h2 className="text-xl">More guides</h2>
+          <ul className="mt-3 grid gap-3 sm:grid-cols-2">
+            {related.map((r) => (
+              <li key={r.slug} className="rounded-lg border border-ink/15 bg-white/60 p-4">
+                <Link href={`/guides/${r.slug}/`} className="font-semibold underline decoration-kelp/50 hover:decoration-kelp">
+                  {r.title}
+                </Link>
+                <p className="mt-1 text-[0.88rem] text-ink-soft">{r.description}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       <nav className="mt-8 rounded-lg border border-ink/15 bg-foam-deep/60 p-5" aria-label="Planning tools for this guide">

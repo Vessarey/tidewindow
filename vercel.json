@@ -1,4 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/king-tides/2026-2027",
+      "destination": "/guides/king-tides-2026-2027-dates/",
+      "permanent": true
+    },
+    {
+      "source": "/king-tides/2026-2027/",
+      "destination": "/guides/king-tides-2026-2027-dates/",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/ingest/static/:path*",

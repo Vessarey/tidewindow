@@ -79,7 +79,7 @@ At every Washington station we compute, 2026's deepest daylight low came in July
 | Newport (9435380) | −1.91 ft | Dec 23, 5:53 PM | 61 |
 | Garibaldi (9437540) | −1.66 ft | Jan 21, 5:59 PM | 57 |
 
-*Computed 2026-07-19 from NOAA station predictions. The [2026-2027 king tide calendar](/king-tides/2026-2027/) covers the high-water end of the same alignments.*
+*Computed 2026-07-19 from NOAA station predictions. The [2026-2027 king tide calendar](/guides/king-tides-2026-2027-dates/) covers the high-water end of the same alignments.*
 
 The column is a staircase: winter's deep water fades as you go north. At Port Orford, Christmas Eve beats the August run by nearly half a foot (−2.21 vs −1.74). At Charleston the winter margin is a third of a foot. At Newport it vanishes — August 12's −1.913 ft against December 23's −1.910 ft, a difference of 0.003 ft, about a millimeter of water. And at Garibaldi the staircase inverts: its best king-season low, −1.66 ft on January 21, 2027, never catches its August 12 dawn low of −1.77 ft. South of Newport, plan for winter; north of it, August 12 is the year's floor, full stop.
 

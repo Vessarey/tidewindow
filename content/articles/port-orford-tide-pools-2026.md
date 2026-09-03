@@ -100,7 +100,7 @@ From late October the deep water moves to dusk, and Port Orford's dusk runs deep
 
 The Christmas Eve row is the deepest daylight low at any Oregon station this king season, but read its daylight column: 69 minutes, all at the front of a window that opens at 3:40 PM, with light gone around 4:49 PM and the −2.21 ft low not arriving until 6:14 — an hour and a half after dark. December 23 is the more usable sibling: light to about 4:48 PM against a 5:26 PM low.
 
-The row worth circling is the last one. January 21, 2027 — a −1.89 ft low at 5:12 PM, with daylight running to about 5:17 — is the only window among the five season-lowest daylight lows at any of the four Oregon stations that reaches the Great band. The low arrives five minutes before the light runs out: you get real depth and you get to see it, a combination the rest of the coast's king season never quite delivers. These dusk tides ride the same alignments as [king tide season](/king-tides/2026-2027/), when winter's highest highs drain to the year's lowest lows a few hours later.
+The row worth circling is the last one. January 21, 2027 — a −1.89 ft low at 5:12 PM, with daylight running to about 5:17 — is the only window among the five season-lowest daylight lows at any of the four Oregon stations that reaches the Great band. The low arrives five minutes before the light runs out: you get real depth and you get to see it, a combination the rest of the coast's king season never quite delivers. These dusk tides ride the same alignments as [king tide season](/guides/king-tides-2026-2027-dates/), when winter's highest highs drain to the year's lowest lows a few hours later.
 
 ## How to work the window
 

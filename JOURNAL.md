@@ -5,6 +5,71 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-02 (owner-directed) — Audit fixes: crawl paths, honest lastmod, 2027 king tides, queue refilled
+
+**Why (owner ran a GSC + PostHog + loop audit today):** Google has indexed 58
+of 113 known URLs; 50 are "Discovered – currently not indexed" with last-crawl
+N/A — never fetched — including 15 guides and 3 of 4 tools. Nothing technical
+blocks Googlebot (robots, meta robots, canonicals, sitemap, headers all clean;
+verified against the live site). Traffic flat seven weeks (746 sessions / 28d,
+1.09 pv/session, 7 signups). No article shipped since 07-26 because BACKLOG P1
+had run dry and nothing refills it. Site CTR fell 1.95% → 1.27% Jul→Aug while
+clicks rose 72 → 125 and position improved 10.7 → 8.6: the 07-19 retitles put
+the NOAA station id in `<title>`, and pillar-point-ca now draws 924 impr / 0
+clicks, every revealed query a NOAA-metadata lookup for 2025 dates. CTR is a
+contaminated metric here; judge on clicks + position.
+
+**Shipped (one commit, build + output gate green, lint clean, 121 sitemap URLs):**
+- **`/guides/king-tides-oregon-2027/`** — new article for the `king tides
+  oregon 2027` cluster (four queries, ~59 revealed impr at pos 6.9–8.8, one
+  click). Highs and daylight lows at all four OR stations from fact sheets;
+  Oregon King Tides Project described from oregonshores.org (fetched at write
+  time; their 2026-27 dates not yet posted, said so). Featured on `/beaches/or/`
+  through 12-25. Non-tide claims kept to what was verified; access rules
+  deferred to the station guides.
+- **King-tides guide retitled** to carry 2026 *and* 2027 explicitly
+  (`king tides 2027` sat at pos 7.4 with 0 clicks against a "2026-2027" title),
+  and the 12-station lowest-daylight-low table folded in.
+- **`/king-tides/2026-2027/` retired** → 301 to the guide via vercel.json (both
+  slash forms). It had 1 click at pos 11.9 and was cannibalizing the guide's
+  23. Route deleted, 15 article links rewritten, sitemap updated (§5: journal
+  first, redirect-equivalent, remove from sitemap — done).
+- **Sitemap `lastmod` is now true**: 64 of 121 URLs had carried the daily
+  refresh timestamp regardless of change. Now 22 real-daily-change pages keep
+  it, articles/index/categories use frontmatter dates, finished months keep
+  month-end, 37 static shells and current/future months omit it.
+- **Station `<title>` drops the NOAA id** (kept in description + body).
+- **Related-guides block** (4 links, same category first) on every article —
+  the one on-site lever that raises crawl priority of the 15 uncrawled guides
+  (what-is-a-sneaker-wave now has 15 inbound links in `out/`).
+- **`gsc-query.mjs inspect [n]`** — URL Inspection API sample of sitemap
+  coverage state (first run 6 URLs: 3 indexed, 2 never crawled, 1 unknown).
+- **Facts: `king_season_oct26_mar27_highest5`** per station so king-tide
+  highs can be cited under the fact-sheet rule.
+- **Playbook:** empty content queue is now a §2a condition with a refill
+  procedure; new §2a′ weekly indexing-health read; §2f preconditioned on the
+  surface being indexed; §5 retires experiments that cannot reach the floor
+  within ~60 days instead of extending twice; §1 says judge on clicks/position.
+- **BACKLOG:** three unmeasurable judgments closed (exit-intent 25 impr / 0
+  signups; article_gate; end_article_gated); P1 refilled with three
+  demand-backed items (WA king tides 2027, "best time to go tide pooling",
+  Fitzgerald "tide chart" refresh); 09-30 `inspect 60` re-check scheduled.
+
+**Audit correction, recorded so nobody acts on it:** the audit said four month
+pages had "nothing to report". Wrong metric — that was daylight *minus* tides.
+Every month page still has daylight windows under +1.0 ft (thinnest: Seattle
+2026-10 with 2). No month page was noindexed.
+
+**Metrics snapshot (GSC 28d to 08-31 / PostHog 28d):** 118 clicks, ~9.5K impr,
+pos 8.6; guides 92 clicks / 3,632 impr (2.53%), beach pages 23 / 5,449
+(0.42%); mobile 2.19% vs desktop 0.66%. 746 sessions, 811 pv, 7 signups.
+Referrers: Bing-family 342 vs Google 185.
+
+**Tomorrow (09-03, Thursday):** newsletter is the primary. Then the loop
+resumes under the amended playbook: §2a′ inspect on the first run of the week;
+next article from the refilled P1. Judge today's retitle + lastmod change on
+`dates 60` clicks/position around 09-30, not on CTR.
+
 ## 2026-09-02 (heartbeat) — Cleared a new dev-dependency advisory
 
 **Coordination:** today's operator had already completed the conversion pass

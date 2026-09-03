@@ -91,6 +91,14 @@ function stationFacts(slug) {
       .sort((a, b) => a.lowHeight - b.lowHeight)
       .slice(0, 5)
       .map(brief),
+    // The other half of a perigean spring tide. King-tide searchers want the
+    // flood dates as much as the daylight lows; every published high must come
+    // from here, same as every low.
+    king_season_oct26_mar27_highest5: (d.tides ?? [])
+      .filter((t) => t.type === "H" && t.date >= "2026-10-01" && t.date <= "2027-03-31")
+      .sort((a, b) => b.height - a.height)
+      .slice(0, 5)
+      .map((t) => ({ date: t.date, weekday: t.weekday, high_ft: t.height, high_time_local: t.timeLocal })),
     golden_hour_overlaps_next120d_top6: up
       .filter((w) => w.lowTime < now + 120 * 86400_000 && w.minToSunEdge !== null && Math.abs(w.minToSunEdge) <= 90 && w.daylightMin >= 30)
       .slice(0, 6)

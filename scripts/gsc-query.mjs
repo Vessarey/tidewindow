@@ -11,6 +11,7 @@
  *   node scripts/gsc-query.mjs pages [days=28]       # top pages
  *   node scripts/gsc-query.mjs flywheel [days=28]    # queries at positions 8-20
  *   node scripts/gsc-query.mjs dates [days=28]       # daily clicks/impr/pos trend
+ *   node scripts/gsc-query.mjs inspect [n=40]        # coverage state of n sitemap URLs (URL Inspection API)
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -70,7 +71,38 @@ const [cmd = "sites", daysArg] = process.argv.slice(2);
 const days = Number(daysArg) || 28;
 const token = await getAccessToken();
 
-if (cmd === "sites") {
+if (cmd === "inspect") {
+  // Indexing-health read (playbook §2a′). The Page-indexing report has no API,
+  // but the URL Inspection API returns each URL's coverage state; sample the
+  // live sitemap evenly (quota: 2,000 inspections/day) and tabulate. Added
+  // 2026-09-02 after the audit found 50 sitemap URLs Google had never fetched.
+  const n = Number(daysArg) || 40;
+  const xml = await (await fetch("https://thetidewindow.com/sitemap.xml")).text();
+  const all = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  const step = Math.max(1, Math.floor(all.length / n));
+  const sample = all.filter((_, i) => i % step === 0).slice(0, n);
+  const rows = [];
+  for (const url of sample) {
+    const data = await api(token, "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect", {
+      inspectionUrl: url,
+      siteUrl: PROPERTY,
+    });
+    const r = data.inspectionResult?.indexStatusResult ?? {};
+    rows.push({
+      url: url.replace("https://thetidewindow.com", ""),
+      state: r.coverageState ?? "?",
+      crawled: r.lastCrawlTime ? r.lastCrawlTime.slice(0, 10) : "never",
+    });
+  }
+  const tally = {};
+  for (const r of rows) tally[r.state] = (tally[r.state] ?? 0) + 1;
+  console.log(`Sampled ${rows.length} of ${all.length} sitemap URLs:`);
+  for (const [state, count] of Object.entries(tally).sort((a, b) => b[1] - a[1])) console.log(`  ${String(count).padStart(3)}  ${state}`);
+  console.log("");
+  for (const r of rows.sort((a, b) => a.state.localeCompare(b.state))) {
+    console.log(`${r.state.padEnd(42)} ${r.crawled.padEnd(10)} ${r.url}`);
+  }
+} else if (cmd === "sites") {
   const data = await api(token, "https://www.googleapis.com/webmasters/v3/sites");
   console.log(JSON.stringify(data, null, 2));
 } else {

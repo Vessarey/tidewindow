@@ -52,7 +52,7 @@ Two of eight. That is the whole story of this reserve in one column. San Mateo C
 
 Look at where the deep lows land. The July cluster bottomed out between 4:45 and 5:33 AM — dawn events, hours before the gate. The November and December cluster bottoms out between 4:22 and 6:12 PM, right as the winter close arrives. The moon does not consult the county.
 
-The days that thread the needle are worth circling. December 23 gives you the window from 1:30 PM until the 5:00 PM close — about 3.5 hours — with the −1.86 ft low itself at 4:22 PM. November 24 is nearly as good: −1.64 ft at 4:31 PM, with roughly 3 h 15 min of usable window after 1:45 PM. These are the same new- and full-moon alignments that produce the season's king high tides, so if you're tracking those, the [2026–2027 king tide calendar](/king-tides/2026-2027/) covers the other end of the same curve.
+The days that thread the needle are worth circling. December 23 gives you the window from 1:30 PM until the 5:00 PM close — about 3.5 hours — with the −1.86 ft low itself at 4:22 PM. November 24 is nearly as good: −1.64 ft at 4:31 PM, with roughly 3 h 15 min of usable window after 1:45 PM. These are the same new- and full-moon alignments that produce the season's king high tides, so if you're tracking those, the [2026–2027 king tide calendar](/guides/king-tides-2026-2027-dates/) covers the other end of the same curve.
 
 ## What's left in 2026, and how much of it fits inside the gates?
 

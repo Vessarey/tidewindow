@@ -22,7 +22,12 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const best = s.best30[0];
   const socialImage = `/og/stations/${s.slug}.png`;
   return {
-    title: `${s.name} tide chart — next highs, lows & tide-pool times (NOAA ${s.noaaId})`,
+    // The station id stays in the description and on the page (StationChip,
+    // tables, FAQ) but not in <title>: with it there, the 2026-09-02 GSC audit
+    // found pillar-point-ca drawing 924 impressions / 0 clicks, every revealed
+    // query a NOAA station-metadata lookup ("noaa station 9414131 …", mostly
+    // for 2025 dates) that only ever clicks through to tidesandcurrents.noaa.gov.
+    title: `${s.name} tide chart — next highs, lows & tide-pool times`,
     description: `${best ? `Next good low tide at ${s.name}: ${fmtDate(best.date)}, ${best.lowHeight.toFixed(1)} ft at ${best.lowTimeLocal}. ` : ""}Daily high and low tide times plus ranked daylight tide-pool windows from NOAA station ${s.noaaId}.`,
     alternates: { canonical: "./" },
     openGraph: { images: [{ url: socialImage, width: 1200, height: 630, alt: `${s.name} tide chart` }] },

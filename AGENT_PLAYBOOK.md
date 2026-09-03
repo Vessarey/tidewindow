@@ -62,8 +62,14 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
   Resend dashboard API and stop sends if complaint rate nears 0.1%.
 - **Google Search Console** (LIVE): `node scripts/gsc-query.mjs flywheel 28`
   lists queries ranking 8-20 (build/expand pages for these — highest-leverage
-  SEO action once data exists); `queries`/`pages` for the broader picture.
-  GSC data lags ~2 days and will be sparse for the first months.
+  SEO action once data exists); `queries`/`pages` for the broader picture;
+  `inspect [n]` samples n sitemap URLs through the URL Inspection API and
+  tabulates their coverage state (the §2a′ indexing-health read). GSC data lags
+  ~2 days. **Judge search on clicks and position, not CTR:** since the
+  2026-07-19 station retitles the property draws NOAA-station-metadata and
+  codec/piracy queries that never click (2026-09-02 audit: pillar-point-ca at
+  924 impressions / 0 clicks, every revealed query "noaa station 9414131 …"),
+  so site-wide CTR is contaminated and will stay so.
 - **NOAA data** is refreshed by the Actions cron, not by you. Never hand-edit
   `public/data-json`, `public/ics`, or `public/embed-badge`.
 - **Fact sheets** (`docs-internal/facts/*.json`) regenerate daily. Every tide
@@ -71,7 +77,26 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
 
 ## 2. Daily priority queue (do the first that applies)
 
-a. **Broken build / failed cron / open reader issue** → fix it.
+a. **Broken build / failed cron / open reader issue / empty content queue** →
+   fix it. The content queue (BACKLOG P1) is *empty* when it holds fewer than
+   three open items that could be written this week — a November piece in
+   September does not count. Refill it from demand before anything else: run
+   `node scripts/gsc-query.mjs flywheel 28` and `queries 28`, take the top query
+   clusters that have no page of their own (or whose page title does not match
+   the query's year or place), and add ≥3 P1 items, each naming the cluster, its
+   impressions and position, and the intended slug. (This rule exists because
+   nothing was published between 2026-07-26 and 2026-09-02: the queue had run
+   dry and every run fell through to §2e/§2f while GSC showed "king tides 2027"
+   queries at position 7 with zero clicks.)
+a′. **Indexing health (first run of each week):** `node scripts/gsc-query.mjs
+   inspect 40` (plus the GSC Pages report when a browser is available). If more
+   than a third of sampled sitemap URLs are not indexed, or any guide or tool is
+   "Discovered – currently not indexed", the run's primary action is crawl
+   paths, not conversion: add contextual links from the top-5 click-earning
+   guides (`pages 28`) into the uncrawled guides/tools, and check nothing is
+   emitting a fake sitemap `lastmod`. Never run §2f on a surface Google has not
+   crawled — a gate on an unfetched page cannot pay back. (2026-09-02 audit:
+   58 indexed / 55 not, 50 never fetched, including 15 guides and 3 tools.)
 b. **Time-sensitive content:** an Exceptional (90+) window or king-tide event
    within 14 days at a covered region → write/refresh the regional roundup and
    surface it on the relevant state hub.
@@ -87,7 +112,8 @@ d. **Content backlog** (`BACKLOG.md` → Content queue): write ONE article per t
 e. **Refresh pass** (30–50% of runs once >25 articles exist): pick the oldest
    article whose data tables have gone stale (past dates), roll it forward to
    current fact-sheet data, update `updated:` frontmatter honestly.
-f. **Conversion & distribution pass (run at least twice a week — as of the
+f. **Conversion & distribution pass (precondition: the target surface is
+   indexed — see a′; run at least twice a week — as of the
    2026-08-01 audit, production is proven and capture is the constraint: the
    Tide Window Finder got ~12 views in July and signups÷uniques sits near 0.6%
    vs the 1.5% target):**
@@ -148,6 +174,15 @@ g. **Coverage expansion:** add a new NOAA station to
   or 30+ clicks/events since the change. Below that, extend the observation
   window and journal the extension — never revert or double down on tiny-n
   noise. Record baseline numbers in JOURNAL the day an experiment starts.
+- **Unmeasurable experiments get retired, not extended twice.** When an
+  experiment starts, compute days-to-floor = floor ÷ the surface's current
+  daily rate and record it. If that exceeds ~60 days, or a verdict date has
+  already been extended once, close it with an explicit "unmeasurable at
+  current traffic" verdict in JOURNAL and BACKLOG, leave the surface in
+  whichever state costs nothing, and spend the run on a traffic lever instead.
+  (The exit-intent prompt sat at 25 impressions / 0 signups with its verdict
+  pushed 08-10 → 08-24 → 09-21; at ~7 signups per 28 days no on-page variant
+  on this site reaches the floor within a season.)
 - **Judge search changes on GSC date-dimension data** (`node
   scripts/gsc-query.mjs dates 60`: clicks, impressions, position by day), not
   on PostHog referrer counts — referrer weeks mix repeat views with sessions

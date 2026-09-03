@@ -54,7 +54,7 @@ Computed 2026-07-03 from NOAA station 9431647 predictions.
 
 Every one of the five lands in the afternoon, and the table shows why depth alone doesn't pick the winner. Take December 24: the window opens at 3:40 PM, but only 69 minutes of it fall in daylight — the light is gone by about 4:49 PM, a full 85 minutes before the 6:14 PM low. You hunt the falling tide, never the bottom of it. January 21 is the mirror image: shallowest low in the table, but its 152 daylight minutes stretch from the 2:45 PM window start to about 5:17 PM, just past the 5:12 PM low. It's the only window of the five where you can stand on the lowest ground in light, which is why it takes the top score of these five despite the modest number.
 
-If you'd rather not do that arithmetic, the [Tide Window Finder](/tools/tide-window-finder/) does it for every upcoming date, and the [king tides calendar](/king-tides/2026-2027/) covers the whole storm season.
+If you'd rather not do that arithmetic, the [Tide Window Finder](/tools/tide-window-finder/) does it for every upcoming date, and the [king tides calendar](/guides/king-tides-2026-2027-dates/) covers the whole storm season.
 
 ## How does winter compare with summer here?
 

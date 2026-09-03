@@ -99,6 +99,6 @@ Nowhere. They just stop being visible. Seattle's monthly supply of genuinely low
 
 *Computed 2026-07-03 from NOAA station 9447130 (Seattle) predictions.*
 
-October has 22 lows below +1 ft MLLW, exactly as many as July, and not one daylight minus tide. Two things did that: the deep low crossed to the night half of the clock as the declination geometry reversed, and daylight itself contracted around what remained. The daytime water in winter runs high instead — that is [king tide season](/king-tides/2026-2027/), the same tilt showing its other face. You can watch the collapse month by month, for every station, on the [daylight-minus-tide index](/data/daylight-minus-tide-index/).
+October has 22 lows below +1 ft MLLW, exactly as many as July, and not one daylight minus tide. Two things did that: the deep low crossed to the night half of the clock as the declination geometry reversed, and daylight itself contracted around what remained. The daytime water in winter runs high instead — that is [king tide season](/guides/king-tides-2026-2027-dates/), the same tilt showing its other face. You can watch the collapse month by month, for every station, on the [daylight-minus-tide index](/data/daylight-minus-tide-index/).
 
 The practical summary is unromantic. On the Pacific coast, a summer minus tide is a morning appointment, and the schedule was set by a 23.5-degree tilt long before you bought boots. The [methodology page](/methodology/) documents exactly how each window in these counts is defined and scored. Set the alarm; the moon will not move it for you.

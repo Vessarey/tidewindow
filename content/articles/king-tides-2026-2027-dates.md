@@ -1,14 +1,14 @@
 ---
-title: "King Tides 2026-2027 Dates: The Extreme Daylight Lows, Coast by Coast"
-description: "Dates and predictions for the 2026-2027 king tide season's lowest daylight tides, coast by coast: Newport -1.91 ft, La Jolla -1.89 ft, Bar Harbor -1.89 ft, Seattle just -0.65 ft."
+title: "King Tides 2026 & 2027 Dates: Predictions for the Extreme Daylight Lows, Coast by Coast"
+description: "King tide dates for late 2026 and 2027 at 12 NOAA stations: each coast's lowest daylight low, from Port Orford's -2.21 ft to Seattle's -0.65 ft."
 date: "2026-07-03"
-updated: "2026-07-19"
+updated: "2026-09-02"
 category: "king-tides"
 gateStations: ["la-jolla-ca", "newport-or", "bar-harbor-me", "seattle-wa"]
 endSignup:
   headline: "King tide season starts October 1"
   blurb: "One email a week, sent Thursdays: the daylight windows worth the drive on your coast, this season's king-tide lows included as they come into range. Computed from NOAA predictions, never padded."
-tags: ["king tides", "perigean spring tide", "minus tide", "winter tidepooling", "2026-2027 season"]
+tags: ["king tides 2027", "king tides 2026", "king tide dates", "perigean spring tide", "minus tide", "winter tidepooling", "2026-2027 season"]
 faq:
   - q: "What is a king tide?"
     a: "NOAA calls king tide a popular, non-scientific term for exceptionally high tides. The mechanism is a perigean spring tide: a new or full moon (when the sun's pull adds to the moon's) coinciding with lunar perigee, the moon's closest approach to Earth. NOAA says this lineup happens typically 6-8 times a year, and that it is not uncommon for these high tides to run more than a foot above apogean spring tides — the springs that occur when the moon is farthest from Earth."
@@ -43,7 +43,26 @@ The part that matters for tidepoolers: the stacking works in both directions. Du
 
 Because water in a street is news, and bare rock at the tideline is not. NOAA maintains a monthly high tide flooding outlook that flags, up to a year ahead, the days when above-normal highs may cause minor flooding in flood-prone areas — and king tide events feature heavily in it. That side deserves the attention it gets.
 
-But every one of those headline highs has a quieter twin a few hours away, and the low side is what this site computes. We ran the full October 2026 through March 2027 season at our stations and pulled each station's five lowest daylight lows; the complete list lives on the [2026-27 king tide season page](/king-tides/2026-2027/). The four stations we profile in depth, one per region, are below.
+But every one of those headline highs has a quieter twin a few hours away, and the low side is what this site computes. We ran the full October 2026 through March 2027 season at all twelve stations we compute and pulled each one's lowest daylight low; that table is next, followed by the four stations we profile in depth, one per region.
+
+## Every station's lowest daylight low, October 2026 – March 2027
+
+| Coast | Station (NOAA id) | Lowest daylight low | Date | Time of low | Daylight in window | Score |
+|---|---|---|---|---|---|---|
+| Puget Sound | [Seattle, WA](/beaches/wa/seattle-wa/) (9447130) | -0.65 ft | Thu, Mar 25, 2027 | 1:45 PM | 175 min | 57 (Fair) |
+| Puget Sound | [Port Townsend, WA](/beaches/wa/port-townsend-wa/) (9444900) | -1.64 ft | Wed, Feb 17, 2027 | 7:06 PM | 57 min | 55 (Fair) |
+| Olympic coast | [La Push, WA](/beaches/wa/la-push-wa/) (9442396) | -1.97 ft | Wed, Dec 23, 2026 | 6:03 PM | 39 min | 59 (Fair) |
+| Oregon coast | [Garibaldi, OR](/beaches/or/garibaldi-or/) (9437540) | -1.66 ft | Thu, Jan 21, 2027 | 5:59 PM | 67 min | 57 (Fair) |
+| Oregon coast | [Newport, OR](/beaches/or/newport-or/) (9435380) | -1.91 ft | Wed, Dec 23, 2026 | 5:53 PM | 60 min | 61 (Good) |
+| Oregon coast | [Charleston, OR](/beaches/or/charleston-or/) (9432780) | -2.05 ft | Thu, Dec 24, 2026 | 6:30 PM | 36 min | 59 (Fair) |
+| Oregon coast | [Port Orford, OR](/beaches/or/port-orford-or/) (9431647) | -2.21 ft | Thu, Dec 24, 2026 | 6:14 PM | 69 min | 65 (Good) |
+| Central California | [Monterey, CA](/beaches/ca/monterey-ca/) (9413450) | -1.83 ft | Thu, Dec 24, 2026 | 5:06 PM | 167 min | 80 (Great) |
+| Central California | [Pillar Point, CA](/beaches/ca/pillar-point-ca/) (9414131) | -1.90 ft | Thu, Dec 24, 2026 | 5:10 PM | 157 min | 79 (Great) |
+| Southern California | [La Jolla, CA](/beaches/ca/la-jolla-ca/) (9410230) | -1.89 ft | Thu, Jan 21, 2027 | 2:48 PM | 311 min | 84 (Great) |
+| Southern California | [San Diego, CA](/beaches/ca/san-diego-ca/) (9410170) | -1.97 ft | Thu, Jan 21, 2027 | 2:51 PM | 306 min | 85 (Great) |
+| Downeast Maine | [Bar Harbor, ME](/beaches/me/bar-harbor-me/) (8413320) | -1.89 ft | Sat, Jan 23, 2027 | 5:20 PM | 60 min | 69 (Good) |
+
+*Each station's single lowest daylight low of the season. Computed 2026-09-02 from NOAA predictions (heights in ft MLLW, times local). Two patterns to read off it: the deepest water is on the southern Oregon coast, and the most *usable* water — depth with hours of light — is in Southern California, where the same alignments land mid-afternoon. Oregon's four stations get their own page: [King Tides Oregon 2027](/guides/king-tides-oregon-2027/).*
 
 ## Which station gets the lowest daylight low?
 
@@ -96,4 +115,4 @@ These dates are also months away, which is exactly how they get lost. Three ways
 - **Put the season in your calendar.** The [calendar feeds page](/calendars/) has a subscribable 12-month feed for all twelve stations, [La Jolla](/beaches/ca/la-jolla-ca/), [Newport](/beaches/or/newport-or/), [Bar Harbor](/beaches/me/bar-harbor-me/), and [Seattle](/beaches/wa/seattle-wa/) included: subscribe once and every Good-or-better daylight window lands in your calendar app with its arrive-by time and a reminder built in. (Or skip the detour: the station picker at the end of this page hands you the same feed.)
 - **Or let the dates find you.** The signup at the bottom of this page is one email a week, sent Thursdays, with the windows worth the drive on your coast.
 
-Every date above, plus the ones that did not make the cut, is plotted on the [year heatmap](/tools/year-heatmap/), and the full season list with arrive-by times is on the [king tide season page](/king-tides/2026-2027/). The floods will get the headlines this winter. The reef is where the quiet part happens.
+Every date above, plus the ones that did not make the cut, is plotted on the [year heatmap](/tools/year-heatmap/); each station page's monthly calendars list the full season with arrive-by times; and the Oregon coast, where the deepest daylight water of the season lands, has its own page: [King Tides Oregon 2027](/guides/king-tides-oregon-2027/). The floods will get the headlines this winter. The reef is where the quiet part happens.

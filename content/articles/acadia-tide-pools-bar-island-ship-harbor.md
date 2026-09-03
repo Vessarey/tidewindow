@@ -77,7 +77,7 @@ For these two, the fact sheet's month-by-month view is the useful planning grain
 | November | 39 | 14 | 8 | Sun 11/22, −0.27 ft, 2:27 PM (55) |
 | December | 43 | 16 | 8 | Wed 12/23, −1.38 ft, 3:48 PM (58) |
 
-Two things fall out of that table. First, summer is morning country and fall is afternoon country: August's best window is before 9 AM, every one September onward is after 2 PM. Second, the deepest daylight low of all of 2026 is not in summer — it's −1.65 ft on December 24 at 4:41 PM, though only 68 minutes of that window overlap daylight, which is why it scores a modest 55. The king-tide season goes lower still: Saturday, January 23, 2027 brings a −1.89 ft daylight low at 5:20 PM, the lowest of the October-to-March stretch. Details on the [2026–2027 king tides page](/king-tides/2026-2027/).
+Two things fall out of that table. First, summer is morning country and fall is afternoon country: August's best window is before 9 AM, every one September onward is after 2 PM. Second, the deepest daylight low of all of 2026 is not in summer — it's −1.65 ft on December 24 at 4:41 PM, though only 68 minutes of that window overlap daylight, which is why it scores a modest 55. The king-tide season goes lower still: Saturday, January 23, 2027 brings a −1.89 ft daylight low at 5:20 PM, the lowest of the October-to-March stretch. Details on the [2026–2027 king tides page](/guides/king-tides-2026-2027-dates/).
 
 ## What's in the pools, and what are the rules?
 

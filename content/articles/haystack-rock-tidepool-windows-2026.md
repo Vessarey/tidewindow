@@ -73,7 +73,7 @@ Like the whole US West Coast, the good daylight lows front-load into summer and 
 
 *Computed 2026-07-27 from NOAA station 9437540 predictions, MLLW.*
 
-Read that middle column twice: daylight minus tides drop from 13 in August to 4 in September and 2 in October. September still has 30 lows below +1.0 ft — the tides don't stop, they just move into darkness. What daylight lows remain in late fall shift to the last hour before sunset: the season's best is −1.35 ft at 5:26 PM on December 22, with only about an hour of usable light. Deep winter evening lows belong to the [king tide season](/king-tides/2026-2027/), which is a spectator sport, not a tidepool trip.
+Read that middle column twice: daylight minus tides drop from 13 in August to 4 in September and 2 in October. September still has 30 lows below +1.0 ft — the tides don't stop, they just move into darkness. What daylight lows remain in late fall shift to the last hour before sunset: the season's best is −1.35 ft at 5:26 PM on December 22, with only about an hour of usable light. Deep winter evening lows belong to the [king tide season](/guides/king-tides-2026-2027-dates/), which is a spectator sport, not a tidepool trip.
 
 ## What are the rules at the Marine Garden?
 

@@ -53,7 +53,7 @@ The depths cluster tight while the light varies a lot — December 22's window h
 
 For the record book: the July 13–17 dawn run went off as computed — deepest −1.63 ft at 4:12 AM on Tuesday, July 14 — and closed out La Jolla's 2026 headlamp season. Everything left this year happens in daylight you can see your feet in.
 
-The really deep water arrives after New Year's. January 21, 2027 brings a −1.894 ft low at 2:48 PM, the lowest daylight tide of the October-to-March king season; the [2026–2027 king tide calendar](/king-tides/2026-2027/) tracks that whole stretch.
+The really deep water arrives after New Year's. January 21, 2027 brings a −1.894 ft low at 2:48 PM, the lowest daylight tide of the October-to-March king season; the [2026–2027 king tide calendar](/guides/king-tides-2026-2027-dates/) tracks that whole stretch.
 
 ## How does the rest of 2026 look?
 

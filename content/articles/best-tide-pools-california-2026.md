@@ -76,7 +76,7 @@ At every Washington station we compute, the year's deepest daylight low came thi
 | Dec 24 | Thu | −1.88 ft, 3:47 PM | −1.88 ft, 3:50 PM | −1.83 ft, 5:06 PM | −1.90 ft, 5:10 PM |
 | Dec 25 | Fri | −1.72 ft, 4:33 PM | −1.71 ft, 4:36 PM | −1.71 ft, 5:53 PM | −1.72 ft, 5:58 PM |
 
-*Computed 2026-07-15 from NOAA station predictions. These are the same new- and full-moon alignments that drive the season's king high tides — the [2026-2027 king tide calendar](/king-tides/2026-2027/) covers the other end of the same curve.*
+*Computed 2026-07-15 from NOAA station predictions. These are the same new- and full-moon alignments that drive the season's king high tides — the [2026-2027 king tide calendar](/guides/king-tides-2026-2027-dates/) covers the other end of the same curve.*
 
 The south-first lag matters even more in winter. In San Diego the December lows land mid-afternoon with hours of light left — Christmas Day at La Jolla, a −1.72 ft low at 4:33 PM on a holiday, scores 90, the only window to reach the Exceptional band in any of our four stations' deep-low rankings. On the northern half of the coast the same lows drift toward dusk: Pillar Point's deepest water of the year, −1.90 ft on December 24, bottoms out at 5:10 PM, right around sunset.
 

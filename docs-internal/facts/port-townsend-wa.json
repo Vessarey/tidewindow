@@ -454,6 +454,38 @@
    "weekend_or_holiday": false
   }
  ],
+ "king_season_oct26_mar27_highest5": [
+  {
+   "date": "2026-12-26",
+   "weekday": "Sat",
+   "high_ft": 9.96,
+   "high_time_local": "7:08 AM"
+  },
+  {
+   "date": "2026-12-25",
+   "weekday": "Fri",
+   "high_ft": 9.947,
+   "high_time_local": "6:28 AM"
+  },
+  {
+   "date": "2026-12-27",
+   "weekday": "Sun",
+   "high_ft": 9.911,
+   "high_time_local": "7:46 AM"
+  },
+  {
+   "date": "2026-12-28",
+   "weekday": "Mon",
+   "high_ft": 9.831,
+   "high_time_local": "8:22 AM"
+  },
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "high_ft": 9.813,
+   "high_time_local": "5:49 AM"
+  }
+ ],
  "golden_hour_overlaps_next120d_top6": [
   {
    "date": "2026-09-05",

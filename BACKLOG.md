@@ -164,6 +164,35 @@ with the date; add discoveries at the appropriate tier.
       minus tides in the 5–7 AM hours) and the Aug 12 outer-coast table.
       Beach Hazards Statement product specifics CUT (no clean official
       definition page verifiable) — kept a neutral weather.gov pointer.
+- [x] 2026-09-02 **King tides 2027** — `king tides 2027` (25 impr, pos 7.4),
+      `king tides 2026 2027` (43, 6.7), `king tides 2026` (38, 8.3): retitled
+      the existing guide to carry both years explicitly and folded the
+      12-station season table into it (the `/king-tides/2026-2027/` hub is now a
+      301 to the guide — it had 1 click at pos 11.9 and was cannibalizing).
+- [x] 2026-09-02 **King tides Oregon 2027** — `king tides oregon 2027` (22, 7.2),
+      `king tides 2027 oregon coast` (19, 6.9), `oregon king tides 2027` (9,
+      8.8), `king tides oregon coast 2027` (9, 7.2; the cluster's only click):
+      `/guides/king-tides-oregon-2027/`, highs + daylight lows at all four OR
+      stations, featured on the OR hub through 12-25.
+- [ ] **King tides Washington 2026/27** — `king tides washington 2026` is the
+      single biggest revealed query (51 impr, pos 6.6, 1 click) and lands on
+      the national guide, which says Seattle "sits this one out". Honest page:
+      the season's highest highs at Seattle/Port Townsend/La Push (now in
+      facts as `king_season_oct26_mar27_highest5`), the few daylight lows
+      (La Push -1.97 ft Dec 23; Port Townsend -1.64 ft Feb 17), and why Puget
+      Sound's deep winter lows are at night. Slug: king-tides-washington-2027.
+- [ ] **"Best time to go tide pooling"** — a seven-query cluster (`best time
+      for tide pools`, `best time to go tidepooling`, `best time to visit tide
+      pools` …) at positions 51-62, ~11 impr, currently matching
+      how-low-does-the-tide-need-to-be. Needs its own answer-first page: time
+      of year by coast, time of day (dawn in summer, dusk in winter — from
+      global.json's hour histogram), and the arrive-an-hour-early rule. Slug:
+      best-time-to-go-tide-pooling.
+- [ ] **Fitzgerald Marine Reserve "tide chart / schedule / table"** — the
+      guide earns 20 clicks but ranks 8.8-15.5 for `fitzgerald marine reserve
+      tide chart` (24), `… tide schedule` (5), `… tide table` (4): a refresh
+      that adds a monthly H/L chart section from pillar-point-ca facts and puts
+      "tide chart" in the title. Refresh, not a new page.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed La Push pass. Next-oldest
@@ -243,7 +272,10 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — product
 
-- [ ] **Judge the 2026-08-07 article_gate experiment** (~08-21, or once
+- [x] 2026-09-02 **CLOSED — unmeasurable at current traffic** (largest gate
+      source is 9 clicks in 26 days against a 30-event floor; §5 new rule).
+      Gates stay; they are the calendar-feed path. Original item follows.
+      ~~**Judge the 2026-08-07 article_gate experiment** (~08-21, or once
       station-guide uniques post-change reach ~100 — tiny-n rule applies).
       All 13 station-guide articles now end in the station's CalendarGate
       (source `article_gate`) instead of the generic signup (commit
@@ -369,7 +401,10 @@ with the date; add discoveries at the appropriate tier.
       behavior gates verified in-browser against the built site;
       exit_intent_shown verified landing in PostHog (from localhost —
       host-filtered out of production metrics).
-- [ ] **~2026-09-21 (extended 2026-08-24, before that 08-10): judge the
+- [x] 2026-09-02 **CLOSED — unmeasurable at current traffic** (playbook §5, new
+      rule: a verdict date is never extended twice). Surface left as is; it
+      costs nothing. Original item follows.
+      ~~**~2026-09-21 (extended 2026-08-24, before that 08-10): judge the
       exit-intent prompt** — at 08-24 check-in: 25 impressions all-time,
       0 signups — still below the §5 ~100-impression floor, extended
       again per the tiny-n rule (re-check at ~100 impressions or ~09-21;
@@ -392,6 +427,28 @@ with the date; add discoveries at the appropriate tier.
       relevance first; prefer harmonic.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
+
+- [x] 2026-09-02 **Sitemap `lastmod` told the truth for 57 of 121 URLs** — the
+      other 64 (all beach/tool/hub/static pages) carried the daily refresh
+      timestamp regardless of change; Google discounts an unreliable lastmod.
+      Now: real-change pages keep the refresh stamp, articles/index/categories
+      use frontmatter dates, finished months keep month-end, everything else
+      omits it (src/app/sitemap.ts).
+- [x] 2026-09-02 **NOAA station id out of station `<title>`** (kept in
+      description and body) — pillar-point-ca: 924 impr / 0 clicks, every
+      revealed query NOAA-metadata for 2025. Judge on clicks+position ~09-30.
+- [x] 2026-09-02 **Related-guides block on every article** (4 links: same
+      category first) — 15 guides were "Discovered – currently not indexed";
+      sibling links from indexed guides are the crawl-priority lever we own.
+- [x] 2026-09-02 `gsc-query.mjs inspect [n]` — URL Inspection API sample of
+      sitemap coverage state; first run: 2 of 6 never crawled, 1 unknown.
+- [ ] **~2026-09-30: re-run `inspect 60`** and compare against the 08-27
+      baseline (58 indexed / 55 not; 50 never crawled). If the never-crawled
+      share has not moved, next lever is consolidating the thinnest month
+      pages (Seattle 2026-10 has 2 daylight windows; Port Townsend 2026-10
+      has 3) into their station page rather than noindexing — no month page
+      is actually empty (audit correction: "0 daylight minus tides" was the
+      stricter metric; every month still has daylight windows under +1.0 ft).
 
 - [x] 2026-08-31: **Past-month pages fixed — they had been publishing wrong
       numbers** (owner review pass). The rolling windows dataset had dropped
@@ -423,7 +480,10 @@ with the date; add discoveries at the appropriate tier.
       "tool_gate = finder" readouts in earlier journal entries conflate
       those surfaces. From 08-31 they report month_gate / station_gate;
       segment all gate readouts at that date.
-- [ ] **~2026-09-16: judge the 09-02 end_article_gated signup on the
+- [x] 2026-09-02 **CLOSED — unmeasurable at current traffic** (needs ~100+
+      pv on one page; the site does ~7 signups per 28 days). Signup stays.
+      Original item follows.
+      ~~**~2026-09-16: judge the 09-02 end_article_gated signup on the
       king-tides guide** (tiny-n rules apply; needs ~100+ pv on the page
       since 09-02). Baselines at ship: guide 124 pv since 08-12 with
       article_gate_multi 1 click / 1 signup all-time; site signups÷uniques
