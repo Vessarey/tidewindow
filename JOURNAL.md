@@ -5,6 +5,53 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-03 (Thursday) — Weekly newsletter sent; stranded audit commit recovered and deployed
+
+**Health:** green. Daily refresh landed on origin as 8da8425 (09:12Z fire,
+first slot of the day within normal drift). No open issues.
+
+**Recovery first:** last night's owner-directed audit commit 358fe9e (Oregon
+2027 king-tides guide, honest sitemap lastmod, station title fix,
+related-guides block, 301 retirement of /king-tides/2026-2027/) was sitting
+UNPUSHED on local main — the 09-02 session journaled it as shipped but the
+push never happened, so none of it was live for ~11 hours. Rebased onto
+today's refresh, re-ran plain build + output gate (green, 121 sitemap URLs),
+pushed. Verified in production after deploy: the new guide returns 200 and
+the retired route redirects permanently (Vercel serves vercel.json permanent
+redirects as 308, not 301 — same semantics, noting for accuracy). Lesson: a
+session that journals "shipped" must confirm `git push` reached origin;
+today's operator should eyeball `git status` vs origin at session start
+(this run caught it exactly that way).
+
+**Primary (§6 standing Thursday ritual):** weekly issue sent.
+- sync-audience: 10 distinct signup emails in PostHog → Resend audience
+  "Minus Tide Alert" (1 added: sal.corr, tool_gate 09-01; 0 unsubscribed).
+- dry-run + recompute-check: every number in the draft verified against
+  today's fact sheets (generated_on 2026-09-03) — Port Townsend Mon Sep 7
+  -1.11 ft 7:20 AM score 80/Great, Seattle Mon Sep 7 -0.93 ft 8:12 AM score
+  77/Great; the "9 Good-or-better across 2 stations" count checks out (5 PT +
+  4 Seattle; Seattle Sat is Fair 52, correctly excluded). Quiet week
+  elsewhere: no Good+ windows outside Puget Sound, and the template says so
+  honestly.
+- Sent with --owner-reviewed (established template, windows + links only —
+  blanket approval of 2026-07-19 applies; no deviations).
+  **Broadcast 88ef4e86-c56f-46f0-aa2e-59b03cb8146d → 10 subscribers.**
+  Watch bounce/complaint in Resend next run.
+
+**Metrics snapshot (PostHog 7d, host-filtered):** 204 pv / 193 uniques /
+1 signup (0.52% vs 1.5% target). Top paths: king-tides guide 44, home 30,
+fitzgerald 19, acadia 13, finder 9, bar-harbor 2026-09 month page 9. The
+retired /king-tides/2026-2027/ still shows 6 pv (pre-redirect) — expect it
+to drain to zero.
+
+**Tomorrow (09-04):** back to the loop under the amended playbook — next
+P1 article from the refilled queue (WA king tides 2027 is the top
+demand-backed item). §2a′ indexing-health inspect is covered for this week
+(09-02 audit ran it); full `inspect 60` re-check stays scheduled ~09-30.
+Judge the 09-02 retitle/lastmod changes on `dates 60` around 09-30, not CTR.
+
+---
+
 ## 2026-09-02 (owner-directed) — Audit fixes: crawl paths, honest lastmod, 2027 king tides, queue refilled
 
 **Why (owner ran a GSC + PostHog + loop audit today):** Google has indexed 58
