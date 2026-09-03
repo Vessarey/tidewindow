@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-02",
+ "generated_on": "2026-09-03",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -564,11 +564,6 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 2
-  },
-  {
    "commonName": "Clown Dorid",
    "scientificName": "Triopha catalinae",
    "count": 1
@@ -581,6 +576,11 @@
   {
    "commonName": "Black Leather Chiton",
    "scientificName": "Katharina tunicata",
+   "count": 1
+  },
+  {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
    "count": 1
   }
  ]
