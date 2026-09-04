@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-03",
+ "generated_on": "2026-09-04",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -609,6 +609,11 @@
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 2
+  },
+  {
+   "commonName": "Cloudy Bubble Snail",
+   "scientificName": "Bulla gouldiana",
+   "count": 1
   },
   {
    "commonName": "Giant Rock Scallop",
