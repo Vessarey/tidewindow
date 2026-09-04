@@ -83,7 +83,7 @@ La Jolla inverts that trade. Its -1.89 ft low on January 21 arrives mid-afternoo
 
 ## Why does Seattle mostly sit this one out?
 
-Puget Sound's winter geometry is unforgiving. At station 9447130, November and December 2026 each have **zero** daylight low-tide windows — 21 lows below 1 ft in each month, every one of them in the dark. [Seattle's](/beaches/wa/seattle-wa/) five best daylight king-season lows all crowd into February and March 2027, and the deepest is just -0.65 ft (March 25 at 1:45 PM). Against the -3.8 ft daylight low NOAA predicts for Seattle on July 14, 2026, that is 3.15 ft of missing reef. If you tidepool in Puget Sound, the king tide season is spectator season; your dates are in July.
+Puget Sound's winter geometry is unforgiving. At station 9447130, November and December 2026 each have **zero** daylight low-tide windows — 21 lows below 1 ft in each month, every one of them in the dark. [Seattle's](/beaches/wa/seattle-wa/) five best daylight king-season lows all crowd into February and March 2027, and the deepest is just -0.65 ft (March 25 at 1:45 PM). Against the -3.8 ft daylight low NOAA predicts for Seattle on July 14, 2026, that is 3.15 ft of missing reef. If you tidepool in Puget Sound, the king tide season is spectator season; your dates are in July. The full Washington picture — including the La Push exception, the one corner of the state that keeps deep daylight windows all winter — is in [King Tides Washington 2026 & 2027](/guides/king-tides-washington-2027/).
 
 ## Where does the season actually deliver? La Jolla, over the holidays
 

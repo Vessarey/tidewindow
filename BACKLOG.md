@@ -174,13 +174,15 @@ with the date; add discoveries at the appropriate tier.
       8.8), `king tides oregon coast 2027` (9, 7.2; the cluster's only click):
       `/guides/king-tides-oregon-2027/`, highs + daylight lows at all four OR
       stations, featured on the OR hub through 12-25.
-- [ ] **King tides Washington 2026/27** — `king tides washington 2026` is the
-      single biggest revealed query (51 impr, pos 6.6, 1 click) and lands on
-      the national guide, which says Seattle "sits this one out". Honest page:
-      the season's highest highs at Seattle/Port Townsend/La Push (now in
-      facts as `king_season_oct26_mar27_highest5`), the few daylight lows
-      (La Push -1.97 ft Dec 23; Port Townsend -1.64 ft Feb 17), and why Puget
-      Sound's deep winter lows are at night. Slug: king-tides-washington-2027.
+- [x] 2026-09-04 **King tides Washington 2026/27** LAUNCHED
+      (`/guides/king-tides-washington-2027/`) — targeted `king tides
+      washington 2026` (51 impr, pos 6.6, 1 click, biggest revealed query).
+      Highs + king-season daylight lows at all three WA stations from fact
+      sheets; the honest "Puget Sound's deep lows are at night" half (Seattle
+      + PT: zero daylight windows Nov-Dec) with La Push as the winter
+      exception; WA King Tides Program (Washington Sea Grant / MyCoast)
+      verified at write time. Featured on /beaches/wa/ through 12-28; linked
+      from the national guide's Seattle section.
 - [ ] **"Best time to go tide pooling"** — a seven-query cluster (`best time
       for tide pools`, `best time to go tidepooling`, `best time to visit tide
       pools` …) at positions 51-62, ~11 impr, currently matching

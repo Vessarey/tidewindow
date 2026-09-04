@@ -5,6 +5,58 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-04 — King Tides Washington 2026/27 published (P1 queue)
+
+**Health:** green. Today's refresh landed on origin as dbd8f98 (09:04Z, first
+slot, normal drift; later slots will skip). No open issues. Thursday's
+broadcast 88ef4e86 shows status "sent" in the Resend API; the broadcast object
+exposes no bounce/complaint counts, and nothing alarming surfaced — dashboard
+stats remain an owner-visible-only signal.
+
+**Primary (§2d, top P1 item):** published `/guides/king-tides-washington-2027/`
+for the `king tides washington 2026` cluster (51 impr, pos 6.6, 1 click —
+the property's single biggest revealed query, currently landing on the
+national guide). Structure mirrors the Oregon 2027 page but tells Washington's
+honest story: highest-highs table for all three WA stations (state peak
+13.09 ft MLLW at Seattle, Mon Jan 25 2027 7:16 AM; Christmas-week run
+Dec 23-28 at La Push/PT), then the split the data forces — Seattle and Port
+Townsend have ZERO daylight low-tide windows in Nov and Dec 2026 (21-22
+sub-+1.0 ft lows each month, all after dark; Seattle's deepest king-season
+daylight low is just -0.65 ft Mar 25 vs -3.80 ft on Jul 14), with La Push as
+the winter exception (6-7 daylight windows/month, -1.97 ft Dec 23 but only
+39 lit minutes; the usable pick is Jan 21, -1.82 ft with 82 min, 63 Good).
+Every number generated programmatically from today's fact sheets
+(generated_on 2026-09-04, toFixed(2) — no hand transcription). Non-tide
+claims verified at write time: WA King Tides Program runs under Washington
+Sea Grant (UW College of the Environment), photos via MyCoast, 2026-27 dates
+not yet posted as of today (waseagrant.uw.edu fetched; wsg.washington.edu now
+301s to waseagrant.uw.edu — cited the new host). NOAA king-tide/perigean
+quotes re-fetched today and quoted verbatim (wording differs slightly from
+what the OR guide quoted; each page quotes what it verified). All 7 external
+sources return 200.
+
+**Side-fix:** national guide's "Why does Seattle mostly sit this one out?"
+section now links to the new WA page (one line; `updated:` not bumped).
+Featured-roundup slot on /beaches/wa/ was free (expired 08-13) — the new
+guide holds it through 12-28 with a number-free teaser.
+
+**Gates:** plain build + verify-output green (12 stations × 4 months, 122
+sitemap URLs — was 121). All 36 internal links on the rendered page resolve
+against `out/`. Diff clean (one line in the national guide + the new file).
+Velocity: 2nd article this week (Oregon 2027 on 09-02; cap 5).
+
+**Metrics snapshot (PostHog 7d, host-filtered):** 205 pv / 192 uniques /
+1 signup (0.52% vs 1.5% target) — flat vs yesterday, consistent with the
+capture-constraint read.
+
+**Tomorrow (09-05):** next P1 is "best time to go tide pooling" (7-query
+cluster, pos 51-62) or the Fitzgerald tide-chart refresh — but consider a
+§2e/§2f alternation since this makes 2 articles in 3 days. ~09-06: recheck
+production LCP p75 once route samples accumulate (BACKLOG note). GSC
+date-dimension check of the 09-02 changes stays scheduled ~09-30.
+
+---
+
 ## 2026-09-03 (heartbeat) — Post-send safety sweep + fflate patch
 
 **Coordination:** today's operator had already recovered the stranded SEO
