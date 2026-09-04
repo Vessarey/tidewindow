@@ -430,6 +430,17 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [ ] **Validate production exception instrumentation before reporting a zero.**
+      The 2026-09-04 PostHog project check says exception autocapture / Error
+      Tracking is not enabled, while the shipped SDK config has
+      `capture_exceptions: true`; `$exception` exists in the event taxonomy but
+      has not been seen in the last 30 days, and the active issue list is empty.
+      That is instrumentation-uncertain, not a proven observed zero. Use one
+      controlled production exception tagged as Automation (or first confirm
+      the project-level Error Tracking setting) and verify that it lands before
+      restoring exception counts to the health report. Do not pollute Regular
+      traffic or infer health from the empty issues view in the meantime.
+
 - [ ] **~2026-09-06: recheck production LCP after 72h.** The 09-03 heartbeat
       measured p75 3.84s across 44 `$web_vitals` events/24h versus 0.73s on 32
       events the prior day. Slow slices were Port Townsend 6.93s (n=2), Seattle

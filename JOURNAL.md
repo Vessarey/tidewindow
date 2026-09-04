@@ -5,6 +5,52 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-04 (heartbeat) — exception reporting guardrail corrected
+
+**Coordination:** today's operator had already published the Washington
+2026/27 king-tides guide and completed the primary. This pass did not duplicate
+that work and left the two untracked 09-03 newsletter drafts untouched.
+
+**One reliability improvement:** corrected the operating record so an empty
+PostHog Error Tracking view is no longer reported as “zero observed.” The live
+Tidewindow project reports exception autocapture / Error Tracking as not
+enabled. The shipped SDK still has `capture_exceptions: true`, and `$exception`
+is present in the event taxonomy, but it has not been seen in the last 30 days;
+the active issue query also returns no rows. Until a controlled production test
+tagged as Automation (or a project-level setting check) proves end-to-end
+capture, exception health is **instrumentation-uncertain**, not zero. Added a
+P2 validation item; made no product/configuration change and did not generate a
+test error in Regular traffic.
+
+**Current health:** green. `bcbb5b0` is on origin/main with a successful Vercel
+status. The 09:04Z NOAA refresh `dbd8f98` is live (generated
+2026-09-04T09:04:49.651Z), has all 12 stations, and the next 14 days contain no
+Exceptional (90+) window (current maximum 80). Homepage, the new Washington
+guide, national king-tides guide, WA hub, finder, and La Push station page all
+return 200. A real-browser pass loaded the homepage, new guide, and finder with
+no console warnings/errors; ZIP 98101 selected Seattle and rendered the ranked
+30-day windows. Fresh `npm audit` is zero. NPS still lists Mora Road/Rialto
+closed July 8–Oct. 15. No open GitHub issues.
+
+**Measurement:** PostHog trailing 7d, filtered to
+`$host=thetidewindow.com` + Regular traffic: 212 pageviews, 1 signup (0.47%),
+4 station selections, 4 result views, 7 ZIP lookups, 2 gate clicks, 1 ICS
+reveal, and 0 trip-picker runs. Since 08-07, the largest gate source still has
+only 9 clicks; every arm remains below the documented 30-event floor, so no
+experiment changed. LCP p75 recovered to 1.08s on 14 events in 24h from the
+09-03 3.84s spike, but the sample is still small; keep the ~09-06 recheck.
+GSC's newest complete day (09-02) is 7 clicks / 577 impressions at average
+position 7.2. The flywheel still favors Fitzgerald and king-tides queries;
+today's Washington page addresses the largest uncovered cluster.
+
+**Validation / next:** docs-only diff passes `git diff --check`; no site build
+was required because no code or content changed. Next operator should use the
+existing P1 alternation choice (best-time-to-go-tide-pooling or Fitzgerald),
+recheck LCP around 09-06, and validate exception capture before citing an
+exception count.
+
+---
+
 ## 2026-09-04 — King Tides Washington 2026/27 published (P1 queue)
 
 **Health:** green. Today's refresh landed on origin as dbd8f98 (09:04Z, first
