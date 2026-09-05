@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-04",
+ "generated_on": "2026-09-05",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -612,7 +612,7 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": "California Mussel",
