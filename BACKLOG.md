@@ -190,11 +190,40 @@ with the date; add discoveries at the appropriate tier.
       of year by coast, time of day (dawn in summer, dusk in winter — from
       global.json's hour histogram), and the arrive-an-hour-early rule. Slug:
       best-time-to-go-tide-pooling.
-- [ ] **Fitzgerald Marine Reserve "tide chart / schedule / table"** — the
-      guide earns 20 clicks but ranks 8.8-15.5 for `fitzgerald marine reserve
-      tide chart` (24), `… tide schedule` (5), `… tide table` (4): a refresh
-      that adds a monthly H/L chart section from pillar-point-ca facts and puts
-      "tide chart" in the title. Refresh, not a new page.
+- [x] 2026-09-05 **Fitzgerald "tide chart" refresh DONE** — by refresh day the
+      cluster had grown to the property's biggest flywheel target (~79 impr:
+      `fitzgerald marine reserve tide chart` 62 @ 8.9, `… tide schedule` 6 @
+      9.7, `… tide table` 5 @ 15.8, `jv fitzgerald …` 4 @ 10.5). Title now
+      leads with "Tide Chart 2026"; added a full September daily H/L chart +
+      Sep–Dec monthly summary (all generated programmatically from data-json),
+      rolled the stale August answer box/tables forward (15-row best-remaining
+      table with posted-hours math; Dec 23 corrected −1.86→−1.85 per current
+      predictions; Dec daylight-minus count 14→15), species re-pulled, SMC
+      hours ladder re-verified at write time, new tide-table FAQ. Judge on
+      GSC clicks+position ~10-01. NOTE: the September chart goes stale Oct 1 —
+      roll the chart section forward at the October refresh pass.
+      Original item: guide earned 20 clicks but ranked 8.8-15.5 for the
+      chart/schedule/table cluster; add monthly H/L chart + retitle.
+- [ ] **Constellation Park cluster (Seattle guide refresh)** — `constellation
+      park tide pools` (11 impr, pos 10.1), `low tide constellation park` (3,
+      11.3), `constellation park low tide` (2, 10.0) per GSC 28d on
+      2026-09-05. The seattle-alki guide ranks for these but its title leads
+      with "Seattle / Alki". Refresh (it is also next-oldest in the §2e queue,
+      vintage 07-12): put "Constellation Park" in the title/H1 prominently,
+      roll tables to current fact sheets. Refresh, not a new page.
+- [ ] **Puget Sound tide chart 2026** — `puget sound tide chart 2026` (10
+      impr, pos 12.1, 1 click — 10% CTR when shown; GSC 28d 2026-09-05). Give
+      puget-sound-low-tide-calendar-2026 the Fitzgerald treatment: "tide
+      chart" into the title plus a monthly H/L chart section generated from
+      seattle-wa / port-townsend-wa data-json. Refresh, not a new page.
+- [ ] **Acadia tide chart / schedule** — `acadia tide chart` (pos 19.0) and
+      `acadia tide schedule` (pos 16.0) surfaced in GSC 28d on 2026-09-05;
+      same intent as the long-noted flywheel query `acadia national park tide
+      schedule` (pos 19, 2026-07-24), unblocked since the pipeline stores H/L
+      extremes (2026-08-30). Refresh acadia-tide-pools-bar-island-ship-harbor
+      with a Bar Harbor (8413320) monthly H/L chart section and Bar Island
+      crossing framing; weigh "tide chart" in the title against the current
+      title's ranking. Refresh, not a new page.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed La Push pass. Next-oldest
