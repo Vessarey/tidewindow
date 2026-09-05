@@ -5,6 +5,67 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-05 — Fitzgerald tide-chart refresh; P1 queue refilled (§2a)
+
+**Ops incident first:** at session start /Users/vanessa/code/tidewindow did
+not exist — the working copy (with all gitignored credentials) had been moved
+to /Users/vanessa/code/skin-os/tidewindow, untracked by the skin-os repo and
+intact at yesterday's HEAD with only the two known operator-owned 09-03
+newsletter drafts untracked. Moved it back to ~/code/tidewindow (replacing a
+fresh credential-less clone made before the copy was found) and pulled. No
+data lost. If it moves again, suspect a local file-management habit and leave
+the owner a note rather than re-cloning.
+
+**Health:** green. Today's refresh landed on origin at 08:38Z (second slot;
+first-slot 33962915318 completed in 12s = skip guard, normal). No open
+issues. Facts stamped 2026-09-05, all 12 stations present.
+
+**Queue state → §2a triggered:** P1 held only two writable items (best-time
+cluster, Fitzgerald refresh) — below the three-item floor. Ran flywheel +
+queries 28d and refilled with three demand-backed items: Constellation Park
+cluster (16 impr ~pos 10, doubles as the §2e seattle-alki refresh),
+Puget Sound tide chart 2026 (10 impr, pos 12.1, 10% CTR when shown), and
+Acadia tide chart/schedule (pos 16-19, unblocked by the 08-30 H/L pipeline).
+
+**Primary (P1, also the §2e/§2f alternation yesterday suggested):** the
+Fitzgerald "tide chart" refresh — by today the cluster had grown into the
+property's biggest flywheel target (~79 impr: `fitzgerald marine reserve
+tide chart` 62 @ 8.9 with 1 click, plus schedule/table/jv variants), and the
+guide is the #3 traffic page (21 pv/7d). Shipped 59dfba2: title now
+"Fitzgerald Marine Reserve Tide Chart 2026: Low Tide Schedule, Best Days,
+and the 8 AM Catch"; new September daily H/L chart (26 rows) + Sep–Dec
+monthly summary table (every month's deepest low and highest high land the
+same day — the king-tide pairing made a clean angle); best-remaining table
+rebuilt with 15 rows of posted-hours math (the autumn story is richer than
+the old 9-row version let on: Nov 22–24 and Dec 20–23 give 3–5 h windows
+with the deep low inside gates). Honest corrections against today's
+predictions: Dec 23 −1.86→−1.85 ft, December daylight-minus count 14→15,
+answer box no longer says August is "happening now", species re-pulled
+(gumboot chiton up to #3, breaking the all-slug sweep). Every number
+generated programmatically from data-json/facts — zero hand transcription.
+SMC hours ladder re-fetched and matches; all 7 sources return 200; all 8
+internal links resolve against out/; build + verify-output green (122 URLs).
+
+**Velocity:** this is a refresh (updated: bumped), not a new article — new
+articles this week remain 2 of 5 (Oregon 09-02, Washington 09-04).
+
+**Metrics snapshot (PostHog 7d, host-filtered):** 233 pv / 219 uniques /
+1 signup (0.46% vs 1.5% target) / 4 station selections / 4 result views /
+8 ZIP lookups / 2 gate clicks / 1 ICS reveal / 0 trip-picker runs. Top pages:
+king-tides guide 57, home 26, fitzgerald 21 (refreshing the #3 page while
+retargeting its biggest cluster was the day's best leverage). GSC 28d top
+line: `king tides washington 2026` 98 impr @ 7.0 — the 09-04 WA guide
+addresses it; watch whether clicks move to the new page.
+
+**Tomorrow (09-06):** LCP p75 recheck is due (BACKLOG ~09-06 item). Then the
+refilled P1 queue: best-time-to-go-tide-pooling is the only remaining NEW
+article candidate; the three fresh items are all refresh-shaped, so the
+week's article budget (3 left) is unconstrained. NOTE: the new September
+chart section in the Fitzgerald guide goes stale Oct 1 — the October
+refresh pass must roll it (flagged in BACKLOG).
+
+---
+
 ## 2026-09-04 (heartbeat) — exception reporting guardrail corrected
 
 **Coordination:** today's operator had already published the Washington
