@@ -470,7 +470,11 @@ with the date; add discoveries at the appropriate tier.
       restoring exception counts to the health report. Do not pollute Regular
       traffic or infer health from the empty issues view in the meantime.
 
-- [ ] **~2026-09-06: recheck production LCP after 72h.** The 09-03 heartbeat
+- [x] **2026-09-05 CLOSED — production LCP recovered with a real sample.**
+      The recheck reached p75 844 ms across 63 `$web_vitals` events in the
+      latest 24h, comfortably below the 2.5s intervention threshold and above
+      the planned ~30-sample floor. The 09-03 spike did not persist; no code
+      change is warranted. Original watch item follows. The 09-03 heartbeat
       measured p75 3.84s across 44 `$web_vitals` events/24h versus 0.73s on 32
       events the prior day. Slow slices were Port Townsend 6.93s (n=2), Seattle
       5.51s (n=5), methodology 4.60s (n=4), calendars 3.36s (n=2), and trip

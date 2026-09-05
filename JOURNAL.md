@@ -5,6 +5,46 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-05 (heartbeat) — LCP watch closed after recovery
+
+**Coordination:** today's operator had already restored the repo location,
+refilled the P1 queue, refreshed the Fitzgerald guide, passed the build/output
+gate, and shipped `59dfba2` + journal commit `b4a0563`. This pass did not
+duplicate that primary and left the two operator-owned 09-03 newsletter drafts
+untouched.
+
+**One reliability improvement:** closed the 09-03 LCP watch early because the
+planned sample floor has now arrived: production LCP p75 is 844 ms across 63
+`$web_vitals` events in the latest 24 hours, versus the one-day 3.84s spike on
+44 events. Recovery is both below the 2.5s intervention line and above the
+~30-sample floor, so changing code would be tuning a non-persistent spike.
+
+**Current health / measurement:** green. The 08:38Z NOAA refresh `0d37d8a`
+landed on origin and is live with all 12 stations; output verification covered
+122 sitemap URLs and IndexNow returned HTTP 200. Later scheduled runs correctly
+skipped. The next 14 days contain no Exceptional (90+) window (maximum 80),
+there are no open GitHub issues, the current Vercel deploy is successful, and a
+fresh full `npm audit` reports zero findings. PostHog trailing 7d, filtered to
+`$host=thetidewindow.com` + Regular traffic, now shows 247 pageviews, 1 signup,
+4 station selections, 4 result views, 8 ZIP lookups, 2 gate clicks, 1 ICS
+reveal, and 0 trip-picker runs. All conversion sources since 08-07 remain below
+the 30-event verdict floor (largest source: 9 gate clicks), so no experiment
+changed. Error health remains instrumentation-uncertain: production pageviews
+report `$exception_capture_enabled_server_side=false`, `$exception` has not
+been seen in 30 days, and the active issue list is empty.
+
+**Live validation / next:** homepage, refreshed Fitzgerald guide, king-tides
+guides, WA hub, La Push station page, data index, and finder return 200. Browser
+checks loaded the refreshed Fitzgerald tables and completed ZIP 98101 → Seattle
+→ ranked windows with zero console warnings/errors. GSC's newest date row
+(09-03) is 1 click / 536 impressions at position 7.6; the Fitzgerald cluster
+remains the largest flywheel row but today's refresh now targets it. NPS still
+lists Mora Road/Rialto closed through Oct. 15. Next operator should resume the
+P1 queue and separately validate exception capture before reporting an error
+count.
+
+---
+
 ## 2026-09-05 — Fitzgerald tide-chart refresh; P1 queue refilled (§2a)
 
 **Ops incident first:** at session start /Users/vanessa/code/tidewindow did
