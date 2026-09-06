@@ -2,13 +2,14 @@
 title: "The Best Time to Go Tide Pooling: Time of Day, Season, and the One-Hour Rule"
 description: "Dawn in summer, mid-afternoon from October on — 2026 NOAA data shows when daylight minus tides actually happen, and when to arrive."
 date: "2026-09-06"
+updated: "2026-09-06"
 category: "tide-basics"
 tags: ["tide pools", "minus tide", "best time", "trip planning", "tide basics"]
 faq:
   - q: "What is the best time of day to go tide pooling?"
     a: "The hour before the day's lowest daylight tide — and on the US West Coast the clock moves with the season. In July and August 2026, 93–97% of daylight minus tides at the 11 Pacific stations Tidewindow tracks land before noon, with 6 AM the single busiest hour. From October through December the pattern inverts completely: nearly every daylight minus tide lands in the afternoon, with 4–5 PM busiest."
   - q: "What is the best season for tide pooling?"
-    a: "There are two, and they feel different. Summer (June–August) delivers the deepest lows in dawn light — Seattle's 2026 floor, −3.8 ft at NOAA station 9447130, hit at 11:20 AM on July 14, and outer-coast lows that month centered near 6 AM. King-tide season (November–January) delivers afternoon minus tides at civilized hours, especially in California: La Jolla's deepest daylight low of 2026, −1.88 ft, lands at 3:47 PM on December 24."
+    a: "There are two, and they feel different. In our July–December 2026 data, summer delivers the deepest daylight lows at Washington and Oregon stations — Seattle's −3.8 ft low at NOAA station 9447130 hit at 11:20 AM on July 14, and outer-coast lows that month centered near 6 AM. King-tide season delivers afternoon minus tides at civilized hours, especially in California: La Jolla's deepest daylight low in that six-month dataset, −1.88 ft, lands at 3:47 PM on December 24."
   - q: "How long before low tide should I arrive at the tide pools?"
     a: "About an hour. Tidewindow's computed windows set an arrive-by time 60 minutes ahead of the predicted low, so you explore on falling water and are heading back as it turns. Acadia National Park frames the whole opportunity as 'the window of time 1.5 hours before to 1.5 hours after low tide' — either way, showing up at the printed low-tide minute means you've missed the front half."
   - q: "Is the best tide-pooling time the same on the East Coast?"
@@ -21,7 +22,7 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130"
 ---
 
-**The best time to go tide pooling is the hour before a low daylight tide — and on the US West Coast, the calendar decides when that hour is. In July and August 2026, 93–97% of daylight minus tides at the 11 Pacific stations Tidewindow tracks land before noon, most near dawn. From October through December the split inverts to essentially 100% afternoon. Seattle's deepest daylight low of the year, −3.8 ft at NOAA station 9447130, came at 11:20 AM on July 14.**
+**The best time to go tide pooling is the hour before a low daylight tide — and on the US West Coast, the calendar decides when that hour is. In July and August 2026, 93–97% of daylight minus tides at the 11 Pacific stations Tidewindow tracks land before noon, most near dawn. From October through December the split inverts to essentially 100% afternoon. Seattle's deepest daylight low in our July–December dataset, −3.8 ft at NOAA station 9447130, came at 11:20 AM on July 14.**
 
 "Best time" is really three questions stacked on top of each other: how low the water needs to be, what hour of the day that low arrives, and which months serve it up in daylight. The first question has [its own page](/guides/how-low-does-the-tide-need-to-be-for-tide-pools/) (short version: the threshold depends on your coast). This page answers the other two with the 2026 predictions, then ends with the one habit that matters more than any of it: arrive an hour early.
 
@@ -32,15 +33,15 @@ Whenever the lowest daylight tide is — which sounds circular until you see how
 | Hour of the low | Daylight minus tides | Share |
 |---|---|---|
 | Before 4 AM | 4 | 1% |
-| 4 – 8 AM | 251 | 45% |
-| 9 – 10 AM | 56 | 10% |
-| 11 AM – 1 PM | 38 | 7% |
-| 2 – 6 PM | 181 | 32% |
+| 4 – 8 AM | 242 | 44% |
+| 9 – 10 AM | 55 | 10% |
+| 11 AM – 1 PM | 37 | 7% |
+| 2 – 6 PM | 181 | 33% |
 | 7 – 8 PM | 29 | 5% |
 
-*Computed 2026-09-06 from NOAA harmonic predictions (MLLW) at the 11 Pacific stations Tidewindow tracks; 559 windows total.*
+*Computed 2026-09-06 from NOAA harmonic predictions (MLLW) at the 11 Pacific stations Tidewindow tracks; 548 windows total. Both tables cover station-local dates July 1 – December 31, 2026, excluding the pipeline's June 30 backfill. Each station's window counts separately, even when several fall on the same date; shares are rounded.*
 
-Two humps, almost nothing in between. The single busiest hour is 6 AM (60 windows); the busiest afternoon hour is 5 PM (51). Midday is the desert — 11 AM through 1 PM holds just 7% of the year's second-half supply. If your mental image of tide pooling is a sunny noon stroll, the tide tables mostly disagree.
+Two humps, almost nothing in between. The single busiest hour is 6 AM (58 windows); the busiest afternoon hour is 5 PM (51). Midday is the desert — 11 AM through 1 PM holds just 7% of the year's second-half supply. If your mental image of tide pooling is a sunny noon stroll, the tide tables mostly disagree.
 
 The reason for the two humps is seasonal, and it's the useful part.
 
@@ -76,9 +77,9 @@ The physics behind the flip is the tilt of Earth's axis working on the West Coas
 
 Both, for different reasons.
 
-**Summer is the depth season.** Every Washington and Oregon station in the dataset posts its deepest daylight low of 2026 in mid-July — from Port Orford's 6:37 AM to Seattle's 11:20 AM — and long daylight means even a 6 AM low comes with hours of usable morning. The catch is the alarm clock, and on the outer coast, morning marine fog.
+**Summer is the depth season in this six-month comparison.** Every Washington and Oregon station in the dataset posts its deepest July–December daylight low in mid-July — from Port Orford's 6:37 AM to Seattle's 11:20 AM — and long daylight means even a 6 AM low comes with hours of usable morning. The catch is the alarm clock, and on the outer coast, morning marine fog. January–June is outside this dataset, so these are not full-year records.
 
-**King-tide season is the comfort season.** From November through January, the same celestial alignment that produces the winter's highest highs also produces afternoon minus tides. In California it's the *better* season by the numbers: all four California stations Tidewindow tracks post their deepest daylight low of 2026 on Christmas Eve, December 24, in the afternoon — La Jolla bottoms at −1.88 ft at 3:47 PM — depths July can't match there, at hours no alarm clock resents. Shorter days are the constraint: a 4:30 PM low in December is racing sunset, so the afternoon windows are real but brief.
+**King-tide season is the comfort season.** From November through January, the same celestial alignment that produces the winter's highest highs also produces afternoon minus tides. In California it's the *better* season in our July–December comparison: all four California stations Tidewindow tracks post their deepest daylight low in that period on Christmas Eve, December 24, in the afternoon — La Jolla bottoms at −1.88 ft at 3:47 PM — depths July can't match there, at hours no alarm clock resents. Shorter days are the constraint: a 4:30 PM low in December is racing sunset, so the afternoon windows are real but brief.
 
 September and October are the thin months — 39 and 47 windows coast-wide versus July's 192 — which is exactly when a [month calendar](/calendars/) earns its keep.
 
