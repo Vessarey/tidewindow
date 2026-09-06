@@ -186,8 +186,9 @@ with the date; add discoveries at the appropriate tier.
 - [x] 2026-09-06 **"Best time to go tide pooling" LAUNCHED** (5cc8321,
       `/guides/best-time-to-go-tide-pooling/`, tide-basics) — answer-first
       page for the seven-query cluster at pos 51-62 that had been matching
-      how-low-does-the-tide-need-to-be. Hour histogram (559 daylight minus
-      windows Jul–Dec, 45% at 4–8 AM vs 32% at 2–6 PM) plus the monthly
+      how-low-does-the-tide-need-to-be. Hour histogram (548 daylight minus
+      windows Jul–Dec, 44% at 4–8 AM vs 33% at 2–6 PM, scope corrected in
+      0070618 after excluding 11 June 30 backfill windows) plus the monthly
       AM-share flip table (93% Jul → 2% Oct → 0% Nov/Dec; the lone Oct AM
       window is Port Townsend Oct 5) computed 2026-09-06 from data-json;
       Puget Sound midday + East Coast semidiurnal exceptions; all-four-CA
@@ -465,6 +466,19 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [ ] **Make fact-sheet date ranges explicit and regression-check totals.**
+      2026-09-06 review found `scripts/pipeline/facts.mjs` uses
+      `date.startsWith("2026")` for coast/year aggregates, so the pipeline's
+      intentional June 30 timezone backfill leaks into the advertised
+      Jul 1–Dec 31 scope. West coast global = 559 daylight minus windows,
+      but the six monthly fact totals sum to 548. The public best-time guide
+      is corrected in 0070618 using an explicit local-date filter; the
+      generator remains unchanged this run. Before reusing global/annual
+      facts, filter to the stated range. Follow-up: share an inclusive
+      range between station/coast aggregates, expose range metadata, and
+      test June 30 / July 1 / Dec 31 / Jan 1 boundaries plus monthly↔coast
+      totals. Run the code-change refresh/build gate before shipping it.
+
 - [ ] **Validate production exception instrumentation before reporting a zero.**
       The 2026-09-04 PostHog project check says exception autocapture / Error
       Tracking is not enabled, while the shipped SDK config has
@@ -477,6 +491,12 @@ with the date; add discoveries at the appropriate tier.
       traffic or infer health from the empty issues view in the meantime.
 
 - [x] **2026-09-05 CLOSED — production LCP recovered with a real sample.**
+      **09-06 measurement correction:** the 63 below counted all
+      `$web_vitals` events, not 63 LCP observations, so the asserted sample
+      floor was not established. Exact trailing 24h to 09-06 21:34:22Z is
+      p75 1,680 ms on 13 events with a nonnegative LCP value (production
+      host + Regular traffic). No persistent slowdown demonstrated; keep
+      tuning paused and count only LCP-bearing events for future readouts.
       The recheck reached p75 844 ms across 63 `$web_vitals` events in the
       latest 24h, comfortably below the 2.5s intervention threshold and above
       the planned ~30-sample floor. The 09-03 spike did not persist; no code

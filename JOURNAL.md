@@ -5,6 +5,98 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-06 21:45Z — review: correct the best-time guide's date scope
+
+**Coordination / one primary:** read the playbook, newest journal entries,
+backlog, today's commits and Actions before changing anything. Main was at
+5eb1d37; today's new article (5cc8321) and NOAA refresh (cf46bc2) were already
+deployed. Did not publish another article or rerun NOAA. Preserved both
+untracked 09-03 newsletter drafts. The sole public improvement is 0070618:
+correct `/guides/best-time-to-go-tide-pooling/` so its tables use the same
+Jul 1–Dec 31 station-local range, and qualify "deepest of 2026" language as
+a six-month comparison, not a full-year record. No layout or experiment changed.
+
+**Reproducible arithmetic:** today's global fact histogram included the
+pipeline's intentional June 30 backfill, despite the article saying July 1
+onward. Filtering `public/data-json/stations/*.json` to West Coast stations,
+`2026-07-01 <= date <= 2026-12-31`, `isMinusTide`, and `daylightMin >= 30`
+excludes one June 30 window at each of 11 stations. Correct hour buckets
+(before 4 AM / 4–8 AM / 9–10 AM / 11 AM–1 PM / 2–6 PM / 7–8 PM) are
+4 + 242 + 55 + 37 + 181 + 29 = **548**, matching the monthly fact-sheet
+counts 192 + 108 + 39 + 47 + 74 + 88 = **548**. Rounded shares are
+1/44/10/7/33/5%; 6 AM has 58, not 60. Bar Harbor's 239 sub-1ft windows,
+52 daylight minus windows and 34 afternoon windows remain correct. Current
+WA/OR July and CA Dec 24 depth comparisons were confirmed, not reversed.
+The earlier entry's 559/45%/32% figures are superseded by this correction.
+The underlying `facts.mjs` range mismatch remains queued explicitly in P2;
+no generated files were hand-edited or included in this content-only patch.
+
+**Validation / release:** `npm run build` and its postbuild gate passed:
+136 generated routes, 12 stations × 4 published months, 123 sitemap URLs.
+Node assertions checked every hour bucket, rounded share, monthly total,
+AM/PM split, 6 AM count, built copy and all 13 internal targets; `git diff
+--check` passed. 0070618 was pushed; Vercel reports deployment complete at
+https://vercel.com/vessareys-projects/tidewindow/Cgy2ZjVRLWi3J4oJnu4nWksTxRdo.
+Fresh production browser read shows 548 and the scoped FAQ, no 559, both
+7-row tables fit the 1280px viewport, and no console warnings/errors.
+Homepage ZIP 98101 → Seattle → ranked windows also worked without console
+warnings/errors; no signup, calendar submission or broadcast was sent.
+
+**Health:** live index is byte-identical to committed data, generated
+2026-09-06T08:57:05.704Z, all 12 stations present. Today's refresh run
+34023255130 finished the pipeline, passed output checks, submitted 122
+IndexNow URLs (HTTP 200, before the new article), and pushed cf46bc2 at
+08:59Z. All four of today's Actions runs are green; later ones skipped
+normally. No open GitHub issues. Full `npm audit`: zero vulnerabilities.
+Live homepage, finder, guide, data index and sitemap respond successfully.
+No Exceptional window in the next 14 days (maximum score 80).
+
+**PostHog (495836, exact trailing 7d 08-30 21:34:22Z → 09-06 21:34:22Z,
+`$host=thetidewindow.com`, `$virt_traffic_type=Regular`):** 253 pageviews,
+229 unique visitors, 1 newsletter signup = **0.44%** versus the 1.5%
+target; 12 station selections, 8 result views, 14 ZIP lookups, 2 gate clicks,
+1 ICS reveal, 1 trip-picker run. Leading pages: national king-tides guide
+63, home 25, Fitzgerald 25, Port Townsend station 15, finder 15. Since
+08-07, gate clicks by source are tool_gate 9 / calendars_page 3 /
+article_gate 2 / article_gate_multi 1 / station_gate 1. Reveals: tool 4,
+multi 1. Signups: tool 4, multi 1, end_article 1, home 1. Historical
+tool_gate conflates several surfaces before 08-31; do not treat this as a
+clean finder experiment. Existing closed-unmeasurable experiments stay
+closed; no new winner or rollout on these samples.
+
+**Measurement caveats:** exact trailing 24h to 21:34:22Z gives LCP p75
+1,680 ms on **13 LCP-bearing events**, counted with
+`$web_vitals_LCP_value > -1`. Previous journal/backlog sample sizes counted
+all `$web_vitals` events; those do not establish an LCP-specific floor.
+Corrected that caveat in the backlog; this small sample does not warrant
+performance tuning. See https://posthog.com/docs/web-analytics/web-vitals.
+No active error issues matched, but project exception enablement remains
+unset and `$exception` has no recent observations: instrumentation is still
+unverified, not a proven zero-error production result. No settings changed.
+
+**Search Console:** latest available date remains 09-04 (normal reporting
+lag): 16 clicks / 482 impressions / average position 7.4. The seven complete
+date rows Aug 29–Sep 4 total 46 clicks / 3,125 impressions, versus 37 /
+2,789 for Aug 22–28 (**+24% clicks**, small absolute numbers, no attribution
+claim). The `dates 14` helper actually returned 15 inclusive dates; these
+comparisons explicitly exclude Aug 21. Largest flywheel query is still
+Fitzgerald tide chart (82 impressions, position 9.0); yesterday's refresh
+already targets it. Queue retains three writable refreshes.
+
+**Next / time-bombs:** Sep 7 first-weekly-run `inspect 40` remains due;
+prioritize crawl paths if its gate triggers. Then fix the fact-sheet range
+contract before another article copies global totals. Validate exception
+capture separately within the existing authorization boundary. Preserve
+Sep 14 search/conversion and Sep 30 indexing/metadata readout dates and
+sample floors. La Push's Sep 9–12 narrative needs a pass after Sep 12;
+Fitzgerald's September chart needs rolling Oct 1. The closed exit-intent
+entry still contains an earlier owner-directed Oct 1 retirement deadline;
+reconcile that instruction before its date rather than silently discarding it.
+NPS still lists Mora Road/Rialto access closed through Oct 15; existing
+advisories match https://www.nps.gov/olym/planyourvisit/conditions.htm.
+
+---
+
 ## 2026-09-06 — "Best time to go tide pooling" launched (§2d)
 
 **Health:** green. Today's NOAA refresh landed on origin at 08:56Z (cf46bc2,
