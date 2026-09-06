@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-05",
+ "generated_on": "2026-09-06",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -598,7 +598,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 34
+   "count": 30
   },
   {
    "commonName": "Branched Dendronotid",
@@ -618,7 +618,7 @@
   {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
-   "count": 6
+   "count": 4
   },
   {
    "commonName": "Nanaimo Dorid",
@@ -641,9 +641,9 @@
    "count": 3
   },
   {
-   "commonName": "Fisher's Aeolid",
-   "scientificName": "Orienthella piunca",
-   "count": 3
+   "commonName": "Rose-pink Cuthona",
+   "scientificName": "Cuthona divae",
+   "count": 2
   }
  ]
 }

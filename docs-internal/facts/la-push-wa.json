@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-05",
+ "generated_on": "2026-09-06",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -620,11 +620,6 @@
    "count": 4
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 4
-  },
-  {
    "commonName": "Chocolate Aeolid",
    "scientificName": "Margina cocoachroma",
    "count": 4
@@ -642,6 +637,11 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
+   "count": 3
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 3
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-05",
+ "generated_on": "2026-09-06",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -65,18 +65,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-09-05",
-   "weekday": "Sat",
-   "low_ft": -0.667,
-   "low_time_local": "5:55 AM",
-   "window_local": "4:10 AM–7:40 AM",
-   "arrive_by_local": "4:55 AM",
-   "daylight_min": 66,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.349,
@@ -109,6 +97,18 @@
    "arrive_by_local": "5:42 AM",
    "daylight_min": 46,
    "score": 22,
+   "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "Tue",
+   "low_ft": 0.509,
+   "low_time_local": "7:51 AM",
+   "window_local": "6:55 AM–8:45 AM",
+   "arrive_by_local": "6:51 AM",
+   "daylight_min": 89,
+   "score": 21,
    "band": "Skip",
    "weekend_or_holiday": false
   }
@@ -344,18 +344,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-09-05",
-   "weekday": "Sat",
-   "low_ft": -0.667,
-   "low_time_local": "5:55 AM",
-   "window_local": "4:10 AM–7:40 AM",
-   "arrive_by_local": "4:55 AM",
-   "daylight_min": 66,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.349,
@@ -388,6 +376,18 @@
    "arrive_by_local": "6:51 AM",
    "daylight_min": 89,
    "score": 21,
+   "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "Fri",
+   "low_ft": 0.512,
+   "low_time_local": "11:34 AM",
+   "window_local": "10:50 AM–12:15 PM",
+   "arrive_by_local": "10:34 AM",
+   "daylight_min": 85,
+   "score": 27,
    "band": "Skip",
    "weekend_or_holiday": false
   }
@@ -488,20 +488,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-05",
-   "weekday": "Sat",
-   "low_ft": -0.667,
-   "low_time_local": "5:55 AM",
-   "window_local": "4:10 AM–7:40 AM",
-   "arrive_by_local": "4:55 AM",
-   "daylight_min": 66,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 72,
-   "min_to_sun_edge": -39
-  },
-  {
    "date": "2026-09-06",
    "weekday": "Sun",
    "low_ft": -0.769,
@@ -548,7 +534,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 13
+   "count": 14
   },
   {
    "commonName": "White-lined Dirona",

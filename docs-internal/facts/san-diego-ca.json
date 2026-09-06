@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-05",
+ "generated_on": "2026-09-06",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -616,6 +616,11 @@
    "count": 1
   },
   {
+   "commonName": "Kellet's Whelk",
+   "scientificName": "Kelletia kelletii",
+   "count": 1
+  },
+  {
    "commonName": "Angular Unicorn",
    "scientificName": "Acanthinucella spirata",
    "count": 1
@@ -626,8 +631,8 @@
    "count": 1
   },
   {
-   "commonName": "California Sunset Clam",
-   "scientificName": "Gari californica",
+   "commonName": "California frog shell",
+   "scientificName": "Crossata californica",
    "count": 1
   },
   {
