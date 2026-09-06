@@ -183,13 +183,19 @@ with the date; add discoveries at the appropriate tier.
       exception; WA King Tides Program (Washington Sea Grant / MyCoast)
       verified at write time. Featured on /beaches/wa/ through 12-28; linked
       from the national guide's Seattle section.
-- [ ] **"Best time to go tide pooling"** — a seven-query cluster (`best time
-      for tide pools`, `best time to go tidepooling`, `best time to visit tide
-      pools` …) at positions 51-62, ~11 impr, currently matching
-      how-low-does-the-tide-need-to-be. Needs its own answer-first page: time
-      of year by coast, time of day (dawn in summer, dusk in winter — from
-      global.json's hour histogram), and the arrive-an-hour-early rule. Slug:
-      best-time-to-go-tide-pooling.
+- [x] 2026-09-06 **"Best time to go tide pooling" LAUNCHED** (5cc8321,
+      `/guides/best-time-to-go-tide-pooling/`, tide-basics) — answer-first
+      page for the seven-query cluster at pos 51-62 that had been matching
+      how-low-does-the-tide-need-to-be. Hour histogram (559 daylight minus
+      windows Jul–Dec, 45% at 4–8 AM vs 32% at 2–6 PM) plus the monthly
+      AM-share flip table (93% Jul → 2% Oct → 0% Nov/Dec; the lone Oct AM
+      window is Port Townsend Oct 5) computed 2026-09-06 from data-json;
+      Puget Sound midday + East Coast semidiurnal exceptions; all-four-CA
+      Christmas Eve fact; NPS Acadia 1.5-hour quote re-verified at write
+      time. Judge on GSC position for the cluster ~10-06. NOTE: monthly
+      table is Jul–Dec 2026 — roll or re-frame at the 2027 January refresh.
+      Original spec: time of year by coast, time of day, arrive-an-hour-early
+      rule. Slug: best-time-to-go-tide-pooling.
 - [x] 2026-09-05 **Fitzgerald "tide chart" refresh DONE** — by refresh day the
       cluster had grown to the property's biggest flywheel target (~79 impr:
       `fitzgerald marine reserve tide chart` 62 @ 8.9, `… tide schedule` 6 @

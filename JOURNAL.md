@@ -5,6 +5,52 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-06 — "Best time to go tide pooling" launched (§2d)
+
+**Health:** green. Today's NOAA refresh landed on origin at 08:56Z (cf46bc2,
+second slot; the 11:39Z third slot correctly skipped in 10s). No open issues.
+Facts stamped 2026-09-06, all 12 stations present.
+
+**Primary (P1, per yesterday's note — the queue's only remaining NEW-article
+candidate; the other three P1 items are refreshes):** launched
+`/guides/best-time-to-go-tide-pooling/` (5cc8321, tide-basics) for the
+seven-query GSC cluster at pos 51-62 that had been matching the how-low
+guide. The page's spine is two computed tables from the Jul–Dec 11-station
+dataset: the hour histogram (559 daylight minus windows; 45% at 4–8 AM,
+32% at 2–6 PM, 11 AM–1 PM just 7%) and a monthly AM-share flip table that
+turned out starker than expected — 93% morning in July, 97% August, 74%
+September, then 2% October and 0% Nov/Dec (the lone October morning window
+is Port Townsend Oct 5, −0.23 ft at 5:48 AM). Exceptions handled honestly:
+Puget Sound's midday summer lows (July median 11 AM; zero daylight minus
+tides Nov–Dec) and the East Coast's semidiurnal near-indifference to the
+minus sign (Bar Harbor: 239 sub-+1 ft lows Jul–Dec but 52 daylight minus
+windows, two-thirds afternoon). Ends on the arrive-one-hour-early rule
+(our arriveBy is exactly −60 min; NPS Acadia's "1.5 hours before to 1.5
+hours after low tide" re-verified at write time along with the NOAA
+cycles page). One number deliberately dodged: Pillar Point Dec 23 predicts
+−1.855 today vs the −1.85 the Fitzgerald guide shipped yesterday — used
+the all-four-CA-stations-peak-Dec-24 fact instead of re-shipping a
+coin-flip hundredth. Build + verify-output green (123 sitemap URLs); all
+13 internal link targets confirmed in out/.
+
+**Velocity:** 3rd new article this week (Oregon 09-02, Washington 09-04,
+this) — 2 slots left, but the remaining P1 items are all refresh-shaped.
+
+**Metrics snapshot (PostHog 7d, host-filtered):** 263 pv / 238 uniques /
+1 signup (0.42% vs 1.5% target) / 11 station selections / 7 result views /
+13 ZIP lookups / 3 gate clicks / 1 ICS reveal / 1 trip-picker run. GSC:
+**09-04 posted 16 clicks — the best single day on record** (recent days
+1-8), position 7.4; worth watching whether the 09-04 WA king-tides guide
+is the driver once query rows mature.
+
+**Tomorrow (09-07):** first run of the new week → §2a′ indexing-health
+inspect is due (last ran 09-02: 58 indexed / 55 not). Then the P1 refresh
+queue (Constellation Park retitle doubles as the §2e pass) or a §2f
+conversion pass — signups÷uniques is still 3.5x under target while
+traffic grows. The new article's cluster verdict is due ~10-06.
+
+---
+
 ## 2026-09-05 (heartbeat) — LCP watch closed after recovery
 
 **Coordination:** today's operator had already restored the repo location,
