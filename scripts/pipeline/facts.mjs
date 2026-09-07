@@ -6,6 +6,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { FACT_RANGE_2026, inFactRange2026 } from "./fact-range.mjs";
 
 const ROOT = path.join(import.meta.dirname, "..", "..");
 const DATA = path.join(ROOT, "public", "data-json");
@@ -35,11 +36,10 @@ function stationFacts(slug) {
   const d = stations[slug];
   const now = d.generatedAt;
   const up = d.windows.filter((w) => w.lowTime > now);
-  // Full-year view: the dataset backfills to the earliest published month
-  // (2026-07), so annual aggregates cover Jul 1–Dec 31. Filtering to future
-  // windows here made months_2026 report ended months as zeros and let
-  // "deepest 2026" claims silently shrink as the year passed.
-  const y2026 = d.windows.filter((w) => w.date.startsWith("2026"));
+  // Fixed reporting scope: include ended months, but not the June 30
+  // timezone slack fetched by the pipeline. The station and coast totals
+  // must describe the same July–December period as the monthly fact sheets.
+  const y2026 = d.windows.filter(inFactRange2026);
   const y2026up = y2026.filter((w) => w.lowTime > now);
   const daylight = (ws) => ws.filter((w) => w.daylightMin >= 30);
 
@@ -76,7 +76,8 @@ function stationFacts(slug) {
       .slice(0, 8)
       .map(brief),
     months_2026: months2026,
-    annual_note: "2026 aggregates cover Jul 1–Dec 31 (dataset floor is the earliest published month); ended months are included, so cite past windows in the past tense.",
+    range_2026: FACT_RANGE_2026,
+    annual_note: "2026 aggregates cover Jul 1–Dec 31 inclusive in station-local dates, not the full year; June 30 backfill is excluded. Ended months are included, so cite past windows in the past tense.",
     deepest_2026_daylight_lows_top8: daylight(y2026)
       .sort((a, b) => a.lowHeight - b.lowHeight)
       .slice(0, 8)
@@ -113,14 +114,14 @@ for (const slug of Object.keys(stations)) {
 
 // ---- global/coast-level facts ----
 const coastOf = (s) => (s.state === "ME" ? "east" : "west");
-const global = { generated_on: new Date(index.generatedAt).toISOString().slice(0, 10), coasts: {}, hour_histogram_2026_daylight_minus: {} };
+const global = { generated_on: new Date(index.generatedAt).toISOString().slice(0, 10), range_2026: FACT_RANGE_2026, coasts: {}, hour_histogram_2026_daylight_minus: {} };
 for (const coast of ["west", "east"]) {
   const slugs = index.stations.filter((s) => coastOf(s) === coast).map((s) => s.slug);
   let minus = 0, minusDaylight = 0;
   const hourHist = {};
   for (const slug of slugs) {
     const d = stations[slug];
-    for (const w of d.windows.filter((w) => w.date.startsWith("2026"))) {
+    for (const w of d.windows.filter(inFactRange2026)) {
       if (!w.isMinusTide) continue;
       minus++;
       if (w.daylightMin >= 30) {
@@ -144,6 +145,7 @@ fs.writeFileSync(path.join(OUT, "global.json"), JSON.stringify(global, null, 1))
 function regionFacts(name, slugs) {
   return {
     generated_on: global.generated_on,
+    range_2026: FACT_RANGE_2026,
     region: name,
     stations: slugs.map((slug) => ({
       slug,

@@ -183,7 +183,13 @@
    "best_window": null
   }
  },
- "annual_note": "2026 aggregates cover Jul 1–Dec 31 (dataset floor is the earliest published month); ended months are included, so cite past windows in the past tense.",
+ "range_2026": {
+  "start_date": "2026-07-01",
+  "end_date": "2026-12-31",
+  "date_basis": "station-local",
+  "inclusive": true
+ },
+ "annual_note": "2026 aggregates cover Jul 1–Dec 31 inclusive in station-local dates, not the full year; June 30 backfill is excluded. Ended months are included, so cite past windows in the past tense.",
  "deepest_2026_daylight_lows_top8": [
   {
    "date": "2026-07-14",

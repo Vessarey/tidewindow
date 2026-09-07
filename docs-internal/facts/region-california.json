@@ -1,5 +1,11 @@
 {
  "generated_on": "2026-09-07",
+ "range_2026": {
+  "start_date": "2026-07-01",
+  "end_date": "2026-12-31",
+  "date_basis": "station-local",
+  "inclusive": true
+ },
  "region": "California",
  "stations": [
   {
