@@ -235,6 +235,10 @@ with the date; add discoveries at the appropriate tier.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed La Push pass. Next-oldest
       station guides by vintage: seattle-alki (07-12), WA hub (07-14).
+      NOTE 2026-09-07: oregon-coast-minus-tide-calendar-2026 is stale again —
+      it still sells Sat Aug 29 as "the best window still ahead" (answer box,
+      FAQ, weekend section; last rolled 08-21). It's a top-8 click earner
+      (8 clicks/28d); roll it to the Oct 25 / Nov 22 / Dec dusk story.
       Done 2026-09-01: la-push-second-beach-tide-pools-2026 (e2a4b26) —
       rolled to the Sep 9–12 last-morning-minus-tide run (verified against
       the dataset: no AM daylight-minus windows remain after Sep 12 in

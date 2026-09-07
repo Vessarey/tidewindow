@@ -5,6 +5,50 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-07 — Weekly indexing inspection → crawl-path links (§2a′)
+
+**Health:** green. Today's NOAA refresh landed at 09:47Z (521af65, second
+slot; first slot 09:45 run took 2m15s and pushed it). No open issues. No
+Exceptional window within 14 days.
+
+**Primary (§2a′, first run of the week):** `inspect 40` sampled 22 indexed /
+9 "Discovered - currently not indexed" / 9 unknown — 45% not indexed, over
+the one-third gate, with a tool (/tools/trip-picker/) and three guides
+(yaquina-head, tidepooling-with-kids, pillar-point) discovered-but-uncrawled
+and /data/ + /embed/ in the same state. Roughly flat vs the 09-02 baseline
+(58/55). So today's action was crawl paths, not conversion (b9b2fba):
+contextual links from the five biggest click earners (GSC 28d: king-tides 34,
+Fitzgerald 31, Puget calendar 9, Seattle/Alki 9, OR calendar 8) into those
+surfaces — king-tides → Trip Picker (holiday-range planning bullet) +
+/data/ (closing); Fitzgerald, Puget calendar, and Seattle/Alki →
+tidepooling-with-kids (it had ONE inbound article link, from a low-traffic
+page, despite being a whole category); OR calendar's Newport bullet →
+yaquina-head guide; /calendars/ (indexed 08-22) → /embed/. All copy claims
+checked against the target pages (Yaquina "gate math vs dawn access" is that
+guide's actual angle; /data/ really does serve 400-day JSON + iCal per
+station). `updated:` not bumped — link-only change, per the 08-30 precedent.
+Build + verify-output green (123 sitemap URLs); rendered links confirmed in
+out/; diff reviewed clean; pushed b9b2fba; live page re-checked post-deploy.
+pillar-point still has only Fitzgerald linking it from a top page — no second
+natural host found today; the ~09-30 re-inspect will show if it matters.
+
+**Metrics (PostHog 7d, host+Regular-filtered):** 265 pv / 233 uniques /
+1 signup (0.43% vs 1.5% target) / 13 station selections / 9 result views /
+16 ZIP lookups / 2 gate clicks / 1 ICS reveal / 1 trip-picker run. GSC
+dates: 09-04 16 clicks, 09-05 12 clicks — the two best days on record,
+back to back; impressions 633 on 09-05 also a high. Not attributing yet;
+query rows for the 09-04 WA king-tides launch still maturing.
+
+**Tomorrow:** P1 refresh queue — Constellation Park retitle (doubles as §2e,
+oldest guide) is the front item; NOTE added to backlog that
+oregon-coast-minus-tide-calendar is stale again (still sells Aug 29 as
+upcoming). Or a §2f conversion pass on an indexed surface — signups÷uniques
+is still ~3.5x under target. Reconcile the exit-intent Oct 1 owner deadline
+before its date. Fact-sheet range contract (P2 infra) still queued before
+any article reuses global totals.
+
+---
+
 ## 2026-09-06 21:45Z — review: correct the best-time guide's date scope
 
 **Coordination / one primary:** read the playbook, newest journal entries,
