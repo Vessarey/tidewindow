@@ -85,7 +85,7 @@ The last two months of community observations logged within a few kilometers of 
 
 ## Beach naturalists are out this week
 
-You do not have to identify everything yourself. The **Seattle Aquarium Beach Naturalist** program puts trained volunteers on the shore during the summer's biggest lows to, in the Aquarium's words, "educate members of the public on how to explore shorelines while keeping animals and their homes safe." The season runs from late May through July 2026, and West Seattle beaches are on the schedule. For this run, naturalists are set to be at **Lincoln Park** in West Seattle on **Monday, July 13 from 9:30 a.m. to noon**, right at the low. Golden Gardens is also a program beach. If you are bringing kids, timing your visit to a naturalist window turns a walk on the rocks into a guided lesson.
+You do not have to identify everything yourself. The **Seattle Aquarium Beach Naturalist** program puts trained volunteers on the shore during the summer's biggest lows to, in the Aquarium's words, "educate members of the public on how to explore shorelines while keeping animals and their homes safe." The season runs from late May through July 2026, and West Seattle beaches are on the schedule. For this run, naturalists are set to be at **Lincoln Park** in West Seattle on **Monday, July 13 from 9:30 a.m. to noon**, right at the low. Golden Gardens is also a program beach. If you are bringing kids, timing your visit to a naturalist window turns a walk on the rocks into a guided lesson — and [Tidepooling With Kids](/guides/tidepooling-with-kids/) has the full checklist, the rules, and the family-friendly window picks.
 
 ## How to work the window
 

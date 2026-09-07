@@ -134,7 +134,7 @@ By the monthly count, 39 daylight minus tides remain in 2026 from September 5: S
 
 The recent observation record near this station is still mostly a nudibranch parade. In the last 60 days, six of the seven most-logged species within 5 km of station 9414131 were sea slugs: spotted dorid (38 observations), opalescent nudibranch (31), hammerhead doto (17), Hopkins' rose nudibranch (17), stubby dendronotid (15), and Hilton's aeolid (14) — with the gumboot chiton (26) breaking the sweep at third place. Tallied 2026-09-05 by the Tidewindow pipeline.
 
-Look, don't touch. County regulations are explicit: observe marine life "by looking only," don't handle animals or place them in containers even briefly, don't remove shells, vegetation, rocks, or marine life, and watch your step around barnacles, anemones, and mussels. The reserve sits within the Montara State Marine Reserve, where the take of all living marine resources is prohibited — no fishing anywhere in the reserve.
+Look, don't touch. County regulations are explicit: observe marine life "by looking only," don't handle animals or place them in containers even briefly, don't remove shells, vegetation, rocks, or marine life, and watch your step around barnacles, anemones, and mussels. The reserve sits within the Montara State Marine Reserve, where the take of all living marine resources is prohibited — no fishing anywhere in the reserve. Bringing kids? [Tidepooling With Kids](/guides/tidepooling-with-kids/) turns rules like these into a packing checklist and a way to pick windows children can actually work.
 
 ## What are the hours, rules, and parking?
 

@@ -171,7 +171,7 @@ But the calendar still owes 2026 a few weekends. **Saturday, August 29** is the 
 
 ## Which station should you watch?
 
-- **[Newport (South Beach)](/beaches/or/newport-or/)**, station 9435380: depth champion, with both −2.52 ft windows, four of the ten deepest Exceptional windows, and 50 daylight minus tides.
+- **[Newport (South Beach)](/beaches/or/newport-or/)**, station 9435380: depth champion, with both −2.52 ft windows, four of the ten deepest Exceptional windows, and 50 daylight minus tides. Where to actually stand at this station — Yaquina Head's gate math versus Otter Rock's dawn access — is covered in [Yaquina Head + Otter Rock tide pools](/guides/yaquina-head-otter-rock-tide-pools-2026/).
 - **[Port Orford](/beaches/or/port-orford-or/)**, station 9431647: volume and winter leader at 54, including 8 in November and 9 in December.
 - **[Charleston (Coos Bay)](/beaches/or/charleston-or/)**, station 9432780: a close second at 52, with 7 still alive in December.
 - **[Garibaldi (Tillamook Bay)](/beaches/or/garibaldi-or/)**, station 9437540: front-loaded, with 30 of its 42 in July and August and just 2 in October.

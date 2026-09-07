@@ -84,7 +84,8 @@ export default function CalendarsPage() {
         works too, but it&apos;s a snapshot — it won&apos;t update. Prefer paper? Every station page has printable{" "}
         <Link href="/beaches/" className="underline">monthly calendar pages</Link>, and the{" "}
         <Link href="/tools/year-heatmap/" className="underline">year heatmap</Link> prints the whole season on one
-        sheet.
+        sheet. Run a website? The same computed windows are available as a{" "}
+        <Link href="/embed/" className="underline">free embeddable badge</Link> that stays current on its own.
       </p>
       <p className="mt-4 max-w-2xl text-[0.85rem] text-ink-soft">
         Feed events are astronomical predictions, not observations — wind and pressure change actual water levels, so
