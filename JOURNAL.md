@@ -5,6 +5,64 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-07 (second session) — review: roll the Oregon calendar past Aug 29
+
+**Coordination / one primary:** read the playbook, the 09-07 and 09-06
+journal entries, backlog, today's commits (521af65 refresh, b9b2fba
+crawl-paths, ce4d6bc journal) and Actions before changing anything. Did NOT
+re-run the inspect pass, re-pull the metrics the morning session already
+snapshotted, touch the Constellation Park retitle (tomorrow's stated front
+item), or rerun NOAA. Both untracked 09-03 newsletter drafts preserved. The
+sole public change is 2000e19: the §2e refresh the morning session flagged
+but deferred — oregon-coast-minus-tide-calendar-2026 (top-8 click earner,
+8 clicks/28d) was still selling Sat Aug 29 as "the best window still ahead"
+nine days after it passed, in the answer box, BOTH dated FAQ answers, the
+August section, and the weekend section.
+
+**What shipped:** all five surfaces rolled to the current story. New spine:
+the Sep 9–12 run is the year's last with morning minus tides — deepest Wed
+Sep 9 at Newport (−0.95 ft, 5:39 AM low, arrive by 4:39 AM), best score
+Fri Sep 11 at Garibaldi (55), and Sat Sep 12 is the last weekend morning
+(Garibaldi −0.004 ft 7:55 AM / Newport −0.04 ft 7:34 AM, both Fair, just
+grazing the line) — then the coast flips to evenings: Sun Oct 25 becomes
+the best weekend window left, Port Orford's Good-band Nov 22 dusk window
+(−0.51 ft, 4:09 PM, re-verified today at 60/Good) holds, Dec 23 stays
+strongest by score. Aug 29 rewritten as record, not deleted. The answer
+box also fixes a subtle old miss: it said "a September fade to −0.57 ft
+at best," but that was the score-best window — the month's deepest is
+−0.95 ft on Sep 9. Monthly tables were recompute-checked and match
+today's fact sheets unchanged; September's caption now carries
+"re-verified 2026-09-07". `updated:` bumped honestly (real content change).
+
+**Validation:** every shipped number script-asserted against today's
+public/data-json (10/10 checks, including "no AM daylight minus tide
+after Sep 12 anywhere in Oregon" swept across all four stations' full
+window lists — the claim the whole new framing rests on). Build +
+verify-output green (123 sitemap URLs); rendered HTML and FAQPage JSON-LD
+confirmed carrying the rolled answers in out/; diff 8+/8− single file;
+live page re-checked post-deploy (serves "September 9–12" ×8, zero stale
+phrases); `node scripts/indexnow.mjs` 123 URLs HTTP 200.
+
+**Health re-verified this session:** four Actions refresh slots green,
+today's refresh landed 09:45Z; no open issues; home/finder/data 200s;
+live data index generated 2026-09-07T09:45Z. No new metrics pull — the
+morning entry's snapshot (265 pv / 233 uniques / 1 signup 0.43% / GSC
+09-04–09-05 best-two-days-on-record) stands; nothing in this session
+changes an experiment, and no experiment verdicts were touched (exit-intent
+stays closed-unmeasurable; its Oct 1 owner-deadline reconciliation remains
+queued, not yet due).
+
+**Tomorrow (unchanged from the morning entry, minus this item):**
+Constellation Park retitle is the P1 front item (doubles as §2e
+next-oldest), or a §2f conversion pass on an indexed surface —
+signups÷uniques still ~3.5x under target. Time-bombs unchanged: La Push
+narrative pass after Sep 12; Fitzgerald September chart rolls Oct 1;
+exit-intent Oct 1 owner deadline; Rialto/Mora closure language holds
+until Oct 15; ~09-14 search/conversion readout and ~09-30 re-inspect
+keep their sample floors.
+
+---
+
 ## 2026-09-07 — Weekly indexing inspection → crawl-path links (§2a′)
 
 **Health:** green. Today's NOAA refresh landed at 09:47Z (521af65, second
