@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-06",
+ "generated_on": "2026-09-07",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -39,18 +39,6 @@
    "score": 68,
    "band": "Good",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-06",
-   "weekday": "Sun",
-   "low_ft": -0.769,
-   "low_time_local": "7:05 AM",
-   "window_local": "5:20 AM–8:55 AM",
-   "arrive_by_local": "6:05 AM",
-   "daylight_min": 140,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": true
   },
   {
    "date": "2026-09-09",
@@ -332,18 +320,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-09-06",
-   "weekday": "Sun",
-   "low_ft": -0.769,
-   "low_time_local": "7:05 AM",
-   "window_local": "5:20 AM–8:55 AM",
-   "arrive_by_local": "6:05 AM",
-   "daylight_min": 140,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.349,
@@ -488,20 +464,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-06",
-   "weekday": "Sun",
-   "low_ft": -0.769,
-   "low_time_local": "7:05 AM",
-   "window_local": "5:20 AM–8:55 AM",
-   "arrive_by_local": "6:05 AM",
-   "daylight_min": 140,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 85,
-   "min_to_sun_edge": 30
-  },
-  {
    "date": "2026-10-05",
    "weekday": "Mon",
    "low_ft": 0.102,
@@ -567,6 +529,11 @@
    "count": 5
   },
   {
+   "commonName": null,
+   "scientificName": "Aeolidia",
+   "count": 4
+  },
+  {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
    "count": 4
@@ -574,11 +541,6 @@
   {
    "commonName": "Lined Chiton",
    "scientificName": "Tonicella lineata",
-   "count": 3
-  },
-  {
-   "commonName": null,
-   "scientificName": "Aeolidia",
    "count": 3
   }
  ]

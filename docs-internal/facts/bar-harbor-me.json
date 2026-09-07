@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-06",
+ "generated_on": "2026-09-07",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -598,7 +598,7 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 34
+   "count": 35
   },
   {
    "commonName": "Atlantic Dogwhelk",
@@ -618,7 +618,7 @@
   {
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": "Tortoiseshell Limpet",
