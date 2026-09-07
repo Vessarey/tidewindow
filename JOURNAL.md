@@ -5,6 +5,101 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-07 (heartbeat, 17:16Z) — fact-sheet range contract repaired
+
+**Coordination:** main was 1a07e47 with only the two known untracked 09-03
+newsletter drafts. Read the playbook, current backlog, newest three entries,
+today's commits and Actions. The daily operator had already completed the
+weekly indexing inspection/crawl-path pass (b9b2fba) and Oregon calendar
+refresh (2000e19). Neither was repeated; Constellation Park remains the
+operator's next editorial item. No broadcast, signup, settings change or
+new experiment was initiated.
+
+**One improvement — 6bca506:** fixed the P2 fact-sheet date-range contract
+behind yesterday's 559-versus-548 discrepancy. `fact-range.mjs` supplies one
+inclusive station-local Jul 1–Dec 31 range to station and coast aggregates;
+all 16 fact files expose machine-readable `range_2026` metadata. Notes now
+explicitly exclude June 30 timezone slack and say this is not a full-year
+record. West-coast daylight minus total is 548, matching the six monthly
+counts (192+108+39+47+74+88); total minus tides is 953, not 964. East-coast
+totals are unchanged (90 minus / 52 daylight minus). Station/regional
+numbers and rankings are byte-equivalent as parsed JSON after removing the
+new range metadata/clarifying note. No public data, ICS, badges, or articles
+changed; the public best-time guide already carried the corrected 548.
+
+**Regression / release evidence:** the new test suite first reproduced
+`559 !== 548` against the old generator. All 18 tests passed after repair:
+June 30 / July 1 / Dec 31 / Jan 1 boundaries; station-local dates rather
+than UTC timestamps; past-month preservation; coast totals and hourly
+histograms versus scoped raw data and monthly sums; station/deepest and
+regional consistency. `npm run test:facts` is now a postbuild gate, and
+prebuild regenerates fact sheets from the current dataset. Normal
+`npm run build`, `npm run lint`, and `git diff --check` passed. The required
+`PIPELINE_REFRESH=1 npm run build` also passed in a credential-free isolated
+copy with fresh public NOAA/NWS/iNaturalist reads: all 12 stations, 136
+generated routes, 12×4 published month checks, 123 sitemap URLs, and all
+18 fact tests. Its regenerated public data was not copied back or deployed.
+6bca506 was pushed and Vercel reports deployment complete:
+https://vercel.com/vessareys-projects/tidewindow/9VNvooiM5NPwEUjZ9hYD4SvqdGJd.
+Post-deploy live data remains byte-identical to the operator's committed
+refresh; the best-time page still serves the correct 548 total.
+
+**Operations / live health:** today's actual refresh is 521af65, produced
+by run 34107777339 (started 09:45:09Z; pushed 09:47:20Z). Logs confirm
+12 stations, output gate success and IndexNow 123 URLs / HTTP 200. The two
+later listed scheduled runs skipped successfully. No open GitHub issues;
+full `npm audit` has zero findings. Live index generatedAt is
+2026-09-07T09:45:27.964Z, all 12 stations present. Homepage, finder, Trip
+Picker, sitemap, best-time, national king-tides and refreshed Oregon guide
+return 200; today's crawl link and September Oregon copy are live. Browser
+ZIP 98101 → Seattle → ranked results, minus-tide filtering, and Trip Picker
+Sep 9–12 → Sep 9 arrival 9:04 AM all worked with no console warnings/errors.
+No Exceptional (90+) window in the committed next-14-day data (maximum 80).
+
+**PostHog (project 495836; exact 08-31 17:16:30Z → 09-07 17:16:30Z;
+`$host=thetidewindow.com` and `$virt_traffic_type=Regular`):** 274 pageviews,
+241 unique visitors, 1 signup (**0.41%**, target 1.5%); 15 station
+selections, 11 result views, 19 ZIP lookups, 2 calendar-gate clicks,
+1 ICS reveal and 1 trip-picker run. Top pages: national king tides 67,
+home 26, Fitzgerald 25, Port Townsend station 22, finder 17, Bar Harbor
+September 10. The explicit cutoff precedes this run's browser smoke tests.
+Exact trailing 24h LCP p75 is **927 ms on 14 LCP-bearing events** (numeric
+LCP value > -1), not 14 arbitrary web-vitals events; too few to claim a
+stable performance verdict or tune individual routes. PostHog exception
+opt-in remains unset, `$exception` has not been seen in 30 days, and the
+active issue list is empty: monitoring remains unverified, not zero errors.
+
+**Experiments:** since Aug 7, source-level gate/reveal/signup counts remain
+tool_gate 9/4/4, calendars_page 3/0/0, article_gate 2/0/0,
+article_gate_multi 1/1/1, station_gate 1/0/0; end_article and home each
+have one signup. These are observed counts, not proven ordered funnels.
+Pre-Aug-31 tool_gate still conflates several surfaces. Closed-unmeasurable
+readouts remain closed; no source approaches the 30-event verdict floor,
+and no new exposure-floor or winning-treatment claim was made.
+
+**Search Console:** the operator's inspection today already sampled 22
+confirmed indexed / 9 discovered-not-indexed / 9 unknown out of 40 and
+triggered the shipped crawl-path work; no redundant inspection here.
+Fresh date rows now extend through Sep 5: 12 clicks / 633 impressions /
+average position 7.2. Aug 30–Sep 5 totals **57 clicks / 3,458 impressions**,
+versus 31 / 2,662 on Aug 23–29. These are two explicit seven-day windows
+(the helper returns 15 inclusive date rows); small-volume growth, not an
+attribution verdict. Leading flywheel query is Fitzgerald tide chart:
+118 impressions at position 8.9, 2 clicks; already addressed on Sep 5.
+
+**Next / blockers / time-bombs:** resume the planned Constellation Park
+refresh; let today's crawl-path changes accrue before re-inspection or
+conversion work on uncrawled surfaces. Exception capture still needs a
+separately authorized end-to-end check. Retain Sep 14 search/conversion
+and Sep 30 indexing/metadata readouts with their sample floors. Revisit
+La Push's narrative after Sep 12, Fitzgerald's September chart Oct 1,
+and reconcile the owner-directed Oct 1 exit-intent retirement deadline
+before it arrives. NPS still lists Mora Road/Rialto inaccessible through
+Oct 15; no access advisory changed:
+https://www.nps.gov/olym/planyourvisit/conditions.htm.
+
+---
+
 ## 2026-09-07 (second session) — review: roll the Oregon calendar past Aug 29
 
 **Coordination / one primary:** read the playbook, the 09-07 and 09-06

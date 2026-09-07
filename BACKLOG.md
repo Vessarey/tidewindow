@@ -479,18 +479,23 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
-- [ ] **Make fact-sheet date ranges explicit and regression-check totals.**
-      2026-09-06 review found `scripts/pipeline/facts.mjs` uses
-      `date.startsWith("2026")` for coast/year aggregates, so the pipeline's
-      intentional June 30 timezone backfill leaks into the advertised
-      Jul 1–Dec 31 scope. West coast global = 559 daylight minus windows,
-      but the six monthly fact totals sum to 548. The public best-time guide
-      is corrected in 0070618 using an explicit local-date filter; the
-      generator remains unchanged this run. Before reusing global/annual
-      facts, filter to the stated range. Follow-up: share an inclusive
-      range between station/coast aggregates, expose range metadata, and
-      test June 30 / July 1 / Dec 31 / Jan 1 boundaries plus monthly↔coast
-      totals. Run the code-change refresh/build gate before shipping it.
+- [x] **2026-09-07: fact-sheet date scope fixed and regression-gated (6bca506).**
+      Shared `fact-range.mjs` now filters station/coast aggregates to the
+      inclusive Jul 1–Dec 31 station-local range. All 16 fact files expose
+      `range_2026`; notes explicitly say this is not a full-year record.
+      Original 09-06 discovery: `date.startsWith("2026")` included the
+      pipeline's intentional June 30 timezone slack, yielding 559 west-coast
+      daylight minus windows versus 548 in the monthly sheets. Corrected
+      global = 548; total minus tides = 953 (was 964). The best-time guide
+      had already been corrected separately in 0070618.
+      `npm run test:facts` now runs 18 boundary/station/coast/regional checks
+      automatically after every build; prebuild regenerates fact sheets
+      from the current dataset. Regression demonstrated 559 !== 548 before
+      the fix, then passed on committed and fresh NOAA data. Full
+      `PIPELINE_REFRESH=1 npm run build` passed in an isolated copy, so the
+      operator's public data/ICS/badges and today's editorial work stayed
+      untouched. When expanding the reporting period, change the explicit
+      range, monthly fields, and boundary expectations together.
 
 - [ ] **Validate production exception instrumentation before reporting a zero.**
       The 2026-09-04 PostHog project check says exception autocapture / Error
