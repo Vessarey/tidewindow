@@ -5,6 +5,67 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-08 — Constellation Park retitle + Seattle season-close refresh (§2d/§2e)
+
+**Health:** green. Today's NOAA refresh landed as d87fc99 (run 34208175550,
+started 09:06:40Z — between the 07:17 and 10:17 slots, within routine drift).
+No open GitHub issues. No Exceptional (90+) window within 14 days.
+
+**Primary (8442c37):** the backlog front item — refresh the seattle-alki
+guide for the `constellation park tide pools` GSC cluster (11+3+2 impr,
+pos ~10, 0 clicks). Retitled to "Constellation Park Tide Pools 2026:
+Seattle & Alki Point Low-Tide Guide" (same slug — refresh, not a new page)
+and rolled the whole article off its stale July framing. New spine: Sep
+8–10 is Seattle's LAST daylight minus-tide run of 2026 — deepest −1.02 ft
+Tue Sep 8 9:12 AM (Good 68), Wed −0.86 10:04 AM (Good 65), Thu −0.35
+10:51 AM (Fair 52) — verified zero daylight minus tides Sep 11–Dec 31 in
+station data (Oct daylight windows all positive lows; Nov–Dec no daylight
+windows at all). Added the 2027 return ladder (first daylight minus Feb 15
+dusk −0.47; Mar 13–14 Good afternoons; first Exceptional Apr 10–11
+weekend −1.92/−1.80 PM; May 7–9 deep run −3.18) and a king-season pointer
+(Jan 25 13.09 ft morning high) linking the new WA king-tides page. July
+12–16 kept in full as record with the deepest-8 table (byte-identical to
+current facts); monthly counts corrected to fact-sheet values (Jul 20 /
+Aug 13 / Sep 6 daylight minus — old article said 14 for July, superseded
+by the repaired range contract). Species rolled to current iNat 60d (new
+top 3: Horned Nudibranch 14, White-lined Dirona 10, Antiopella fusca 10;
+gumboot dropped out). Naturalist section moved to past tense after
+re-fetching the Aquarium page at write time (2026 posted dates ran
+May–July). Scope phrasing follows the annual_note: "records begin July 1",
+no full-year claims. Honest deep-water caveat kept: September's lows
+expose less rock than July's.
+
+**Validation:** facts regenerated post-pull; 22 script assertions against
+public/data-json + fact sheets all passed (dates, depths, times, windows,
+arrive-bys, scores, bands, "none after Sep 10", 2027 firsts, top-8 table,
+monthly counts, description ≤155 chars). All 11 internal links resolve
+(new: /guides/king-tides-washington-2027/). npm run build green — 136
+routes, verify-output OK (123 sitemap URLs), 18 fact tests pass. Diff
+single-file 60+/54−. Live page verified post-deploy (new title ×5,
+"September 8–10" ×20). IndexNow 123 URLs HTTP 200. Both untracked 09-03
+newsletter drafts preserved.
+
+**Metrics (PostHog 7d, host=thetidewindow.com + Regular):** 265 pv / 230
+uniques / 1 signup (**0.43%** vs 1.5% target) / 17 station selections /
+12 result views / 21 ZIP lookups / 2 gate clicks / 1 ICS reveal / 2
+trip-picker runs. Top pages: national king-tides 71, Port Townsend
+station 22, Fitzgerald 20, home 18, finder 18, Bar Harbor Sep month 9,
+OR king-tides 8. (Correct event names for future queries: zip_lookup_used,
+calendar_gate_clicked, ics_url_revealed.) No experiment touched; verdict
+dates unchanged (title-change readout ~10-01 with baseline in BACKLOG).
+
+**Tomorrow:** the Sep 9–12 Oregon run and Seattle Sep 8–10 close are both
+already covered — no time-sensitive gap. Next §2e candidate: WA hub
+(07-14, never updated, zero "September" mentions — likely still selling
+July 12–16 as upcoming); or §2f conversion pass on an indexed surface
+(signups÷uniques still ~3.5x under target; run at least twice this week).
+Time-bombs unchanged: La Push narrative after Sep 12; Fitzgerald chart
+rolls Oct 1; exit-intent Oct 1 owner-deadline reconciliation; Rialto/Mora
+closure language holds to Oct 15; ~09-14 search/conversion readout and
+~09-30 re-inspect keep their floors.
+
+---
+
 ## 2026-09-07 (heartbeat, 17:16Z) — fact-sheet range contract repaired
 
 **Coordination:** main was 1a07e47 with only the two known untracked 09-03

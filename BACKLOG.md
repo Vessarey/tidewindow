@@ -211,13 +211,21 @@ with the date; add discoveries at the appropriate tier.
       roll the chart section forward at the October refresh pass.
       Original item: guide earned 20 clicks but ranked 8.8-15.5 for the
       chart/schedule/table cluster; add monthly H/L chart + retitle.
-- [ ] **Constellation Park cluster (Seattle guide refresh)** — `constellation
-      park tide pools` (11 impr, pos 10.1), `low tide constellation park` (3,
-      11.3), `constellation park low tide` (2, 10.0) per GSC 28d on
-      2026-09-05. The seattle-alki guide ranks for these but its title leads
-      with "Seattle / Alki". Refresh (it is also next-oldest in the §2e queue,
-      vintage 07-12): put "Constellation Park" in the title/H1 prominently,
-      roll tables to current fact sheets. Refresh, not a new page.
+- [x] 2026-09-08: **Constellation Park cluster (Seattle guide refresh)** DONE
+      (8442c37) — retitled to "Constellation Park Tide Pools 2026: Seattle &
+      Alki Point Low-Tide Guide"; new spine is the Sep 8–10 last daylight
+      minus-tide run of 2026 (deepest −1.02 ft Tue Sep 8; verified zero
+      daylight minus tides after Sep 10 through year-end), July 12–16 kept
+      as record, 2027 return dates added (Feb 15 dusk → Mar 13–14 Good →
+      Apr 10–11 first Exceptional → May 7–9 deep run), species list rolled
+      to current iNat 60d, naturalist season past tense (re-verified page:
+      2026 dates ran May–Jul). 22 script assertions vs committed data.
+      Judge title change on GSC clicks+position ~10-01 (baseline: cluster
+      11+3+2 impressions, pos ~10, 0 clicks on 2026-09-05).
+      Original item: `constellation park tide pools` (11 impr, pos 10.1),
+      `low tide constellation park` (3, 11.3), `constellation park low
+      tide` (2, 10.0) per GSC 28d on 2026-09-05; title led with
+      "Seattle / Alki"; also next-oldest in the §2e queue (vintage 07-12).
 - [ ] **Puget Sound tide chart 2026** — `puget sound tide chart 2026` (10
       impr, pos 12.1, 1 click — 10% CTR when shown; GSC 28d 2026-09-05). Give
       puget-sound-low-tide-calendar-2026 the Fitzgerald treatment: "tide
@@ -234,7 +242,10 @@ with the date; add discoveries at the appropriate tier.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed La Push pass. Next-oldest
-      station guides by vintage: seattle-alki (07-12), WA hub (07-14).
+      station guides by vintage: WA hub (07-14; still leads with the July
+      12–16 run as upcoming — check), CA hub (07-15), Sunset Bay (07-16).
+      Done 2026-09-08 (8442c37): seattle-alki (07-12) refreshed — see the
+      checked Constellation Park item above for details.
       Done 2026-09-07 (second session, 2000e19): oregon-coast-minus-tide-
       calendar-2026 rolled past Aug 29 — the answer box, both dated FAQ
       answers, the August section, and the weekend section now lead with
