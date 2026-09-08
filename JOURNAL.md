@@ -5,6 +5,104 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-08 (heartbeat, 17:16Z cutoff) — Washington roundup made current
+
+**Coordination and primary action:** pulled main and read the playbook,
+backlog, newest journal entries, current Actions/issues and today's commits.
+The operator's Seattle/Constellation refresh (8442c37) and NOAA refresh
+(d87fc99) were already live; neither was repeated. One primary improvement:
+refreshed `best-tide-pools-washington-2026` (2e2a55c), whose July-vintage
+lead still called July 14–17 "this week" and sold August 9 as upcoming.
+Same published URL, original date and gateStations retained. No new article
+or code change; at least four writable refresh candidates remain (Puget
+Sound chart, Acadia chart, CA hub, Sunset Bay), so the queue is not empty.
+
+**Content:** September 9–12 table compares all three Washington stations;
+autumn guidance distinguishes a daylight-overlapping window from a low
+occurring in daylight. In particular, Port Townsend Oct 5 has only 39
+minutes of overlap around a pre-sunrise low (Skip 27), not a normal daytime
+outing. Historical July 14 and August 9 figures remain as past comparisons,
+with the repaired July–December fact-range contract stated explicitly.
+Added current station/month/tool paths and honest updated metadata. Official
+NPS, Washington State Parks and Seattle Parks pages were fetched at write
+time: Mora Road closure remains, no automatic Oct 15 reopening promised,
+and Second Beach has a separate $10 daily tribal-land parking fee. Removed
+unverified free-parking/restroom claims and unsupported fixed tidal offsets.
+
+**Release evidence:** plain `npm run build` passed, 136 generated routes;
+verify-output checked 12 stations × 4 months and all 123 sitemap URLs;
+all 18 fact-range tests passed. An independent read-only assertion pass
+passed 62 checks covering the new/historical tide values, times, scores,
+daylight minutes, October/November/December counts, date scope, July timing
+arithmetic, 66-word answer, 144-character description, original/updated
+dates, all 12 internal links and all 8 external source URLs (HTTP 200).
+Diff review/check passed; only the intended article changed before release,
+no generated data/ICS edits. Commit 2e2a55c pushed and Vercel reported
+"Deployment has completed"; production HTTP 200 and browser show the new
+September title, table, autumn caveat, parking correction and Sep 8 update.
+At 1280px, page width is 1280px and all three tables are 729px: no desktop
+page overflow. No mobile-specific layout claim is made.
+
+**Live operations:** NOAA data generated 2026-09-08T09:07:03.159Z, landed
+in d87fc99 after run 34208175550 (started 09:06:40Z, 2m18s, success).
+Its logs show 18 fact tests passing, 123 sitemap URLs checked, IndexNow
+123 URLs HTTP 200 and the refresh commit pushed. Later slots 34224558781
+and 34239309857 succeeded with the same-day guard; no recovery dispatch.
+Live index.json is byte-identical to committed data. Home, current Seattle
+guide, Seattle September month, sitemap and data endpoint returned 200;
+sitemap still has 123 URLs. No open GitHub issues; full npm audit zero
+findings. No Exceptional (90+) window across covered stations Sep 8–22.
+Production browser tests after the metrics cutoff: home ZIP 98101 matched
+Seattle; finder populated, minus-only filter changed results, calendar
+email panel opened without submitting; La Push Trip Picker Sep 9–12 chose
+Sep 11, 7:10 AM, Fair 57 with correct runners-up. Console warnings/errors
+were empty on those tested flows and on the released guide.
+
+**PostHog:** confirmed project 495836 and current event/property schema;
+all counts below use `$host=thetidewindow.com` and `$virt_traffic_type=Regular`.
+Exact 7d, Sep 1 17:16:10Z–Sep 8 17:16:10Z, before this run's browser tests:
+271 pageviews / 237 distinct pageview users / 1 signup = **0.42%** vs 1.5%
+target; 17 station selections / 12 result views / 21 ZIP lookups / 2 gate
+clicks / 1 ICS reveal / 2 Trip Picker runs / 7 exit-intent exposures.
+Top paths: national king-tides 73, Port Townsend station 22, Fitzgerald 19,
+finder 18, home 16, Bar Harbor September 11, OR/WA king-tides 8 each.
+Exact 28d to the same cutoff: 849 pageviews / 759 users / 5 signups = 0.66%;
+24 exit-intent exposures. Last 24h LCP p75 **604ms on 9 LCP-bearing events**,
+not all web-vitals events: too few for a performance verdict or tuning.
+Active error issue list empty, but exception project opt-in is null and
+`$exception` was not seen in the last 30 days while SDK capture is enabled.
+Exception capture remains **unverified**, not zero observed errors.
+
+**Search and experiments:** GSC's latest date is Sep 6 (5 clicks, 575
+impressions). Explicit Aug 31–Sep 6 totals: **54 clicks / 3,622 impressions**
+vs Aug 24–30 **34 / 2,619** (+59% clicks). This is aggregate search context,
+not causal evidence for today's change; the date helper emits 15 inclusive
+rows for `dates 14`, so these totals deliberately use two seven-day sets.
+Current 28d flywheel includes Puget Sound tide chart 15 impressions, pos
+11.9, 1 click; Fitzgerald chart 162, pos 8.9, 3 clicks (already refreshed);
+Constellation 14, pos 9.8, 0 clicks (already refreshed today). Yesterday's
+weekly indexing audit/crawl-link intervention was not rerun prematurely.
+Since Aug 7 to cutoff, gate clicks: legacy tool_gate 9, calendars_page 3,
+article_gate 2, article_gate_multi 1, station_gate 1. ICS reveals: tool_gate
+4 / article_gate_multi 1; signups: tool_gate 4, article_gate_multi 1,
+end_article 1, home 1. The pre-Aug31 tool_gate label conflates several
+surfaces. All affected sources remain below the 30-event floor; closed
+unmeasurable experiments stay closed and no winner is claimed. Added an
+explicit open reminder for the Oct 1 owner exit-intent removal instruction,
+which is separate from the closed experiment and was not cancelled.
+
+**Next and boundaries:** next demand-backed candidate is the Puget Sound
+tide-chart refresh; CA hub/Sunset Bay remain older refresh options. After
+Sep 12, roll the La Push and Washington dated morning-run leads; Oct 1
+Fitzgerald chart/month rollover and exit-intent owner deadline remain;
+Sep 14 search/conversion and Sep 30 indexing reviews keep their floors.
+NPS Mora/Rialto closure recheck remains Oct 15, not assumed reopening.
+Unverified exception capture is still an instrumentation blocker. No
+messages, broadcasts, paid actions or unrelated changes; the two untracked
+Sep 3 newsletter drafts were preserved and excluded from both commits.
+
+---
+
 ## 2026-09-08 — Constellation Park retitle + Seattle season-close refresh (§2d/§2e)
 
 **Health:** green. Today's NOAA refresh landed as d87fc99 (run 34208175550,

@@ -241,9 +241,17 @@ with the date; add discoveries at the appropriate tier.
       title's ranking. Refresh, not a new page.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
-      exposed guide after the completed La Push pass. Next-oldest
-      station guides by vintage: WA hub (07-14; still leads with the July
-      12–16 run as upcoming — check), CA hub (07-15), Sunset Bay (07-16).
+      exposed guide after the completed Washington pass. Next-oldest
+      guides by vintage: CA hub (07-15), Sunset Bay (07-16).
+      Done 2026-09-08 heartbeat (2e2a55c): WA hub (07-14) refreshed to
+      Sep 9–12 station-specific times and autumn daylight limits; July/August
+      retained as past comparisons with July–December scope, not full-year
+      records. NPS closure rechecked; Second Beach parking fee corrected.
+      Build + 18 fact tests + 62 content/link checks passed; Vercel and live
+      page verified. Roll its dated September lead after Sep 12 alongside
+      La Push. Related-guide cards still expose old August framing from
+      best-tide-pools-oregon-2026 and west-coast-minus-tides-july-11-14-2026;
+      inspect those source descriptions during later refresh passes.
       Done 2026-09-08 (8442c37): seattle-alki (07-12) refreshed — see the
       checked Constellation Park item above for details.
       Done 2026-09-07 (second session, 2000e19): oregon-coast-minus-tide-
@@ -483,6 +491,12 @@ with the date; add discoveries at the appropriate tier.
       never reach the floor in useful time; the ZIP pathways shipped
       2026-08-31 serve the same intent on every device.
 - [ ] "Tidepooling 101 in 5 days" email course content (ships with Resend).
+- [ ] **2026-10-01 exit-intent owner deadline:** the experiment remains
+      closed-unmeasurable, but the 08-31 owner instruction above still calls
+      for retiring the prompt if it has fewer than 100 impressions on Oct 1.
+      Reconcile that surface-removal instruction at the deadline; do not
+      silently treat the 09-02 experiment closure as cancellation or restart
+      the experiment. No prompt change made in the 09-08 heartbeat.
 - [ ] Print stylesheet polish for month pages (page-break rules).
 - [ ] 2-4 new stations: Crescent City CA (9419750), Westport WA (9441102),
       Woods Hole MA (8447930), Crystal River FL? — verify ids + tidepool
