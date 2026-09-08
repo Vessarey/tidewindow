@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-07",
+ "generated_on": "2026-09-08",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-09-07",
-   "weekday": "Mon",
-   "low_ft": -1.109,
-   "low_time_local": "7:20 AM",
-   "window_local": "5:00 AM–10:05 AM",
-   "arrive_by_local": "6:20 AM",
-   "daylight_min": 208,
-   "score": 80,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-09-08",
    "weekday": "Tue",
@@ -109,6 +97,18 @@
    "arrive_by_local": "6:43 AM",
    "daylight_min": 50,
    "score": 16,
+   "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-10-07",
+   "weekday": "Wed",
+   "low_ft": 0.876,
+   "low_time_local": "7:54 AM",
+   "window_local": "7:35 AM–8:20 AM",
+   "arrive_by_local": "6:54 AM",
+   "daylight_min": 45,
+   "score": 14,
    "band": "Skip",
    "weekend_or_holiday": false
   }
@@ -302,18 +302,6 @@
  ],
  "deepest_2026_daylight_lows_remaining_top8": [
   {
-   "date": "2026-09-07",
-   "weekday": "Mon",
-   "low_ft": -1.109,
-   "low_time_local": "7:20 AM",
-   "window_local": "5:00 AM–10:05 AM",
-   "arrive_by_local": "6:20 AM",
-   "daylight_min": 208,
-   "score": 80,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-08",
    "weekday": "Tue",
    "low_ft": -1.005,
@@ -394,6 +382,18 @@
    "arrive_by_local": "6:54 AM",
    "daylight_min": 45,
    "score": 14,
+   "band": "Skip",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-09-22",
+   "weekday": "Tue",
+   "low_ft": 0.896,
+   "low_time_local": "7:43 AM",
+   "window_local": "7:20 AM–8:10 AM",
+   "arrive_by_local": "6:43 AM",
+   "daylight_min": 50,
+   "score": 16,
    "band": "Skip",
    "weekend_or_holiday": false
   }
@@ -493,20 +493,6 @@
   }
  ],
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-09-07",
-   "weekday": "Mon",
-   "low_ft": -1.109,
-   "low_time_local": "7:20 AM",
-   "window_local": "5:00 AM–10:05 AM",
-   "arrive_by_local": "6:20 AM",
-   "daylight_min": 208,
-   "score": 80,
-   "band": "Great",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 88,
-   "min_to_sun_edge": 43
-  },
   {
    "date": "2026-09-22",
    "weekday": "Tue",

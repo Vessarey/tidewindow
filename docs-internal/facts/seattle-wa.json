@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-07",
+ "generated_on": "2026-09-08",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-09-07",
-   "weekday": "Mon",
-   "low_ft": -0.93,
-   "low_time_local": "8:12 AM",
-   "window_local": "6:25 AM–10:05 AM",
-   "arrive_by_local": "7:12 AM",
-   "daylight_min": 209,
-   "score": 77,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-09-08",
    "weekday": "Tue",
@@ -302,18 +290,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-09-07",
-   "weekday": "Mon",
-   "low_ft": -0.93,
-   "low_time_local": "8:12 AM",
-   "window_local": "6:25 AM–10:05 AM",
-   "arrive_by_local": "7:12 AM",
-   "daylight_min": 209,
-   "score": 77,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-09",
    "weekday": "Wed",
    "low_ft": -0.856,
@@ -532,7 +508,7 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": null,

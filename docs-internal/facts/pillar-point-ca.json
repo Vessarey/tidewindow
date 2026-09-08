@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-07",
+ "generated_on": "2026-09-08",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -637,13 +637,13 @@
    "count": 14
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 13
-  },
-  {
    "commonName": "Heath's Dorid",
    "scientificName": "Geitodoris heathi",
+   "count": 12
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 12
   },
   {
