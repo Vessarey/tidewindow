@@ -253,7 +253,25 @@ with the date; add discoveries at the appropriate tier.
       with a Bar Harbor (8413320) monthly H/L chart section and Bar Island
       crossing framing; weigh "tide chart" in the title against the current
       title's ranking. Refresh, not a new page.
+      **09-09 heartbeat: freshness/safety portion DONE (b2a7792).** Replaced
+      August-as-upcoming with eight Sep/Oct fact-sheet lows and whole-month
+      Sep–Dec totals; original title/slug retained. Removed unsupported
+      no-stranding/identical-local-timing claims and crossing-clearance
+      implications; NPS quotes reverified. Complete daily H/L tables are
+      linked on the September/October calendar pages, not duplicated inline.
+      The originally requested inline full H/L chart remains unimplemented;
+      keep this item open. Article tide values stay within current fact sheets.
+      Baseline: guide 4 pv/7d in production Regular traffic; GSC 28d guide
+      4 clicks/498 impressions/pos 7.7; two chart/schedule queries 1 impression
+      each, pos 19/16. Build, 18 fact tests, 55 content/source checks and live
+      deployment passed. Roll the dated near-term lead after Sep 13.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
+- [ ] **CA hub refresh** — existing refresh-queue candidate below,
+      `best-tide-pools-california-2026` (07-15). This is writable now;
+      recheck dates, fact scope and official access sources before editing.
+- [ ] **Sunset Bay refresh** — existing refresh-queue candidate below,
+      `sunset-bay-cape-arago-tide-pools-2026` (07-16). This is writable now;
+      roll the passed August lead and recheck official park access guidance.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed Washington pass. Next-oldest
       guides by vintage: CA hub (07-15), Sunset Bay (07-16).

@@ -5,6 +5,101 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-09 (heartbeat, 17:16Z cutoff) — Acadia freshness and safety correction
+
+**Coordination / one primary action:** main was synced at 045ac96, with only
+the two untracked Sep 3 newsletter drafts. Read the playbook, backlog,
+latest three journal entries, today's commits and Actions/issues. Today's
+Puget Sound refresh (0bfaa9d) and NOAA refresh (03b53c4) were already live
+and were not repeated. Refreshed the Acadia guide in b2a7792: its July 24
+copy still recommended August 15 as upcoming and asserted that nobody
+gets stranded at Ship Harbor/Wonderland. That unsupported assurance and
+the conflation of calculated windows with crossing access warranted a
+correction on the existing guide (GSC 4 clicks/498 impressions/28d).
+
+**Changed:** current eight selected Sep/Oct lows from today's Bar Harbor
+fact sheet, whole-month Sep–Dec counts, daylight-overlap qualifications,
+July–December rather than full-year record scope, historical August
+comparison and current local iNaturalist snapshot. Original title, slug,
+publish date and station gate retained; updated date is Sep 9. NPS Bar
+Island, tidepooling, Ship Harbor and Wonderland pages fetched at write
+time. Safety guidance is attributed quotation, not generated directions.
+Removed the no-stranding assurance, identical-local-timing claim,
+manufactured three-hour crossing budget and stale crossing-time table.
+The selected-low table is explicitly not a complete H/L chart; clear links
+lead to the daily September/October tables and live tools. The originally
+queued inline full H/L reproduction was NOT implemented and stays open.
+This is one content refresh, no code change or new article.
+
+**Verification / release:** final plain npm run build green: 136 routes,
+12 stations × 4 months, 123 sitemap URLs and 18 fact tests passed. A
+read-only assertion pass passed 55 checks: all eight selected-low rows,
+monthly counts/best rows, historical figures, date scope, daylight limits,
+species counts, 70-word lead, 153-character description, metadata, seven
+internal routes, five external source URLs (HTTP 200), four exact NPS
+quotation fragments and absence of the unsafe/stale wording. It caught a
+Sep 27 rounding mismatch before release; corrected to the dataset's normal
+two-decimal formatting (−0.365 → −0.36). Diff check/review clean and no
+public/data-json, ICS or badge changes. b2a7792 pushed; Vercel success and
+live HTTP/browser show Sep 9 update, new tables and corrected guidance.
+At 1280px the page has no horizontal overflow; both tables are 729px.
+No mobile-specific layout claim. Browser console warnings/errors empty.
+
+**Health:** today's NOAA run 34333403621 started 09:12:29Z, duration
+2m15s, success; generated data timestamp 09:12:51.324Z, commit 03b53c4
+pushed at 09:14:41Z. Logs confirm 12 stations, 18 tests, 123 output URLs
+and IndexNow 123 URLs HTTP 200. Later guarded slots 34350554414,
+34364964087 and 34381898992 succeeded; no recovery dispatch. Live index
+is byte-identical to committed data. Home, sitemap, Puget guide, Acadia
+guide and Bar Harbor September/October calendars HTTP 200. No open GitHub
+issues; production npm audit zero findings; no 90+ window Sep 9–23 across
+covered stations. NPS Mora Road closure remains July 8–October 15; no
+reopening assumed. Browser checks after metrics cutoff: home ZIP 04609
+matched Bar Harbor, finder minus-only filter populated, calendar email
+panel opened without submission, Trip Picker Sep 11–13 selected Friday
+5:40 PM / Fair 58 with the expected Saturday/Sunday alternatives.
+
+**PostHog, exact windows ending 2026-09-09T17:16:16Z before browser tests:**
+project 495836, current schema/values verified; all queries use
+host=thetidewindow.com and traffic=Regular. Seven days from Sep 2:
+311 pv / 275 distinct pageview users / 1 signup = **0.36%** (target 1.5%);
+18 station selections / 11 results / 19 ZIP lookups / 4 gate clicks /
+1 ICS reveal / 7 Trip Picker runs / 9 exit-intent exposures. Top paths:
+national king-tides 78, Fitzgerald 21, PT station 20, finder 17, home 14,
+Seattle station 13, Pillar Point October and OR/WA king-tides 11 each.
+Acadia guide 4 pv; Bar Harbor September 8. Twenty-eight days from Aug 12:
+897 pv / 802 users / 6 signups = 0.75%; 26 exit-intent exposures.
+Last 24h LCP p75 858.5ms on **19 LCP-bearing events**, still below the
+30-observation floor: no performance intervention/verdict. Active error
+issues empty, project exception opt-in null, SDK capture_exceptions true,
+and no recent $exception event in the schema. Exception capture remains
+unverified, not a proven production error zero.
+
+**Search / experiments:** latest available GSC date remains Sep 6 (5 clicks,
+575 impressions); no newer search data than yesterday. Explicit Aug 31–
+Sep 6: 54 clicks/3,622 impressions vs Aug 24–30: 34/2,619. No causal
+claim for today's work. Acadia chart/schedule queries remain 1 impression
+each at positions 19/16. Puget chart 15/11.9/1 click was already addressed
+today. Since Aug 7, gate clicks by source: legacy tool_gate 12,
+calendars_page 3, article_gate 2, article_gate_multi 1, station_gate 1;
+ICS reveals tool_gate 5/multi 1; signups tool_gate 5/multi 1/end_article 1/
+home 1. Pre-Aug31 tool_gate conflates surfaces. All sources remain below
+30-event floor; closed-unmeasurable experiments remain closed. Sep 14
+review, Sep 30 indexing review and Oct 1 exit-intent owner deadline intact.
+
+**Queue / next:** at start, Acadia + CA hub + Sunset Bay were three distinct
+writable refresh candidates; the November preview was not counted. Made
+the two existing grouped refresh candidates explicit checkboxes to prevent
+the queue from being miscounted. Acadia's inline H/L scope remains open.
+Tomorrow is the operator's Thursday newsletter ritual; coordinate before
+any send. After Sep 12, WA/La Push/Oregon dated leads need rollover; after
+Sep 13, revisit Acadia's near-term lead. Oct 1 Fitzgerald/Puget charts,
+month rollover and exit-intent deadline; Oct 15 Mora/Rialto recheck remain.
+No broadcast, contact, spending, analytics-setting change or unrelated edit.
+Both untracked newsletter drafts preserved.
+
+---
+
 ## 2026-09-09 — Puget Sound guide gets the tide-chart treatment (§2d, backlog front item)
 
 **Health:** green. Today's NOAA refresh landed as 03b53c4 (run 34333403621,
