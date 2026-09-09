@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-08",
+ "generated_on": "2026-09-09",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -53,6 +53,18 @@
    "weekend_or_holiday": false
   },
   {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.094,
+   "low_time_local": "3:30 PM",
+   "window_local": "1:30 PM–5:35 PM",
+   "arrive_by_local": "2:30 PM",
+   "daylight_min": 215,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": 0.231,
@@ -99,18 +111,6 @@
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-10-12",
-   "weekday": "Mon",
-   "low_ft": 0.034,
-   "low_time_local": "6:42 PM",
-   "window_local": "4:45 PM–8:45 PM",
-   "arrive_by_local": "5:42 PM",
-   "daylight_min": 110,
-   "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -604,12 +604,17 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 48
+   "count": 44
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 44
+   "count": 43
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 19
   },
   {
    "commonName": "Branched Dendronotid",
@@ -622,19 +627,14 @@
    "count": 14
   },
   {
-   "commonName": "Fisher's Aeolid",
-   "scientificName": "Orienthella piunca",
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
    "count": 13
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 12
-  },
-  {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 11
+   "commonName": "Fisher's Aeolid",
+   "scientificName": "Orienthella piunca",
+   "count": 13
   },
   {
    "commonName": null,

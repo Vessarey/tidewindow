@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-08",
+ "generated_on": "2026-09-09",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -65,6 +65,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.225,
+   "low_time_local": "4:57 PM",
+   "window_local": "3:20 PM–6:35 PM",
+   "arrive_by_local": "3:57 PM",
+   "daylight_min": 101,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": -0.23,
@@ -99,18 +111,6 @@
    "score": 43,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-10",
-   "weekday": "Thu",
-   "low_ft": -0.617,
-   "low_time_local": "6:09 AM",
-   "window_local": "4:20 AM–8:00 AM",
-   "arrive_by_local": "5:09 AM",
-   "daylight_min": 68,
-   "score": 42,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {

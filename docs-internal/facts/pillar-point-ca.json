@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-08",
+ "generated_on": "2026-09-09",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -53,6 +53,18 @@
    "weekend_or_holiday": false
   },
   {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.363,
+   "low_time_local": "3:35 PM",
+   "window_local": "1:30 PM–5:50 PM",
+   "arrive_by_local": "2:35 PM",
+   "daylight_min": 215,
+   "score": 63,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": -0.023,
@@ -97,18 +109,6 @@
    "arrive_by_local": "5:08 PM",
    "daylight_min": 148,
    "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": 0.19,
-   "low_time_local": "5:57 PM",
-   "window_local": "4:20 PM–7:40 PM",
-   "arrive_by_local": "4:57 PM",
-   "daylight_min": 159,
-   "score": 52,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -614,16 +614,16 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 26
-  },
-  {
-   "commonName": "Hammerhead Doto",
-   "scientificName": "Doto amyra",
-   "count": 17
+   "count": 24
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
+   "count": 18
+  },
+  {
+   "commonName": "Hammerhead Doto",
+   "scientificName": "Doto amyra",
    "count": 17
   },
   {
@@ -634,7 +634,7 @@
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 14
+   "count": 15
   },
   {
    "commonName": "Heath's Dorid",

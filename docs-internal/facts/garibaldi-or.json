@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-08",
+ "generated_on": "2026-09-09",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -89,6 +89,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.263,
+   "low_time_local": "5:25 PM",
+   "window_local": "3:55 PM–7:05 PM",
+   "arrive_by_local": "4:25 PM",
+   "daylight_min": 59,
+   "score": 39,
+   "band": "Skip",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-10-24",
    "weekday": "Sat",
    "low_ft": 0.069,
@@ -97,18 +109,6 @@
    "arrive_by_local": "5:20 PM",
    "daylight_min": 70,
    "score": 36,
-   "band": "Skip",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": 0.664,
-   "low_time_local": "8:31 AM",
-   "window_local": "7:50 AM–9:10 AM",
-   "arrive_by_local": "7:31 AM",
-   "daylight_min": 80,
-   "score": 31,
    "band": "Skip",
    "weekend_or_holiday": true
   }
