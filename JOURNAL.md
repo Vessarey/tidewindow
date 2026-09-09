@@ -5,6 +5,89 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-09 — Puget Sound guide gets the tide-chart treatment (§2d, backlog front item)
+
+**Health:** green. Today's NOAA refresh landed as 03b53c4 (run 34333403621,
+started 09:12:29Z, 2m15s, success) before this session — the staggered-slot
+guard is doing its job, no recovery dispatch. No open GitHub issues. No
+Exceptional (90+) window within 14 days at any covered station. Not Thursday,
+so no newsletter action.
+
+**Primary (0bfaa9d):** the backlog's front demand-backed item — give
+puget-sound-low-tide-calendar-2026 the Fitzgerald treatment for the
+`puget sound tide chart 2026` cluster (flywheel today: 15 impr, pos 11.9,
+1 click — highest CTR-when-shown of any flywheel query). Same slug, refresh
+not a new page. Changes: (1) retitled to "Puget Sound Tide Chart 2026:
+Seattle & Port Townsend Low-Tide Calendar" — keeps both ranking phrases;
+(2) added complete remaining-September H/L charts (Sep 9–30, every
+predicted extreme) for stations 9447130 and 9444900, generated from
+committed data-json tides, with links to the month pages that refresh
+daily; (3) added an Oct–Dec deepest-low table showing the winter deeps all
+land at night (Seattle −3.93 ft Christmas Eve 10:58 PM — deeper than July
+14's famous −3.80 daylight low), routing that intent to the WA king-tides
+guide; (4) rolled the Labor Day lead honestly to the season close (after
+Thu Sep 10, Seattle has zero daylight minus tides left in 2026; PT keeps
+only the Oct 5 pre-sunrise Skip, 39 lit minutes); (5) new 2027 return
+ladder for both stations — PT Jan 17 dusk, Seattle Feb 15, first Good
+weekend Mar 13–14, first Great Apr 9, first Exceptional weekend Apr 10–11
+(Seattle −1.92/−1.80 PM), deepest daylight low in the dataset Sun Jul 4
+−3.93 ft — matching the Dec 24 night record to the hundredth of a foot,
+stated with the dataset-extent caveat (predictions through early Oct
+2027); (6) corrected the monthly table's July row to the repaired
+fact-range contract (Seattle 24 windows/20 minus, PT 25/21 — old rows
+predated the 09-07 fix) and recomputed the sums (53 windows vs 128 lows =
+41%; 33 of 39 minus tides in Jul+Aug = 85%); (7) species snapshot rolled
+to current iNat 60d (Horned Nudibranch 14, White-lined Dirona 10, stamp
+2026-09-09); (8) FAQ set rebuilt: past-tense records, what's-left, a
+where's-the-full-tide-table answer targeting the query, 2027 returns, and
+the PT-vs-Seattle offset. Working-a-window example moved from the passed
+Labor Day to Sat Apr 10, 2027 (arrive 1:02 PM for the 2:02 PM low). NPS
+arrive-early/leave-early quotes re-verified verbatim on the live page at
+write time; all four source URLs fetch 200.
+
+**Validation:** 135 script assertions against public/data-json + fact
+sheets all passed (every table row string-matched against regenerated
+chart rows; firsts asserted to be actual firsts; monthly counts from fact
+sheets; description ≤155). One real catch during gating: description was
+156 chars, trimmed. npm run build green — 136 routes, verify-output OK
+(123 sitemap URLs), 18 fact tests pass. All 13 internal links resolve in
+out/. Diff single-file 128+/38−; the two untracked 09-03 newsletter
+drafts remain untracked. Production verified post-deploy: new title,
+Sep 30 chart rows, −3.93 ft, Apr 10 ladder, and Jan 17 return all
+present on the live page (HTTP 200).
+
+**Metrics (PostHog 7d to ~18:05Z, host=thetidewindow.com + Regular):**
+305 pv / 268 uniques / **0 signups (0% vs 1.5% target)** / 19 station
+selections / 11 result views / 21 ZIP lookups / 3 gate clicks / 7
+trip-picker runs / 8 exit-intent exposures. Top pages: national
+king-tides 75, Fitzgerald 21, Port Townsend station 20, finder 18, home
+15, Seattle station 13, WA king-tides 11, pillar-point 2026-10 month 11.
+Traffic is up week-over-week (271→305 pv) but the signup drought is the
+story: zero in 7 days. The conversion surfaces are all below experiment
+floors per §5; the honest lever remains traffic, per the closed-
+unmeasurable rulings.
+
+**Search:** GSC flywheel 28d confirms the pick: fitzgerald chart 162
+impr/pos 8.9/3 clicks (refreshed 09-05), king-tides cluster ~63+14 impr
+pos ~9 (refreshed 09-02), puget chart 15/11.9/1 (today's action),
+constellation 14/9.8 (refreshed 09-08). Acadia chart/schedule now the
+last open chart-cluster item (1 impr each in flywheel, pos 16–19).
+
+**Tomorrow:** Thursday — the weekly newsletter is the REQUIRED primary
+(sync-audience → dry-run → recompute-check → send --owner-reviewed on the
+established template; note the Sound's daylight season just ended, the
+OR/CA windows carry the issue). After Sep 12 passes, roll the dated
+Sep 9–12 leads in la-push + WA hub + oregon-coast calendar (queued §2e).
+Acadia tide chart is the next P1 content item; P1 then holds only 2
+writable items (Acadia + winter preview in Nov) — refill from GSC per
+§2a at the next content-queue run. Oct 1: Fitzgerald + Puget September
+charts go stale together; month rollover 2026-11; exit-intent owner
+deadline. Sep 30: inspect 60 re-run. Oct 15: NPS Mora/Rialto recheck.
+Exception capture still instrumentation-unverified — don't report error
+zeros as observed.
+
+---
+
 ## 2026-09-08 (heartbeat, 17:16Z cutoff) — Washington roundup made current
 
 **Coordination and primary action:** pulled main and read the playbook,

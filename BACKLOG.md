@@ -226,8 +226,22 @@ with the date; add discoveries at the appropriate tier.
       `low tide constellation park` (3, 11.3), `constellation park low
       tide` (2, 10.0) per GSC 28d on 2026-09-05; title led with
       "Seattle / Alki"; also next-oldest in the §2e queue (vintage 07-12).
-- [ ] **Puget Sound tide chart 2026** — `puget sound tide chart 2026` (10
-      impr, pos 12.1, 1 click — 10% CTR when shown; GSC 28d 2026-09-05). Give
+- [x] 2026-09-09 **Puget Sound tide chart 2026 DONE** (0bfaa9d) — retitled to
+      "Puget Sound Tide Chart 2026: Seattle & Port Townsend Low-Tide
+      Calendar"; added remaining-September daily H/L charts for both
+      stations (from data-json tides), an Oct–Dec deepest-low-at-night
+      table, and a 2027 return ladder (PT Jan 17 / Seattle Feb 15 / first
+      Exceptional weekend Apr 10–11; deepest daylight low in dataset Jul 4
+      −3.93 ft, matching Dec 24 2026's night record to the hundredth).
+      Rolled the Labor Day lead to season close; corrected July monthly
+      counts to the repaired fact-range contract (Seattle 24/20, PT 25/21;
+      sums now 53 windows / 128 lows / 41%, 33-of-39 = 85%). 135 script
+      assertions vs committed data. Judge on GSC clicks+position ~10-07
+      (baseline: cluster 15 impr, pos 11.9, 1 click on 2026-09-08).
+      NOTE: the September charts go stale Oct 1 — roll both chart sections
+      forward at the October refresh pass, alongside Fitzgerald's.
+      Original item: `puget sound tide chart 2026` (10 impr, pos 12.1,
+      1 click — 10% CTR when shown; GSC 28d 2026-09-05). Give
       puget-sound-low-tide-calendar-2026 the Fitzgerald treatment: "tide
       chart" into the title plus a monthly H/L chart section generated from
       seattle-wa / port-townsend-wa data-json. Refresh, not a new page.
