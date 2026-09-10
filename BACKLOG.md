@@ -5,6 +5,15 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **Next run: refill the writable content queue from demand (§2a).**
+      After the 09-10 CA hub refresh, only Acadia's inline H/L scope and
+      Sunset Bay remain explicitly open and writable this week; the November
+      preview does not count. Run fresh GSC `flywheel 28` + `queries 28`,
+      then add at least three qualified P1 items with cluster, impressions,
+      position and intended slug. Today's candidate to investigate:
+      `glass beach port townsend tide chart` (10 impressions, position 17.3).
+      Check existing Port Townsend coverage before proposing a separate page;
+      Fitzgerald/Puget chart work is already done, not a new queue item.
 - [x] 2026-07-06: **$pageview CAPTURE FIXED** (commit 1e88dbc) —
       `capture_pageview: true` → `"history_change"` in src/components/analytics.tsx.
       Root cause (verified in posthog-js 1.396.5 source): the History API monitor
@@ -266,15 +275,27 @@ with the date; add discoveries at the appropriate tier.
       each, pos 19/16. Build, 18 fact tests, 55 content/source checks and live
       deployment passed. Roll the dated near-term lead after Sep 13.
 - [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
-- [ ] **CA hub refresh** — existing refresh-queue candidate below,
-      `best-tide-pools-california-2026` (07-15). This is writable now;
-      recheck dates, fact scope and official access sources before editing.
+- [x] **2026-09-10 CA hub refresh DONE (8b53e98)** —
+      `best-tide-pools-california-2026`: replaced July-as-upcoming with
+      Sep 27 / Oct 25 comparisons, whole-month Sep–Dec daylight-minus
+      counts, and rechecked Dec 22–25 lows. Explicit July–December scope
+      and 30-minute daylight-overlap threshold; northern Christmas Eve
+      lows are after sunset, not daylight at low water. Current official
+      Cabrillo/Fitzgerald hours and holiday closures replace unrestricted
+      access claims. Original title/slug/publish date and gates retained;
+      stale July featuredRoundup removed. Build, 18 fact tests, 120 checks,
+      20 internal links, 10 official sources, Vercel and live browser passed.
+      Production Regular baseline: 0 pv in the preceding 7d. Roll the
+      near-term September lead after Sep 27; do not expand beyond the
+      fact-sheet date scope without new data.
 - [ ] **Sunset Bay refresh** — existing refresh-queue candidate below,
       `sunset-bay-cape-arago-tide-pools-2026` (07-16). This is writable now;
       roll the passed August lead and recheck official park access guidance.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
-      exposed guide after the completed Washington pass. Next-oldest
-      guides by vintage: CA hub (07-15), Sunset Bay (07-16).
+      exposed guide after the completed California pass. Next-oldest
+      explicit candidate by vintage: Sunset Bay (07-16).
+      Done 2026-09-10 heartbeat (8b53e98): CA hub (07-15) — see its
+      checked item above. Two writable P1 items remain; refill first next run.
       Done 2026-09-08 heartbeat (2e2a55c): WA hub (07-14) refreshed to
       Sep 9–12 station-specific times and autumn daylight limits; July/August
       retained as past comparisons with July–December scope, not full-year
@@ -572,6 +593,10 @@ with the date; add discoveries at the appropriate tier.
       p75 1,680 ms on 13 events with a nonnegative LCP value (production
       host + Regular traffic). No persistent slowdown demonstrated; keep
       tuning paused and count only LCP-bearing events for future readouts.
+      **09-10 heartbeat:** latest 24h p90 5,630.4ms on 27 actual LCP-bearing
+      events. This is not a p75 comparison or a demonstrated regression;
+      below the 30-observation floor. Monitor the long tail with consistent
+      percentiles before profiling or changing code.
       The recheck reached p75 844 ms across 63 `$web_vitals` events in the
       latest 24h, comfortably below the 2.5s intervention threshold and above
       the planned ~30-sample floor. The 09-03 spike did not persist; no code
