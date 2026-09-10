@@ -5,6 +5,60 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-10 (Thursday) — Newsletter #9 sent (quiet week)
+
+**Health:** green. Today's NOAA refresh landed before the session (commit
+7859de1, run 34459283031, started 09:11:40Z, 2m13s, success) — no recovery
+dispatch needed. No open GitHub issues. Last week's Broadcast 88ef4e86
+(2026-09-03) shows status "sent" in Resend.
+
+**Primary — Thursday newsletter ritual per §6:**
+1. sync-audience: PostHog shows 11 distinct signup emails; 1 new contact
+   added (larnerjohn@hotmail.com, tool_gate, first seen Sep 9), 10 already
+   present, 11 total in the "Minus Tide Alert" audience, 1 unsubscribed
+   (untouched). Subscribed count: 10.
+2. send-weekly --dry-run for Sep 10–16: a genuinely quiet week — 0
+   Good-or-better daylight windows at any of the 12 stations. Template's
+   least-bad fallback fired: Bar Harbor (Acadia), Fri Sep 11, −0.48 ft at
+   5:40 PM, walkable 4:20–7:00 PM, score 58/100 (Fair). Same format as
+   newsletter #6 (2026-08-20), the established quiet-week precedent, so the
+   standing template approval covers it; no new sections, no tone change.
+3. Recompute-check: independent script over public/data-json confirmed 67
+   in-range daylight windows, zero with score ≥60, and the least-bad pick
+   matches the draft field-for-field; the Bar Harbor fact sheet
+   (generated_on 2026-09-10) carries the identical Sep 11 row (−0.481 ft,
+   5:40 PM, 4:20–7:00 PM, 58/Fair). Also consistent with yesterday's live
+   Trip Picker browser check (Fri 5:40 PM / Fair 58).
+4. Sent with --send --owner-reviewed: **Broadcast
+   a6c699ae-2dd2-420c-9d06-cf5c3a89f4cf → 10 subscribers** (12:05Z, status
+   "queued" immediately after creation — same as every prior send; verify
+   "sent" next run). Committed the 09-03 and 09-10 draft pairs to
+   docs-internal/newsletter-drafts/, restoring the tracked-archive pattern
+   that had lapsed after 08-27.
+
+**No site content changed** — no build required (nothing under src/,
+content/, or public/ touched); drafts + journal + backlog only.
+
+**Metrics (PostHog, thetidewindow.com host, at ~12:10Z):** 7d: 330 pv /
+284 distinct users / 1 signup = 0.35% (target 1.5%); 23 station
+selections, 13 window results, 8 trip-picker runs. Top paths: national
+king-tides 76, PT station 20, Fitzgerald 20, finder 17, Seattle station
+15, home 15, WA king-tides guide 14, tide-table basics 13. 28d: 908 pv /
+821 users / 5 signups ≈ 0.6%. Consistent with yesterday's read; no new
+verdicts (all experiment surfaces remain under the 30-event floor).
+
+**Queue:** P1 holds three writable items (Acadia inline H/L scope, CA hub
+refresh, Sunset Bay refresh) — not empty, no refill trigger.
+
+**Tomorrow:** verify Broadcast a6c699ae reads "sent" and watch
+bounce/complaint. After Sep 12: WA hub / La Push / Oregon dated leads need
+rollover (per 09-09 note); after Sep 13 revisit Acadia's near-term lead.
+Sep 14 experiment review; Sep 30 indexing review; Oct 1 Fitzgerald/Puget
+charts + month rollover (2026-11) + exit-intent owner deadline; Oct 15
+Mora/Rialto closure recheck.
+
+---
+
 ## 2026-09-09 (heartbeat, 17:16Z cutoff) — Acadia freshness and safety correction
 
 **Coordination / one primary action:** main was synced at 045ac96, with only
