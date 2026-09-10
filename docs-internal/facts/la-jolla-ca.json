@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-09",
+ "generated_on": "2026-09-10",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.429,
+   "low_time_local": "2:42 PM",
+   "window_local": "12:35 PM–5:05 PM",
+   "arrive_by_local": "1:42 PM",
+   "daylight_min": 257,
+   "score": 66,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-25",
    "weekday": "Sun",
@@ -96,18 +108,6 @@
    "window_local": "2:05 PM–5:35 PM",
    "arrive_by_local": "2:49 PM",
    "daylight_min": 210,
-   "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-12",
-   "weekday": "Mon",
-   "low_ft": 0.005,
-   "low_time_local": "5:06 PM",
-   "window_local": "3:15 PM–7:05 PM",
-   "arrive_by_local": "4:06 PM",
-   "daylight_min": 184,
    "score": 58,
    "band": "Fair",
    "weekend_or_holiday": true
@@ -604,17 +604,17 @@
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 103
+   "count": 106
   },
   {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
-   "count": 52
+   "count": 49
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 45
+   "count": 46
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -624,7 +624,7 @@
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 37
+   "count": 31
   },
   {
    "commonName": "Salt-and-pepper Doris",
@@ -637,13 +637,13 @@
    "count": 28
   },
   {
-   "commonName": "Colorful Aeolid",
-   "scientificName": "Anteaeolidiella chromosoma",
-   "count": 25
-  },
-  {
    "commonName": "Two-spotted Dorid",
    "scientificName": "Thordisa bimaculata",
+   "count": 24
+  },
+  {
+   "commonName": "Colorful Aeolid",
+   "scientificName": "Anteaeolidiella chromosoma",
    "count": 24
   },
   {

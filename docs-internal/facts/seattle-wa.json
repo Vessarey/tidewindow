@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-09",
+ "generated_on": "2026-09-10",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-09-09",
-   "weekday": "Wed",
-   "low_ft": -0.856,
-   "low_time_local": "10:04 AM",
-   "window_local": "8:30 AM–11:45 AM",
-   "arrive_by_local": "9:04 AM",
-   "daylight_min": 195,
-   "score": 65,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-09-10",
    "weekday": "Thu",
@@ -266,18 +254,6 @@
  ],
  "deepest_2026_daylight_lows_remaining_top8": [
   {
-   "date": "2026-09-09",
-   "weekday": "Wed",
-   "low_ft": -0.856,
-   "low_time_local": "10:04 AM",
-   "window_local": "8:30 AM–11:45 AM",
-   "arrive_by_local": "9:04 AM",
-   "daylight_min": 195,
-   "score": 65,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.349,
@@ -454,7 +430,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "White-lined Dirona",
@@ -497,8 +473,8 @@
    "count": 4
   },
   {
-   "commonName": "Lined Chiton",
-   "scientificName": "Tonicella lineata",
+   "commonName": "barnacle-eating dorid",
+   "scientificName": "Onchidoris bilamellata",
    "count": 3
   }
  ]

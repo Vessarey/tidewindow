@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-09",
+ "generated_on": "2026-09-10",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -24,6 +24,18 @@
    "window_local": "2:50 PM–7:15 PM",
    "arrive_by_local": "3:59 PM",
    "daylight_min": 209,
+   "score": 68,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.597,
+   "low_time_local": "4:13 PM",
+   "window_local": "1:55 PM–6:45 PM",
+   "arrive_by_local": "3:13 PM",
+   "daylight_min": 190,
    "score": 68,
    "band": "Good",
    "weekend_or_holiday": true
@@ -99,18 +111,6 @@
    "score": 57,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-10-11",
-   "weekday": "Sun",
-   "low_ft": -0.174,
-   "low_time_local": "6:08 PM",
-   "window_local": "4:10 PM–8:15 PM",
-   "arrive_by_local": "5:08 PM",
-   "daylight_min": 148,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -642,14 +642,14 @@
    "count": 12
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 12
-  },
-  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
    "count": 12
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 11
   }
  ]
 }

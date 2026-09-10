@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-09",
+ "generated_on": "2026-09-10",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -77,16 +77,16 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-09-09",
-   "weekday": "Wed",
-   "low_ft": -0.954,
-   "low_time_local": "5:39 AM",
-   "window_local": "3:40 AM–7:45 AM",
-   "arrive_by_local": "4:39 AM",
-   "daylight_min": 57,
-   "score": 47,
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.702,
+   "low_time_local": "5:45 PM",
+   "window_local": "3:55 PM–7:40 PM",
+   "arrive_by_local": "4:45 PM",
+   "daylight_min": 61,
+   "score": 48,
    "band": "Fair",
-   "weekend_or_holiday": false
+   "weekend_or_holiday": true
   },
   {
    "date": "2026-10-11",
@@ -384,18 +384,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-09-09",
-   "weekday": "Wed",
-   "low_ft": -0.954,
-   "low_time_local": "5:39 AM",
-   "window_local": "3:40 AM–7:45 AM",
-   "arrive_by_local": "4:39 AM",
-   "daylight_min": 57,
-   "score": 47,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.88,
@@ -416,6 +404,18 @@
    "arrive_by_local": "5:37 PM",
    "daylight_min": 85,
    "score": 56,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.702,
+   "low_time_local": "5:45 PM",
+   "window_local": "3:55 PM–7:40 PM",
+   "arrive_by_local": "4:45 PM",
+   "daylight_min": 61,
+   "score": 48,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -516,20 +516,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-09",
-   "weekday": "Wed",
-   "low_ft": -0.954,
-   "low_time_local": "5:39 AM",
-   "window_local": "3:40 AM–7:45 AM",
-   "arrive_by_local": "4:39 AM",
-   "daylight_min": 57,
-   "score": 47,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 69,
-   "min_to_sun_edge": -69
-  },
-  {
    "date": "2026-09-10",
    "weekday": "Thu",
    "low_ft": -0.88,
@@ -598,28 +584,42 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 282,
    "min_to_sun_edge": -30
+  },
+  {
+   "date": "2026-09-13",
+   "weekday": "Sun",
+   "low_ft": 0.662,
+   "low_time_local": "8:08 AM",
+   "window_local": "7:30 AM–8:55 AM",
+   "arrive_by_local": "7:08 AM",
+   "daylight_min": 85,
+   "score": 32,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 97,
+   "min_to_sun_edge": 75
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
-   "count": 20
-  },
-  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 13
-  },
-  {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
    "count": 9
+  },
+  {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 5
+  },
+  {
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
+   "count": 4
   },
   {
    "commonName": "Nanaimo Dorid",

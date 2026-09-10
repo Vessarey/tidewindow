@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-09",
+ "generated_on": "2026-09-10",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.329,
+   "low_time_local": "4:09 PM",
+   "window_local": "1:55 PM–6:30 PM",
+   "arrive_by_local": "3:09 PM",
+   "daylight_min": 189,
+   "score": 63,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-25",
    "weekday": "Sun",
@@ -99,18 +111,6 @@
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-28",
-   "weekday": "Wed",
-   "low_ft": -0.914,
-   "low_time_local": "7:20 PM",
-   "window_local": "4:45 PM–10:10 PM",
-   "arrive_by_local": "6:20 PM",
-   "daylight_min": 90,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -604,17 +604,17 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 44
+   "count": 43
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 43
+   "count": 41
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 19
+   "count": 21
   },
   {
    "commonName": "Branched Dendronotid",
@@ -647,9 +647,9 @@
    "count": 10
   },
   {
-   "commonName": "Bodega Tellin",
-   "scientificName": "Megangulus bodegensis",
-   "count": 10
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 8
   }
  ]
 }
