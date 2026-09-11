@@ -5,15 +5,18 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] **Next run: refill the writable content queue from demand (§2a).**
-      After the 09-10 CA hub refresh, only Acadia's inline H/L scope and
-      Sunset Bay remain explicitly open and writable this week; the November
-      preview does not count. Run fresh GSC `flywheel 28` + `queries 28`,
-      then add at least three qualified P1 items with cluster, impressions,
-      position and intended slug. Today's candidate to investigate:
-      `glass beach port townsend tide chart` (10 impressions, position 17.3).
-      Check existing Port Townsend coverage before proposing a separate page;
-      Fitzgerald/Puget chart work is already done, not a new queue item.
+- [x] 2026-09-11: **Content queue refilled from demand (§2a).** Ran fresh
+      `flywheel 28` + `queries 28` and added three qualified P1 items, each
+      with cluster, impressions, position and target: (1) Glass Beach Port
+      Townsend NEW page — investigated per the note below: the PT guide
+      covers Fort Worden/North Beach only, no Glass Beach mention anywhere
+      except a stray line in king-tides-washington-2027, so a separate page
+      is justified; (2) "king tides 2026" schedule section on the national
+      page (~140 impressions across the bare-2026 cluster, 0 clicks on the
+      81-impression head query); (3) Oregon king-tides retitle to
+      2026 & 2027, mirroring WA's pattern. Fitzgerald/Puget chart work
+      correctly excluded as done. Queue now holds 5 writable items
+      (3 new + Acadia inline H/L + Sunset Bay refresh).
 - [x] 2026-07-06: **$pageview CAPTURE FIXED** (commit 1e88dbc) —
       `capture_pageview: true` → `"history_change"` in src/components/analytics.tsx.
       Root cause (verified in posthog-js 1.396.5 source): the History API monitor
@@ -74,6 +77,47 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
+- [ ] **Glass Beach (Port Townsend) low-tide access guide — NEW page**
+      (added 2026-09-11 demand refill). Cluster: `glass beach port townsend
+      tide chart` 10 impressions / pos 17.3 and `glass beach tides`
+      1 / pos 10.0 (GSC 28d, 2026-09-11). No page of its own: the PT guide
+      covers Fort Worden and North Beach only and never mentions Glass
+      Beach, yet the property already ranks page-2 on the query. Intended
+      slug: `glass-beach-port-townsend-low-tide-2026` (station-guides,
+      port-townsend-wa, NOAA 9444900 — fact sheet exists). Angle: the walk
+      from North Beach past McCurdy Point is tide-dependent, which is
+      exactly what Tidewindow computes — verify every access/route/rules
+      claim via web fetch at write time (likely Jefferson County / WA
+      sources) and cut what can't be verified; no safety invention. Link
+      hard both ways with `best-time-sea-glass-hunting` and the PT station
+      guide (pos 1.0 on `port townsend tide pools`).
+- [ ] **"King tides 2026" schedule intent on the national page — refresh,
+      not a new page** (added 2026-09-11 demand refill). Cluster: `king
+      tides 2026` 81 impressions / pos 9.6 / 0 clicks, `king tides 2026
+      predictions` 20 / 8.1, `king tides 2026 2027 predictions pdf`
+      16 / 8.8, `king tide 2026` 15 / 14.3, plus schedule variants —
+      ~140 impressions (GSC 28d, 2026-09-11). Target:
+      `king-tides-2026-2027-dates`. The page answers "2026 & 2027 coast by
+      coast" but has no month-by-month late-2026 schedule a bare-"2026"
+      searcher can land on. Add an Oct/Nov/Dec 2026 per-station schedule
+      section from the fact sheets, and consider a print-friendly view
+      (print CSS) to serve the recurring "pdf" modifier — never claim a
+      downloadable PDF that doesn't exist. Title already carries 2026; keep
+      slug. Record baselines before the change (39 clicks / 1,829
+      impressions / pos 6.9, GSC 28d pages).
+- [ ] **Oregon king tides: carry the 2026 half of the season in the
+      title — refresh, not a new page** (added 2026-09-11 demand refill).
+      Cluster: `king tides oregon coast 2027` 17 / 7.5 and `king tides
+      oregon 2026 predictions` 2 / 12.5 (GSC 28d, 2026-09-11). Target:
+      `king-tides-oregon-2027`. Title says 2027 only, but the season's
+      first highs land Nov–Dec 2026 and WA's equivalent page — titled
+      "King Tides Washington 2026 & 2027" — now draws the property's
+      single largest query, `king tides washington 2026`, at 198
+      impressions / pos 7.3. Mirror that proven pattern: retitle to
+      "King Tides Oregon Coast 2026 & 2027" and make the late-2026 dates
+      explicit in the lead. Small-n today but seasonally rising into
+      October. Retitle = experiment: record baseline in JOURNAL on the day
+      it ships (§5 minimum-sample rule applies).
 - [x] 2026-07-04: Weekly regional roundup format LAUNCHED — inaugural instance
       is the time-sensitive West Coast Jul 11–14 run
       (content/articles/west-coast-minus-tides-july-11-14-2026.md), triggered by

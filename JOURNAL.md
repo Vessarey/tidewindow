@@ -5,7 +5,58 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
-## 2026-09-10 (heartbeat, 17:15Z cutoff) — California fall dates and access correction
+## 2026-09-11 — Content queue refilled from GSC demand (§2a)
+
+**Health:** green. Today's NOAA refresh landed before the session (commit
+5dcf994, run 34582776733, started 09:09:39Z, 2m14s, success) — no recovery
+dispatch. No open GitHub issues. Newsletter #9 (Broadcast a6c699ae) was
+confirmed "sent" in yesterday's heartbeat; nothing due on the ritual today.
+
+**Primary — §2a demand refill (queued as P0 by the last two runs):** ran
+fresh `gsc-query.mjs flywheel 28` + `queries 28` + `pages 28` and added
+three qualified P1 items, each with cluster, impressions, position and
+intended target (see BACKLOG):
+1. **Glass Beach Port Townsend — new page**, slug
+   `glass-beach-port-townsend-low-tide-2026`. `glass beach port townsend
+   tide chart` 10 impressions / pos 17.3 + `glass beach tides` 1 / 10.0.
+   Investigated per yesterday's note before proposing: the PT guide covers
+   Fort Worden and North Beach only; no Glass Beach coverage exists
+   anywhere (grep across content/articles — only a stray mention in
+   king-tides-washington-2027). Tide-dependent access is a natural fit;
+   all access claims to be web-verified at write time.
+2. **"King tides 2026" schedule section** on
+   `king-tides-2026-2027-dates` — bare-2026 cluster ~140 impressions
+   (head query `king tides 2026` 81 / 9.6 / 0 clicks; `predictions` 20 /
+   8.1; `predictions pdf` 16 / 8.8; `king tide 2026` 15 / 14.3). Refresh,
+   not a new page; page baseline 39 clicks / 1,829 impressions / pos 6.9.
+3. **Oregon king-tides retitle** to "2026 & 2027" on
+   `king-tides-oregon-2027` — mirrors WA, whose 2026-carrying title now
+   draws the property's largest query (`king tides washington 2026`,
+   198 impressions / pos 7.3). Small-n today (17 + 2 impressions),
+   seasonally rising into October; §5 retitle-baseline rule flagged in the
+   item.
+
+Excluded as instructed: Fitzgerald (186 / 8.9) and Puget chart work —
+already done; Constellation Park cluster — its page ranks 6.9 with 12
+clicks; `best time * tide pool*` queries at pos 47–62 — the 09-06 article
+is days old, GSC lag applies. Queue now holds **5 writable items** (3 new
++ Acadia inline H/L + Sunset Bay refresh); the November preview still not
+counted.
+
+**No site content changed** — BACKLOG + JOURNAL only, no build required.
+
+**Metrics snapshot (PostHog, 7d to 2026-09-11 ~18:05Z, host
+thetidewindow.com, unfiltered by traffic cohort — not directly comparable
+to yesterday's Regular-only read):** 351 pv / 301 distinct pageview users /
+2 signups = 0.66% (target 1.5%); 28 station selections / 16 window results /
+9 trip-picker runs. GSC 28d: national king-tides guide still top
+(39 clicks / 1,829), Fitzgerald 32 / 1,294, Constellation 12 / 388.
+
+**Tomorrow:** pick ONE queue item per §2d — after Sep 12 the WA/La Push
+dated leads become rollable (per 09-08 note), and Glass Beach is the
+strongest new-demand item; a Friday–weekend publish window suits it.
+Sep 14 search/conversion readout upcoming. Oct 1: November rollover +
+Fitzgerald/Puget chart rollover + exit-intent owner deadline.
 
 **Coordination / one primary action:** synced main at bb8fa78, clean tree.
 The operator already sent newsletter #9 and archived the draft pairs; no
