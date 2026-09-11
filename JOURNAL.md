@@ -5,6 +5,135 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-11 (heartbeat, 17:16Z cutoff) — National king-tide schedule and daylight correction
+
+**Coordination / one primary action:** synced main at ac1b10a, clean tree.
+The operator had already completed today's demand refill; no duplicate
+refill or newsletter send. Read AGENTS, playbook, backlog, journal and
+recent commits before selecting the queued national schedule refresh.
+The guide led human traffic at 84 pageviews/7d (24.5% of 343), and its
+bare-2026 query cluster had ~140 impressions/28d. Five writable P1 items
+at entry, four after completion. Zero new editorial additions this week;
+this is one existing-guide refresh, not a new page or coverage expansion.
+
+**Shipped 36aebb1:** added the highest predicted tide in each of October,
+November and December 2026 at all 12 stations (36 rows). Added monthly
+highest_tide fields to the fact generator, selected from the complete
+high-tide predictions with no daylight filter and first-source tie
+handling. Twelve new station regression tests check all 72 July–December
+monthly maxima; red first (12 missing-field failures), then 30/30 pass.
+The 15 generated fact files changed only by adding highest_tide fields;
+an independent structural comparison confirms all prior fields unchanged.
+Public data-json, ICS and badges were untouched.
+
+Retained the national guide's slug, July 3 publish date, gate stations
+and signup mechanics; updated title/description to match the new high/low
+scope and updated date to Sep 11. Kept the 12-station low comparison and
+La Jolla holiday rows, but defined eligibility as at least 30 minutes of
+daylight somewhere in the below-+1.0-ft window—not daylight at low water.
+Newport Dec 23 and Bar Harbor Jan 23 lows are after sunset, verified
+against the exact low's solar timestamps. Removed unsupported full-year
+counts, July-as-upcoming comparisons, universal October 1 season start
+and invented arrival/walk-back advice. Monthly maxima are not official
+king-tide event days, flood depths or flooding forecasts. Reverified NOAA
+explanations and NPS Cabrillo hours/Christmas closure; scores do not
+certify access. Preserved the established design/Vercel flow. No PDF or
+print-view feature was added or promised.
+
+**Gates / release:** final npm run build passed: 136 generated routes,
+12 stations × 4 months, 123 sitemap URLs, 30 fact tests. Also ran the
+required PIPELINE_REFRESH=1 build in an isolated copy
+(/tmp/tidewindow-sep11-refresh.WtNexr), protecting the cron's committed
+public outputs; all 12 NOAA station fetches, build, output verification
+and 30 tests passed. The initial isolated attempt started before the
+dependency copy finished; it was rerun after copy completion. Independent
+content verification passed 109 assertions against both committed and
+fresh-NOAA facts: 53 table rows, peak-date ranges, zero-window claims,
+sunset distinction, metadata, 67-word lead, 151-character description,
+22 internal routes and 17 official source URLs (HTTP 200). Diff reviewed,
+no placeholders or unintended changes. Vercel success for 36aebb1; live
+guide HTTP 200 with Sep 11 update, new title/schedule and corrected
+sunset text, no old lead. All five tables fit 729px at a 1280px viewport,
+no page horizontal overflow; desktop inspection only, no mobile claim.
+
+**Reader-flow checks after the metrics cutoff:** home ZIP 98368 matched
+Port Townsend (~6 straight-line miles). Finder minus filter populated,
+Oct 5 qualifying daylight row plus night rows displayed, calendar panel
+opened without submitting. Trip Picker La Jolla Dec 23–25 selected Dec 25
+at 4:33 PM, with Great 84 and Great 82 runners-up, matching the article.
+Local and live guide layouts inspected; browser warning/error lists empty.
+No test signup, email send or external outreach.
+
+**Health:** today's NOAA run 34582776733 started 09:09:39Z, completed
+09:11:53Z (2m14s); data generated 09:10:01.383Z, refresh commit 5dcf994
+pushed 09:11:51Z. Guarded later slots at 12:13Z, 14:28Z and 17:13Z
+succeeded. Refresh landed before this session; no recovery dispatch.
+Cron logs: all 12 stations, 18 pre-change tests, 123 sitemap URLs,
+IndexNow HTTP 200. Live home/sitemap/guide/index HTTP 200; index
+byte-identical to committed data. No open reader issues, production
+npm audit zero findings. Scanned all 12 stations / 5,081 windows:
+no 90+ window in Sep 11–25. NPS still lists Mora/Rialto closure
+July 8–October 15; no assumed reopening.
+
+**Newsletter:** Resend confirms Broadcast
+a6c699ae-2dd2-420c-9d06-cf5c3a89f4cf sent September 10 at 12:06:03Z.
+Bounce/complaint rates not exposed in that response; unverified, not zero.
+
+**PostHog (495836), exact windows ending 2026-09-11T17:16:42Z before QA:**
+schema/values checked; all queries host=thetidewindow.com and traffic=Regular.
+Seven days from Sep 4: 343 pv / 294 distinct pageview users / 2 signups =
+0.68% (target 1.5%); 28 station selections / 16 results / 29 ZIP lookups /
+6 gate clicks / 1 ICS reveal / 9 Trip Picker runs / 8 exit exposures.
+Top paths: national king-tides 84, Fitzgerald 20, WA king-tides 19,
+PT station 18, finder 18, home 15, Seattle station 12, Pillar Point
+October 11, OR king-tides 11, Seattle guide 11, tide-table basics 10.
+Twenty-eight days from Aug 14: 919 pv / 824 users / 6 signups = 0.73%,
+25 exit exposures. These are not comparable to the operator's unfiltered,
+differently timestamped snapshot below.
+
+Referrer PAGEVIEWS, not sessions or search clicks: Google 101, direct 84,
+DuckDuckGo 54, www.bing.com 38, self 23, Yahoo 21, GitHub 9, Ecosia 4,
+Brave 3, bing.com 2, r.search.yahoo.com 2, noai.duckduckgo.com 1, Yandex 1.
+No named AI referrer appeared; that is not proof of no AI-origin visits.
+Last-24h LCP p90 849.8ms on only 8 actual LCP-bearing events (value > -1).
+Below the 30-event floor, so no performance recovery/regression verdict
+against Sep 10's p90 5,630.4ms / n=27. Active error issues empty; project
+exception opt-in null, SDK capture_exceptions true, $exception absent
+from recent schema: instrumentation remains unverified, not proven zero.
+
+**Search / measurement:** latest GSC date still Sep 8 (13 clicks / 445
+impressions). Complete Sep 2–8: 64 clicks / 3,844 impressions versus
+Aug 26–Sep 1: 33 / 2,720. This predates today's change. Page 28d baseline:
+national 39 clicks / 1,829 impressions / pos 6.9; Fitzgerald 32 / 1,294;
+Seattle guide 12 / 388; PT station 11 / 308; Oregon calendar 8 / 326;
+Acadia 6 / 532. Bare-2026 cluster ~140 impressions/28d: head query
+81 / pos 9.6 / 0 clicks, predictions 20 / 8.1, PDF 16 / 8.8, singular
+king tide 15 / 14.3. ~5 impressions/day => ~20 days to a 100-impression
+floor. Added ~Oct 5 readout, allowing for GSC lag and actual new cluster
+volume; one extension maximum. Observational content/title change, not
+randomized evidence or an isolated title effect. Judge clicks/position,
+not site-wide CTR or PostHog referrers.
+
+Since Aug 7, source totals remain below the event floor: gate tool_gate 14,
+calendars_page 3, article_gate 2, article_gate_multi 1, station_gate 1;
+ICS reveals tool_gate 5, article_gate_multi 1; signups tool_gate 5,
+article_gate_multi 1, end_article 1, end_article_gated 1, home 1.
+Legacy tool_gate includes old station/month gates before Aug 31.
+Closed unmeasurable conversion experiments stay closed; no tiny-n verdict.
+Oct 1 owner deadline for exit-intent remains.
+
+**Next:** four writable P1 items (Glass Beach, Oregon king-tides refresh,
+Acadia inline H/L, Sunset Bay); no queue refill needed. Apply the same
+daylight-overlap correction to the already-queued Oregon king-tides
+refresh. Revisit WA/La Push/Oregon dated leads after Sep 12, Acadia after
+Sep 13, California after Sep 27. Sep 14: existing search/conversion readout
+plus weekly indexing check; Sep 30: inspect-60 review; Oct 1: November
+rollover and Fitzgerald/Puget chart refresh; Oct 15: verify Mora access.
+Small journal repair restored the missing Sep 10 heartbeat heading
+beneath the operator's Sep 11 entry; older body text was preserved.
+
+---
+
 ## 2026-09-11 — Content queue refilled from GSC demand (§2a)
 
 **Health:** green. Today's NOAA refresh landed before the session (commit
@@ -57,6 +186,10 @@ dated leads become rollable (per 09-08 note), and Glass Beach is the
 strongest new-demand item; a Friday–weekend publish window suits it.
 Sep 14 search/conversion readout upcoming. Oct 1: November rollover +
 Fitzgerald/Puget chart rollover + exit-intent owner deadline.
+
+---
+
+## 2026-09-10 (heartbeat, 17:15Z cutoff) — California fall dates and access correction
 
 **Coordination / one primary action:** synced main at bb8fa78, clean tree.
 The operator already sent newsletter #9 and archived the draft pairs; no

@@ -15,8 +15,9 @@ with the date; add discoveries at the appropriate tier.
       page (~140 impressions across the bare-2026 cluster, 0 clicks on the
       81-impression head query); (3) Oregon king-tides retitle to
       2026 & 2027, mirroring WA's pattern. Fitzgerald/Puget chart work
-      correctly excluded as done. Queue now holds 5 writable items
-      (3 new + Acadia inline H/L + Sunset Bay refresh).
+      correctly excluded as done. Refill brought the queue to 5 writable
+      items (3 new + Acadia inline H/L + Sunset Bay refresh). The later
+      Sep 11 heartbeat completed the national schedule, leaving 4.
 - [x] 2026-07-06: **$pageview CAPTURE FIXED** (commit 1e88dbc) —
       `capture_pageview: true` → `"history_change"` in src/components/analytics.tsx.
       Root cause (verified in posthog-js 1.396.5 source): the History API monitor
@@ -91,7 +92,7 @@ with the date; add discoveries at the appropriate tier.
       sources) and cut what can't be verified; no safety invention. Link
       hard both ways with `best-time-sea-glass-hunting` and the PT station
       guide (pos 1.0 on `port townsend tide pools`).
-- [ ] **"King tides 2026" schedule intent on the national page — refresh,
+- [x] **"King tides 2026" schedule intent on the national page — refresh,
       not a new page** (added 2026-09-11 demand refill). Cluster: `king
       tides 2026` 81 impressions / pos 9.6 / 0 clicks, `king tides 2026
       predictions` 20 / 8.1, `king tides 2026 2027 predictions pdf`
@@ -105,6 +106,14 @@ with the date; add discoveries at the appropriate tier.
       downloadable PDF that doesn't exist. Title already carries 2026; keep
       slug. Record baselines before the change (39 clicks / 1,829
       impressions / pos 6.9, GSC 28d pages).
+      **Done 2026-09-11, 36aebb1:** 36 Oct/Nov/Dec monthly high-tide
+      peaks across all 12 stations, generated from new monthly
+      `highest_tide` facts using complete high predictions (no daylight
+      filter). 12 new regression tests cover 72 monthly maxima. Updated
+      title/description, retained slug/date/gates, corrected the low-table
+      daylight-overlap definition and Newport/Bar Harbor after-sunset
+      claims. Access and flooding kept separate. No new PDF or print-view
+      promise; print CSS was optional and not added. Search readout below.
 - [ ] **Oregon king tides: carry the 2026 half of the season in the
       title — refresh, not a new page** (added 2026-09-11 demand refill).
       Cluster: `king tides oregon coast 2027` 17 / 7.5 and `king tides
@@ -118,6 +127,11 @@ with the date; add discoveries at the appropriate tier.
       explicit in the lead. Small-n today but seasonally rising into
       October. Retitle = experiment: record baseline in JOURNAL on the day
       it ships (§5 minimum-sample rule applies).
+      **Sep 11 carryover:** apply the national guide's daylight-overlap
+      distinction here too: the selected Port Orford Dec 24 low is at
+      6:14 PM with 69 daylight minutes elsewhere in the window, not a
+      low occurring in daylight. Recompute every title/description/table
+      claim from current facts during this same queued refresh.
 - [x] 2026-07-04: Weekly regional roundup format LAUNCHED — inaugural instance
       is the time-sensitive West Coast Jul 11–14 run
       (content/articles/west-coast-minus-tides-july-11-14-2026.md), triggered by
@@ -691,6 +705,18 @@ with the date; add discoveries at the appropriate tier.
       schedule slots (04:47/07:17/10:17/13:47Z) + skip guard, so a refresh
       should land before the agent session without manual dispatch — watch
       the first few days.
+- [ ] **~2026-10-05: read the Sep 11 national king-tides schedule refresh**
+      (`36aebb1`) on GSC query/page/date data. Baseline: page 39 clicks /
+      1,829 impressions / position 6.9 over 28d; bare-2026 target cluster
+      ~140 impressions (head query 81 / 9.6 / 0 clicks; predictions
+      20 / 8.1, PDF variant 16 / 8.8, singular king tide 15 / 14.3).
+      ~140/28 = 5 impressions/day; 100-impression floor takes ~20 days,
+      within the 60-day limit. Wait for at least 100 new target-cluster
+      impressions, account for GSC lag, and compare clicks/position—not
+      site-wide CTR or PostHog referrer views. This is an observational
+      content/title refresh, not a randomized test or an isolated title
+      effect. One extension maximum; retire as unmeasurable if needed.
+      The old gated-signup experiment remains closed.
 - [ ] **~2026-09-14: judge the 2026-08-30/31 search+conversion pass on GSC
       date-dimension data** (tiny-n rules apply). Baselines at ship
       (GSC 28d to 08-29): site CTR ~1.3%, clicks ~3-5/day, impressions
