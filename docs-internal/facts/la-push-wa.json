@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-10",
+ "generated_on": "2026-09-11",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -24,18 +24,6 @@
    "arrive_by_local": "6:10 AM",
    "daylight_min": 124,
    "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-10",
-   "weekday": "Thu",
-   "low_ft": -1.038,
-   "low_time_local": "6:33 AM",
-   "window_local": "4:40 AM–8:25 AM",
-   "arrive_by_local": "5:33 AM",
-   "daylight_min": 96,
-   "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
   },
@@ -109,6 +97,18 @@
    "daylight_min": 35,
    "score": 41,
    "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-12",
+   "weekday": "Sat",
+   "low_ft": -0.139,
+   "low_time_local": "8:13 PM",
+   "window_local": "6:50 PM–9:40 PM",
+   "arrive_by_local": "7:13 PM",
+   "daylight_min": 47,
+   "score": 39,
+   "band": "Skip",
    "weekend_or_holiday": true
   }
  ],
@@ -383,18 +383,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-09-10",
-   "weekday": "Thu",
-   "low_ft": -1.038,
-   "low_time_local": "6:33 AM",
-   "window_local": "4:40 AM–8:25 AM",
-   "arrive_by_local": "5:33 AM",
-   "daylight_min": 96,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.714,
@@ -415,6 +403,18 @@
    "arrive_by_local": "6:10 AM",
    "daylight_min": 124,
    "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.659,
+   "low_time_local": "4:26 PM",
+   "window_local": "2:35 PM–6:20 PM",
+   "arrive_by_local": "3:26 PM",
+   "daylight_min": 113,
+   "score": 45,
    "band": "Fair",
    "weekend_or_holiday": false
   }
@@ -515,34 +515,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-10",
-   "weekday": "Thu",
-   "low_ft": -1.038,
-   "low_time_local": "6:33 AM",
-   "window_local": "4:40 AM–8:25 AM",
-   "arrive_by_local": "5:33 AM",
-   "daylight_min": 96,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 79,
-   "min_to_sun_edge": -16
-  },
-  {
-   "date": "2026-09-10",
-   "weekday": "Thu",
-   "low_ft": 0.82,
-   "low_time_local": "6:49 PM",
-   "window_local": "6:30 PM–7:15 PM",
-   "arrive_by_local": "5:49 PM",
-   "daylight_min": 45,
-   "score": 16,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 268,
-   "min_to_sun_edge": 52
-  },
-  {
    "date": "2026-09-11",
    "weekday": "Fri",
    "low_ft": -0.69,
@@ -597,13 +569,41 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 283,
    "min_to_sun_edge": -36
+  },
+  {
+   "date": "2026-09-13",
+   "weekday": "Sun",
+   "low_ft": 0.574,
+   "low_time_local": "8:19 AM",
+   "window_local": "7:35 AM–9:10 AM",
+   "arrive_by_local": "7:19 AM",
+   "daylight_min": 95,
+   "score": 34,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 100,
+   "min_to_sun_edge": 86
+  },
+  {
+   "date": "2026-09-26",
+   "weekday": "Sat",
+   "low_ft": 0.218,
+   "low_time_local": "7:10 PM",
+   "window_local": "5:55 PM–8:20 PM",
+   "arrive_by_local": "6:10 PM",
+   "daylight_min": 73,
+   "score": 36,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 269,
+   "min_to_sun_edge": -2
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 82
+   "count": 84
   },
   {
    "commonName": "Frilled Dogwinkle",
@@ -636,6 +636,11 @@
    "count": 4
   },
   {
+   "commonName": "Nanaimo Dorid",
+   "scientificName": "Acanthodoris nanaimoensis",
+   "count": 3
+  },
+  {
    "commonName": "Black Leather Chiton",
    "scientificName": "Katharina tunicata",
    "count": 3
@@ -643,11 +648,6 @@
   {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
-   "count": 3
-  },
-  {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
    "count": 3
   }
  ]

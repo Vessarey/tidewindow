@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-10",
+ "generated_on": "2026-09-11",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -637,6 +637,11 @@
    "count": 1
   },
   {
+   "commonName": "Kelp Scallop",
+   "scientificName": "Leptopecten latiauratus",
+   "count": 1
+  },
+  {
    "commonName": "California frog shell",
    "scientificName": "Crossata californica",
    "count": 1
@@ -644,11 +649,6 @@
   {
    "commonName": "Clipped Semele",
    "scientificName": "Semele decisa",
-   "count": 1
-  },
-  {
-   "commonName": "Purple Olive Snail",
-   "scientificName": "Callianax biplicata",
    "count": 1
   }
  ]

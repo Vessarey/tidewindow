@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-10",
+ "generated_on": "2026-09-11",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -516,20 +516,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-10",
-   "weekday": "Thu",
-   "low_ft": -0.573,
-   "low_time_local": "5:52 AM",
-   "window_local": "4:00 AM–7:45 AM",
-   "arrive_by_local": "4:52 AM",
-   "daylight_min": 52,
-   "score": 38,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 72,
-   "min_to_sun_edge": -61
-  },
-  {
    "date": "2026-09-11",
    "weekday": "Fri",
    "low_ft": -0.183,
@@ -598,6 +584,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 283,
    "min_to_sun_edge": -46
+  },
+  {
+   "date": "2026-09-26",
+   "weekday": "Sat",
+   "low_ft": 0.62,
+   "low_time_local": "6:31 PM",
+   "window_local": "5:40 PM–7:20 PM",
+   "arrive_by_local": "5:31 PM",
+   "daylight_min": 88,
+   "score": 33,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 262,
+   "min_to_sun_edge": 37
   }
  ],
  "species_last60d_5km": [
