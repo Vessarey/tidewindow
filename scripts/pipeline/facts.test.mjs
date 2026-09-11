@@ -76,6 +76,23 @@ for (const { slug } of index.stations) {
       assert.deepEqual(f[key].map((w) => [w.date, w.low_ft]), expected.map((w) => [w.date, w.lowHeight]), key);
     }
   });
+
+  test(`${slug} monthly high facts select the maximum complete-tide prediction without a daylight filter`, () => {
+    const f = facts[slug];
+    const tides = data[slug].tides.filter(inExpectedRange);
+    for (const [month, actual] of Object.entries(f.months_2026)) {
+      const highs = tides.filter((t) => t.type === "H" && t.date.startsWith(month));
+      const maxHeight = Math.max(...highs.map((t) => t.height));
+      // On equal heights retain the first prediction in the source sequence.
+      const expected = highs.find((t) => t.height === maxHeight);
+      assert.deepEqual(actual.highest_tide, expected ? {
+        date: expected.date,
+        weekday: expected.weekday,
+        high_ft: expected.height,
+        high_time_local: expected.timeLocal,
+      } : null, `${slug} ${month}`);
+    }
+  });
 }
 
 for (const region of ["oregon", "puget", "california"]) {

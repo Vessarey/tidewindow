@@ -28,6 +28,12 @@
       "score": 82,
       "band": "Great",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-07-13",
+      "weekday": "Mon",
+      "high_ft": 7.095,
+      "high_time_local": "10:04 PM"
      }
     },
     "2026-08": {
@@ -45,6 +51,12 @@
       "score": 56,
       "band": "Fair",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-08-11",
+      "weekday": "Tue",
+      "high_ft": 6.845,
+      "high_time_local": "10:02 PM"
      }
     },
     "2026-09": {
@@ -62,6 +74,12 @@
       "score": 52,
       "band": "Fair",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-09-08",
+      "weekday": "Tue",
+      "high_ft": 6.242,
+      "high_time_local": "9:07 PM"
      }
     },
     "2026-10": {
@@ -79,6 +97,12 @@
       "score": 68,
       "band": "Good",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-10-28",
+      "weekday": "Wed",
+      "high_ft": 6.523,
+      "high_time_local": "11:53 AM"
      }
     },
     "2026-11": {
@@ -96,6 +120,12 @@
       "score": 79,
       "band": "Great",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-11-25",
+      "weekday": "Wed",
+      "high_ft": 6.964,
+      "high_time_local": "9:50 AM"
      }
     },
     "2026-12": {
@@ -113,6 +143,12 @@
       "score": 82,
       "band": "Great",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-12-24",
+      "weekday": "Thu",
+      "high_ft": 7.223,
+      "high_time_local": "9:39 AM"
      }
     }
    },
@@ -187,6 +223,12 @@
       "score": 81,
       "band": "Great",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-07-13",
+      "weekday": "Mon",
+      "high_ft": 6.952,
+      "high_time_local": "9:54 PM"
      }
     },
     "2026-08": {
@@ -204,6 +246,12 @@
       "score": 57,
       "band": "Fair",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-08-10",
+      "weekday": "Mon",
+      "high_ft": 6.66,
+      "high_time_local": "8:56 PM"
      }
     },
     "2026-09": {
@@ -221,6 +269,12 @@
       "score": 44,
       "band": "Fair",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-09-08",
+      "weekday": "Tue",
+      "high_ft": 6.029,
+      "high_time_local": "8:54 PM"
      }
     },
     "2026-10": {
@@ -238,6 +292,12 @@
       "score": 61,
       "band": "Good",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-10-28",
+      "weekday": "Wed",
+      "high_ft": 6.434,
+      "high_time_local": "11:43 AM"
      }
     },
     "2026-11": {
@@ -255,6 +315,12 @@
       "score": 73,
       "band": "Good",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-11-25",
+      "weekday": "Wed",
+      "high_ft": 6.863,
+      "high_time_local": "9:39 AM"
      }
     },
     "2026-12": {
@@ -272,6 +338,12 @@
       "score": 80,
       "band": "Great",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-12-24",
+      "weekday": "Thu",
+      "high_ft": 7.029,
+      "high_time_local": "9:27 AM"
      }
     }
    },
@@ -346,6 +418,12 @@
       "score": 68,
       "band": "Good",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-07-13",
+      "weekday": "Mon",
+      "high_ft": 7.171,
+      "high_time_local": "8:51 PM"
      }
     },
     "2026-08": {
@@ -363,6 +441,12 @@
       "score": 44,
       "band": "Fair",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-08-11",
+      "weekday": "Tue",
+      "high_ft": 6.972,
+      "high_time_local": "8:46 PM"
      }
     },
     "2026-09": {
@@ -380,6 +464,12 @@
       "score": 55,
       "band": "Fair",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-09-08",
+      "weekday": "Tue",
+      "high_ft": 6.365,
+      "high_time_local": "7:54 PM"
      }
     },
     "2026-10": {
@@ -397,6 +487,12 @@
       "score": 65,
       "band": "Good",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-10-27",
+      "weekday": "Tue",
+      "high_ft": 6.59,
+      "high_time_local": "9:47 AM"
      }
     },
     "2026-11": {
@@ -414,6 +510,12 @@
       "score": 82,
       "band": "Great",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-11-25",
+      "weekday": "Wed",
+      "high_ft": 6.955,
+      "high_time_local": "8:29 AM"
      }
     },
     "2026-12": {
@@ -431,6 +533,12 @@
       "score": 90,
       "band": "Exceptional",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-12-24",
+      "weekday": "Thu",
+      "high_ft": 7.098,
+      "high_time_local": "8:23 AM"
      }
     }
    },
@@ -505,6 +613,12 @@
       "score": 70,
       "band": "Good",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-07-13",
+      "weekday": "Mon",
+      "high_ft": 7.553,
+      "high_time_local": "8:59 PM"
      }
     },
     "2026-08": {
@@ -522,6 +636,12 @@
       "score": 46,
       "band": "Fair",
       "weekend_or_holiday": false
+     },
+     "highest_tide": {
+      "date": "2026-08-11",
+      "weekday": "Tue",
+      "high_ft": 7.377,
+      "high_time_local": "8:53 PM"
      }
     },
     "2026-09": {
@@ -539,6 +659,12 @@
       "score": 55,
       "band": "Fair",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-09-08",
+      "weekday": "Tue",
+      "high_ft": 6.799,
+      "high_time_local": "7:58 PM"
      }
     },
     "2026-10": {
@@ -556,6 +682,12 @@
       "score": 65,
       "band": "Good",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-10-27",
+      "weekday": "Tue",
+      "high_ft": 7.096,
+      "high_time_local": "9:51 AM"
      }
     },
     "2026-11": {
@@ -573,6 +705,12 @@
       "score": 78,
       "band": "Great",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-11-25",
+      "weekday": "Wed",
+      "high_ft": 7.449,
+      "high_time_local": "8:34 AM"
      }
     },
     "2026-12": {
@@ -590,6 +728,12 @@
       "score": 89,
       "band": "Great",
       "weekend_or_holiday": true
+     },
+     "highest_tide": {
+      "date": "2026-12-24",
+      "weekday": "Thu",
+      "high_ft": 7.559,
+      "high_time_local": "8:29 AM"
      }
     }
    },

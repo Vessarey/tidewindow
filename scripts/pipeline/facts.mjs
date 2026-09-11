@@ -50,11 +50,23 @@ function stationFacts(slug) {
     const dl = daylight(inMonth);
     const minusDl = dl.filter((w) => w.isMinusTide);
     const best = [...dl].sort((a, b) => b.score - a.score)[0];
+    // Monthly king-tide schedules need complete H/L predictions, not the
+    // low-window subset or the season's top five (which can omit a month).
+    // Retain the first source prediction on a tie; do not filter by daylight.
+    const highest = (d.tides ?? [])
+      .filter((t) => t.type === "H" && t.date.startsWith(mm))
+      .reduce((bestHigh, t) => !bestHigh || t.height > bestHigh.height ? t : bestHigh, null);
     months2026[mm] = {
       lows_below_1ft: inMonth.length,
       daylight_windows: dl.length,
       daylight_minus_tides: minusDl.length,
       best_window: best ? brief(best) : null,
+      highest_tide: highest ? {
+        date: highest.date,
+        weekday: highest.weekday,
+        high_ft: highest.height,
+        high_time_local: highest.timeLocal,
+      } : null,
     };
   }
 
