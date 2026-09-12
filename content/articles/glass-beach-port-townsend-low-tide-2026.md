@@ -1,89 +1,90 @@
 ---
 title: "Glass Beach Tides: Timing the Walk from North Beach in Port Townsend"
-description: "Exactly four daylight low-tide windows remain in 2026 for the North Beach–Glass Beach walk. Computed from NOAA station 9444900, with 2027 dates to circle."
+description: "Port Townsend tide predictions for Glass Beach: four remaining 2026 windows with daylight overlap, plus selected 2027 lows—not an access schedule."
 date: "2026-09-12"
+updated: "2026-09-12"
 category: "beachcombing"
 station: "port-townsend-wa"
 tags: ["glass beach", "port townsend", "sea glass", "north beach", "mccurdy point", "low tide walk", "beachcombing"]
 faq:
-  - q: "Do you need low tide to walk to Glass Beach in Port Townsend?"
-    a: "Yes — the shoreline route from North Beach Park runs under bluffs on a beach that narrows as the water rises; the Spokesman-Review's guide to the walk says plainly, \"At high tides, water covers the narrow beach.\" Tidewindow computes when the shore at NOAA station 9444900 sits below +1.0 ft MLLW; going in one of those windows, on a falling tide, gives the walk the most beach and the most time."
+  - q: "Does a Tidewindow window mean the Glass Beach walk is passable?"
+    a: "No. Below +1.0 ft MLLW is Tidewindow's general comparison threshold, not a verified access cutoff for the North Beach–Glass Beach route. The Port Townsend station predicts water level at the station, not clearance at every point along the shoreline. Neither a window's length nor its score establishes a departure time, turnaround time or completed round trip."
   - q: "How far is the walk from North Beach to Glass Beach?"
-    a: "About three miles one way. Park at the North Beach lot at the end of Kuhn Street and follow the beach west; the best sea glass concentrates just past McCurdy Point, roughly two miles in, with the Glass Beach stretch beyond it. Beachcombing Magazine calls it a six-mile round trip. There is no public access from the top of the bluffs — North Beach Park is the way in and the way out."
-  - q: "When is the best tide for Glass Beach for the rest of 2026?"
-    a: "There are exactly four daylight windows left in 2026 at NOAA station 9444900, all short mornings: September 22 (7:20–8:10 AM below +1 ft), October 5 (the year's last daylight minus tide, −0.23 ft at 5:48 AM, but only 39 minutes of light), October 6, and October 7. November and December have 22 lows below +1 ft each — and every one lands after dark."
+    a: "Published route descriptions give about three miles one way from North Beach toward Glass Beach, with McCurdy Point along the route; Beachcombing Magazine describes a six-mile round trip. These older descriptions provide geographical context, not a current condition report or a walking-time guarantee."
+  - q: "Which Port Townsend low-water windows remain in 2026?"
+    a: "As of September 12, NOAA station 9444900 has four remaining windows below +1.0 ft MLLW with at least 30 minutes of daylight overlap: September 22 and October 5–7. All score Skip. October 5's −0.23 ft low at 5:48 AM occurs before sunrise, although the later part of its window has 39 daylight minutes."
   - q: "Why is there sea glass at Glass Beach?"
-    a: "It was the city dump. After Port Townsend's council voted in June 1938 to stop dumping at North Beach, the city moved its garbage to the Middle Point area — today's Glass Beach — and kept dumping there until 1962, according to Jefferson County archives reported by the Peninsula Daily News. The dump is long gone; the surf is still tumbling and returning its glass."
-  - q: "What is the best Glass Beach window in early 2027?"
-    a: "Monday, March 15, 2027: a −0.77 ft low at 4:24 PM, with the entire 2:20–6:50 PM below-+1-ft window in daylight — 270 minutes, the longest usable stretch of the winter season at station 9444900. Presidents' Day, Monday, February 15, is the best earlier option: −0.77 ft at 5:04 PM with 158 daylight minutes."
+    a: "A 2017 Spokesman-Review report describes Glass Beach as a former city dump used until the 1960s, with waves continuing to uncover and tumble discarded glass. That history explains the material; it does not predict what a particular visit will find."
+  - q: "What does the March 15, 2027 row show?"
+    a: "At Port Townsend, the predicted low is −0.77 ft at 4:24 PM, with 270 minutes of daylight overlap in the 2:20–6:50 PM below-+1-ft window. It has the longest daylight overlap among the five selected rows here. Those rows are the lowest qualifying lows, not every winter window or a Glass Beach reopening schedule."
 sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444900"
-  - "https://www.spokesman.com/stories/2017/aug/27/glass-beach-goes-from-dump-to-destination/"
-  - "https://www.peninsuladailynews.com/2004/11/05/port-townsend-glass-beach-sparkles-even-if-remnants-of-former-city-dump-are-gone-with-the-tides/"
-  - "https://ptleader.com/articles/blogs/jefferson-county-parks-north-beach-county-park-2/"
   - "https://www.co.jefferson.wa.us/751/Active-Living"
+  - "https://www.spokesman.com/stories/2017/aug/27/glass-beach-goes-from-dump-to-destination/"
   - "https://www.beachcombingmagazine.com/blogs/news/port-townsend-s-glass-beach"
 ---
 
-**The walk to Port Townsend's Glass Beach — about six miles round trip from North Beach Park, west past McCurdy Point — needs low water and daylight at once, and 2026 holds exactly four such windows at NOAA station 9444900: September 22 and October 5–7, all short mornings. November and December have none; their 22 below-+1-ft lows each land entirely after dark. The first long afternoon windows return February 15 and March 15, 2027.**
+**NOAA station 9444900 (Port Townsend) has four remaining 2026 windows below +1.0 ft MLLW with at least 30 minutes of daylight overlap: September 22 and October 5–7. These are station calculations, not four verified opportunities to complete the North Beach–Glass Beach walk. October 5's −0.23 ft low occurs before sunrise; its 39 daylight minutes arrive later. The selected 2027 rows below are comparisons, not a reopening schedule.**
 
-Glass Beach is the rare beachcombing destination where the tide table is not a nicety but the whole plan. The glass sits at the end of a shoreline walk that shrinks as the water rises, and — for the next few months — the Sound schedules its low water for the middle of the night. Here is what the predictions actually allow, computed from [NOAA station 9444900](https://tidesandcurrents.noaa.gov/stationhome.html?id=9444900).
+A tide chart is useful here, but it cannot supply the whole walking plan. **The +1.0-ft threshold is not a verified route-access cutoff for Glass Beach.** It is the shared threshold in Tidewindow's [methodology](/methodology/), used to compare low-water periods across stations. No route-specific passability threshold, turnaround rule or walking-duration allowance is established by these tables.
 
-## The walk
+## North Beach and the route descriptions
 
-Access is from **North Beach Park**, the small day-use area at the north end of Kuhn Street, which Jefferson County describes as "one of the few public access beaches on the north end of the Quimper Peninsula." The county's parks column calls it a popular starting point for beachcombers walking to the old dump site "at what is now known as 'Glass Beach.'" From the lot, follow the beach west under the bluffs. The Spokesman-Review's guide to the walk puts the distance at about three miles one way and notes, "The best pieces are out past McCurdy Point." Beachcombing Magazine describes the same route as a six-mile round trip from North Beach.
+Jefferson County lists **North Beach Park** as a public-access waterfront adjoining Fort Worden, describing it as “one of the few public access beaches on the north end of the Quimper Peninsula.” Its [official listing](https://www.co.jefferson.wa.us/751/Active-Living) identifies parking and other facilities.
 
-There is no shortcut from above: the route is beach the whole way, below a tall bluff, and North Beach Park is both the entrance and the exit. (The [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/) covers the beaches on the other side of the park — same station, same windows, no long walk required.)
+A [2017 Spokesman-Review report](https://www.spokesman.com/stories/2017/aug/27/glass-beach-goes-from-dump-to-destination/) describes an approximately three-mile shoreline route west from the North Beach lot at Kuhn Street, past McCurdy Point toward Glass Beach. [Beachcombing Magazine's 2020 article](https://www.beachcombingmagazine.com/blogs/news/port-townsend-s-glass-beach) calls the trip six miles round trip. These are published route descriptions, not current access or condition reports. They do not establish that a particular tide height makes the whole route passable.
 
-## What the tide has to do with it
+The [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/) covers the neighboring park context. Sharing a prediction station does not make every shoreline section's access requirements identical.
 
-The beach you walk is the strip the tide uncovers. The Spokesman-Review says it directly: "At high tides, water covers the narrow beach." Port Townsend's tides run from minus lows to highs near +10 ft, so the difference between a wide walking surface and no walking surface is just the clock.
+## Four remaining 2026 station windows with daylight overlap
 
-Tidewindow's windows mark the span when the shore at station 9444900 sits **below +1.0 ft MLLW** — the threshold the [methodology page](/methodology/) uses for walkable low-tide ground. That is a conservative bar for this route, but conservative is what you want when the return leg is three miles long: a window is not just depth, it is *time*, and the fall windows below are as short as 50 minutes. Plan the walk out on the falling tide, so the water is still dropping while you cover ground, and treat the predicted low as the turnaround, not the halfway point of your visit.
+The selection below covers September 12–December 31, 2026 at Port Townsend. “Daylight overlap” requires **at least 30 minutes of daylight somewhere in the below-+1.0-ft window**. It does not require the low itself, or the whole window, to occur in daylight.
 
-## The four windows left in 2026
-
-Every remaining 2026 span where below-+1-ft water overlaps daylight at this station, in full:
-
-| Date | Low (ft MLLW) | Time of low | Below +1 ft | Daylight in window | Score |
+| Date | Low (ft MLLW) | Local time of low | Below +1 ft at station | Daylight overlap | Score |
 |---|---|---|---|---|---|
-| Tue, Sep 22 | +0.90 | 7:43 AM | 7:20–8:10 AM | 50 min | 16 · Skip |
-| Mon, Oct 5 | −0.23 | 5:48 AM | 3:55–7:55 AM | 39 min | 27 · Skip |
-| Tue, Oct 6 | +0.28 | 6:56 AM | 5:35–8:25 AM | 67 min | 22 · Skip |
-| Wed, Oct 7 | +0.88 | 7:54 AM | 7:35–8:20 AM | 45 min | 14 · Skip |
+| Tue, Sep 22, 2026 | +0.90 | 7:43 AM | 7:20 AM–8:10 AM | 50 min | 16 · Skip |
+| Mon, Oct 5, 2026 | −0.23 | 5:48 AM | 3:55 AM–7:55 AM | 39 min | 27 · Skip |
+| Tue, Oct 6, 2026 | +0.28 | 6:56 AM | 5:35 AM–8:25 AM | 67 min | 22 · Skip |
+| Wed, Oct 7, 2026 | +0.88 | 7:54 AM | 7:35 AM–8:20 AM | 45 min | 14 · Skip |
 
-*Computed 2026-09-12 from NOAA station 9444900 predictions, MLLW. Scores (0–100) weigh tide depth and daylight together; the [methodology page](/methodology/) shows how.*
+*Computed September 12, 2026 from NOAA station 9444900 predictions and Tidewindow's daylight calculation. Heights are feet relative to the station's MLLW datum; all times are local. The score combines depth, daylight and calendar factors, not route access.*
 
-Read that table honestly and it says: 2026 is nearly done with this walk. All four windows score in the Skip band — not because the lows are shallow (October 5 is a genuine minus tide, the year's last in daylight) but because the light is gone. October 5's water is below +1 ft for four hours, and only 39 of those 240 minutes overlap daylight. October 6 is the most usable of the four, and it offers 67 minutes. None of these comfortably fits a six-mile round trip *inside* the window; treat them as mornings where the first half of the walk gets the best beach, and scale your ambition to the leg you can finish in light.
+October 5 makes the distinction clear. Its low is at 5:48 AM, before sunrise. The below-+1-ft period lasts from 3:55 AM to 7:55 AM—four hours, or 240 minutes—but only 39 minutes overlap daylight. That does not describe four daylight hours on the beach.
 
-Then the door closes. **November and December 2026 each have 22 lows below +1 ft and zero daylight windows** — every single low lands after dark. That is not a gap in the data; it is the Sound's winter rhythm, the same one that ends the [tide-pooling season at Fort Worden](/guides/port-townsend-fort-worden-tide-pools-2026/). The [October calendar for Port Townsend](/beaches/wa/port-townsend-wa/2026-10/) has each of that month's days in detail.
+October 6 has the most daylight overlap of these four rows, at 67 minutes, while October 5 has the highest score, 27. Both rankings are station comparisons. Neither is a recommendation to complete the Glass Beach round trip, and the table does not establish a walkable route on any of the four dates.
 
-## Winter is when the glass moves — and when you can't reach it
+**November and December each have 22 lows below +1 ft but zero windows meeting the daylight-overlap criterion.** That is a result of this station filter, not an announcement that Glass Beach is closed. The [October Port Townsend calendar](/beaches/wa/port-townsend-wa/2026-10/) includes the complete daily high/low predictions, including dates that do not appear in this short selection.
 
-The frustration writes itself: winter is prime season for sea glass. Storm waves strip sand from the beach face and expose the gravel where glass concentrates — the mechanism, with sources, is in the [sea glass timing guide](/guides/best-time-sea-glass-hunting/) and the [storm beachcombing guide](/guides/storm-beachcombing-winter-swell/). But at Port Townsend, the mid-winter lows that would let you walk to the freshly worked gravel happen at night. The season's storms restock Glass Beach while the tide keeps the shop shut.
+## Selected low-water windows in early 2027
 
-The reopening, from the October 2026–March 2027 king-tide season's five deepest daylight lows at this station:
+These are the **five lowest qualifying lows in the October 1, 2026–March 31, 2027 comparison period**, displayed in date order. They are not every winter window, the first five qualifying dates, or a reopening timetable.
 
-| Date | Low (ft MLLW) | Time of low | Below +1 ft | Daylight in window | Score |
+| Date | Low (ft MLLW) | Local time of low | Below +1 ft at station | Daylight overlap | Score |
 |---|---|---|---|---|---|
-| Mon, Jan 18 (MLK Day) | −1.46 | 6:32 PM | 4:10–9:20 PM | 39 min | 59 · Fair |
-| Mon, Feb 15 (Presidents' Day) | −0.77 | 5:04 PM | 2:55–7:35 PM | 158 min | 65 · Good |
-| Tue, Feb 16 | −1.27 | 6:07 PM | 3:45–8:55 PM | 110 min | 57 · Fair |
-| Wed, Feb 17 | −1.64 | 7:06 PM | 4:40–10:00 PM | 57 min | 55 · Fair |
-| Mon, Mar 15 | −0.77 | 4:24 PM | 2:20–6:50 PM | 270 min | 60 · Good |
+| Mon, Jan 18, 2027 | −1.46 | 6:32 PM | 4:10 PM–9:20 PM | 39 min | 59 · Fair |
+| Mon, Feb 15, 2027 | −0.77 | 5:04 PM | 2:55 PM–7:35 PM | 158 min | 65 · Good |
+| Tue, Feb 16, 2027 | −1.27 | 6:07 PM | 3:45 PM–8:55 PM | 110 min | 57 · Fair |
+| Wed, Feb 17, 2027 | −1.64 | 7:06 PM | 4:40 PM–10:00 PM | 57 min | 55 · Fair |
+| Mon, Mar 15, 2027 | −0.77 | 4:24 PM | 2:20 PM–6:50 PM | 270 min | 60 · Good |
 
-*Computed 2026-09-12 from NOAA station 9444900 predictions, MLLW.*
+*Computed September 12, 2026 from the same station predictions. The selection is ranked by low height before being displayed chronologically; it is not a full-season ranking by daylight or score.*
 
-Winter flips the schedule to dusk: these lows land between 4:24 and 7:06 PM. The deepest of them, February 17's −1.64 ft, is mostly an after-dark event — 57 daylight minutes. The two to circle are the shallower Mondays. **Presidents' Day, February 15**, holds 158 daylight minutes of below-+1-ft beach on a holiday afternoon. And **March 15** is the season's real prize: its 2:20–6:50 PM window and its daylight overlap are the same 270 minutes — the entire window fits in daylight, the first time that happens after the autumn shutdown, and four and a half hours is finally enough clock for the full walk with time to search. After the winter's storms have worked the beach all season, that is the first full-length daylight look at what they uncovered.
+February 17 has the deepest low in the selection, −1.64 ft at 7:06 PM, after sunset. Its 57 daylight minutes occur earlier in the window. February 15 has a shallower −0.77 ft low and 158 daylight minutes, scoring 65 (Good).
 
-## Why there's glass there at all
+March 15's below-+1-ft interval is 2:20–6:50 PM: 270 minutes, all within daylight in the model. That is the longest overlap **among these five selected rows**. It is not the first fully daylight window of 2027, and 270 minutes does not establish that a six-mile shoreline walk plus beachcombing can be completed. Tide depth, time in daylight and route access remain separate questions.
 
-Glass Beach is a landfill legacy, and the dates are in the county's archives. As the Peninsula Daily News reported from Jefferson County research files, Port Townsend's city council decided in June 1938 that the North Beach area was no longer the place for the public dump, and the city's garbage went instead to the Middle Point area — the stretch now called Glass Beach — until 1962, when the dump moved inland. Six decades of surf have done the rest: the dump itself is gone, and what the waves keep digging up and polishing is its glass. The Spokesman-Review notes that rusting remnants of the old dump era along the upper beach are the sign you have nearly arrived.
+For other dates in the prediction dataset, the [Trip Picker](/tools/trip-picker/) compares station windows within a chosen date range. The short table above cannot answer “first,” “only” or “best” for dates it does not include.
 
-That history sets expectations correctly. This is not a beach paved with glass; it is a beach that *produces* glass, storm by storm, and some visits will out-collect others. The walk, the bluffs, and the Strait views are the guaranteed part.
+## Why there is glass there
 
-## The other half of the calendar
+The [Spokesman-Review's 2017 account](https://www.spokesman.com/stories/2017/aug/27/glass-beach-goes-from-dump-to-destination/) describes Glass Beach as a former city-dump site used until the 1960s. It reports that waves continued to uncover and tumble fragments from discarded bottles and other glass. That is historical context, not a forecast of the amount of glass on the shore today.
 
-For completeness: summer is when this station is generous. The July 2026 run was the year's headline — back-to-back −3.48 ft lows on July 13 and 14, with below-+1-ft windows more than six hours long and 375 daylight minutes on the 14th. July held 25 daylight windows and 21 daylight minus tides; even August managed 21 and 13. Those windows made the walk almost trivial to schedule, and their 2027 equivalents will again. The lesson of the table above is simply that between now and then, the walk runs on a handful of exact dates.
+The [sea-glass timing guide](/guides/best-time-sea-glass-hunting/) and [winter beachcombing guide](/guides/storm-beachcombing-winter-swell/) discuss the broader beachcombing context. No tide prediction measures how much glass is exposed or guarantees a find.
 
-Your dates probably aren't the five in the winter table. The [Tide Window Finder](/tools/tide-window-finder/) checks any day you're considering against this station's predictions, and the [trip picker](/tools/trip-picker/) finds the best window inside a date range — both use the same NOAA data as the tables here. Predictions are astronomical tides; actual water levels vary with weather, so check conditions before you commit to the far end of a long beach.
+## A summer comparison, not an access promise
+
+Port Townsend's July 13 and 14, 2026 lows both rounded to −3.48 ft; the July 14 window included 375 daylight minutes. July had 25 qualifying daylight-overlap windows and 21 daylight minus tides; August had 21 and 13 respectively. These historical counts use whole months within the **July–December 2026 fact-sheet period**, not a full-year record.
+
+That is a strong seasonal contrast in the station data. It does not establish that a long walk was trivial to schedule in summer, or that a future summer date will be passable.
+
+The [Tide Window Finder](/tools/tide-window-finder/) covers the next 30 days; the [Trip Picker](/tools/trip-picker/) handles a later date range. The [station page](/beaches/wa/port-townsend-wa/) and its month calendars show the underlying tide context. All are prediction tools, not route-clearance tools: actual conditions and access information are separate from the astronomical tide calculation.
