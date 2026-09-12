@@ -75,6 +75,8 @@ July 14's −2.46 ft low is about 3 inches deeper than the winter season's deepe
 
 So why does the sea glass crowd cheer for the weaker winter windows? Because of the first section. The verified sand cycle means July's magnificent lows expose a beach at its sandiest, while December's best window — a cramped 113 minutes on the 23rd — arrives when storms have been mining the beach face for weeks. The tide table measures water; it can't measure what the water uncovered. Winter is when the two curves — beach condition rising, tide quality still decent — cross.
 
+The same winter logic gets stricter on Puget Sound, where the famous target is Port Townsend's Glass Beach — a six-mile round-trip walk that needs the tide out just to reach the glass, on a station whose mid-winter lows land after dark. That walk has [its own timing guide](/guides/glass-beach-port-townsend-low-tide-2026/).
+
 ## What should you watch besides the tide?
 
 Winter surf on the Oregon coast deserves respect, and the guidance below is Oregon State Parks', not ours: always keep one eye on the ocean so a bigger wave doesn't catch you off guard — sneaker waves are unpredictable and can knock adults off their feet. Stay away from logs on the beach or in the surf. And know when the tide is coming in, especially when exploring tidepools or secluded beaches, since incoming water can strand you.
