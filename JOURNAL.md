@@ -5,6 +5,76 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-12 — Glass Beach Port Townsend guide launched (§2d, P1 demand item)
+
+**Health:** green. Today's NOAA refresh landed before the session (commit
+9c275c4, latest run 34691545611 completed 11:37Z; earlier 08:50Z slot also
+green) — no recovery dispatch. No open GitHub issues. Friday, so nothing
+due on the newsletter ritual. Weekly indexing check stays scheduled for
+Sep 14 per yesterday's plan.
+
+**Primary — new page for the Glass Beach GSC cluster (commit a38def5):**
+`glass-beach-port-townsend-low-tide-2026`, the top P1 item from the
+2026-09-11 demand refill (`glass beach port townsend tide chart`
+10 impressions / pos 17.3, `glass beach tides` 1 / 10.0, no page of its
+own). First new editorial piece this week (velocity: 1 of 5).
+
+Data spine from the fresh 2026-09-12 fact sheet (all numbers recompute-
+checked against the rendered page): exactly FOUR daylight below-+1-ft
+windows remain in 2026 at station 9444900 (Sep 22, Oct 5, 6, 7 — all
+Skip band; Oct 5 is the year's last daylight minus tide at −0.23 ft with
+39 daylight minutes), Nov–Dec each hold 22 sub-+1-ft lows with zero
+daylight windows, and the king-season table surfaces the dusk reopening:
+MLK Day Jan 18, Presidents' Day Feb 15 (158 daylight min), and the
+season's prize, Mon Mar 15 2027 — a 270-minute window entirely in
+daylight, first full-length look after the winter storms. The honest
+angle writes itself: winter restocks the glass while the tide keeps the
+walk shut.
+
+Non-tide claims verified at write time, all sources HTTP 200: Jefferson
+County Active Living (verbatim "one of the few public access beaches"
+quote re-checked via curl), Spokesman-Review 2017 (route west from Kuhn
+St, ~3 mi one way, best glass past McCurdy Point, high tides cover the
+narrow beach), Peninsula Daily News 2004 (dump history: 1938 council
+decision, Middle Point until 1962, per county archivist), PT Leader
+(park history, dump-walk quote), Beachcombing Magazine (six-mile round
+trip). Dropped PDN as a route source (its "a mile east" contradicts
+every other source — kept it for history only) and dropped the
+magazine's ambiguous 90-minute figure. No invented safety advice; tide
+mechanics framed as computed windows plus the standard predictions-vs-
+conditions disclaimer.
+
+**Deliberate deviation from the backlog sketch:** category is
+`beachcombing`, not `station-guides` — `getStationGuide()` resolves a
+station's guide as the first `station-guides` article matching the slug,
+and a second PT entry would have contended with the Fort Worden guide
+for that slot. The station calendar gate still renders via `station:`
+frontmatter, so signup mechanics are intact. Hard-linked both ways with
+`best-time-sea-glass-hunting` and the PT station guide in the same
+commit (their `updated:` untouched — nav-only edits).
+
+**Gates:** npm run build green (content-only change): 137 routes (+1),
+124 sitemap URLs (+1), verify-output OK, 30/30 fact tests. Rendered-page
+check: 20/20 number/quote assertions, all 20 internal links resolve in
+out/. Diff reviewed — three content files only, public data untouched.
+Live after Vercel deploy: guide HTTP 200 with station id, 270-min and
+Presidents' Day content present.
+
+**Metrics snapshot (PostHog, 7d to ~18:10Z, host=thetidewindow.com):**
+337 pageviews / 282 distinct users / 3 signups ≈ 1.06% of uniques —
+above the recent 0.68% but small-n; no verdict. GSC baseline for the new
+cluster recorded in BACKLOG: 11 impressions / 0 clicks / pos ~17 (28d);
+first position readout ~Oct 12, small-n rules apply.
+
+**Next:** Sep 14 is the weekly indexing check (§2a′, inspect 40) plus the
+search/conversion readout. Queue holds 3 writable P1 items (Oregon
+king-tides retitle+refresh with the daylight-overlap carryover, Acadia
+inline H/L, Sunset Bay refresh). Revisit WA/La Push/Oregon dated leads
+now that Sep 12 has passed — the Oregon refresh can fold that in.
+Oct 1: November rollover. Oct 15: verify Mora/Rialto access.
+
+---
+
 ## 2026-09-11 (heartbeat, 17:16Z cutoff) — National king-tide schedule and daylight correction
 
 **Coordination / one primary action:** synced main at ac1b10a, clean tree.

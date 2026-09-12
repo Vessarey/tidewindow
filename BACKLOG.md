@@ -78,20 +78,28 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
-- [ ] **Glass Beach (Port Townsend) low-tide access guide — NEW page**
-      (added 2026-09-11 demand refill). Cluster: `glass beach port townsend
-      tide chart` 10 impressions / pos 17.3 and `glass beach tides`
-      1 / pos 10.0 (GSC 28d, 2026-09-11). No page of its own: the PT guide
-      covers Fort Worden and North Beach only and never mentions Glass
-      Beach, yet the property already ranks page-2 on the query. Intended
-      slug: `glass-beach-port-townsend-low-tide-2026` (station-guides,
-      port-townsend-wa, NOAA 9444900 — fact sheet exists). Angle: the walk
-      from North Beach past McCurdy Point is tide-dependent, which is
-      exactly what Tidewindow computes — verify every access/route/rules
-      claim via web fetch at write time (likely Jefferson County / WA
-      sources) and cut what can't be verified; no safety invention. Link
-      hard both ways with `best-time-sea-glass-hunting` and the PT station
-      guide (pos 1.0 on `port townsend tide pools`).
+- [x] 2026-09-12: **Glass Beach (Port Townsend) low-tide access guide —
+      LAUNCHED** (content/articles/glass-beach-port-townsend-low-tide-2026.md,
+      commit a38def5). Cluster: `glass beach port townsend tide chart`
+      10 impressions / pos 17.3 and `glass beach tides` 1 / pos 10.0
+      (GSC 28d, 2026-09-11). Category is **beachcombing**, not
+      station-guides as sketched here: getStationGuide() resolves the
+      station's guide by `category === "station-guides"` and a second PT
+      entry would have contended with the Fort Worden guide for that slot;
+      the station calendar gate still renders via `station:` frontmatter.
+      Data spine from the 2026-09-12 fact sheet: exactly 4 daylight
+      below-+1-ft windows left in 2026 (Sep 22, Oct 5–7, all Skip),
+      Nov–Dec 22 lows/month with zero daylight, king-season dusk table
+      led by Mar 15 2027 (270-min all-daylight window) and Presidents'
+      Day Feb 15. Access/route/history verified at write time: Jefferson
+      County (public-access quote), Spokesman-Review 2017 (route west,
+      ~3 mi, McCurdy Point), Peninsula Daily News 2004 (dump 1938→1962 at
+      Middle Point, county archivist), PT Leader (park history),
+      Beachcombing Magazine (six-mile round trip); all links 200. Hard
+      links both ways with `best-time-sea-glass-hunting` and the PT
+      station guide shipped in the same commit. GSC baseline for the
+      cluster: 11 impressions / 0 clicks / pos ~17 (28d) — check position
+      movement ~Oct 12 (small-n, no early verdict).
 - [x] **"King tides 2026" schedule intent on the national page — refresh,
       not a new page** (added 2026-09-11 demand refill). Cluster: `king
       tides 2026` 81 impressions / pos 9.6 / 0 clicks, `king tides 2026
