@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-11",
+ "generated_on": "2026-09-12",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": 0.512,
-   "low_time_local": "11:34 AM",
-   "window_local": "10:50 AM–12:15 PM",
-   "arrive_by_local": "10:34 AM",
-   "daylight_min": 85,
-   "score": 27,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-10-05",
    "weekday": "Mon",
@@ -300,18 +288,6 @@
    "score": 21,
    "band": "Skip",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": 0.512,
-   "low_time_local": "11:34 AM",
-   "window_local": "10:50 AM–12:15 PM",
-   "arrive_by_local": "10:34 AM",
-   "daylight_min": 85,
-   "score": 27,
-   "band": "Skip",
-   "weekend_or_holiday": false
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -442,17 +418,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 15
-  },
-  {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
-   "count": 10
-  },
-  {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 10
+   "count": 14
   },
   {
    "commonName": "Rough Keyhole Limpet",
@@ -460,14 +426,19 @@
    "count": 8
   },
   {
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
+   "count": 7
+  },
+  {
    "commonName": "Woody Chiton",
    "scientificName": "Mopalia lignosa",
    "count": 7
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 6
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 7
   },
   {
    "commonName": "Frilled Dogwinkle",
@@ -487,6 +458,11 @@
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
+   "count": 4
+  },
+  {
+   "commonName": "Rocky Aeolid",
+   "scientificName": "Eubranchulus rupium",
    "count": 4
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-11",
+ "generated_on": "2026-09-12",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -15,18 +15,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": -0.69,
-   "low_time_local": "7:10 AM",
-   "window_local": "5:30 AM–8:55 AM",
-   "arrive_by_local": "6:10 AM",
-   "daylight_min": 124,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-09-12",
    "weekday": "Sat",
@@ -108,6 +96,18 @@
    "arrive_by_local": "7:13 PM",
    "daylight_min": 47,
    "score": 39,
+   "band": "Skip",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.188,
+   "low_time_local": "5:20 PM",
+   "window_local": "3:50 PM–6:50 PM",
+   "arrive_by_local": "4:20 PM",
+   "daylight_min": 61,
+   "score": 38,
    "band": "Skip",
    "weekend_or_holiday": true
   }
@@ -431,18 +431,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": -0.69,
-   "low_time_local": "7:10 AM",
-   "window_local": "5:30 AM–8:55 AM",
-   "arrive_by_local": "6:10 AM",
-   "daylight_min": 124,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-21",
    "weekday": "Mon",
    "low_ft": -0.659,
@@ -453,6 +441,18 @@
    "score": 45,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.553,
+   "low_time_local": "5:57 PM",
+   "window_local": "4:15 PM–7:40 PM",
+   "arrive_by_local": "4:57 PM",
+   "daylight_min": 35,
+   "score": 41,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -551,34 +551,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": -0.69,
-   "low_time_local": "7:10 AM",
-   "window_local": "5:30 AM–8:55 AM",
-   "arrive_by_local": "6:10 AM",
-   "daylight_min": 124,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 86,
-   "min_to_sun_edge": 19
-  },
-  {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": 0.228,
-   "low_time_local": "7:32 PM",
-   "window_local": "6:25 PM–8:40 PM",
-   "arrive_by_local": "6:32 PM",
-   "daylight_min": 74,
-   "score": 31,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 276,
-   "min_to_sun_edge": 7
-  },
-  {
    "date": "2026-09-12",
    "weekday": "Sat",
    "low_ft": -0.134,
@@ -633,23 +605,46 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 269,
    "min_to_sun_edge": -2
+  },
+  {
+   "date": "2026-09-27",
+   "weekday": "Sun",
+   "low_ft": 0.767,
+   "low_time_local": "7:16 AM",
+   "window_local": "6:45 AM–7:50 AM",
+   "arrive_by_local": "6:16 AM",
+   "daylight_min": 38,
+   "score": 24,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 92,
+   "min_to_sun_edge": 4
+  },
+  {
+   "date": "2026-09-27",
+   "weekday": "Sun",
+   "low_ft": -0.408,
+   "low_time_local": "7:49 PM",
+   "window_local": "6:15 PM–9:25 PM",
+   "arrive_by_local": "6:49 PM",
+   "daylight_min": 51,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 276,
+   "min_to_sun_edge": -43
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 84
+   "count": 83
   },
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 7
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 6
+   "count": 8
   },
   {
    "commonName": "barnacle-eating dorid",
@@ -660,6 +655,11 @@
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
    "count": 6
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 5
   },
   {
    "commonName": "California Mussel",

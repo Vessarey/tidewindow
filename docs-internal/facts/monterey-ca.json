@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-11",
+ "generated_on": "2026-09-12",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -638,19 +638,19 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 42
+  },
+  {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
    "count": 41
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 41
-  },
-  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 22
+   "count": 20
   },
   {
    "commonName": "cockscomb nudibranch",

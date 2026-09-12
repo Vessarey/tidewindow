@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-11",
+ "generated_on": "2026-09-12",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -27,18 +27,6 @@
    "score": 56,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": -0.566,
-   "low_time_local": "6:58 AM",
-   "window_local": "5:20 AM–8:40 AM",
-   "arrive_by_local": "5:58 AM",
-   "daylight_min": 109,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false
   },
   {
    "date": "2026-10-26",
@@ -109,6 +97,18 @@
    "arrive_by_local": "4:07 PM",
    "daylight_min": 87,
    "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-27",
+   "weekday": "Sun",
+   "low_ft": -0.356,
+   "low_time_local": "7:39 PM",
+   "window_local": "6:05 PM–9:15 PM",
+   "arrive_by_local": "6:39 PM",
+   "daylight_min": 59,
+   "score": 45,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -552,34 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": -0.566,
-   "low_time_local": "6:58 AM",
-   "window_local": "5:20 AM–8:40 AM",
-   "arrive_by_local": "5:58 AM",
-   "daylight_min": 109,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 84,
-   "min_to_sun_edge": 7
-  },
-  {
-   "date": "2026-09-11",
-   "weekday": "Fri",
-   "low_ft": 0.342,
-   "low_time_local": "7:19 PM",
-   "window_local": "6:20 PM–8:25 PM",
-   "arrive_by_local": "6:19 PM",
-   "daylight_min": 74,
-   "score": 28,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 274,
-   "min_to_sun_edge": 15
-  },
-  {
    "date": "2026-09-12",
    "weekday": "Sat",
    "low_ft": -0.035,
@@ -634,6 +606,34 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 267,
    "min_to_sun_edge": 7
+  },
+  {
+   "date": "2026-09-27",
+   "weekday": "Sun",
+   "low_ft": -0.356,
+   "low_time_local": "7:39 PM",
+   "window_local": "6:05 PM–9:15 PM",
+   "arrive_by_local": "6:39 PM",
+   "daylight_min": 59,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 274,
+   "min_to_sun_edge": -35
+  },
+  {
+   "date": "2026-10-08",
+   "weekday": "Thu",
+   "low_ft": 0.791,
+   "low_time_local": "5:39 PM",
+   "window_local": "5:00 PM–6:15 PM",
+   "arrive_by_local": "4:39 PM",
+   "daylight_min": 75,
+   "score": 19,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 250,
+   "min_to_sun_edge": 65
   }
  ],
  "species_last60d_5km": [
