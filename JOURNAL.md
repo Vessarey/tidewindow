@@ -5,6 +5,129 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-12 (heartbeat, 17:15Z cutoff) — Glass Beach prediction/access correction
+
+**Coordination / one primary action:** synced clean main at 5643baa; today's
+operator had already launched Glass Beach (a38def5) and recorded it. No
+duplicate page, queue refill or newsletter send. The new guide's unsupported
+route cutoff, turnaround rule and reopening/walking-time guarantees warranted
+correction before the queued Oregon retitle. This is one factual refresh with
+two matching inbound-link edits. Three writable P1 items remain (Oregon,
+Acadia H/L, Sunset Bay); one new editorial page this week, unchanged by this
+run. September 12 is Saturday, and had not passed at this session's start;
+the earlier entry's Friday/past-Sep-12 wording is not current scheduling advice.
+
+**Shipped 68cad44:** kept the Glass Beach title, slug, publish date,
+beachcombing category, station gate and nine numerical rows. Added an honest
+Sep 12 updated date. The lead and FAQ now define ≥30 minutes of daylight
+overlap, not daylight at low water or verified access along the shoreline.
+Oct 5's low is before sunrise; four hours below +1 ft include only 39 daylight
+minutes. November/December's zero qualifying windows do not establish a
+closure. Removed the unsourced route-specific +1-ft cutoff, turnaround-at-low
+instruction, guaranteed six-mile completion and reopening metaphors.
+
+The five October–March rows are explicitly the lowest qualifying lows, not
+every winter date. Mar 15's 270 minutes are longest among that selection,
+not the first fully daylight window or a walking-time allowance. Independent
+full-set checking found a fully daylight Jan 29 window already in the data;
+that counterexample is verification evidence, not an extra published date
+outside the fact sheet. July/August comparisons retain their Jul–Dec scope.
+Finder's next-30-day scope is distinguished from Trip Picker's future ranges.
+Both inbound links now use the same prediction/access distinction without
+changing the older guides' nav-only updated dates or auditing their whole body.
+
+**Sources / regression prevention:** retained the official Jefferson County
+public-access description. Re-read Spokesman-Review (2017) and Beachcombing
+Magazine (2020) for attributed older route/history context, explicitly not
+today's condition reports. PDN/Leader could not be fetched in this run; cut
+their citations and detailed dump dates/access claims rather than inheriting
+the previous verification. All four retained source URLs returned 200.
+Added §4 editorial gates for full-set versus top-N claims, daylight eligibility
+versus time of low, and station calculations versus route access. Queued a
+separate shared-tool vocabulary audit: Finder/Trip Picker still say "walkable"
+and offer generic arrival instructions. Tool code/data stayed unchanged here.
+
+**Gates / production:** final content-only npm run build passed: 137 routes,
+12 stations × 4 months, 124 sitemap URLs, 30/30 fact tests. Independent checks
+matched all nine rows field-for-field with today's facts, validated the complete
+remaining-2026 set, depth-ranked winter subset, exact daylight-overlap
+arithmetic and low-versus-sunrise/sunset distinctions, monthly counts and
+historical scope. Lead 67 words, description 146 characters, five FAQs,
+nine article-body internal links resolving in out/. No placeholders or
+unintended public-data/ICS/badge changes. Diff reviewed before commit/push.
+Vercel reported success for 68cad44. Production home/sitemap/index and all
+three changed guides returned 200; corrected lead/caveats/inbound links
+present, old first-window/walk-completion claims absent, index byte-identical
+to committed data. Both six-column tables fit their 729px containers at a
+1280px viewport with no page overflow. Desktop inspection only; no mobile claim.
+
+**Reader flows after cutoff:** home ZIP 98368 matched Port Townsend (~6
+straight-line miles); Finder minus filter updated; calendar email form opened
+without a submission. Trip Picker Mar 13–15, 2027 selected Mar 14 (Good 69),
+with Mar 13 (65) and Mar 15 (60) runners-up, further illustrating why the
+article's deepest-five selection is not a full score ranking. Local/live guide
+browser warning/error lists empty. No signup, email send or outreach.
+
+**Health:** NOAA run 34684290954 started 08:50:12Z and completed 08:52:58Z
+(2m46s); data generated 08:50:37.355Z and refresh commit 9c275c4 pushed
+08:52:54Z. Guarded later slots at 11:37, 13:37 and 16:28Z succeeded.
+Refresh landed before this session, so no recovery dispatch. Cron verified
+12 stations / 30 tests; its 123-URL IndexNow HTTP 200 predates the later
+Glass Beach addition (current sitemap 124). No open reader issues; production
+npm audit zero findings. Scanned 12 stations / 5,094 windows: no 90+ window
+in Sep 12–26. NPS still lists Mora Road closure beyond the campground
+July 8–October 15; do not assume reopening.
+
+**Newsletter:** Resend confirms the Sep 10 Broadcast
+a6c699ae-2dd2-420c-9d06-cf5c3a89f4cf sent at 12:06:03Z. Bounce/complaint
+rates not exposed in the response; unverified, not zero. No Saturday resend.
+
+**PostHog 495836, exact windows ending 2026-09-12T17:15:47Z before QA:**
+schema/values checked, production host=thetidewindow.com + Regular traffic
+on every query. Seven days from Sep 5: 331 pageviews / 277 distinct pageview
+users / 3 signups = 1.08% versus 1.5% target; 31 station selections,
+17 results, 30 ZIP lookups, 8 gate clicks, 2 ICS reveals, 10 Trip Picker
+runs, 11 exit exposures. Twenty-eight days from Aug 15: 946 pv / 842
+users / 6 signups = 0.71%; 30 exit exposures. Not comparable to the
+operator's differently timestamped/unfiltered snapshot. No conversion verdict.
+Top paths/7d: national king-tides 80, Finder 19, Fitzgerald 16, WA king-tides
+16, home 15, Seattle station 12, Pillar Point October 11, Bar Harbor
+September 11, PT station 11, Seattle guide 11, tide-table guide 10.
+
+Referrer PAGEVIEWS (not sessions or search clicks): Google 91, direct 83,
+DuckDuckGo 57, www.bing.com 39, self 25, Yahoo 17, GitHub 9, Brave 3,
+Ecosia 3, bing.com 2, noai.duckduckgo.com 1, Yandex 1. No named AI
+referrer is not proof of no AI-origin visits. Last 24h LCP p90 924ms on
+13 actual LCP-bearing events (value > -1): below the 30-event floor,
+not a performance recovery/regression verdict. Active error issues empty;
+project exception opt-in null, SDK capture_exceptions true, no $exception
+seen in 30 days. Instrumentation remains uncertain, not a proven zero.
+
+**GSC / decisions:** available through Sep 10. Latest complete Sep 4–10:
+75 clicks / 3,736 impressions versus Aug 28–Sep 3: 32 / 2,951. Positive
+observed search movement, not an isolated causal verdict. Top 28d pages:
+national 42 clicks / 2,081 impressions / pos 6.9; Fitzgerald 35/1,412/7.0;
+Seattle guide 14/425/6.7; PT station 11/360/11.0; Oregon agate 9/188/6.8;
+Oregon king tides 8/352/6.3; Acadia 7/589/7.4. No post-Sep-11 data yet
+to judge yesterday's national refresh; keep its Oct 5 ≥100-impression readout.
+Glass Beach cluster baseline 11 impressions/28d implies 0.39/day and ~255
+days to the 100-impression floor. Closed its proposed Oct 12 performance
+verdict as unmeasurable at current traffic per §5; keep the free page and
+check discovery/indexing during the normal weekly review. Previously closed
+conversion experiments stay closed. The Oct 1 owner deadline for retiring
+exit intent below 100 total impressions still applies; 30 here is a 28d
+count, not the lifetime count needed for that decision.
+
+**Next:** prioritize the shared prediction/access wording audit if confirmed
+across tools; otherwise Oregon's queued title/date/daylight refresh is the
+next writable content item. Sep 14: weekly inspect 40 plus Aug 30/31 readout
+with source-attribution boundaries; not due today. Oct 1: November rollover,
+September charts and exit-intent deadline. Oct 5: national readout only with
+its sample floor. Oct 15: reverify Mora/Rialto access before removing notices.
+No new automation, purchase, station expansion or public distribution.
+
+---
+
 ## 2026-09-12 — Glass Beach Port Townsend guide launched (§2d, P1 demand item)
 
 **Health:** green. Today's NOAA refresh landed before the session (commit

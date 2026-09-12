@@ -87,19 +87,27 @@ with the date; add discoveries at the appropriate tier.
       station's guide by `category === "station-guides"` and a second PT
       entry would have contended with the Fort Worden guide for that slot;
       the station calendar gate still renders via `station:` frontmatter.
-      Data spine from the 2026-09-12 fact sheet: exactly 4 daylight
-      below-+1-ft windows left in 2026 (Sep 22, Oct 5–7, all Skip),
-      Nov–Dec 22 lows/month with zero daylight, king-season dusk table
-      led by Mar 15 2027 (270-min all-daylight window) and Presidents'
-      Day Feb 15. Access/route/history verified at write time: Jefferson
-      County (public-access quote), Spokesman-Review 2017 (route west,
-      ~3 mi, McCurdy Point), Peninsula Daily News 2004 (dump 1938→1962 at
-      Middle Point, county archivist), PT Leader (park history),
-      Beachcombing Magazine (six-mile round trip); all links 200. Hard
-      links both ways with `best-time-sea-glass-hunting` and the PT
-      station guide shipped in the same commit. GSC baseline for the
-      cluster: 11 impressions / 0 clicks / pos ~17 (28d) — check position
-      movement ~Oct 12 (small-n, no early verdict).
+      **Sep 12 heartbeat correction, 68cad44:** the four Sep 22/Oct 5–7
+      rows have ≥30 minutes of daylight overlap, not four verified
+      opportunities to complete the Glass Beach walk. Oct 5's low is
+      before sunrise. Nov–Dec have zero qualifying windows, not an
+      established beach closure. The five king-season lows are a
+      depth-ranked subset; Mar 15's 270 minutes are not the first fully
+      daylight window or a walking-duration guarantee. Removed the
+      unsupported +1-ft route cutoff, turnaround and reopening claims.
+      Jefferson County supports the public-access description; the
+      Spokesman-Review (2017) and Beachcombing Magazine (2020) support
+      explicitly historical route context, not today's access conditions.
+      PDN/Leader sources and unverified detailed history removed after
+      this run could not fetch them. All four retained source links 200.
+      Both inbound guide links now distinguish predictions from access;
+      their nav-only updated dates remain unchanged.
+      **Performance verdict CLOSED — unmeasurable at current traffic:**
+      baseline cluster 11 impressions / 0 clicks / pos ~17 (28d) gives
+      11/28 = 0.39 impressions/day; 100-impression floor ≈255 days,
+      beyond §5's 60-day limit. Do not start/extend an Oct 12 conversion
+      or position experiment. Keep the free page and check discovery /
+      indexing in the normal weekly review (next Sep 14).
 - [x] **"King tides 2026" schedule intent on the national page — refresh,
       not a new page** (added 2026-09-11 demand refill). Cluster: `king
       tides 2026` 81 impressions / pos 9.6 / 0 clicks, `king tides 2026
@@ -460,6 +468,16 @@ with the date; add discoveries at the appropriate tier.
       new angle).
 
 ## P2 — product
+
+- [ ] **Prediction-versus-route-access vocabulary audit** (Sep 12 discovery).
+      Finder and Trip Picker still label the shared +1-ft threshold
+      "walkable" and emit generic "arrive by" / "be on the beach by"
+      instructions. These are calculations, not verified clearance or
+      walking-time rules for every listed spot. Audit the shared labels,
+      curve accessible names and methodology together; use neutral
+      threshold/window language and preserve the underlying predictions.
+      Apply the new §4 claim gates before shipping. The Glass Beach
+      article correction did not change tool code or certify other guides.
 
 - [x] 2026-09-02 **CLOSED — unmeasurable at current traffic** (largest gate
       source is 9 clicks in 26 days against a 30-event floor; §5 new rule).

@@ -160,6 +160,16 @@ g. **Coverage expansion:** add a new NOAA station to
    exist in `out/`. It runs locally, in the refresh cron, and on Vercel — trust
    it, and extend it when you add a new data-driven surface.
 2. Recompute-check: numbers in new/changed content match current fact sheets.
+
+   - A top-N fact list is not the full period. Before saying "first", "only",
+     "last" or "best", verify the complete relevant date range and ranking
+     criterion, or explicitly limit the claim to the displayed selection.
+   - Define daylight eligibility (currently ≥30 minutes of window overlap)
+     separately from daylight at the low or throughout the whole window.
+   - A station threshold, score or window duration does not verify route
+     access, an opening/closure, a departure/turnaround rule or walking time.
+     Do not derive such claims from the tide tables.
+
 3. All new external links fetch 200 and support the claims they back.
 4. No placeholder text, no lorem, no "as an AI".
 5. Diff review: `git diff` — nothing unintended (especially `public/data-json`).
