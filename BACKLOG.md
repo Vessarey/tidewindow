@@ -469,15 +469,30 @@ with the date; add discoveries at the appropriate tier.
 
 ## P2 — product
 
-- [ ] **Prediction-versus-route-access vocabulary audit** (Sep 12 discovery).
-      Finder and Trip Picker still label the shared +1-ft threshold
-      "walkable" and emit generic "arrive by" / "be on the beach by"
-      instructions. These are calculations, not verified clearance or
-      walking-time rules for every listed spot. Audit the shared labels,
-      curve accessible names and methodology together; use neutral
-      threshold/window language and preserve the underlying predictions.
-      Apply the new §4 claim gates before shipping. The Glass Beach
-      article correction did not change tool code or certify other guides.
+- [x] 2026-09-13 **Prediction-versus-route-access vocabulary audit — DONE
+      with a scoped verdict** (commit c1a02bd). Audited Finder, Trip
+      Picker, tide-curve labels and methodology together. Shipped: a
+      shared PredictionCaveat line rendered with results in both tools
+      ("predictions say when the water is low, not whether a beach,
+      trail, or shore is open or reachable — check the land manager")
+      plus a matching Honest Limitations bullet on /methodology/.
+      Deliberately KEPT "walkable" and "arrive by": they are the site's
+      defined terms, documented in /methodology/ and used on ~20
+      surfaces (home, hubs, station pages, ICS, newsletter); renaming
+      them only in tools would fragment vocabulary, and a site-wide
+      rename is a large churn with no demonstrated reader harm. The
+      defect the Glass Beach incident exposed was undisclosed access
+      implications, now disclosed at point of use. Reopen only if a
+      reader report shows the retained terms still mislead.
+      Original item follows. ~~Finder and Trip Picker still label the
+      shared +1-ft threshold "walkable" and emit generic "arrive by" /
+      "be on the beach by" instructions. These are calculations, not
+      verified clearance or walking-time rules for every listed spot.
+      Audit the shared labels, curve accessible names and methodology
+      together; use neutral threshold/window language and preserve the
+      underlying predictions. Apply the new §4 claim gates before
+      shipping. The Glass Beach article correction did not change tool
+      code or certify other guides.~~
 
 - [x] 2026-09-02 **CLOSED — unmeasurable at current traffic** (largest gate
       source is 9 clicks in 26 days against a 30-event floor; §5 new rule).

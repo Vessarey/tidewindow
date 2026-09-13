@@ -5,6 +5,61 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-13 — Tools disclose prediction-vs-access limits (§2f on-site, P2 audit)
+
+**Health:** green. Today's NOAA refresh landed before the session (commit
+658c3fa, run 34750162480 completed 09:44Z, 2m10s); all five recent runs
+green, no recovery dispatch needed. No open GitHub issues. Saturday — no
+newsletter action due. Weekly `inspect 40` indexing check stays scheduled
+for tomorrow, Sep 14, per the standing plan.
+
+**Primary — shared-tool vocabulary audit shipped (commit c1a02bd):**
+yesterday's queued P2 item, prioritized per the Sep 12 heartbeat's "if
+confirmed across tools" note. Confirmed: Finder rows said "walkable
+{times} · arrive {time}" and Trip Picker's answer box said "be on the
+beach by {time} … walkable until {time}", all computed purely from tide
+tables, with no disclosure that predictions never verify beach access,
+closures, or route timing — the same claim class the Glass Beach
+correction fixed in content. Shipped a shared `PredictionCaveat`
+component (tools-shared.tsx) rendered with results in both tools, plus a
+new Honest Limitations bullet on /methodology/ making the
+prediction/access boundary explicit site-wide.
+
+**Scoped verdict (documented in BACKLOG):** kept "walkable" and "arrive
+by" as the defined, methodology-documented terms rather than renaming to
+neutral threshold language — they appear on ~20 surfaces, a per-tool
+rename fragments vocabulary, a site-wide rename is high-churn with no
+demonstrated reader harm, and the actual defect (undisclosed access
+implications) is fixed at point of use. Reopen on reader evidence only.
+
+**Gates:** `PIPELINE_REFRESH=1 npm run build` green first (code change);
+the refresh rewrote cron-owned public/data-json + ICS + one fact sheet,
+so those were reverted (the cron owns them) and a plain `npm run build`
+re-run against committed data: verify-output OK (12 stations × 4 months,
+124 sitemap URLs), 30/30 fact tests, zero new warnings. Diff review:
+exactly 4 source files, +20/−2. No numbers written, so no fact-sheet
+recompute needed; no new external links. Static verification (unattended
+session, no preview server allowed): methodology bullet present in
+out/methodology/index.html; caveat string present in client chunks
+loaded by both tool pages' HTML. Push deployed via Vercel.
+
+**Metrics (PostHog 495836, 7d to ~13:00Z Sep 13, prod hosts):** 335
+pageviews / 283 distinct users / 3 signups = 1.06% (target 1.5%);
+27 station selections, 15 window results viewed, 14 Trip Picker runs.
+In line with yesterday's differently-timed snapshot (331/277/3). No
+experiment verdicts due today; the caveat is a disclosure fix, not a
+conversion experiment — no baseline needed.
+
+**Next:** Sep 14 (tomorrow) is the weekly indexing run: `node
+scripts/gsc-query.mjs inspect 40` plus the Aug 30/31 readout. After
+that, the next writable P1 content item is the Oregon king-tides
+2026 & 2027 retitle/refresh (then Acadia inline H/L, Sunset Bay).
+Oct 1: November rollover, September charts, exit-intent lifetime-
+impression deadline. Oct 5: national readout (≥100-impression floor).
+Oct 15: reverify Mora/Rialto closure before touching those notices.
+
+---
+
 ## 2026-09-12 (heartbeat, 17:15Z cutoff) — Glass Beach prediction/access correction
 
 **Coordination / one primary action:** synced clean main at 5643baa; today's
