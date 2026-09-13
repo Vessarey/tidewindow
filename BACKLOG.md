@@ -5,6 +5,13 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **Next run (Sep 14): refill the writable queue first (§2a).** The
+      Sep 13 Oregon refresh leaves two explicit writable P1 items: Acadia
+      inline H/L and Sunset Bay. Re-run `flywheel 28` and `queries 28`;
+      add at least three evidence-backed clusters without duplicating
+      completed national/Oregon king-tide, Fitzgerald or Puget chart work.
+      The weekly `inspect 40` check is also due Sep 14; include the exact
+      Oregon king-tides URL, currently discovered but never crawled.
 - [x] 2026-09-11: **Content queue refilled from demand (§2a).** Ran fresh
       `flywheel 28` + `queries 28` and added three qualified P1 items, each
       with cluster, impressions, position and target: (1) Glass Beach Port
@@ -130,7 +137,7 @@ with the date; add discoveries at the appropriate tier.
       daylight-overlap definition and Newport/Bar Harbor after-sunset
       claims. Access and flooding kept separate. No new PDF or print-view
       promise; print CSS was optional and not added. Search readout below.
-- [ ] **Oregon king tides: carry the 2026 half of the season in the
+- [x] **Oregon king tides: carry the 2026 half of the season in the
       title — refresh, not a new page** (added 2026-09-11 demand refill).
       Cluster: `king tides oregon coast 2027` 17 / 7.5 and `king tides
       oregon 2026 predictions` 2 / 12.5 (GSC 28d, 2026-09-11). Target:
@@ -148,6 +155,26 @@ with the date; add discoveries at the appropriate tier.
       6:14 PM with 69 daylight minutes elsewhere in the window, not a
       low occurring in daylight. Recompute every title/description/table
       claim from current facts during this same queued refresh.
+      **Done Sep 13 heartbeat, fd7f62d — discoverability and factual refresh.**
+      Title now carries both years; original slug and Sep 2 publication
+      date retained, updated Sep 13. Official project photo series verified
+      on oregonkingtides.net: Nov 23–27 / Dec 22–26, 2026 and Jan 20–24,
+      2027, distinct from four NOAA peak-high rows and twenty qualifying
+      low-window rows. Corrected after-sunset labeling (19/20; Port Orford
+      Jan 21 is the exception), unsupported access/arrival claims and
+      calendar promises. Added a contextual inbound path from the top-5
+      click-earning agate guide; strengthened the national guide's existing
+      link. Nav-only source dates unchanged. Shared guide attribution now
+      specifies tide heights/times, not every date/number on the page.
+      **Do not start the proposed retitle/conversion experiment:** exact
+      GSC inspection Sep 13 reports Discovered – currently not indexed,
+      no last crawl. Query+page data for Aug 14–Sep 11 sends all seven
+      revealed Oregon king-tide queries (137 impressions / 1 click) to
+      the NATIONAL guide, not this regional URL; the Oregon minus-tide
+      calendar's 9 clicks are a different page. First measure discovery /
+      crawl status in the normal weekly review. Indexing success and any
+      search uplift remain unverified; the page has no established target
+      query rate from which to forecast a 100-impression verdict date.
 - [x] 2026-07-04: Weekly regional roundup format LAUNCHED — inaugural instance
       is the time-sensitive West Coast Jul 11–14 run
       (content/articles/west-coast-minus-tides-july-11-14-2026.md), triggered by

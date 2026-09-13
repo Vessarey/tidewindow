@@ -5,6 +5,118 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-13 (heartbeat, 17:15Z cutoff) — Oregon guide discovery and factual refresh
+
+**Coordination / one primary action:** entered clean main at f53a15f after
+the operator's c1a02bd shared-tool disclosure change. Verified that disclosure
+in the live Finder and Trip Picker and left its vocabulary decision intact.
+Three writable P1 items existed at entry. Exact GSC inspection of the queued
+Oregon king-tides guide found **Discovered – currently not indexed**, with
+no last crawl; that activates §2a′ crawl-path work before conversion. Shipped
+fd7f62d: one Oregon discoverability/readiness refresh, two contextual inbound
+link edits, and a related three-string attribution correction in the guide
+template. No new page, station, automation, audience sync or broadcast.
+
+**What changed and why:**
+
+- The existing Oregon URL now targets both 2026 and 2027. The official
+  Oregon King Tides Project's live embedded project page lists Nov 23–27
+  and Dec 22–26, 2026, then Jan 20–24, 2027; verified in the browser at
+  https://www.oregonkingtides.net/. The older Oregon Shores overview still
+  displays last season's schedule, so it was not used for current dates.
+  Project photo dates are explicitly separate from NOAA-predicted peaks.
+- Rechecked four station seasonal peak highs and twenty lowest qualifying
+  low-window rows. **19/20 low instants are after sunset**; Port Orford
+  Jan 21, 2027 is the exception (low 5:12 PM, computed sunset 5:16 PM).
+  Port Orford Dec 24's -2.21-ft low at 6:14 PM is after the 4:48 PM sunset,
+  despite 69 daylight minutes earlier in its window. Scoped the Great-band
+  claim to the displayed selection; removed unsupported flood, route,
+  arrival and “deepest you can see” guarantees. Six-column threshold tables
+  retain all twenty low rows; the high table now shows the four maxima.
+- Added an in-body Oregon link from the agate guide (a top-5 click-earning
+  guide) and strengthened the national guide's existing Oregon anchor.
+  Original Oregon slug/date Sep 2 preserved; updated Sep 13 is real.
+  Nav-only source-guide dates stay July 3 and Sep 11, with matching sitemap
+  lastmods. The guide template now attributes *tide heights and times* to
+  NOAA, not every number/date, which would misattribute the photo series.
+  Gate behavior and the operator's Finder/Trip wording were not changed.
+
+**Health / timing correction:** today is Sunday, not Saturday as the earlier
+entry says. Daily refresh 658c3fa landed today: run 34750162480 started
+09:44:57Z and finished 09:47:07Z (the earlier entry's 09:44Z was the start,
+not completion). Data generated 09:45:15Z, pushed 09:47:05Z. Later guarded
+runs at 12:44, 14:26 and 17:03Z succeeded; no recovery dispatch needed.
+Cron logs show 30 passing fact tests, 124 sitemap URLs and IndexNow HTTP 200.
+Live homepage/data/sitemap returned 200; live index bytes match committed
+data. All twelve stations checked: 5,107 stored windows, no 90+ window in
+the Sep 13–27 scan. No open issues; production dependency audit zero.
+NPS still lists the Mora Road closure beyond the campground July 8–Oct 15;
+no reopening claim or Rialto restoration. Resend read-only GET confirms the
+Sep 10 broadcast a6c699ae-2dd2-420c-9d06-cf5c3a89f4cf remains sent at
+12:06:03Z. The response exposes no bounce/complaint rates: unverified, not
+zero. No Sunday send.
+
+**Metrics — native PostHog, project 495836:** production thetidewindow.com
+host + `Regular` traffic filters revalidated before queries; fixed cutoff
+2026-09-13T17:15:53Z precedes this run's browser QA. Seven days: **332
+pageviews / 280 distinct pageview users / 3 signups = 1.07%**, below the
+1.5% target. Twenty-eight days: **963 / 856 / 6 = 0.70%**. Seven-day tool
+events: 27 station selections, 15 result views, 27 ZIP lookups, 8 gate clicks,
+2 ICS reveals, 14 Trip Picker runs, 11 exit-prompt exposures. Top paths:
+national king tides 82 pv, Finder 18, WA king tides 16, home 15, Fitzgerald
+14; this Oregon guide has 9 pv. Referrer *pageviews*, not sessions: Google
+88, direct 83, DuckDuckGo 55; no demonstrated AI-referral stream. Since
+Sep 1 (after source-label repairs), gate clicks split tool 9 / station 1;
+ICS reveals tool 3; signups tool 3 / end_article_gated 1. Small samples,
+not a conversion verdict. LCP p90 1,018.8 ms from just 8 eligible samples
+in the preceding 24 hours. Active error issues returned none, but exception
+ingestion remains unverified (project opt-in null, no exception event type
+in the recent taxonomy); do not call this zero runtime errors.
+
+**Search and the indexing boundary:** fresh GSC date rows show Sep 5–11 at
+64 clicks / 3,866 impressions versus Aug 29–Sep 4 at 46 / 3,125. Compare
+clicks/position, not contaminated site-wide CTR. The helper's `28` query
+window is Aug 14–Sep 11 inclusive, actually 29 calendar dates. Top guide
+pages include national 42 clicks / 2,174 impressions / pos 6.9, Fitzgerald
+35 / 1,472 / 7.0, Seattle 15 / 439 / 6.6, agate 9 / 192 / 6.9 and Acadia
+7 / 603 / 7.4. The exact Oregon king-tides URL has no returned GSC page row
+and is discovered/uncrawled. All seven revealed Oregon king-tide queries
+(137 impressions / 1 click) map to the **national** page; the Oregon
+minus-tide calendar's 9 clicks / 368 impressions belong to another URL.
+Therefore no regional retitle/conversion experiment or days-to-floor
+forecast starts today. First check crawl/indexing status in the weekly
+review, then establish an actual regional query baseline if it is fetched.
+Deployment is not evidence that Google has indexed it.
+
+**Release gates:** plain build against committed data passed, then the
+template text edit triggered the code-change gate: `PIPELINE_REFRESH=1
+npm run build` in an isolated checkout containing exact hash-checked copies
+of all four changed files, followed by comparison to the production-input
+build. Both passed: 137 generated routes, 12 stations × 4 months, 124 sitemap
+URLs and 30/30 fact tests, no new warnings. Fresh and committed Oregon
+seasonal fact lists are identical. Independent assertions cover all 24 tide
+rows, the 19/20 solar distinction, 148-character description, 59-word answer,
+five FAQs, Article dates, internal links (12 Oregon / 7 agate / 22 national),
+and all nine external sources returning 200. Rendered single- and multi-
+station guide attribution checked. Desktop browser preview: readable six-
+column tables, document width 1280 at viewport 1280. Earlier live ZIP 97365
+→ Newport, minus filter, email gate opening and Port Orford Jan 20–24 Trip
+Picker passed without a signup or console warning/error. No mobile/device
+claim. No cron-owned public data or fact changes in the final diff.
+fd7f62d pushed; Vercel reported success. Live fetches verify the revised
+Oregon page, both inbound contexts, Article dates and honest sitemap dates.
+
+**Next:** completing Oregon leaves two explicit writable P1 items (Acadia
+inline H/L, Sunset Bay), so refill from fresh demand first next run (§2a),
+without duplicating completed clusters. Sep 14 also brings `inspect 40`
+plus the exact Oregon URL and the Aug 30/31 search readout. Closed tiny-n
+signup/exit experiments stay closed; Oct 1 still carries the owner exit-
+prompt decision using **lifetime** impressions, November rollover and
+September chart refreshes. Oct 5 national refresh readout retains its
+100-new-target-impression floor; Oct 15 Mora conditions recheck remains.
+
+---
+
 ## 2026-09-13 — Tools disclose prediction-vs-access limits (§2f on-site, P2 audit)
 
 **Health:** green. Today's NOAA refresh landed before the session (commit
