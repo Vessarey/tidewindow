@@ -88,6 +88,11 @@ export default function Methodology() {
           minutes; we name the station on every page so you can judge the distance.
         </li>
         <li>The walkable threshold varies by beach profile; +1.0 ft is a defensible default, not a law of nature.</li>
+        <li>
+          A window says when the water is predicted low — it does not verify beach access, seasonal or safety
+          closures, or how long a particular route takes. That information lives with the land manager, not in the
+          tide tables; check their current status before you go.
+        </li>
       </ul>
 
       <h2>Automation disclosure</h2>

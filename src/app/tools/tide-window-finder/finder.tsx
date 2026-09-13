@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { StationSelect, useStationData, synthesis, type StationOption } from "@/components/tools-shared";
+import { StationSelect, useStationData, synthesis, PredictionCaveat, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import CalendarGate from "@/components/calendar-gate";
@@ -221,6 +221,8 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
               monthly calendars for the next qualifying dates.
             </p>
           )}
+
+          <PredictionCaveat />
 
           <div className="mt-6 flex flex-wrap items-center gap-4">
             <CalendarGate stationSlug={data.station.slug} stationName={data.station.name} />

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { StationSelect, useStationData, type StationOption } from "@/components/tools-shared";
+import { StationSelect, useStationData, PredictionCaveat, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import CalendarGate from "@/components/calendar-gate";
@@ -108,6 +108,7 @@ export default function TripPicker({ stations }: { stations: StationOption[] }) 
                   </div>
                 </>
               )}
+              <PredictionCaveat />
               <div className="mt-6">
                 <CalendarGate stationSlug={data.station.slug} stationName={data.station.name} />
               </div>

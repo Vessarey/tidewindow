@@ -73,6 +73,16 @@ export function StationSelect({
   );
 }
 
+export function PredictionCaveat() {
+  return (
+    <p className="mt-4 max-w-2xl text-[0.8rem] text-ink-soft">
+      Windows are NOAA tide and daylight predictions: they say when the water is low, not whether a beach, trail, or
+      stretch of shore is open or reachable. Access, seasonal closures, and how long a route takes are outside this
+      data — check the land manager&apos;s current conditions before you go.
+    </p>
+  );
+}
+
 export function synthesis(data: StationData, days: number): string {
   const now = data.generatedAt;
   const horizon = now + days * 86400_000;
