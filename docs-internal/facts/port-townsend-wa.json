@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-12",
+ "generated_on": "2026-09-13",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -492,19 +492,19 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 8
-  },
-  {
    "commonName": "Nuttall's Cockle",
    "scientificName": "Clinocardium nuttallii",
    "count": 8
   },
   {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
+   "count": 7
+  },
+  {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 4
+   "count": 5
   },
   {
    "commonName": "Monterey Dorid",

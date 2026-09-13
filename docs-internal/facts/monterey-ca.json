@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-12",
+ "generated_on": "2026-09-13",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -552,20 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.788,
-   "low_time_local": "6:14 PM",
-   "window_local": "5:30 PM–7:05 PM",
-   "arrive_by_local": "5:14 PM",
-   "daylight_min": 95,
-   "score": 35,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 266,
-   "min_to_sun_edge": 65
-  },
-  {
    "date": "2026-09-13",
    "weekday": "Sun",
    "low_ft": 0.691,
@@ -634,13 +620,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 249,
    "min_to_sun_edge": 80
+  },
+  {
+   "date": "2026-10-11",
+   "weekday": "Sun",
+   "low_ft": 0.065,
+   "low_time_local": "6:00 PM",
+   "window_local": "4:10 PM–7:55 PM",
+   "arrive_by_local": "5:00 PM",
+   "daylight_min": 146,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 256,
+   "min_to_sun_edge": 36
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 42
+   "count": 43
   },
   {
    "commonName": "Spanish Shawl",
@@ -653,6 +653,11 @@
    "count": 20
   },
   {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 14
+  },
+  {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
    "count": 14
@@ -663,19 +668,14 @@
    "count": 14
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
+   "commonName": null,
+   "scientificName": "Doto urak",
    "count": 13
   },
   {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
    "count": 13
-  },
-  {
-   "commonName": null,
-   "scientificName": "Doto urak",
-   "count": 11
   },
   {
    "commonName": "Mossy Chiton",

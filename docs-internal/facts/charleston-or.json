@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-12",
+ "generated_on": "2026-09-13",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -552,34 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.224,
-   "low_time_local": "7:23 AM",
-   "window_local": "6:10 AM–8:35 AM",
-   "arrive_by_local": "6:23 AM",
-   "daylight_min": 101,
-   "score": 40,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 89,
-   "min_to_sun_edge": 29
-  },
-  {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.127,
-   "low_time_local": "7:52 PM",
-   "window_local": "6:35 PM–9:10 PM",
-   "arrive_by_local": "6:52 PM",
-   "daylight_min": 57,
-   "score": 35,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 279,
-   "min_to_sun_edge": -20
-  },
-  {
    "date": "2026-09-13",
    "weekday": "Sun",
    "low_ft": 0.855,
@@ -634,6 +606,34 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 279,
    "min_to_sun_edge": -66
+  },
+  {
+   "date": "2026-10-09",
+   "weekday": "Fri",
+   "low_ft": 0.235,
+   "low_time_local": "6:12 PM",
+   "window_local": "4:55 PM–7:25 PM",
+   "arrive_by_local": "5:12 PM",
+   "daylight_min": 109,
+   "score": 34,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 256,
+   "min_to_sun_edge": 32
+  },
+  {
+   "date": "2026-10-10",
+   "weekday": "Sat",
+   "low_ft": -0.23,
+   "low_time_local": "6:52 PM",
+   "window_local": "5:20 PM–8:30 PM",
+   "arrive_by_local": "5:52 PM",
+   "daylight_min": 82,
+   "score": 44,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 263,
+   "min_to_sun_edge": -10
   }
  ],
  "species_last60d_5km": [
@@ -645,7 +645,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "Monterey Dorid",

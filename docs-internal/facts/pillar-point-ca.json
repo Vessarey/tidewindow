@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-12",
+ "generated_on": "2026-09-13",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -552,20 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": 0.629,
-   "low_time_local": "6:26 PM",
-   "window_local": "5:20 PM–7:35 PM",
-   "arrive_by_local": "5:26 PM",
-   "daylight_min": 122,
-   "score": 39,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 267,
-   "min_to_sun_edge": 56
-  },
-  {
    "date": "2026-09-13",
    "weekday": "Sun",
    "low_ft": 0.536,
@@ -634,18 +620,32 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 273,
    "min_to_sun_edge": -35
+  },
+  {
+   "date": "2026-10-10",
+   "weekday": "Sat",
+   "low_ft": -0.023,
+   "low_time_local": "5:27 PM",
+   "window_local": "3:40 PM–7:20 PM",
+   "arrive_by_local": "4:27 PM",
+   "daylight_min": 179,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 250,
+   "min_to_sun_edge": 72
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 39
+   "count": 37
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 31
+   "count": 33
   },
   {
    "commonName": "Gumboot Chiton",
@@ -655,12 +655,12 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 18
+   "count": 20
   },
   {
    "commonName": "Hammerhead Doto",
    "scientificName": "Doto amyra",
-   "count": 17
+   "count": 16
   },
   {
    "commonName": "Stubby Dendronotid",
@@ -668,24 +668,24 @@
    "count": 15
   },
   {
-   "commonName": "Hilton's Aeolid",
-   "scientificName": "Phidiana hiltoni",
-   "count": 15
-  },
-  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Heath's Dorid",
    "scientificName": "Geitodoris heathi",
-   "count": 13
+   "count": 12
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "Hilton's Aeolid",
+   "scientificName": "Phidiana hiltoni",
    "count": 12
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 11
   }
  ]
 }

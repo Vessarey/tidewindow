@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-12",
+ "generated_on": "2026-09-13",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -15,18 +15,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": -0.134,
-   "low_time_local": "7:45 AM",
-   "window_local": "6:25 AM–9:10 AM",
-   "arrive_by_local": "6:45 AM",
-   "daylight_min": 138,
-   "score": 54,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-10-25",
    "weekday": "Sun",
@@ -88,18 +76,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": -0.139,
-   "low_time_local": "8:13 PM",
-   "window_local": "6:50 PM–9:40 PM",
-   "arrive_by_local": "7:13 PM",
-   "daylight_min": 47,
-   "score": 39,
-   "band": "Skip",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-11-07",
    "weekday": "Sat",
    "low_ft": -0.188,
@@ -108,6 +84,30 @@
    "arrive_by_local": "4:20 PM",
    "daylight_min": 61,
    "score": 38,
+   "band": "Skip",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.145,
+   "low_time_local": "6:08 PM",
+   "window_local": "4:50 PM–7:25 PM",
+   "arrive_by_local": "5:08 PM",
+   "daylight_min": 83,
+   "score": 37,
+   "band": "Skip",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-09-26",
+   "weekday": "Sat",
+   "low_ft": 0.218,
+   "low_time_local": "7:10 PM",
+   "window_local": "5:55 PM–8:20 PM",
+   "arrive_by_local": "6:10 PM",
+   "daylight_min": 73,
+   "score": 36,
    "band": "Skip",
    "weekend_or_holiday": true
   }
@@ -551,34 +551,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": -0.134,
-   "low_time_local": "7:45 AM",
-   "window_local": "6:25 AM–9:10 AM",
-   "arrive_by_local": "6:45 AM",
-   "daylight_min": 138,
-   "score": 54,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 93,
-   "min_to_sun_edge": 53
-  },
-  {
-   "date": "2026-09-12",
-   "weekday": "Sat",
-   "low_ft": -0.139,
-   "low_time_local": "8:13 PM",
-   "window_local": "6:50 PM–9:40 PM",
-   "arrive_by_local": "7:13 PM",
-   "daylight_min": 47,
-   "score": 39,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 283,
-   "min_to_sun_edge": -36
-  },
-  {
    "date": "2026-09-13",
    "weekday": "Sun",
    "low_ft": 0.574,
@@ -633,23 +605,46 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 276,
    "min_to_sun_edge": -43
+  },
+  {
+   "date": "2026-10-08",
+   "weekday": "Thu",
+   "low_ft": 0.878,
+   "low_time_local": "5:53 PM",
+   "window_local": "5:40 PM–6:10 PM",
+   "arrive_by_local": "4:53 PM",
+   "daylight_min": 30,
+   "score": 11,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 252,
+   "min_to_sun_edge": 50
+  },
+  {
+   "date": "2026-10-09",
+   "weekday": "Fri",
+   "low_ft": 0.134,
+   "low_time_local": "6:35 PM",
+   "window_local": "5:25 PM–7:50 PM",
+   "arrive_by_local": "5:35 PM",
+   "daylight_min": 76,
+   "score": 31,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 260,
+   "min_to_sun_edge": 6
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 83
+   "count": 55
   },
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 8
-  },
-  {
-   "commonName": "barnacle-eating dorid",
-   "scientificName": "Onchidoris bilamellata",
-   "count": 6
+   "count": 7
   },
   {
    "commonName": "Striped Dogwinkle",
@@ -660,11 +655,6 @@
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
    "count": 5
-  },
-  {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 4
   },
   {
    "commonName": "Chocolate Aeolid",
@@ -684,6 +674,16 @@
   {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
+   "count": 3
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 3
+  },
+  {
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
    "count": 3
   }
  ]
