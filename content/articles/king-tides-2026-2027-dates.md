@@ -140,7 +140,7 @@ Seattle's lowest qualifying low in the October–March comparison is -0.65 ft on
 
 ## Oregon: depth and daylight tell different stories
 
-The [Oregon king-tides guide](/guides/king-tides-oregon-2027/) compares all four stations. In this October–March selection, Port Orford reaches -2.21 ft on December 24 at 6:14 PM, but its window has 69 daylight minutes. Newport's December 23 example has 60. Those are depth records within the stated selection, not promises of daylight at low water.
+The [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) separates official photo-series dates from predicted highs and low-tide windows at all four stations. In this October–March selection, Port Orford reaches -2.21 ft on December 24 at 6:14 PM, but its window has 69 daylight minutes. Newport's December 23 example has 60. Those are depth records within the stated selection, not promises of daylight at low water.
 
 That is why the daylight column belongs beside the height column. “Lowest” and “most daylight” are different rankings, and neither is a local-access assessment.
 

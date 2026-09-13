@@ -41,6 +41,8 @@ A gallon of agates is a genuinely heavy day. Most hunters never brush the limit;
 
 ## Where do the winter 2026–27 daylight minus windows land?
 
+For the regional comparison, the [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) separates the official high-water photo dates from low-tide windows and explains why daylight overlap does not mean daylight at the low.
+
 Here is the collision at the heart of winter agate hunting: the season that exposes the gravel is the season that hides the tide. Minus tides keep arriving all winter, but the daylight ones get scarce, and on the Oregon coast they migrate to dusk. Across the king-tide season (October 2026 through March 2027), the five lowest daylight lows at each station all bottom out between 5:04 and 6:25 PM — and nothing from February or March makes either top five. The depth is front-loaded into late November through late January.
 
 Port Orford, NOAA station 9431647:

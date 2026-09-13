@@ -78,7 +78,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             {" "}· updated <time dateTime={a.updated}>{fmtDate(a.updated)}</time>
           </>
         )}{" "}
-        · {a.readingMinutes} min read · every number computed from NOAA predictions
+        · {a.readingMinutes} min read · tide heights and times from NOAA predictions
       </p>
 
       <article className="prose mt-6" dangerouslySetInnerHTML={{ __html: html }} />
@@ -111,7 +111,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       {gateStations && gateStations.length > 0 ? (
         <div className="mt-8">
           <p className="mb-3 text-[0.95rem] text-ink-soft">
-            Every date above comes from NOAA predictions. Take yours with you: each station&apos;s calendar feed puts
+            Tide heights and times above come from NOAA predictions. Take yours with you: each station&apos;s calendar feed puts
             every Good-or-better daylight window in your calendar app with its arrive-by time, and it updates itself
             as new predictions land.
           </p>
@@ -123,7 +123,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       ) : station ? (
         <div className="mt-8">
           <p className="mb-3 text-[0.95rem] text-ink-soft">
-            Every date above comes from NOAA station {station.noaaId} predictions. Take them with you: the{" "}
+            Tide heights and times above come from NOAA station {station.noaaId} predictions. Take them with you: the{" "}
             {station.name} calendar feed puts every Good-or-better daylight window in your calendar app, and it
             updates itself as new predictions land.
           </p>
