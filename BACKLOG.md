@@ -5,13 +5,21 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] **Next run (Sep 14): refill the writable queue first (§2a).** The
-      Sep 13 Oregon refresh leaves two explicit writable P1 items: Acadia
-      inline H/L and Sunset Bay. Re-run `flywheel 28` and `queries 28`;
-      add at least three evidence-backed clusters without duplicating
-      completed national/Oregon king-tide, Fitzgerald or Puget chart work.
-      The weekly `inspect 40` check is also due Sep 14; include the exact
-      Oregon king-tides URL, currently discovered but never crawled.
+- [x] 2026-09-14: **Queue refilled (§2a) + weekly `inspect 40` run — result
+      flipped the day to §2a′ crawl paths.** Refill: three demand items added
+      to P1 below (national print view, Fitzgerald October chart roll-forward,
+      Constellation Park equity), bringing the writable queue to 5 with Acadia
+      inline H/L and Sunset Bay. Two hypothesized items were already shipped
+      and were NOT re-added: the Puget page already titled "Puget Sound Tide
+      Chart 2026" (Sep 9) and the Seattle guide already titled "Constellation
+      Park Tide Pools 2026" (Sep 8). Inspect 40 of 124: 20 indexed / 14
+      discovered-never-crawled / 6 unknown — 50% unindexed, so §2a′ made
+      crawl paths the primary action (see JOURNAL 09-14). Exact-URL checks:
+      Oregon king-tides guide still Discovered–never crawled (inbound links
+      shipped only Sep 13 — recheck next weekly pass before escalating);
+      Glass Beach INDEXED Sep 13 (crawled 14:03Z, 7 days after publish);
+      Finder indexed (crawled Sep 2). Trip Picker, /data/, /embed/ remain
+      never-crawled despite existing inbound links.
 - [x] 2026-09-11: **Content queue refilled from demand (§2a).** Ran fresh
       `flywheel 28` + `queries 28` and added three qualified P1 items, each
       with cluster, impressions, position and target: (1) Glass Beach Port
@@ -84,6 +92,42 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+- [ ] **Print-friendly view of the national king-tide schedule — refresh,
+      not a new page** (added 2026-09-14 demand refill). Cluster: `king
+      tides 2026 2027 predictions pdf` 21 impressions / pos 8.6 / 0 clicks,
+      plus `king tides 2026-2027` 10 / 8.2 (GSC 28d, 2026-09-14). Target:
+      `king-tides-2026-2027-dates`. The "pdf" modifier recurs (also queued
+      Sep 11, deferred as optional); serve it with a print stylesheet
+      (@media print: hide nav/gates/tools, keep the three monthly tables
+      and the Oct–Mar low-window table) and a visible "print this
+      schedule" line. NEVER claim a downloadable PDF that doesn't exist.
+      Baseline before change: 47 clicks / 2,259 impressions / pos 6.9
+      (GSC 28d pages, 2026-09-14). Code change → PIPELINE_REFRESH build.
+- [ ] **Fitzgerald monthly tide chart: roll September forward to October**
+      (added 2026-09-14 demand refill; writable from late September).
+      Cluster: `fitzgerald marine reserve tide chart` 230 impressions /
+      pos 9.0 / 3 clicks + `tide schedule` 14 / 9.1 + `tide table` 7 /
+      15.3 (GSC 28d, 2026-09-14) — the property's largest non-king
+      cluster. Target: `fitzgerald-marine-reserve-tide-pooling-2026`, whose
+      complete-extremes chart section is titled "September 2026" and goes
+      stale Oct 1. Note: fact sheets carry monthly *summaries* only; the
+      daily H/L rows need a facts.mjs extension (per-day extremes for the
+      current month) so every number stays traceable to docs-internal/facts
+      — do that extension as part of this item, extend verify/tests if the
+      surface warrants, and update `updated:` honestly (real data change).
+- [ ] **Constellation Park query equity** (added 2026-09-14 demand refill).
+      Cluster: `constellation park tide pools` 19 impressions / pos 9.8 /
+      0 clicks (28d; 26 / 10.1 over 90d) + `constellation park low tide`
+      6 / 8.0 / 1 click. Target: `seattle-alki-constellation-park-tide-pools-2026`
+      (already exact-match retitled Sep 8 — do NOT retitle again; §5
+      minimum-sample applies to that experiment). Action when picked up:
+      descriptive-anchor inbound links ("Constellation Park tide pools")
+      from the Puget calendar + WA king-tides pages, and a compact
+      "Constellation Park at a glance" H2 (station 9447130, access point,
+      cobble-footing quote already in the guide) so the page answers the
+      park-named query directly. Judge later on GSC position for the
+      cluster, not CTR.
 
 - [x] 2026-09-12: **Glass Beach (Port Townsend) low-tide access guide —
       LAUNCHED** (content/articles/glass-beach-port-townsend-low-tide-2026.md,

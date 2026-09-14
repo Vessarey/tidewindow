@@ -52,7 +52,7 @@ Two of eight. That is the whole story of this reserve in one column. San Mateo C
 
 ## Fitzgerald Marine Reserve tide chart: September 2026
 
-The chart below is the rest of September's complete high-and-low schedule for station 9414131 — every predicted extreme, not just the pool-friendly lows. Times are local; heights are feet above MLLW, so a negative low means water below the average lowest tide line.
+The chart below is the rest of September's complete high-and-low schedule for station 9414131 — every predicted extreme, not just the pool-friendly lows. Times are local; heights are feet above MLLW, so a negative low means water below the average lowest tide line. Whether a given low is low *enough* is its own question — [How Low Does the Tide Need to Be for Tide Pools?](/guides/how-low-does-the-tide-need-to-be-for-tide-pools/) tests the common −0.5 ft rule against the 2026 predictions.
 
 | Date | Lows (MLLW) | Highs (MLLW) |
 |---|---|---|
@@ -126,7 +126,7 @@ Here is every day worth planning around for the rest of 2026, chronological, wit
 
 Computed 2026-09-05 from NOAA station 9414131 predictions; hours per the San Mateo County Parks seasonal schedule. Scores (0–100) weigh tide depth and daylight only — they don't know about gates, which is why October 27 scores a 65 while handing its best half-hour to the closed reserve.
 
-The gate story flips as the year ends. In summer the reserve's 8 AM open ate the dawn minus tides whole; from late October the good lows are afternoon events, and the seasonal close becomes the deadline instead. The near-term pick is Sunday, September 27 — a +0.19 ft low at 5:57 PM on a weekend, the low itself an hour before the 7 PM close — with Monday the 28th the month's only minus tide you can stand in before the gate shuts. Then the November 22–24 and December 20–23 runs are the season's real prize: three-to-five-hour windows with the deep low inside posted hours, peaking at −1.85 ft on December 23. If a date here doesn't fit your calendar, the [Pillar Point reef guide](/guides/pillar-point-tide-pools-2026/) covers the unfenced side of the same tide.
+The gate story flips as the year ends. In summer the reserve's 8 AM open ate the dawn minus tides whole; from late October the good lows are afternoon events, and the seasonal close becomes the deadline instead. The near-term pick is Sunday, September 27 — a +0.19 ft low at 5:57 PM on a weekend, the low itself an hour before the 7 PM close — with Monday the 28th the month's only minus tide you can stand in before the gate shuts. Then the November 22–24 and December 20–23 runs are the season's real prize: three-to-five-hour windows with the deep low inside posted hours, peaking at −1.85 ft on December 23. If a date here doesn't fit your calendar, the [Pillar Point reef guide](/guides/pillar-point-tide-pools-2026/) covers the unfenced side of the same tide, and the [California tide pools comparison](/guides/best-tide-pools-california-2026/) sets Fitzgerald's hours problem beside Cabrillo's.
 
 By the monthly count, 39 daylight minus tides remain in 2026 from September 5: September's 3 (the dusk run of the 28th–30th), then the recovery — 9 in October, 12 in November, and 15 in December.
 
@@ -146,7 +146,7 @@ Per San Mateo County Parks and the Friends of Fitzgerald Marine Reserve:
 - **Groups:** fewer than 15 people, no reservation needed; 15 or more require a reservation (no fee).
 - **Dogs:** not allowed at the tidepools; permitted on the Coastal Trail only.
 
-On safety, the Friends of Fitzgerald Marine Reserve put it plainly: "never turn your back on the ocean when you are out on the rocks – a big wave can come along any time!" Their rule of thumb matches our arrive-by math — pools are workable for at least an hour either side of the low, stretching to two or more on negative tides.
+On safety, the Friends of Fitzgerald Marine Reserve put it plainly: "never turn your back on the ocean when you are out on the rocks – a big wave can come along any time!" Their rule of thumb matches our arrive-by math — pools are workable for at least an hour either side of the low, stretching to two or more on negative tides. The seasonal version of that timing question — dawn lows in summer, afternoon lows from October on — is the subject of [The Best Time to Go Tide Pooling](/guides/best-time-to-go-tide-pooling/).
 
 ## How are these windows computed?
 

@@ -5,6 +5,71 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-14 — Weekly indexing check fails a third; §2a′ crawl-path links + §2a queue refill
+
+**Health:** green. Today's refresh landed before the session (commit bacf745,
+run 34831578002, started 10:07:44Z, 2m20s); all five recent runs green, no
+recovery dispatch needed. No open GitHub issues. Sunday — no newsletter action.
+
+**Primary — §2a′ crawl paths (weekly `inspect 40` failed the one-third
+test):** 40 sampled of 124 sitemap URLs → 20 Submitted-and-indexed, 14
+Discovered–currently-not-indexed (never crawled), 6 unknown to Google — 50%
+unindexed. Never-crawled sample includes /tools/trip-picker/, /data/,
+/embed/, five guides (sneaker-wave, best-tide-pools-oregon, best-tide-pools-
+california, cabrillo, how-low-does-the-tide-need-to-be) and six month pages;
+best-time-to-go-tide-pooling and la-push-second-beach are "unknown". Exact-URL
+inspections: the Oregon king-tides guide is still Discovered–never crawled
+(its new inbound links shipped only yesterday — no escalation yet); Glass
+Beach is INDEXED (crawled Sep 13, 7 days after publish — proof the pipeline
+works when links exist); the Finder is indexed. Diagnosis that shaped the
+fix: best-time-to-go-tide-pooling had ZERO in-body inbound links, sneaker-wave
+had one, best-tide-pools-california one. Shipped seven contextual in-body
+links from the top click-earning indexed guides into the weakest never-crawled
+targets: Fitzgerald guide (36 clicks/28d) → how-low threshold guide,
+best-time-to-go guide, CA comparison; agate guide (9 clicks) → sneaker-wave
+explainer, best-tide-pools-oregon; Seattle/Constellation guide (15 clicks) →
+best-time-to-go; national king-tides guide (47 clicks) → sneaker-wave. Every
+pointer sentence was checked against the target article's actual claims (NWS
+definitions, one-hour rule, Puget-runs-late, Cabrillo-vs-Fitzgerald hours) —
+no new numbers, no new safety advice, links only. Fake-lastmod check: sitemap.ts
+still emits lastModified only where true; link-only edits did not bump
+`updated:` (Sep 13 precedent), so no dishonest freshness signal. Trip Picker
+already has many article inbounds yet stays uncrawled — links alone may not
+move it; if it and /data/ are still uncrawled at the next weekly check,
+consider a homepage-level path or judge it a Google-side lag, not a link gap.
+
+**Secondary — §2a refill (P0):** queue was down to 2 writable items. Added
+three demand-backed P1 items (details in BACKLOG): national print-friendly
+schedule view (`…predictions pdf` 21 impressions / pos 8.6), Fitzgerald
+October chart roll-forward (head cluster 230 impressions / pos 9.0 — needs a
+facts.mjs per-day-extremes extension so numbers stay fact-sheet-traceable),
+and Constellation Park query equity (19 impressions / pos 9.8). Two planned
+candidates were discovered already shipped (Puget "Tide Chart" title Sep 9,
+Constellation Park title Sep 8) and were not duplicated. Queue now 5 writable.
+
+**Metrics (PostHog 495836, 7d to ~11:30Z Sep 14, prod hosts):** 333 pageviews
+/ 283 distinct users / 3 signups = 1.06% (target 1.5%). Top paths: national
+king tides 81, Finder 19, WA king tides 16, how-to-read-a-tide-table 14,
+home 14. GSC 28d pages: national 47 clicks / 2,259 impressions / pos 6.9;
+Fitzgerald 36 / 1,535 / 7.0; Seattle 15 / 455 / 6.5; PT hub 12 / 388 / 11.1;
+agate 9 / 189 / 6.6.
+
+**Gates:** content-only change → plain `npm run build` green: 137 routes,
+verify-output OK (12 stations × 4 months, 124 sitemap URLs), 30/30 fact
+tests, zero new warnings. Diff review: exactly 4 article files, +7/−7 lines,
+no cron-owned files touched. All five link targets confirmed present in
+`out/` and both-way rendering checked in built HTML. No external links added.
+
+**Next:** Monday Sep 15 — pick ONE from the 5-item queue (national print view
+is the strongest demand signal; Fitzgerald October roll-forward becomes
+writable late September). Next weekly inspect (Sep 21): recheck Oregon
+king-tides URL, Trip Picker, /data/ crawl status to judge whether the link
+paths worked. Thursday Sep 17: newsletter ritual. Oct 1: owner exit-prompt
+decision (lifetime impressions), November rollover, September chart
+refreshes. Oct 15: Mora conditions recheck.
+
+---
+
 ## 2026-09-13 (heartbeat, 17:15Z cutoff) — Oregon guide discovery and factual refresh
 
 **Coordination / one primary action:** entered clean main at f53a15f after

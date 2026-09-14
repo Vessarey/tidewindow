@@ -168,7 +168,7 @@ Bar Harbor's January 23, 2027 low is -1.89 ft at 5:20 PM, with 60 daylight minut
 
 ## Check your dates, then keep the useful ones
 
-For a fixed trip later in the season, start with the [Trip Picker](/tools/trip-picker/): choose the station and your date range. For the next 30 days, the [Tide Window Finder](/tools/tide-window-finder/) can select the nearest covered station from a ZIP code. Both help compare computed low-water windows; neither is the high-tide flooding outlook.
+For a fixed trip later in the season, start with the [Trip Picker](/tools/trip-picker/): choose the station and your date range. For the next 30 days, the [Tide Window Finder](/tools/tide-window-finder/) can select the nearest covered station from a ZIP code. Both help compare computed low-water windows; neither is the high-tide flooding outlook. King-tide season on the Pacific coast is also large-swell season: [What Is a Sneaker Wave?](/guides/what-is-a-sneaker-wave/) collects the National Weather Service's definition and its watch-the-ocean guidance for winter beaches.
 
 The [calendar feeds](/calendars/) carry Good-or-better daylight windows, not every monthly high above. The station picker below offers the same low-window subscription. For a broader view, use the [year heatmap](/tools/year-heatmap/), or inspect the prediction data on the [open datasets page](/data/). The weekly email follows windows as they come into range.
 
