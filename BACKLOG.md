@@ -93,7 +93,7 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
-- [ ] **Print-friendly view of the national king-tide schedule — refresh,
+- [x] **Print-friendly view of the national king-tide schedule — refresh,
       not a new page** (added 2026-09-14 demand refill). Cluster: `king
       tides 2026 2027 predictions pdf` 21 impressions / pos 8.6 / 0 clicks,
       plus `king tides 2026-2027` 10 / 8.2 (GSC 28d, 2026-09-14). Target:
@@ -104,6 +104,16 @@ with the date; add discoveries at the appropriate tier.
       schedule" line. NEVER claim a downloadable PDF that doesn't exist.
       Baseline before change: 47 clicks / 2,259 impressions / pos 6.9
       (GSC 28d pages, 2026-09-14). Code change → PIPELINE_REFRESH build.
+      **Done Sep 14 heartbeat:** visible print button and scoped print CSS;
+      all five tables (53 data rows), context, FAQs and sources retained.
+      Navigation, gates, forms and related-tools blocks stay off the printout.
+      Letter/A4 eight-page previews visually checked; native Chrome print
+      dialog opens; 375px screen view fits. This uses the browser's Save as
+      PDF option, not a hosted PDF download. No article numbers, metadata or
+      today's operator links changed. Fresh-NOAA and production-input builds,
+      30 fact tests and the extended output gate passed. Exact page+PDF-query
+      read at the heartbeat: 19 impressions / 8.63 / 0 clicks over Aug 15–Sep 12;
+      do not mix this with the operator's broader query-only count above.
 - [ ] **Fitzgerald monthly tide chart: roll September forward to October**
       (added 2026-09-14 demand refill; writable from late September).
       Cluster: `fitzgerald marine reserve tide chart` 230 impressions /
@@ -755,6 +765,12 @@ with the date; add discoveries at the appropriate tier.
       the project-level Error Tracking setting) and verify that it lands before
       restoring exception counts to the health report. Do not pollute Regular
       traffic or infer health from the empty issues view in the meantime.
+      **Sep 14 read-only evidence:** production Regular pageviews in the
+      trailing seven days report `$exception_capture_enabled_server_side`
+      false on 62 events, missing on 266, true on none. Project opt-in is
+      null; no `$exception` seen in 30 days. This supports disabled remote
+      capture where reported, not a production zero-error conclusion.
+      No setting change or synthetic production exception was made.
 
 - [x] **2026-09-05 CLOSED — production LCP recovered with a real sample.**
       **09-06 measurement correction:** the 63 below counted all
@@ -829,7 +845,10 @@ with the date; add discoveries at the appropriate tier.
       content/title refresh, not a randomized test or an isolated title
       effect. One extension maximum; retire as unmeasurable if needed.
       The old gated-signup experiment remains closed.
-- [ ] **~2026-09-14: judge the 2026-08-30/31 search+conversion pass on GSC
+      **Sep 14:** the same guide gained a print utility, with title, tables
+      and article dates unchanged. Include this concurrent surface change in
+      the Oct 5 observational readout; no isolated print/conversion test began.
+- [x] **2026-09-14: read the 2026-08-30/31 search+conversion pass on GSC
       date-dimension data** (tiny-n rules apply). Baselines at ship
       (GSC 28d to 08-29): site CTR ~1.3%, clicks ~3-5/day, impressions
       300-500/day; pillar-point station page 0 clicks / 897 impr;
@@ -844,6 +863,20 @@ with the date; add discoveries at the appropriate tier.
       "tool_gate = finder" readouts in earlier journal entries conflate
       those surfaces. From 08-31 they report month_gate / station_gate;
       segment all gate readouts at that date.
+      **Completed Sep 14 heartbeat, observational/no isolated gain established.**
+      Equal 12-day date windows (Aug 18–29 vs Sep 1–12; exclude both change
+      days): site 54→102 clicks, 4,220→6,426 impressions, position 8.73→7.43.
+      Pillar Point station 0→0 clicks / 359→558 impressions / 7.75→7.74;
+      La Jolla August 0→0 / 407→34 / 7.35→8.65 (post period below floor);
+      Seattle August 5→0 / 582→267 / 7.37→7.04. Ended-month seasonality,
+      Sept 2 retitles, new content and crawl links confound attribution.
+      Keep the factual fixes and ZIP utility; don't claim the package caused
+      the site-wide rise or judge the low-sample La Jolla page. Since Sep 1
+      00:00 EDT: home ZIP redirects 14, guide-footer redirects 1, Finder ZIP
+      matches 26 / misses 1, ZIP station selections 26; four signups (tool_gate
+      3, end_article_gated 1) are too few for a conversion verdict. The already
+      retired signup variants remain closed; Sept 30 indexing/title and Oct 5
+      national-query readouts remain separate.
 - [x] 2026-09-02 **CLOSED — unmeasurable at current traffic** (needs ~100+
       pv on one page; the site does ~7 signups per 28 days). Signup stays.
       Original item follows.

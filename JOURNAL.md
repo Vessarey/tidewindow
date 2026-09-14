@@ -5,6 +5,121 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-14 — Heartbeat: printable national schedule, due readout and release verification
+
+**Coordination and primary action:** pulled clean `cb83ab3`, read the playbook,
+backlog and newest three entries, and preserved the operator's seven crawl-path
+links and queue refill. Its weekly `inspect 40` already ran today; no duplicate
+link pass or queue refill. Shipped `417fbf1`: a print button and print-only CSS on
+the indexed national king-tides guide. This is the P1 print-utility refresh,
+not a new article, hosted PDF, gate variant or isolated conversion experiment.
+No tide data, article body, title, description, dates or operator links changed.
+All five tables (53 data rows), explanations, daylight/access distinctions,
+FAQs and sources remain; print hides navigation, gates, forms and tool blocks.
+
+**Demand/baseline:** GSC Aug 15–Sep 12 inclusive: national guide 47 clicks /
+2,259 impressions / position 6.9. The helper labels this `28d`, but those
+inclusive endpoints cover 29 calendar dates. An exact query+page filter gives
+`king tides 2026 2027 predictions pdf` 19 impressions / position 8.63 / 0 clicks;
+the operator's earlier query-only count was 21. PostHog: 84 national-guide
+pageviews in the seven days before this run. The Sep 11 schedule/title readout
+remains due around Oct 5 at 100 new target-cluster impressions; record today's
+print addition as another concurrent surface change, not an isolated effect.
+
+**Health:** today's actual refresh landed as `bacf745` (10:09:59Z), with live
+`index.json` byte-equal to committed data, generated 10:08:06.603Z: 12 stations,
+5,119 windows. Refresh run `34831578002` started 10:07:44Z and finished
+10:10:04Z; later 14:08:18Z and 16:23:10Z runs were successful skips. All five
+recent runs green; no recovery dispatch. Full refresh logs confirm postbuild
+checks and IndexNow HTTP 200 for 124 URLs before the successful push. Home,
+data index and sitemap HTTP 200; no open issues; production npm audit zero.
+No Exceptional window within the next 14 days. NPS Olympic conditions still
+state Mora Road beyond the campground closed July 8–Oct 15, campground open;
+the Rialto restoration gate stays closed pending the October recheck.
+Monday, not Sunday as the earlier entry says. No newsletter send/sync: Resend
+read-only list confirms the Sep 10 issue sent 12:06:03Z, Broadcast
+`a6c699ae-2dd2-420c-9d06-cf5c3a89f4cf`; next standing send is Thursday Sep 17.
+
+**Traffic and measurement:** native PostHog project 495836, exact production
+host + Regular traffic, fixed cutoff Sep 14 17:16:58Z (before browser QA).
+Trailing 7d: 328 pageviews / 279 distinct pageview users / 3 signup events
+(1.08%); trailing 28d: 980 / 868 / 5 (0.58%), below the 1.5% target. Seven-day
+activity: 26 station selections, 13 result views, 23 ZIP lookups, 9 gate clicks,
+2 ICS reveals, 15 Trip Picker runs and 12 exit-prompt views. Top paths after
+national 84: Finder 17, WA king tides 16, home/Fitzgerald/Oregon calendar 13
+each. Referring-domain PAGEVIEWS, not sessions: Google 93, direct 79,
+DuckDuckGo 56, www.bing.com 39, self 29, Yahoo 22; no GitHub views in this slice.
+No claim of an AI-referral trend. LCP last 24h: p90 1,051.2 ms from only 10
+actual nonnegative LCP-bearing events, below the 30-observation floor; no tuning.
+Exception health is unproven: active issue list empty, no `$exception` seen in
+30d, project opt-in null. Seven-day pageviews report server-side exception
+capture false on 62, missing on 266, true on none. This supports disabled
+capture where reported, not a measured production zero. No project-setting
+mutation or synthetic production exception; backlog evidence updated.
+
+**Search/indexing:** latest complete week Sep 6–12 has 58 clicks, vs 57 for
+Aug 30–Sep 5. Today's exact URL inspections: national submitted/indexed
+(last crawl Sep 11 12:15:02Z); Oregon, Trip Picker and `/data/` discovered/not
+indexed; Glass Beach submitted/indexed (crawl Sep 13 14:03:14Z). Glass Beach
+was published Sep 12: that crawl was one day later, not seven as the earlier
+entry says. Browser Pages report remains dated Sep 3: 61 indexed, 66 excluded
+(62 discovered, 1 crawled/not-indexed, 3 redirects). It is a lagged aggregate,
+not a present-day census or a comparison with today's 40-URL sample. The
+operator's 20/40 indexed sample still establishes the crawl constraint; let
+the Sep 13–14 links get fetched before claiming an effect or duplicating them.
+
+**Due Aug 30–31 readout completed:** equal 12-day GSC date windows, Aug 18–29
+vs Sep 1–12, excluding both change days. Site 54→102 clicks, 4,220→6,426
+impressions, position 8.73→7.43. Target page comparisons:
+
+| Page | Clicks pre→post | Impressions pre→post | Position pre→post |
+|---|---:|---:|---:|
+| Pillar Point station | 0→0 | 359→558 | 7.75→7.74 |
+| La Jolla August | 0→0 | 407→34 | 7.35→8.65 |
+| Seattle August | 5→0 | 582→267 | 7.37→7.04 |
+
+No isolated target-page click gain established. La Jolla post period is below
+the floor; do not judge it. Ended-month seasonality, Sep 2 retitles, new content
+and crawl links prevent attributing the site-wide rise to this package. Keep
+the factual repairs and useful ZIP paths. Since Sep 1 00:00 EDT, after gate
+source repair: home ZIP redirects 14, guide-footer redirects 1, Finder ZIP
+matches 26 / misses 1, ZIP station selections 26; four signup events (tool_gate
+3, end_article_gated 1) are insufficient for a conversion verdict. No retired
+signup experiment reopened. Sept 30 station-title/indexing and Oct 5 national
+query readouts are separate.
+
+**Validation/release:** lint, diff check, production-input build and isolated
+`PIPELINE_REFRESH=1 npm run build` passed; each build includes 30 fact tests,
+12×4 month checks and 124 sitemap URLs. Added a postbuild guard for the single
+print opt-in, five complete tables and essential context. The first isolated
+build fetched NOAA successfully but Turbopack rejected an external node_modules
+symlink; replaced that disposable link with a local copy and reran successfully.
+Final CSS was also rebuilt against the fresh dataset. No generated output was
+copied back or committed. Browser QA: home ZIP 98101→Seattle, Finder depth
+filter, La Push Oct 1–7 Trip Picker and calendar-panel opening passed without
+console warnings/errors; no signup submitted. Native date controls were needed
+because the in-app browser's Playwright date fill left inputs empty.
+
+The PDF skill's render-and-inspect pass checked all eight pages on Letter and
+A4; kept table introductions and sources together, no clipped cells. Chrome's
+actual print dialog opened from the button and was cancelled without printing.
+Desktop and 375×812 mobile screen views passed (document width 375 at width
+375); print-media checks show all five tables and zero visible controls/nav.
+QA-only PDFs/PNGs are under `/tmp/tidewindow-print-qa.dKtnFt/tmp/pdfs/`, not
+published downloads. Vercel marked `417fbf1` successful at 17:35:49Z; live guide
+HTTP 200, button and both CSS assets present, five tables visible, no browser
+warnings/errors. The article body is identical across production, local build
+and fresh-data build. Operator changes and cron-owned data remain intact.
+
+**Next (Tuesday Sep 15):** follow the queue after routine health checks; three
+other P1 items remain writable this week, excluding the late-September
+Fitzgerald October rollover. Preserve the indexing-first constraint and allow
+time for the new crawl links. Keep the exception-capture caveat in health
+reports. No spending, outreach, broadcast, credential/config change or new
+automation was performed.
+
+---
+
 ## 2026-09-14 — Weekly indexing check fails a third; §2a′ crawl-path links + §2a queue refill
 
 **Health:** green. Today's refresh landed before the session (commit bacf745,
