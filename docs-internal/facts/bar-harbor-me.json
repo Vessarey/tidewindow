@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-13",
+ "generated_on": "2026-09-14",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -53,18 +53,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": -0.267,
-   "low_time_local": "6:48 AM",
-   "window_local": "5:35 AM–8:05 AM",
-   "arrive_by_local": "5:48 AM",
-   "daylight_min": 115,
-   "score": 53,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-09-27",
    "weekday": "Sun",
    "low_ft": -0.365,
@@ -109,6 +97,18 @@
    "arrive_by_local": "2:21 PM",
    "daylight_min": 134,
    "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.031,
+   "low_time_local": "4:00 PM",
+   "window_local": "2:50 PM–5:10 PM",
+   "arrive_by_local": "3:00 PM",
+   "daylight_min": 140,
+   "score": 49,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -552,34 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": -0.267,
-   "low_time_local": "6:48 AM",
-   "window_local": "5:35 AM–8:05 AM",
-   "arrive_by_local": "5:48 AM",
-   "daylight_min": 115,
-   "score": 53,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 91,
-   "min_to_sun_edge": 38
-  },
-  {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": -0.336,
-   "low_time_local": "7:13 PM",
-   "window_local": "5:50 PM–8:25 PM",
-   "arrive_by_local": "6:13 PM",
-   "daylight_min": 57,
-   "score": 44,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 280,
-   "min_to_sun_edge": -26
-  },
-  {
    "date": "2026-09-14",
    "weekday": "Mon",
    "low_ft": 0.225,
@@ -634,6 +606,34 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 89,
    "min_to_sun_edge": -18
+  },
+  {
+   "date": "2026-09-28",
+   "weekday": "Mon",
+   "low_ft": -0.606,
+   "low_time_local": "6:35 PM",
+   "window_local": "5:10 PM–8:05 PM",
+   "arrive_by_local": "5:35 PM",
+   "daylight_min": 69,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 270,
+   "min_to_sun_edge": -16
+  },
+  {
+   "date": "2026-09-29",
+   "weekday": "Tue",
+   "low_ft": 0.033,
+   "low_time_local": "6:49 AM",
+   "window_local": "5:45 AM–7:55 AM",
+   "arrive_by_local": "5:49 AM",
+   "daylight_min": 87,
+   "score": 32,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 96,
+   "min_to_sun_edge": 21
   }
  ],
  "species_last60d_5km": [
@@ -645,12 +645,12 @@
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "Atlantic Jackknife",

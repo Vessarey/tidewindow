@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-13",
+ "generated_on": "2026-09-14",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -640,27 +640,17 @@
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 79
+   "count": 76
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 35
-  },
-  {
-   "commonName": "Stearns' Aeolid",
-   "scientificName": "Austraeolis stearnsi",
    "count": 33
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 27
-  },
-  {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 27
+   "count": 24
   },
   {
    "commonName": "California Aglaja",
@@ -668,14 +658,19 @@
    "count": 23
   },
   {
-   "commonName": "Hedgpeth's Dorid",
-   "scientificName": "Polycera hedgpethi",
-   "count": 19
+   "commonName": "Stearns' Aeolid",
+   "scientificName": "Austraeolis stearnsi",
+   "count": 23
   },
   {
-   "commonName": "Olive's Aeolid",
-   "scientificName": "Anteaeolidiella oliviae",
-   "count": 17
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 22
+  },
+  {
+   "commonName": "Hedgpeth's Dorid",
+   "scientificName": "Polycera hedgpethi",
+   "count": 16
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -685,7 +680,12 @@
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 16
+   "count": 15
+  },
+  {
+   "commonName": "Olive's Aeolid",
+   "scientificName": "Anteaeolidiella oliviae",
+   "count": 14
   }
  ]
 }

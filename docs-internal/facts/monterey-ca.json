@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-13",
+ "generated_on": "2026-09-14",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -552,20 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": 0.691,
-   "low_time_local": "7:02 PM",
-   "window_local": "5:55 PM–8:05 PM",
-   "arrive_by_local": "6:02 PM",
-   "daylight_min": 83,
-   "score": 33,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 273,
-   "min_to_sun_edge": 16
-  },
-  {
    "date": "2026-09-27",
    "weekday": "Sun",
    "low_ft": 0.462,
@@ -634,13 +620,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 256,
    "min_to_sun_edge": 36
+  },
+  {
+   "date": "2026-10-12",
+   "weekday": "Mon",
+   "low_ft": 0.034,
+   "low_time_local": "6:42 PM",
+   "window_local": "4:45 PM–8:45 PM",
+   "arrive_by_local": "5:42 PM",
+   "daylight_min": 110,
+   "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 262,
+   "min_to_sun_edge": -7
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 43
+   "count": 42
   },
   {
    "commonName": "Spanish Shawl",
@@ -653,13 +653,13 @@
    "count": 20
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 14
-  },
-  {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
+   "count": 15
+  },
+  {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
    "count": 14
   },
   {
@@ -683,9 +683,9 @@
    "count": 10
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 8
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 9
   }
  ]
 }

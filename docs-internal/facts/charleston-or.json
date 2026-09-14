@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-13",
+ "generated_on": "2026-09-14",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -552,20 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": 0.855,
-   "low_time_local": "7:57 AM",
-   "window_local": "7:40 AM–8:15 AM",
-   "arrive_by_local": "6:57 AM",
-   "daylight_min": 35,
-   "score": 24,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 95,
-   "min_to_sun_edge": 62
-  },
-  {
    "date": "2026-09-26",
    "weekday": "Sat",
    "low_ft": 0.426,
@@ -634,6 +620,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 263,
    "min_to_sun_edge": -10
+  },
+  {
+   "date": "2026-10-11",
+   "weekday": "Sun",
+   "low_ft": -0.477,
+   "low_time_local": "7:30 PM",
+   "window_local": "5:45 PM–9:20 PM",
+   "arrive_by_local": "6:30 PM",
+   "daylight_min": 56,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 269,
+   "min_to_sun_edge": -49
   }
  ],
  "species_last60d_5km": [
@@ -645,7 +645,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 11
+   "count": 9
   },
   {
    "commonName": "Monterey Dorid",
@@ -683,8 +683,8 @@
    "count": 2
   },
   {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
+   "commonName": "Enteromorpha-eating Sapsucker",
+   "scientificName": "Aplysiopsis enteromorphae",
    "count": 2
   }
  ]

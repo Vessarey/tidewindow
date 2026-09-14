@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-13",
+ "generated_on": "2026-09-14",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -551,20 +551,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-13",
-   "weekday": "Sun",
-   "low_ft": 0.574,
-   "low_time_local": "8:19 AM",
-   "window_local": "7:35 AM–9:10 AM",
-   "arrive_by_local": "7:19 AM",
-   "daylight_min": 95,
-   "score": 34,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 100,
-   "min_to_sun_edge": 86
-  },
-  {
    "date": "2026-09-26",
    "weekday": "Sat",
    "low_ft": 0.218,
@@ -633,18 +619,32 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 260,
    "min_to_sun_edge": 6
+  },
+  {
+   "date": "2026-10-10",
+   "weekday": "Sat",
+   "low_ft": -0.375,
+   "low_time_local": "7:14 PM",
+   "window_local": "5:40 PM–8:50 PM",
+   "arrive_by_local": "6:14 PM",
+   "daylight_min": 59,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 267,
+   "min_to_sun_edge": -35
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 55
+   "count": 53
   },
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 7
+   "count": 6
   },
   {
    "commonName": "Striped Dogwinkle",
