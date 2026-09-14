@@ -1,0 +1,58 @@
+.printSource { display: none; }
+
+/* Only the national schedule opts in; other guides keep their existing layout. */
+@media print {
+  :global(body):has(.schedule) :global(main) {
+    max-width: none;
+    padding: 0;
+  }
+
+  :global(body):has(.schedule) :global(.exit-overlay),
+  .schedule > nav,
+  .schedule [data-print-omit] {
+    display: none !important;
+  }
+
+  .schedule {
+    color: #111;
+    font-size: 10pt;
+    line-height: 1.45;
+  }
+
+  .schedule :global(.prose) { max-width: none; }
+  .schedule h1 { max-width: none; font-size: 22pt; }
+  .schedule h2 { font-size: 15pt; margin: 18pt 0 7pt; }
+  .schedule h3 { font-size: 12pt; margin: 14pt 0 6pt; }
+  .schedule h1, .schedule h2, .schedule h3 { break-after: avoid; }
+  .schedule p { orphans: 3; widows: 3; }
+  .schedule p:has(+ table) { break-after: avoid; }
+  .schedule > section:has(> ul) { break-inside: avoid; }
+  .schedule a { color: inherit; }
+
+  .schedule table {
+    display: table;
+    overflow: visible;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 8.5pt;
+    line-height: 1.35;
+    break-inside: avoid;
+  }
+
+  .schedule thead { display: table-header-group; }
+  .schedule tr { break-inside: avoid; }
+  .schedule th, .schedule td {
+    padding: 5pt 6pt 5pt 0;
+    overflow-wrap: anywhere;
+    vertical-align: top;
+  }
+  .schedule th { font-size: 7.5pt; letter-spacing: 0; }
+  .schedule th:first-child { width: 28%; }
+
+  .printSource {
+    display: block;
+    margin: 8pt 0;
+    font-size: 8pt;
+    overflow-wrap: anywhere;
+  }
+}

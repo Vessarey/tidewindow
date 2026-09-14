@@ -9,6 +9,9 @@ import EmailSignup from "@/components/email-signup";
 import CalendarGate from "@/components/calendar-gate";
 import MultiStationGate from "@/components/multi-station-gate";
 import ZipJump from "@/components/zip-jump";
+import PrintScheduleButton from "@/components/print-schedule-button";
+import { absoluteUrl } from "@/lib/site-config";
+import printStyles from "./schedule-print.module.css";
 
 export function generateStaticParams() {
   return getAllArticles().map((a) => ({ slug: a.slug }));
@@ -42,6 +45,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const html = await markdownToHtml(a.body);
   const station = a.station ? getStationData(a.station).station : undefined;
   const gateStations = a.gateStations?.map((slug) => getStationData(slug).station);
+  const printableSchedule = a.slug === "king-tides-2026-2027-dates";
 
   // Contextual links between guides: same category first, then the newest of
   // the rest. Added 2026-09-02 after the GSC audit found 15 guides that Google
@@ -54,7 +58,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   ].slice(0, 4);
 
   return (
-    <div>
+    <div className={printableSchedule ? printStyles.schedule : undefined}>
       <ArticleJsonLd article={a} />
       <BreadcrumbJsonLd
         items={[
@@ -80,6 +84,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         )}{" "}
         · {a.readingMinutes} min read · tide heights and times from NOAA predictions
       </p>
+
+      {printableSchedule && (
+        <>
+          <PrintScheduleButton />
+          <p className={printStyles.printSource}>
+            Tidewindow · {absoluteUrl(`/guides/${a.slug}/`)}
+          </p>
+        </>
+      )}
 
       <article className="prose mt-6" dangerouslySetInnerHTML={{ __html: html }} />
 
@@ -109,7 +122,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       )}
 
       {gateStations && gateStations.length > 0 ? (
-        <div className="mt-8">
+        <div className="mt-8" data-print-omit>
           <p className="mb-3 text-[0.95rem] text-ink-soft">
             Tide heights and times above come from NOAA predictions. Take yours with you: each station&apos;s calendar feed puts
             every Good-or-better daylight window in your calendar app with its arrive-by time, and it updates itself
@@ -121,7 +134,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           />
         </div>
       ) : station ? (
-        <div className="mt-8">
+        <div className="mt-8" data-print-omit>
           <p className="mb-3 text-[0.95rem] text-ink-soft">
             Tide heights and times above come from NOAA station {station.noaaId} predictions. Take them with you: the{" "}
             {station.name} calendar feed puts every Good-or-better daylight window in your calendar app, and it
@@ -148,7 +161,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       )}
 
       {related.length > 0 && (
-        <section className="mt-8" aria-label="Related guides">
+        <section className="mt-8" aria-label="Related guides" data-print-omit>
           <h2 className="text-xl">More guides</h2>
           <ul className="mt-3 grid gap-3 sm:grid-cols-2">
             {related.map((r) => (

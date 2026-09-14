@@ -104,6 +104,24 @@ for (const loc of locs) {
   if (!fs.existsSync(file)) fail(`sitemap URL has no built page: ${p}`);
 }
 
+// ---------- 5. printable national schedule keeps the complete guide ----------
+
+const scheduleSlug = "king-tides-2026-2027-dates";
+for (const slug of fs.readdirSync(path.join(OUT, "guides"))) {
+  const file = path.join(OUT, "guides", slug, "index.html");
+  if (!fs.existsSync(file)) continue;
+  const html = stripComments(fs.readFileSync(file, "utf8"));
+  const hasPrintButton = /<button[^>]*>Print this schedule<\/button>/.test(html);
+  if (hasPrintButton !== (slug === scheduleSlug)) fail(`${slug}: print opt-in drifted`);
+  if (slug !== scheduleSlug) continue;
+  const body = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/)?.[1] ?? "";
+  if ((body.match(/<table>/g) ?? []).length !== 5 || (body.match(/<tr>/g) ?? []).length !== 58) {
+    fail("national schedule: expected all five tables and 53 data rows plus headers");
+  }
+  for (const text of ["Predictions are not observations", "after sunset", "park opening hours", "Sources"])
+    if (!html.includes(text)) fail(`national schedule: missing context: ${text}`);
+}
+
 // ---------- verdict ----------
 
 if (failures.length) {
