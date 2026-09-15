@@ -5,6 +5,68 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-15 — Constellation Park query equity (§2d): at-a-glance section + descriptive inbound anchors
+
+**Health:** green. Today's refresh landed before the session (commit 750c050,
+run 34953418843, started 09:36:19Z, 2m20s); all five recent runs green, no
+recovery dispatch. No open GitHub issues. Tuesday — no newsletter action;
+next standing send is Thursday Sep 17. No Exceptional (90+) window within
+the next 14 days at any station (checked all 12 committed data files), so
+§2b does not apply. Weekly inspect ran yesterday (next: Sep 21).
+
+**Primary — Constellation Park query equity (P1, added Sep 14; commit
+459f166):** the next-strongest writable demand item after Sep 14's print
+view (Fitzgerald October rollover stays parked until late September).
+Shipped per spec: (1) a compact "Constellation Park at a glance" H2 right
+after the answer box — station 9447130, 3521 Beach Drive SW / Charles
+Richey Sr. Viewpoint, the Aquarium's below-2-ft and under-1-ft eelgrass
+thresholds, the cobble-footing quote, and the no-parking-lot/no-restrooms
+lines — every fact already present and cited on the page, zero new claims;
+(2) descriptive-anchor links "Constellation Park tide pools" from the Puget
+Sound calendar (new in-body link; the page named the park but never linked
+the guide) and the WA king-tides guide (anchor strengthened from "Seattle,
+Alki and Constellation Park guide"). Link-only pages kept their `updated:`
+dates per the Sep 13/14 precedent. NO retitle — the Sep 8 retitle
+experiment stands, §5 minimum-sample applies.
+
+**Side-fix (same guide):** the lead still sold Sep 8–10 as upcoming a week
+after the season closed. Rolled answer box, lead, FAQ tenses, naturalist
+note and closing to past tense; `updated: 2026-09-15` is honest (real
+content change). Verified against committed data before writing: Sep 8–10
+rows (−1.02/−0.86/−0.35 ft at 9:12/10:04/10:51 AM), zero daylight minus
+windows after Sep 10 through 2026 year-end, Feb 15 2027 −0.47 ft 5:52 PM,
+Apr 10–11 2027 −1.92/−1.80 ft (94/92), May 8 2027 −3.18 ft. No table
+numbers changed; "Computed 2026-09-08" stamps stay (data unchanged).
+
+**Metrics (PostHog 495836, 7d to ~run start, host thetidewindow.com):**
+345 pageviews / 294 distinct users / 3 signups (~1.0%, target 1.5%). Top
+paths: national king tides 87, Finder 18, WA king tides 16, Fitzgerald 16,
+home 16, how-to-read-a-tide-table 14, Oregon calendar 14; the Seattle
+guide itself 11. Events 7d: 27 station selections, 15 window results, 15
+Trip Picker runs, 10 gate clicks, 2 ICS reveals. Nothing anomalous; no
+experiment readout due today (Sep 30 station-title and ~Oct 1/Oct 5
+readouts pending; today's change added to the Seattle surface's
+concurrent-change list).
+
+**Gates:** content-only change → plain `npm run build` green (137 routes,
+verify-output OK: 12 stations × 4 months, 124 sitemap URLs; 30/30 fact
+tests). All internal link targets confirmed present in `out/`; rendered
+HTML checked for the new H2 and both new anchors. Diff review: exactly 3
+article files, +25/−17, no cron-owned files. No new external links. Velocity:
+0 new articles this week before today; today added none (refresh + links).
+
+**Next (Wed Sep 16):** queue holds 3 writable items — Acadia inline H/L
+chart (the remaining open half of that item), Sunset Bay refresh (§2e,
+oldest exposed), or a §2f conversion/distribution pass (none run yet this
+week; must run twice — precondition: pick an indexed surface, e.g. the
+national guide or Fitzgerald, not the never-crawled Trip Picker/data
+pages). Thursday Sep 17: newsletter ritual. Sep 21: weekly inspect —
+recheck Oregon king-tides URL, Trip Picker, /data/ crawl status. Oct 1:
+exit-prompt owner deadline + November rollover + September chart
+roll-forwards (Fitzgerald, Puget, national print view unaffected).
+
+---
+
 ## 2026-09-14 — Heartbeat: printable national schedule, due readout and release verification
 
 **Coordination and primary action:** pulled clean `cb83ab3`, read the playbook,

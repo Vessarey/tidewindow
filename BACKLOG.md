@@ -126,18 +126,29 @@ with the date; add discoveries at the appropriate tier.
       current month) so every number stays traceable to docs-internal/facts
       — do that extension as part of this item, extend verify/tests if the
       surface warrants, and update `updated:` honestly (real data change).
-- [ ] **Constellation Park query equity** (added 2026-09-14 demand refill).
-      Cluster: `constellation park tide pools` 19 impressions / pos 9.8 /
-      0 clicks (28d; 26 / 10.1 over 90d) + `constellation park low tide`
-      6 / 8.0 / 1 click. Target: `seattle-alki-constellation-park-tide-pools-2026`
-      (already exact-match retitled Sep 8 — do NOT retitle again; §5
-      minimum-sample applies to that experiment). Action when picked up:
-      descriptive-anchor inbound links ("Constellation Park tide pools")
-      from the Puget calendar + WA king-tides pages, and a compact
-      "Constellation Park at a glance" H2 (station 9447130, access point,
-      cobble-footing quote already in the guide) so the page answers the
-      park-named query directly. Judge later on GSC position for the
-      cluster, not CTR.
+- [x] 2026-09-15: **Constellation Park query equity DONE** (459f166).
+      Shipped exactly as specced: "Constellation Park at a glance" H2
+      (station 9447130, access point/address, Aquarium below-2-ft and
+      eelgrass thresholds, cobble-footing quote, parking/restrooms — all
+      from claims already cited on the page) placed directly after the
+      answer box, plus descriptive-anchor inbound links ("Constellation
+      Park tide pools") from the Puget Sound calendar and WA king-tides
+      guide (link-only edits, no `updated:` bump there). NO retitle, per
+      spec. Side-fix in the same file: rolled the stale Sep 8-10
+      season-close lead/FAQ to past tense (real change → `updated:`
+      2026-09-15); every restated number verified against committed
+      predictions (zero daylight minus tides after Sep 10 2026; Feb 15
+      2027 −0.47 ft 5:52 PM; Apr 10–11 2027 −1.92/−1.80 ft). Judge on
+      GSC position for the cluster (baseline 19 impr / pos 9.8 / 0 clicks
+      28d on 2026-09-14), not CTR; §5 minimum-sample applies — the Sep 8
+      retitle experiment readout (~10-01) now shares this surface with
+      today's change, so attribute cluster movement to the package, not
+      either edit alone.
+      Original item (added 2026-09-14 demand refill): cluster
+      `constellation park tide pools` 19 impressions / pos 9.8 / 0 clicks
+      (28d; 26 / 10.1 over 90d) + `constellation park low tide` 6 / 8.0 /
+      1 click; descriptive-anchor inbound links + at-a-glance H2 so the
+      page answers the park-named query directly.
 
 - [x] 2026-09-12: **Glass Beach (Port Townsend) low-tide access guide —
       LAUNCHED** (content/articles/glass-beach-port-townsend-low-tide-2026.md,
