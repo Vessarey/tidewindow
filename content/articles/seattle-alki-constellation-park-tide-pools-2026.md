@@ -1,18 +1,18 @@
 ---
 title: "Constellation Park Tide Pools 2026: Seattle & Alki Point Low-Tide Guide"
-description: "Seattle's 2026 daylight minus-tide season closes September 8–10 at −1.02 ft (NOAA 9447130). Where to go at Constellation Park, and when low tides return."
+description: "Seattle's 2026 daylight minus-tide season ended September 10 (NOAA 9447130). Constellation Park at a glance, and when low tides return in 2027."
 date: "2026-07-12"
-updated: "2026-09-08"
+updated: "2026-09-15"
 category: "station-guides"
 station: "seattle-wa"
 tags: ["constellation park tide pools", "seattle tide pools", "alki beach", "puget sound low tide", "west seattle tide pooling", "beach naturalists"]
 faq:
-  - q: "When is the last good low tide in Seattle in 2026?"
-    a: "September 8–10, 2026 — the last daylight minus tides of the year at NOAA Seattle station 9447130. The deepest is −1.02 ft MLLW on Tuesday, September 8 at 9:12 AM; Wednesday bottoms at −0.86 ft at 10:04 AM and Thursday at −0.35 ft at 10:51 AM. After Thursday, September 10, no daylight minus tide returns to Seattle for the rest of 2026."
+  - q: "When was the last good low tide in Seattle in 2026?"
+    a: "September 8–10, 2026 — the last daylight minus tides of the year at NOAA Seattle station 9447130. The deepest was −1.02 ft MLLW on Tuesday, September 8 at 9:12 AM; Wednesday bottomed at −0.86 ft at 10:04 AM and Thursday at −0.35 ft at 10:51 AM. After Thursday, September 10, no daylight minus tide returns to Seattle for the rest of 2026."
   - q: "Where are the best tide pools in Seattle?"
     a: "Constellation Park, also called Charles Richey Sr. Viewpoint, on the south side of Alki Point in West Seattle (3521 Beach Drive SW). The Seattle Aquarium describes its 'two large rock lines where you can find sea stars, anemones, barnacles, crabs and algae.' There is no parking lot — free street parking only — and no restrooms; the closest are at Alki Beach, about a 7-minute drive north."
   - q: "How low does the tide need to be to see the tide pools at Constellation Park?"
-    a: "The Seattle Aquarium says Constellation Park 'is best for tide pooling when the tide level is below 2 feet,' and 'the eelgrass beds are visible on tides less than 1 foot.' The September 8–10, 2026 lows all clear both bars with room to spare, ranging from −0.35 ft to −1.02 ft MLLW at NOAA station 9447130."
+    a: "The Seattle Aquarium says Constellation Park 'is best for tide pooling when the tide level is below 2 feet,' and 'the eelgrass beds are visible on tides less than 1 foot.' The September 8–10, 2026 lows all cleared both bars with room to spare, ranging from −0.35 ft to −1.02 ft MLLW at NOAA station 9447130."
   - q: "When do good low tides come back to Seattle after 2026?"
     a: "Not until 2027, going by NOAA station 9447130 predictions. The next daylight minus tide of any kind is February 15, 2027, a −0.47 ft low at 5:52 PM, right at dusk. Workable afternoon runs return in mid-March 2027, and the first Exceptional-rated windows land the weekend of April 10–11, 2027 — −1.92 ft at 2:02 PM on the Saturday."
   - q: "When was the best tidepooling in Seattle in 2026?"
@@ -25,13 +25,21 @@ sources:
   - "https://westseattleblog.com/2026/05/low-low-tides-ahead-heres-when-to-see-them-with-and-without-beach-naturalists/"
 ---
 
-**Seattle's tidepool season closes this week. The last daylight minus tides of 2026 at NOAA station 9447130 land Tuesday–Thursday, September 8–10 — deepest on Tuesday the 8th at −1.02 ft MLLW, low at 9:12 AM, arrive by 8:12 AM. The place to spend them is Constellation Park on the south side of Alki Point, where the Seattle Aquarium says pooling is best below 2 feet. After Thursday, no daylight minus tide returns here until 2027.**
+**Seattle's 2026 tidepool season is over. The year's last daylight minus tides at NOAA station 9447130 ran September 8–10, bottoming at −1.02 ft MLLW on Tuesday the 8th, and no daylight minus tide returns until February 15, 2027 — a −0.47 ft low at 5:52 PM, right at dusk. The place to keep on the list for next season is Constellation Park on the south side of Alki Point, where the Seattle Aquarium says pooling is best when the tide is below 2 feet; the first Exceptional windows of 2027 land the weekend of April 10–11.**
 
-Puget Sound is generous with daylight low water in summer and stingy the rest of the year. By mid-September the deep lows start sliding into the night, and from October through December every minus tide at the Seattle station happens in darkness. This is the last call.
+Puget Sound is generous with daylight low water in summer and stingy the rest of the year. By mid-September the deep lows slide into the night, and from October through December every minus tide at the Seattle station happens in darkness. The 2026 season is now closed.
 
-## The last low-tide window of 2026: September 8–10
+## Constellation Park at a glance
 
-Tidewindow computes windows for the West Seattle and Ballard beaches from the [NOAA Seattle station (9447130)](/beaches/wa/seattle-wa/). Here is what remains of 2026:
+- **Where:** the south side of Alki Point in West Seattle, at 3521 Beach Drive SW — signed as **Charles Richey Sr. Viewpoint** — with a small marine reserve at the end of 63rd Ave SW.
+- **Tide station:** NOAA Seattle station 9447130; live windows and seven-day high/low tables are on the [Seattle station page](/beaches/wa/seattle-wa/).
+- **When it's worth going:** the Seattle Aquarium says the park "is best for tide pooling when the tide level is below 2 feet," and "the eelgrass beds are visible on tides less than 1 foot."
+- **Footing:** the shore "is characterized by large cobble, which is often covered in slippery algae" — the Aquarium's words. Test rocks before you commit your weight.
+- **Parking and restrooms:** "There is no parking lot at this location" and "There are no public restrooms at this park" — free street parking only; the nearest restrooms are at Alki Beach, about a 7-minute drive north.
+
+## How the season ended: September 8–10
+
+Tidewindow computes windows for the West Seattle and Ballard beaches from the [NOAA Seattle station (9447130)](/beaches/wa/seattle-wa/). Here is how 2026 closed out:
 
 | Date | Low (ft MLLW) | Time of low | Tide window | Arrive by | Score |
 |---|---|---|---|---|---|
@@ -41,7 +49,7 @@ Tidewindow computes windows for the West Seattle and Ballard beaches from the [N
 
 *Computed 2026-09-08 from NOAA station 9447130 predictions, MLLW. Scores (0–100) weigh tide depth and daylight together.*
 
-These are modest lows next to July's monsters, but they clear the Seattle Aquarium's "below 2 feet" tide-pooling bar — and its "less than 1 foot" eelgrass bar — comfortably, and they land at very civilized mid-morning hours. One footnote: Friday, September 11 has a +0.5 ft low at 11:34 AM, which still technically clears both Aquarium bars for a shorter, shallower look, but it is not a minus tide and our scoring rates the window Skip.
+These were modest lows next to July's monsters, but they cleared the Seattle Aquarium's "below 2 feet" tide-pooling bar — and its "less than 1 foot" eelgrass bar — comfortably, and they landed at very civilized mid-morning hours. One footnote: Friday, September 11 had a +0.5 ft low at 11:34 AM, which still technically cleared both Aquarium bars for a shorter, shallower look, but it was not a minus tide and our scoring rated the window Skip.
 
 ## Where to go: Constellation Park and Alki
 
@@ -53,7 +61,7 @@ At the north end of the city, **Golden Gardens** in Ballard is the sandy-shore a
 
 ## The Puget Sound advantage: midday lows
 
-If you have read our [dawn-lows guide](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/), you know the open Pacific coast forces its best summer tidepoolers out of bed before sunrise. Puget Sound does not. The Sound's tide is offset from the outer coast, so its deepest daylight lows land in late morning and midday — this final run comes at 9:12, 10:04, and 10:51 AM. That is the quiet luxury of tidepooling in the city: you can have coffee first.
+If you have read our [dawn-lows guide](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/), you know the open Pacific coast forces its best summer tidepoolers out of bed before sunrise. Puget Sound does not. The Sound's tide is offset from the outer coast, so its deepest daylight lows land in late morning and midday — the 2026 finale came at 9:12, 10:04, and 10:51 AM. That is the quiet luxury of tidepooling in the city: you can have coffee first.
 
 ## When do the low tides come back?
 
@@ -95,12 +103,12 @@ The last two months of community observations logged within a few kilometers of 
 
 ## Beach naturalists: season wrapped
 
-The **Seattle Aquarium Beach Naturalist** program puts trained volunteers on the shore during the summer's biggest lows to, in the Aquarium's words, "educate members of the public on how to explore shorelines while keeping animals and their homes safe." The 2026 season's posted dates ran from May through July — including Golden Gardens and Lincoln Park in West Seattle — so there are no naturalist events scheduled for this September run. If you are bringing kids on one of the last windows, [Tidepooling With Kids](/guides/tidepooling-with-kids/) has the checklist, the rules, and the family-friendly habits the naturalists teach.
+The **Seattle Aquarium Beach Naturalist** program puts trained volunteers on the shore during the summer's biggest lows to, in the Aquarium's words, "educate members of the public on how to explore shorelines while keeping animals and their homes safe." The 2026 season's posted dates ran from May through July — including Golden Gardens and Lincoln Park in West Seattle — so the naturalist calendar is wrapped until next summer. If you are planning to bring kids in 2027, [Tidepooling With Kids](/guides/tidepooling-with-kids/) has the checklist, the rules, and the family-friendly habits the naturalists teach.
 
-## How to work the window
+## How to work a window
 
-Use the arrive-by time in the table, not the low time — get onto the beach about an hour ahead so you can follow the water out to the lowest rocks as it drops; the one-hour rule, and why Puget Sound's "best time" runs later in the day than the outer coast's, is covered in [The Best Time to Go Tide Pooling](/guides/best-time-to-go-tide-pooling/). The footing is the real hazard here: the Aquarium notes Constellation Park "is characterized by large cobble, which is often covered in slippery algae," so step deliberately and test rocks before you commit your weight. Watch the tide turn and start back before it fills in behind you. September's shallower lows also expose less rock than July's did, so the pools that matter are the ones closest to the waterline — all the more reason to be there when it bottoms out.
+Use the arrive-by time, not the low time — get onto the beach about an hour ahead so you can follow the water out to the lowest rocks as it drops; the one-hour rule, and why Puget Sound's "best time" runs later in the day than the outer coast's, is covered in [The Best Time to Go Tide Pooling](/guides/best-time-to-go-tide-pooling/). The footing is the real hazard here: the Aquarium notes Constellation Park "is characterized by large cobble, which is often covered in slippery algae," so step deliberately and test rocks before you commit your weight. Watch the tide turn and start back before it fills in behind you. Shallower lows expose less rock than the deep spring-tide runs do, so on a modest window the pools that matter are the ones closest to the waterline — all the more reason to be there when it bottoms out.
 
 The other rule is for the animals, not you. Look, lift gently, and put everything back exactly as you found it — every rock you turn is the ceiling of someone's home, and an overturned rock left flipped cooks the life underneath. Leave the creatures where they live. That is the whole ethic the beach naturalists are there to model.
 
-For the day-by-day view, the [year heatmap](/tools/year-heatmap/) shows how the season empties out after this week, and the [trip picker](/tools/trip-picker/) finds multi-day runs automatically — point it at spring 2027. Chasing light as much as water? The [golden-hour calendar](/tools/golden-hour/) flags the days when the low and the low sun line up. And for the wider Puget Sound picture across stations, the [Puget Sound low-tide calendar](/guides/puget-sound-low-tide-calendar-2026/) puts Seattle next to Port Townsend and the rest of the Sound. Three mornings left, one season — see it out.
+For the day-by-day view, the [year heatmap](/tools/year-heatmap/) shows how empty the calendar runs until spring, and the [trip picker](/tools/trip-picker/) finds multi-day runs automatically — point it at spring 2027. Chasing light as much as water? The [golden-hour calendar](/tools/golden-hour/) flags the days when the low and the low sun line up. And for the wider Puget Sound picture across stations, the [Puget Sound low-tide calendar](/guides/puget-sound-low-tide-calendar-2026/) puts Seattle next to Port Townsend and the rest of the Sound. One season down; the next cracks open at a February dusk and gets serious on the April 10–11 weekend.

@@ -92,7 +92,7 @@ Winter lows come with winter ocean, and the outer coast is the most exposed shor
 
 - **La Push** (9442396): Second Beach and Third Beach — the [La Push and Second Beach guide](/guides/la-push-second-beach-tide-pools-2026/), which leads with the current access advisories for the Mora/Rialto side.
 - **Port Townsend** (9444900): Fort Worden State Park, North Beach, Glass Beach — the [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/).
-- **Seattle** (9447130): Alki Beach, Constellation Park, Golden Gardens — the [Seattle, Alki and Constellation Park guide](/guides/seattle-alki-constellation-park-tide-pools-2026/), and the statewide picture in [Best tide pools in Washington](/guides/best-tide-pools-washington-2026/).
+- **Seattle** (9447130): Alki Beach, Constellation Park, Golden Gardens — the [Constellation Park tide pools guide](/guides/seattle-alki-constellation-park-tide-pools-2026/) covers all three, and the statewide picture is in [Best tide pools in Washington](/guides/best-tide-pools-washington-2026/).
 
 ## How to keep these dates
 
