@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-14",
+ "generated_on": "2026-09-15",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -639,7 +639,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 53
+   "count": 34
   },
   {
    "commonName": "Frilled Dogwinkle",
@@ -652,14 +652,14 @@
    "count": 6
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 5
-  },
-  {
    "commonName": "Chocolate Aeolid",
    "scientificName": "Margina cocoachroma",
    "count": 4
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 3
   },
   {
    "commonName": "Nanaimo Dorid",

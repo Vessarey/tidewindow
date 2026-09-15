@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-14",
+ "generated_on": "2026-09-15",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -645,17 +645,12 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 9
+   "count": 6
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 7
-  },
-  {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 5
+   "count": 4
   },
   {
    "commonName": "Mossy Chiton",
@@ -663,8 +658,8 @@
    "count": 4
   },
   {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
    "count": 4
   },
   {
@@ -673,19 +668,24 @@
    "count": 3
   },
   {
-   "commonName": "Chan's Dorid",
-   "scientificName": "Hallaxa chani",
-   "count": 3
+   "commonName": "Enteromorpha-eating Sapsucker",
+   "scientificName": "Aplysiopsis enteromorphae",
+   "count": 2
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
+   "count": 2
+  },
+  {
+   "commonName": "Spotted Dorid",
+   "scientificName": "Triopha maculata",
+   "count": 1
   },
   {
    "commonName": "Clown Dorid",
    "scientificName": "Triopha catalinae",
-   "count": 2
-  },
-  {
-   "commonName": "Enteromorpha-eating Sapsucker",
-   "scientificName": "Aplysiopsis enteromorphae",
-   "count": 2
+   "count": 1
   }
  ]
 }

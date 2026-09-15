@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-14",
+ "generated_on": "2026-09-15",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -552,20 +552,6 @@
  ],
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-14",
-   "weekday": "Mon",
-   "low_ft": 0.225,
-   "low_time_local": "7:30 AM",
-   "window_local": "6:35 AM–8:25 AM",
-   "arrive_by_local": "6:30 AM",
-   "daylight_min": 110,
-   "score": 32,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 99,
-   "min_to_sun_edge": 79
-  },
-  {
    "date": "2026-09-26",
    "weekday": "Sat",
    "low_ft": 0.014,
@@ -634,6 +620,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 96,
    "min_to_sun_edge": 21
+  },
+  {
+   "date": "2026-09-30",
+   "weekday": "Wed",
+   "low_ft": 0.269,
+   "low_time_local": "7:33 AM",
+   "window_local": "6:40 AM–8:25 AM",
+   "arrive_by_local": "6:33 AM",
+   "daylight_min": 105,
+   "score": 30,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 105,
+   "min_to_sun_edge": 64
   }
  ],
  "species_last60d_5km": [

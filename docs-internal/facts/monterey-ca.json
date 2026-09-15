@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-14",
+ "generated_on": "2026-09-15",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -640,7 +640,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 42
+   "count": 43
   },
   {
    "commonName": "Spanish Shawl",
@@ -655,16 +655,16 @@
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
+   "count": 16
+  },
+  {
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
    "count": 15
   },
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 14
-  },
-  {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
    "count": 14
   },
   {

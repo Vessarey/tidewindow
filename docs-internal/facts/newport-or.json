@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-14",
+ "generated_on": "2026-09-15",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -640,7 +640,7 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 8
+   "count": 6
   },
   {
    "commonName": "Branched Dendronotid",
@@ -663,11 +663,6 @@
    "count": 3
   },
   {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 3
-  },
-  {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
    "count": 2
@@ -683,8 +678,13 @@
    "count": 2
   },
   {
-   "commonName": "Northern Hairy Chiton",
-   "scientificName": "Mopalia kennerleyi",
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 2
+  },
+  {
+   "commonName": "Northern Leopard Dorid",
+   "scientificName": "Diaulula odonoghuei",
    "count": 2
   }
  ]
