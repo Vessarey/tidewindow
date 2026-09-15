@@ -5,11 +5,25 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] 2026-09-15 heartbeat: **Ready-now queue restored to five items.**
+      After the operator completed Constellation Park, only Acadia inline
+      H/L and Sunset Bay were writable now. Fitzgerald is explicitly held
+      until late September; a generic conversion pass is not a P1 content
+      assignment. Fresh `flywheel 28` / `queries 28` plus exact Aug 17–Sep 13
+      query+page data found the leading chart/king-tide clusters already
+      covered. Do not manufacture overlapping pages or repeat their retitles.
+      Added three concrete, demand-informed freshness assignments below:
+      Oregon calendar, Port Townsend/North Beach, and La Push. Each existing
+      guide still presents passed September dates as upcoming. This is a
+      maintenance refill, not three newly discovered uncovered SEO clusters.
+      The five ready-now items are those three plus Acadia and Sunset Bay;
+      no article or production code changed in this refill.
 - [x] 2026-09-14: **Queue refilled (§2a) + weekly `inspect 40` run — result
       flipped the day to §2a′ crawl paths.** Refill: three demand items added
       to P1 below (national print view, Fitzgerald October chart roll-forward,
-      Constellation Park equity), bringing the writable queue to 5 with Acadia
-      inline H/L and Sunset Bay. Two hypothesized items were already shipped
+      Constellation Park equity), bringing the nominal queue to 5 with Acadia
+      inline H/L and Sunset Bay (4 writable then; Fitzgerald was future-dated).
+      Two hypothesized items were already shipped
       and were NOT re-added: the Puget page already titled "Puget Sound Tide
       Chart 2026" (Sep 9) and the Seattle guide already titled "Constellation
       Park Tide Pools 2026" (Sep 8). Inspect 40 of 124: 20 indexed / 14
@@ -17,7 +31,7 @@ with the date; add discoveries at the appropriate tier.
       crawl paths the primary action (see JOURNAL 09-14). Exact-URL checks:
       Oregon king-tides guide still Discovered–never crawled (inbound links
       shipped only Sep 13 — recheck next weekly pass before escalating);
-      Glass Beach INDEXED Sep 13 (crawled 14:03Z, 7 days after publish);
+      Glass Beach INDEXED Sep 13 (crawled 14:03Z, 1 day after Sep 12 publish);
       Finder indexed (crawled Sep 2). Trip Picker, /data/, /embed/ remain
       never-crawled despite existing inbound links.
 - [x] 2026-09-11: **Content queue refilled from demand (§2a).** Ran fresh
@@ -92,6 +106,60 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+- [ ] **Oregon minus-tide calendar: retire the passed September lead —
+      first ready-now refresh.** Added Sep 15 heartbeat. Target existing
+      `oregon-coast-minus-tide-calendar-2026`, not a new page. Exact GSC
+      Aug 17–Sep 13: `minus tides oregon 2026` 8 impressions / pos 7.88,
+      `negative tides oregon coast 2026` 5 / 8.60, both 0 clicks, both
+      landing on this guide. Page: 11 clicks / 366 impressions / pos 6.44;
+      PostHog production Regular: 13 pageviews in the seven days to Sep 15
+      17:15:33Z. Its answer box and first FAQ still say Sep 9–12 is "still
+      ahead"; the weekend FAQ also presents Sep 12 as a future option.
+      Roll the lead/FAQs/weekend section to remaining dates from current
+      fact sheets, preserve passed runs and honest computation stamps as
+      history, and separate daylight-window overlap from daylight at low
+      water. Keep the established title, slug and gates. Recheck cited park
+      guidance at write time; do not add shellfish/clam advice from stray
+      search terms. Exact URL inspection Sep 15: indexed, last crawl Sep 6.
+
+- [ ] **Port Townsend / North Beach: post-Labor-Day refresh and access
+      distinction.** Added Sep 15 heartbeat. Target existing
+      `port-townsend-fort-worden-tide-pools-2026`. Exact GSC Aug 17–Sep 13:
+      `north beach port townsend tides` 7 impressions / pos 10.43 / 0 clicks
+      currently lands on the station page, not this guide; `port townsend
+      tide pools` 2 / 1.0 / 1 click also lands there. The guide itself has
+      0 clicks / 9 impressions / pos 4.56 and 0 production Regular
+      pageviews/7d; do not claim those station clicks as article traffic.
+      Replace the still-upcoming Sep 5–10/Labor Day lead, FAQs and closing
+      with a current fact-sheet-based season summary. Preserve the run as
+      history; verify any "first/only/next" statement against the complete
+      relevant range. Add a clear North Beach section distinguishing its
+      county access from Fort Worden/Point Wilson, with current official
+      sources. Remove the unsupported "tide is your only clock" / no-gate
+      implication unless explicitly verified. Preserve the Glass Beach link
+      and do not infer route clearance from the station window. Keep title,
+      slug and gate. Sep 15 URL inspection: indexed, last crawl Jul 8.
+
+- [ ] **La Push / Olympic tide chart: current dates without reopening
+      Rialto.** Added Sep 15 heartbeat. Target existing
+      `la-push-second-beach-tide-pools-2026`. Exact GSC Aug 17–Sep 13:
+      `olympic tide chart` 2 impressions / pos 9.0 / 0 clicks and `la push
+      tide chart` 4 / 27.25 / 0 clicks land on the archived La Push August
+      month page, not this guide. Tiny demand; no retitle or new page is
+      justified. Guide: no GSC page row returned; 3 production Regular
+      pageviews/7d. Its description, answer box and rest-of-2026 FAQ still
+      sell Sep 9–12 as future mornings. Roll those surfaces and dated prose
+      to remaining fact-sheet dates, preserving old tables as history.
+      Add a concise, explicitly station-specific chart-finding section
+      linking existing current-month/full H/L tables; no duplicated chart
+      code is needed. Re-fetch NPS conditions and trail/access sources at
+      write time. The Sep 15 conditions check still closes Mora Road beyond
+      the campground July 8–Oct 15; do not promise reopening on that date or
+      equate La Push station tides with certified route access. Sep 15 URL
+      inspection: Discovered–currently not indexed, never crawled. This is
+      factual maintenance, not a conversion pass; keep crawl follow-up in
+      the Sep 21 weekly check and do not re-add already-shipped inbound links.
 
 - [x] **Print-friendly view of the national king-tide schedule — refresh,
       not a new page** (added 2026-09-14 demand refill). Cluster: `king
@@ -461,7 +529,8 @@ with the date; add discoveries at the appropriate tier.
       exposed guide after the completed California pass. Next-oldest
       explicit candidate by vintage: Sunset Bay (07-16).
       Done 2026-09-10 heartbeat (8b53e98): CA hub (07-15) — see its
-      checked item above. Two writable P1 items remain; refill first next run.
+      checked item above. Sep 15 heartbeat added three specific post-run
+      refresh assignments above; five ready-now P1 items now remain.
       Done 2026-09-08 heartbeat (2e2a55c): WA hub (07-14) refreshed to
       Sep 9–12 station-specific times and autumn daylight limits; July/August
       retained as past comparisons with July–December scope, not full-year
@@ -782,6 +851,10 @@ with the date; add discoveries at the appropriate tier.
       null; no `$exception` seen in 30 days. This supports disabled remote
       capture where reported, not a production zero-error conclusion.
       No setting change or synthetic production exception was made.
+      **Sep 15 read-only follow-up:** 63 Regular production pageviews report
+      remote capture false, 273 omit the property, none report true (7d to
+      17:15:33Z). Project opt-in remains null and active issues are empty;
+      the instrumentation caveat remains, with no settings change.
 
 - [x] **2026-09-05 CLOSED — production LCP recovered with a real sample.**
       **09-06 measurement correction:** the 63 below counted all

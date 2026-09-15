@@ -5,6 +5,103 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-15 — Heartbeat: restore the ready-now queue without duplicating today's operator work
+
+**Coordination and primary:** pulled clean `593b8d6`, read the playbook,
+backlog and newest three entries, and preserved today's Constellation Park
+section, season-close correction and two inbound anchors (`459f166`). The
+operator's suggested next-run count included a generic conversion pass, not
+a P1 assignment; Fitzgerald is explicitly for late September. Only Acadia
+inline H/L and Sunset Bay were ready now, below the three-item minimum.
+
+Ran `flywheel 28`, `queries 28`, `pages 28` and `dates 60`, then queried
+exact Aug 17–Sep 13 query+page data. The leading king-tide/Fitzgerald/Puget/
+Constellation/Glass Beach topics already have matching pages or shipped
+work. No defensible new uncovered cluster emerged. Instead of inventing
+overlapping pages or repeating retitles, refilled P1 with three concrete
+**freshness assignments on existing pages**: Oregon calendar, Port Townsend/
+North Beach, and La Push. All three still present passed September runs as
+upcoming. Each assignment records demand, the actual landing page, scope,
+source/fact gates and indexing status. Five ready-now items now exist with
+Acadia and Sunset Bay; the dated Fitzgerald item is not counted. This is
+a maintenance refill, not discovery of three new SEO clusters. No article,
+site code, title, gate, data, ICS or operator link changed. Corrected the
+backlog's old nominal/writable count and Glass Beach publication-to-crawl
+interval (Sep 12 publication, Sep 13 crawl: one day, not seven); earlier
+journal entries remain untouched.
+
+**Demand and indexing:** exact GSC Aug 17–Sep 13 (28 calendar dates): site
+186 clicks / 12,123 impressions / position 7.95. The helper's `28` argument
+actually covers Aug 16–Sep 13 inclusively (29 dates); the new assignments
+use the exact 28-date query, not mixed windows. Oregon guide: 11 clicks /
+366 impressions / position 6.44, with 13 Regular production pageviews/7d.
+Port Townsend guide: 0 / 9 / 4.56 and 0 pageviews/7d; its North Beach query
+(7 impressions / 10.43) lands on the station page, not the guide. La Push
+guide: no GSC page row returned and 3 pageviews/7d; Olympic/La Push chart
+queries land on the archived August month page. Those tiny query samples
+justify no new title test. Fresh targeted URL inspections: Oregon indexed,
+last crawl Sep 6; Port Townsend guide indexed, last crawl Jul 8; La Push
+guide Discovered–currently not indexed, no crawl. No duplicate weekly
+`inspect 40` or link pass: that ran yesterday; next broad check Sep 21.
+
+**Health:** all five recent Actions runs green and no open GitHub issues.
+Today's actual NOAA refresh is `750c050`, run `34953418843` (09:36:19–
+09:38:39Z); logs confirm 12 stations, output verification and IndexNow
+HTTP 200 for 124 URLs. All station files and the byte-matching live index
+were generated Sep 15 09:36:42.003Z. Home, data index and sitemap HTTP 200;
+production npm audit zero findings. No Exceptional (90+) windows in the
+14 station-local dates Sep 15–28. Live browser: home → Finder → La Push
+selection loaded today's results and the prediction/access caveat; today's
+Seattle article and its at-a-glance section are live and visually readable.
+No console warnings/errors observed on these checked surfaces.
+
+**Traffic:** native PostHog project 495836, exact host `thetidewindow.com`
+and Regular traffic; fixed cutoff Sep 15 17:15:33Z, before browser QA.
+Trailing 7d: 336 pageviews / 288 distinct pageview users / 3 signup events
+(1.04%); trailing 28d: 1,014 / 898 / 5 (0.56%), below the 1.5% target.
+Seven-day activity: 27 station selections, 15 window results, 15 Trip
+Picker runs, 10 gate clicks and 2 ICS reveals. Signup sources: tool_gate
+2, end_article_gated 1; gate clicks/reveals are tool_gate 10/2. No retired
+experiment reopened. Top paths: national guide 92, Finder 18, Fitzgerald
+16, WA king tides 16, home 15, Oregon calendar 13; the full 54-path
+breakdown sums to 336 (no hidden Other bucket in the zero-traffic check).
+Referrer pageviews: Google 95, direct 84, DuckDuckGo 51, Bing 49 across
+both hosts, own-domain 26, Yahoo 25; no ChatGPT/Perplexity/GitHub rows.
+These are pageviews, not search clicks or attributed acquisitions.
+
+**Measurement caveats:** exact GSC weekly dates Aug 31–Sep 6 versus
+Sep 7–13 show 54 → 66 clicks, 3,622 → 3,569 impressions and position
+7.55 → 7.40. This is observational, not a causal claim about concurrent
+releases. Latest 24h custom p90 LCP is 1,266.6 ms on 13 positive
+LCP-bearing events, below the 30-observation intervention floor; no
+performance change warranted. Counted LCP observations, not all web-vitals
+events ([measurement reference](https://posthog.com/docs/web-analytics/web-vitals)).
+Exception remote-capture flag is false on 63 production Regular pageviews,
+missing on 273, true on none; project opt-in remains null, `$exception`
+has not been seen in 30 days and active issues are empty. Production
+exception coverage remains unverified; this is not a zero-error report.
+
+**Access, sends and time bombs:** the [NPS conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still closes Mora Road beyond the campground July 8–Oct 15; the campground
+remains open. No Rialto reopening change. Tuesday: no newsletter sync or
+send. Read-only Resend list/detail confirms the Sep 10 issue remains the
+latest, sent 12:06:03Z, Broadcast `a6c699ae-2dd2-420c-9d06-cf5c3a89f4cf`.
+The detail response does not expose delivery/bounce/complaint counts;
+those are unavailable, not zero. Next standing send Thursday Sep 17.
+Sep 30 station-title/`inspect 60`, Oct 1 exit-prompt owner deadline and
+month/chart rollover, and Oct 5 national schedule readout remain pending;
+no early verdict or deadline extension today.
+
+**Validation and next:** plain production-input `npm run build` passed
+(137 routes, 124 sitemap URLs, 30/30 fact tests); no generated tracked
+files changed. Diff reviewed, whitespace check clean, zero new articles
+this week. Only BACKLOG and this journal changed. Start the next content
+run with the indexed Oregon calendar's stale lead/FAQs, then the other
+scoped refreshes; do not retitle or duplicate existing charts to fill a
+quota. Published stale prose remains until those assignments are executed.
+
+---
+
 ## 2026-09-15 — Constellation Park query equity (§2d): at-a-glance section + descriptive inbound anchors
 
 **Health:** green. Today's refresh landed before the session (commit 750c050,
