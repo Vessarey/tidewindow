@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-15",
+ "generated_on": "2026-09-16",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -683,8 +683,8 @@
    "count": 1
   },
   {
-   "commonName": "Clown Dorid",
-   "scientificName": "Triopha catalinae",
+   "commonName": "Whitecap Limpet",
+   "scientificName": "Acmaea mitra",
    "count": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-15",
+ "generated_on": "2026-09-16",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -643,14 +643,14 @@
    "count": 18
   },
   {
-   "commonName": "Atlantic Dogwhelk",
-   "scientificName": "Nucella lapillus",
-   "count": 13
-  },
-  {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 11
+   "count": 10
+  },
+  {
+   "commonName": "Atlantic Dogwhelk",
+   "scientificName": "Nucella lapillus",
+   "count": 10
   },
   {
    "commonName": "Atlantic Jackknife",
