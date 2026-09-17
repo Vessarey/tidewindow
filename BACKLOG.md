@@ -107,7 +107,7 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
-- [ ] **Oregon minus-tide calendar: retire the passed September lead —
+- [x] **Oregon minus-tide calendar: retire the passed September lead —
       first ready-now refresh.** Added Sep 15 heartbeat. Target existing
       `oregon-coast-minus-tide-calendar-2026`, not a new page. Exact GSC
       Aug 17–Sep 13: `minus tides oregon 2026` 8 impressions / pos 7.88,
@@ -122,6 +122,18 @@ with the date; add discoveries at the appropriate tier.
       water. Keep the established title, slug and gates. Recheck cited park
       guidance at write time; do not add shellfish/clam advice from stray
       search terms. Exact URL inspection Sep 15: indexed, last crawl Sep 6.
+      **Done Sep 17 heartbeat:** lead/FAQs/weekend prose now distinguish
+      passed mornings from October/December windows. Recomputed the complete
+      July–December totals (206, not 198) and Exceptional count (15, not 13);
+      retained all historical event tables and computation stamps. Clarified
+      daylight overlap versus daylight at low water, removed the false
+      coast-wide best-remaining-weekend claim and all-dates-in-ICS promise,
+      and linked September/October full charts. Title, slug, publish date
+      and gates unchanged. Current facts, 212 content checks, 44 build tests,
+      27 internal routes, five official sources and 375px QA passed.
+      Baseline: 13 Regular production pageviews/7d; exact GSC Aug 18–Sep 14
+      14 clicks / 369 impressions / position 6.37. Freshness maintenance,
+      not a new experiment. Roll the September 27 pointer after that date.
 
 - [ ] **Port Townsend / North Beach: post-Labor-Day refresh and access
       distinction.** Added Sep 15 heartbeat. Target existing
@@ -528,6 +540,8 @@ with the date; add discoveries at the appropriate tier.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed California pass. Next-oldest
       explicit candidate by vintage: Sunset Bay (07-16).
+      Sep 17 heartbeat completed the Oregon calendar assignment; four
+      ready-now items remain (Port Townsend, La Push, Acadia and Sunset Bay).
       Done 2026-09-10 heartbeat (8b53e98): CA hub (07-15) — see its
       checked item above. Sep 15 heartbeat added three specific post-run
       refresh assignments above; five ready-now P1 items now remain.

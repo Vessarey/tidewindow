@@ -5,6 +5,105 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-17 — Heartbeat: Oregon calendar freshness and complete-range corrections
+
+**Coordination:** pulled current `e63001c`; read the playbook, full backlog,
+newest three entries, today's commits, Actions and issues. The operator
+already released the technical repairs (`625a7eb`) and sent the Thursday
+newsletter. Neither action was repeated. Preserved both untracked Sep 17
+newsletter drafts. The five-item ready-now queue did not need refilling;
+selected its first assignment, the exposed and previously verified-indexed
+Oregon minus-tide calendar. No new article, retitle, gate or experiment.
+
+**One primary change:** rolled the guide's lead, FAQs, September and weekend
+prose past Sep 9–12; retained the July/August and September records and their
+honest computation stamps. Title, description, slug, publish date and four
+gate stations remain unchanged; `updated` is Sep 17. Current complete-range
+facts give **206 July–December station-windows, not 198** (July 74, not 66;
+station totals 44/52/54/56), and **15 Exceptional windows, not 13**. Corrected
+those older totals throughout, plus July/August window counts;
+the historical event-table values themselves still match current data.
+This is an editorial recomputation, not another pipeline/data repair.
+
+October 25 is the top October score at every station, not every station's
+best remaining weekend. Its four windows include 48/85/98/120 daylight
+minutes; only Port Orford's low is before sunset. All selected November
+and December lows are after sunset. Explicitly separated >=30-minute
+window overlap from daylight at the low and from physical route access.
+Removed the all-dates-in-calendar promise: ICS includes score >=60 windows,
+not the Fair October examples. Added full September/October chart paths.
+Re-fetched all five official sources; retained one attributed State Parks
+quote and removed the unquoted safety/arrival implications. No shellfish
+advice, access-opening promise or generated-data edit.
+
+**Validation before release:** plain committed-data `npm run build` passed:
+137 static routes, output verifier (12 stations x 4 months, 124 sitemap URLs),
+30 fact + 6 tide-math + 8 formatting tests. A separate 212-assertion content
+check covers 9 tables/47 data rows, metadata preservation, 66-word lead,
+monthly and complete-range totals/rankings and sunset distinctions. All 27
+unique internal article routes and five official source URLs returned 200.
+Desktop and Chrome 375px article/table QA passed (document width 375, no
+horizontal overflow); the new Newport October link loads its current chart.
+No console warnings/errors on checked live Finder and local article/chart
+paths. Production dependency audit: zero findings. No app code changed.
+
+**Live health before release:** all five recent Actions runs succeeded;
+no open GitHub issues. Actual daily NOAA run `35206313960` fired 09:39:36Z,
+finished 09:41:48Z, and landed `ce90687`; logs show 12 stations, 30 passing
+fact tests, 124 verified URLs and IndexNow HTTP 200. The later repair
+release's index is generated **2026-09-17T12:07:01.985Z**, byte-matching the
+live index; Vercel reports success for `e63001c`. Home/index/sitemap return
+200; home -> Finder -> example ZIP 93950 selects Monterey with current Sep 17
+results. No Exceptional (90+) window in Sep 17–30. No recovery dispatch.
+
+**Product analytics:** native PostHog discovery/project calls failed with
+unknown-tool errors, so used the playbook's existing configured read-only
+API, after confirming project 495836 (tidewindow, America/New_York), event
+schema and observed host/traffic values. Fixed cutoff Sep 17 17:17:00Z,
+before browser QA; exact host `thetidewindow.com` + Regular traffic.
+Trailing 7d: **303 pageviews / 260 distinct pageview users / 2 signup events
+(0.77%)**. Trailing 28d: **1,072 / 946 / 6 (0.63%)**, below 1.5% target.
+Seven-day events: 21 station selections, 14 results, 9 Trip Picker runs,
+8 gate clicks and 1 ICS reveal. Gate sources tool_gate 7/article_gate_multi 1;
+signups tool_gate 1/exit-intent 1; reveal tool_gate 1. One exit-intent signup
+does not reopen the closed-unmeasurable experiment or cancel the Oct 1
+owner deadline. Top paths: national guide 93, Oregon king tides 22, home 18,
+Finder 16, Fitzgerald/Oregon calendar 13 each. Referrer pageviews: Google 82,
+direct 73, Bing 51, DuckDuckGo 46, Yahoo 28, own domain 18, Ecosia 4, Brave 1;
+not GSC acquisition clicks. No ChatGPT/Perplexity/GitHub row returned.
+
+**Measurement limits:** latest 24h custom p90 LCP **4,169.6 ms on 19 positive
+LCP-bearing events**, below the 30-observation floor. Watch the tail; no
+tuning or attribution to today's repair release. [LCP reference](https://posthog.com/docs/web-analytics/web-vitals).
+Exception remote-capture is false on 56 Regular production pageviews,
+missing on 247, true on none; project exception opt-in null and no exception
+event in returned taxonomy. Coverage remains unverified, not zero errors.
+No settings mutation or synthetic production exception.
+
+**Search and operational follow-up:** GSC returns no Sep 15 row yet; latest
+available date remains Sep 14. Requeried exact Aug 18–Sep 14 (28 dates):
+193 clicks / 12,312 impressions / position 7.93. Complete Sep 1–7 vs Sep 8–14:
+59 -> 67 clicks, 3,908 -> 3,463 impressions, position 7.39 -> 7.47; no causal
+claim. Oregon baseline is 14 clicks / 369 impressions / position 6.37 and
+13 Regular production pageviews/7d. The helper's `pages 27` reaches Sep 15
+but lacks that date, so its 363 impressions are not this exact 28-day baseline.
+No duplicate weekly inspection; Sep 15's indexed Oregon status is a dated
+prior check, not today's inspection. Next broad indexing check Sep 21.
+
+Resend's native connector failed schema validation; the existing read-only
+API confirms Broadcast `72fb28b1-7a44-4d44-9dc0-6680bc368368` sent at
+12:10:06Z today. The operator reports 12 sendable recipients; the retrieval
+response has no delivery/bounce/complaint counters, so those remain unverified,
+not zero. No audience sync, send or contact action. NPS conditions still
+close Mora Road beyond the campground July 8–Oct 15; no verified reopening.
+Keep Sep 30 indexing/title, Oct 1 exit-prompt/month/chart, Oct 5 national,
+and Oct 15 access checkpoints. Next ready-now refresh: Port Townsend/North
+Beach (or older Sunset Bay by exposure); four ready-now assignments remain.
+
+Release verification follows after deployment.
+
+---
+
 ## 2026-09-17 — Repair release + Thursday newsletter (Broadcast 72fb28b1)
 
 **Health:** all five recent Actions runs green; today's refresh landed
