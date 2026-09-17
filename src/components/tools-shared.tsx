@@ -17,25 +17,64 @@ export interface StationOption {
 const cache = new Map<string, StationData>();
 
 export function useStationData(slug: string | null) {
-  const [data, setData] = useState<StationData | null>(slug ? cache.get(slug) ?? null : null);
+  const [request, setRequest] = useState({ slug, attempt: 0 });
+  const [result, setResult] = useState<{ request: typeof request; error: string | null } | null>(null);
+  // Reset the request identity when selection changes, so an earlier failure
+  // (or a response arriving out of order) cannot belong to the new selection.
+  if (request.slug !== slug) setRequest({ slug, attempt: 0 });
+
   useEffect(() => {
-    if (!slug) return;
-    if (cache.has(slug)) return;
+    const selectedSlug = request.slug;
+    if (!selectedSlug || cache.has(selectedSlug)) return;
     let alive = true;
-    fetch(assetUrl(`/data-json/stations/${slug}.json`))
-      .then((r) => r.json())
-      .then((d: StationData) => {
-        cache.set(slug, d);
-        if (alive) setData(d);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15_000);
+    fetch(assetUrl(`/data-json/stations/${selectedSlug}.json`), { signal: controller.signal })
+      .then((r) => {
+        if (!r.ok) throw new Error(`Station request failed (${r.status})`);
+        return r.json();
       })
-      .catch(() => {});
+      .then((d: StationData) => {
+        if (d?.station?.slug !== selectedSlug || !Array.isArray(d.windows) || !Number.isFinite(d.generatedAt)) {
+          throw new Error("Invalid station data");
+        }
+        if (!alive) return;
+        cache.set(selectedSlug, d);
+        setResult({ request, error: null });
+      })
+      .catch(() => {
+        if (alive) setResult({ request, error: "We couldn’t load this station’s tide data. Try again or choose another station." });
+      })
+      .finally(() => clearTimeout(timeout));
     return () => {
       alive = false;
+      clearTimeout(timeout);
+      controller.abort();
     };
-  }, [slug]);
-  const current = slug ? cache.get(slug) ?? data : null;
-  const selected = current && current.station.slug === slug ? current : null;
-  return { data: selected, loading: !!slug && !selected };
+  }, [request]);
+  const data = slug ? cache.get(slug) ?? null : null;
+  const error = result?.request === request ? result.error : null;
+  return {
+    data,
+    error,
+    loading: !!slug && !data && !error,
+    retry: () => setRequest((current) => ({ ...current, attempt: current.attempt + 1 })),
+  };
+}
+
+export function StationDataStatus({ loading, error, retry }: {
+  loading: boolean;
+  error: string | null;
+  retry: () => void;
+}) {
+  if (loading) return <p className="mt-6 text-ink-soft" role="status">Loading NOAA data…</p>;
+  if (!error) return null;
+  return (
+    <div className="mt-6" role="alert">
+      <p className="text-anemone">{error}</p>
+      <button type="button" className="btn btn-quiet mt-2" onClick={retry}>Try again</button>
+    </div>
+  );
 }
 
 export function StationSelect({
@@ -50,7 +89,7 @@ export function StationSelect({
   toolName: string;
 }) {
   return (
-    <label className="block">
+    <label className="block min-w-0 max-w-full">
       <span className="mb-1 block font-mono text-[0.72rem] uppercase tracking-wider text-ink-soft">Beach / station</span>
       <select
         className="w-full max-w-md rounded-md border border-ink/25 bg-white px-3 py-2.5 text-[0.95rem]"

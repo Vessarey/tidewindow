@@ -138,7 +138,7 @@
    }
   },
   "2026-08": {
-   "lows_below_1ft": 31,
+   "lows_below_1ft": 29,
    "daylight_windows": 17,
    "daylight_minus_tides": 13,
    "best_window": {
@@ -184,7 +184,7 @@
    }
   },
   "2026-10": {
-   "lows_below_1ft": 26,
+   "lows_below_1ft": 25,
    "daylight_windows": 7,
    "daylight_minus_tides": 4,
    "best_window": {
@@ -207,7 +207,7 @@
    }
   },
   "2026-11": {
-   "lows_below_1ft": 23,
+   "lows_below_1ft": 22,
    "daylight_windows": 7,
    "daylight_minus_tides": 5,
    "best_window": {

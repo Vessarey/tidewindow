@@ -19,6 +19,15 @@ function roundTo5Min(ms) {
   return Math.round(ms / five) * five;
 }
 
+function resolvedWindow(start, end, lowTimeMs) {
+  // Coarse samples can put a shallow dip on the wrong side of the precise
+  // NOAA low, or rounding can collapse it to zero minutes. As with a dip
+  // missed by the hourly samples entirely, no usable window is resolved.
+  if (!Number.isFinite(start) || !Number.isFinite(end) || start > lowTimeMs || end < lowTimeMs) return null;
+  const rounded = { start: roundTo5Min(start), end: roundTo5Min(end) };
+  return rounded.start < rounded.end ? rounded : null;
+}
+
 /**
  * Window bounds from an hourly height series around a low-tide time.
  * Returns null when the low never dips below the walkable threshold.
@@ -36,7 +45,7 @@ export function windowFromHourly(series, lowTimeMs) {
   if (a === 0 || b === series.length - 1) return null; // window truncated by data range
   const start = interpCrossing(series[a - 1].t, series[a - 1].v, series[a].t, series[a].v, WALKABLE_FT);
   const end = interpCrossing(series[b].t, series[b].v, series[b + 1].t, series[b + 1].v, WALKABLE_FT);
-  return { start: roundTo5Min(start), end: roundTo5Min(end) };
+  return resolvedWindow(start, end, lowTimeMs);
 }
 
 /**
@@ -71,7 +80,7 @@ export function windowFromExtremes(extremes, i) {
   const start = prev.v > WALKABLE_FT ? cosineCrossing(prev, low, WALKABLE_FT) : prev.t;
   const end = next.v > WALKABLE_FT ? cosineCrossing(low, next, WALKABLE_FT) : next.t;
   if (start == null || end == null) return null;
-  return { start: roundTo5Min(start), end: roundTo5Min(end) };
+  return resolvedWindow(start, end, low.t);
 }
 
 /** Overlap in minutes between [aStart,aEnd] and [bStart,bEnd] (ms inputs). */

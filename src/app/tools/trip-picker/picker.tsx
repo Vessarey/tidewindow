@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { StationSelect, useStationData, PredictionCaveat, type StationOption } from "@/components/tools-shared";
+import { StationSelect, StationDataStatus, useStationData, PredictionCaveat, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import CalendarGate from "@/components/calendar-gate";
@@ -12,7 +12,8 @@ export default function TripPicker({ stations }: { stations: StationOption[] }) 
   const [slug, setSlug] = useState<string | null>(null);
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
-  const { data, loading } = useStationData(slug);
+  const { data, loading, error, retry } = useStationData(slug);
+  const dateError = from && to && from > to ? "Choose an end date on or after your start date." : "";
 
   let ranked: TideWindow[] = [];
   let clampedNote = "";
@@ -58,9 +59,10 @@ export default function TripPicker({ stations }: { stations: StationOption[] }) 
         </label>
       </div>
 
-      {loading && <p className="mt-6 text-ink-soft">Loading NOAA data…</p>}
+      <StationDataStatus loading={loading} error={error} retry={retry} />
+      {dateError && <p className="mt-6 text-anemone" role="alert">{dateError}</p>}
 
-      {data && from && to && (
+      {data && from && to && !dateError && (
         <>
           {best ? (
             <>

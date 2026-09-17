@@ -6,11 +6,12 @@ import { siteConfig } from "@/lib/site-config";
 
 export default function EmbedGenerator({ stations }: { stations: StationOption[] }) {
   const [slug, setSlug] = useState<string | null>(null);
-  const [copied, setCopied] = useState(false);
+  const [copyResult, setCopyResult] = useState<{ snippet: string; status: "copied" | "error" } | null>(null);
   const src = slug ? `${siteConfig.url}${siteConfig.basePath}/embed-badge/${slug}/` : null;
   const snippet = src
     ? `<iframe src="${src}" title="Tidewindow low tide badge" width="320" height="86" style="border:0;border-radius:8px" loading="lazy"></iframe>`
     : null;
+  const copyStatus = copyResult?.snippet === snippet ? copyResult?.status : null;
 
   return (
     <div>
@@ -23,12 +24,20 @@ export default function EmbedGenerator({ stations }: { stations: StationOption[]
           <pre className="overflow-x-auto rounded-md bg-ink p-4 text-[0.8rem] text-foam">{snippet}</pre>
           <button
             className="btn mt-3"
-            onClick={() => {
-              navigator.clipboard.writeText(snippet).then(() => setCopied(true));
+            onClick={async () => {
+              try {
+                await navigator.clipboard.writeText(snippet);
+                setCopyResult({ snippet, status: "copied" });
+              } catch {
+                setCopyResult({ snippet, status: "error" });
+              }
             }}
           >
-            {copied ? "Copied ✓" : "Copy snippet"}
+            {copyStatus === "copied" ? "Copied ✓" : "Copy snippet"}
           </button>
+          {copyStatus === "error" && (
+            <p className="mt-2 text-anemone" role="alert">Couldn’t copy automatically. Select and copy the code above.</p>
+          )}
         </>
       )}
     </div>

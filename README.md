@@ -19,7 +19,7 @@ within a day.
 - **Pipeline** (`scripts/pipeline/`): fetches NOAA predictions (12 stations),
   computes walkable windows (<+1.0 ft MLLW), daylight overlap (astronomy-engine),
   scores, ICS feeds, embed badges, iNaturalist species tables, NWS conditions.
-- **Site**: Next.js 16 static export → GitHub Pages. Server-rendered data tables
+- **Site**: Next.js 16 static export → Vercel (legacy GitHub Pages URLs redirect). Server-rendered data tables
   (AI-crawler readable), JSON-LD, sitemap, RSS, llms.txt, IndexNow.
 - **Analytics**: PostHog (key-gated in `src/lib/site-config.ts`).
 - **Automation**: `.github/workflows/daily-refresh.yml` (data) + a scheduled
@@ -27,3 +27,13 @@ within a day.
 
 Data: predictions © NOAA (public domain); species observations via iNaturalist
 (© contributors, CC BY-NC); Tidewindow computed datasets CC BY 4.0.
+
+## Local checks and preview
+
+Use Node.js 22.18 or newer (the refresh workflow runs Node.js 22).
+
+- `npm run dev` starts the development server.
+- `npm run lint` checks source code.
+- `npm run build` exports the site and runs the data/output and formatter checks.
+- `npm start` serves the production export from `out/` (build first).
+  Use `npm start -- --listen 4317` to choose a port.

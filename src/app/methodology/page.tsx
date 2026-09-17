@@ -26,15 +26,20 @@ export default function Methodology() {
       </p>
       <ul>
         <li>
-          <strong>Harmonic stations:</strong> we fetch the hourly prediction series and linearly interpolate the exact
+          <strong>Harmonic stations:</strong> we fetch the hourly prediction series and linearly estimate the
           crossing times of +1.0 ft, rounded to 5 minutes.
         </li>
         <li>
           <strong>Subordinate stations</strong> (high/low events only): we use standard cosine interpolation between
-          consecutive extremes to estimate crossings. Where both methods can be compared at harmonic stations, they
-          agree within about ±15 minutes.
+          consecutive extremes to estimate crossings. The difference between hourly and cosine estimates varies
+          by station and tide.
         </li>
       </ul>
+      <p>
+        Very shallow dips may be too brief for the hourly samples or five-minute rounding to resolve. We omit
+        intervals that collapse to zero minutes or whose estimated crossings do not surround the predicted low.
+        The complete high/low tide tables still include those NOAA predictions.
+      </p>
       <p>
         <strong>Arrive by</strong> is 60 minutes before the low — the classic advice for working out to the lowest
         zone as the water still falls.
@@ -49,7 +54,7 @@ export default function Methodology() {
         <li>
           <strong>Daylight (0–30):</strong> the window&apos;s overlap with computed sunrise–sunset, scaling linearly
           to 30 points at 3 hours. Windows with under 30 minutes of daylight score <strong>0 total</strong> and are
-          labeled night tides. Sun times are computed with the open-source{" "}
+          labeled night tides only when there is no daylight overlap. Sun times are computed with the open-source{" "}
           <a href="https://github.com/cosinekitty/astronomy" rel="noopener">astronomy-engine</a> library for the
           station&apos;s exact coordinates.
         </li>

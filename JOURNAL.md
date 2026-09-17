@@ -5,6 +5,116 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-16 — Heartbeat: production verification, pending-repair release boundary
+
+**Coordination and action:** read the playbook, full backlog, newest three
+entries, today's health-check report, git state/commits, Actions and issues.
+Fetched/pulled: main already current at `34958d1`. The checkout contains a
+separate, explicitly local-only technical repair set: 64 tracked changed
+files plus its report and two test files. It includes pipeline arithmetic,
+regenerated data/facts/feeds, tool recovery, formatting, embed behavior and
+package changes. Preserve it; do not stage, commit, deploy, rebuild over it,
+or silently bundle a content refresh with its release. No additional product
+change selected today. This heartbeat adds only this local journal entry;
+the existing repair entry and all other work remain intact. The five ready-now
+content assignments still stand; no duplicate queue refill or retitle.
+
+**Production versus local:** today's committed refresh is `34958d1`, Actions
+run `35079908567` (09:31:32–09:34:08Z). Logs confirm 12 stations, 30 passing
+fact tests, 124 verified sitemap URLs and IndexNow HTTP 200. All five recent
+runs succeeded, no open GitHub issues, and the commit's Vercel status is
+successful. Live index generated **09:31:53.424Z**, exactly matching HEAD,
+not the uncommitted **12:39:57.757Z** local index. Independently compared all
+12 station datasets: committed 5,143 windows versus local 5,070; 73 removed,
+zero added, all removals score zero; complete NOAA H/L arrays unchanged.
+This confirms a release difference, not deployment of the repairs. The local
+report's 44-test/fault-injection validation was read, not repeated or claimed
+as production validation. No recovery cron dispatch needed.
+
+**Read-only health checks:** home, index and sitemap HTTP 200. The live
+homepage displays Sep 16 data; Finder ZIP example 93950 selects Monterey and
+loads current results plus the prediction/access caveat. The Oregon guide
+renders correctly but still calls Sep 9–12 "still ahead"; its existing
+refresh assignment remains necessary. No console warning/error on these
+checked live paths. Production dependency audit used HEAD's package/lock
+files in an isolated temporary directory, not the modified local lockfile:
+zero production findings. No shared build output or generated file changed.
+Committed data has no Exceptional (90+) window in Sep 16–29 (14 local dates).
+
+**PostHog:** project 495836, America/New_York; verified event/property schema
+and values. Exact host `thetidewindow.com` + Regular traffic, fixed cutoff
+Sep 16 17:16:54Z before this heartbeat's browser checks. Last 7d: **310
+pageviews / 262 distinct pageview users / 2 signup events (0.76%)**. Last
+28d: **1,047 / 927 / 5 (0.54%)**, below the 1.5% target. Events/7d: 24 station
+selections, 14 window results, 10 Trip Picker runs, 7 gate clicks, 1 ICS
+reveal. Signup sources: end_article_gated 1, tool_gate 1; gate/reveal sources
+tool_gate 7/1. Low counts do not support a conversion verdict or reopening
+closed experiments. Top paths: national guide 94, WA guide/Finder 16 each,
+home/Fitzgerald 15 each, Oregon calendar/Seattle guide 14 each, Oregon king
+tides 13, Acadia 11. Referrer pageviews: Google 93, direct 68, DuckDuckGo 50,
+Bing 50, Yahoo 28, own domain 17, Ecosia 3, Brave 1. These are not GSC clicks.
+
+**Observability:** latest 24h custom p90 LCP **1,672 ms on 16 positive
+LCP-bearing events**, below the 30-observation floor; no performance tuning
+or claim about the unreleased fixes. [LCP measurement reference](https://posthog.com/docs/web-analytics/web-vitals).
+Exception remote-capture flag is false on 62 Regular production pageviews,
+missing on 248, true on none; project opt-in null, `$exception` not seen in
+30 days, active issues empty. Missing/unverified instrumentation is not a
+zero-error result. No settings mutation or synthetic production exception.
+
+**Search and experiments:** exact 28 calendar dates Aug 18–Sep 14: 193
+clicks / 12,312 impressions / position 7.93. Equal complete weeks Sep 1–7
+versus Sep 8–14: 59 → 67 clicks, 3,908 → 3,463 impressions, position
+7.39 → 7.47. Observational movement, not evidence of a treatment effect.
+Exact 28-date page baselines: national 51 clicks / 2,432 impressions / 6.91;
+Fitzgerald 40 / 1,596 / 6.89; Seattle 16 / 470 / 6.41; Oregon calendar
+14 / 369 / 6.37. The helper's `28` output instead includes Aug 17–Sep 14
+(29 dates); do not mix its counts with these. Weekly inspection already
+ran Sep 14; last targeted Sep 15 checks had Oregon calendar and PT guide
+indexed, La Push guide discovered/not indexed. Those are dated findings,
+not today's census. Next broad inspection Sep 21. The crossed-out Sep 16
+signup readout remains closed-unmeasurable; no fresh verdict is due today.
+
+**Time bombs and next:** [NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still close Mora Road beyond the campground July 8–Oct 15; campground open,
+no verified Rialto reopening. Read-only Resend listing still shows Sep 10
+as the latest sent issue (12:06:03Z, `a6c699ae-2dd2-420c-9d06-cf5c3a89f4cf`).
+No send/sync/contact action Wednesday; next standing newsletter Sep 17.
+Keep Sep 30 indexing/title readout, Oct 1 exit-prompt owner deadline and
+month/chart rollover, Oct 5 national readout, and Oct 15 access recheck.
+Resolve the existing technical repair review/release first. Then refresh
+Oregon's stale lead/FAQs with the agreed production fact set. Do not count
+today's local fixes or this journal addition as a shipped improvement.
+
+---
+
+## 2026-09-16 — Requested technical health check and local fixes
+
+User requested a full working check and error fixes. Started clean, pulled
+`34958d1`, verified the five latest Actions runs were successful, no open
+issues were returned, and today's live data index was fresh. Fixed static
+production preview, failed/stalled station-data recovery in all four tools,
+Golden Hour before/after labels, reversed trip-date feedback, and embed
+clipboard state/error handling and misleading “great” copy.
+
+Added a tide-window validity check after the heatmap exposed zero-duration
+and misplaced shallow intervals. The normal pipeline regenerated data at
+12:39:57.757Z: 73 unresolved score-0 intervals removed, 5,070 valid windows
+remaining. Complete NOAA high/low tables and ICS event contents are unchanged
+(calendar refresh timestamps changed). Methodology now explains the omission.
+
+Fresh-data build, lint, 44 tests, 124 sitemap URLs, 167 HTTP routes/assets,
+all 12 station selections, network-failure/retry scenarios, ZIP and date
+flows, embeds, print mode, and desktop/375px layouts passed. npm audit had
+zero findings. Newsletter form testing blocked external analytics and did
+not create a subscriber or send mail. No traffic/SEO experiment or metrics
+analysis was part of this technical maintenance request.
+
+Changes and regenerated data remain local and are not deployed. Full scope,
+evidence, and limits: [health check](docs-internal/health-check-2026-09-16.md).
+
+---
+
 ## 2026-09-15 — Heartbeat: restore the ready-now queue without duplicating today's operator work
 
 **Coordination and primary:** pulled clean `593b8d6`, read the playbook,

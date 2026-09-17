@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { StationSelect, useStationData, synthesis, PredictionCaveat, type StationOption } from "@/components/tools-shared";
+import { StationSelect, StationDataStatus, useStationData, synthesis, PredictionCaveat, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import CalendarGate from "@/components/calendar-gate";
@@ -45,7 +45,7 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
     | { kind: "match"; stationName: string; miles: number; far: boolean }
     | { kind: "error"; message: string }
   >({ kind: "idle" });
-  const { data, loading } = useStationData(slug);
+  const { data, loading, error, retry } = useStationData(slug);
 
   async function findByZip(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -182,7 +182,7 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
         </label>
       </div>
 
-      {loading && <p className="mt-6 text-ink-soft">Loading NOAA data…</p>}
+      <StationDataStatus loading={loading} error={error} retry={retry} />
 
       {data && (
         <>

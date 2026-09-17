@@ -2,12 +2,15 @@
   "name": "tidewindow",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/verify-output.mjs && npm run test:facts",
+    "postbuild": "node scripts/verify-output.mjs && npm run test:facts && npm run test:math && npm run test:format",
     "test:facts": "node --test scripts/pipeline/facts.test.mjs",
-    "start": "next start",
+    "test:math": "node --test scripts/pipeline/tide-math.test.mjs",
+    "test:format": "node --experimental-strip-types --test scripts/format.test.mjs",
+    "start": "serve out",
     "lint": "eslint",
     "pipeline": "node scripts/pipeline/run.mjs",
     "zip-map": "node scripts/build-zip-station-map.mjs",
@@ -36,6 +39,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.3",
+    "serve": "^14.2.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

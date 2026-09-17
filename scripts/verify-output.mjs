@@ -30,6 +30,12 @@ const stripComments = (html) => html.replace(/<!--[\s\S]*?-->/g, "");
 
 for (const s of stations) {
   const data = JSON.parse(fs.readFileSync(path.join(DATA, "stations", `${s.slug}.json`), "utf8"));
+  for (const w of data.windows) {
+    if (!Number.isFinite(w.lowTime) || !Number.isFinite(w.windowStart) || !Number.isFinite(w.windowEnd) ||
+        w.windowStart >= w.windowEnd || w.lowTime < w.windowStart - 150_000 || w.lowTime > w.windowEnd + 150_000) {
+      fail(`${s.slug}/${w.date}: invalid window duration or low outside bounds (allowing 2.5-minute rounding)`);
+    }
+  }
   const currentMonth = new Intl.DateTimeFormat("en-CA", {
     timeZone: data.station.tz,
     year: "numeric",
@@ -120,6 +126,17 @@ for (const slug of fs.readdirSync(path.join(OUT, "guides"))) {
   }
   for (const text of ["Predictions are not observations", "after sunset", "park opening hours", "Sources"])
     if (!html.includes(text)) fail(`national schedule: missing context: ${text}`);
+}
+
+// ---------- 6. badges describe the ranked result without promising Great ----------
+
+for (const s of stations) {
+  const badge = fs.readFileSync(path.join(OUT, "embed-badge", `${s.slug}.html`), "utf8");
+  if (badge.includes("Next great low tide")) fail(`${s.slug}: badge labels an unqualified window as great`);
+  const best = s.best30[0];
+  if (best && (!badge.includes("Best next 30 days:") || !badge.includes(`(score ${best.score})`))) {
+    fail(`${s.slug}: badge does not describe its best-30-day score`);
+  }
 }
 
 // ---------- verdict ----------

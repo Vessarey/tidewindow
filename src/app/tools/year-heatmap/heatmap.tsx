@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { StationSelect, useStationData, type StationOption } from "@/components/tools-shared";
+import { StationSelect, StationDataStatus, useStationData, type StationOption } from "@/components/tools-shared";
 import CalendarGate from "@/components/calendar-gate";
 import { capture } from "@/components/analytics";
 import { fmtMonth, fmtStamp, type TideWindow } from "@/lib/format";
@@ -16,7 +16,7 @@ const bandColor: Record<string, string> = {
 
 export default function YearHeatmap({ stations }: { stations: StationOption[] }) {
   const [slug, setSlug] = useState<string | null>(null);
-  const { data, loading } = useStationData(slug);
+  const { data, loading, error, retry } = useStationData(slug);
 
   useEffect(() => {
     if (data) capture("heatmap_viewed", { station_id: data.station.slug });
@@ -26,7 +26,7 @@ export default function YearHeatmap({ stations }: { stations: StationOption[] })
     return (
       <div>
         <StationSelect stations={stations} value={slug} onChange={setSlug} toolName="heatmap" />
-        {loading && <p className="mt-6 text-ink-soft">Loading NOAA data…</p>}
+        <StationDataStatus loading={loading} error={error} retry={retry} />
       </div>
     );
   }

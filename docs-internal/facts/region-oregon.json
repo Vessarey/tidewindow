@@ -37,7 +37,7 @@
      }
     },
     "2026-08": {
-     "lows_below_1ft": 30,
+     "lows_below_1ft": 29,
      "daylight_windows": 18,
      "daylight_minus_tides": 13,
      "best_window": {
@@ -60,7 +60,7 @@
      }
     },
     "2026-09": {
-     "lows_below_1ft": 30,
+     "lows_below_1ft": 29,
      "daylight_windows": 8,
      "daylight_minus_tides": 4,
      "best_window": {
@@ -83,7 +83,7 @@
      }
     },
     "2026-10": {
-     "lows_below_1ft": 24,
+     "lows_below_1ft": 23,
      "daylight_windows": 5,
      "daylight_minus_tides": 2,
      "best_window": {
@@ -129,7 +129,7 @@
      }
     },
     "2026-12": {
-     "lows_below_1ft": 21,
+     "lows_below_1ft": 20,
      "daylight_windows": 6,
      "daylight_minus_tides": 3,
      "best_window": {
@@ -232,7 +232,7 @@
      }
     },
     "2026-08": {
-     "lows_below_1ft": 31,
+     "lows_below_1ft": 29,
      "daylight_windows": 17,
      "daylight_minus_tides": 13,
      "best_window": {
@@ -278,7 +278,7 @@
      }
     },
     "2026-10": {
-     "lows_below_1ft": 26,
+     "lows_below_1ft": 25,
      "daylight_windows": 7,
      "daylight_minus_tides": 4,
      "best_window": {
@@ -301,7 +301,7 @@
      }
     },
     "2026-11": {
-     "lows_below_1ft": 23,
+     "lows_below_1ft": 22,
      "daylight_windows": 7,
      "daylight_minus_tides": 5,
      "best_window": {
@@ -427,7 +427,7 @@
      }
     },
     "2026-08": {
-     "lows_below_1ft": 33,
+     "lows_below_1ft": 31,
      "daylight_windows": 17,
      "daylight_minus_tides": 13,
      "best_window": {
@@ -450,7 +450,7 @@
      }
     },
     "2026-09": {
-     "lows_below_1ft": 31,
+     "lows_below_1ft": 29,
      "daylight_windows": 10,
      "daylight_minus_tides": 5,
      "best_window": {
@@ -473,7 +473,7 @@
      }
     },
     "2026-10": {
-     "lows_below_1ft": 25,
+     "lows_below_1ft": 24,
      "daylight_windows": 7,
      "daylight_minus_tides": 5,
      "best_window": {
@@ -519,7 +519,7 @@
      }
     },
     "2026-12": {
-     "lows_below_1ft": 21,
+     "lows_below_1ft": 20,
      "daylight_windows": 10,
      "daylight_minus_tides": 7,
      "best_window": {

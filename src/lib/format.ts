@@ -89,3 +89,17 @@ export function fmtMonth(ym: string): string {
 export function fmtStamp(ms: number): string {
   return new Date(ms).toISOString().slice(0, 10);
 }
+
+/** Describe the nearest solar event using the actual order of the timestamps. */
+export function fmtSunEdge(w: Pick<TideWindow, "lowTime" | "sunrise" | "sunset">): string {
+  const edges = [
+    { name: "sunrise", time: w.sunrise },
+    { name: "sunset", time: w.sunset },
+  ].filter((edge): edge is { name: string; time: number } => edge.time !== null);
+  edges.sort((a, b) => Math.abs(w.lowTime - a.time) - Math.abs(w.lowTime - b.time));
+  const edge = edges[0];
+  if (!edge) return "Unavailable";
+  const minutes = Math.round(Math.abs(w.lowTime - edge.time) / 60_000);
+  if (minutes === 0) return `At ${edge.name}`;
+  return `${minutes} min ${w.lowTime < edge.time ? "before" : "after"} ${edge.name}`;
+}

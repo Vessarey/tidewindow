@@ -237,7 +237,7 @@ function esc(s) {
 
 function buildBadgeHtml(station, best) {
   const line = best
-    ? `Next great low tide: <strong>${best.weekday} ${best.date.slice(5).replace("-", "/")}</strong>, ${best.lowHeight.toFixed(1)} ft at ${best.lowTimeLocal} <span style="opacity:.7">(score ${best.score})</span>`
+    ? `Best next 30 days: <strong>${best.weekday} ${best.date.slice(5).replace("-", "/")}</strong>, ${best.lowHeight.toFixed(1)} ft at ${best.lowTimeLocal} <span style="opacity:.7">(score ${best.score})</span>`
     : "No standout low-tide window in the next 30 days";
   const url = `${SITE_URL}/beaches/${station.stateSlug}/${station.slug}/?utm_source=embed&utm_medium=badge`;
   return `<!doctype html>

@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { StationSelect, useStationData, type StationOption } from "@/components/tools-shared";
+import { StationSelect, StationDataStatus, useStationData, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
-import { fmtDate, fmtStamp } from "@/lib/format";
+import { fmtDate, fmtStamp, fmtSunEdge } from "@/lib/format";
 
 function azimuthToCompass(az: number): string {
   const dirs = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
@@ -12,7 +12,7 @@ function azimuthToCompass(az: number): string {
 
 export default function GoldenHour({ stations }: { stations: StationOption[] }) {
   const [slug, setSlug] = useState<string | null>(null);
-  const { data, loading } = useStationData(slug);
+  const { data, loading, error, retry } = useStationData(slug);
 
   const results = data
     ? data.windows
@@ -24,7 +24,7 @@ export default function GoldenHour({ stations }: { stations: StationOption[] }) 
   return (
     <div>
       <StationSelect stations={stations} value={slug} onChange={setSlug} toolName="golden_hour" />
-      {loading && <p className="mt-6 text-ink-soft">Loading NOAA data…</p>}
+      <StationDataStatus loading={loading} error={error} retry={retry} />
       {data && (
         <>
           <div className="answer-box">
@@ -57,7 +57,7 @@ export default function GoldenHour({ stations }: { stations: StationOption[] }) 
                     <td className="num">{w.lowTimeLocal}</td>
                     <td className="num">{w.lowHeight.toFixed(1)} ft</td>
                     <td className="num whitespace-nowrap">
-                      {Math.abs(w.minToSunEdge!)} min {Math.abs(w.lowTime - (w.sunrise ?? 0)) < Math.abs(w.lowTime - (w.sunset ?? 0)) ? "after sunrise" : "before sunset"}
+                      {fmtSunEdge(w)}
                     </td>
                     <td className="num whitespace-nowrap">
                       {w.sunAzAtLow}° ({azimuthToCompass(w.sunAzAtLow)}) · alt {w.sunAltAtLow}°
