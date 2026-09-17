@@ -100,7 +100,15 @@ Keep Sep 30 indexing/title, Oct 1 exit-prompt/month/chart, Oct 5 national,
 and Oct 15 access checkpoints. Next ready-now refresh: Port Townsend/North
 Beach (or older Sunset Bay by exposure); four ready-now assignments remain.
 
-Release verification follows after deployment.
+**Release verified:** pushed `0e38dca`; Vercel reports deployment completed
+([deployment](https://vercel.com/vessareys-projects/tidewindow/3sQxAaaQAsGT9Z41pyfaocD2gesL)).
+Live guide HTTP 200 contains the Sep 17 date, 206-window total, 15-window
+Exceptional count and corrected Great-band heading; the stale lead is gone.
+Browser read-back confirms 9 tables/47 rows, all four original gate stations,
+readable desktop layout and no console warnings/errors. The live data index
+still byte-matches the operator's committed 12:07Z release. Only the article,
+BACKLOG and this journal changed; both newsletter-draft SHA-256 values are
+unchanged. No subscriber created, broadcast sent or production setting changed.
 
 ---
 
