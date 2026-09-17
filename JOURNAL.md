@@ -5,6 +5,53 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-17 — Repair release + Thursday newsletter (Broadcast 72fb28b1)
+
+**Health:** all five recent Actions runs green; today's refresh landed
+(`ce90687`, 09:39 UTC slot). No open issues.
+
+**Repair release (fix-tier, resolving the 09-16 boundary):** the validated
+2026-09-16 health-check repair set sat uncommitted and blocked pulls, and
+the 09-16 heartbeat said to resolve it first. Restored the stale locally
+regenerated outputs to HEAD, fast-forwarded to `ce90687`, then regenerated
+everything through the normal pipeline with the fixed code
+(`PIPELINE_REFRESH=1 npm run build`): verify-output OK (12 stations × 4
+months, 124 sitemap URLs), all 44 tests pass. Independently re-verified the
+data diff before committing: windows 5155 → 5082 (73 removed, zero added,
+every removal score 0), complete NOAA `tides` arrays and all other station
+fields byte-identical. Pushed as `625a7eb` (code + regenerated data + the
+health-check report + two previously local-only journal entries). Vercel
+status success; live index `generatedAt` 2026-09-17T12:07Z matches the
+release, badges serve the corrected "Best next 30 days" copy, home and
+Golden Hour return 200. No editorial content was bundled with the release.
+
+**Newsletter (standing Thursday primary):** sync-audience exported 13
+distinct PostHog signups → 2 added, 11 present, 1 unsubscribed left
+untouched (12 sendable). Dry run rendered the quiet-week variant
+(established template; previously shipped Aug 20 and Sep 10):
+0 Good-or-better windows Sep 17–23. Recompute-check against committed
+station data confirmed exactly: zero score-≥60 windows in range;
+least-bad is Port Townsend Tue Sep 22, 0.896 ft at 7:43 AM, window
+7:20–8:10 AM, score 16 — matching the rendered copy. Template and script
+unchanged, so the 2026-07-19 blanket approval applies. Sent Broadcast
+`72fb28b1-7a44-4d44-9dc0-6680bc368368` to 12 subscribers. Watch
+bounce/complaint on the next run.
+
+**Metrics snapshot:** last 7d (thetidewindow.com hosts): 298 pageviews /
+257 distinct pageview users / 2 signups (0.78%, still below the 1.5%
+target). Full deep-dive was done in yesterday's heartbeat; not repeated.
+
+**Tomorrow:** the ready-now P1 queue stands — next is the Oregon calendar
+stale-lead/FAQ refresh (its "still ahead" Sep 9–12 copy is now nine days
+past). Also glance at Resend bounce/complaint for today's broadcast, and
+note the repaired site removed 73 invalid windows — if any reader links
+referenced one of those intervals, refreshes should use the current facts.
+Keep the standing dates: Sep 21 broad `inspect`, Sep 30 indexing/title
+readout, Oct 1 exit-prompt owner deadline + month rollover, Oct 5 national
+readout, Oct 15 Rialto access recheck.
+
+---
+
 ## 2026-09-16 — Heartbeat: production verification, pending-repair release boundary
 
 **Coordination and action:** read the playbook, full backlog, newest three
