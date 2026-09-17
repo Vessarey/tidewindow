@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-16",
+ "generated_on": "2026-09-17",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -645,16 +645,11 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 4
-  },
-  {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
    "count": 4
   },
   {
@@ -668,13 +663,13 @@
    "count": 3
   },
   {
-   "commonName": "Enteromorpha-eating Sapsucker",
-   "scientificName": "Aplysiopsis enteromorphae",
-   "count": 2
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 3
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
+   "commonName": "Enteromorpha-eating Sapsucker",
+   "scientificName": "Aplysiopsis enteromorphae",
    "count": 2
   },
   {
@@ -685,6 +680,11 @@
   {
    "commonName": "Whitecap Limpet",
    "scientificName": "Acmaea mitra",
+   "count": 1
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
    "count": 1
   }
  ]

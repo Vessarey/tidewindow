@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-16",
+ "generated_on": "2026-09-17",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -645,7 +645,7 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 25
+   "count": 24
   },
   {
    "commonName": "Stearns' Aeolid",
@@ -655,7 +655,7 @@
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 15
+   "count": 14
   },
   {
    "commonName": "California Aglaja",
@@ -663,14 +663,14 @@
    "count": 14
   },
   {
-   "commonName": "Hedgpeth's Dorid",
-   "scientificName": "Polycera hedgpethi",
-   "count": 13
-  },
-  {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
    "count": 13
+  },
+  {
+   "commonName": "Hedgpeth's Dorid",
+   "scientificName": "Polycera hedgpethi",
+   "count": 12
   },
   {
    "commonName": "Opalescent Nudibranch",

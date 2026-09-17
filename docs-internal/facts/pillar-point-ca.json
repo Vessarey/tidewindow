@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-16",
+ "generated_on": "2026-09-17",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -640,32 +640,32 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 24
+   "count": 23
   },
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 22
-  },
-  {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 14
-  },
-  {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 12
-  },
-  {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 11
+   "count": 20
   },
   {
    "commonName": "Hammerhead Doto",
    "scientificName": "Doto amyra",
    "count": 10
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 10
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 9
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 9
   },
   {
    "commonName": "Black Tegula",
@@ -678,14 +678,14 @@
    "count": 7
   },
   {
-   "commonName": "Heath's Dorid",
-   "scientificName": "Geitodoris heathi",
-   "count": 7
-  },
-  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 7
+  },
+  {
+   "commonName": "Rough Limpet",
+   "scientificName": "Lottia scabra",
+   "count": 6
   }
  ]
 }
