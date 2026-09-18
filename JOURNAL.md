@@ -5,6 +5,122 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-18 — Heartbeat: La Push current dates, daylight and access
+
+**Coordination and selection:** started from clean `2adcaed`, already current
+with origin; read the governance files, newest three journal entries and full
+backlog, today's commits, Actions and issues. The operator had already shipped
+Port Townsend (`dce21e3`); yesterday's owner-directed month titles/crawl paths
+and Fitzgerald October chart were also complete. None was repeated. There were
+three ready-now assignments at entry, not just La Push: La Push, Acadia inline
+H/L and Sunset Bay. Selected the first; no new article, title experiment, gate,
+pipeline or generated-data change. No editorial additions this week in git.
+
+**One primary improvement:** refreshed
+`la-push-second-beach-tide-pools-2026` in `02b340d). Description, 66-word
+answer box, FAQs and dated prose now move past Sep 9–12. Added seven selected
+Sep–Dec windows and explicit September/October complete H/L chart links for
+station 9442396. The original three historical tables and their calculation
+stamps remain byte-for-byte unchanged. Title, slug, July 9 publication date,
+category, tags, sources and calendar gate retained; honest updated date Sep 18.
+
+Complete remaining-range verification finds no Good window (maximum 59 on
+Dec 23), and Oct 25 is October's top score (52). Defined >=30-minute window
+daylight overlap separately from daylight at the low; six of seven selected
+lows are after sunset, while Dec 21 is about two minutes before. Scoped the
+historical depth ranking to Jul–Dec, not a full-year record. Removed claims
+that September 11's entire interval was daylit, specific rocks/pools would be
+reachable, the modeled arrive-by time supplies a safe walking margin, and the
+unsupported March-first-return claim.
+
+**Access and sources:** re-fetched all seven official links. Current
+[NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm) still
+close Mora Road beyond Mora Campground to all traffic July 8–Oct 15; campground
+open, no confirmed reopening on the listed endpoint. Removed unverified
+open/unaffected-road, crowd and better-pool claims. Verified trail distances,
+the Second Beach parking fee and short attributed NPS safety quotes. Updated
+the recent species log (Horned Nudibranch 34, not 82), keeping observation
+counts distinct from abundance and guaranteed sightings. No shellfish advice.
+
+**Validation:** final plain committed-data build passed: 137 static routes,
+12 stations x 4 months, 124 sitemap URLs, **42 fact + 6 math + 8 formatting
+tests (56 total)**. A separate **283-assertion** check covers all four
+tables/25 rows, seven new rows traced to fact sheets, complete-range rankings
+and daylight distinctions, metadata preservation, seven HTTP-200 official
+sources and 11 HTTP-200 internal links. The source-check harness initially
+failed on markup splitting the NPS quote before a comma; normalized rendered
+text matches exactly. No article-data mismatch. Description 148 characters.
+Desktop and 375px screenshots passed (document width 375); clicked the new
+October chart link and verified station/month/current data. Checked browser
+console warnings/errors: none. Production dependency audit: zero findings.
+
+**Live health:** five recent Actions green, no open issues. Actual NOAA run
+`35328365226` ran 09:12:55–09:15:08Z and landed `f261c43`; later daily slots
+correctly skipped. Logs show 56 tests, verified output and IndexNow HTTP 200
+for 124 URLs. Live index generated **2026-09-18T09:13:12.030Z** byte-matches
+committed data; home/index/sitemap HTTP 200. Home -> Finder -> example ZIP
+93950 selects Monterey and loads Sep 18 results with the prediction/access
+caveat. No Exceptional window in Sep 18–Oct 1 across the twelve stations.
+No cron recovery, email send or settings change.
+
+**Product analytics:** connected PostHog app now reports reauthentication
+required. Followed the skill's read-first/schema checks using the playbook's
+existing configured read-only API fallback; no new credential or permission.
+Confirmed project 495836, tidewindow, America/New_York, event/property schema
+and observed host/traffic classes. Fixed cutoff **Sep 18 17:15:56Z**, before QA;
+exact production host + Regular traffic throughout. Trailing 7d: **314
+pageviews / 273 distinct pageview users / 2 signup events (0.73%)**. Trailing
+28d: **1,092 / 966 / 6 (0.62%)**, below the 1.5% target. These filtered counts
+are not interchangeable with the earlier operator's broader snapshot.
+
+Seven-day events: 15 station selections, 11 results, 7 Trip Picker runs,
+6 gate clicks (tool_gate 5, article_gate_multi 1), 1 ICS reveal (tool_gate).
+Signups: tool_gate 1, exit-intent 1; exit prompt shown 15 times. No conversion
+verdict and no reopening of retired experiments. Top pageviews: national
+king-tide guide 99, Oregon king-tide guide 35, Oregon calendar 17, home 16,
+Finder 14, Fitzgerald 13, Washington king tides 10, Acadia 9, La Push 2.
+Referrer pageviews: Google 79, direct 69, Bing 55, DuckDuckGo 44, Yahoo 39,
+own domain 23, Ecosia 3, Brave 2; no AI/GitHub row returned. Not GSC clicks.
+
+Latest 24h LCP: custom p75 **727 ms**, p90 **990.2 ms**, only **15 positive
+LCP-bearing events**. Below the 30-sample floor; no recovery/regression or
+release-effect claim. Exception remote-capture false on 59 production Regular
+pageviews, absent on 255, true on none; project exception opt-in null and no
+exception event in the returned taxonomy. Coverage remains unverified, not a
+zero-error report. No production synthetic exception or instrumentation change.
+
+**Search and next gates:** latest GSC date is Sep 15 (Sep 16 query has no row).
+Exact Aug 19–Sep 15, 28 dates: **199 clicks / 12,692 impressions / position
+7.89**. Equal Sep 2–8 versus Sep 9–15: **64 -> 63 clicks**, 3,844 -> 3,700
+impressions, position 7.36 -> 7.45. No causal conclusion. Fresh flywheel data
+still points to already-covered Fitzgerald/king-tide/Constellation/Puget
+clusters. La Push baseline: two Regular pageviews/7d, no GSC guide page row
+for this exact range. Its Sep 15 never-crawled status is a dated prior
+inspection, not a live reinspection; this is factual maintenance, not a
+conversion pass on an uncrawled URL.
+
+Next run starts with **section 2a queue refill**: only Acadia inline H/L and
+Sunset Bay are writable now. Do not count the generic refresh queue or November
+preview as a third item. Sep 21: weekly inspect 40 plus state king-tide and
+La Push discovery checks. Keep Sep 30 indexing/title, Oct 1 month titles,
+Puget chart/month rollover and exit-prompt owner deadline, Oct 5 national
+guide, Oct 6 best-time and Oct 15 NPS-access checkpoints. Fitzgerald's next
+chart roll is around Nov 1, already completed for October by the owner run.
+
+Read-only Resend retrieval confirms Sep 17 Broadcast
+`72fb28b1-7a44-4d44-9dc0-6680bc368368` remains sent (12:10:06Z Sep 17).
+The response contains no delivery/bounce/complaint counters; they remain
+unverified, not zero. No audience sync, broadcast or outreach.
+
+**Release verified:** `02b340d` pushed to main; Vercel reports
+[successful deployment](https://vercel.com/vessareys-projects/tidewindow/A82P4qRzcCvXEt6LUvMc5979nFCR).
+Live guide HTTP 200; desktop browser confirms Sep 18 updated date, new lead,
+four tables/25 rows, October chart link and unchanged station calendar gate.
+Old "four more mornings" lead is gone; no console warnings/errors. Local
+preview and temporary browser tab were used only for verification.
+
+---
+
 ## 2026-09-18 — Port Townsend / Fort Worden post-season refresh (P1)
 
 **Health:** All five recent Actions runs green; today's NOAA refresh landed
