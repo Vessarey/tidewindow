@@ -5,6 +5,63 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-17 (owner-directed, afternoon) — Month-page retitle + king-tide crawl paths
+
+**Owner request:** fix the Bar Harbor and Seattle monthly page titles and act
+on strong analytics signals. Coordinated with the heartbeat's `0e38dca`
+Oregon refresh (already in HEAD; not touched beyond one link).
+
+**Diagnosis first:** per-page GSC query pulls show the two low-CTR month
+pages are mostly anonymized/conversational impressions ("what about
+tomorrow", "tide times thursday", "september 11th") — AI Mode follow-ups
+that rarely click. Visible queries cover ~30 of Seattle-Aug's 956 and ~7 of
+Bar Harbor-Sep's 952 impressions. So the low CTR is largely a surface
+effect, not a title defect; the retitle is still worthwhile because the
+visible queries are "puget sound tide chart 2026", "seattle low tides
+2026", "low tide august 2026", "tide times bar harbor".
+
+**Retitle experiment (all 48 month pages, template change):** title was
+`{Station} tide chart, {Month Year} — high & low tide times`; now
+`{Station} Tide Chart, {Month Year}: Low Tide Times and Daylight Windows`.
+Description unchanged. **Baselines (28 days to Sep 15):** bar-harbor-me
+2026-09: 5 clicks / 952 impr / 0.5% / pos 7.7; seattle-wa 2026-08: 5 /
+956 / 0.5% / 7.4; port-townsend-wa 2026-09: 5 / 125 / 4.0% / 4.5;
+seattle-wa 2026-07: 2 / 194 / 1.0% / 8.4. Verdict floor is 100+
+impressions per page post-change; these two pages clear it in about 3
+days, so **judge ~Oct 1 alongside the Sep 30 indexing readout**, on clicks
+and position per §5. Indexing note: seattle-wa/2026-09 is "unknown to
+Google" and 2026-10 "discovered, not indexed" — the indexed Seattle month is
+August, which is why an archive page carries the impressions.
+
+**Crawl paths (strong signal):** "king tides washington 2026" alone draws
+305 impressions on the national guide (pos 7.4) and "king tides 2026" 109
+at pos 9.5 with zero clicks, while URL Inspection shows both
+`/guides/king-tides-washington-2027/` and `/guides/king-tides-oregon-2027/`
+as "Discovered – currently not indexed, never crawled" (published Sep 4)
+despite `b9b2fba` links and their featured-roundup slots on the state hubs.
+Added a by-state pointer paragraph directly under the national guide's
+answer box (its top-clicked, indexed page) linking both state guides, and a
+December-section link from the Oregon calendar to the Oregon guide (link
+only; `updated` already Sep 17 from the heartbeat). National guide
+`updated` bumped to 2026-09-17. Recheck both guides' coverage state in the
+Sep 21 inspect run.
+
+**Not done, deliberately:** no retitle of the national king-tides guide
+(top page; its title already carries both years) and no Fitzgerald
+roll-forward (backlog dates it for late September). Acadia's 717
+impressions at 1% are the same anonymized pattern; its inline H/L backlog
+item stands.
+
+**Validation:** plain `npm run build` (pipeline code untouched, data was
+refreshed by the morning release): verify-output OK, 44 tests pass; new
+titles confirmed in `out/` for Bar Harbor Sep and Seattle Oct; new links
+present in rendered HTML.
+
+**Subscribers at the time of the ask:** 13 contacts, 12 active, 1
+unsubscribed. 28-day: ~1,050 pageviews / ~930 users / 6 signups.
+
+---
+
 ## 2026-09-17 — Heartbeat: Oregon calendar freshness and complete-range corrections
 
 **Coordination:** pulled current `e63001c`; read the playbook, full backlog,

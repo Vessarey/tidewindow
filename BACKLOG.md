@@ -915,6 +915,13 @@ with the date; add discoveries at the appropriate tier.
       has 3) into their station page rather than noindexing — no month page
       is actually empty (audit correction: "0 daylight minus tides" was the
       stricter metric; every month still has daylight windows under +1.0 ft).
+- [ ] **~2026-10-01: judge the 09-17 month-page retitle** (`{Station} Tide
+      Chart, {Month Year}: Low Tide Times and Daylight Windows`) on clicks and
+      position, baselines in JOURNAL 2026-09-17 (bar-harbor-me 2026-09 5 /
+      952 / pos 7.7; seattle-wa 2026-08 5 / 956 / 7.4). Same run: confirm
+      `/guides/king-tides-washington-2027/` and `/guides/king-tides-oregon-2027/`
+      moved off "Discovered – never crawled" after the 09-17 national-guide
+      by-state pointer; if not, the next lever is the Sep 21 inspect finding.
 
 - [x] 2026-08-31: **Past-month pages fixed — they had been publishing wrong
       numbers** (owner review pass). The rolling windows dataset had dropped

@@ -142,7 +142,7 @@ Depth is back below −1.7 ft south of Garibaldi, and Charleston (60) and Port O
 
 *Computed 2026-07-03 from NOAA stations 9437540, 9435380, 9432780, 9431647.*
 
-Port Orford's 72 (Good) on December 23 is the best remaining 2026 score across these four stations. All four December table lows occur after sunset. Christmas Eve is deeper still, −2.21 ft at Port Orford and −2.05 ft at Charleston, but those windows overlap daylight for only 69 and 36 minutes, before low water. Winter gives the depth back, not the light.
+Port Orford's 72 (Good) on December 23 is the best remaining 2026 score across these four stations. All four December table lows occur after sunset. Christmas Eve is deeper still, −2.21 ft at Port Orford and −2.05 ft at Charleston, but those windows overlap daylight for only 69 and 36 minutes, before low water. Winter gives the depth back, not the light. The same December alignment produces the season's highest highs; the [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) lists those dates station by station.
 
 ## What were the ten deepest Exceptional windows?
 

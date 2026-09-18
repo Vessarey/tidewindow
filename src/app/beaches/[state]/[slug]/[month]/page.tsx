@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     // fall back to the generic description if station data is unavailable
   }
   return {
-    title: `${s.name} tide chart, ${fmtMonth(month)} — high & low tide times`,
+    title: `${s.name} Tide Chart, ${fmtMonth(month)}: Low Tide Times and Daylight Windows`,
     description,
     alternates: { canonical: "./" },
     openGraph: { images: [{ url: socialImage, width: 1200, height: 630, alt: `${s.name} tide chart` }] },

@@ -2,7 +2,7 @@
 title: "King Tides 2026 & 2027 Dates: High-Tide Schedule and Low-Tide Windows"
 description: "King tide dates for 12 NOAA stations: October–December 2026 monthly high-tide peaks, plus low-tide windows through March 2027. Local times and heights."
 date: "2026-07-03"
-updated: "2026-09-11"
+updated: "2026-09-17"
 category: "king-tides"
 gateStations: ["la-jolla-ca", "newport-or", "bar-harbor-me", "seattle-wa"]
 endSignup:
@@ -41,6 +41,8 @@ sources:
 ---
 
 **King-tide dates are local, not one national weekend. Across our 12 NOAA stations, October's highest predicted tides fall October 27–29, November's November 25–27, and December's December 24–26, 2026. Seattle (9447130) reaches +13.01 ft MLLW on December 26; La Jolla (9410230) reaches +7.10 ft on December 24. These are computed monthly peaks, not flooding forecasts. The high-tide schedule comes first below, followed by low-tide windows through March 2027.**
+
+Looking for one state? The [Washington king tides 2026–27 guide](/guides/king-tides-washington-2027/) covers Seattle, Port Townsend and La Push, and the [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) covers Garibaldi through Port Orford, each with its own dates, heights and daylight low-tide windows. California and Maine stations appear in the tables on this page.
 
 ## King tide schedule: October, November and December 2026
 
