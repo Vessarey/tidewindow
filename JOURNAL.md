@@ -5,6 +5,61 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-18 — Port Townsend / Fort Worden post-season refresh (P1)
+
+**Health:** All five recent Actions runs green; today's NOAA refresh landed
+(f261c43, run 35328365226 at 09:12Z, before session). No open issues. Not
+Thursday — no newsletter. No §2b trigger: zero Exceptional windows within
+14 days at any station; king-season events start late December.
+
+**Primary action (§2d, first open P1 item):** refreshed
+`port-townsend-fort-worden-tide-pools-2026` (dce21e3), which still sold
+Sep 5–10/Labor Day as upcoming in the description, lead, two FAQs and the
+closing. Now a season-close summary: the complete remaining-2026 set is
+four Skip-band windows (Sep 22, Oct 5–7) — rendered from
+`deepest_2026_daylight_lows_remaining_top8` and recompute-checked 4/4
+against today's sheet, stated explicitly as the complete ≥30-min-overlap
+set, with daylight-at-the-low called out separately (Oct 5's −0.23 ft low
+is pre-sunrise; only Sep 22 and Oct 7 have daylit lows, at +0.90/+0.88 ft).
+Labor Day and July tables preserved as history with computation stamps.
+
+**Claims tightened per gate 2:** "deepest daylight lows of the year" scoped
+to the dataset's Jul 1 start (range_2026 covers Jul–Dec only); dropped a
+"best holiday option" ranking for Jan 18, 2027 that a top-5-by-depth list
+cannot support (Feb 15 scores higher). Species re-ranked to the current
+60-day log: Nuttall's Cockle now leads (8), Gumboot second (6); octopus
+dropped out of the log and off the page.
+
+**Backlog-specced fixes:** removed the unsupported "no gate hours / tide is
+your only clock" claim — parks.wa.gov (fetched at write time) posts day-use
+hours 6:30 a.m.–dusk summer / 8 a.m.–dusk winter, now stated with a note
+that early arrive-by times can precede opening. New "North Beach: the
+county park next door" H2 separates Jefferson County's North Beach Park
+(quoted from co.jefferson.wa.us, fetched today) from Fort Worden/Point
+Wilson; Glass Beach link kept with the route-vs-station-window boundary
+restated. No retitle, slug or gate changes; `updated:` 2026-09-18.
+
+**Validation:** plain `npm run build` green — 137 routes, verify-output OK
+(12 stations × 4 months, 124 sitemap URLs), 30 fact + 8 tide-math + 8
+formatting tests. Description exactly 155 chars. All 10 internal links map
+to existing routes; NPS/Wikipedia curl 200; parks.wa.gov and Jefferson
+County verified via fetch. Diff: single content file.
+
+**Metrics (28d):** 1,138 views / 1,010 uniques / 7 signups (~0.69% vs 1.5%
+target). 7d tools: 24 station_selected, 14 window_result_viewed, 8
+trip_picker_run, 3 signups. Top 7d pages: national king-tides guide 103
+views, **king-tides-oregon-2027 at 32 views** — the Sep 4 state guide is
+getting traffic despite "never crawled" status at the Sep 15 inspection;
+recheck its coverage state in the Sep 21 inspect run as planned.
+
+**Tomorrow:** last open P1 item is the La Push refresh (Mora Road closure
+still runs to Oct 15 per the Sep 15 check — re-verify NPS at write time).
+Queue will then hold <3 writable items → §2a refill due. Sep 21 (Mon):
+weekly inspect 40 + king-tide guide coverage recheck; Oct 1: judge the
+month-page retitle experiment alongside the Sep 30 indexing readout.
+
+---
+
 ## 2026-09-17 (owner-directed, later) — Fitzgerald chart rolled to October + fact-sheet extension
 
 **Owner request:** roll the Fitzgerald chart forward to October if optimal,

@@ -135,7 +135,16 @@ with the date; add discoveries at the appropriate tier.
       14 clicks / 369 impressions / position 6.37. Freshness maintenance,
       not a new experiment. Roll the September 27 pointer after that date.
 
-- [ ] **Port Townsend / North Beach: post-Labor-Day refresh and access
+- [x] **Port Townsend / North Beach: post-Labor-Day refresh and access
+      distinction.** **Done 2026-09-18 (dce21e3):** lead/description/FAQs/
+      closing rolled to a season-close summary; complete remaining-2026 set
+      (four Skip windows) recompute-checked 4/4; Labor Day + July tables
+      kept as history; new North Beach county-park H2 with quoted Jefferson
+      County sourcing; "tide is your only clock" replaced with verified
+      state-park day-use hours; "deepest of year" scoped to Jul 1 dataset
+      start; species re-ranked to current 60-day log. Title/slug/gates
+      unchanged. Original item:
+      **Port Townsend / North Beach: post-Labor-Day refresh and access
       distinction.** Added Sep 15 heartbeat. Target existing
       `port-townsend-fort-worden-tide-pools-2026`. Exact GSC Aug 17–Sep 13:
       `north beach port townsend tides` 7 impressions / pos 10.43 / 0 clicks
