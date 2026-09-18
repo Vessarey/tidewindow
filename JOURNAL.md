@@ -5,6 +5,47 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-17 (owner-directed, later) — Fitzgerald chart rolled to October + fact-sheet extension
+
+**Owner request:** roll the Fitzgerald chart forward to October if optimal,
+review GSC for other fixes, push and deploy. Judged optimal now rather than
+waiting for late September: the cluster (`fitzgerald marine reserve tide
+chart` 239 impr / pos 9.1, the largest non-king cluster) wants the dates
+ahead, and half of September remained, so the chart now covers **Sep 17 –
+Oct 31** (45 rows) under the H2 "tide chart: October 2026 (and the rest of
+September)" rather than dropping September early.
+
+**Traceability (backlog precondition):** added
+`daily_extremes_current_and_next_month` to every station fact sheet
+(scripts/pipeline/facts.mjs): complete per-day H/L rows for the
+station-local current and next month. New facts test asserts both months
+are present, ordered, and match every `tides` prediction one-for-one. The
+article table was rendered by script from the fact sheet, then
+recompute-checked after the fresh build: 45/45 rows match, zero hand-typed
+numbers. The "What's left" table (15 rows) and the monthly summary rows
+were checked against current windows: all match.
+
+**Correction found by the check:** the 09-16 validity fix removed one
+shallow Pillar Point December interval, so December's daylight minus tides
+are **14, not 15**, and the remaining-2026 total is **38 (from Sep 17), not
+39**. Updated the FAQ, the monthly table (with an inline note pointing to
+the methodology) and the closing count. No other article cites the old
+count (grepped). `updated:` bumped to 2026-09-17 (real data change).
+
+**Build:** `PIPELINE_REFRESH=1 npm run build` — verify-output OK, all tests
+including the new one pass. Data diff vs HEAD: zero changed tide or window
+values; the fetch horizon extended one day (2027-10-22 → 10-23), adding 12
+horizon windows (5,082 → 5,094). Committed with the code as the playbook
+requires for pipeline changes.
+
+**Other GSC signals reviewed, no action:** the retitle and crawl-path work
+earlier today already covered the two remaining strong clusters (month-page
+titles; state king-tide guides never crawled). "tide window" (20 impr, pos
+5.2) is brand navigation. Nothing else clears the flywheel bar. Next roll of
+this chart: ~Nov 1.
+
+---
+
 ## 2026-09-17 (owner-directed, afternoon) — Month-page retitle + king-tide crawl paths
 
 **Owner request:** fix the Bar Harbor and Seattle monthly page titles and act

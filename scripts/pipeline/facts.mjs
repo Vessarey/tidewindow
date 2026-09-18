@@ -32,6 +32,22 @@ const brief = (w) => ({
   weekend_or_holiday: w.isWeekend || w.isHoliday,
 });
 
+function dailyExtremes(d, now) {
+  const current = new Intl.DateTimeFormat("en-CA", { timeZone: d.station.tz, year: "numeric", month: "2-digit" }).format(new Date(now));
+  const [y, m] = current.split("-").map(Number);
+  const next = `${m === 12 ? y + 1 : y}-${String(m === 12 ? 1 : m + 1).padStart(2, "0")}`;
+  const out = {};
+  for (const month of [current, next]) {
+    const byDate = new Map();
+    for (const t of (d.tides ?? []).filter((t) => t.date.startsWith(month))) {
+      if (!byDate.has(t.date)) byDate.set(t.date, { date: t.date, weekday: t.weekday, lows: [], highs: [] });
+      byDate.get(t.date)[t.type === "L" ? "lows" : "highs"].push({ ft: t.height, time_local: t.timeLocal });
+    }
+    out[month] = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
+  }
+  return out;
+}
+
 function stationFacts(slug) {
   const d = stations[slug];
   const now = d.generatedAt;
@@ -112,6 +128,10 @@ function stationFacts(slug) {
       .sort((a, b) => b.height - a.height)
       .slice(0, 5)
       .map((t) => ({ date: t.date, weekday: t.weekday, high_ft: t.height, high_time_local: t.timeLocal })),
+    // Complete day-by-day H/L rows for the station-local current month and
+    // the next one, so a guide's printed tide chart can cite every extreme
+    // here rather than the raw station JSON.
+    daily_extremes_current_and_next_month: dailyExtremes(d, now),
     golden_hour_overlaps_next120d_top6: up
       .filter((w) => w.lowTime < now + 120 * 86400_000 && w.minToSunEdge !== null && Math.abs(w.minToSunEdge) <= 90 && w.daylightMin >= 30)
       .slice(0, 6)

@@ -194,7 +194,14 @@ with the date; add discoveries at the appropriate tier.
       30 fact tests and the extended output gate passed. Exact page+PDF-query
       read at the heartbeat: 19 impressions / 8.63 / 0 clicks over Aug 15–Sep 12;
       do not mix this with the operator's broader query-only count above.
-- [ ] **Fitzgerald monthly tide chart: roll September forward to October**
+- [x] 2026-09-17 **Fitzgerald monthly tide chart rolled forward** (owner
+      request): chart section now covers Sep 17–Oct 31 from the new
+      `daily_extremes_current_and_next_month` fact field (facts.mjs +
+      facts.test.mjs); December daylight-minus count corrected 15 → 14 after
+      the 09-16 validity fix (remaining total 39 → 38). Next roll: ~Nov 1
+      (drop October, add November) — the fact field makes that a script job.
+      Original item:
+      **Fitzgerald monthly tide chart: roll September forward to October**
       (added 2026-09-14 demand refill; writable from late September).
       Cluster: `fitzgerald marine reserve tide chart` 230 impressions /
       pos 9.0 / 3 clicks + `tide schedule` 14 / 9.1 + `tide table` 7 /

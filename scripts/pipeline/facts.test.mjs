@@ -95,6 +95,32 @@ for (const { slug } of index.stations) {
   });
 }
 
+for (const { slug } of index.stations) {
+  test(`${slug} daily extremes cover the station-local current and next month and match every prediction`, () => {
+    const f = facts[slug];
+    const d = data[slug];
+    const rows = f.daily_extremes_current_and_next_month;
+    const months = Object.keys(rows);
+    assert.equal(months.length, 2, slug);
+    const current = new Intl.DateTimeFormat("en-CA", { timeZone: d.station.tz, year: "numeric", month: "2-digit" }).format(new Date(d.generatedAt));
+    assert.equal(months[0], current, `${slug} current month`);
+    const [y, m] = current.split("-").map(Number);
+    assert.equal(months[1], `${m === 12 ? y + 1 : y}-${String(m === 12 ? 1 : m + 1).padStart(2, "0")}`, `${slug} next month`);
+    for (const month of months) {
+      const tides = d.tides.filter((t) => t.date.startsWith(month));
+      const flattened = rows[month].flatMap((r) => [
+        ...r.lows.map((x) => ({ date: r.date, weekday: r.weekday, type: "L", height: x.ft, timeLocal: x.time_local })),
+        ...r.highs.map((x) => ({ date: r.date, weekday: r.weekday, type: "H", height: x.ft, timeLocal: x.time_local })),
+      ]);
+      assert.equal(flattened.length, tides.length, `${slug} ${month} row count`);
+      for (const t of tides) {
+        assert.ok(flattened.some((x) => x.date === t.date && x.type === t.type && x.height === t.height && x.timeLocal === t.timeLocal && x.weekday === t.weekday), `${slug} ${t.date} ${t.type} ${t.timeLocal}`);
+      }
+      assert.deepEqual(rows[month].map((r) => r.date), [...rows[month].map((r) => r.date)].sort(), `${slug} ${month} order`);
+    }
+  });
+}
+
 for (const region of ["oregon", "puget", "california"]) {
   test(`${region} regional facts disclose the same range and match station rollups`, () => {
     const regional = read(`docs-internal/facts/region-${region}.json`);

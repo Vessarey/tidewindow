@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-17",
+ "generated_on": "2026-09-18",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -550,6 +550,1399 @@
    "high_time_local": "9:17 AM"
   }
  ],
+ "daily_extremes_current_and_next_month": {
+  "2026-09": [
+   {
+    "date": "2026-09-01",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": 1.488,
+      "time_local": "5:40 AM"
+     },
+     {
+      "ft": 1.07,
+      "time_local": "7:03 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.813,
+      "time_local": "12:10 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-02",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": 2.049,
+      "time_local": "6:02 AM"
+     },
+     {
+      "ft": 1.129,
+      "time_local": "8:21 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.771,
+      "time_local": "12:59 AM"
+     },
+     {
+      "ft": 5.766,
+      "time_local": "12:52 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-03",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 2.595,
+      "time_local": "6:25 AM"
+     },
+     {
+      "ft": 0.974,
+      "time_local": "10:08 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.162,
+      "time_local": "2:33 AM"
+     },
+     {
+      "ft": 5.643,
+      "time_local": "1:52 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-04",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 0.498,
+      "time_local": "11:43 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.581,
+      "time_local": "3:21 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-05",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 3.367,
+      "time_local": "10:20 AM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.59,
+      "time_local": "7:16 AM"
+     },
+     {
+      "ft": 5.794,
+      "time_local": "4:56 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-06",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": -0.033,
+      "time_local": "12:46 AM"
+     },
+     {
+      "ft": 2.983,
+      "time_local": "12:00 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.048,
+      "time_local": "7:41 AM"
+     },
+     {
+      "ft": 6.198,
+      "time_local": "6:10 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-07",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": -0.444,
+      "time_local": "1:34 AM"
+     },
+     {
+      "ft": 2.391,
+      "time_local": "1:03 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.495,
+      "time_local": "8:08 AM"
+     },
+     {
+      "ft": 6.578,
+      "time_local": "7:08 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-08",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": -0.674,
+      "time_local": "2:14 AM"
+     },
+     {
+      "ft": 1.776,
+      "time_local": "1:54 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.93,
+      "time_local": "8:35 AM"
+     },
+     {
+      "ft": 6.799,
+      "time_local": "7:58 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-09",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": -0.699,
+      "time_local": "2:50 AM"
+     },
+     {
+      "ft": 1.233,
+      "time_local": "2:39 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.337,
+      "time_local": "9:04 AM"
+     },
+     {
+      "ft": 6.793,
+      "time_local": "8:43 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-10",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": -0.528,
+      "time_local": "3:22 AM"
+     },
+     {
+      "ft": 0.821,
+      "time_local": "3:22 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.683,
+      "time_local": "9:33 AM"
+     },
+     {
+      "ft": 6.55,
+      "time_local": "9:25 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-11",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": -0.184,
+      "time_local": "3:52 AM"
+     },
+     {
+      "ft": 0.571,
+      "time_local": "4:03 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.934,
+      "time_local": "10:02 AM"
+     },
+     {
+      "ft": 6.103,
+      "time_local": "10:06 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-12",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 0.295,
+      "time_local": "4:19 AM"
+     },
+     {
+      "ft": 0.489,
+      "time_local": "4:44 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.058,
+      "time_local": "10:31 AM"
+     },
+     {
+      "ft": 5.511,
+      "time_local": "10:46 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-13",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": 0.863,
+      "time_local": "4:45 AM"
+     },
+     {
+      "ft": 0.565,
+      "time_local": "5:26 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.041,
+      "time_local": "10:59 AM"
+     },
+     {
+      "ft": 4.842,
+      "time_local": "11:28 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-14",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": 1.467,
+      "time_local": "5:08 AM"
+     },
+     {
+      "ft": 0.771,
+      "time_local": "6:11 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.891,
+      "time_local": "11:27 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-15",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": 2.056,
+      "time_local": "5:28 AM"
+     },
+     {
+      "ft": 1.063,
+      "time_local": "7:03 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.165,
+      "time_local": "12:15 AM"
+     },
+     {
+      "ft": 5.632,
+      "time_local": "11:56 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-16",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": 2.584,
+      "time_local": "5:39 AM"
+     },
+     {
+      "ft": 1.36,
+      "time_local": "8:10 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.549,
+      "time_local": "1:14 AM"
+     },
+     {
+      "ft": 5.299,
+      "time_local": "12:26 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-17",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 3.001,
+      "time_local": "5:18 AM"
+     },
+     {
+      "ft": 1.48,
+      "time_local": "9:55 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.114,
+      "time_local": "2:51 AM"
+     },
+     {
+      "ft": 4.932,
+      "time_local": "1:08 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-18",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 1.257,
+      "time_local": "11:39 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.622,
+      "time_local": "2:35 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-19",
+    "weekday": "Sat",
+    "lows": [],
+    "highs": [
+     {
+      "ft": 4.642,
+      "time_local": "4:37 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-20",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": 0.926,
+      "time_local": "12:34 AM"
+     },
+     {
+      "ft": 3.377,
+      "time_local": "12:02 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.017,
+      "time_local": "7:55 AM"
+     },
+     {
+      "ft": 4.955,
+      "time_local": "5:51 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-21",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": 0.626,
+      "time_local": "1:12 AM"
+     },
+     {
+      "ft": 2.895,
+      "time_local": "12:47 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.266,
+      "time_local": "7:58 AM"
+     },
+     {
+      "ft": 5.321,
+      "time_local": "6:40 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-22",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": 0.392,
+      "time_local": "1:41 AM"
+     },
+     {
+      "ft": 2.384,
+      "time_local": "1:22 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.555,
+      "time_local": "8:09 AM"
+     },
+     {
+      "ft": 5.633,
+      "time_local": "7:20 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-23",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": 0.24,
+      "time_local": "2:07 AM"
+     },
+     {
+      "ft": 1.868,
+      "time_local": "1:56 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.888,
+      "time_local": "8:25 AM"
+     },
+     {
+      "ft": 5.841,
+      "time_local": "7:56 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-24",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 0.188,
+      "time_local": "2:32 AM"
+     },
+     {
+      "ft": 1.362,
+      "time_local": "2:30 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.255,
+      "time_local": "8:44 AM"
+     },
+     {
+      "ft": 5.914,
+      "time_local": "8:31 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-25",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 0.251,
+      "time_local": "2:56 AM"
+     },
+     {
+      "ft": 0.893,
+      "time_local": "3:06 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.631,
+      "time_local": "9:06 AM"
+     },
+     {
+      "ft": 5.834,
+      "time_local": "9:07 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-26",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 0.44,
+      "time_local": "3:21 AM"
+     },
+     {
+      "ft": 0.494,
+      "time_local": "3:42 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.983,
+      "time_local": "9:29 AM"
+     },
+     {
+      "ft": 5.592,
+      "time_local": "9:45 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-27",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": 0.75,
+      "time_local": "3:45 AM"
+     },
+     {
+      "ft": 0.209,
+      "time_local": "4:22 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.272,
+      "time_local": "9:55 AM"
+     },
+     {
+      "ft": 5.194,
+      "time_local": "10:25 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-28",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": 1.159,
+      "time_local": "4:10 AM"
+     },
+     {
+      "ft": 0.08,
+      "time_local": "5:05 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.457,
+      "time_local": "10:23 AM"
+     },
+     {
+      "ft": 4.666,
+      "time_local": "11:11 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-29",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": 1.633,
+      "time_local": "4:35 AM"
+     },
+     {
+      "ft": 0.122,
+      "time_local": "5:56 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.499,
+      "time_local": "10:54 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-30",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": 2.137,
+      "time_local": "5:00 AM"
+     },
+     {
+      "ft": 0.299,
+      "time_local": "6:57 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.072,
+      "time_local": "12:07 AM"
+     },
+     {
+      "ft": 6.372,
+      "time_local": "11:31 AM"
+     }
+    ]
+   }
+  ],
+  "2026-10": [
+   {
+    "date": "2026-10-01",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 2.642,
+      "time_local": "5:26 AM"
+     },
+     {
+      "ft": 0.495,
+      "time_local": "8:16 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.53,
+      "time_local": "1:22 AM"
+     },
+     {
+      "ft": 6.084,
+      "time_local": "12:20 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-02",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 3.135,
+      "time_local": "5:55 AM"
+     },
+     {
+      "ft": 0.501,
+      "time_local": "9:54 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.276,
+      "time_local": "3:19 AM"
+     },
+     {
+      "ft": 5.706,
+      "time_local": "1:30 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-03",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 3.555,
+      "time_local": "8:17 AM"
+     },
+     {
+      "ft": 0.261,
+      "time_local": "11:19 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.62,
+      "time_local": "6:05 AM"
+     },
+     {
+      "ft": 5.447,
+      "time_local": "3:10 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-04",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": 3.301,
+      "time_local": "10:54 AM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.104,
+      "time_local": "6:38 AM"
+     },
+     {
+      "ft": 5.52,
+      "time_local": "4:49 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-05",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": 0.003,
+      "time_local": "12:18 AM"
+     },
+     {
+      "ft": 2.629,
+      "time_local": "12:11 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.596,
+      "time_local": "7:05 AM"
+     },
+     {
+      "ft": 5.757,
+      "time_local": "6:02 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-06",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": -0.135,
+      "time_local": "1:03 AM"
+     },
+     {
+      "ft": 1.894,
+      "time_local": "1:06 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.087,
+      "time_local": "7:33 AM"
+     },
+     {
+      "ft": 5.936,
+      "time_local": "6:59 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-07",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": -0.112,
+      "time_local": "1:41 AM"
+     },
+     {
+      "ft": 1.216,
+      "time_local": "1:52 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.555,
+      "time_local": "8:00 AM"
+     },
+     {
+      "ft": 5.964,
+      "time_local": "7:49 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-08",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 0.066,
+      "time_local": "2:13 AM"
+     },
+     {
+      "ft": 0.658,
+      "time_local": "2:34 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.962,
+      "time_local": "8:28 AM"
+     },
+     {
+      "ft": 5.825,
+      "time_local": "8:33 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-09",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 0.373,
+      "time_local": "2:43 AM"
+     },
+     {
+      "ft": 0.254,
+      "time_local": "3:14 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.269,
+      "time_local": "8:55 AM"
+     },
+     {
+      "ft": 5.546,
+      "time_local": "9:14 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-10",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 0.773,
+      "time_local": "3:10 AM"
+     },
+     {
+      "ft": 0.021,
+      "time_local": "3:51 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.444,
+      "time_local": "9:21 AM"
+     },
+     {
+      "ft": 5.167,
+      "time_local": "9:54 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-11",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": 1.226,
+      "time_local": "3:34 AM"
+     },
+     {
+      "ft": -0.04,
+      "time_local": "4:29 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.476,
+      "time_local": "9:47 AM"
+     },
+     {
+      "ft": 4.73,
+      "time_local": "10:35 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-12",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": 1.696,
+      "time_local": "3:57 AM"
+     },
+     {
+      "ft": 0.058,
+      "time_local": "5:07 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.368,
+      "time_local": "10:12 AM"
+     },
+     {
+      "ft": 4.272,
+      "time_local": "11:17 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-13",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": 2.15,
+      "time_local": "4:18 AM"
+     },
+     {
+      "ft": 0.29,
+      "time_local": "5:48 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.144,
+      "time_local": "10:37 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-14",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": 2.564,
+      "time_local": "4:35 AM"
+     },
+     {
+      "ft": 0.614,
+      "time_local": "6:35 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.827,
+      "time_local": "12:06 AM"
+     },
+     {
+      "ft": 5.83,
+      "time_local": "11:01 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-15",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 2.922,
+      "time_local": "4:44 AM"
+     },
+     {
+      "ft": 0.955,
+      "time_local": "7:33 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.445,
+      "time_local": "1:09 AM"
+     },
+     {
+      "ft": 5.453,
+      "time_local": "11:28 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-16",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 1.191,
+      "time_local": "8:53 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.036,
+      "time_local": "12:03 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-17",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 1.183,
+      "time_local": "10:26 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.619,
+      "time_local": "1:14 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-18",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": 3.809,
+      "time_local": "9:39 AM"
+     },
+     {
+      "ft": 1.009,
+      "time_local": "11:29 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.88,
+      "time_local": "7:17 AM"
+     },
+     {
+      "ft": 4.408,
+      "time_local": "3:26 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-19",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": 3.36,
+      "time_local": "11:33 AM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.147,
+      "time_local": "6:56 AM"
+     },
+     {
+      "ft": 4.536,
+      "time_local": "4:59 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-20",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": 0.829,
+      "time_local": "12:11 AM"
+     },
+     {
+      "ft": 2.771,
+      "time_local": "12:21 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.481,
+      "time_local": "7:01 AM"
+     },
+     {
+      "ft": 4.77,
+      "time_local": "5:58 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-21",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": 0.707,
+      "time_local": "12:43 AM"
+     },
+     {
+      "ft": 2.126,
+      "time_local": "1:00 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 4.878,
+      "time_local": "7:16 AM"
+     },
+     {
+      "ft": 4.978,
+      "time_local": "6:46 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-22",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 0.668,
+      "time_local": "1:11 AM"
+     },
+     {
+      "ft": 1.449,
+      "time_local": "1:36 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.328,
+      "time_local": "7:34 AM"
+     },
+     {
+      "ft": 5.112,
+      "time_local": "7:29 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-23",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 0.724,
+      "time_local": "1:39 AM"
+     },
+     {
+      "ft": 0.775,
+      "time_local": "2:13 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 5.806,
+      "time_local": "7:56 AM"
+     },
+     {
+      "ft": 5.151,
+      "time_local": "8:11 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-24",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 0.877,
+      "time_local": "2:06 AM"
+     },
+     {
+      "ft": 0.154,
+      "time_local": "2:51 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.273,
+      "time_local": "8:20 AM"
+     },
+     {
+      "ft": 5.079,
+      "time_local": "8:54 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-25",
+    "weekday": "Sun",
+    "lows": [
+     {
+      "ft": 1.116,
+      "time_local": "2:34 AM"
+     },
+     {
+      "ft": -0.35,
+      "time_local": "3:31 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.68,
+      "time_local": "8:48 AM"
+     },
+     {
+      "ft": 4.891,
+      "time_local": "9:38 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-26",
+    "weekday": "Mon",
+    "lows": [
+     {
+      "ft": 1.423,
+      "time_local": "3:03 AM"
+     },
+     {
+      "ft": -0.673,
+      "time_local": "4:13 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 6.972,
+      "time_local": "9:18 AM"
+     },
+     {
+      "ft": 4.594,
+      "time_local": "10:25 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-27",
+    "weekday": "Tue",
+    "lows": [
+     {
+      "ft": 1.776,
+      "time_local": "3:33 AM"
+     },
+     {
+      "ft": -0.777,
+      "time_local": "5:00 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 7.096,
+      "time_local": "9:51 AM"
+     },
+     {
+      "ft": 4.223,
+      "time_local": "11:19 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-28",
+    "weekday": "Wed",
+    "lows": [
+     {
+      "ft": 2.156,
+      "time_local": "4:05 AM"
+     },
+     {
+      "ft": -0.67,
+      "time_local": "5:53 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 7.017,
+      "time_local": "10:29 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-29",
+    "weekday": "Thu",
+    "lows": [
+     {
+      "ft": 2.552,
+      "time_local": "4:41 AM"
+     },
+     {
+      "ft": -0.415,
+      "time_local": "6:55 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.857,
+      "time_local": "12:22 AM"
+     },
+     {
+      "ft": 6.725,
+      "time_local": "11:13 AM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "weekday": "Fri",
+    "lows": [
+     {
+      "ft": 2.958,
+      "time_local": "5:26 AM"
+     },
+     {
+      "ft": -0.125,
+      "time_local": "8:05 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.618,
+      "time_local": "1:41 AM"
+     },
+     {
+      "ft": 6.256,
+      "time_local": "12:09 PM"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "weekday": "Sat",
+    "lows": [
+     {
+      "ft": 3.326,
+      "time_local": "6:48 AM"
+     },
+     {
+      "ft": 0.08,
+      "time_local": "9:25 PM"
+     }
+    ],
+    "highs": [
+     {
+      "ft": 3.654,
+      "time_local": "3:21 AM"
+     },
+     {
+      "ft": 5.712,
+      "time_local": "1:24 PM"
+     }
+    ]
+   }
+  ]
+ },
  "golden_hour_overlaps_next120d_top6": [
   {
    "date": "2026-09-29",
@@ -638,13 +2031,13 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Pismo Clam",
-   "scientificName": "Tivela stultorum",
-   "count": 3
-  },
-  {
    "commonName": "Gould Beanclam",
    "scientificName": "Donax gouldii",
+   "count": 2
+  },
+  {
+   "commonName": "Pismo Clam",
+   "scientificName": "Tivela stultorum",
    "count": 2
   },
   {
@@ -683,8 +2076,8 @@
    "count": 1
   },
   {
-   "commonName": "Clipped Semele",
-   "scientificName": "Semele decisa",
+   "commonName": "Purple Olive Snail",
+   "scientificName": "Callianax biplicata",
    "count": 1
   }
  ]
