@@ -162,7 +162,7 @@ with the date; add discoveries at the appropriate tier.
       and do not infer route clearance from the station window. Keep title,
       slug and gate. Sep 15 URL inspection: indexed, last crawl Jul 8.
 
-- [ ] **La Push / Olympic tide chart: current dates without reopening
+- [x] **La Push / Olympic tide chart: current dates without reopening
       Rialto.** Added Sep 15 heartbeat. Target existing
       `la-push-second-beach-tide-pools-2026`. Exact GSC Aug 17–Sep 13:
       `olympic tide chart` 2 impressions / pos 9.0 / 0 clicks and `la push
@@ -181,6 +181,19 @@ with the date; add discoveries at the appropriate tier.
       inspection: Discovered–currently not indexed, never crawled. This is
       factual maintenance, not a conversion pass; keep crawl follow-up in
       the Sep 21 weekly check and do not re-add already-shipped inbound links.
+      **Done Sep 18 heartbeat:** retired the passed-morning lead, description
+      and FAQs; added a seven-date Sep–Dec comparison and links to the full
+      September/October station charts. All three historical tables and their
+      computation stamps retained unchanged. Separated daylight overlap from
+      low-time daylight (Dec 21 is the narrow exception), scoped the historical
+      depth ranking to Jul–Dec, and removed route-clearance/arrival implications.
+      Current NPS closure is beyond Mora Campground, not a verified October
+      reopening; trail lengths, parking fee and brief official safety quotes
+      reverified. Species snapshot updated. Title, slug, publish date and gate
+      unchanged. Build: 56 tests, 124 sitemap routes; 283 content/source checks,
+      25 table rows, 11 internal links, seven official sources and 375px QA pass.
+      Baseline: 2 Regular production pageviews/7d; exact GSC Aug 19–Sep 15
+      returns no guide page row. No experiment or indexing-success claim.
 
 - [x] **Print-friendly view of the national king-tide schedule — refresh,
       not a new page** (added 2026-09-14 demand refill). Cluster: `king
@@ -556,6 +569,11 @@ with the date; add discoveries at the appropriate tier.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed California pass. Next-oldest
       explicit candidate by vintage: Sunset Bay (07-16).
+      Sep 18: operator completed Port Townsend and heartbeat completed La Push.
+      **Two ready-now assignments remain: Acadia inline H/L and Sunset Bay.**
+      The generic refresh queue is not a third assignment and November's
+      preview is not writable this week. Section 2a demand-led refill is the
+      next run's first priority; do not duplicate shipped title/chart work.
       Sep 17 heartbeat completed the Oregon calendar assignment; four
       ready-now items remain (Port Townsend, La Push, Acadia and Sunset Bay).
       Done 2026-09-10 heartbeat (8b53e98): CA hub (07-15) — see its

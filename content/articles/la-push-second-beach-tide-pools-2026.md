@@ -1,20 +1,20 @@
 ---
 title: "La Push Tide Pools 2026: Second Beach's Best Low-Tide Days (Rialto Beach Is Closed)"
-description: "La Push's last morning minus tides of 2026 land Sep 9–12 (NOAA 9442396). Rialto Beach stays closed until Oct 15 — the pools are at Second Beach."
+description: "La Push's remaining 2026 lows shift toward dusk. Compare September–December windows, find full tide charts, and check the NPS Rialto access closure."
 date: "2026-07-09"
-updated: "2026-09-01"
+updated: "2026-09-18"
 category: "station-guides"
 station: "la-push-wa"
 tags: ["la push tide pools", "second beach", "rialto beach", "hole in the wall", "olympic national park", "washington coast low tide"]
 faq:
   - q: "Is Rialto Beach and Hole-in-the-Wall open in 2026?"
-    a: "Not until mid-October. Olympic National Park has closed Mora Road to all traffic for construction from July 8 to October 15, 2026, and states that Rialto Beach 'will not be accessible via Mora Road during this construction period.' The closure covered the entire July 12–17 run and lasts through the September 9–12 mornings. For tidepools on the same tides, use Second Beach, reached by a 0.7-mile trail off La Push Road."
+    a: "As checked September 18, NPS lists a July 8–October 15, 2026 construction closure of Mora Road beyond Mora Campground, including pedestrians, bicycles and vehicles. Rialto Beach is inaccessible via that road during construction; the campground remains open. October 15 is a scheduled construction endpoint, not a verified reopening. The current NPS conditions page controls the access question, not a tide prediction."
   - q: "When is the best tidepooling at La Push for the rest of 2026?"
-    a: "September 9–12, 2026 — the year's last morning minus tides at NOAA station 9442396: −1.14 ft MLLW on Wednesday the 9th at 5:52 AM, −1.04 ft Thursday at 6:33 AM, −0.69 ft Friday at 7:10 AM, and −0.13 ft Saturday at 7:45 AM. After Saturday the 12th, every remaining 2026 minus tide with any daylight falls at dusk. The year's best water — the July 12–17 Exceptional run, bottoming at −3.00 ft on July 14 — has passed."
+    a: "No remaining 2026 window reaches Tidewindow's Good band at NOAA station 9442396. Among windows with at least 30 minutes of daylight overlap, December 23 scores highest at 59 (Fair), with a −1.97 ft MLLW low at 6:03 PM, after sunset. October 25 is October's top-scoring window at 52, with a −0.71 ft low at 6:48 PM, also after sunset. These scores compare predictions; they do not establish beach or route access."
   - q: "How do I get to Second Beach near La Push, and how long is the hike?"
-    a: "The Second Beach trailhead is on La Push Road, about 14 miles west of US 101 on the Quileute Indian Reservation. The trail runs 0.7 miles each way — the park lists an 80-foot climb and a 100-foot descent on the way in — through old-growth forest to a sandy beach with sea stacks, a natural arch, and tidepools. Pets are not allowed on the trail or the beach. Third Beach, 1.4 miles each way off the same road with a 240-foot descent, is the quieter alternative."
+    a: "NPS lists the Second Beach trail as 0.7 mile each way, with an 80-foot gain and 100-foot loss on the way in. Its trail page also lists a $10 daily parking fee on Quileute Tribal Lands, including Second Beach, effective May 1, 2026, and prohibits pets on coastal beaches and trails. Third Beach's listed trail is 1.4 miles each way, with a 240-foot descent. Consult those trail pages for current conditions."
   - q: "Are there tide pools at La Push in the fall and winter?"
-    a: "The deep water returns in king-tide season, but after sunset. The biggest remaining 2026 lows at station 9442396 land October 26 (−1.34 ft, 7:29 PM), November 24 (−1.84 ft, 6:14 PM), and December 23 (−1.97 ft, 6:03 PM) — the low itself in the dark, with usable light only on the early falling tide. Morning minus tides do not return to La Push until March 23–26, 2027."
+    a: "The September 9–12 morning run has passed. The remaining September–December minus-tide windows with at least 30 minutes of daylight overlap all have afternoon or evening lows, and nearly all of those lows are after sunset. December 21 is the narrow exception: −0.66 ft at 4:26 PM, about two minutes before sunset. Daylight overlap elsewhere in a window is not the same as daylight at low water, and neither verifies access to tidepools."
 sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442396"
   - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
@@ -25,21 +25,41 @@ sources:
   - "https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm"
 ---
 
-**La Push's tidepool year comes down to four more mornings: September 9–12, 2026, the last morning minus tides of the year, computed from NOAA station 9442396. The deepest is Wednesday the 9th, −1.14 ft MLLW at 5:52 AM; after Saturday the 12th, every remaining 2026 minus tide with any daylight falls at dusk. And Rialto Beach stays closed until October 15, so work these tides from Second Beach, a 0.7-mile trail off La Push Road.**
+**La Push's September 9–12 morning run has passed. At NOAA station 9442396, October's highest-scoring window is Sunday, October 25: −0.71 ft MLLW at 6:48 PM, score 52 (Fair), with 71 minutes of daylight elsewhere in the window—not at the low itself. No remaining 2026 window reaches Good. NPS still lists the Mora Road closure to Rialto; its scheduled October 15 endpoint is not a confirmed reopening.**
 
-The big water — July's −3.00 ft record — has passed, and this September run rates Fair, not Exceptional. But it is what 2026 has left on this coast, and the routing problem that shaped the summer still applies, so start there.
+The autumn story is a trade-off between depth and light. The full high-and-low charts show both; a short list of low windows does not. This guide keeps the summer tables as history and puts the remaining dates first.
 
 ## First, the Rialto Beach closure
 
-If you searched "Hole-in-the-Wall Rialto Beach low tide," read this before you drive. Olympic National Park has closed the road to Rialto Beach through mid-October. Per the park's current conditions page: **"Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026,"** and **"Rialto Beach will not be accessible via Mora Road during this construction period."**
+If you searched "Hole-in-the-Wall Rialto Beach low tide," the access notice comes before the tide table. The [NPS conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), checked September 18, lists construction from July 8–October 15, 2026, closing Mora Road beyond Mora Campground to pedestrians, bicycles and vehicles. The campground remains open. NPS states: **"Rialto Beach will not be accessible via Mora Road during this construction period."**
 
-That is not a partial closure you can walk around — it is closed to all traffic, it swallowed the entire July minus-tide run, and it covers the September mornings below too. Hole-in-the-Wall, the sea-carved arch about 1.5 miles up the beach from the Rialto parking lot, is on the far side of the closure. Cross it off the 2026 tidepool list; if you are planning a trip after October 15, check the park's conditions page first, since construction dates can shift.
+The listed end date does not confirm that the road will reopen that day. Nothing in the tables below overrides the closure or establishes a route to Hole-in-the-Wall.
 
-The good news: the best tidepools near La Push are not actually at Rialto. They are at **Second Beach**, reached from a different road (La Push Road, not Mora Road) that is open and unaffected. Same tide station, same water, a shorter walk — and arguably better pools. The rest of this guide is about working those tides at Second Beach.
+Second Beach and Third Beach are separate trail destinations, described below using NPS trail information. A shared station reference does not mean identical local timing or verified access at either beach.
+
+## La Push tide chart: September and October 2026
+
+For the complete daily sequence, use the [September La Push tide chart](/beaches/wa/la-push-wa/2026-09/) or the [October La Push tide chart](/beaches/wa/la-push-wa/2026-10/). Both include high and low predictions for **La Push, Quillayute River (9442396)**. They are station-specific charts, not a single timetable for the whole Olympic coast.
+
+The selection below compares a near-term September date, October options and late-year examples. A qualifying window has at least 30 minutes between sunrise and sunset somewhere within the modeled below-+1-ft interval. That does **not** mean the low itself—or the entire interval—is in daylight. All times are local, with the seasonal clock change applied.
+
+| Date | Low (ft MLLW) | Time of low | Daylight overlap (min) | Score |
+|---|---|---|---|---|
+| Sun, Sep 27 | −0.41 | 7:49 PM | 51 | 45 |
+| Sat, Oct 10 | −0.38 | 7:14 PM | 59 | 43 |
+| Sun, Oct 25 | −0.71 | 6:48 PM | 71 | 52 |
+| Mon, Oct 26 | −1.34 | 7:29 PM | 40 | 49 |
+| Tue, Nov 24 | −1.84 | 6:14 PM | 32 | 56 |
+| Mon, Dec 21 | −0.66 | 4:26 PM | 113 | 45 |
+| Wed, Dec 23 | −1.97 | 6:03 PM | 39 | 59 |
+
+*Computed September 18, 2026, from the La Push fact sheet. This is a selection, not every remaining low or every qualifying window.*
+
+October 25 has October's highest score; December 23 has the highest score among all remaining 2026 qualifying windows, still only Fair. **Six of these seven lows are after sunset.** December 21 is about two minutes before sunset: a useful illustration of why 113 minutes of window overlap is not 113 minutes around a daylit low. Tide predictions are not observations or confirmation of beach, trail or headland access.
 
 ## When is the lowest tide at La Push in 2026?
 
-Tidewindow computes windows for the La Push beaches from the nearest NOAA prediction station, [La Push, Quillayute River (9442396)](/beaches/wa/la-push-wa/). Here are the eight deepest daylight lows of 2026, ranked by depth, with the score that folds tide depth and daylight together — all of them now in the record books.
+Tidewindow uses [La Push, Quillayute River (9442396)](/beaches/wa/la-push-wa/) as its reference. The fact sheet covers **July 1–December 31, not the full year**. These are that period's eight deepest lows with at least 30 minutes of window daylight overlap, ranked by depth. All eight dates have passed.
 
 | Rank | Date | Low (ft MLLW) | Time of low | Score |
 |---|---|---|---|---|
@@ -54,13 +74,13 @@ Tidewindow computes windows for the La Push beaches from the nearest NOAA predic
 
 *Computed 2026-07-08 from NOAA station 9442396 predictions, MLLW.*
 
-Every one of the year's eight deepest daylight lows landed in July or August, and five of them fell inside a single week. The outer coast is like that — the deep water comes in short mid-summer runs and hands you very little the rest of the year.
+All eight in this July–December ranking fell in July or August; five fell in the July 12–16 span. This is a ranking of the dataset's covered period, not a claim about January–June.
 
-Notice the scores. Tuesday the 14th was the deepest at −3.00 ft but scored 90, while Sunday the 12th, a foot shallower, scored 97. Depth is only half the story; the window scale also weighs how much of the low falls in usable daylight and how workable the hour is. The [methodology page](/methodology/) shows exactly how the two combine. That trade-off is worth learning here, because it decides the September run below too.
+Tuesday the 14th was deeper at −3.00 ft but scored 90, while Sunday the 12th scored 97 at −2.14 ft. The [methodology page](/methodology/) explains how depth, daylight overlap, weekends and season contribute to the score. It is a comparison model, not an access assessment.
 
-## The July 12–17 Exceptional run (2026's record week)
+## The July 12–17 Exceptional run: a historical comparison
 
-Deep lows arrive in runs of five or six consecutive mornings around a new or full moon, each day's low landing roughly 45 minutes later than the last. In July 2026 that run reached Exceptional (90+) every day from Sunday the 12th through Friday the 17th — the table stands as the year's record.
+The July run reached Exceptional (90+) on all six dates below. The original table and computation date remain as a record, not a future itinerary. The model's "arrive by" field is one hour before the predicted low; it is not a verified walking time or departure rule.
 
 | Date | Low (ft) | Time of low | Tide window | Arrive by | Score |
 |---|---|---|---|---|---|
@@ -73,11 +93,11 @@ Deep lows arrive in runs of five or six consecutive mornings around a new or ful
 
 *Computed 2026-07-08 from NOAA station 9442396 predictions. Scores (0–100) weigh tide depth and daylight together.*
 
-Watch the low time march down the column: 5:35 AM on Sunday, past 9:00 AM by Friday. Early in a run you trade a pre-dawn start for the deepest water; later, the low drifts into comfortable mid-morning. Saturday the 11th did *not* make the table: its low fell at 4:39 AM, before sunrise, so it rated only Good (74) despite a respectable −1.37 ft. The sun is the constraint here, not the water — remember that for September. The [West Coast minus-tide roundup](/guides/west-coast-minus-tides-july-11-14-2026/) preserves how that week lined up against Puget Sound, the Oregon coast, and California.
+The low shifted from 5:35 AM on Sunday to 9:26 AM on Friday. The [West Coast minus-tide roundup](/guides/west-coast-minus-tides-july-11-14-2026/) preserves the same week's comparison with Puget Sound, Oregon and California.
 
-## September 9–12: the year's last morning minus tides
+## September 9–12: the passed morning run
 
-What 2026 has left at La Push is one short dawn run in the second week of September. After Saturday the 12th, no minus tide falls in morning daylight again here until late March 2027 — this is the outer coast's closing act.
+These four morning minus-tide windows have passed. They qualified through at least 30 minutes of daylight overlap; the first two lows were before sunrise. The full remaining-2026 dataset has no morning minus-tide window meeting that overlap threshold.
 
 | Date | Low (ft) | Time of low | Tide window | Arrive by | Score |
 |---|---|---|---|---|---|
@@ -88,34 +108,30 @@ What 2026 has left at La Push is one short dawn run in the second week of Septem
 
 *Computed 2026-09-01 from NOAA station 9442396 predictions, MLLW. Scores (0–100) weigh tide depth and daylight together.*
 
-The July lesson applies in miniature. Tuesday the 8th pulls nearly as deep as Thursday (−1.00 ft at 5:06 AM) yet rates a Skip and misses the table: September sunrise comes so late that nearly its whole window sits in the dark. Wednesday the 9th is the depth pick at −1.14 ft, with a headlamp start — its low lands about an hour before sunrise, and the lit part of the window is the tail end. Friday the 11th is the comfort pick and the run's top score at 57: shallower water, but the low arrives just after sunrise with the entire window workable. Saturday the 12th, the only weekend day, barely dips below the datum at −0.13 ft — enough to expose the mussel beds and the upper pools, not the far rock.
-
-Set expectations to match the band. A September −1.1 ft is a different beach from a July −3.0: you will work the mid-shore pools and boulder edges rather than walking out toward the stacks. It is still the best light of the fall — all four lows land within about an hour of sunrise, which is exactly what the [golden-hour calendar](/tools/golden-hour/) exists to catch.
-
-If you want deeper water this month, it is inland: the same week's tides give [Port Townsend](/guides/port-townsend-fort-worden-tide-pools-2026/) −1.11 ft in full daylight on Labor Day, September 7 — the [Puget Sound low-tide calendar](/guides/puget-sound-low-tide-calendar-2026/) has that whole run. For La Push day-by-day, the [September calendar page](/beaches/wa/la-push-wa/2026-09/) carries every high and low.
+September 9 was the deepest of these four; September 11 scored highest at 57. The entire September 11 window was not daylit—it began before sunrise. Neither its score nor its depth establishes which rocks or pools were reachable. For the inland seasonal comparison, the [Puget Sound tide chart guide](/guides/puget-sound-low-tide-calendar-2026/) also preserves its passed September run.
 
 ## Where to go: Second Beach (and Third Beach)
 
-With Rialto closed, **Second Beach** is the destination. The trailhead sits on La Push Road, about 14 miles west of US 101 on the Quileute Indian Reservation, and the trail runs **0.7 miles each way** — the park lists an 80-foot climb and a 100-foot descent on the way in — through old-growth forest before it opens onto a wide sand beach hemmed with sea stacks and a natural arch. The tidepools here are among the most accessible on the Olympic coast — on a deep low you can walk well out toward the stacks and work the exposed rock. Note that Olympic National Park does not allow pets on the trail or the beach.
+The [NPS Second Beach trail page](https://www.nps.gov/olym/planyourvisit/second-beach-trail.htm) lists **0.7 mile each way**, an 80-foot gain and a 100-foot loss on the way in. It also lists a **$10 daily parking fee** on Quileute Tribal Lands, including Second Beach, effective May 1, 2026; payment information is on that page. NPS prohibits pets on coastal beaches and trails. These details were checked September 18; they are not a guarantee of conditions on a future visit.
 
-If Second Beach is busy — and on a good weekend low it will be — **Third Beach** is the quieter fallback: same La Push Road, about 12 miles west of US 101, a longer **1.4-mile** trail dropping about 240 feet to another sea-stack beach. It draws fewer people and its pools are less picked-over, at the cost of a little more walking.
+The [Third Beach trail page](https://www.nps.gov/olym/planyourvisit/third-beach-trail.htm) lists **1.4 miles each way**, with a 240-foot descent on the way in. It is a separate destination, not a route around the Mora Road closure.
 
-One honest caveat about the tide station: 9442396 sits at the Quillayute River mouth by La Push, so its predictions are the best available reference for these beaches, but the exact minute of low water on the sand a mile down the coast can differ slightly. Give yourself margin — which the arrive-by column already builds in.
+The station is at the Quillayute River mouth. Its predictions are the reference used here, not measurements taken at each beach. The modeled window and "arrive by" time do not verify local timing, walking duration, opening hours or passage around a headland.
 
 ## What you'll find in the pools
 
-The last two months of community observations logged within a few kilometers of the station have turned into a sea-slug survey. The **Horned Nudibranch** (*Hermissenda crassicornis*), a small, luminously striped aeolid, dominates the log outright — 82 observations in the last 60 days, more than every other species on the list combined — joined by four more nudibranchs: the **Monterey Dorid** (*Doris montereyensis*), the **barnacle-eating dorid** (*Onchidoris bilamellata*), the **Chocolate Aeolid** (*Margina cocoachroma*), and the **Branched Dendronotid** (*Dendronotus venustus*). The harder-shelled regulars still anchor the list: the **Frilled Dogwinkle** (*Nucella lamellosa*), **Black Leather Chiton** (*Katharina tunicata*) — that glossy black slab wedged in the surf zone — **Hind's Chiton** (*Mopalia hindsii*), the **Rough Keyhole Limpet** (*Diodora aspera*), and beds of **California Mussel** (*Mytilus californianus*), the mussel whose beds are most of what a modest September low will uncover.
+In the September 18 fact sheet's recent 60-day, 5-km observation log, **Horned Nudibranch** (*Hermissenda crassicornis*) leads with 34 observations. **Frilled Dogwinkle** (*Nucella lamellosa*) and **Striped Dogwinkle** (*Nucella ostrina*) follow with six each. The listed species also include Chocolate Aeolid, Monterey Dorid, Nanaimo Dorid, Black Tegula, Black Leather Chiton, Hind's Chiton and California Mussel. This is a record of reported observations, not an abundance survey or a promise of sightings at Second Beach.
 
 *Species reflect recent iNaturalist observations near the station (CC BY-NC, © the individual observers); NOAA is the tide-prediction data source. What you actually see depends on the day.*
 
-## How to work the window
+## What the tide window does—and does not—tell you
 
-Use the arrive-by time in the table, not the low time — get onto the beach about an hour before the low so you can follow the water out to the lowest rocks. Olympic National Park's coastal guidance is blunt about the stakes: **"Always carry a tide chart, available at visitor centers and coastal ranger stations, to time your hikes accordingly,"** because **"several points along the coast are only passable at lower tides."** On these beaches the hazard is less the depth of the water than getting caught by its return around a headland or against the cliffs.
+The calculations compare water levels and daylight. Route restrictions and on-the-ground conditions are separate. In [Tides and Your Safety](https://www.nps.gov/olym/planyourvisit/tides-and-your-safety.htm), NPS says: **"Always carry a tide chart, available at visitor centers and coastal ranger stations, to time your hikes accordingly."**
 
-Footing is the other real risk. The park advises that **"algae and seaweed make the surface rocks extremely slippery. Use caution and test rocks before committing to stepping on new surfaces,"** and, plainly, **"do not leap from rock to rock. Always keep at least one foot on the ground."** Watch the incoming tide and, on this open coast, **"watch closely for the returning tide and 'sneaker waves.'"** Turn any rock you lift back the way it was lying — the underside is someone's roof.
+The park's [tidepool activities page](https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm) adds: **"Do not leap from rock to rock. Always keep at least one foot on the ground."** Its full guidance remains the source for visiting the pools; the station score is not a substitute.
 
-## After September 12: dusk, then dark
+## The rest of 2026: depth is not daylight
 
-Once this run ends, deep water does come back in king-tide season — not as deep as July's, but well below the datum. The biggest remaining 2026 lows at this station land **October 26 (−1.34 ft at 7:29 PM)**, **November 24 (−1.84 ft at 6:14 PM)**, and **December 23 (−1.97 ft at 6:03 PM)**: each low arrives at or after sunset, so only the first stretch of the falling tide carries any light. Those evenings belong to the [king-tides watchers](/guides/king-tides-2026-2027-dates/), not to tidepoolers. Morning minus tides return to La Push on **March 23–26, 2027**, bottoming out at −0.59 ft on Wednesday the 24th at 8:37 AM — mark it and hibernate. Why the good lows migrate from summer dawns to winter darkness is the [dawn-lows guide's](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/) whole subject.
+The deeper remaining lows in the selected table come with short daylight overlaps: October 26 has 40 minutes, November 24 has 32 and December 23 has 39. The lows themselves are all after sunset. The [Washington king-tide guide](/guides/king-tides-washington-2027/) separates the season's high-water predictions from these low-window calculations; neither establishes a place to watch from. The [dawn-lows guide](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/) explains the seasonal timing shift.
 
-For the day-by-day picture, the [year heatmap](/tools/year-heatmap/) shows how little color is left on the 2026 La Push calendar, the [trip picker](/tools/trip-picker/) finds multi-day runs like September's without being asked, and the [Tide Window Finder](/tools/tide-window-finder/) will check any date — or any ZIP code — against the nearest station. Four mornings, then the long wait — just point the car down La Push Road, not Mora Road, while the light lasts.
+For other dates, the [year heatmap](/tools/year-heatmap/), [Trip Picker](/tools/trip-picker/) and [Tide Window Finder](/tools/tide-window-finder/) use the current prediction dataset. The September and October charts above include the highs as well as the lows. For Rialto access, the answer still comes from NPS—not the calendar.
