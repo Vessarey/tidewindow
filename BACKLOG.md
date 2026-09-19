@@ -164,7 +164,7 @@ with the date; add discoveries at the appropriate tier.
       share this surface; any new edit joins that package for attribution
       (§5). Record cluster baseline at ship; judge on cluster clicks +
       position, not CTR.
-- [ ] **Puget Sound chart page: roll both station charts September →
+- [x] **Puget Sound chart page: roll both station charts September →
       October** (added 2026-09-19 demand refill; writable now). Cluster:
       `puget sound tide chart 2026` 17 impressions / pos 11.2 / 1 click;
       page `puget-sound-low-tide-calendar-2026` 4 clicks / 248
@@ -177,6 +177,21 @@ with the date; add discoveries at the appropriate tier.
       against fact sheets; honest `updated:`; title, slug and gates
       unchanged. Cross-link the Port Townsend guide's inline chart if the
       PT equity item ships first.
+      **Done Sep 19 heartbeat:** both charts now run Sep 9–Oct 31,
+      retaining all 44 earlier September rows and adding 62 October rows
+      from the fact sheets (106 rows / 402 extremes verified). Current
+      planning range is Sep 19 onward; old rows are explicitly historical.
+      Passed season-close lead/FAQ corrected; daylight overlap separated
+      from daylight at the low and access; July–December Seattle count
+      repaired 128 → 126 (53/126 ≈42%). Historical tables, title, slug,
+      publish date and gate preserved. `updated: 2026-09-19`. Build,
+      56 tests, 203 content checks, 14 linked routes and mobile gate QA
+      passed. This maintenance joins the Sep 9 package for attribution,
+      not a new retitle or conversion experiment. Exact GSC Aug 20–Sep 16:
+      page 4 clicks / 248 impressions / 6.03; exact query on this page
+      1 / 6 / 10.17 (property-wide query 1 / 17 / 11.24 differs).
+      Preserve the Oct 7 package checkpoint subject to §5; query-only
+      rate is too small for a standalone verdict. Next chart roll ~Nov 1.
 - [x] **Oregon minus-tide calendar: retire the passed September lead —
       first ready-now refresh.** Added Sep 15 heartbeat. Target existing
       `oregon-coast-minus-tide-calendar-2026`, not a new page. Exact GSC
@@ -594,6 +609,11 @@ with the date; add discoveries at the appropriate tier.
       (baseline: cluster 15 impr, pos 11.9, 1 click on 2026-09-08).
       NOTE: the September charts go stale Oct 1 — roll both chart sections
       forward at the October refresh pass, alongside Fitzgerald's.
+      **Superseded Sep 19 heartbeat:** October added with September history
+      retained; next chart roll ~Nov 1. Above 128/41% historical snapshot
+      is superseded by current facts: 126 / ≈42%. The Sep 19 freshness
+      changes share this page's attribution; do not isolate the title's
+      effect at the Oct 7 readout or waive §5's sample floor.
       Original item: `puget sound tide chart 2026` (10 impr, pos 12.1,
       1 click — 10% CTR when shown; GSC 28d 2026-09-05). Give
       puget-sound-low-tide-calendar-2026 the Fitzgerald treatment: "tide
