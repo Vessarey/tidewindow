@@ -5,6 +5,23 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] 2026-09-19: **Queue refilled from demand (§2a) — five writable items
+      again.** At session start only Acadia inline H/L and Sunset Bay were
+      writable (<3 → refill outranks everything). Fresh `flywheel 28`,
+      full 314-row query dump and query→page mapping (GSC Aug 20–Sep 17)
+      found three demand-backed assignments, added to P1 below: (1) Port
+      Townsend generic tides/chart cluster (~55 impressions, pos 20–42,
+      landing on the station page, not the guide); (2) Seattle "low tides
+      2026" schedule intent (~48 impressions, pos 5–8, 0 clicks on the
+      Constellation guide); (3) Puget Sound chart page September→October
+      roll (its charts go stale Oct 1; Fitzgerald's equivalent rolled
+      Sep 17). Checked and NOT re-added: king-tide clusters (national/WA/OR
+      pages hold pos 7–9.5; bare-2026 schedule section shipped Sep 11,
+      readout pending), Fitzgerald chart (rolled Sep 17), La Push/Olympic
+      chart queries (~12 impressions landing on the archived 2026-08 month
+      page — tiny demand, journaled, no page); `seaside clam tides` ignored
+      per the shellfish blocklist. No article or production code changed in
+      this refill.
 - [x] 2026-09-15 heartbeat: **Ready-now queue restored to five items.**
       After the operator completed Constellation Park, only Acadia inline
       H/L and Sunset Bay were writable now. Fitzgerald is explicitly held
@@ -107,6 +124,59 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
+- [ ] **Port Townsend tide chart equity — refresh, not a new page** (added
+      2026-09-19 demand refill). Cluster (GSC 28d, query→page): `port
+      townsend tides` 17 impressions / pos 30.6, `tide schedule port
+      townsend` 5 / 22.2, `tides port townsend` 4 / 35.3, `tides port
+      townsend wa` 4 / 31.0, `tide chart for port townsend` 3 / 26.3,
+      `port townsend tide table(s)` 7 across variants / pos 20–30, plus
+      today/tomorrow and ~10 more 1–2-impression variants — ~55
+      impressions, ~0 clicks, nearly ALL landing on the station page
+      `/beaches/wa/port-townsend-wa/` at pos 20–42, not the guide. Also
+      `glass beach port townsend tide chart` 12 / 16.3 lands 8-of-12 on
+      the station page rather than the Glass Beach guide. Target: existing
+      `port-townsend-fort-worden-tide-pools-2026` — add an inline
+      current+next-month daily H/L chart section script-rendered from
+      `daily_extremes_current_and_next_month` (the proven Fitzgerald
+      Sep 17 pattern), explicit tide-table/schedule H2 phrasing, and a
+      chart pointer from the Glass Beach guide. Weigh a "Tide Chart" title
+      element (Fitzgerald/Puget precedent); a retitle is an experiment —
+      record the guide's fresh GSC baseline at ship (§5). Do not duplicate
+      the Puget Sound chart page's Puget-wide framing; link it. Station
+      page baseline: 11 clicks / 444 impressions / pos 10.6 (28d).
+- [ ] **Seattle "low tides 2026" schedule intent on the Constellation
+      guide — description/answer-box equity, NO retitle** (added
+      2026-09-19 demand refill). Cluster: `seattle low tides 2026` 28
+      impressions / pos 6.3 / 0 clicks, `seattle low tide 2026` 9 / 6.8,
+      `low tides seattle 2026` 5 / 7.8, `lowest tide seattle 2026` 3 /
+      5.0, plus `lowest tide(s) of the year 2026` 5 / pos 2–8 — ~50
+      impressions, all landing on
+      `seattle-alki-constellation-park-tide-pools-2026`, 0 clicks. The
+      page ranks but its snippet sells a park guide while the searcher
+      wants the 2026 date schedule — and the honest schedule answer is
+      that Seattle's 2026 daylight minus-tide season ended Sep 10 (verified
+      zero daylight minus tides after Sep 10 through year-end, per the
+      Sep 8 refresh): make the remaining-2026 (night lows only) status and
+      the 2027 return ladder (Feb 15 → Apr 10–11) visible in the meta
+      description and answer box, recomputed from current fact sheets at
+      write time. HARD constraint: no retitle and no gate changes — the
+      Sep 8 retitle readout (~Oct 1) and the Sep 15 at-a-glance H2 already
+      share this surface; any new edit joins that package for attribution
+      (§5). Record cluster baseline at ship; judge on cluster clicks +
+      position, not CTR.
+- [ ] **Puget Sound chart page: roll both station charts September →
+      October** (added 2026-09-19 demand refill; writable now). Cluster:
+      `puget sound tide chart 2026` 17 impressions / pos 11.2 / 1 click;
+      page `puget-sound-low-tide-calendar-2026` 4 clicks / 248
+      impressions / pos 6.0 (GSC 28d, 2026-09-19). Both its daily H/L
+      chart sections cover remaining-September only and go stale Oct 1
+      (standing backlog note). Mirror the owner's Sep 17 Fitzgerald roll:
+      regenerate Seattle + Port Townsend sections from
+      `daily_extremes_current_and_next_month` (current month remainder +
+      full October), script-rendered and recompute-checked row-for-row
+      against fact sheets; honest `updated:`; title, slug and gates
+      unchanged. Cross-link the Port Townsend guide's inline chart if the
+      PT equity item ships first.
 - [x] **Oregon minus-tide calendar: retire the passed September lead —
       first ready-now refresh.** Added Sep 15 heartbeat. Target existing
       `oregon-coast-minus-tide-calendar-2026`, not a new page. Exact GSC
@@ -569,8 +639,12 @@ with the date; add discoveries at the appropriate tier.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed California pass. Next-oldest
       explicit candidate by vintage: Sunset Bay (07-16).
+      Sep 19: §2a refill done — **five ready-now assignments: PT tide chart
+      equity, Seattle low-tides-2026 equity, Puget October chart roll,
+      Acadia inline H/L, Sunset Bay.** The generic refresh queue is still
+      not a separate assignment and November's preview is not writable this
+      week.
       Sep 18: operator completed Port Townsend and heartbeat completed La Push.
-      **Two ready-now assignments remain: Acadia inline H/L and Sunset Bay.**
       The generic refresh queue is not a third assignment and November's
       preview is not writable this week. Section 2a demand-led refill is the
       next run's first priority; do not duplicate shipped title/chart work.

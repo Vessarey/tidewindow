@@ -5,6 +5,67 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-19 — §2a queue refill: three demand-backed P1 items
+
+**Health:** five recent Actions green; today's NOAA refresh landed on main
+before session (918952b, 09:01Z — the 08:59 slot; the 11:56 slot correctly
+skipped). No open issues. Saturday — no newsletter. Queue held only two
+writable items (Acadia inline H/L, Sunset Bay), which is "<3 = empty" per
+§2a, so the refill outranked everything including §2b (and yesterday's run
+verified no Exceptional window through Oct 1 anyway).
+
+**Primary action (§2a):** pulled `flywheel 28`, the full 314-row query
+report (rowLimit 500 via an ad-hoc scratchpad script — the stock command
+prints 40 rows) and query→page mappings for every candidate cluster.
+Added three P1 items, each specced with cluster, impressions, position,
+landing page and target:
+
+1. **Port Townsend tide chart equity** — ~55 impressions of generic
+   `port townsend tides / tide chart / tide table / tide schedule`
+   variants sit at pos 20–42 and land on the STATION page, not the
+   guide; `glass beach port townsend tide chart` (12 impr) also lands
+   8-of-12 on the station page. Fix: inline current+next-month H/L
+   chart in the Fort Worden guide from
+   `daily_extremes_current_and_next_month` (Fitzgerald pattern),
+   tide-table H2 phrasing, Glass Beach pointer; retitle optional and
+   only as a recorded experiment.
+2. **Seattle "low tides 2026" schedule intent** — ~50 impressions at
+   pos 5–8 with 0 clicks on the Constellation guide (`seattle low
+   tides 2026` 28 impr / 6.3 alone). Snippet sells a park guide;
+   searcher wants dates. Description/answer-box equity only — NO
+   retitle; edits join the Sep 8 + Sep 15 attribution package (§5).
+3. **Puget Sound chart page September→October roll** — both station
+   chart sections go stale Oct 1; mirrors the owner's Sep 17
+   Fitzgerald roll from the same fact field. Writable now.
+
+**Checked, not re-added:** king-tide clusters (national page holds
+57 clicks / pos 6.9; bare-2026 section shipped Sep 11, readout pending),
+Fitzgerald chart (rolled Sep 17), La Push/Olympic chart queries (~12
+impressions on the archived 2026-08 month page — tiny, no action),
+`seaside clam tides 2026` (shellfish blocklist — ignored). NOAA-station
+metadata queries on pillar-point remain the known CTR contamination.
+
+**Metrics (PostHog, production host):** 7d: 352 pageviews / 316 uniques /
+1 signup (0.32%); 28d: 1,131 / 1,015 / 5 (0.49% vs 1.5% target). 7d tools:
+14 station_selected, 11 window_result_viewed, 7 trip_picker_run, 5
+calendar_gate_clicked, 0 ICS reveals. Top 7d pages: national king-tides
+116, Oregon king-tides 49 (seasonal rise continues), home 18, Oregon
+calendar 15, Finder 14, Fitzgerald 13, WA king-tides 13. Referrers:
+Google 85, direct 80, Bing 60, DDG 46, Yahoo 43. GSC 28d pages: national
+king-tides 57 clicks / 2,621 impr / 6.9; Fitzgerald 42 / 1,711 / 6.8;
+Constellation 17 / 513 / 6.3.
+
+**No content or code shipped** — docs-only run per the 09-11/09-15 refill
+precedent; no build required, diff reviewed (BACKLOG + JOURNAL only).
+
+**Tomorrow:** pick one of the five writable P1 items — the Puget October
+roll or PT chart equity are the highest-leverage. Mon Sep 21: weekly
+`inspect 40` plus the OR/WA king-tide guide and La Push coverage rechecks.
+Keep the Sep 30 indexing readout, Oct 1 month-title + retitle readouts and
+month rollover (2026-11), and Oct 15 NPS Mora reopening check.
+
+---
+
 ## 2026-09-18 — Heartbeat: La Push current dates, daylight and access
 
 **Coordination and selection:** started from clean `2adcaed`, already current
