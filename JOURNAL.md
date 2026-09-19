@@ -5,6 +5,160 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-19 — Heartbeat: Puget Sound chart extension and factual refresh
+
+**One primary improvement shipped:** refreshed the existing
+[Puget Sound guide](https://thetidewindow.com/guides/puget-sound-low-tide-calendar-2026/)
+in `6284a0f`, preserving the morning operator's queue refill `3ed9ff9`,
+the September 18 Port Townsend/La Push releases and the September 17
+owner-directed Fitzgerald/month-title work. Started clean, pulled current
+main, read the playbook/newest three journal entries/backlog and reviewed
+today's commits, Actions and issues. No new article additions this week;
+this is maintenance of one existing article, not a new experiment.
+
+**Why this item:** GSC's latest available daily row is **September 16**, not
+September 17. Exact 28-day baseline is **August 20–September 16**. Read both
+page and query→page results; broad property query counts are not this guide's
+counts. Candidate comparison (clicks / impressions / average position):
+
+| Existing page | Exact 28-day evidence | Decision |
+|---|---|---|
+| Puget Sound calendar | 4 / 248 / 6.03; exact `puget sound tide chart 2026` on this page 1 / 6 / 10.17 | Chosen: demonstrably passed Sep 10 lead and an existing two-station chart to extend; high factual confidence, low-risk content scope. Property-wide exact query is 1 / 17 / 11.24, not 17 impressions on this page. |
+| Acadia guide | 7 / 739 / 7.55; visible `acadia tide chart` 0 / 2 / 18 and `tide schedule` 0 / 1 / 16 | More page exposure, but weak visible chart-specific evidence; retain the bounded chart/freshness assignment for a later run. |
+| Constellation Park | 17 / 513 / 6.32; `seattle low tides 2026` 0 / 28 / 6.32 | Schedule-intent opportunity, but Sep 8/Sep 15 changes already share the surface. Preserve title and gates. |
+| Port Townsend guide | 0 / 10 / 4.90; no disclosed query rows | Generic tide demand mostly reaches the station page (11 / 444 / 10.64); guide-chart payoff less certain. Do not confuse absent disclosed queries with no impressions. |
+| Sunset Bay guide | No page/query rows returned | Keep the known freshness assignment, but no measured demand advantage today. |
+
+The analytics-led refresh skill guided precise date windows, query/page
+separation and preservation of historical material. This was chosen for
+reader correctness and useful current/next-month coverage, not a claimed
+SEO uplift or an inference about AI-search traffic.
+
+**Content:** script-rendered October from
+`daily_extremes_current_and_next_month`, adding 62 rows to the 44 existing
+September rows. Both charts now cover Sep 9–Oct 31; Sep 9–18 is explicitly
+historical and the current planning range starts Sep 19. Preserved all eight
+tables, historical July/August/September figures, title, slug, publication
+date, tags and station gate. Updated description is 141 characters and the
+answer box is 69 words; `updated: 2026-09-19` reflects real changes.
+
+Corrected the passed season-close lead/FAQ; clarified that daylight means
+at least 30 minutes of modeled window overlap, not daylight at the low or
+verified beach access. Both initial 2027 return lows are after sunset.
+Removed the unsupported “2026 never produced”/“best weekend in two years”
+comparison, complete-annual-list claim and generalized Point Reyes route
+advice. Scoped 2026 aggregates to July–December, repaired Seattle's current
+low count to 126 (24+21+19+20+21+21; 53/126 ≈42%), and refreshed the two
+species counts from current facts. NPS advice is a short, linked quotation
+explicitly about Point Reyes. All four cited official pages fetched 200 at
+write time. No shared UI/code/data-pipeline or conversion changes.
+
+**Validation and release evidence:**
+
+- Plain `npm run build` on today's committed NOAA inputs passed, including
+  TypeScript/static export, 124 sitemap URLs, 12 stations × 4 months,
+  42 fact tests + 6 tide-math tests + 8 formatter tests = **56 passing**.
+- **203 content checks** verified metadata, answer length, every one of
+  106 daily rows / 402 extremes and retained historical rows. A supplemental
+  **98 checks** verified historical/seasonal values and complete-range
+  2027 first/best claims. The helper initially treated equivalent AM range
+  formatting as a mismatch; normalized that comparison, then all passed.
+- All **14 distinct article-linked local routes** returned 200. Rendered
+  output has eight tables / 138 data rows; Article dates and five FAQ entries
+  are correct. Desktop 1280px and mobile 375px have no page overflow;
+  historical wide tables scroll within their own bounds. Visually checked
+  mobile answer/chart and opened the unchanged Seattle calendar gate without
+  entering or submitting an email.
+- Live Finder loaded Seattle NOAA 9447130 data dated Sep 19 and returned
+  its October result. No warning/error console entries in observed Finder,
+  local article or live article sessions. This is sampled browser health,
+  not site-wide exception coverage.
+- `6284a0f` pushed; [Vercel deployment](https://vercel.com/vessareys-projects/tidewindow/44mwe4H67677V97fkcF84zBzEiwJ)
+  succeeded. Production returned 200; its rendered `<main>` matched local
+  output exactly (SHA-256
+  `4e7c87306e12dc9f5c84aca8369881a429e70fbba029ccd89369ed30f40dc03e`).
+  Browser confirmed both 53-row charts, Oct 31, Sep 19 update and revised
+  daylight wording. All observed static assets fetched 200.
+
+**Operational health:** daily NOAA commit `918952b` landed 09:01:46Z from
+run `35433452962` (started 08:59:10Z). Its 56 tests and output verification
+passed; IndexNow submitted 124 URLs with HTTP 200. The 11:56, 13:56 and
+16:47 runs correctly skipped after that refresh; latest five runs green.
+Live index, Seattle and Port Townsend JSON byte-match committed files,
+generated **2026-09-19T08:59:36.641Z**. No recovery dispatch needed; no open
+GitHub issues. No Exceptional (90+) window Sep 19–Oct 3 across all 12
+stations; the published October monthly high-tide peaks remain Oct 27–29.
+The four-slot scheduler guard is intact; no scheduler change or duplicated
+weekly inspection. Next weekly `inspect 40` is Sep 21 (Sep 14 already done).
+
+**PostHog at fixed pre-QA cutoff 2026-09-19 17:16:02 UTC:** project 495836,
+`$host = 'thetidewindow.com'`, `$virt_traffic_type = 'Regular'`, trailing
+7/28 days ending strictly before cutoff. Native connector returned
+UNAUTHORIZED; used only the playbook-configured read-only API fallback.
+Schema/project/event/property definitions rechecked before queries.
+
+- 7d: **350 pageviews / 315 unique pageview IDs / 1 signup = 0.32%**.
+  28d: **1,116 / 1,007 / 5 = 0.50%**, below the 1.5% target. This is an
+  aggregate observed ratio, not a matched-user funnel conversion estimate.
+- 7d tools: 14 `station_selected`, 11 `window_result_viewed`, 7
+  `trip_picker_run`, 5 calendar-gate clicks, **0 observed** ICS reveals.
+  28d: 50 selections, 33 results, 17 trips, 21 gate clicks, 3 ICS reveals.
+  Event schema supports ICS measurement; zero observed is not missing-schema.
+- 7d pageviews: national king dates 119, Oregon king 49, home 16, Oregon
+  minus calendar 15, Finder 14, Fitzgerald 12, WA king 12, Acadia 8,
+  Constellation 7, Puget 3. Referrer pageviews: Google 89, direct 78,
+  Bing 60, Yahoo 44, DuckDuckGo 42, internal 32. These are not search clicks.
+- Inspected browser/OS/device/library cohorts and explicit agent/headless
+  attributes beyond “Regular.” No explicit agent/headless-tagged pageviews
+  matched within the filtered 7d sample; Chrome/Linux still contributes
+  9 views / 9 IDs and cannot be certified human. “Regular” is not proof of
+  human traffic; QA after cutoff is excluded from this report.
+- 24h LCP **26 non-null measurements**, p75 **576.25ms**, p90 **758ms**.
+  Favorable observations, but below the ~30-sample floor; no performance
+  experiment verdict. Exception capture is **unverified**, not zero errors:
+  project opt-in null, no `$exception` in definitions, pageview remote
+  capture flag null on 291 / false on 59 of the filtered 350 views.
+
+**Search:** complete Sep 10–16 versus Sep 3–9: **53 versus 70 clicks**
+(−24.3%); **3,939 versus 3,725 impressions** (+5.7%); average position
+**7.52 versus 7.37**. No causal attribution to an individual edit; avoid
+site-wide CTR verdicts given documented off-intent metadata queries.
+National dates remains top 28d page (57 clicks / 2,621 impressions / 6.90),
+then Fitzgerald (42 / 1,711 / 6.82), then Constellation (17 / 513 / 6.32).
+
+**Experiments, limits and next action:**
+
+- Exit-intent has **58 observed impressions / 1 signup** since Jul 27
+  under the production/Regular filter, below 100. Closed-unmeasurable stays
+  closed; no extension or copy change. Preserve the owner's **Oct 1**
+  prompt-retirement condition if still below 100 then.
+- This Puget maintenance joins the Sep 9 package; retain the **Oct 7**
+  checkpoint subject to the since-change floor. Page baseline rate
+  248/28 ≈8.86 impressions/day could reach 100 in ~11.3 days; the exact
+  query-on-page rate 6/28 needs ~467 days and is **unmeasurable at current
+  traffic** as a standalone experiment. No new query experiment or promise.
+- Preserve Sep 30 indexing review; Oct 1 month-title/Seattle readouts and
+  November month-page rollover; Oct 6 best-time review; Oct 15 NPS access
+  recheck. [Current NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+  still give Jul 8–Oct 15 for Mora Road closure beyond the campground;
+  this does not establish an automatic reopening on Oct 15. Puget and
+  Fitzgerald inline charts now next need rolling around Nov 1.
+- Resend read-only check: Sep 17 broadcast
+  `72fb28b1-7a44-4d44-9dc0-6680bc368368` remains sent at 12:10:06Z.
+  Response exposes no bounce/complaint/delivery counts; those remain
+  unavailable, not zero. Saturday: no send, contact, sync or broadcast.
+- `npm audit --omit=dev --audit-level=high` failed twice with npm's
+  advisory service **503 maintenance**. Dependency vulnerability status
+  could not be refreshed; do not report a clean audit. Retry next run.
+  No dependencies, credentials or account permissions changed.
+- Four writable assignments remain (Acadia, Sunset Bay, PT chart,
+  Seattle schedule snippet). Next run: reconsider Acadia's remaining-date
+  lead/inline chart against fresh evidence; no queue refill needed. Sep 21
+  indexing checks retain priority. This journal documents the verified
+  content release; final documentation commit is operational-only.
+
+---
+
 ## 2026-09-19 — §2a queue refill: three demand-backed P1 items
 
 **Health:** five recent Actions green; today's NOAA refresh landed on main
