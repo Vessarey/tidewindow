@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-18",
+ "generated_on": "2026-09-19",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2101,6 +2101,11 @@
    "count": 3
   },
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 3
+  },
+  {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
    "count": 2
@@ -2116,14 +2121,9 @@
    "count": 2
   },
   {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 2
-  },
-  {
-   "commonName": "Northern Leopard Dorid",
-   "scientificName": "Diaulula odonoghuei",
-   "count": 2
+   "commonName": "Steinberg's Corambe",
+   "scientificName": "Corambe steinbergae",
+   "count": 1
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-18",
+ "generated_on": "2026-09-19",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1894,6 +1894,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 104,
    "min_to_sun_edge": 35
+  },
+  {
+   "date": "2027-01-16",
+   "weekday": "Sat",
+   "low_ft": 0.622,
+   "low_time_local": "4:49 PM",
+   "window_local": "3:50 PM–5:55 PM",
+   "arrive_by_local": "3:49 PM",
+   "daylight_min": 56,
+   "score": 22,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 239,
+   "min_to_sun_edge": -3
   }
  ],
  "species_last60d_5km": [
@@ -1905,12 +1919,12 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 5
+   "count": 4
   },
   {
    "commonName": "Monterey Dorid",
