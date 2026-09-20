@@ -124,8 +124,21 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
-- [ ] **Port Townsend tide chart equity — refresh, not a new page** (added
-      2026-09-19 demand refill). Cluster (GSC 28d, query→page): `port
+- [x] **Port Townsend tide chart equity — refresh, not a new page** (added
+      2026-09-19 demand refill).
+      **Done 2026-09-20 operator (5c96392):** inline Sep 20–Oct 31 daily
+      H/L chart (42 rows / 156 extremes) script-rendered from
+      `daily_extremes_current_and_next_month` and recompute-checked 0
+      mismatches; explicit tide chart / low tide schedule H2; Glass Beach
+      guide chart pointer (link-only). Retitle SHIPPED as an experiment:
+      "Port Townsend Tide Chart 2026: Low Tide Schedule & Tide Pools at
+      Fort Worden and North Beach" — baselines at ship (GSC 28d): guide
+      page no row returned (Sep 15 read 0 clicks / 9 impr / pos 4.56),
+      station page 11 / 464 / 10.6, cluster ~55 impressions pos 20–42
+      with ~0 clicks. Judge on cluster clicks + position landing on the
+      guide, ~Nov 8 earliest (§5 floor); attribution shared with the
+      Sep 18 refresh package. Next chart roll ~Nov 1 alongside
+      Fitzgerald/Puget. Original item: Cluster (GSC 28d, query→page): `port
       townsend tides` 17 impressions / pos 30.6, `tide schedule port
       townsend` 5 / 22.2, `tides port townsend` 4 / 35.3, `tides port
       townsend wa` 4 / 31.0, `tide chart for port townsend` 3 / 26.3,

@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-20 — Port Townsend tide chart equity (P1) shipped
+
+**Primary action (§2d, top P1 item):** gave the Fort Worden guide the
+Fitzgerald treatment in `5c96392` — a complete inline tide chart for
+station 9444900, September 20 through October 31, script-rendered from
+`daily_extremes_current_and_next_month` in today's fact sheet (generated
+2026-09-20) and recompute-checked row-for-row: 42 rows / 156 extremes,
+0 mismatches. New H2 carries explicit tide chart / low tide schedule
+phrasing; prose stays scoped to the rendered range (18 minus tides, all
+between 10:15 PM and 5:48 AM; deepest −2.77 ft Thu Oct 29 12:19 AM with
+the range's highest water +9.03 ft the same morning — verified from the
+same fact field). Only the four already-published Skip windows clear the
+30-minute daylight-overlap bar; no access, route or safety claims added.
+Answer box now points to the chart (76 words); description 154 chars;
+`updated: 2026-09-20` (real content change). Glass Beach guide got a
+chart pointer sentence (link edit only, no `updated:` bump). All four
+remaining-window lows re-verified against today's facts before shipping.
+
+**Retitle experiment started (§5):** title now "Port Townsend Tide Chart
+2026: Low Tide Schedule & Tide Pools at Fort Worden and North Beach"
+(tide-pools phrasing retained to protect the existing ranking). Demand:
+GSC 28d cluster ~55 impressions of port townsend tides/chart/table/
+schedule variants at pos 20–42 landing on the STATION page, plus `glass
+beach port townsend tide chart` 13 / 15.8. Baselines at ship (GSC 28d,
+read 2026-09-20): guide page — NO page row returned (Sep 15 exact read:
+0 clicks / 9 impressions / pos 4.56); station page 11 clicks / 464
+impressions / pos 10.6; cluster clicks ~0. Judge on cluster clicks +
+position landing on the GUIDE, not CTR; at ~2 impressions/day the
+100-impression floor is ~7 weeks — check ~Nov 8, and attribute movement
+to the Sep 18 + Sep 20 package, not the title alone.
+
+**Quality gates:** plain `npm run build` green (content-only change):
+124 sitemap URLs verified by verify-output, 42 fact + 6 tide-math + 8
+formatter tests pass, 0 failures. Rendered HTML carries the new title,
+H2 and all 42 rows; all 15 internal links across both changed articles
+resolve in `out/`. Diff review clean — only the two article files.
+
+**Operational health:** today's refresh `8e0ebd9` landed 09:30 UTC from
+run 35502376186 (green); latest five runs green; no open issues; no
+recovery dispatch. No Exceptional (90+) window inside 14 days per
+yesterday's check. Weekly `inspect 40` is due tomorrow (Sep 21).
+
+**PostHog (7d to session, ~10:00 UTC):** 360 pageviews / 334 unique ids /
+1 signup ≈ 0.3% — consistent with yesterday's fuller read; no new signal
+that would have changed today's queue choice.
+
+**Tomorrow:** first-run-of-week indexing health check (`inspect 40`,
+§2a′) is the primary candidate; the queue still holds three writable
+items (Seattle Constellation equity, Acadia inline H/L, Sunset Bay).
+Check whether the La Push guide has been crawled yet in the same pass.
+
+---
+
 ## 2026-09-19 — Heartbeat: Puget Sound chart extension and factual refresh
 
 **One primary improvement shipped:** refreshed the existing
