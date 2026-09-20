@@ -157,6 +157,15 @@ with the date; add discoveries at the appropriate tier.
       record the guide's fresh GSC baseline at ship (§5). Do not duplicate
       the Puget Sound chart page's Puget-wide framing; link it. Station
       page baseline: 11 clicks / 444 impressions / pos 10.6 (28d).
+      **Sep 20 heartbeat measurement correction (§5):** exact guide-page
+      read for Aug 22–Sep 18 returns 0 clicks / 9 impressions / position
+      5.22. Its own rate is 9/28 = 0.32 impressions/day, so even all guide
+      queries need ~311 days to reach 100; the intended narrower cluster
+      cannot be credited with unrelated station-page impressions. Close
+      the standalone retitle verdict as **unmeasurable at current traffic**,
+      superseding the Nov 8 forecast, not as a loss. Keep today's useful
+      free chart and title unchanged; monitor normal discovery without
+      promising a causal title result or repeatedly extending the verdict.
 - [ ] **Seattle "low tides 2026" schedule intent on the Constellation
       guide — description/answer-box equity, NO retitle** (added
       2026-09-19 demand refill). Cluster: `seattle low tides 2026` 28
@@ -632,7 +641,7 @@ with the date; add discoveries at the appropriate tier.
       puget-sound-low-tide-calendar-2026 the Fitzgerald treatment: "tide
       chart" into the title plus a monthly H/L chart section generated from
       seattle-wa / port-townsend-wa data-json. Refresh, not a new page.
-- [ ] **Acadia tide chart / schedule** — `acadia tide chart` (pos 19.0) and
+- [x] **Acadia tide chart / schedule** — `acadia tide chart` (pos 19.0) and
       `acadia tide schedule` (pos 16.0) surfaced in GSC 28d on 2026-09-05;
       same intent as the long-noted flywheel query `acadia national park tide
       schedule` (pos 19, 2026-07-24), unblocked since the pipeline stores H/L
@@ -640,6 +649,17 @@ with the date; add discoveries at the appropriate tier.
       with a Bar Harbor (8413320) monthly H/L chart section and Bar Island
       crossing framing; weigh "tide chart" in the title against the current
       title's ranking. Refresh, not a new page.
+      **09-20 heartbeat: inline-chart/freshness portion DONE.** Added the
+      complete Sep 20–Oct 31 Bar Harbor H/L chart (42 dates / 163 extremes)
+      from current facts; replaced the passed Sep 11 lead with Sep 27,
+      preserving the historical eight-window comparison. Whole-month
+      Nov/Dec below-1-ft counts corrected to 38/42; species and official
+      NPS guidance rechecked. Title/slug/original date/gates retained; no
+      title experiment. GSC Aug 22–Sep 18: 7 clicks / 779 impressions /
+      0.90% CTR / position 7.53; production Regular 7d: 7 PV / 7 IDs.
+      This closes the remaining inline-table assignment below. Revisit
+      the dated lead after Sep 27; chart rollover due Nov 1. No causal
+      SEO or conversion result claimed at publication.
       **09-09 heartbeat: freshness/safety portion DONE (b2a7792).** Replaced
       August-as-upcoming with eight Sep/Oct fact-sheet lows and whole-month
       Sep–Dec totals; original title/slug retained. Removed unsupported
@@ -672,6 +692,11 @@ with the date; add discoveries at the appropriate tier.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed California pass. Next-oldest
       explicit candidate by vintage: Sunset Bay (07-16).
+      Sep 20 heartbeat: PT chart (operator), Puget roll (Sep 19 heartbeat),
+      and Acadia inline H/L are complete. **Two ready-now assignments
+      remain: Seattle low-tides-2026 equity and Sunset Bay.** Refill under
+      §2a at the next run's start; do not duplicate completed chart/title
+      work. Sep 21 weekly indexing batch is also due after higher priorities.
       Sep 19: §2a refill done — **five ready-now assignments: PT tide chart
       equity, Seattle low-tides-2026 equity, Puget October chart roll,
       Acadia inline H/L, Sunset Bay.** The generic refresh queue is still
