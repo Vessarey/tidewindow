@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-19",
+ "generated_on": "2026-09-20",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2116,14 +2116,14 @@
    "count": 12
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 10
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 9
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 10
   }
  ]
 }

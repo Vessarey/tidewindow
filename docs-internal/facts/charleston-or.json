@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-19",
+ "generated_on": "2026-09-20",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2111,6 +2111,11 @@
    "count": 2
   },
   {
+   "commonName": "Pacific Oyster",
+   "scientificName": "Magallana gigas",
+   "count": 2
+  },
+  {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
    "count": 1
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Whitecap Limpet",
    "scientificName": "Acmaea mitra",
-   "count": 1
-  },
-  {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
    "count": 1
   }
  ]
