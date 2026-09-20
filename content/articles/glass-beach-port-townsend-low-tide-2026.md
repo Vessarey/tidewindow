@@ -34,7 +34,7 @@ Jefferson County lists **North Beach Park** as a public-access waterfront adjoin
 
 A [2017 Spokesman-Review report](https://www.spokesman.com/stories/2017/aug/27/glass-beach-goes-from-dump-to-destination/) describes an approximately three-mile shoreline route west from the North Beach lot at Kuhn Street, past McCurdy Point toward Glass Beach. [Beachcombing Magazine's 2020 article](https://www.beachcombingmagazine.com/blogs/news/port-townsend-s-glass-beach) calls the trip six miles round trip. These are published route descriptions, not current access or condition reports. They do not establish that a particular tide height makes the whole route passable.
 
-The [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/) covers the neighboring park context. Sharing a prediction station does not make every shoreline section's access requirements identical.
+The [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/) covers the neighboring park context and carries the complete Port Townsend tide chart — every predicted high and low at station 9444900 — through October 31. Sharing a prediction station does not make every shoreline section's access requirements identical.
 
 ## Four remaining 2026 station windows with daylight overlap
 

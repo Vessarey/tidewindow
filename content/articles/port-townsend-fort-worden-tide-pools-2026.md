@@ -1,11 +1,11 @@
 ---
-title: "Port Townsend Tide Pools 2026: Best Low-Tide Days at Fort Worden & North Beach"
-description: "Port Townsend's daylight tide-pool season has closed for 2026. Four marginal windows remain — the deepest Oct 5, −0.23 ft at 5:48 AM. NOAA station 9444900."
+title: "Port Townsend Tide Chart 2026: Low Tide Schedule & Tide Pools at Fort Worden and North Beach"
+description: "Port Townsend tide chart through October 2026: every high and low at NOAA station 9444900, plus the four remaining daylight windows and the season record."
 date: "2026-07-07"
-updated: "2026-09-18"
+updated: "2026-09-20"
 category: "station-guides"
 station: "port-townsend-wa"
-tags: ["port townsend tide pools", "fort worden", "north beach", "point wilson", "puget sound low tide", "labor day low tide", "tide pooling"]
+tags: ["port townsend tide chart", "port townsend tides", "port townsend tide pools", "fort worden", "north beach", "point wilson", "puget sound low tide", "tide pooling"]
 faq:
   - q: "Is tide-pooling season over in Port Townsend for 2026?"
     a: "Effectively, yes. The September 5–10 run — peaking on Labor Day, September 7, with a −1.11 ft MLLW low at 7:20 AM, scored 80/100 at NOAA station 9444900 — was the year's last good daylight run. As of September 18, exactly four daylight windows remain in 2026, all scored Skip; the deepest is October 5's −0.23 ft at 5:48 AM, and that low itself lands before sunrise."
@@ -25,7 +25,7 @@ sources:
   - "https://en.wikipedia.org/wiki/Cryptochiton_stelleri"
 ---
 
-**Port Townsend's daylight tide-pool season has closed for 2026. The September 5–10 run — peaking on Labor Day, September 7, at −1.11 ft MLLW, 7:20 AM, scored 80/100 — was the year's last good one at NOAA station 9444900. Exactly four daylight windows remain in 2026, all marginal; the deepest is October 5, −0.23 ft at 5:48 AM (score 27, Skip). The next daylight lows arrive at dusk, in the winter king-tide season.**
+**Port Townsend's daylight tide-pool season has closed for 2026. The September 5–10 run — peaking on Labor Day, September 7, at −1.11 ft MLLW, 7:20 AM, scored 80/100 — was the year's last good one at NOAA station 9444900. Exactly four daylight windows remain in 2026, all marginal; the deepest is October 5, −0.23 ft at 5:48 AM (score 27, Skip). The complete tide chart — every predicted high and low through October 31 — is in the table below.**
 
 This page is now the season's record and its closing arithmetic: what the last run delivered, the handful of marginal mornings still on the books, and when the water and the light next meet. The beaches themselves — Fort Worden, North Beach, Point Wilson — aren't going anywhere, and neither is the practical detail further down.
 
@@ -47,6 +47,61 @@ Read the fine print before setting an alarm. October 5 is the only minus tide in
 November and December each record 22 lows below +1 ft and **zero** daylight windows: every one of those lows lands after dark. That is not a data gap — it is the Sound's rhythm. The next time low water and daylight overlap here is the winter king-tide season, at dusk rather than dawn: the deepest is −1.64 ft at 7:06 PM on Wednesday, February 17, 2027, a Fair-band window in the last of the evening light, and the Martin Luther King Jr. Day Monday — January 18, 2027 — brings −1.46 ft at 6:32 PM. For morning tide pooling, the season reopens in spring.
 
 If your dates are flexible, the [Tide Window Finder](/tools/tide-window-finder/) will check any day against the station's predictions, the [trip picker](/tools/trip-picker/) finds multi-day runs, and the [year heatmap](/tools/year-heatmap/) shows just how empty the back half of this calendar is.
+
+## Port Townsend tide chart: October 2026 (and the rest of September)
+
+The table below is the complete tide chart for station 9444900 from September 20 through October 31 — the full low tide schedule and the highs, every predicted extreme, not just the four qualifying windows above. Times are local; heights are feet above MLLW, so a negative low means water below the average lowest tide line. Depth alone doesn't make a tide-pool morning — [How Low Does the Tide Need to Be for Tide Pools?](/guides/how-low-does-the-tide-need-to-be-for-tide-pools/) works through that — and here the catch is starker still: this table's deep lows all land in the dark.
+
+| Date | Lows (MLLW) | Highs (MLLW) |
+|---|---|---|
+| Sun, Sep 20 | +0.88 ft @ 5:43 AM · +6.06 ft @ 8:43 PM | +7.94 ft @ 2:53 PM · +6.27 ft @ 11:02 PM |
+| Mon, Sep 21 | +0.92 ft @ 6:49 AM · +5.69 ft @ 9:01 PM | +8.00 ft @ 3:27 PM |
+| Tue, Sep 22 | +0.90 ft @ 7:43 AM · +5.20 ft @ 9:13 PM | +6.30 ft @ 12:23 AM · +8.01 ft @ 3:52 PM |
+| Wed, Sep 23 | +0.93 ft @ 8:27 AM · +4.52 ft @ 9:29 PM | +6.48 ft @ 1:36 AM · +8.00 ft @ 4:09 PM |
+| Thu, Sep 24 | +1.12 ft @ 9:05 AM · +3.64 ft @ 9:50 PM | +6.73 ft @ 2:40 AM · +8.03 ft @ 4:23 PM |
+| Fri, Sep 25 | +1.52 ft @ 9:40 AM · +2.58 ft @ 10:17 PM | +7.00 ft @ 3:39 AM · +8.10 ft @ 4:36 PM |
+| Sat, Sep 26 | +2.14 ft @ 10:15 AM · +1.43 ft @ 10:47 PM | +7.27 ft @ 4:34 AM · +8.19 ft @ 4:54 PM |
+| Sun, Sep 27 | +2.96 ft @ 10:50 AM · +0.31 ft @ 11:22 PM | +7.53 ft @ 5:30 AM · +8.26 ft @ 5:15 PM |
+| Mon, Sep 28 | +3.91 ft @ 11:28 AM | +7.75 ft @ 6:26 AM · +8.28 ft @ 5:38 PM |
+| Tue, Sep 29 | −0.64 ft @ 12:01 AM · +4.89 ft @ 12:10 PM | +7.88 ft @ 7:25 AM · +8.25 ft @ 6:03 PM |
+| Wed, Sep 30 | −1.30 ft @ 12:45 AM · +5.79 ft @ 12:56 PM | +7.92 ft @ 8:30 AM · +8.15 ft @ 6:30 PM |
+| Thu, Oct 1 | −1.60 ft @ 1:33 AM · +6.53 ft @ 1:51 PM | +7.92 ft @ 9:46 AM · +7.97 ft @ 6:57 PM |
+| Fri, Oct 2 | −1.55 ft @ 2:27 AM · +7.00 ft @ 3:05 PM | +7.97 ft @ 11:12 AM · +7.67 ft @ 7:29 PM |
+| Sat, Oct 3 | −1.22 ft @ 3:28 AM · +7.05 ft @ 4:55 PM | +8.12 ft @ 12:34 PM · +7.21 ft @ 8:28 PM |
+| Sun, Oct 4 | −0.74 ft @ 4:37 AM · +6.51 ft @ 7:25 PM | +8.30 ft @ 1:35 PM · +6.72 ft @ 10:14 PM |
+| Mon, Oct 5 | −0.23 ft @ 5:48 AM · +5.65 ft @ 8:08 PM | +8.43 ft @ 2:20 PM · +6.44 ft @ 11:59 PM |
+| Tue, Oct 6 | +0.28 ft @ 6:56 AM · +4.61 ft @ 8:40 PM | +8.50 ft @ 2:56 PM |
+| Wed, Oct 7 | +0.88 ft @ 7:54 AM · +3.46 ft @ 9:11 PM | +6.48 ft @ 1:38 AM · +8.52 ft @ 3:26 PM |
+| Thu, Oct 8 | +1.61 ft @ 8:44 AM · +2.28 ft @ 9:42 PM | +6.76 ft @ 3:03 AM · +8.49 ft @ 3:51 PM |
+| Fri, Oct 9 | +2.48 ft @ 9:28 AM · +1.19 ft @ 10:13 PM | +7.14 ft @ 4:13 AM · +8.42 ft @ 4:12 PM |
+| Sat, Oct 10 | +3.43 ft @ 10:10 AM · +0.27 ft @ 10:45 PM | +7.52 ft @ 5:13 AM · +8.32 ft @ 4:30 PM |
+| Sun, Oct 11 | +4.38 ft @ 10:52 AM · −0.41 ft @ 11:18 PM | +7.86 ft @ 6:08 AM · +8.18 ft @ 4:48 PM |
+| Mon, Oct 12 | +5.24 ft @ 11:37 AM · −0.80 ft @ 11:52 PM | +8.12 ft @ 7:01 AM · +7.98 ft @ 5:09 PM |
+| Tue, Oct 13 | +5.96 ft @ 12:27 PM | +8.28 ft @ 7:54 AM · +7.73 ft @ 5:31 PM |
+| Wed, Oct 14 | −0.89 ft @ 12:28 AM · +6.48 ft @ 1:25 PM | +8.34 ft @ 8:50 AM · +7.43 ft @ 5:55 PM |
+| Thu, Oct 15 | −0.70 ft @ 1:08 AM · +6.78 ft @ 2:42 PM | +8.30 ft @ 9:50 AM · +7.11 ft @ 6:18 PM |
+| Fri, Oct 16 | −0.31 ft @ 1:52 AM | +8.24 ft @ 10:58 AM |
+| Sat, Oct 17 | +0.20 ft @ 2:42 AM | +8.21 ft @ 12:04 PM |
+| Sun, Oct 18 | +0.72 ft @ 3:39 AM | +8.20 ft @ 12:59 PM |
+| Mon, Oct 19 | +1.19 ft @ 4:43 AM · +5.50 ft @ 8:22 PM | +8.20 ft @ 1:40 PM · +5.71 ft @ 10:37 PM |
+| Tue, Oct 20 | +1.57 ft @ 5:47 AM · +4.88 ft @ 8:29 PM | +8.18 ft @ 2:08 PM |
+| Wed, Oct 21 | +1.94 ft @ 6:45 AM · +4.05 ft @ 8:37 PM | +5.67 ft @ 12:09 AM · +8.18 ft @ 2:27 PM |
+| Thu, Oct 22 | +2.38 ft @ 7:35 AM · +2.99 ft @ 8:53 PM | +5.90 ft @ 1:36 AM · +8.21 ft @ 2:42 PM |
+| Fri, Oct 23 | +2.95 ft @ 8:19 AM · +1.73 ft @ 9:15 PM | +6.37 ft @ 2:52 AM · +8.28 ft @ 2:58 PM |
+| Sat, Oct 24 | +3.65 ft @ 9:00 AM · +0.40 ft @ 9:43 PM | +6.97 ft @ 3:57 AM · +8.39 ft @ 3:18 PM |
+| Sun, Oct 25 | +4.46 ft @ 9:41 AM · −0.87 ft @ 10:15 PM | +7.63 ft @ 4:55 AM · +8.50 ft @ 3:40 PM |
+| Mon, Oct 26 | +5.29 ft @ 10:23 AM · −1.90 ft @ 10:52 PM | +8.22 ft @ 5:50 AM · +8.57 ft @ 4:05 PM |
+| Tue, Oct 27 | +6.07 ft @ 11:07 AM · −2.55 ft @ 11:33 PM | +8.68 ft @ 6:44 AM · +8.60 ft @ 4:31 PM |
+| Wed, Oct 28 | +6.72 ft @ 11:56 AM | +8.95 ft @ 7:41 AM · +8.53 ft @ 5:00 PM |
+| Thu, Oct 29 | −2.77 ft @ 12:19 AM · +7.17 ft @ 12:53 PM | +9.03 ft @ 8:41 AM · +8.32 ft @ 5:31 PM |
+| Fri, Oct 30 | −2.55 ft @ 1:09 AM · +7.37 ft @ 2:04 PM | +9.00 ft @ 9:45 AM · +7.93 ft @ 6:06 PM |
+| Sat, Oct 31 | −1.97 ft @ 2:04 AM · +7.19 ft @ 3:46 PM | +8.95 ft @ 10:50 AM · +7.32 ft @ 6:58 PM |
+
+*Computed 2026-09-20 from NOAA station 9444900 predictions, MLLW.*
+
+Read the timestamps before the depths. Within this range the station records 18 minus tides, and every one of them lands between 10:15 PM and 5:48 AM — deep in the night or, at best, well before sunrise. The deepest is −2.77 ft at 12:19 AM on Thursday, October 29, and the same date carries the range's highest water, +9.03 ft at 8:41 AM. That pairing — the deepest low and the highest high riding the same new moon — is the alignment behind the season's king tides; the [2026–2027 king tide calendar](/guides/king-tides-2026-2027-dates/) tracks the high end of the same curve. Of everything in this table, only the four windows in the section above clear the 30-minute daylight-overlap bar.
+
+The [Puget Sound low tide calendar](/guides/puget-sound-low-tide-calendar-2026/) sets these numbers beside Seattle's, day for day. Live charts with the daylight-window math attached are on this station's monthly calendar pages — [September 2026](/beaches/wa/port-townsend-wa/2026-09/) and [October 2026](/beaches/wa/port-townsend-wa/2026-10/) — and the [station page](/beaches/wa/port-townsend-wa/) always shows the next seven days of highs and lows.
 
 ## The Labor Day run, for the record: September 5–10, 2026
 
