@@ -5,6 +5,153 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-20 — Heartbeat: Acadia chart and remaining-September refresh
+
+**One primary improvement:** refreshed the existing
+[Acadia guide](https://thetidewindow.com/guides/acadia-tide-pools-bar-island-ship-harbor/)
+in `523944b`. Added the complete Sep 20–Oct 31 NOAA Bar Harbor H/L chart:
+42 dates / 163 predicted extremes, generated from today's fact sheet.
+The lead/FAQ now point to the best-scoring remaining September window,
+Sep 27 (−0.36 ft, 5:53 PM, 106 daylight minutes, score 53 Fair), after
+checking the complete remaining-September window set, not just a top-N
+sample. Preserved the eight Sep 9 comparison rows as an explicitly dated
+historical selection, the title, slug, original July 3 date, station, and
+signup gate. Updated the description (145 characters), answer (67 words),
+whole-month November/December below-1-ft counts (38/42), and species
+snapshot. NPS Bar Island, tidepooling, Ship Harbor and Wonderland guidance
+rechecked; reference-station predictions remain separate from shoreline
+timing, access and crossing clearance. This is a factual/content refresh,
+not a new page or a new title experiment. No SEO lift claimed at ship.
+
+**Coordination / selection:** read playbook, newest journal/backlog and
+git state; clean start at `e803166`, ff-only pull already current. Reviewed
+today's NOAA `8e0ebd9` and Port Townsend `5c96392`/`e803166`; left that
+operator work, yesterday's Puget release and earlier owner work untouched.
+No new article additions this week. Three writable assignments existed at
+start, so no queue refill was due ahead of this action. Candidates used
+GSC web search, Aug 22–Sep 18 (latest returned date Sep 18), page-scoped:
+
+| Candidate | Clicks / impressions; CTR; position | Decision / confidence |
+|---|---|---|
+| Acadia guide | 7 / 779; 0.90%; 7.53 | Selected: passed Sep 11–13 lead plus an unfinished inline-chart assignment; high confidence in freshness need, no causal CTR diagnosis. |
+| Constellation / Seattle | 15 / 502; 2.99%; 6.31 | Keep queued description/answer work; already refreshed Sep 15, with a separate retitle readout. |
+| Sunset Bay | No page or query row returned | Passed lead is real, but no observed search exposure in this response; absence of a row is not a measured zero. |
+
+Acadia's visible query-to-page rows include `acadia tide chart` 0/2,
+position 18, and `acadia tide schedule` 0/1, position 16. These sparse
+rows do not explain all 779 page impressions or support AI attribution.
+The analytics-led SEO skill guided the bounded chart/freshness change,
+preserved ranking title/history, official-source recheck and release QA.
+
+**Health / NOAA:** latest five Actions runs green; no open GitHub issues.
+Actual refresh run [35502376186](https://github.com/Vessarey/tidewindow/actions/runs/35502376186)
+landed at 09:30 UTC; later runs were same-day skips, not new refreshes.
+Its logs verified 12 stations × 4 months, 124 sitemap URLs, 56 passing
+tests, and IndexNow HTTP 200 for 124 URLs. Live data index and Bar Harbor
+payload both HTTP 200 and byte-equal to committed data, generated
+`2026-09-20T09:28:15.765Z`. No recovery dispatch or extra NOAA fetch.
+Complete 12-station windows contain zero score-90+ windows Sep 20–Oct 4.
+October station maxima are Oct 27–29; no near-term king-tide trigger.
+Production dependency audit succeeded today: zero vulnerabilities
+(`npm audit --omit=dev --audit-level=high`), clearing yesterday's registry
+availability limitation without changing dependencies.
+
+**PostHog:** project 495836, exact `$host = thetidewindow.com` AND
+`$virt_traffic_type = Regular`; trailing windows end strictly before
+`2026-09-20T17:17:07Z`, excluding this heartbeat's subsequent browser QA.
+Native integration still requests reauthentication; configured read-only
+API fallback succeeded. No credential change or broadened access.
+
+| Window | Pageviews | Unique pageview IDs | Signup events | Signup events / IDs |
+|---|---:|---:|---:|---:|
+| 7 days | 367 | 335 | 1 | 0.30% |
+| 28 days | 1,139 | 1,025 | 5 | 0.49% |
+
+These are descriptive ratios, not matched-user conversion funnels,
+active-subscriber counts, or certified human traffic. Target remains 1.5%.
+Regular 7d includes 11 Chrome/Linux PV/11 IDs of uncertain origin; explicit
+agent fields or bot/headless/playwright/puppeteer UA checks matched zero
+within that slice, which does not prove all remaining traffic human.
+Top 7d pages: national king-tides 123 PV, Oregon king-tides 61, Oregon
+calendar 18, home 15, Washington king-tides 13; Acadia 7 PV / 7 IDs.
+7d product events: station selections 12, window results 11, trip plans 2,
+calendar gates 6 (article-multi 1 / station 2 / tool 3), ICS reveals 0
+observed. The event definition exists, so this is an observed event zero,
+not a missing definition. 28d totals: selections 51, results 34, trip plans
+17, gates 23, ICS reveals 3. No low-sample conversion verdict.
+
+24h non-null LCP: n=14, p75 553.5 ms, p90 856.5 ms; below n=30 performance
+floor, so no population claim. Exception capture remains **unverified**:
+project opt-in null, no `$exception` event definition, and 7d pageview
+capture property false on 57 / absent on 310. This is not zero runtime
+errors. Browser checks below are direct, bounded health evidence only.
+
+**Search Console:** latest available date Sep 18. Sep 12–18: 56 clicks /
+3,784 impressions / position 7.38, versus Sep 5–11: 64 / 3,866 / 7.37
+(clicks −12.5%, impressions −2.1%, position essentially flat). Aug 22–
+Sep 18: 203 / 13,564 / 7.76, versus Jul 25–Aug 21: 96 / 7,090 / 8.70
+(clicks +111.5%, impressions +91.3%). Directional acquisition context,
+not attribution to recent edits. Largest 28d page: national king-tides
+67 clicks / 2,967 impressions; Fitzgerald 40 / 1,752. Do not duplicate
+the Sep 14 indexing batch; the next weekly batch is due Sep 21.
+
+**Experiment accounting (§5, docs only):** exact Port Townsend GUIDE
+baseline is 0 clicks / 9 impressions / position 5.22 over Aug 22–Sep 18.
+The morning forecast borrowed ~55 query impressions largely landing on
+the STATION page, but planned to judge queries landing on the GUIDE.
+Even all guide queries run at 9/28 = 0.32 impressions/day: 100 / (9/28)
+= ~311 days to floor, above 60 days. Standalone retitle verdict closed
+**unmeasurable at current traffic**, superseding Nov 8 without declaring
+a loss or changing the free title/chart. BACKLOG has the correction;
+morning journal history is preserved. Normal discovery monitoring remains.
+Exit-intent: 7d 14 impressions / 1 signup; all-time since Jul 27, 61 / 1,
+still below 100. Already-closed signup experiments remain closed; no new
+variant or deadline extension. Owner's Oct 1 retirement rule remains.
+
+**Newsletter / time-bombs:** read-only Resend status for Sep 17 broadcast
+`72fb28b1-7a44-4d44-9dc0-6680bc368368` is sent at
+`2026-09-17T12:10:06.047255Z`; this response supplies no bounce, complaint
+or delivery totals (unavailable, not zero). No send, sync, contacts,
+outreach, spend, account or permission changes. [NPS Olympic conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still states Mora Road closed beyond the campground July 8–Oct 15;
+do not promise reopening. Sept 30/Oct 1 title/month-roll checks, Oct 5
+national-query readout, Oct 15 access recheck, and Nov 1 chart roll remain
+separate scheduled/backlog gates.
+
+**Validation:** plain committed-data `npm run build` passed with 124
+sitemap URLs, 12 stations × 4 months, 42 fact + 6 math + 8 formatter tests.
+66 targeted checks passed: 42 chart rows/163 extremes, historical rows,
+monthly counts, complete remaining-September best and metadata. Five
+official sources + seven in-body internal URLs returned HTTP 200; all
+36 rendered internal link/asset targets resolve after stripping query
+strings. Initial description-length check caught 158 characters; shortened
+to 145 and rebuilt/rechecked before release. Desktop 1280px and mobile
+375px preview verified, no document overflow, new chart fits; calendar
+gate opens with the correct station (no email submitted). Live Finder
+loads Bar Harbor's current 30-day results, computed Sep 20; no observed
+warning/error logs on the tested live/local surfaces. No source-code,
+NOAA data, ICS, dependency or unrelated article changes.
+
+**Release:** `523944b` pushed to main;
+[Vercel deployment](https://vercel.com/vessareys-projects/tidewindow/6DiUWpbjMa5rGq37CBQYcYZTD3Y2)
+reported success. Live guide returned HTTP 200 and its rendered `<main>`
+was byte-equal to the tested local export (SHA-256
+`1acad6e07872e724d687c94d1fc02819e54af707f50acaed04c631fc19a9e862`).
+Live tables contain 42/8/4 data rows; original title/date, updated Sep 20,
+description, Article dateModified and five FAQ schema entries verified.
+Live 375px browser showed no document overflow; correct calendar email
+gate opened, no email entered/submitted, and no observed console warnings
+or errors. Temporary browser closed and viewport reset after verification.
+
+**Next action:** only Seattle snippet equity and Sunset Bay remain
+ready-now: §2a demand-led queue refill is next run's first priority, then
+Sep 21 weekly `inspect 40` (including La Push discovery). Do not duplicate
+Port Townsend/Puget/Acadia chart work. Revisit Acadia's dated lead after
+Sep 27; its full chart lasts through Oct 31. Exception-capture verification
+remains a measurement gap; do not infer a clean production error rate.
+
+---
+
 ## 2026-09-20 — Port Townsend tide chart equity (P1) shipped
 
 **Primary action (§2d, top P1 item):** gave the Fort Worden guide the
