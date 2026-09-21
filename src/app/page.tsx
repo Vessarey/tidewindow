@@ -90,6 +90,59 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mt-10">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="text-2xl">Know before you go</h2>
+          <Link href="/guides/" className="text-[0.9rem] text-ink-soft underline hover:text-anemone">
+            all guides →
+          </Link>
+        </div>
+        <div className="mt-4 grid gap-x-8 gap-y-4 sm:grid-cols-2">
+          <p className="text-[0.95rem] text-ink-soft">
+            <Link href="/guides/best-time-to-go-tide-pooling/" className="font-semibold text-ink underline hover:text-anemone">
+              The best time to go tide pooling
+            </Link>{" "}
+            — which hours and which months line up daylight with deep water, and the one-hour rule for when to arrive.
+          </p>
+          <p className="text-[0.95rem] text-ink-soft">
+            <Link href="/guides/how-low-does-the-tide-need-to-be-for-tide-pools/" className="font-semibold text-ink underline hover:text-anemone">
+              How low does the tide need to be?
+            </Link>{" "}
+            — the familiar −0.5 ft rule is a Southern California number; we test it against NOAA data on three very
+            different coasts.
+          </p>
+          <p className="text-[0.95rem] text-ink-soft">
+            <Link href="/guides/what-is-a-sneaker-wave/" className="font-semibold text-ink underline hover:text-anemone">
+              What is a sneaker wave?
+            </Link>{" "}
+            — the science behind the ocean&apos;s quietest trick, and what the National Weather Service says about it.
+          </p>
+          <p className="text-[0.95rem] text-ink-soft">
+            <Link href="/tools/trip-picker/" className="font-semibold text-ink underline hover:text-anemone">
+              Trip Picker
+            </Link>{" "}
+            — enter your vacation dates and coast; it finds the single best low-tide hour inside them, or says
+            honestly that there isn&apos;t one.
+          </p>
+          <p className="text-[0.95rem] text-ink-soft">
+            <Link href="/guides/best-tide-pools-oregon-2026/" className="font-semibold text-ink underline hover:text-anemone">
+              Oregon&apos;s tide pools, compared
+            </Link>{" "}
+            — four stations from Garibaldi to Port Orford, and how the calendar splits at Newport.
+          </p>
+          <p className="text-[0.95rem] text-ink-soft">
+            <Link href="/guides/best-tide-pools-california-2026/" className="font-semibold text-ink underline hover:text-anemone">
+              California&apos;s tide pools, compared
+            </Link>{" "}
+            — four coasts side by side, including{" "}
+            <Link href="/guides/cabrillo-tide-pools-2026/" className="underline hover:text-anemone">
+              which lows fit inside Cabrillo&apos;s posted gate hours
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
+
       <hr className="waterline" />
 
       <section className="grid gap-8 sm:grid-cols-3">
