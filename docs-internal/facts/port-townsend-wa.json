@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-20",
+ "generated_on": "2026-09-21",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1946,6 +1946,11 @@
    "count": 2
   },
   {
+   "commonName": "Purple Mahogany Clam",
+   "scientificName": "Nuttallia obscurata",
+   "count": 2
+  },
+  {
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 2
@@ -1968,11 +1973,6 @@
   {
    "commonName": "Channeled Dog Winkle",
    "scientificName": "Nucella canaliculata",
-   "count": 1
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
    "count": 1
   }
  ]

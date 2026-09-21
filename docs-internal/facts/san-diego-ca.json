@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-20",
+ "generated_on": "2026-09-21",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2046,6 +2046,11 @@
    "count": 2
   },
   {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 1
+  },
+  {
    "commonName": "Cloudy Bubble Snail",
    "scientificName": "Bulla gouldiana",
    "count": 1
@@ -2073,11 +2078,6 @@
   {
    "commonName": "California frog shell",
    "scientificName": "Crossata californica",
-   "count": 1
-  },
-  {
-   "commonName": "Purple Olive Snail",
-   "scientificName": "Callianax biplicata",
    "count": 1
   }
  ]
