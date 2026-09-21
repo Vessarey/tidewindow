@@ -5,6 +5,29 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] 2026-09-21: **Weekly `inspect 40` failed the one-third test again →
+      §2a′ homepage crawl path shipped (798c7d5) + §2a refill.** Sample:
+      20 Submitted-and-indexed / 19 Discovered-never-crawled / 1 unknown
+      (/embed/). Every guide that received Sep 13–14 contextual article
+      links (best-time-to-go, sneaker-wave, best-tide-pools-OR/CA,
+      how-low) is STILL never-crawled a week later; /data/ and /embed/
+      stay uncrawled despite site-wide footer/nav links, so boilerplate
+      links earn nothing here. Escalated per the Sep 14 plan: the homepage
+      (last crawl Sep 19, previously zero in-body guide links) now carries
+      a "Know before you go" section with contextual links to
+      best-time-to-go, how-low, sneaker-wave, Trip Picker, OR + CA
+      comparisons and Cabrillo. Pointer copy has no tide numbers or
+      stale-able dates. **Recheck at the next weekly inspect (~Sep 28):**
+      exact-URL inspect those seven targets; if still never-crawled after
+      a homepage path, treat as Google-side crawl-budget lag, stop adding
+      link passes, and let the ~Sep 30 `inspect 60` comparison judge it.
+      Refill: three demand-backed P1 items added below (Glass Beach chart
+      equity, Haystack Rock roll-forward, La Jolla remaining-dates
+      verification) — queue back to 5 writable with Seattle equity and
+      Sunset Bay. Checked and NOT re-added: Fitzgerald chart cluster
+      (chart + title shipped Sep 17, pos 8.9 with clicks), bare "king
+      tides 2026" (Sep 11 schedule section, readout ~Oct 5), Puget chart
+      (rolled Sep 19), Acadia chart cluster (chart shipped Sep 20).
 - [x] 2026-09-19: **Queue refilled from demand (§2a) — five writable items
       again.** At session start only Acadia inline H/L and Sunset Bay were
       writable (<3 → refill outranks everything). Fresh `flywheel 28`,
@@ -124,6 +147,37 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
+- [ ] **Glass Beach tide chart equity — refresh, not a new page** (added
+      2026-09-21 refill). Cluster (GSC 28d): `glass beach port townsend
+      tide chart` 18 impressions / pos 14.0 / 0 clicks, plus `glass beach
+      tides` and `glass beach port townsend tide` 1 each — chart intent,
+      but the page (`glass-beach-port-townsend-low-tide-2026`, INDEXED
+      since Sep 13, title "Glass Beach Tides: Timing the Walk from North
+      Beach in Port Townsend") has no chart and no chart/schedule H2.
+      Target: inline current+next-month daily H/L chart for station
+      9444900 script-rendered from `daily_extremes_current_and_next_month`
+      (proven Fitzgerald/PT pattern) + explicit tide-chart H2. Do NOT
+      duplicate the Fort Worden guide's chart framing — link it; the two
+      pages already cross-link. A retitle is optional and if done is an
+      experiment: record fresh page baselines at ship (§5); note the PT
+      guide's retitle verdict closed unmeasurable, so prefer H2/content
+      equity over another title bet.
+- [ ] **Haystack Rock roll-forward — stalest indexed guide with real
+      exposure** (added 2026-09-21 refill). GSC 28d: 2 clicks / 30
+      impressions / pos 5.5 / 6.7% CTR. The guide (`haystack-rock-
+      tidepool-windows-2026`, updated 2026-07-28) still leads with the
+      PASSED "August 11–14 dawn run" as its four-mornings premise and
+      description. §2e refresh: recompute remaining-2026 windows from the
+      current Garibaldi fact sheet, rewrite lead/answer/description to
+      the actual remaining season, keep Marine Garden rules sourced as-is
+      (re-fetch official sources at write time), honest `updated:`.
+- [ ] **La Jolla remaining-dates verification pass** (added 2026-09-21
+      refill). GSC 28d: 1 click / 44 impressions / pos 5.7; updated
+      Aug 18. Its ranked "best remaining 2026 dates" begin at Sep 27 —
+      about to be passed. After Sep 27, re-verify every listed date/
+      height against the current fact sheet, drop or re-mark passed
+      dates as historical, refresh the December-run framing. Smaller
+      than Haystack; schedule after it (writable from Sep 28).
 - [x] **Port Townsend tide chart equity — refresh, not a new page** (added
       2026-09-19 demand refill).
       **Done 2026-09-20 operator (5c96392):** inline Sep 20–Oct 31 daily

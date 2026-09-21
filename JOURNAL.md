@@ -5,6 +5,71 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-21 — Weekly inspect fails again; homepage crawl path (§2a′) + refill (§2a)
+
+**Health:** green. Today's refresh landed before the session (`06e69f7`,
+run 35587556257, started 10:13:05Z, 2m16s); all five recent runs green, no
+recovery dispatch, no open issues. Sunday — no newsletter action.
+
+**Primary — §2a′ homepage crawl path (798c7d5):** weekly `inspect 40`
+sampled 40 of 124 sitemap URLs → 20 Submitted-and-indexed / 19
+Discovered–currently-not-indexed (all "never" crawled) / 1 unknown
+(/embed/) — ~50% unindexed, same failure rate as Sep 14. The decisive
+finding: every guide that received the Sep 13–14 contextual article links
+(best-time-to-go, sneaker-wave, best-tide-pools-oregon, best-tide-pools-
+california, how-low) is still never-crawled a week later, and /data/ +
+/embed/ remain uncrawled despite permanent site-wide nav/footer links.
+Article-level and boilerplate links are not earning crawls. Executed the
+escalation the Sep 14 entry pre-planned: a homepage-level path. The
+homepage (indexed, last crawl Sep 19) previously had zero in-body guide
+links; it now has a "Know before you go" section — six pointer paragraphs
+linking best-time-to-go, the how-low threshold test, the sneaker-wave
+explainer, Trip Picker, and the Oregon + California comparisons (Cabrillo
+nested in the California line). Every pointer sentence was checked against
+the target article's actual claims; no tide numbers, no expiring dates, no
+new safety advice (the sneaker-wave line attributes to NWS, matching the
+article). This is also a genuine homepage gap fix, not links-for-Google
+only. La Push was left out: it moved unknown→discovered and got fresh
+inbound links Sep 18; the pass targets the weakest surfaces.
+
+**Gates:** `npm run build` green — 137 routes, verify-output OK (12
+stations × 4 months, 124 sitemap URLs), 42 fact + 6 math + 8 formatter
+tests, zero new warnings. All 8 link targets confirmed present in `out/`
+and the rendered homepage carries all six pointers. Diff review: exactly
+one file (src/app/page.tsx, +53), no cron-owned files. Sitemap honesty:
+sitemap.ts untouched; the homepage genuinely changed today. Browser QA
+was NOT run — unattended sessions cannot start the preview server; the
+section reuses the exact grid/typography classes of adjacent sections, and
+verification was textual against built HTML. If anything looks off
+visually, it's a one-file revert.
+
+**Secondary — §2a refill (P0):** queue was at 2 writable (below 3). Fresh
+`flywheel 28` + `queries 28` → three demand-backed P1 items added (details
+in BACKLOG): Glass Beach tide-chart equity (18-impression chart cluster at
+pos 14 hitting a chartless page), Haystack Rock roll-forward (30
+impressions / pos 5.5 on a guide still leading with the passed Aug 11–14
+run), La Jolla remaining-dates verification (writable after Sep 27).
+Checked and NOT re-added: Fitzgerald chart cluster (shipped Sep 17, now
+pos 8.9 WITH clicks), bare "king tides 2026" (readout ~Oct 5), Puget chart
+(Sep 19), Acadia chart (Sep 20). Queue back to 5 writable.
+
+**Metrics (PostHog 495836, 7d to 12:11Z, prod host):** 374 pageviews /
+346 unique pageview ids / 2 signup events ≈ 0.58% (target 1.5%) —
+consistent with yesterday's fuller read; descriptive ratios, not matched
+funnels. GSC 28d top pages: national king-tides 70 clicks / 3,124
+impressions / pos 6.9; Fitzgerald 43 / 1,776 / 6.7; Oregon calendar 15 /
+437; Constellation 15 / 512; PT hub 11 / 519. No conversion verdicts.
+
+**Next:** Monday — pick ONE from the 5-item queue (Seattle Constellation
+equity or Glass Beach chart are strongest; Haystack is the freshness
+debt). Thursday Sep 25: newsletter ritual. Next weekly inspect (~Sep 28):
+exact-URL recheck the seven homepage-linked targets — if still
+never-crawled, judge it Google-side crawl-budget lag, stop adding link
+passes, and let the ~Sep 30 `inspect 60` comparison settle it. Oct 1:
+month rollover + owner exit-prompt decision. Oct 15: Mora recheck.
+
+---
+
 ## 2026-09-20 — Heartbeat: Acadia chart and remaining-September refresh
 
 **One primary improvement:** refreshed the existing
