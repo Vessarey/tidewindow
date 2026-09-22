@@ -5,6 +5,22 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-09-21:start -->
+- [x] **2026-09-21 heartbeat — operational handoff corrected locally.**
+      Today is Monday Sep 21; the next Thursday newsletter ritual is
+      **Sep 24, not Sep 25** (Friday). This supersedes the morning journal's
+      weekday/date labels; no newsletter action or schedule mutation today.
+      Three assignments are independently ready now: Seattle snippet,
+      Glass Beach chart, Sunset Bay. Haystack is already implemented locally
+      and awaiting owner publication approval; do not duplicate or publish
+      it through another change. La Jolla opens Sep 28, not this week.
+      Preserve the Sep 28 crawl checkpoint and Oct 1 owner/month gates.
+      Completed missing live homepage QA: 1280/375px layout, all eight
+      section links, keyboard focus, Trip Picker and calendar gate passed.
+      Owner's article and evidence packet preserved. Heartbeat changes are
+      journal/backlog notes only, uncommitted; no push or deployment.
+<!-- heartbeat-2026-09-21:end -->
+
 - [x] 2026-09-21: **Weekly `inspect 40` failed the one-third test again →
       §2a′ homepage crawl path shipped (798c7d5) + §2a refill.** Sample:
       20 Submitted-and-indexed / 19 Discovered-never-crawled / 1 unknown
@@ -147,8 +163,28 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
-- [ ] **Glass Beach tide chart equity — refresh, not a new page** (added
-      2026-09-21 refill). Cluster (GSC 28d): `glass beach port townsend
+- [x] **Glass Beach tide chart equity — refresh, not a new page** (added
+      2026-09-21 refill).
+      **Done 2026-09-22 operator:** new "Glass Beach tide chart: Port
+      Townsend predictions, September 22 – October 31, 2026" H2 with the
+      complete 40-date daily H/L table script-rendered from
+      `daily_extremes_current_and_next_month` (fact sheet generated
+      2026-09-22) and recompute-checked row-for-row, 0 mismatches. Framing
+      is walk-timing (what the chart cannot answer: passability, daylight),
+      NOT the Fort Worden guide's tide-pool framing — that guide is linked
+      instead. Prose claims verified against committed window data: exactly
+      4 of 40 dates have ≥30 min daylight overlap below +1 ft (Sep 22,
+      Oct 5–7, matching the existing windows table); all 18 minus tides
+      land 10:15 PM–5:48 AM; deepest −2.77 ft Oct 29 12:19 AM. Description
+      updated to carry "tide chart" (145 chars); NO retitle, per the item's
+      own preference after the PT-guide retitle closed unmeasurable.
+      `updated: 2026-09-22`. Build + verify-output green (124 URLs), 56
+      tests pass. Ship baseline (GSC 28d, Sep 21 read): cluster `glass
+      beach port townsend tide chart` 18 impressions / pos 14.0 / 0 clicks;
+      page indexed since Sep 13. Judge on cluster clicks + position landing
+      on this page; the page's own prior verdict closed unmeasurable, so
+      treat movement as observation, not a promised experiment readout.
+      Original item: Cluster (GSC 28d): `glass beach port townsend
       tide chart` 18 impressions / pos 14.0 / 0 clicks, plus `glass beach
       tides` and `glass beach port townsend tide` 1 each — chart intent,
       but the page (`glass-beach-port-townsend-low-tide-2026`, INDEXED
@@ -171,6 +207,17 @@ with the date; add discoveries at the appropriate tier.
       current Garibaldi fact sheet, rewrite lead/answer/description to
       the actual remaining season, keep Marine Garden rules sourced as-is
       (re-fetch official sources at write time), honest `updated:`.
+      **Sep 21 owner-requested SEO refresh: implemented and validated
+      locally; publication pending.** The working-tree article now covers
+      all eight remaining minus-tide windows with daylight overlap and
+      explicitly says every low itself is after sunset. Summer rows retained;
+      stale monthly counts, FAQs and station-offset assurances corrected.
+      Current exact baseline Aug 23–Sep 19: 2 clicks / 29 impressions /
+      6.90% CTR / position 5.66; no visible query rows. Build, lint, 56 tests,
+      metadata/schema, mobile/desktop and navigation checks passed. See
+      `docs-internal/seo-refresh-2026-09-21/README.md` and exact patch.
+      Do not duplicate this local edit or mark it shipped until deployment
+      is authorized and live output verified.
 - [ ] **La Jolla remaining-dates verification pass** (added 2026-09-21
       refill). GSC 28d: 1 click / 44 impressions / pos 5.7; updated
       Aug 18. Its ranked "best remaining 2026 dates" begin at Sep 27 —

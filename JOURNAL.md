@@ -5,6 +5,250 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-22 — Glass Beach tide chart equity (§2d, first open P1)
+
+**Health:** green. Today's refresh landed before the session (`e5bcfb0`,
+scheduled run 35710643104 at 09:29 UTC, 2m42s; the three Sep 21 10s runs
+were same-day-guard skips). No open GitHub issues.
+
+**Repo state on arrival:** working tree carried the Sep 21 owner-requested
+Haystack refresh (article + 47-file evidence packet) plus the Sep 21
+heartbeat's journal/backlog notes, all uncommitted. Pulled with
+`--rebase --autostash`; the autostash reapplied cleanly. Decisions:
+(1) the Haystack article edit and `docs-internal/seo-refresh-2026-09-21/`
+stay **uncommitted, unpublished and untouched** — the backlog says
+publication awaits explicit owner authorization; (2) the Sep 21
+journal/backlog notes are committed today alongside this entry — they are
+docs-only records that belong in history, and committing them publishes
+no article content. The Haystack backlog item stays open.
+
+**Primary action (§2d):** Glass Beach chart equity, the first open P1 and
+the only ready-now item with an indexed target page and live chart-intent
+demand (`glass beach port townsend tide chart` 18 impressions / pos 14.0 /
+0 clicks, GSC 28d). Added a "Glass Beach tide chart: Port Townsend
+predictions, September 22 – October 31, 2026" H2 to
+`glass-beach-port-townsend-low-tide-2026`: the complete 40-date daily H/L
+table for station 9444900, script-rendered from the fact sheet's
+`daily_extremes_current_and_next_month` (generated 2026-09-22) — the
+proven Fitzgerald/PT pattern. Framing is deliberately NOT the Fort Worden
+guide's (that guide is linked): here the chart is presented as the
+walk-planning caution it is — it says when the station predicts low
+water, not whether the route is passable or daylit. Description updated
+to lead with "Glass Beach tide chart" (145 chars). No retitle — the item
+itself preferred content equity after the PT retitle closed unmeasurable.
+No gate or tool changes. `updated: 2026-09-22`.
+
+**Verification:** recompute-check of all 40 article rows against the fact
+sheet: 0 mismatches. Prose claims verified against committed window data:
+exactly 4 of 40 dates carry ≥30 min daylight overlap below +1 ft (Sep 22,
+Oct 5, 6, 7 — identical to the page's existing windows table, values
+re-verified: +0.90/50min/16, −0.23/39/27, +0.28/67/22, +0.88/45/14); all
+18 minus tides in range land 10:15 PM–5:48 AM; deepest −2.77 ft, 12:19 AM
+Thu Oct 29; highest +9.03 ft same date 8:41 AM. Chart rows byte-match the
+Fort Worden guide's committed chart on overlapping dates. Plain
+`npm run build` green; verify-output OK (12 stations × 4 months, 124
+sitemap URLs); 56 tests pass. Both newly linked month-calendar routes and
+the guide exist in `out/`. No external links added; all internal links
+resolve. Diff reviewed — only the one article changed beyond docs.
+
+**Metrics snapshot (PostHog, production host, 7d):** 372 pageviews / 347
+unique ids / 2 signups (~0.58% of uniques; target ≥1.5%). Top paths:
+national king tides 124, Oregon king tides 72, WA king tides 21, Oregon
+calendar 14, Fitzgerald 13, Acadia 12, homepage 10, Constellation 9.
+Consistent with the Sep 21 heartbeat's read; no anomaly.
+
+**Ship baseline (§5):** cluster `glass beach port townsend tide chart`
+18 impressions / pos 14.0 / 0 clicks (GSC 28d, Sep 21 read); page indexed
+since Sep 13, no visible page-level query CTR experiment claimed — the
+page's standalone performance verdict already closed unmeasurable, so
+observe cluster clicks/position without promising a readout date.
+
+**Tomorrow (Wed Sep 23):** normal queue — Seattle snippet
+(description/answer-box equity, NO retitle) is the next ready-now item;
+Sunset Bay remains after it. **Thursday Sep 24 is the newsletter ritual**
+(sync-audience → dry-run → recompute-check → send with the standing
+template). Sep 28: La Jolla becomes writable; weekly inspect recheck of
+the seven homepage-linked targets. Oct 1: November rollover + monthly
+gates. Haystack stays reserved for the owner's approval — do not publish
+or duplicate it.
+
+---
+
+<!-- heartbeat-2026-09-21:start -->
+## 2026-09-21 — Heartbeat: live homepage QA and release-safe handoff correction
+
+**One safe improvement, local docs only:** corrected the operational
+handoff rather than stacking another public edit onto the owner's pending
+Haystack work. Today is **Monday Sep 21**; next Thursday is **Sep 24**, not
+Sep 25 (Friday). Verified using calendar arithmetic in America/New_York.
+The ready-now queue is three independent assignments (Seattle snippet,
+Glass Beach chart, Sunset Bay), plus Haystack already implemented but
+awaiting publication approval and La Jolla not writable until Sep 28.
+These dated corrections supersede the morning handoff, whose history is
+preserved. No newsletter send, schedule change or premature queue refill.
+
+**Coordination:** read playbook, newest entries, backlog, today's commits
+and dirty state. `git pull --ff-only` was already current at `5970f53`.
+Existing uncommitted files were Haystack, JOURNAL, BACKLOG and the 47-file
+`docs-internal/seo-refresh-2026-09-21/` packet. Did not edit, commit, push
+or deploy that work. No new application/content edit in this heartbeat;
+only this entry and the separate BACKLOG note were added. Do not interpret
+the local Haystack build as a live release: the production H1 still says
+"Four Mornings That Matter" and the lead still promotes August. The owner's
+local correction remains the next release candidate, subject to approval.
+
+| Opportunity / evidence | Decision |
+|---|---|
+| Homepage `798c7d5` shipped today, operator explicitly lacked browser QA | Completed live desktop/mobile and navigation verification; no duplicate link batch. |
+| Haystack freshness error, owner already repaired and validated locally | Preserve article and packet; no duplicate edit or implicit publication. |
+| Handoff says Sunday / Thursday Sep 25 and counts five writable items | Add the correct weekday, Sep 24 ritual date and three-item ready-now count in journal/backlog. |
+
+**Live/NOAA health:** latest five Actions runs green, no open GitHub
+issues. Actual refresh [35587556257](https://github.com/Vessarey/tidewindow/actions/runs/35587556257)
+started 10:13:05Z, landed `06e69f7` at 10:15:16Z, finished 10:15:21Z;
+14:14 and 16:29 runs were same-day skips. Its log verifies 12 stations ×
+four months, 124 sitemap URLs, 56 tests and IndexNow HTTP 200 for all 124
+URLs. Live index and Garibaldi payload both HTTP 200, byte-equal to
+committed files, generated `2026-09-21T10:13:25.414Z`. No recovery dispatch
+or extra pipeline fetch. The workflow still has four staggered slots,
+same-day guard, six NOAA attempts and push-race retries. Current deployment
+for `5970f53` is [Vercel success](https://vercel.com/vessareys-projects/tidewindow/H4LD9FMZT99MzdTNmxa87ePWEVgc).
+Complete 12-station scan found zero score-90+ windows Sep 21–Oct 5.
+`npm audit --omit=dev --audit-level=high`: zero vulnerabilities.
+
+**Browser/test evidence:** live homepage renders all six new paragraphs /
+eight links, each returning HTTP 200. Desktop 1280px: two 476px columns;
+mobile 375px: one 335px column, document width 375px, no link overflow.
+Keyboard focus is visible. Followed the new Trip Picker link, selected
+Bar Harbor and Sep 25–28; result is Sep 27, 5:53 PM, score 53 Fair,
+matching the complete qualifying raw-data range. Calendar gate opens for
+Bar Harbor; no email entered or submitted. No observed warning/error logs
+in the tested flows. Browser closed and viewport reset. Local fact/math/
+formatter tests rerun: **42 + 6 + 8 = 56 pass, zero failures**. No build
+rerun or output overwrite was needed for docs-only notes; the owner's
+validated export remains untouched. Live sitemap contains 124 URLs;
+homepage lastmod is today's actual data timestamp, not an invented date.
+
+**PostHog, freshly queried:** project 495836, America/New_York; exact
+`$host = thetidewindow.com` AND `$virt_traffic_type = Regular`, trailing
+windows ending strictly before `2026-09-21T17:17:12Z`. This cutoff excludes
+this heartbeat's later browser QA, not all earlier QA. Native connector
+still requires reauthentication; the configured read-only API works.
+Project/schema verified first; no credential or instrumentation changes.
+
+| Window | Pageviews | Unique pageview IDs | Signup events | Events / IDs |
+|---|---:|---:|---:|---:|
+| 7 days | 368 | 340 | 2 | 0.59% |
+| 28 days | 1,162 | 1,049 | 6 | 0.57% |
+
+Ratios are descriptive, not ordered funnels or active-subscriber counts;
+memory-persistent IDs need not equal people. Regular is not verified human:
+9 Chrome/Linux PV / 9 IDs remain uncertain. Explicit agent fields and
+bot/headless/playwright/puppeteer UA checks matched zero in this slice,
+which does not certify the residual. Top 7d PV: national king-tides 119,
+Oregon king-tides 66, Washington king-tides 18, Fitzgerald 15, Oregon
+calendar 15, homepage 12, Seattle guide 12, Acadia 9, Finder 9. Pageview
+referrers: direct 89, Google 87, www.bing.com 74 (+bing.com 2), Yahoo 42,
+DuckDuckGo 36, internal 36, Brave 1, Ecosia 1; not GSC clicks or exclusive
+acquisition sessions. No AI-referrer rows returned in this 7d grouping.
+
+7d product events: station selections 10, results viewed 10, ZIP lookups
+9, trip runs 1, gate clicks 5 (station 2/tool 2/article-multi 1), signup
+sources station 1/exit-intent 1. ICS reveals: zero observed in 7d, three
+in 28d; the event definition exists. 28d selections/results/trips/gates:
+52/35/17/22. Still below the 1.5% signup-ratio target; no tiny-sample
+conversion verdict or new variant. Exit prompt since Jul 27: 63 impressions
+/ 1 signup; 7d 15 impressions. Its experiment stays closed-unmeasurable;
+the owner Oct 1 removal gate at fewer than 100 impressions remains active.
+Port Townsend's standalone title verdict stays closed; no restart.
+
+24h LCP n=18, p75 653.75 ms, p90 929.10 ms, below n=30 performance floor.
+**Exception capture is unverified, not zero errors:** project opt-in null,
+no `$exception` definition, and pageview capture property absent on 314 /
+false on 54. Direct browser QA is bounded evidence, not production-wide
+error instrumentation. The missing measurement remains a backlog item.
+
+**Search Console, freshly rechecked:** property `sc-domain:thetidewindow.com`,
+Web, finalized data only, no device/country filter; reporting dates Pacific.
+Date probe Sep 7–20 confirms Sep 19 latest finalized. Aug 23–Sep 19:
+202 clicks / 13,504 impressions / position 7.74, versus Jul 26–Aug 22:
+102 / 7,372 / 8.70 (+98.0% clicks, +83.2% impressions). Sep 13–19:
+56 / 3,695 / 7.34, versus Sep 6–12: 58 / 3,689 / 7.42 (clicks −3.45%).
+This matches the owner's exact-date packet, not the morning script's
+slightly different window. No attribution to the new homepage or Acadia
+edits, which postdate the cutoff. Reused today's page/query and inspection
+packet for prioritization, explicitly not a second fresh URL-inspection
+batch: the operator's weekly sample was 20 indexed / 19 discovered-never-
+crawled / 1 unknown of 40. New homepage links are too recent to judge.
+Do not duplicate `inspect 40`, new crawl links or recent retitles today.
+
+**Other gates:** Sep 17 broadcast `72fb28b1-7a44-4d44-9dc0-6680bc368368`
+still reports sent at `2026-09-17T12:10:06.047255Z`. Read response supplies
+no delivery/bounce/complaint totals: unavailable, not zero. [NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+rechecked: Mora Road beyond the campground remains closed July 8–Oct 15;
+no reopening assumption. No contact, broadcast, spend, account change,
+indexing submission, new automation or app release by this heartbeat.
+
+**Next:** preserve owner approval for Haystack publication; otherwise the
+three independent ready-now items remain available. Sep 24 newsletter
+ritual; after Sep 27, Acadia/La Jolla date checks; Sep 28 exact-URL crawl
+follow-up, Sep 30 larger indexing comparison, Oct 1 November rollover /
+monthly-title readout / exit-prompt gate; Oct 5 national-query readout;
+Oct 15 NPS recheck. Notes remain **local and uncommitted** alongside the
+owner work; no release implied. Original dirty-file content is preserved.
+<!-- heartbeat-2026-09-21:end -->
+
+---
+
+## 2026-09-21 — Owner-requested analytics-led refresh; Haystack corrected locally
+
+**Scope/state:** used the analytics-led SEO refresh skill alongside the
+owner's request to fix errors. Started from clean `5970f53`; inspected recent
+operator work and preserved today's shipped homepage links, Sep 20 Acadia/
+Port Townsend charts and Sep 17 monthly titles. One guide changed locally;
+no commit, push, deployment, newsletter, indexing request or automation.
+
+**Fresh baseline:** Search Console finalized Web data ends Sep 19. Aug
+23–Sep 19 versus Jul 26–Aug 22: 202/13,504 clicks/impressions versus
+102/7,372; CTR 1.50% versus 1.38%, position 7.74 versus 8.70. Latest seven
+days 56/3,695 versus 58/3,689. National king tides and Fitzgerald explain
+86 of the 100 additional clicks; no causal attribution. Visible queries
+cover only 16.3% of current impressions. PostHog exact production host +
+Regular classification: 1,128 pageviews, 1,019 tracked IDs, 1,020 pageview
+sessions, five signup events over the same calendar dates in Eastern time.
+Regular is not proof of human traffic; 27 Chrome/Linux pageviews retained
+with an automation caveat. Local hosts excluded. Signup events are not
+active subscribers. Connector OAuth failed; configured read-only API worked.
+
+**Haystack repair:** live copy still offered August mornings as upcoming.
+Replaced that premise with Sep 21–Dec 31 remaining windows; checked the
+complete interval, finding eight qualifying minus-tide windows and every
+low after sunset. Added chronological rows, refreshed description/FAQs,
+corrected stale monthly counts and removed unsupported station-offset/
+walkable-access assurances. Title keeps its identifying phrase and replaces
+the expired four-mornings promise with Fall and Winter. Original slug,
+July 2 publish date and gate preserved; all eight historical rows retained.
+Official sources reopened. Haystack baseline 2 clicks / 29 impressions /
+position 5.66; zero visible query rows means no query-level CTR experiment.
+
+**Verification:** build + lint green; 56 tests; 12 stations × four months,
+124 sitemap URLs. Eight future rows, eight historical rows, five month
+summaries checked; canonical/indexability/schema/dates correct. Browser QA
+at 1280 and 375 pixels, October chart link, calendar gate opening without
+email submission and Garibaldi finder selection passed; no console errors.
+No generated-data drift. Exact baselines, requests, original text, patch
+and checks: `docs-internal/seo-refresh-2026-09-21/README.md`.
+
+**Next:** publication pending owner authorization. Keep the existing Sep 28
+discovery and Oct 1 monthly-title checkpoints. For Haystack, first confirm
+recrawl after eventual publication, then review directionally after 14–28
+days; traffic is too sparse for a prompt causal CTR verdict. Washington
+king-tide guide currently discovered/not indexed; Oregon currently unknown
+to Google despite 200/indexable/self-canonical live output. No technical
+blocker demonstrated; avoid another duplicate link batch now.
+
+---
+
 ## 2026-09-21 — Weekly inspect fails again; homepage crawl path (§2a′) + refill (§2a)
 
 **Health:** green. Today's refresh landed before the session (`06e69f7`,
