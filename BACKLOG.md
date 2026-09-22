@@ -5,6 +5,23 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-09-22:start -->
+- [x] **2026-09-22 heartbeat — ready-now queue refilled (§2a), docs only.**
+      Glass Beach shipped this morning, leaving only Seattle snippet and
+      Sunset Bay independently writable now. Added three bounded maintenance
+      assignments below from fresh GSC page exposure and verified stale
+      claims: minus-tide explainer, tide-table explainer, Washington comparison.
+      This restores five ready-now assignments; they are not three newly
+      discovered query clusters. Large chart/king-tide clusters already have
+      recent work or pending readouts, so no duplicate pages/retitles queued.
+      Haystack remains implemented locally and awaiting explicit publication
+      approval; La Jolla opens Sep 28. The Sep 21 notes were committed by
+      today's operator, superseding their historical "uncommitted" status.
+      Live Glass Beach desktop/mobile, 40-row chart, calendar gate and October
+      navigation verified. Preserve Sep 24 newsletter, Sep 28 crawl checkpoint,
+      Sep 30 indexing comparison and Oct 1 owner/month gates.
+<!-- heartbeat-2026-09-22:end -->
+
 <!-- heartbeat-2026-09-21:start -->
 - [x] **2026-09-21 heartbeat — operational handoff corrected locally.**
       Today is Monday Sep 21; the next Thursday newsletter ritual is
@@ -162,6 +179,55 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-09-22-refill:start -->
+- [ ] **Minus-tide explainer — reconcile period, counts and daylight meaning**
+      (Sep 22 maintenance refill; ready now, first new priority).
+      Target `what-is-a-minus-tide`; exact GSC Aug 24–Sep 20: 2 clicks /
+      179 impressions / position 5.93. Visible page-specific queries are only
+      `what is a minus tide` (2 impressions / pos 2.5) and `negative low tide`
+      (1 / pos 6); most page exposure is not disclosed at query level. Do not
+      attribute the whole-site 11-impression head query to this page.
+      The Jul 3 article calls 940 west-coast minus tides / 535 daylight windows
+      a full-year 2026 total. Current fact sheets explicitly cover Jul 1–Dec 31
+      and report 953 / 548; the Aug 2 note below predates both historical-window
+      backfill and the Sep 7 range fix. Reconcile provenance, then recompute
+      all coast totals, percentages and hour bins with the shared explicit
+      range; label it as a partial-year dataset, never silently relabel old
+      numbers as full-year facts. Distinguish ≥30-minute window/daylight overlap
+      from the low itself occurring in daylight. Verify NOAA datum sources at
+      write time. Update body, lead and FAQs consistently; preserve title,
+      slug and gates. This is factual maintenance, not a conversion experiment.
+- [ ] **Tide-table explainer — retire the passed "still ahead" premise**
+      (Sep 22 maintenance refill; ready now). Target `how-to-read-a-tide-table`;
+      exact GSC Aug 24–Sep 20: 0 clicks / 48 impressions / position 7.77;
+      page-specific query read returned no rows, not proof of zero demand.
+      Updated Jul 27, it still calls Aug 12 the deepest low "still ahead" and
+      the deepest daylight low "left" in 2026. Preserve the useful Aug 10–15
+      worked example explicitly as historical; remove remaining-year/full-year
+      overclaims. Recompute example/December comparison from current Newport
+      facts with the documented date scope and daylight definition, checking
+      body and FAQ values together. Keep title/slug/gates unchanged; a dated
+      teaching example does not need replacement merely because it is past.
+- [ ] **Washington three-coast guide — remaining-season framing**
+      (Sep 22 maintenance refill; ready now). Target
+      `best-tide-pools-washington-2026`; exact GSC Aug 24–Sep 20: 1 click /
+      37 impressions / position 5.92. Only visible query is `how about october 4`
+      (1 impression / pos 3), so this is exposed-page freshness evidence, not
+      a new high-volume search cluster. The Sep 8 lead, FAQ and "remaining
+      morning run" still promote Sep 9–12. Mark that run historical and lead
+      with the actual remaining-season differences among La Push, Port Townsend
+      and Seattle, recomputed from all three current station facts. Keep the
+      comparison scope; do not duplicate Seattle's separately queued snippet
+      or the recently shipped PT/Glass Beach charts. Recheck NPS access at write
+      time; Mora closure does not automatically expire Oct 15. Preserve the
+      existing title/slug/gates in this bounded body/description/FAQ refresh;
+      do not add a title experiment to an under-floor surface.
+
+All three are demand-informed maintenance, not newly uncovered keyword pages.
+Use a plain build plus fact/math/format tests and rendered-output checks at
+implementation; preserve historical evidence and the owner's Haystack hold.
+<!-- heartbeat-2026-09-22-refill:end -->
 
 - [x] **Glass Beach tide chart equity — refresh, not a new page** (added
       2026-09-21 refill).

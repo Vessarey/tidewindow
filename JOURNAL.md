@@ -5,6 +5,127 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-09-22:start -->
+## 2026-09-22 — Heartbeat: demand-informed maintenance queue refill
+
+**One improvement:** restored the ready-now queue from two to five bounded
+assignments, changing only BACKLOG and this journal. Today's operator already
+shipped Glass Beach (`2e88d32`) and committed yesterday's heartbeat notes
+(`8976148`). Seattle snippet and Sunset Bay were the only remaining independent
+assignments writable this week: Haystack is implemented locally but held for
+owner publication approval, and La Jolla opens Sep 28. No second article,
+retitle, conversion variant, crawl-link batch or newsletter action today.
+
+Read playbook, newest journal/backlog entries, git state, today's commits and
+recent Actions before selecting work. `git pull --ff-only` was already current.
+The owner's dirty Haystack article and 47-file Sep 21 evidence packet were
+preserved; neither is part of this docs-only change. Live Haystack still has
+the old "Four Mornings That Matter" title; local correction is not a release.
+The analytics-led SEO refresh skill kept selection tied to exact page exposure,
+separated useful maintenance from experiments, and preserved publication gates.
+
+| New assignment | Exact GSC Aug 24–Sep 20 evidence | Reason / confidence / scope |
+|---|---|---|
+| `what-is-a-minus-tide` | 2 clicks / 179 impressions / pos 5.93 | High confidence in a provenance mismatch: Jul 3 full-year wording and 940/535 conflict with current explicit Jul–Dec 953/548. Reconcile/recompute all aggregates and daylight definitions; no retitle. |
+| `how-to-read-a-tide-table` | 0 / 48 / pos 7.77 | High confidence: August 12 is still called "ahead". Keep its worked example as history, correct temporal framing and verify figures. |
+| `best-tide-pools-washington-2026` | 1 / 37 / pos 5.92 | High confidence: lead/FAQ still promote Sep 9–12. Remaining-season comparison refresh, separate from Seattle snippet/PT charts; title and gates held. |
+
+These are exposed-page maintenance assignments, **not three new uncovered
+query clusters**. Fresh stock `flywheel 28` / `queries 28` and an uncapped exact
+28-day query read (312 rows) found the major chart/king-tide clusters already
+covered. Page-filtered query reads disclose only three impressions for the
+minus-tide explainer (head query 2 at pos 2.5, negative-low-tide 1 at pos 6),
+none for tide-table, and one for Washington. Do not substitute site-wide query
+totals for page-specific exposure. The older Aug 2 aggregate exemption predates
+historical backfill and the Sep 7 range correction; the new assignment explicitly
+reconciles that history rather than silently overwriting it.
+
+**Live/NOAA validation:** latest five Actions runs successful; no open issues.
+Actual refresh [35710643104](https://github.com/Vessarey/tidewindow/actions/runs/35710643104)
+ran 09:29:09–09:31:51Z, landing `e5bcfb0`; later 12:38 and 14:59 runs skipped
+because today's data was already committed. Logs verify 12 stations × four
+months, 124 sitemap URLs, **42 + 6 + 8 = 56 tests passed**, no failures, and
+IndexNow 124 URLs / HTTP 200. Four staggered slots, same-day guard, six NOAA
+attempts and push-race retry remain intact. Live index and Port Townsend JSON
+are HTTP 200 and byte-equal to committed data, generated
+`2026-09-22T09:29:34.471Z`. No recovery dispatch or redundant NOAA fetch.
+All 12 stations have zero score-90+ windows Sep 22–Oct 6. Production deployment
+for `8976148` is Vercel success. Production dependency audit: zero vulnerabilities.
+
+**Browser:** live Glass Beach title unchanged, Sep 22 update and description
+present; all 40 daily H/L rows render Sep 22–Oct 31. At 1280px document width
+is 1280; at 375px it is 375 and every table fits the 335px content width.
+Visually checked mobile chart wrapping. Article calendar gate opens correctly
+for Port Townsend (no email entered/submitted); October link renders the current
+calendar, including 22 lows / one daylight-minus window and Oct 5 score 27.
+No observed warning/error logs in these tested flows. Temporary tab closed and
+viewport reset. Homepage, sitemap, guide and both linked month routes HTTP 200;
+sitemap contains 124 URLs. No rebuild/output overwrite needed for these docs-only
+changes; today's successful CI/operator builds cover unchanged application code.
+
+**PostHog:** project 495836, exact `$host = thetidewindow.com` and
+`$virt_traffic_type = Regular`, trailing windows ending exclusively
+**2026-09-22 17:16:17 UTC**, before this browser QA. Native connector remains
+unauthorized; used the already-configured read-only API, no reauthentication.
+
+| Window | Pageviews / distinct IDs | Signup events / distinct IDs | Descriptive signups ÷ pageview IDs |
+|---|---:|---:|---:|
+| 7d | 379 / 353 | 2 / 2 | 0.57% |
+| 28d | 1,189 / 1,074 | 6 / 6 | 0.56% |
+
+These are not matched-user funnel rates or certified-human counts. None of the
+379 pageviews carries an explicit agent label or bot/headless/playwright/
+puppeteer UA match, but absent labels do not prove human traffic. Seven days:
+8 station selections, 7 results, 5 ZIP events (4 IDs), 1 Trip Picker run,
+4 calendar gate clicks (station 2 / article-multi 1 / tool 1), signups station
+1 / exit-intent 1. ICS reveals: zero observed in 7d, 3 in 28d; event definition
+exists. Gates have 22 events / 20 IDs in 28d, below the 30-event floor.
+Exit prompt since Jul 27: **64 impressions / 1 signup**, below 100; its
+experiment stays closed-unmeasurable, with Oct 1 owner retirement gate intact.
+No tiny-sample winner, reversal or additional variant warranted.
+
+LCP-bearing events in 24h: **n=14**, p75 **703.25 ms**, p90 **896.5 ms**.
+This is below the 30-observation floor, not proof of a performance trend.
+Exception instrumentation remains unverified: project opt-in null; `$exception`
+absent from the current event taxonomy; 7d pageviews report remote capture
+false on 50 and omit it on 329, none true. Do not report "zero errors" from
+this missing instrumentation. No settings change or synthetic production error.
+
+**Search Console:** final daily data ends Sep 20; queried Web search with
+`dataState: final`, exact inclusive periods and row limit 25,000. Site totals
+use no dimensions (not sums of visible query rows).
+
+| Period | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| Aug 24–Sep 20 (28d) | 210 | 13,430 | 1.56% | 7.70 |
+| Jul 27–Aug 23 (prior 28d) | 105 | 7,667 | 1.37% | 8.70 |
+| Sep 14–20 (7d) | 56 | 3,620 | 1.55% | 7.28 |
+| Sep 7–13 (prior 7d) | 66 | 3,569 | 1.85% | 7.40 |
+
+28d clicks +100%, impressions +75.2%; latest week clicks −15.2%, impressions
++1.4%. Descriptive changes, not causal verdicts on recent edits. Leading guide
+pages: national king tides 67/3,143; Fitzgerald 46/1,724; Oregon calendar 20/446;
+Seattle 15/478; Acadia 9/830. Glass Beach is 0/27/pos 6.78; its chart query
+has 20 site-wide impressions at pos 13.55, not 20 guide impressions. No repeat
+retitle on chart pages; preserve existing Sep 30 / Oct 1 / Oct 5 readout gates.
+Sep 21 weekly indexing inspection already completed; wait until Sep 28 to
+reinspect the seven exact homepage-linked targets, with no premature link batch.
+
+**Time-bombs and next:** Sep 17 Resend broadcast
+`72fb28b1-7a44-4d44-9dc0-6680bc368368` remains `sent` at 12:10:06.047255Z;
+response exposes no bounce/complaint metrics, so those remain unknown, not zero.
+Next newsletter ritual is Thursday Sep 24; no audience/send action today.
+[NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm) still
+lists Mora Road closure Jul 8–Oct 15; do not infer reopening on the end date.
+Next safe editorial action: reconcile the minus-tide explainer's count provenance
+and scope, then the other bounded ready tasks. Haystack still requires owner
+publication approval. Sep 28 crawl/La Jolla, Sep 30 indexing, Oct 1 November
+rollover/month-title/exit-prompt gates, Oct 5 national readout, Oct 15 NPS recheck
+remain active. This run's release is documentation only.
+<!-- heartbeat-2026-09-22:end -->
+
+---
+
 ## 2026-09-22 — Glass Beach tide chart equity (§2d, first open P1)
 
 **Health:** green. Today's refresh landed before the session (`e5bcfb0`,
