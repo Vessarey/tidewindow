@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-21",
+ "generated_on": "2026-09-22",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -2083,7 +2083,7 @@
   {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
-   "count": 11
+   "count": 10
   },
   {
    "commonName": "Atlantic Dogwhelk",
@@ -2091,14 +2091,14 @@
    "count": 9
   },
   {
-   "commonName": "Soft-shelled Clam",
-   "scientificName": "Mya arenaria",
-   "count": 6
-  },
-  {
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
    "count": 6
+  },
+  {
+   "commonName": "Soft-shelled Clam",
+   "scientificName": "Mya arenaria",
+   "count": 5
   },
   {
    "commonName": "Tortoiseshell Limpet",
@@ -2116,8 +2116,8 @@
    "count": 2
   },
   {
-   "commonName": "West Atlantic Surfclam",
-   "scientificName": "Spisula solidissima",
+   "commonName": "Red-fingered Coryphella",
+   "scientificName": "Coryphella verrucosa",
    "count": 2
   },
   {

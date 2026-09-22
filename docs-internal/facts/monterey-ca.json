@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-21",
+ "generated_on": "2026-09-22",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 49
+   "count": 60
   },
   {
    "commonName": "Spanish Shawl",
@@ -2086,29 +2086,29 @@
    "count": 40
   },
   {
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 22
+  },
+  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 21
   },
   {
+   "commonName": "Fisher's Aeolid",
+   "scientificName": "Orienthella piunca",
+   "count": 20
+  },
+  {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 18
+   "count": 19
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 17
-  },
-  {
-   "commonName": "Fisher's Aeolid",
-   "scientificName": "Orienthella piunca",
-   "count": 17
-  },
-  {
-   "commonName": null,
-   "scientificName": "Doto urak",
-   "count": 16
+   "count": 18
   },
   {
    "commonName": "California Seahare",
@@ -2116,14 +2116,14 @@
    "count": 13
   },
   {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 11
+  },
+  {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
    "count": 10
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 9
   }
  ]
 }

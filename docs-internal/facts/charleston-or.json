@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-21",
+ "generated_on": "2026-09-22",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2101,13 +2101,18 @@
    "count": 3
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 3
-  },
-  {
    "commonName": "Enteromorpha-eating Sapsucker",
    "scientificName": "Aplysiopsis enteromorphae",
+   "count": 2
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 2
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
    "count": 2
   },
   {
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 1
-  },
-  {
-   "commonName": "Whitecap Limpet",
-   "scientificName": "Acmaea mitra",
    "count": 1
   }
  ]
