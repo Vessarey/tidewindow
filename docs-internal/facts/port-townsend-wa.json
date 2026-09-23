@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-22",
+ "generated_on": "2026-09-23",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -37,18 +37,6 @@
    "arrive_by_local": "5:56 AM",
    "daylight_min": 67,
    "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-22",
-   "weekday": "Tue",
-   "low_ft": 0.896,
-   "low_time_local": "7:43 AM",
-   "window_local": "7:20 AM–8:10 AM",
-   "arrive_by_local": "6:43 AM",
-   "daylight_min": 50,
-   "score": 16,
    "band": "Skip",
    "weekend_or_holiday": false
   },
@@ -322,18 +310,6 @@
    "arrive_by_local": "6:54 AM",
    "daylight_min": 45,
    "score": 14,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-09-22",
-   "weekday": "Tue",
-   "low_ft": 0.896,
-   "low_time_local": "7:43 AM",
-   "window_local": "7:20 AM–8:10 AM",
-   "arrive_by_local": "6:43 AM",
-   "daylight_min": 50,
-   "score": 16,
    "band": "Skip",
    "weekend_or_holiday": false
   }
@@ -1840,20 +1816,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-22",
-   "weekday": "Tue",
-   "low_ft": 0.896,
-   "low_time_local": "7:43 AM",
-   "window_local": "7:20 AM–8:10 AM",
-   "arrive_by_local": "6:43 AM",
-   "daylight_min": 50,
-   "score": 16,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 97,
-   "min_to_sun_edge": 45
-  },
-  {
    "date": "2026-10-05",
    "weekday": "Mon",
    "low_ft": -0.234,
@@ -1933,12 +1895,12 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 5
+   "count": 4
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 4
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 3
   },
   {
    "commonName": "Monterey Dorid",
@@ -1946,8 +1908,8 @@
    "count": 2
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 2
   },
   {
@@ -1966,13 +1928,13 @@
    "count": 1
   },
   {
-   "commonName": "Shield Limpet",
-   "scientificName": "Lottia pelta",
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
    "count": 1
   },
   {
-   "commonName": "Fingered Limpet",
-   "scientificName": "Lottia digitalis",
+   "commonName": "Channeled Dog Winkle",
+   "scientificName": "Nucella canaliculata",
    "count": 1
   }
  ]

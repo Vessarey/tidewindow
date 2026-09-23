@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-22",
+ "generated_on": "2026-09-23",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 22
+   "count": 21
   },
   {
    "commonName": "Spotted Dorid",
@@ -2111,13 +2111,13 @@
    "count": 7
   },
   {
-   "commonName": "Heath's Dorid",
-   "scientificName": "Geitodoris heathi",
-   "count": 5
-  },
-  {
    "commonName": "Rough Limpet",
    "scientificName": "Lottia scabra",
+   "count": 6
+  },
+  {
+   "commonName": "Heath's Dorid",
+   "scientificName": "Geitodoris heathi",
    "count": 5
   },
   {
