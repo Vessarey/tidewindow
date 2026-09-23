@@ -1,8 +1,8 @@
 ---
 title: "Constellation Park Tide Pools 2026: Seattle & Alki Point Low-Tide Guide"
-description: "Seattle's 2026 daylight minus-tide season ended September 10 (NOAA 9447130). Constellation Park at a glance, and when low tides return in 2027."
+description: "Seattle's last 2026 daylight minus tides ran Sep 8–10; the rest are after dark (NOAA 9447130). Daylight lows return Feb 15, 2027; Exceptional Apr 10–11."
 date: "2026-07-12"
-updated: "2026-09-15"
+updated: "2026-09-23"
 category: "station-guides"
 station: "seattle-wa"
 tags: ["constellation park tide pools", "seattle tide pools", "alki beach", "puget sound low tide", "west seattle tide pooling", "beach naturalists"]
@@ -25,7 +25,7 @@ sources:
   - "https://westseattleblog.com/2026/05/low-low-tides-ahead-heres-when-to-see-them-with-and-without-beach-naturalists/"
 ---
 
-**Seattle's 2026 tidepool season is over. The year's last daylight minus tides at NOAA station 9447130 ran September 8–10, bottoming at −1.02 ft MLLW on Tuesday the 8th, and no daylight minus tide returns until February 15, 2027 — a −0.47 ft low at 5:52 PM, right at dusk. The place to keep on the list for next season is Constellation Park on the south side of Alki Point, where the Seattle Aquarium says pooling is best when the tide is below 2 feet; the first Exceptional windows of 2027 land the weekend of April 10–11.**
+**Seattle's 2026 tidepool season is over. The year's last daylight minus tides at NOAA station 9447130 ran September 8–10, bottoming at −1.02 ft MLLW on Tuesday the 8th; every minus tide left in 2026 happens after dark, and no daylight minus tide returns until February 15, 2027 — a −0.47 ft low at 5:52 PM, right at dusk. The place to keep on the list for next season is Constellation Park on the south side of Alki Point, where the Seattle Aquarium says pooling is best when the tide is below 2 feet; the first Exceptional windows of 2027 land the weekend of April 10–11.**
 
 Puget Sound is generous with daylight low water in summer and stingy the rest of the year. By mid-September the deep lows slide into the night, and from October through December every minus tide at the Seattle station happens in darkness. The 2026 season is now closed.
 
