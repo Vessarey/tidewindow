@@ -5,6 +5,113 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-23 — Seattle snippet: answer the 2026 schedule query (§2f on-site)
+
+**Health:** green. Today's refresh landed before the session (`6c57e28`,
+scheduled run 35843616224 at 09:33 UTC, 2m22s; the Sep 22 12:38/14:59/17:45
+short runs were same-day-guard skips). No open GitHub issues.
+
+**Repo state on arrival:** working tree carried the owner's two held SEO
+refreshes — Haystack (Sep 21) and the minus-tide explainer (Sep 22) — plus
+their evidence packets and the Sep 22 owner journal/backlog notes, all
+uncommitted. Pulled with `--rebase --autostash`; reapplied cleanly.
+Decisions, following the Sep 22 precedent: (1) both article edits and both
+`docs-internal/seo-refresh-*` packets stay **uncommitted, unpublished and
+untouched** — the backlog says publication awaits explicit owner approval
+and must not ship through another assignment; (2) the owner's Sep 22
+journal/backlog records are committed with today's docs commit — they are
+docs-only history and publish no article content.
+
+**Primary action:** the queued Seattle item (Sep 19 refill; named next by
+yesterday's operator): description/answer-box equity on
+`seattle-alki-constellation-park-tide-pools-2026`, NO retitle. The page
+ranks (pos ~6) for `seattle low tides 2026` and variants but the snippet
+teased "when low tides return in 2027" without answering. New 152-char
+description states the honest schedule answer directly: last daylight
+minus tides ran Sep 8–10; the rest of 2026's minus tides are after dark;
+daylight lows return Feb 15, 2027; Exceptional windows Apr 10–11. The
+answer box gains the matching "every minus tide left in 2026 happens
+after dark" clause. Title, slug, gates, FAQs and body tables untouched;
+honest `updated: 2026-09-23`. Commit `80656d8`.
+
+**Verification:** every figure re-verified at write time against
+`docs-internal/facts/seattle-wa.json` (generated 2026-09-23) and the
+committed `public/data-json/stations/seattle-wa.json` (extends through
+Oct 2027): remaining-2026 daylight windows are exactly Oct 5 (+0.102 ft)
+and Oct 6 (+0.509 ft), both positive → zero daylight minus tides remain;
+all 50 remaining 2026 minus-tide windows carry night=true; Feb 15, 2027
+−0.473 ft at 5:52 PM (78 min daylight, Fair 45, in the king-season
+lowest-5 daylight array); Apr 10 −1.924 ft 2:02 PM score 94, Apr 11
+−1.804 ft 2:52 PM score 92, both Exceptional. Plain `npm run build`
+green; verify-output OK (12 stations × 4 months, 124 sitemap URLs);
+42 + 6 + 8 = 56 tests pass. Rendered page carries the new description
+(meta + og) and lead clause. Diff review: only the one article changed
+beyond docs; owner's held files untouched.
+
+**Metrics snapshot (PostHog, production host, 7d):** top paths national
+king tides 123, Oregon king tides 78, WA king tides 20, Acadia 15, Oregon
+calendar 15, Fitzgerald 15, homepage 10, Seattle guide 7; signups 2
+(consistent with the Sep 22 heartbeat; no anomaly).
+
+**Ship baseline (§5, GSC final Aug 24–Sep 21, page-filtered):** cluster
+`seattle low tides 2026` 0 clicks / 28 impressions / pos 6.8, `seattle
+low tide 2026` 0/8/6.5, `low tides seattle 2026` 0/5/7.6, `lowest tide
+seattle 2026` 0/2/5.0, `lowest tide(s) of the year 2026` 0/5/pos 2.3–7.5
+(~48 impressions / 0 clicks total); page 15/478/3.1%/pos 6.3. This edit
+joins the Sep 8 retitle + Sep 15 at-a-glance package for attribution —
+judge on cluster clicks + position after recrawl, no promised readout
+date.
+
+**Tomorrow (Thu Sep 24): newsletter ritual** — sync-audience → dry-run →
+recompute-check → send with the standing template (`--owner-reviewed`
+covers the established template only). After that: Sunset Bay refresh,
+tide-table explainer and Washington three-coast maintenance remain
+ready-now. Sep 28: La Jolla writable + weekly inspect recheck. Oct 1:
+November rollover + monthly gates. Minus-tide and Haystack publication
+remain owner-held — do not ship or duplicate them.
+
+---
+
+## 2026-09-22 — Owner SEO refresh: minus-tide explainer corrected locally
+
+**One local accuracy correction, not a release:** reconciled the July 3
+snapshot (`abd8f71`) with the explicit July 1–December 31 fact-sheet range.
+Thirteen omitted early-July West Coast lows explain 940 → 953 minus tides
+and 535 → 548 qualifying daylight-overlap windows. Independently recomputed
+coast totals, percentages and every hour bin against all 12 station arrays;
+negative NOAA extreme counts also agree. Bar Harbor stays 90 / 52.
+The article now distinguishes ≥30-minute window/daylight overlap from daylight
+at the low itself; its examples no longer promise access at a universal height.
+Description, lead, body, tables and FAQs agree. Title, slug, July 2 publication
+date, internal tool paths and gates retained; substantive updated date Sep 22.
+
+Fresh final GSC ends Sep 20: Aug 24–Sep 20 **210 clicks / 13,430 impressions /
+1.56% CTR / position 7.70**, versus Jul 27–Aug 23 **105 / 7,667 / 1.37% /
+8.70**. Latest seven days **56 / 3,620**, prior seven **66 / 3,569**.
+Selected exact page: **2 / 179 / 1.12% / 5.93**, prior **2 / 127 / 1.57% /
+7.72**; visible page-specific queries cover just three impressions. Indexed,
+self-canonical, latest crawl Jul 4. This is evidence for factual maintenance,
+not enough evidence for a CTR or conversion experiment. PostHog same calendar
+dates in Eastern time, production host + Regular: **1,161 pageviews / 1,048
+distinct IDs / 1,049 sessions / 6 signup events**; prior 699 / 615 / 613 / 7.
+Selected guide has four landing sessions, zero observed tool/signup sessions.
+Connector still unauthorized; existing read-only API succeeded, no auth changes.
+
+**Validation:** lint and final export build pass; 42 + 6 + 8 = 56 tests.
+Canonical, robots, Article/FAQ schema, sitemap, 22 internal destinations and
+six NOAA links checked. Desktop 1280px and mobile 375px fit; all three tables
+fit the mobile content width. Article anchor, index link, Finder station results
+and calendar signup gate work; no email submitted and no browser warning/error
+logs observed. Final build reloaded after clarifying the index's rolling-year
+scope. Temporary preview closed. Full baseline, before/after patch, historical
+reconciliation and checks: `docs-internal/seo-refresh-2026-09-22/README.md`.
+
+Haystack's existing local article is byte-identical to the starting state.
+Today's Glass Beach release, recent title experiments and Sep 28 / Sep 30 /
+Oct 1 checkpoints remain undisturbed. No commit, push, deployment, newsletter
+send, recovery dispatch or new automation. Minus-tide and Haystack publication
+remain pending; judge any later SEO response only after publication + recrawl.
+
 <!-- heartbeat-2026-09-22:start -->
 ## 2026-09-22 — Heartbeat: demand-informed maintenance queue refill
 

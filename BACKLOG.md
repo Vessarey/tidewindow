@@ -182,7 +182,14 @@ with the date; add discoveries at the appropriate tier.
 
 <!-- heartbeat-2026-09-22-refill:start -->
 - [ ] **Minus-tide explainer — reconcile period, counts and daylight meaning**
-      (Sep 22 maintenance refill; ready now, first new priority).
+      (Sep 22 maintenance refill; **implemented and verified locally Sep 22;
+      publication pending**). Owner-requested SEO refresh reconciled all 13
+      omitted early-July lows against the original Jul 3 snapshot, then
+      corrected the lead, description, body, tables and FAQs. Title held.
+      Build/lint/56 tests and desktop/mobile article → Finder → calendar gate
+      passed. See `docs-internal/seo-refresh-2026-09-22/README.md` and its patch.
+      Do not repeat implementation or ship through another assignment; this
+      and Haystack remain separate local changes awaiting publication approval.
       Target `what-is-a-minus-tide`; exact GSC Aug 24–Sep 20: 2 clicks /
       179 impressions / position 5.93. Visible page-specific queries are only
       `what is a minus tide` (2 impressions / pos 2.5) and `negative low tide`
@@ -333,9 +340,27 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       superseding the Nov 8 forecast, not as a loss. Keep today's useful
       free chart and title unchanged; monitor normal discovery without
       promising a causal title result or repeatedly extending the verdict.
-- [ ] **Seattle "low tides 2026" schedule intent on the Constellation
+- [x] **Seattle "low tides 2026" schedule intent on the Constellation
       guide — description/answer-box equity, NO retitle** (added
-      2026-09-19 demand refill). Cluster: `seattle low tides 2026` 28
+      2026-09-19 demand refill).
+      **Done 2026-09-23 operator (80656d8):** description rewritten to
+      answer the schedule query in 152 chars — season close Sep 8–10,
+      every remaining 2026 minus tide after dark, return ladder Feb 15,
+      2027 → Exceptional Apr 10–11; answer box gains the same night-only
+      clause. NO retitle, no gate changes, honest `updated: 2026-09-23`.
+      All figures re-verified against the 2026-09-23 fact sheet and
+      committed station windows data (zero daylight minus tides remain
+      in 2026; only Oct 5 +0.10 / Oct 6 +0.51 daylight windows left; all
+      50 remaining minus-tide windows are night events; Feb 15 −0.473 ft
+      5:52 PM; Apr 10/11 −1.92/−1.80 ft, scores 94/92). Ship baseline
+      (GSC final, Aug 24–Sep 21, page-filtered): cluster `seattle low
+      tides 2026` 0/28/pos 6.8, `seattle low tide 2026` 0/8/6.5, `low
+      tides seattle 2026` 0/5/7.6, `lowest tide seattle 2026` 0/2/5.0,
+      `lowest tide(s) of the year 2026` 0/5/pos 2.3–7.5 — ~48
+      impressions / 0 clicks; page total 15 clicks / 478 impressions /
+      pos 6.3. Judge on cluster clicks + position after recrawl; this
+      edit joins the Sep 8 retitle + Sep 15 H2 package for attribution.
+      Original item: Cluster: `seattle low tides 2026` 28
       impressions / pos 6.3 / 0 clicks, `seattle low tide 2026` 9 / 6.8,
       `low tides seattle 2026` 5 / 7.8, `lowest tide seattle 2026` 3 /
       5.0, plus `lowest tide(s) of the year 2026` 5 / pos 2–8 — ~50
@@ -974,6 +999,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       were passed July dates → rewritten to the Aug 10-13 last-dawn-run story;
       Rialto/Mora closure advisory added; north-vs-south light split is the
       new angle).
+
+      **Sep 22 correction to the Aug 2 exemption:** preserved above as history.
+      The Jul 3 snapshot was partial-year, not annual, and omitted 13 early-July
+      West Coast lows. Historical backfill now permits a full Jul 1–Dec 31
+      recomputation: 953 minus tides / 548 windows with ≥30 minutes of daylight.
+      The reconciled article is verified locally; publication remains pending.
 
 ## P2 — product
 
