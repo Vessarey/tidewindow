@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-23",
+ "generated_on": "2026-09-24",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -16,6 +16,18 @@
   "method": "cosine-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-22",
+   "weekday": "Sun",
+   "low_ft": -0.699,
+   "low_time_local": "3:01 PM",
+   "window_local": "12:40 PM–5:35 PM",
+   "arrive_by_local": "2:01 PM",
+   "daylight_min": 255,
+   "score": 70,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-25",
    "weekday": "Sun",
@@ -99,18 +111,6 @@
    "score": 57,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-28",
-   "weekday": "Wed",
-   "low_ft": -1.172,
-   "low_time_local": "7:21 PM",
-   "window_local": "4:40 PM–10:20 PM",
-   "arrive_by_local": "6:21 PM",
-   "daylight_min": 96,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2091,14 +2091,14 @@
    "count": 10
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 9
-  },
-  {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
    "count": 9
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 8
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",

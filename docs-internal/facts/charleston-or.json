@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-23",
+ "generated_on": "2026-09-24",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-22",
+   "weekday": "Sun",
+   "low_ft": -0.475,
+   "low_time_local": "4:24 PM",
+   "window_local": "2:40 PM–6:15 PM",
+   "arrive_by_local": "3:24 PM",
+   "daylight_min": 127,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-10-25",
    "weekday": "Sun",
@@ -97,18 +109,6 @@
    "arrive_by_local": "5:52 PM",
    "daylight_min": 82,
    "score": 44,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": -0.151,
-   "low_time_local": "7:28 PM",
-   "window_local": "5:55 PM–9:05 PM",
-   "arrive_by_local": "6:28 PM",
-   "daylight_min": 70,
-   "score": 43,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -2086,14 +2086,14 @@
    "count": 5
   },
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 4
-  },
-  {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
    "count": 4
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 3
   },
   {
    "commonName": "Red Sponge Dorid",
