@@ -5,6 +5,61 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-24 — Thursday newsletter ritual (standing §6 primary action)
+
+**Health:** green. Today's refresh landed before the session (`6ad97b7`,
+scheduled run 35981950809 at 09:33 UTC, 2m18s; the Sep 23 12:46/15:03/17:57
+short runs were same-day-guard skips). No open GitHub issues.
+
+**Repo state on arrival:** the owner's two held SEO refreshes (Haystack
+Sep 21, minus-tide explainer Sep 22) plus both `docs-internal/seo-refresh-*`
+evidence packets remain uncommitted in the working tree. Pulled with
+`--rebase --autostash`; reapplied cleanly. Per the Sep 22/23 precedent they
+stay uncommitted, unpublished and untouched — publication awaits explicit
+owner approval and must not ship through another assignment.
+
+**Primary action:** the standing Thursday ritual, exactly per runbook.
+(1) sync-audience: 2 new signups added (gotamassage@… exit-intent Sep 17,
+tdhapgood@… station Sep 20), 15 contacts total, 1 unsubscribed left
+untouched. (2) Regenerated fact sheets (`facts.mjs`), then
+`send-weekly --dry-run`. (3) Recompute-check: exhaustive scan of all 12
+committed station arrays for Sep 24–30 confirms ZERO Good-or-better
+windows — a quiet week; max score anywhere is 55 (Fair). The issue's
+least-bad pick, San Diego (Cabrillo) Sun Sep 27 0.21 ft at 4:22 PM,
+walkable 2:50–5:50 PM, score 55, matches
+`public/data-json/stations/san-diego-ca.json` (0.209 ft) exactly. Note:
+La Jolla the same afternoon also scores 55 (0.218 ft, 4:17 PM); the
+script's tiebreak to the deeper low is fine. All five issue links fetch
+200. Template diff vs the sent Sep 17 issue: identical structure, only
+the data line differs — squarely inside the 2026-07-19 standing blanket
+approval (`--owner-reviewed`, established template only; no new
+sections, no promotions). (4) Sent: **Broadcast
+9c7aac35-4512-4ca6-b020-c3af02b1c614** to 14 subscribed contacts,
+12:05 UTC (status "queued" at check time, same as every prior send
+right after creation). Prior three broadcasts all show "sent". Watch
+bounce/complaint next run.
+
+**Metrics snapshot (PostHog, production host, 7d):** top paths national
+king tides 127, Oregon king tides 84, WA king tides 20, Oregon calendar
+17, Fitzgerald 15, Acadia 15, homepage 11, Seattle guide 9, Seattle
+station 7, methodology 7; signups 2 (the two synced above — steady with
+recent weeks, no anomaly).
+
+**No content commit today** — the newsletter is the primary action and
+drafts/`docs-internal` evidence stay gitignored or owner-held; this
+commit is journal/backlog only.
+
+**Tomorrow (Fri Sep 25):** ready-now queue holds Sunset Bay refresh,
+tide-table explainer (`how-to-read-a-tide-table`, 0/48/pos 7.77) and
+Washington three-coast maintenance (`best-tide-pools-washington-2026`,
+1/37/pos 5.92) — pick one per §2d/e. Sep 28: La Jolla writable + weekly
+`inspect` recheck of the seven never-crawled targets. Sep 30: `inspect
+60` indexing comparison. Oct 1: November rollover + monthly gates.
+Minus-tide and Haystack publication remain owner-held — do not ship or
+duplicate them.
+
+---
+
 ## 2026-09-23 — Seattle snippet: answer the 2026 schedule query (§2f on-site)
 
 **Health:** green. Today's refresh landed before the session (`6c57e28`,
