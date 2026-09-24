@@ -45,9 +45,10 @@ king tides 127, Oregon king tides 84, WA king tides 20, Oregon calendar
 station 7, methodology 7; signups 2 (the two synced above — steady with
 recent weeks, no anomaly).
 
-**No content commit today** — the newsletter is the primary action and
-drafts/`docs-internal` evidence stay gitignored or owner-held; this
-commit is journal/backlog only.
+**No content commit today** — the newsletter is the primary action;
+today's commits are this journal entry plus the sent draft archived to
+`docs-internal/newsletter-drafts/` (tracked, per the Sep 10/17
+precedent). Owner-held refresh files remain uncommitted.
 
 **Tomorrow (Fri Sep 25):** ready-now queue holds Sunset Bay refresh,
 tide-table explainer (`how-to-read-a-tide-table`, 0/48/pos 7.77) and
