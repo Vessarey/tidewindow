@@ -5,6 +5,64 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-25 — Tide-table explainer refresh (§2e, Sep 22 refill item)
+
+**Health:** green. Today's refresh landed before the session (`1148c9f`,
+scheduled run 36120495495 at 09:48 UTC, 2m20s; the Sep 24 12:44/15:11/17:57
+short runs were same-day-guard skips). No open GitHub issues.
+
+**Repo state on arrival:** the owner's two held SEO refreshes (Haystack
+Sep 21, minus-tide explainer Sep 22) plus both `docs-internal/seo-refresh-*`
+packets remain uncommitted. Pulled with `--rebase --autostash`; reapplied
+cleanly. Per the standing precedent they stay uncommitted, unpublished and
+untouched — publication awaits explicit owner approval.
+
+**Primary action (commit `fe4d5f4`):** refreshed `how-to-read-a-tide-table`
+per the Sep 22 backlog brief — the highest-exposure ready-now item (GSC
+0/48/pos 7.77) and stale since Aug 12 passed. Changes: (1) retired the
+"deepest low still ahead is August 12" premise; the lead datum paragraph now
+says the deepest remaining 2026 lows (Dec 24 −2.118 ft, Nov 25 −2.077 ft)
+bottom out ~2h after sunset with <20 daylight minutes, and the deepest
+remaining low clearing the 30-minute daylight bar is Dec 23 −1.91 ft —
+which strengthens the article's own Aug/Dec twin comparison; (2) kept the
+Aug 10–15 worked example, explicitly labeled historical, all rows re-verified
+byte-for-byte against current station data; (3) recounted the August
+aggregate from committed data: 32 lows below +1.0 ft (was 31 in the
+Jul 26 snapshot), 17 windows ≥30 daylight min, 13 at minus tides, with
+lows and windows no longer conflated; (4) scoped the July 15 −2.522 ft
+deepest-low claim to Tidewindow's Jul–Dec 2026 range; (5) past-tensed
+lead, example and FAQs together. Title, slug, gates, sources unchanged;
+honest `updated: 2026-09-25`.
+
+**Verification:** every figure checked against fresh
+`docs-internal/facts/newport-or.json` (generated 2026-09-25) and
+`public/data-json/stations/newport-or.json`: Aug 10–15 rows exact; Dec 23
+−1.91 / 5:53 PM / 3:40–8:20 PM / 60 daylight / score 61; Dec 24 and Nov 25
+sunset 4:40 PM vs lows 6:40/6:51 PM (caught and fixed my own draft's
+"around sunset" wording); Jul 15 −2.522 is deepest overall AND deepest
+daylight low in range. Plain `npm run build` green; verify-output OK
+(12 stations × 4 months, 124 sitemap URLs); 42+6+8 tests pass. Rendered
+page carries the new copy; zero "still ahead is August 12" strings in out/.
+Diff review: only the one article; owner-held files untouched.
+
+**Metrics snapshot (PostHog, production host, 7d):** top paths national
+king tides 136, Oregon king tides 85, WA king tides 21, Acadia 17,
+Fitzgerald 15, Oregon calendar 13, homepage 11, Seattle guide 9; tool
+events station_selected 6, trip_picker_run 4, window_result_viewed 3;
+signups 2 (steady, no anomaly).
+
+**Ship note (§5):** factual maintenance, not an experiment — baseline
+recorded (0/48/7.77, Aug 24–Sep 20) for attribution only; no verdict date.
+
+**Tomorrow (Sat Sep 26):** ready-now queue holds Sunset Bay refresh and
+Washington three-coast maintenance — pick one per §2d/e. Sep 28: La Jolla
+writable + weekly `inspect` recheck of the seven never-crawled targets.
+Sep 30: `inspect 60` indexing comparison. Oct 1: November rollover +
+monthly gates. Minus-tide and Haystack publication remain owner-held — do
+not ship or duplicate them.
+
+---
+
 ## 2026-09-24 — Thursday newsletter ritual (standing §6 primary action)
 
 **Health:** green. Today's refresh landed before the session (`6ad97b7`,

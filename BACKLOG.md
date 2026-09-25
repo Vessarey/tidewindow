@@ -205,8 +205,20 @@ with the date; add discoveries at the appropriate tier.
       from the low itself occurring in daylight. Verify NOAA datum sources at
       write time. Update body, lead and FAQs consistently; preserve title,
       slug and gates. This is factual maintenance, not a conversion experiment.
-- [ ] **Tide-table explainer — retire the passed "still ahead" premise**
-      (Sep 22 maintenance refill; ready now). Target `how-to-read-a-tide-table`;
+- [x] **Tide-table explainer — retire the passed "still ahead" premise**
+      (Sep 22 maintenance refill; ready now).
+      **Done 2026-09-25 operator (fe4d5f4):** Aug 10–15 worked example kept
+      and labeled historical (every row re-verified unchanged against current
+      station data); "still ahead"/"left" overclaims retired; deepest
+      remaining 2026 daylight-window low now correctly Dec 23 (−1.91 ft,
+      60 daylight min), with Dec 24 (−2.118) / Nov 25 (−2.077) noted as
+      deeper but ~2h after sunset (<20 daylight min); August aggregate
+      recounted from committed data (32 lows below +1.0 ft / 17 windows
+      ≥30 daylight min / 13 minus); July 15 deepest-low claim scoped to the
+      Jul–Dec fact range. Title/slug/gates unchanged; updated 2026-09-25.
+      Ship baseline (GSC Aug 24–Sep 20): 0 clicks / 48 impressions /
+      pos 7.77 — factual maintenance, no experiment verdict promised.
+      Original brief: Target `how-to-read-a-tide-table`;
       exact GSC Aug 24–Sep 20: 0 clicks / 48 impressions / position 7.77;
       page-specific query read returned no rows, not proof of zero demand.
       Updated Jul 27, it still calls Aug 12 the deepest low "still ahead" and
