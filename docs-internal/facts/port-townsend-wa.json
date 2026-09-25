@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-24",
+ "generated_on": "2026-09-25",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1890,21 +1890,11 @@
   {
    "commonName": "Nuttall's Cockle",
    "scientificName": "Clinocardium nuttallii",
-   "count": 8
+   "count": 5
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 4
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 3
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
    "count": 2
   },
   {
@@ -1918,9 +1908,9 @@
    "count": 2
   },
   {
-   "commonName": "Pacific Oyster",
-   "scientificName": "Magallana gigas",
-   "count": 2
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 1
   },
   {
    "commonName": "White-lined Dirona",
@@ -1933,8 +1923,8 @@
    "count": 1
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
    "count": 1
   }
  ]

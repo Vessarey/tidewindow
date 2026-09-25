@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-24",
+ "generated_on": "2026-09-25",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -27,6 +27,18 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "low_ft": -1.245,
+   "low_time_local": "5:43 PM",
+   "window_local": "3:50 PM–7:45 PM",
+   "arrive_by_local": "4:43 PM",
+   "daylight_min": 48,
+   "score": 47,
+   "band": "Fair",
+   "weekend_or_holiday": false
   },
   {
    "date": "2026-11-22",
@@ -99,18 +111,6 @@
    "score": 30,
    "band": "Skip",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-21",
-   "weekday": "Sat",
-   "low_ft": 0.487,
-   "low_time_local": "4:12 PM",
-   "window_local": "3:20 PM–5:10 PM",
-   "arrive_by_local": "3:12 PM",
-   "daylight_min": 80,
-   "score": 28,
-   "band": "Skip",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2079,6 +2079,11 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
+   "count": 1
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
    "count": 1
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-24",
+ "generated_on": "2026-09-25",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "low_ft": -0.951,
+   "low_time_local": "3:41 PM",
+   "window_local": "1:10 PM–6:25 PM",
+   "arrive_by_local": "2:41 PM",
+   "daylight_min": 224,
+   "score": 65,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-22",
    "weekday": "Sun",
@@ -97,18 +109,6 @@
    "arrive_by_local": "4:18 PM",
    "daylight_min": 178,
    "score": 53,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-11",
-   "weekday": "Sun",
-   "low_ft": 0.065,
-   "low_time_local": "6:00 PM",
-   "window_local": "4:10 PM–7:55 PM",
-   "arrive_by_local": "5:00 PM",
-   "daylight_min": 146,
-   "score": 51,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 60
+   "count": 56
   },
   {
    "commonName": "Spanish Shawl",
@@ -2086,24 +2086,14 @@
    "count": 37
   },
   {
-   "commonName": null,
-   "scientificName": "Doto urak",
-   "count": 22
-  },
-  {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 20
+   "count": 21
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 20
-  },
-  {
-   "commonName": "Fisher's Aeolid",
-   "scientificName": "Orienthella piunca",
-   "count": 20
+   "count": 19
   },
   {
    "commonName": "Branched Dendronotid",
@@ -2111,14 +2101,24 @@
    "count": 18
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 12
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 18
+  },
+  {
+   "commonName": "Fisher's Aeolid",
+   "scientificName": "Orienthella piunca",
+   "count": 18
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 11
+   "count": 10
+  },
+  {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 10
   },
   {
    "commonName": "Mossy Chiton",

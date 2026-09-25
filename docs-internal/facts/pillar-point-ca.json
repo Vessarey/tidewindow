@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-24",
+ "generated_on": "2026-09-25",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -16,6 +16,18 @@
   "method": "cosine-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "low_ft": -1.276,
+   "low_time_local": "3:45 PM",
+   "window_local": "1:10 PM–6:40 PM",
+   "arrive_by_local": "2:45 PM",
+   "daylight_min": 224,
+   "score": 72,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-22",
    "weekday": "Sun",
@@ -97,18 +109,6 @@
    "arrive_by_local": "4:27 PM",
    "daylight_min": 179,
    "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.054,
-   "low_time_local": "4:19 PM",
-   "window_local": "2:35 PM–6:10 PM",
-   "arrive_by_local": "3:19 PM",
-   "daylight_min": 215,
-   "score": 57,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -2076,14 +2076,14 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 21
-  },
-  {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
    "count": 20
+  },
+  {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
+   "count": 19
   },
   {
    "commonName": "Hammerhead Doto",
@@ -2096,11 +2096,6 @@
    "count": 9
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 8
-  },
-  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 8
@@ -2108,6 +2103,11 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
+   "count": 7
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 7
   },
   {

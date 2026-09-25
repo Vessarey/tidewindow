@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-24",
+ "generated_on": "2026-09-25",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -26,6 +26,18 @@
    "score": 52,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "low_ft": -1.27,
+   "low_time_local": "5:29 PM",
+   "window_local": "3:30 PM–7:30 PM",
+   "arrive_by_local": "4:29 PM",
+   "daylight_min": 63,
+   "score": 50,
+   "band": "Fair",
+   "weekend_or_holiday": false
   },
   {
    "date": "2026-10-26",
@@ -96,18 +108,6 @@
    "arrive_by_local": "4:20 PM",
    "daylight_min": 61,
    "score": 38,
-   "band": "Skip",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.145,
-   "low_time_local": "6:08 PM",
-   "window_local": "4:50 PM–7:25 PM",
-   "arrive_by_local": "5:08 PM",
-   "daylight_min": 83,
-   "score": 37,
    "band": "Skip",
    "weekend_or_holiday": true
   }
@@ -2082,7 +2082,7 @@
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
-   "count": 12
+   "count": 13
   },
   {
    "commonName": "Frilled Dogwinkle",
