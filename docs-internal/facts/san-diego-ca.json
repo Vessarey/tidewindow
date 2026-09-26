@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-25",
+ "generated_on": "2026-09-26",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "low_ft": -1.361,
+   "low_time_local": "3:09 PM",
+   "window_local": "12:35 PM–5:55 PM",
+   "arrive_by_local": "2:09 PM",
+   "daylight_min": 249,
+   "score": 74,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-23",
    "weekday": "Mon",
@@ -98,18 +110,6 @@
    "daylight_min": 230,
    "score": 60,
    "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-11",
-   "weekday": "Sun",
-   "low_ft": -0.04,
-   "low_time_local": "4:29 PM",
-   "window_local": "2:45 PM–6:15 PM",
-   "arrive_by_local": "3:29 PM",
-   "daylight_min": 210,
-   "score": 59,
-   "band": "Fair",
    "weekend_or_holiday": true
   }
  ],
@@ -2031,16 +2031,6 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Gould Beanclam",
-   "scientificName": "Donax gouldii",
-   "count": 2
-  },
-  {
-   "commonName": "Pismo Clam",
-   "scientificName": "Tivela stultorum",
-   "count": 2
-  },
-  {
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 2
@@ -2061,16 +2051,6 @@
    "count": 1
   },
   {
-   "commonName": "Angular Unicorn",
-   "scientificName": "Acanthinucella spirata",
-   "count": 1
-  },
-  {
-   "commonName": "Spiny Cup-and-Saucer",
-   "scientificName": "Crucibulum spinosum",
-   "count": 1
-  },
-  {
    "commonName": "Kelp Scallop",
    "scientificName": "Leptopecten latiauratus",
    "count": 1
@@ -2078,6 +2058,11 @@
   {
    "commonName": "California frog shell",
    "scientificName": "Crossata californica",
+   "count": 1
+  },
+  {
+   "commonName": "Purple Olive Snail",
+   "scientificName": "Callianax biplicata",
    "count": 1
   }
  ]

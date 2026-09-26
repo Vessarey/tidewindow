@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-25",
+ "generated_on": "2026-09-26",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "low_ft": -1.342,
+   "low_time_local": "4:28 PM",
+   "window_local": "1:45 PM–7:25 PM",
+   "arrive_by_local": "3:28 PM",
+   "daylight_min": 189,
+   "score": 73,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-23",
    "weekday": "Mon",
@@ -97,18 +109,6 @@
    "arrive_by_local": "2:30 PM",
    "daylight_min": 215,
    "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-10",
-   "weekday": "Sat",
-   "low_ft": 0.231,
-   "low_time_local": "5:18 PM",
-   "window_local": "3:40 PM–7:00 PM",
-   "arrive_by_local": "4:18 PM",
-   "daylight_min": 178,
-   "score": 53,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -2121,9 +2121,9 @@
    "count": 10
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 10
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 9
   }
  ]
 }

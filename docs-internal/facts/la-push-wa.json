@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-25",
+ "generated_on": "2026-09-26",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -15,6 +15,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "low_ft": -1.837,
+   "low_time_local": "6:14 PM",
+   "window_local": "4:00 PM–8:30 PM",
+   "arrive_by_local": "5:14 PM",
+   "daylight_min": 32,
+   "score": 56,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-10-25",
    "weekday": "Sun",
@@ -97,18 +109,6 @@
    "daylight_min": 35,
    "score": 41,
    "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.188,
-   "low_time_local": "5:20 PM",
-   "window_local": "3:50 PM–6:50 PM",
-   "arrive_by_local": "4:20 PM",
-   "daylight_min": 61,
-   "score": 38,
-   "band": "Skip",
    "weekend_or_holiday": true
   }
  ],
@@ -2082,12 +2082,12 @@
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Black Tegula",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-25",
+ "generated_on": "2026-09-26",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "low_ft": -1.855,
+   "low_time_local": "6:04 PM",
+   "window_local": "3:55 PM–8:25 PM",
+   "arrive_by_local": "5:04 PM",
+   "daylight_min": 46,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-10-25",
    "weekday": "Sun",
@@ -96,18 +108,6 @@
    "window_local": "5:30 PM–8:45 PM",
    "arrive_by_local": "6:02 PM",
    "daylight_min": 70,
-   "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.357,
-   "low_time_local": "5:07 PM",
-   "window_local": "3:30 PM–6:55 PM",
-   "arrive_by_local": "4:07 PM",
-   "daylight_min": 87,
    "score": 46,
    "band": "Fair",
    "weekend_or_holiday": true

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-25",
+ "generated_on": "2026-09-26",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -16,6 +16,18 @@
   "method": "cosine-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-24",
+   "weekday": "Tue",
+   "low_ft": -1.638,
+   "low_time_local": "4:31 PM",
+   "window_local": "1:45 PM–7:40 PM",
+   "arrive_by_local": "3:31 PM",
+   "daylight_min": 189,
+   "score": 79,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-23",
    "weekday": "Mon",
@@ -98,18 +110,6 @@
    "daylight_min": 215,
    "score": 63,
    "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-10",
-   "weekday": "Sat",
-   "low_ft": -0.023,
-   "low_time_local": "5:27 PM",
-   "window_local": "3:40 PM–7:20 PM",
-   "arrive_by_local": "4:27 PM",
-   "daylight_min": 179,
-   "score": 58,
-   "band": "Fair",
    "weekend_or_holiday": true
   }
  ],
@@ -2093,12 +2093,12 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 9
+   "count": 10
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 8
+   "count": 9
   },
   {
    "commonName": "Monterey Dorid",
