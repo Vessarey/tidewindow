@@ -5,6 +5,157 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-09-26:start -->
+## 2026-09-26 — Heartbeat: correct Washington qualification and access framing
+
+**One primary improvement:** corrected a live contradiction introduced in
+this morning's Washington guide (`c1da8e6`), rather than duplicating its
+refresh. The page said only the Olympic outer coast had qualifying windows
+left while explicitly listing Port Townsend's Oct 5 window with 39 minutes
+of daylight overlap. Its own eligibility threshold is 30 minutes. Removed
+"headlamp-adjacent" outing language unsupported by the cited access guidance
+and narrowed an "anywhere in Washington" superlative to the three covered
+reference stations. This correction took precedence over the planned queue
+refill because it was a demonstrated live factual/interpretation error.
+
+**Coordination:** read playbook, latest three operator entries, active backlog,
+git state, today's commits, Actions and issues first. Pull was already current
+at `441bc72`. Seattle snippet (Sep 23), Thursday newsletter (Sep 24), tide-table
+explainer (Sep 25) and today's Washington refresh were already done. No new
+article additions since Monday; this is a correction to today's same article,
+not another generated piece. Haystack and the minus-tide explainer plus both
+owner evidence packets remain dirty, unpublished and untouched. The SEO skill
+kept this a factual correction with a recorded baseline, not a new retitle or
+conversion experiment.
+
+| Opportunity | Evidence | Decision |
+|---|---|---|
+| Washington guide | GSC Aug 28–Sep 24: 1 click / 42 impressions / 2.38% CTR / pos 6.07; prior Jul 31–Aug 27: 0/59/0%/6.34. Live lead/FAQ contradicted the Oct 5 row. | High-confidence factual correction; no uplift claim. |
+| Queue refill | Only Sunset Bay writable now; La Jolla opens Sep 28. Top chart/king queries already served. | Deferred, explicitly recorded as next-run priority; not falsely marked complete. |
+| Two owner refreshes | Article patches plus 47-file Sep 21 and 37-file Sep 22 packets await approval. | Preserve; do not publish through this correction. |
+
+**Changed in `ca20284`:** lead now states 13 remaining qualifying minus-tide
+windows at La Push, one at Port Townsend and none at Seattle. FAQ uses the
+same definition; La Push comparison/bullet and section framing no longer
+exclude the inland exception. Twelve of La Push's thirteen lows occur after
+sunset; Port Townsend's Oct 5 low is before sunrise. Replaced the headlamp
+phrase with a statement that qualification is a calculation, not an outing
+recommendation or shore-access confirmation. Title, slug, description,
+original publication date, Sep 26 update date, all tide-table values, gate
+configuration and source list unchanged. New lead is 67 words.
+
+**Verification:** used today's three station fact sheets and a full inclusive
+Sep 26–Dec 31 scan of the committed window arrays, not a top-N list. Predicate:
+`daylightMin >= 30`, and `lowHeight < 0` for minus windows. All daylight-window
+counts are La Push 22 / Port Townsend 3 / Seattle 2; minus subset is 13/1/0;
+Good-or-better count is zero at every station. Asserted La Push after-sunset
+count 12; Port Townsend Oct 5 = −0.234 ft, 5:48 AM, 39 daylight minutes, low
+before sunrise. Asserted metadata/gates unchanged and every numerical table
+row identical to the morning release. This is the regression check for the
+"only"-claim failure: compare the complete qualifying sets at every station,
+then distinguish qualification from daylight at the low and from access.
+
+Built an isolated HEAD snapshot with only this article patch at
+`/tmp/tidewindow-sep26-verify.L1V1Vz`, excluding both owner-held articles and
+leaving their existing workspace export untouched. Initial build hit
+Turbopack's external-node_modules-symlink restriction; copying the existing
+dependencies into the temporary snapshot resolved it without package changes.
+Plain `npm run build` then passed: 137 generated routes, verify-output
+12 stations × four months / 124 sitemap URLs, **42 + 6 + 8 = 56 tests**,
+zero failures. No NOAA refetch. Rendered lead and FAQ JSON-LD contain the
+correction; canonical correct, five FAQ entries, all 33 internal destinations
+exist. Desktop 1280 and mobile 375 have no document overflow; all four tables
+fit 335px mobile content width. Port Townsend selection and calendar gate
+open correctly; no email entered/submitted; no observed warn/error logs.
+
+**Operational health:** latest five Actions green, no open GitHub issues.
+Actual refresh [36233067684](https://github.com/Vessarey/tidewindow/actions/runs/36233067684)
+ran 09:32:01–09:34:21Z and landed `5981579` at 09:34:17Z. Later 12:15 and
+14:32 runs skipped because today's refresh was already present. Logs: 56
+tests, 124 URLs verified and IndexNow HTTP 200. Four staggered slots, same-day
+guard, six NOAA attempts and push retries are unchanged. Live index and La Push
+JSON are HTTP 200 and byte-equal to committed files, generated
+`2026-09-26T09:32:21.822Z`. Vercel success for morning HEAD `441bc72`.
+Production dependency audit: zero vulnerabilities. All 12 stations have zero
+score-90+ windows Sep 26–Oct 10; published monthly high-tide peaks begin
+Oct 27–29, outside that 14-day trigger. No recovery dispatch.
+
+**PostHog:** project 495836 / timezone America/New_York; exact host
+`thetidewindow.com` and traffic class `Regular`; trailing periods end
+exclusively **2026-09-26 17:15:35 UTC**, before this QA. Native connector still
+requires reauthentication; used configured read-only API, no new credentials
+or settings. Project and event/property schema rechecked.
+
+| Period | Pageviews / distinct IDs | Signup events / IDs | Signups ÷ pageview IDs |
+|---|---:|---:|---:|
+| 7d | 380 / 362 | 2 / 2 | 0.55% |
+| 28d | 1,304 / 1,181 | 7 / 7 | 0.59% |
+
+Ratios are descriptive, not matched-user funnels or certified-human counts.
+No explicit agent property or bot/headless/playwright/puppeteer UA match on
+the 380 pageviews; missing labels do not prove human traffic. Top 7d paths:
+national king tides 132, Oregon king tides 78, WA king tides 17, Acadia 16,
+Fitzgerald and Oregon calendar 15 each. Referrer pageviews: Google 91,
+www.bing.com 84, direct 66, DuckDuckGo 55, Yahoo 44 — not GSC clicks/sessions.
+Tools: 5 selections, 2 results, 4 Trip Picker runs (3 IDs), 4 gate clicks
+(station 2 / article 1 / tool 1), 2 signups (tool 1 / station 1), 1 ICS reveal.
+ZIP events: zero observed in 7d; definition exists. In 28d, 19 gate events and
+7 signups are below the 30-event floor. Exit prompt since Jul 27: **73
+impressions / 1 signup**, below 100; experiment remains closed-unmeasurable,
+but the owner's Oct 1 retire-if-under-100 instruction remains active.
+
+LCP-bearing 24h sample: **13 events**, p75 **1,128 ms**, p90 **1,342.4 ms**;
+below the 30-observation floor, no performance trend verdict. Exception
+instrumentation is still unverified: project opt-in null; `$exception` absent
+from current event definitions; 7d pageviews show remote capture false on 36,
+missing on 344, true on none. Do not turn this into a zero-error claim.
+
+**Search Console:** Web / final data, property `sc-domain:thetidewindow.com`;
+last available day Sep 24. Exact inclusive windows; ungrouped property totals
+and full row limit 25,000 (316 visible query rows, no cap reached).
+
+| Period | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| Aug 28–Sep 24 | 218 | 13,441 | 1.62% | 7.46 |
+| Jul 31–Aug 27 | 111 | 8,685 | 1.28% | 8.72 |
+| Sep 18–24 | 56 | 2,736 | 2.05% | 6.99 |
+| Sep 11–17 | 55 | 4,018 | 1.37% | 7.44 |
+
+28d clicks +96.4%, impressions +54.8%; latest 7d clicks +1.8% with impressions
+−31.9%. Directional site results, not causal evidence for any recent edit.
+Washington's page-specific query read exposes only one impression at pos 3
+(`how about october 4`); cannot explain its entire page total. Leading guide
+clicks/impressions: national 70/3,577; Fitzgerald 46/1,730; Oregon calendar
+24/509; Seattle 16/473; Acadia 12/938. Stock flywheel/queries checked; no
+duplicate chart/king-title work. Existing Sep 30 / Oct 1 / Oct 5 observations
+stay scheduled under their sample floors; no experiment restarted.
+
+**Time-bombs / next:** Sep 24 broadcast
+`9c7aac35-4512-4ca6-b020-c3af02b1c614` is confirmed `sent` at
+12:05:59.478897Z (morning journal had seen queued). Response exposes no
+bounce/complaint metrics: unknown, not zero; no send/audience action today.
+[NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm) still
+lists Mora closure Jul 8–Oct 15; no automatic reopening assumption. Next run
+must refill the below-floor queue from fresh demand; candidates and known
+stale-source evidence are in BACKLOG, not implemented today. Sep 28 seven-URL
+discovery check + La Jolla; Sep 30 inspect-60; Oct 1 Thursday newsletter,
+November rollout and owner exit-prompt gate; Oct 5 national query readout;
+Oct 15 NPS recheck. Owner approval remains required for both held refreshes.
+
+**Release confirmed:** `ca20284` pushed to main; [Vercel success](https://vercel.com/vessareys-projects/tidewindow/Bit7XqAXZMKsGUs93vNhfRJZADaG).
+Live browser shows the corrected lead and all 13 table rows, no forbidden
+exclusive/headlamp phrases, no mobile overflow, and a working Port Townsend
+calendar gate without submission. No observed warn/error logs. Viewport reset
+and QA tab closed. Post-release HTTP checks passed for homepage, sitemap
+(124 URLs), current data and article. Both held articles still serve their old
+public content; SHA-256 comparisons confirm both local article files and both
+evidence packets are unchanged. Only the Washington article and these two
+coordination documents belong to this run; no analytics settings, credentials,
+data files, broadcasts or owner-held patches changed.
+<!-- heartbeat-2026-09-26:end -->
+
+---
+
 ## 2026-09-26 — Washington three-coast guide: remaining-season framing (§2e, Sep 22 refill item)
 
 **Health:** green. Today's refresh landed at 09:32 UTC (run 36233067684,

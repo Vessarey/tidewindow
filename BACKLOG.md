@@ -5,6 +5,35 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-09-26:start -->
+- [x] **2026-09-26 heartbeat — Washington qualification correction.**
+      Live QA of today's operator release found "only the outer coast
+      qualifies" contradicted the same page's Port Townsend Oct 5 window
+      (39 daylight minutes, above the 30-minute definition). Corrected the
+      lead, FAQ, comparison cell and framing to 13 remaining minus-tide
+      windows at La Push / one at Port Townsend / none at Seattle; separately
+      identified lows before sunrise or after sunset. Removed unsupported
+      "headlamp-adjacent" outing language and scoped the maximum claim to
+      the three covered stations. Tables/title/description/gates retained.
+      Content commit `ca20284`; isolated build, 56 tests, 33 internal links,
+      FAQ schema and 1280/375px calendar-gate checks passed. See journal.
+- [ ] **Next run: §2a queue refill before another routine article.**
+      Only Sunset Bay is independently ready now; La Jolla opens Sep 28,
+      while Haystack and minus-tide explainer are owner-held local work.
+      Today's refill investigation was superseded by the live factual
+      contradiction above; no refill is claimed. Fresh Aug 28–Sep 24 GSC
+      still shows leading chart/king-tide queries already covered. Candidate
+      maintenance to evaluate, not three approved keyword assignments:
+      summer-dawn explainer 2 clicks / 108 impressions / pos 5.71 (old
+      535-window/full-year framing); July roundup 0/21/5.38 (August still
+      called next); East Coast explainer 0/17/5.47 (period/daylight scope).
+      Compare current source and query-by-page evidence before turning these
+      into bounded briefs. Do not duplicate recent charts or publish held work.
+      Sep 28 exact seven-target crawl check and Sep 30 `inspect 60` remain;
+      Oct 1 is Thursday newsletter day AND the owner exit-prompt deadline /
+      November-rollover checkpoint. Coordinate those gates, do not act early.
+<!-- heartbeat-2026-09-26:end -->
+
 <!-- heartbeat-2026-09-22:start -->
 - [x] **2026-09-22 heartbeat — ready-now queue refilled (§2a), docs only.**
       Glass Beach shipped this morning, leaving only Seattle snippet and
