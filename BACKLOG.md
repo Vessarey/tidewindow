@@ -228,8 +228,19 @@ with the date; add discoveries at the appropriate tier.
       facts with the documented date scope and daylight definition, checking
       body and FAQ values together. Keep title/slug/gates unchanged; a dated
       teaching example does not need replacement merely because it is past.
-- [ ] **Washington three-coast guide — remaining-season framing**
-      (Sep 22 maintenance refill; ready now). Target
+- [x] **Washington three-coast guide — remaining-season framing**
+      (Sep 22 maintenance refill; ready now).
+      **Done 2026-09-26 operator (c1da8e6):** lead/answer/description now
+      frame the remaining season — La Push the only coast still in play,
+      evening-only; complete 13-row remaining minus-tide window table
+      (Sep 27 → Dec 23) script-checked for completeness against station
+      data; Sep 9–12 marked historical and re-verified; Dec 21 noted as
+      the only remaining low before sunset; deepest remaining Dec 23
+      −1.97 ft, nothing left reaches Good at any WA station. NPS Mora
+      closure re-fetched Sep 26, unchanged. Title/slug/gates unchanged.
+      Ship baseline (GSC 28d, Sep 26 read): 1 click / 42 impressions /
+      pos 6.1 — factual maintenance, no experiment verdict promised.
+      Original brief: Target
       `best-tide-pools-washington-2026`; exact GSC Aug 24–Sep 20: 1 click /
       37 impressions / position 5.92. Only visible query is `how about october 4`
       (1 impression / pos 3), so this is exposed-page freshness evidence, not

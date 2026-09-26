@@ -5,6 +5,67 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-26 — Washington three-coast guide: remaining-season framing (§2e, Sep 22 refill item)
+
+**Health:** green. Today's refresh landed at 09:32 UTC (run 36233067684,
+2m20s); no open GitHub issues. Owner-held files (Haystack Sep 21,
+minus-tide explainer Sep 22, both `seo-refresh-*` packets) remain
+uncommitted per standing precedent — pulled with `--rebase --autostash`,
+reapplied cleanly, untouched.
+
+**Why this item:** two ready-now candidates (Sunset Bay refresh vs the
+Washington comparison). GSC 28d: the WA guide has 1 click / 42 impressions
+/ pos 6.1 while actively selling the passed Sep 9–12 run as upcoming;
+Sunset Bay returns no GSC page row. Higher exposure + wrong-facing
+content won; Sunset Bay stays queued.
+
+**Primary action (commit `c1da8e6`):** refreshed
+`best-tide-pools-washington-2026` per the Sep 22 brief. (1) Lead, answer
+box and description now frame the actual remaining season: La Push is the
+only coast still in play, evening-only; Seattle's Sep 8–10 mornings were
+its last 2026 daylight minus tides; Port Townsend's lone remaining
+daylight-minus window (Oct 5, −0.23 ft) bottoms out at 5:48 AM before
+sunrise. (2) Sep 9–12 section retitled "now past", past-tensed, table
+kept as history and re-verified row-for-row against current station data.
+(3) New complete remaining-2026 table: all 13 La Push minus-tide windows
+with ≥30 min daylight overlap (Sep 27 → Dec 23), completeness
+script-checked against station windows data (13/13, no extras). Notable
+honest facts: deepest remaining anywhere in WA is Dec 23 −1.97 ft at
+6:03 PM (39 daylight min, Fair 59); NOTHING remaining at any of the three
+stations reaches Good; the only remaining low itself before sunset is
+Dec 21 (4:26 PM vs 4:28 PM sunset). (4) NPS Mora Road closure re-fetched
+today: identical Jul 8–Oct 15 closure and quote; check dates rolled to
+Sep 26. (5) July/August comparison kept, restamped after re-verification
+(−3.00/−3.48/−3.80 Jul 14; PT −2.05/100 and Seattle −1.91/98 Aug 9).
+Title, slug, gates unchanged — no title experiment on an under-floor
+surface, per the brief. Honest `updated: 2026-09-26`.
+
+**Verification:** every table number and prose claim recompute-checked by
+script against `public/data-json/stations/*.json` (13 rows exact; Dec 21
+lowInDaylight=True unique; zero remaining Good+ at all three stations;
+Seattle zero / PT one daylight-minus after Sep 10). Plain `npm run build`
+green; verify-output OK (12 stations × 4 months, 124 sitemap URLs);
+42+6+8 tests pass. Rendered page carries the new table; description
+148 chars. Diff review: only the one article; owner-held files untouched.
+
+**Metrics snapshot (PostHog, production host, 7d):** top paths national
+king tides 135, Oregon king tides 79, WA king tides 17, Acadia 16,
+Oregon calendar 15, Fitzgerald 15, homepage 11, Seattle guide 9; tool
+events station_selected 5, trip_picker_run 4, window_result_viewed 2;
+signups 2 (steady).
+
+**Ship note (§5):** factual maintenance, no experiment — baseline
+recorded for attribution only (1/42/6.1, GSC 28d read Sep 26).
+
+**Tomorrow (Sun Sep 27):** Sunset Bay refresh is the remaining ready-now
+item (roll the passed August lead, recheck park access). Sep 28: La Jolla
+opens + weekly `inspect` recheck of the seven never-crawled targets.
+Sep 30: `inspect 60` indexing comparison. Oct 1: November rollover +
+monthly gates. Minus-tide and Haystack publication remain owner-held —
+do not ship or duplicate them.
+
+---
+
 ## 2026-09-25 — Tide-table explainer refresh (§2e, Sep 22 refill item)
 
 **Health:** green. Today's refresh landed before the session (`1148c9f`,
