@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-26",
+ "generated_on": "2026-09-27",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-26",
-   "weekday": "Sat",
-   "low_ft": 0.014,
-   "low_time_local": "5:13 PM",
-   "window_local": "4:00 PM–6:20 PM",
-   "arrive_by_local": "4:13 PM",
-   "daylight_min": 140,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 256,
-   "min_to_sun_edge": 70
-  },
-  {
    "date": "2026-09-27",
    "weekday": "Sun",
    "low_ft": -0.365,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 105,
    "min_to_sun_edge": 64
+  },
+  {
+   "date": "2026-10-09",
+   "weekday": "Fri",
+   "low_ft": -0.367,
+   "low_time_local": "4:37 PM",
+   "window_local": "3:20 PM–5:55 PM",
+   "arrive_by_local": "3:37 PM",
+   "daylight_min": 155,
+   "score": 54,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 247,
+   "min_to_sun_edge": 82
   }
  ],
  "species_last60d_5km": [
@@ -2088,7 +2088,7 @@
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 8
+   "count": 9
   },
   {
    "commonName": "Atlantic Jackknife",

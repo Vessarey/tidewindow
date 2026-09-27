@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-26",
+ "generated_on": "2026-09-27",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-26",
-   "weekday": "Sat",
-   "low_ft": 0.237,
-   "low_time_local": "6:59 PM",
-   "window_local": "5:50 PM–8:10 PM",
-   "arrive_by_local": "5:59 PM",
-   "daylight_min": 76,
-   "score": 36,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 267,
-   "min_to_sun_edge": 7
-  },
-  {
    "date": "2026-09-27",
    "weekday": "Sun",
    "low_ft": -0.356,
@@ -2072,17 +2058,31 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 271,
    "min_to_sun_edge": -62
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.017,
+   "low_time_local": "5:56 PM",
+   "window_local": "4:35 PM–7:20 PM",
+   "arrive_by_local": "4:56 PM",
+   "daylight_min": 102,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 250,
+   "min_to_sun_edge": 21
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 4
-  },
-  {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
+   "count": 6
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
    "count": 4
   },
   {
@@ -2116,14 +2116,14 @@
    "count": 2
   },
   {
-   "commonName": "Steinberg's Corambe",
-   "scientificName": "Corambe steinbergae",
-   "count": 1
+   "commonName": "Northern Leopard Dorid",
+   "scientificName": "Diaulula odonoghuei",
+   "count": 2
   },
   {
-   "commonName": "Chan's Dorid",
-   "scientificName": "Hallaxa chani",
-   "count": 1
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 2
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-26",
+ "generated_on": "2026-09-27",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -25,6 +25,18 @@
    "arrive_by_local": "4:38 PM",
    "daylight_min": 98,
    "score": 67,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -2.053,
+   "low_time_local": "6:25 PM",
+   "window_local": "3:55 PM–9:05 PM",
+   "arrive_by_local": "5:25 PM",
+   "daylight_min": 53,
+   "score": 63,
    "band": "Good",
    "weekend_or_holiday": false
   },
@@ -97,18 +109,6 @@
    "arrive_by_local": "4:20 PM",
    "daylight_min": 97,
    "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.207,
-   "low_time_local": "4:43 PM",
-   "window_local": "3:00 PM–6:25 PM",
-   "arrive_by_local": "3:43 PM",
-   "daylight_min": 123,
-   "score": 49,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-26",
-   "weekday": "Sat",
-   "low_ft": 0.62,
-   "low_time_local": "6:31 PM",
-   "window_local": "5:40 PM–7:20 PM",
-   "arrive_by_local": "5:31 PM",
-   "daylight_min": 88,
-   "score": 33,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 262,
-   "min_to_sun_edge": 37
-  },
-  {
    "date": "2026-09-27",
    "weekday": "Sun",
    "low_ft": 0.016,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 266,
    "min_to_sun_edge": -33
+  },
+  {
+   "date": "2026-10-12",
+   "weekday": "Mon",
+   "low_ft": -0.445,
+   "low_time_local": "7:53 PM",
+   "window_local": "6:00 PM–9:45 PM",
+   "arrive_by_local": "6:53 PM",
+   "daylight_min": 40,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 273,
+   "min_to_sun_edge": -73
   }
  ],
  "species_last60d_5km": [

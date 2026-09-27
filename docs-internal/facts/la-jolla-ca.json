@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-26",
+ "generated_on": "2026-09-27",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -1.507,
+   "low_time_local": "3:55 PM",
+   "window_local": "1:10 PM–7:00 PM",
+   "arrive_by_local": "2:55 PM",
+   "daylight_min": 213,
+   "score": 77,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-24",
    "weekday": "Tue",
@@ -99,18 +111,6 @@
    "score": 62,
    "band": "Good",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.227,
-   "low_time_local": "2:06 PM",
-   "window_local": "12:05 PM–4:15 PM",
-   "arrive_by_local": "1:06 PM",
-   "daylight_min": 250,
-   "score": 62,
-   "band": "Good",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2045,7 +2045,7 @@
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 13
+   "count": 14
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -2053,13 +2053,13 @@
    "count": 13
   },
   {
-   "commonName": "Hedgpeth's Dorid",
-   "scientificName": "Polycera hedgpethi",
-   "count": 12
-  },
-  {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
+   "count": 13
+  },
+  {
+   "commonName": "Hedgpeth's Dorid",
+   "scientificName": "Polycera hedgpethi",
    "count": 12
   },
   {

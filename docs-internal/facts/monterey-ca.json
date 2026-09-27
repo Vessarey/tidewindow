@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-26",
+ "generated_on": "2026-09-27",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -25,6 +25,18 @@
    "arrive_by_local": "3:28 PM",
    "daylight_min": 189,
    "score": 73,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -1.531,
+   "low_time_local": "5:18 PM",
+   "window_local": "2:30 PM–8:25 PM",
+   "arrive_by_local": "4:18 PM",
+   "daylight_min": 143,
+   "score": 70,
    "band": "Good",
    "weekend_or_holiday": false
   },
@@ -99,18 +111,6 @@
    "score": 58,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.094,
-   "low_time_local": "3:30 PM",
-   "window_local": "1:30 PM–5:35 PM",
-   "arrive_by_local": "2:30 PM",
-   "daylight_min": 215,
-   "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 56
+   "count": 58
   },
   {
    "commonName": "Spanish Shawl",
@@ -2091,13 +2091,13 @@
    "count": 21
   },
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 19
-  },
-  {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
+   "count": 18
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
    "count": 18
   },
   {
@@ -2111,6 +2111,11 @@
    "count": 18
   },
   {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 11
+  },
+  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
    "count": 10
@@ -2119,11 +2124,6 @@
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
    "count": 10
-  },
-  {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 9
   }
  ]
 }

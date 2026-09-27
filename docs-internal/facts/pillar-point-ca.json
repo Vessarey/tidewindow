@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-26",
+ "generated_on": "2026-09-27",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -25,6 +25,18 @@
    "arrive_by_local": "3:31 PM",
    "daylight_min": 189,
    "score": 79,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -1.77,
+   "low_time_local": "5:20 PM",
+   "window_local": "2:30 PM–8:35 PM",
+   "arrive_by_local": "4:20 PM",
+   "daylight_min": 144,
+   "score": 75,
    "band": "Great",
    "weekend_or_holiday": false
   },
@@ -99,18 +111,6 @@
    "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.363,
-   "low_time_local": "3:35 PM",
-   "window_local": "1:30 PM–5:50 PM",
-   "arrive_by_local": "2:35 PM",
-   "daylight_min": 215,
-   "score": 63,
-   "band": "Good",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 20
+   "count": 25
   },
   {
    "commonName": "Gumboot Chiton",
@@ -2086,24 +2086,24 @@
    "count": 19
   },
   {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 12
+  },
+  {
    "commonName": "Hammerhead Doto",
    "scientificName": "Doto amyra",
    "count": 10
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 10
-  },
-  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 9
+   "count": 10
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 7
+   "count": 9
   },
   {
    "commonName": "Mossy Chiton",
@@ -2111,19 +2111,19 @@
    "count": 7
   },
   {
-   "commonName": "Rough Limpet",
-   "scientificName": "Lottia scabra",
-   "count": 6
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 7
   },
   {
    "commonName": "Heath's Dorid",
    "scientificName": "Geitodoris heathi",
-   "count": 5
+   "count": 6
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 5
+   "commonName": "Rough Limpet",
+   "scientificName": "Lottia scabra",
+   "count": 6
   }
  ]
 }
