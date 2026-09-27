@@ -5,6 +5,151 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-09-27:start -->
+## 2026-09-27 — Heartbeat: summer-dawn explainer scope and count correction
+
+**One primary improvement:** corrected the existing summer-dawn explainer,
+`why-summer-lowest-tides-happen-at-dawn-pacific`, in content commit `d580079`.
+This morning's operator already completed the queue refill (`d059c38`), so
+it was not repeated. Read playbook, latest three entries, backlog, current
+diff, Actions, issues and today's origin/main commits first. Pull was current.
+No new article additions this week; today's operator changed docs only.
+Owner-held Haystack/minus-tide articles and both SEO packets remain excluded.
+
+The analytics-led refresh skill kept selection evidence-based and the change
+factual, not a new title or conversion experiment. Exact final GSC Aug 28–Sep 24:
+
+| Candidate | Evidence | Decision |
+|---|---|---|
+| Summer-dawn explainer | 2 clicks / 108 impressions / pos 5.71; prior Jul 31–Aug 27 4/128/7.15. Live full-year wording and old histogram demonstrably wrong. | Highest exposed independent maintenance brief; corrected. |
+| July roundup / East Coast explainer | 0/21/5.38 and 0/17/5.47 in the same complete current period. | Lower exposure; remain queued, not rewritten. |
+| Sunset Bay / La Jolla / owner-held pages | Sunset Bay no page row in that period; La Jolla opens Sep 28; two patches await owner release. | Preserve schedule and release boundaries. |
+
+**Content evidence:** compared current complete July 1–December 31 station-local
+arrays with launch snapshot `abd8f71`, not a top-N list. Exactly 13 early-July
+minus lows were added: July 1 at all 11 western stations, plus July 2 at La
+Jolla and San Diego. All qualify for ≥30 minutes of daylight/window overlap;
+matched low heights unchanged. Old 940/535 + 13 = **953/548**. Complete current
+NOAA negative extrema independently total 953. Recomputed all 18 hour bins:
+3–9 AM bins contain **280/548 (51%)**, 6 AM has **58**, 5 and 7 AM tie at 53,
+11 AM/noon have 12 each; late-day peak remains 51 at 5 PM. Body, lead, tables
+and FAQs now share the explicit partial-year scope and daylight definition.
+The histogram does not imply daylight at the low or confirmed beach access.
+
+Seattle's six July example rows are retained unchanged and clearly historical;
+each low itself is between sunrise and sunset. A complete-range minimum check
+supports −3.80 ft on Jul 14, 11:20 AM, within Jul–Dec only. The monthly table now
+reports modeled windows: Jul **24/20**, Aug 21/13, Sep 19/6, Oct **20/0**, Nov
+21/0, Dec 21/0 (all modeled / qualifying minus). Important cross-check:
+`lows_below_1ft` in the fact sheet counts modeled windows, not every NOAA low.
+Seattle raw predictions have Aug 22 and Oct 22 below-+1-ft lows, versus modeled
+21 and 20. Brief/unresolved dips are intentionally omitted by window math.
+Relabeled the article rather than publishing a false raw-low count. Recorded
+the misleading field-name discovery in P2; no pipeline/schema changes today.
+
+Re-fetched the existing NOAA cycle/lunar-day/declination/spring-tide/physics
+sources and UW LiveOcean explanation. Kept the teaching structure, paraphrased
+the long UW quotation, avoided fixed annual solstice dates. Title, route,
+publication date, category/tags/source list and signup paths unchanged;
+description 140 characters, answer-first lead 75 words, five FAQs, honest
+`updated: 2026-09-27`.
+
+**Validation:** isolated HEAD snapshot plus only this article at
+`/tmp/tidewindow-sep27-verify.l19YOM` (copied installed dependencies; no credentials,
+no owner-held patches; original workspace export untouched). Final plain
+`npm run build` passed: 137 routes, 12 stations × four published months,
+124 sitemap URLs, **42 facts + 6 math + 8 formatting = 56 passing tests**.
+`node verify-summer.mjs` in that snapshot asserts all 18 histogram bins,
+six historical rows, six monthly rows, complete minus/qualifying totals,
+period minimum, metadata limits, rendered FAQ equality/canonical and all
+36 internal destinations. No generated data changed in the actual checkout.
+Desktop 1280 and mobile 375: no document/table overflow (all three mobile
+tables 335px). Article → Finder → Seattle results → calendar email form works;
+no email entered or submitted, no observed warning/error logs. One wrapped-link
+automation click landed in whitespace; clicking its visible text navigated
+normally. No application defect inferred from that automation miss.
+
+**Operational health:** five latest Actions green, open GitHub issues empty.
+Actual refresh [36311822448](https://github.com/Vessarey/tidewindow/actions/runs/36311822448)
+ran 10:13:02–10:15:20Z, landed `5426eb1` at 10:15:15Z. Later 13:05 and 15:10
+slots skipped correctly. Refresh logs show all 56 tests, 124 verified URLs,
+IndexNow HTTP 200. Four slots, same-day guard, NOAA retry and push-retry paths
+unchanged; no recovery dispatch. Live index/La Push JSON HTTP 200 and byte-equal
+to committed files, generated **2026-09-27T10:13:21.909Z**. Morning HEAD Vercel
+success. Production dependency audit: zero reported vulnerabilities. No 90+
+windows at any station Sep 27–Oct 11; October published king peaks remain
+outside the 14-day trigger.
+
+**PostHog:** native connector still requires reauthentication; used only the
+configured read-only API. Project 495836, America/New_York, schema rechecked.
+Exact host `thetidewindow.com`, traffic class `Regular`; all trailing windows
+end exclusively **2026-09-27 17:15:10 UTC**, before QA.
+
+| Period | Pageviews / distinct IDs | Signup events / IDs | Signups ÷ pageview IDs |
+|---|---:|---:|---:|
+| 7d | 413 / 381 | 2 / 2 | 0.52% |
+| 28d | 1,366 / 1,226 | 7 / 7 | 0.57% |
+
+Descriptive ratios, not matched funnels, active subscribers or certified-human
+traffic. No explicit agent property or bot/headless/playwright/puppeteer UA
+match on the 413 views; absent labels do not prove humanity. Top paths: national
+king tides 142, Oregon king tides 75, home 18, WA king tides 17, Acadia 16,
+Fitzgerald 15. Referrer pageviews: Bing 89, Google 85, DuckDuckGo 80, direct 64,
+Yahoo 51 — not search clicks. Seven-day tools: 12 selections / 8 IDs, 9 results /
+5 IDs, 4 Trip Picker runs / 3 IDs, **1 observed ZIP use** (definition exists),
+6 gate events / 5 IDs (month 2, article 2, station 1, tool 1), two signups
+(tool 1, station 1), one ICS reveal. 28d gates 22 events / 21 IDs and signups
+7 remain below the 30-event floor. No conversion verdict or experiment restart.
+Exit prompt since Jul 27: **76 impressions / 1 signup**, below 100; closed as
+unmeasurable, with owner's separate Oct 1 retirement instruction still active.
+LCP-bearing 24h sample 32 events, p75 **847 ms**, p90 **1,478.4 ms**: enough for
+the 30-observation checkpoint, not a trend or regression claim. Exception
+capture is unverified, not zero errors: project opt-in null, `$exception`
+absent in taxonomy, 7d pageview capture flag 360 missing / 53 false / zero true.
+
+**Search Console:** Web, final data, `sc-domain:thetidewindow.com`, no
+device/country filters, 25,000-row limit; 61 page and 316 visible query rows,
+no client cap hit. Latest final date still **Sep 24** (explicit Sep 21–26 date
+query). Discarded the initial Sep 25-ended request as a complete-period
+comparison; it includes an unavailable day. Exact complete-period rerun:
+
+| Period | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| Aug 28–Sep 24 | 218 | 13,441 | 1.62% | 7.46 |
+| Jul 31–Aug 27 | 111 | 8,685 | 1.28% | 8.72 |
+| Sep 18–24 | 56 | 2,736 | 2.05% | 6.99 |
+| Sep 11–17 | 55 | 4,018 | 1.37% | 7.44 |
+
+Same latest finalized results as yesterday, not a new day of growth. 28d clicks
++96.4%, impressions +54.8%; 7d clicks +1.8%, impressions −31.9%. Not causal
+evidence for recent work. The selected page reveals no query rows in the exact
+current period, not zero search demand. Existing chart/king-tide intents are
+already served; no duplicate title/keyword work or premature crawl-link batch.
+
+**Time-bombs / next:** Sep 24 broadcast remains confirmed sent at
+12:05:59.478897Z; response has no bounce/complaint metric fields (unknown, not
+zero). No send/audience action. [NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still lists Mora Road closure Jul 8–Oct 15; no automatic reopening assumption.
+Tomorrow **Monday Sep 28**: exact seven-target crawl check and La Jolla due;
+Sep 30 inspect-60; Oct 1 Thursday newsletter, November rollout/indexing gate,
+month-title readout and owner exit-prompt deadline; Oct 5 national query
+readout; Oct 15 NPS check. Three independently writable maintenance items
+remain today (July roundup, East Coast, Sunset Bay), plus La Jolla tomorrow.
+Both owner-held releases still need approval.
+
+**Release verified:** `d580079` pushed; [Vercel success](https://vercel.com/vessareys-projects/tidewindow/5Dz22CZ7vaK9FNa84RRmqgAUjnCL).
+Live article has the corrected lead, Sep 27 update date, all three tables and
+no mobile overflow. Live article → Finder → Seattle results → empty calendar
+email form passed, with no submission and no observed warning/error logs.
+Homepage, article, data index and 124-URL sitemap all HTTP 200. SHA-256 checks
+confirm both owner-held articles and the 47-file/37-file evidence packets
+remain byte-identical to session start. Viewport reset and QA tab closed.
+Only the one article and JOURNAL/BACKLOG belong to this run; no credentials,
+analytics settings, broadcasts, generated data or owner-held files changed.
+<!-- heartbeat-2026-09-27:end -->
+
+---
+
 ## 2026-09-27 — §2a queue refill: three evaluated maintenance briefs (docs only)
 
 **Done:** the deferred §2a refill, recorded Sep 26 as this run's priority.

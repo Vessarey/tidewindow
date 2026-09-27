@@ -221,9 +221,17 @@ with the date; add discoveries at the appropriate tier.
 ## P1 — content queue (one per day max; ≤5/week)
 
 <!-- operator-2026-09-27-refill:start -->
-- [ ] **Summer-dawn explainer — reconcile the 940/535 "2026" totals and
+- [x] **Summer-dawn explainer — reconcile the 940/535 "2026" totals and
       hour histogram provenance** (Sep 27 §2a refill; maintenance, not a
       new page). Target `why-summer-lowest-tides-happen-at-dawn-pacific`;
+      **Done Sep 27 heartbeat (`d580079`):** current Jul 1–Dec 31 totals
+      953/548 reconciled to the 13 missing early-July lows in `abd8f71`;
+      all 18 hourly bins, six monthly rows and FAQs recomputed. Daylight
+      overlap distinguished from daylight at low water; Seattle table
+      explicitly counts modeled windows, not all predicted lows. Six July
+      example rows retained as historical; title/slug/date/gates preserved.
+      Isolated build + 56 tests + numeric/schema/36-link checks and desktop/
+      mobile Finder-to-gate QA passed. See Sep 27 heartbeat journal.
       GSC Aug 28–Sep 25: 2 clicks / 108 impressions / pos 5.7; no page
       query rows revealed. Dated 2026-07-02, never updated. The lead, body
       and three FAQs present 940 minus tides / 535 daylight ("269 of 535
@@ -1314,6 +1322,16 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       relevance first; prefer harmonic.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
+
+- [ ] **2026-09-27 discovery: clarify modeled-window versus raw-low count
+      semantics in fact-sheet consumers.** `months_2026.lows_below_1ft` is
+      `windows.length`, so it omits brief/unresolved dips by design. Current
+      Seattle Aug raw NOAA lows <+1 ft = 22 vs 21 modeled windows; Oct 22 vs
+      20. Do not call the field an exhaustive prediction count. Summer-dawn
+      article corrected today. Audit dependent labels and plan an explicit
+      raw-count/window-count contract with regression checks before schema
+      changes; never hand-edit generated data or conflate this with zero
+      daylight-minus windows. No pipeline changes in the Sep 27 heartbeat.
 
 - [x] **2026-09-07: fact-sheet date scope fixed and regression-gated (6bca506).**
       Shared `fact-range.mjs` now filters station/coast aggregates to the
