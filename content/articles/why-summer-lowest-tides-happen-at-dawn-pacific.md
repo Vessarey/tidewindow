@@ -1,20 +1,21 @@
 ---
 title: "Why Summer's Lowest Tides Happen at Dawn on the Pacific Coast"
-description: "Earth's tilt decides which of the West Coast's two unequal daily lows goes deep, and in summer it lands at dawn. The 2026 hour histogram shows the math."
+description: "Why Pacific summer lows favor mornings, with a July–December 2026 NOAA hour histogram separating daylight windows from daylight at low tide."
 date: "2026-07-02"
+updated: "2026-09-27"
 category: "tide-basics"
 tags: ["minus tide", "mixed semidiurnal", "declination", "tide basics", "Pacific coast"]
 faq:
   - q: "Why do the Pacific coast's lowest summer tides happen in the morning?"
-    a: "West Coast tides are mixed semidiurnal, meaning two unequal low tides a day, and the declination of the moon and sun decides which low goes deep. In summer that puts the deeper low in morning daylight: in 2026, 269 of the 535 daylight minus tides at the 11 West Coast stations Tidewindow tracks fall between 3 and 9 AM, with 6 AM the single busiest hour (56 events)."
+    a: "West Coast tides are mixed semidiurnal: two unequal lows a day, influenced by the moon's and sun's declination. The deeper summer low tends toward daytime. In Tidewindow's July 1–December 31, 2026 sample, 280 of 548 qualifying minus-tide windows at 11 West Coast stations have lows in the 3–9 AM hour bins; 6 AM is busiest (58). Qualification means at least 30 minutes of daylight overlap in the surrounding window, not necessarily daylight at the low."
   - q: "Do minus tides stop happening in winter on the West Coast?"
-    a: "No, they move into the night. NOAA station 9447130 (Seattle) has 21 predicted lows below +1 ft MLLW in November 2026 and 21 in December, roughly the same supply as July's 22, but zero of them qualify as daylight minus tides. The deep low crosses to the dark half of the clock in winter, and daylight itself shrinks around it."
+    a: "No. Seattle (NOAA 9447130) has 21 predicted lows below +1 ft MLLW in November 2026 and 21 in December, versus July's 24. Neither winter month has a minus-tide window with at least 30 minutes of daylight overlap; July has 20. This is a Seattle example, not a claim that every West Coast station loses its daylight windows."
   - q: "What is a mixed semidiurnal tide?"
     a: "NOAA defines it as a tidal cycle with two high and two low tides of different size every lunar day (24 hours 50 minutes). The US West Coast tends to have mixed semidiurnal tides, which is why one of its two daily lows can drop well below 0.0 ft MLLW while the other stays ordinary."
   - q: "Why is low tide about 50 minutes later each day?"
-    a: "Because the tide clock runs on the lunar day, which NOAA puts at 24 hours and 50 minutes, not on the solar day. In Seattle's July 2026 minus-tide run, the low drifts from 8:49 AM on July 11 to 12:55 PM on July 16, about 47 to 51 minutes later each day, bottoming out at -3.8 ft at 11:20 AM on July 14."
+    a: "Because the tide clock runs on the lunar day, which NOAA puts at 24 hours and 50 minutes, not on the solar day. In Seattle's historical July 2026 minus-tide run, the predicted low moved from 8:49 AM on July 11 to 12:55 PM on July 16, about 47 to 51 minutes later each day, bottoming out at -3.8 ft at 11:20 AM on July 14."
   - q: "What time should I plan a summer tidepool trip on the Pacific coast?"
-    a: "Morning. Across 2026, the busiest hours for daylight minus tides at Tidewindow's 11 West Coast stations are 6 AM (56 events) and 7 AM (52); 11 AM and noon are the quietest midday hours at 11 each. Plan to arrive about an hour before the predicted low."
+    a: "Start by checking the morning predictions for your station and date, rather than treating dawn as a fixed appointment. In the July–December 2026 sample, 6 AM has 58 qualifying minus-tide windows, while 5 AM and 7 AM tie at 53 each. These are low-clock-time bins, not access hours or proof of daylight at the low; check the actual window, sunrise and local access before planning around it."
 sources:
   - "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html"
   - "https://oceanservice.noaa.gov/education/tutorial_tides/tides05_lunarday.html"
@@ -25,7 +26,7 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130"
 ---
 
-**On the US West Coast the two daily low tides are unequal, and Earth's tilt decides which one goes deep: in summer the deeper low lands in daylight, in winter it lands at night. The 2026 predictions agree. Across the 11 Pacific stations Tidewindow tracks, 6 AM is the busiest hour for daylight minus tides (56 of 535), and Seattle's deepest daylight low of the year, -3.8 ft at NOAA station 9447130, arrives at 11:20 AM on July 14.**
+**Pacific-coast tides have unequal daily lows, with the deeper summer low tending toward daytime. Across Tidewindow's 11 western stations, July 1–December 31, 2026 NOAA predictions contain 953 minus tides; 548 surrounding windows overlap daylight by at least 30 minutes. The busiest low-time hour is 6 AM (58 windows), not a guarantee of daylight at low water. Seattle's deepest qualifying low in this period was predicted for July 14 at 11:20 AM, −3.80 ft (NOAA 9447130).**
 
 If you keep one explanation, keep this one:
 
@@ -43,33 +44,35 @@ The "different size" clause is the part that matters. On most West Coast days on
 
 Declination is the angle of the moon or sun north or south of Earth's equator. When the moon stands off the equator, NOAA's tide-physics primer explains, "the tidal force envelope produced by the moon is canted." Tilt the envelope and the two daily tides stop matching: as Earth rotates, your beach sweeps through a deep part of one tidal bulge and a shallow part of the other. That mismatch is the unequal-lows pattern above. The moon crosses the equator twice each month, so the inequality swells and shrinks on a monthly rhythm.
 
-The sun runs the same geometry on a yearly clock. At the solstices, June 21 and December 22, the sun reaches "its maximum declination, i.e., its largest angle to the equator" — a line NOAA's declination page quotes from Sumich's 1996 marine-science text. And around new and full moon, NOAA notes, the solar tide "has an additive effect on the lunar tide" — the spring tides that push lows below zero roughly twice a month.
+The sun runs the same geometry on a yearly clock. Near the June and December solstices, the sun reaches "its maximum declination, i.e., its largest angle to the equator" — a line NOAA's declination page quotes from Sumich's 1996 marine-science text. And around new and full moon, NOAA notes, the solar tide "has an additive effect on the lunar tide" — the spring tides that deepen lows roughly twice a month.
 
-Put the monthly clock and the yearly clock together and you get the seasonal schedule. The University of Washington's LiveOcean tide primer states the result plainly: on this coast the lower low water comes in daytime in summer and at night in winter, because "the reason has to do with the tilt of the Earth's axis relative to the sun - the same tilt that causes Summer and Winter." One tilt, two jobs: it makes July warm, and it parks July's deep low in the light.
+Put the monthly clock and the yearly clock together and you get the seasonal schedule. The University of Washington's LiveOcean tide primer describes the Pacific Northwest pattern: lower low water tends to occur in daytime in summer and at night in winter, linked to Earth's axial tilt relative to the sun. That is a seasonal tendency, not a substitute for checking a particular station and date.
 
-## What does the 2026 data actually show?
+## What does the July–December 2026 data actually show?
 
-If declination is really steering the deep low toward summer daylight, the year's schedule should be lopsided by hour. It is. Of the 940 minus tides NOAA predictions give Tidewindow's 11 West Coast stations in 2026, 535 land in daylight, and here is when their lows strike, by local hour:
+This is a partial-year sample, not an annual total: **July 1–December 31, 2026, inclusive in each station's local date**, including past and future dates. NOAA predictions give the 11 West Coast stations 953 minus tides. Of those, 548 (58%) have a modeled below-+1-ft-MLLW window that overlaps sunrise-to-sunset daylight by at least 30 minutes. The low itself can occur before sunrise or after sunset; qualification does not confirm beach access.
 
-| Hour | Daylight minus lows | Hour | Daylight minus lows |
+Here is the low's local clock hour for those 548 qualifying windows. Each hour bin includes its full hour (the 9 AM bin runs through 9:59 AM):
+
+| Low-time hour | Qualifying windows | Low-time hour | Qualifying windows |
 |---|---|---|---|
-| 3 AM | 4 | 12 PM | 11 |
+| 3 AM | 4 | 12 PM | 12 |
 | 4 AM | 29 | 1 PM | 13 |
-| 5 AM | 49 | 2 PM | 19 |
-| 6 AM | 56 | 3 PM | 30 |
-| 7 AM | 52 | 4 PM | 45 |
-| 8 AM | 45 | 5 PM | 51 |
+| 5 AM | 53 | 2 PM | 19 |
+| 6 AM | 58 | 3 PM | 30 |
+| 7 AM | 53 | 4 PM | 45 |
+| 8 AM | 49 | 5 PM | 51 |
 | 9 AM | 34 | 6 PM | 36 |
 | 10 AM | 21 | 7 PM | 23 |
-| 11 AM | 11 | 8 PM | 6 |
+| 11 AM | 12 | 8 PM | 6 |
 
-*Computed 2026-07-03 from NOAA predictions at Tidewindow's 11 West Coast stations (WA, OR, CA).*
+*Recomputed 2026-09-27 from NOAA predictions at Tidewindow's 11 West Coast stations (WA, OR, CA), July 1–December 31. The original July 3 snapshot omitted 13 early-July minus tides, all qualifying: July 1 at all 11 stations plus July 2 at La Jolla and San Diego. Thus 940 + 13 = 953 minus tides, and 535 + 13 = 548 qualifying windows.*
 
-The shape is a two-humped day with a crater at lunch. The dawn hump peaks at 6 AM with 56 minus lows, five times the 11 apiece at 11 AM and noon, and 269 of the 535 (50%) land between 3 and 9 AM. A second, slightly smaller hump rises in the late afternoon, topping out at 51 events at 5 PM. Which months feed which hump is easy to see on the [year heatmap](/tools/year-heatmap/), which draws all twelve months for any station at once.
+The shape has a morning hump and another late in the day. The 6 AM hour has 58 qualifying windows, versus 12 apiece at 11 AM and noon. The 3–9 AM hour bins contain 280 of 548 (51%); the late-day peak is 51 at 5 PM. These are clock times across the July–December sample, not a summer-only histogram or a claim that every low occurs in daylight. Explore a station's seasonal pattern on the [year heatmap](/tools/year-heatmap/).
 
 ## What does a summer run look like at one station?
 
-Seattle, NOAA station 9447130, makes a clean specimen. Its best stretch of 2026 is six consecutive July days, every low in daylight:
+Seattle, NOAA station 9447130, makes a clean historical example. These six July days have now passed; each predicted low itself fell between sunrise and sunset:
 
 | Date | Low (ft MLLW) | Time of low | Arrive by |
 |---|---|---|---|
@@ -80,25 +83,25 @@ Seattle, NOAA station 9447130, makes a clean specimen. Its best stretch of 2026 
 | Wed, Jul 15 | -3.49 | 12:08 PM | 11:08 AM |
 | Thu, Jul 16 | -2.73 | 12:55 PM | 11:55 AM |
 
-*Computed 2026-07-03 from NOAA station 9447130 (Seattle) predictions. The full month is on the [July 2026 calendar](/beaches/wa/seattle-wa/2026-07/).*
+*Re-verified 2026-09-27 from NOAA station 9447130 (Seattle) predictions. The historical heights and times are unchanged. The full month is on the [July 2026 calendar](/beaches/wa/seattle-wa/2026-07/); arrive-by times are calculated planning offsets, not confirmation of shore access.*
 
-Read down the time column: 8:49, 9:40, 10:31, 11:20, 12:08, 12:55. Each low arrives 47 to 51 minutes after the previous day's — the lunar day's 50-minute lag, visible in a tide table. Over six days the low walks from mid-morning to just past lunch while deepening to -3.80 ft on July 14, the deepest daylight low of Seattle's year. This is what "summer minus tides land near dawn and midday" means in practice: the run starts early and the lunar lag walks it through noon. The [Tide Window Finder](/tools/tide-window-finder/) turns any such run into an arrive-by time.
+Read down the time column: 8:49, 9:40, 10:31, 11:20, 12:08, 12:55. Each low is 47 to 51 minutes later than the previous day's — the lunar day's roughly 50-minute lag, visible in a tide table. Over six days the predicted low moved from mid-morning to just past lunch while deepening to -3.80 ft on July 14, Seattle's deepest qualifying low in the July–December sample. This example also shows why "summer morning" does not mean every low is at dawn. The [Tide Window Finder](/tools/tide-window-finder/) checks upcoming dates and calculates arrive-by times.
 
 ## Where do the deep lows go in winter?
 
-Nowhere. They just stop being visible. Seattle's monthly supply of genuinely low lows barely budges through the fall; what collapses is the daylight overlap:
+They still occur, but in Seattle the qualifying daylight overlap disappears. This station's July–December comparison separates modeled below-+1-ft windows from the stricter minus-tide subset with at least 30 minutes of window/daylight overlap:
 
-| Month (2026) | Lows below +1 ft | Daylight minus tides |
+| Month (2026) | Modeled below-+1-ft windows | Qualifying minus-tide windows |
 |---|---|---|
-| July | 22 | 18 |
+| July | 24 | 20 |
 | August | 21 | 13 |
 | September | 19 | 6 |
-| October | 22 | 0 |
+| October | 20 | 0 |
 | November | 21 | 0 |
 | December | 21 | 0 |
 
-*Computed 2026-07-03 from NOAA station 9447130 (Seattle) predictions.*
+*Recomputed 2026-09-27 from NOAA station 9447130 (Seattle) predictions; complete July–December station-local months. The middle column counts resolved windows in Tidewindow's model, not every predicted low below the threshold: very brief or unresolved dips can be omitted.*
 
-October has 22 lows below +1 ft MLLW, exactly as many as July, and not one daylight minus tide. Two things did that: the deep low crossed to the night half of the clock as the declination geometry reversed, and daylight itself contracted around what remained. The daytime water in winter runs high instead — that is [king tide season](/guides/king-tides-2026-2027-dates/), the same tilt showing its other face. You can watch the collapse month by month, for every station, on the [daylight-minus-tide index](/data/daylight-minus-tide-index/).
+October has 20 modeled below-+1-ft windows versus July's 24, but no qualifying minus-tide window versus July's 20. November and December each have 21 modeled windows and no qualifying minus windows. That result is specific to Seattle; other Pacific stations can retain daylight-overlap windows in winter. The seasonal shift in the deeper low and shorter days both matter. For the high-water side, see the [king tide schedule](/guides/king-tides-2026-2027-dates/). The [daylight-minus-tide index](/data/daylight-minus-tide-index/) offers a separate rolling-year station comparison, not this fixed July–December sample.
 
-The practical summary is unromantic. On the Pacific coast, a summer minus tide is a morning appointment, and the schedule was set by a 23.5-degree tilt long before you bought boots. The [methodology page](/methodology/) documents exactly how each window in these counts is defined and scored. Set the alarm; the moon will not move it for you.
+The practical summary is unromantic: start with morning predictions for a summer trip, then check the actual station, date, daylight and access. The [methodology page](/methodology/) documents how each window in these counts is defined and scored. A seasonal tendency helps narrow the search; it does not set the appointment.
