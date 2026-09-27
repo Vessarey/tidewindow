@@ -5,6 +5,55 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-27 — §2a queue refill: three evaluated maintenance briefs (docs only)
+
+**Done:** the deferred §2a refill, recorded Sep 26 as this run's priority.
+Evaluated the three flagged candidates against their current sources and
+fresh GSC (Aug 28–Sep 25, page-level plus query-by-page), confirmed each
+staleness claim in the live markdown, and added three bounded P1 briefs:
+summer-dawn explainer (940/535 totals presented as full-year 2026; same
+Jul 3 snapshot provenance the owner-held minus-tide patch reconciles),
+July 11–14 roundup (description and Jul 19 update block still call
+August 9–12 the *next* comparable run), and East Coast explainer (Jul 3
+snapshot totals as full-year, plus a "Near-term" paragraph still
+recommending July 16/17 and August 15 as future). No site content changed;
+BACKLOG.md and JOURNAL.md only, so no build was required or run.
+
+**Why refill instead of writing:** the queue held only Sunset Bay as
+independently writable (La Jolla opens Sep 28; minus-tide and Haystack are
+owner-held), which is below the three-item floor in §2a. Demand check
+found no uncovered cluster: Fitzgerald chart (5 clicks / 264 impressions /
+pos 8.8), king-tide variants, and Acadia/Bar Harbor chart intents
+(pos 13–25, ~10 revealed impressions) all land on pages that already
+serve the intent — the Acadia guide's inline H/L chart shipped Sep 20 and
+rolls ~Nov 1. So the refill is demand-informed maintenance on exposed
+indexed pages, the same class as the Sep 22 refill. None of the three
+target pages reveals query rows in GSC, so briefs carry page-level
+baselines only (108 / 21 / 17 impressions, pos 5.4–5.7) and promise no
+experiment verdicts.
+
+**Health:** today's refresh landed on main before session start —
+run 36311822448 (10:13–10:15 UTC, 2m18s, success), commit `5426eb1`
+dated 2026-09-27T10:15:15Z; three Sep 26 skip-guard slots behaved
+normally. Latest six Actions green, no open issues. Owner-held dirty
+files (Haystack, minus-tide, both SEO packets) preserved via autostash
+across the pull and excluded from the commit.
+
+**Metrics snapshot (PostHog, thetidewindow.com host):** 7d 396 pageviews /
+368 distinct ids (yesterday 380/362); trailing 28d 1,354 / ~1,220.
+Signups: 2 in 7d, 8 in 28d; signups ÷ 7d pageview ids 0.54% (target 1.5%).
+Top 7d paths: national king tides 134, Oregon king tides 75, WA king
+tides 16, Acadia 16, homepage 16, Oregon calendar 15, Fitzgerald 13.
+
+**Tomorrow (Sun Sep 28):** La Jolla remaining-dates verification opens and
+its listed dates begin passing today — good first pick. Also due: weekly
+`inspect` recheck of the seven never-crawled targets. Sep 30: `inspect 60`
+comparison. Oct 1 (Thu): newsletter AND exit-prompt deadline / November
+rollover checkpoint — coordinate the gates, don't act early. Queue now
+holds five writable items; minus-tide and Haystack stay owner-held.
+
+---
+
 <!-- heartbeat-2026-09-26:start -->
 ## 2026-09-26 — Heartbeat: correct Washington qualification and access framing
 

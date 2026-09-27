@@ -17,8 +17,19 @@ with the date; add discoveries at the appropriate tier.
       the three covered stations. Tables/title/description/gates retained.
       Content commit `ca20284`; isolated build, 56 tests, 33 internal links,
       FAQ schema and 1280/375px calendar-gate checks passed. See journal.
-- [ ] **Next run: §2a queue refill before another routine article.**
-      Only Sunset Bay is independently ready now; La Jolla opens Sep 28,
+- [x] **Next run: §2a queue refill before another routine article.**
+      **Done 2026-09-27 operator:** evaluated all three candidates against
+      current sources and fresh Aug 28–Sep 25 GSC (page-level plus
+      query-by-page; none of the three reveals query rows, so evidence is
+      page-level exposure only). All three staleness claims confirmed in
+      source; three bounded maintenance briefs added at the top of P1.
+      No uncovered query cluster ≥ threshold exists: Fitzgerald chart
+      (264 impr / pos 8.8), king-tide variants, and Acadia/Bar Harbor
+      chart intents (pos 13–25) all land on pages that already serve the
+      intent (Acadia guide's inline H/L shipped Sep 20; next chart roll
+      ~Nov 1). Queue now holds five writable items: Sunset Bay (ready),
+      La Jolla (opens Sep 28), and the three briefs below. See journal.
+      Original item: Only Sunset Bay is independently ready now; La Jolla opens Sep 28,
       while Haystack and minus-tide explainer are owner-held local work.
       Today's refill investigation was superseded by the live factual
       contradiction above; no refill is claimed. Fresh Aug 28–Sep 24 GSC
@@ -208,6 +219,63 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- operator-2026-09-27-refill:start -->
+- [ ] **Summer-dawn explainer — reconcile the 940/535 "2026" totals and
+      hour histogram provenance** (Sep 27 §2a refill; maintenance, not a
+      new page). Target `why-summer-lowest-tides-happen-at-dawn-pacific`;
+      GSC Aug 28–Sep 25: 2 clicks / 108 impressions / pos 5.7; no page
+      query rows revealed. Dated 2026-07-02, never updated. The lead, body
+      and three FAQs present 940 minus tides / 535 daylight ("269 of 535
+      between 3 and 9 AM", "56 at 6 AM", "51 at 5 PM") as full-year 2026
+      totals across the 11 West Coast stations — the same Jul 3 snapshot
+      provenance the owner-held minus-tide refresh reconciled to an
+      explicit Jul 1–Dec 31 range with different totals (953/548 as of
+      Sep 22). Reconcile provenance, recompute the whole hour histogram
+      and every derived count/percentage from current fact sheets with an
+      explicit stated range, and relabel — never silently keep old numbers
+      as full-year facts. The winter FAQ's Seattle Nov/Dec counts and the
+      Jul 14 −3.8 ft claim must be re-verified against current sheets and
+      scoped historical where passed. Keep title/slug/date/gates; honest
+      `updated:`. Physics explanation (declination, lunar day) is sound —
+      this is numeric provenance maintenance only. Do not duplicate or
+      ship the owner-held minus-tide patch through this item.
+- [ ] **July 11–14 roundup — retire "next comparable run is August 9–12"**
+      (Sep 27 §2a refill; maintenance). Target
+      `west-coast-minus-tides-july-11-14-2026`; GSC Aug 28–Sep 25:
+      0 clicks / 21 impressions / pos 5.4; no page query rows revealed.
+      Updated 2026-07-19; its description AND its July 19 update block
+      still say the next comparable West Coast minus tides land August
+      9–12 with per-station depths — six weeks past. Mark the August run
+      historical (re-verify its quoted numbers against committed data
+      before labeling, per the tide-table-explainer precedent), state
+      what actually remains in 2026 from current fact sheets with the
+      ≥30-minute daylight-overlap definition stated explicitly, and fix
+      the description (≤155 chars). Historical July tables stay. Keep
+      title/slug/gates; this page is a dated event roundup, so framing is
+      archival-plus-pointer, not a rewrite. Check internal month-page
+      links still resolve (2026-08 pages exist; verify).
+- [ ] **East Coast explainer — scope the Bar Harbor "2026" totals and
+      roll the passed near-term picks** (Sep 27 §2a refill; maintenance).
+      Target `east-coast-tide-pooling-different`; GSC Aug 28–Sep 25:
+      0 clicks / 17 impressions / pos 5.5; no page query rows revealed.
+      Dated 2026-07-03, never updated. "90 minus tides / 52 daylight
+      (58%)", "34 of 52 between 1 PM and 8 PM", monthly-count table,
+      "deepest daylight lows of 2026" (−1.65 Bar Harbor / −1.88 La Jolla,
+      both Dec 24) and the 57% West Coast share all trace to the Jul 3
+      snapshot presented as full-year; recompute from current fact sheets
+      with an explicit range label. The "Near-term" paragraph still
+      recommends July 16/17 mornings and Saturday August 15 as future —
+      replace with current upcoming Bar Harbor windows or mark historical.
+      Re-verify the NPS Acadia tidepooling quotes and datum-table values
+      at write time. Keep title/slug/gates and the semidiurnal-vs-mixed
+      teaching structure intact.
+
+All three are demand-informed factual maintenance on exposed, indexed pages
+(same class as the Sep 22 refill), not new keyword pages and not conversion
+experiments. Plain build + recompute-check at implementation; do not touch
+the owner-held Haystack or minus-tide local changes.
+<!-- operator-2026-09-27-refill:end -->
 
 <!-- heartbeat-2026-09-22-refill:start -->
 - [ ] **Minus-tide explainer — reconcile period, counts and daylight meaning**
