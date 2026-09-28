@@ -433,6 +433,15 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       Build + 56 tests + five official-source 200s passed. Ship baseline
       exact GSC Aug 29–Sep 25: 0 clicks / 46 impressions / pos 6.07.
       Factual maintenance, no experiment verdict promised. See journal.
+      **Sep 28 heartbeat correction (`f55b540`):** the retained figures
+      28/25 are modeled Nov/Dec windows, not all raw lows (30/26).
+      Column/note now explicit. Removed "everything left is daylight":
+      eight of 34 remaining qualifying minus windows have an after-sunset
+      low, including Nov 26 and Dec 26 in the top-eight table. Corrected
+      Dec 26's daylight-before-low wording, September-all-past claim and
+      modeled-window/access conflation. All table values and operator
+      corrections retained. Isolated build, 56 tests, complete-range and
+      browser checks passed. See heartbeat journal for baseline/release.
       Original item: GSC 28d: 1 click / 44 impressions / pos 5.7; updated
       Aug 18. Its ranked "best remaining 2026 dates" begin at Sep 27 —
       about to be passed. After Sep 27, re-verify every listed date/
@@ -1345,6 +1354,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       raw-count/window-count contract with regression checks before schema
       changes; never hand-edit generated data or conflate this with zero
       daylight-minus windows. No pipeline changes in the Sep 27 heartbeat.
+      **Sep 28 recurrence:** today's La Jolla refresh called 28 November
+      windows "lows"; raw NOAA negative/positive extrema show 30 lows
+      below +1 ft. December is likewise 26 raw vs 25 modeled. Article
+      fixed in `f55b540`, but shared schema/consumer audit remains open.
+      Before publishing any such count, check whether the source counts
+      raw tide extrema or resolved windows and label that exact quantity.
 
 - [x] **2026-09-07: fact-sheet date scope fixed and regression-gated (6bca506).**
       Shared `fact-range.mjs` now filters station/coast aggregates to the

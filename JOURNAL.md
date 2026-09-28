@@ -5,6 +5,154 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-09-28:start -->
+## 2026-09-28 — Heartbeat: La Jolla prediction/daylight qualification correction
+
+**One primary improvement:** corrected prediction semantics in today's La
+Jolla release, commit `f55b540`. Read playbook, latest three journal entries,
+backlog, dirty state, today's commits, Actions and issues before selecting it.
+Pull already current at `56a1473`. The operator's remaining-dates/species
+refresh (`0fcbf28`) and exact seven-target crawl inspection were already done;
+neither repeated. No new article generated. Both owner-held patches and both
+evidence packets excluded throughout. The SEO skill prioritized demonstrated
+reader-facing errors over an under-floor snippet/conversion experiment.
+
+| Candidate | Exact GSC Aug 29–Sep 25 evidence | Decision |
+|---|---|---|
+| La Jolla guide | 0 clicks / 46 impressions / 0% CTR / pos 6.07; prior Aug 1–28: 3/54/5.56%/5.37. Live text equated qualifying windows with daylight at the low and modeled counts with raw lows. | High-confidence correction to today's same article; no uplift claim. |
+| July roundup / East Coast explainer | 0/23/0%/5.39 and 0/22/0%/6.14. | Lower exposure; leave bounded maintenance briefs queued. |
+| Crawl-path work | Morning inspection reports three of seven now indexed; four still not crawled. | Do not duplicate another link pass before Sep 30. |
+
+**Evidence and change:** complete inclusive Sep 28–Dec 31 La Jolla arrays,
+not just top eight: 90 modeled windows, 54 with ≥30 daylight minutes, 34
+qualifying minus windows, **eight with their low after sunset**. The published
+"Everything left this year happens in daylight" was false. Nov 26 low 4:46 PM
+follows sunset 4:43 PM; Dec 26 low 5:18 PM follows sunset 4:49 PM. Its 130
+daylight minutes occur before the low, not daylight "left" afterward.
+Lead, two FAQs and surrounding interpretation now distinguish window overlap,
+daylight at the low, prediction from observation, and score from access/safety.
+Removed "headlamp season"/"went off as computed" claims and the unsupported
+claim that modeled windows are always tighter than a four-hour rule of thumb.
+The Cabrillo safety paragraph now points directly to NPS guidance, not an
+invented La Jolla access schedule. Official NOAA, both CDFW MPA and both NPS
+references re-fetched today; no new access/closure advice invented.
+
+Reproduced yesterday's count-label failure on this page: November has **30
+raw NOAA lows below +1 ft, but 28 modeled windows**; December **26 vs 25**.
+The fact field `lows_below_1ft` counts resolved windows. Kept all table values,
+renamed the column "Modeled windows," and explained omitted brief/unresolved
+dips. September's best window (Sep 27) is past, but three positive-height
+daylight-overlap windows remain Sep 28–30; corrected the blanket "September's
+windows are now past" note. October has 34 modeled windows, of which 14 meet
+the daylight threshold; the month-link description now identifies that subset.
+
+Preserved all three tables' data (eight ranked dates, four monthly rows,
+species), all operator improvements, title/slug/station, publish/update dates,
+source list and gate configuration. Trimmed description 157→153 characters to
+meet the existing gate; lead is 75 words, FAQs five. Full-range checks retain
+Oct 11 as first remaining qualifying minus window, Oct 25 first Good window,
+Dec 25 sole 90+ window, Dec 24 deepest remaining qualifying low, Jan 21 deepest
+qualifying low in Oct 2026–Mar 2027. No title experiment or pipeline change.
+
+**Validation:** isolated snapshot `/tmp/tidewindow-sep28-verify.eAE9Le` plus
+this article only; copied installed dependencies, excluded credentials/held
+patches and left original workspace export untouched. Final plain build green:
+137 routes, 12 stations × four months / 124 sitemap URLs, **56 tests** (42 facts,
+6 math, 8 formatting). `node verify-la-jolla.mjs` in that snapshot asserts
+all retained table data, eight-date rank against complete period, 34/8 count,
+both sunsets, sole Exceptional/first Good/first minus dates, raw-vs-modeled
+counts, metadata bounds, five rendered FAQs, canonical and 36 internal links.
+Desktop 1280/mobile 375: no document overflow; tables use existing horizontal
+overflow containers (mobile client 335px, first two scroll widths 345/351px).
+Calendar gate opens to an empty email form without submission; article → Finder
+→ La Jolla loads fresh Sep 28 predictions, Oct 25 best score 65. No observed
+warn/error logs. No generated data changed in the actual checkout.
+
+**Health:** latest five Actions green; open issues empty. Actual NOAA refresh
+[36414467961](https://github.com/Vessarey/tidewindow/actions/runs/36414467961)
+ran 11:14:27–11:17:02Z and landed `1dd1ee2` at 11:16:55Z. Later 15:32 slot
+skipped normally. Log confirms 56 tests, 124 verified URLs, IndexNow HTTP 200.
+Four slots, same-day guard, six NOAA attempts and push retries unchanged;
+no recovery dispatch. Live index/La Jolla JSON HTTP 200, byte-equal to committed
+files, generated **2026-09-28T11:14:49.240Z**. Morning Vercel status success.
+Production dependency audit reports zero vulnerabilities. No score-90+ windows
+Sep 28–Oct 12; October monthly high-water peaks Oct 27–29 are outside trigger.
+
+**PostHog:** native connection still requires reauthentication; configured
+read-only API worked. Project 495836 / America/New_York, schema rechecked.
+Exact host `thetidewindow.com` and traffic class `Regular`, trailing periods
+end exclusively **2026-09-28 17:16:45 UTC**, before this QA.
+
+| Period | Pageviews / distinct IDs | Signup events / IDs | Signups ÷ pageview IDs |
+|---|---:|---:|---:|
+| 7d | 487 / 455 | 1 / 1 | 0.22% |
+| 28d | 1,457 / 1,315 | 7 / 7 | 0.53% |
+
+Descriptive ratios, not matched funnels, active subscriber counts or certified
+humans. Zero explicit agent fields/known bot-headless UA matches is not proof
+of humanity. Top 7d paths: national king tides 187, Oregon king tides 86,
+Acadia 26, home 19, Washington king tides 16, Fitzgerald 11, Oregon calendar
+10. Referrer pageviews: Google 103, Bing 98, DuckDuckGo 93, direct 80, Yahoo
+58; not GSC clicks. Tool events: 14 selections / 10 IDs, 10 results / 6 IDs,
+5 Trip Picker runs / 4 IDs, 3 ZIP uses / 2 IDs, 5 gate events / 4 IDs (month 2,
+article 2, tool 1), one tool-gate signup and one ICS reveal. In 28d gates are
+21 events / 20 IDs and signups seven, below the 30-event floor. Exit since
+Jul 27: **79 impressions / 1 signup**, below 100. Keep closed-unmeasurable;
+owner's separate Oct 1 retirement instruction still applies.
+LCP-bearing 24h sample **36**, p75 **700 ms**, p90 **1,238 ms**; a checkpoint,
+not a causal trend claim. Exception coverage still unverified: opt-in null,
+`$exception` absent from taxonomy, 7d pageview flag 427 missing / 60 false /
+zero true. Do not report zero production errors from missing instrumentation.
+
+**GSC:** Web/final, `sc-domain:thetidewindow.com`, all devices/countries;
+latest final day Sep 25 confirmed with date query. 25,000-row limit, 62 page
+and 328 query rows, no cap reached; property totals below are ungrouped.
+
+| Period | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| Aug 29–Sep 25 | 223 | 13,755 | 1.62% | 7.39 |
+| Aug 1–28 | 111 | 8,838 | 1.26% | 8.73 |
+| Sep 19–25 | 57 | 2,980 | 1.91% | 6.94 |
+| Sep 12–18 | 56 | 3,784 | 1.48% | 7.38 |
+
+28d clicks +100.9%, impressions +55.6%; 7d clicks +1.8%, impressions −21.2%.
+Directional site results, not proof of effects from recent edits. La Jolla's
+one visible query (`negative tide san diego`, one impression, pos 1) cannot
+explain its 46 page impressions. No tiny-sample CTR verdict. National/Fitzgerald/
+Oregon calendar remain top guides (73/3,863; 46/1,738; 25/533 clicks/impressions).
+
+**Crawl coordination:** morning operator reported best-time, sneaker-wave and
+Oregon comparison indexed/crawled Sep 27; how-low, California comparison and
+Cabrillo still Discovered, Trip Picker unknown. This timing does not prove the
+homepage links caused crawling or diagnose Google crawl-budget limits. No
+duplicate seven-URL inspection or early full batch. Independently checked
+live Trip Picker HTTP 200, self-canonical, index/follow, robots allow-all and
+membership in the 124-URL sitemap; no demonstrated technical blocker there.
+
+**Time-bombs / next:** Sep 24 broadcast remains sent (12:05:59.478897Z), with
+no bounce/complaint metric fields; unknown, not zero. No send/audience writes.
+[NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm) still lists
+Mora closure Jul 8–Oct 15; do not infer reopening. Three writable maintenance
+briefs remain (July roundup, East Coast, Sunset Bay). Sep 30 inspect-60;
+Oct 1 Thursday newsletter + November indexing gate + month-title readout +
+exit-prompt owner deadline; Oct 5 national query readout; Oct 15 NPS check.
+Both owner-held releases still need approval. Count-label contract/consumer
+audit remains queued, with this recurrence added as evidence.
+
+**Release verified:** `f55b540` pushed; [Vercel deployment](https://vercel.com/vessareys-projects/tidewindow/8f8ZhVTWNw2A3NmqZvDybxtC4npV)
+reports success. Live article shows the corrected lead, modeled-window header,
+sunset qualifications and FAQs. Production 375px document width equals viewport;
+calendar gate opens an empty email form, no submission and no observed console
+warnings/errors. Homepage, article, sitemap and both data JSON endpoints return
+HTTP 200; sitemap still has 124 URLs and data remains byte-equal to committed
+Sep 28 predictions. Both held article hashes and both evidence-packet hashes
+(47/37 files) match the preflight baseline. Temporary preview stopped, viewport
+reset and QA tab closed. Only this article plus journal/backlog records changed;
+no audience, experiment, pipeline or owner-held release mutations.
+<!-- heartbeat-2026-09-28:end -->
+
+---
+
 ## 2026-09-28 — La Jolla verification pass + weekly crawl check (3 of 7 now indexed)
 
 **Primary (§2e / P1, due today):** La Jolla remaining-dates verification,
