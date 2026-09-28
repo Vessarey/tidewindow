@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-27",
+ "generated_on": "2026-09-28",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -76,18 +76,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": -0.408,
-   "low_time_local": "7:49 PM",
-   "window_local": "6:15 PM–9:25 PM",
-   "arrive_by_local": "6:49 PM",
-   "daylight_min": 51,
-   "score": 45,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": -0.375,
@@ -109,6 +97,18 @@
    "daylight_min": 35,
    "score": 41,
    "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.188,
+   "low_time_local": "5:20 PM",
+   "window_local": "3:50 PM–6:50 PM",
+   "arrive_by_local": "4:20 PM",
+   "daylight_min": 61,
+   "score": 38,
+   "band": "Skip",
    "weekend_or_holiday": true
   }
  ],
@@ -1989,34 +1989,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": 0.767,
-   "low_time_local": "7:16 AM",
-   "window_local": "6:45 AM–7:50 AM",
-   "arrive_by_local": "6:16 AM",
-   "daylight_min": 38,
-   "score": 24,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 92,
-   "min_to_sun_edge": 4
-  },
-  {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": -0.408,
-   "low_time_local": "7:49 PM",
-   "window_local": "6:15 PM–9:25 PM",
-   "arrive_by_local": "6:49 PM",
-   "daylight_min": 51,
-   "score": 45,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 276,
-   "min_to_sun_edge": -43
-  },
-  {
    "date": "2026-10-08",
    "weekday": "Thu",
    "low_ft": 0.878,
@@ -2071,6 +2043,34 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 252,
    "min_to_sun_edge": 5
+  },
+  {
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "low_ft": -0.714,
+   "low_time_local": "6:48 PM",
+   "window_local": "5:00 PM–8:35 PM",
+   "arrive_by_local": "5:48 PM",
+   "daylight_min": 71,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 259,
+   "min_to_sun_edge": -37
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "low_ft": -1.337,
+   "low_time_local": "7:29 PM",
+   "window_local": "5:30 PM–9:30 PM",
+   "arrive_by_local": "6:29 PM",
+   "daylight_min": 40,
+   "score": 49,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 266,
+   "min_to_sun_edge": -79
   }
  ],
  "species_last60d_5km": [

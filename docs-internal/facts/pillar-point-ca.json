@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-27",
+ "generated_on": "2026-09-28",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -39,6 +39,18 @@
    "score": 75,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-26",
+   "weekday": "Thu",
+   "low_ft": -1.682,
+   "low_time_local": "6:12 PM",
+   "window_local": "3:20 PM–9:25 PM",
+   "arrive_by_local": "5:12 PM",
+   "daylight_min": 93,
+   "score": 75,
+   "band": "Great",
+   "weekend_or_holiday": true
   },
   {
    "date": "2026-11-23",
@@ -97,18 +109,6 @@
    "arrive_by_local": "4:42 PM",
    "daylight_min": 183,
    "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-10-27",
-   "weekday": "Tue",
-   "low_ft": -1.152,
-   "low_time_local": "6:29 PM",
-   "window_local": "3:55 PM–9:20 PM",
-   "arrive_by_local": "5:29 PM",
-   "daylight_min": 142,
-   "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
   }
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": 0.19,
-   "low_time_local": "5:57 PM",
-   "window_local": "4:20 PM–7:40 PM",
-   "arrive_by_local": "4:57 PM",
-   "daylight_min": 159,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 259,
-   "min_to_sun_edge": 62
-  },
-  {
    "date": "2026-09-28",
    "weekday": "Mon",
    "low_ft": -0.106,
@@ -2072,23 +2058,47 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 263,
    "min_to_sun_edge": -12
+  },
+  {
+   "date": "2026-10-13",
+   "weekday": "Tue",
+   "low_ft": -0.051,
+   "low_time_local": "7:30 PM",
+   "window_local": "5:30 PM–9:45 PM",
+   "arrive_by_local": "6:30 PM",
+   "daylight_min": 65,
+   "score": 30,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 269,
+   "min_to_sun_edge": -55
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 25
+   "count": 33
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 19
+   "count": 18
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 16
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 12
+   "count": 13
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 11
   },
   {
    "commonName": "Hammerhead Doto",
@@ -2096,23 +2106,13 @@
    "count": 10
   },
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
    "count": 10
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 9
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 7
-  },
-  {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
    "count": 7
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-27",
+ "generated_on": "2026-09-28",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-27",
-   "weekday": "Sun",
-   "low_ft": 0.016,
-   "low_time_local": "7:11 PM",
-   "window_local": "5:45 PM–8:40 PM",
-   "arrive_by_local": "6:11 PM",
-   "daylight_min": 81,
-   "score": 41,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 269,
-   "min_to_sun_edge": -5
-  },
-  {
    "date": "2026-09-28",
    "weekday": "Mon",
    "low_ft": -0.426,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 273,
    "min_to_sun_edge": -73
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.289,
+   "low_time_local": "5:31 PM",
+   "window_local": "4:15 PM–6:50 PM",
+   "arrive_by_local": "4:31 PM",
+   "daylight_min": 126,
+   "score": 41,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 246,
+   "min_to_sun_edge": 50
   }
  ],
  "species_last60d_5km": [
@@ -2083,12 +2083,12 @@
   {
    "commonName": "Clown Dorid",
    "scientificName": "Triopha catalinae",
-   "count": 3
+   "count": 2
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 3
+   "count": 2
   },
   {
    "commonName": "Nanaimo Dorid",
@@ -2103,11 +2103,6 @@
   {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
-   "count": 1
-  },
-  {
-   "commonName": "Black Leather Chiton",
-   "scientificName": "Katharina tunicata",
    "count": 1
   },
   {
