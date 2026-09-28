@@ -5,6 +5,78 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-28 — La Jolla verification pass + weekly crawl check (3 of 7 now indexed)
+
+**Primary (§2e / P1, due today):** La Jolla remaining-dates verification,
+commit `0fcbf28`. Re-verified every listed date and height in
+`la-jolla-tide-pools-best-dates-2026` against the fact sheet regenerated
+today (2026-09-28): the top-8 remaining table (Dec 24 −1.878 / Dec 23
+−1.803 / Dec 25 −1.715 score 90 / Nov 25 −1.507 / Dec 22 −1.485 / Nov 26
+−1.400 / Nov 24 −1.396 / Dec 26 −1.346), both December FAQs, the Jan 21
+2027 king-season claim (−1.894 ft 2:48 PM) and the July 13–17 record-book
+paragraph (deepest −1.63 ft, Jul 14 4:12 AM) are all unchanged — re-stamped,
+not rewritten. Three real corrections: (1) November has **28** lows below
++1.0 ft in the current sheet, not 29; (2) the FAQ claim "daylight minus
+tides return starting October 25" was wrong — committed window data shows
+October's six daylight minus tides begin **Oct 11** (−0.064 ft, 4:27 PM,
+226 daylight min, Fair 59), so the FAQ and body now call Oct 11 the first
+(barely) and Oct 25 (−0.366 ft, Good 65) the first Good-rated window,
+opening the five-afternoon Oct 25–29 minus run; (3) the near-term section
+claimed "nothing in the next 60 days scores above Fair," which is false
+from today (Nov 24–26 Great windows are within 60 days) — rolled it past
+the now-passed Sep 27 window, moved the month link from the September to
+the October calendar page, and reframed toward the Thanksgiving trio.
+Also scoped "most of any 2026 month" to the Jul–Dec dataset, marked
+August/September figures as closed (Aug: 23 lows / 2 daylight minus), and
+refreshed the species table to the current 60-day iNaturalist log
+(197 top-10 observations, all sea slugs; Hamann's aeolid 68, Sorcerer's
+dorid back to second at 24; was 538 in mid-August).
+
+**Gates:** plain `npm run build` green — 137 routes, verify-output OK
+(12 stations × 4 months, 124 sitemap URLs), 42 fact + 6 math + 8 format
+tests pass. Five key official sources re-fetched HTTP 200 (two CDFW MPA
+pages, two NPS tidepool pages, NOAA station home). Diff review: only the
+one article; owner-held Haystack/minus-tide files and both SEO packets
+untouched (preserved via `--autostash` on pull) and excluded from the
+commit. Ship baseline, exact GSC Aug 29–Sep 25: **0 clicks / 46
+impressions / pos 6.07**; 0 PostHog production pageviews in the last 7d.
+Factual maintenance — no experiment verdict promised.
+
+**Weekly crawl check (§2a′, due today):** exact-URL inspection of the
+seven homepage-linked targets. **Three are now Submitted-and-indexed**,
+all crawled Sep 27: best-time-to-go, sneaker-wave, best-tide-pools-oregon
+— the first movement on these surfaces since they shipped, six days after
+the Sep 21 homepage "Know before you go" section, where article-level and
+boilerplate links had earned nothing in a month. Four remain uncrawled:
+how-low, best-tide-pools-california, cabrillo (all still
+Discovered–never-crawled) and trip-picker, which now reports "URL is
+unknown to Google" (it sampled as Discovered in past runs; noting the
+regression, not acting on it). Per the Sep 21 plan: the homepage path
+demonstrably earns crawls, the rest is Google-side crawl-budget lag — no
+new link pass; the Sep 30 `inspect 60` comparison judges the full picture.
+
+**Health:** today's refresh landed before session start — run 36414467961
+(11:14:27Z, 2m35s, success), commit `1dd1ee2` at 11:16:55Z; five latest
+Actions green, no open issues. Sunday–Monday boundary note: no newsletter
+action today; next send is Thursday Oct 1.
+
+**Metrics (PostHog 495836, thetidewindow.com host):** 7d 451 pageviews /
+420 distinct ids / 1 signup (0.24%); 28d 1,424 / 1,283 / 7 signups
+(0.55%; target 1.5%). Top 7d paths: national king tides 166, Oregon king
+tides 78, Acadia 28, home 19, WA king tides 14, Fitzgerald 12. GSC final
+data now through Sep 25 (Sep 25: 7 clicks / 622 impressions / pos 6.8);
+descriptive ratios, not funnels or verdicts.
+
+**Tomorrow (Tue Sep 29):** queue still holds three writable items (July
+roundup, East Coast explainer, Sunset Bay) — pick one, or take the
+Sep 30 `inspect 60` a day early only if nothing else is due. Sep 30:
+`inspect 60` indexing comparison. Oct 1 (Thu): newsletter ritual AND
+November rollover checkpoint AND owner exit-prompt deadline — coordinate,
+don't act early. Oct 5: national king-tides query readout. Oct 15: NPS
+Mora closure recheck. Both owner-held releases still await approval.
+
+---
+
 <!-- heartbeat-2026-09-27:start -->
 ## 2026-09-27 — Heartbeat: summer-dawn explainer scope and count correction
 

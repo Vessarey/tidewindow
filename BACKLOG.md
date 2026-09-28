@@ -419,8 +419,21 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       `docs-internal/seo-refresh-2026-09-21/README.md` and exact patch.
       Do not duplicate this local edit or mark it shipped until deployment
       is authorized and live output verified.
-- [ ] **La Jolla remaining-dates verification pass** (added 2026-09-21
-      refill). GSC 28d: 1 click / 44 impressions / pos 5.7; updated
+- [x] **La Jolla remaining-dates verification pass** (added 2026-09-21
+      refill). **Done 2026-09-28 operator (`0fcbf28`):** every listed
+      date/height re-verified against the 2026-09-28 fact sheet — top-8
+      table, December FAQs, Jan 21 2027 and July record-book claims all
+      unchanged. Corrected November lows-below-+1ft 29 → 28, fixed the
+      false "daylight minus tides return Oct 25" claim (first is Oct 11,
+      −0.064 ft; Oct 25 is the first Good window, opening the Oct 25–29
+      run), rolled the near-term section past Sep 27 (the "nothing above
+      Fair in 60 days" claim is false from today — Thanksgiving Great
+      windows are inside 60 days), moved the month link Sep → Oct, and
+      refreshed the 60-day species log (197 obs, Hamann's aeolid 68).
+      Build + 56 tests + five official-source 200s passed. Ship baseline
+      exact GSC Aug 29–Sep 25: 0 clicks / 46 impressions / pos 6.07.
+      Factual maintenance, no experiment verdict promised. See journal.
+      Original item: GSC 28d: 1 click / 44 impressions / pos 5.7; updated
       Aug 18. Its ranked "best remaining 2026 dates" begin at Sep 27 —
       about to be passed. After Sep 27, re-verify every listed date/
       height against the current fact sheet, drop or re-mark passed
