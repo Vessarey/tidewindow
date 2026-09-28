@@ -1,6 +1,6 @@
 ---
 title: "La Jolla Tide Pools: The Best Dates of 2026, Ranked"
-description: "La Jolla's best remaining 2026 tide pool dates from NOAA station 9410230 — the December afternoon minus-tide run, fall's pivot, spot notes, and species logs."
+description: "La Jolla's best remaining 2026 tide pool dates from NOAA station 9410230 — December afternoon minus-tide run, fall's pivot, spot notes, and species logs."
 date: "2026-07-03"
 updated: "2026-09-28"
 category: "station-guides"
@@ -8,9 +8,9 @@ station: "la-jolla-ca"
 tags: ["la jolla", "tide pools", "minus tide", "san diego", "NOAA 9410230"]
 faq:
   - q: "When is the best time to visit the La Jolla tide pools for the rest of 2026?"
-    a: "December 22–25, when afternoon minus tides bottom out at −1.878 ft (3:47 PM on December 24) at NOAA station 9410230. November 24–26 is a strong warm-up, with lows from −1.396 to −1.507 ft. December has 16 daylight minus tides, the most of any month in our July–December 2026 dataset for this station."
-  - q: "What is the single best La Jolla tide pool date of 2026?"
-    a: "December 25, 2026. A −1.715 ft low at 4:33 PM with a 1:45–7:40 PM window scores 90/100, the only Exceptional rating in our rest-of-2026 data for NOAA station 9410230. The deepest daylight low of 2026 is the day before: −1.878 ft at 3:47 PM on December 24."
+    a: "December 22–25 contains the deepest remaining qualifying low: −1.878 ft at 3:47 PM on December 24, NOAA 9410230. November 24–26 has lows from −1.396 to −1.507 ft, but November 26's low is after sunset. December has 16 qualifying minus-tide windows, the most in our July–December 2026 sample. Qualification means at least 30 minutes of daylight overlap in the surrounding window, not a daylight low or confirmed shore access."
+  - q: "Which remaining 2026 La Jolla window has the highest score?"
+    a: "December 25, 2026: −1.715 ft at 4:33 PM, score 90/100, the only Exceptional window remaining at NOAA 9410230. Its modeled 1:45–7:40 PM window contains 184 daylight minutes; it is not daylight throughout. December 24 has the deepest remaining qualifying low, −1.878 ft at 3:47 PM. A score ranks tide and daylight predictions, not access or safety."
   - q: "Are there good tide pool days in La Jolla this fall?"
     a: "Not really until late October. September has 29 lows below +1.0 ft at NOAA station 9410230 but zero daylight minus tides — every negative low that month lands in the dark. The first daylight minus tide back is barely one: −0.064 ft at 4:27 PM on October 11. The first Good-rated window is October 25 (−0.366 ft at 3:27 PM), and November brings 12 daylight minus tides."
   - q: "Can you collect shells or animals at the La Jolla tide pools?"
@@ -30,11 +30,11 @@ sources:
   - "https://www.inaturalist.org/"
 ---
 
-**La Jolla's best remaining tide-pool dates of 2026 all land after lunch: November 24–26 (afternoon lows to −1.507 ft) and the December 22–25 run, when the year's lowest daylight water, −1.878 ft, arrives at 3:47 PM on December 24. All heights and times here are computed from NOAA station 9410230, La Jolla (Scripps Pier). July's dawn minus tides are done for the year; from here the pools keep civilized hours — nobody needs an alarm for a 3:47 PM low.**
+**La Jolla's deepest remaining qualifying low of 2026 is −1.878 ft at 3:47 PM on December 24; December 25 has the highest remaining window score, 90/100. These are NOAA station 9410230 predictions, not confirmed beach conditions. Qualifying windows overlap daylight by at least 30 minutes, but their lows can fall after sunset: November 26 and December 26 do. Use the dates to compare predictions, not as proof that a whole outing will be in daylight.**
 
 ## Which remaining 2026 dates are worth planning around?
 
-Rank the rest of the year's daylight lows by depth and every one of the top eight is a November or December afternoon.
+Rank the remaining September 28–December 31 windows with at least 30 minutes of daylight overlap by low-tide depth, and the top eight all fall in November or December. "Daylight in window" means overlap between the modeled below-+1.0-ft interval and sunrise-to-sunset daylight; it does not mean the low itself, or the entire window, is in daylight.
 
 | Date | Day | Low (ft MLLW) | Low time | Daylight in window | Score |
 |---|---|---|---|---|---|
@@ -49,28 +49,28 @@ Rank the rest of the year's daylight lows by depth and every one of the top eigh
 
 *Computed from NOAA station 9410230 predictions; re-verified 2026-09-28, unchanged since the 2026-08-18 edition.*
 
-The depths cluster tight while the light varies a lot — December 22's window holds 317 daylight minutes, more than five hours, while December 26's 5:18 PM low leaves 130. December 25 carries the only Exceptional score in our rest-of-2026 data, 90 of 100: a −1.715 ft low at 4:33 PM, a 1:45–7:40 PM window, and a holiday to spend it on. Our scorer weighs depth, daylight overlap, and weekends together, which is how the deepest day (December 24) ranks below the most usable one. November's trio deserves more attention than it gets: the Thanksgiving stretch of November 24–26 puts three sub-−1.39 ft afternoons in a row on the reef.
+The depths cluster tight while the light varies a lot. December 22's surrounding window contains 317 daylight minutes, more than five hours. December 26's window contains 130 daylight minutes **before** its 5:18 PM low, which follows the 4:49 PM sunset. November 26's 4:46 PM low also follows sunset, at 4:43 PM. December 25 carries the only Exceptional score remaining, 90/100: a −1.715 ft low at 4:33 PM and a modeled 1:45–7:40 PM window containing 184 daylight minutes. The scorer weighs depth, daylight overlap and calendar factors; the higher score is not a judgment of shore access or safety.
 
-For the record book: the July 13–17 dawn run went off as computed — deepest −1.63 ft at 4:12 AM on Tuesday, July 14 — and closed out La Jolla's 2026 headlamp season. Everything left this year happens in daylight you can see your feet in.
+For the record book: the historical July 13–17 predictions reached −1.63 ft at 4:12 AM on Tuesday, July 14. These are predictions, not a claim that observed water matched them. The remaining season still includes dark lows: eight of the 34 qualifying minus-tide windows from September 28 through December 31 have their low after sunset. Daylight overlap is not a recommendation for a nighttime outing.
 
-The really deep water arrives after New Year's. January 21, 2027 brings a −1.894 ft low at 2:48 PM, the lowest daylight tide of the October-to-March king season; the [2026–2027 king tide calendar](/guides/king-tides-2026-2027-dates/) tracks that whole stretch.
+Looking past New Year's, January 21, 2027 has a predicted −1.894 ft low at 2:48 PM, the deepest qualifying low in the October 2026–March 2027 window dataset; the [2026–2027 king tide calendar](/guides/king-tides-2026-2027-dates/) tracks that whole stretch.
 
 ## How does the rest of 2026 look?
 
 The short version: a quiet close to September, then a very good winter. August ended with 23 lows below +1.0 ft and just two daylight minus tides, both dawn affairs, and September — the trap month — converts none of its 29 sub-+1.0-ft lows into a daylight minus tide: every negative low lands in the dark.
 
-| Month (2026) | Lows below +1.0 ft | Daylight windows | Daylight minus tides | Best window |
+| Month (2026) | Modeled windows | Daylight ≥30 min | Minus + daylight | Top score |
 |---|---|---|---|---|
 | September | 29 | 11 | 0 | Sep 27 · +0.218 ft · 4:17 PM · 55 |
 | October | 34 | 14 | 6 | Oct 25 · −0.366 ft · 3:27 PM · 65 |
 | November | 28 | 17 | 12 | Nov 26 · −1.400 ft · 4:46 PM · 82 |
 | December | 25 | 20 | 16 | Dec 25 · −1.715 ft · 4:33 PM · 90 |
 
-*Computed 2026-09-28 from NOAA station 9410230 predictions. September's windows are now past.*
+*Computed 2026-09-28 from NOAA station 9410230 predictions; complete calendar months. Modeled windows are resolved below-+1.0-ft intervals, not every predicted low below that threshold. November has 30 such predicted lows but 28 modeled windows; December has 26 but 25. Brief or unresolved dips can be omitted by the model. September's highest-scoring window, Sep 27, is past; later positive-height windows remain.*
 
 The pattern flips in October as the good lows migrate to afternoon, and by December there are 16 daylight minus tides in one month.
 
-Near-term, the season is finally turning. September's best window — +0.218 ft at 4:17 PM on Sunday, September 27, score 55 — has come and gone. Next on the calendar is the Saturday-to-Monday stretch of October 10–12, three afternoons hovering right at the zero line (scores 58–59, all Fair), and Sunday, October 11's −0.064 ft at 4:27 PM is, just barely, the first daylight minus tide of the fall. The first Good-rated window arrives Sunday, October 25 — −0.366 ft at 3:27 PM, score 65 — opening a run of five straight afternoon minus tides through October 29. The [October calendar for this station](/beaches/ca/la-jolla-ca/2026-10/) lists all 14 of that month's windows, and the [golden hour tool](/tools/golden-hour/) computes light overlap for every window as the lows drift toward sunset. From there the calendar builds quickly toward the Thanksgiving trio in the table above.
+Near-term, the season is finally turning. September's best window — +0.218 ft at 4:17 PM on Sunday, September 27, score 55 — has come and gone. Saturday–Monday, October 10–12 brings three near-zero afternoon lows (scores 58–59, all Fair); Sunday, October 11's −0.064 ft at 4:27 PM is the first remaining qualifying minus-tide window. The first Good-rated window arrives Sunday, October 25 — −0.366 ft at 3:27 PM, score 65 — opening five consecutive dates with qualifying minus-tide windows through October 29. The final low in that run is after sunset. The [October calendar for this station](/beaches/ca/la-jolla-ca/2026-10/) lists all 14 of that month's daylight-overlap windows, and the [golden hour tool](/tools/golden-hour/) computes light overlap as the lows drift toward sunset. From there the calendar builds toward the Thanksgiving dates in the table above.
 
 ## What are observers finding right now?
 
@@ -100,6 +100,6 @@ Further down the same list sit the cockscomb and opalescent nudibranchs (13 obse
 
 Two of the three spots sit against no-take marine reserves. La Jolla Cove lies within Matlahuayl State Marine Reserve, and the state lists Bird Rock and False Point within the South La Jolla MPA; in both reserves, per the California Department of Fish and Wildlife, "it is unlawful to injure, damage, take, or possess any living, geological, or cultural marine resource." Geological resource means the shells and rocks too, not just the animals. The simple policy that works everywhere on this coast: take photographs, leave the rest.
 
-For footing and waves, the National Park Service rangers at Cabrillo National Monument, down the coast at Point Loma, publish tidepool guidance worth repeating here: wear closed-toe shoes with good grip (sandals are strongly discouraged on wet, algae-covered rock), keep an eye on the ocean for occasional sneaker waves, avoid standing on rocks at the water's edge, and keep small children close. On timing, the rangers' rule of thumb is that the pools can be visited roughly two hours before low tide and two hours after. We build windows tighter than that: the [Tide Window Finder](/tools/tide-window-finder/) gives an arrive-by time one hour ahead of each low, and every formula behind the scores on this page is documented on the [methodology page](/methodology/).
+For footing and waves, see the National Park Service's [Cabrillo tidepool guidance](https://www.nps.gov/cabr/blogs/slick-rocks-steady-feet-how-to-safely-explore-the-tidepools.htm). Its site-specific timing guidance is not a La Jolla access schedule. The [Tide Window Finder](/tools/tide-window-finder/) calculates below-+1.0-ft windows and an arrive-by offset one hour before each low; these can extend outside daylight and do not establish opening hours or safe route durations. The [methodology page](/methodology/) explains the calculation.
 
-For the full year of windows at this station, including the whole December run, see the [La Jolla station page](/beaches/ca/la-jolla-ca/). If you can only pick one date, pick December 25: score 90, −1.715 ft, and the water does not care that it's Christmas.
+For the station's rolling window forecast, including the December run, see the [La Jolla station page](/beaches/ca/la-jolla-ca/). December 25 leads the remaining 2026 scores at 90 with a −1.715 ft low; that ranking does not confirm access on a holiday.
