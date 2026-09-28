@@ -2,17 +2,17 @@
 title: "La Jolla Tide Pools: The Best Dates of 2026, Ranked"
 description: "La Jolla's best remaining 2026 tide pool dates from NOAA station 9410230 — the December afternoon minus-tide run, fall's pivot, spot notes, and species logs."
 date: "2026-07-03"
-updated: "2026-08-18"
+updated: "2026-09-28"
 category: "station-guides"
 station: "la-jolla-ca"
 tags: ["la jolla", "tide pools", "minus tide", "san diego", "NOAA 9410230"]
 faq:
   - q: "When is the best time to visit the La Jolla tide pools for the rest of 2026?"
-    a: "December 22–25, when afternoon minus tides bottom out at −1.878 ft (3:47 PM on December 24) at NOAA station 9410230. November 24–26 is a strong warm-up, with lows from −1.396 to −1.507 ft. December has 16 daylight minus tides, the most of any 2026 month at this station."
+    a: "December 22–25, when afternoon minus tides bottom out at −1.878 ft (3:47 PM on December 24) at NOAA station 9410230. November 24–26 is a strong warm-up, with lows from −1.396 to −1.507 ft. December has 16 daylight minus tides, the most of any month in our July–December 2026 dataset for this station."
   - q: "What is the single best La Jolla tide pool date of 2026?"
     a: "December 25, 2026. A −1.715 ft low at 4:33 PM with a 1:45–7:40 PM window scores 90/100, the only Exceptional rating in our rest-of-2026 data for NOAA station 9410230. The deepest daylight low of 2026 is the day before: −1.878 ft at 3:47 PM on December 24."
   - q: "Are there good tide pool days in La Jolla this fall?"
-    a: "Not until late October. September has 29 lows below +1.0 ft at NOAA station 9410230 but zero daylight minus tides — every negative low that month lands in the dark. Daylight minus tides return in the afternoon starting October 25 (−0.366 ft at 3:27 PM), and November brings 12 of them."
+    a: "Not really until late October. September has 29 lows below +1.0 ft at NOAA station 9410230 but zero daylight minus tides — every negative low that month lands in the dark. The first daylight minus tide back is barely one: −0.064 ft at 4:27 PM on October 11. The first Good-rated window is October 25 (−0.366 ft at 3:27 PM), and November brings 12 daylight minus tides."
   - q: "Can you collect shells or animals at the La Jolla tide pools?"
     a: "Not in the reserves. La Jolla Cove sits in Matlahuayl State Marine Reserve, and the Bird Rock/False Point shoreline is in the South La Jolla MPA, where CDFW regulations make it unlawful to injure, damage, take, or possess any living, geological, or cultural marine resource."
   - q: "Which La Jolla tide pool spot is easiest to reach?"
@@ -47,7 +47,7 @@ Rank the rest of the year's daylight lows by depth and every one of the top eigh
 | Nov 24 | Tue | −1.396 | 3:06 PM | 254 min | 75 · Great |
 | Dec 26 | Sat | −1.346 | 5:18 PM | 130 min | 75 · Great |
 
-*Computed 2026-08-18 from NOAA station 9410230 predictions.*
+*Computed from NOAA station 9410230 predictions; re-verified 2026-09-28, unchanged since the 2026-08-18 edition.*
 
 The depths cluster tight while the light varies a lot — December 22's window holds 317 daylight minutes, more than five hours, while December 26's 5:18 PM low leaves 130. December 25 carries the only Exceptional score in our rest-of-2026 data, 90 of 100: a −1.715 ft low at 4:33 PM, a 1:45–7:40 PM window, and a holiday to spend it on. Our scorer weighs depth, daylight overlap, and weekends together, which is how the deepest day (December 24) ranks below the most usable one. November's trio deserves more attention than it gets: the Thanksgiving stretch of November 24–26 puts three sub-−1.39 ft afternoons in a row on the reef.
 
@@ -57,36 +57,36 @@ The really deep water arrives after New Year's. January 21, 2027 brings a −1.8
 
 ## How does the rest of 2026 look?
 
-The short version: a quiet stretch, then a very good winter. What's left of August (from the 18th) holds 10 lows below +1.0 ft and converts none of them into daylight windows — the month is finished here.
+The short version: a quiet close to September, then a very good winter. August ended with 23 lows below +1.0 ft and just two daylight minus tides, both dawn affairs, and September — the trap month — converts none of its 29 sub-+1.0-ft lows into a daylight minus tide: every negative low lands in the dark.
 
 | Month (2026) | Lows below +1.0 ft | Daylight windows | Daylight minus tides | Best window |
 |---|---|---|---|---|
 | September | 29 | 11 | 0 | Sep 27 · +0.218 ft · 4:17 PM · 55 |
 | October | 34 | 14 | 6 | Oct 25 · −0.366 ft · 3:27 PM · 65 |
-| November | 29 | 17 | 12 | Nov 26 · −1.400 ft · 4:46 PM · 82 |
+| November | 28 | 17 | 12 | Nov 26 · −1.400 ft · 4:46 PM · 82 |
 | December | 25 | 20 | 16 | Dec 25 · −1.715 ft · 4:33 PM · 90 |
 
-*Computed 2026-08-18 from NOAA station 9410230 predictions.*
+*Computed 2026-09-28 from NOAA station 9410230 predictions. September's windows are now past.*
 
-September is the trap month: 29 lows under +1.0 ft and not a single daylight minus tide — every negative low lands in the dark. The pattern flips in October as the good lows migrate to afternoon, and by December there are 16 daylight minus tides in one month.
+The pattern flips in October as the good lows migrate to afternoon, and by December there are 16 daylight minus tides in one month.
 
-Near-term, temper expectations: nothing in the next 60 days scores above Fair. The best of it is the Saturday-to-Monday stretch of October 10–12, three afternoons hovering right at the zero line (deepest: −0.064 ft at 4:27 PM on Sunday, October 11, score 59), with Sunday, September 27's +0.218 ft at 4:17 PM the only comparable window before that — the [September calendar for this station](/beaches/ca/la-jolla-ca/2026-09/) lists all 11 of that month's windows, and the [golden hour tool](/tools/golden-hour/) computes light overlap for every window as the lows drift toward sunset. The first real minus tide back is −0.366 ft at 3:27 PM on Sunday, October 25 — the fall season opener.
+Near-term, the season is finally turning. September's best window — +0.218 ft at 4:17 PM on Sunday, September 27, score 55 — has come and gone. Next on the calendar is the Saturday-to-Monday stretch of October 10–12, three afternoons hovering right at the zero line (scores 58–59, all Fair), and Sunday, October 11's −0.064 ft at 4:27 PM is, just barely, the first daylight minus tide of the fall. The first Good-rated window arrives Sunday, October 25 — −0.366 ft at 3:27 PM, score 65 — opening a run of five straight afternoon minus tides through October 29. The [October calendar for this station](/beaches/ca/la-jolla-ca/2026-10/) lists all 14 of that month's windows, and the [golden hour tool](/tools/golden-hour/) computes light overlap for every window as the lows drift toward sunset. From there the calendar builds quickly toward the Thanksgiving trio in the table above.
 
 ## What are observers finding right now?
 
-Every one of the ten most-logged species within 5 km of the station over the past 60 days is a sea slug — 538 iNaturalist observations, with nothing else cracking the top ten. The lead has changed hands since early July, when Sorcerer's dorid topped the list: the summer's surge species is Hamann's aeolid, which now leads by a wide margin.
+Every one of the ten most-logged species within 5 km of the station over the past 60 days is still a sea slug — 197 iNaturalist observations, with nothing else cracking the top ten. Logging has slowed with the season (the same list held 538 observations in mid-August), but Hamann's aeolid keeps the lead it took over the summer, now by nearly three to one over the runner-up — which is once again Sorcerer's dorid, early July's original front-runner.
 
 | Species | Scientific name | Observations |
 |---|---|---|
-| Hamann's aeolid | *Cuthona hamanni* | 111 |
-| Opalescent nudibranch | *Hermissenda opalescens* | 74 |
-| Stearns' aeolid | *Austraeolis stearnsi* | 70 |
-| Sorcerer's dorid | *Polycera atra* | 63 |
-| Cockscomb nudibranch | *Antiopella barbarensis* | 52 |
+| Hamann's aeolid | *Cuthona hamanni* | 68 |
+| Sorcerer's dorid | *Polycera atra* | 24 |
+| Stearns' aeolid | *Austraeolis stearnsi* | 17 |
+| California aglaja | *Navanax inermis* | 16 |
+| Salt-and-pepper doris | *Aegires albopunctatus* | 14 |
 
-*Compiled 2026-08-18 from iNaturalist observations within 5 km of NOAA station 9410230, previous 60 days.*
+*Compiled 2026-09-28 from iNaturalist observations within 5 km of NOAA station 9410230, previous 60 days.*
 
-Further down the same list sit the salt-and-pepper doris (40 observations), Olive's aeolid (34), McDonald's dorid (33), and the California aglaja (30). Sea slugs are among the animals visitors regularly report on the reef at Hospitals, along with anemones, crabs, limpets, and urchins. The practical translation of a list like this: walk slowly and give each pool a full minute before moving on.
+Further down the same list sit the cockscomb and opalescent nudibranchs (13 observations each), Hedgpeth's dorid (12), and the two-spotted dorid and Olive's aeolid (10 each). Sea slugs are among the animals visitors regularly report on the reef at Hospitals, along with anemones, crabs, limpets, and urchins. The practical translation of a list like this: walk slowly and give each pool a full minute before moving on.
 
 ## Shell Beach, Hospitals Reef, or False Point?
 
