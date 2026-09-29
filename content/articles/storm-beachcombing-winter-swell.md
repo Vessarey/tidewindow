@@ -2,6 +2,7 @@
 title: "Storm Beachcombing: What Winter Swell Plus a Minus Tide Uncovers"
 description: "Winter swell strips sand and restocks the wrack line. The 2026-27 daylight minus-tide windows at La Push and Port Orford, plus NWS sneaker-wave rules."
 date: "2026-07-03"
+updated: "2026-09-29"
 category: "beachcombing"
 tags: ["storm beachcombing", "winter swell", "wrack line", "La Push", "Port Orford"]
 faq:
@@ -16,6 +17,7 @@ faq:
 sources:
   - "https://www.weather.gov/safety/sneaker-waves"
   - "https://www.nps.gov/olym/planyourvisit/exploring-the-coast.htm"
+  - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
   - "https://www.nps.gov/articles/beach-profile-changes.htm"
   - "https://coasst.org/news-views/blog/float-in-with-the-wrack/"
   - "https://traveloregon.com/things-to-do/trip-ideas/favorite-trips/how-to-hunt-for-agates-on-the-oregon-coast/"
@@ -39,7 +41,9 @@ Two elevations, two different searches.
 
 **High on the beach: the storm wrack line.** Wrack is the flotsam that receding tides strand — kelp, seagrass, shells, small sticks — and storms fatten it. COASST, the University of Washington's coastal survey program, notes that "stormy weather can create an especially dense wrack line because wave action dislodges more seaweed and deposits the free fronds high on the beach," and that small debris concentrates in the wrack zone. Anything that floats ends up here. The wrack pays at half tide; it does not need a minus low.
 
-**Low on the beach: the gravel beds.** These need the storm *and* the tide, because the lowest of the newly exposed beds only go dry on a good low. This is where minus-tide arithmetic earns its keep. The spots tracked at [Port Orford](/beaches/or/port-orford-or/) include Battle Rock Beach and, helpfully explicit, Agate Beach; at [La Push](/beaches/wa/la-push-wa/) they're Rialto Beach's Hole-in-the-Wall stretch, Second Beach, and Third Beach.
+**Low on the beach: the gravel beds.** These need the storm *and* the tide, because the lowest of the newly exposed beds only go dry on a good low. This is where minus-tide arithmetic earns its keep. The spots tracked at [Port Orford](/beaches/or/port-orford-or/) include Battle Rock Beach and, helpfully explicit, Agate Beach; the [La Push station listing](/beaches/wa/la-push-wa/) lists Second Beach and Third Beach. A station listing is not confirmation that either route is open or passable.
+
+**Access update, September 29, 2026:** the [National Park Service conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) states, "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026." NPS also says Rialto Beach is not accessible via Mora Road during that period. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) carries the closure notice. October 15 is the scheduled end of construction, not a verified reopening; this calendar does not establish access to Rialto Beach or Hole-in-the-Wall afterward.
 
 ## What about glass floats?
 
