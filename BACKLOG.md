@@ -5,6 +5,29 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-09-29:start -->
+- [x] **2026-09-29 heartbeat — storm guide active-closure correction**
+      (`caddde3`). Removed the unqualified current Rialto/Hole-in-the-Wall
+      destination pointer; added the NPS Mora Road July 8–Oct 15 closure
+      notice and a La Push guide link. Scheduled construction end is not
+      verified reopening. Current station list remains Second/Third Beach,
+      not an access assurance. Tide tables/FAQs/title/gates untouched;
+      isolated build, 56 tests, 42 links, desktop/mobile notice and linked
+      calendar-gate checks passed. See journal for live-release evidence.
+- [ ] **Next run: complete §2a refill; only two writable briefs remain.**
+      Today's operator completed July roundup; East Coast and Sunset Bay
+      are ready, November preview is not, and two owner-held patches are
+      not writable assignments. The refill investigation was superseded by
+      the active closure contradiction above; no completed refill claimed.
+      Candidates to validate, not three new keyword briefs: Pacific Grove
+      daylight-at-low framing (GSC Aug 31–Sep 27: 0 clicks / 51 impressions /
+      pos 8.29); golden-hour calendar still calling August 10–13 remaining
+      (0/18/5.11); sea-glass timing still presenting 940/535 as annual totals
+      (0/11/7.18). No query rows revealed for these pages. Preserve existing
+      content/title work and owner holds; coordinate Sep 30 inspect-60 and
+      Oct 1 newsletter/month/owner gates, do not duplicate them early.
+<!-- heartbeat-2026-09-29:end -->
+
 <!-- heartbeat-2026-09-26:start -->
 - [x] **2026-09-26 heartbeat — Washington qualification correction.**
       Live QA of today's operator release found "only the outer coast
@@ -1376,6 +1399,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       fixed in `f55b540`, but shared schema/consumer audit remains open.
       Before publishing any such count, check whether the source counts
       raw tide extrema or resolved windows and label that exact quantity.
+      **Sep 29 consumer found:** `storm-beachcombing-winter-swell` also
+      labels its old 63/68 Oct–Dec totals as raw lows. Today's patch is
+      access-only; numerical/daylight and route-instruction claims there
+      still need a separate complete-source audit, not a freshness stamp
+      inferred from the closure update. Keep the existing numeric tables
+      as evidence until reconciled; do not hand-edit generated outputs.
 
 - [x] **2026-09-07: fact-sheet date scope fixed and regression-gated (6bca506).**
       Shared `fact-range.mjs` now filters station/coast aggregates to the
@@ -1563,6 +1592,11 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       La Push `spots` and blurb in scripts/pipeline/stations.mjs, then regenerated
       committed data/ICS/fact outputs. Finder, beach, and calendar surfaces now
       lead with Second Beach and Third Beach; the post-Oct-15 recheck remains.
+      **2026-09-29:** storm-beachcombing guide still carried an unqualified
+      Rialto destination pointer despite that shared-data fix. Corrected in
+      `caddde3` with an official closure notice; include that article in the
+      Oct 15 recheck. For future access updates, search article prose as
+      well as shared station metadata; a pipeline fix does not update prose.
 - [x] 2026-08-14: gh CLI auth WORKING again (`gh run list` + `gh issue list`
       both succeed, no 401) — owner appears to have re-authed; item closed.
       (Was: token invalid since 2026-07-25, operator used the public API.)

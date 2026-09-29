@@ -5,6 +5,145 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-09-29:start -->
+## 2026-09-29 — Heartbeat: carry the active Mora closure into the storm guide
+
+**One primary improvement:** corrected the storm-beachcombing guide's
+unqualified Rialto/Hole-in-the-Wall destination pointer (`caddde3`). Read
+playbook, newest three entries, active backlog, dirty state, today's commits,
+Actions and issues first; pull already current at `c5a6c8c`. The operator had
+already refreshed the July roundup today, so no repeat refresh. Both held
+articles and both owner evidence packets excluded throughout.
+
+The queue fell to two writable briefs (East Coast, Sunset Bay), making §2a
+refill the initial candidate. During that inspection, the live storm guide
+still named Rialto among current destinations without the active closure.
+That directly conflicts with the documented access time-bomb. Prioritized the
+small factual access correction over queue expansion or a low-sample SEO test;
+**refill is deferred, not completed**. This follows the Sep 26 precedent of
+fixing a demonstrated live contradiction before resuming the refill.
+
+| Candidate | Final GSC Aug 31–Sep 27 (clicks / impressions / position) | Decision |
+|---|---|---|
+| Storm beachcombing | 0 / 9 / 6.00; prior Aug 3–30: 0 / 2 / 5.50 | Active access notice missing; fix despite low exposure. No CTR verdict. |
+| Pacific Grove | 0 / 51 / 8.29; prior 1 / 64 / 7.63 | Possible daylight-at-low wording maintenance; evaluate at refill. |
+| Golden-hour calendar | 0 / 18 / 5.11; prior 0 / 8 / 14.13 | Still calls August 10–13 the remaining run; evaluate at refill. |
+| Sea-glass timing | 0 / 11 / 7.18; prior 0 / 10 / 11.90 | Still presents 940/535 as annual totals; evaluate at refill. |
+
+No query rows were revealed for these four pages; page exposure is not an
+uncovered keyword cluster. Ran `flywheel 28` and `queries 28`; leading
+Fitzgerald chart and king-tide intents already have pages/recent work. No
+duplicate page, retitle, new experiment or early crawl batch was started.
+
+**Change and source:** fetched the [NPS conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+today, HTTP 200. It still states the July 8–Oct 15 Mora Road construction
+closure and that Rialto is inaccessible via Mora Road during construction.
+Replaced the old destination list with the current fact-sheet station listing
+(Second Beach / Third Beach), explicitly not a claim either route is passable.
+Added a dated, linked NPS closure notice and a link to the existing La Push
+guide. October 15 is a scheduled endpoint, **not verified reopening**.
+Added that source and honest `updated: 2026-09-29`; retained title, description,
+slug, publication date, all tide tables, four FAQs and conversion surfaces.
+This is an access-only patch, not recertification of the article's older
+numeric/safety copy; the raw-low/model-window consumer audit remains open.
+
+**Local validation:** isolated HEAD snapshot at
+`/tmp/tidewindow-sep29-verify.MttT0O` plus only this article, with copied
+dependencies and no credentials/held patches. Plain build passed: 137 routes,
+12 stations × four months, 124 sitemap URLs, **56 tests** (42 facts / 6 math /
+8 formatting), no new warnings. Additional assertions confirmed metadata
+preservation, byte-identical table rows, four FAQ schema entries, canonical,
+42 rendered internal destinations, new closure text, and removal of the old
+Rialto list. Desktop 1280/mobile 375 screenshots show the readable notice and
+no page overflow. New article → La Push guide link works; linked calendar
+gate opens an empty email form, no submission. No observed warning/error logs.
+Actual checkout generated data unchanged. No new article additions this week.
+
+**Operations:** last five Actions successful, open issues empty. Actual refresh
+[36558477863](https://github.com/Vessarey/tidewindow/actions/runs/36558477863)
+ran 10:54:41–10:57:04Z, landing `552de7a` at 10:56:58Z. Later 14:06 and
+16:32 slots skipped normally. Build log confirms 56 tests, 124 verified URLs,
+IndexNow HTTP 200. Four staggered slots, same-day guard, NOAA retries and push
+retry path unchanged; no dispatch. Live homepage, article, sitemap, index and
+La Push JSON HTTP 200; JSON byte-equal to repository, generated
+**2026-09-29T10:55:02.948Z**. Morning operator release Vercel-success and its
+Sep 29 update visible in the browser. Live Finder → La Push loads Sep 29 data,
+NOAA 9442396, best next-30-day score 52 on Oct 25; no observed console errors.
+Production dependency audit zero findings. No 90+ windows Sep 29–Oct 13 across
+12 stations; no time-sensitive roundup trigger demonstrated.
+
+**PostHog:** native connector still requires reauthentication; existing
+configured read-only API used, no credential/settings changes. Project 495836,
+America/New_York; event/property schema rechecked. Exact host
+`thetidewindow.com` + `$virt_traffic_type = 'Regular'`. Trailing windows end
+exclusively **2026-09-29 17:16:51 UTC**, before browser QA.
+
+| Period | Pageviews / distinct IDs | Signup events / IDs | Signups ÷ pageview IDs |
+|---|---:|---:|---:|
+| 7d | 530 / 484 | 1 / 1 | 0.21% |
+| 28d | 1,515 / 1,361 | 7 / 7 | 0.51% |
+
+Descriptive ratios, not matched funnels or active subscribers. Top 7d paths:
+national king tides 198, Oregon king tides 87, Acadia 28, home 22, Washington
+king tides 21, Fitzgerald 12, Finder 11. Referrer pageviews: DuckDuckGo 118,
+Bing 105, Google 102, direct 87, Yahoo 61; not search clicks. Tool events:
+16 station selections / 12 IDs, 12 results / 8 IDs, 4 Trip Picker runs / 3 IDs,
+6 ZIP events / 4 IDs, 6 gate events / 5 IDs, one ICS reveal. In 28d, gates are
+22 events / 21 IDs, reveals 4 / 4; seven signups split tool_gate 4,
+end_article_gated 1, station 1, exit-intent 1. No variant verdict at this volume.
+
+Exit shown: fresh 7d **21** and 28d **56**, but lifetime queries repeatedly
+returned API 504 timeouts even after simplified retries. Last verified lifetime
+count remains **79 on Sep 28**, not a current count; Oct 1 must read afresh
+before applying the owner retirement rule. Keep experiment closed-unmeasurable;
+no extension, restart or early removal. All 530 pageviews have Regular category
+and missing explicit agent/agent_kind fields; raw-UA automation check timed out,
+so the human/synthetic split remains unverified. LCP-bearing 24h sample **29**,
+p75 **736 ms**, p90 **1,919 ms**: below 30-observation floor, no tuning verdict.
+Exception opt-in null, `$exception` absent from taxonomy; pageview remote flag
+450 missing / 80 false / zero true. Missing instrumentation is not zero errors.
+
+**GSC:** Web/final, `sc-domain:thetidewindow.com`, all countries/devices,
+25,000-row limit; latest final day **Sep 27** confirmed by date query. Re-ran
+comparisons after finding that day available; earlier Sep 26-ending exploratory
+reads are not the final baseline. 67 page / 355 query rows, no cap reached.
+
+| Period | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| Aug 31–Sep 27 | 229 | 14,175 | 1.62% | 7.29 |
+| Aug 3–30 | 116 | 9,116 | 1.27% | 8.71 |
+| Sep 21–27 | 53 | 3,364 | 1.58% | 6.92 |
+| Sep 14–20 | 56 | 3,620 | 1.55% | 7.28 |
+
+Property-level totals, not sums of page rows. 28d clicks +97.4%, impressions
++55.5%; 7d clicks −5.4%, impressions −7.1%. Not causal evidence for recent
+edits. Top guides: national 75/4,193, Fitzgerald 45/1,740, Oregon calendar
+24/529 (clicks/impressions). Do not re-retitle covered leading queries:
+Washington king tides 604 impressions / pos 7.68; Fitzgerald chart 266 / 8.78;
+bare king tides 2026 119 / 9.08, awaiting Oct 5 readout.
+
+**Time-bombs / next:** Sep 24 broadcast still `sent`, id
+`9c7aac35-4512-4ca6-b020-c3af02b1c614`, sent_at 12:05:59.478897Z. No bounce or
+complaint fields returned: unknown, not zero. No sends/audience writes today.
+Queue refill still due (only East Coast and Sunset Bay ready); coordinate with
+tomorrow's Sep 30 inspect-60 comparison rather than duplicating it today.
+Oct 1: Thursday newsletter, November indexing/rollover gate, month-title
+readout, and owner exit-prompt deadline. Oct 5 national-query readout; Oct 15
+official access recheck now includes this storm guide. Both held releases still
+need owner approval. Do not infer crawl causality or reopening from dates.
+
+**Release verified:** `caddde3` pushed and [Vercel reports success](https://vercel.com/vessareys-projects/tidewindow/5yyDFMpLfcGqXpz2dheR8B34jqRg).
+Live article HTTP 200 and mobile browser show the dated notice, no old Rialto
+list, Sep 29 update date, width 375/375 and no observed console warnings/errors.
+Sitemap retains 124 URLs; live index/La Push data still byte-equal to today's
+committed data. Rechecked both held article SHA256s and both evidence-packet
+hashes (47/37 files): unchanged. Preview stopped, viewport reset, QA tab closed.
+Only this article and journal/backlog records changed; no credential, audience,
+experiment, pipeline or owner-held release mutation.
+<!-- heartbeat-2026-09-29:end -->
+
+---
+
 ## 2026-09-29 — July 11–14 roundup: retired the passed "August 9–12" pointer
 
 **Primary (§2e / P1 Sep 27 refill):** `west-coast-minus-tides-july-11-14-2026`
