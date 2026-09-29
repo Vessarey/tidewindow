@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-28",
+ "generated_on": "2026-09-29",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -1990,34 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-28",
-   "weekday": "Mon",
-   "low_ft": -0.606,
-   "low_time_local": "6:35 PM",
-   "window_local": "5:10 PM–8:05 PM",
-   "arrive_by_local": "5:35 PM",
-   "daylight_min": 69,
-   "score": 42,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 270,
-   "min_to_sun_edge": -16
-  },
-  {
-   "date": "2026-09-29",
-   "weekday": "Tue",
-   "low_ft": 0.033,
-   "low_time_local": "6:49 AM",
-   "window_local": "5:45 AM–7:55 AM",
-   "arrive_by_local": "5:49 AM",
-   "daylight_min": 87,
-   "score": 32,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 96,
-   "min_to_sun_edge": 21
-  },
-  {
    "date": "2026-09-30",
    "weekday": "Wed",
    "low_ft": 0.269,
@@ -2072,6 +2044,34 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 262,
    "min_to_sun_edge": -11
+  },
+  {
+   "date": "2026-10-13",
+   "weekday": "Tue",
+   "low_ft": 0.827,
+   "low_time_local": "6:59 AM",
+   "window_local": "6:45 AM–7:15 AM",
+   "arrive_by_local": "5:59 AM",
+   "daylight_min": 30,
+   "score": 11,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 103,
+   "min_to_sun_edge": 14
+  },
+  {
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "low_ft": -0.551,
+   "low_time_local": "4:43 PM",
+   "window_local": "3:20 PM–6:10 PM",
+   "arrive_by_local": "3:43 PM",
+   "daylight_min": 132,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 245,
+   "min_to_sun_edge": 49
   }
  ],
  "species_last60d_5km": [
@@ -2093,7 +2093,7 @@
   {
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
-   "count": 6
+   "count": 8
   },
   {
    "commonName": "Soft-shelled Clam",
@@ -2104,6 +2104,11 @@
    "commonName": "Tortoiseshell Limpet",
    "scientificName": "Testudinalia testudinalis",
    "count": 3
+  },
+  {
+   "commonName": "Eastern Oyster",
+   "scientificName": "Crassostrea virginica",
+   "count": 2
   },
   {
    "commonName": "Flat Periwinkle",
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Northern Horse Mussel",
    "scientificName": "Modiolus modiolus",
-   "count": 2
-  },
-  {
-   "commonName": "Red-fingered Coryphella",
-   "scientificName": "Coryphella verrucosa",
    "count": 2
   }
  ]

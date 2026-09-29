@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-28",
+ "generated_on": "2026-09-29",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-28",
-   "weekday": "Mon",
-   "low_ft": 0.173,
-   "low_time_local": "6:36 PM",
-   "window_local": "4:50 PM–8:25 PM",
-   "arrive_by_local": "5:36 PM",
-   "daylight_min": 125,
-   "score": 36,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 265,
-   "min_to_sun_edge": 19
-  },
-  {
    "date": "2026-09-29",
    "weekday": "Tue",
    "low_ft": 0.001,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 268,
    "min_to_sun_edge": -52
+  },
+  {
+   "date": "2026-10-25",
+   "weekday": "Sun",
+   "low_ft": -0.165,
+   "low_time_local": "4:52 PM",
+   "window_local": "2:50 PM–6:55 PM",
+   "arrive_by_local": "3:52 PM",
+   "daylight_min": 208,
+   "score": 61,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 241,
+   "min_to_sun_edge": 86
   }
  ],
  "species_last60d_5km": [
@@ -2091,6 +2091,11 @@
    "count": 21
   },
   {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 19
+  },
+  {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
    "count": 19
@@ -2098,11 +2103,6 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 18
-  },
-  {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
    "count": 18
   },
   {
