@@ -1,8 +1,8 @@
 ---
 title: "West Coast Minus Tides, July 11–14, 2026: The Best Tidepooling Week of Summer"
-description: "July 11–14 was the deepest daylight run of the 2026 Pacific summer. The next comparable West Coast minus tides land August 9–12 — dates, times, and depths from NOAA predictions."
+description: "July 11–14 was the deepest daylight run of the 2026 Pacific summer. Where 2026's remaining minus-tide windows land now, from NOAA predictions."
 date: "2026-07-04"
-updated: "2026-07-19"
+updated: "2026-09-29"
 category: "regional-calendars"
 tags: ["minus tide", "july 2026", "west coast", "tide pools", "puget sound", "oregon coast"]
 featuredRoundup:
@@ -33,7 +33,7 @@ sources:
   - "https://www.nps.gov/thingstodo/point-reyes-tidepooling.htm"
 ---
 
-> **Update, July 19, 2026:** this run has passed. The next comparable West Coast stretch lands the second week of August: Puget Sound peaks Sunday, August 9 — Port Townsend (NOAA 9444900) at −2.05 ft, 7:38 AM, a flat-100 window, with Seattle (9447130) at −1.91 ft, 8:29 AM — and Newport, OR (9435380) bottoms at −1.91 ft, 6:46 AM on Wednesday, August 12 (computed 2026-07-19 from NOAA predictions). Every remaining window, scored day by day: [Seattle](/beaches/wa/seattle-wa/2026-08/) · [Port Townsend](/beaches/wa/port-townsend-wa/2026-08/) · [Newport](/beaches/or/newport-or/2026-08/) · [all beaches](/beaches/).
+> **Update, September 29, 2026:** the August 9–12 stretch this note once pointed to has passed as well — Puget Sound peaked Sunday, August 9, with Port Townsend (NOAA 9444900) predicted at −2.05 ft, 7:38 AM and Seattle (9447130) at −1.91 ft, 8:29 AM, and Newport, OR (9435380) at −1.91 ft, 6:46 AM on Wednesday, August 12 (computed 2026-07-19). What remains of 2026 looks nothing like summer. Counting windows with at least 30 minutes of daylight overlap (computed 2026-09-29 from NOAA predictions), Puget Sound is essentially done: Seattle has two small positive-height morning windows left, October 5–6, Port Townsend three, October 5–7, none rated above Skip. The remaining depth belongs to the king-tide season — afternoon-to-evening runs around Thanksgiving (November 24–26) and Christmas (December 22–26) — and it is strongest in Southern California, where [La Jolla](/guides/la-jolla-tide-pools-best-dates-2026/) holds the coast's only remaining Exceptional window: Friday, December 25, −1.7 ft at 4:33 PM. Scores fade northward — Oregon tops out at Good (Port Orford, 72, on December 23) and the outer Washington coast at Fair (La Push, 59, the same day) — and on the deepest of those days the low itself arrives after sunset at the Washington and Oregon stations; the daylight minutes come earlier in the window, on the falling tide. Ranked dates for every station: [national king-tide schedule](/guides/king-tides-2026-2027-dates/) · [all beaches](/beaches/).
 
 **The best tidepooling stretch of the Pacific summer runs July 11–14, 2026. Monday, July 13 is the peak: six of Tidewindow's seven Pacific Northwest stations post an Exceptional (90+) daylight window on the same day, led by Seattle (NOAA station 9447130) at −3.68 ft at 10:31 AM — deepening to −3.80 ft on Tuesday, the lowest daylight tide of its year. Want a weekend instead? Puget Sound scores a flat 100 on both July 11 and 12.**
 

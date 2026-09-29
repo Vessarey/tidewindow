@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-29 — July 11–14 roundup: retired the passed "August 9–12" pointer
+
+**Primary (§2e / P1 Sep 27 refill):** `west-coast-minus-tides-july-11-14-2026`
+— the description and the July 19 update block still sold August 9–12 as the
+next comparable run, six weeks past. Replaced both with a September 29 update:
+the August numbers are kept as history and re-verified against committed
+window data (PT Aug 9 −2.049 ft 7:38 AM score 100; Seattle −1.908 ft 8:29 AM;
+Newport Aug 12 −1.913 ft 6:46 AM — all match the quoted −2.05/−1.91/−1.91),
+followed by the actual remaining-2026 picture computed 2026-09-29 from the
+fact sheets and committed windows, with the ≥30-minute daylight-overlap
+definition stated in the text. Claims verified against COMPLETE remaining
+committed window data, not top-N lists: Seattle has exactly 2 qualifying
+windows left (Oct 5–6, both positive-height, Skip), Port Townsend exactly 3
+(Oct 5–7, Skip); La Jolla Dec 25 (−1.715 ft, 4:33 PM, score 90) is the ONLY
+remaining 90+ window across all 11 West Coast stations; Oregon's ceiling is
+Good (Port Orford 72, Dec 23), outer WA's is Fair (La Push 59, Dec 23); and on
+each northern station's deepest remaining day the low itself falls after
+sunset (checked per-window: daylight-end = windowStart + daylightMin; earlier
+days of each run still have in-daylight lows — La Push Dec 21, Port Orford
+Dec 22 — so the claim is scoped to "the deepest of those days" only).
+Description rewritten to 142 chars, honest `updated: 2026-09-29`. Historical
+July tables, title, slug, FAQs, gates untouched. Removed 2026-08 month-page
+links with the block; new links (`la-jolla-tide-pools-best-dates-2026`,
+`king-tides-2026-2027-dates`, `/beaches/`) all resolve.
+
+**Gates:** plain `npm run build` green — 137 routes, verify-output OK (12
+stations × 4 months, 124 sitemap URLs), 56 tests (42 facts / 6 math / 8
+format). Rendered `out/` page carries the new block and both new guide links.
+Diff review: only this article changed; `public/data-json` untouched; both
+owner-held patches (Haystack, minus-tide) and both evidence packets excluded
+from the commit as required.
+
+**Health:** last 5 Actions runs green; today's refresh landed on origin
+(`552de7a data: daily NOAA refresh 2026-09-29`, slot 10:54 UTC) before session
+start. No open issues. Fact sheets generated_on 2026-09-29.
+
+**Metrics (PostHog, host=thetidewindow.com, Regular-unfiltered quick read):**
+7d 516 pageviews / 485 distinct IDs / 1 signup; 28d 1,498 / 1,356 / 7. Top 7d
+paths: national king tides 198, Oregon king tides 89, Acadia 29, home 20, WA
+king tides 18. GSC 28d top pages: national king tides 74 clicks / 4,060 impr /
+pos 6.8; Fitzgerald 46 / 1,748 / 6.5; Oregon calendar 25 / 540 / 6.1. Ship
+baseline for today's page: no row in today's `pages 28` read; the Sep 27
+brief's exact read was 0 clicks / 21 impressions / pos 5.4 (Aug 28–Sep 25).
+Factual maintenance — no experiment verdict promised.
+
+**Tomorrow (Sep 30):** the scheduled `inspect 60` indexing comparison is the
+likely primary. Then Oct 1 (Thursday): newsletter ritual + November-rollover
+checkpoint + month-title readout + exit-prompt owner deadline — coordinate,
+don't act early. Remaining writable briefs: East Coast explainer, Sunset Bay.
+Both owner-held patches still await approval. NPS Mora closure check Oct 15.
+
+---
+
 <!-- heartbeat-2026-09-28:start -->
 ## 2026-09-28 — Heartbeat: La Jolla prediction/daylight qualification correction
 

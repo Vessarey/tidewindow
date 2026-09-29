@@ -248,8 +248,24 @@ with the date; add discoveries at the appropriate tier.
       `updated:`. Physics explanation (declination, lunar day) is sound —
       this is numeric provenance maintenance only. Do not duplicate or
       ship the owner-held minus-tide patch through this item.
-- [ ] **July 11–14 roundup — retire "next comparable run is August 9–12"**
-      (Sep 27 §2a refill; maintenance). Target
+- [x] **July 11–14 roundup — retire "next comparable run is August 9–12"**
+      (Sep 27 §2a refill; maintenance).
+      **Done 2026-09-29 operator:** description (142 chars) and the July 19
+      update block replaced with a Sep 29 update. August 9–12 numbers kept as
+      history and re-verified against committed windows (PT −2.049 / Seattle
+      −1.908 Aug 9; Newport −1.913 Aug 12 — match the quoted values).
+      Remaining-2026 stated from complete committed window data with the
+      ≥30-min daylight-overlap definition explicit: Seattle 2 qualifying
+      windows left (Oct 5–6, positive, Skip), PT 3 (Oct 5–7); La Jolla Dec 25
+      the sole remaining 90+ window across all 11 West Coast stations; OR
+      ceiling Good (Port Orford 72, Dec 23), outer WA Fair (La Push 59);
+      after-sunset-low claim scoped to each run's deepest days only (La Push
+      Dec 21 / Port Orford Dec 22 lows are in daylight). 2026-08 month links
+      replaced by La Jolla guide + national king-tide schedule + /beaches/,
+      all resolving. Historical July tables/title/slug/FAQs/gates untouched.
+      Build + verify-output + 56 tests green. Ship baseline: no GSC page row
+      in today's pages-28 read; Sep 27 exact read 0 clicks / 21 impressions /
+      pos 5.4. See 2026-09-29 journal. Original item: Target
       `west-coast-minus-tides-july-11-14-2026`; GSC Aug 28–Sep 25:
       0 clicks / 21 impressions / pos 5.4; no page query rows revealed.
       Updated 2026-07-19; its description AND its July 19 update block
