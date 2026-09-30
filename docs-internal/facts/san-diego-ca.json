@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-29",
+ "generated_on": "2026-09-30",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -1945,20 +1945,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-29",
-   "weekday": "Tue",
-   "low_ft": 0.122,
-   "low_time_local": "5:56 PM",
-   "window_local": "4:10 PM–7:45 PM",
-   "arrive_by_local": "4:56 PM",
-   "daylight_min": 146,
-   "score": 41,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 262,
-   "min_to_sun_edge": 40
-  },
-  {
    "date": "2026-09-30",
    "weekday": "Wed",
    "low_ft": 0.299,
@@ -2027,6 +2013,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 246,
    "min_to_sun_edge": 62
+  },
+  {
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "low_ft": -0.67,
+   "low_time_local": "5:53 PM",
+   "window_local": "3:35 PM–8:25 PM",
+   "arrive_by_local": "4:53 PM",
+   "daylight_min": 146,
+   "score": 56,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 253,
+   "min_to_sun_edge": 8
   }
  ],
  "species_last60d_5km": [

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-29",
+ "generated_on": "2026-09-30",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1895,11 +1895,16 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 2
+   "count": 3
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
+   "count": 3
+  },
+  {
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
    "count": 2
   },
   {
@@ -1920,11 +1925,6 @@
   {
    "commonName": "Giant Pacific Octopus",
    "scientificName": "Enteroctopus dofleini",
-   "count": 1
-  },
-  {
-   "commonName": "Fingered Limpet",
-   "scientificName": "Lottia digitalis",
    "count": 1
   },
   {

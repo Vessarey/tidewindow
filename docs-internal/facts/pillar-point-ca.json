@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-29",
+ "generated_on": "2026-09-30",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-29",
-   "weekday": "Tue",
-   "low_ft": -0.261,
-   "low_time_local": "7:31 PM",
-   "window_local": "5:25 PM–9:50 PM",
-   "arrive_by_local": "6:31 PM",
-   "daylight_min": 91,
-   "score": 39,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 273,
-   "min_to_sun_edge": -35
-  },
-  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": -0.023,
@@ -2072,13 +2058,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 242,
    "min_to_sun_edge": 80
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "low_ft": -0.932,
+   "low_time_local": "5:42 PM",
+   "window_local": "3:15 PM–8:20 PM",
+   "arrive_by_local": "4:42 PM",
+   "daylight_min": 183,
+   "score": 67,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 249,
+   "min_to_sun_edge": 36
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 34
+   "count": 35
   },
   {
    "commonName": "Gumboot Chiton",
@@ -2101,14 +2101,19 @@
    "count": 12
   },
   {
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 11
+  },
+  {
    "commonName": "Hammerhead Doto",
    "scientificName": "Doto amyra",
    "count": 10
   },
   {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
-   "count": 10
+   "commonName": "Hilton's Aeolid",
+   "scientificName": "Phidiana hiltoni",
+   "count": 7
   },
   {
    "commonName": "Mossy Chiton",
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Heath's Dorid",
    "scientificName": "Geitodoris heathi",
-   "count": 6
-  },
-  {
-   "commonName": "Rough Limpet",
-   "scientificName": "Lottia scabra",
    "count": 6
   }
  ]

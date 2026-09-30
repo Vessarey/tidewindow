@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-09-29",
+ "generated_on": "2026-09-30",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-09-29",
-   "weekday": "Tue",
-   "low_ft": 0.001,
-   "low_time_local": "7:29 PM",
-   "window_local": "5:35 PM–9:30 PM",
-   "arrive_by_local": "6:29 PM",
-   "daylight_min": 79,
-   "score": 32,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 272,
-   "min_to_sun_edge": -35
-  },
-  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": 0.231,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 241,
    "min_to_sun_edge": 86
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "Mon",
+   "low_ft": -0.582,
+   "low_time_local": "5:37 PM",
+   "window_local": "3:20 PM–8:05 PM",
+   "arrive_by_local": "4:37 PM",
+   "daylight_min": 177,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 249,
+   "min_to_sun_edge": 40
   }
  ],
  "species_last60d_5km": [
@@ -2083,7 +2083,7 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 41
+   "count": 40
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -2113,7 +2113,7 @@
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 12
+   "count": 13
   },
   {
    "commonName": "Monterey Dorid",
@@ -2121,8 +2121,8 @@
    "count": 11
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 11
   }
  ]
