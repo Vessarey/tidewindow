@@ -5,6 +5,186 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-09-30:start -->
+## 2026-09-30 — Heartbeat: Pacific Grove daylight-at-low correction
+
+**One primary improvement:** refreshed the Pacific Grove guide (`b06865b`),
+correcting its claim that December 24's deepest remaining low is in daylight.
+Preflight read playbook, newest journal/backlog, current git state, today's
+commits, Actions and issues; pull already current at `281ff63`. The operator
+already refilled the queue and ran the scheduled inspect-60 comparison. Did
+neither again. Four writable briefs remain after this refresh; no new page,
+title experiment, crawl-link batch or conversion variant. The two held
+articles and two owner evidence packets were excluded throughout.
+
+**Selection (analytics-led refresh skill):** final GSC Web data, all countries
+and devices, exact page filters; no query rows revealed for these candidates.
+The baseline has not advanced beyond September 27, so this is a fresh query
+of the same available reporting window, not another day of search results.
+
+| Candidate | Aug 31–Sep 27 clicks / impressions / CTR / position | Prior Aug 3–30 | Evidence and decision |
+|---|---|---|---|
+| Pacific Grove | 0 / 51 / 0% / 8.29 | 1 / 64 / 1.56% / 7.63 | Confirmed live daylight-at-low error; strongest exposed writable maintenance candidate. Selected, not a CTR test. |
+| Golden-hour calendar | 0 / 18 / 0% / 5.11 | 0 / 8 / 0% / 14.13 | Passed August premise, queued. |
+| Sea-glass timing | 0 / 11 / 0% / 7.18 | 0 / 10 / 0% / 11.90 | Partial-year totals framed as annual, queued. |
+| East Coast explainer | 0 / 25 / 0% / 6.24 | 1 / 6 / 16.67% / 7.00 | Existing brief; less exposed and no newly demonstrated urgent contradiction. |
+
+**Correction and provenance:** all 82 modeled windows from September 30
+through December 31 checked, not only the fact sheet's top eight. October 25
+is the next Good-rated and October's highest-scoring window (61), with 208
+daylight minutes and sunset about 6:18 PM. December 24's −1.834 ft low is at
+5:06 PM; stored solar timestamp `1798160229079` is about 4:57 PM local,
+8.85 minutes before the low (`1798160760000`). Its full 2:10–8:15 PM
+threshold interval has 167 daylight minutes. Five of the eight deepest
+qualifying remaining modeled lows occur after sunset; added explicit table
+labels. November's 12 and December's 14 counts mean minus-tide windows with
+≥30 minutes of daylight overlap, not daylight at low water. September's six
+qualifying windows ended September 29. Retained all 15 rows' six original
+numeric/date cells, now labeling the one-hour offset rather than implying
+route access. Lead, three FAQs, table framing and methods pointer agree.
+Updated the same article's dated species snapshot from today's fact sheet
+(64/40/21/19/19/18/18/13), retaining the observation-not-census caveat.
+Title, description, slug, publication date and conversion surfaces preserved;
+honest `updated: 2026-09-30`.
+
+All four listed sources fetched HTTP 200 at write time: NOAA station 9413450,
+both CDFW MPA pages and California State Parks Asilomar. The web extractor
+failed on State Parks, but direct HTTP retrieval supported the retained
+27-entry-point, parking, no-beach-restrooms, leash and no-collecting facts.
+No route passability or new safety recommendation inferred from tide data.
+
+**Validation:** isolated HEAD snapshot at
+`/tmp/tidewindow-sep30-verify.VXYn0x`, with only this article copied in and
+copied dependencies (no held changes or credentials). Plain build passed:
+137 routes, 12 stations × four months, 124 sitemap URLs, **56 tests**
+(42 facts / 6 math / 8 formatting), no introduced warnings. Additional
+assertions covered metadata, 64-word answer-first lead, all 15 tide rows,
+eight solar labels, full-range first/best/deepest claims, monthly counts,
+species, four FAQ schema entries, canonical, indexability and 33 rendered
+internal href destinations. CUA desktop 1280×900 and mobile 375×812 checks
+passed; document width stayed 375px, the wider winter table scrolled within
+its container, and the unchanged calendar gate opened to an empty email
+form without submission. No observed warning/error logs. Build-generated
+data stayed outside the repository; no generated-data edits staged.
+
+**Release:** content commit `b06865b` pushed; Vercel reported success
+([deployment](https://vercel.com/vessareys-projects/tidewindow/oYqCJYi4GBtG9gY1dYtsPZfxR5pm)).
+Live guide HTTP 200 and browser confirmed September 30 updated date, corrected
+lead and all eight solar labels; mobile document width 375px, no observed
+console errors/warnings. This establishes delivery, not recrawl or growth.
+Post-release SHA-256 checks confirmed both held articles unchanged
+(`a19df6b3…` / `e78af790…`) and both evidence packets unchanged (47 files,
+`323a8d22…`; 37 files, `fdc37e3a…`). Only the intended article was in the
+content commit; this journal/backlog follow-up is documentation only.
+
+**Health / NOAA:** actual refresh run `36704300923` began 10:44:59Z and
+landed `5594c0a` at 10:47:49Z; latest five runs successful, later slots skipped
+after the same-day guard. All 12 datasets generated 10:45:54.457Z. Live
+Monterey, Port Townsend and La Push JSON byte-matched current committed data;
+home, guide, station, Finder, Trip Picker, sitemap, robots and Monterey ICS
+returned HTTP 200. Live Finder selected Monterey and rendered today's data
+with October 25 top-ranked, no observed console warnings/errors. Four-slot
+cron, six NOAA retry attempts, three push retries and output integrity gates
+remain intact. Actual refresh logs showed 56 passing tests, 124 valid sitemap
+URLs and IndexNow HTTP 200. No open issues, no Exceptional (90+) modeled
+windows September 30–October 14, no recovery dispatch needed.
+
+**New dependency advisory — not a clean audit:** `npm audit --omit=dev`
+reported one critical finding in pinned Next 16.3.3,
+[GHSA-vcvr-r3jv-pc5j](https://github.com/advisories/GHSA-vcvr-r3jv-pc5j),
+reviewed in the database today; fixed in 16.3.6. Official impact requires
+attacker-controlled SVG content/attributes/styles reaching Node `next/og`
+ImageResponse. Inspected the only import, `src/app/opengraph-image.tsx`:
+force-static, fixed literal div content, no request/input parameters; site
+uses `output: "export"`. No affected input path found in current source.
+This is not a blanket security certification. Queued a priority bounded
+Next/eslint-config-next patch upgrade with isolated full-refresh verification;
+did not use `npm audit fix --force` or fold a second implementation into this
+content release. Production's demonstrated factual error remained today's
+primary over an unexposed dependency path.
+
+**PostHog (skill-guided read-only):** native connector still unauthorized;
+used the playbook's configured API, project 495836, timezone America/New_York.
+Event/property definitions verified first. Every metric below filters
+`properties.$host = 'thetidewindow.com'` AND
+`properties.$virt_traffic_type = 'Regular'`, with explicit half-open UTC
+windows ending **2026-09-30 17:15:56Z**, excluding this session's browser QA.
+No agent/agent_kind markers or known bot/headless user-agent signatures were
+observed among 568 pageviews; missing fields and the vendor classification
+do not establish that every view is human. Distinct IDs are not people,
+sessions, or active subscribers.
+
+- 7d: **568 pageviews / 523 pageview distinct IDs / 2 signup events**
+  (2 distinct IDs; event-to-pageview-ID ratio 0.38%). Station selections
+  20/14 IDs; results 15/10; ZIP 7/5; Trip Picker 4/3; gates 5/4; ICS reveals 1/1.
+- 28d: **1,571 pageviews / 1,422 IDs / 7 signup events** (7 IDs; 0.49%,
+  below the 1.5% target, descriptive not a session conversion funnel).
+  Station selections 69/50; results 46/39; ZIP 53/29; Trip Picker 22/15;
+  gates 21/20; ICS reveals 3/3; heatmap 1/1.
+- 7d top paths: national king tides 218, Oregon 93, Washington 28,
+  Acadia 23, home 22, Fitzgerald 15, Finder 14. Referring-domain view
+  counts: DuckDuckGo 122, Bing 115, Google 112, direct 93, Yahoo 62,
+  internal 46; these are not search click/session counts.
+- 28d signup sources: tool_gate 3, exit-intent 2, end_article_gated 1,
+  station 1. Gates: tool_gate 12, station_gate 3, article_gate 3,
+  month_gate 2, article_gate_multi 1. Samples do not support variant verdicts.
+- Exit prompt since July 27: **91 impressions / 2 exit-intent signups**,
+  successfully queried today (yesterday's timeout is not today's zero).
+  Correct source is `exit-intent`; an initial underscore-filter query
+  omitted that numerator and was corrected. Still below 100 impressions
+  and 30 events; experiment remains closed-unmeasurable. No extension or
+  early removal. Re-query at the October 1 owner deadline.
+- 24h LCP: **38 actual LCP observations**, p75 964.5 ms, p90 2,836 ms;
+  aggregate p75 is below 2.5s, not a per-route or causal performance claim.
+- Exceptions remain **unverified instrumentation, not zero errors**:
+  project exception opt-in null, no `$exception` in current event taxonomy;
+  pageview remote-capture flags 486 missing / 82 false / 0 true. No settings
+  changed or synthetic production exception sent.
+
+**GSC:** final Web property `sc-domain:thetidewindow.com`, all devices and
+countries; newest final date September 27 (September 28–29 not yet available).
+28d Aug 31–Sep 27: **229 clicks / 14,175 impressions / 1.62% / position 7.29**,
+versus Aug 3–30 **116 / 9,116 / 1.27% / 8.71** (+97.4% clicks, +55.5%
+impressions). Seven days Sep 21–27: **53 / 3,364 / 1.58% / 6.92**, versus
+Sep 14–20 **56 / 3,620 / 1.55% / 7.28** (−5.4% clicks, −7.1% impressions).
+67 page rows and 355 query rows, below the 25,000 cap; absent query rows are
+not zero demand. Highest-click guides: national 75/4,193/6.80, Fitzgerald
+45/1,740/6.48, Oregon calendar 24/529/6.15. Existing pages cover the leading
+king-tide and Fitzgerald clusters. No search uplift attributed to this or
+prior fixes; site CTR still mixes low-intent station metadata queries.
+
+**Indexing evidence caveat:** today's operator records 34 indexed + 17
+Discovered + 12 unknown for a stated 60-URL sample; those counts sum to 63.
+No saved current inspection packet was found to reconcile it. Do not treat
+the reported 57% or cross-sample improvement as a verified coverage metric;
+do not infer Google crawl-budget causation or link impact from that entry.
+Preserved the append-only history and flagged the mismatch for next inspection
+(Oct 5); did not duplicate today's 60-URL run or start another link pass.
+
+**Other operational gates:** Resend read-only checks: sending domain verified;
+10 broadcasts listed, latest Sep 24 sent. Available retained email listing
+had 46 records (Sep 3–24), all last_event=delivered, no further page. That is
+not complete event history, an all-time complaint/bounce rate, or active
+subscriber count; no send or sync today. NPS conditions fetched HTTP 200
+still lists Mora Road closure July 8–Oct 15 and no Rialto access via that road
+during construction; scheduled end is not verified reopening. Sep 29 notice
+remains applicable.
+
+**Next:** coordinate the October 1 operator's Thursday newsletter template
+ritual, exit-prompt owner decision with fresh lifetime count, month-title
+readout with date data/sample floors, and November rollover only after its
+indexing gate. Schedule the queued Next patch as the next suitable maintenance
+action, sooner if an affected input path appears. Oct 5 national-query and
+weekly indexing review (retain exact URL states to reconcile counts); Oct 15
+official Mora status recheck. Four content briefs remain. Owner-held Haystack
+and minus-tide releases still require explicit approval. This factual repair
+is not a new experiment: 51/28 impressions/day forecasts ~55 days for 100
+page impressions, with query intent unrevealed; don't promise measurable
+uplift or restart low-sample conversion tests.
+<!-- heartbeat-2026-09-30:end -->
+
+---
+
 ## 2026-09-30 — §2a queue refill (three validated briefs) + scheduled inspect-60 comparison
 
 **Primary (§2a, flagged by the Sep 29 handoff):** the content queue held only

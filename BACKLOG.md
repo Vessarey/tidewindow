@@ -5,6 +5,23 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-09-30:start -->
+- [x] **2026-09-30 heartbeat — Pacific Grove daylight-at-low correction**
+      (`b06865b`). Rechecked all 82 remaining-2026 modeled windows; Dec 24
+      5:06 PM low is about nine minutes after 4:57 PM sunset. Five of the
+      deepest eight qualifying lows are after sunset, now labeled. Preserved
+      original tide-table numeric cells, title/date/description/gates;
+      updated lead/FAQs/framing and the dated species snapshot. Build,
+      56 tests, numerical/schema/33-link checks and desktop/mobile gate
+      checks passed. See journal for release and analytics evidence.
+- [ ] **Oct 1 coordination:** operator newsletter ritual (existing template
+      only), exit-prompt owner deadline, month-title readout, and staged
+      November rollover remain separate gates. Exit prompt at Sep 30
+      17:15:56Z: 91 host+Regular impressions / 2 exit-intent signups since
+      July 27; re-query at deadline, do not extend the closed experiment.
+      Four writable content briefs remain, excluding owner-held patches.
+<!-- heartbeat-2026-09-30:end -->
+
 <!-- heartbeat-2026-09-29:start -->
 - [x] **2026-09-29 heartbeat — storm guide active-closure correction**
       (`caddde3`). Removed the unqualified current Rialto/Hole-in-the-Wall
@@ -289,8 +306,13 @@ with the date; add discoveries at the appropriate tier.
       Port Orford sheet; the winter windows are still future but verify
       anyway. Do not duplicate or ship the owner-held minus-tide patch
       through this item. Keep title/slug/gates; honest `updated:`.
-- [ ] **Pacific Grove guide — daylight-at-low vs window-overlap
-      distinction** (Sep 30 §2a refill; maintenance). Target
+- [x] **Pacific Grove guide — daylight-at-low vs window-overlap
+      distinction** (Sep 30 §2a refill; maintenance).
+      **Done Sep 30 heartbeat (`b06865b`)**: full-range 82-window check,
+      five after-sunset lows labeled in the top-eight table, next-Good and
+      monthly counts verified, species updated. Isolated build + 56 tests
+      + numerical/schema/33-link + desktop/mobile checks; held work excluded.
+      Original brief: target
       `pacific-grove-tide-pools-2026`; exact GSC Sep 29 read: 0 clicks /
       51 impressions / pos 8.29; no page query rows revealed. Updated
       2026-08-30. The lead and the deepest-remaining FAQ call Dec 24's
@@ -1453,6 +1475,26 @@ implementation; preserve historical evidence and the owner's Haystack hold.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [ ] **Priority: bounded Next security patch after Sep 30 advisory.**
+      Production dependency audit reports critical GHSA-vcvr-r3jv-pc5j in
+      pinned Next 16.3.3; vendor fix starts at 16.3.6 (audit currently proposes
+      16.3.8). Advisory requires attacker-controlled SVG content/attributes/
+      styles passed to Node `next/og` ImageResponse. Current only caller,
+      `src/app/opengraph-image.tsx`, is force-static fixed div content with
+      no request input; config is static export. No exposed input path found,
+      not a blanket security clearance. Plan a narrow compatible Next and
+      eslint-config-next patch, isolated `PIPELINE_REFRESH=1 npm run build`,
+      audit, browser and live verification. No force/bulk dependency update;
+      preserve both owner-held articles/evidence packets. See Sep 30 journal
+      and https://github.com/advisories/GHSA-vcvr-r3jv-pc5j.
+- [ ] **Oct 5 indexing audit: reconcile Sep 30 operator tally.**
+      Journal says 34 indexed + 17 Discovered + 12 unknown out of 60; sum
+      is 63. No saved current packet found. Preserve per-URL inspection
+      states next run and report a reconciling denominator before comparing
+      coverage. The claimed 57% and Google crawl-budget/link-causation
+      interpretation are unverified. Today's run was already reported done;
+      no duplicate inspect-60 or additional link batch in the heartbeat.
+
 - [ ] **2026-09-27 discovery: clarify modeled-window versus raw-low count
       semantics in fact-sheet consumers.** `months_2026.lows_below_1ft` is
       `windows.length`, so it omits brief/unresolved dips by design. Current
@@ -1552,7 +1594,9 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       sibling links from indexed guides are the crawl-priority lever we own.
 - [x] 2026-09-02 `gsc-query.mjs inspect [n]` — URL Inspection API sample of
       sitemap coverage state; first run: 2 of 6 never crawled, 1 unknown.
-- [ ] **~2026-09-30: re-run `inspect 60`** and compare against the 08-27
+- [x] **~2026-09-30: re-run `inspect 60`** — operator reported completion
+      Sep 30; counts unreconciled (34+17+12=63 versus stated 60). Comparison
+      remains unverified; see Oct 5 follow-up above. Original brief: compare against the 08-27
       baseline (58 indexed / 55 not; 50 never crawled). If the never-crawled
       share has not moved, next lever is consolidating the thinnest month
       pages (Seattle 2026-10 has 2 daylight windows; Port Townsend 2026-10
