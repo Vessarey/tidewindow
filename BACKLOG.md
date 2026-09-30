@@ -14,7 +14,18 @@ with the date; add discoveries at the appropriate tier.
       not an access assurance. Tide tables/FAQs/title/gates untouched;
       isolated build, 56 tests, 42 links, desktop/mobile notice and linked
       calendar-gate checks passed. See journal for live-release evidence.
-- [ ] **Next run: complete §2a refill; only two writable briefs remain.**
+- [x] **Next run: complete §2a refill; only two writable briefs remain.**
+      **Done 2026-09-30 operator:** all three Sep 29 candidates validated
+      against current source and confirmed stale; three bounded maintenance
+      briefs added at the top of P1 (see operator-2026-09-30-refill block).
+      Queue back to five writable: East Coast, Sunset Bay + the three new
+      briefs. Fresh flywheel 28 found no uncovered query cluster ≥ threshold:
+      Fitzgerald chart cluster (266 impr / pos 8.8, 5 clicks) and king-tide
+      2026 variants land on pages already serving the intent; `glass beach
+      port townsend tide chart` (23 impr / pos 13.1) has its chart since
+      Sep 22, readout pending. Sep 30 `inspect 60` comparison run same
+      session — see 2026-09-30 journal. Owner-held Haystack and minus-tide
+      local patches untouched. Original item:
       Today's operator completed July roundup; East Coast and Sunset Bay
       are ready, November preview is not, and two owner-held patches are
       not writable assignments. The refill investigation was superseded by
@@ -242,6 +253,64 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- operator-2026-09-30-refill:start -->
+- [ ] **Golden-hour photography calendar — retire the passed August 10–13
+      "last of 2026" premise** (Sep 30 §2a refill; maintenance, not a new
+      page). Target `golden-hour-low-tide-photography-calendar-2026`;
+      exact GSC Sep 29 read: 0 clicks / 18 impressions / pos 5.11; no page
+      query rows revealed. Updated 2026-08-02. The description, lead,
+      four FAQs and closing all still present August 10–13 at La Push /
+      Garibaldi as the remaining "last dawn run" of 2026 — seven weeks
+      past. Recompute what actually remains from the
+      `golden_hour_overlaps_next120d_top6` fact-sheet fields across the
+      covered stations; if nothing scores Good+ at dawn again in 2026,
+      say so plainly and point to the winter sunset-side pattern with the
+      ≥30-min daylight-overlap definition explicit. Keep the August
+      tables/prose as labeled history (re-verify quoted numbers against
+      committed data before labeling, per the July-roundup precedent).
+      Re-verify the La Push monthly minus-tide counts against the current
+      sheet, and re-fetch the NPS Mora Road closure status at write time —
+      scheduled Oct 15 construction end is not verified reopening (Sep 29
+      precedent). Keep title/slug/date/gates; honest `updated:`.
+- [ ] **Sea-glass timing guide — reconcile the 940/535 full-year framing**
+      (Sep 30 §2a refill; maintenance). Target `best-time-sea-glass-hunting`;
+      exact GSC Sep 29 read: 0 clicks / 11 impressions / pos 7.18; no page
+      query rows revealed. Dated 2026-07-02, never updated. The hour-
+      histogram paragraph presents "940 minus tides / 535 daylight (57%)"
+      plus 6 AM / 5 PM rush-hour bins as full-year 2026 facts — the same
+      Jul 3 snapshot provenance the summer-dawn explainer (`d580079`)
+      reconciled to the explicit Jul 1–Dec 31 range (953/548). Recompute
+      the coast totals and hour bins from current fact sheets with the
+      range stated, or scope the paragraph as a dated snapshot — never
+      silently keep old numbers as full-year facts. Re-verify the five-
+      window king-season table, the Nov/Dec daylight-minus counts and the
+      September "slump" claim (now passed → historical) against the current
+      Port Orford sheet; the winter windows are still future but verify
+      anyway. Do not duplicate or ship the owner-held minus-tide patch
+      through this item. Keep title/slug/gates; honest `updated:`.
+- [ ] **Pacific Grove guide — daylight-at-low vs window-overlap
+      distinction** (Sep 30 §2a refill; maintenance). Target
+      `pacific-grove-tide-pools-2026`; exact GSC Sep 29 read: 0 clicks /
+      51 impressions / pos 8.29; no page query rows revealed. Updated
+      2026-08-30. The lead and the deepest-remaining FAQ call Dec 24's
+      −1.83 ft low at 5:06 PM "the year's lowest remaining daylight tide";
+      the current Monterey sheet gives that window 2:10–8:15 PM with 167
+      daylight minutes, putting end of daylight ≈4:57 PM — the low itself
+      is after sunset (recompute precisely at write time, don't trust this
+      arithmetic). Distinguish modeled-window daylight overlap from
+      daylight at the low across lead/FAQs/top-8 table, per the La Jolla
+      `f55b540` precedent. Roll the passed-September framing ("September
+      has six daylight windows" → historical), re-verify the Oct 25
+      next-Good claim and the November-12 / December-14 daylight-minus
+      counts against the current sheet. Keep title/slug/gates; honest
+      `updated:`.
+
+All three are demand-informed factual maintenance on exposed pages (same
+class as the Sep 22 and Sep 27 refills), not new keyword pages and not
+conversion experiments. Plain build + recompute-check at implementation;
+do not touch the owner-held Haystack or minus-tide local changes.
+<!-- operator-2026-09-30-refill:end -->
 
 <!-- operator-2026-09-27-refill:start -->
 - [x] **Summer-dawn explainer — reconcile the 940/535 "2026" totals and

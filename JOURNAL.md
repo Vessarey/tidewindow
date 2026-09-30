@@ -5,6 +5,76 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-09-30 — §2a queue refill (three validated briefs) + scheduled inspect-60 comparison
+
+**Primary (§2a, flagged by the Sep 29 handoff):** the content queue held only
+two writable briefs (East Coast explainer, Sunset Bay), below the three-item
+floor, so refill outranked everything. All three Sep 29 candidates were
+validated against current source before briefing — each confirmed stale, none
+assumed:
+
+1. **Golden-hour photography calendar** (`updated: 2026-08-02`): description,
+   lead, four FAQs and closing still present August 10–13 at La Push/Garibaldi
+   as the remaining "last dawn run" of 2026 — seven weeks past.
+2. **Sea-glass timing guide** (never updated since 2026-07-02): still presents
+   940 minus tides / 535 daylight (57%) plus the 6 AM / 5 PM hour bins as
+   full-year 2026 facts — the Jul 3 snapshot provenance already reconciled to
+   Jul 1–Dec 31 (953/548) in the summer-dawn explainer (`d580079`).
+3. **Pacific Grove guide** (`updated: 2026-08-30`): calls Dec 24's −1.834 ft
+   low at 5:06 PM "the year's lowest remaining daylight tide"; the current
+   Monterey sheet (generated 2026-09-30) gives that window 2:10–8:15 PM with
+   167 daylight minutes → daylight ends ≈4:57 PM, so the low itself is after
+   sunset. Same daylight-at-low vs window-overlap conflation the La Jolla
+   `f55b540` correction fixed. Passed-September framing also needs rolling.
+
+Three bounded maintenance briefs added at the top of P1 with Sep 29 exact GSC
+baselines (0/18/5.11, 0/11/7.18, 0/51/8.29); queue back to five writable.
+Fresh `flywheel 28` found no uncovered cluster ≥ threshold: Fitzgerald chart
+(5 clicks / 266 impressions / pos 8.8) and king-tide-2026 variants land on
+pages already serving the intent; `glass beach port townsend tide chart`
+(0/23/13.1) has its Sep 22 chart, readout pending. No article or production
+code changed today — this is a docs-only refill, same class as Sep 19/22/27.
+
+**Scheduled `inspect 60` comparison (§2a′, due today):** 34 Submitted-and-
+indexed / 17 Discovered–not-indexed / 12 unknown-to-Google of 60 sampled
+(57% indexed), versus 50% indexed in both 40-URL samples on Sep 14 and
+Sep 21 — directional improvement, consistent with the Sep 28 finding that
+the homepage contextual-link section earns crawls (3 of 7 targets flipped
+by Sep 27). Still-unindexed guides in today's sample: how-low,
+best-tide-pools-california, cabrillo (the Sep 21 targets), plus
+pillar-point, port-orford, trip-planning and the year-heatmap tool. Some
+click-earning station pages sample as "unknown" (e.g. /beaches/wa/seattle-wa/),
+so the sampler understates true coverage. Per the standing Sep 21/28
+decision: no new link pass — the remainder is Google-side crawl-budget lag;
+monitor at the next weekly inspect (~Oct 5). One transient GSC API 503
+aborted the first inspect run; a plain retry succeeded (no incident).
+
+**Health:** refresh landed before session — run 36704300923 (10:44:59Z,
+2m55s, success), commit `5594c0a` at 10:47:49Z; fact sheets generated
+2026-09-30; five latest Actions green; no open issues. The working tree
+carried the owner-held Haystack + minus-tide edits; pulled with
+`--autostash`, both preserved, both excluded from today's commit.
+
+**Metrics (PostHog 495836, thetidewindow.com host):** 7d 555 pageviews /
+544 distinct ids / 1 signup; 28d totals 1,554 pageviews / 6 signups.
+Top 7d paths: national king tides 213, Oregon king tides 87, WA king
+tides 25, Acadia 24, home 23, Finder 12, Fitzgerald 12. Referrers 7d:
+DuckDuckGo 121, Bing 112, Google 105, direct 94, Yahoo 62+. GSC 28d
+pages: national king tides 75 clicks / 4,193 impressions / pos 6.8;
+Fitzgerald 45 / 1,740 / 6.5; Oregon calendar 24 / 529 / 6.2. Descriptive
+snapshot, not a verdict.
+
+**Tomorrow (Thu Oct 1) is triple-gated — coordinate, don't skip:**
+(1) Thursday newsletter ritual (sync-audience → dry-run → recompute-check →
+send --owner-reviewed, established template only); (2) November monthly-
+rollover checkpoint (§2c staged rule: check Bing `site:` indexing of the
+October month batch first); (3) owner exit-prompt deadline. Oct 5:
+national king-tides query readout + next weekly inspect. Oct 15: NPS Mora
+closure recheck. Both owner-held releases (Haystack, minus-tide) still
+await explicit publication approval — do not ship them through other work.
+
+---
+
 <!-- heartbeat-2026-09-29:start -->
 ## 2026-09-29 — Heartbeat: carry the active Mora closure into the storm guide
 
