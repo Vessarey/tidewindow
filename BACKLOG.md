@@ -14,12 +14,20 @@ with the date; add discoveries at the appropriate tier.
       updated lead/FAQs/framing and the dated species snapshot. Build,
       56 tests, numerical/schema/33-link checks and desktop/mobile gate
       checks passed. See journal for release and analytics evidence.
-- [ ] **Oct 1 coordination:** operator newsletter ritual (existing template
-      only), exit-prompt owner deadline, month-title readout, and staged
-      November rollover remain separate gates. Exit prompt at Sep 30
-      17:15:56Z: 91 host+Regular impressions / 2 exit-intent signups since
-      July 27; re-query at deadline, do not extend the closed experiment.
-      Four writable content briefs remain, excluding owner-held patches.
+- [x] **Oct 1 coordination — all four gates closed 2026-10-01:**
+      (1) Newsletter sent: Broadcast `628090be-9cee-4fff-8522-ebd6f8521749`
+      to 15 subscribers, quiet-week template, recompute-checked (75 windows
+      Oct 1–7, none ≥60, least-bad Port Townsend Oct 5 verified).
+      (2) November rollover shipped (`840d612`): Bing-index gate passed via
+      DDG site: check (8/12 October pages), config-only commit, 136 sitemap
+      URLs live. December gate: check November-batch indexing ~Nov 1.
+      (3) Exit prompt at deadline: lifetime 93 impressions / 2 exit-intent
+      signups (Jul 27–Oct 1). Experiment stays closed-unmeasurable; prompt
+      left live (costs nothing); keep-vs-remove is an open OWNER decision —
+      operators do not re-query on a schedule or remove it unilaterally.
+      (4) Month-title readout: KEEP — page 11cl/373impr/6.89 pre vs
+      15cl/351impr/5.80 post; park cluster 0 → 3 clicks; package-level
+      attribution, no follow-on experiment. See 2026-10-01 journal.
 <!-- heartbeat-2026-09-30:end -->
 
 <!-- heartbeat-2026-09-29:start -->

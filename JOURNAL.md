@@ -5,6 +5,92 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-01 — Thursday newsletter + November rollover + two scheduled readouts
+
+**Health:** green. Today's refresh ran 11:10:59Z (run 36853755793, 2m25s,
+success; ~54 min past the 10:17 slot — routine drift), landing `068f30c` at
+11:13:20Z. Five latest Actions successful; no open issues. Both owner-held
+article edits (Haystack, minus-tide) preserved via `--autostash` pull and
+excluded from every commit today.
+
+**Primary — Thursday newsletter ritual (established template only):**
+1. `sync-audience`: first attempt hit a PostHog HTTP 504 (same transient
+   class as Sep 29); plain retry succeeded. 1 contact added (the Sep 30
+   exit-intent signup), 15 already present, 16 total, 1 unsubscribed left
+   untouched.
+2. `send-weekly --dry-run`: quiet-week issue, Oct 1–7, zero Good-or-better
+   windows.
+3. Recompute-check: the single quoted window matches the Port Townsend fact
+   sheet exactly (−0.234 → −0.23 ft, Mon Oct 5 5:48 AM, walkable 3:55–7:55 AM,
+   score 27 Skip). Independently scanned all of `public/data-json/stations`:
+   75 windows dated Oct 1–7 across 12 stations, max score 27, none ≥60 — the
+   "quiet week" framing and least-bad pick are both verified, not template
+   defaults. Issue structure is byte-shape-identical to the sent Sep 24
+   quiet-week issue (numerals masked diff: only dates/data differ), so the
+   standing blanket approval applies; no new sections or tone changes.
+4. Sent: Broadcast `628090be-9cee-4fff-8522-ebd6f8521749` to 15 subscribers,
+   Resend status `sent` at 12:06:34Z. No bounce/complaint fields returned
+   yet — unknown, not zero; check next run.
+
+**November rollover (§2c, staged gate PASSED):** Bing's own results page
+returned unrelated filler for `site:` queries today (Domino's/Notion results —
+operator note: query Bing's index via the DuckDuckGo HTML endpoint instead).
+DDG (Bing index) shows 8 of 12 October month pages indexed with crawl dates
+Sep 18–Oct 1 (seattle, la-push, port-townsend, garibaldi, newport, san-diego,
+la-jolla, pillar-point). Gate passed → added `2026-11` to
+`src/lib/published-months.json` (`840d612`). Today's cron data already
+contained full November tides/windows (Seattle: 21 Nov windows, 116 Nov tides
+at HEAD), so the local `PIPELINE_REFRESH` regeneration was reverted and NO
+data files were committed — data provenance stays with the cron, matching the
+Aug 1 rollover precedent. Plain build from committed data: 149 routes,
+verify-output 12 stations × 5 months, 136 sitemap URLs (124 → 136), 56 tests.
+Live after Vercel deploy: seattle-wa/2026-11 HTTP 200, live sitemap carries
+all 12 November URLs. December rollover gate: check November-batch indexing
+around Nov 1.
+
+**Exit-prompt owner deadline (today):** fresh lifetime query, Jul 27 →
+Oct 1, host=thetidewindow.com + Regular: **93 `exit_intent_shown`
+impressions / 2 exit-intent `newsletter_signup`s**. (Property check: the
+signup source lives in `properties.source`; a `properties.form` filter
+returns 0/2 wrongly — matches the Sep 30 correction.) The experiment remains
+**closed-unmeasurable** per §5 — not extended, not re-queried on a schedule.
+The prompt stays live: it costs nothing and produced 2 of 16 contacts.
+Keep-vs-remove remains an owner call; owner was not present today, so the
+surface is unchanged and the decision stands open for the owner, not for
+future operators.
+
+**Month-title readout (Sep 8 Constellation Park retitle + Sep 15
+at-a-glance package, due ~Oct 1) — KEEP, package positive:** GSC final data,
+exact-page filter on the seattle-alki guide. Pre (Aug 11–Sep 7, 28d):
+11 clicks / 373 impressions / 2.95% CTR / position 6.89. Post (Sep 8–28,
+21d): 15 clicks / 351 impressions / 4.27% / 5.80. The park-named cluster
+went from 0 clicks (22 impressions, pos ~9.8–11.3) to 3 clicks
+(37 impressions; `constellation park tide pools` 2 clicks pos 9.8 → 6.5,
+`constellation park low tide` 1 click 8.5 → 6.6). Page-level post sample
+(351 impressions) clears the ~100-impression floor, so this verdict is
+in-policy; cluster-level n (37) stays small, so movement is attributed to
+the whole package, not either edit, and no follow-on title experiment is
+queued. Title and page state stay as-is.
+
+**Metrics (PostHog 495836, host + Regular; queries needed a time-bounded
+WHERE and one retry after 504s — PostHog was slow today):** 7d 595 pageviews /
+2 signups; 28d 1,608 pageviews / 7 signups. Consistent with Sep 30
+(568/2, 1,571/7), traffic drifting up. No deeper pull today — three gates
+plus the send were the day's budget; descriptive snapshot, not a verdict.
+
+**Tomorrow / open:** Oct 5 — national king-tides query readout + weekly
+`inspect` (retain exact URL states to reconcile the Sep 30 count mismatch).
+Oct 15 — NPS Mora closure recheck. Next maintenance slot — queued Next
+16.3.3 → 16.3.6 patch upgrade (GHSA-vcvr-r3jv-pc5j; no affected input path
+found in current source, see Sep 30). Four writable briefs remain
+(golden-hour calendar, sea-glass timing, East Coast explainer, Sunset Bay).
+Watch the new broadcast's bounce/complaint fields. Both owner-held releases
+still await explicit approval — do not ship them through other work. The
+136-URL sitemap goes out with the next cron's IndexNow submit; no manual
+submit was made today.
+
+---
+
 <!-- heartbeat-2026-09-30:start -->
 ## 2026-09-30 — Heartbeat: Pacific Grove daylight-at-low correction
 
