@@ -5,6 +5,28 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-10-01:start -->
+- [x] **2026-10-01 heartbeat — bounded Next security patch** (`1311358`).
+      Next + eslint-config-next 16.3.3 → 16.3.6 only. Fresh and committed-data
+      builds, 56 tests, lint, TypeScript, 136 HTTP destinations and responsive
+      tool/gate checks passed. Critical Next audit finding removed; low
+      production DOMPurify and high development brace-expansion remain.
+      See journal for release verification; owner-held files preserved.
+- [ ] **Owner reconciliation still required: exit prompt retirement.**
+      Oct 1 lifetime deadline result is 93 impressions / 2 signups, below
+      the recorded Aug 31 owner's <100 retirement threshold. Morning
+      operator's keep-live instruction conflicts with that record; no new
+      owner override found. Do not call all four Oct 1 gates closed. No
+      removal/restart/extension in this heartbeat; resolve the authority
+      conflict explicitly before altering the surface.
+- [x] **Readout coordination corrected:** morning's Seattle-guide readout
+      is separate from the Sep 17 month-template retitle. Exact monthly
+      readout now recorded below; Seattle August gets its sole extension
+      to Oct 15. No new title or conversion variant. Morning newsletter and
+      November rollout not duplicated. DDG visibility is not independent
+      proof of Bing's exact index gate; retain engine-specific evidence.
+<!-- heartbeat-2026-10-01:end -->
+
 <!-- heartbeat-2026-09-30:start -->
 - [x] **2026-09-30 heartbeat — Pacific Grove daylight-at-low correction**
       (`b06865b`). Rechecked all 82 remaining-2026 modeled windows; Dec 24
@@ -1483,7 +1505,11 @@ implementation; preserve historical evidence and the owner's Haystack hold.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
-- [ ] **Priority: bounded Next security patch after Sep 30 advisory.**
+- [x] **Priority: bounded Next security patch after Sep 30 advisory.**
+      **Done Oct 1 heartbeat (`1311358`):** Next and eslint-config-next
+      16.3.6, isolated fresh/committed builds, 56 tests, lint, TypeScript,
+      HTTP/browser checks; critical finding removed. See Oct 1 journal.
+      Original brief:
       Production dependency audit reports critical GHSA-vcvr-r3jv-pc5j in
       pinned Next 16.3.3; vendor fix starts at 16.3.6 (audit currently proposes
       16.3.8). Advisory requires attacker-controlled SVG content/attributes/
@@ -1495,6 +1521,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       audit, browser and live verification. No force/bulk dependency update;
       preserve both owner-held articles/evidence packets. See Sep 30 journal
       and https://github.com/advisories/GHSA-vcvr-r3jv-pc5j.
+- [ ] **Oct 1 residual dependency findings — bounded follow-up.** Production
+      DOMPurify 3.4.14 has low GHSA-p98j-92pf-mc4p through posthog-js;
+      dev-only brace-expansion 1.1.18 / 5.0.9 has a high-severity advisory
+      group. Both records unchanged by the Next patch. Review affected input
+      paths and compatible fixes, then isolated build/audit/browser gates;
+      no bulk/force update or claim that today's full audit is clean.
 - [ ] **Oct 5 indexing audit: reconcile Sep 30 operator tally.**
       Journal says 34 indexed + 17 Discovered + 12 unknown out of 60; sum
       is 63. No saved current packet found. Preserve per-URL inspection
@@ -1611,13 +1643,28 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       has 3) into their station page rather than noindexing — no month page
       is actually empty (audit correction: "0 daylight minus tides" was the
       stricter metric; every month still has daylight windows under +1.0 ft).
-- [ ] **~2026-10-01: judge the 09-17 month-page retitle** (`{Station} Tide
+- [x] **~2026-10-01: judge the 09-17 month-page retitle** (`{Station} Tide
       Chart, {Month Year}: Low Tide Times and Daylight Windows`) on clicks and
       position, baselines in JOURNAL 2026-09-17 (bar-harbor-me 2026-09 5 /
       952 / pos 7.7; seattle-wa 2026-08 5 / 956 / 7.4). Same run: confirm
       `/guides/king-tides-washington-2027/` and `/guides/king-tides-oregon-2027/`
       moved off "Discovered – never crawled" after the 09-17 national-guide
       by-state pointer; if not, the next lever is the Sep 21 inspect finding.
+      **Oct 1 heartbeat readout:** equal Sep 6–16 / Sep 18–28 final GSC
+      windows, exact monthly URLs (not the Seattle guide): Bar Harbor Sep
+      3→0 clicks, 511→191 impressions, position 8.02→8.80. Exposure floor
+      met, no improvement shown; month aging/query mix confound causation.
+      Keep title, no new variant. Seattle Aug 1→1 click, 491→65 impressions,
+      7.31→7.17; below floor, single extension below. WA/OR 2027 guides both
+      Google PASS/Submitted and indexed, matching canonicals, crawled Sep 27.
+      This verifies current index states, not attribution to the link edit.
+- [ ] **Oct 15: final Seattle August month-title readout (one extension).**
+      Sep 18–28 post sample 65 impressions / 1 click, below §5 floor. At
+      65/11 per day, ~17 days total to 100 (<60), not a guaranteed forecast.
+      Compare exact-page daily GSC with equal pre/post windows and lag;
+      account for archival seasonality and concurrent changes. If still
+      below 100 impressions / 30 events, close unmeasurable; no second
+      extension. Do not restart the closed signup experiments.
 
 - [x] 2026-08-31: **Past-month pages fixed — they had been publishing wrong
       numbers** (owner review pass). The rolling windows dataset had dropped
