@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-01",
+ "generated_on": "2026-10-02",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2059,7 +2059,7 @@
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 21
+   "count": 22
   },
   {
    "commonName": "Stearns' Aeolid",
@@ -2067,23 +2067,23 @@
    "count": 16
   },
   {
-   "commonName": "Salt-and-pepper Doris",
-   "scientificName": "Aegires albopunctatus",
-   "count": 15
-  },
-  {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
    "count": 15
   },
   {
-   "commonName": "cockscomb nudibranch",
-   "scientificName": "Antiopella barbarensis",
-   "count": 12
+   "commonName": "Salt-and-pepper Doris",
+   "scientificName": "Aegires albopunctatus",
+   "count": 14
   },
   {
    "commonName": "Hedgpeth's Dorid",
    "scientificName": "Polycera hedgpethi",
+   "count": 11
+  },
+  {
+   "commonName": "cockscomb nudibranch",
+   "scientificName": "Antiopella barbarensis",
    "count": 11
   },
   {
@@ -2092,13 +2092,13 @@
    "count": 10
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 10
-  },
-  {
    "commonName": "Olive's Aeolid",
    "scientificName": "Anteaeolidiella oliviae",
+   "count": 9
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
    "count": 9
   }
  ]

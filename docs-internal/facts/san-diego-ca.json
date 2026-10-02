@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-01",
+ "generated_on": "2026-10-02",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2051,11 +2051,6 @@
   }
  ],
  "species_last60d_5km": [
-  {
-   "commonName": "Pacific Oyster",
-   "scientificName": "Magallana gigas",
-   "count": 2
-  },
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",

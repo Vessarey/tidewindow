@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-01",
+ "generated_on": "2026-10-02",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2111,18 +2111,18 @@
    "count": 18
   },
   {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 13
+  },
+  {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 11
-  },
-  {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
    "count": 11
   }
  ]

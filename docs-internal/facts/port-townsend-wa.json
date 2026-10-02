@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-01",
+ "generated_on": "2026-10-02",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1851,6 +1851,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 249,
    "min_to_sun_edge": -52
+  },
+  {
+   "date": "2027-01-29",
+   "weekday": "Fri",
+   "low_ft": 0.937,
+   "low_time_local": "4:13 PM",
+   "window_local": "3:55 PM–4:25 PM",
+   "arrive_by_local": "3:13 PM",
+   "daylight_min": 30,
+   "score": 13,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 234,
+   "min_to_sun_edge": 53
   }
  ],
  "species_last60d_5km": [
@@ -1860,14 +1874,19 @@
    "count": 5
   },
   {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 4
+  },
+  {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
    "count": 3
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 3
+   "commonName": "Hedgpeth's Sapsucker",
+   "scientificName": "Elysia hedgpethi",
+   "count": 2
   },
   {
    "commonName": "Fingered Limpet",
@@ -1897,11 +1916,6 @@
   {
    "commonName": "Giant Pacific Octopus",
    "scientificName": "Enteroctopus dofleini",
-   "count": 1
-  },
-  {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
    "count": 1
   }
  ]
