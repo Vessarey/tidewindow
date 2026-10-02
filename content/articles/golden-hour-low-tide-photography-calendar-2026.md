@@ -1,21 +1,21 @@
 ---
 title: "Golden Hour Low Tide Photography Calendar 2026: La Push, Garibaldi, Monterey, La Jolla"
-description: "The last golden-hour minus tides of 2026 land August 10-13 at La Push and Garibaldi. Full calendars with sun bearings for four West Coast stations."
+description: "The 2026 dawn season is over; what remains belongs to winter sunsets in the south. La Jolla's Dec 25 window scores 90. Four West Coast station calendars."
 date: "2026-07-03"
-updated: "2026-08-02"
+updated: "2026-10-02"
 category: "photography"
 tags: ["low tide photography", "golden hour", "sun azimuth", "minus tide", "west coast"]
 faq:
   - q: "When is the best golden-hour low tide left in 2026 on the West Coast?"
-    a: "In Tidewindow's next-120-day rankings (computed 2026-08-02), Wednesday, August 12, 2026 at La Push, WA — NOAA station 9442396 — tops the list: a −2.31 ft low at 6:58 AM, 48 minutes after sunrise, scoring 90 of 100. Thursday, August 13 matches the score at −2.14 ft, and Tuesday, August 11 puts its −2.18 ft low just 4 minutes after sunrise."
+    a: "In Tidewindow's remaining-2026 data (computed 2026-10-02), Friday, December 25, 2026 at La Jolla, CA — NOAA station 9410230 — tops the list: a −1.72 ft low at 4:33 PM, 16 minutes before sunset, scoring 90 of 100. Thursday, December 24 is deeper still (−1.88 ft at 3:47 PM, scoring 84), and Monterey's December 23 and 24 windows both score 80."
   - q: "What does sun azimuth mean in beach photography?"
-    a: "Azimuth is the sun's compass bearing, measured clockwise from true north: 0° is north, 90° east, 180° south, 270° west. Every morning window in this calendar puts the sun between 57° and 83° — northeast to east — so on a west-facing Pacific beach the light comes from behind you, front-lighting sea stacks and wet sand."
+    a: "Azimuth is the sun's compass bearing, measured clockwise from true north: 0° is north, 90° east, 180° south, 270° west. Every remaining 2026 window in this calendar puts the sun between 225° and 269° — southwest to west, over the ocean — so on a west-facing Pacific beach you are shooting into the light: silhouette and backlight geometry, the reverse of the summer dawn runs."
   - q: "Are golden-hour low tides also minus tides?"
-    a: "Increasingly rarely, as the 2026 season winds down: 14 of the 24 windows in the current next-120-day lists sit below 0.0 ft MLLW. The deepest is −2.31 ft at La Push (NOAA station 9442396) at 6:58 AM on August 12, 48 minutes after sunrise. Every window that still scores Good or better is a minus tide at La Push or Garibaldi, August 10–13."
-  - q: "Why do the last good golden-hour overlaps of 2026 land on August mornings in the north?"
-    a: "The daily low arrives roughly 30–60 minutes later each day while sunrise barely moves, so each spring-tide run crosses sunrise on only one or two mornings. The August 10–13 run is the year's last to cross dawn with deep water, and only north of the Columbia-to-Tillamook stretch: at Monterey and La Jolla the same run bottoms out 74–76 minutes before sunrise, in the dark. After mid-August the deep lows drift away from the light until winter, when they return on the sunset side — mostly after dark."
+    a: "At the moment, mostly yes: 55 of the 80 remaining 2026 windows at these four stations that land within 90 minutes of sunrise or sunset with at least 30 daylight minutes are minus tides, and every one that scores Good or better is a minus tide at Monterey or La Jolla. The deepest is −1.88 ft at La Jolla (NOAA station 9410230) at 3:47 PM on December 24, 61 minutes before sunset."
+  - q: "Why did the golden-hour calendar flip from August dawns in the north to December sunsets in the south?"
+    a: "The daily low arrives roughly 30–60 minutes later each day while sunrise and sunset move slowly, so each spring-tide run crosses a sun edge on only a few days. Summer's deep lows crossed sunrise, and in August only north of the Columbia-to-Tillamook stretch. Winter reverses it: the deep lows land in mid-to-late afternoon, near the early winter sunset — and this time the depth and light line up in the south, at Monterey and La Jolla, while La Push and Garibaldi top out at Fair."
   - q: "How early should I arrive for a golden-hour low-tide shoot?"
-    a: "About an hour before the predicted low — for La Push's August 12, 2026 window that means 5:58 AM for the 6:58 AM low — and earlier if you want blue hour, since that window opens at 4:30 AM. Olympic National Park advises: 'Always carry a tide table, topographic map, and keep track of the time whenever hiking along Olympic's coast.'"
+    a: "About an hour before the predicted low — for La Jolla's December 25, 2026 window that means 3:33 PM for the 4:33 PM low — and earlier if you want the full falling tide, since that window opens at 1:45 PM. For any Olympic coast outing, the park's advice stands: 'Always carry a tide table, topographic map, and keep track of the time whenever hiking along Olympic's coast.'"
 sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442396"
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437540"
@@ -26,45 +26,109 @@ sources:
   - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
 ---
 
-**The best golden-hour low tide left in 2026 on the West Coast is Wednesday, August 12 at La Push, WA (NOAA station 9442396): a −2.31 ft low at 6:58 AM, 48 minutes after sunrise, scoring 90 of 100. It anchors the year's final dawn run, August 10–13 — and this time the light belongs to the north. Every window in the current 120-day rankings that scores Good or better falls in those four mornings at La Push or Garibaldi; at Monterey and La Jolla the same lows now arrive before sunrise.**
+**The 2026 dawn season is over. The August 10–13 run at La Push and Garibaldi was the year's last golden-hour low tide at sunrise, and no remaining 2026 window at these four stations puts a low within 90 minutes of sunrise with 30 daylight minutes to work with. What's left belongs to winter sunsets — and the geography has flipped south. The best remaining window is Friday, December 25 at La Jolla, CA (NOAA station 9410230): a −1.72 ft low at 4:33 PM, 16 minutes before sunset, scoring 90 of 100. Monterey's December 23 and 24 both score 80; the north tops out at Fair.**
 
 ## What counts as a golden-hour low tide?
 
 Two clocks have to agree. The tide clock decides how much reef and wet sand you get; the sun clock decides whether the light on it is worth carrying a tripod for. For each station Tidewindow crosses NOAA's harmonic tide predictions with the sun's computed position and keeps the windows where a deep low lands near sunrise or sunset. Each window carries two solar numbers alongside its 0–100 score: the sun's **azimuth** at the moment of the low, and the offset in minutes between the low and the nearest sunrise or sunset (negative means the sun is below the horizon at the low). The [golden-hour tool](/tools/golden-hour/) computes this live for every station we track; the formulas, including the scoring, are on the [methodology page](/methodology/).
 
-The mechanism explains the whole calendar. The morning low arrives roughly 30–60 minutes later each day — at La Push it steps 5:23, 6:13, 6:58, 7:39 AM over August 10–13 — while August sunrise barely moves. Each spring-tide run therefore crosses dawn once or twice, and those crossing mornings, deep water out and sun just up, are what this page collects.
+The mechanism explains the whole calendar. The low arrives roughly 30–60 minutes later each day — at La Push last August it stepped 5:23, 6:13, 6:58, 7:39 AM over the 10th–13th — while the sun's edges move slowly. Each spring-tide run therefore crosses sunrise or sunset on only a few days, and those crossing days, deep water out and sun at the horizon, are what this page collects. In summer the crossings happen at dawn; in winter the deep lows shift to mid-afternoon and cross the early sunset instead.
 
-## Which mornings top the current list?
+## Which evenings top the current list?
 
-One best window per station, ranked by score:
+One best window per station from the remaining 2026 data, ranked by score:
 
 | Station | Date | Low (ft MLLW) | Low time | Low vs. sun edge | Sun azimuth | Score |
 |---|---|---|---|---|---|---|
-| [La Push, WA](/beaches/wa/la-push-wa/) (9442396) | Wed, Aug 12 | −2.31 | 6:58 AM | +48 min | 75° | 90 (Exceptional) |
-| [Garibaldi, OR](/beaches/or/garibaldi-or/) (9437540) | Wed, Aug 12 | −1.77 | 7:04 AM | +51 min | 77° | 85 (Great) |
-| [Monterey, CA](/beaches/ca/monterey-ca/) (9413450) | Wed, Aug 12 | −1.11 | 5:07 AM | −76 min | 58° | 55 (Fair) |
-| [La Jolla, CA](/beaches/ca/la-jolla-ca/) (9410230) | Fri, Aug 14 | −0.50 | 4:58 AM | −74 min | 61° | 43 (Fair) |
+| [La Jolla, CA](/beaches/ca/la-jolla-ca/) (9410230) | Fri, Dec 25 | −1.72 | 4:33 PM | +16 min | 240° | 90 (Exceptional) |
+| [Monterey, CA](/beaches/ca/monterey-ca/) (9413450) | Thu, Dec 24 | −1.83 | 5:06 PM | −9 min | 242° | 80 (Great) |
+| [La Push, WA](/beaches/wa/la-push-wa/) (9442396) | Tue, Dec 22 | −1.45 | 5:15 PM | −46 min | 243° | 55 (Fair) |
+| [Garibaldi, OR](/beaches/or/garibaldi-or/) (9437540) | Tue, Dec 22 | −1.35 | 5:26 PM | −51 min | 245° | 51 (Fair) |
 
-*Computed 2026-08-02 from NOAA predictions at stations 9442396, 9437540, 9413450, and 9410230, next 120 days. "Low vs. sun edge" is minutes between the low and the nearest sunrise or sunset; positive means the sun is up.*
+*Computed 2026-10-02 from NOAA predictions at stations 9410230, 9413450, 9442396, and 9437540, October 2 – December 31, 2026. "Low vs. sun edge" is minutes between the low and the nearest sunrise or sunset; positive means the sun is up. December 25 is a federal holiday.*
 
-Read down the table and the season's geography is plain. In July the whole coast crossed dawn together; the August run crosses it only in the north. La Push and Garibaldi still put deep water under new light — both stations' lows on the 12th land about 50 minutes into the day. Monterey and La Jolla now bottom out roughly an hour and a quarter *before* sunrise: by the time the sun clears the horizon, the water is already well up the beach. The southern half of this calendar has, for 2026, run out of light.
+Read down the table and the season's new geography is plain. In August the light belonged to the north: every Good-or-better window fell at La Push or Garibaldi while Monterey and La Jolla bottomed out before sunrise. Winter reverses the whole arrangement. Now every remaining window on this calendar that scores Good or better — all 19 of them — is a minus tide at Monterey or La Jolla, and the northern pair never climbs past Fair: their deep December lows arrive 46–51 minutes *after* sunset, in the dark. Same arithmetic, opposite winners.
 
 ## What does the azimuth number tell you?
 
-Azimuth is a compass bearing for the sun. NOAA's solar glossary defines it as "measured clockwise from true north to the point on the horizon directly below the object" — so 0° is north, 90° east, 180° south, 270° west. Every morning window in this calendar puts the sun between 57° and 83°: northeast to east, low over the land.
+Azimuth is a compass bearing for the sun. NOAA's solar glossary defines it as "measured clockwise from true north to the point on the horizon directly below the object" — so 0° is north, 90° east, 180° south, 270° west. Every remaining 2026 window in this calendar puts the sun between 225° and 269°: southwest to west, out over the water.
 
-Stand facing the Pacific and that sun is behind you. Practically:
+Stand facing the Pacific and that sun is in front of you — the reverse of the summer dawn geometry. Practically:
 
-- **Front light comes free.** Sea stacks and exposed reef get warm, even light; exposures are easy; keep your own long shadow out of frame.
-- **Shadows point at the water.** A shadow falls opposite the azimuth — subtract 180° and these windows throw shadows toward 237°–263°, southwest to west: raking lines aimed at the surf, a gift for foregrounds.
-- **Sidelight means turning parallel to the shore.** Shooting along the beach puts that 57–83° sun on your shoulder and pulls texture out of ripples and rock.
-- **Backlight is still barely on the menu.** Two sunset-side windows do crack the lists now — La Push on August 14 (azimuth 292°, sun setting behind the sea stacks) and La Jolla on September 14 (268°) — but both are Skip-band: +0.72 ft and +0.76 ft lows leave almost no beach under the silhouette. Nothing sun-behind-the-water scores Good or better in the next 120 days.
+- **Backlight is the default.** Sea stacks, rock arches, and people on the reef become silhouettes against the bright water; meter for the sky and let the foreground go dark, or bracket.
+- **Shadows point inland.** A shadow falls opposite the azimuth — subtract 180° and these windows throw shadows toward 45°–89°, northeast to east: away from the surf, behind your subjects.
+- **Wet sand becomes a mirror.** A low sun over the ocean reflects off every exposed, water-slicked surface the minus tide uncovers — the one time of year the deepest foreground and the brightest light share a bearing.
+- **Front light is gone for the year.** Nothing sunrise-side qualifies again in 2026; the warm, even, sun-behind-you light on the reef returns with the summer dawn runs.
 
 ## The station calendars
 
-All six top-ranked windows per station follow. "Low vs. sun edge" is minutes from the predicted low to the nearest sunrise or sunset; negative lows happen in twilight. Evening windows are marked.
+The top six remaining 2026 windows per station, ranked by score. "Low vs. sun edge" is minutes from the predicted low to the nearest sunrise or sunset; negative lows happen in twilight. All remaining windows are on the sunset side of the day.
+
+### La Jolla, CA (NOAA station 9410230)
+
+| Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
+|---|---|---|---|---|---|
+| Fri, Dec 25 | −1.72 | 4:33 PM | +16 min | 240° | 90 (Exceptional) |
+| Thu, Dec 24 | −1.88 | 3:47 PM | +61 min | 233° | 84 (Great) |
+| Thu, Nov 26 | −1.40 | 4:46 PM | −3 min | 246° | 82 (Great) |
+| Wed, Nov 25 | −1.51 | 3:55 PM | +48 min | 239° | 77 (Great) |
+| Sat, Dec 26 | −1.35 | 5:18 PM | −28 min | 246° | 75 (Great) |
+| Tue, Oct 27 | −0.83 | 4:57 PM | +65 min | 246° | 65 (Good) |
+
+*Computed 2026-10-02 from NOAA station 9410230 predictions.*
+
+The year's best remaining window anywhere on this calendar: Christmas Day's −1.72 ft low lands 16 minutes before sunset — depth and horizon light in the same quarter hour. The day before is deeper (−1.88 ft, the deepest remaining low on this page) with a full sunlit hour before the sun reaches the water. Thanksgiving week offers a quieter rehearsal: November 26's −1.40 ft low lands 3 minutes after sunset, and November 25's −1.51 ft low arrives with 48 minutes of sun still to go. Dates, access points, and the reef itself are covered in our [La Jolla tide pools guide](/guides/la-jolla-tide-pools-best-dates-2026/).
+
+### Monterey, CA (NOAA station 9413450)
+
+| Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
+|---|---|---|---|---|---|
+| Wed, Dec 23 | −1.73 | 4:19 PM | +38 min | 235° | 80 (Great) |
+| Thu, Dec 24 | −1.83 | 5:06 PM | −9 min | 242° | 80 (Great) |
+| Fri, Dec 25 | −1.71 | 5:53 PM | −55 min | 249° | 79 (Great) |
+| Tue, Nov 24 | −1.34 | 4:28 PM | +26 min | 241° | 73 (Good) |
+| Tue, Dec 22 | −1.41 | 3:31 PM | +85 min | 227° | 73 (Good) |
+| Thu, Nov 26 | −1.52 | 6:09 PM | −76 min | 255° | 72 (Good) |
+
+*Computed 2026-10-02 from NOAA station 9413450 predictions.*
+
+Monterey's dormant season, promised back in August, has arrived on schedule: a three-day Great run December 23–25. The 23rd keeps the sun up through the low (38 minutes of margin); the 24th trades that for depth, its −1.83 ft low arriving 9 minutes after sunset with the window's best light in the half hour before. Note the sunset times — around 4:56 PM in late December — and that the 24th's and 25th's lows are after sunset: the shoot is the falling tide, not the low itself. The [Pacific Grove guide](/guides/pacific-grove-tide-pools-2026/) covers the same run from the tidepooling side, after-sunset lows labeled.
 
 ### La Push, WA (NOAA station 9442396)
+
+| Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
+|---|---|---|---|---|---|
+| Tue, Dec 22 | −1.45 | 5:15 PM | −46 min | 243° | 55 (Fair) |
+| Sun, Oct 25 | −0.71 | 6:48 PM | −37 min | 259° | 52 (Fair) |
+| Mon, Nov 23 | −1.27 | 5:29 PM | −56 min | 250° | 50 (Fair) |
+| Mon, Oct 26 | −1.34 | 7:29 PM | −79 min | 266° | 49 (Fair) |
+| Sun, Nov 22 | −0.42 | 4:45 PM | −11 min | 242° | 47 (Fair) |
+| Mon, Dec 21 | −0.66 | 4:26 PM | +2 min | 234° | 45 (Fair) |
+
+*Computed 2026-10-02 from NOAA station 9442396 predictions.*
+
+August's champion is winter's also-ran: every remaining La Push low with real depth arrives well after sunset. The honest picks are the shallow sun-edge crossers — December 21's −0.66 ft low lands 2 minutes before sunset, November 22's −0.42 ft eleven minutes after — twilight shoots on a falling tide rather than deep reef in full light. Access homework still applies: Olympic National Park's conditions page states "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026," with Rialto Beach not accessible via Mora Road during that period. Every window above falls after the scheduled end date, but a construction schedule is not a verified reopening — check the [park's conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) before planning a Rialto shoot. **Second Beach**, a 0.7-mile forest trail off La Push Road, doesn't depend on Mora Road; our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) covers the trail and the sea stacks.
+
+### Garibaldi, OR (NOAA station 9437540)
+
+| Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
+|---|---|---|---|---|---|
+| Tue, Dec 22 | −1.35 | 5:26 PM | −51 min | 245° | 51 (Fair) |
+| Sun, Oct 25 | −0.71 | 7:02 PM | −49 min | 262° | 48 (Fair) |
+| Mon, Nov 23 | −1.25 | 5:43 PM | −65 min | 252° | 47 (Fair) |
+| Sun, Nov 22 | −0.48 | 4:57 PM | −18 min | 244° | 46 (Fair) |
+| Mon, Dec 21 | −0.64 | 4:37 PM | −2 min | 237° | 43 (Fair) |
+| Sat, Oct 10 | −0.36 | 7:23 PM | −44 min | 269° | 41 (Fair) |
+
+*Computed 2026-10-02 from NOAA station 9437540 predictions.*
+
+Same story as La Push, one notch shallower, which has been Garibaldi's role all year. December 21 is the sun-edge pick — a −0.64 ft low 2 minutes after sunset — and the nearest-term option is Sunday, October 25: −0.71 ft at 7:02 PM, 49 minutes after sunset, a blue-hour tide rather than a golden-hour one.
+
+## The August dawn run, for the record
+
+The tables below are the dawn season's closing act as this page tracked it, computed 2026-08-02 and verified against the committed predictions. They are history now — the run played out August 10–13, and nothing at sunrise qualifies again in 2026.
+
+### La Push (August 2026)
 
 | Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
 |---|---|---|---|---|---|
@@ -75,11 +139,9 @@ All six top-ranked windows per station follow. "Low vs. sun edge" is minutes fro
 | Fri, Aug 14 (evening) | +0.72 | 8:34 PM | −1 min | 292° | 21 (Skip) |
 | Tue, Aug 25 | −0.35 | 5:50 AM | −38 min | 66° | 39 (Skip) |
 
-*Computed 2026-08-02 from NOAA station 9442396 predictions.*
+August 11 was the dawn-crosser — its −2.18 ft low landed 4 minutes after sunrise, the closest any 2026 window came to the sun-just-up moment — while the 12th and 13th traded that precision for depth and a longer, brighter morning.
 
-August 11 is the dawn-crosser — the −2.18 ft low lands 4 minutes after sunrise, the closest any remaining 2026 window comes to the sun-just-up moment — while the 12th and 13th trade that precision for depth and a longer, brighter morning. All three starts are dark: the 12th's window opens at 4:30 AM. This entry comes with homework. Olympic National Park says to "always carry a tide table, topographic map, and keep track of the time whenever hiking along Olympic's coast," and warns that several points along the coast are only passable at lower tides. One access fact matters more than any of it this year: the park's conditions page states "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026," and Rialto Beach is not accessible via Mora Road during that period — so the classic Hole-in-the-Wall shoot is off the table for this run. The place to carry the tripod is **Second Beach**, a 0.7-mile forest trail off La Push Road; our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) leads with the closure and covers the trail and the sea stacks.
-
-### Garibaldi, OR (NOAA station 9437540)
+### Garibaldi (August 2026)
 
 | Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
 |---|---|---|---|---|---|
@@ -90,11 +152,7 @@ August 11 is the dawn-crosser — the −2.18 ft low lands 4 minutes after sunri
 | Wed, Aug 26 | −0.29 | 6:26 AM | −4 min | 74° | 43 (Fair) |
 | Thu, Aug 27 | −0.46 | 7:00 AM | +29 min | 80° | 52 (Fair) |
 
-*Computed 2026-08-02 from NOAA station 9437540 predictions.*
-
-Same rhythm as La Push, one notch shallower: Tuesday the 11th crosses sunrise by 6 minutes, Wednesday the 12th brings the depth (−1.77 ft). The late-August run is the season's fade heard in numbers — the 25th lands on exactly 0.00 ft, the average low, and earns a Skip. If you get one Garibaldi morning, make it the 11th or 12th.
-
-### Monterey, CA (NOAA station 9413450)
+### Monterey (August 2026)
 
 | Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
 |---|---|---|---|---|---|
@@ -105,11 +163,9 @@ Same rhythm as La Push, one notch shallower: Tuesday the 11th crosses sunrise by
 | Sat, Aug 15 | +0.18 | 6:57 AM | +32 min | 77° | 47 (Fair) |
 | Sun, Aug 16 | +0.85 | 7:31 AM | +65 min | 82° | 32 (Skip) |
 
-*Computed 2026-08-02 from NOAA station 9413450 predictions.*
+Monterey's August showed the trade the south faced all summer: its deepest low sat 76 minutes before sunrise, and nothing cracked Good. The December tables above are the payoff this page promised then.
 
-Monterey shows the trade the south now faces: depth or light, not both. The deepest low in this list (−1.11 ft on the 12th) sits 76 minutes before sunrise; the low that lands right at the sun's edge (the 14th, −1 minute) has shed two-thirds of that depth; and by the weekend, when the light is easy, the water barely dips below average. Nothing here cracks Good — but Monterey's calendar is dormant, not done. Past this 120-day horizon, late December flips the station to the sunset side with real depth: −1.73 ft at 4:19 PM on December 23 and −1.83 ft at 5:06 PM on December 24, both scoring 80 (Great).
-
-### La Jolla, CA (NOAA station 9410230)
+### La Jolla (August 2026)
 
 | Date | Low (ft) | Low time | Low vs. sun edge | Azimuth | Score |
 |---|---|---|---|---|---|
@@ -120,16 +176,14 @@ Monterey shows the trade the south now faces: depth or light, not both. The deep
 | Sun, Aug 16 | +0.70 | 5:58 AM | −15 min | 71° | 27 (Skip) |
 | Mon, Sep 14 (evening) | +0.76 | 6:11 PM | +45 min | 268° | 26 (Skip) |
 
-*Computed 2026-08-02 from NOAA station 9410230 predictions.*
+*All August tables computed 2026-08-02 from NOAA predictions at the stations named; retained as history.*
 
-One Fair window and five Skips: La Jolla's only remaining sub-zero overlap (−0.50 ft on August 14) bottoms out 74 minutes before sunrise, and there is no honest light-with-water pick left — the September 14 evening entry puts the sun over the ocean at 268°, silhouette geometry at last, but with a +0.76 ft low there is little foreground to silhouette. The consolation is underfoot rather than underwater: observers logged 141 Opalescent Nudibranchs within 5 km of the station in the last 60 days, which is macro season by any definition. La Jolla's real return to this calendar comes with winter's afternoon lows — the [king tides page](/guides/king-tides-2026-2027-dates/) has those dates.
+## The flip, in arithmetic
 
-## The season is closing — here is the arithmetic
+Why the north won August and the south wins December comes down to when the deep lows land versus when the sun's edges sit. At La Push, the daylight minus tides are thinning — 3 in October, 5 in November, 4 in December (computed 2026-10-02 from NOAA station 9442396 predictions) — and the deep ones land after the early winter sunset: November 24's −1.84 ft low at 6:14 PM has 32 minutes of its window in daylight; December 23's −1.97 ft low at 6:03 PM has 39. The depth is there; the light has left before it arrives. Farther south the same spring cycles put their lows an hour or two earlier relative to local sunset, which is all the difference: Monterey and La Jolla land −1.7 to −1.9 ft lows inside the golden hour itself.
 
-The next 120 days of predictions run through late November, yet every Good-or-better window lands August 10–13. The monthly counts at La Push explain it: 15 daylight minus tides remain in August (from the 2nd), then 6 in September, 3 in October (computed 2026-08-02 from NOAA station 9442396 predictions). Deep lows return in November and December — −1.84 ft on November 24, −1.97 ft on December 23 — but on the sunset side of the day, with barely half an hour of their windows in daylight. When the deep lows thin out and drift away from the sun's edges, the overlap scores sink with them.
-
-The same August 10–13 spring cycle, incidentally, is what drives the year's last Exceptional tidepooling run in Puget Sound — if the camera is optional, the [Puget Sound August 8–13 roundup](/guides/puget-sound-minus-tides-august-8-13-2026/) covers that side of the water day by day.
+The same late-December spring cycle drives the deepest remaining tidepooling windows on the coast — if the camera is optional, the [La Jolla guide](/guides/la-jolla-tide-pools-best-dates-2026/) and [Pacific Grove guide](/guides/pacific-grove-tide-pools-2026/) cover that side of the water, and the [king tides page](/guides/king-tides-2026-2027-dates/) has the winter high-water dates.
 
 ## How early should you arrive?
 
-An hour before the low is the standard answer — La Push's August 12 arrive-by is 5:58 AM for the 6:58 AM low — but photographers have a better one: the window's opening time. That same window opens at 4:30 AM, which buys you blue hour and the low still falling. Pull any station's upcoming windows, with arrive-by times and these sun offsets, from the [golden-hour tool](/tools/golden-hour/). The tide does the composition twice a month. August 10–13 is the last time this year it shows up at dawn.
+An hour before the low is the standard answer — La Jolla's December 25 arrive-by is 3:33 PM for the 4:33 PM low — but photographers have a better one: the window's opening time. That window opens at 1:45 PM, which buys you the whole falling tide with the sun already low. Pull any station's upcoming windows, with arrive-by times and these sun offsets, from the [golden-hour tool](/tools/golden-hour/). The tide does the composition twice a month. For the rest of 2026, it does it at sunset, in the south.
