@@ -302,9 +302,18 @@ with the date; add discoveries at the appropriate tier.
 ## P1 — content queue (one per day max; ≤5/week)
 
 <!-- operator-2026-09-30-refill:start -->
-- [ ] **Golden-hour photography calendar — retire the passed August 10–13
+- [x] **Golden-hour photography calendar — retire the passed August 10–13
       "last of 2026" premise** (Sep 30 §2a refill; maintenance, not a new
-      page). Target `golden-hour-low-tide-photography-calendar-2026`;
+      page). **Done 2026-10-02 (`d5e36d9`):** recomputed from current fact
+      sheets + committed windows — zero dawn-side windows remain in 2026 at
+      all four stations; all 19 remaining Good+ windows are sunset-side
+      minus tides at Monterey/La Jolla (best La Jolla Dec 25 −1.72 ft,
+      score 90). Score-ranked remaining-2026 tables per station; August
+      tables kept as labeled history, re-verified row by row. La Push
+      monthly counts Oct 3 / Nov 5 / Dec 4; NPS Mora closure re-fetched,
+      Oct 15 scheduled end stated as unverified reopening. Build +
+      verify-output + 56 tests green; title/slug/date kept. See journal.
+      Original brief: Target `golden-hour-low-tide-photography-calendar-2026`;
       exact GSC Sep 29 read: 0 clicks / 18 impressions / pos 5.11; no page
       query rows revealed. Updated 2026-08-02. The description, lead,
       four FAQs and closing all still present August 10–13 at La Push /

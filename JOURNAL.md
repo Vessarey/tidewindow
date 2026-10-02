@@ -5,6 +5,66 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-02 — Golden-hour calendar refresh: dawn season retired, winter sunset tables
+
+**Health:** green. Today's refresh ran 10:44:23Z (run 36997131518, 2m25s,
+success), landing `fcf75ad` dated 2026-10-02 before session start. Latest
+five Actions successful; no open issues. Owner-held Haystack and minus-tide
+edits preserved via `--autostash` pull and excluded from the commit; the
+Oct 1 newsletter drafts and Sep 21/22 evidence packets remain untracked and
+untouched.
+
+**Primary (§2e via the Sep 30 P1 brief) — `d5e36d9`:** the golden-hour
+photography calendar still presented August 10–13 at La Push/Garibaldi as
+the remaining "last dawn run" of 2026, seven weeks past, across the
+description, lead, four FAQs, tables and closing. Regenerated fact sheets
+(`facts.mjs`), then scanned the full committed remaining-2026 windows
+(Oct 2–Dec 31) at all four stations with the page's own eligibility rule
+(|min_to_sun_edge| ≤ 90, daylight ≥ 30 min — the same filter facts.mjs
+uses for the top6 field, which is chronological, not score-ranked):
+80 eligible windows, 0 dawn-side, 55 minus tides; all 19 Good-or-better
+are sunset-side minus tides at Monterey (11) or La Jolla (8) — a clean
+mirror of August's "every Good+ window is northern" claim. New
+score-ranked remaining-2026 tables per station; best remaining window
+La Jolla Fri Dec 25, −1.72 ft at 4:33 PM, 16 min before sunset, score 90
+(Exceptional); Monterey Dec 23/24 both 80 (Great); north tops out Fair
+(La Push Dec 22, 55), its deep lows 46–94 min after sunset. August tables
+kept as labeled history after row-by-row re-verification against committed
+windows (all matched). La Push monthly daylight-minus counts updated:
+Oct 3 / Nov 5 / Dec 4; Nov 24 −1.84 ft (32 daylight min) and Dec 23
+−1.97 ft (39 min) verified. Azimuth section rewritten for the 225–269°
+sunset-side geometry (backlight/silhouette, shadows inland). NPS Mora Road
+closure re-fetched at write time: "July 8–Oct. 15, 2026" wording unchanged;
+scheduled end stated as NOT verified reopening, reader pointed to the
+conditions page; Second Beach kept as the recommendation. Olympic safety
+quote re-verified on the tides-and-your-safety page. Internal links checked
+against routes/slugs; three external links fetch 200. Title/slug/date
+kept; honest `updated: 2026-10-02`.
+
+**Gates:** plain build green — 149 routes, verify-output 12 stations ×
+5 months, 136 sitemap URLs, 56 tests (42 facts / 6 math / 8 formatting).
+Diff review: single article file only. Velocity: 0 new articles this week
+(refresh, not an addition). Live check after Vercel deploy: see below.
+
+**Metrics (PostHog 495836, host + Regular):** 7d: 606 pageviews / 561
+pageview distinct IDs / 1 signup. Top paths: national king-tides 223,
+Oregon king-tides 100, Washington king-tides 40, Acadia 27, home 21,
+Fitzgerald 19, Finder 17. Steady vs. yesterday's 592/546/1; no anomaly.
+
+**Open items untouched:** exit-prompt owner reconciliation (surface
+unchanged, decision stays with the owner); residual dependency review
+(low DOMPurify prod / high brace-expansion dev) still queued; Oct 5
+national-query + exact-URL coverage packet; Oct 15 Seattle month-title
+final check + NPS Mora recheck; Nov 1 November-batch index gate.
+
+**Notes for tomorrow:** one open P1 brief remains (sea-glass timing
+940/535 reconciliation) plus East Coast explainer and Sunset Bay —
+queue holds 3 writable, at the §2a threshold; next §2a′ weekly inspect
+is due ~Oct 5 with the coverage packet. Thursday newsletter next on
+Oct 8.
+
+---
+
 <!-- heartbeat-2026-10-01:start -->
 ## 2026-10-01 — Heartbeat: bounded Next security patch; operational handoff audit
 
