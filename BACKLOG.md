@@ -5,6 +5,20 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-10-02:start -->
+- [x] **2026-10-02 heartbeat — residual dependency patch** (`4565126`).
+      Only three lock records: DOMPurify 3.4.14→3.4.16, brace-expansion
+      1.1.18→1.1.21 and 5.0.9→5.0.12. Both full/production audits zero;
+      fresh + committed-data builds, 56 tests, lint, TypeScript, 136 route
+      checks and desktop/mobile Finder/calendar-gate checks passed. No
+      manifest/app/content/data changes or owner-held edits included.
+      See journal for deployment and analytics evidence.
+- [x] **136-URL IndexNow catch-up verified:** today's actual NOAA refresh
+      submitted all 136 URLs with HTTP 200 at 10:46:38.972Z; later skip
+      runs did not resend. Morning golden-hour refresh not duplicated.
+      Three writable content briefs remain; no refill needed today.
+<!-- heartbeat-2026-10-02:end -->
+
 <!-- heartbeat-2026-10-01:start -->
 - [x] **2026-10-01 heartbeat — bounded Next security patch** (`1311358`).
       Next + eslint-config-next 16.3.3 → 16.3.6 only. Fresh and committed-data
@@ -1530,7 +1544,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       audit, browser and live verification. No force/bulk dependency update;
       preserve both owner-held articles/evidence packets. See Sep 30 journal
       and https://github.com/advisories/GHSA-vcvr-r3jv-pc5j.
-- [ ] **Oct 1 residual dependency findings — bounded follow-up.** Production
+- [x] **Oct 1 residual dependency findings — bounded follow-up.**
+      **Done Oct 2 heartbeat (`4565126`):** compatible lock-only patches
+      DOMPurify 3.4.16 and brace-expansion 1.1.21 / 5.0.12, no broader
+      updates. Full + production audits zero; isolated fresh/committed
+      builds, 56 tests, lint, types and browser gates passed. Original:
+      Production
       DOMPurify 3.4.14 has low GHSA-p98j-92pf-mc4p through posthog-js;
       dev-only brace-expansion 1.1.18 / 5.0.9 has a high-severity advisory
       group. Both records unchanged by the Next patch. Review affected input
@@ -1604,6 +1623,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       remote capture false, 273 omit the property, none report true (7d to
       17:15:33Z). Project opt-in remains null and active issues are empty;
       the instrumentation caveat remains, with no settings change.
+      **Oct 2 read-only follow-up:** event taxonomy returns 18 definitions,
+      no `$exception`, no next page; project opt-in null. Of 611 production
+      Regular pageviews, remote flag is missing on 527 / false on 84 /
+      true on none. Client config still enables capture, but ingestion
+      remains unverified, not zero errors. No setting or synthetic-event
+      change; retain this independent measurement gap after audit cleanup.
 
 - [x] **2026-09-05 CLOSED — production LCP recovered with a real sample.**
       **09-06 measurement correction:** the 63 below counted all

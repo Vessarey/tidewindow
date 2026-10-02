@@ -5,6 +5,146 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-02:start -->
+## 2026-10-02 — Heartbeat: residual dependency advisories patched
+
+**One primary improvement:** `4565126` updates only three transitive records
+in package-lock.json. No manifest, direct dependency, application, analytics
+configuration, content or generated-data changes. Preflight read AGENTS,
+playbook, journal/backlog, git, today's commits, Actions and issues; pull was
+already current at `eba0941`. The morning golden-hour refresh (`d5e36d9`)
+was already deployed and was not repeated. Three independently writable
+briefs remain (sea-glass, East Coast, Sunset Bay), meeting the queue floor.
+
+| Dependency | Before → after | Scope / evidence |
+|---|---|---|
+| DOMPurify | 3.4.14 → 3.4.16 | Production transitive of unchanged posthog-js 1.422.5; [GHSA-p98j-92pf-mc4p](https://github.com/advisories/GHSA-p98j-92pf-mc4p), fixed patch within parent's `^3.4.13`. |
+| brace-expansion | 1.1.18 → 1.1.21 | Development ESLint/minimatch chain; compatible with `^1.1.7`. |
+| brace-expansion | 5.0.9 → 5.0.12 | Development typescript-eslint/minimatch chain; compatible with `^5.0.5`. |
+
+Both brace patches cover the [quadratic rewrite](https://github.com/advisories/GHSA-q2hr-2g5m-vwhr)
+and [nested recursion](https://github.com/advisories/GHSA-qhr7-859c-m2p7)
+advisory families reported by npm (including GHSA-6j4f-fj2g-mc7p).
+Registry versions, hashes, dependency/optional-dependency/license/engine
+metadata verified. Exactly version/resolved/integrity changed for each of
+three existing records (9 additions / 9 deletions); package keyset unchanged.
+No direct application DOMPurify/hook or brace-expansion use found in src or
+scripts; not an exhaustive proof of transitive-path unreachability.
+
+**Selection (analytics-led SEO and PostHog skills):** compatible security
+maintenance is bounded and non-conflicting; no speculative SEO/conversion
+variant. Exact GSC Web/final page comparisons, current Sep 2–29 versus prior
+Aug 5–Sep 1; no visible query rows returned for either candidate:
+
+| Existing queued guide | Current clicks / impressions / CTR / position | Prior | Decision |
+|---|---|---|---|
+| `/guides/best-time-sea-glass-hunting/` | 0 / 13 / 0% / 6.85 | 0 / 7 / 0% / 11.86 | Known 940/535 period-framing brief remains; not a measured title opportunity. |
+| `/guides/east-coast-tide-pooling-different/` | 0 / 25 / 0% / 6.24 | 1 / 6 / 16.67% / 7.00 | Existing scope-correction brief, no new variant from tiny samples. |
+
+**Verification:** isolated committed HEAD snapshot with only patched lock at
+`/tmp/tidewindow-oct02-verify.D8fUlo`, fresh `npm ci`; both
+`PIPELINE_REFRESH=1 npm run build` and plain build against restored committed
+data passed: 149 routes, 12 stations × five months, 136 sitemap URLs,
+**56 tests** (42 facts / 6 math / 8 formatting). Lint and TypeScript
+`--noEmit` passed. All 136 local sitemap destinations returned 200;
+all 12 preview station JSONs byte-match repository data. `npm ls` confirms
+compatible parent resolution. Normal/numeric/literal expansion smoke tests
+passed for both brace versions (initial harness incorrectly assumed a v5
+default export; corrected to its documented named `expand` before passing).
+Registry metadata and lock byte-identity rechecked after npm ci/build.
+
+Full and production-only audits both report **zero known vulnerabilities**,
+down from one high development finding group and one low production finding.
+This is audit status at check time, not a blanket security guarantee.
+Existing blocked install-script notices for core-js/unrs-resolver were not
+overridden; no new package/script permissions. Root node_modules left alone;
+validation used the clean isolated install, not stale root dependencies.
+CUA local 1280px homepage ZIP 93950 → Monterey Finder results/curve and depth
+empty state passed. Mobile 375×812 had no document overflow; station select
+and calendar gate opened an empty email form. No signup submitted, no
+observed warning/error logs. No generated data staged; both held articles,
+both Oct 1 drafts and the Sep 21/22 47-/37-file packets retained their hashes.
+
+**Release:** `4565126` pushed and [Vercel deployment succeeded](https://vercel.com/vessareys-projects/tidewindow/GnUafRJNCyg118SE3ojYMTr7HKk9).
+Live mobile homepage ZIP → Monterey Finder results/curve → calendar email
+form passed, with no submission, document overflow or warning/error logs.
+Post-deploy eight HTTP routes/assets, the 136-URL sitemap (12 November)
+and three station payload byte comparisons all passed again.
+An immediate automated fill before hydration was reset; repeated only after
+observing the ready UI, then waited for the visible completed results.
+
+**Operational health:** latest five Actions successful, no open issues.
+Actual refresh `36997131518` ran 10:44:23–10:46:48Z, landed `fcf75ad` at
+10:46:39Z; all 12 station payloads stamped **2026-10-02T10:44:41.771Z**.
+13:54 and 16:17 runs skipped correctly. IndexNow submitted **136 URLs,
+HTTP 200 at 10:46:38.972Z**, closing yesterday's 124→136 submission wait.
+Retry/skip/push workflow reviewed; no recovery dispatch. Eight live routes /
+assets returned 200 and Seattle/Monterey/La Push payloads matched committed
+bytes. Production browser homepage shows Oct 2; golden-hour guide shows
+today's refresh/updated date and winter sunset table, no observed console
+warnings/errors. No score ≥90 windows in Oct 2–16 across covered stations.
+
+Resend read-only: verified domain, Oct 1 broadcast remains sent. Available
+list returned 51 email records, has_more=false, all last_event=delivered;
+15 belong to Oct 1 and all 15 are delivered. The available list had 61
+records yesterday; this is not an immutable full history or a verified
+bounce/complaint rate. No send, sync, contact change or credential change.
+[NPS current conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still lists Mora Road closed July 8–Oct 15; no reopening inferred. Current
+warnings retained; Oct 15 recheck remains due.
+
+**PostHog:** project 495836 / America/New_York, production host exactly
+`thetidewindow.com` AND `$virt_traffic_type = 'Regular'` in every query;
+half-open windows end **2026-10-02 17:16:52 UTC**. Native connector still
+requires reauthentication; configured playbook read-only API worked.
+7d: **611 pageviews / 566 pageview distinct IDs / 1 signup event**.
+28d: **1,668 / 1,517 / 7**; signup/PV-ID ratios ~0.18% / ~0.46%, not a
+joined funnel, human-visitor count or active-subscriber count. All 611 7d
+views have UA; no agent/agent-kind markers or selected bot/headless UA
+signatures observed, which does not prove all visits are human.
+Leading 7d paths: national king-tides 223, Oregon king-tides 102, Washington
+king-tides 45, Acadia 27, home 21, Fitzgerald 19, Finder 17.
+Referrer-tagged views: Google 129, Bing 122, DuckDuckGo 122, direct 100,
+Yahoo 61, internal 53; ChatGPT and Copilot one each. These are pageviews,
+not acquired people, search clicks or evidence of crawler traffic.
+
+7d / 28d events: station selections 21/72; results 18/49; ZIP 9/53;
+Trip Picker 1/22; calendar gates 6/23; ICS reveals 0/3; exit shown 27/65.
+ICS zero means no observed scoped 7d row, not missing instrumentation.
+28d signup sources: tool_gate 3, exit-intent 2, end_article_gated 1, station 1.
+LCP last24h: **25 valid observations, p75 736 ms / p90 1,397.6 ms**;
+below the sample floor, not a durable speed-improvement verdict.
+Exception instrumentation remains unverified: no `$exception` in the
+18 returned event definitions (no next page); project opt-in null; 7d
+pageview remote flag 527 missing / 84 false / 0 true. Client source still
+sets `capture_exceptions: true`, so configuration alone is not ingestion
+proof. No synthetic exception or analytics setting change was made.
+
+**Search Console:** sc-domain:thetidewindow.com, Web/final, all countries /
+devices, latest finalized date **Sep 29**; 69 page and 374 query rows below
+the 25,000 cap. Sep 2–29 **243 clicks / 14,624 impressions / 1.66% CTR /
+position 7.15**, versus Aug 5–Sep 1 **124 / 9,554 / 1.30% / 8.57**
+(clicks +96%, impressions +53%). Sep 23–29 **63 / 3,904 / 1.61% / 6.62**,
+versus Sep 16–22 **53 / 3,176 / 1.67% / 7.22**. Judge clicks/position, not
+site-wide CTR; no causal attribution to recent content or this patch.
+Leading remaining chart/king-tide queries already have matching pages;
+keep Oct 5 query/index review, do not repeat inspect-60 early or treat
+PostHog referrer views as GSC clicks. Google and Bing evidence stay separate.
+
+**Experiments / next:** no test started, restarted, extended or judged today.
+Exit-prompt experiment remains closed-unmeasurable; the recorded Oct 1
+93-impression retirement threshold result versus operator keep-live
+instructions still needs owner reconciliation. No fresh lifetime re-query
+or surface change; no owner override found. Seattle month-title's sole
+extension remains Oct 15; national-query / exact-URL coverage packet Oct 5
+must reconcile Sep 30's 63-versus-60 tally. Next safe maintenance candidate
+is sea-glass or East Coast period framing. Keep both held-publication gates,
+Oct 8 newsletter ritual, Oct 15 access check, and Nov 1 index gate before
+December rollout. No new automation, outreach, spending or broadcast.
+<!-- heartbeat-2026-10-02:end -->
+
+---
+
 ## 2026-10-02 — Golden-hour calendar refresh: dawn season retired, winter sunset tables
 
 **Health:** green. Today's refresh ran 10:44:23Z (run 36997131518, 2m25s,
