@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-02",
+ "generated_on": "2026-10-03",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2083,7 +2083,7 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 40
+   "count": 39
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -2111,13 +2111,13 @@
    "count": 18
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 13
-  },
-  {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
+   "count": 12
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 12
   },
   {
