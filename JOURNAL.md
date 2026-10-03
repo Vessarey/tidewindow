@@ -5,6 +5,63 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-03 — East Coast explainer refresh: Jul–Dec scope, passed picks retired
+
+**Health:** green. Today's refresh ran 10:03:46Z (run 37115141384, 2m10s) and
+landed `ea618e2` at 10:05:49Z; earlier slots didn't fire but one landed before
+session start, which is the designed outcome — no incident. No open issues.
+Last five Actions runs successful.
+
+**Primary action (§2d/P1 maintenance, per yesterday's handoff):** refreshed
+`east-coast-tide-pooling-different` (`a0f99ae`). Chosen over the sea-glass
+brief because it had the higher current exposure (GSC Oct 2 read: 0 clicks /
+25 impressions / pos 6.24) and was actively recommending passed dates
+(July 16/17 and August 15 as future). Changes: every "2026" total re-scoped
+to the explicit Jul 1–Dec 31 fact-sheet range with the ≥30-minute
+daylight-overlap definition stated (90/52, 58% Bar Harbor; 548 of 953, 58%
+West — the old 57% and "all of 2026" framing retired); July head-to-head and
+monthly tables recomputed from today's sheets (LJ July daylight minus 10→12
+from the early-July backfill; BH July lows 36→35; West busiest-hour count
+56→58 at 6 AM); past months moved to past tense per the fact-sheet
+annual_note. Applied the Pacific Grove daylight-at-low precedent to the
+Dec 24 deepest-low claim: Bar Harbor's −1.65 ft low at 4:41 PM is ~43 min
+after its window's daylight ends (2:50 PM + 68 daylight min ≈ 3:58 PM) and
+is now labeled after sunset; La Jolla's −1.88 ft at 3:47 PM stays in
+daylight with ~an hour to spare. Near-term paragraph rolled to the October
+calendar: Oct 9 (−0.4 ft, 4:37 PM, score 54), Oct 10 (−0.5 ft, 5:23 PM, 57),
+Oct 25 (−0.6 ft, 4:43 PM, 59 — best of next 60 days per next_60d_best_8).
+Species snapshot refreshed (BH: Common Periwinkle 20; LJ: Hamann's Aeolid
+68, still nudibranch-led). Description rewritten at 148 chars; honest
+`updated: 2026-10-03`.
+
+**Verification:** NOAA datums API re-fetched live (BH MN 10.56 / GT 11.37;
+LJ MN 3.69 / GT 5.33; epoch 1983–2001 — all match the published table);
+all three NPS Acadia quotes re-verified verbatim at the live page; the
+oceanservice semidiurnal/mixed quote re-verified; remaining external links
+200. July 14–18 drift times (5:01→8:31 AM) re-verified against committed
+window data — unchanged, relabeled "re-verified 2026-10-03". Plain
+`npm run build` green: 149 routes, verify-output OK (12 stations × 5 months,
+136 sitemap URLs), 56 tests pass. Rendered page spot-checked for the new
+numbers. Diff reviewed; owner-held Haystack and minus-tide local changes and
+the Oct 1 draft/Sep 21–22 packets untouched and uncommitted.
+
+**Metrics snapshot (PostHog, 7d, host thetidewindow.com, Regular traffic):**
+602 pageviews / 556 pageview distinct IDs / 2 signup events. Top paths:
+national king-tides 214, Oregon king-tides 97, Washington king-tides 45,
+Acadia 27, home 22, Fitzgerald 19, Finder 18, Seattle Alki 12. Consistent
+with yesterday's read; king-tide cluster still carries the site.
+
+**Tomorrow (Oct 4):** normal queue; two writable briefs remain (sea-glass
+period framing, Sunset Bay refresh) — queue dips below the three-item floor,
+so §2a refill is due at or before the next GSC review. Oct 5 (Mon) is the
+weekly `inspect 40`/query review plus the national-query coverage packet
+reconciliation (Sep 30's 63-vs-60 tally). Oct 8 (Thu) newsletter ritual.
+Oct 15: Mora Road closure recheck + Seattle month-title readout. Nov 1:
+index gate before December rollover. Exit-prompt owner reconciliation still
+open — do not alter that surface.
+
+---
+
 <!-- heartbeat-2026-10-02:start -->
 ## 2026-10-02 — Heartbeat: residual dependency advisories patched
 

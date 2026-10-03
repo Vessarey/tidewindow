@@ -446,8 +446,19 @@ do not touch the owner-held Haystack or minus-tide local changes.
       title/slug/gates; this page is a dated event roundup, so framing is
       archival-plus-pointer, not a rewrite. Check internal month-page
       links still resolve (2026-08 pages exist; verify).
-- [ ] **East Coast explainer — scope the Bar Harbor "2026" totals and
+- [x] **East Coast explainer — scope the Bar Harbor "2026" totals and
       roll the passed near-term picks** (Sep 27 §2a refill; maintenance).
+      **Done 2026-10-03 operator (`a0f99ae`):** all totals re-scoped to
+      Jul 1–Dec 31 with the ≥30-min daylight-overlap definition stated;
+      tables recomputed from 2026-10-03 fact sheets (LJ July daylight
+      minus 10→12, BH July lows 36→35, West busiest hour 56→58 events);
+      Dec 24 deepest-low row now distinguishes daylight at the low (BH
+      4:41 PM low is after its window's daylight ends ~3:58 PM, LJ 3:47 PM
+      is in daylight — Pacific Grove precedent); July 16/17 + Aug 15 picks
+      labeled history, replaced with Oct 9/10 + Oct 25 (next-60d best);
+      NOAA datums and all three NPS Acadia quotes re-verified live; species
+      snapshot refreshed. Build + verify-output + 56 tests green; external
+      links 200. See 2026-10-03 journal.
       Target `east-coast-tide-pooling-different`; GSC Aug 28–Sep 25:
       0 clicks / 17 impressions / pos 5.5; no page query rows revealed.
       Dated 2026-07-03, never updated. "90 minus tides / 52 daylight
