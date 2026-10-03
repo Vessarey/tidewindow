@@ -51,6 +51,12 @@ are release targets. Both held articles, both Oct 1 drafts and the 47-/37-file
 Sep 21/22 evidence packets retain their initial hashes; generated data and
 root dependencies untouched.
 
+**Release:** docs-only `8c3c8ae` pushed to main;
+[Vercel succeeded](https://vercel.com/vessareys-projects/tidewindow/8SpAo12mu3xYVEuqFGM3fo5rJUNX).
+Post-deploy homepage, East Coast guide, Finder and index JSON returned 200;
+index bytes still match today's committed data. This release ships the
+maintenance plan and evidence, not the three proposed article corrections.
+
 **New audit caveat, not a second implementation:** full audit now reports five
 high package entries from the single development lint dependency chain ending
 in braces 3.0.3; production-only audit is zero. The
