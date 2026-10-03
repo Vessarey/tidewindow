@@ -5,6 +5,136 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-03:start -->
+## 2026-10-03 — Heartbeat: refill the writable queue, preserve release gates
+
+**One primary improvement (§2a):** added three bounded P1 maintenance briefs
+to BACKLOG: agate guide daylight labels, Oregon hub's expired August premise,
+and best-time guide daylight/arrival wording. Five independently writable
+assignments now remain, including existing sea-glass and Sunset Bay. No
+article, title, gate, application, dependency, analytics setting or generated
+data changed. Preflight read playbook, newest journal/backlog, git, today's
+commits, Actions and issues; pull already current at `e584163`. Morning
+East Coast refresh `a0f99ae` verified live (Oct 3 updated date, Jul–Dec
+scope and after-sunset distinction), not repeated. No new articles this week.
+
+**Selection evidence (analytics-led SEO + PostHog skills):** ran the configured
+flywheel/queries commands, then uncapped-to-25,000-row comparable Web/final
+queries because the script's rolling dates/100-row cap differ. Latest final
+date remains Sep 29; 69 page / 374 query rows, below caps. Leading Fitzgerald
+chart (256 impressions / position 8.68), king-tide and Glass Beach chart
+(25 / 12.92) intents already have matching pages. No persuasive uncovered
+cluster for a new page. Refill therefore follows the established factual-
+maintenance precedent, not invented keyword demand or low-CTR rewrites.
+
+Exact-page current Sep 2–29 versus prior Aug 5–Sep 1; CTR is clicks/impressions:
+
+| Target under `/guides/` | Current clicks / impressions / CTR / position | Prior | Confirmed issue / bounded brief |
+|---|---|---|---|
+| `agate-hunting-oregon-coast/` | 5 / 160 / 3.13% / 6.48 | 8 / 176 / 4.55% / 6.97 | Lead/FAQ call Dec 24 Port Orford low daylight; current 6:14 PM low follows 4:48 PM sunset despite 69 minutes of window overlap. Recheck ten selected rows and label the distinction. No query rows revealed. |
+| `best-tide-pools-oregon-2026/` | 0 / 10 / 0% / 5.90 | No page row returned | Title/lead/FAQ/featured metadata still promote Aug 11–14; body says to wait until August. Archive verified history and roll the upcoming framing; re-fetch seasonal access sources. Only visible query `sept 29`, 1 impression / position 6. |
+| `best-time-to-go-tide-pooling/` | 1 / 29 / 3.45% / 5.03 | No page row returned | Calls overlap-qualified lows daylight: Oct 5 PT low 5:48 AM precedes 7:16 AM sunrise; Dec 24 Monterey/Pillar Point lows follow sunset. Audit global one-hour/return/access wording; keep official guidance local. Two named best-time queries each only 1 impression, positions 6 and 4. |
+
+Factual-issue confidence is high from current source and committed solar
+timestamps; search-benefit confidence is low. Sparse/absent query rows are
+not zero demand or proof of AI traffic. Briefs preserve existing URLs,
+original dates, gates and held patches; require current fact/source checks
+and normal release gates at implementation. No experiment launched or judged.
+
+**Validation:** isolated committed snapshot `/tmp/tidewindow-oct03-verify.xzuxev`,
+fresh `npm ci`, plain build and lint passed: 149 routes, output gate checks
+12 stations × five months / 136 sitemap URLs; 56 tests (42 facts, six math,
+eight formatting). No code change, so no redundant live NOAA rebuild.
+Existing core-js/unrs-resolver install-script notices not overridden.
+Documentation diff reviewed with `git diff --check`; only BACKLOG/JOURNAL
+are release targets. Both held articles, both Oct 1 drafts and the 47-/37-file
+Sep 21/22 evidence packets retain their initial hashes; generated data and
+root dependencies untouched.
+
+**New audit caveat, not a second implementation:** full audit now reports five
+high package entries from the single development lint dependency chain ending
+in braces 3.0.3; production-only audit is zero. The
+[reviewed advisory](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm)
+lists no patched release; npm registry latest remains 3.0.3. `npm ls` confirms
+eslint-config-next → @next/eslint-plugin-next → fast-glob → micromatch → braces.
+No direct application/scripts use found, not a complete reachability proof.
+Recorded a follow-up; did not force npm's proposed ESLint-config 14.2.35
+downgrade onto Next 16.3.6. Yesterday's zero full audit is now historical.
+
+**Operational/live health:** latest five Actions successful, no open issues.
+Actual refresh `37115141384` began 10:03:46Z, finished 10:05:56Z and landed
+`ea618e2` at 10:05:49Z; later 12:35 and 14:45 runs skipped. IndexNow submitted
+136 URLs, HTTP 200 at 10:05:49.859Z. Retry/skip/push guards remain intact;
+no recovery dispatch. All 12 live station JSONs byte-match committed files,
+stamped **2026-10-03T10:04:02.844Z**. Eight tested routes/assets returned 200;
+live sitemap has 136 URLs including 12 November pages. No Exceptional (≥90)
+windows in Oct 3–17 at covered stations.
+
+Live browser: homepage dated Oct 3; ZIP 93950 → Monterey match → ranked
+results and tide curve; depth −1.0 ft filter → honest empty state. At
+375×812 the calendar gate opens an empty email form, document width equals
+viewport (375px), no warning/error logs observed. No signup submitted.
+Two exact test selectors initially missed the arrow/case in the visible
+control names; corrected after inspecting UI, not classified as site bugs.
+Morning article rendering verified separately; no blanket zero-error claim.
+
+Resend read-only: domain verified; Oct 1 broadcast
+`628090be-9cee-4fff-8522-ebd6f8521749` remains sent at 12:06:34Z. First list
+page has 20 delivered records, including all 15 Oct 1 messages; has_more=true.
+This is not full send history or a complaint-rate denominator. No send,
+audience sync, contact change, outreach, spending or credential change.
+[NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still lists the July 8–Oct 15 Mora Road closure (page updated Sep 30);
+scheduled end is not verified reopening.
+
+**PostHog:** project 495836 / America/New_York, exact host `thetidewindow.com`
+AND `$virt_traffic_type='Regular'` on every query; half-open windows end
+**2026-10-03 17:16:56 UTC**, before this heartbeat's browser QA.
+7d: **601 pageviews / 559 pageview distinct IDs / 3 signup events**.
+28d: **1,662 / 1,513 / 9**. Signup/PV-ID ratios ~0.54% / ~0.59%, not a
+joined funnel, people count or active subscriber count. All 601 7d views
+carry raw UA; no agent markers or selected bot/headless signatures observed,
+which does not prove human traffic. Leading 7d paths: national king-tides
+215, Oregon king-tides 97, Washington king-tides 48, Acadia 27, Fitzgerald
+20, home 19, Finder 18, Seattle guide 13.
+
+7d/28d events: station selections 22/72; results 19/49; ZIP 11/54;
+Trip Picker 1/22; calendar gates 7/24; ICS reveals 0/3; exit shown 25/63.
+28d signup sources: end_article_gated 3, tool_gate 3, exit-intent 2, station 1.
+No scoped 7d ICS row is observed zero for a known event, not missing
+instrumentation. LCP 24h: only 12 valid observations, p75 439.75 ms /
+p90 499.6 ms; too small for a performance verdict. Exception ingestion
+remains unverified: 18 event definitions omit `$exception`, no next page;
+project opt-in null; 7d pageview remote flags 520 missing / 81 false /
+none true despite client `capture_exceptions: true`. No synthetic error.
+Native connector needs reauthentication; configured read-only API worked.
+Broad 28d/event and signup-source queries timed out; narrower pageview and
+product-event reads recovered those totals. Referrer query timed out and
+was not treated as zero or filled from yesterday's snapshot.
+
+**Search performance:** sc-domain:thetidewindow.com, Web/final, all countries
+and devices. Sep 2–29 **243 clicks / 14,624 impressions / 1.66% CTR /
+position 7.15**, versus Aug 5–Sep 1 **124 / 9,554 / 1.30% / 8.57**
+(clicks +96%, impressions +53%). Sep 23–29 **63 / 3,904 / 1.61% / 6.62**,
+versus Sep 16–22 **53 / 3,176 / 1.67% / 7.22**. Same finalized endpoint
+as yesterday, not a fresh day of acquisition. No causal claim for recent
+changes; judge clicks/position, not contaminated site-wide CTR.
+
+**Next/gates:** choose the agate factual-maintenance brief next (highest
+exposure of the new briefs), subject to daily health and upstream patch
+availability. Oct 5 weekly URL/query audit must reconcile the Sep 30
+63-versus-60 tally with per-URL evidence and account for the national guide's
+concurrent print utility. Oct 8 newsletter; Oct 15 Mora recheck and final
+Seattle month-title readout; Nov 1 index gate before December expansion.
+Exit prompt remains closed-unmeasurable, with the Oct 1 93-impression
+retirement-versus-keep-live authority conflict awaiting owner reconciliation.
+No new override found; no surface change or additional extension. Held
+Haystack/minus-tide publication gates and engine-specific indexing limits
+remain. No new automation.
+<!-- heartbeat-2026-10-03:end -->
+
+---
+
 ## 2026-10-03 — East Coast explainer refresh: Jul–Dec scope, passed picks retired
 
 **Health:** green. Today's refresh ran 10:03:46Z (run 37115141384, 2m10s) and

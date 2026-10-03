@@ -5,6 +5,18 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-10-03:start -->
+- [x] **2026-10-03 heartbeat — §2a content-queue refill.** Morning operator
+      completed East Coast (`a0f99ae`), leaving only sea-glass and Sunset
+      Bay writable. Added three independently scoped maintenance briefs
+      below after fresh GSC and current-source/data checks; queue now five.
+      Leading uncovered-keyword investigation found existing matching
+      pages, so this is factual maintenance, not three new keyword pages.
+      No article, title, gate, data or experiment changed in this run.
+      Latest final GSC date remains Sep 29; see journal for exact windows,
+      query visibility, health evidence and retained owner gates.
+<!-- heartbeat-2026-10-03:end -->
+
 <!-- heartbeat-2026-10-02:start -->
 - [x] **2026-10-02 heartbeat — residual dependency patch** (`4565126`).
       Only three lock records: DOMPurify 3.4.14→3.4.16, brace-expansion
@@ -314,6 +326,73 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-10-03-refill:start -->
+Three additional ready-now assignments, verified Oct 3. GSC numbers below
+are exact-page Web/final Sep 2–29 (all countries/devices), not estimates of
+human demand. These are factual-maintenance briefs, not conversion/title
+experiments; no new page or expanded station coverage. Recompute at write
+time, re-fetch official sources, preserve slug/original publish date/gates,
+and update `updated:` only with a material edit. Do not include either
+owner-held Haystack/minus-tide patch. Together with sea-glass and Sunset Bay,
+the queue has five distinct writable assignments; generic refresh headings
+and November's preview do not count.
+
+- [ ] **Agate guide — distinguish winter daylight overlap from daylight
+      at low water.** Target `agate-hunting-oregon-coast` (published Jul 3).
+      Current exposure: 5 clicks / 160 impressions / 3.13% CTR / position
+      6.48; prior Aug 5–Sep 1: 8 / 176 / 4.55% / 6.97. No query rows
+      revealed for this page; do not invent an agate-query cluster.
+      Lead and FAQs still call Port Orford's Dec 24 6:14 PM low the
+      deepest "daylight low". Current committed data puts sunset at
+      4:48 PM (69 daylight minutes in the surrounding window), so the
+      low itself is after sunset. Re-verify all ten selected king-season
+      rows, label daylight-at-low separately, retain the shortlist scope
+      of the Jan 21 best-score claim, and recheck July–December counts.
+      Remove or qualify the prose's blanket winter arrival instruction:
+      window geometry is not route access or a walking-time assurance.
+      Re-fetch the Oregon rule and Travel Oregon source at implementation;
+      do not infer collection permission from a tide score. Keep title
+      unless a direct factual correction requires a narrowly related edit.
+
+- [ ] **Oregon comparison hub — retire its still-upcoming August premise.**
+      Target `best-tide-pools-oregon-2026` (published Jul 19, no updated
+      date). Current exposure: 0 clicks / 10 impressions / 0% CTR /
+      position 5.90; no prior-period page row returned. Only revealed
+      query is `sept 29` (1 impression / position 6), not evidence for a
+      new keyword page. Title/description/lead/FAQ and `featuredRoundup`
+      still promote Aug 11–14 as the remaining run; body even says
+      "If you can't wait until August". Bounded factual roll-forward:
+      replace the passed upcoming premise (including the stale title
+      clause, not an SEO variant), archive August rows only after
+      re-verifying them, retire expired featured metadata, and recompute
+      remaining-2026 windows across the four existing stations. State
+      July–December scope and ≥30-minute daylight-overlap eligibility;
+      label after-sunset lows. Re-fetch BLM/park access and collection
+      sources: July's summer gate schedule cannot stand in for October.
+      Keep the Haystack local hold separate; no publication of that patch.
+
+- [ ] **Best-time explainer — daylight-at-low and universal arrival
+      wording audit.** Target `best-time-to-go-tide-pooling` (updated
+      Sep 6). Current exposure: 1 click / 29 impressions / 3.45% CTR /
+      position 5.03; no prior-period page row returned. Revealed queries
+      `best time to go tide pooling` and `best time to go tidepooling`
+      each have only 1 impression, positions 6 and 4, zero clicks.
+      Keep the already-correct Jul 1–Dec 31 / 548-window period contract.
+      The lead/FAQs call these daylight tides, yet the Oct 5 Port Townsend
+      example bottoms at 5:48 AM before 7:16 AM sunrise (39 minutes of
+      window daylight). The California Christmas-Eve paragraph calls all
+      four station minima daylight lows, although Monterey 5:06 PM and
+      Pillar Point 5:10 PM follow 4:57 PM sunsets. Reconcile those labels
+      against complete current station windows, not just top-N lists.
+      Audit the universal one-hour arrival/return advice and broad
+      "almost any low"/winter-access claims; a computed offset is not
+      access, a safe turnaround rule, or evidence of daylight. Keep any
+      official Acadia timing quotation local to Acadia and re-fetch it at
+      write time; remove unsupported generalizations rather than inventing
+      new advice. Preserve existing numeric tables if still verified;
+      no conversion or keyword experiment from this small sample.
+<!-- heartbeat-2026-10-03-refill:end -->
 
 <!-- operator-2026-09-30-refill:start -->
 - [x] **Golden-hour photography calendar — retire the passed August 10–13
@@ -1538,6 +1617,22 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       relevance first; prefer harmonic.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
+
+- [ ] **Oct 3 audit discovery — development-only `braces` advisory.**
+      Fresh locked install reports five high-severity package entries from
+      one chain: eslint-config-next 16.3.6 → @next/eslint-plugin-next
+      16.3.6 → fast-glob 3.3.1 → micromatch 4.0.8 → braces 3.0.3.
+      [GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm)
+      covers deeply nested-pattern stack exhaustion; advisory reviewed/
+      updated Oct 2, no patched release listed; registry latest is 3.0.3
+      at this check. Production-only audit is zero. No direct src/scripts
+      use found, which is not an exhaustive reachability assessment.
+      Do not use `npm audit fix --force`: its proposed ESLint-config
+      downgrade to 14.2.35 is not a compatible patch for Next 16.3.6.
+      Recheck upstream for a fixed compatible path; isolate and validate
+      any replacement/override as a separate improvement. No lock or
+      manifest change in the Oct 3 queue-refill heartbeat. Oct 2's zero
+      audit was a point-in-time observation, not today's full-audit status.
 
 - [x] **Priority: bounded Next security patch after Sep 30 advisory.**
       **Done Oct 1 heartbeat (`1311358`):** Next and eslint-config-next
