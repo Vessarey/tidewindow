@@ -5,6 +5,167 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-04:start -->
+## 2026-10-04 — Heartbeat: correct the best-time guide's daylight and arrival claims
+
+**One primary improvement (§2d/P1 maintenance):** `db97270` updates only
+`best-time-to-go-tide-pooling.md`. The morning operator's agate correction
+`fe2b548` was already deployed and verified live, so it was not repeated.
+Read playbook, current journal/backlog, git, today's commits, Actions and
+issues first; initial/pulled HEAD `52f661b`, no new article additions this
+week. This completes one existing brief and leaves three ready assignments:
+Oregon hub, sea-glass and Sunset Bay. No refill or new page today.
+
+**Selection (analytics-led SEO and PostHog skills):** among the remaining
+bounded briefs, best-time had 29 GSC impressions versus sea-glass 13 and
+Oregon hub 10, plus an immediately relevant Oct 5 example. Exact-page
+Web/final Sep 2–29: 1 click / 29 impressions / 3.45% CTR / position 5.03;
+prior Aug 5–Sep 1 had no page row returned. The two visible best-time
+queries each have one impression, positions 6 and 4, zero clicks—not enough
+for a keyword or conversion experiment. Hypothesis: explicit solar timing
+and model limits make the existing answer more accurate; no uplift claim.
+The Oct 3 analysis packet remained untouched and was not treated as release
+authority; this heartbeat and the playbook authorize the bounded maintenance.
+
+**Before → after / regression evidence:**
+
+- "Daylight minus tides" → minus-tide windows with ≥30 minutes of daylight
+  overlap, with daylight at the low checked separately. Both historical
+  Jul 1–Dec 31 tables remain numerically unchanged: hour bins
+  4/242/55/37/181/29; month totals 192/108/39/47/74/88, morning counts
+  178/105/29/1/0/0. Total 548. Full station-local range, not top-N.
+- Port Townsend Oct 5: −0.234 ft at 5:48 AM, sunrise 7:16 AM; window
+  3:55–7:55 AM, 39 daylight minutes. Low and computed 4:48 AM arrive-by
+  are before sunrise. The previous "usable light" wording was misleading.
+- California Dec 24: Monterey −1.834 ft at 5:06 PM and Pillar Point
+  −1.904 ft at 5:10 PM follow 4:57 PM sunsets. La Jolla −1.878 ft at
+  3:47 PM and San Diego −1.878 ft at 3:50 PM precede 4:48 PM sunsets.
+  New four-row comparison labels this; minima verified over the complete
+  six-month window set. All seven WA/OR qualifying minima remain mid-July
+  and occur in daylight. Puget July 41 windows = 27 morning + 14 later;
+  median hour 11 AM, Nov/Dec qualifying minus windows zero.
+- Bar Harbor's stale "239 lows" → 232 modeled below-+1-ft windows, matching
+  the sum of current monthly fact fields and the complete window set.
+  Of 52 qualifying minus windows, 34 have lows at noon or later. This is
+  a modeled-window count, not the exhaustive raw NOAA low count.
+- Universal one-hour arrival/return and broad winter/"almost any low"
+  access claims removed. The arrive-by field is described as low minus
+  60 minutes, not walking time, access, daylight or a turnaround rule.
+  NOAA cycle source and NPS Acadia page fetched at write time; one exact
+  NPS timing quotation remains explicitly Acadia-only. Title suffix changed
+  from "the One-Hour Rule" to "Daylight Timing" as a factual correction.
+  Original Sep 6 publish date/slug retained; honest Oct 4 update. No gates,
+  app code, dependencies, analytics settings or generated data changed.
+
+**Quality gates:** isolated `git archive HEAD` plus only this article, so
+owner-held changes could not enter the build. `npm ci` succeeded from the
+snapshot directory (the initial `--prefix` invocation failed on path/workspace
+resolution; no lockfile change was made). Plain `npm run build` passed:
+149 routes, 136 sitemap destinations, 12 stations × 5 months, all 56 tests.
+Lint passed. Explicit recompute assertions passed; description 136 chars,
+answer 68 words, five rendered FAQ answers match YAML, canonical unchanged.
+All 40 rendered internal-link destinations and three official sources
+returned 200. Desktop 1280×900 and mobile 375×812 article/table checks
+passed; no horizontal document overflow or captured console warnings/errors.
+No new build warnings; npm reported its existing two unapproved dependency
+install-script warnings, without approving or changing those settings.
+
+**Live health / refresh:** NOAA commit `2f5bea9` landed 10:47:53Z from run
+37196416846 (10:45:44–10:47:58Z). IndexNow submitted 136 URLs, HTTP 200 at
+10:47:53.755Z. Later runs 37204888909 and 37212825457 explicitly skipped
+because today's refresh was already on main; green did not imply new data.
+All 12 production station JSONs byte-match committed data, timestamp
+2026-10-04T10:46:03.185Z. Home, agate guide, Finder, Trip Picker, sitemap,
+robots and Monterey ICS returned 200; 136 sitemap URLs include 12 November
+pages. No open issues. No score-90+ windows Oct 4–18 inclusive across the
+covered stations. Live Finder ZIP 93950 resolved Monterey and loaded Oct 4
+results; calendar gate opened with empty email on mobile, no submission.
+Live Oregon king-tide guide also rendered without captured console errors.
+
+**Analytics:** configured read-only PostHog API used after native connector
+requested reauthentication; project 495836, America/New_York. Both
+`$host = 'thetidewindow.com'` and `$virt_traffic_type = 'Regular'`; rolling
+half-open windows end Oct 4 17:16:40 UTC, before this run's browser QA.
+
+| Metric | 7 days | 28 days |
+|---|---:|---:|
+| Pageviews | 568 | 1,679 |
+| Distinct pageview IDs | 539 | 1,534 |
+| Signup events | 4 | 10 |
+| Station selected | 15 | 66 |
+| Window result viewed | 12 | 47 |
+| ZIP station matched | 12 | 51 |
+| Trip Picker run | 1 | 21 |
+| Calendar gate clicked | 5 | 24 |
+| ICS URL revealed | 0 | 3 |
+| Exit prompt shown | 26 | 66 |
+
+Signup events/IDs ≈0.74% / 0.65%, descriptive rather than a person-level
+conversion funnel. 28d signup sources: tool gate 3, end-article gated 3,
+exit-intent 3, station 1. Top 7d paths: national king tides 209 PV, Oregon
+99, Washington 52, Acadia 28, Fitzgerald 19, home 18, Finder 15, Seattle
+14. Referrer pageviews include Google 135, Bing 119, direct 104, DDG 99;
+these are not acquisition clicks. No selected bot/agent signatures found
+among the 568 classified pageviews; "Regular" is not proof of humans.
+LCP last 24h: 21 observations, p75 921 ms / p90 1,636 ms, below the
+~30-sample floor for a performance decision.
+
+**Error-coverage change:** one `$exception` was recorded Oct 3 at
+14:35:09−04 on `/guides/king-tides-oregon-2027/`: TypeError involving
+`top.webkit.messageHandlers.foregroundToBackground.postMessage`, Safari /
+Mac OS X. Both frames are `webkit-masked-url://hidden/`, `in_app:false`;
+no matching symbol in site source. This points toward browser-injected
+bridge code, not a confirmed app defect; it is not reproduced in today's
+browser checks. Crucially, do not repeat the older "no exception events"
+claim: ingestion is observed, but overall capture coverage remains
+unverified (7d pageviews: remote capture flag missing 503 / false 65 /
+true 0; project opt-in null). No telemetry-setting change today.
+
+GSC Web/final, all countries/devices, latest available date still Sep 29
+(no new final dates since yesterday): Sep 2–29 **243 clicks / 14,624
+impressions / 1.66% CTR / position 7.15**, versus Aug 5–Sep 1
+124 / 9,554 / 1.30% / 8.57. Sep 23–29 **63 / 3,904 / 1.61% / 6.62**
+versus Sep 16–22 53 / 3,176 / 1.67% / 7.22. Page/query results 69/374
+rows below the 25,000 cap; hidden queries still limit interpretation.
+Do not equate the reporting lag with zero traffic or attribute the lift
+to one change. Tomorrow's national-guide readout and weekly inspection
+remain due; no tiny-sample verdict or new conversion experiment today.
+
+**Operational gates:** Resend read-only: 16 contacts, pagination complete,
+15 active / 1 unsubscribed. Latest broadcast remains Oct 1
+`628090be-9cee-4fff-8522-ebd6f8521749`, sent 12:06:34Z. Latest 20 email
+records all have `last_event: delivered`, but `has_more:true`; this is
+not a complete complaint/bounce-rate audit. No send or audience mutation.
+NPS conditions fetched today still list Mora Road closure July 8–Oct 15;
+the scheduled end is not a verified reopening. Production-only dependency
+audit zero; full audit still five high entries in the single dev-only
+braces/micromatch/fast-glob chain. Registry braces latest remains 3.0.3;
+no compatible patch identified, no forced Next ESLint downgrade.
+
+**Preservation and next action:** held Haystack/minus-tide patches, Oct 1
+drafts and Sep 21/Sep 22/Oct 3 packets retain exact preflight hashes.
+Oct 5: weekly URL inspection with reconciling per-URL denominator, plus
+national king-tide query/date readout including the later print-utility
+confound. Oct 8: established newsletter gates. Oct 15: Mora status and sole
+Seattle August title extension; Nov 1: index gate before December batch.
+Exit-prompt retirement remains an unresolved owner-authority conflict;
+do not remove/restart/re-query its lifetime experiment unilaterally. Initial
+recrawl/content check for this guide in 2–4 weeks when useful; low exposure
+may require longer and is not a new scheduled experiment. No money,
+outreach, broadcast, ad installation, new credentials or automation change.
+
+**Release confirmed:** article committed/pushed as `db97270`; Vercel
+deployment `576N73rApxiEvs2CsrgPH5zyF9FX` reports success. Public guide
+returned 200 with the new title, Oct 4 update, original Sep 6 publish date,
+unchanged canonical, 232-window wording and low-vs-sunset table; the old
+One-Hour Rule title is absent. Live browser confirmed the corrected lead
+and all four table rows, with no captured console warnings/errors. Local
+guide-to-Finder navigation also passed. This is verified delivery, not a
+claim of recrawl, improved search performance or comprehensive error capture.
+<!-- heartbeat-2026-10-04:end -->
+
+---
+
 ## 2026-10-04 — Agate guide: daylight-at-low labeled separately from overlap
 
 **Health:** green. Today's refresh ran 10:45:44Z (run 37196416846, 2m14s) and

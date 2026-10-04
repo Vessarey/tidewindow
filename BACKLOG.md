@@ -377,8 +377,20 @@ and November's preview do not count.
       sources: July's summer gate schedule cannot stand in for October.
       Keep the Haystack local hold separate; no publication of that patch.
 
-- [ ] **Best-time explainer — daylight-at-low and universal arrival
-      wording audit.** Target `best-time-to-go-tide-pooling` (updated
+- [x] **Best-time explainer — daylight-at-low and universal arrival
+      wording audit.** **Done Oct 4 heartbeat (`db97270`):** preserved and
+      recomputed both 548-window tables; explicitly labeled Oct 5 Port
+      Townsend's pre-sunrise low and added four California low-vs-sunset
+      rows (Monterey/Pillar Point after dark). Bar Harbor reconciled to
+      232 modeled windows, 52 daylight-overlapping minus windows, 34 with
+      lows at noon or later. Replaced universal one-hour/access claims
+      with the fixed-offset limitation; fresh NPS quotation local to Acadia.
+      Title change retires the factual "One-Hour Rule" claim, not a new
+      SEO experiment. Original date/slug preserved; `updated: 2026-10-04`.
+      Isolated build, 56 tests, lint, fact/schema/link and desktop/mobile
+      checks passed. See journal for release and measurement evidence.
+      Three ready briefs remain: Oregon hub, sea-glass, Sunset Bay.
+      Original brief: Target `best-time-to-go-tide-pooling` (updated
       Sep 6). Current exposure: 1 click / 29 impressions / 3.45% CTR /
       position 5.03; no prior-period page row returned. Revealed queries
       `best time to go tide pooling` and `best time to go tidepooling`
