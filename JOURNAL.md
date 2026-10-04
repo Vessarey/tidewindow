@@ -5,6 +5,64 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-04 — Agate guide: daylight-at-low labeled separately from overlap
+
+**Health:** green. Today's refresh ran 10:45:44Z (run 37196416846, 2m14s) and
+landed `2f5bea9` at 10:47:53Z before session start — designed outcome, no
+incident. Last five Actions runs successful; no open issues. Fact sheets
+regenerated 08:04 local (2026-10-04).
+
+**Primary action (§2d/P1 maintenance, per yesterday's handoff):** shipped the
+agate-guide brief (`fe2b548`), chosen as the highest-exposure of the Oct 3
+refill briefs (GSC Sep 2–29: 5 clicks / 160 impressions / pos 6.48). Core
+correction: the article called the winter 2026–27 shortlist "daylight lows,"
+but committed solar data shows nine of the ten lows arrive after sunset —
+only Port Orford Jan 21, 2027 (5:12 PM low vs 5:16 PM sunset, −4.9 min) is
+before dark. Changes: added a "Low vs sunset" column to both station tables
+(offsets recomputed from committed window data: PO +97/+38/+85/−5/+38 min;
+NP +83/+25/+73/+29/+73); relabeled lead/FAQs/prose to "minus tides with ≥30
+daylight minutes in their window," stating the daylight sits earlier in each
+window; July monthly counts rolled to current fact sheets (PO 16→18, NP
+17→19, early-July backfill — Aug–Dec counts unchanged); passed-summer claims
+(July bests −2.46/−2.52, September trough) moved to past tense per
+annual_note; depth give-up comparison relabeled with after-sunset offsets
+(arithmetic unchanged: 0.61 / 0.25 ft); blanket winter arrival instruction
+replaced with daylight-column planning language explicitly scoped as
+"daylight arithmetic on station predictions, not a statement about beach
+access, parking, or how long your particular walk back takes"; heading and
+description de-claim "daylight minus windows"; honest `updated: 2026-10-04`.
+Title kept per brief. Jan 21 best-score claim retained with its explicit
+ten-row shortlist scope, now also flagged as the only before-sunset low.
+
+**Verification:** all ten table rows byte-match today's fact sheets
+(king_season_oct26_mar27_lowest5_daylight); sunset offsets computed from
+committed public/data-json window records (lowTime vs sunset). OAR
+736-021-0090 re-fetched: one-gallon/day, three-gallon/year, individual
+container, cobble 5/10, sand 5/20, special-use permit — all stand (rule last
+amended 2024-02-28). Travel Oregon agate page re-fetched: December–March
+scour claim, South Beach "Newport Blues," Whiskey Run, Otter Point, and the
+"Never turn your back to the ocean" sneaker-wave warning all verified
+verbatim. Plain `npm run build` green: 149 routes, verify-output OK (12
+stations × 5 months, 136 sitemap URLs), 56 tests pass. Diff reviewed;
+owner-held Haystack and minus-tide local changes and the Oct 1 drafts /
+Sep 21–22–Oct 3 packets untouched and uncommitted.
+
+**Metrics snapshot (PostHog, 7d, host thetidewindow.com, Regular traffic):**
+594 pageviews / 554 distinct IDs / 4 signup events. Top paths: national
+king-tides 213, Oregon king-tides 101, Washington king-tides 51, Acadia 28,
+Fitzgerald 20, home 19, Finder 17, Seattle Alki 14. Consistent with Oct 2–3
+reads; king-tide cluster still carries the site.
+
+**Tomorrow (Oct 5, Mon):** weekly `inspect 40` / query review plus the
+national-query coverage packet reconciliation (Sep 30's 63-vs-60 tally).
+Writable queue after today: Oregon-hub and best-time briefs, sea-glass,
+Sunset Bay — four items, above the three-item floor. Oct 8 (Thu) newsletter
+ritual. Oct 15: Mora Road closure recheck + Seattle month-title readout.
+Nov 1: index gate before December rollover. Exit-prompt owner reconciliation
+still open — do not alter that surface.
+
+---
+
 <!-- heartbeat-2026-10-03:start -->
 ## 2026-10-03 — Heartbeat: refill the writable queue, preserve release gates
 

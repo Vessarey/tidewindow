@@ -338,8 +338,13 @@ owner-held Haystack/minus-tide patch. Together with sea-glass and Sunset Bay,
 the queue has five distinct writable assignments; generic refresh headings
 and November's preview do not count.
 
-- [ ] **Agate guide — distinguish winter daylight overlap from daylight
-      at low water.** Target `agate-hunting-oregon-coast` (published Jul 3).
+- [x] **Agate guide — distinguish winter daylight overlap from daylight
+      at low water.** **Done 2026-10-04 operator** (`fe2b548`): low-vs-sunset
+      column added to both tables (nine of ten shortlist lows after sunset;
+      only PO Jan 21, 2027 before dark), overlap labeling throughout, July
+      counts 18/19 per current fact sheets, arrival wording de-scoped from
+      access claims, OAR + Travel Oregon re-verified. See 2026-10-04 journal.
+      Original brief: Target `agate-hunting-oregon-coast` (published Jul 3).
       Current exposure: 5 clicks / 160 impressions / 3.13% CTR / position
       6.48; prior Aug 5–Sep 1: 8 / 176 / 4.55% / 6.97. No query rows
       revealed for this page; do not invent an agate-query cluster.
