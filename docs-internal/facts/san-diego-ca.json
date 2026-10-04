@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-03",
+ "generated_on": "2026-10-04",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2052,6 +2052,11 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "Kelp Scallop",
+   "scientificName": "Leptopecten latiauratus",
+   "count": 2
+  },
+  {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
    "count": 1
@@ -2062,13 +2067,23 @@
    "count": 1
   },
   {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 1
+  },
+  {
    "commonName": "Kellet's Whelk",
    "scientificName": "Kelletia kelletii",
    "count": 1
   },
   {
-   "commonName": "Kelp Scallop",
-   "scientificName": "Leptopecten latiauratus",
+   "commonName": "Spiny Cup-and-Saucer",
+   "scientificName": "Crucibulum spinosum",
+   "count": 1
+  },
+  {
+   "commonName": "Pismo Clam",
+   "scientificName": "Tivela stultorum",
    "count": 1
   },
   {
@@ -2079,6 +2094,11 @@
   {
    "commonName": "Purple Olive Snail",
    "scientificName": "Callianax biplicata",
+   "count": 1
+  },
+  {
+   "commonName": "Channeled Basket Snail",
+   "scientificName": "Caesia fossata",
    "count": 1
   }
  ]

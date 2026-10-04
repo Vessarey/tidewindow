@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-03",
+ "generated_on": "2026-10-04",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2062,14 +2062,14 @@
    "count": 22
   },
   {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 22
+  },
+  {
    "commonName": "Stearns' Aeolid",
    "scientificName": "Austraeolis stearnsi",
    "count": 16
-  },
-  {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 15
   },
   {
    "commonName": "Salt-and-pepper Doris",

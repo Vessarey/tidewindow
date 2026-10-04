@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-03",
+ "generated_on": "2026-10-04",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 25
+   "count": 24
   },
   {
    "commonName": "Horned Nudibranch",
