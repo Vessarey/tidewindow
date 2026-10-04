@@ -1,36 +1,36 @@
 ---
-title: "The Best Time to Go Tide Pooling: Time of Day, Season, and the One-Hour Rule"
-description: "Dawn in summer, mid-afternoon from October on — 2026 NOAA data shows when daylight minus tides actually happen, and when to arrive."
+title: "The Best Time to Go Tide Pooling: Time of Day, Season, and Daylight Timing"
+description: "Compare morning and afternoon tide-pooling windows in July–December 2026 NOAA predictions, with daylight at low tide checked separately."
 date: "2026-09-06"
-updated: "2026-09-06"
+updated: "2026-10-04"
 category: "tide-basics"
 tags: ["tide pools", "minus tide", "best time", "trip planning", "tide basics"]
 faq:
   - q: "What is the best time of day to go tide pooling?"
-    a: "The hour before the day's lowest daylight tide — and on the US West Coast the clock moves with the season. In July and August 2026, 93–97% of daylight minus tides at the 11 Pacific stations Tidewindow tracks land before noon, with 6 AM the single busiest hour. From October through December the pattern inverts completely: nearly every daylight minus tide lands in the afternoon, with 4–5 PM busiest."
+    a: "Compare the local low-tide time with sunrise and sunset, not just a daylight-window label. In July and August 2026, 93–97% of the qualifying minus-tide windows at Tidewindow's 11 Pacific stations have lows before noon. In October, 46 of 47 have lows at noon or later. Qualification means at least 30 minutes of window daylight; the low itself can still occur in darkness."
   - q: "What is the best season for tide pooling?"
-    a: "There are two, and they feel different. In our July–December 2026 data, summer delivers the deepest daylight lows at Washington and Oregon stations — Seattle's −3.8 ft low at NOAA station 9447130 hit at 11:20 AM on July 14, and outer-coast lows that month centered near 6 AM. King-tide season delivers afternoon minus tides at civilized hours, especially in California: La Jolla's deepest daylight low in that six-month dataset, −1.88 ft, lands at 3:47 PM on December 24."
+    a: "It depends on the station and what you are comparing. In the July–December 2026 prediction set, the deepest lows in daylight-overlapping windows at all seven covered Washington and Oregon stations fall in mid-July. All four California station minima fall on December 24, but Monterey's and Pillar Point's lows are after sunset. This is a six-month depth comparison, not an access or comfort rating."
   - q: "How long before low tide should I arrive at the tide pools?"
-    a: "About an hour. Tidewindow's computed windows set an arrive-by time 60 minutes ahead of the predicted low, so you explore on falling water and are heading back as it turns. Acadia National Park frames the whole opportunity as 'the window of time 1.5 hours before to 1.5 hours after low tide' — either way, showing up at the printed low-tide minute means you've missed the front half."
+    a: "Tidewindow's arrive-by field is a fixed calculation: predicted low minus 60 minutes. It does not account for walking time, opening hours, closures, or daylight, and it is not a universal arrival or turnaround rule. Site-specific timing guidance comes from the relevant land manager; the Acadia quotation in this guide applies to Acadia only."
   - q: "Is the best tide-pooling time the same on the East Coast?"
-    a: "No. The East Coast runs semidiurnal tides — two nearly equal lows a day — so almost any low works and the minus sign matters less. At Bar Harbor, Maine (NOAA 8413320), July–December 2026 has 239 lows below +1.0 ft but only 52 daylight minus tides, and about two-thirds of those land in the afternoon. The National Park Service's timing rule for Acadia is tied to low tide itself, not to a threshold."
-  - q: "Do tide pools stop being accessible in winter?"
-    a: "Not on most of the coast — the good lows just move to mid-afternoon, and in Puget Sound they move to the middle of the night. In November and December 2026, the 11 West Coast stations Tidewindow tracks have 162 daylight minus tides, every single one after noon; Seattle and Port Townsend have zero, because their deep winter lows land in darkness."
+    a: "No. NOAA describes semidiurnal tides as common on the eastern coast of North America and mixed semidiurnal tides as common on the west. At Bar Harbor, Maine (NOAA 8413320), July–December 2026 has 232 modeled windows below +1.0 ft, including 52 minus-tide windows with at least 30 daylight minutes. Of those 52, 34 have lows at noon or later. Those counts do not establish access at any particular beach."
+  - q: "Are there daylight-overlapping tide-pooling windows in winter?"
+    a: "In November and December 2026, the 11 covered West Coast stations have 162 minus-tide windows with at least 30 minutes of daylight overlap; all their lows occur at noon or later. Seattle and Port Townsend contribute none. A qualifying window does not mean the low itself is in daylight or that a beach is open."
 sources:
   - "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html"
   - "https://www.nps.gov/acad/planyourvisit/tidepooling.htm"
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130"
 ---
 
-**The best time to go tide pooling is the hour before a low daylight tide — and on the US West Coast, the calendar decides when that hour is. In July and August 2026, 93–97% of daylight minus tides at the 11 Pacific stations Tidewindow tracks land before noon, most near dawn. From October through December the split inverts to essentially 100% afternoon. Seattle's deepest daylight low in our July–December dataset, −3.8 ft at NOAA station 9447130, came at 11:20 AM on July 14.**
+**The best time to go tide pooling depends on the local low tide, daylight, and site-specific access. In July–December 2026, Tidewindow's 11 Pacific stations have 548 minus-tide windows with at least 30 minutes of daylight overlap—not necessarily daylight at the low. Port Townsend (NOAA 9444900) illustrates the difference: its October 5 low is at 5:48 AM, before 7:16 AM sunrise, although the surrounding window includes 39 daylight minutes.**
 
-"Best time" is really three questions stacked on top of each other: how low the water needs to be, what hour of the day that low arrives, and which months serve it up in daylight. The first question has [its own page](/guides/how-low-does-the-tide-need-to-be-for-tide-pools/) (short version: the threshold depends on your coast). This page answers the other two with the 2026 predictions, then ends with the one habit that matters more than any of it: arrive an hour early.
+"Best time" is really three questions stacked on top of each other: how low the water needs to be, what hour that low arrives, and how much of the surrounding window falls between sunrise and sunset. The first question has [its own page](/guides/how-low-does-the-tide-need-to-be-for-tide-pools/). This page answers the other two with the July–December 2026 predictions, then explains the limits of a computed arrive-by time.
 
 ## What time of day is best?
 
-Whenever the lowest daylight tide is — which sounds circular until you see how tightly the answer clusters. Here is every daylight [minus tide](/guides/what-is-a-minus-tide/) (a low below 0.0 ft MLLW with at least 30 minutes of its window in daylight) at the 11 West Coast stations Tidewindow tracks, July 1 – December 31, 2026, bucketed by the hour of the low:
+The clock time shifts with the season and station. Here is every qualifying [minus-tide](/guides/what-is-a-minus-tide/) window at the 11 West Coast stations Tidewindow tracks, July 1 – December 31, 2026, bucketed by the hour of the low. A window qualifies here when its low is below 0.0 ft MLLW and at least 30 minutes of the modeled below-+1.0-ft window overlap daylight. **This is not a count of lows occurring in daylight.**
 
-| Hour of the low | Daylight minus tides | Share |
+| Hour of the low | Qualifying minus-tide windows | Share |
 |---|---|---|
 | Before 4 AM | 4 | 1% |
 | 4 – 8 AM | 242 | 44% |
@@ -39,17 +39,17 @@ Whenever the lowest daylight tide is — which sounds circular until you see how
 | 2 – 6 PM | 181 | 33% |
 | 7 – 8 PM | 29 | 5% |
 
-*Computed 2026-09-06 from NOAA harmonic predictions (MLLW) at the 11 Pacific stations Tidewindow tracks; 548 windows total. Both tables cover station-local dates July 1 – December 31, 2026, excluding the pipeline's June 30 backfill. Each station's window counts separately, even when several fall on the same date; shares are rounded.*
+*Recomputed 2026-10-04 from NOAA predictions (MLLW) and Tidewindow's modeled windows at 11 Pacific stations; 548 windows total. Both tables cover station-local dates July 1 – December 31, 2026, excluding the pipeline's June 30 backfill. Each station's window counts separately, even when several fall on the same date; shares are rounded. Hour buckets include the full named hours.*
 
-Two humps, almost nothing in between. The single busiest hour is 6 AM (58 windows); the busiest afternoon hour is 5 PM (51). Midday is the desert — 11 AM through 1 PM holds just 7% of the year's second-half supply. If your mental image of tide pooling is a sunny noon stroll, the tide tables mostly disagree.
+Two humps, almost nothing in between. The single busiest hour is 6 AM (58 windows); the busiest afternoon hour is 5 PM (51). The 11 AM through 1 PM buckets hold just 7% of this six-month selection. These are low-time distributions, not recommended visiting hours.
 
 The reason for the two humps is seasonal, and it's the useful part.
 
 ## When does dawn flip to afternoon?
 
-October — and the flip is nearly total. Same dataset, split by month, counting how many daylight minus tides land before noon:
+October — and the flip is nearly total in this dataset. Here are the same qualifying windows split by month, counting whether their low occurs before noon:
 
-| Month (2026) | Daylight minus tides | Before noon | After noon | Morning share |
+| Month (2026) | Qualifying minus-tide windows | Low before noon | Low at noon or later | Morning share |
 |---|---|---|---|---|
 | July | 192 | 178 | 14 | 93% |
 | August | 108 | 105 | 3 | 97% |
@@ -58,43 +58,52 @@ October — and the flip is nearly total. Same dataset, split by month, counting
 | November | 74 | 0 | 74 | 0% |
 | December | 88 | 0 | 88 | 0% |
 
-*Computed 2026-09-06 from the same 11-station NOAA prediction set, Jul 1 – Dec 31, 2026.*
+*Recomputed 2026-10-04 from the same 11-station NOAA prediction set and modeled windows, Jul 1 – Dec 31, 2026.*
 
-The lone October holdout is a squeaker: Port Townsend on October 5, a −0.23 ft low at 5:48 AM with 39 minutes of usable light. Everything else that month — and every daylight minus tide on this coast in November and December — is an afternoon event.
+The lone October morning low is Port Townsend on October 5: −0.23 ft at 5:48 AM, **before the 7:16 AM sunrise**. The modeled window runs 3:55–7:55 AM; its final 39 minutes overlap daylight. The low itself is in darkness. Every other qualifying window that month—and all qualifying minus-tide windows in November and December—has its low at noon or later. Some of those lows are after sunset.
 
-The physics behind the flip is the tilt of Earth's axis working on the West Coast's unequal daily lows; [we walk through it here](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/). The practical translation is simple:
+For more on the seasonal pattern, see [why summer's low tides cluster near dawn](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/). Within the measured period:
 
-- **Summer (June – September):** set an alarm. The deep lows are dawn events on the outer coast, with lows clustering around 5–7 AM.
-- **Fall through midwinter (October – January):** sleep in. The deep lows return as mid-afternoon events, mostly 2–6 PM, right up against [king-tide season](/guides/king-tides-2026-2027-dates/).
+- **July–September:** most qualifying windows have morning lows.
+- **October–December:** almost all qualifying windows have lows at noon or later, overlapping the start of [king-tide season](/guides/king-tides-2026-2027-dates/). The daylight label still needs a separate sunrise/sunset check at the low.
 
 ## Where does the dawn rule bend?
 
-**Puget Sound runs late.** Tide timing shifts as the tide wave works into the Sound, so Seattle and Port Townsend get their summer deep lows in late morning and midday, not at dawn: of their 41 daylight minus tides in July 2026, 27 were before noon and 14 after, with the median low at 11 AM. Seattle's −3.8 ft floor on July 14 arrived at 11:20 AM — the most family-friendly deep low on the coast. The flip side arrives in winter: Seattle and Port Townsend have **zero** daylight minus tides in November and December 2026; their deep winter lows land in the middle of the night. [The Puget Sound calendar](/guides/puget-sound-low-tide-calendar-2026/) has the full schedule.
+**Puget Sound runs late in this comparison.** Of Seattle and Port Townsend's 41 qualifying minus-tide windows in July 2026, 27 have lows before noon and 14 at noon or later; the median low falls in the 11 AM hour. Seattle's −3.8 ft July 14 low arrived at 11:20 AM, in daylight. Seattle and Port Townsend have **zero** minus-tide windows meeting the 30-minute daylight-overlap threshold in November and December 2026. [The Puget Sound calendar](/guides/puget-sound-low-tide-calendar-2026/) has the schedule.
 
-**The East Coast barely has a dawn rule at all.** NOAA classifies East Coast tides as semidiurnal — two nearly equal lows a day — versus the mixed pattern out west ("The U.S. West Coast tends to have mixed semidiurnal tides, whereas a semidiurnal pattern is more typical of the East Coast"). With both daily lows similar, almost any low uncovers the zone and the minus sign matters much less. At Bar Harbor, Maine, July–December 2026 has 239 lows below +1.0 ft but only 52 daylight minus tides — and Acadia's tide pooling is famous anyway. About two-thirds of those 52 land in the afternoon, and from September on, the month's best window is a 2–6 PM affair. [More on how East Coast tide pooling differs](/guides/east-coast-tide-pooling-different/).
+**Bar Harbor has a different distribution.** [NOAA describes](https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html) semidiurnal tides—two similarly sized highs and lows per lunar day—as common on the eastern coast of North America, and mixed semidiurnal tides as common on the west. At Bar Harbor, Maine (NOAA 8413320), July–December 2026 has **232 modeled below-+1.0-ft windows**, including 52 minus-tide windows with at least 30 daylight minutes. Of those 52, 34 have lows at noon or later, about two-thirds. These are modeled-window counts, not a claim that almost any low opens a beach. [More on how East Coast tide pooling differs](/guides/east-coast-tide-pooling-different/).
 
 ## Which season should you actually pick?
 
-Both, for different reasons.
+The depth comparison depends on the station. Neither a depth record nor a score establishes beach access or conditions.
 
-**Summer is the depth season in this six-month comparison.** Every Washington and Oregon station in the dataset posts its deepest July–December daylight low in mid-July — from Port Orford's 6:37 AM to Seattle's 11:20 AM — and long daylight means even a 6 AM low comes with hours of usable morning. The catch is the alarm clock, and on the outer coast, morning marine fog. January–June is outside this dataset, so these are not full-year records.
+**Washington and Oregon's minima fall in summer in this six-month comparison.** Every covered station in those two states posts its deepest low among qualifying July–December windows in mid-July—from Port Orford's 6:37 AM to Seattle's 11:20 AM. All seven of those station minima occur between sunrise and sunset. January–June is outside this dataset, so these are not full-year records.
 
-**King-tide season is the comfort season.** From November through January, the same celestial alignment that produces the winter's highest highs also produces afternoon minus tides. In California it's the *better* season in our July–December comparison: all four California stations Tidewindow tracks post their deepest daylight low in that period on Christmas Eve, December 24, in the afternoon — La Jolla bottoms at −1.88 ft at 3:47 PM — depths July can't match there, at hours no alarm clock resents. Shorter days are the constraint: a 4:30 PM low in December is racing sunset, so the afternoon windows are real but brief.
+**California's minima fall on Christmas Eve, but two are after sunset.** All four covered California stations have their deepest low among qualifying July–December windows on December 24. The low's relationship to sunset differs:
 
-September and October are the thin months — 39 and 47 windows coast-wide versus July's 192 — which is exactly when a [month calendar](/calendars/) earns its keep.
+| Station | Dec 24 low (ft MLLW) | Low time | Sunset | Low itself in daylight? |
+|---|---|---|---|---|
+| Monterey | −1.83 | 5:06 PM | 4:57 PM | No |
+| Pillar Point | −1.90 | 5:10 PM | 4:57 PM | No |
+| La Jolla | −1.88 | 3:47 PM | 4:48 PM | Yes |
+| San Diego | −1.88 | 3:50 PM | 4:48 PM | Yes |
 
-## The one-hour rule
+*Station-local times; NOAA-predicted lows and modeled sunrise/sunset from the October 4 data refresh. All four surrounding windows meet the ≥30-minute daylight-overlap threshold. That does not make the entire window daylight.*
 
-Whatever day and hour you pick, arrive about an hour before the predicted low. Every window Tidewindow computes carries an arrive-by time set 60 minutes ahead of the low for exactly this reason: you want to walk out on falling water, reach the lowest zone as the tide bottoms, and be working your way back as it turns. Show up at the printed low-tide minute and the front half of the window — often the calmer, clearer half — is already gone.
+September and October have the fewest qualifying minus-tide windows in this six-month West Coast comparison—39 and 47 versus July's 192. A [month calendar](/calendars/) provides the station-level detail behind those totals.
 
-The National Park Service's guidance for Acadia frames the opportunity the same way: tide pooling happens in "the window of time 1.5 hours before to 1.5 hours after low tide," with the park advising visitors to start before the low reaches its lowest point and head back as the water rises. Our [methodology page](/methodology/) explains how the windows and arrive-by times are computed.
+## What the arrive-by time does—and does not—mean
+
+Tidewindow's arrive-by field is the predicted low time minus 60 minutes. That fixed offset does not include a route's walking time, opening hours, closures, or daylight. It is not a universal arrival recommendation, an access guarantee, or a turnaround rule. For the October 5 Port Townsend example, it produces 4:48 AM—also before sunrise. Our [methodology page](/methodology/) explains the computation.
+
+For **Acadia specifically**, the [National Park Service says](https://www.nps.gov/acad/planyourvisit/tidepooling.htm): "It is best to start tidepooling before low tide and to leave as the tide is rising." That local guidance is not a timing rule for every coast or route.
 
 ## Check your dates
 
 The tables above tell you *when kinds of days happen*. For your actual dates:
 
-- The [Tide Window Finder](/tools/tide-window-finder/) ranks the next 30 days of daylight windows for the station nearest you — ZIP code lookup included.
-- The [month calendars](/calendars/) list every daylight window, morning or afternoon, for each covered station.
-- The state hubs collect the best beaches by region: [Washington](/beaches/wa/), [Oregon](/beaches/or/), [California](/beaches/ca/), and [Maine](/beaches/me/).
+- The [Tide Window Finder](/tools/tide-window-finder/) ranks modeled windows over the next 30 days for a covered station—ZIP code lookup included. Ranking alone is not a daylight-at-low or access check.
+- The [month calendars](/calendars/) show covered stations' windows with at least 30 minutes of daylight overlap, morning or afternoon.
+- The state hubs group covered beaches by region: [Washington](/beaches/wa/), [Oregon](/beaches/or/), [California](/beaches/ca/), and [Maine](/beaches/me/).
 
-Predictions are predictions: NOAA's numbers say where the water should be, and weather, swell, and pressure move the real waterline. Check conditions before you go.
+Predictions are not observations. The timing comparisons above do not establish current conditions, beach opening, route access, or a safe departure time.
