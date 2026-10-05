@@ -5,6 +5,19 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-10-05:start -->
+- [x] **2026-10-05 heartbeat — §2a ready-now queue refill, docs only.**
+      Morning Oregon roll-forward already shipped (`df2d7c7`); two writable
+      briefs remained. Added three bounded factual-maintenance assignments
+      below: residual Oregon superlatives first, Washington's expired
+      September premise, and Yaquina Head's July/August premise. Five ready
+      assignments including sea-glass and Sunset Bay; these are not three
+      uncovered keyword clusters. No public correction shipped in this
+      heartbeat. Held articles/drafts/evidence packets remain untouched.
+      See journal for fresh analytics, indexing/readout qualifications,
+      browser/data checks and retained owner gates.
+<!-- heartbeat-2026-10-05:end -->
+
 <!-- heartbeat-2026-10-03:start -->
 - [x] **2026-10-03 heartbeat — §2a content-queue refill.** Morning operator
       completed East Coast (`a0f99ae`), leaving only sea-glass and Sunset
@@ -326,6 +339,79 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-10-05-refill:start -->
+Three ready-now maintenance briefs, verified Oct 5. GSC is exact-page
+Web/final Sep 6–Oct 3 versus Aug 9–Sep 5, all countries/devices; dates use
+Search Console's Pacific reporting basis. Page exposure is not a newly
+discovered keyword cluster. The flywheel's leading chart/king-tide intents
+already have matching pages. Preserve each slug, original publish date,
+historical tables and gates; recompute from current facts/full window range
+and re-fetch official sources at implementation. Do not publish owner-held
+Haystack/minus-tide work. These briefs do not reopen conversion experiments.
+
+- [ ] **First: Oregon hub — correct residual summer/winter superlatives.**
+      Target `best-tide-pools-oregon-2026`. Current 0 clicks / 18 impressions /
+      0% CTR / position 7.22; prior period no impressions. Revealed queries
+      are sparse (three one-impression rows, including `tide tables port
+      orford` at position 17); no keyword-growth inference. This is a narrow
+      follow-up to today's completed August-premise refresh, not a repeat.
+      Live copy still says Christmas at Port Orford is deeper than anything
+      summer offered, August 12 scored best in the second half at every
+      station, and August was the year floor north of Newport. All conflict
+      with Jul 1–Dec 31 fact sheets/full modeled windows: PO Jul 14 −2.459 ft
+      versus Dec 24 −2.211; Newport Jul 15 −2.522 versus Aug 12 −1.913;
+      Garibaldi Jul 15 −2.349 versus Aug 12 −1.767. All four OR July minima
+      scored 90, above Aug 12's 80/81/88/85. Limit August/winter comparisons
+      explicitly to the displayed August run; otherwise verify the full
+      relevant period. Keep July–December distinct from an entire year and
+      predictions distinct from observations. Audit other only/best claims,
+      especially Jan 21's selected king-season row. Preserve today's new
+      title, remaining-date table and access-source work unless a directly
+      related factual correction requires a change. Regression-check the
+      four-station minima/scores and sunset labels; no general rewrite.
+
+- [ ] **Washington comparison — roll past the September/Oct 5 premise.**
+      Target `best-tide-pools-washington-2026`. Current 0 clicks / 49
+      impressions / 0% CTR / position 5.98; prior 1 / 42 / 2.38% / 5.90.
+      Visible `best tide pools washington coast`, `best tide pools washington
+      state`, and `best tidepooling washington` each have one impression at
+      positions 2/4/4, zero clicks; `how about october` has four at 3, not
+      enough to define a new intent. Title still says September; the
+      remaining counts include Sep 27 and Port Townsend's now-passed Oct 5
+      window. Recompute the actual remaining range at write time and archive
+      passed rows. Oct 6–Dec 31 reference: La Push 19 qualifying modeled
+      windows, 12 minus; 11 of those lows after sunset, Dec 21's −0.659 ft
+      low 4:26 PM just before 4:28 sunset. Puget has no minus windows in
+      that range but still has positive qualifying windows: Port Townsend
+      Oct 6 +0.280 ft / 67 daylight min and Oct 7 +0.876 / 45; Seattle
+      Oct 6 +0.509 / 89. Do not turn zero minus windows into zero qualifying
+      windows. Keep the three-station scope, July 14 publish date and gate;
+      title change only to remove the expired month. Re-fetch NPS Mora/
+      Second Beach and state/city access sources; Oct 15 is a construction
+      estimate, never an automatic reopening. No route/access inference
+      from a window score or arrive-by field.
+
+- [ ] **Yaquina Head / Otter Rock — retire July/August and summer hours.**
+      Target `yaquina-head-otter-rock-tide-pools-2026` (published Jul 17).
+      Current 0 clicks / 17 impressions / 0% CTR / position 10.41; prior
+      no impressions. Sole revealed query `newport oregon tide chart 2026`
+      has one impression at position 5, zero clicks. Description calls
+      Aug 12's −1.91 ft the 2026 deepest; lead/body still say August is left,
+      "this month" is July and to set an August alarm. Jul 1–Dec 31 minimum
+      is instead Jul 15 −2.522 ft. Re-verify and retain historical tables,
+      lead with the remaining dates, scope all superlatives to the verified
+      period, and distinguish daylight overlap from daylight at the low.
+      Oct 6–Dec 31 deepest qualifying Newport low is Dec 23 −1.910 ft at
+      5:53 PM, after 4:39 sunset (60 daylight minutes in the window).
+      BLM fetched Oct 5 says 8 AM–6 PM Mon–Thu / 8 AM–7 PM Fri–Sun;
+      summer 8 PM closing is expired. Re-fetch BLM and Oregon Parks at
+      implementation; preserve holiday exceptions and do not equate a low
+      shortly before closing with sufficient visit/return time. Remove
+      unsupported universal arrival/turnaround claims; refresh or explicitly
+      date species observations. Keep title unless directly inaccurate,
+      preserve the Newport gate, and verify external links/FAQ schema.
+<!-- heartbeat-2026-10-05-refill:end -->
 
 <!-- heartbeat-2026-10-03-refill:start -->
 Three additional ready-now assignments, verified Oct 3. GSC numbers below
@@ -1660,6 +1746,9 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       any replacement/override as a separate improvement. No lock or
       manifest change in the Oct 3 queue-refill heartbeat. Oct 2's zero
       audit was a point-in-time observation, not today's full-audit status.
+      **Oct 5 recheck:** same five high development package entries;
+      production-only audit zero, registry `braces` latest still 3.0.3.
+      No dependency mutation or compatible automatic fix established.
 
 - [x] **Priority: bounded Next security patch after Sep 30 advisory.**
       **Done Oct 1 heartbeat (`1311358`):** Next and eslint-config-next
@@ -1700,6 +1789,17 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       coverage. The claimed 57% and Google crawl-budget/link-causation
       interpretation are unverified. Today's run was already reported done;
       no duplicate inspect-60 or additional link batch in the heartbeat.
+      **Oct 5 heartbeat qualification:** the script is deterministic
+      (every third URL, first 40), not random. Repeated runs are not two
+      independent samples; B lacks all 40 individually preserved states.
+      A's 27/11/2 tally is reproducible from the packet, but 32.5% is not
+      property-wide coverage. Browser Pages report is stale at Sep 20:
+      63 indexed / 66 excluded (61 Discovered, 2 Crawled, 3 redirects),
+      all known pages, not today's 136 sitemap URLs. Existing relevant
+      top-five links and honest lastmod verified again; no proven missing
+      crawl path. Cause of exclusions remains unestablished, not proof
+      that there is no possible on-site improvement. Next weekly audit:
+      preserve complete URL/state lists and compare identical targets.
 
 - [ ] **2026-09-27 discovery: clarify modeled-window versus raw-low count
       semantics in fact-sheet consumers.** `months_2026.lows_below_1ft` is
@@ -1767,6 +1867,13 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       true on none. Client config still enables capture, but ingestion
       remains unverified, not zero errors. No setting or synthetic-event
       change; retain this independent measurement gap after audit cleanup.
+      **Oct 5 read-only follow-up:** taxonomy now has `$exception`; one
+      Oct 3 Safari bridge `foregroundToBackground.postMessage` exception
+      on the Oregon king-tide guide is observed in 7d/28d, not a newly
+      reproduced application defect. Remote flag missing on 464 / false
+      on 65 / true on zero Regular production pageviews (7d); project
+      opt-in null. Some exception ingestion exists; full capture coverage
+      remains unverified. No settings or synthetic production events.
 
 - [x] **2026-09-05 CLOSED — production LCP recovered with a real sample.**
       **09-06 measurement correction:** the 63 below counted all
@@ -1858,7 +1965,16 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       new impressions; head query 227 impr / 1 click / pos 7.6 vs baseline
       81 / 0 / 9.6; page 85 clicks / 4,698 impr / 6.9 vs 39 / 1,829 / 6.9.
       Directional keep; print-utility + seasonal confounds noted; experiment
-      closed, no extension. See 2026-10-05 journal. Original item:
+      closed, no extension. **Heartbeat measurement correction:** property
+      queries/rolling script dates above include pre-change exposure and
+      are not the exact affected-page post-change sample. Equal 22-day
+      exact-page/date comparison Aug 20–Sep 10 vs Sep 12–Oct 3: page
+      40 clicks / 2,010 impressions / pos 6.94 → 69 / 3,761 / 6.84;
+      exact head query 0 / 95 / 9.60 → 0 / 141 / 6.60. The post-change
+      head query alone meets the 100-impression floor, but does not show
+      a head-query click lift. Keep/closed stands as an observational
+      decision with seasonal/concurrent-change confounds, not a causal
+      conversion result or a new experiment. See journal. Original item:
       (`36aebb1`) on GSC query/page/date data. Baseline: page 39 clicks /
       1,829 impressions / position 6.9 over 28d; bare-2026 target cluster
       ~140 impressions (head query 81 / 9.6 / 0 clicks; predictions

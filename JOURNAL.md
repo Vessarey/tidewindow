@@ -5,6 +5,163 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-05:start -->
+## 2026-10-05 — Heartbeat: refill five ready briefs; qualify indexing and readout evidence
+
+**One primary improvement (§2a), documentation only:** after the morning
+operator completed the Oregon hub (`df2d7c7`, journal `bffd2bc`), only
+sea-glass and Sunset Bay remained independently writable. Added three
+source-verified P1 maintenance briefs: residual Oregon superlatives first,
+Washington's expired September/Oct 5 premise, and Yaquina Head's July/August
+premise/summer hours. Queue now five. No article, title, gate, code,
+dependency, generated data, analytics setting or newsletter changed here.
+These are existing-page accuracy assignments, not three uncovered keyword
+clusters; leading Fitzgerald/king-tide/Glass Beach intents already have
+matching pages. Used analytics-led SEO and PostHog workflows to keep exact
+baselines, factual scopes, tiny-sample limits and release states distinct.
+
+**Coordination and selection:** read playbook, latest three journal entries,
+backlog, dirty state, today's commits, Actions and issues before work; pull
+was already current at `bffd2bc`. Morning Oregon roll-forward, weekly
+inspect-40 and national readout were not repeated as primary actions. No
+new editorial additions this week. Existing owner-held Haystack/minus-tide
+patches, Oct 1 newsletter drafts and Sep 21/22 + Oct 3 evidence directories
+were neither stashed nor edited; hashes checked against preflight.
+
+**Brief evidence (exact page, GSC Web/final Sep 6–Oct 3):**
+
+| Existing guide | Clicks / impressions / CTR / position | Prior Aug 9–Sep 5 | Bounded correction |
+| --- | --- | --- | --- |
+| Oregon comparison | 0 / 18 / 0% / 7.22 | No impressions | Three residual summer/winter superlatives conflict with July data; preserve today's refresh |
+| Washington comparison | 0 / 49 / 0% / 5.98 | 1 / 42 / 2.38% / 5.90 | Remove September premise and expired remaining dates, retain positive Puget windows |
+| Yaquina Head / Otter Rock | 0 / 17 / 0% / 10.41 | No impressions | Archive July/August framing and revalidate seasonal closing hours |
+
+Query-by-page evidence is sparse, recorded in each brief; do not attribute
+the full page totals to those few queries. Checked complete station-local
+Jul 1–Dec 31 modeled windows, not only top-N lists. All four Oregon July
+minima score 90, above Aug 12's 80/81/88/85. Port Orford Jul 14 −2.459 ft
+is deeper than Dec 24 −2.211, contradicting the live Christmas-vs-summer
+sentence; Newport/Garibaldi July minima −2.522/−2.349 also beat August.
+These public errors remain unfixed today; the first brief is the next
+action, not a claim that the new Oregon page is fully factually cleared.
+For Oct 6–Dec 31, La Push has 12 minus windows with ≥30 daylight minutes,
+only Dec 21's low itself before sunset; Puget retains two Port Townsend
+positive windows and one Seattle positive window. Recompute at write time.
+[BLM Yaquina Head](https://www.blm.gov/visit/yaquina-head-outstanding-natural-area)
+returned 200 and currently posts 8–6 Mon–Thu / 8–7 Fri–Sun; re-fetch for
+the eventual article edit. Tide windows never establish access or a safe
+turnaround. No new safety advice written.
+
+**Health and refresh:** newest five Actions successful; no open issues.
+NOAA run `37305593223` started 11:51:08Z, finished 11:53:31Z; refresh
+`4beed30` reached origin at 11:53:27.739Z, before this 17:16:46.900Z
+heartbeat. Its postbuild verifier passed 136 URLs / 12 stations × 5 months;
+IndexNow submitted 136 with HTTP 200 at 11:53:25.260Z. Later run
+`37338097912` at 16:05:33Z explicitly skipped an already-landed refresh.
+No recovery dispatch, fabricated missed-slot incident or second submission.
+All 12 live station JSONs byte-match the committed data, generated at
+11:51:30.517Z. Home, Oregon guide, Finder, Trip Picker, sitemap, robots and
+Monterey ICS return 200. Sitemap has 136 URLs, including 12 November pages.
+No score ≥90 window in the next 14 days at the covered stations.
+Vercel reports the existing `bffd2bc` deployment successful; new Oregon
+title/update/rendered copy independently seen live.
+
+**Browser check:** production Oregon footer ZIP 93950 opens Finder with
+Monterey selected and current Oct 5 data; the calendar CTA reveals the
+Monterey email gate. Desktop and 375×812 mobile inspection passed, mobile
+document width equals viewport (375 px), no console warning/error captured.
+No email entered or submitted. Temporary viewport restored. These checks
+validate rendering/navigation, not delivery or all possible browser states.
+
+**GSC performance:** `sc-domain:thetidewindow.com`, Web/final, all countries
+and devices, Pacific reporting dates; latest final day Oct 3. Exact 28d
+Sep 6–Oct 3: **261 clicks / 14,629 impressions / 1.78% CTR / position 7.18**,
+versus Aug 9–Sep 5 **145 / 10,712 / 1.35% / 8.29**. Seven days Sep 27–Oct 3:
+**92 / 4,084 / 2.25% / 7.01**, versus Sep 20–26 **55 / 3,161 / 1.74% / 6.93**.
+Sep 30 contributes 27 clicks. Clicks/position are the primary search read;
+not an attribution claim. The required `flywheel 28` and `queries 28`
+scripts cover Sep 5–Oct 3 (29 inclusive dates); those exploratory results
+were not substituted for the exact 28-day comparison. Full query request
+returned 438 rows under the 25,000 row limit; anonymized queries still
+prevent equating visible-query sums with property/page totals.
+
+**Indexing qualification, not another full audit:** the morning packet's
+sample A contains 40 rows: 27 indexed / 11 Discovered / 2 unknown (32.5%
+not indexed). B's summary reconciles but does not preserve every URL/state.
+`inspect` uses every third sitemap URL then the first 40, not random
+sampling; repeating it does not provide independent random samples. The
+packet's claim that Trip Picker was not drawn in B is unverified. Browser
+Pages report for all known pages is still dated **Sep 20**: 63 indexed,
+66 excluded (61 Discovered, 2 Crawled, 3 redirects), denominator 129,
+not today's 136 sitemap URLs. Do not treat it as current coverage. Relevant
+top-five article links into CA hub, La Push and Trip Picker already exist;
+source + live sitemap lastmod policy verified (18 true refresh-stamped
+surfaces, genuine article dates, no fake current/future-month stamps).
+No missing contextual path proven and no duplicate link batch. Crawl
+budget/authority as the cause, and "nothing actionable on-site", remain
+unestablished. Next weekly audit should preserve complete per-URL states.
+
+**National experiment correction:** keep/closed decision remains, but the
+operator's rolling property-query numbers mix pre-change exposure and other
+pages. Fresh exact-page plus date-dimension equal 22-day windows, excluding
+Sep 11 ship day: Aug 20–Sep 10 **40 clicks / 2,010 impressions / pos 6.94**
+versus Sep 12–Oct 3 **69 / 3,761 / 6.84**. Exact-page `king tides 2026`:
+**0 / 95 / 9.60 → 0 / 141 / 6.60**. Its post-change 141 impressions meet
+the 100 floor; there is no head-query click lift. Predictions query:
+1/22/7.86 → 1/25/8.24; singular `king tide 2026`: 1/15/9.60 → 0/30/6.87.
+Seasonality, Sep 14 print utility and concurrent edits preclude causal
+attribution. No extension, new variant or conversion verdict.
+
+**PostHog:** project 495836 (America/New_York); half-open rolling windows
+ending 2026-10-05 17:16:46Z, before browser QA, with production host AND
+`$virt_traffic_type = 'Regular'`. Seven days: **529 pageviews / 495 distinct
+pageview IDs / 4 signup events**. Twenty-eight: **1,712 / 1,569 / 10**.
+Events 7d/28d: station selections 13/63, results 11/44, ZIP resolution
+11/46, Trip Picker 0/21, calendar gate 6/25, ICS 0/3, exit prompt 25/68.
+Top 7d pageviews: national king tides 186, Oregon king tides 91, Washington
+59, Fitzgerald 21, home 19, Acadia 16, Seattle 15, Finder 14. Referrer
+pageviews: Google 126, Bing 119, direct 95, DuckDuckGo 85, internal 44,
+Yahoo 43; not sessions or Google acquisition clicks. All 529 7d pageviews
+have a raw UA; none matches bot/spider/headless/playwright/selenium markers.
+Regular classification and this limited screen do not prove human traffic.
+Signup events / IDs are not a user-level funnel or active subscriber count.
+Native PostHog connector still requests reauthorization; configured
+read-only project API fallback worked, no credentials/settings changed.
+
+One observed Oct 3 Safari bridge exception remains in both windows; no new
+application reproduction. Exception taxonomy now exists, but remote flag
+is missing on 464 pageviews, false on 65, true on none; opt-in null, full
+capture coverage unverified. Latest 24h LCP: 23 actual observations,
+p75 1,312 ms / p90 4,320 ms, below the 30-observation verdict floor.
+No performance/exception settings or synthetic production event changed.
+
+**Operational gates:** read-only Resend confirms 16 contacts, 15 subscribed,
+1 unsubscribed, no further contact page; latest broadcast remains Oct 1
+`628090be-9cee-4fff-8522-ebd6f8521749`. First 20 email records all report
+delivered, with more pages available: not a complete complaint-rate audit.
+No audience sync, draft overwrite, send or schedule. Next ritual Oct 8;
+retain owner's preview requirements; this entry grants no send approval.
+Full locked audit still
+has five high development entries in the `braces` chain, production audit
+zero, registry latest 3.0.3; no compatible patch established or forced
+downgrade. Exit-prompt keep/remove authority conflict remains unresolved;
+no owner override inferred. Oct 15: official Mora status check and final
+Seattle August title readout; NPS fetched today still lists the Jul 8–Oct 15
+closure, not a confirmed reopening. Nov 1: exact-engine November indexing
+gate before any December expansion.
+
+**Validation/release boundary:** only BACKLOG.md and this journal changed.
+Brief tide comparisons recomputed against current facts/full modeled data,
+sources and live paths checked, docs diff/whitespace and held-file hashes
+checked. No new code/content build claimed: the existing successful refresh
+build is separate evidence, and this is a docs-only change. Commit/push
+only these two files under the playbook; no article correction or newsletter
+release in this heartbeat. Next action: execute the first narrow Oregon
+brief with its article build, recompute and live-release gates.
+<!-- heartbeat-2026-10-05:end -->
+
+---
+
 <!-- operator-2026-10-05:start -->
 ## 2026-10-05 — Oregon hub rolled past August; weekly indexing audit
 
