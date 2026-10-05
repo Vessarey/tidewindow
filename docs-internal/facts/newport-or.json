@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-04",
+ "generated_on": "2026-10-05",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2096,14 +2096,14 @@
    "count": 3
   },
   {
-   "commonName": "Nanaimo Dorid",
-   "scientificName": "Acanthodoris nanaimoensis",
-   "count": 3
-  },
-  {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
    "count": 3
+  },
+  {
+   "commonName": "Nanaimo Dorid",
+   "scientificName": "Acanthodoris nanaimoensis",
+   "count": 2
   },
   {
    "commonName": "Gumboot Chiton",
