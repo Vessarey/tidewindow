@@ -360,9 +360,19 @@ and November's preview do not count.
       do not infer collection permission from a tide score. Keep title
       unless a direct factual correction requires a narrowly related edit.
 
-- [ ] **Oregon comparison hub — retire its still-upcoming August premise.**
-      Target `best-tide-pools-oregon-2026` (published Jul 19, no updated
-      date). Current exposure: 0 clicks / 10 impressions / 0% CTR /
+- [x] **Oregon comparison hub — retire its still-upcoming August premise.**
+      **Done 2026-10-05 operator (`df2d7c7`):** title clause, description,
+      lead, FAQs and expired featuredRoundup retired; remaining Oct 5–Dec 31
+      picture recomputed (all four deepest qualifying lows after sunset;
+      deepest in-daylight low PO Dec 22 −1.63 ft 4:39 PM; daylight minus-low
+      counts 8/4/2/0 south to north). August rows kept as re-verified
+      history; king-season staircase re-verified with after-sunset labels.
+      BLM fall hours re-fetched (gate constraint flips to closing time);
+      Haystack/Otter Rock/Cape Arago rules re-fetched; Cape Arago parkId=66
+      added to sources. Held patches excluded via stash during build.
+      See 2026-10-05 journal.
+      Original brief: Target `best-tide-pools-oregon-2026` (published Jul 19,
+      no updated date). Current exposure: 0 clicks / 10 impressions / 0% CTR /
       position 5.90; no prior-period page row returned. Only revealed
       query is `sept 29` (1 impression / position 6), not evidence for a
       new keyword page. Title/description/lead/FAQ and `featuredRoundup`
@@ -1678,7 +1688,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       group. Both records unchanged by the Next patch. Review affected input
       paths and compatible fixes, then isolated build/audit/browser gates;
       no bulk/force update or claim that today's full audit is clean.
-- [ ] **Oct 5 indexing audit: reconcile Sep 30 operator tally.**
+- [x] **Oct 5 indexing audit: reconcile Sep 30 operator tally.**
+      **Done 2026-10-05:** per-URL states + reconciling denominators saved in
+      docs-internal/indexing-audit-2026-10-05/README.md (27+11+2=40 and
+      27+10+3=40; 32.5% not indexed in both samples). Sep 30's 57% figure
+      stays unverified (its tally never reconciled). Crawl-path remedy
+      saturation documented; no new link batch. Original item:
       Journal says 34 indexed + 17 Discovered + 12 unknown out of 60; sum
       is 63. No saved current packet found. Preserve per-URL inspection
       states next run and report a reconciling denominator before comparing
@@ -1838,7 +1853,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       schedule slots (04:47/07:17/10:17/13:47Z) + skip guard, so a refresh
       should land before the agent session without manual dispatch — watch
       the first few days.
-- [ ] **~2026-10-05: read the Sep 11 national king-tides schedule refresh**
+- [x] **~2026-10-05: read the Sep 11 national king-tides schedule refresh**
+      **Done 2026-10-05 (observational, floor met):** bare-2026 cluster >100
+      new impressions; head query 227 impr / 1 click / pos 7.6 vs baseline
+      81 / 0 / 9.6; page 85 clicks / 4,698 impr / 6.9 vs 39 / 1,829 / 6.9.
+      Directional keep; print-utility + seasonal confounds noted; experiment
+      closed, no extension. See 2026-10-05 journal. Original item:
       (`36aebb1`) on GSC query/page/date data. Baseline: page 39 clicks /
       1,829 impressions / position 6.9 over 28d; bare-2026 target cluster
       ~140 impressions (head query 81 / 9.6 / 0 clicks; predictions

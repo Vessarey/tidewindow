@@ -5,6 +5,103 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- operator-2026-10-05:start -->
+## 2026-10-05 — Oregon hub rolled past August; weekly indexing audit
+
+**Primary action (§2d, P1 brief "Oregon comparison hub"):** `df2d7c7` updates
+`best-tide-pools-oregon-2026` only. The passed Aug 11–14 premise is retired
+everywhere it lived: title clause ("One Deep Dawn Run Left" → "an Evening
+Season to Finish the Year", a factual replacement, not an SEO variant),
+description, lead, FAQs, the "can't wait until August" body line, and the
+expired `featuredRoundup` block (its `until: 2026-08-14` had already stopped
+rendering; now removed per the brief).
+
+**Recompute (Oct 5–Dec 31, station-local, ≥30-min daylight overlap, from
+committed window data):** the headline fact is that every deepest remaining
+qualifying low at all four OR stations arrives after sunset — PO −2.21 ft
+Dec 24 6:14 PM (sunset 4:48), Charleston −2.05 Dec 24 6:30 PM (4:46),
+Newport −1.91 Dec 23 5:53 PM (4:39), Garibaldi −1.35 Dec 22 5:26 PM (4:35).
+Lows that are themselves in daylight: PO 8 (6 weekend), Charleston 4,
+Newport 2, Garibaldi 0; deepest is PO Dec 22 −1.63 ft 4:39 PM, 8 min before
+sunset. August rows re-verified against committed windows (all 16 heights/
+times match; Aug 12 scores 80/81/88/85). King-season staircase re-verified
+incl. Jan 21 2027 PO −1.89 ft 5:12 PM vs 5:16 PM sunset (the one deep low in
+daylight; old prose said "light to about 5:17 PM" — now stated as sunset
+5:16). Newport photo finish re-verified at 3 decimals (−1.913 Aug 12 vs
+−1.910 Dec 23, diff 0.003 ft). Loose WA claim "deepest daylight low came in
+July at dawn" corrected to "in morning light" (Seattle's was 11:20 AM).
+
+**Sources re-fetched at write time (all 200):** BLM Yaquina Head — hours are
+now 8 AM–6 PM Mon–Thu / 8 AM–7 PM Fri–Sun, $7/3-day, closed Thanksgiving +
+Christmas; the article's July "gate opens too late" framing flipped to the
+real fall constraint, closing time (Dec 23 low 5:53 PM is 7 min before a
+Wednesday close, 74 min after sunset); seabird-nesting caveat (May–Sep per
+BLM) labeled past for 2026. Haystack harvesting quote re-confirmed verbatim
++ single-mussel bait exception added to the FAQ from the same published
+rules. Otter Rock "no take of animals or seaweeds" + 1.2 sq mi confirmed.
+Cape Arago "superior tidepools" / "with your eyes only" confirmed on
+parkId=66 (added to sources; the quote had previously ridden on the Sunset
+Bay page). Owner-held Haystack/minus-tide patches NOT shipped; they were
+stashed during the build and restored after (preflight state intact).
+
+**Quality gates:** plain `npm run build` green from a tree with held patches
+stashed: 149 routes, verify-output OK (12 stations × 5 months, 136 sitemap
+URLs), all test suites pass, no new warnings. All 39 rendered internal links
+resolve in `out/` (4 icon-asset query-string URLs are files, fine). Rendered
+spot-checks of new numbers pass. Description 152 chars, lead 78 words. Diff
+review: only the one article (+ audit packet) changed.
+
+**Weekly §2a′ indexing audit (also due today per yesterday's note):** two
+inspect-40 samples, states preserved in
+`docs-internal/indexing-audit-2026-10-05/README.md` with reconciling
+denominators (27+11+2=40 and 27+10+3=40; not-indexed 32.5% in both — under
+the >1/3 trigger, unlike the irreconcilable Sep 30 tally, which stays
+unverified). Guides/tools still uncrawled: best-tide-pools-california-2026,
+la-push-second-beach-tide-pools-2026 (reads "unknown" and "Discovered"
+minutes apart — Inspection API inconsistency), /tools/trip-picker/. The §2a′
+remedy is saturated: grep-verified contextual links already run from the
+top-5 click earners into all three (trip-picker from all five; CA hub from
+#1+#2; La Push from #3+#5 plus four more articles). No link batch today —
+forcing links from non-relevant pages would be spam-pattern. Sitemap lastmod
+honesty check passed (only the 18 live-data surfaces carry today's stamp).
+Next lever if still uncrawled next week: none on-site; keep watching.
+
+**Scheduled king-tides readout (due today, observational):** target
+bare-2026 cluster since the Sep 11 refresh (`36aebb1`), GSC Web/final 28d:
+"king tides 2026" 227 impr / 1 click / pos 7.6 (baseline 81 / 0 / 9.6),
+"king tides 2026 predictions" 40 / 1 / 8.3 (baseline 20 / 8.1), "king tide
+dates 2026" 22 / 1 / 7.6, "2026 king tides(/oregon/schedule)" 18 / 0 /
+7–10. Cluster has >100 new impressions — floor met, no extension needed.
+Read: position on the head query improved ~2 points and the cluster now
+earns occasional clicks; page total 85 clicks / 4,698 impr / pos 6.9 vs
+39 / 1,829 / 6.9 at baseline. Concurrent confounds stand as recorded (Sep 14
+print utility, seasonal demand growth), so this is a directional
+observational read, not an isolated title effect. Verdict: keep; experiment
+closed, no further readouts.
+
+**Health:** today's refresh landed before session (`4beed30`, run
+37305593223 at 11:51 UTC — a single late-slot fire, within the documented
+drift pattern; no earlier slot landed today, refresh still preceded the
+session, so no incident). No open issues. GSC final dates now reach Oct 3:
+Sep 30 spiked 27 clicks / 649 impr, 7-day Sep 27–Oct 3: 92 clicks / 4,084
+impr / pos ~7.0 — clicks still climbing week over week.
+
+**Metrics (PostHog, $host=thetidewindow.com):** 7d: 553 PV, 4 signups, 13
+station_selected, 11 window_result_viewed, 0 trip_picker_run; prior 8–28d:
+1,159 PV, 6 signups, 52, 35, 21. Top 7d paths: national king tides 199,
+king-tides-oregon-2027 97, king-tides-washington-2027 59, fitzgerald 20,
+home 19, acadia 16, alki 16, finder 14. King-tide season is now the site's
+traffic spine; Oregon hub freshness today supports exactly that cluster.
+
+**Note for tomorrow:** P1 queue holds two writable briefs (sea-glass
+940/535 reconcile; Sunset Bay refresh). Oct 8 (Thu): newsletter ritual.
+Oct 15: Mora status + Seattle August title readout. Nov 1: index gate
+before the December month batch. The owner-held Haystack and minus-tide
+patches remain local and untouched; publication still awaits owner approval.
+<!-- operator-2026-10-05:end -->
+
+---
+
 <!-- heartbeat-2026-10-04:start -->
 ## 2026-10-04 — Heartbeat: correct the best-time guide's daylight and arrival claims
 
