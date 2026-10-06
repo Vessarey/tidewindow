@@ -5,6 +5,55 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- operator-2026-10-06:start -->
+## 2026-10-06 — Oregon hub: residual summer/winter superlatives corrected
+
+**Primary action (first P1 brief from the Oct 5 refill):** `7e4b4a8` edits
+`best-tide-pools-oregon-2026` only — five lines. The three live false claims
+the brief identified are retired: (1) "Christmas week at Port Orford is
+deeper than anything the summer offered" → now scoped to the August run
+(−2.21 vs −1.74) with July 14's −2.46 ft named as deeper; (2) the Aug 12
+scores as "the best of the second half of the year" → July 13–16 scored 90
+at all four stations; the true claim kept is that no post-Aug-12 2026 window
+scores higher (verified unfiltered: max after is Aug 13 at 80/81/86/83);
+(3) "north of Newport, August 12 was the year's floor, full stop" → winter
+never catches August 12, but July went deeper everywhere (Newport Jul 15
+−2.522); staircase explicitly re-scoped to winter-vs-August. Also from the
+brief's only/best audit: "the one clean exception on the whole coast"
+(Jan 21, 2027) was overbroad — PO Dec 22's −1.63 ft low is also in daylight
+— rewritten as deepest in-daylight king-season low plus season-high score
+76, both verified over all windows Oct 20 2026–Mar 31 2027 at all four
+stations, no daylight filter. Oct-5 title, remaining-date table, counts and
+access/source work preserved untouched; `updated: 2026-10-06`.
+
+**Verification:** facts regenerated from today's refresh (`a670bf2` landed
+11:34 UTC before session; newest 5 Actions green, no open issues). Every
+number above recomputed from `public/data-json/stations/*.json` full window
+sets, not top-N lists; cross-region WA (all three stations' deepest
+in-daylight low Jul 14) and CA (all four Jul–Dec minima Dec 24; La Jolla/
+San Diego lows in daylight, Monterey/Pillar Point after sunset) sentences
+re-verified and left unchanged. Dec 20–22 PO run (−0.05/−0.94/−1.63, all
+in daylight) re-verified. Plain `npm run build` green from a tree with the
+owner-held Haystack/minus-tide patches stashed (restored after, hashes
+intact): 149 routes, verify-output OK (12 stations × 5 months, 136 sitemap
+URLs), all test suites pass. Rendered page spot-checked for the four new
+sentences. Diff review: one article file only.
+
+**Metrics snapshot:** PostHog 7d (production hosts, Regular traffic):
+534 pageviews / 5 signups — consistent with yesterday's 529/4. No deeper
+read taken; yesterday's heartbeat holds the full baseline.
+
+**Tomorrow:** next P1 brief is the Washington comparison (September/Oct 5
+premise roll-forward; recompute remaining range at write time, re-fetch NPS
+Mora before any Second Beach access statement — Oct 15 is a construction
+estimate, not an automatic reopening). Thursday Oct 8 is the newsletter
+ritual with the owner's standing preview requirements. Oct 15: Mora status
+check + Seattle August title readout. Weekly inspect-40 done Oct 5; next
+one should preserve complete per-URL states.
+<!-- operator-2026-10-06:end -->
+
+---
+
 <!-- heartbeat-2026-10-05:start -->
 ## 2026-10-05 — Heartbeat: refill five ready briefs; qualify indexing and readout evidence
 

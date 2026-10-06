@@ -350,7 +350,12 @@ historical tables and gates; recompute from current facts/full window range
 and re-fetch official sources at implementation. Do not publish owner-held
 Haystack/minus-tide work. These briefs do not reopen conversion experiments.
 
-- [ ] **First: Oregon hub — correct residual summer/winter superlatives.**
+- [x] **First: Oregon hub — correct residual summer/winter superlatives.**
+      **Done 2026-10-06 operator (`7e4b4a8`):** all three false claims
+      retired and the Jan 21 exception claim re-scoped (PO Dec 22 −1.63 ft
+      low is also in daylight); every replacement verified against full
+      unfiltered window data; Oct-5 title/table/access work preserved.
+      See 2026-10-06 journal. Original brief:
       Target `best-tide-pools-oregon-2026`. Current 0 clicks / 18 impressions /
       0% CTR / position 7.22; prior period no impressions. Revealed queries
       are sparse (three one-impression rows, including `tide tables port
