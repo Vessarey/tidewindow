@@ -20,5 +20,25 @@
       "source": "/ingest/:path*",
       "destination": "https://us.i.posthog.com/:path*"
     }
+  ],
+  "headers": [
+    {
+      "source": "/opengraph-image",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    },
+    {
+      "source": "/opengraph-image/",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    }
   ]
 }

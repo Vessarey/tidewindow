@@ -5,6 +5,38 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-06 — homepage social-image content-type repair (Codex four-site review)
+
+Confirmed the configured homepage image URL returned a 308 to the trailing-
+slash path, then HTTP 200 with application/octet-stream despite valid
+1200×630 PNG bytes. Added exact Vercel Content-Type: image/png overrides
+for /opengraph-image and /opengraph-image/ only. The static export has no
+file extension here, so fixing ImageResponse's already-correct contentType
+would not repair the hosted file response. Image generation, branding,
+URLs, redirects, caching and other asset types remain unchanged.
+
+Worked from fresh origin/main 3f497fc in an isolated checkout. Read the
+October 6 operator outcome and preserved its Oregon corrections plus the
+owner-held Haystack/minus-tide patches, drafts and prior evidence. Latest
+five Actions green and no GitHub issues. Local normal npm run build passed:
+149 routes, verify-output's 12 stations × 5 months and 136 sitemap URLs,
+42 facts + 6 tide math + 8 format tests, all green. Exported PNG signature
+and dimensions checked. Initial local build rejected an external
+node_modules symlink; copying existing installed dependencies into the
+isolated checkout resolved that setup error without installation or
+version changes. Only this configuration and journal are committed.
+
+Publish through the existing main/Vercel workflow; require successful
+Vercel status and fresh live GET/HEAD checks before marking release done.
+Rollback is a normal revert of this scoped commit, preserving later work.
+This is image delivery correctness; no Google display, click-lift or mobile
+Core Web Vitals claim. Mac browser-control tools were unavailable for this
+session, so mobile review was bounded to source/semantic checks. Four-site
+search data and reporting remain with the parent review; no OAuth,
+tracking, credential, spending or scheduling change.
+
+---
+
 <!-- operator-2026-10-06:start -->
 ## 2026-10-06 — Oregon hub: residual summer/winter superlatives corrected
 
