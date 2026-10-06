@@ -5,6 +5,34 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-06 — Fit guide social-image headlines to their rendered width
+
+**Action:** the guide PNG generator now measures wrapped headline pixels with
+its own SVG renderer and font fallback, reducing the existing 62px font size
+only when a line exceeds the card's right margin. Existing wording, wrapping,
+line positions, artwork, category/footer styling and station-image generator
+are unchanged. No article, tide data, source fact, metadata or dependency
+change. Confirmed live King Tides 2026/2027 PNG clipped its second headline
+line; when the defect began is unknown, so this is not labeled a regression.
+
+**Verification:** isolated worktree based on 252462c; original owner article
+patches and newsletter drafts untouched. Required PIPELINE_REFRESH=1 build
+passed, then its task-generated data/facts/ICS/badge changes were restored to
+the published committed versions in this isolated worktree only. Exact
+release npm run build passed: 149 routes; verify-output 12 stations × 5
+months / 136 sitemap URLs; 42 facts + 6 math + 8 format tests. All 37 guide
+PNGs checked at pixel level (1200×630, headline right edge within 1135px,
+with the existing 1px left serif overhang allowed). King Tides PNG visually
+reviewed; long photography and other headlines covered by the same scan.
+
+**Release:** push through normal Vercel workflow. Production image pixels,
+representative content/metadata and non-guide resource checks will be saved
+in the founder task tide-headline-proof-oct6 folder after deployment. Rollback
+is a normal revert of this commit and republish; do not reset owner work.
+No new analytics access or growth claim in this image-only repair.
+
+---
+
 ## 2026-10-06 — homepage social-image content-type repair (Codex four-site review)
 
 Confirmed the configured homepage image URL returned a 308 to the trailing-

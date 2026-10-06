@@ -40,6 +40,20 @@ function textLines(lines, { x, y, lineHeight, fontSize, color = "#ffffff", weigh
     .join("")}</text>`;
 }
 
+async function guideTitleFontSize(lines) {
+  const maxWidth = WIDTH - 2 * 64 - 4;
+  let fontSize = 62;
+  // Measure with the same SVG renderer and font fallback as the final PNG.
+  // Character counts alone cannot account for wide letters or platform fonts.
+  while (true) {
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="4096" height="320">${textLines(lines, { x: 16, y: 80, lineHeight: 76, fontSize })}</svg>`;
+    const { info } = await sharp(Buffer.from(svg)).trim().png().toBuffer({ resolveWithObject: true });
+    const rightEdge = info.width - info.trimOffsetLeft - 16;
+    if (rightEdge <= maxWidth) return fontSize;
+    fontSize = Math.max(1, Math.min(fontSize - 1, Math.floor(fontSize * maxWidth / rightEdge)));
+  }
+}
+
 function frame(inner) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
   <defs>
@@ -85,10 +99,11 @@ async function buildGuideImages() {
     if (frontmatter.draft) continue;
     const slug = file.replace(/\.md$/, "");
     const title = wrap(frontmatter.title, 34, 3);
+    const fontSize = await guideTitleFontSize(title);
     const category = String(frontmatter.category ?? "guide").replace(/-/g, " ").toUpperCase();
     const svg = frame(`
       <text x="64" y="150" fill="#e0a93e" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2">${escapeXml(category)}</text>
-      ${textLines(title, { x: 64, y: 222, lineHeight: 76, fontSize: 62 })}
+      ${textLines(title, { x: 64, y: 222, lineHeight: 76, fontSize })}
       <rect x="64" y="500" width="132" height="6" rx="3" fill="#e0a93e"/>
     `);
     await writePng(svg, path.join(OUT_GUIDES, `${slug}.png`));
