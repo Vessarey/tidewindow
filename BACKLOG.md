@@ -5,6 +5,18 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **Oct 6 browser finding — Finder retains ended same-day windows.**
+      Reproduced on production before today's dependency release and on
+      the isolated candidate: Seattle's Oct 6 7:51 AM low / 8:45 AM
+      window end still appears as "best available" after 10:16 AM Pacific.
+      `finder.tsx` and shared `synthesis()` anchor their forward filter to
+      `data.generatedAt`, not the visitor's current time. Prioritize a
+      bounded fix next: define consistent future/ongoing-window eligibility
+      for summary, cards and chart; preserve historical month tables and
+      explicit-date Trip Picker behavior. Add fixed-clock regression tests
+      for before/within/after a window, overnight windows and stale data.
+      No Finder code changed in the Oct 6 dependency-only heartbeat.
+
 <!-- heartbeat-2026-10-05:start -->
 - [x] **2026-10-05 heartbeat — §2a ready-now queue refill, docs only.**
       Morning Oregon roll-forward already shipped (`df2d7c7`); two writable
@@ -381,7 +393,7 @@ Haystack/minus-tide work. These briefs do not reopen conversion experiments.
       impressions / 0% CTR / position 5.98; prior 1 / 42 / 2.38% / 5.90.
       Visible `best tide pools washington coast`, `best tide pools washington
       state`, and `best tidepooling washington` each have one impression at
-      positions 2/4/4, zero clicks; `how about october` has four at 3, not
+      positions 2/4/4, zero clicks; `how about october 4` has one at 3, not
       enough to define a new intent. Title still says September; the
       remaining counts include Sep 27 and Port Townsend's now-passed Oct 5
       window. Recompute the actual remaining range at write time and archive
@@ -1736,6 +1748,25 @@ implementation; preserve historical evidence and the owner's Haystack hold.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [x] **Oct 6 bounded production-dependency patch.** Sharp 0.35.4 →
+      0.35.5 (required @img binaries/libvips 1.3.4, rsvg 2.63.2) and
+      source-map-js 1.2.1 → 1.2.2 only; no overrides or framework changes.
+      Fresh locked candidate's production audit: two high entries → zero;
+      full audit: nine → seven high development entries. Fresh/committed
+      builds, 56 tests, lint, types, 136 HTTP routes, social cards and
+      desktop/mobile tool/gate checks pass; see Oct 6 journal for caveats.
+      Sources: [Sharp advisory](https://github.com/lovell/sharp/security/advisories/GHSA-wq5f-xc86-pv6w),
+      [source-map-js advisory](https://github.com/advisories/GHSA-68fv-2mgg-jv7q).
+
+- [ ] **Oct 6 development preview-server finding — compression/serve.**
+      `serve` 14.2.6 pins affected `compression` 1.8.1; patched compression
+      1.8.2 exists for [GHSA-vc2v-76pw-4v95](https://github.com/advisories/GHSA-vc2v-76pw-4v95).
+      Two high development package entries, separate from the five below.
+      Today's local preview bound 127.0.0.1 with `--no-compression`; no
+      public preview exposed. Review a compatible upstream or narrow
+      override path separately; do not accept npm's force-downgrade to
+      serve 10.0.2. Production is static export, not this local server.
+
 - [ ] **Oct 3 audit discovery — development-only `braces` advisory.**
       Fresh locked install reports five high-severity package entries from
       one chain: eslint-config-next 16.3.6 → @next/eslint-plugin-next
@@ -1754,6 +1785,10 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       **Oct 5 recheck:** same five high development package entries;
       production-only audit zero, registry `braces` latest still 3.0.3.
       No dependency mutation or compatible automatic fix established.
+      **Oct 6 recheck:** same five development entries, registry latest
+      still 3.0.3. With compression/serve the full audit now has seven high
+      entries after today's two production findings were patched; do not
+      describe the full audit as clean.
 
 - [x] **Priority: bounded Next security patch after Sep 30 advisory.**
       **Done Oct 1 heartbeat (`1311358`):** Next and eslint-config-next

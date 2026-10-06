@@ -5,6 +5,130 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-06:start -->
+## 2026-10-06 — Heartbeat: narrow production-dependency security patch
+
+**One primary improvement:** Sharp 0.35.4 → 0.35.5 and compatible transitive
+source-map-js 1.2.1 → 1.2.2. A fresh audit found two high production-package
+entries, so this bounded security repair took priority over the ready
+Washington content brief. Sharp's required @img binaries move to 0.35.5,
+libvips bundles to 1.3.4; installed rsvg is 2.63.2. Exactly 29 lock records
+change (root, sharp, source-map-js and 26 @img records), with the same key
+set; no overrides, unrelated updates, framework or source/content changes.
+The [Sharp advisory](https://github.com/lovell/sharp/security/advisories/GHSA-wq5f-xc86-pv6w)
+requires attacker-controlled SVG and has Linux-specific conditions; our
+static generator uses escaped repo titles/metadata, with no uploaded-SVG
+route found. The [source-map-js advisory](https://github.com/advisories/GHSA-68fv-2mgg-jv7q)
+concerns untrusted indexed source maps; dependency use found in PostCSS/
+Tailwind build paths, not an exposed user-input route. This is risk
+reduction, not evidence of exploitation or a blanket security clearance.
+
+**Coordination:** first read playbook, newest three journal entries, backlog,
+dirty state, today's commits, five newest Actions and open issues. Pulled
+operator/social repairs through `f607e84`; preserved Oregon correction
+`7e4b4a8`, homepage image MIME repair `252462c` and headline-width repair
+`f607e84`. Four ready content briefs remain; no refill or new article was
+needed. Owner-held Haystack/minus-tide patches, Oct 1 newsletter drafts and
+Sep 21/22 + Oct 3 evidence directories were neither stashed nor edited;
+preflight hashes are the preservation baseline. Rechecked origin before
+integrating this isolated candidate. Small documentation correction:
+Washington's revealed query is `how about october 4`, one impression at
+position 3, not `how about october` with four impressions.
+
+**Refresh/health:** `a670bf2` landed today at 11:34:45Z. Actual refresh run
+37456977433 ran 11:31:31–11:34:49Z, passed 12 stations × 5 months / 136
+sitemap URLs and submitted 136 IndexNow URLs with HTTP 200 at 11:34:43Z.
+Later 16:50 run 37498807433 explicitly skipped because Oct 6 was already
+on main. No recovery dispatch, no exact cron-slot attribution. All twelve
+live station JSON files byte-matched committed data generated at
+11:32:43.876Z; nine representative public resources returned HTTP 200,
+homepage social image image/png. No open GitHub issues; latest five Actions
+green. No modeled score ≥90 window across the twelve stations Oct 6–20.
+
+**Verification:** fresh `npm ci` in a clean archive of `f607e84`; required
+`PIPELINE_REFRESH=1 npm run build` passed. Restored only the isolated
+candidate's task-generated data/facts/ICS/badges to committed versions,
+then exact-release plain build passed: 149 routes, 12 × 5 / 136 verifier,
+42 facts + 6 math + 8 format tests. Lint and TypeScript passed. All 53
+tracked files in those generated directories byte-match committed source;
+none enters this release. All 136 local sitemap destinations returned 200.
+All 37 guide PNGs passed 1200×630 / headline-margin scan (maximum right
+edge 1130px, limit 1135); twelve station images passed dimensions. King
+Tides image visually checked; operator's generator remains unchanged.
+Fresh locked audit: production 2 high → 0; full 9 → 7 high, all development
+entries (five braces-chain, two compression/serve). No npm force fix or
+major downgrade. Isolated preview used loopback and --no-compression.
+Local ZIP 98101 → Seattle, required empty-email calendar gate, future
+La Push Trip Picker dates, 375px mobile and 1280px desktop layouts passed;
+no observed horizontal overflow or warning/error console entries in the
+checked flows. No email was submitted and no ICS link unlocked.
+
+**Browser limitation discovered, not fixed here:** before deployment,
+production and the candidate both called Seattle's already-ended Oct 6
+7:51 AM low / 8:45 AM window end "best available" after 10:16 AM Pacific.
+Finder results and shared synthesis use `data.generatedAt` as now. Added
+a P0 bounded fixed-clock follow-up; the build verifier does not cover this
+live-client intraday state. Browser smoke checks are not an all-clear.
+
+**PostHog (project 495836, America/New_York):** exact half-open UTC windows
+ending 2026-10-06 17:16:23, before QA; `$host = thetidewindow.com` and
+`$virt_traffic_type = Regular`. Native connector needs reauthentication;
+configured read-only API fallback succeeded, with current event/property
+schema inspected. No credential or analytics-setting change.
+
+| Metric | 7 days | 28 days |
+| --- | ---: | ---: |
+| Pageviews / distinct IDs | 518 / 494 | 1,762 / 1,618 |
+| Signup events / distinct signup IDs | 5 / 5 | 11 / 11 |
+| Station selected / result viewed | 11 / 10 | 62 / 44 |
+| ZIP lookup / Trip Picker run | 10 / 0 | 46 / 20 |
+| Calendar gate / ICS reveal | 7 / 1 | 27 / 4 |
+| Exit prompt / exception | 20 / 1 | 69 / 1 |
+
+Signup events ÷ distinct pageview IDs: 1.01% / 0.68%, not person-level
+funnel conversion. Trip Picker zero is observed in an existing instrumented
+event, not missing schema. Top 7d pages: national king tides 185, Oregon
+93, Washington 64, Acadia 20, Fitzgerald 19. Referrer pageviews (not
+sessions/acquisition): Google 138, Bing 114, direct 102, DuckDuckGo 59,
+internal 45, Yahoo 40, Ecosia 7, Brave 6, Menlo 3, Gemini 2, ChatGPT 1,
+GitHub 1. All 518 pageviews had raw UA; zero matched the bounded
+bot/spider/headless/playwright/selenium pattern or had agent markers. This
+does not prove human traffic. Exception is the same Oct 3 Safari
+foregroundToBackground message-handler error, not a new/reproduced app
+defect. On pageviews, remote exception flag missing 466 / false 52 / true
+0; project opt-in null. One ingested exception does not establish complete
+coverage. LCP only 26 samples: p75 1077ms, p90 2668ms, below 30-sample floor.
+
+**GSC:** latest final date still Oct 3 despite querying through Oct 5;
+unchanged cutoff is not another day of search growth. Web/final, whole
+property, all countries/devices, Pacific dates. Sep 6–Oct 3: 261 clicks /
+14,629 impressions / CTR 1.784% / position 7.180; prior Aug 9–Sep 5:
+145 / 10,712 / 1.354% / 8.285. Sep 27–Oct 3: 92 / 4,084 / 2.253% /
+7.008; prior Sep 20–26: 55 / 3,161 / 1.740% / 6.932. Query/page rows
+are partial intent evidence, not full attribution. Washington still
+0/49/5.98; Yaquina 0/17/10.41; sea glass 0/13/6.85; Sunset Bay 0/1/11.
+Weekly indexing audit was done Oct 5 (not re-presented as today's read);
+national readout already closed. No retitle, gate variant or extension.
+
+**Time-bombs / next:** prioritize the reproduced Finder intraday issue,
+then Washington's expired September/Oct 5 premise. Official NPS conditions
+still report Mora Road closure through an estimated Oct 15; recheck, never
+assume reopening. Oct 8 newsletter remains owner-preview gated; read-only
+Resend shows 16 contacts / 15 active / 1 unsubscribed and latest broadcast
+still Oct 1. No audience sync, draft, send, outreach, spend or scheduling
+change. Oct 15 Seattle-August sole-extension readout retains 100-impression
+or 30-click/event floor; no second extension. Exit-prompt retirement
+authority conflict remains unresolved. Nov 1 month expansion still needs
+the exact prior-batch indexing gate. Seven development audit entries stay
+open; do not describe the full dependency tree as clean.
+
+**Release:** publish only the two package files and these two records
+through the playbook's main/Vercel workflow. Live deployment verification
+will be recorded after the push; local gates alone are not release proof.
+<!-- heartbeat-2026-10-06:end -->
+
+---
+
 ## 2026-10-06 — Fit guide social-image headlines to their rendered width
 
 **Action:** the guide PNG generator now measures wrapped headline pixels with
