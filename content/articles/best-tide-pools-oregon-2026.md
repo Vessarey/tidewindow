@@ -2,7 +2,7 @@
 title: "Best Tide Pools in Oregon 2026: Four Stations, and an Evening Season to Finish the Year"
 description: "Oregon's four tidepool stations after the August run: every deep remaining 2026 low lands after sunset, and the best in-daylight minus tides are modest."
 date: "2026-07-19"
-updated: "2026-10-05"
+updated: "2026-10-06"
 category: "regional-calendars"
 gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 tags: ["best tide pools oregon", "oregon coast tide pools", "haystack rock", "yaquina head", "otter rock", "sunset bay", "cape arago", "minus tide"]
@@ -46,7 +46,7 @@ The August 11–14 dawn run — the year's last — came and went as computed; i
 
 *Computed 2026-10-05 from NOAA station predictions, covering October 5–December 31, 2026, station-local dates. "Qualifying" means the modeled below-+1.0-ft window overlaps daylight by at least 30 minutes; as the middle column shows, every one of these deepest lows itself arrives after sunset, so you would work the falling tide in the last of the light, not stand at the low. The right-hand column is the deepest remaining minus-tide low that falls between sunrise and sunset. Access notes per BLM, Oregon State Parks, and the Haystack Rock Awareness Program, re-verified 2026-10-05. Haystack Rock sits about 35 minutes north of its reference station, so treat Cannon Beach clock times as close rather than exact.*
 
-Read down the two right-hand columns and the shape of the season is plain: the deep water is real — Christmas week at Port Orford is deeper than anything the summer offered there — but it arrives in the dark, and the tides you can actually stand in at the bottom are modest, southern, and mostly on weekends. Counting remaining minus-tide lows that themselves happen in daylight: Port Orford has eight (six on weekends, including Sunday, October 25 at −0.51 ft, 6:11 PM, eight minutes before sunset), Charleston four, Newport two (Sunday, November 22 at −0.54 ft, 4:34 PM, and Monday, December 21 at −0.69 ft, 4:15 PM), and Garibaldi none.
+Read down the two right-hand columns and the shape of the season is plain: the deep water is real — Christmas week at Port Orford runs deeper than the August dawn run did there (−2.21 ft against −1.74), though not as deep as mid-July's −2.46 ft — but it arrives in the dark, and the tides you can actually stand in at the bottom are modest, southern, and mostly on weekends. Counting remaining minus-tide lows that themselves happen in daylight: Port Orford has eight (six on weekends, including Sunday, October 25 at −0.51 ft, 6:11 PM, eight minutes before sunset), Charleston four, Newport two (Sunday, November 22 at −0.54 ft, 4:34 PM, and Monday, December 21 at −0.69 ft, 4:15 PM), and Garibaldi none.
 
 ## August 11–14: how the year's last dawn run landed
 
@@ -59,7 +59,7 @@ Kept as history, re-verified against current committed data on 2026-10-05. Four 
 | Aug 13 | Thu | −1.51 ft, 7:00 AM | −1.53 ft, 7:16 AM | −1.79 ft, 7:28 AM | −1.66 ft, 7:47 AM |
 | Aug 14 | Fri | −1.04 ft, 7:38 AM | −1.10 ft, 7:55 AM | −1.38 ft, 8:06 AM | −1.29 ft, 8:27 AM |
 
-*NOAA station predictions; scores for the August 12 windows ran 80 (Port Orford) to 88 (Newport) — the best of the second half of the year at every station.*
+*NOAA station predictions; scores for the August 12 windows ran 80 (Port Orford) to 88 (Newport). The July 13–16 run scored higher — 90 at all four stations — but after August 12 no 2026 window at any of the four scores higher than it.*
 
 On August 12 the low swept the coast south to north in 45 minutes: Port Orford at 6:19 AM, Charleston at 6:35, Newport at 6:46, Garibaldi at 7:04. In summer that lag worked in the north's favor — the later the low, the more of its window fell after sunrise, which is why Garibaldi's 7:04 AM low caught 197 daylight minutes to Port Orford's 149. [Why the Pacific's summer lows come at dawn](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/) explains the mechanism — and why the same mechanism hands winter's deep water to the evening.
 
@@ -76,9 +76,9 @@ At every Washington station we compute, 2026's deepest daylight low came in July
 
 *Computed 2026-10-05 from NOAA station predictions. Every low in this table arrives after sunset. The [2026-2027 king tide calendar](/guides/king-tides-2026-2027-dates/) covers the high-water end of the same alignments.*
 
-The depth column is a staircase: winter's deep water fades as you go north. At Port Orford, Christmas Eve beats the August run by nearly half a foot (−2.21 vs −1.74). At Charleston the winter margin is a third of a foot. At Newport it vanishes — August 12's −1.913 ft against December 23's −1.910 ft, a difference of 0.003 ft, about a millimeter of water — and August's low came in full morning daylight while December's comes 74 minutes after sunset. At Garibaldi the staircase inverts outright: its best king-season low, −1.66 ft on January 21, 2027, never catches its August 12 dawn low of −1.77 ft. South of Newport, winter digs deeper; north of it, August 12 was the year's floor, full stop.
+The depth column is a staircase: winter's deep water fades as you go north. At Port Orford, Christmas Eve beats the August run by nearly half a foot (−2.21 vs −1.74). At Charleston the winter margin is a third of a foot. At Newport it vanishes — August 12's −1.913 ft against December 23's −1.910 ft, a difference of 0.003 ft, about a millimeter of water — and August's low came in full morning daylight while December's comes 74 minutes after sunset. At Garibaldi the staircase inverts outright: its best king-season low, −1.66 ft on January 21, 2027, never catches its August 12 dawn low of −1.77 ft. South of Newport, winter digs deeper than the August run; north of it, winter never catches August 12. Neither season beats July: the July 13–16 run went deeper still at every station — down to −2.52 ft at Newport on July 15 — so this staircase ranks winter against August, not against the whole year.
 
-The honest catch, now in every row: these lows land after dark. December 23 at Port Orford is the shape of the thing — a −2.07 ft low at 5:26 PM, but the window opens at 2:55 PM with 113 daylight minutes, so the light ends at the 4:48 PM sunset and you work the falling tide, not the low. The one clean exception on the whole coast comes January 21, 2027 at Port Orford: −1.89 ft at 5:12 PM, four minutes *before* the 5:16 PM sunset, 152 daylight minutes, score 76 — the king season's single best usable window in Oregon, and its low is the rare one you can stand at in the light.
+The honest catch, now in every row: these lows land after dark. December 23 at Port Orford is the shape of the thing — a −2.07 ft low at 5:26 PM, but the window opens at 2:55 PM with 113 daylight minutes, so the light ends at the 4:48 PM sunset and you work the falling tide, not the low. The cleanest exception comes January 21, 2027 at Port Orford: −1.89 ft at 5:12 PM, four minutes *before* the 5:16 PM sunset, 152 daylight minutes, score 76 — the deepest king-season low at any of the four stations that itself lands in daylight (the only other one below −1.6 ft is December 22's −1.63 ft, also Port Orford), and the highest-scoring window of Oregon's whole king season.
 
 ## Which Oregon shore should you pick?
 
