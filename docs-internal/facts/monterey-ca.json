@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-05",
+ "generated_on": "2026-10-06",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2088,17 +2088,12 @@
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 22
+   "count": 23
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
    "count": 20
-  },
-  {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
-   "count": 18
   },
   {
    "commonName": null,
@@ -2111,14 +2106,19 @@
    "count": 18
   },
   {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
-   "count": 13
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
+   "count": 17
   },
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 12
+   "count": 13
+  },
+  {
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 13
   },
   {
    "commonName": "Monterey Dorid",

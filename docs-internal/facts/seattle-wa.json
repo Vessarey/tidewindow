@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-05",
+ "generated_on": "2026-10-06",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-10-05",
-   "weekday": "Mon",
-   "low_ft": 0.102,
-   "low_time_local": "6:42 AM",
-   "window_local": "5:30 AM–8:00 AM",
-   "arrive_by_local": "5:42 AM",
-   "daylight_min": 46,
-   "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-10-06",
    "weekday": "Tue",
@@ -265,18 +253,6 @@
   }
  ],
  "deepest_2026_daylight_lows_remaining_top8": [
-  {
-   "date": "2026-10-05",
-   "weekday": "Mon",
-   "low_ft": 0.102,
-   "low_time_local": "6:42 AM",
-   "window_local": "5:30 AM–8:00 AM",
-   "arrive_by_local": "5:42 AM",
-   "daylight_min": 46,
-   "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-10-06",
    "weekday": "Tue",
@@ -1823,20 +1799,6 @@
   ]
  },
  "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-10-05",
-   "weekday": "Mon",
-   "low_ft": 0.102,
-   "low_time_local": "6:42 AM",
-   "window_local": "5:30 AM–8:00 AM",
-   "arrive_by_local": "5:42 AM",
-   "daylight_min": 46,
-   "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 90,
-   "min_to_sun_edge": -32
-  },
   {
    "date": "2026-10-06",
    "weekday": "Tue",
