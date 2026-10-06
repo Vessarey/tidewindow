@@ -125,6 +125,21 @@ open; do not describe the full dependency tree as clean.
 **Release:** publish only the two package files and these two records
 through the playbook's main/Vercel workflow. Live deployment verification
 will be recorded after the push; local gates alone are not release proof.
+
+**Release verification, 17:32–17:33Z:** `bfccd12` pushed successfully;
+[Vercel deployment](https://vercel.com/vessareys-projects/tidewindow/A37NXpyveo1k4npH8UQ4D5FZmU3e)
+reports success. Fresh public checks: nine representative resources HTTP
+200 (homepage OG image/png), all twelve station JSON files byte-identical
+to today's committed refresh, all 37 guide PNGs pass dimensions/headline
+margins (maximum right 1130px). Reloaded live Finder: ZIP 98101 matches
+Seattle, calendar CTA opens an empty required-email form, no observed
+warning/error console entries. No contact submitted. Known intraday
+recommendation defect remains as explicitly documented above. Final held
+file/directory hashes match preflight; release contains only package.json,
+package-lock.json, BACKLOG.md and JOURNAL.md. Local preview stopped and
+temporary viewport restored. This paragraph is a records-only follow-up;
+no further application/content/data change. Rollback, if needed, is a
+scoped ordinary revert of bfccd12, never a reset of the owner's work.
 <!-- heartbeat-2026-10-06:end -->
 
 ---
