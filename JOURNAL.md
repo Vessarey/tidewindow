@@ -117,6 +117,34 @@ no second extension. Exit-prompt authority conflict stays open. Nov 1 month
 expansion needs the exact prior-batch indexing gate. Fresh locked audit:
 zero production findings; seven high development entries remain. Owner-held
 article patches, newsletter drafts and prior evidence packets preserved.
+
+**Coordination resolved / live verification, 22:57–23:00Z:** while this audit
+was being recorded, the existing operator committed `2130d92` and then
+`85f4bb8` (the latter includes this audit plus its own journal/backlog
+record). Both reached origin/main. Its journal reports fresh-NOAA and
+exact-release builds passed after its separate transient Charleston 403.
+The heartbeat did not publish its alternative candidate. Vercel deployment
+https://vercel.com/vessareys-projects/tidewindow/3JM1nkxwqTNsUJkSAxCwWc82SJ67
+reported success for `85f4bb8`. Independently reran the released revision's
+42 facts + 6 math + 13 format tests (61 total), lint, TypeScript and output
+verifier (12 x 5 / 136); all passed. Current-clock checks over all twelve
+station datasets exclude ended/out-of-horizon windows; all 53 generated
+files match committed source. Live twelve-station JSON still byte-matches
+today's refresh; six representative public resources return 200, homepage
+OG still image/png.
+
+Fresh production browser navigation confirms the original Port Townsend
+failure is gone: summary now counts 18 qualifying lows and selects Oct 10
+10:45 PM (0.3 ft, score 0); chart and cards agree, with no expired Oct 7
+7:54 AM window. Calendar gate still opens an empty required email field; no
+submission. Golden Hour also excludes Oct 7 and starts at Jan 16, 2027.
+No warning/error console entries observed. This verifies the operator's
+P0 release, superseding the earlier in-flight/uncommitted state above;
+it is not validation of the unused alternative candidate. No additional
+application improvement or new experiment. Final held-file/directory
+hashes match preflight. Next: Oct 8 owner-preview-gated newsletter, then
+the ready Washington factual-maintenance brief and retained dated gates.
+This follow-up is documentation only.
 <!-- heartbeat-2026-10-07:end -->
 
 ---
