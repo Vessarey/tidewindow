@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-06",
+ "generated_on": "2026-10-07",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2082,6 +2082,11 @@
    "count": 1
   },
   {
+   "commonName": "Pacific Calico Scallop",
+   "scientificName": "Argopecten ventricosus",
+   "count": 1
+  },
+  {
    "commonName": "Pismo Clam",
    "scientificName": "Tivela stultorum",
    "count": 1
@@ -2094,11 +2099,6 @@
   {
    "commonName": "Purple Olive Snail",
    "scientificName": "Callianax biplicata",
-   "count": 1
-  },
-  {
-   "commonName": "Channeled Basket Snail",
-   "scientificName": "Caesia fossata",
    "count": 1
   }
  ]

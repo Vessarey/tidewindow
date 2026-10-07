@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-06",
+ "generated_on": "2026-10-07",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2054,12 +2054,12 @@
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 68
+   "count": 70
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 22
+   "count": 23
   },
   {
    "commonName": "California Aglaja",
@@ -2077,6 +2077,16 @@
    "count": 15
   },
   {
+   "commonName": "Hunchback Doris",
+   "scientificName": "Atagema alba",
+   "count": 12
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 12
+  },
+  {
    "commonName": "Hedgpeth's Dorid",
    "scientificName": "Polycera hedgpethi",
    "count": 11
@@ -2087,19 +2097,9 @@
    "count": 11
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
+   "commonName": "Colorful Aeolid",
+   "scientificName": "Anteaeolidiella chromosoma",
    "count": 11
-  },
-  {
-   "commonName": "Hunchback Doris",
-   "scientificName": "Atagema alba",
-   "count": 10
-  },
-  {
-   "commonName": "Two-spotted Dorid",
-   "scientificName": "Thordisa bimaculata",
-   "count": 10
   }
  ]
 }

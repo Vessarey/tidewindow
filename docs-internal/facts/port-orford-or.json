@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-06",
+ "generated_on": "2026-10-07",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -2113,6 +2113,11 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
+   "count": 1
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 1
   }
  ]

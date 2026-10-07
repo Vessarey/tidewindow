@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-06",
+ "generated_on": "2026-10-07",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-10-06",
-   "weekday": "Tue",
-   "low_ft": 0.28,
-   "low_time_local": "6:56 AM",
-   "window_local": "5:35 AM–8:25 AM",
-   "arrive_by_local": "5:56 AM",
-   "daylight_min": 67,
-   "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-10-07",
    "weekday": "Wed",
@@ -265,18 +253,6 @@
   }
  ],
  "deepest_2026_daylight_lows_remaining_top8": [
-  {
-   "date": "2026-10-06",
-   "weekday": "Tue",
-   "low_ft": 0.28,
-   "low_time_local": "6:56 AM",
-   "window_local": "5:35 AM–8:25 AM",
-   "arrive_by_local": "5:56 AM",
-   "daylight_min": 67,
-   "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  },
   {
    "date": "2026-10-07",
    "weekday": "Wed",
@@ -1759,20 +1735,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-06",
-   "weekday": "Tue",
-   "low_ft": 0.28,
-   "low_time_local": "6:56 AM",
-   "window_local": "5:35 AM–8:25 AM",
-   "arrive_by_local": "5:56 AM",
-   "daylight_min": 67,
-   "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 93,
-   "min_to_sun_edge": -22
-  },
-  {
    "date": "2026-10-07",
    "weekday": "Wed",
    "low_ft": 0.876,
@@ -1841,13 +1803,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 245,
    "min_to_sun_edge": -1
+  },
+  {
+   "date": "2027-01-31",
+   "weekday": "Sun",
+   "low_ft": 0.2,
+   "low_time_local": "6:03 PM",
+   "window_local": "4:30 PM–8:00 PM",
+   "arrive_by_local": "5:03 PM",
+   "daylight_min": 39,
+   "score": 26,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 254,
+   "min_to_sun_edge": -54
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Nuttall's Cockle",
    "scientificName": "Clinocardium nuttallii",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": "Mossy Chiton",
@@ -1860,6 +1836,16 @@
    "count": 3
   },
   {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 3
+  },
+  {
+   "commonName": "Purple Mahogany Clam",
+   "scientificName": "Nuttallia obscurata",
+   "count": 3
+  },
+  {
    "commonName": "Hedgpeth's Sapsucker",
    "scientificName": "Elysia hedgpethi",
    "count": 2
@@ -1867,16 +1853,6 @@
   {
    "commonName": "Fingered Limpet",
    "scientificName": "Lottia digitalis",
-   "count": 2
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 2
-  },
-  {
-   "commonName": "Purple Mahogany Clam",
-   "scientificName": "Nuttallia obscurata",
    "count": 2
   },
   {

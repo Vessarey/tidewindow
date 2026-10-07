@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-06",
+ "generated_on": "2026-10-07",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -15,20 +15,7 @@
   ],
   "method": "hourly-interpolation"
  },
- "next_60d_best_8": [
-  {
-   "date": "2026-10-06",
-   "weekday": "Tue",
-   "low_ft": 0.509,
-   "low_time_local": "7:51 AM",
-   "window_local": "6:55 AM–8:45 AM",
-   "arrive_by_local": "6:51 AM",
-   "daylight_min": 89,
-   "score": 21,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  }
- ],
+ "next_60d_best_8": [],
  "months_2026": {
   "2026-07": {
    "lows_below_1ft": 24,
@@ -252,20 +239,7 @@
    "weekend_or_holiday": false
   }
  ],
- "deepest_2026_daylight_lows_remaining_top8": [
-  {
-   "date": "2026-10-06",
-   "weekday": "Tue",
-   "low_ft": 0.509,
-   "low_time_local": "7:51 AM",
-   "window_local": "6:55 AM–8:45 AM",
-   "arrive_by_local": "6:51 AM",
-   "daylight_min": 89,
-   "score": 21,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  }
- ],
+ "deepest_2026_daylight_lows_remaining_top8": [],
  "king_season_oct26_mar27_lowest5_daylight": [
   {
    "date": "2027-03-25",
@@ -1798,27 +1772,17 @@
    }
   ]
  },
- "golden_hour_overlaps_next120d_top6": [
-  {
-   "date": "2026-10-06",
-   "weekday": "Tue",
-   "low_ft": 0.509,
-   "low_time_local": "7:51 AM",
-   "window_local": "6:55 AM–8:45 AM",
-   "arrive_by_local": "6:51 AM",
-   "daylight_min": 89,
-   "score": 21,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 103,
-   "min_to_sun_edge": 35
-  }
- ],
+ "golden_hour_overlaps_next120d_top6": [],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 12
+   "count": 14
+  },
+  {
+   "commonName": null,
+   "scientificName": "Aeolidia",
+   "count": 8
   },
   {
    "commonName": "Rough Keyhole Limpet",
@@ -1839,11 +1803,6 @@
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
    "count": 6
-  },
-  {
-   "commonName": null,
-   "scientificName": "Aeolidia",
-   "count": 5
   },
   {
    "commonName": "Hooded Nudibranch",
