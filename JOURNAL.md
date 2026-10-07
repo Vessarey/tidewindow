@@ -162,6 +162,15 @@ newsletter_signup 4; station_selected 11; window_result_viewed 10;
 trip_picker_run 2. Signups ÷ distinct pageview IDs ≈ 0.83%. No deeper
 funnel pull this run — the run's budget went to the P0 fix.
 
+**Release verification (post-push):** Vercel deployment of `85f4bb8`
+reported success (commit status API). Live finder page HTTP 200; its
+deployed chunk contains the new eligibility filter (`windowEnd>t&&
+e.lowTime<s`) and the minute-tick clock (`setInterval(()=>t(Date.now()),
+6e4)`). Chunk-hash comparison against the local build is not a valid
+deploy check — turbopack hashes differ across machines; grep the deployed
+bundle for property-name markers instead. This paragraph is records-only;
+no further change in this run.
+
 **Next:** Washington brief's expired September/Oct 5 premise is the top
 writable content item; recheck NPS Mora Road closure (estimated through
 Oct 15) before touching it. Tomorrow is Thursday: newsletter ritual
