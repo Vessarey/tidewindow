@@ -5,6 +5,174 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-07:start -->
+## 2026-10-07 — Heartbeat audit; Finder candidate held for overlapping work
+
+**Outcome / coordination:** today's NOAA refresh `ca33e1e` was already on
+main before this run. No Oct 7 editorial/code completion was recorded at
+preflight, so the existing Finder P0 was selected as the one primary action.
+Reproduced on production at after 15:43 Pacific: Port Townsend still called
+the ended Oct 7 7:54 AM low / 8:20 AM window end "best available."
+While an isolated candidate was being tested, another session edited the
+same Finder/shared-tool paths in the main checkout, plus Golden Hour,
+format helpers and format tests. That work is not this heartbeat's patch.
+Stopped integration: no competing code copied, no source staged, no stash,
+reset, discard or new primary action. These overlapping edits were still
+uncommitted at the audit handoff. This entry is a local records-only update;
+no heartbeat application release or completed P0 is claimed.
+
+**Isolated candidate / gates:** retained at
+`/tmp/tidewindow-oct7-finder.oCedfi`, based on `ca33e1e`. It uses the client
+clock and one depth-filtered, ranked set for summary/cards/chart; fixed-clock
+tests cover before/within/after lows, ended/overnight/stale windows, horizon
+entry, depth consistency and all twelve station datasets. Its policy is
+upcoming-low only; the concurrent operator instead retains ongoing windows
+until their end. Do not combine or replace either policy without review.
+Fresh npm ci, lint, TypeScript and the committed-data build passed: 149
+routes, 12 stations x 5 months / 136 sitemap URLs, 42 facts + 6 math +
+8 format + 19 Finder tests = 75 passing. The required
+`PIPELINE_REFRESH=1 npm run build` failed on HTTP 403 for Monterey's hourly
+NOAA request (20260629–20260927). One later read-only retry of that exact
+request returned HTTP 200 / 2,184 predictions, so this is not evidence of a
+persistent outage; nevertheless the full fresh-build gate did not pass.
+Only this candidate's generated outputs were restored to committed data
+before its plain build. No candidate browser/release validation claimed.
+No retry alongside the other session's fresh pipeline; no gate bypass.
+
+**Refresh and live health:** refresh run 37613531677 ran
+11:21:31–11:24:03Z; commit landed at 11:23:58Z. Verification passed for
+12 x 5 and 136 URLs; IndexNow submitted 136 with HTTP 200 at 11:23:56Z.
+Latest five Actions were green; 19:31 run 37675084591 explicitly skipped
+because Oct 7 was already refreshed. No recovery dispatch or extra IndexNow
+submission. Vercel reported success for `ca33e1e`. Before the overlapping
+local edits, all twelve live station JSON files byte-matched committed data
+generated 2026-10-07T11:21:53.461Z. Nine representative public resources
+returned 200, including homepage OG image/png. No open GitHub issues.
+No modeled score >=90 window across twelve stations during Oct 7–21.
+
+**Browser:** production ZIP 98101 matched Seattle; the calendar CTA opened
+an empty required email input without a submission or ICS unlock. The
+375px layout had no horizontal overflow and the gate was visibly usable;
+viewport reset afterwards. Trip Picker with La Push / Oct 10–17 returned
+Oct 10 7:14 PM, -0.4 ft, score 43. Native date edits were needed after the
+automation fill did not update the controlled inputs; no application defect
+inferred from that test-driver behavior. No warning/error console entries
+observed in the checked flows. The reproduced Finder defect remains a
+specific exception to these smoke checks, not an all-clear.
+
+**PostHog:** project 495836, America/New_York; half-open UTC windows ending
+2026-10-07 22:43:15, before this run's browser QA. Both
+`$host = thetidewindow.com` and `$virt_traffic_type = Regular` applied.
+Native connector still needs reauthentication; configured read-only API
+fallback and event/property schema inspection succeeded. A broad 28d query
+timed out; reduced core-event query succeeded, not missing-data zeros.
+
+| Metric | 7 days | 28 days |
+| --- | ---: | ---: |
+| Pageviews / distinct pageview IDs | 519 / 480 | 1,802 / 1,650 |
+| Signup events / distinct signup IDs | 4 / 4 | 10 / 10 |
+| Station selected / result viewed | 8 / 8 | 56 / 43 |
+| ZIP lookup / Trip Picker run | 9 / 0 | 38 / 14 |
+| Calendar gate / ICS reveal | 9 / 1 | 25 / 3 |
+| Exit prompt / exception | 16 / 1 | 69 / 1 |
+
+Signup events divided by distinct pageview IDs: 0.83% / 0.61%, only a proxy,
+not a person-level funnel. Trip Picker zero is observed in an existing
+instrumented event. Seven-day top pages: national king tides 183, Oregon
+95, Washington 65, Acadia 19, homepage 17, Fitzgerald 14, Seattle guide 13.
+Referrer pageviews, not sessions/acquisition: Google 130, Bing 109, direct
+104, internal 54, DuckDuckGo 51, Yahoo 39, GitHub 15, Ecosia 7, Brave 6,
+Gemini 2, Yahoo Canada 1, Claude 1. All 519 pageviews had UA; none matched
+the bounded bot/spider/headless/playwright/selenium pattern or agent markers.
+Regular classification and this check do not prove human visitors.
+Exception remains the Oct 3 Safari foregroundToBackground handler event,
+not a newly reproduced app fault. Remote exception flag missing 452 /
+false 67 / true 0; project opt-in null, so coverage is not established.
+Last-24h LCP: 31 actual samples, p75 508.5ms / p90 616ms; floor of 30 met,
+but no performance-optimization trigger in this sample.
+
+**Search Console:** latest final date Oct 4 (queried through Oct 6);
+Web/final, whole property, all countries/devices, Pacific dates.
+Sep 7–Oct 4: 274 clicks / 14,759 impressions / CTR 1.856% / position 7.131,
+versus Aug 10–Sep 6: 144 / 10,938 / 1.317% / 8.256. Sep 28–Oct 4:
+99 / 4,206 / 2.354% / 6.948, versus Sep 21–27: 53 / 3,364 / 1.576% /
+6.918. Query and page rows are partial intent evidence, not attribution.
+Washington guide 0/50/6.06, Yaquina 1/18/9.89, sea glass 0/13/6.85,
+Sunset Bay 0/1/11 (clicks/impressions/position); four maintenance briefs
+remain, no queue refill or new title experiment. Weekly indexing audit was
+done Oct 5, not rerun or claimed current here. No tiny-sample verdict.
+
+**Retained gates / next:** let the overlapping Finder work settle, then
+review its chosen future/ongoing semantics and verify the deployed result
+before closing P0. No need to merge this alternative candidate. After that,
+Washington's expired premise remains the next ready content brief. Oct 8
+newsletter stays owner-preview gated; read-only Resend shows 16 contacts,
+15 active, one unsubscribed, latest broadcast still Oct 1. No audience sync,
+draft, send, outreach, spend, credential or scheduling changes. NPS current
+conditions (checked today, page updated Oct 4) still report Mora Road's
+July 8–Oct 15 all-traffic closure; estimated end is not reopening proof:
+https://www.nps.gov/olym/planyourvisit/conditions.htm . Oct 15 Seattle-August
+retitle sole-extension readout retains the 100-impression or 30-event floor;
+no second extension. Exit-prompt authority conflict stays open. Nov 1 month
+expansion needs the exact prior-batch indexing gate. Fresh locked audit:
+zero production findings; seven high development entries remain. Owner-held
+article patches, newsletter drafts and prior evidence packets preserved.
+<!-- heartbeat-2026-10-07:end -->
+
+---
+
+## 2026-10-07 — P0 fix: Finder/Golden Hour now expire ended windows
+
+**Action:** fixed the 2026-10-06 reproduced defect (BACKLOG P0): live tools
+anchored "now" to `data.generatedAt`, so a same-day window that had already
+ended stayed on screen as "best available" all day. Commit `2130d92`.
+Eligibility now lives in `src/lib/format.ts` (`liveNow`, `liveWindows`,
+`synthesis` moved there): a window counts while it has not ended
+(`windowEnd > now`, so ongoing windows stay actionable), 30-day horizon
+measured from now; `now` is the visitor's clock via a minute-ticking
+`useNow()` hook in tools-shared, floored at `generatedAt` so a client clock
+running behind the data cannot resurrect past windows. Finder summary,
+cards, chart and analytics `days_to_best` all share the one clock; Golden
+Hour uses the same rule. Month tables, year heatmap and the Trip Picker's
+explicit-date behavior deliberately unchanged. Five fixed-clock regression
+tests added to `scripts/format.test.mjs` (before/within/after, overnight
+rollover, moving horizon, stale data + clock floor, synthesis best pick) —
+format suite 8 → 13.
+
+**Verification:** `PIPELINE_REFRESH=1 npm run build` passed (first attempt
+hit a transient NOAA HTTP 403 on charleston-or; partial station writes
+restored from git, retry after 30s completed all 12 stations). Generated
+data/facts/ICS/badges then restored to committed versions; exact-release
+plain build green: 149 routes, verify-output 12 × 5 / 136, 42 facts + 6
+math + 13 format tests, tsc and eslint clean. Release contains only four
+source files + the test file. Data-level check against today's committed
+refresh: under the old rule Bar Harbor's 10/07 2:52 PM low (window end
+3:35 PM, score 22) would still list this evening; the new rule drops it at
+3:35 PM. Browser smoke check skipped: the preview-server permission was
+declined in this automated session — per 2026-10-06 note it is not an
+all-clear anyway; the fixed-clock tests model the reproduced Seattle case.
+
+**Health:** refresh `ca33e1e` landed 11:23:56Z (first slot, 11:21–11:23Z
+run green); later slots skipped correctly. Five newest Actions green, no
+open issues. Owner-held Haystack/minus-tide article edits, Oct 1 newsletter
+drafts and Sep/Oct evidence directories remain untouched and uncommitted.
+
+**PostHog (7d, $host = thetidewindow.com):** pageviews 520 / 480 distinct;
+newsletter_signup 4; station_selected 11; window_result_viewed 10;
+trip_picker_run 2. Signups ÷ distinct pageview IDs ≈ 0.83%. No deeper
+funnel pull this run — the run's budget went to the P0 fix.
+
+**Next:** Washington brief's expired September/Oct 5 premise is the top
+writable content item; recheck NPS Mora Road closure (estimated through
+Oct 15) before touching it. Tomorrow is Thursday: newsletter ritual
+(sync-audience → dry-run → recompute-check → send with --owner-reviewed),
+template deviations still owner-gated. Exit-prompt keep-vs-remove stays an
+open owner decision. Nov 1 month expansion still needs the prior-batch
+indexing gate. Watch Vercel deploy of `2130d92` next run if today's
+post-push check is inconclusive.
+
+---
+
 <!-- heartbeat-2026-10-06:start -->
 ## 2026-10-06 — Heartbeat: narrow production-dependency security patch
 

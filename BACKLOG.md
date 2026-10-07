@@ -5,7 +5,11 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] **Oct 6 browser finding — Finder retains ended same-day windows.**
+- [x] **Oct 6 browser finding — Finder retains ended same-day windows.**
+      **Done 2026-10-07** (`2130d92`): eligibility = window not yet ended,
+      visitor-clock anchored (minute tick, floored at generatedAt); Finder +
+      Golden Hour; five fixed-clock regression tests. Month tables, heatmap
+      and explicit-date Trip Picker unchanged.
       Reproduced on production before today's dependency release and on
       the isolated candidate: Seattle's Oct 6 7:51 AM low / 8:45 AM
       window end still appears as "best available" after 10:16 AM Pacific.
