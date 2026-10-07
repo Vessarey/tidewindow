@@ -122,16 +122,16 @@ export function PredictionCaveat() {
   );
 }
 
-export function synthesis(data: StationData, days: number): string {
-  const now = data.generatedAt;
-  const horizon = now + days * 86400_000;
-  const lows = data.windows.filter((w) => w.lowTime > now && w.lowTime < horizon);
-  const minusDaylight = lows.filter((w) => w.isMinusTide && w.daylightMin >= 30);
-  const best = [...lows].sort((a, b) => b.score - a.score)[0];
-  if (!best) return `No lows below +1.0 ft in the next ${days} days at this station.`;
-  const bestStr = `${best.weekday} ${best.date.slice(5).replace("-", "/")} at ${best.lowTimeLocal} (${best.lowHeight.toFixed(1)} ft, score ${best.score})`;
-  if (minusDaylight.length === 0) {
-    return `None of the next ${days} days' ${lows.length} qualifying lows is a daylight minus tide — the best available is ${bestStr}.`;
-  }
-  return `Only ${minusDaylight.length} of the next ${days} days' ${lows.length} qualifying lows ${minusDaylight.length === 1 ? "is a" : "are"} daylight minus tide${minusDaylight.length === 1 ? "" : "s"}; the best is ${bestStr}.`;
+/**
+ * The visitor's clock, ticking once a minute so ongoing windows expire on
+ * screen. Live results only render after client-side data fetch, so the
+ * build-time initial value never reaches prerendered markup.
+ */
+export function useNow(): number {
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const timer = setInterval(() => setNow(Date.now()), 60_000);
+    return () => clearInterval(timer);
+  }, []);
+  return now;
 }

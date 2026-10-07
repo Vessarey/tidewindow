@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { StationSelect, StationDataStatus, useStationData, synthesis, PredictionCaveat, type StationOption } from "@/components/tools-shared";
+import { StationSelect, StationDataStatus, useStationData, useNow, PredictionCaveat, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
 import CalendarGate from "@/components/calendar-gate";
 import { capture } from "@/components/analytics";
-import { fmtDate, fmtStamp } from "@/lib/format";
+import { fmtDate, fmtStamp, liveNow, liveWindows, synthesis } from "@/lib/format";
 import { assetUrl } from "@/lib/site-config";
 import { ZIP_HANDOFF_KEY } from "@/components/zip-jump";
 
@@ -113,9 +113,10 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const clock = useNow();
+  const now = data ? liveNow(clock, data.generatedAt) : clock;
   const results = data
-    ? data.windows
-        .filter((w) => w.lowTime > data.generatedAt && w.lowTime < data.generatedAt + 30 * 86400_000)
+    ? liveWindows(data.windows, now, 30)
         .filter((w) => (depth === "minus" ? w.lowHeight < 0 : depth === "deep" ? w.lowHeight <= -1 : true))
         .sort((a, b) => b.score - a.score)
     : [];
@@ -127,7 +128,7 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
     capture("window_result_viewed", {
       station_id: data.station.slug,
       best_score: bestScore,
-      days_to_best: Math.round((bestTime! - data.generatedAt) / 86400_000),
+      days_to_best: Math.round((bestTime! - now) / 86400_000),
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data?.station.slug, bestScore]);
@@ -190,7 +191,7 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
             <span className="stamp">
               Next 30 days · computed {fmtStamp(data.generatedAt)} · NOAA {data.station.noaaId}
             </span>
-            <p>{synthesis(data, 30)}</p>
+            <p>{synthesis(data, 30, now)}</p>
           </div>
 
           {results[0] && <TideCurve window={results[0]} />}

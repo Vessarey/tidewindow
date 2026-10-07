@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { StationSelect, StationDataStatus, useStationData, type StationOption } from "@/components/tools-shared";
+import { StationSelect, StationDataStatus, useStationData, useNow, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
-import { fmtDate, fmtStamp, fmtSunEdge } from "@/lib/format";
+import { fmtDate, fmtStamp, fmtSunEdge, liveNow } from "@/lib/format";
 
 function azimuthToCompass(az: number): string {
   const dirs = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
@@ -14,9 +14,10 @@ export default function GoldenHour({ stations }: { stations: StationOption[] }) 
   const [slug, setSlug] = useState<string | null>(null);
   const { data, loading, error, retry } = useStationData(slug);
 
+  const clock = useNow();
   const results = data
     ? data.windows
-        .filter((w) => w.lowTime > data.generatedAt)
+        .filter((w) => w.windowEnd > liveNow(clock, data.generatedAt))
         .filter((w) => w.minToSunEdge !== null && Math.abs(w.minToSunEdge) <= 90 && w.daylightMin >= 30)
         .slice(0, 20)
     : [];

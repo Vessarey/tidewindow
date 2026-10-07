@@ -90,6 +90,38 @@ export function fmtStamp(ms: number): string {
   return new Date(ms).toISOString().slice(0, 10);
 }
 
+/**
+ * "Now" for live tools: the visitor's clock, floored at the data stamp. A
+ * client clock running behind `generatedAt` would resurrect windows the data
+ * itself already treats as past; a clock ahead of it is taken at face value.
+ */
+export function liveNow(clientNow: number, generatedAt: number): number {
+  return Math.max(clientNow, generatedAt);
+}
+
+/**
+ * Windows still worth acting on at `now`: future, or ongoing (the low may have
+ * passed but the walkable window has not ended). The horizon caps how far out
+ * a low may be; ongoing windows that started before `now` stay eligible.
+ */
+export function liveWindows(windows: TideWindow[], now: number, days: number): TideWindow[] {
+  const horizon = now + days * 86400_000;
+  return windows.filter((w) => w.windowEnd > now && w.lowTime < horizon);
+}
+
+/** One-sentence summary for the Finder: counts only windows live at `now`. */
+export function synthesis(data: StationData, days: number, now: number): string {
+  const lows = liveWindows(data.windows, now, days);
+  const minusDaylight = lows.filter((w) => w.isMinusTide && w.daylightMin >= 30);
+  const best = [...lows].sort((a, b) => b.score - a.score)[0];
+  if (!best) return `No lows below +1.0 ft in the next ${days} days at this station.`;
+  const bestStr = `${best.weekday} ${best.date.slice(5).replace("-", "/")} at ${best.lowTimeLocal} (${best.lowHeight.toFixed(1)} ft, score ${best.score})`;
+  if (minusDaylight.length === 0) {
+    return `None of the next ${days} days' ${lows.length} qualifying lows is a daylight minus tide — the best available is ${bestStr}.`;
+  }
+  return `Only ${minusDaylight.length} of the next ${days} days' ${lows.length} qualifying lows ${minusDaylight.length === 1 ? "is a" : "are"} daylight minus tide${minusDaylight.length === 1 ? "" : "s"}; the best is ${bestStr}.`;
+}
+
 /** Describe the nearest solar event using the actual order of the timestamps. */
 export function fmtSunEdge(w: Pick<TideWindow, "lowTime" | "sunrise" | "sunset">): string {
   const edges = [
