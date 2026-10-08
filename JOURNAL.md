@@ -126,8 +126,18 @@ next writable maintenance brief; fetch official access sources again at
 implementation. Washington's Oct 10 row becomes historical after that
 date; keep the explicit Oct 8 snapshot scope and recheck during the Oct 15
 access pass. Review search descriptively after recrawl / 2–4 weeks or a
-meaningful sample, not as a new variant. Deployment verification follows
-the content commit through the existing GitHub/Vercel release path.
+meaningful sample, not as a new variant.
+
+**Release receipt (Oct 8, 17:38Z):** content/records commit `9b8584d` pushed
+to main; Vercel deployment `B4CvqVbsUmdDhaM3D9qyobdJW4Y8` reports success.
+Production browser shows the Late-Year title, original Jul 14 date,
+Oct 8 update, corrected counts and archived section. Live article HTML and
+JSON-LD exactly match the isolated build; sitemap lastmod is Oct 8. Live
+OG PNG is 200 and visibly carries the new title; its font rendering/bytes
+differ from the local PNG, so no byte-identity claim for that asset.
+All twelve live station pages also show today's corrected night-inclusive
+heading. The 126 pre-existing modified/untracked files byte-match the
+pre-integration snapshot; none entered the three-file release.
 <!-- heartbeat-2026-10-08:end -->
 
 ---
