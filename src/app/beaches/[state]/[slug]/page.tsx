@@ -125,10 +125,11 @@ export default async function StationPage({ params }: { params: Promise<{ state:
 
       {best && <TideCurve window={best} />}
 
-      <h2 className="mt-10 text-2xl">Every daylight window, next 30 days</h2>
+      <h2 className="mt-10 text-2xl">Every qualifying low-tide window, next 30 days</h2>
       <p className="mb-3 mt-1 text-[0.9rem] text-ink-soft">
         Heights in feet MLLW from NOAA station {s.noaaId} ({s.officialName}) predictions
-        {s.kind === "subordinate" ? ", window bounds cosine-interpolated" : ""}. ✳ = federal holiday.
+        {s.kind === "subordinate" ? ", window bounds cosine-interpolated" : ""}. Includes daytime and night windows;
+        see the Daylight column. ✳ = federal holiday.
       </p>
       <WindowTable windows={next30} />
 

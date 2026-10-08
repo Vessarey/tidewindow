@@ -5,6 +5,28 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-08 — Correct station table's daylight-only heading
+
+Parent/browser QA reported night rows under "Every daylight window." Confirmed
+in all twelve live station tables: upcomingWindows deliberately includes both
+daytime and night lows. Rename the heading to "Every qualifying low-tide
+window, next 30 days" and clarify that the Daylight column distinguishes them.
+No filtering, prediction, ranking, numerical row, dataset, search metadata,
+FAQ or JSON-LD change; all twelve built station pages pass an exact visible-text
+comparison after accounting for only those two copy corrections.
+
+Required fresh NOAA build and committed-data release build passed (63 tests,
+12 x 5 / 136 sitemap URLs), as did lint and TypeScript. Fresh generated outputs
+were restored only in the isolated checkout. Publication follows the existing
+GitHub/Vercel path; require ready status and live twelve-page scope checks.
+Rollback is a normal revert of this label-only commit, preserving the Finder
+and security patches. Owner drafts remain untouched. Interactive browser QA
+belongs to the parent's connected browser worker, not this environment.
+Exit-prompt retirement remains an explicit owner-reconciliation item; no prompt
+or separate mobile tooling change is included.
+
+---
+
 ## 2026-10-08 — Bounded Next security patch after four-site QA
 
 **Evidence / action:** npm's production dependency audit flagged installed
