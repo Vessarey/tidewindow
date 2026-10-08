@@ -5,6 +5,56 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-08 — Thursday newsletter ritual (standing §6 primary action)
+
+**Health:** today's refresh `b6106e6` landed via run 37771280553
+(11:37–11:40Z, 2m32s, success); five newest Actions green; no open issues.
+The pull also brought three earlier Oct 8 session releases — Finder
+depth-summary alignment `25f73fc`, Next 16.3.8 security patch `594815b`,
+station-table heading fix `36925be` — picked up as-is, not re-verified
+here. Owner-held Haystack/minus-tide article patches, Oct 1 newsletter
+drafts and Sep 21/22 + Oct 3 evidence directories preserved through an
+`--autostash` pull and excluded from today's commit.
+
+**Primary — Thursday newsletter (established template only):**
+1. `sync-audience`: first attempt hit a PostHog HTTP 504 (same transient
+   class as Sep 29 and Oct 1); plain retry succeeded. 4 contacts added
+   (Oct 2–5 signups: end_article_gated ×2, exit-intent, station_gate),
+   16 already present, 20 total, 1 unsubscribed left untouched.
+2. `send-weekly --dry-run`: quiet-week issue, Oct 8–14, zero Good-or-better
+   daylight windows.
+3. Recompute-check: independent scan of all `public/data-json/stations` —
+   101 windows dated Oct 8–14 across 12 stations, 55 daylight, max score 59,
+   none ≥60, so the quiet-week framing is verified, not a template default.
+   The least-bad pick, La Jolla (Scripps Pier) Sun Oct 11 −0.064 → −0.06 ft
+   at 4:27 PM, walkable 2:35–6:25 PM, score 59 (Fair), matches the La Jolla
+   fact sheet exactly and beats San Diego's same-score 59 window on lower
+   height per the ranking rule. Template check: newsletter scripts are
+   unchanged since the original pipeline commit, and a numerals-masked diff
+   against the sent Oct 1 issue shows only date/station/data differences —
+   the standing blanket approval applies; no new sections, no tone change.
+4. Sent: Broadcast `08111cf4-8ab1-436d-b0b7-4e7b410248fd` to 19
+   subscribers; Resend status `sent` at 12:07:16Z.
+
+Oct 1 broadcast `628090be` follow-up: status `sent`; the broadcasts API
+returns no bounce/complaint fields, so those remain unknown, not zero —
+dashboard-level rates stay an owner-visible check.
+
+**Metrics snapshot (PostHog, $host = thetidewindow.com, no traffic-type
+filter):** 7d 526 pageviews / 4 signups; 28d 1,808 / 10. Consistent with
+the Oct 7 heartbeat's filtered read (519/4; 1,802/10). Descriptive only;
+no deeper pull — the send plus its gates were today's budget.
+
+**Tomorrow / open:** Washington brief's expired September/Oct 5 premise is
+the top writable item — re-fetch NPS Mora Road status at write time (the
+Oct 15 date is a construction estimate, not a reopening). Oct 15: Mora
+recheck + Seattle-August retitle readout (100-impression / 30-event floor,
+no second extension). Nov 1 month expansion still needs the prior-batch
+indexing gate. Exit-prompt keep-vs-remove remains an owner decision. Watch
+the new broadcast's bounce/complaint fields next run.
+
+---
+
 ## 2026-10-08 — Correct station table's daylight-only heading
 
 Parent/browser QA reported night rows under "Every daylight window." Confirmed
