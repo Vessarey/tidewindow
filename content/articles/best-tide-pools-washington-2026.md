@@ -1,8 +1,8 @@
 ---
-title: "Best Tide Pools in Washington 2026: September Guide to Three Coasts"
+title: "Best Tide Pools in Washington 2026: Late-Year Guide to Three Coasts"
 description: "Compare La Push, Port Townsend and Seattle tide pools for late 2026: the NOAA low-tide windows left this year, autumn limits and the Rialto closure."
 date: "2026-07-14"
-updated: "2026-09-26"
+updated: "2026-10-08"
 category: "regional-calendars"
 gateStations: ["la-push-wa", "port-townsend-wa", "seattle-wa"]
 tags: ["best tide pools washington", "washington tide pools", "puget sound tide pools", "olympic coast tide pools", "la push tide pools", "port townsend tide pools"]
@@ -10,11 +10,11 @@ faq:
   - q: "Where are the best tide pools in Washington?"
     a: "Compare three different settings: Second Beach on the Olympic outer coast, Fort Worden at Port Townsend, and Constellation Park at Seattle's Alki Point. Tidewindow uses NOAA stations 9442396, 9444900 and 9447130 respectively. Their low-tide times differ, so choose the station for your destination rather than using one Washington-wide tide time."
   - q: "When should you go tidepooling in Washington for the rest of 2026?"
-    a: "As of September 26, La Push has 13 remaining 2026 minus-tide windows with at least 30 minutes of daylight overlap; Port Townsend has one, October 5; Seattle has none. La Push's September 27 low is −0.41 ft at 7:49 PM, after sunset, though the earlier part of its window has 51 daylight minutes. Port Townsend's October 5 low is before sunrise, with 39 daylight minutes later in the window. These are NOAA prediction comparisons, not access or safety guarantees."
-  - q: "Are there daylight minus tides in Washington after September?"
-    a: "It depends on the coast. Seattle has none in the October–December 2026 dataset. Port Townsend has one October window with a negative low and 39 minutes of daylight overlap, on October 5; its 5:48 AM low is before sunrise. La Push retains evening windows, including October 25 with 71 minutes of daylight overlap. Daylight overlap does not mean the low itself occurs in daylight: the one remaining 2026 exception is December 21 at La Push, whose −0.66 ft low lands at 4:26 PM, two minutes before sunset."
+    a: "For October 8–December 31, La Push has 12 minus-tide windows with at least 30 minutes of daylight overlap; Port Townsend and Seattle have none. The next is La Push's October 10 low, −0.38 ft at 7:14 PM, after sunset, though the earlier part of its window has 59 daylight minutes. Port Townsend's October 5 daylight-overlapping minus tide is now past. These are NOAA prediction comparisons, not access or safety guarantees."
+  - q: "Are there daylight minus tides in Washington in late 2026?"
+    a: "From October 8 through December 31, only La Push among these three reference stations has minus-tide windows with at least 30 minutes of daylight overlap. Eleven of its 12 lows occur after sunset. The exception is December 21: the −0.66 ft low lands at 4:26 PM, two minutes before sunset. Seattle and Port Townsend still have night lows; zero qualifying daylight windows does not mean there are no low tides."
   - q: "Can you visit Rialto Beach and Hole-in-the-Wall right now?"
-    a: "As checked September 26, the National Park Service still lists the July 8–October 15, 2026 Mora Road construction closure. Rialto Beach is inaccessible via that road during the closure. Second Beach is a separate destination off La Push Road; check current NPS conditions before travel, and do not assume the road reopens automatically on October 15."
+    a: "As checked October 8, the National Park Service still lists the July 8–October 15, 2026 Mora Road construction closure. Rialto Beach is inaccessible via that road during the closure. Second Beach is a separate destination off La Push Road; check current NPS conditions before travel, and do not assume the road reopens automatically on October 15."
   - q: "Do you need a Discover Pass for Washington tide pools?"
     a: "Fort Worden is a Washington state park with Discover Pass parking. Second Beach has a different parking arrangement: NPS lists a $10 daily fee for parking on Quileute Tribal Lands, including Second Beach, effective May 1, 2026. Constellation Park is part of Seattle's Charles Richey Sr Viewpoint, not a Washington state park. Check the official destination pages for current access details."
 sources:
@@ -28,21 +28,21 @@ sources:
   - "https://www.seattle.gov/parks/parks/charles-richey-sr-viewpoint"
 ---
 
-**Among Tidewindow's three Washington reference stations, La Push (NOAA 9442396) has 13 remaining 2026 minus-tide windows with at least 30 minutes of daylight overlap. Port Townsend (9444900) has one, October 5; Seattle (9447130) has none. Overlap is not daylight at the low: Port Townsend's −0.23 ft low arrives before sunrise, while 12 of La Push's 13 lows occur after sunset. These are prediction comparisons, not access guarantees.**
+**For October 8–December 31, La Push (NOAA 9442396) has 12 minus-tide windows with at least 30 minutes of daylight overlap. Port Townsend (9444900) and Seattle (9447130) have none left in that period. These are Tidewindow's three Washington reference stations, not every beach in the state. Overlap is not daylight at the low: 11 of La Push's 12 lows occur after sunset. These are prediction comparisons, not access guarantees.**
 
 ## Which Washington coast should you pick?
 
 | Destination | NOAA reference | What distinguishes it | Detailed guide |
 |---|---|---|---|
 | Second Beach, Olympic outer coast | La Push · 9442396 | Forest-trail approach and sea stacks; remaining minus-tide windows have daylight overlap before evening lows | [La Push / Second Beach](/guides/la-push-second-beach-tide-pools-2026/) |
-| Fort Worden, entrance to Puget Sound | Port Townsend · 9444900 | State-park beaches; its 2026 daylight windows end in early October | [Port Townsend / Fort Worden](/guides/port-townsend-fort-worden-tide-pools-2026/) |
+| Fort Worden, entrance to Puget Sound | Port Townsend · 9444900 | State-park beaches; its qualifying 2026 daylight windows ended October 7 | [Port Townsend / Fort Worden](/guides/port-townsend-fort-worden-tide-pools-2026/) |
 | Constellation Park, Alki Point | Seattle · 9447130 | City shoreline within Charles Richey Sr Viewpoint; 2026 daylight minus tides are over | [Constellation Park / Seattle](/guides/seattle-alki-constellation-park-tide-pools-2026/) |
 
 These are reference-station predictions, not measurements at every rock pool. For a trip with fixed dates, use the [Trip Picker](/tools/trip-picker/); for the next available outing, use the [tide-window finder](/tools/tide-window-finder/). The [Washington beaches hub](/beaches/wa/) brings all three stations together.
 
-## September 9–12: the last morning run, now past
+## September 9–12: a morning run, now past
 
-The September 9–12 mornings were the state's final 2026 morning run, much shallower than July's. Seattle and Port Townsend had negative morning lows through Thursday September 10; La Push carried the run into Saturday September 12. The table is retained as a comparison, not a plan.
+The September 9–12 morning run was much shallower than July's at these three stations. Within that run, Seattle and Port Townsend had negative morning lows through Thursday September 10; La Push carried the run into Saturday September 12. The table is retained as a comparison, not a plan.
 
 | Date | La Push · 9442396 | Port Townsend · 9444900 | Seattle · 9447130 |
 |---|---|---|---|
@@ -51,23 +51,22 @@ The September 9–12 mornings were the state's final 2026 morning run, much shal
 | Fri Sep 11 | −0.69 ft at 7:10 AM | Morning low is above zero | Morning low is above zero |
 | Sat Sep 12 | −0.13 ft at 7:45 AM | No daylight minus-tide window | No daylight minus-tide window |
 
-*Computed September 8, 2026 from NOAA station predictions in the daily fact sheets and re-verified row for row on September 26; retained as history. Heights are feet relative to MLLW; times are local Pacific time. A daylight window means the below-+1.0-ft interval overlaps daylight, not necessarily that the low itself occurs after sunrise.*
+*Computed September 8, 2026 from NOAA station predictions in the daily fact sheets and re-verified row for row on October 8; retained as history. Heights are feet relative to MLLW; times are local Pacific time. A qualifying daylight window here means the below-+1.0-ft interval overlaps daylight by at least 30 minutes, not necessarily that the low itself occurs after sunrise.*
 
 Seattle's Wednesday window scored **65, Good**, with 195 minutes of daylight overlap. Port Townsend's scored **62, Good**, with 245 minutes. At La Push, Friday scored **57, Fair**, while Saturday scored **54, Fair**: its −0.13 ft low only just crossed the minus-tide line. The early La Push Wednesday low had just 67 minutes of daylight overlap, despite being deeper. Depth alone does not make a better outing.
 
 See the complete September calendars for [Seattle](/beaches/wa/seattle-wa/2026-09/), [Port Townsend](/beaches/wa/port-townsend-wa/2026-09/), and [La Push](/beaches/wa/la-push-wa/2026-09/). Use the live finder rather than treating this dated run as upcoming.
 
-## Remaining 2026 windows: inland mornings and outer-coast evenings
+## Remaining 2026 windows: outer-coast evenings
 
-The three coasts now diverge sharply. In the September 26 fact sheets, covering July 1 – December 31, 2026:
+The October 8 fact sheets cover July 1–December 31, 2026. Filtering the full modeled-window data to **October 8–December 31** gives the remaining comparison below. A qualifying daylight window has at least 30 minutes of daylight within the below-+1.0-ft interval; a minus-tide window also has a low below 0 ft.
 
-- **Seattle:** no remaining daylight minus-tide windows. October's two daylight windows (October 5–6) have positive lows and score Skip; November and December have no qualifying daylight windows at all.
-- **Port Townsend:** October 5 is the lone remaining daylight-minus window, but its −0.23 ft low is at 5:48 AM, before sunrise. Only 39 minutes of the window overlap daylight, and it scores 27, Skip. November and December have no qualifying daylight windows.
-- **La Push:** 13 remaining minus-tide windows have at least 30 minutes of daylight overlap, before evening lows. Every one is listed below; only December 21 has the low itself before sunset.
+- **Seattle:** no qualifying daylight windows remain in 2026, whether the low is negative or positive. Its last two, October 5–6, had positive lows and scored Skip; both are now past. Night lows still occur.
+- **Port Townsend:** no qualifying daylight windows remain in 2026. Its October 5 minus-tide window and October 6–7 positive-low windows are now past. Night lows still occur; this is not a count of all low tides.
+- **La Push:** 19 qualifying daylight windows remain, including 12 minus-tide windows and seven with positive lows. Every remaining minus-tide window is listed below; only December 21 has the low itself before sunset.
 
 | Date | Low (La Push · 9442396) | Daylight overlap | Score |
 |---|---|---|---|
-| Sun Sep 27 | −0.41 ft at 7:49 PM | 51 min | 45, Fair |
 | Sat Oct 10 | −0.38 ft at 7:14 PM | 59 min | 43, Fair |
 | Sun Oct 25 | −0.71 ft at 6:48 PM | 71 min | 52, Fair |
 | Mon Oct 26 | −1.34 ft at 7:29 PM | 40 min | 49, Fair |
@@ -81,11 +80,20 @@ The three coasts now diverge sharply. In the September 26 fact sheets, covering 
 | Tue Dec 22 | −1.45 ft at 5:15 PM | 79 min | 55, Fair |
 | Wed Dec 23 | −1.97 ft at 6:03 PM | 39 min | 59, Fair |
 
-*Computed September 26, 2026 from NOAA station predictions in the daily fact sheets. Daylight overlap is the portion of the below-+1.0-ft interval before sunset; on every date here except December 21, the low itself occurs after sunset. On December 21 the −0.66 ft low lands at 4:26 PM, two minutes before the 4:28 PM sunset.*
+*Recomputed October 8, 2026 from NOAA station predictions in the daily fact sheets and complete modeled-window data. Daylight overlap is the portion of the below-+1.0-ft interval before sunset; on every date here except December 21, the low itself occurs after sunset. On December 21 the −0.66 ft low lands at 4:26 PM, two minutes before the 4:28 PM sunset.*
 
 The deepest of these, Wednesday December 23 at −1.97 ft, is also the deepest daylight-overlapping low remaining among these three reference stations in 2026 — and it still scores only 59, Fair, because just 39 minutes of its window fall before the 4:29 PM sunset. Nothing remaining at any of the three stations reaches the Good band. A qualifying daylight interval is a calculation, not a recommendation for an evening outing or confirmation that a shore is accessible.
 
 For the inland picture, continue to the [Puget Sound low-tide calendar](/guides/puget-sound-low-tide-calendar-2026/). The [Washington king-tides guide](/guides/king-tides-washington-2027/) covers the separate winter high-tide story; a king-tide date is not a promise of a usable daytime low.
+
+### Recently passed lows, retained for comparison
+
+These rows appeared in the previous remaining-season comparison. They are now historical, not upcoming choices.
+
+| Date | Station | Low | Daylight overlap | Score |
+|---|---|---|---|---|
+| Sun Sep 27 | La Push · 9442396 | −0.41 ft at 7:49 PM, after sunset | 51 min | 45, Fair |
+| Mon Oct 5 | Port Townsend · 9444900 | −0.23 ft at 5:48 AM, before sunrise | 39 min | 27, Skip |
 
 ## July and August: useful comparisons, now past
 
@@ -97,7 +105,7 @@ The deepest daylight-overlapping lows in our **July 1–December 31** records oc
 | Port Townsend · 9444900 | −3.48 ft | 10:25 AM |
 | Seattle · 9447130 | −3.80 ft | 11:20 AM |
 
-*Rechecked against the September 26 fact sheets; these are past predictions retained as a comparison.*
+*Rechecked against the October 8 fact sheets; these are past predictions retained as a comparison.*
 
 On that date, the Port Townsend low was 3 hours 10 minutes later than La Push, and Seattle was 4 hours 5 minutes later than La Push. That is why a single statewide tide time is not enough; the difference is date-dependent, not a fixed offset to reuse.
 
@@ -105,7 +113,7 @@ Sunday August 9 was the best-scoring August window at Port Townsend (−2.05 ft 
 
 ## Access checks before choosing a beach
 
-**Rialto is still inaccessible via Mora Road.** The [NPS conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), checked September 26, lists the July 8–October 15 construction closure and says: "Rialto Beach will not be accessible via Mora Road during this construction period." Recheck after the scheduled closure; October 15 is not a confirmed reopening.
+**Rialto is still inaccessible via Mora Road.** The [NPS conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), checked October 8, lists the July 8–October 15 construction closure and says: "Rialto Beach will not be accessible via Mora Road during this construction period." Recheck after the scheduled closure; October 15 is not a confirmed reopening.
 
 **Second Beach has separate access and parking.** NPS lists a [0.7-mile forest-and-beach trail](https://www.nps.gov/olym/planyourvisit/second-beach-trail.htm) and a $10 daily fee for parking on Quileute Tribal Lands, including Second Beach, effective May 1, 2026. Its [tidepooling page](https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm) includes Second Beach among the park's intertidal destinations. This is not a Discover Pass parking arrangement.
 

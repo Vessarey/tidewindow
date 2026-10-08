@@ -5,6 +5,133 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-08:start -->
+## 2026-10-08 — Heartbeat audit; Washington remaining-season roll-forward
+
+**One primary action:** completed the Washington comparison's bounded P1
+maintenance brief. Replaced only the expired "September" title qualifier
+with "Late-Year"; updated lead, remaining-season counts, FAQ and source-check
+date. Full Oct 8–Dec 31 scan: La Push 19 qualifying daylight windows,
+12 with negative lows; 11 of those lows occur after sunset, with Dec 21
+the sole exception. Port Townsend and Seattle now have zero qualifying
+daylight windows, not zero low tides. Archived La Push Sep 27 and Port
+Townsend Oct 5; preserved the twelve future numerical rows, July/August/
+September history, original Jul 14 publication date, description, canonical,
+slug and all three station gates. Removed an unsupported statewide
+"final morning run" superlative from the historical September framing.
+This is factual maintenance, not a new conversion or title experiment.
+
+**Coordination:** based on `c091aac`; today's operator already sent the
+established Thursday newsletter. Earlier Finder depth-summary `25f73fc`,
+Next 16.3.8 `594815b` and station-heading `36925be` releases retained;
+no duplicate patch/send/refresh. Owner-held Haystack/minus-tide source,
+four Oct 1/8 newsletter drafts and Sep 21/22 + Oct 3 evidence directories
+excluded. Release scope is this article plus JOURNAL/BACKLOG only. Three
+ready briefs remain: Yaquina, sea-glass and Sunset Bay; no refill needed.
+
+**Sources and gates:** re-read NPS conditions, Second Beach trail and
+tidepooling pages, Washington Parks Fort Worden and Seattle Parks Charles
+Richey Sr Viewpoint on Oct 8. State/city fetches returned 403 in the search
+tool but rendered normally in the browser; no authentication bypass.
+Mora Road July 8–Oct 15 closure remains listed; scheduled end is not
+confirmed reopening. Second Beach 0.7-mile trail / $10 daily Quileute
+parking and the separate park jurisdictions reconfirmed. No new external
+link, access guarantee or route-time inference.
+
+Isolated candidate `/tmp/tidewindow-oct8-washington.DJJw2B`: clean npm ci,
+plain content-only build, 149 routes, 12 stations x 5 months / 136 sitemap
+URLs and 63 tests (42 facts + 6 math + 15 format) passed. Ad-hoc assertions
+check all 12 remaining rows, two archived lows, four September rows,
+July daylight extrema, August score maxima, 53 byte-unchanged generated
+data/ICS/badge/fact files, unchanged lockfile, metadata/FAQ JSON-LD and
+41 built root-relative resources. Social PNG visually checked. Desktop
+1280px and mobile 375px gate inspected: empty required email, no submission,
+no unlock, no document overflow. No warning/error logs observed. Viewport
+overrides cleared. Existing build-script approval warnings were not changed;
+production npm audit reports zero findings (full npm ci reports seven high
+development findings; no dependency mutation in this content release).
+
+**Health:** actual refresh run 37771280553 ran 11:37:28–11:40:00Z;
+`b6106e6` landed at 11:39:51Z and pushed 11:39:53Z. Verifier passed
+12 x 5 / 136; IndexNow submitted 136 URLs with HTTP 200 at 11:39:51Z.
+Latest five runs green; 14:37 run 37793941607 explicitly skipped because
+Oct 8 was already on main. No reliable exact scheduled-slot attribution;
+no recovery dispatch or extra IndexNow. All twelve live station JSON files
+byte-match committed data generated 2026-10-08T11:37:52.022Z. Nine public
+resources return 200, including the homepage OG PNG; one Node DNS attempt
+failed locally, then curl checks succeeded. No open GitHub issues. No
+modeled score >=90 window across the twelve stations during Oct 8–22.
+Live Finder ZIP 98101 selects Seattle; changing any-depth to <=-1.0 ft
+changes summary/chart/cards from 17 to six qualifying lows, with Oct 25
+11:13 PM / -1.1 ft consistently first. No ended October 6/7 window shown.
+
+**PostHog:** project 495836, America/New_York; half-open UTC windows end
+2026-10-08 17:15:23 (before this audit's browser interactions), start
+Oct 1 / Sep 10 at the same time. Filter `$host='thetidewindow.com'` and
+`$virt_traffic_type='Regular'`. Native connector returned UNAUTHORIZED;
+configured repository read-only queries used after schema verification.
+Initial broad 28d query timed out; reduced queries succeeded. Counts for
+the same fixed interval changed during repeat reads: 7d pageviews 499→503,
+28d 1,796→1,799. Latest core read: **503 pageviews / 458 distinct pageview
+IDs / four signup events** (0.87%); **1,799 / 1,651 / nine** (0.55%).
+This is a retrieval-time difference, not a measured traffic increase;
+distinct IDs and Regular classification are not verified human users.
+Latest 7d interactions: station_selected 21/14 IDs, window_result_viewed
+18/12, zip_lookup_used 15/10, trip_picker_run 4/2, calendar_gate_clicked
+11/11, ics_url_revealed 1/1, exit_intent_shown 17/17. Instrumented events
+are observed, not missing instrumentation or a new experiment verdict.
+
+Quality sample taken between core reads: all 500 classified pageviews
+had user-agent values; selected bot/automation markers found none, not
+proof of humans. Remote exception flag missing 429 / false 71 / true 0;
+project opt-in null. One `$exception` in both windows; focused read confirms
+the same Oct 3 Safari `foregroundToBackground` bridge TypeError with
+masked, non-app frames, not a newly reproduced application fault. Overall
+exception coverage remains unverified. Last-24h LCP: 23 actual samples,
+p75 703ms / p90 2,642ms, below the 30-observation decision floor.
+
+**Search Console:** `sc-domain:thetidewindow.com`, Web/final, all countries
+and devices, Pacific dates; latest final day Oct 5 (66 daily rows Aug 1–
+Oct 5). Property totals from date rows, not truncated query sums:
+
+| Period | Clicks | Impressions | CTR | Avg position |
+|---|---:|---:|---:|---:|
+| Sep 8–Oct 5 | 284 | 14,852 | 1.91% | 7.12 |
+| Aug 11–Sep 7 | 150 | 11,171 | 1.34% | 8.17 |
+| Sep 29–Oct 5 | 106 | 4,255 | 2.49% | 7.02 |
+| Sep 22–28 | 60 | 3,667 | 1.64% | 6.76 |
+
+75 page rows / 473 query rows below the requested 25,000-row cap; hidden
+queries still unavailable. Leading page clicks: national king tides 92,
+Fitzgerald 42, Washington king tides 25, Seattle guide 25, Oregon calendar
+23, Acadia 18, Oregon king tides 16. Washington maintenance baseline:
+0 clicks / 48 impressions / position 5.58 vs 1/43/6.56. Only four revealed
+queries, each one impression / zero clicks (coast/state/tidepooling/state
+tide-pools, positions 2/4/4/2); they do not explain all 48 impressions.
+No acquisition inference from PostHog referrer counts or tiny-n title win.
+
+**Newsletter and open gates:** Resend read-only inventory: 20 contacts,
+19 active / one unsubscribed, no extra page. Broadcast
+`08111cf4-8ab1-436d-b0b7-4e7b410248fd` is sent at 12:07:16Z; operator
+records 19 recipients. API exposes no bounce/complaint fields: unknown,
+not zero. No newsletter action here. The separate redesign preview still
+requires approval. Exit-prompt Oct 1 keep/remove authority conflict remains
+owner-blocked; do not restart or extend closed experiments. Oct 15: final
+Seattle-August retitle readout (no second extension) and official Mora
+access recheck. Nov 1 expansion requires prior-batch indexing evidence.
+Weekly indexing inspection was completed Oct 5, not repeated today.
+
+**Next:** Yaquina's expired July/August framing and summer hours are the
+next writable maintenance brief; fetch official access sources again at
+implementation. Washington's Oct 10 row becomes historical after that
+date; keep the explicit Oct 8 snapshot scope and recheck during the Oct 15
+access pass. Review search descriptively after recrawl / 2–4 weeks or a
+meaningful sample, not as a new variant. Deployment verification follows
+the content commit through the existing GitHub/Vercel release path.
+<!-- heartbeat-2026-10-08:end -->
+
+---
+
 ## 2026-10-08 — Thursday newsletter ritual (standing §6 primary action)
 
 **Health:** today's refresh `b6106e6` landed via run 37771280553

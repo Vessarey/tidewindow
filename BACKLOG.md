@@ -392,7 +392,18 @@ Haystack/minus-tide work. These briefs do not reopen conversion experiments.
       related factual correction requires a change. Regression-check the
       four-station minima/scores and sunset labels; no general rewrite.
 
-- [ ] **Washington comparison — roll past the September/Oct 5 premise.**
+- [x] **Washington comparison — roll past the September/Oct 5 premise.**
+      **Done 2026-10-08 heartbeat:** title's expired September removed;
+      remaining range explicitly Oct 8–Dec 31. Full-range recomputation:
+      La Push 19 daylight-qualifying / 12 minus windows, 11 lows after
+      sunset; Port Townsend and Seattle zero daylight-qualifying windows
+      now that Oct 5–7 have passed (night lows still occur). Archived Sep 27
+      and Oct 5; retained all historical numerical rows, original publish
+      date, description, URL and gates. Official access sources rechecked;
+      Mora Road closure still listed, Oct 15 not a confirmed reopening.
+      Build, 63 tests, source/table/schema/link and desktop/mobile gates
+      passed. See Oct 8 heartbeat journal for release and baseline.
+      Original brief / historical Oct 5 baseline:
       Target `best-tide-pools-washington-2026`. Current 0 clicks / 49
       impressions / 0% CTR / position 5.98; prior 1 / 42 / 2.38% / 5.90.
       Visible `best tide pools washington coast`, `best tide pools washington
