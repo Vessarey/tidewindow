@@ -5,6 +5,29 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-08 — Bounded Next security patch after four-site QA
+
+**Evidence / action:** npm's production dependency audit flagged installed
+Next 16.3.6 with six advisories, including image-optimization SSRF
+(GHSA-cjq9-62q9-8jv4). This site exports static files and uses unoptimized
+images, so the audit is a package-version finding, not a reproduced live
+exploit. Patch Next and eslint-config-next to 16.3.8 only, with their matching
+Next platform packages. Production dependency audit now reports zero findings.
+No content, scoring, tracking, data-refresh schedule or conversion change.
+
+**Gates / coordination:** required fresh NOAA build and exact-release
+committed-data build passed, 12 x 5 / 136 sitemap URLs and 63 tests each;
+lint and TypeScript passed. Restored only isolated generated outputs after
+the fresh build. Preserve the preceding depth-summary fix `25f73fc` and all
+owner drafts. The protected king-tide guides' visible text, metadata and
+JSON-LD match the pre-fix published checkout output; raw HTML hashes differ
+because Next embeds build identifiers and hashed chunk paths. No browser
+interaction claim. Use existing automatic Vercel publication, verify ready
+status and live source/resources, and revert only this dependency patch if a
+regression requires rollback. No new job, permission or account.
+
+---
+
 ## 2026-10-08 — Founder-requested QA: align Finder summary with depth results
 
 **Action / evidence:** the Finder's cards and chart respected the selected depth,
