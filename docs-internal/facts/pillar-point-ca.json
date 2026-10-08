@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-07",
+ "generated_on": "2026-10-08",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 35
+   "count": 38
   },
   {
    "commonName": "Gumboot Chiton",
@@ -2093,7 +2093,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 13
+   "count": 14
   },
   {
    "commonName": "Monterey Dorid",

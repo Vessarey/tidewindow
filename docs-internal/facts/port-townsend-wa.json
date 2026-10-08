@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-07",
+ "generated_on": "2026-10-08",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -15,20 +15,7 @@
   ],
   "method": "hourly-interpolation"
  },
- "next_60d_best_8": [
-  {
-   "date": "2026-10-07",
-   "weekday": "Wed",
-   "low_ft": 0.876,
-   "low_time_local": "7:54 AM",
-   "window_local": "7:35 AM–8:20 AM",
-   "arrive_by_local": "6:54 AM",
-   "daylight_min": 45,
-   "score": 14,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  }
- ],
+ "next_60d_best_8": [],
  "months_2026": {
   "2026-07": {
    "lows_below_1ft": 25,
@@ -252,20 +239,7 @@
    "weekend_or_holiday": false
   }
  ],
- "deepest_2026_daylight_lows_remaining_top8": [
-  {
-   "date": "2026-10-07",
-   "weekday": "Wed",
-   "low_ft": 0.876,
-   "low_time_local": "7:54 AM",
-   "window_local": "7:35 AM–8:20 AM",
-   "arrive_by_local": "6:54 AM",
-   "daylight_min": 45,
-   "score": 14,
-   "band": "Skip",
-   "weekend_or_holiday": false
-  }
- ],
+ "deepest_2026_daylight_lows_remaining_top8": [],
  "king_season_oct26_mar27_lowest5_daylight": [
   {
    "date": "2027-02-17",
@@ -1735,20 +1709,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-07",
-   "weekday": "Wed",
-   "low_ft": 0.876,
-   "low_time_local": "7:54 AM",
-   "window_local": "7:35 AM–8:20 AM",
-   "arrive_by_local": "6:54 AM",
-   "daylight_min": 45,
-   "score": 14,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 104,
-   "min_to_sun_edge": 35
-  },
-  {
    "date": "2027-01-16",
    "weekday": "Sat",
    "low_ft": 0.622,
@@ -1823,7 +1783,7 @@
   {
    "commonName": "Nuttall's Cockle",
    "scientificName": "Clinocardium nuttallii",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Mossy Chiton",
@@ -1841,11 +1801,6 @@
    "count": 3
   },
   {
-   "commonName": "Purple Mahogany Clam",
-   "scientificName": "Nuttallia obscurata",
-   "count": 3
-  },
-  {
    "commonName": "Hedgpeth's Sapsucker",
    "scientificName": "Elysia hedgpethi",
    "count": 2
@@ -1853,6 +1808,11 @@
   {
    "commonName": "Fingered Limpet",
    "scientificName": "Lottia digitalis",
+   "count": 2
+  },
+  {
+   "commonName": "Purple Mahogany Clam",
+   "scientificName": "Nuttallia obscurata",
    "count": 2
   },
   {

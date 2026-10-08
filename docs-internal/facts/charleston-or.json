@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-07",
+ "generated_on": "2026-10-08",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-10-11",
+   "date": "2026-12-06",
    "weekday": "Sun",
-   "low_ft": -0.477,
-   "low_time_local": "7:30 PM",
-   "window_local": "5:45 PM–9:20 PM",
-   "arrive_by_local": "6:30 PM",
-   "daylight_min": 56,
-   "score": 45,
+   "low_ft": -0.286,
+   "low_time_local": "4:41 PM",
+   "window_local": "2:55 PM–6:30 PM",
+   "arrive_by_local": "3:41 PM",
+   "daylight_min": 106,
+   "score": 46,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -2111,6 +2111,11 @@
    "count": 2
   },
   {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 2
+  },
+  {
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 2
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 1
-  },
-  {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
    "count": 1
   }
  ]

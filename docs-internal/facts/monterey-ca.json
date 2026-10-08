@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-07",
+ "generated_on": "2026-10-08",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -77,6 +77,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.43,
+   "low_time_local": "3:22 PM",
+   "window_local": "1:00 PM–5:55 PM",
+   "arrive_by_local": "2:22 PM",
+   "daylight_min": 232,
+   "score": 64,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-11-08",
    "weekday": "Sun",
    "low_ft": -0.329,
@@ -99,18 +111,6 @@
    "score": 61,
    "band": "Good",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -0.582,
-   "low_time_local": "5:37 PM",
-   "window_local": "3:20 PM–8:05 PM",
-   "arrive_by_local": "4:37 PM",
-   "daylight_min": 177,
-   "score": 59,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2078,12 +2078,12 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 73
+   "count": 69
   },
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 34
+   "count": 32
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -2091,19 +2091,14 @@
    "count": 23
   },
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 20
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 19
-  },
-  {
-   "commonName": null,
-   "scientificName": "Doto urak",
-   "count": 18
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 20
   },
   {
    "commonName": "Fisher's Aeolid",
@@ -2113,7 +2108,12 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 17
+   "count": 16
+  },
+  {
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 16
   },
   {
    "commonName": "Hooded Nudibranch",
@@ -2121,8 +2121,8 @@
    "count": 13
   },
   {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 13
   }
  ]

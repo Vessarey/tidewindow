@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-07",
+ "generated_on": "2026-10-08",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -89,6 +89,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.496,
+   "low_time_local": "2:04 PM",
+   "window_local": "11:45 AM–4:35 PM",
+   "arrive_by_local": "1:04 PM",
+   "daylight_min": 290,
+   "score": 66,
+   "band": "Good",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.366,
@@ -99,18 +111,6 @@
    "score": 65,
    "band": "Good",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-27",
-   "weekday": "Tue",
-   "low_ft": -0.835,
-   "low_time_local": "4:57 PM",
-   "window_local": "2:35 PM–7:35 PM",
-   "arrive_by_local": "3:57 PM",
-   "daylight_min": 207,
-   "score": 65,
-   "band": "Good",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2092,13 +2092,13 @@
    "count": 11
   },
   {
-   "commonName": "cockscomb nudibranch",
-   "scientificName": "Antiopella barbarensis",
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
    "count": 11
   },
   {
-   "commonName": "Colorful Aeolid",
-   "scientificName": "Anteaeolidiella chromosoma",
+   "commonName": "cockscomb nudibranch",
+   "scientificName": "Antiopella barbarensis",
    "count": 11
   }
  ]
