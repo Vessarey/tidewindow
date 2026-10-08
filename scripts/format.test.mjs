@@ -119,3 +119,26 @@ test("synthesis stops calling an ended window best available", () => {
   assert.ok(afterEnded.includes("11:02 AM"), afterEnded);
   assert.ok(afterEnded.startsWith("None of the next 30 days' 1 qualifying lows"), afterEnded);
 });
+
+test("Finder summary uses the selected depth results for both count and best pick", () => {
+  const shallow = makeWindow({ lowHeight: 0.5, isMinusTide: false, score: 95, lowTimeLocal: "8:00 AM" });
+  const minus = makeWindow({ lowHeight: -0.5, isMinusTide: true, score: 60, lowTimeLocal: "9:00 AM" });
+  const deep = makeWindow({ lowHeight: -1.5, isMinusTide: true, score: 50, lowTimeLocal: "10:00 AM" });
+  const data = { generatedAt, windows: [shallow, minus, deep] };
+  const now = shallow.windowStart - 3600_000;
+  assert.ok(synthesis(data, 30, now).includes("8:00 AM"));
+  const minusSummary = synthesis(data, 30, now, [minus, deep]);
+  assert.ok(minusSummary.includes("2 qualifying lows"), minusSummary);
+  assert.ok(minusSummary.includes("9:00 AM"), minusSummary);
+  assert.ok(!minusSummary.includes("8:00 AM"), minusSummary);
+  const deepSummary = synthesis(data, 30, now, [deep]);
+  assert.ok(deepSummary.includes("1 qualifying lows"), deepSummary);
+  assert.ok(deepSummary.includes("10:00 AM"), deepSummary);
+});
+
+test("empty depth results never recommend a low excluded by the filter", () => {
+  const shallow = makeWindow({ lowHeight: 0.5, isMinusTide: false });
+  const data = { generatedAt, windows: [shallow] };
+  assert.equal(synthesis(data, 30, shallow.windowStart - 1, []),
+    "No lows match this depth filter in the next 30 days at this station.");
+});

@@ -5,6 +5,38 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-08 — Founder-requested QA: align Finder summary with depth results
+
+**Action / evidence:** the Finder's cards and chart respected the selected depth,
+but its summary still considered all lows. With Oct 7 live data at Oct 8 04:40Z,
+Seattle's minus/deep filter could summarize a positive-height low excluded from
+its cards. Pass the existing filtered result set to the formatter, including a
+specific empty-filter message. Preserve the Oct 7 clock floor, ongoing-window
+policy, 30-day horizon, score ordering, predictions and guide content.
+
+**Gates:** required `PIPELINE_REFRESH=1 npm run build` passed, then restored only
+the isolated checkout's generated data and ran the exact-release committed-data
+build. Both verified 12 stations x 5 months / 136 sitemap URLs and passed
+42 facts + 6 math + 15 format tests (63 total). Lint and TypeScript passed.
+Two permanent regressions cover depth-consistent count/best selection and an
+empty selected set. All 36 combinations of 12 public station datasets and three
+depth choices passed the pure-formatter check. These are source/data checks;
+interactive browser tooling was unavailable in this execution environment.
+
+**Coordination / release:** based on main `690a9fa` in an isolated worktree;
+owner-held article and newsletter drafts remain untouched. No refresh dispatch,
+extra IndexNow submission or new scheduler. Protect the three king-tide guides
+with before/after HTML hashes. Publication uses the existing GitHub/Vercel path,
+with live-code and guide checks required before reporting success. Rollback is a
+normal revert of this release; no data rewrite or history rewrite.
+
+**Metrics / next:** no new PostHog read succeeded here (connector knowledge
+lookup was interrupted); no growth or conversion claim. Existing exit-prompt
+authority reconciliation remains open; this patch does not alter that surface.
+Use a connected interactive browser for desktop/mobile Finder and keyboard QA.
+
+---
+
 <!-- heartbeat-2026-10-07:start -->
 ## 2026-10-07 — Heartbeat audit; Finder candidate held for overlapping work
 

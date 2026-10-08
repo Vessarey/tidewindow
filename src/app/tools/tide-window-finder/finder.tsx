@@ -191,7 +191,7 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
             <span className="stamp">
               Next 30 days · computed {fmtStamp(data.generatedAt)} · NOAA {data.station.noaaId}
             </span>
-            <p>{synthesis(data, 30, now)}</p>
+            <p>{synthesis(data, 30, now, results)}</p>
           </div>
 
           {results[0] && <TideCurve window={results[0]} />}
