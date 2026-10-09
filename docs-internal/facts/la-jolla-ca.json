@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-08",
+ "generated_on": "2026-10-09",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2064,7 +2064,7 @@
   {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
-   "count": 22
+   "count": 21
   },
   {
    "commonName": "Stearns' Aeolid",
@@ -2087,11 +2087,6 @@
    "count": 12
   },
   {
-   "commonName": "Hedgpeth's Dorid",
-   "scientificName": "Polycera hedgpethi",
-   "count": 11
-  },
-  {
    "commonName": "Lesser Two-spot Octopus",
    "scientificName": "Octopus bimaculoides",
    "count": 11
@@ -2099,6 +2094,11 @@
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
+   "count": 11
+  },
+  {
+   "commonName": "Colorful Aeolid",
+   "scientificName": "Anteaeolidiella chromosoma",
    "count": 11
   }
  ]

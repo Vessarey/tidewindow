@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-08",
+ "generated_on": "2026-10-09",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 69
+   "count": 64
   },
   {
    "commonName": "Spanish Shawl",
@@ -2116,13 +2116,13 @@
    "count": 16
   },
   {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
-   "count": 13
-  },
-  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
+   "count": 14
+  },
+  {
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
    "count": 13
   }
  ]
