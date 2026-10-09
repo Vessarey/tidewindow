@@ -5,6 +5,67 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-09 — Yaquina Head / Otter Rock roll-forward (§2e, P1 brief)
+
+**Health:** today's refresh `81e2247` landed via run 37924225112
+(11:31–11:33Z, 2m35s, success); five newest Actions green; no open issues.
+Local tree had the two owner-held article patches (Haystack, minus-tide)
+plus newsletter drafts and seo-refresh evidence dirs — pulled with
+`--rebase --autostash`, all preserved untouched and excluded from release.
+
+**One primary action:** completed the Yaquina backlog brief (queued Oct 5).
+The guide led with July 17 as "this month," told readers to set an August
+alarm, called Aug 12's −1.91 ft the year's deepest daylight low, and
+carried the expired summer 8 PM BLM closing. Rewrote the lead and tables
+around the remaining-2026 season: eight deepest qualifying windows
+(Oct 25–Dec 23), each with derived daylight-end and low-vs-daylight
+columns — seven of eight lows land after dark; Dec 21 (−0.69 ft, 4:15 PM,
+~24 min before light ends) is the sole in-daylight low. Corrected the
+superlative against full Jul–Dec fact sheets: the July 13–16 run
+(−2.52 ft Jul 15/14, all four days scoring 90) outranks Aug 12; added an
+explicit correction note. Both original July-computed tables preserved
+verbatim as dated history (Washington precedent). Gate math inverted
+honestly: dusk slices sit inside posted hours, sunset is now the binding
+constraint; explicitly declined to equate Dec 23's 5:53 PM low (7 min
+before the 6 PM close) with a sensible visit. Species re-dated to the
+60 days before Oct 9: nudibranch sweep broken (Striped Dogwinkle, Gumboot
+Chiton, Spiny Scallop now in the top 10). Jan 2027 outlook scoped to the
+king-season top-5 by score (Jan 22 at 65 edges Jan 21 at 64). Arrival
+wording de-scoped from universal instruction. `updated: 2026-10-09`.
+
+**Sources re-fetched at write time:** BLM Yaquina Head (hours now
+8–6 Mon–Thu / 8–7 Fri–Sun, closed Thanksgiving/Christmas; fees incl. $3
+motorcycle; wildlife-closure quote extended to "...and other locations
+with active nests"; pets banned from Cobble Beach pools; footwear quote
+quoted in full), Oregon State Parks Devils Punchbowl (punchbowl quote is
+"thundering roar" — fixed a prior misquote; restrooms closed for repairs,
+advisory effective Aug 24, 2026; parking advisories unchanged), Oregon
+marine reserves Otter Rock (no-take rule, 1.2 sq mi, 2012, access quote
+all reconfirmed). No new external links added.
+
+**Gates:** fact sheets fresh (generated 2026-10-09 08:04 local). Every
+table row recomputed against `facts/newport-or.json` by script, including
+the derived daylight-end arithmetic (window start + daylight minutes,
+flagged as approximate due to 5-min rounding). Description 150 chars.
+`npm run build` green: 149 routes, verify-output 12×5 / 136 sitemap URLs
+OK, 63 tests pass, exit 0. Diff review: only the Yaquina article in the
+release; owner-held patches untouched.
+
+**Metrics snapshot (PostHog 7d, thetidewindow.com):** king-tides pages
+dominate pageviews (national 177, Oregon 98, Washington 65); Finder 15,
+homepage 17. Events: station_selected 23, window_result_viewed 20,
+newsletter_signup 4, trip_picker_run 4. Consistent with yesterday's
+heartbeat read; no anomaly, no experiment verdict touched.
+
+**Next:** two writable briefs remain (sea-glass 940/535 reframe, Sunset
+Bay refresh) — queue above the three-item refill floor. Oct 15 holds the
+final Seattle-August retitle readout (no second extension) and the Mora
+Road access recheck. Yaquina's Oct 25/26 rows become historical after
+those dates; the next refresh pass there can trim them. Nov 1 month
+rollover still requires prior-batch indexing evidence first.
+
+---
+
 <!-- heartbeat-2026-10-08:start -->
 ## 2026-10-08 — Heartbeat audit; Washington remaining-season roll-forward
 

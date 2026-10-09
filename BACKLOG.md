@@ -424,7 +424,21 @@ Haystack/minus-tide work. These briefs do not reopen conversion experiments.
       estimate, never an automatic reopening. No route/access inference
       from a window score or arrive-by field.
 
-- [ ] **Yaquina Head / Otter Rock — retire July/August and summer hours.**
+- [x] **Yaquina Head / Otter Rock — retire July/August and summer hours.**
+      **Done 2026-10-09 operator:** led with the remaining-2026 dusk table
+      (eight deepest qualifying windows, low-vs-daylight column; Dec 21 the
+      sole low before dark), archived both July/August tables verbatim as
+      dated history, corrected the unscoped "year's deepest daylight low"
+      claim (Jul 15 −2.52 ft leads the Jul–Dec fact sheets, not Aug 12
+      −1.91), updated BLM hours to the posted 8–6 Mon–Thu / 8–7 Fri–Sun
+      schedule (summer 8 PM close retired; Thanksgiving/Christmas closures
+      noted), re-dated species to the 60 days before Oct 9 (nudibranch
+      sweep broken: dogwinkle/chiton/scallop entered), fixed the punchbowl
+      quote to "thundering roar", added the dated restroom-repairs
+      advisory, de-universalized arrival wording, and scoped the Jan 21/22
+      2027 claims to the king-season top-5 with scores. All three official
+      sources re-fetched at write time. See 2026-10-09 journal.
+      Original brief:
       Target `yaquina-head-otter-rock-tide-pools-2026` (published Jul 17).
       Current 0 clicks / 17 impressions / 0% CTR / position 10.41; prior
       no impressions. Sole revealed query `newport oregon tide chart 2026`
