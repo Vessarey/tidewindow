@@ -107,7 +107,9 @@ In the 60 days before October 9, 2026, the most-reported marine animals within a
 
 ## How to work a dusk window
 
-The arrive-by column in the tables marks one hour before the predicted low — on these dusk dates, that hour is most of the light you'll get, so the falling tide *is* the visit. The BLM's practical advice for the cobbles is worth taking: "Wear non-slip, close-toed shoes in tide pools and on lighthouse tours." These are predictions, not observations; check conditions on the day, and treat a dark, incoming winter tide with the respect it demands.
+The historical summer table's “Arrive by” column subtracts one hour from the predicted low; it is not an arrival plan for these winter dusk dates. On December 23 that offset is 4:53 PM, already after the roughly 4:40 PM daylight end; on November 24 it is 5:04 PM, after roughly 4:41 PM. Plan from the daylight overlap instead, allowing enough time for the access and return walk to be safely off the tidal rocks before daylight ends or the site closes, whichever comes first. The rounded daylight end is not a departure deadline: build in a return margin, and skip the tidepool visit if there isn't enough light and safe access. Do not wait for an after-dark low.
+
+These are predictions, not observations; check current access, weather, surf and tides on the day, and leave earlier if conditions threaten your return route. The [BLM's Yaquina Head safety guidance](https://www.blm.gov/visit/yaquina-head-outstanding-natural-area) warns about high surf and sneaker waves, and advises: “Wear non-slip, close-toed shoes in tide pools and on lighthouse tours.”
 
 One honesty note: station 9435380 sits at South Beach, inside Yaquina Bay, and its predictions are the standard reference for this stretch of coast. But Yaquina Head and Otter Rock are open-coast shores a few miles north, so the exact minute of low water on those shelves can differ a little from the table.
 

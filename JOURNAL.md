@@ -5,6 +5,40 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-09 — Correct Yaquina dusk arrival guidance
+
+**Safety correction:** the newly refreshed guide still said one hour before
+low supplied most of the winter daylight. Recomputed against today's Newport
+facts: Dec 23's one-hour offset is 4:53 PM, 13 minutes after the approximate
+4:40 PM daylight end; Nov 24's is 5:04 PM, 23 minutes after 4:41 PM.
+Replaced only the dusk guidance: the historical summer arrival column is not
+winter planning advice; use daylight overlap, allow access/return walking
+margin, be off tidal rocks before darkness or site closing, and skip a visit
+without enough light and safe access. Do not wait for an after-dark low.
+Re-fetched BLM's Yaquina safety page (HTTP 200), linking its high-surf,
+sneaker-wave and footwear guidance. No walking time or fixed safety buffer
+was inferred from tide predictions.
+
+**Gates:** `npm run build -- --webpack` passed on pinned Next 16.3.8,
+149 routes, verify-output 12 stations × 5 months / 136 sitemap URLs,
+42 fact + 6 math + 15 format tests (63 total). Default Turbopack could not
+bind its local worker port in the Mac execution environment; webpack is
+Next's supported fallback, with the normal prebuild/postbuild gates intact.
+No build configuration changed. Source and rendered checks confirm all
+three tables, frontmatter, title/description, canonical and JSON-LD remain
+identical. Today's committed NOAA data was used without a second refresh.
+
+**Coordination:** isolated checkout based on published `5346fc7`; remote
+head unchanged and all newest refresh runs complete before release.
+Owner-held article patches, drafts, BACKLOG and original JOURNAL remained
+untouched. Normal GitHub push triggers one Vercel deployment; require Ready
+and production copy verification in the release handoff. Roll back only this
+commit with `git revert`, preserving today's operator roll-forward.
+
+**Metrics:** no new analytics query or experiment verdict in this safety fix.
+
+---
+
 ## 2026-10-09 — Yaquina Head / Otter Rock roll-forward (§2e, P1 brief)
 
 **Health:** today's refresh `81e2247` landed via run 37924225112
