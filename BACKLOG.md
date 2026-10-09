@@ -5,6 +5,19 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-10-09:start -->
+- [x] **2026-10-09 heartbeat — §2a ready-now queue refill, docs only.**
+      Morning Yaquina roll-forward and subsequent dusk-arrival correction
+      are already live (`093ca30` / `da8af54`); neither repeated here.
+      Two writable briefs (sea-glass, Sunset Bay) are BELOW the three-item
+      floor, correcting the morning journal's contrary sentence. Added
+      three bounded maintenance briefs below; queue is now five. Fresh
+      GSC leaders already have matching pages, so this is not a claim of
+      three uncovered keyword clusters. No public content or experiment
+      changed; owner-held patches, drafts and evidence remain untouched.
+      See today's heartbeat journal for current metrics and health checks.
+<!-- heartbeat-2026-10-09:end -->
+
 - [x] **Oct 6 browser finding — Finder retains ended same-day windows.**
       **Done 2026-10-07** (`2130d92`): eligibility = window not yet ended,
       visitor-clock anchored (minute tick, floored at generatedAt); Finder +
@@ -355,6 +368,78 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-10-09-refill:start -->
+Three ready-now factual-maintenance briefs, verified Oct 9. Baselines are
+exact-page Web/final GSC Sep 9–Oct 6 versus Aug 12–Sep 8, all countries and
+devices, Pacific reporting dates. Preserve URLs, original publication dates,
+valid historical tables, October charts and working gates. Recompute from
+current facts plus the full modeled-window range at implementation; re-fetch
+official access sources then. No new article, station or conversion variant;
+do not include owner-held Haystack/minus-tide patches. The other two ready
+briefs remain sea-glass and Sunset Bay.
+
+- [ ] **First: Puget Sound calendar — archive the passed October overlaps.**
+      Target `puget-sound-low-tide-calendar-2026`. Current 2 clicks / 109
+      impressions / 1.83% CTR / position 6.75; prior 4 / 252 / 1.59% / 6.17.
+      Sole revealed exact-page query: `tide chart seattle`, 0 clicks / one
+      impression / position 7. Property-wide `puget sound tide chart 2026`
+      has 0 / 15 / position 11, but those are NOT attributed to this page.
+      Lead, FAQ and closing still say Port Townsend retains Oct 5; the
+      current Oct 9–Dec 31 full-range scan has zero >=30-minute daylight
+      windows at both stations. Archive the passed framing; zero qualifying
+      daylight windows does not mean zero lows or zero modeled night windows.
+      Keep the useful complete high/low charts through Oct 31 and the title;
+      adjust description only to remove an inaccurate remaining-window promise.
+      Recheck the full 2027 return schedule: first qualifying minus windows
+      in the current dataset are Port Townsend Jan 17 (-0.479 ft, 5:40 PM,
+      sunset 4:47 PM, 63 daylight minutes) and Seattle Feb 15 (-0.473 ft,
+      5:52 PM, sunset 5:32 PM, 78 daylight minutes). Those lows are AFTER
+      sunset; overlap is earlier, not daylight at the low. Verify all later
+      first/best/Exceptional claims across the complete relevant period.
+      Keep the two station gates and the explicit access/arrival caveats.
+
+- [ ] **Port Townsend guide — retire four remaining windows; qualify dusk.**
+      Target `port-townsend-fort-worden-tide-pools-2026`. Current 0 clicks /
+      7 impressions / 0% CTR / position 6.43; prior 0 / 10 / 0% / 4.60.
+      No query rows revealed; low exposure is not evidence for a title test.
+      Description, lead, FAQ and section still call Sep 22 / Oct 5–7 four
+      remaining windows. All are past; archive this table explicitly and
+      recompute the remaining count (zero daylight-qualifying windows on
+      Oct 9–Dec 31). Preserve the complete high/low chart through Oct 31,
+      current title, historical September record, slug and station gate.
+      The Feb 17, 2027 low is -1.635 ft at 7:06 PM, AFTER 5:36 PM sunset,
+      with only 57 daylight minutes earlier in the window; Jan 18 is
+      -1.457 ft at 6:32 PM, AFTER 4:49 PM sunset (39 daylight minutes).
+      Remove the implication that those low instants occur in evening light;
+      do not substitute a score or one-hour arrive-by label for safe access.
+      Re-fetch Fort Worden, Jefferson County and the cited NPS page; keep
+      jurisdiction-specific hours separate, and do not present Point Reyes
+      guidance as a verified Port Townsend arrival/turnaround rule. Date
+      or refresh the species snapshot rather than calling old counts recent.
+
+- [ ] **Port Orford — correct summer/winter scope and July/August premise.**
+      Target `port-orford-tide-pools-2026` (published Jul 21, no updated date).
+      No exact-page GSC row in either complete requested period; zero
+      observed impressions/clicks, CTR/position unavailable, no query rows.
+      This is factual maintenance, NOT demonstrated search demand. The
+      live Yaquina related-guide block also exposes its stale description.
+      Lead/description/FAQ claim Dec 24 is the year's deepest daylight low
+      and nearly half a foot deeper than anything summer offered. Current
+      Jul 1–Dec 31 facts contradict that: Jul 14 -2.459 ft vs Dec 24
+      -2.211 ft. The 0.47-ft advantage is against Aug 12 only, not summer.
+      Scope superlatives to a verified period; retain valid historical rows
+      but replace July/August near-term framing with remaining-season data.
+      Oct 9–Dec 31 has 29 qualifying windows, 23 minus; Dec 24's 6:14 PM
+      low follows 4:48 PM sunset (69 minutes of earlier daylight overlap).
+      Recheck all low-at-daylight claims, especially Dec 22 / Jan 21, across
+      full data rather than top-five lists. Refresh/date species and remove
+      unsupported inferences that sparse observations mean nobody visits or
+      records the coast. Re-fetch official reserve/park sources; do not turn
+      tide windows or arrive-by fields into opening times or walking margins.
+      Keep title unless a direct factual correction requires a narrow change;
+      preserve original date/URL/gate and verify description, FAQ and links.
+<!-- heartbeat-2026-10-09-refill:end -->
 
 <!-- heartbeat-2026-10-05-refill:start -->
 Three ready-now maintenance briefs, verified Oct 5. GSC is exact-page

@@ -5,6 +5,146 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-09:start -->
+## 2026-10-09 — Heartbeat audit; refill the ready-now maintenance queue
+
+**One primary action:** added three bounded P1 assignments: Puget Sound's
+passed Oct 5 framing, Port Townsend's passed Sep 22/Oct 5–7 windows and
+misleading 2027 daylight-at-low language, and Port Orford's false
+summer/winter-depth comparison plus expired July/August premise. These
+are factual-maintenance briefs, not three uncovered keyword clusters or
+new experiments. Only sea-glass and Sunset Bay remained writable after
+the operator's Yaquina release: two is BELOW the §2a floor, correcting the
+morning journal's statement. Queue is now five. Public articles, charts,
+titles, gates and generated data are unchanged by this heartbeat.
+
+**Coordination:** read playbook, AGENTS, newest journal/backlog, today's
+commits, Actions and issues; fast-forwarded to `da8af54`. Morning Yaquina
+roll-forward and follow-up dusk correction already shipped; live browser
+confirms the latter's Dec 23 4:53 PM / Nov 24 5:04 PM arrival-offset warning.
+Vercel reports success for `da8af54` (`CxneYpyvXRRXYxuCdzPYMU3mAq3P`).
+No repeat refresh, newsletter send, article release or conversion change.
+The two held article patches, four newsletter drafts and three existing
+evidence directories (126 modified/untracked files) are excluded.
+
+**Candidate evidence:** exact-page GSC Web/final, all countries/devices,
+Sep 9–Oct 6 versus Aug 12–Sep 8 (Pacific dates):
+
+| Existing guide | Current clicks / impressions / CTR / position | Prior | Bounded action |
+| --- | --- | --- | --- |
+| Puget Sound calendar | 2 / 109 / 1.83% / 6.75 | 4 / 252 / 1.59% / 6.17 | Archive passed overlaps; keep October charts/title |
+| Port Townsend guide | 0 / 7 / 0% / 6.43 | 0 / 10 / 0% / 4.60 | Retire four upcoming windows; separate daylight overlap from low time |
+| Port Orford guide | no row: 0 observed clicks/impressions; CTR/position unavailable | same | Correct period-wide depth claim and expired near-term framing |
+
+Puget's sole revealed exact-page query is `tide chart seattle`, one
+impression / position 7 / zero clicks; other two reveal none. Property-wide
+`puget sound tide chart 2026` is 15 impressions / position 11 / zero clicks,
+not a page attribution. Leading positions-8–20 terms already have matching
+pages: Fitzgerald chart 180 impressions / position 8.46 / three clicks;
+Oregon king tides 2026 104 / 8.20 / two; Oregon 2027 84 / 8.49 / zero;
+Glass Beach chart 27 / 9.19 / zero. No speculative new keyword page queued.
+
+Current Oct 9 fact sheets/full windows confirm zero >=30-minute daylight
+windows at Seattle and Port Townsend for Oct 9–Dec 31. This does not mean
+zero low tides. Port Orford has 29 qualifying windows, 23 minus; its Jul 14
+-2.459 ft low is deeper than Dec 24 -2.211 ft, invalidating the summer-wide
+comparison. Dec 24 low is 6:14 PM after 4:48 PM sunset. Port Townsend's
+Feb 17, 2027 7:06 PM low follows 5:36 PM sunset. Detailed baseline and
+preservation/verification gates are in each brief; source re-fetch and
+new fact recomputation are required when implementing, not presumed done.
+
+**Health:** latest five refresh runs green, no open GitHub issues. Actual
+NOAA run 37924225112 ran 11:31:08–11:33:43Z; data commit `81e2247`
+landed at 11:33:36.887Z and push at 11:33:39.063Z. Verifier passed
+12 stations x 5 months / 136 sitemap URLs at 11:33:35Z; IndexNow 136 URLs
+returned HTTP 200 at 11:33:36Z. Latest run 37963262022 explicitly skipped
+at 17:01:12Z because today's data was already committed. Exact scheduled
+slot attribution is unavailable; no recovery dispatch was needed.
+All twelve live station JSON files byte-match committed data generated
+2026-10-09T11:31:32.225Z. Nine HTTP resources, including all three tools,
+Seattle station/month, Yaquina guide and homepage OG PNG, return 200.
+No modeled score >=90 window across twelve stations during Oct 9–23.
+
+Production Finder ZIP 98101 selects Seattle; depth change from any to
+<=-1.0 ft updates summary/chart/cards from 18 to six qualifying lows.
+The latter consistently starts Oct 25 at 11:13 PM / -1.1 ft; no ended
+Oct 6/7 window appears. Yaquina calendar gate opens with required, empty
+email; no submission or unlock. Mobile 375px screenshot and DOM show
+usable form and no document overflow; temporary emulation/viewport
+overrides cleared. No warning/error browser logs observed in this check.
+This browser smoke test is not an exhaustive production error audit.
+
+**PostHog:** project 495836, America/New_York; half-open UTC windows end
+2026-10-09 17:17:02, before audit interactions, start Oct 2 / Sep 11 at
+the same time. Filters: `$host='thetidewindow.com'` and
+`$virt_traffic_type='Regular'`; event/property schema checked. Native
+connector returned UNAUTHORIZED; configured read-only repository queries
+worked. Same-interval repeated reads changed by one pageview/ID during
+retrieval: 7d 511/466 -> **512 pageviews / 467 distinct pageview IDs / four
+signup events** (0.86%); 28d 1837/1691 -> **1838 / 1692 / nine** (0.53%).
+Use latest paired counts, not the delta as traffic growth. IDs/classified
+Regular traffic are not verified humans; signup events are not subscribers.
+
+7d events (count / distinct IDs): station_selected 22/15,
+window_result_viewed 19/13, zip_lookup_used 15/10, trip_picker_run 4/2,
+calendar_gate_clicked 10/10, ics_url_revealed 1/1, exit_intent_shown 20/20.
+28d respective counts/IDs: 65/49, 52/40, 39/26, 16/10, 27/26, 3/3, 77/77.
+These are event totals, not matched funnel conversions or experiment verdicts.
+Top 7d pageviews: national king tides 170, Oregon 95, Washington 62,
+Acadia 17, home 15, Finder and Fitzgerald 14 each, Seattle guide 12.
+Referring-domain pageviews include Google 119, Bing 112, direct 106,
+DDG 53, same-site 46, Yahoo 45; these are not entry-session counts.
+Signup source counts over 28d: exit-intent three, tool_gate two,
+end_article_gated two, station one, station_gate one. A trial query of
+the nonexistent `form` property returned nulls and was discarded; these
+counts use the source property verified in the instrumentation.
+
+Quality read: 512 classified pageviews, all with raw user agents; selected
+bot/automation substrings and explicit agent fields found zero, not proof
+of human traffic. Exception capture flag is null for 440 and false for 72,
+true for zero; project exception opt-in null. One captured Oct 3 TypeError
+mentions `top.webkit.messageHandlers.foregroundToBackground.postMessage`
+on the Oregon-2027 guide; browser-shell involvement is plausible, not proven
+site causation. Capture coverage remains incomplete. Trailing 24h LCP
+has only 19 measured events: p75 579.5 ms, p90 735.2 ms; small field sample,
+not a whole-site/mobile performance verdict.
+
+**Search:** latest final date Oct 6. Property daily totals Sep 9–Oct 6:
+**285 clicks / 14,970 impressions / 1.90% CTR / 7.11 position**, versus
+Aug 12–Sep 8 **160 / 11,249 / 1.42% / 8.14** (+78% clicks). Recent
+Sep 30–Oct 6: **106 / 4,190 / 2.53% / 7.19**, versus Sep 23–29
+**63 / 3,904 / 1.61% / 6.62**. Clicks rose while the seven-day average
+position weakened; no causal claim. Current 78 page rows, prior 59,
+485 query rows; requested cap 25,000 not reached. Missing query rows
+cannot explain page totals; no AI-Mode attribution or CTR-only judgment.
+Top click pages: national king dates 97, Fitzgerald 41, Washington king
+dates 25, Seattle guide 24, Oregon calendar 21, Acadia 19, Oregon king 16.
+
+**Subscriber/experiment and time gates:** Resend read-only confirms 20
+contacts, 19 active / one unsubscribed, no next page (`has_more=false`).
+Oct 8 broadcast `08111cf4-8ab1-436d-b0b7-4e7b410248fd` is sent at
+12:07:16.490Z; this response supplies no delivery/bounce/complaint fields,
+so those remain unknown, not zero. No send/sync or owner-gated prompt
+change. Closed signup trials stay closed; §5 sample floors remain intact.
+Oct 15 remains final Seattle-August title readout (one extension only)
+and Mora Road access recheck. [NPS road conditions](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+still lists the July 8–Oct 15 closure when fetched today; the planned end
+is not confirmed reopening. Nov 1 rollover still needs November indexing
+evidence. Existing development-only dependency and modeled/raw-low count
+issues remain open; no package, template or schema mutation in this run.
+
+**Validation and next:** documentation-only change, so no app build or
+data regeneration. Exact two-file diff reviewed; `git diff --check` passes.
+Assertions pass for three distinct briefs/existing slugs, complete remaining
+ranges, depth minima and first 2027 overlap dates. All 126 held files
+byte-match the pre-edit hash snapshot. Only JOURNAL/BACKLOG enter the commit.
+Next primary candidate is the Puget Sound brief, unless a health/reader
+issue or another operator completion changes priority. These briefs do
+not themselves correct the published articles or establish SEO uplift.
+<!-- heartbeat-2026-10-09:end -->
+
+---
+
 ## 2026-10-09 — Correct Yaquina dusk arrival guidance
 
 **Safety correction:** the newly refreshed guide still said one hour before
