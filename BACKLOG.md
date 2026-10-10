@@ -379,7 +379,13 @@ official access sources then. No new article, station or conversion variant;
 do not include owner-held Haystack/minus-tide patches. The other two ready
 briefs remain sea-glass and Sunset Bay.
 
-- [ ] **First: Puget Sound calendar — archive the passed October overlaps.**
+- [x] **First: Puget Sound calendar — archive the passed October overlaps.**
+      **Done 2026-10-10** (`877ef41`): lead/FAQ/closing reframed as of
+      Oct 10, zero qualifying daylight windows Oct 10–Dec 31 verified
+      against the full windows range; description promise removed; all
+      402 chart extremes, monthly counts and 2027 milestones re-verified
+      unchanged; title/slug/charts/gates preserved; NPS + Fed sources
+      re-fetched 200.
       Target `puget-sound-low-tide-calendar-2026`. Current 2 clicks / 109
       impressions / 1.83% CTR / position 6.75; prior 4 / 252 / 1.59% / 6.17.
       Sole revealed exact-page query: `tide chart seattle`, 0 clicks / one

@@ -5,6 +5,66 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-10 — Puget Sound calendar: archive passed October overlaps (§2e, P1 brief)
+
+**Health:** today's refresh `d83f22d` landed via run 38046214172 (10:48Z,
+2m35s, success); five newest Actions green; no open issues. Facts
+regenerated locally from today's committed data before writing. Local
+tree still carries the two owner-held article patches (Haystack,
+minus-tide) plus newsletter drafts and seo-refresh evidence dirs —
+pulled with `--rebase --autostash`, all preserved and excluded from the
+release.
+
+**One primary action:** completed the first Oct 9 maintenance brief
+(`877ef41`). The guide's lead, FAQ and closing still presented Port
+Townsend's October 5 window as upcoming ("has one on October 5",
+"retains one marginal October overlap"). Reframed as of Oct 10: zero
+windows with ≥30 min daylight overlap remain at either station through
+Dec 31 — verified against the full windows array (347 windows spanning
+2026-06-30→2027-11-13), not a top-N list — while both stations keep
+posting 20+ lows below +1 ft per month, deepest after dark. Kept title,
+slug, both station gates, all charts and historical tables per the
+brief; description now says "archived daylight lows" instead of
+promising "remaining daylight overlaps"; October 5 paragraph moved to
+past tense with an explicit "both are now past" line.
+
+**Verification beyond the brief:** script-checked all 402 chart
+extremes in both September–October tables against today's tide data
+(zero real mismatches; eight apparent ones were a 0.005-ft rounding
+tolerance boundary, not drift) and re-verified the monthly-count table
+(Seattle 24/20/7/2/0/0 daylight windows Jul–Dec, PT 25/21/8/3/0/0),
+the deepest-low table (Oct 29 −3.00/−2.77, Nov 25 −3.84/−3.51, Dec 24
+−3.93/−3.53) and every 2027 milestone row: PT Jan 17 −0.48 ft 5:40 PM
+(sunset 4:47 PM, 63 dl min), Seattle Feb 15 −0.47 ft 5:52 PM (sunset
+5:32 PM, 78 dl min), Good weekend Mar 13–14, Great Apr 9 (84/80),
+Exceptional Apr 10 (94/92), Jul 4 −3.93/−3.59, Jun 5–6 −3.83/−3.89.
+All unchanged; table stamps now carry "re-verified 2026-10-10". The
+2027 recheck note updated to the current Jan–Nov horizon. Sources
+re-fetched at write time: NPS Point Reyes tidepooling (200, "at least
+an hour before low tide" quote intact), Fed k8 holidays (200, Labor
+Day Sep 7, 2026). NOAA station pages remain canonical client-rendered
+shells.
+
+**Gates:** `npm run build` green — 149 routes, verify-output 12
+stations × 5 months / 136 sitemap URLs OK, 63 tests pass, exit 0. Diff
+review: only the one article in the release; `git diff --check` clean;
+public/data-json untouched.
+
+**Metrics snapshot (PostHog 7d, thetidewindow.com):** 551 pageviews,
+3 newsletter signups. Top paths: national king tides 189, Oregon king
+tides 104, Washington king tides 63, Acadia 18, home 17, Finder 15,
+Fitzgerald 14, Alki/Constellation 12. Consistent with yesterday's
+heartbeat (512 pv / 4 signups); no anomaly, no experiment touched.
+
+**Next:** four ready-now briefs remain (Port Townsend guide, Port
+Orford, sea-glass, Sunset Bay) — above the three-item floor. Oct 15
+holds the final Seattle-August retitle readout (no second extension)
+and the Mora Road access recheck. Nov 1 month rollover still needs
+prior-batch indexing evidence first. Yaquina's Oct 25/26 rows become
+historical after those dates.
+
+---
+
 <!-- heartbeat-2026-10-09:start -->
 ## 2026-10-09 — Heartbeat audit; refill the ready-now maintenance queue
 
