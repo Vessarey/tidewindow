@@ -5,6 +5,20 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-10 — Port Townsend release receipt
+
+Source/audit commit `aab6f6d` pushed; Vercel deployment
+`6D6RASLUnqeaq1ymZmMPkiBoTKF2` reports success at 17:28:17Z. Independent
+public HTTP and browser checks at 17:29Z confirm the revised lead, Oct 10
+updated date, archived-window heading and explicit 2027 sunset distinctions.
+Public Article/FAQ JSON-LD exactly matches the verified build; all four
+rendered tables are unchanged. Guide-index description is corrected,
+sitemap lastmod is Oct 10, and the station calendar gate remains present.
+No browser warnings/errors observed. All 126 held files still hash-match
+the pre-run snapshot. This verifies delivery, not indexing or SEO uplift.
+
+---
+
 <!-- heartbeat-2026-10-10:start -->
 ## 2026-10-10 — Heartbeat: Port Townsend archive and explicit-UTC audit
 

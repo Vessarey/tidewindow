@@ -406,7 +406,7 @@ briefs remain sea-glass and Sunset Bay.
       Keep the two station gates and the explicit access/arrival caveats.
 
 - [x] **Port Townsend guide — retire four remaining windows; qualify dusk.**
-      **Done 2026-10-10 heartbeat:** archived the four passed windows;
+      **Done 2026-10-10 heartbeat (`aab6f6d`, verified live):** archived the four passed windows;
       verified zero daylight-qualifying windows Oct 10–Dec 31 and the
       first 2027 Good window on Feb 15. Jan 18 / Feb 17 lows are explicitly
       after sunset; arrival offsets are not access instructions. Rechecked
