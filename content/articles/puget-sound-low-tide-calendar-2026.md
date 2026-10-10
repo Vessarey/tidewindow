@@ -1,8 +1,8 @@
 ---
 title: "Puget Sound Tide Chart 2026: Seattle & Port Townsend Low-Tide Calendar"
-description: "September–October 2026 tide charts for Seattle and Port Townsend, remaining daylight overlaps, historical summer lows, and 2027 return dates."
+description: "September–October 2026 tide charts for Seattle and Port Townsend, the season's archived daylight lows, and the 2027 minus-tide return schedule."
 date: "2026-07-03"
-updated: "2026-09-19"
+updated: "2026-10-10"
 category: "regional-calendars"
 gateStations: ["port-townsend-wa", "seattle-wa"]
 tags: ["puget sound", "tide chart", "tide table", "low tide calendar", "seattle", "port townsend", "minus tide"]
@@ -10,7 +10,7 @@ faq:
   - q: "What was the deepest daylight low tide in Puget Sound in July–December 2026?"
     a: "−3.80 ft MLLW at Seattle (NOAA station 9447130) on Tuesday, July 14, at 11:20 AM, and −3.48 ft at Port Townsend (station 9444900) the same morning at 10:25 AM. The deepest tide of the whole July–December stretch is actually deeper — −3.93 ft at Seattle on Thursday, December 24 — but it bottoms out at 10:58 PM, in the dark."
   - q: "Are there any daylight minus tides left in Puget Sound in 2026?"
-    a: "As of September 19, Seattle has none remaining: its last qualifying minus-tide window was September 10 (−0.35 ft at 10:51 AM). Port Townsend has one on October 5: −0.23 ft at 5:48 AM, before sunrise, with 39 minutes of daylight overlap later in the modeled window. It scores Skip. Here, daylight means at least 30 minutes of window overlap, not necessarily a low occurring in daylight or verified beach access. Neither station has a qualifying window in November or December."
+    a: "No. As of October 10, neither Seattle nor Port Townsend has a qualifying window left in 2026 — a modeled below-+1-ft interval with at least 30 minutes of daylight overlap. Seattle's last was September 10 (−0.35 ft at 10:51 AM); Port Townsend's was October 5 (−0.23 ft at 5:48 AM, before sunrise, scored Skip). Zero qualifying windows does not mean zero low tides: both stations still post 20-plus lows below +1 ft every remaining month, with the deepest arriving after dark."
   - q: "Where can I find a complete Puget Sound tide table for today?"
     a: "Tidewindow's Seattle and Port Townsend station pages show the next seven days of predicted highs and lows for NOAA stations 9447130 and 9444900, and each monthly calendar page carries a complete day-by-day high-and-low table that refreshes daily. NOAA's own predictions pages for those stations are the primary source."
   - q: "When do daylight minus tides return to Puget Sound in 2027?"
@@ -24,7 +24,7 @@ sources:
   - "https://www.federalreserve.gov/aboutthefed/k8.htm"
 ---
 
-**As of September 19, Seattle (NOAA 9447130) has no minus-tide window with at least 30 minutes of daylight overlap remaining in 2026. Port Townsend (9444900) has one: October 5, −0.23 ft MLLW at 5:48 AM, before sunrise, with 39 daylight minutes later in the window. Below are both stations' September–October high-and-low charts, the historical summer dates, and the 2027 return schedule. A modeled window is not a beach-access guarantee.**
+**As of October 10, Puget Sound's 2026 daylight season is over: neither Seattle (NOAA 9447130) nor Port Townsend (9444900) has a window with at least 30 minutes of daylight overlap left this year, checked across the full October 10–December 31 predictions. Port Townsend's final one passed on October 5 — −0.23 ft MLLW at 5:48 AM, before sunrise, scored Skip. The tide itself keeps running: 20-plus lows below +1 ft per month at both stations, the deepest after dark. Below are both stations' September–October high-and-low charts, the historical summer dates, and the 2027 return schedule. A modeled window is not a beach-access guarantee.**
 
 ## The last run of 2026: September 5–10
 
@@ -43,7 +43,7 @@ Port Townsend ran the same mornings roughly 50 minutes earlier and a shade deepe
 
 ## Seattle tide chart: September–October 2026
 
-The chart below covers September 9–October 31 for NOAA station 9447130 — every predicted extreme, not just lows with daylight overlap. September 9–18 is retained for reference; September 19 onward is the current planning range. Times are local Pacific time and heights are feet relative to MLLW. A negative low is below that reference level, not proof of access. Notice the September 29–30 minus tides: they occur around 1–2 AM.
+The chart below covers September 9–October 31 for NOAA station 9447130 — every predicted extreme, not just lows with daylight overlap. September 9–October 9 is retained for reference; October 10 onward is the current planning range. Times are local Pacific time and heights are feet relative to MLLW. A negative low is below that reference level, not proof of access. Notice the September 29–30 minus tides: they occur around 1–2 AM.
 
 | Date | Lows (MLLW) | Highs (MLLW) |
 |---|---|---|
@@ -101,7 +101,7 @@ The chart below covers September 9–October 31 for NOAA station 9447130 — eve
 | Fri, Oct 30 | −2.69 ft @ 2:05 AM · +8.03 ft @ 3:03 PM | +11.82 ft @ 9:41 AM · +10.22 ft @ 7:32 PM |
 | Sat, Oct 31 | −1.97 ft @ 2:59 AM · +7.92 ft @ 4:24 PM | +11.61 ft @ 10:47 AM · +9.38 ft @ 8:37 PM |
 
-*Computed 2026-09-19 from NOAA station 9447130 predictions via the daily-extremes fact sheet. The [September calendar for Seattle](/beaches/wa/seattle-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/seattle-wa/2026-10/) carries the next month's complete chart. Both refresh daily.*
+*Computed 2026-09-19 from NOAA station 9447130 predictions via the daily-extremes fact sheet; every row re-verified unchanged against the 2026-10-10 refresh. The [September calendar for Seattle](/beaches/wa/seattle-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/seattle-wa/2026-10/) carries the next month's complete chart. Both refresh daily.*
 
 September's deepest low at Seattle is −1.47 ft on the 30th at 1:41 AM. The month's deepest low with a qualifying daylight window was Tuesday the 8th's −1.02 ft. Neither number establishes beach access.
 
@@ -165,7 +165,7 @@ The same September 9–October 31 range for NOAA station 9444900, retaining the 
 | Fri, Oct 30 | −2.55 ft @ 1:09 AM · +7.37 ft @ 2:04 PM | +9.00 ft @ 9:45 AM · +7.93 ft @ 6:06 PM |
 | Sat, Oct 31 | −1.97 ft @ 2:04 AM · +7.19 ft @ 3:46 PM | +8.95 ft @ 10:50 AM · +7.32 ft @ 6:58 PM |
 
-*Computed 2026-09-19 from NOAA station 9444900 predictions via the daily-extremes fact sheet. The [September calendar for Port Townsend](/beaches/wa/port-townsend-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/port-townsend-wa/2026-10/) carries the next month's complete chart. Both refresh daily.*
+*Computed 2026-09-19 from NOAA station 9444900 predictions via the daily-extremes fact sheet; every row re-verified unchanged against the 2026-10-10 refresh. The [September calendar for Port Townsend](/beaches/wa/port-townsend-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/port-townsend-wa/2026-10/) carries the next month's complete chart. Both refresh daily.*
 
 ## October–December 2026: the tide keeps going, daylight doesn't
 
@@ -180,9 +180,9 @@ The tide keeps producing lows below +1 ft all season — 19 to 25 per month at b
 | November | 0 | 0 | 0 | 0 |
 | December | 0 | 0 | 0 | 0 |
 
-*Computed 2026-09-19 from NOAA station 9447130 and 9444900 predictions; counts cover July 1–December 31, not the full year. A daylight window has at least 30 minutes of daylight overlap in the modeled below-1-ft interval. The low itself may fall before sunrise or after sunset.*
+*Computed 2026-09-19 and re-verified unchanged 2026-10-10 from NOAA station 9447130 and 9444900 predictions; counts cover July 1–December 31, not the full year. A daylight window has at least 30 minutes of daylight overlap in the modeled below-1-ft interval. The low itself may fall before sunrise or after sunset.*
 
-Sum the Seattle columns: 53 daylight windows from July through December, against 126 lows below +1 ft (24 + 21 + 19 + 20 + 21 + 21) — about 42%. And 33 of the 39 qualifying minus-tide windows (85%) are packed into July and August. October's best Seattle candidate (October 5, a +0.10 ft low at 6:42 AM) scores 22 and sits in our "Skip" band; Port Townsend's same-morning low is a genuine minus tide, −0.23 ft at 5:48 AM, but it bottoms out before sunrise with about 39 minutes of lit window — also a Skip. The [year heatmap](/tools/year-heatmap/) makes this seasonal change easy to see.
+Sum the Seattle columns: 53 daylight windows from July through December, against 126 lows below +1 ft (24 + 21 + 19 + 20 + 21 + 21) — about 42%. And 33 of the 39 qualifying minus-tide windows (85%) are packed into July and August. October's best Seattle candidate (October 5, a +0.10 ft low at 6:42 AM) scored 22 and sat in our "Skip" band; Port Townsend's same-morning low was a genuine minus tide, −0.23 ft at 5:48 AM, but it bottomed out before sunrise with about 39 minutes of lit window — also a Skip. Both are now past: from October 10 through December 31, neither station has a qualifying daylight window of any kind. The [year heatmap](/tools/year-heatmap/) makes this seasonal change easy to see.
 
 Meanwhile the deepest water of the whole stretch arrives after dark:
 
@@ -236,7 +236,7 @@ All four scored 77 or better on our 0–100 window scale; July 11 and 12 scored 
 
 ## When do daylight minus tides return in 2027?
 
-Here's the ladder back, rechecked 2026-09-19 across the available January–October 2027 predictions. "Daylight" again means at least 30 minutes of overlap in the modeled interval, not that the low instant is in daylight. Good, Great and Exceptional describe Tidewindow scores, not verified access conditions.
+Here's the ladder back, rechecked 2026-10-10 across the available January–November 2027 predictions. "Daylight" again means at least 30 minutes of overlap in the modeled interval, not that the low instant is in daylight. Good, Great and Exceptional describe Tidewindow scores, not verified access conditions.
 
 | Milestone | Seattle (9447130) | Port Townsend (9444900) |
 |---|---|---|
@@ -260,4 +260,4 @@ The model's arrive-by label is an hour before the predicted low, not an opening 
 
 Planning a trip around one of the 2027 runs rather than a single day? The [trip picker](/tools/trip-picker/) finds the multi-day stretches across every station we cover. And if you'd rather not check back, the [calendar feeds page](/calendars/) has subscribable 12-month feeds for Seattle and Port Townsend that put every Good-or-better window straight into your calendar app — the April weekend will simply appear when it's close. Tide heights and times come from NOAA's harmonic predictions; the [methodology page](/methodology/) documents the window model.
 
-Seattle's 2026 minus-tide windows with qualifying daylight overlap ended in September; Port Townsend retains one marginal October overlap. The 2027 return begins with after-sunset lows and earlier daylight overlap, then builds toward the April weekend. The charts and feeds track predictions, while local access and conditions remain separate checks.
+Seattle's 2026 minus-tide windows with qualifying daylight overlap ended in September; Port Townsend's final marginal overlap passed on October 5. The 2027 return begins with after-sunset lows and earlier daylight overlap, then builds toward the April weekend. The charts and feeds track predictions, while local access and conditions remain separate checks.
