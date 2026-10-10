@@ -1554,6 +1554,10 @@ implementation; preserve historical evidence and the owner's Haystack hold.
 - [ ] **Sunset Bay refresh** — existing refresh-queue candidate below,
       `sunset-bay-cape-arago-tide-pools-2026` (07-16). This is writable now;
       roll the passed August lead and recheck official park access guidance.
+      Oct 10 bounded repair: original July/August tables now explicitly archived,
+      expired future-date framing and index teaser corrected; tables preserved.
+      Full remaining-season/access refresh stays open — do not repeat the
+      historical-framing repair or imply access notes were re-verified.
 - [ ] Refresh-pass queue (priority e, not additions): choose the next oldest
       exposed guide after the completed California pass. Next-oldest
       explicit candidate by vintage: Sunset Bay (07-16).

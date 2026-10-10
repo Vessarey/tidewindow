@@ -1,13 +1,14 @@
 ---
 title: "Sunset Bay & Cape Arago Tide Pools 2026: Coos Bay's Best Low-Tide Days"
-description: "The best remaining 2026 low at Cape Arago is −2.00 ft on July 16 (NOAA 9432780). Sunset Bay and South Cove windows, the August dawn run, winter dusk tides."
+description: "Archived July/August 2026 tide windows for Sunset Bay and Cape Arago (NOAA 9432780), winter dusk comparisons, and current Charleston tide calendars."
 date: "2026-07-16"
+updated: "2026-10-10"
 category: "station-guides"
 station: "charleston-or"
 tags: ["sunset bay tide pools", "cape arago tide pools", "coos bay low tide", "charleston oregon", "south cove", "simpson reef", "oregon coast tidepooling"]
 faq:
   - q: "When is the best tidepooling at Sunset Bay and Cape Arago in 2026?"
-    a: "Thursday, July 16, 2026 is the best-scoring daylight window left in the year at NOAA Charleston station 9432780: a −2.00 ft MLLW low at 8:22 AM, workable from about 6:00 AM to 10:55 AM — the only remaining Exceptional (90+) day of 2026. The next good run is August 11–14, with dawn lows deepening to −1.72 ft on Wednesday, August 12."
+    a: "The summer picks in this guide are historical: July 16, 2026 had a −2.00 ft MLLW low at 8:22 AM at NOAA Charleston station 9432780; the August 11–14 dawn run reached −1.72 ft on August 12. Both runs are now past. The tables preserve the original July 16 snapshot; use the current Charleston station calendar for upcoming predictions and check daylight and site access before visiting."
   - q: "Where exactly are the tide pools near Charleston, Oregon?"
     a: "Two spots, one road. Oregon State Parks says Sunset Bay's 'protected shoreline provides easy access to intertidal areas,' and that Cape Arago, about 4 miles farther down Cape Arago Highway, has the South Cove trail leading 'down to a sandy beach and superior tidepools.' Both parks ask you to enjoy intertidal animals with your eyes only."
   - q: "Do I need a parking permit at Sunset Bay, Shore Acres, or Cape Arago?"
@@ -24,13 +25,15 @@ sources:
   - "https://shoreacres.net/about-us/simpson-reef-and-shell-island/"
 ---
 
-**The best daylight tide window left in 2026 at Charleston, Oregon lands Thursday, July 16: a −2.00 ft MLLW low at 8:22 AM, computed from NOAA station 9432780, workable from about 6:00 to 10:55 AM — the only remaining Exceptional day of the year here. Work it at Sunset Bay's protected cove or down Cape Arago's South Cove trail, which Oregon State Parks says leads to "superior tidepools." After this week, the calendar gives you one more dawn run in mid-August, then hands the deep water to winter dusk.**
+**The July and August 2026 dawn runs are now past. This guide preserves its original July 16 tide tables as dated history, including that day's −2.00 ft MLLW low at 8:22 AM at NOAA Charleston station 9432780. For upcoming predictions, use the [current Charleston tide calendar](/beaches/or/charleston-or/), and plan around daylight, current site access and a safe return margin.**
+
+*Updated October 10 for historical framing. Park-access and species notes below retain the original July 16 source snapshot; recheck the linked official park guidance before a trip. Tide-window intervals are predictions, not safe-access hours.*
 
 Charleston sits where Coos Bay meets the open Pacific, and the three state parks strung down Cape Arago Highway — Sunset Bay, Shore Acres, Cape Arago — hold two of Oregon's best tidepool grounds within about four miles of each other. The tide station at Charleston, [NOAA 9432780](/beaches/or/charleston-or/), is the reference for all of it.
 
-## When is the lowest tide at Cape Arago in 2026?
+## The original July 16 ranking for the rest of 2026
 
-Here are the eight deepest daylight lows remaining in 2026, ranked by depth, with the score that folds tide depth and daylight together. (Computed July 16, so the deep mornings earlier this week have already rotated out.)
+These are the original eight deepest daylight-qualifying windows remaining as of July 16, ranked by depth. They are preserved as a dated snapshot; several dates are now past. Daylight qualification means at least 30 minutes of the modeled window overlaps daylight, not that the low itself or the whole interval is in daylight.
 
 | Rank | Date | Low (ft MLLW) | Time of low | Score |
 |---|---|---|---|---|
@@ -45,11 +48,11 @@ Here are the eight deepest daylight lows remaining in 2026, ranked by depth, wit
 
 *Computed 2026-07-16 from NOAA station 9432780 predictions, MLLW.*
 
-Read the time column and the year's shape appears. Every deep summer low is a morning; every deep low from late October on is an evening. The deepest of them all, −2.05 ft on Christmas Eve, is nearly useless: its window opens at 4:10 PM and holds only about 36 minutes of light before a roughly 4:46 PM sunset (derived from the window's daylight minutes), with the low itself arriving long after dark. That is why the year's *deepest* remaining tide scores 59 while July 16's slightly shallower one scores 90 — the score is measuring usable water, not just depth. The [methodology page](/methodology/) shows the formula.
+Read the time column and the year's shape appears. Every deep summer low is a morning; every deep low from late October on is an evening. The deepest of them all, −2.05 ft on Christmas Eve, is nearly useless: its window opens at 4:10 PM and holds only about 36 minutes of light before a roughly 4:46 PM sunset (derived from the window's daylight minutes), with the low itself arriving long after dark. That is why the deepest tide in this original snapshot scores 59 while July 16's slightly shallower one scored 90 — the score is measuring usable water, not just depth. The [methodology page](/methodology/) shows the formula.
 
-So the practical headline: **July 16 is the deepest water you can actually see in daylight for the rest of 2026.**
+July 16 was a summer daylight pick in this original snapshot. **It is now past, not a date to plan a new visit around.**
 
-## The near-term windows: July 16–18, then August 11–14
+## Historical summer windows: July 16–18, then August 11–14
 
 | Date | Low (ft) | Time of low | Tide window | Arrive by | Score |
 |---|---|---|---|---|---|
@@ -62,11 +65,11 @@ So the practical headline: **July 16 is the deepest water you can actually see i
 | Thu, Aug 13 | −1.53 | 7:16 AM | 5:05–9:35 AM | 6:16 AM | 81 |
 | Fri, Aug 14 | −1.10 | 7:55 AM | 5:55–10:00 AM | 6:55 AM | 77 |
 
-*The eight best windows of the next 60 days, computed 2026-07-16 from NOAA station 9432780. Scores (0–100) weigh tide depth and daylight together.*
+*Original next-60-day snapshot, computed 2026-07-16 from NOAA station 9432780; these July/August dates are now past. Scores (0–100) weigh tide depth and daylight together.*
 
-The July run is the gentle tail of this month's new-moon cycle: an 8:22 AM low on Thursday, drifting past 9:00 AM Friday and 9:45 AM Saturday as the depth fades. Saturday the 18th is the only weekend day in the table — a modest −0.66 ft, but at a very civilized mid-morning hour, and plenty for a first visit to South Cove.
+The July run was the gentle tail of July's new-moon cycle: an 8:22 AM low on Thursday, drifting past 9:00 AM Friday and 9:45 AM Saturday as the depth faded. Saturday the 18th was the only weekend day in the table — a modest −0.66 ft at a mid-morning hour. These are historical comparisons, not upcoming visit recommendations.
 
-The August 11–14 run is the last real dawn series of the year, and it rewards the early alarm unevenly. Tuesday the 11th is deep (−1.65 ft) but its 5:49 AM low comes about half an hour before sunrise — around 6:18 AM, derived from the window's daylight minutes — so it scores only 73. Wednesday the 12th, three minutes of extra depth and a low just after sunrise, is the pick of the run. If you are wondering why every deep summer low on this coast is an early one, the [dawn-lows guide](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/) unpacks the mechanics; the [Oregon coast minus-tide calendar](/guides/oregon-coast-minus-tide-calendar-2026/) puts Charleston beside Garibaldi, Newport, and Port Orford month by month.
+The August 11–14 run was the final dawn series discussed in the original guide, and it rewarded the early alarm unevenly. Tuesday the 11th was deep (−1.65 ft) but its 5:49 AM low came about half an hour before sunrise — around 6:18 AM, derived from the window's daylight minutes — so it scored only 73. Wednesday the 12th, a slightly deeper low just after sunrise, was the pick of that run. If you are wondering why every deep summer low on this coast is an early one, the [dawn-lows guide](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/) unpacks the mechanics; the [Oregon coast minus-tide calendar](/guides/oregon-coast-minus-tide-calendar-2026/) puts Charleston beside Garibaldi, Newport, and Port Orford month by month.
 
 ## Where to go: Sunset Bay, then South Cove
 
@@ -92,12 +95,12 @@ Charleston's recent community observations read like a sea-slug field guide. Of 
 
 ## How to work the window
 
-Use the arrive-by column, not the low time: get on the rock about an hour before the low and follow the water out. The state parks' tidepooling guidance is short and worth quoting: "keep your eyes on the ocean and stay aware of changing tides, sneaker waves, and drift logs." On South Cove's shelves the returning tide can reach around behind you, so pick your exit line on the way out. And both parks repeat the same ethic — enjoy the animals with your eyes only.
+The historical summer table's arrive-by column subtracts an hour from the low; it is not a winter daylight or access plan. Allow enough time for the return walk to be off tidal rocks before dark or site closing, whichever is earlier, and skip a visit without enough daylight and safe access. The state parks' tidepooling guidance is short and worth quoting: "keep your eyes on the ocean and stay aware of changing tides, sneaker waves, and drift logs." On South Cove's shelves the returning tide can reach around behind you, so pick your exit line on the way out. And both parks repeat the same ethic — enjoy the animals with your eyes only.
 
-One honesty note: station 9432780 sits at Charleston, inside the Coos Bay entrance rather than on the open shore. Its predictions are the standard reference for Sunset Bay and Cape Arago, but the exact minute of low water on an open-coast shelf a few miles away can differ a little — margin the arrive-by column already builds in. These are predictions, not observations; check conditions before you commit to a scramble.
+One honesty note: station 9432780 sits at Charleston, inside the Coos Bay entrance rather than on the open shore. Its predictions are the standard reference for Sunset Bay and Cape Arago, but the exact minute of low water on an open-coast shelf a few miles away can differ a little. These are predictions, not observations; check conditions before you commit to a scramble.
 
 ## After the morning season ends
 
-From September on, Charleston's daylight windows thin fast, and the deep water moves to the far end of the day: −1.75 ft at 5:54 PM on November 24, −1.90 ft at 5:42 PM on December 23 — with roughly an hour to an hour and a half of usable light on the falling tide before sunset. Those dusk lows ride the same alignments as [king tide season](/guides/king-tides-2026-2027-dates/), when the winter's highest highs drain to the year's lowest lows a few hours later. Winter tidepooling here means working the last daylight hour of a falling evening tide; plan the pools around the morning runs while they last.
+From September on, Charleston's daylight windows thin fast, and the deep water moves to the far end of the day: −1.75 ft at 5:54 PM on November 24, −1.90 ft at 5:42 PM on December 23 — with roughly an hour to an hour and a half of usable light on the falling tide before sunset. Those dusk lows ride the same alignments as [king tide season](/guides/king-tides-2026-2027-dates/), when the winter's highest highs drain to the year's lowest lows a few hours later. These original dusk comparisons do not make the after-dark lows suitable visit times; plan any visit within daylight and current access limits. The summer morning runs above are now history.
 
-For the full year at a glance, the [year heatmap](/tools/year-heatmap/) shows how alone this July window stands, the [trip picker](/tools/trip-picker/) finds multi-day runs automatically, and the [August calendar for Charleston](/beaches/or/charleston-or/2026-08/) has every remaining window of that dawn run. One road, two coves, one very good Thursday — and then you set an August alarm.
+For upcoming dates, the [current Charleston calendar](/beaches/or/charleston-or/) and [October calendar](/beaches/or/charleston-or/2026-10/) carry current predictions. The [year heatmap](/tools/year-heatmap/) shows the seasonal pattern, the [trip picker](/tools/trip-picker/) finds multi-day runs, and the [August calendar](/beaches/or/charleston-or/2026-08/) remains an archive of the dawn season.

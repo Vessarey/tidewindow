@@ -5,6 +5,38 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-10 — Archive Sunset Bay's expired summer framing
+
+**Confirmed clarity defect:** live guide, FAQ and index teaser still called
+July 16 the best daylight window “left in 2026,” July/August “near-term,”
+and told October readers to set an August alarm. Reframed only the original
+July 16 snapshot as history: dated lead/FAQ/description/captions, past-tense
+summer comparisons, current Charleston-calendar links. Title, slug,
+publish date, tide tables and all other FAQs retained; `updated: 2026-10-10`
+records this framing correction. Removed unsupported current superlatives.
+The historical arrival offset is explicitly not winter access/daylight
+advice; require return before dark or closing and enough safe daylight.
+Original park/species notes are labeled as the July 16 source snapshot,
+with official-guidance rechecking required, not falsely re-verified today.
+
+**Gates:** content-only `npm run build -- --webpack` passed on Next 16.3.8,
+149 routes, 12×5 output checks / 136 sitemap URLs, 63 tests. Both original
+Markdown/rendered tables are identical; all 16 tide rows additionally match
+current committed Charleston data. Current station and October calendar
+links return 200. The corrected guide-index teaser renders, description
+148 characters; no new prediction numbers or SEO experiment. Supported
+webpack fallback is local only; normal Vercel build remains unchanged.
+
+**Coordination:** based on published newsletter correction `42ff034`.
+Owner checkout and existing held patches untouched; no active target edits.
+The existing Sunset Bay backlog brief remains OPEN for full remaining-season
+and official-access refresh; added a partial-completion note so the operator
+does not duplicate this archival repair. Publish once through normal push,
+verify Ready and public guide/index. Roll back only this correction commit.
+No new metrics query or experiment verdict.
+
+---
+
 ## 2026-10-10 — Distinguish newsletter sample tide intervals from daylight
 
 **Confirmed safety/date defect:** the live sample called Newport Oct 25
