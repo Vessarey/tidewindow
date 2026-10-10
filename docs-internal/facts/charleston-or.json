@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-09",
+ "generated_on": "2026-10-10",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-09",
-   "weekday": "Fri",
-   "low_ft": 0.235,
-   "low_time_local": "6:12 PM",
-   "window_local": "4:55 PM–7:25 PM",
-   "arrive_by_local": "5:12 PM",
-   "daylight_min": 109,
-   "score": 34,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 256,
-   "min_to_sun_edge": 32
-  },
-  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": -0.23,
@@ -2072,23 +2058,27 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 262,
    "min_to_sun_edge": -52
+  },
+  {
+   "date": "2026-11-06",
+   "weekday": "Fri",
+   "low_ft": 0.329,
+   "low_time_local": "4:16 PM",
+   "window_local": "3:00 PM–5:30 PM",
+   "arrive_by_local": "3:16 PM",
+   "daylight_min": 122,
+   "score": 33,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 240,
+   "min_to_sun_edge": 46
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 22
-  },
-  {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 5
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 3
+   "count": 20
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
@@ -2096,13 +2086,13 @@
    "count": 3
   },
   {
-   "commonName": "Red Sponge Dorid",
-   "scientificName": "Rostanga pulchra",
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
    "count": 2
   },
   {
-   "commonName": "Enteromorpha-eating Sapsucker",
-   "scientificName": "Aplysiopsis enteromorphae",
+   "commonName": "Red Sponge Dorid",
+   "scientificName": "Rostanga pulchra",
    "count": 2
   },
   {
@@ -2116,6 +2106,11 @@
    "count": 2
   },
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 2
+  },
+  {
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 2
@@ -2123,6 +2118,11 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
+   "count": 1
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
    "count": 1
   }
  ]

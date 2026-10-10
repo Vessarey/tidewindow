@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-09",
+ "generated_on": "2026-10-10",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -65,18 +65,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-10-09",
-   "weekday": "Fri",
-   "low_ft": -0.367,
-   "low_time_local": "4:37 PM",
-   "window_local": "3:20 PM–5:55 PM",
-   "arrive_by_local": "3:37 PM",
-   "daylight_min": 155,
-   "score": 54,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-11-23",
    "weekday": "Mon",
    "low_ft": -0.878,
@@ -111,6 +99,18 @@
    "score": 52,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.297,
+   "low_time_local": "3:21 PM",
+   "window_local": "2:00 PM–4:35 PM",
+   "arrive_by_local": "2:21 PM",
+   "daylight_min": 134,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-09",
-   "weekday": "Fri",
-   "low_ft": -0.367,
-   "low_time_local": "4:37 PM",
-   "window_local": "3:20 PM–5:55 PM",
-   "arrive_by_local": "3:37 PM",
-   "daylight_min": 155,
-   "score": 54,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 247,
-   "min_to_sun_edge": 82
-  },
-  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": -0.535,
@@ -2072,27 +2058,36 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 252,
    "min_to_sun_edge": 4
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "low_ft": -1.195,
+   "low_time_local": "6:13 PM",
+   "window_local": "4:35 PM–7:55 PM",
+   "arrive_by_local": "5:13 PM",
+   "daylight_min": 54,
+   "score": 49,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 260,
+   "min_to_sun_edge": -44
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 19
+   "count": 16
   },
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 9
+   "count": 8
   },
   {
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
-   "count": 8
-  },
-  {
-   "commonName": "Common Atlantic Slippersnail",
-   "scientificName": "Crepidula fornicata",
    "count": 6
   },
   {
@@ -2101,13 +2096,13 @@
    "count": 5
   },
   {
-   "commonName": "Eastern White Slippersnail",
-   "scientificName": "Crepidula plana",
-   "count": 3
+   "commonName": "Common Atlantic Slippersnail",
+   "scientificName": "Crepidula fornicata",
+   "count": 4
   },
   {
-   "commonName": "Tortoiseshell Limpet",
-   "scientificName": "Testudinalia testudinalis",
+   "commonName": "Eastern White Slippersnail",
+   "scientificName": "Crepidula plana",
    "count": 3
   },
   {
@@ -2123,6 +2118,11 @@
   {
    "commonName": "Flat Periwinkle",
    "scientificName": "Littorina obtusata",
+   "count": 2
+  },
+  {
+   "commonName": "Tortoiseshell Limpet",
+   "scientificName": "Testudinalia testudinalis",
    "count": 2
   }
  ]

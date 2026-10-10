@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-09",
+ "generated_on": "2026-10-10",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-09",
-   "weekday": "Fri",
-   "low_ft": 0.063,
-   "low_time_local": "6:22 PM",
-   "window_local": "5:00 PM–7:45 PM",
-   "arrive_by_local": "5:22 PM",
-   "daylight_min": 102,
-   "score": 37,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 258,
-   "min_to_sun_edge": 20
-  },
-  {
    "date": "2026-10-10",
    "weekday": "Sat",
    "low_ft": -0.436,
@@ -2072,13 +2058,27 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 264,
    "min_to_sun_edge": -67
+  },
+  {
+   "date": "2026-11-06",
+   "weekday": "Fri",
+   "low_ft": 0.224,
+   "low_time_local": "4:27 PM",
+   "window_local": "3:10 PM–5:45 PM",
+   "arrive_by_local": "3:27 PM",
+   "daylight_min": 108,
+   "score": 33,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 242,
+   "min_to_sun_edge": 31
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 18
+   "count": 19
   },
   {
    "commonName": "Branched Dendronotid",
@@ -2088,7 +2088,7 @@
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 4
+   "count": 5
   },
   {
    "commonName": "Monterey Dorid",
