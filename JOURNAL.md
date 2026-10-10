@@ -5,6 +5,165 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-10:start -->
+## 2026-10-10 — Heartbeat: Port Townsend archive and explicit-UTC audit
+
+**One primary action:** completed the queued Port Townsend guide refresh.
+Description/lead/FAQ no longer promise four remaining windows: Sep 22 and
+Oct 5–7 are now explicitly historical. Full Oct 10–Dec 31 scan confirms
+zero windows with >=30 minutes of daylight overlap, not zero low tides.
+The first 2027 Good window is Feb 15 (-0.774 ft, 5:04 PM, score 65,
+158 daylight minutes; sunset 5:33 PM). Feb 17's -1.635 ft low at 7:06 PM
+is AFTER 5:36 PM sunset, and Jan 18's -1.457 ft low at 6:32 PM is AFTER
+4:49 PM sunset; their 57/39 daylight minutes occur earlier. The Jan 18
+mechanical arrival offset, 5:32 PM, is itself after sunset. None is an
+access, opening-time or return-margin instruction. November/December's
+22 counts are labeled modeled windows, not exhaustive raw NOAA lows.
+
+Original title, URL, July 7 publish date, station gate and all four tables
+are preserved. Removed unsupported observation, coast-wide and lunar-phase
+claims. Rechecked Fort Worden's official page in the browser (fetch returned
+403, ordinary public page rendered): $10/$45 Discover Pass, summer
+6:30 a.m.–dusk and winter 8 a.m.–dusk. Jefferson County's official North
+Beach listing gives facilities, not park hours; its Public Health footer
+is not beach-opening evidence. NPS Point Reyes guidance fetched 200 and is
+explicitly California-specific, not Port Townsend arrival/turnaround advice.
+Species use the Oct 10 research-grade/5-km/60-day snapshot: Nuttall's Cockle
+and Mossy Chiton four reports each, Gumboot Chiton and Frilled Dogwinkle
+three each, with attribution and observational limits. `updated:` Oct 10
+reflects real maintenance; this is not a title/conversion experiment.
+
+**Coordination/selection:** fast-forwarded from `797c1e8` to `33bdf8f`;
+today's Puget archive, newsletter daylight correction and partial Sunset Bay
+archive already shipped. No duplicate action. Latest remote checked again
+before integration; isolated candidate uses exactly `33bdf8f` plus this
+article. All 126 pre-existing modified/untracked files (held Haystack and
+minus-tide edits, four newsletter drafts, three evidence directories) hash
+unchanged and excluded. Zero new editorial additions this week; this is
+one existing-page refresh. Queue moves from four to three ready briefs,
+so no refill: Port Orford, sea-glass, Sunset Bay's remaining full refresh.
+
+GSC candidate baseline, Web/final/all countries/devices, Sep 9–Oct 6 versus
+Aug 12–Sep 8, on Search Console's Pacific dates:
+
+| Guide | Current clicks / impressions / CTR / position | Prior | Decision |
+| --- | --- | --- | --- |
+| Port Townsend | 0 / 7 / 0% / 6.43 | 0 / 10 / 0% / 4.60 | Correct known expired/daylight claims |
+| Port Orford | no row; CTR/position unavailable | no row | Next factual-maintenance brief |
+| Sea-glass timing | 0 / 12 / 0% / 6.75 | 0 / 7 / 0% / 11.29 | Keep queued scope reconciliation |
+| Sunset Bay | 0 / 1 / 0% / 11.00 | no row | Do not repeat today's partial archive |
+
+No exact-page query rows for these four. Low exposure does not justify a
+title test or predicted uplift. Leading flywheel intents already have pages:
+Fitzgerald chart 180 impressions / three clicks / position 8.46; Oregon 2026
+104 / two / 8.20; Oregon 2027 84 / zero / 8.49; Glass Beach 27 / zero / 9.19.
+
+**Health:** latest five Actions successful, no open issues. Actual NOAA
+run 38046214172 ran 10:48:54–10:51:29Z; `d83f22d` created at
+10:51:24.564Z and pushed 10:51:26.548Z. Output verification passed
+12 stations x 5 months / 136 sitemap URLs at 10:51:22.799Z; IndexNow
+136 URLs returned HTTP 200 at 10:51:24.371Z. Latest run 38065418080
+skipped at 15:53:19.201Z because today's refresh already landed. Exact
+scheduled-slot attribution unavailable; no recovery dispatch needed.
+All twelve live station JSON files byte-match committed data generated
+2026-10-10T10:49:18.392Z. Eleven HTTP resources return 200, including
+home, Finder, Trip Picker, Golden Hour, calendars, Port Townsend station/
+month, Puget guide, newsletter, Sunset Bay and root OG PNG. No modeled
+score >=90 window across all twelve stations during Oct 10–24.
+
+Production browser ZIP 98101 selects Seattle. Depth filter any -> <=-1 ft
+updates summary, chart and cards consistently from 19 to seven qualifying
+lows; filtered first pick is Oct 25 11:13 PM / -1.1 ft, no ended Oct 6/7
+window. No warnings/errors observed in this smoke test. This does not
+establish universal site health or route safety.
+
+**Measurement correction:** PostHog project 495836 is America/New_York.
+Today's diagnostic proves an unzoned literal `2026-10-03 17:15:38` resolves
+four hours later than `toDateTime('2026-10-03 17:15:38','UTC')` (epochs
+1791062138 versus 1791047738). Equal-bound comparison: unzoned/explicit
+New York 552 pageviews; explicit UTC 567. Prior heartbeat journal labels
+such as Oct 9's "UTC" are therefore incorrect where their query used bare
+literals: those intervals were four hours later and could include audit
+activity after the nominal cutoff. Retain these append-only entries as
+historical records, but do not use them for day-over-day comparisons with
+the corrected series. No PostHog project/SDK configuration was changed.
+
+Every metric below uses explicit `toDateTime(...,'UTC')` half-open bounds,
+end Oct 10 17:15:38Z (before today's production browser activity), starts
+Oct 3 / Sep 12 at the same UTC time. Filters: `$host='thetidewindow.com'`
+and `$virt_traffic_type='Regular'`; event/property schema checked. Native
+connector UNAUTHORIZED; configured read-only repository fallback succeeded.
+7d: **567 pageviews / 514 distinct pageview IDs / two signup events**
+(0.39%). 28d: **1,898 / 1,750 / eight** (0.46%). Events/IDs and classified
+Regular traffic are not verified humans; signup events are not subscribers.
+Earlier unzoned trial reads from this run are discarded.
+
+7d event counts/distinct IDs: station_selected 25/17, window_result_viewed
+21/15, zip_lookup_used 16/11, trip_picker_run 4/2, calendar_gate_clicked
+11/11, ics_url_revealed 1/1, exit_intent_shown 21/21. 28d respective
+counts/IDs: 66/49, 53/41, 40/27, 16/10, 27/26, 2/2, 73/73. These are
+not matched funnels or experiment verdicts. Top 7d pageviews: national
+king dates 192, Oregon 109, Washington 64, Acadia 18, home 17, Finder 16,
+Fitzgerald 13, Seattle guide 11. Referring-domain pageviews: Bing 131,
+Google 126, direct 114, DDG 67, Yahoo 51, same-site 45; not entry sessions.
+28d signup sources: exit-intent three, end_article_gated two, station one,
+station_gate one, tool_gate one.
+
+Quality: all 567 classified pageviews have raw user agents; selected bot
+substrings/explicit agent fields found zero, not proof of human traffic.
+Exception flag null on 483, false on 84, true on zero; project exception
+opt-in null. One captured Oct 3 TypeError in BOTH corrected windows names
+`top.webkit.messageHandlers.foregroundToBackground.postMessage`; its
+18:35:09Z timestamp was incorrectly excluded by the unzoned 7d trial.
+Browser-shell involvement is plausible, not proven site causation, and
+capture coverage remains incomplete. Trailing 24h LCP: 29 measured events,
+p75 767 ms / p90 1,389.6 ms; small field sample, not a mobile/site verdict.
+
+**Search:** latest final date is still Oct 6; unchanged finalized data is
+not another day's growth. Property totals Sep 9–Oct 6: **285 clicks /
+14,970 impressions / 1.90% CTR / position 7.11**, versus Aug 12–Sep 8
+**160 / 11,249 / 1.42% / 8.14** (+78% clicks). Sep 30–Oct 6:
+**106 / 4,190 / 2.53% / 7.19**, versus Sep 23–29 **63 / 3,904 / 1.61% /
+6.62**. Seven-day clicks rose but position weakened; no causal claim.
+78 current page rows, 59 prior, 485 query rows; 25,000 cap not reached.
+Query-row totals are not property totals; no attribution to AI Mode.
+
+**Conversion/time gates:** Resend read-only: 20 contacts, 19 active / one
+unsubscribed, `has_more=false`. Oct 8 broadcast
+`08111cf4-8ab1-436d-b0b7-4e7b410248fd` sent at 12:07:16.490Z; response
+has no delivery/bounce/complaint fields, so those are unknown, not zero.
+No sync/send, experiment reopening or owner-gated exit-prompt change.
+Oct 15: final Seattle-August title readout (sole extension) and Mora Road
+access recheck; today's NPS road-conditions page still lists July 8–Oct 15
+closure, not confirmed reopening. Nov 1 month rollout needs November
+indexing evidence first. Existing dev-only dependency findings (seven high,
+zero production audit findings) and modeled/raw-low-count issue remain
+open; no dependency/config/generated-data mutation.
+
+**Validation/release:** isolated plain `npm run build` succeeds using
+default Turbopack/Next 16.3.8: 149 routes, 12x5 output checks / 136 sitemap
+URLs, 42 facts + six math + 15 format tests (63 total). Independently
+recomputed 156 chart extremes and 16 window rows; all four Markdown tables
+byte-identical. Full winter scan confirms Feb 17 deepest qualifying low;
+first-Good, zero remaining and after-dark claims checked from complete
+ranges. Article/FAQ schema matches all five source FAQs, description 147
+characters, canonical/indexability/sitemap Oct 10 lastmod correct, 41
+internal destinations resolve. 1280px/375px screenshots show readable
+layout/no document overflow; calendar gate opens with required empty email,
+no submission/unlock. Generated data/ICS/badges/facts and lockfile match
+the release base. Only article, JOURNAL and BACKLOG are staged for normal
+push; deployment/live confirmation follows separately, not inferred from
+local success. Analytics-led SEO skill guided factual maintenance, source
+rechecks and preservation of existing search intent instead of a title test.
+
+**Next:** Port Orford's queued summer/winter and expired-near-term correction,
+unless a fresh health/reader issue intervenes. Recheck this guide's factual
+currency at the next chart rollover; initial GSC follow-up Oct 31 or later
+as recrawl/traffic allows, directional only and no claim of SEO uplift.
+<!-- heartbeat-2026-10-10:end -->
+
+---
+
 ## 2026-10-10 — Archive Sunset Bay's expired summer framing
 
 **Confirmed clarity defect:** live guide, FAQ and index teaser still called

@@ -1,37 +1,36 @@
 ---
 title: "Port Townsend Tide Chart 2026: Low Tide Schedule & Tide Pools at Fort Worden and North Beach"
-description: "Port Townsend tide chart through October 2026: every high and low at NOAA station 9444900, plus the four remaining daylight windows and the season record."
+description: "Port Townsend tide chart through October 2026: every high and low at NOAA 9444900, archived daylight windows, and the 2027 daylight-overlap return."
 date: "2026-07-07"
-updated: "2026-09-20"
+updated: "2026-10-10"
 category: "station-guides"
 station: "port-townsend-wa"
 tags: ["port townsend tide chart", "port townsend tides", "port townsend tide pools", "fort worden", "north beach", "point wilson", "puget sound low tide", "tide pooling"]
 faq:
   - q: "Is tide-pooling season over in Port Townsend for 2026?"
-    a: "Effectively, yes. The September 5–10 run — peaking on Labor Day, September 7, with a −1.11 ft MLLW low at 7:20 AM, scored 80/100 at NOAA station 9444900 — was the year's last good daylight run. As of September 18, exactly four daylight windows remain in 2026, all scored Skip; the deepest is October 5's −0.23 ft at 5:48 AM, and that low itself lands before sunrise."
+    a: "As of October 10, no modeled window at NOAA Port Townsend station 9444900 has at least 30 minutes of daylight overlap remaining through December 31, 2026. Low tides still occur, including deep nighttime lows. The four marginal daylight windows previously listed for September 22 and October 5–7 are now past; their predictions and the complete tide chart through October 31 remain here as a record."
   - q: "When is the next good low tide at Port Townsend after 2026?"
-    a: "At dusk, in the winter king-tide season. The deepest daylight low NOAA station 9444900 shows between October 2026 and March 2027 is −1.64 ft at 7:06 PM on Wednesday, February 17, 2027, a Fair-band window in the last of the evening light; the Martin Luther King Jr. Day Monday, January 18, 2027, has a −1.46 ft low at 6:32 PM. Morning tide pooling returns in spring."
+    a: "The first 2027 window reaching Tidewindow's Good band is February 15: −0.77 ft MLLW at 5:04 PM, score 65, with 158 minutes of daylight overlap in the modeled window and sunset at 5:33 PM. The deeper February 17 low, −1.64 ft at 7:06 PM, is after 5:36 PM sunset; its 57 daylight minutes occur earlier and it scores Fair. A score describes predictions, not safe access or park opening hours."
   - q: "Do you need a Discover Pass to park at Fort Worden State Park?"
-    a: "Yes. Fort Worden is a Washington state park, and a Discover Pass is required for vehicle access — $10 for a one-day pass or $45 for the annual pass, per Washington State Parks. The park also posts day-use hours: 6:30 a.m. to dusk in summer and 8 a.m. to dusk in winter, worth checking against any pre-dawn arrive-by time."
+    a: "Yes. Washington State Parks lists a $10 one-day Discover Pass and a $45 annual pass for Fort Worden. Its posted day-use hours, checked October 10, 2026, are 6:30 a.m. to dusk in summer and 8 a.m. to dusk in winter. These are park hours, not a guarantee of tidepool or shoreline-route access."
   - q: "Is North Beach Park part of Fort Worden?"
-    a: "No — it is a separate Jefferson County day-use park that adjoins Fort Worden State Park on the Strait of Juan de Fuca side. The county calls it \"one of the few public access beaches on the north end of the Quimper Peninsula\" and lists a mowed grass area, restrooms, a picnic shelter, water and parking. Both lots open onto the same beach; the tide predictions for either come from NOAA station 9444900."
+    a: "No. Jefferson County describes North Beach Park as a one-acre waterfront park adjoining Fort Worden State Park, with a mowed grass area, restrooms, picnic shelter, water and parking. Its listing does not give park hours; the Public Health office hours elsewhere on that page are not beach-opening times. NOAA station 9444900 provides this guide's tide reference, not access rules for either park."
   - q: "What time should I arrive for low tide at Fort Worden?"
-    a: "About an hour before the predicted low. The National Park Service's tidepooling guidance is to be at the tidepool area at least an hour before low tide and to head back no later than an hour after it turns. Check the arrive-by time against Fort Worden's posted day-use opening (6:30 a.m. summer, 8 a.m. winter) — some early windows begin before the park's posted opening."
+    a: "The tables do not establish a safe arrival time for Fort Worden. The historical Arrive by column simply subtracts one hour from the predicted low; it contains no route, opening-time or return-margin calculation. For January 18, 2027, that offset would be 5:32 PM, already after the modeled 4:49 PM sunset. Park access rules, daylight and local conditions are separate from the tide prediction."
 sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444900"
   - "https://parks.wa.gov/find-parks/state-parks/fort-worden-historical-state-park"
   - "https://www.co.jefferson.wa.us/751/Active-Living"
   - "https://www.nps.gov/thingstodo/point-reyes-tidepooling.htm"
-  - "https://en.wikipedia.org/wiki/Cryptochiton_stelleri"
 ---
 
-**Port Townsend's daylight tide-pool season has closed for 2026. The September 5–10 run — peaking on Labor Day, September 7, at −1.11 ft MLLW, 7:20 AM, scored 80/100 — was the year's last good one at NOAA station 9444900. Exactly four daylight windows remain in 2026, all marginal; the deepest is October 5, −0.23 ft at 5:48 AM (score 27, Skip). The complete tide chart — every predicted high and low through October 31 — is in the table below.**
+**As of October 10, no window with at least 30 minutes of daylight overlap remains at NOAA Port Townsend station 9444900 through December 31, 2026. That does not mean there are no low tides: the complete high-and-low chart through October 31 is below. The four marginal September–October windows are now history, and the first Good-band window in the available 2027 predictions is February 15.**
 
-This page is now the season's record and its closing arithmetic: what the last run delivered, the handful of marginal mornings still on the books, and when the water and the light next meet. The beaches themselves — Fort Worden, North Beach, Point Wilson — aren't going anywhere, and neither is the practical detail further down.
+This page keeps the season's predicted schedule, the passed marginal mornings and the next daylight-overlap dates together. A qualifying window means daylight overlaps part of a modeled interval below +1 ft MLLW; it does not mean the low itself occurs in daylight, or that a beach route is accessible.
 
-## What's left in 2026: four marginal windows
+## The four final marginal windows, now past
 
-This is the complete list of remaining 2026 daylight-eligible windows at [Port Townsend (9444900)](/beaches/wa/port-townsend-wa/) — every window from September 18 onward with at least 30 minutes of daylight overlap, not a selection.
+These were all the remaining daylight-eligible windows at [Port Townsend (9444900)](/beaches/wa/port-townsend-wa/) when this section was computed on September 18. All four dates have passed. A fresh scan on October 10 confirms no later window through December 31 reaches the same 30-minute daylight-overlap threshold.
 
 | Date | Low (ft MLLW) | Time of low | Tide window | Daylight in window | Score |
 |---|---|---|---|---|---|
@@ -42,11 +41,17 @@ This is the complete list of remaining 2026 daylight-eligible windows at [Port T
 
 *Computed 2026-09-18 from NOAA station 9444900 predictions, MLLW. "Daylight in window" is the overlap between the below-+1-ft window and daylight; a window qualifies here at ≥30 minutes of overlap, which is not the same thing as the low itself being in daylight.*
 
-Read the fine print before setting an alarm. October 5 is the only minus tide in the set, but its 39 daylight minutes all come at the tail of the window — sunrise falls around 7:16 AM, so the 5:48 AM low itself lands in the dark, and the arrive-by time of 4:48 AM is earlier than either of Fort Worden's posted openings. On September 22 and October 7 the low does sit in daylight, but at +0.90 and +0.88 ft the shore barely opens beyond an ordinary low. None of these is a trip-worthy tide-pool morning; they're what the Skip band is for. The [October calendar](/beaches/wa/port-townsend-wa/2026-10/) has every window of that month if you want to see the arithmetic yourself.
+October 5 was the only minus tide in this set, with 39 daylight minutes at the tail of the window. Its modeled sunrise was around 7:16 AM, after the 5:48 AM low; the mechanical one-hour arrival offset, 4:48 AM, was earlier than either published seasonal park opening. September 22 and October 7 had lows in daylight, but all four windows scored Skip. The [October calendar](/beaches/wa/port-townsend-wa/2026-10/) keeps the month's modeled windows alongside their daylight labels.
 
-November and December each record 22 lows below +1 ft and **zero** daylight windows: every one of those lows lands after dark. That is not a data gap — it is the Sound's rhythm. The next time low water and daylight overlap here is the winter king-tide season, at dusk rather than dawn: the deepest is −1.64 ft at 7:06 PM on Wednesday, February 17, 2027, a Fair-band window in the last of the evening light, and the Martin Luther King Jr. Day Monday — January 18, 2027 — brings −1.46 ft at 6:32 PM. For morning tide pooling, the season reopens in spring.
+November and December each contain 22 **modeled below-+1-ft windows** and zero daylight-qualifying windows. These are resolved-window counts, not an exhaustive count of raw NOAA lows; the lows attached to those windows occur after sunset or before sunrise.
 
-If your dates are flexible, the [Tide Window Finder](/tools/tide-window-finder/) will check any day against the station's predictions, the [trip picker](/tools/trip-picker/) finds multi-day runs, and the [year heatmap](/tools/year-heatmap/) shows just how empty the back half of this calendar is.
+## The 2027 return: daylight overlap is not daylight at the low
+
+The first 2027 window reaching the Good band in the available predictions is **February 15: −0.77 ft at 5:04 PM, score 65**, with 158 daylight minutes within the modeled window and sunset at 5:33 PM. That score is not an access assessment or a return-time allowance.
+
+The deepest daylight-qualifying low of October 2026–March 2027 is February 17's **−1.64 ft at 7:06 PM**, but sunset is at **5:36 PM**. Its 57 daylight minutes fall earlier in the interval, and the window scores Fair. January 18's **−1.46 ft at 6:32 PM** likewise follows **4:49 PM** sunset, with 39 daylight minutes earlier. These are not lows to describe as happening in the evening light.
+
+The [Tide Window Finder](/tools/tide-window-finder/) checks the next 30 days; the [trip picker](/tools/trip-picker/) compares fixed travel dates within the available predictions. The [year heatmap](/tools/year-heatmap/) shows the seasonal pattern, including periods with no qualifying daylight windows.
 
 ## Port Townsend tide chart: October 2026 (and the rest of September)
 
@@ -99,13 +104,13 @@ The table below is the complete tide chart for station 9444900 from September 20
 
 *Computed 2026-09-20 from NOAA station 9444900 predictions, MLLW.*
 
-Read the timestamps before the depths. Within this range the station records 18 minus tides, and every one of them lands between 10:15 PM and 5:48 AM — deep in the night or, at best, well before sunrise. The deepest is −2.77 ft at 12:19 AM on Thursday, October 29, and the same date carries the range's highest water, +9.03 ft at 8:41 AM. That pairing — the deepest low and the highest high riding the same new moon — is the alignment behind the season's king tides; the [2026–2027 king tide calendar](/guides/king-tides-2026-2027-dates/) tracks the high end of the same curve. Of everything in this table, only the four windows in the section above clear the 30-minute daylight-overlap bar.
+Read the timestamps before the depths. Within this range the station records 18 minus tides, and every one of them lands between 10:15 PM and 5:48 AM — deep in the night or, at best, well before sunrise. The deepest is −2.77 ft at 12:19 AM on Thursday, October 29, and the same date carries the range's highest water, +9.03 ft at 8:41 AM. The [2026–2027 king tide calendar](/guides/king-tides-2026-2027-dates/) tracks the high-water side of the season. Of everything in this table, only the four windows in the section above clear the 30-minute daylight-overlap bar.
 
 The [Puget Sound low tide calendar](/guides/puget-sound-low-tide-calendar-2026/) sets these numbers beside Seattle's, day for day. Live charts with the daylight-window math attached are on this station's monthly calendar pages — [September 2026](/beaches/wa/port-townsend-wa/2026-09/) and [October 2026](/beaches/wa/port-townsend-wa/2026-10/) — and the [station page](/beaches/wa/port-townsend-wa/) always shows the next seven days of highs and lows.
 
 ## The Labor Day run, for the record: September 5–10, 2026
 
-The year's last real run went exactly as predicted. Here is how it lined up, day by day.
+These were the predictions for the September 5–10 run, not observations of what happened on the shore.
 
 | Date | Low (ft MLLW) | Time of low | Tide window | Arrive by | Score |
 |---|---|---|---|---|---|
@@ -120,7 +125,7 @@ The year's last real run went exactly as predicted. Here is how it lined up, day
 
 The depths across Saturday through Tuesday were nearly identical — all within a tenth of a foot of −1 ft — so daylight, not depth, decided the ranking. Saturday's low landed roughly an hour and a half before sunrise; Sunday's about twenty minutes before sunup. Monday was the first morning the low itself sat in daylight, which is why Labor Day, at a civilized 7:20 AM, took the top score even though it beat Sunday's depth by only a few hundredths of a foot. That the deepest, best-lit morning of the run fell on the holiday Monday was a genuine gift of the calendar.
 
-It was also a Puget-Sound-only event: the same new moon pulled the outer coast's lows back before dawn, so Port Townsend and the inland stations got the last usable run of the year to themselves. The [Puget Sound low tide calendar](/guides/puget-sound-low-tide-calendar-2026/) compares the season across the Sound's stations; in all, September held 8 daylight windows and 6 daylight minus tides here, and the [September calendar](/beaches/wa/port-townsend-wa/2026-09/) keeps every one of them.
+The [Puget Sound low tide calendar](/guides/puget-sound-low-tide-calendar-2026/) compares the season across the Sound's covered stations. September held 8 daylight-qualifying windows here, 6 with negative lows; the [September calendar](/beaches/wa/port-townsend-wa/2026-09/) keeps that record. These counts do not establish a coast-wide final-season date.
 
 ## For the record: the July 11–16 Exceptional run
 
@@ -137,30 +142,30 @@ The year's headline event is further back still, but it is worth keeping the num
 
 *Computed 2026-07-06 from NOAA station 9444900 predictions; preserved as a record of the run.*
 
-Set against that, September's −1.11 ft was modest — about 2.4 ft less draw-down than July's deepest. The right way to read the comparison isn't regret; it's that Port Townsend concentrates almost everything into two mid-summer moons, hands out one gentler holiday-weekend encore in early September, and then closes for the winter. The [West Coast roundup from that July week](/guides/west-coast-minus-tides-july-11-14-2026/) shows how the same run swept the whole coast.
+Set against that, September's −1.11 ft was modest — about 2.4 ft less draw-down than July's deepest. This is a comparison of predicted depths and daylight eligibility, not a statement that the parks close for winter. The [West Coast roundup from that July week](/guides/west-coast-minus-tides-july-11-14-2026/) compares the covered stations' predictions for the same dates.
 
 ## Where to go at Fort Worden
 
-The Port Townsend prediction station sits right off [Fort Worden Historical State Park](https://parks.wa.gov/find-parks/state-parks/fort-worden-historical-state-park), and the park is where most people work these tides. The shoreline to explore is the park's north-facing, cobble-and-sand stretch along the Strait of Juan de Fuca, which opens up on a deep low. The **Point Wilson** shoreline wraps around to the lighthouse at the park's northeast tip. (Washington State Parks notes that "though Point Wilson is only accessible through the park, it is not located on state parks land" — the lighthouse itself is federal.) Fort Worden also houses a natural history museum and aquarium that are part of the **Port Townsend Marine Science Center**, if you want to put names to what you find.
+[Fort Worden Historical State Park](https://parks.wa.gov/find-parks/state-parks/fort-worden-historical-state-park) is one local shoreline access point. Washington State Parks lists beach exploration and a rocky beach among its activities and features. Its page also lists the natural history museum and aquarium of the **Port Townsend Marine Science Center**. Those visitor facilities and the tide station serve different purposes: a tide prediction does not establish which shoreline route is open.
 
-Two practical notes before you go. A **Discover Pass is required for vehicle access** to Fort Worden, as at all Washington state parks — $10 for a one-day pass or $45 for the annual, per Washington State Parks. And the park publishes **day-use hours** — 6:30 a.m. to dusk in summer, 8 a.m. to dusk in winter — so on this station's early windows the gate, not just the tide, is a clock: check the current posted hours against the arrive-by time before committing to a dawn start.
+Access details rechecked October 10, 2026: a **Discover Pass is required for vehicle access**, with the park listing $10 for one day or $45 annually. Posted **day-use hours** are 6:30 a.m. to dusk in summer and 8 a.m. to dusk in winter. The tide model does not encode these hours, current alerts or route-specific access.
 
 ## North Beach: the county park next door
 
-The beach most of these windows point at is locally called North Beach, and it has its own front door: **North Beach Park**, a Jefferson County day-use park — not part of the state park — that adjoins Fort Worden on the Strait side. The county describes it as "one of the few public access beaches on the north end of the Quimper Peninsula" and "an excellent beachcombers' starting point for walks in either direction," and lists a mowed grass area, restrooms, a picnic shelter, water and parking on its one acre of waterfront. Both lots open onto the same shoreline, so you can start from either and walk the same beach; the county's page does not publish hours for its lot, so check signage there.
+**North Beach Park** is a separate county park adjoining Fort Worden, not another name for the state park. Jefferson County's listing, rechecked October 10, describes one acre of waterfront with grass, restrooms, a picnic shelter, water and parking. It does not give park-opening hours; the Public Health office hours in the page footer are not beach hours. The station is a common prediction reference, not evidence that the two parks share access rules.
 
 One boundary worth keeping: the tide predictions above say what the water will do, not what any route allows. Walking west from North Beach toward Glass Beach is a much longer, tide-dependent shoreline route with its own published guidance — the [Glass Beach tide guide](/guides/glass-beach-port-townsend-low-tide-2026/) covers it and is careful to distinguish station windows from route access. Don't stretch a Skip-band window into a point-to-point walk.
 
 ## What you'll find in the pools
 
-The last 60 days of community observations logged within a few kilometers of the station now lead with **Nuttall's Cockle** (*Clinocardium nuttallii*), with the **Gumboot Chiton** (*Cryptochiton stelleri*) — the largest chiton in the world, a leathery brick-red slab that can reach a foot long — a close second and the **Mossy Chiton** (*Mopalia muscosa*) third. Alongside them, observers have logged the **Pacific Oyster**, the nudibranchs **Monterey Dorid** and **White-lined Dirona**, the **Shield Limpet** and **Fingered Limpet**, and two dogwinkles — **Channeled** and **Frilled** (*Nucella canaliculata*, *N. lamellosa*). The Sound's cobble beaches hide as much as any rocky reef — you just have to look under and between.
+The October 10, 2026 snapshot of research-grade iNaturalist observations within 5 km over the preceding 60 days lists **Nuttall's Cockle** (*Clinocardium nuttallii*) and **Mossy Chiton** (*Mopalia muscosa*) with four reports each, followed by **Gumboot Chiton** (*Cryptochiton stelleri*) and **Frilled Dogwinkle** (*Nucella lamellosa*) with three each. These are community records, not a species census or a promise of what can be seen from the beach.
 
 *Species reflect recent iNaturalist observations near the station (CC BY-NC, © the individual observers); NOAA is the tide-prediction data source. What you actually see depends on the day.*
 
 ## How to work a window
 
-Use the arrive-by time in the tables, not the low time — the National Park Service's tidepooling guidance puts it plainly: "Be at the tidepool area at least an hour before low tide so that you have plenty of time to explore safely while the water is receding," and "Return no later than an hour after the tide has begun to rise."
+The historical table's **Arrive by** field is a mechanical one-hour subtraction from the predicted low. It supplies no park-opening time, route duration or return margin. For January 18, 2027, that calculation gives 5:32 PM, already after the modeled 4:49 PM sunset. It cannot serve as a universal arrival instruction for this coast.
 
-Footing is the real hazard, not the water depth. NPS notes that reaching the intertidal zone "requires travel over sand, slippery rocks covered with algae, and pools of water with depths of a foot or more," and advises "comfortable shoes that can get wet and still give good traction." And leave the beach as you found it: "Do not disturb tidal pools, marine animals, or other wildlife. If you do handle an organism (again, please don't), return it to the location that you found it." Turn rocks back the way they were lying — the underside is someone's roof.
+The linked [National Park Service guidance is for Point Reyes](https://www.nps.gov/thingstodo/point-reyes-tidepooling.htm), California. Its advice to arrive "at least an hour before low tide" does not establish a safe arrival or turnaround time at Fort Worden or North Beach. That source also asks visitors: "Do not disturb tidal pools, marine animals, or other wildlife." Local park rules and current conditions remain separate checks from the tide model.
 
-The alarm-setting advice, for now, is that there's no alarm to set: 2026 has given Port Townsend what it's going to. The next date worth circling is at the other end of the day — February 17, 2027, −1.64 ft in the last of the evening light — and the [Tide Window Finder](/tools/tide-window-finder/) will be holding the station's predictions in the meantime.
+For the rest of 2026, this station has no window meeting the 30-minute daylight-overlap definition. The 2027 outlook includes earlier daylight overlap around after-dark lows; February 15's Good-band low is before sunset, while the deeper February 17 low is not. The [station calendar](/beaches/wa/port-townsend-wa/) and [Tide Window Finder](/tools/tide-window-finder/) keep the predictions available without turning them into an access guarantee.

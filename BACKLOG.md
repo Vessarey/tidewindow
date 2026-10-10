@@ -405,7 +405,16 @@ briefs remain sea-glass and Sunset Bay.
       first/best/Exceptional claims across the complete relevant period.
       Keep the two station gates and the explicit access/arrival caveats.
 
-- [ ] **Port Townsend guide — retire four remaining windows; qualify dusk.**
+- [x] **Port Townsend guide — retire four remaining windows; qualify dusk.**
+      **Done 2026-10-10 heartbeat:** archived the four passed windows;
+      verified zero daylight-qualifying windows Oct 10–Dec 31 and the
+      first 2027 Good window on Feb 15. Jan 18 / Feb 17 lows are explicitly
+      after sunset; arrival offsets are not access instructions. Rechecked
+      official park/county/NPS sources and dated the current species snapshot.
+      Original title/date/slug/gate and all four tables preserved; 156 chart
+      extremes and 16 window rows recomputed, build/63 tests/schema/41 links
+      and desktop/mobile checks passed. Three ready briefs remain: Port
+      Orford, sea-glass and Sunset Bay's full access/remaining-season refresh.
       Target `port-townsend-fort-worden-tide-pools-2026`. Current 0 clicks /
       7 impressions / 0% CTR / position 6.43; prior 0 / 10 / 0% / 4.60.
       No query rows revealed; low exposure is not evidence for a title test.
