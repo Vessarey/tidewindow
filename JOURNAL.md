@@ -5,6 +5,39 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-10 — Distinguish newsletter sample tide intervals from daylight
+
+**Confirmed safety/date defect:** the live sample called Newport Oct 25
+“walkable 4:50 PM–8:30 PM” although its existing source sunset is 6:15 PM
+and its 6:37 PM low is after dark. The three sample rows were Oct 25/27,
+computed Oct 10, yet headed “This week.” Changed only the sample: heading
+now “Upcoming tide windows, next 30 days”; rows label the raw predicted
+tide interval and separately display existing daylight minutes, sunrise
+and sunset. Added safe-return guidance before sunset or site closing,
+with current access/weather/surf/tides checks. No walking times or safe
+access hours inferred from predictions. Newsletter delivery/signup behavior
+and metadata are unchanged.
+
+**Gates:** required fresh `PIPELINE_REFRESH=1 npm run build -- --webpack`
+passed, then restored only generated public data/ICS in the isolated tree
+and ran the exact release `npm run build -- --webpack`. Both pass on Next
+16.3.8: 149 routes, 12×5 monthly output checks, 136 sitemap URLs, 63 tests.
+Supported webpack fallback avoids the execution environment's blocked
+Turbopack worker port; production still uses the unchanged default build.
+All three source rows and tide values match the pre-release baseline,
+all dates fall within the actual 30-day horizon, and sunset/return copy
+renders. Editorial metadata/canonical/JSON-LD unchanged; local root-OG
+query fingerprint differs by bundler, but decoded pixels are identical.
+
+**Coordination/release:** isolated from published `797c1e8`; original
+checkout, owner-held article patches, newsletter drafts and target-file
+hashes remained untouched. No current operator/refresh collision. Publish
+via one normal push; require Ready and independent public sample checks.
+Revert only this correction commit for rollback. No analytics query or
+experiment judgment; the separate Sunset Bay refresh remains queued.
+
+---
+
 ## 2026-10-10 — Puget Sound calendar: archive passed October overlaps (§2e, P1 brief)
 
 **Health:** today's refresh `d83f22d` landed via run 38046214172 (10:48Z,

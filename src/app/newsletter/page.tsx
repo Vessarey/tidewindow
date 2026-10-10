@@ -32,14 +32,22 @@ export default function Newsletter() {
       <h2 className="mt-10 text-2xl">What an issue looks like</h2>
       <div className="mt-4 max-w-2xl rounded-lg border border-ink/20 bg-white/70 p-6">
         <p className="mono text-[0.72rem] uppercase tracking-wider text-ink-soft">Sample · Oregon coast edition · computed {fmtStamp(generatedAt)}</p>
-        <h3 className="mt-2 text-xl">This week the ocean gives back {sample[0] ? `${Math.floor(sample[0].w.daylightMin / 60)} hours` : "…"}</h3>
+        <h3 className="mt-2 text-xl">Upcoming tide windows, next 30 days</h3>
         {sample.map(({ s, w }) => (
           <p key={`${s.slug}-${w.lowTime}`} className="mt-3 text-[0.95rem]">
             <strong>{s.name}</strong> — {fmtDate(w.date)} ({w.weekday}): {w.lowHeight.toFixed(1)} ft at{" "}
-            <span className="num">{w.lowTimeLocal}</span>, walkable {w.windowStartLocal}–{w.windowEndLocal}. Score{" "}
-            {w.score}/100.
+            <span className="num">{w.lowTimeLocal}</span>. Predicted tide interval: {w.windowStartLocal}–{w.windowEndLocal}.
+            {" "}Daylight overlap: {w.daylightMin} minutes.
+            {w.sunriseLocal && <> Sunrise around {w.sunriseLocal}.</>}
+            {w.sunsetLocal && <> Sunset around {w.sunsetLocal}.</>}
+            {" "}Score {w.score}/100.
           </p>
         ))}
+        <p className="mt-4 text-[0.9rem] text-ink-soft">
+          Tide intervals can extend after dark; they are not safe-access hours. Plan visits within daylight and current
+          site hours, allowing enough time to be back off the tidal rocks before sunset or closing, whichever is earlier.
+          Skip a visit without a safe return margin, and check current access, weather, surf and tides before setting out.
+        </p>
         <p className="mt-4 text-[0.9rem] text-ink-soft">
           …plus what iNaturalist observers logged in the pools this month, and nothing else. Reading time: about two
           minutes.
