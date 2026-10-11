@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-10",
+ "generated_on": "2026-10-11",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -101,13 +101,13 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-10-10",
+   "date": "2026-11-07",
    "weekday": "Sat",
-   "low_ft": -0.436,
-   "low_time_local": "7:02 PM",
-   "window_local": "5:30 PM–8:45 PM",
-   "arrive_by_local": "6:02 PM",
-   "daylight_min": 70,
+   "low_ft": -0.357,
+   "low_time_local": "5:07 PM",
+   "window_local": "3:30 PM–6:55 PM",
+   "arrive_by_local": "4:07 PM",
+   "daylight_min": 87,
    "score": 46,
    "band": "Fair",
    "weekend_or_holiday": true
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-10",
-   "weekday": "Sat",
-   "low_ft": -0.436,
-   "low_time_local": "7:02 PM",
-   "window_local": "5:30 PM–8:45 PM",
-   "arrive_by_local": "6:02 PM",
-   "daylight_min": 70,
-   "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 265,
-   "min_to_sun_edge": -22
-  },
-  {
    "date": "2026-10-11",
    "weekday": "Sun",
    "low_ft": -0.681,
@@ -2072,28 +2058,37 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 242,
    "min_to_sun_edge": 31
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.357,
+   "low_time_local": "5:07 PM",
+   "window_local": "3:30 PM–6:55 PM",
+   "arrive_by_local": "4:07 PM",
+   "daylight_min": 87,
+   "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 249,
+   "min_to_sun_edge": -10
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 19
+   "count": 23
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 6
+   "count": 7
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 5
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 3
+   "count": 7
   },
   {
    "commonName": "Striped Dogwinkle",
@@ -2103,6 +2098,11 @@
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
+   "count": 2
+  },
+  {
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
    "count": 2
   },
   {

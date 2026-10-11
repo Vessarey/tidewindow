@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-10",
+ "generated_on": "2026-10-11",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2067,6 +2067,11 @@
    "count": 1
   },
   {
+   "commonName": "Gland Dorid",
+   "scientificName": "Polycerella glandulosa",
+   "count": 1
+  },
+  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 1
@@ -2094,11 +2099,6 @@
   {
    "commonName": "California frog shell",
    "scientificName": "Crossata californica",
-   "count": 1
-  },
-  {
-   "commonName": "Purple Olive Snail",
-   "scientificName": "Callianax biplicata",
    "count": 1
   }
  ]

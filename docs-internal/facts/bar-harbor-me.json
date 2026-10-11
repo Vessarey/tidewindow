@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-10",
+ "generated_on": "2026-10-11",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -25,18 +25,6 @@
    "arrive_by_local": "3:43 PM",
    "daylight_min": 132,
    "score": 59,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-10",
-   "weekday": "Sat",
-   "low_ft": -0.535,
-   "low_time_local": "5:23 PM",
-   "window_local": "3:55 PM–6:45 PM",
-   "arrive_by_local": "4:23 PM",
-   "daylight_min": 122,
-   "score": 57,
    "band": "Fair",
    "weekend_or_holiday": true
   },
@@ -109,6 +97,18 @@
    "arrive_by_local": "2:21 PM",
    "daylight_min": 134,
    "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "Sat",
+   "low_ft": 0.031,
+   "low_time_local": "4:00 PM",
+   "window_local": "2:50 PM–5:10 PM",
+   "arrive_by_local": "3:00 PM",
+   "daylight_min": 140,
+   "score": 49,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-10",
-   "weekday": "Sat",
-   "low_ft": -0.535,
-   "low_time_local": "5:23 PM",
-   "window_local": "3:55 PM–6:45 PM",
-   "arrive_by_local": "4:23 PM",
-   "daylight_min": 122,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 255,
-   "min_to_sun_edge": 34
-  },
-  {
    "date": "2026-10-11",
    "weekday": "Sun",
    "low_ft": -0.499,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 260,
    "min_to_sun_edge": -44
+  },
+  {
+   "date": "2026-10-29",
+   "weekday": "Thu",
+   "low_ft": 0.266,
+   "low_time_local": "7:13 AM",
+   "window_local": "6:20 AM–8:10 AM",
+   "arrive_by_local": "6:13 AM",
+   "daylight_min": 64,
+   "score": 21,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 109,
+   "min_to_sun_edge": 7
   }
  ],
  "species_last60d_5km": [
@@ -2093,7 +2093,7 @@
   {
    "commonName": "Soft-shelled Clam",
    "scientificName": "Mya arenaria",
-   "count": 5
+   "count": 4
   },
   {
    "commonName": "Common Atlantic Slippersnail",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-10",
+ "generated_on": "2026-10-11",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-10",
-   "weekday": "Sat",
-   "low_ft": 0.231,
-   "low_time_local": "5:18 PM",
-   "window_local": "3:40 PM–7:00 PM",
-   "arrive_by_local": "4:18 PM",
-   "daylight_min": 178,
-   "score": 53,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 249,
-   "min_to_sun_edge": 80
-  },
-  {
    "date": "2026-10-11",
    "weekday": "Sun",
    "low_ft": 0.065,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 249,
    "min_to_sun_edge": 40
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "Tue",
+   "low_ft": -0.836,
+   "low_time_local": "6:26 PM",
+   "window_local": "3:55 PM–9:05 PM",
+   "arrive_by_local": "5:26 PM",
+   "daylight_min": 141,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 256,
+   "min_to_sun_edge": -10
   }
  ],
  "species_last60d_5km": [
@@ -2091,14 +2091,14 @@
    "count": 25
   },
   {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 22
+  },
+  {
    "commonName": null,
    "scientificName": "Doto urak",
    "count": 21
-  },
-  {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 20
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -2121,8 +2121,8 @@
    "count": 16
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 14
   }
  ]

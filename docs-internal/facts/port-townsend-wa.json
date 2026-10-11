@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-10",
+ "generated_on": "2026-10-11",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1796,6 +1796,11 @@
    "count": 3
   },
   {
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
+   "count": 3
+  },
+  {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
    "count": 3
@@ -1803,11 +1808,6 @@
   {
    "commonName": "Hedgpeth's Sapsucker",
    "scientificName": "Elysia hedgpethi",
-   "count": 2
-  },
-  {
-   "commonName": "Fingered Limpet",
-   "scientificName": "Lottia digitalis",
    "count": 2
   },
   {
