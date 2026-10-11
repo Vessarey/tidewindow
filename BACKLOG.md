@@ -433,7 +433,17 @@ briefs remain sea-glass and Sunset Bay.
       guidance as a verified Port Townsend arrival/turnaround rule. Date
       or refresh the species snapshot rather than calling old counts recent.
 
-- [ ] **Port Orford — correct summer/winter scope and July/August premise.**
+- [x] **Port Orford — correct summer/winter scope and July/August premise.**
+      **Done 2026-10-11 (`0a7d012`):** lead/description/FAQ corrected with an
+      explicit in-body correction note (Jul 14 −2.459 beat Dec 24 −2.211; the
+      0.47-ft margin was vs Aug 12 only); new Oct 11–Dec 31 remaining table
+      (27 qualifying / 22 minus, Dec 22 the sole before-sunset deep low);
+      July tables archived verbatim as dated history; species re-dated to the
+      Oct 11 snapshot (15 reports / 9 taxa) with the "nobody is looking"
+      inference removed; cross-station king-season and morning-minus claims
+      re-verified against full window data; all six access sources re-fetched,
+      quotes held. Title/URL/date/gate preserved. See 2026-10-11 journal.
+      Original brief:
       Target `port-orford-tide-pools-2026` (published Jul 21, no updated date).
       No exact-page GSC row in either complete requested period; zero
       observed impressions/clicks, CTR/position unavailable, no query rows.

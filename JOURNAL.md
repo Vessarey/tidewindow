@@ -5,6 +5,71 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-11 — Port Orford: correct the deepest-daylight-low premise (§2e, P1 brief)
+
+**One primary action:** executed the Oct 9 Port Orford brief (`0a7d012`).
+The guide's lead, description and FAQ claimed Dec 24's −2.21 ft was the
+year's deepest daylight low, "nearly half a foot below anything summer
+managed." Current Jul–Dec facts contradict both: Jul 14 −2.459 ft
+(score 90, Exceptional) and Jul 15 −2.377 ft were deeper, and the
+half-foot margin held only against Aug 12's −1.742 ft. The rewrite states
+the correction explicitly in the body rather than silently replacing it.
+
+New lead table: Oct 11–Dec 31 has 27 windows with ≥30 min daylight
+overlap, 22 minus, verified against the full window range. Seven of the
+deepest eight remaining lows arrive after sunset; Dec 22 (−1.629 ft,
+4:39 PM vs 4:47 PM sunset, 153 daylight min) is the sole before-sunset
+exception and is framed as the usable pick. Weekend claim checked against
+all eleven remaining weekend windows: Nov 22 is best by score/band
+(Good 60), Nov 8 deeper by depth (−0.578); the text now says both.
+July top-8 and near-term tables are archived verbatim as dated history
+with their July 21 compute stamp and the "remaining meant Jul 21 onward"
+caveat. Cross-station claims re-verified against full data: Dec 24 is
+the deepest daylight-overlap-window low among the four OR stations this
+king season (Charleston −2.053, Newport −1.910, Garibaldi −1.659);
+Jan 21, 2027 (score 76) is the only Great-band row in the four stations'
+lowest-5 lists; zero morning minus lows ≤−1 ft at any OR station
+Aug 15–Dec 31. Jan 21 sunset corrected 5:17→5:16 PM (four minutes after
+the 5:12 low), Dec 24 sunset 4:49→4:48 PM. Newport's "photo finish"
+line (Aug-as-summer premise) removed. Species snapshot re-dated to the
+60 days before Oct 11: 15 research-grade reports / 9 taxa within ~5 km,
+nudibranch-heavy (Spotted Dorid 3; Clown/Monterey/Nanaimo Dorid and
+Horned Nudibranch 2 each); the "record is nearly blank / nobody is
+looking" inference and the stale La Jolla comparison are gone. All six
+official access sources re-fetched at write time and every quote held,
+including Redfish Rocks' "No ocean development" (verified separately).
+Added an explicit no-access-inference line to How-to-work-the-window.
+Title kept: "Oregon's Deepest Winter Low Tides" is true in king-season
+scope. URL, Jul 21 publish date, station gate and shores section intact.
+Description 152 chars. Build + verify-output (12×5, 136 URLs) + all
+three test suites green; diff contained only this article.
+
+**Health:** Daily refresh landed today — run 38134063704 success,
+`data: daily NOAA refresh 2026-10-11` (`4770de8`) at 11:04Z. Latest five
+runs green, no open issues. Facts regenerated 2026-10-11. Held files
+(Haystack/minus-tide edits, newsletter drafts, three evidence dirs)
+untouched and excluded via autostash round-trip.
+
+**Metrics (explicit UTC, half-open, end 2026-10-11 12:11:40Z, host
+thetidewindow.com, Regular traffic):** 7d 584 pageviews / 584 distinct
+pageview IDs / 2 signup events; 28d 1,927 / 1,926 / 9 (0.47% of
+distinct pageviews — events, not verified subscribers). Top 7d paths:
+national king dates 190, Oregon 2027 108, Washington 2027 67, Acadia 20,
+Finder 18, home 18. Comparable to Oct 10's corrected series (567/514/2).
+Note: today's distinct-ID counts nearly equal pageview counts, unlike
+Oct 10's 567/514; distinct uuid per event is near-tautological, so treat
+the ID column as a dedup check only, not uniques.
+
+**Tomorrow:** queue now holds two ready briefs (sea-glass scope
+reconciliation, Sunset Bay full refresh) — below the three-item floor,
+so per §2a the next run should refill from `gsc-query.mjs flywheel/
+queries` before or alongside its primary action. Weekly inspect-40 due
+with the new week (last done Oct 5). Oct 25–27 is the next Port Orford
+qualifying run; no Exceptional (90+) window anywhere Oct 11–24 per the
+Oct 10 scan.
+
+---
+
 ## 2026-10-10 — Port Townsend release receipt
 
 Source/audit commit `aab6f6d` pushed; Vercel deployment
