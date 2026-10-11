@@ -5,6 +5,20 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-10-11:start -->
+- [x] **2026-10-11 heartbeat — §2a ready-now queue refill, docs only.**
+      Morning Port Orford correction already shipped (`0a7d012`); not
+      repeated. Sea-glass and Sunset Bay were the only two ready briefs.
+      Added three bounded assignments below, restoring five: storm-guide
+      numerical/daylight review, Cabrillo and Pillar Point. Leading GSC
+      clusters already have pages; these are factual-maintenance briefs,
+      not three uncovered keyword opportunities or new experiments.
+      Storm's existing P2 consumer finding is promoted into one executable
+      article brief, not duplicated as a second implementation task. No
+      article, code, generated data, title or gate changed. Held files remain
+      untouched. See today's heartbeat journal for health and metrics.
+<!-- heartbeat-2026-10-11:end -->
+
 <!-- heartbeat-2026-10-09:start -->
 - [x] **2026-10-09 heartbeat — §2a ready-now queue refill, docs only.**
       Morning Yaquina roll-forward and subsequent dusk-arrival correction
@@ -368,6 +382,88 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-10-11-refill:start -->
+Three ready-now factual-maintenance assignments, checked Oct 11. Exact-page
+GSC baselines: Web/final/all countries/devices, Sep 12–Oct 9 versus
+Aug 15–Sep 11 (Pacific reporting dates). All three reveal no exact-page
+query rows. No-row pages mean zero observed clicks/impressions in this
+response, with CTR/position unavailable, not proven absence of demand or
+proof of indexing status. Property-query metrics below are not attributed
+to these guides. Preserve titles unless demonstrably inaccurate, URLs,
+original publication dates, useful historical tables and existing gates.
+Recompute full relevant ranges from current facts/data and re-fetch official
+access/safety sources at implementation. One article per run; no new station,
+conversion variant, schema change or owner-held Haystack/minus-tide patch.
+Sea-glass and Sunset Bay's remaining full refresh are the other two ready
+briefs. These known factual issues outrank speculative tiny-sample title tests.
+
+- [ ] **First: storm beachcombing — reconcile counts, dusk and arrival claims.**
+      Target `storm-beachcombing-winter-swell`; cluster/reader need: winter
+      beachcombing and daylight planning, with no revealed exact-page query
+      cluster. Page baseline 0 clicks / 9 impressions / 0% CTR / position
+      7.33; prior 0 / 8 / 0% / 5.25. This implements the Sep 29 P2 consumer
+      finding; the broader shared-schema audit stays separate. The Sep 29
+      update was access-only, not verification of the numerical content.
+      Full Oct–Dec data has 64 raw La Push lows below +1 ft versus 63
+      modeled windows, and 69 versus 68 at Port Orford. Label each quantity
+      precisely. Existing whole-month daylight-overlap totals still match:
+      La Push 19 qualifying / 12 minus; Port Orford 29 / 23. Do not relabel
+      these as remaining counts: Oct 11–Dec 31 is respectively 16 / 11 and
+      27 / 22. Qualifying means >=30 minutes of overlap, not daylight at low.
+      Recheck all ten king-season rows and use actual sunset timestamps:
+      nine lows occur after sunset; Port Orford Jan 21 is the exception
+      (5:12 PM low, 5:16 PM sunset, not the inferred 5:17). Remove the final
+      instruction to be on low gravel by the table's arrival offset:
+      Port Orford Dec 24 arrival is 5:14 PM AFTER 4:48 PM sunset, and
+      La Push Dec 23 arrival is 5:03 PM AFTER 4:29 PM sunset. An offset is
+      not route/access/return advice, and a tide prediction cannot establish
+      calm surf after a storm. Re-fetch NWS/NPS and other factual sources;
+      retain the Mora Road closure until reopening is officially confirmed.
+      Preserve dated historical tables where valid, and explicitly qualify
+      comparisons, daylight and any remaining-season lead/FAQ promises.
+
+- [ ] **Cabrillo — replace the incomplete six-date premise and passed next low.**
+      Target `cabrillo-tide-pools-2026`; query intent: Cabrillo tide-pool
+      chart and park-hour constraints. No page row in either baseline.
+      Property query `cabrillo tide pools tide chart` has 0 clicks / 7
+      impressions / position 12.71, but is NOT attributed to this guide.
+      The lead/description/FAQ call six dates the remaining usable set;
+      the full Oct 11–Dec 31 station dataset contains 44 daylight-overlap
+      windows, 33 minus (neither number establishes access). Omitted minus
+      examples Nov 7 (-0.173 ft, 2:07 PM), Nov 8 (-0.367, 2:43 PM),
+      Nov 22 (-0.480, 1:40 PM) and Nov 23 (-1.032, 2:24 PM) fall within
+      the article's stated hours. Re-fetch NPS hours/holidays/fees before
+      defining a current selection; do not call time arithmetic usable access.
+      Archive Sep 27 as passed, replace the September-forward link, and
+      remove its firm 3:22 PM arrival instruction. Audit all first/only/best
+      claims across the full applicable range, not a top-N facts list:
+      the existing clipped table itself gives Dec 22 290 minutes versus
+      Dec 23 250 and Dec 24 205, contradicting an unqualified best-full-window
+      claim for Dec 23. These are modeled overlaps with stated hours, not
+      available shore time. Distinguish raw lows from modeled windows;
+      retain valid summer history, qualify the 2027 outlook and date species.
+
+- [ ] **Pillar Point — archive the August dawn run and distinguish winter dusk.**
+      Target `pillar-point-tide-pools-2026`; query intent: Pillar Point
+      reef tide times/daylight. No page row in either baseline; the visible
+      property query `pillar point tide chart` is only 0 clicks / 1
+      impression / position 30, NOT attributed to this guide. Do not
+      borrow the station/month pages' substantially larger impressions.
+      Lead/description/FAQ and the August–September best-eight table still
+      present August 11–14 as upcoming. Preserve that table as dated history;
+      rebuild remaining-season framing from the complete range. Oct 11–Dec 31
+      currently has 74 modeled windows, 43 with >=30 daylight minutes,
+      34 of them minus; do not call 74 exhaustive raw lows. Dec 24's
+      -1.904 ft low at 5:10 PM is AFTER 4:57 PM sunset despite 157 daylight
+      minutes earlier. Dec 23 is -1.855 ft at 4:22 PM, before 4:56 PM
+      sunset (score 82); check the whole range before calling it best.
+      Check Nov 25 and Christmas dusk claims too. Re-fetch official harbor,
+      county and state access/protection sources; do not infer a safe walk
+      or return margin from a one-hour offset. Keep the Aug 10 species
+      snapshot explicitly historical or replace it with freshly dated
+      observations; remove unsupported current-species/light-angle claims.
+<!-- heartbeat-2026-10-11-refill:end -->
 
 <!-- heartbeat-2026-10-09-refill:start -->
 Three ready-now factual-maintenance briefs, verified Oct 9. Baselines are
@@ -2005,6 +2101,9 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       still need a separate complete-source audit, not a freshness stamp
       inferred from the closure update. Keep the existing numeric tables
       as evidence until reconciled; do not hand-edit generated outputs.
+      **Oct 11:** the storm article's numerical/daylight/arrival audit is
+      now the first P1 brief (heartbeat-2026-10-11-refill). Work it there
+      once; this P2 item remains the separate shared count-contract audit.
 
 - [x] **2026-09-07: fact-sheet date scope fixed and regression-gated (6bca506).**
       Shared `fact-range.mjs` now filters station/coast aggregates to the

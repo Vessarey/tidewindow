@@ -5,6 +5,158 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-11:start -->
+## 2026-10-11 — Heartbeat: restore five ready maintenance briefs
+
+**One primary action:** §2a queue refill, documentation only. Morning
+Port Orford correction `0a7d012` and journal `b85c517` already landed;
+verified the updated guide live rather than repeating it. Only sea-glass
+and Sunset Bay remained independently writable. Added three bounded P1
+briefs after fresh GSC and complete-source/data checks: storm beachcombing
+first, Cabrillo, Pillar Point. Storm promotes the existing Sep 29 consumer
+finding into an executable article assignment, not a duplicate task.
+Leading demand clusters already have matching pages, so these are known
+factual-maintenance opportunities, not three uncovered keywords or new
+title/conversion experiments. No public correction is shipped by this entry.
+
+Baseline: exact-page GSC Web/final, all countries/devices, Pacific reporting
+dates Sep 12–Oct 9 versus Aug 15–Sep 11:
+
+| Guide | Current clicks / impressions / CTR / position | Prior | Bounded correction |
+| --- | --- | --- | --- |
+| Storm beachcombing | 0 / 9 / 0% / 7.33 | 0 / 8 / 0% / 5.25 | Raw-count labels; sunset and arrival instructions |
+| Cabrillo | no row; CTR/position unavailable | no row | Incomplete six-date list; passed September next low |
+| Pillar Point | no row; CTR/position unavailable | no row | Expired August lead; after-sunset low labeled daylight |
+
+All three exact-page query reads returned no rows; this does not null the
+storm page's nine observed impressions. Cabrillo/Pillar Point have no page
+row either: zero observed clicks/impressions in that response, not an
+indexing verdict or proof of no demand. Existing sea-glass baseline is
+0/12/0%/6.75 versus 0/7/0%/11.29;
+Sunset Bay 0/1/0%/11.00 versus no row. Property query `cabrillo tide pools
+tide chart` has seven impressions / zero clicks / position 12.71, not
+guide-attributed. Leading covered flywheel heads: Fitzgerald chart
+171 impressions / 4 clicks / position 8.26; Oregon 2026 105/3/8.22;
+Oregon 2027 87/0/8.77; Glass Beach 27/0/9.19. Standard flywheel/queries
+commands ran; baseline uses the uncapped-by-results 25,000-row API reads,
+not the script's rolling dates/100-row fetch/40-row display.
+
+**Evidence for the briefs:** complete Oct 11–Dec 31 scan gives Cabrillo
+70 modeled windows / 44 daylight-overlap / 33 minus-overlap; Pillar Point
+74/43/34; La Push 52/16/11; Port Orford 58/27/22. Overlap requires >=30
+minutes and does not place the low itself in daylight. Cabrillo's six-date
+list omits Nov 7/8/22/23 lows at 2:07/2:43/1:40/2:24 PM; these fit the
+article's stated hours but do not prove current access. Its own clipped
+table gives Dec 22 more minutes than Dec 23, so best needs a stated
+criterion. Pillar Point Dec 24 low 5:10 PM is after 4:57 PM sunset.
+Storm's whole-Oct–Dec 63/68 quantities are modeled windows, versus raw
+NOAA lows below +1 ft of 64/69; whole-month daylight totals remain valid.
+Nine of its ten king-season selected lows occur after sunset. Port Orford
+Jan 21 is before sunset by four minutes (5:12/5:16 PM). Mechanical arrivals
+for Port Orford Dec 24 (5:14 PM) and La Push Dec 23 (5:03 PM) are already
+after their sunsets (4:48/4:29 PM), contradicting the closing low-gravel
+instruction. Implementation must re-fetch official sources, preserve
+historical material and access notices, and make no calm-surf inference.
+
+**Health:** five latest Actions successful, no open issues. Actual NOAA
+run 38134063704 ran 11:01:39–11:04:07Z; `4770de8` was created at
+11:04:02.134Z and pushed at 11:04:04.255Z. Output verification passed
+12 stations x 5 months / 136 URLs at 11:04:00.457Z; IndexNow submitted
+136 URLs with HTTP 200 at 11:04:01.917Z. Latest run 38155020139 skipped
+at 16:20:13.169Z because today's refresh already landed. Exact cron-slot
+attribution unavailable; no recovery dispatch needed. All twelve live
+station JSON files byte-match committed data generated
+2026-10-11T11:02:03.545Z. Eleven relevant live resources returned HTTP
+200; morning revision `b85c517` has Vercel success
+(`Hq39W7pbehc99H5eTB2VpBBNnQWp`). No modeled score >=90 window across
+the twelve stations Oct 11–25.
+
+Browser: live Port Orford lead renders Oct 11 framing and the 27/22
+remaining counts. Finder ZIP 98101 selects Seattle; depth any -> <=-1 ft
+changes summary/chart/cards consistently from 19 to eight qualifying lows.
+Filtered first pick is Oct 25 11:13 PM / -1.1 ft; no ended Oct 6/7 pick.
+Calendar gate renders at 375x812 with legible copy, email field and submit
+button; no signup submitted. No warnings/errors observed. Temporary
+viewport reset and test tab closed. These are bounded smoke checks, not
+universal health or route-safety proof.
+
+**PostHog:** project 495836, America/New_York; every reported query uses
+explicit half-open `toDateTime(...,'UTC')` bounds ending
+2026-10-11 17:16:16Z, starting Oct 4 (7d) or Sep 13 (28d) at the same
+time, production `$host='thetidewindow.com'`, `$virt_traffic_type='Regular'`.
+Native connector remains unauthorized; configured read-only fallback used.
+Broad combined query timed out; smaller separate event queries succeeded.
+Neither a timeout nor an absent metric was counted as zero.
+
+| Event | 7d events / distinct IDs | 28d events / distinct IDs |
+| --- | --- | --- |
+| Pageview | 591 / 543 | 1,938 / 1,797 |
+| Newsletter signup | 2 / 2 | 9 / 9 |
+| Station selected | 27 / 18 | 66 / 49 |
+| Window result viewed | 22 / 16 | 54 / 42 |
+| ZIP lookup | 17 / 12 | 41 / 28 |
+| Trip Picker run | 4 / 2 | 11 / 8 |
+| Calendar gate clicked | 11 / 11 | 27 / 26 |
+| ICS URL revealed | 1 / 1 | 2 / 2 |
+| Exit prompt shown | 20 / 20 | 75 / 75 |
+
+Signup events / distinct pageview IDs = 0.37% / 0.50%. These use
+`uniqExact(distinct_id)`, NOT the morning operator's event `uuid` column;
+memory-persisted IDs are not verified people, events are not subscribers,
+and event totals are not matched funnels. Top 7d pageviews: national king
+dates 188, Oregon 112, Washington 69, Acadia 20, Finder 18, home 17,
+Fitzgerald 13, Seattle guide 11. Referring-domain views: Bing 138,
+Google 134, direct 120, DDG 65, Yahoo 58, same-site 44; not entry sessions.
+28d signup sources: exit-intent four, end_article_gated two, station one,
+station_gate one, tool_gate one. No experiment verdict follows.
+
+Quality: all 591 pageviews classified Regular with raw user agents;
+selected bot substrings/explicit agent markers found zero, not proof of
+humans. Actual server-side exception flag is null on 512, false on 79,
+true on zero; project opt-in remains null. Zero captured exceptions in
+7d, one in 28d: Oct 3 18:35:09Z TypeError naming the WebKit
+foregroundToBackground message bridge. It has aged out of the 7d window,
+not demonstrated resolution. Capture coverage remains uncertain. Trailing
+24h LCP has 28 actual measurements, p75 505 ms / p90 851.2 ms, below the
+30-sample floor; no site/mobile performance verdict.
+
+**Search performance:** latest final date advanced to Oct 9. Sep 12–Oct 9
+property totals: **300 clicks / 15,183 impressions / 1.98% CTR / position
+7.06**, versus Aug 15–Sep 11 **176 / 11,821 / 1.49% / 7.99** (+70% clicks).
+Oct 3–9: **101 / 4,289 / 2.35% / 7.02**, versus Sep 26–Oct 2
+**86 / 4,130 / 2.08% / 6.91**. Seven-day clicks rose while position
+slightly weakened; directional comparisons, not causal lift. Page rows
+83 current / 58 prior, query rows 516; 25,000 cap not reached. Query-row
+totals do not equal property totals and do not establish AI Mode effects.
+
+**Gates:** read-only Resend lists 20 contacts: 19 active, one unsubscribed,
+no next page. Oct 8 broadcast `08111cf4-8ab1-436d-b0b7-4e7b410248fd`
+is sent at 12:07:16.490Z; these fields do not reveal delivery/bounce/
+complaint rates, which remain unavailable. No audience write or send.
+NPS road conditions (updated Oct 10, fetched 200) still lists Mora Road
+July 8–Oct 15 closure; construction end is not verified reopening:
+https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm.
+Weekly inspect-40 is due Oct 12, last completed Oct 5; do not repeat it
+Sunday or present stale coverage as current. Oct 15 Seattle August title
+readout gets its sole extension/final decision; Mora access recheck same
+date. November rollover still requires prior-batch indexing evidence.
+Exit-prompt retirement/owner-authority conflict stays open, no variant or
+configuration changed. Production dependency audit zero; full audit seven
+high development-only package findings in the already-queued braces and
+compression chains. No forced downgrade or dependency edit.
+
+**Validation/scope:** only BACKLOG.md and JOURNAL.md changed. No app,
+article, metadata, generated data or experiment release; local runtime
+build is not needed for this documentation-only change. Numeric checks,
+three-brief/queue-marker checks and diff/whitespace review passed. All 126
+pre-existing modified/untracked files hash-match and remain excluded. Push follows
+the playbook; deployment status is checked before handoff, not evidence
+of search uplift. Next: Oct 12 indexing check first, then the first ready
+maintenance brief if no higher-priority breakage or crawl issue is found.
+<!-- heartbeat-2026-10-11:end -->
+
+---
+
 ## 2026-10-11 — Port Orford: correct the deepest-daylight-low premise (§2e, P1 brief)
 
 **One primary action:** executed the Oct 9 Port Orford brief (`0a7d012`).
