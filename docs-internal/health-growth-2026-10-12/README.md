@@ -137,8 +137,14 @@ console errors in checked views. The link needed a fresh-state AX click
 after a Playwright click did not navigate; successful destination observed.
 No real subscription, broadcast, payment or outreach test.
 
-Release commit, Vercel result and final public checks will be recorded in
-the journal after deployment; local build success alone is not publication.
+Release commit `1587fba` pushed to main. At 17:34:34Z the article, tool
+and sitemap return 200, the exact new copy/link and canonical are public,
+and all twelve live station JSONs are still byte-identical to committed
+data. Live browser followed the new link to Golden Hour successfully.
+GitHub commit status remained pending with no Vercel entry at this check;
+public delivery is independently verified, not inferred from a green build
+or a nonexistent deployment-status result. All 126 held-file hashes remain
+unchanged. Local preview server stopped and temporary viewport restored.
 
 ## Retained gates and next action
 

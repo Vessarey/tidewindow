@@ -69,7 +69,15 @@ article internal links pass. The initial installed-16.3.3 build is only
 supplemental; no main-checkout dependency changes. At 375px, local new link
 reaches Golden Hour and loads La Jolla rows without page overflow. Source
 comparison proves original article text unchanged except updated date.
-Held work is excluded. Release verification follows below after deployment.
+Held work is excluded; all 126 pre-existing file hashes match the baseline.
+
+**Release:** `1587fba` pushed to main. At 17:34:34Z, public article,
+Golden Hour and sitemap return 200; new exact copy/link and canonical are
+present, no noindex, and all 12 live station JSONs remain byte-identical.
+Live browser follows the new link to Golden Hour with no captured console
+errors. GitHub commit status is still pending with no Vercel status entry
+at this check; public delivery is verified independently, but no green
+deployment-status claim is made. Recheck that status next run if absent.
 
 Full evidence and caveats: `docs-internal/health-growth-2026-10-12/`.
 **Next:** storm-guide factual brief; Oct 15 Seattle August final readout and
