@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-11",
+ "generated_on": "2026-10-12",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-11",
-   "weekday": "Sun",
-   "low_ft": -0.477,
-   "low_time_local": "7:30 PM",
-   "window_local": "5:45 PM–9:20 PM",
-   "arrive_by_local": "6:30 PM",
-   "daylight_min": 56,
-   "score": 45,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 269,
-   "min_to_sun_edge": -49
-  },
-  {
    "date": "2026-10-24",
    "weekday": "Sat",
    "low_ft": 0.193,
@@ -2072,27 +2058,26 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 247,
    "min_to_sun_edge": 4
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.571,
+   "low_time_local": "5:35 PM",
+   "window_local": "3:45 PM–7:30 PM",
+   "arrive_by_local": "4:35 PM",
+   "daylight_min": 75,
+   "score": 48,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 253,
+   "min_to_sun_edge": -35
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Branched Dendronotid",
-   "scientificName": "Dendronotus venustus",
-   "count": 20
-  },
-  {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 3
-  },
-  {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 2
-  },
-  {
-   "commonName": "Red Sponge Dorid",
-   "scientificName": "Rostanga pulchra",
    "count": 2
   },
   {
@@ -2101,13 +2086,13 @@
    "count": 2
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
+   "commonName": "Branched Dendronotid",
+   "scientificName": "Dendronotus venustus",
    "count": 2
   },
   {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 2
   },
   {
@@ -2116,13 +2101,28 @@
    "count": 2
   },
   {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 2
+  },
+  {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
    "count": 1
   },
   {
+   "commonName": "Red Sponge Dorid",
+   "scientificName": "Rostanga pulchra",
+   "count": 1
+  },
+  {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
+   "count": 1
+  },
+  {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
    "count": 1
   }
  ]

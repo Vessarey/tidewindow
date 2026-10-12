@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-11",
+ "generated_on": "2026-10-12",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-11",
-   "weekday": "Sun",
-   "low_ft": -0.174,
-   "low_time_local": "6:08 PM",
-   "window_local": "4:10 PM–8:15 PM",
-   "arrive_by_local": "5:08 PM",
-   "daylight_min": 148,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 257,
-   "min_to_sun_edge": 30
-  },
-  {
    "date": "2026-10-12",
    "weekday": "Mon",
    "low_ft": -0.174,
@@ -2072,43 +2058,52 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 256,
    "min_to_sun_edge": -12
+  },
+  {
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "low_ft": -1.172,
+   "low_time_local": "7:21 PM",
+   "window_local": "4:40 PM–10:20 PM",
+   "arrive_by_local": "6:21 PM",
+   "daylight_min": 96,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 263,
+   "min_to_sun_edge": -65
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 38
-  },
-  {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 17
-  },
-  {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 16
+   "count": 32
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 14
+   "count": 16
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 15
+  },
+  {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
+   "count": 13
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 12
-  },
-  {
-   "commonName": "Hammerhead Doto",
-   "scientificName": "Doto amyra",
-   "count": 10
+   "count": 11
   },
   {
    "commonName": "Hilton's Aeolid",
@@ -2116,14 +2111,19 @@
    "count": 8
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 7
-  },
-  {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 7
+   "count": 8
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 6
+  },
+  {
+   "commonName": "Rough Limpet",
+   "scientificName": "Lottia scabra",
+   "count": 4
   }
  ]
 }

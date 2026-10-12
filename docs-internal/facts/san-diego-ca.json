@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-11",
+ "generated_on": "2026-10-12",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2052,6 +2052,11 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "Flat spoonclam",
+   "scientificName": "Periploma planiusculum",
+   "count": 3
+  },
+  {
    "commonName": "Kelp Scallop",
    "scientificName": "Leptopecten latiauratus",
    "count": 2
@@ -2094,11 +2099,6 @@
   {
    "commonName": "Pismo Clam",
    "scientificName": "Tivela stultorum",
-   "count": 1
-  },
-  {
-   "commonName": "California frog shell",
-   "scientificName": "Crossata californica",
    "count": 1
   }
  ]

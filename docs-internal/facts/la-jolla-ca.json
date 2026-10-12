@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-11",
+ "generated_on": "2026-10-12",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2054,12 +2054,7 @@
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 73
-  },
-  {
-   "commonName": "Sorcerer's Dorid",
-   "scientificName": "Polycera atra",
-   "count": 23
+   "count": 51
   },
   {
    "commonName": "California Aglaja",
@@ -2067,29 +2062,29 @@
    "count": 23
   },
   {
-   "commonName": "Salt-and-pepper Doris",
-   "scientificName": "Aegires albopunctatus",
-   "count": 16
+   "commonName": "Sorcerer's Dorid",
+   "scientificName": "Polycera atra",
+   "count": 18
   },
   {
-   "commonName": "Stearns' Aeolid",
-   "scientificName": "Austraeolis stearnsi",
+   "commonName": "Salt-and-pepper Doris",
+   "scientificName": "Aegires albopunctatus",
    "count": 15
   },
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 15
+   "count": 14
   },
   {
    "commonName": "Hunchback Doris",
    "scientificName": "Atagema alba",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Colorful Dirona",
@@ -2097,9 +2092,14 @@
    "count": 11
   },
   {
-   "commonName": "Lesser Two-spot Octopus",
-   "scientificName": "Octopus bimaculoides",
-   "count": 11
+   "commonName": "Freckled Ancula",
+   "scientificName": "Ancula lentiginosa",
+   "count": 9
+  },
+  {
+   "commonName": "Stearns' Aeolid",
+   "scientificName": "Austraeolis stearnsi",
+   "count": 9
   }
  ]
 }

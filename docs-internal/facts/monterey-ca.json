@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-11",
+ "generated_on": "2026-10-12",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-11",
-   "weekday": "Sun",
-   "low_ft": 0.065,
-   "low_time_local": "6:00 PM",
-   "window_local": "4:10 PM–7:55 PM",
-   "arrive_by_local": "5:00 PM",
-   "daylight_min": 146,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 256,
-   "min_to_sun_edge": 36
-  },
-  {
    "date": "2026-10-12",
    "weekday": "Mon",
    "low_ft": 0.034,
@@ -2072,23 +2058,37 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 256,
    "min_to_sun_edge": -10
+  },
+  {
+   "date": "2026-10-28",
+   "weekday": "Wed",
+   "low_ft": -0.914,
+   "low_time_local": "7:20 PM",
+   "window_local": "4:45 PM–10:10 PM",
+   "arrive_by_local": "6:20 PM",
+   "daylight_min": 90,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 263,
+   "min_to_sun_edge": -65
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 68
+   "count": 66
   },
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 35
+   "count": 34
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 25
+   "count": 26
   },
   {
    "commonName": "California Mussel",
@@ -2108,12 +2108,12 @@
   {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
-   "count": 18
+   "count": 17
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 17
+   "count": 16
   },
   {
    "commonName": "San Diego Dorid",
@@ -2123,7 +2123,7 @@
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 14
+   "count": 15
   }
  ]
 }
