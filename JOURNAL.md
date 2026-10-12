@@ -5,6 +5,82 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-12:start -->
+## 2026-10-12 — Heartbeat: weekly indexing check and one photography path
+
+**One primary action:** section 2a-prime crawl-path pass. Morning homepage
+labels `e772550` and NOAA recovery `a045f41` were already live, not repeated.
+Five ready editorial briefs remain. Added one contextual Golden Hour link
+in the national king-tide guide's low-water planning section, expressly
+not a high-water photo calendar or access confirmation. Actual edit date
+advanced; original computation dates, all tables, title, description,
+canonical, gate and signup copy preserved. No generated data changed.
+
+**Indexing:** GSC Pages UI (Oct 8 report), All submitted: 85 indexed / 51
+Discovered of 136. All known: 85 indexed / 57 excluded of 142 (51
+Discovered, two Crawled-not-indexed, four redirects). All 51 submitted
+examples reviewed. Equivalent read-only `inspect 40` algorithm: 27 indexed,
+five Discovered, eight unknown; deterministic every-third prefix sample,
+not random. Trip Picker and California guide independently trigger the
+guide/tool condition despite only 32.5% of the sample being unindexed.
+Golden Hour appears Discovered in Pages but unknown in targeted Inspection;
+neither supplies a crawl date. National guide is indexed, matching
+canonicals, last crawl Oct 11. Static tools have no fake sitemap lastmod.
+
+National is the highest-click guide: exact-page Web/final Sep 13–Oct 10,
+101 clicks / 5,070 impressions / 1.99% CTR / position 6.83 versus Aug
+16–Sep 12, 47 / 2,251 / 2.09% / 6.89. Golden Hour has no page or query
+row in either span. Source revealed queries mainly express king-tide date
+intent, not proven photography demand; 22/1,760 revealed clicks/impressions
+are not the 101/5,070 page totals. Existing links already cover other
+uncrawled tools/guides; Golden Hour had a Seattle guide link, so this is
+incremental, not an orphan-page repair. Hypothesis: useful secondary reader
+path and possible crawl discovery, not a cause-of-indexing diagnosis or
+measured uplift. Review crawl status Oct 26; no new conversion experiment.
+
+**Performance:** property final Web GSC 28d 305 clicks / 15,423 impressions /
+1.98% CTR / position 7.02 versus 179 / 11,943 / 1.50% / 7.97. Seven days
+Oct 4–10: 102 / 4,483 / 2.28% / 6.84 versus 92 / 4,084 / 2.25% / 7.01.
+PostHog 495836, thetidewindow.com + Regular, exact UTC half-open bounds
+ending Oct 12 17:17:00Z: 7d 577 pageviews / 534 distinct pageview IDs /
+3 signup events; 28d 1,961 / 1,824 / 10. These are not verified humans,
+matched funnels or active subscribers. Read-only Resend: 19 active / one
+unsubscribed, October 8 broadcast still sent; bounce/complaint rates
+unavailable, not zero. No sends. LCP 24h n=27, p75 1,172ms, below floor.
+No experiment verdict or reopening. Connector auth failure used configured
+read-only fallback, not new credentials.
+
+**Health:** latest five Actions successful, no open issues. Morning recovery
+38248020584 ran 12:16:38–12:19:05Z; refresh pushed 12:19:02.313Z after
+136-URL verifier and IndexNow HTTP 200. Latest 38279693086 correctly
+skipped. Twelve live station JSONs byte-match data generated Oct 12
+12:17:02.045Z. Nine key routes and actual homepage OG PNG return 200;
+no 90+ window Oct 12–26. Mobile Finder ZIP matching, depth filtering and
+calendar gate render pass without form submission; Golden Hour loads
+current rows. Two Oct 11 Oregon-guide Safari exceptions reference WebKit's
+foreground/background message bridge with no app-source frame. IAB renders
+the guide without captured errors, not a Safari reproduction or complete
+telemetry proof. Production audit zero; full audit seven known dev entries.
+
+**Validation:** isolated e772550 archive plus the one article edit, exact
+lockfile install, Next 16.3.8 webpack build, 65 tests, 12 stations x five
+months / 136 sitemap URLs, lint, TypeScript, metadata/indexability and all
+article internal links pass. The initial installed-16.3.3 build is only
+supplemental; no main-checkout dependency changes. At 375px, local new link
+reaches Golden Hour and loads La Jolla rows without page overflow. Source
+comparison proves original article text unchanged except updated date.
+Held work is excluded. Release verification follows below after deployment.
+
+Full evidence and caveats: `docs-internal/health-growth-2026-10-12/`.
+**Next:** storm-guide factual brief; Oct 15 Seattle August final readout and
+Mora Road recheck. Fresh NPS road-conditions read still says closed; Oct 15
+is not confirmed reopening. Nov 1 indexing gate and exit-prompt owner
+reconciliation remain open. Planning guide's expired August-as-upcoming
+claims need a separate maintenance pass before extra promotion.
+<!-- heartbeat-2026-10-12:end -->
+
+---
+
 ## 2026-10-12 — Homepage prediction labels and missing-refresh recovery
 
 **Correction:** the homepage paired 209 daylight minutes with Pillar Point's

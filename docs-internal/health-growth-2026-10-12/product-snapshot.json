@@ -1,0 +1,130 @@
+{
+  "asOfUTC": "2026-10-12T17:17:00Z",
+  "project": 495836,
+  "projectTimezone": "America/New_York",
+  "filters": {
+    "properties.$host": "thetidewindow.com",
+    "properties.$virt_traffic_type": "Regular"
+  },
+  "bounds": "half-open explicit toDateTime(..., 'UTC')",
+  "windows": {
+    "seven": {
+      "start": "2026-10-05T17:17:00Z",
+      "end": "2026-10-12T17:17:00Z",
+      "pageviews": 577,
+      "pageviewDistinctIds": 534,
+      "signupEvents": 3,
+      "signupDistinctIds": 3,
+      "stationSelected": [
+        32,
+        22
+      ],
+      "windowResultViewed": [
+        26,
+        19
+      ],
+      "zipStationMatched": [
+        18,
+        13
+      ],
+      "tripPickerRun": [
+        4,
+        2
+      ],
+      "calendarGateClicked": [
+        12,
+        12
+      ],
+      "icsUrlRevealed": [
+        1,
+        1
+      ],
+      "exitPromptShown": [
+        23,
+        23
+      ],
+      "exceptions": [
+        2,
+        1
+      ]
+    },
+    "twentyEight": {
+      "start": "2026-09-14T17:17:00Z",
+      "end": "2026-10-12T17:17:00Z",
+      "pageviews": 1961,
+      "pageviewDistinctIds": 1824,
+      "signupEvents": 10,
+      "signupDistinctIds": 10,
+      "stationSelected": [
+        69,
+        52
+      ],
+      "windowResultViewed": [
+        57,
+        44
+      ],
+      "zipStationMatched": [
+        41,
+        29
+      ],
+      "tripPickerRun": [
+        10,
+        7
+      ],
+      "calendarGateClicked": [
+        28,
+        27
+      ],
+      "icsUrlRevealed": [
+        2,
+        2
+      ],
+      "exitPromptShown": [
+        79,
+        79
+      ],
+      "exceptions": [
+        3,
+        2
+      ]
+    }
+  },
+  "pairSemantics": "event count, distinct_id count within that event; not a matched funnel or verified people",
+  "signupSources28": {
+    "exit-intent": 5,
+    "end_article_gated": 2,
+    "station": 1,
+    "station_gate": 1,
+    "tool_gate": 1
+  },
+  "quality7": {
+    "pageviewRows": 577,
+    "botFlagNull": 506,
+    "botFlagFalse": 71,
+    "botFlagTrue": 0,
+    "selectedBotAgentUaMarkers": 0,
+    "caveat": "Regular classification and sampled UA markers do not establish human traffic."
+  },
+  "lcp24": {
+    "observations": 27,
+    "p75ms": 1172,
+    "p90ms": 2501.6,
+    "floor": 30,
+    "verdict": "below sample floor"
+  },
+  "resend": {
+    "contacts": 20,
+    "active": 19,
+    "unsubscribed": 1,
+    "hasMore": false,
+    "broadcastId": "08111cf4-8ab1-436d-b0b7-4e7b410248fd",
+    "status": "sent",
+    "sentAt": "2026-10-08T12:07:16.490381Z",
+    "bounceComplaintRates": null
+  },
+  "caveats": [
+    "PostHog native connector unauthorized; configured read-only API used.",
+    "Exception autocapture configuration null; observed exceptions do not establish complete instrumentation.",
+    "Two latest exceptions are Safari WebKit bridge TypeError events; no app-source cause established."
+  ]
+}

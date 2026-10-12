@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-12",
+  "property": "sc-domain:thetidewindow.com",
+  "rows": [
+    {
+      "url": "https://thetidewindow.com/tools/golden-hour/",
+      "status": 200,
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/king-tides-2026-2027-dates/",
+      "status": 200,
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-11T11:44:55Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/king-tides-2026-2027-dates/",
+      "userCanonical": "https://thetidewindow.com/guides/king-tides-2026-2027-dates/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE"
+    }
+  ]
+}

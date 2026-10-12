@@ -5,6 +5,19 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+<!-- heartbeat-2026-10-12:start -->
+- [x] **2026-10-12 heartbeat — weekly indexing and one contextual path.**
+      Morning NOAA recovery and homepage correction already completed.
+      Submitted-page GSC report: 85 indexed / 51 Discovered of 136;
+      deterministic 40-URL inspection: 27 indexed / five Discovered /
+      eight unknown. Uncrawled guides/tools trigger section 2a-prime.
+      Added national king-tide guide -> Golden Hour in low-water planning
+      context only; no title, table, gate, experiment or data changes.
+      All 65 tests and output checks pass; see journal/evidence directory
+      for deployment status and source/report discrepancy. Review crawl
+      status Oct 26, without claiming link-caused indexing or uplift.
+<!-- heartbeat-2026-10-12:end -->
+
 <!-- heartbeat-2026-10-11:start -->
 - [x] **2026-10-11 heartbeat — §2a ready-now queue refill, docs only.**
       Morning Port Orford correction already shipped (`0a7d012`); not
@@ -1986,6 +1999,17 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       relevance first; prefer harmonic.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
+
+- [ ] **Oct 12 crawl-path audit follow-up — planning guide freshness.**
+      Before promoting `how-to-plan-a-tidepooling-trip-around-minus-tides`,
+      remove its July-29 premise that August 8–14 is still upcoming. Recheck
+      the annual-sounding 940/535 totals against the actual dataset scope,
+      separate daylight overlap from daylight at low, and review mechanical
+      arrive-one-hour-before / route-return wording against current official
+      sources. Retain historical tables, URL and signup gates; no new title
+      experiment on an uncrawled surface. This is a discovered maintenance
+      need, not an extra implementation in today's one-link action. The five
+      existing ready P1 briefs remain first in the editorial queue.
 
 - [x] **Oct 6 bounded production-dependency patch.** Sharp 0.35.4 →
       0.35.5 (required @img binaries/libvips 1.3.4, rsvg 2.63.2) and

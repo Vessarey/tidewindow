@@ -1,0 +1,6096 @@
+{
+  "end": "2026-10-10",
+  "spans": {
+    "current28": [
+      "2026-09-13",
+      "2026-10-10"
+    ],
+    "previous28": [
+      "2026-08-16",
+      "2026-09-12"
+    ],
+    "current7": [
+      "2026-10-04",
+      "2026-10-10"
+    ],
+    "previous7": [
+      "2026-09-27",
+      "2026-10-03"
+    ]
+  },
+  "totals": {
+    "current28": {
+      "clicks": 305,
+      "impressions": 15423,
+      "ctr": 0.019775659728976203,
+      "position": 7.022887894702717,
+      "days": 28
+    },
+    "previous28": {
+      "clicks": 179,
+      "impressions": 11943,
+      "ctr": 0.014987858996901951,
+      "position": 7.970024282006196,
+      "days": 28
+    },
+    "current7": {
+      "clicks": 102,
+      "impressions": 4483,
+      "ctr": 0.0227526210127147,
+      "position": 6.838277938880214,
+      "days": 7
+    },
+    "previous7": {
+      "clicks": 92,
+      "impressions": 4084,
+      "ctr": 0.022526934378060724,
+      "position": 7.007590597453477,
+      "days": 7
+    }
+  },
+  "pages": {
+    "rows": [
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/king-tides-2026-2027-dates/"
+        ],
+        "clicks": 101,
+        "impressions": 5070,
+        "ctr": 0.01992110453648915,
+        "position": 6.826232741617357
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/fitzgerald-marine-reserve-tide-pooling-2026/"
+        ],
+        "clicks": 39,
+        "impressions": 1203,
+        "ctr": 0.032418952618453865,
+        "position": 6.095594347464671
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/king-tides-washington-2027/"
+        ],
+        "clicks": 32,
+        "impressions": 1452,
+        "ctr": 0.02203856749311295,
+        "position": 4.8856749311294765
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/seattle-alki-constellation-park-tide-pools-2026/"
+        ],
+        "clicks": 27,
+        "impressions": 506,
+        "ctr": 0.0533596837944664,
+        "position": 5.901185770750988
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/king-tides-oregon-2027/"
+        ],
+        "clicks": 23,
+        "impressions": 1119,
+        "ctr": 0.020554066130473638,
+        "position": 7.042895442359249
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/acadia-tide-pools-bar-island-ship-harbor/"
+        ],
+        "clicks": 21,
+        "impressions": 1193,
+        "ctr": 0.01760268231349539,
+        "position": 7.7418273260687345
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/oregon-coast-minus-tide-calendar-2026/"
+        ],
+        "clicks": 21,
+        "impressions": 469,
+        "ctr": 0.04477611940298507,
+        "position": 5.940298507462686
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/"
+        ],
+        "clicks": 5,
+        "impressions": 565,
+        "ctr": 0.008849557522123894,
+        "position": 8.930973451327434
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/glass-beach-port-townsend-low-tide-2026/"
+        ],
+        "clicks": 5,
+        "impressions": 119,
+        "ctr": 0.04201680672268908,
+        "position": 5.369747899159663
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-10/"
+        ],
+        "clicks": 4,
+        "impressions": 93,
+        "ctr": 0.043010752688172046,
+        "position": 4.118279569892473
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/how-to-read-a-tide-table/"
+        ],
+        "clicks": 4,
+        "impressions": 337,
+        "ctr": 0.011869436201780416,
+        "position": 9.70919881305638
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/agate-hunting-oregon-coast/"
+        ],
+        "clicks": 3,
+        "impressions": 127,
+        "ctr": 0.023622047244094488,
+        "position": 6.433070866141732
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/tools/tide-window-finder/"
+        ],
+        "clicks": 3,
+        "impressions": 132,
+        "ctr": 0.022727272727272728,
+        "position": 14.696969696969697
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/monterey-ca/"
+        ],
+        "clicks": 2,
+        "impressions": 60,
+        "ctr": 0.03333333333333333,
+        "position": 8.8
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/san-diego-ca/"
+        ],
+        "clicks": 2,
+        "impressions": 227,
+        "ctr": 0.00881057268722467,
+        "position": 19.09251101321586
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/"
+        ],
+        "clicks": 2,
+        "impressions": 25,
+        "ctr": 0.08,
+        "position": 6.16
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/seattle-wa/2026-08/"
+        ],
+        "clicks": 2,
+        "impressions": 532,
+        "ctr": 0.0037593984962406013,
+        "position": 7.154135338345864
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/"
+        ],
+        "clicks": 2,
+        "impressions": 294,
+        "ctr": 0.006802721088435374,
+        "position": 8.129251700680271
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/best-time-to-go-tide-pooling/"
+        ],
+        "clicks": 2,
+        "impressions": 183,
+        "ctr": 0.01092896174863388,
+        "position": 5.912568306010929
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/puget-sound-low-tide-calendar-2026/"
+        ],
+        "clicks": 2,
+        "impressions": 122,
+        "ctr": 0.01639344262295082,
+        "position": 6.811475409836065
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-10/"
+        ],
+        "clicks": 1,
+        "impressions": 113,
+        "ctr": 0.008849557522123894,
+        "position": 4.929203539823009
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/what-is-a-minus-tide/"
+        ],
+        "clicks": 1,
+        "impressions": 149,
+        "ctr": 0.006711409395973154,
+        "position": 5.624161073825503
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/yaquina-head-otter-rock-tide-pools-2026/"
+        ],
+        "clicks": 1,
+        "impressions": 30,
+        "ctr": 0.03333333333333333,
+        "position": 8.5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/"
+        ],
+        "clicks": 0,
+        "impressions": 45,
+        "ctr": 0,
+        "position": 8.177777777777777
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/about/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 4.2
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/"
+        ],
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 15.642857142857142
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 9.25
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 26,
+        "ctr": 0,
+        "position": 8.923076923076923
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 5.222222222222222
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/monterey-ca/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 12.363636363636363
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/"
+        ],
+        "clicks": 0,
+        "impressions": 250,
+        "ctr": 0,
+        "position": 6.832
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 8.954545454545453
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0,
+        "position": 8.1
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 5.833333333333333
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-10/"
+        ],
+        "clicks": 0,
+        "impressions": 349,
+        "ctr": 0,
+        "position": 7.63323782234957
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-11/"
+        ],
+        "clicks": 0,
+        "impressions": 23,
+        "ctr": 0,
+        "position": 7.086956521739131
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 41,
+        "ctr": 0,
+        "position": 7.829268292682927
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-10/"
+        ],
+        "clicks": 0,
+        "impressions": 81,
+        "ctr": 0,
+        "position": 5.580246913580247
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-11/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/me/bar-harbor-me/"
+        ],
+        "clicks": 0,
+        "impressions": 44,
+        "ctr": 0,
+        "position": 10.863636363636363
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/me/bar-harbor-me/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 438,
+        "ctr": 0,
+        "position": 8.440639269406393
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/charleston-or/2026-11/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 4.666666666666666
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/newport-or/"
+        ],
+        "clicks": 0,
+        "impressions": 24,
+        "ctr": 0,
+        "position": 7.541666666666667
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/newport-or/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/newport-or/2026-10/"
+        ],
+        "clicks": 0,
+        "impressions": 47,
+        "ctr": 0,
+        "position": 5.702127659574468
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/port-orford-or/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/port-orford-or/2026-11/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 12.25
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/la-push-wa/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/la-push-wa/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 42,
+        "ctr": 0,
+        "position": 8.619047619047619
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/la-push-wa/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 17.333333333333332
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 15.666666666666666
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 28,
+        "ctr": 0,
+        "position": 5.964285714285714
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/seattle-wa/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 93,
+        "ctr": 0,
+        "position": 8.29032258064516
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/seattle-wa/2026-09/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 16.81818181818182
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/calendars/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 30
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/contact/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/data/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/embed/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/best-tide-pools-oregon-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0,
+        "position": 6.275862068965517
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/best-tide-pools-washington-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 44,
+        "ctr": 0,
+        "position": 5.590909090909091
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/best-time-sea-glass-hunting/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 6.75
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/category/station-guides/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6.75
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/category/tide-basics/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/east-coast-tide-pooling-different/"
+        ],
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 6.318181818181818
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/golden-hour-low-tide-photography-calendar-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 6.166666666666667
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/haystack-rock-tidepool-windows-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 4.7
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/la-jolla-tide-pools-best-dates-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 103,
+        "ctr": 0,
+        "position": 5.728155339805825
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/oregon-coast-king-tides-2026-2027/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/pacific-grove-tide-pools-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 8.454545454545453
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/port-townsend-fort-worden-tide-pools-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/puget-sound-minus-tides-august-8-13-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/storm-beachcombing-winter-swell/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 7.333333333333333
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/sunset-bay-cape-arago-tide-pools-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/west-coast-minus-tides-july-11-14-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 7.5625
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/what-is-a-sneaker-wave/"
+        ],
+        "clicks": 0,
+        "impressions": 54,
+        "ctr": 0,
+        "position": 17.555555555555557
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/why-summer-lowest-tides-happen-at-dawn-pacific/"
+        ],
+        "clicks": 0,
+        "impressions": 100,
+        "ctr": 0,
+        "position": 5.36
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/king-tides/2026-2027/"
+        ],
+        "clicks": 0,
+        "impressions": 34,
+        "ctr": 0,
+        "position": 7.029411764705882
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/king-tides/2027/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/methodology/"
+        ],
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/newsletter/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 5.714285714285714
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/tools/"
+        ],
+        "clicks": 0,
+        "impressions": 40,
+        "ctr": 0,
+        "position": 5.65
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/tools/tide-window-finder"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "responseAggregationType": "byPage"
+  },
+  "priorPages": {
+    "rows": [
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/king-tides-2026-2027-dates/"
+        ],
+        "clicks": 47,
+        "impressions": 2251,
+        "ctr": 0.02087960906263883,
+        "position": 6.893380719680142
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/fitzgerald-marine-reserve-tide-pooling-2026/"
+        ],
+        "clicks": 36,
+        "impressions": 1513,
+        "ctr": 0.023793787177792465,
+        "position": 6.996034368803701
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/seattle-alki-constellation-park-tide-pools-2026/"
+        ],
+        "clicks": 14,
+        "impressions": 450,
+        "ctr": 0.03111111111111111,
+        "position": 6.517777777777778
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/"
+        ],
+        "clicks": 12,
+        "impressions": 383,
+        "ctr": 0.031331592689295036,
+        "position": 11.08093994778068
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/agate-hunting-oregon-coast/"
+        ],
+        "clicks": 9,
+        "impressions": 182,
+        "ctr": 0.04945054945054945,
+        "position": 6.543956043956044
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/oregon-coast-minus-tide-calendar-2026/"
+        ],
+        "clicks": 9,
+        "impressions": 355,
+        "ctr": 0.02535211267605634,
+        "position": 6.529577464788733
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/acadia-tide-pools-bar-island-ship-harbor/"
+        ],
+        "clicks": 7,
+        "impressions": 619,
+        "ctr": 0.011308562197092083,
+        "position": 7.483037156704362
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/seattle-wa/2026-08/"
+        ],
+        "clicks": 6,
+        "impressions": 948,
+        "ctr": 0.006329113924050633,
+        "position": 7.265822784810126
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/me/bar-harbor-me/2026-09/"
+        ],
+        "clicks": 5,
+        "impressions": 887,
+        "ctr": 0.005636978579481398,
+        "position": 7.600901916572717
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-09/"
+        ],
+        "clicks": 5,
+        "impressions": 125,
+        "ctr": 0.04,
+        "position": 4.4559999999999995
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/puget-sound-low-tide-calendar-2026/"
+        ],
+        "clicks": 4,
+        "impressions": 247,
+        "ctr": 0.016194331983805668,
+        "position": 6.05668016194332
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/why-summer-lowest-tides-happen-at-dawn-pacific/"
+        ],
+        "clicks": 4,
+        "impressions": 114,
+        "ctr": 0.03508771929824561,
+        "position": 6.56140350877193
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/"
+        ],
+        "clicks": 2,
+        "impressions": 45,
+        "ctr": 0.044444444444444446,
+        "position": 6.4222222222222225
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-08/"
+        ],
+        "clicks": 2,
+        "impressions": 235,
+        "ctr": 0.00851063829787234,
+        "position": 7.480851063829787
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/seattle-wa/2026-07/"
+        ],
+        "clicks": 2,
+        "impressions": 159,
+        "ctr": 0.012578616352201259,
+        "position": 8.50943396226415
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/haystack-rock-tidepool-windows-2026/"
+        ],
+        "clicks": 2,
+        "impressions": 23,
+        "ctr": 0.08695652173913043,
+        "position": 5.782608695652174
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/what-is-a-minus-tide/"
+        ],
+        "clicks": 2,
+        "impressions": 147,
+        "ctr": 0.013605442176870748,
+        "position": 6.462585034013605
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/king-tides/2026-2027/"
+        ],
+        "clicks": 2,
+        "impressions": 98,
+        "ctr": 0.02040816326530612,
+        "position": 12.316326530612244
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/monterey-ca/"
+        ],
+        "clicks": 1,
+        "impressions": 89,
+        "ctr": 0.011235955056179775,
+        "position": 8.53932584269663
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-10/"
+        ],
+        "clicks": 1,
+        "impressions": 150,
+        "ctr": 0.006666666666666667,
+        "position": 8.246666666666666
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/me/bar-harbor-me/"
+        ],
+        "clicks": 1,
+        "impressions": 98,
+        "ctr": 0.01020408163265306,
+        "position": 8.877551020408163
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-10/"
+        ],
+        "clicks": 1,
+        "impressions": 12,
+        "ctr": 0.08333333333333333,
+        "position": 7.083333333333333
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/"
+        ],
+        "clicks": 1,
+        "impressions": 163,
+        "ctr": 0.006134969325153374,
+        "position": 21.73006134969325
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/best-tide-pools-washington-2026/"
+        ],
+        "clicks": 1,
+        "impressions": 39,
+        "ctr": 0.02564102564102564,
+        "position": 6.871794871794871
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/east-coast-tide-pooling-different/"
+        ],
+        "clicks": 1,
+        "impressions": 11,
+        "ctr": 0.09090909090909091,
+        "position": 5.090909090909091
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/la-jolla-tide-pools-best-dates-2026/"
+        ],
+        "clicks": 1,
+        "impressions": 52,
+        "ctr": 0.019230769230769232,
+        "position": 5.403846153846154
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/methodology/"
+        ],
+        "clicks": 1,
+        "impressions": 25,
+        "ctr": 0.04,
+        "position": 15.28
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/about/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 4.25
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 10.11111111111111
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 6.461538461538462
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 504,
+        "ctr": 0,
+        "position": 7.4563492063492065
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/"
+        ],
+        "clicks": 0,
+        "impressions": 1082,
+        "ctr": 0,
+        "position": 7.759704251386322
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 61,
+        "ctr": 0,
+        "position": 8.770491803278688
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 202,
+        "ctr": 0,
+        "position": 7.584158415841584
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/ca/san-diego-ca/"
+        ],
+        "clicks": 0,
+        "impressions": 90,
+        "ctr": 0,
+        "position": 8.211111111111112
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/garibaldi-or/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/newport-or/"
+        ],
+        "clicks": 0,
+        "impressions": 31,
+        "ctr": 0,
+        "position": 6.129032258064516
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/newport-or/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/port-orford-or/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 6.636363636363637
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/or/port-orford-or/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6.25
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5.5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/la-push-wa/2026-07/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 11.75
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/la-push-wa/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 328,
+        "ctr": 0,
+        "position": 8.600609756097562
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-08/"
+        ],
+        "clicks": 0,
+        "impressions": 97,
+        "ctr": 0,
+        "position": 10.639175257731958
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/calendars/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 2.25
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/contact/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/best-time-sea-glass-hunting/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 11.166666666666666
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/category/tide-basics/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 22.75
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/golden-hour-low-tide-photography-calendar-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 8.666666666666668
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/how-to-read-a-tide-table/"
+        ],
+        "clicks": 0,
+        "impressions": 36,
+        "ctr": 0,
+        "position": 9.833333333333334
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/pacific-grove-tide-pools-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 66,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/port-townsend-fort-worden-tide-pools-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 4.555555555555555
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/storm-beachcombing-winter-swell/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 5.25
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/guides/west-coast-minus-tides-july-11-14-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 3.3846153846153846
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/newsletter/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 7.333333333333333
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/tools/"
+        ],
+        "clicks": 0,
+        "impressions": 24,
+        "ctr": 0,
+        "position": 16.458333333333336
+      },
+      {
+        "keys": [
+          "https://thetidewindow.com/tools/tide-window-finder/"
+        ],
+        "clicks": 0,
+        "impressions": 167,
+        "ctr": 0,
+        "position": 34.59281437125748
+      }
+    ],
+    "responseAggregationType": "byPage"
+  },
+  "queries": {
+    "rows": [
+      {
+        "keys": [
+          "king tides washington 2026"
+        ],
+        "clicks": 9,
+        "impressions": 777,
+        "ctr": 0.011583011583011582,
+        "position": 6.065637065637065
+      },
+      {
+        "keys": [
+          "king tides 2026-2027"
+        ],
+        "clicks": 5,
+        "impressions": 210,
+        "ctr": 0.023809523809523808,
+        "position": 7.038095238095238
+      },
+      {
+        "keys": [
+          "fitzgerald marine reserve tide chart"
+        ],
+        "clicks": 4,
+        "impressions": 171,
+        "ctr": 0.023391812865497075,
+        "position": 8.169590643274855
+      },
+      {
+        "keys": [
+          "constellation park tide pools"
+        ],
+        "clicks": 3,
+        "impressions": 36,
+        "ctr": 0.08333333333333333,
+        "position": 5.333333333333333
+      },
+      {
+        "keys": [
+          "king tides 2026"
+        ],
+        "clicks": 3,
+        "impressions": 264,
+        "ctr": 0.011363636363636364,
+        "position": 6.806818181818182
+      },
+      {
+        "keys": [
+          "king tides oregon coast 2026"
+        ],
+        "clicks": 3,
+        "impressions": 105,
+        "ctr": 0.02857142857142857,
+        "position": 8.219047619047618
+      },
+      {
+        "keys": [
+          "jv fitzgerald marine reserve tide chart"
+        ],
+        "clicks": 2,
+        "impressions": 14,
+        "ctr": 0.14285714285714285,
+        "position": 7
+      },
+      {
+        "keys": [
+          "king tides 2026 predictions"
+        ],
+        "clicks": 2,
+        "impressions": 49,
+        "ctr": 0.04081632653061224,
+        "position": 7.489795918367347
+      },
+      {
+        "keys": [
+          "king tides 2027"
+        ],
+        "clicks": 2,
+        "impressions": 114,
+        "ctr": 0.017543859649122806,
+        "position": 7.43859649122807
+      },
+      {
+        "keys": [
+          "king tides 2027 oregon coast"
+        ],
+        "clicks": 2,
+        "impressions": 46,
+        "ctr": 0.043478260869565216,
+        "position": 8.304347826086957
+      },
+      {
+        "keys": [
+          "oregon king tides 2026"
+        ],
+        "clicks": 2,
+        "impressions": 89,
+        "ctr": 0.02247191011235955,
+        "position": 7.640449438202247
+      },
+      {
+        "keys": [
+          "tide chart fitzgerald marine reserve"
+        ],
+        "clicks": 2,
+        "impressions": 8,
+        "ctr": 0.25,
+        "position": 7.75
+      },
+      {
+        "keys": [
+          "acadia national park tide chart"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 1,
+        "position": 11
+      },
+      {
+        "keys": [
+          "after that"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 1,
+        "position": 1
+      },
+      {
+        "keys": [
+          "bar island trail tide chart"
+        ],
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 0.3333333333333333,
+        "position": 15.666666666666666
+      },
+      {
+        "keys": [
+          "both"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 1,
+        "position": 9
+      },
+      {
+        "keys": [
+          "cabrillo tide pools tide chart"
+        ],
+        "clicks": 1,
+        "impressions": 9,
+        "ctr": 0.1111111111111111,
+        "position": 12.222222222222221
+      },
+      {
+        "keys": [
+          "constellation park low tide"
+        ],
+        "clicks": 1,
+        "impressions": 8,
+        "ctr": 0.125,
+        "position": 6.25
+      },
+      {
+        "keys": [
+          "florida king tides 2026"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 1,
+        "position": 3
+      },
+      {
+        "keys": [
+          "j v fitzgerald marine reserve tide chart"
+        ],
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 0.3333333333333333,
+        "position": 6.333333333333333
+      },
+      {
+        "keys": [
+          "king tide"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 1,
+        "position": 5
+      },
+      {
+        "keys": [
+          "king tide 2026"
+        ],
+        "clicks": 1,
+        "impressions": 47,
+        "ctr": 0.02127659574468085,
+        "position": 6.617021276595745
+      },
+      {
+        "keys": [
+          "king tide dates 2026"
+        ],
+        "clicks": 1,
+        "impressions": 33,
+        "ctr": 0.030303030303030304,
+        "position": 7.363636363636363
+      },
+      {
+        "keys": [
+          "king tide october 2026"
+        ],
+        "clicks": 1,
+        "impressions": 7,
+        "ctr": 0.14285714285714285,
+        "position": 6.142857142857143
+      },
+      {
+        "keys": [
+          "king tides 2026 2027"
+        ],
+        "clicks": 1,
+        "impressions": 55,
+        "ctr": 0.01818181818181818,
+        "position": 7.4
+      },
+      {
+        "keys": [
+          "king tides myrtle beach 2026"
+        ],
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 0.5,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tides oregon coast 2027"
+        ],
+        "clicks": 1,
+        "impressions": 22,
+        "ctr": 0.045454545454545456,
+        "position": 7
+      },
+      {
+        "keys": [
+          "september 19th"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 1,
+        "position": 3
+      },
+      {
+        "keys": [
+          "tide window"
+        ],
+        "clicks": 1,
+        "impressions": 13,
+        "ctr": 0.07692307692307693,
+        "position": 4
+      },
+      {
+        "keys": [
+          "what time is best for tide pools"
+        ],
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 0.5,
+        "position": 8
+      },
+      {
+        "keys": [
+          "when are the king tides in 2026"
+        ],
+        "clicks": 1,
+        "impressions": 28,
+        "ctr": 0.03571428571428571,
+        "position": 6.642857142857143
+      },
+      {
+        "keys": [
+          "when is low tide"
+        ],
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 0.5,
+        "position": 6
+      },
+      {
+        "keys": [
+          "%\"tide to open against southern cal next fall\""
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "1"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "10 minus 12"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 13
+      },
+      {
+        "keys": [
+          "10/1/26"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "2026 king tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 10.75
+      },
+      {
+        "keys": [
+          "2026 king tides"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "2026 king tides oregon"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 8.7
+      },
+      {
+        "keys": [
+          "2027 king tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "2027 tide tables"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "21 december"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "25 minus 7"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "9/25/26"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "a we wrześniu?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "acadia high tide"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "acadia national park high tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "acadia national park low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 14
+      },
+      {
+        "keys": [
+          "acadia tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 15
+      },
+      {
+        "keys": [
+          "acadia tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "keys": [
+          "acadia tides"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 15.5
+      },
+      {
+        "keys": [
+          "alki beach tide pools"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 10.666666666666666
+      },
+      {
+        "keys": [
+          "and san diego?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "and saturday?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "and what about friday?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "autumn tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 70
+      },
+      {
+        "keys": [
+          "bar harbor"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "bar harbor tide chart september 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "bar island tide pools"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 45
+      },
+      {
+        "keys": [
+          "beach at low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 71
+      },
+      {
+        "keys": [
+          "best low tide times"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "best tide pools washington coast"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "best tide pools washington state"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "best tidepooling washington"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "best time to go tide pooling"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 4.333333333333334
+      },
+      {
+        "keys": [
+          "best time to go tidepooling"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 8.625
+      },
+      {
+        "keys": [
+          "best time to see tide pools"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "best times to go today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "best times to.visit marine fitzgerald 2026"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "but what time"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "cabrillo national monument"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "calendar dates"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 14
+      },
+      {
+        "keys": [
+          "california king tides"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "can you tell me both please"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "coast calendar"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "compare to january"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "constellation park seattle"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 11.333333333333334
+      },
+      {
+        "keys": [
+          "constellation park tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 11.333333333333334
+      },
+      {
+        "keys": [
+          "daylight"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "easy hikes"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "em janeiro"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "end of october"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "exact low tide times"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "extended tide forecast"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "fishing"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "fitzgerald marine reserve"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "fitzgerald marine reserve low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "fitzgerald marine reserve tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "fitzgerald marine reserve tide table"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "fitzgerald marine reserve tides"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 10.666666666666666
+      },
+      {
+        "keys": [
+          "fitzgerald marine reserve weather"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "fitzgerald tide pools"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "for monday"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "fort worden tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 8.625
+      },
+      {
+        "keys": [
+          "fylling's illustrated guide to pacific coast tide pools"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 56
+      },
+      {
+        "keys": [
+          "glass beach"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "glass beach port townsend tide"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 6.666666666666667
+      },
+      {
+        "keys": [
+          "glass beach port townsend tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 28,
+        "ctr": 0,
+        "position": 9.107142857142858
+      },
+      {
+        "keys": [
+          "glass beach tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "half moon bay low tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "half moon bay tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "half moon bay tide pools schedule"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "has it already happened"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "herron island"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "high low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "high tide 2027"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "high tide acadia"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 17.25
+      },
+      {
+        "keys": [
+          "high tide acadia national park"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "high tide in acadia national park"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "high tide moon"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "high tide near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "high tide port townsend"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 52
+      },
+      {
+        "keys": [
+          "high tide san diego bay"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 87
+      },
+      {
+        "keys": [
+          "high tide san diego tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "keys": [
+          "high tide times"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "high tide today san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 75
+      },
+      {
+        "keys": [
+          "highest tide of the year 2026"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "hightide calendar"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "horarios de marea"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "how about friday and saturday"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "how about november 22"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "how do you read a tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 84
+      },
+      {
+        "keys": [
+          "how high is a king tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "how high?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "how long does high tide last"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 24
+      },
+      {
+        "keys": [
+          "how long does low tide last"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "how long does low tide last for"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "how low does it drop"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "how to read a tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 85
+      },
+      {
+        "keys": [
+          "how to read the tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 80
+      },
+      {
+        "keys": [
+          "how to read tide table"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "keys": [
+          "how to read tide tables"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 80.66666666666667
+      },
+      {
+        "keys": [
+          "in 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "in october 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "in san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "is it a king tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "is it high tide right now"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "is low tide in the morning or evening"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "january 2027"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "journey windows thunder tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "king"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "king tide 2026 schedule"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "king tide 2027"
+        ],
+        "clicks": 0,
+        "impressions": 21,
+        "ctr": 0,
+        "position": 7.476190476190476
+      },
+      {
+        "keys": [
+          "king tide calendar 2026"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 7.153846153846154
+      },
+      {
+        "keys": [
+          "king tide charleston"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3.5
+      },
+      {
+        "keys": [
+          "king tide charleston sc"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "king tide dates"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 7.8
+      },
+      {
+        "keys": [
+          "king tide flooding"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "king tide florida"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tide garden city sc 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tide hollywood beach"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "king tide in myrtle beach"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tide myrtle beach 2026 schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tide oregon coast 2026"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 9.4375
+      },
+      {
+        "keys": [
+          "king tide predictions 2026"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "king tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5.5
+      },
+      {
+        "keys": [
+          "king tide schedule 2026"
+        ],
+        "clicks": 0,
+        "impressions": 43,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "king tide schedule 2026 pdf"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 7.75
+      },
+      {
+        "keys": [
+          "king tide season"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tide september 2026"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 7.6
+      },
+      {
+        "keys": [
+          "king tide today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "king tide vancouver 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "king tide washington"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "king tides 2026 2027 predictions"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 5.5
+      },
+      {
+        "keys": [
+          "king tides 2026 2027 predictions pdf"
+        ],
+        "clicks": 0,
+        "impressions": 33,
+        "ctr": 0,
+        "position": 7.484848484848484
+      },
+      {
+        "keys": [
+          "king tides 2026 nc"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tides 2026 oregon"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9.333333333333334
+      },
+      {
+        "keys": [
+          "king tides 2026 oregon coast"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 10.25
+      },
+      {
+        "keys": [
+          "king tides 2026 washington state"
+        ],
+        "clicks": 0,
+        "impressions": 43,
+        "ctr": 0,
+        "position": 4.4186046511627906
+      },
+      {
+        "keys": [
+          "king tides 2027 oregon"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "king tides bay area 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "king tides california 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tides cape disappointment 2026"
+        ],
+        "clicks": 0,
+        "impressions": 23,
+        "ctr": 0,
+        "position": 7.391304347826087
+      },
+      {
+        "keys": [
+          "king tides dates"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "king tides dates 2026"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 6.1
+      },
+      {
+        "keys": [
+          "king tides december 2026"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6.25
+      },
+      {
+        "keys": [
+          "king tides definition"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "king tides florida"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tides florida 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tides in oregon 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "king tides january 2027"
+        ],
+        "clicks": 0,
+        "impressions": 27,
+        "ctr": 0,
+        "position": 6.111111111111111
+      },
+      {
+        "keys": [
+          "king tides monterey 2026"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 9.285714285714286
+      },
+      {
+        "keys": [
+          "king tides november 2026"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 7.181818181818182
+      },
+      {
+        "keys": [
+          "king tides ocean shores wa"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "king tides oregon 2026"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "king tides oregon 2026 predictions"
+        ],
+        "clicks": 0,
+        "impressions": 26,
+        "ctr": 0,
+        "position": 9.076923076923077
+      },
+      {
+        "keys": [
+          "king tides oregon 2026 schedule"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 6.625
+      },
+      {
+        "keys": [
+          "king tides oregon 2027"
+        ],
+        "clicks": 0,
+        "impressions": 87,
+        "ctr": 0,
+        "position": 8.770114942528735
+      },
+      {
+        "keys": [
+          "king tides oregon coast 2026 schedule"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "king tides puget sound"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "king tides san diego 2026 times"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "king tides schedule"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6.5
+      },
+      {
+        "keys": [
+          "king tides schedule 2026"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "king tides this year"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "king tides washington"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "kings tide 2026"
+        ],
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 7.954545454545454
+      },
+      {
+        "keys": [
+          "kings tide oregon"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "la jolla tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "la push beach tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 24
+      },
+      {
+        "keys": [
+          "la push tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "large tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "local low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "local tide table"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "long beach wa tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "long tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "low tide 240p"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 48
+      },
+      {
+        "keys": [
+          "low tide acadia"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 13.5
+      },
+      {
+        "keys": [
+          "low tide acadia national park"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 13
+      },
+      {
+        "keys": [
+          "low tide aiff"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 55
+      },
+      {
+        "keys": [
+          "low tide at fitzgerald marine reserve"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "low tide beach"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 61
+      },
+      {
+        "keys": [
+          "low tide constellation park"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 8.75
+      },
+      {
+        "keys": [
+          "low tide dthrip"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "low tide fitzgerald marine reserve"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "keys": [
+          "low tide glass beach"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "low tide in monterey"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "low tide in san diego today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 72
+      },
+      {
+        "keys": [
+          "low tide in seattle today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "low tide monterey"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "keys": [
+          "low tide mpc"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 40
+      },
+      {
+        "keys": [
+          "low tide on demand"
+        ],
+        "clicks": 0,
+        "impressions": 26,
+        "ctr": 0,
+        "position": 41.26923076923077
+      },
+      {
+        "keys": [
+          "low tide openh264"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 22.666666666666668
+      },
+      {
+        "keys": [
+          "low tide port townsend"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 2.5
+      },
+      {
+        "keys": [
+          "low tide san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "low tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "low tide schedule san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "low tide score"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 6.555555555555555
+      },
+      {
+        "keys": [
+          "low tide tales"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 24.5
+      },
+      {
+        "keys": [
+          "low tide telesync"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 42
+      },
+      {
+        "keys": [
+          "low tide tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "low tide tsrip"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 47
+      },
+      {
+        "keys": [
+          "low tide vp3"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 52
+      },
+      {
+        "keys": [
+          "low tide window"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "low tide wma"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 46
+      },
+      {
+        "keys": [
+          "low tides half moon bay"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "low tides san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 68
+      },
+      {
+        "keys": [
+          "low tides seattle 2026"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "low tife"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "lowest low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 30
+      },
+      {
+        "keys": [
+          "lowest tide of the year"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 26
+      },
+      {
+        "keys": [
+          "lowest tide of the year 2026"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 7.666666666666667
+      },
+      {
+        "keys": [
+          "lowest tides"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "lowest tides of the year"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "marine fitzgerald reserve tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 9.8
+      },
+      {
+        "keys": [
+          "mean low"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 19.333333333333332
+      },
+      {
+        "keys": [
+          "mean low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 47
+      },
+      {
+        "keys": [
+          "mean low water"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "mean low water line"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 29
+      },
+      {
+        "keys": [
+          "mid october"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "minus tides"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5.333333333333333
+      },
+      {
+        "keys": [
+          "minus tides oregon 2026"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 6.818181818181818
+      },
+      {
+        "keys": [
+          "mllw"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "mllw meaning"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 25.75
+      },
+      {
+        "keys": [
+          "mllw tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "monterey tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "monterey tides monterey ca"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "morning tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "nc king tide calendar 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "negative tide"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10.5
+      },
+      {
+        "keys": [
+          "negative tides oregon coast 2026"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 8.153846153846153
+      },
+      {
+        "keys": [
+          "newport oregon tide chart 2026"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "newport oregon tide tables 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "newport tide table 2026"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 22.5
+      },
+      {
+        "keys": [
+          "next king tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "next king tide brisbane"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "next king tide near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "next king tides"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "next king tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "next low"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "next time after that"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "next weekend"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "noaa annual tide tables 2025 pillar point harbor 9414131 pdf"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "north beach county park tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "north beach port townsend tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 11.2
+      },
+      {
+        "keys": [
+          "north beach port townsend tides"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "nov 5"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "november 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "ocean shores king tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "oct"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "oct 14"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "october"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "october 10 and 11"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "october 17-19"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "october 3, 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "october 4-6"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "olympic national park tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "olympic peninsula tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "oregon beach tides"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "oregon clam tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 52
+      },
+      {
+        "keys": [
+          "oregon coast king tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 76,
+        "ctr": 0,
+        "position": 8.31578947368421
+      },
+      {
+        "keys": [
+          "oregon coast king tides 2026 predictions"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "oregon coast king tides 2027"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 10.333333333333334
+      },
+      {
+        "keys": [
+          "oregon coast low tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "oregon king tides 2026 predictions"
+        ],
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 8.714285714285715
+      },
+      {
+        "keys": [
+          "oregon king tides 2027"
+        ],
+        "clicks": 0,
+        "impressions": 21,
+        "ctr": 0,
+        "position": 8.761904761904763
+      },
+      {
+        "keys": [
+          "oregon low tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8.666666666666668
+      },
+      {
+        "keys": [
+          "oregon tide tables 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "other days"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "pacific coast tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "peak hours"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "perfect time low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "pillar point tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "places near seattle"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "port of coos bay"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "port orford tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "port tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "port townsend tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "port townsend tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 49
+      },
+      {
+        "keys": [
+          "port townsend tide pools"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 9.2
+      },
+      {
+        "keys": [
+          "port townsend tide table"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "port townsend tide tables"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "port townsend tides"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 33.6
+      },
+      {
+        "keys": [
+          "port townsend tides and currents"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "port townsend tides today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "portland"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "puget sound tide chart 2026"
+        ],
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "puget sound tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "purpose of tide table"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "reading a tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "reading tide charts"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "reading tide tables"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 44
+      },
+      {
+        "keys": [
+          "sabado"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "san diego"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "keys": [
+          "san diego bay tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 47.5
+      },
+      {
+        "keys": [
+          "san diego high tides today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 56
+      },
+      {
+        "keys": [
+          "san diego low tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 57
+      },
+      {
+        "keys": [
+          "san diego low tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 65
+      },
+      {
+        "keys": [
+          "san diego ocean tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 78
+      },
+      {
+        "keys": [
+          "san diego tide"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 84
+      },
+      {
+        "keys": [
+          "san diego tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 64.33333333333334
+      },
+      {
+        "keys": [
+          "san diego tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "san diego tide today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "san diego tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 94
+      },
+      {
+        "keys": [
+          "san diego.tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 63
+      },
+      {
+        "keys": [
+          "san diego.tides"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 85.5
+      },
+      {
+        "keys": [
+          "san francisco"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "saturday"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "saturday october 11"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "saturday sept 19"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "scripps pier tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 54
+      },
+      {
+        "keys": [
+          "seattle low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "seattle low tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 9.4
+      },
+      {
+        "keys": [
+          "seattle tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "seattle tide charts"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 15
+      },
+      {
+        "keys": [
+          "seattle tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "sept 29"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "september 15 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "september 15, 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "september 20, 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "september 27, 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "shoreline tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 66
+      },
+      {
+        "keys": [
+          "sneaker wave"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 19.625
+      },
+      {
+        "keys": [
+          "sneaker wave definition"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "sneaker waves"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 46.2
+      },
+      {
+        "keys": [
+          "sneaker waves explained"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "south beach tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 15
+      },
+      {
+        "keys": [
+          "spring tide calendar 2026"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "spring tides 2027"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "sunset cliffs cave low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 55
+      },
+      {
+        "keys": [
+          "super tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 7.875
+      },
+      {
+        "keys": [
+          "sure"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "tak"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "the tides port townsend"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 30
+      },
+      {
+        "keys": [
+          "tidal chart san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 64
+      },
+      {
+        "keys": [
+          "tidal schedule"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "tide calendar 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "tide chart cabrillo beach"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "tide chart cabrillo national monument"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "tide chart for port townsend"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "tide chart half moon bay"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "tide chart half moon bay ca"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "tide chart la push wa"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 37
+      },
+      {
+        "keys": [
+          "tide chart oregon coast 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "tide chart pillar point"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 29
+      },
+      {
+        "keys": [
+          "tide chart puget sound"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "tide chart san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "keys": [
+          "tide chart seattle"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "tide chart seattle today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "tide charts"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "tide kings codes"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "tide map near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "tide pool times"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 50
+      },
+      {
+        "keys": [
+          "tide pooling near seattle"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 14
+      },
+      {
+        "keys": [
+          "tide port townsend"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 49
+      },
+      {
+        "keys": [
+          "tide schedule"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5.5
+      },
+      {
+        "keys": [
+          "tide schedule acadia national park"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "keys": [
+          "tide schedule bar harbor"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "tide schedule coos bay"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "tide schedule in san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 72
+      },
+      {
+        "keys": [
+          "tide schedule la jolla"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "tide schedule la jolla ca"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "tide schedule newport or"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "tide schedule san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 70
+      },
+      {
+        "keys": [
+          "tide schedule seattle"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "tide schedules"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "tide table charleston oregon"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "tide table fitzgerald marine reserve"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "tide table port townsend wa"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 56
+      },
+      {
+        "keys": [
+          "tide tables port orford"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "tide tables port townsend"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "tide time near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "tide times in san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "tide times october 2026"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "tide times san diego"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 72
+      },
+      {
+        "keys": [
+          "tide today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "tide tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "tide windows"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 4.2
+      },
+      {
+        "keys": [
+          "tides"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 6.666666666666667
+      },
+      {
+        "keys": [
+          "tides acadia national park"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 13.5
+      },
+      {
+        "keys": [
+          "tides around me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "tides fitzgerald marine reserve"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "tides in acadia national park"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "tides in oregon"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "keys": [
+          "tides in san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 88
+      },
+      {
+        "keys": [
+          "tides near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "tides october 2026"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 8.25
+      },
+      {
+        "keys": [
+          "tides port townsend"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "tides port townsend wa"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "tides san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 79
+      },
+      {
+        "keys": [
+          "tides san diego tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 42
+      },
+      {
+        "keys": [
+          "time between tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 30
+      },
+      {
+        "keys": [
+          "today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "today & tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "tomorrow please"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "tuesday sept 29"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "upcoming king tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "washington king tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 38,
+        "ctr": 0,
+        "position": 6.2894736842105265
+      },
+      {
+        "keys": [
+          "washington state tide pools"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "washington?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "wavecast san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 41
+      },
+      {
+        "keys": [
+          "what about friday or saturday"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "what about in october"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "what about october"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "what about on monday"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "what about sunday"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "what about the next day?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "what about tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 1.75
+      },
+      {
+        "keys": [
+          "what about tomorrow?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "what are king tides"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 4.777777777777778
+      },
+      {
+        "keys": [
+          "what are king tides?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "what are sneaker waves"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 31
+      },
+      {
+        "keys": [
+          "what are the exact dates?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "what are the tides today"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "what are the tides tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "what causes a sneaker wave"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6.5
+      },
+      {
+        "keys": [
+          "what is a king's tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "what is a minus tide"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 10.375
+      },
+      {
+        "keys": [
+          "what is a sneaker wave"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 17.142857142857142
+      },
+      {
+        "keys": [
+          "what is a sneaker wave in the ocean"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "what is a tide table"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 79
+      },
+      {
+        "keys": [
+          "what is considered low tide in feet"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 56
+      },
+      {
+        "keys": [
+          "what is king tide in florida"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "what is king tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "what is mean low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "keys": [
+          "what is negative tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "keys": [
+          "what is the lowest tide of the year"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "what is the tide right now"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "what is the tide tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "what is this?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "what time"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "what time does the tide change"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "keys": [
+          "what time is high tide in san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "what time is high tide where i'm at"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "what time is low and high tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "what time is lowtide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "what time is that"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "what time of day is low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "what time should i go today?"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "when"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "when after that"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "when are king tides"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "when are king tides 2026"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 5.846153846153846
+      },
+      {
+        "keys": [
+          "when are king tides in washington"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 8.181818181818182
+      },
+      {
+        "keys": [
+          "when are the king tides"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 4.333333333333334
+      },
+      {
+        "keys": [
+          "when are the king tides this year"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "when are the lowest tides of the year"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9.666666666666666
+      },
+      {
+        "keys": [
+          "when are tides lowest"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 13
+      },
+      {
+        "keys": [
+          "when are tides the highest"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "when do tides change"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 57
+      },
+      {
+        "keys": [
+          "when do tides come in"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "when does king tide happen"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "when does the tide change"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 34
+      },
+      {
+        "keys": [
+          "when does the tide come in"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 13.5
+      },
+      {
+        "keys": [
+          "when in autumn"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "when in oct"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "when in october"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "when is high tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "when is high tide in monterey"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 27
+      },
+      {
+        "keys": [
+          "when is king tide 2026"
+        ],
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 7.090909090909091
+      },
+      {
+        "keys": [
+          "when is low tide in san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "when is low tide san diego"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "when is low tide today"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 7.666666666666667
+      },
+      {
+        "keys": [
+          "when is low tide tomorrow"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "when is the best time to go tidepooling"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "when is the best time to visit"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "when is the king tide 2026"
+        ],
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 5.285714285714286
+      },
+      {
+        "keys": [
+          "when is the lowest tide of the year"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 12.666666666666666
+      },
+      {
+        "keys": [
+          "when is the next king tide"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 4.333333333333334
+      },
+      {
+        "keys": [
+          "when is the next king tide 2026"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "when is the next king tide in california"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "when is the next king tide in garden city, sc"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "when is the next king tide in washington state"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 6.375
+      },
+      {
+        "keys": [
+          "when is the next low tide"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "when is the next negative low tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "when is the next negative tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "when to arrive"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "when to go tidepooling"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 48
+      },
+      {
+        "keys": [
+          "whens the next king tide"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "window tide"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 1.25
+      },
+      {
+        "keys": [
+          "wonderland trail"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "work day hours"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "wrong"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "yaquina head tide chart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "yes"
+        ],
+        "clicks": 0,
+        "impressions": 39,
+        "ctr": 0,
+        "position": 4.564102564102564
+      },
+      {
+        "keys": [
+          "yes all of those"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "yes i would"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "yes please"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 2.8
+      },
+      {
+        "keys": [
+          "yes times"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3.5
+      },
+      {
+        "keys": [
+          "yes to all"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "yes, please"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "בישראל"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "ホントに？"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "方案一"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      }
+    ],
+    "responseAggregationType": "byProperty"
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "retrievedAt": "2026-10-12T17:22:49.036Z",
+  "property": "sc-domain:thetidewindow.com",
+  "sitemapCount": 136,
+  "step": 3,
+  "sampleCount": 40,
+  "tally": {
+    "Submitted and indexed": 27,
+    "Discovered - currently not indexed": 5,
+    "URL is unknown to Google": 8
+  },
+  "rows": [
+    {
+      "url": "https://thetidewindow.com/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-09T12:41:49Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/",
+      "userCanonical": "https://thetidewindow.com/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/guides/storm-beachcombing-winter-swell/",
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=RmPU9_tnc1mlyTTuDghxog&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/tools/trip-picker/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=kps5rrOdhb29f9SL2-0YSg&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/calendars/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-22T17:08:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/calendars/",
+      "userCanonical": "https://thetidewindow.com/calendars/",
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=qfsREGqKebHXkb1MHkI08Q&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/data/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-27T09:17:23Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/data/",
+      "userCanonical": "https://thetidewindow.com/data/",
+      "referringUrls": [
+        "https://thetidewindow.com/guides/what-is-a-sneaker-wave/",
+        "https://thetidewindow.com/beaches/or/newport-or/2026-09/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=iODZTmhbXfCAq6Y2M_-cdw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/embed/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-25T10:39:07Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/embed/",
+      "userCanonical": "https://thetidewindow.com/embed/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/guides/puget-sound-minus-tides-august-8-13-2026/",
+        "https://thetidewindow.com/guides/how-to-read-a-tide-table/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=vGYCfcZ_r2vCwht09sN_kA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/contact/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-20T02:43:58Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/contact/",
+      "userCanonical": "https://thetidewindow.com/contact/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/guides/how-low-does-the-tide-need-to-be-for-tide-pools/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=vzYTanzzRwoF1LYxdkaAug&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-07-04T06:51:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/",
+      "referringUrls": [
+        "https://thetidewindow.com/beaches/ca/la-jolla-ca/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=B1_snlJ0vQ9NKww6hCb0nw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/wa/port-townsend-wa/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-07T21:21:20Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/wa/port-townsend-wa/",
+      "userCanonical": "https://thetidewindow.com/beaches/wa/port-townsend-wa/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=twYIslIKdh7PqUm2zE0RxA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/newport-or/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-28T15:20:29Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/or/newport-or/",
+      "userCanonical": "https://thetidewindow.com/beaches/or/newport-or/",
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=z7kvQVUCulQlodDsn2pmOQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/monterey-ca/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-28T17:14:23Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/monterey-ca/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/monterey-ca/",
+      "referringUrls": [
+        "https://thetidewindow.com/guides/how-to-plan-a-tidepooling-trip-around-minus-tides/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=2C9tK56cLuZ_5XHrb2e7uA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/san-diego-ca/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-11T20:29:32Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/san-diego-ca/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/san-diego-ca/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/beaches/",
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=gnBuTp3ySumtCtz19_2D-w&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/wa/seattle-wa/2026-08/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-12T14:09:30Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/wa/seattle-wa/2026-08/",
+      "userCanonical": "https://thetidewindow.com/beaches/wa/seattle-wa/2026-08/",
+      "referringUrls": [
+        "https://thetidewindow.com/guides/how-to-plan-a-tidepooling-trip-around-minus-tides/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=OXQ3CcGSgxRmY-yisENXAg&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/wa/seattle-wa/2026-11/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=vYfh_-OM_0MW4Mbh7gXmGw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-09/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-06T19:00:05Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-09/",
+      "userCanonical": "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-09/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/beaches/wa/port-townsend-wa/2026-10/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=dqRNkw_EYkmngep6_qfm5A&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/wa/la-push-wa/2026-07/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-02T20:44:56Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/wa/la-push-wa/2026-07/",
+      "userCanonical": "https://thetidewindow.com/beaches/wa/la-push-wa/2026-07/",
+      "referringUrls": [
+        "https://thetidewindow.com/beaches/wa/la-push-wa/2026-08/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=mrS-dEM3FDe7t5jDG_hU8Q&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/wa/la-push-wa/2026-10/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=wuBhuQEydwUaFZYcQaEThA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/garibaldi-or/2026-08/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=gnOuOhlXLlsU9xVL0KlpuQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/garibaldi-or/2026-11/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=vYjGdRS9B9zEWTOc_OXirw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/newport-or/2026-09/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=lgXapKWP662dQL1PJ85pSA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/charleston-or/2026-07/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/guides/oregon-coast-minus-tide-calendar-2026/"
+      ],
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=soBfATIoenTGrLBhwngnvQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/charleston-or/2026-10/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=um2kfaf1LPUBhAxJznQ9mw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/port-orford-or/2026-08/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-15T22:14:41Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/or/port-orford-or/2026-08/",
+      "userCanonical": "https://thetidewindow.com/beaches/or/port-orford-or/2026-08/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/guides/oregon-coast-minus-tide-calendar-2026/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=KZI8F7feDLNvp3epxk5vDQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/or/port-orford-or/2026-11/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-03T22:26:31Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/or/port-orford-or/2026-11/",
+      "userCanonical": "https://thetidewindow.com/beaches/or/port-orford-or/2026-11/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=gNyPMH3-mKlnLDlhDd9GUw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/monterey-ca/2026-09/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-03T20:37:45Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/monterey-ca/2026-09/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/monterey-ca/2026-09/",
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=jymbcDpjvnH9spjwK4n_ww&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-07/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-12T11:08:39Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-07/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-07/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=u3OKL57P4I56x9OK-Gc-rA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-10/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-28T15:33:50Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-10/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/pillar-point-ca/2026-10/",
+      "referringUrls": [
+        "https://thetidewindow.com/beaches/ca/pillar-point-ca/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=qBeEJb7O_gBKcN6C6qahdA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-08/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-12T11:40:19Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-08/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-08/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/beaches/ca/la-jolla-ca/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=Jcep85QVIcJPLLVFCvXahA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/la-jolla-ca/2026-11/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=kGOwhss27fk2O0KuVcd51g&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-09/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-05T07:18:00Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-09/",
+      "userCanonical": "https://thetidewindow.com/beaches/ca/san-diego-ca/2026-09/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=tNZiain11sGTy57V8Qqb6Q&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/me/bar-harbor-me/2026-07/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=ydYmoiRA_pammjGdvdrX7Q&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/beaches/me/bar-harbor-me/2026-10/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=LvYte8HidVbfEWd3ivSD1A&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/best-time-to-go-tide-pooling/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-28T18:18:14Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/best-time-to-go-tide-pooling/",
+      "userCanonical": "https://thetidewindow.com/guides/best-time-to-go-tide-pooling/",
+      "referringUrls": [
+        "https://thetidewindow.com/guides/",
+        "https://thetidewindow.com/guides/king-tides-2026-2027-dates/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=-2lnKQRsrE_xSocSin_aow&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/what-is-a-sneaker-wave/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-27T02:18:20Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/what-is-a-sneaker-wave/",
+      "userCanonical": "https://thetidewindow.com/guides/what-is-a-sneaker-wave/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/guides/"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=xHtBqKoazePelzOz9FpB1w&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/best-tide-pools-oregon-2026/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-27T02:26:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/best-tide-pools-oregon-2026/",
+      "userCanonical": "https://thetidewindow.com/guides/best-tide-pools-oregon-2026/",
+      "referringUrls": [
+        "https://thetidewindow.com/guides/puget-sound-minus-tides-august-8-13-2026/",
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=MhLgDDtndSORGF6Y-H9NQg&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/best-tide-pools-california-2026/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/guides/"
+      ],
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=FS6YX_lOtqYw3TftPRJGTA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/la-push-second-beach-tide-pools-2026/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=T7B7f2xRxQLf48Cc3mEoSw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/west-coast-minus-tides-july-11-14-2026/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-12T10:45:06Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/west-coast-minus-tides-july-11-14-2026/",
+      "userCanonical": "https://thetidewindow.com/guides/west-coast-minus-tides-july-11-14-2026/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=hCIkNN8JCK9KkebjpdogkA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/puget-sound-low-tide-calendar-2026/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-29T04:30:26Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/puget-sound-low-tide-calendar-2026/",
+      "userCanonical": "https://thetidewindow.com/guides/puget-sound-low-tide-calendar-2026/",
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=wbTkSmG-mZLh2RF8LAaYpQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/la-jolla-tide-pools-best-dates-2026/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-23T18:08:06Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/la-jolla-tide-pools-best-dates-2026/",
+      "userCanonical": "https://thetidewindow.com/guides/la-jolla-tide-pools-best-dates-2026/",
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=OPYa6rryj735SzsWbfE7Bw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://thetidewindow.com/guides/golden-hour-low-tide-photography-calendar-2026/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-14T06:47:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://thetidewindow.com/guides/golden-hour-low-tide-photography-calendar-2026/",
+      "userCanonical": "https://thetidewindow.com/guides/golden-hour-low-tide-photography-calendar-2026/",
+      "sitemap": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://thetidewindow.com/sitemap.xml"
+      ],
+      "crawledAs": "MOBILE",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:thetidewindow.com&id=EuJti21gHhTuvnS1Z3Wrcw&utm_medium=link&utm_source=api"
+    }
+  ]
+}
