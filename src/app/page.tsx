@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getIndex, getStationData, fmtDate, fmtStamp } from "@/lib/windows";
+import { getIndex, getStationData, fmtDate, fmtStamp, fmtPredictionTiming } from "@/lib/windows";
 import { PUBLISHED_MONTHS } from "@/lib/rollout";
 import { WindowCard, ScoreBadge, StationChip } from "@/components/window-bits";
 import TideCurve from "@/components/tide-curve";
@@ -66,13 +66,26 @@ export default function Home() {
           <p className="text-lg">
             <strong>{featured.s.name}</strong> — {fmtDate(featuredWindow.date)} ({featuredWindow.weekday}): the tide
             drops to <strong className="num">{featuredWindow.lowHeight.toFixed(1)} ft</strong> at{" "}
-            <strong className="num">{featuredWindow.lowTimeLocal}</strong>, giving{" "}
-            {Math.floor(featuredWindow.daylightMin / 60)}h {featuredWindow.daylightMin % 60}m of walkable daylight
-            ({featuredWindow.windowStartLocal}–{featuredWindow.windowEndLocal}).{" "}
+            <strong className="num">{featuredWindow.lowTimeLocal}</strong>.{" "}
             <ScoreBadge w={featuredWindow} />
           </p>
+          <p className="mt-2">{fmtPredictionTiming(featuredWindow)}</p>
+          {(featuredWindow.sunriseLocal || featuredWindow.sunsetLocal) && (
+            <p className="mt-1 text-ink-soft">
+              {featuredWindow.sunriseLocal && `Sunrise: ${featuredWindow.sunriseLocal}. `}
+              {featuredWindow.sunsetLocal && `Sunset: ${featuredWindow.sunsetLocal}.`}
+            </p>
+          )}
+          <p className="mt-2 text-[0.9rem] text-ink-soft">
+            These predictions are not safe access hours. Check current access, surf, weather and tide conditions;
+            return before sunset or closing time with a safe margin.
+          </p>
         </div>
-        <TideCurve window={featuredWindow} />
+        <TideCurve
+          window={featuredWindow}
+          description={`Tide curve for ${featuredWindow.date}: low of ${featuredWindow.lowHeight.toFixed(1)} ft at ${featuredWindow.lowTimeLocal}. ${fmtPredictionTiming(featuredWindow)}`}
+          thresholdLabel="+1.0 ft tide threshold"
+        />
         <p className="mt-1 text-[0.8rem] text-ink-soft">
           Computed tide curve · shaded band = below +1.0 ft · gold lines = sunrise/sunset ·{" "}
           <Link className="underline" href={`/beaches/${featured.s.stateSlug}/${featured.s.slug}/`}>
@@ -85,7 +98,13 @@ export default function Home() {
         <h2 className="text-2xl">Top windows, next 30 days</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {best.map(({ s, w }) => (
-            <WindowCard key={`${s.slug}-${w.lowTime}`} w={w} station={s} href={`/beaches/${s.stateSlug}/${s.slug}/`} />
+            <WindowCard
+              key={`${s.slug}-${w.lowTime}`}
+              w={w}
+              station={s}
+              href={`/beaches/${s.stateSlug}/${s.slug}/`}
+              timingCopy={fmtPredictionTiming(w)}
+            />
           ))}
         </div>
       </section>

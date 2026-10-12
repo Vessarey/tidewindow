@@ -10,11 +10,15 @@ export default function TideCurve({
   width = 640,
   height = 140,
   showLabels = true,
+  description,
+  thresholdLabel = "+1.0 ft walkable",
 }: {
   window: TideWindow;
   width?: number;
   height?: number;
   showLabels?: boolean;
+  description?: string;
+  thresholdLabel?: string;
 }) {
   if (!w.curve) return null;
   const { t0, dt, vals } = w.curve;
@@ -41,7 +45,7 @@ export default function TideCurve({
     <svg
       viewBox={`0 0 ${width} ${height}`}
       role="img"
-      aria-label={`Tide curve for ${w.date}: low of ${w.lowHeight.toFixed(1)} ft at ${w.lowTimeLocal}, walkable window ${w.windowStartLocal} to ${w.windowEndLocal}`}
+      aria-label={description ?? `Tide curve for ${w.date}: low of ${w.lowHeight.toFixed(1)} ft at ${w.lowTimeLocal}, walkable window ${w.windowStartLocal} to ${w.windowEndLocal}`}
       className="w-full"
     >
       {/* walkable window shading */}
@@ -76,7 +80,7 @@ export default function TideCurve({
       {showLabels && (
         <>
           <text x={4} y={py(1.0) - 4} fontSize={10} fill="var(--color-ink-soft)" fontFamily="var(--font-mono)">
-            +1.0 ft walkable
+            {thresholdLabel}
           </text>
           <text x={px(w.lowTime) + 6} y={py(w.lowHeight) - 6} fontSize={11} fill="var(--color-ink)" fontFamily="var(--font-mono)" fontWeight={600}>
             {w.lowHeight.toFixed(1)} ft · {w.lowTimeLocal}

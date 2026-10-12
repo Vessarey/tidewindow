@@ -139,6 +139,26 @@ for (const s of stations) {
   }
 }
 
+// Homepage intervals and daylight durations must remain separately labeled.
+// The full below-threshold band may extend past sunset; it is not safe access.
+const homeText = stripComments(fs.readFileSync(path.join(OUT, "index.html"), "utf8"))
+  .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "")
+  .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "")
+  .replace(/<[^>]*>/g, " ").replace(/\s+/g, " ");
+const homeBest = stations.flatMap((s) => s.best30).sort((a, b) => b.score - a.score).slice(0, 8);
+for (const w of homeBest) {
+  const interval = `Predicted tide interval: ${w.windowStartLocal}–${w.windowEndLocal}.`;
+  const daylight = `Daylight overlap: ${Math.floor(w.daylightMin / 60)}h ${w.daylightMin % 60}m.`;
+  if (!homeText.includes(interval) || !homeText.includes(daylight)) fail(`home/${w.date}: interval/daylight labels missing or incorrect`);
+}
+if (/walkable daylight|\+1\.0 ft walkable|Walkable \d/i.test(homeText)) fail("home: prediction implies safe walking");
+if (!homeText.includes("These predictions are not safe access hours.")) fail("home: access distinction missing");
+const homeFeatured = homeBest[0];
+const homeStation = stations.find((s) => s.best30.some((w) => w.lowTime === homeFeatured?.lowTime));
+const homeFullWindow = homeStation && JSON.parse(fs.readFileSync(path.join(DATA, "stations", `${homeStation.slug}.json`), "utf8"))
+  .windows.find((w) => w.lowTime === homeFeatured.lowTime);
+if (homeFullWindow?.sunsetLocal && !homeText.includes(`Sunset: ${homeFullWindow.sunsetLocal}.`)) fail("home: existing sunset value missing or incorrect");
+
 // ---------- verdict ----------
 
 if (failures.length) {

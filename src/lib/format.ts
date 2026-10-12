@@ -1,5 +1,14 @@
 /** Client-safe types and formatters — no Node imports here. */
 
+/** Keep the full modeled interval distinct from its stored daylight overlap. */
+export function fmtPredictionTiming(w: {
+  windowStartLocal: string;
+  windowEndLocal: string;
+  daylightMin: number;
+}): string {
+  return `Predicted tide interval: ${w.windowStartLocal}–${w.windowEndLocal}. Daylight overlap: ${Math.floor(w.daylightMin / 60)}h ${w.daylightMin % 60}m.`;
+}
+
 export interface TideWindow {
   date: string; // yyyy-mm-dd station-local
   weekday: string;

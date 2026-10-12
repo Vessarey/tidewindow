@@ -5,6 +5,43 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-12 — Homepage prediction labels and missing-refresh recovery
+
+**Correction:** the homepage paired 209 daylight minutes with Pillar Point's
+full 2:50–7:15 PM tide interval (265 minutes), calling it walkable daylight.
+Now the answer and all eight home cards separately label the predicted tide
+interval and stored daylight overlap. The existing sunset field is displayed
+(6:19 PM for the Oct 25 example). The home chart's description and threshold
+label no longer imply safe walking. Access/return guidance is explicit; no
+fixed buffer, closure, surf condition or sunset value is invented. Timing,
+rankings, scores and tide calculations are unchanged. Optional presentation
+props preserve shared component defaults on other routes.
+
+**Health:** live homepage at 12:15 UTC still showed Oct 11 data. No active
+or Oct 12 refresh was found. Dispatched the existing recovery once
+(run 38248020584); it completed successfully and published data a045f41.
+The permitted live homepage now says computed Oct 12. No new scheduler or
+duplicate manual deployment created.
+
+**Validation:** required fresh-data build and exact recovered-data build pass
+with the supported local webpack fallback: 65 tests, 12 stations × 5 months,
+136 sitemap URLs. Added format regressions and an actual generated-homepage
+gate for separate labels, original sunset and access distinction. Default
+shared-component rendered DOM is identical before/after. Search metadata,
+canonical and JSON-LD preserved. All 24 permitted public URLs returned 200;
+other-site local suites: Points 148, Dupe 128, focused Skin 16. Local tests
+are not production interactive coverage. No scripts/assets fetched, no forms
+submitted, and the newly restricted Points root was excluded. Exact release
+and rollback evidence lives in the delegated task handoff.
+
+**Limits:** no authenticated browser tool exposed here; browser work remains
+with the concurrent YouTube task. Skin /us verification restriction, held
+Tide edits, Amex experiment through Nov 1 and popup decision preserved. No
+fresh analytics query or growth claim. Existing guide-maintenance assignments
+remain separate from this homepage correction.
+
+---
+
 <!-- heartbeat-2026-10-11:start -->
 ## 2026-10-11 — Heartbeat: restore five ready maintenance briefs
 

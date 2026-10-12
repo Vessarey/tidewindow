@@ -105,7 +105,7 @@ export function TideTable({ tides, caption }: { tides: TideExtreme[]; caption?: 
 }
 
 /** Compact card for a single headline window. */
-export function WindowCard({ w, station, href }: { w: TideWindow; station: StationMeta; href?: string }) {
+export function WindowCard({ w, station, href, timingCopy }: { w: TideWindow; station: StationMeta; href?: string; timingCopy?: string }) {
   const inner = (
     <div className="rounded-lg border border-ink/15 bg-white/60 p-4 transition hover:border-kelp">
       <div className="flex items-baseline justify-between gap-3">
@@ -119,7 +119,7 @@ export function WindowCard({ w, station, href }: { w: TideWindow; station: Stati
         <time dateTime={w.date}>{fmtDate(w.date)}</time> ({w.weekday}) · {w.lowHeight.toFixed(1)} ft at {w.lowTimeLocal}
       </p>
       <p className="mt-1 text-[0.88rem] text-ink-soft">
-        Walkable {w.windowStartLocal}–{w.windowEndLocal} · arrive by {w.arriveByLocal}
+        {timingCopy ?? `Walkable ${w.windowStartLocal}–${w.windowEndLocal} · arrive by ${w.arriveByLocal}`}
         {w.conditions ? ` · ${w.conditions.forecast}, ${w.conditions.tempF}°F` : ""}
       </p>
     </div>

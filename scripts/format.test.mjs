@@ -1,7 +1,18 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import fs from "node:fs";
-import { fmtSunEdge } from "../src/lib/format.ts";
+import { fmtSunEdge, fmtPredictionTiming } from "../src/lib/format.ts";
+
+test("prediction timing keeps an after-sunset interval separate from daylight overlap", () => {
+  const w = { windowStartLocal: "2:50 PM", windowEndLocal: "7:15 PM", daylightMin: 209 };
+  assert.equal(fmtPredictionTiming(w), "Predicted tide interval: 2:50 PM–7:15 PM. Daylight overlap: 3h 29m.");
+  assert.deepEqual(w, { windowStartLocal: "2:50 PM", windowEndLocal: "7:15 PM", daylightMin: 209 });
+});
+
+test("prediction timing does not infer daylight from a night interval", () => {
+  assert.equal(fmtPredictionTiming({ windowStartLocal: "8:00 PM", windowEndLocal: "10:00 PM", daylightMin: 0 }),
+    "Predicted tide interval: 8:00 PM–10:00 PM. Daylight overlap: 0h 0m.");
+});
 
 const sunrise = Date.parse("2026-10-05T14:00:00Z");
 const sunset = Date.parse("2026-10-06T02:00:00Z");
