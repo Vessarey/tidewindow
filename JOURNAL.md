@@ -5,6 +5,93 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+<!-- heartbeat-2026-10-13:start -->
+## 2026-10-13 — Heartbeat: align refresh runbook and keep mitigation validation open
+
+**One primary action:** documentation-only follow-through on today's refresh
+incident, not another editorial or scheduler change. Morning recovery
+`cd0c065` and six-slot workflow `6616586` already landed. Section 0.3 still
+listed four slots; synchronized it with all six actual cron expressions.
+BACKLOG now distinguishes recovery/mitigation delivered from effectiveness
+unverified, with an explicit Oct 14 unaided-before-12:00Z check. No new
+workflow dispatch, site code, article, generated data or experiment change.
+Five ready P1 briefs remain; storm factual maintenance is next after health.
+
+**Recovery evidence and correction:** manual run 38394637010 started
+12:04:24Z and completed 12:06:58Z. Logs show 65 tests passing, output gate
+12 stations x five months / 136 URLs at 12:06:51.255Z, IndexNow 136 URLs
+HTTP 200 at 12:06:52.805Z, and actual successful push at 12:06:55.083Z
+(not the 12:06:52Z push time in the morning entry). Later scheduled runs
+38395484132 and 38419046699 correctly skipped at 12:11:37.091Z and
+15:05:42.370Z. These do not establish that the two new slots fired or
+worked unaided. The morning slot-to-start mapping and 7.5–9.5h per-slot
+delay are not independently established by start order alone; retain the
+missing-refresh incident, but require the originating cron expression for
+exact slot-delay claims. Latest five Actions successful; no open issues.
+
+**Live health:** all 12 station JSONs return 200 and byte-match committed
+data generated Oct 13 12:04:48.718Z. Homepage, Finder, Trip Picker, Golden
+Hour, calendars, national king-tide guide and storm guide return 200; actual
+homepage OG PNG and newsletter root work. No 90+ modeled window in the
+Oct 13–27 scan. Browser confirms current homepage prediction/daylight
+labels; Finder ZIP 98101 selects Seattle, depth <=-1 ft changes 19 to 10
+qualifying lows, and calendar gate renders at 375x812 without horizontal
+overflow or submission. Captured browser errors: none. Oregon king-tide
+guide also renders without captured errors; this is not a Safari test.
+Previously pending Vercel statuses for `1587fba` and `5f37fff`, plus
+`6616586`, now report success. Production npm audit: zero; full audit:
+seven existing high development-chain entries. No dependency edits.
+
+**Search:** GSC property Web/final, all countries/devices, reporting dates
+Sep 14–Oct 11 versus Aug 17–Sep 13: 305 clicks / 15,664 impressions /
+1.95% CTR / position 7.00 versus 186 / 12,123 / 1.53% / 7.95. Clicks
+up 64.0%; directional, not change attribution. Oct 5–11 versus Sep 28–Oct 4:
+97 / 4,474 / 2.17% / 6.88 versus 99 / 4,206 / 2.35% / 6.95. National
+guide leads at 100 clicks / 5,206 impressions. Query/page reads return
+541/84 rows under the 25,000 cap; revealed queries are not property totals.
+No repeat weekly indexing audit: Oct 12's 40-URL inspection and Oct 8
+Pages-report snapshot remain dated evidence. Golden Hour review is Oct 26.
+
+**Product:** PostHog 495836, production host thetidewindow.com + Regular;
+explicit UTC half-open ranges end Oct 13 17:16:48Z, start Oct 6 (7d) or
+Sep 15 (28d). Pageviews / distinct pageview IDs / signup events: 7d
+571 / 530 / 2; 28d 1,998 / 1,861 / 10. The descriptive signup-events/IDs
+ratios are 0.38% and 0.54%, not matched funnels or verified-human rates.
+7d station-selected 33, window-result-viewed 26, ZIP-used 17, Trip Picker
+4, calendar-gate-clicked 11, exit-intent-shown 25; 28d respectively
+68/55/38/9/28/80, plus two ICS reveals. Signup sources over 28d:
+exit-intent five, end-article gate two, station/station-gate/tool-gate one
+each. These do not reopen retired experiments or resolve owner authority.
+7d pageview referrers include Bing 133, Google 124, direct 111 and DDG 76;
+not sessions or search clicks. The 28d referrer query timed out; narrowed
+7d read succeeded. All 571 Regular pageviews carry a UA and bot=false;
+selected automation-UA markers zero, not proof of humans. Two additional
+28d pageviews are classified Automation and excluded from product totals.
+
+**Measurement limits:** 24h nonnegative LCP observations n=28, p75 579ms /
+p90 1,034ms, below the 30-observation floor. Three 28d Safari exceptions
+(two in 7d) point to WebKit foreground/background messaging, with no app
+source frame; exception-capture completeness remains unverified. Resend
+read-only: 20 contacts, 19 active, one unsubscribed, no pagination remaining;
+Oct 8 broadcast `08111cf4-8ab1-436d-b0b7-4e7b410248fd` remains sent.
+Bounce/complaint metrics unavailable, not zero. GSC connector requires
+payment and PostHog connector authorization failed; used only existing
+configured read-only API paths, no new credentials/payment or sends.
+
+**Validation and next gates:** docs-only diff/whitespace check and exact
+six-slot comparison pass; all 126 held-file SHA-256s unchanged. No new
+build needed for these three Markdown files; the recovery build above is
+separate evidence. Keep Oct 15 Seattle August final readout (one extension),
+exit-prompt owner reconciliation, and Nov 1 indexing gate. Fresh
+[NPS conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still lists Mora Road closed; Oct 15 is not a confirmed reopening. Check
+La Push, storm prose and shared metadata together when access is confirmed.
+First next action: validate tomorrow's scheduled refresh before editorial;
+then storm brief. Planning-guide expired August claims remain queued.
+<!-- heartbeat-2026-10-13:end -->
+
+---
+
 ## 2026-10-13 — Incident: no scheduled refresh by session; recovery + two earlier cron slots
 
 **Red per §0.3:** at session start (12:04 UTC) no "data: daily NOAA refresh

@@ -15,15 +15,20 @@ without ever publishing a wrong number, a fake claim, or spam-pattern content.
    cron must be green. A green run is NOT enough — verify the refresh actually
    LANDED: the newest `data: daily NOAA refresh` commit on origin/main must be
    dated today (UTC), or yesterday only if no scheduled slot has plausibly fired
-   yet. Since 2026-08-31 the workflow runs FOUR staggered slots (04:47, 07:17,
-   10:17, 13:47 UTC) with a skip-if-refreshed guard, sized so that even with the
-   observed 2–9h scheduler drift at least one lands before your session — an
-   individual slot firing late is routine and needs no journal incident; only
+   yet. Since 2026-10-13 the workflow runs SIX staggered slots (00:17, 02:47,
+   04:47, 07:17, 10:17, 13:47 UTC) with a skip-if-refreshed guard. The two
+   earlier slots are a mitigation for repeated late starts, not a guarantee:
+   verify an unaided scheduled refresh lands before the ~12:00 UTC operator
+   session. A successful skip proves only that today's refresh is already on
+   main, not that the new slots fired or produced it. Record actual run and
+   push times; calculate slot delay only when the originating cron expression
+   is known, never by matching start order to the schedule list. An individual
+   late slot does not need recovery if today's refresh already landed; only
    "no refresh landed by session start" does (then dispatch one recovery run). A run that succeeded but whose
    commit never reached main (push race — it happened 2026-07-30), or no run at
    all by your session, counts as red. If red, fixing/recovering it is today's
    ONLY task (recover via `gh workflow run daily-refresh.yml`). Do not
-   normalize lateness: log actual fire times drifting past ~3h as an incident.
+   normalize lateness: log confirmed slot delays past ~3h as an incident.
 4. Check open GitHub issues (`gh issue list`) — a reader-reported error outranks
    everything except a broken build.
 5. Do ONE primary action from the priority queue (§2). Small side-fixes are fine.

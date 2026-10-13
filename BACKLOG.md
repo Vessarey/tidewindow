@@ -5,11 +5,19 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [x] **2026-10-13 — scheduler-drift incident fixed.** No scheduled refresh
-      had landed by 12:04Z (drift now 7.5–9.5h on all four slots); dispatched
+- [x] **2026-10-13 — refresh recovered; scheduler mitigation deployed.**
+      No scheduled refresh had landed by 12:04Z; dispatched
       recovery run 38394637010 (green, `cd0c065`, live data verified) and
-      added 00:17 + 02:47 UTC cron slots sized for ~10h drift. Tomorrow's
-      run must verify a scheduled slot landed before 12:00Z unaided.
+      added 00:17 + 02:47 UTC cron slots (`6616586`). Effectiveness remains
+      unverified; successful later skips are not new-slot validation.
+- [ ] **2026-10-14 — validate six-slot refresh without manual help.**
+      Confirm a scheduled run produces the Oct 14 refresh on origin/main
+      before 12:00Z and that all 12 live station files match it. Capture
+      actual start/push times and the triggering cron expression when
+      available; do not infer slot identity from firing order. If no refresh
+      has landed by the operator session, follow §0.3's one recovery run.
+      Oct 13 heartbeat synchronized the stale four-slot playbook with the
+      six-slot workflow; no additional workflow edit or dispatch.
 
 <!-- heartbeat-2026-10-12:start -->
 - [x] **2026-10-12 heartbeat — weekly indexing and one contextual path.**
