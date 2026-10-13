@@ -5,6 +5,12 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **2026-10-13 — scheduler-drift incident fixed.** No scheduled refresh
+      had landed by 12:04Z (drift now 7.5–9.5h on all four slots); dispatched
+      recovery run 38394637010 (green, `cd0c065`, live data verified) and
+      added 00:17 + 02:47 UTC cron slots sized for ~10h drift. Tomorrow's
+      run must verify a scheduled slot landed before 12:00Z unaided.
+
 <!-- heartbeat-2026-10-12:start -->
 - [x] **2026-10-12 heartbeat — weekly indexing and one contextual path.**
       Morning NOAA recovery and homepage correction already completed.

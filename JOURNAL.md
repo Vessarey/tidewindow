@@ -5,6 +5,49 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-13 — Incident: no scheduled refresh by session; recovery + two earlier cron slots
+
+**Red per §0.3:** at session start (12:04 UTC) no "data: daily NOAA refresh
+2026-10-13" commit existed and no scheduled run had fired today — the newest
+was Oct 12 21:51Z. Scheduler drift has grown past the four-slot design
+assumption: Oct 12's slots (04:47/07:17/10:17/13:47) fired at 12:27, 16:46,
+19:50 and 21:51 UTC, i.e. 7.5–9.5h late, so even the early-bird slot now
+lands after the ~12:00Z editorial session. Fixing this was today's only task.
+
+**Recovery:** dispatched `daily-refresh.yml` once (run 38394637010, started
+12:04:24Z). It completed green: verify-output OK (12 stations × 5 months,
+136 sitemap URLs), fact/math/format tests zero failures, IndexNow 136 URLs
+HTTP 200, refresh commit `cd0c065` pushed 12:06:52Z. Live check at ~12:06
+still served Oct 12 data (Vercel deploy in flight); recheck one minute later:
+live seattle-wa.json generatedAt = 2026-10-13 12:04:48Z. Recovery verified
+end to end on the public site.
+
+**Fix:** added two earlier cron slots — 00:17 and 02:47 UTC — sized for ~10h
+drift, so with the current band at least one slot lands before 12:00Z
+(00:17 → ~07:45–09:45 actual). Existing four slots and the skip-if-refreshed
+guard unchanged; extra fires stay ~10s no-ops. YAML validated locally. No
+site code, content, or generated data changed in this commit, so no site
+build was run; the workflow itself is exercised by tonight's slots.
+
+**Metrics snapshot (PostHog 495836, $host ~ thetidewindow.com, trailing 7d
+at 12:09Z):** 554 pageviews / 517 distinct pageview ids / 2 newsletter
+signups. Raw event counts, not verified humans. No GSC pull today — red-run
+scope; yesterday's heartbeat has the full read.
+
+**Held work:** the uncommitted edits to what-is-a-minus-tide and
+haystack-rock articles plus untracked newsletter drafts and seo-refresh
+evidence dirs remain owner/concurrent-session holds — stashed around the
+pull and restored, excluded from today's commit.
+
+**Tomorrow:** verify the new 00:17/02:47 slots actually fired and a refresh
+landed before 12:00Z (watch for the first scheduled fire times; log drift).
+Then resume the normal queue: storm-guide factual brief is next (five ready
+P1 briefs), Oct 15 Seattle August readout and Mora Road recheck upcoming;
+planning guide's expired August-as-upcoming claims still need a maintenance
+pass. Golden Hour crawl-status review stays Oct 26.
+
+---
+
 <!-- heartbeat-2026-10-12:start -->
 ## 2026-10-12 — Heartbeat: weekly indexing check and one photography path
 
