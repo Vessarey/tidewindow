@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-12",
+ "generated_on": "2026-10-13",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-13",
-   "weekday": "Tue",
-   "low_ft": 0.827,
-   "low_time_local": "6:59 AM",
-   "window_local": "6:45 AM–7:15 AM",
-   "arrive_by_local": "5:59 AM",
-   "daylight_min": 30,
-   "score": 11,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 103,
-   "min_to_sun_edge": 14
-  },
-  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.551,
@@ -2072,13 +2058,27 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 119,
    "min_to_sun_edge": 60
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.297,
+   "low_time_local": "3:21 PM",
+   "window_local": "2:00 PM–4:35 PM",
+   "arrive_by_local": "2:21 PM",
+   "daylight_min": 134,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 238,
+   "min_to_sun_edge": 53
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 16
+   "count": 15
   },
   {
    "commonName": "Atlantic Dogwhelk",
@@ -2088,16 +2088,11 @@
   {
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Soft-shelled Clam",
    "scientificName": "Mya arenaria",
-   "count": 4
-  },
-  {
-   "commonName": "Common Atlantic Slippersnail",
-   "scientificName": "Crepidula fornicata",
    "count": 4
   },
   {
@@ -2106,8 +2101,8 @@
    "count": 3
   },
   {
-   "commonName": "Eastern White Slippersnail",
-   "scientificName": "Crepidula plana",
+   "commonName": "Common Atlantic Slippersnail",
+   "scientificName": "Crepidula fornicata",
    "count": 3
   },
   {
@@ -2118,6 +2113,11 @@
   {
    "commonName": "Flat Periwinkle",
    "scientificName": "Littorina obtusata",
+   "count": 2
+  },
+  {
+   "commonName": "Eastern White Slippersnail",
+   "scientificName": "Crepidula plana",
    "count": 2
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-12",
+ "generated_on": "2026-10-13",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -1966,20 +1966,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-12",
-   "weekday": "Mon",
-   "low_ft": 0.005,
-   "low_time_local": "5:06 PM",
-   "window_local": "3:15 PM–7:05 PM",
-   "arrive_by_local": "4:06 PM",
-   "daylight_min": 184,
-   "score": 58,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 251,
-   "min_to_sun_edge": 73
-  },
-  {
    "date": "2026-10-13",
    "weekday": "Tue",
    "low_ft": 0.199,
@@ -2048,42 +2034,51 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 261,
    "min_to_sun_edge": -52
+  },
+  {
+   "date": "2026-11-10",
+   "weekday": "Tue",
+   "low_ft": -0.414,
+   "low_time_local": "3:54 PM",
+   "window_local": "1:35 PM–6:25 PM",
+   "arrive_by_local": "2:54 PM",
+   "daylight_min": 196,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 242,
+   "min_to_sun_edge": 57
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
-   "count": 51
+   "count": 42
   },
   {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
-   "count": 23
+   "count": 22
   },
   {
    "commonName": "Sorcerer's Dorid",
    "scientificName": "Polycera atra",
-   "count": 18
+   "count": 17
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 15
+   "count": 13
   },
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Hunchback Doris",
    "scientificName": "Atagema alba",
-   "count": 12
-  },
-  {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
    "count": 12
   },
   {
@@ -2092,14 +2087,19 @@
    "count": 11
   },
   {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 10
+  },
+  {
    "commonName": "Freckled Ancula",
    "scientificName": "Ancula lentiginosa",
    "count": 9
   },
   {
-   "commonName": "Stearns' Aeolid",
-   "scientificName": "Austraeolis stearnsi",
-   "count": 9
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
+   "count": 8
   }
  ]
 }
