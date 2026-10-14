@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-13",
+ "generated_on": "2026-10-14",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2083,12 +2083,12 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 13
+   "count": 12
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 11
+   "count": 10
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
@@ -2101,18 +2101,8 @@
    "count": 4
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
-   "count": 3
-  },
-  {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
-   "count": 2
-  },
-  {
-   "commonName": "Steinberg's Corambe",
-   "scientificName": "Corambe steinbergae",
    "count": 2
   },
   {
@@ -2123,6 +2113,16 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
+   "count": 2
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
+   "count": 2
+  },
+  {
+   "commonName": "Spiny Scallop",
+   "scientificName": "Chlamys hastata",
    "count": 2
   }
  ]

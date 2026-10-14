@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-13",
+ "generated_on": "2026-10-14",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2116,13 +2116,13 @@
    "count": 1
   },
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
+   "commonName": "Enteromorpha-eating Sapsucker",
+   "scientificName": "Aplysiopsis enteromorphae",
    "count": 1
   },
   {
-   "commonName": "Enteromorpha-eating Sapsucker",
-   "scientificName": "Aplysiopsis enteromorphae",
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 1
   }
  ]

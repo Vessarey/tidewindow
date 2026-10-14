@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-13",
+ "generated_on": "2026-10-14",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-13",
-   "weekday": "Tue",
-   "low_ft": -0.051,
-   "low_time_local": "7:30 PM",
-   "window_local": "5:30 PM–9:45 PM",
-   "arrive_by_local": "6:30 PM",
-   "daylight_min": 65,
-   "score": 30,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 269,
-   "min_to_sun_edge": -55
-  },
-  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.518,
@@ -2072,13 +2058,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 235,
    "min_to_sun_edge": 90
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.597,
+   "low_time_local": "4:13 PM",
+   "window_local": "1:55 PM–6:45 PM",
+   "arrive_by_local": "3:13 PM",
+   "daylight_min": 190,
+   "score": 68,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 241,
+   "min_to_sun_edge": 52
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 32
+   "count": 31
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -2111,19 +2111,19 @@
    "count": 8
   },
   {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 8
+  },
+  {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 7
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 6
-  },
-  {
    "commonName": "Rough Limpet",
    "scientificName": "Lottia scabra",
-   "count": 4
+   "count": 5
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-13",
+ "generated_on": "2026-10-14",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -2075,11 +2075,6 @@
   }
  ],
  "species_last60d_5km": [
-  {
-   "commonName": "Nuttall's Cockle",
-   "scientificName": "Clinocardium nuttallii",
-   "count": 1
-  },
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",

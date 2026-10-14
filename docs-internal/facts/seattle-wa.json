@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-13",
+ "generated_on": "2026-10-14",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1777,7 +1777,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 13
+   "count": 16
   },
   {
    "commonName": null,

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-13",
+ "generated_on": "2026-10-14",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2085,11 +2085,6 @@
    "count": 7
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
-   "count": 5
-  },
-  {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
    "count": 4
@@ -2102,6 +2097,11 @@
   {
    "commonName": "Fingered Limpet",
    "scientificName": "Lottia digitalis",
+   "count": 3
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
    "count": 3
   },
   {
