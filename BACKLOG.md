@@ -425,7 +425,18 @@ conversion variant, schema change or owner-held Haystack/minus-tide patch.
 Sea-glass and Sunset Bay's remaining full refresh are the other two ready
 briefs. These known factual issues outrank speculative tiny-sample title tests.
 
-- [ ] **First: storm beachcombing — reconcile counts, dusk and arrival claims.**
+- [x] **First: storm beachcombing — reconcile counts, dusk and arrival claims.**
+      **Done 2026-10-14:** all brief items implemented and re-verified against
+      Oct 14 facts/data — raw-low vs modeled-window labels (64/63 La Push,
+      69/68 Port Orford Oct–Dec; Dec 19 raw/18 windows at La Push), whole-month
+      daylight totals confirmed and labeled as ≥30-min-overlap calendar-month
+      counts, per-row sunset check (nine of ten lows after sunset; Port Orford
+      Jan 21 5:12 PM low vs 5:16 PM sunset is the exception — prior 5:17
+      inference fixed), arrive-by instruction removed (after sunset in five of
+      ten rows; offset ≠ access/surf advice), all eight sources re-fetched with
+      quotes verbatim, Mora Road closure retained (NPS page updated Oct 13
+      still posts it; Oct 15 = scheduled end, not reopening). Build + verify
+      green. The shared-schema audit stays separate (P2).
       Target `storm-beachcombing-winter-swell`; cluster/reader need: winter
       beachcombing and daylight planning, with no revealed exact-page query
       cluster. Page baseline 0 clicks / 9 impressions / 0% CTR / position

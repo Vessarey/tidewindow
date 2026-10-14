@@ -1,15 +1,15 @@
 ---
 title: "Storm Beachcombing: What Winter Swell Plus a Minus Tide Uncovers"
-description: "Winter swell strips sand and restocks the wrack line. The 2026-27 daylight minus-tide windows at La Push and Port Orford, plus NWS sneaker-wave rules."
+description: "Winter swell strips sand and restocks the wrack line. The 2026-27 minus-tide daylight windows at La Push and Port Orford, plus NWS sneaker-wave rules."
 date: "2026-07-03"
-updated: "2026-09-29"
+updated: "2026-10-14"
 category: "beachcombing"
 tags: ["storm beachcombing", "winter swell", "wrack line", "La Push", "Port Orford"]
 faq:
   - q: "When is the best time to go beachcombing after a storm?"
-    a: "On the first calm daylight low tide after the swell drops. Storm waves strip beach sand into offshore bars and pile a dense wrack line high on the beach; a minus tide then exposes the freshly uncovered gravel low on the beach. In winter 2026-27 those windows are scarce: for October through December, Port Orford (NOAA station 9431647) has 23 daylight minus tides and La Push (9442396) has 12."
+    a: "On the first calm daylight low tide after the swell drops. Storm waves strip beach sand into offshore bars and pile a dense wrack line high on the beach; a minus tide then exposes the freshly uncovered gravel low on the beach. In winter 2026-27 those windows are scarce: across the whole of October through December 2026, Port Orford (NOAA station 9431647) has 23 minus-tide windows with at least 30 minutes of daylight overlap, and La Push (9442396) has 12. Daylight overlap means part of the window is lit, not that the low itself is."
   - q: "What are the lowest daylight-window tides at La Push and Port Orford in winter 2026-27?"
-    a: "At Port Orford (NOAA station 9431647): -2.211 ft on Dec 24, 2026 at 6:14 PM, and -2.066 ft on Dec 23 at 5:26 PM. At La Push (9442396): -1.972 ft on Dec 23, 2026 at 6:03 PM, and -1.957 ft on Jan 22, 2027 at 6:35 PM. Every one of the two stations' five lowest daylight-window lows for October 2026 through March 2027 lands between 5:12 and 6:35 PM local time."
+    a: "At Port Orford (NOAA station 9431647): -2.211 ft on Dec 24, 2026 at 6:14 PM, and -2.066 ft on Dec 23 at 5:26 PM. At La Push (9442396): -1.972 ft on Dec 23, 2026 at 6:03 PM, and -1.957 ft on Jan 22, 2027 at 6:35 PM. Every one of the two stations' five lowest daylight-overlap-window lows for October 2026 through March 2027 lands between 5:12 and 6:35 PM local time — and in nine of the ten the low itself comes after sunset; the daylight sits earlier in the window."
   - q: "What is a sneaker wave?"
     a: "The National Weather Service defines sneaker waves as 'potentially deadly waves that surge further up the beach than expected, overtaking the unaware.' They can run at least 150 feet (45 meters) up the dry beach, often after 10 to 20 minutes of deceptively small surf, so NWS advises watching the ocean for at least 20 minutes before relaxing on the beach, and staying off beach logs, which a single wave can lift and roll."
   - q: "Do Japanese glass floats still wash up on the Pacific coast?"
@@ -27,7 +27,7 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9431647"
 ---
 
-**The best beachcombing of the year comes on the first calm daylight low after a winter blow: the swell restocks the wrack line and strips sand off the gravel, and a minus tide lets you walk the fresh cut. In winter 2026-27, Port Orford (NOAA station 9431647) gets 23 daylight minus tides in October through December against 12 at La Push (9442396), and at both stations the season's five lowest daylight windows land at dusk, between 5:12 and 6:35 PM.**
+**The best beachcombing of the year comes on the first calm daylight low after a winter blow: the swell restocks the wrack line and strips sand off the gravel, and a minus tide lets you walk the fresh cut. Across the whole of October through December 2026, Port Orford (NOAA station 9431647) gets 23 minus-tide windows with at least 30 minutes of daylight overlap against 12 at La Push (9442396) — and the season's five lowest such windows at each station all put the low itself between 5:12 and 6:35 PM, which in nine cases out of ten is after sunset.**
 
 ## What does winter swell actually do to a beach?
 
@@ -43,7 +43,7 @@ Two elevations, two different searches.
 
 **Low on the beach: the gravel beds.** These need the storm *and* the tide, because the lowest of the newly exposed beds only go dry on a good low. This is where minus-tide arithmetic earns its keep. The spots tracked at [Port Orford](/beaches/or/port-orford-or/) include Battle Rock Beach and, helpfully explicit, Agate Beach; the [La Push station listing](/beaches/wa/la-push-wa/) lists Second Beach and Third Beach. A station listing is not confirmation that either route is open or passable.
 
-**Access update, September 29, 2026:** the [National Park Service conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) states, "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026." NPS also says Rialto Beach is not accessible via Mora Road during that period. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) carries the closure notice. October 15 is the scheduled end of construction, not a verified reopening; this calendar does not establish access to Rialto Beach or Hole-in-the-Wall afterward.
+**Access update, rechecked October 14, 2026:** the [National Park Service conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) still states, "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026," and that Rialto Beach is not accessible via Mora Road during that period. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) carries the closure notice. October 15 is the scheduled end of construction, not a verified reopening; this calendar does not establish access to Rialto Beach or Hole-in-the-Wall afterward.
 
 ## What about glass floats?
 
@@ -51,20 +51,20 @@ The genre's great legend, so label it honestly. The documented part: Oregon beac
 
 ## When are the 2026-27 winter daylight windows?
 
-Winter tides here don't lack depth; they lack light. From October through December 2026, La Push logs 63 lows below +1 ft and Port Orford 68 — nearly identical raw material. The daylight conversion is not close:
+Winter tides here don't lack depth; they lack light. From October through December 2026, La Push's tide table holds 64 raw lows below +1 ft and Port Orford's 69, which the pipeline models into 63 and 68 low-tide windows respectively — nearly identical raw material. The daylight conversion is not close:
 
-| Month (2026) | La Push daylight windows | La Push daylight minus tides | Port Orford daylight windows | Port Orford daylight minus tides |
+| Month (2026) | La Push daylight windows | La Push daylight minus windows | Port Orford daylight windows | Port Orford daylight minus windows |
 |---|---|---|---|---|
 | October | 6 | 3 | 8 | 6 |
 | November | 7 | 5 | 10 | 8 |
 | December | 6 | 4 | 11 | 9 |
 | **Oct-Dec total** | **19** | **12** | **29** | **23** |
 
-*Computed 2026-07-03 from NOAA station 9442396 (La Push) and 9431647 (Port Orford) predictions.*
+*Computed 2026-07-03 and re-verified 2026-10-14 from NOAA station 9442396 (La Push) and 9431647 (Port Orford) predictions. "Daylight" means at least 30 minutes of daylight overlap somewhere in the modeled window — not daylight at the low itself. Whole-calendar-month counts, including dates already past.*
 
-Port Orford converts almost twice as often, and December is the starkest month: La Push posts 18 lows below +1 ft and turns only 4 into daylight minus tides, while Port Orford posts 22 and turns 9. Some of that is the luck of the harmonic draw, but the structural share is latitude. La Push sits at 47.9°N, Port Orford at 42.7°N, and five degrees buys noticeably more December afternoon before the light quits.
+Port Orford converts almost twice as often, and December is the starkest month: La Push posts 19 raw lows below +1 ft (18 modeled windows) and turns only 4 into daylight minus windows, while Port Orford posts 22 and turns 9. Some of that is the luck of the harmonic draw, but the structural share is latitude. La Push sits at 47.9°N, Port Orford at 42.7°N, and five degrees buys noticeably more December afternoon before the light quits.
 
-Here are the two stations' five lowest daylight-window lows for the king-tide season (October 2026 through March 2027), ranked together by depth:
+Here are the two stations' five lowest lows among daylight-overlap windows for the king-tide season (October 2026 through March 2027), ranked together by depth:
 
 | Station | Date | Low (ft MLLW) | Low time | Arrive by | Daylight in window | Score |
 |---|---|---|---|---|---|---|
@@ -79,11 +79,11 @@ Here are the two stations' five lowest daylight-window lows for the king-tide se
 | La Push | Thu Jan 21, 2027 | −1.821 | 5:50 PM | 4:50 PM | 82 min | 63 (Good) |
 | La Push | Tue Dec 22, 2026 | −1.447 | 5:15 PM | 4:15 PM | 79 min | 55 (Fair) |
 
-*Computed 2026-07-03 from NOAA station 9442396 and 9431647 predictions; windows and scores per the Tidewindow pipeline.*
+*Computed 2026-07-03 and re-verified 2026-10-14 from NOAA station 9442396 and 9431647 predictions; windows and scores per the Tidewindow pipeline. "Arrive by" is a computed offset one hour before the low, not an access, route, or safety instruction — in five of these ten rows it falls after sunset.*
 
-Every row lands between 5:12 and 6:35 PM. Winter minus tides on this coast are dusk events, so read the daylight column hard: in nine of these ten windows the light runs out before the water does. La Push on Dec 23 is the honest extreme — the window opens at 3:50 PM with 39 daylight minutes, which puts last light near 4:29 PM, an hour and a half before the 6:03 PM low. You comb the falling tide, not the bottom of it. The exception is Port Orford on Jan 21, 2027: a window opening at 2:45 PM with 152 daylight minutes holds the light until about 5:17 PM, five minutes past the 5:12 PM low. It is the only one of these ten windows that serves the actual low in daylight, and it takes the best score of the ten, 76. The latitude tax shows up here too: La Push's five windows hold 270 daylight minutes combined, Port Orford's 490.
+Every row's low lands between 5:12 and 6:35 PM. Winter minus tides on this coast are dusk events, so read the daylight column hard: in nine of these ten windows the low itself occurs after sunset. La Push on Dec 23 is the honest extreme — the window opens at 3:50 PM with 39 daylight minutes, and sunset is 4:29 PM, an hour and a half before the 6:03 PM low. You comb the falling tide, not the bottom of it. The exception is Port Orford on Jan 21, 2027: a window opening at 2:45 PM with 152 daylight minutes, a 5:12 PM low, and sunset at 5:16 PM, four minutes after the low. It is the only one of these ten windows whose low occurs before sunset, and it takes the best score of the ten, 76. The latitude tax shows up here too: La Push's five windows hold 270 daylight minutes combined, Port Orford's 490.
 
-For calibration, La Push's deepest daylight low of 2026 is a summer one: −2.996 ft on Jul 14 at 7:15 AM, scored 90. None of winter's ten deepest daylight windows clears 76. The [Tide Window Finder](/tools/tide-window-finder/) keeps these ranked as the season approaches, the [Trip Picker](/tools/trip-picker/) will chain the consecutive days around Dec 22-24, and the [2026-27 king tides page](/guides/king-tides-2026-2027-dates/) covers the high-water end of these same spring-tide cycles.
+For calibration, La Push's deepest low among 2026's daylight-overlap windows is a summer one: −2.996 ft on Jul 14 at 7:15 AM — a low that actually sat in daylight, an hour and forty minutes after sunrise — scored 90. None of winter's ten deepest daylight-overlap windows clears 76. The [Tide Window Finder](/tools/tide-window-finder/) keeps these ranked as the season approaches, the [Trip Picker](/tools/trip-picker/) will chain the consecutive days around Dec 22-24, and the [2026-27 king tides page](/guides/king-tides-2026-2027-dates/) covers the high-water end of these same spring-tide cycles.
 
 ## What do NWS and NPS say about winter surf?
 
@@ -91,4 +91,4 @@ Nothing in this section is worth improvising, so it is mostly quotation. The Nat
 
 Note that the wrack line you came to search sits within that 150-foot run-up, and a post-storm beach is newly floored with drift logs. NWS again: "A single sneaker wave can lift and roll these logs further up the beach, as well as roll them back down the beach, knocking over or pinning unsuspecting beachgoers." Stay off the logs. And Olympic National Park's standing rule for the coast that includes La Push's beaches: "Wherever you go along the coast, always carry a tide table and know how to use it!"
 
-The recipe: let the blow pass, take the first calm daylight window, work the high wrack early, and be on the low gravel by the arrive-by time in the table. In winter the clock that ends the search is usually the sun, not the flood. The scoring formulas live on the [methodology page](/methodology/).
+The recipe: let the blow pass, take the first calm daylight window, and work the high wrack while the light holds. A tide table cannot tell you the swell has actually dropped — that judgment belongs to the NWS surf-zone forecast and your own twenty minutes of watching — and in five of the table's ten rows the computed arrive-by offset falls after sunset anyway. In winter the clock that ends the search is usually the sun, not the flood. The scoring formulas live on the [methodology page](/methodology/).

@@ -5,6 +5,67 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-14 — Storm-beachcombing factual maintenance; six-slot mitigation validated
+
+**Health first (green, mitigation validated):** today's refresh landed UNAIDED
+before the session — scheduled run 38514257499 created 04:59:35Z, completed
+05:02:43Z, commit `f47943b` ("data: daily NOAA refresh 2026-10-14") pushed
+05:02:38Z. That satisfies the Oct 14 before-12:00Z gate opened on Oct 13.
+Which of the six cron expressions originated the run is not exposed by the
+API, so no per-slot delay is claimed (if it was the 00:17 slot the delay was
+~4.7h; if 02:47, ~2.2h — both inside the designed ~10h margin). Later slots
+08:03:11Z and 09:44:27Z completed in ~10s, consistent with the
+skip-if-refreshed guard. No open issues. Held files (haystack + minus-tide
+edits, newsletter drafts, seo-refresh dirs) stashed around the pull and
+restored, excluded from today's commit.
+
+**Primary action (P1 first brief, Oct 11 refill):** factual-maintenance pass
+on `storm-beachcombing-winter-swell` per the brief. All numbers re-verified
+against today's facts/data (generated 2026-10-14): raw-lows vs modeled-window
+counts now labeled precisely (Oct–Dec: La Push 64 raw lows below +1 ft /
+63 modeled windows; Port Orford 69/68; December: La Push 19 raw/18 windows);
+whole-month daylight table kept (19/12 and 29/23 confirmed unchanged) with a
+caption defining daylight as ≥30 min window overlap, not daylight at the low,
+and marking counts as whole-calendar-month; lead/FAQs qualified the same way.
+King-season top-10 table rows re-verified row-by-row; added the sunset
+reality: nine of ten lows occur after sunset (per-row check against window
+sunset timestamps), the sole exception Port Orford Jan 21, 2027 (5:12 PM low,
+5:16 PM sunset — fixed the prior inferred "about 5:17"). La Push Dec 23
+last-light now stated exactly (sunset 4:29 PM). Removed the closing
+"be on the low gravel by the arrive-by time" instruction: arrive-by is a
+computed one-hour offset, falls after sunset in five of ten rows (e.g.
+Port Orford Dec 24 5:14 PM vs 4:48 PM sunset; La Push Dec 23 5:03 PM vs
+4:29 PM), and a tide prediction cannot establish calm surf — table caption
+now says so. Jul 14 calibration low re-verified (−2.996 ft, 7:15 AM, in
+daylight, score 90). All eight external sources re-fetched at write time and
+quotes confirmed verbatim (NWS sneaker-waves, NPS conditions/coast/profile,
+COASST, Travel Oregon, Lincoln City ×2). Mora Road closure RETAINED: NPS
+conditions page (updated Oct 13) still posts the July 8–Oct 15 closure;
+access note recast as "rechecked October 14," Oct 15 still framed as
+scheduled end, not verified reopening. `updated:` → 2026-10-14. Titles, URL,
+original computation dates, tables, gates preserved.
+
+**Gates:** npm run build green; verify-output OK (12 stations × 5 months,
+136 sitemap URLs); facts/math/format suites 0 failures; diff reviewed —
+only the storm article (30 changed lines) plus JOURNAL/BACKLOG; holds
+untouched; no generated data changed.
+
+**Metrics snapshot (PostHog 495836, $host = thetidewindow.com, trailing 7d
+at ~12:10Z):** 558 pageviews / 3 newsletter signups. Raw event counts, not
+verified humans. No GSC pull today — exact-page baselines for this brief
+were recorded Oct 11; next property read with the next heartbeat.
+
+**Tomorrow (Oct 15):** Seattle August final readout is due (one extension
+already used — close it per §5 either way). Recheck NPS conditions for Mora
+Road reopening after the scheduled Oct 15 construction end; if officially
+confirmed, queue the La Push/storm/shared-metadata access-note updates
+(check together). Two P1 briefs remain ready from the Oct 11 refill
+(Cabrillo, Pillar Point) plus sea-glass and Sunset Bay; planning-guide
+expired-August claims still queued. Also verify the refresh again lands
+unaided before 12:00Z to build the mitigation's track record.
+
+---
+
 <!-- heartbeat-2026-10-13:start -->
 ## 2026-10-13 — Heartbeat: align refresh runbook and keep mitigation validation open
 
