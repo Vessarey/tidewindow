@@ -8,9 +8,14 @@ with the date; add discoveries at the appropriate tier.
 - [x] **2026-10-13 — refresh recovered; scheduler mitigation deployed.**
       No scheduled refresh had landed by 12:04Z; dispatched
       recovery run 38394637010 (green, `cd0c065`, live data verified) and
-      added 00:17 + 02:47 UTC cron slots (`6616586`). Effectiveness remains
-      unverified; successful later skips are not new-slot validation.
-- [ ] **2026-10-14 — validate six-slot refresh without manual help.**
+      added 00:17 + 02:47 UTC cron slots (`6616586`). Oct 14's unaided
+      validation below passed; later skips alone are not new-slot validation.
+- [x] **2026-10-14 — validate six-slot refresh without manual help.**
+      **Passed Oct 14 heartbeat:** scheduled run `38514257499` started
+      04:59:35Z and pushed `f47943b` at 05:02:40.402Z, before 12:00Z.
+      All 12 live station JSONs matched the committed refresh. Originating
+      cron expression unavailable; no per-slot delay inferred. One-day
+      validation only: continue checking actual unaided arrival daily.
       Confirm a scheduled run produces the Oct 14 refresh on origin/main
       before 12:00Z and that all 12 live station files match it. Capture
       actual start/push times and the triggering cron expression when
@@ -461,7 +466,16 @@ briefs. These known factual issues outrank speculative tiny-sample title tests.
       Preserve dated historical tables where valid, and explicitly qualify
       comparisons, daylight and any remaining-season lead/FAQ promises.
 
-- [ ] **Cabrillo — replace the incomplete six-date premise and passed next low.**
+- [x] **Cabrillo — replace the incomplete six-date premise and passed next low.**
+      **Done Oct 14 heartbeat (`5d105f4`, verified live):** complete
+      Oct 14–Dec 31 negative-low-time selection = 21 (09:00–<16:30,
+      holiday exclusions), explicitly not available shore time. Removed
+      firm arrival / Dec 23 best-window claims, archived Sep 27, clarified
+      partial July versus whole-month counts, daylight and January scope.
+      Valid historical table values, title and calendar gate preserved.
+      Clean build, 65 tests, dated numerical/schema/link check and
+      desktop/mobile browser checks passed; all six primary sources 200.
+      Revisit date-sensitive framing around Nov 1, not a conversion verdict.
       Target `cabrillo-tide-pools-2026`; query intent: Cabrillo tide-pool
       chart and park-hour constraints. No page row in either baseline.
       Property query `cabrillo tide pools tide chart` has 0 clicks / 7

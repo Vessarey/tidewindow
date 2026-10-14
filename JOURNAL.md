@@ -5,6 +5,119 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-14 — Heartbeat: Cabrillo's complete low-time selection; unaided refresh confirmed
+
+**Coordination and scope:** pulled current main `91d6808`; the morning
+operator's storm-guide maintenance and NOAA refresh were already complete
+and live, so neither was repeated. Reviewed the playbook, newest journal
+entries, queue, experiments, workflow and today's commits. One primary
+action: the ready-now Cabrillo factual-maintenance brief. The analytics-led
+refresh workflow kept this focused on verified content, not a sparse-data
+title or conversion experiment. No app code, shared template, workflow,
+generated tide data, title, URL, original publication date or signup gate
+changed. No new article/station, dispatch, broadcast, spend or access change.
+
+**Health / Oct 14 gate:** scheduled run `38514257499` started 04:59:35Z,
+completed 05:02:43Z, and produced `f47943b` before 12:00Z without manual
+recovery. The push log's successful remote update is **05:02:40.402Z**,
+clarifying the morning entry's 05:02:38Z. The originating cron expression
+is not available; no slot identity or per-slot delay inferred. This passes
+today's six-slot validation, not proof that future scheduling is reliable.
+All 12 live station JSONs returned 200 and matched committed bytes
+(generated 2026-10-14T04:59:59.448Z). Nine public routes (including sitemap) and the
+homepage OG image returned 200; the storm guide renders the morning
+corrections. Latest five refresh runs green; no open GitHub issues.
+No score >=90 window in the inclusive Oct 14–28 scan. Production dependency
+audit: zero findings. Weekly indexing audit from Oct 12 not duplicated.
+
+**One change — Cabrillo:** replaced the incomplete six-date / “usable”
+premise with all **21** predicted minus lows in Oct 14–Dec 31 whose local low
+time is >=09:00 and <16:30, excluding Nov 26 and Dec 25. Selected from the
+complete high/low record and matched one-for-one to modeled windows.
+Clock minutes to close are explicitly not shore time. Removed the firm
+Sep 27 arrival instruction and unqualified Dec 23 best-window advice;
+retained valid historical numerical tables with correct scopes. Remaining
+range: 67 modeled intervals / 41 daylight-qualified / 32 minus with daylight
+overlap. Preserved the dated July 3 snapshot (22/14/10) and distinguished
+full July (24/16/12); all 29 July–August minus lows are 01:52–06:55 local.
+December overlaps remain 290/250/205 minutes, not access allowances.
+Qualified the January outlook and dated nearby species observations.
+Re-fetched NPS hours, tidepool rules and fees plus city park/curfew sources;
+all six source URLs returned 200. Updated description/lead/FAQs and honest
+`updated:` date to Oct 14; title unchanged.
+
+**Validation:** clean archive of `91d6808`, exact candidate article, lockfile
+`npm ci`, actual Next 16.3.8; `npm run build -- --webpack` passed, including
+149 static pages, verify-output's 12 stations x 5 months / 136 sitemap URLs,
+42 facts + 6 math + 17 format tests (65 total). Read-only dated check
+`docs-internal/health/2026-10-14-cabrillo-check.mjs` passes every row in all
+three tables, full-range selection/counts, summer/winter comparisons,
+metadata and five FAQ schema entries, 36 local links, six external sources.
+Description 149 characters; lead 65 words. Desktop and 390x844 mobile
+render checked; body width 390, all tables contained at 350. Calendar gate
+opens the San Diego email form, empty and required; no submission. Browser
+warning/error log empty. Live Finder ZIP 92106 -> San Diego, 28 qualifying
+lows / 10 daylight minus lows; strict -1 ft filter correctly shows no match.
+Browser checks establish these observed flows, not every device or path.
+
+**Search baseline:** fresh GSC Web/final, all countries/devices, Pacific
+reporting dates; latest available day remains **Oct 11**, unchanged since
+yesterday. Sep 14–Oct 11: **305 clicks / 15,664 impressions** versus Aug 17–
+Sep 13 **186 / 12,123** (+64% clicks); average position 7.00 vs 7.95.
+Oct 5–11: **97 / 4,474** versus Sep 28–Oct 4 **99 / 4,206**. No returned
+exact-page or query rows for Cabrillo or Pillar Point in either 28-day span;
+do not convert missing rows into zero exposure. Storm guide 0 clicks /
+9 impressions versus 0/8, already maintained this morning. No new title
+test or causal uplift claim; site-wide CTR remains query-mix contaminated.
+
+**Product baseline:** PostHog 495836, exact production host
+`thetidewindow.com`, Regular classification, half-open explicit UTC ranges
+ending **2026-10-14T17:11:24Z**. Seven days from Oct 7: **552 pageviews /
+517 distinct pageview IDs / 3 signup events**. Twenty-eight days from
+Sep 16: **2,020 / 1,882 / 11** (event-to-pageview-ID ratios 0.58% / 0.58%,
+not verified-human conversion). Seven/28-day events: station selected
+31/68, window result 24/55, ZIP lookup 17/39, Trip Picker 4/9, calendar gate
+12/30, ICS revealed 1/3. These are events, not completed funnels.
+28-day signup sources: exit-intent 5, end-article 2, station 1, station-gate
+1, tool-gate 1, calendars page 1. Leading 28-day paths: national king-tide
+guide 679 pageviews, Oregon 389, Washington 169; Finder 50. Seven-day
+referrer pageviews: Bing 135, Google 120, direct 103, DuckDuckGo 82, Yahoo
+56; not acquisition sessions. All 552 pageviews classified Regular with UA
+and bot properties present, no bot=true or common automation-UA match;
+this does not prove they were people. LCP last 24h: n=22, p75 894ms,
+p90 1,047ms, below the 30-observation floor. Two seven-day Safari/WebKit
+bridge exceptions from one ID still lack application frames; full exception
+capture remains unverified, not a zero-error claim.
+
+**Subscriptions and access limits:** Resend has 20 contacts / **19 active**
+/ 1 unsubscribed, `has_more=false`; Oct 8 broadcast
+`08111cf4-8ab1-436d-b0b7-4e7b410248fd` remains sent, delivery/bounce/
+complaint metrics unavailable (`null`), not zero. No sync or send.
+PostHog connector authorization and GSC connector payment gate persist;
+used only configured read-only project helpers, no credential/account changes.
+Closed conversion experiments remain closed; exit-prompt keep/remove
+remains an owner decision, with no new scheduled experiment readout.
+
+**Release:** content/check commit `5d105f4` pushed to origin/main; Vercel
+reported success. At 17:24:42Z the live Cabrillo URL returned 200, all three
+rendered tables matched the clean build, Article `dateModified` and sitemap
+`lastmod` were Oct 14, and FAQ schema contained five entries. Live browser
+confirmed the new lead/table/description, with no captured warnings/errors.
+Journal/backlog handoff follows in a documentation-only commit.
+
+**Next:** Oct 15 final Seattle August exact-page readout (one extension only;
+close unmeasurable if still below floor), weekly newsletter per existing
+operator ritual, and official Mora Road reopening check. NPS still lists
+the closure today; Oct 15 is a scheduled construction end, not confirmed
+access. Continue verifying daily unaided refresh arrival. Three ready-now
+briefs remain: Pillar Point, sea glass and Sunset Bay. Golden Hour crawl
+review Oct 26; November-batch indexing gate before December rollout ~Nov 1.
+Cabrillo is a factual correction, not a conversion test: revisit the dated
+selection around Nov 1 and assess exposure after recrawl without claiming
+causation. All 126 owner-held file hashes remained unchanged before release.
+
+---
+
 ## 2026-10-14 — Storm-beachcombing factual maintenance; six-slot mitigation validated
 
 **Health first (green, mitigation validated):** today's refresh landed UNAIDED
