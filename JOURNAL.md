@@ -5,6 +5,161 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-15 — Heartbeat: Pillar Point sunset correction and daily health review
+
+**Coordination and scope:** pulled current main `92ec7fd`; the morning
+operator's Thursday send, Seattle August experiment closure and Mora Road
+recheck were already complete. Read the playbook, newest three journal
+entries, backlog, today's commits, workflow and open issues before choosing
+one independent ready-now action: Pillar Point factual maintenance. Three
+briefs were ready at selection; after this release two remain. The
+analytics-led refresh workflow preserved the title, URL, original publish
+date, valid historical tables and signup gates. No app/shared-template,
+workflow, generated-data, station or conversion-variant changes; no new
+article, dispatch, broadcast, audience sync, spend or access change.
+
+**Health / refresh:** run `38683318333` started **04:47:30Z**, completed
+04:50:00Z and produced `f610aba` unaided before 12:00Z. The actual successful
+push-log timestamp is **04:49:58.499Z**, clarifying the morning entry's
+04:49:56Z. The originating cron expression is unavailable: the start time
+does not prove this was the 04:47 slot, and no per-slot delay is inferred.
+This is a second observed unaided pre-session refresh since the mitigation,
+not durable scheduler proof. Latest five scheduled runs green; later skips
+only prove today's data was present. IndexNow submitted 136 URLs and
+returned HTTP 200 at 04:49:55.974Z. No open GitHub issues. All 12 live station
+JSONs returned 200 and byte-matched the committed data, generated
+**2026-10-15T04:47:52.567Z**. One initial concurrent fetch hit local ENOTFOUND;
+local/public DNS, curl and sequential rechecks succeeded, so no persistent
+site outage established. Nine public routes plus the homepage OG image
+returned 200. No >=90 window in the inclusive Oct 15–29 scan. Production
+dependency audit: zero findings. Oct 12 weekly indexing audit not duplicated.
+
+**One change — Pillar Point:** archived the expired August dawn premise and
+recomputed the full Oct 15–Dec 31 range: **70 modeled below-1-ft intervals /
+40 with >=30 minutes of daylight overlap / 31 minus lows with that overlap**.
+Only 25 of the 40 lows occur between sunrise and sunset. Added the eight
+deepest qualifying lows with sunset times; **five are after sunset**.
+Dec 23 ranks highest by score (82, -1.86 ft at 4:22 PM before 4:56 PM sunset);
+Dec 24 is deeper but its 5:10 PM low follows 4:57 PM sunset. Christmas Day's
+4:58 PM one-hour offset is itself after sunset. These are predictions,
+not access or arrival instructions.
+
+Preserved every numeric cell in the historical eight-row tide and ten-row
+species tables. Recomputed the monthly table and corrected August 10–31
+from **17 to 18** modeled intervals: both the original Aug 10 data commit
+`0217704` and today's backfill contain 18; no speculative cause assigned.
+Other monthly numeric cells unchanged. Distinguished full July 26/19/16
+from the original partial July 3 snapshot 24/17/14, and historical Aug
+10–Dec 31 minus-overlap count 42 from today's 31. Checked all four qualified
+August morning minus lows and July comparisons against sunrise; Aug 11–13
+and July 14 lows were before sunrise. Historical species table remains
+451 observations, 416 across nine nudibranch entries (92%); fresh Oct 15
+leaders are 27/16/13 records within 5 km, not individual animals or a
+reef-only census. Re-fetched harbor/MSI/CDFW/county/NPS/iNaturalist sources.
+Removed unsupported parking-distance, fixed-walk, arrival and light-angle
+claims. Harbor 8–5 hours are office hours, not reef access. Fitzgerald and
+Pillar Point protections/access are kept distinct. Honest Oct 15 update
+date; description/lead/FAQs revised; title unchanged.
+
+**Validation:** isolated archive of `92ec7fd`, exact candidate article,
+lockfile `npm ci`, actual Next 16.3.8. `npm run build -- --webpack`
+passed: 149 static pages, verify-output's 12 stations x 5 months /
+136 sitemap URLs, **65 tests** (42 facts + 6 math + 17 format).
+Dated read-only check `docs-internal/health/2026-10-15-pillar-point-check.mjs`
+passed at 17:27:19Z: all four tables, complete-range counts/rankings,
+original-data preservation checks, sunrise/sunset comparisons, species
+arithmetic, Article/five-FAQ schema, 37 internal links and nine external
+source URLs (all 200). Description 138 characters, lead 73 words.
+Desktop and 390x844 mobile render checked; document width 390, tables
+contained at width 350 with table-local scrolling where needed. Calendar
+gate opens the Pillar Point email form; no address entered or form
+submitted. Live Finder ZIP 94019 -> Pillar Point, 30 qualifying lows /
+11 daylight-overlap minus lows; <=-1 ft filter updates to three results
+and the matching Oct 27 best score 65. Browser warning/error log empty
+for observed flows, not a universal no-error claim.
+
+**Search baseline:** GSC Web/final, all countries/devices, Pacific dates;
+latest finalized date **Oct 13**. Sep 16–Oct 13: **315 clicks /
+15,622 impressions**, position 6.95, versus Aug 19–Sep 15 **199 /
+12,692**, position 7.89 (+58.3% clicks). Oct 7–13: **93 / 4,352**,
+position 6.80, versus Sep 30–Oct 6 **106 / 4,190**, position 7.19
+(-12.3% clicks). 83 page and 581 query rows, below the 25,000-row cap;
+query anonymization still applies. Leading page clicks: national king
+tides 104, Washington 42, Fitzgerald 39, Seattle guide 26, Oregon guide
+25, Acadia 22. Leading flywheel clusters already have pages (Fitzgerald
+192 impressions / position 8.05; Oregon king tides 2026 105 / 8.22,
+2027 71 / 9.18); no uncovered demand claimed.
+
+| Ready maintenance candidate | Current 28-day exact-page evidence | Prior 28 days | Decision |
+| --- | --- | --- | --- |
+| Pillar Point | No returned page/query rows; rank unavailable | Same | Highest immediate factual value; corrected daylight/access framing |
+| Sea-glass timing (`best-time-sea-glass-hunting`) | 0 clicks / 11 impressions / position 6.55 | 0 / 7 / 10.86 | Remaining scoped maintenance brief |
+| Sunset Bay | 0 clicks / 5 impressions / position 7.60 | No returned exposure row | Remaining full-access/season brief |
+
+All candidates are below experiment floors. Missing rows/zero aggregates
+do not prove no exposure or no demand. This was factual maintenance,
+not a title experiment or a claimed SEO uplift. Fresh exact-page Seattle
+Aug post-retitle read Sep 18–Oct 13 independently matches the morning
+closure: 1 click / 77 impressions; single extension already used, closed
+unmeasurable, template unchanged. Site-wide CTR remains query-mix
+contaminated; no causal conclusion from before/after search movement.
+
+**Product baseline:** PostHog project 495836, exact production host
+`thetidewindow.com` and Regular classification; explicit half-open UTC
+ranges ending **2026-10-15T17:15:00Z**. Seven days from Oct 8:
+**542 pageviews / 517 distinct pageview IDs / 3 signup events**.
+Twenty-eight days from Sep 17: **2,045 / 1,913 / 10**. Signup-event to
+pageview-ID ratios 0.58% / 0.52%, not verified-human conversion.
+Seven/28-day events: station selected 18/67, window result 14/54,
+ZIP lookup 12/37, calendar gate 8/29, Trip Picker 0 observed/9,
+ICS revealed 1/3, exit shown 23/79; events are not completed funnels.
+28-day signup sources: exit-intent 4, end-article 2, station 1,
+station-gate 1, tool-gate 1, calendars page 1. Leading 28-day pageviews:
+national king tides 690, Oregon 401, Washington 171, Acadia 73;
+Finder 49. Seven-day referrer views: Bing 142, Google 120, direct 108,
+DuckDuckGo 77, Yahoo 51, self 33; not acquisition sessions.
+Four Bot-classified pageviews excluded; all 542 Regular pageviews had UA
+and bot properties, none bot=true or matching the checked common automation
+UA signatures. Regular does not establish human traffic. LCP last 24h:
+n=21, p75 848ms, p90 976ms, below the 30-observation floor.
+Two seven-day Safari WebKit bridge exceptions lack application frames;
+exception capture coverage remains unverified, not zero errors.
+
+**Subscriptions / limits:** fresh read-only Resend check confirms
+**23 contacts / 22 active / one unsubscribed**, `has_more=false`.
+Today's broadcast `c5dbef20-6e10-434e-afb8-f9642bcb1399` is sent at
+12:11:33.699644Z; delivery/bounce/complaint metrics unavailable (null),
+not zero. No second send or sync. PostHog connector authorization and
+GSC connector payment gate persist; configured project read-only helpers
+worked, with no credential/account changes. Closed conversion experiments
+stay closed; exit-prompt keep/remove remains an owner decision.
+
+**Release:** content/check commit `9f1ccba` pushed to origin/main; Vercel
+deployment `BCvCSsQSbQYn3nJwC7tavnDF6EE6` reported success at 17:30:03Z.
+At **17:31:26Z**, the public guide returned 200, all four rendered tables
+matched the clean build, Article `dateModified` and sitemap `lastmod` were
+Oct 15, and FAQ schema had five entries. The live mobile browser rendered
+the corrected lead/table and date; no warning/error was observed. Initial
+live comparison while deployment was still pending correctly found the old
+page; only the completed deployment is counted as delivered. Delivery does
+not establish Google recrawl, indexing or improved performance.
+All **128 pre-existing held files** byte-identical at the pre-push check:
+Haystack/minus-tide patches, Oct 1/8/15 newsletter drafts and three SEO
+evidence directories. None included in the release.
+
+**Next:** ready-now queue now has only sea-glass and Sunset Bay, below the
+three-item floor: next run should refresh demand and refill under §2a
+before another elective content action (unless build/refresh/reader issue
+takes precedence). Recheck Mora Road Oct 16; today's NPS page, updated
+Oct 13, still says closed July 8–Oct 15 and does not confirm reopening.
+Do not remove the closure notes merely because the scheduled end passed.
+Keep Golden Hour crawl review Oct 26, November-batch indexing gate around
+Nov 1 before December expansion, and next weekly indexing read in view.
+Revisit Pillar Point's date-sensitive framing around Nov 1, not as a
+conversion verdict. Continue verifying unaided refresh arrival daily.
+
+---
+
 ## 2026-10-15 — Thursday newsletter ritual; Seattle August readout closed; Mora still closed
 
 **Health (green, mitigation track record +1):** today's refresh landed

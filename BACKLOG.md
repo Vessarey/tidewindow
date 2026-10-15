@@ -5,6 +5,22 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **2026-10-16 — refill the ready-now queue under §2a.**
+      Oct 15 heartbeat completed Pillar Point (`9f1ccba`), leaving only
+      sea-glass timing and Sunset Bay's full refresh independently ready.
+      Two is below the three-item floor. Refresh GSC demand and verify
+      candidate source claims before adding at least three bounded briefs;
+      do not duplicate shipped work or owner-held Haystack/minus-tide edits.
+      This is the next primary action unless build/refresh/reader issues
+      take precedence; no second primary action in the Oct 15 heartbeat.
+- [x] **2026-10-15 — unaided refresh and existing operator work verified.**
+      Run `38683318333` started 04:47:30Z and pushed `f610aba` at
+      04:49:58.499Z; all 12 live station JSONs match. Originating cron
+      unknown, so no slot identity/delay inferred. Today's broadcast
+      confirmed sent; Seattle August closure independently checked at
+      1 click / 77 post-retitle impressions. Neither repeated. Mora Road
+      remains unconfirmed open; recheck Oct 16. See the heartbeat journal.
+
 - [x] **2026-10-13 — refresh recovered; scheduler mitigation deployed.**
       No scheduled refresh had landed by 12:04Z; dispatched
       recovery run 38394637010 (green, `cd0c065`, live data verified) and
@@ -496,7 +512,18 @@ briefs. These known factual issues outrank speculative tiny-sample title tests.
       available shore time. Distinguish raw lows from modeled windows;
       retain valid summer history, qualify the 2027 outlook and date species.
 
-- [ ] **Pillar Point — archive the August dawn run and distinguish winter dusk.**
+- [x] **Pillar Point — archive the August dawn run and distinguish winter dusk.**
+      **Done Oct 15 heartbeat (`9f1ccba`):** full Oct 15–Dec 31 counts
+      70 modeled / 40 daylight-qualified / 31 minus with overlap; eight
+      deepest selected lows include five after sunset. Preserved historical
+      eight-row tide and ten-row species tables; corrected Aug 10–31's
+      modeled count 17 -> 18 against both original and current data.
+      Removed unsupported walk/arrival/light-angle claims; re-fetched
+      harbor/MSI/state/county/NPS sources and distinguished nearby MPAs.
+      Title, URL, original date and gates unchanged. Build/65 tests,
+      four-table numerical/schema/link check and desktop/mobile checks
+      passed; nine cited URLs HTTP 200. Release evidence in the journal.
+      Revisit date-sensitive framing around Nov 1, not an experiment verdict.
       Target `pillar-point-tide-pools-2026`; query intent: Pillar Point
       reef tide times/daylight. No page row in either baseline; the visible
       property query `pillar point tide chart` is only 0 clicks / 1
