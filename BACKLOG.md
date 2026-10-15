@@ -2282,13 +2282,16 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       7.31→7.17; below floor, single extension below. WA/OR 2027 guides both
       Google PASS/Submitted and indexed, matching canonicals, crawled Sep 27.
       This verifies current index states, not attribution to the link edit.
-- [ ] **Oct 15: final Seattle August month-title readout (one extension).**
-      Sep 18–28 post sample 65 impressions / 1 click, below §5 floor. At
-      65/11 per day, ~17 days total to 100 (<60), not a guaranteed forecast.
-      Compare exact-page daily GSC with equal pre/post windows and lag;
-      account for archival seasonality and concurrent changes. If still
-      below 100 impressions / 30 events, close unmeasurable; no second
-      extension. Do not restart the closed signup experiments.
+- [x] **Oct 15: final Seattle August month-title readout — CLOSED
+      unmeasurable (§5, 2026-10-15).** Full post-retitle window Sep 18–
+      Oct 13 (exact-page daily GSC): 1 click / 77 impressions, below the
+      100-impression floor; one extension already used, so no second.
+      Daily impressions decayed from ~15/day (Sep 18–19) to near zero by
+      Oct 9–13 as the August archive aged out of seasonal queries — the
+      forecast rate never held. Verdict: unmeasurable at current traffic;
+      the retitled template stays (costs nothing, applies to all 48 month
+      pages). No causal claim either way; do not restart the closed signup
+      experiments.
 
 - [x] 2026-08-31: **Past-month pages fixed — they had been publishing wrong
       numbers** (owner review pass). The rolling windows dataset had dropped

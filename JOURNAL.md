@@ -5,6 +5,72 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-15 — Thursday newsletter ritual; Seattle August readout closed; Mora still closed
+
+**Health (green, mitigation track record +1):** today's refresh landed
+UNAIDED before the session for the second consecutive day — run 38683318333
+started 04:47:30Z (consistent with the 04:47 slot), completed in 2m30s,
+commit `f610aba` pushed 04:49:56Z, well before the 12:00Z gate. Later slots
+(07:44, 09:27) skipped in ~10s per the guard. Latest five runs green; no
+open issues. Owner-held files (haystack + minus-tide edits, Oct 1/8
+newsletter drafts, seo-refresh dirs) stashed around the pull and restored,
+excluded from this commit.
+
+**Primary — Thursday newsletter (established template only):**
+1. `sync-audience`: PostHog 504s on the signup query (three attempts, same
+   transient class as Sep 29 / Oct 1 / Oct 8 but needing more retries —
+   PostHog now rate-limits the repeated failing query for ~1 min); fourth
+   attempt succeeded. 3 contacts added (Oct 10–13 signups: exit-intent ×2,
+   calendars_page), 20 already present, 23 total, 1 unsubscribed untouched.
+2. `send-weekly --dry-run`: quiet-week issue, Oct 15–21, zero Good-or-better
+   windows, and — unlike Oct 8 — no least-bad fallback line.
+3. Recompute-check: independent scan of `public/data-json/stations` finds
+   37 windows dated Oct 15–21 across 12 stations, ALL night (lows 7:37 PM–
+   11 PM local), all band "Skip", zero with ≥30 daylight minutes. The
+   fallback's absence is the template's own conditional (it requires a
+   non-night window in range; there are none), verified in code and data —
+   not a new section or removed content. Numerals-masked diff vs the sent
+   Oct 8 text shows no other structural difference; newsletter scripts
+   unchanged in git since the original pipeline commit. Standing blanket
+   approval applies.
+4. Sent: Broadcast `c5dbef20-6e10-434e-afb8-f9642bcb1399` to 22 subscribers;
+   Resend status `sent` at 12:11:33Z (status was `queued` immediately after
+   creation — re-poll before journaling, as done here). Oct 8 broadcast
+   `08111cf4` remains `sent`; broadcasts API still exposes no bounce/
+   complaint fields (unknown, not zero — dashboard stays an owner check).
+   Oct 15 draft files left uncommitted alongside the Oct 1/8 ones,
+   matching the two prior send runs' handling.
+
+**Side item 1 — Seattle August retitle readout CLOSED (§5):** full
+post-retitle exact-page window Sep 18–Oct 13: **1 click / 77 impressions**,
+below the 100-impression floor with the single allowed extension spent.
+Daily impressions decayed to near zero by Oct 9–13 (archival seasonality,
+as the Oct 1 note predicted was possible). Verdict: **unmeasurable at
+current traffic**; retitled template stays site-wide; no causal claim; no
+new variant. BACKLOG item checked off with the numbers.
+
+**Side item 2 — Mora Road recheck:** NPS Olympic conditions page (last
+updated Oct 13) still lists "Mora Road is closed to all traffic for
+construction from July 8–Oct. 15, 2026" with no separate confirmed
+reopening date. Today is the scheduled construction END, not a confirmed
+reopening — the La Push/storm/shared-metadata access-note updates stay
+QUEUED, not actioned. Recheck on the next run; only act on an official
+"open" statement.
+
+**Metrics snapshot:** descriptive only — the send plus its gates plus the
+readout were today's budget; no deeper PostHog pull beyond the sync query
+(which itself timed out repeatedly; keep queries narrow next run).
+
+**Tomorrow (Oct 16):** recheck Mora Road (NPS may update after the Oct 15
+construction end); if officially open, do the La Push/storm/shared-metadata
+access-note pass together. Ready P1 briefs: Pillar Point, sea-glass, Sunset
+Bay; planning-guide expired-August claims still queued. Weekly inspect-40
+due with the new week (last Oct 12). Watch today's broadcast for bounces/
+complaints. Golden Hour crawl review Oct 26; Nov 1 month-expansion
+indexing gate upcoming.
+
+---
+
 ## 2026-10-14 — Heartbeat: Cabrillo's complete low-time selection; unaided refresh confirmed
 
 **Coordination and scope:** pulled current main `91d6808`; the morning
