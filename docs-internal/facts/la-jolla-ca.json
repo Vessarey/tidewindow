@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-14",
+ "generated_on": "2026-10-15",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -1966,20 +1966,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-14",
-   "weekday": "Wed",
-   "low_ft": 0.476,
-   "low_time_local": "6:36 PM",
-   "window_local": "4:55 PM–8:20 PM",
-   "arrive_by_local": "5:36 PM",
-   "daylight_min": 82,
-   "score": 22,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 263,
-   "min_to_sun_edge": -19
-  },
-  {
    "date": "2026-10-27",
    "weekday": "Tue",
    "low_ft": -0.835,
@@ -2048,18 +2034,32 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 247,
    "min_to_sun_edge": 18
+  },
+  {
+   "date": "2026-11-12",
+   "weekday": "Thu",
+   "low_ft": 0.005,
+   "low_time_local": "5:15 PM",
+   "window_local": "3:05 PM–7:40 PM",
+   "arrive_by_local": "4:15 PM",
+   "daylight_min": 104,
+   "score": 34,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 252,
+   "min_to_sun_edge": -26
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 22
-  },
-  {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
    "count": 18
+  },
+  {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 17
   },
   {
    "commonName": "Hunchback Doris",

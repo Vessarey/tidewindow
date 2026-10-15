@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-14",
+ "generated_on": "2026-10-15",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2090,11 +2090,6 @@
    "count": 4
   },
   {
-   "commonName": "Nanaimo Dorid",
-   "scientificName": "Acanthodoris nanaimoensis",
-   "count": 3
-  },
-  {
    "commonName": "Fingered Limpet",
    "scientificName": "Lottia digitalis",
    "count": 3
@@ -2123,6 +2118,11 @@
    "commonName": "Rough Keyhole Limpet",
    "scientificName": "Diodora aspera",
    "count": 2
+  },
+  {
+   "commonName": "Nanaimo Dorid",
+   "scientificName": "Acanthodoris nanaimoensis",
+   "count": 1
   }
  ]
 }

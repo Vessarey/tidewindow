@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-14",
+ "generated_on": "2026-10-15",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2081,11 +2081,6 @@
    "count": 2
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
-   "count": 2
-  },
-  {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
    "count": 2
@@ -2123,6 +2118,11 @@
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
+   "count": 1
+  },
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
    "count": 1
   }
  ]
