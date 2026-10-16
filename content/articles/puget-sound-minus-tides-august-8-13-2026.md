@@ -2,6 +2,7 @@
 title: "Puget Sound Minus Tides, August 8–13, 2026: The Year's Last Exceptional Run"
 description: "Puget Sound's last Exceptional minus tides of 2026 run August 8–13. Port Townsend posts a perfect 100 Sunday, Aug 9; Seattle bottoms at −2.63 ft Tuesday."
 date: "2026-07-25"
+updated: "2026-10-16"
 category: "regional-calendars"
 tags: ["minus tide", "august 2026", "puget sound", "seattle low tide", "port townsend", "washington tide pools"]
 featuredRoundup:
@@ -17,7 +18,7 @@ faq:
   - q: "Is this the last good minus-tide run of 2026 in Puget Sound?"
     a: "It is the last Exceptional (90+) run. After August 13, the best remaining daylight window of 2026 in the Sound is Monday, September 7 — Labor Day — which scores 80 (Great) at Port Townsend and 77 at Seattle. From October onward the deep lows shift into darkness or late afternoon and the scores drop to Fair."
   - q: "Can I get to Rialto Beach and Hole-in-the-Wall during this run?"
-    a: "No. The National Park Service states: \"Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026,\" and Rialto Beach is not accessible via Mora Road during that period. For the La Push area, use the Second Beach trail instead — details in our La Push guide."
+    a: "During the August 8–13 run, the NPS construction notice closed Mora Road access to Rialto Beach. That is historical context, not today's road status: checked October 16, NPS's road-status page lists Mora Road as Open, updated October 15, while its older conditions page still carries the construction notice. Road status does not verify current beach, trail or Hole-in-the-Wall passage conditions; see the La Push guide for the source links."
   - q: "Will Seattle Aquarium beach naturalists be on the beaches in August 2026?"
     a: "No — the Aquarium's published 2026 Beach Naturalist schedule ended with its July 15 session, and no August dates are listed. If you want the guided-walk experience, this run is one to do self-guided: bring an ID guide or use the species lists on our station pages."
 sources:
@@ -30,6 +31,7 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9431647"
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414131"
   - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+  - "https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm"
   - "https://www.seattleaquarium.org/explore-the-aquarium/programs/beach-naturalist/"
   - "https://www.montereybayaquarium.org/animals/animals-a-to-z/gumboot-chiton"
 ---
@@ -67,7 +69,9 @@ Where to stand in the water's absence: our [Port Townsend / Fort Worden guide](/
 
 Out on the Olympic Peninsula's ocean side, La Push (NOAA 9442396) posts its own final Exceptional mornings of 2026: Wednesday, August 12 at −2.31 ft (6:58 AM low, arrive by 5:58 AM) and Thursday, August 13 at −2.14 ft (7:39 AM). Tuesday the 11th is nearly as good at −2.18 ft, 6:13 AM, and Friday the 14th still scores 89 at −1.68 ft, 8:17 AM. Deeper lows do exist on La Push's December calendar, but they land in Fair-scoring near-dark windows — these August mornings are the last of the genuinely good ones.
 
-One access fact matters more than any number here. The National Park Service's Olympic conditions page states: "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026," which means Rialto Beach and Hole-in-the-Wall are off the table for this entire run. The place to be is **Second Beach**, reached by a 0.7-mile forest trail off La Push Road — our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) leads with the closure and covers the trail, the sea stacks, and the rock that a deep low exposes.
+**Historical August access:** the [NPS construction notice](https://www.nps.gov/olym/planyourvisit/conditions.htm) closed Mora Road access to Rialto Beach during the August 8–13 run. That closure is part of this August record, not a current instruction.
+
+**Access checked October 16:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) now lists Mora Road as **Open**, updated October 15, while the older conditions page still carries the construction notice. Road status does not verify current beach, trail or Hole-in-the-Wall passage conditions. Our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) explains the differing reports and separately covers Second Beach and Third Beach.
 
 ## Elsewhere on the coast, briefly
 

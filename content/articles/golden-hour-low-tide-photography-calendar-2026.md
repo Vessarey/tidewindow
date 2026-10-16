@@ -2,7 +2,7 @@
 title: "Golden Hour Low Tide Photography Calendar 2026: La Push, Garibaldi, Monterey, La Jolla"
 description: "The 2026 dawn season is over; what remains belongs to winter sunsets in the south. La Jolla's Dec 25 window scores 90. Four West Coast station calendars."
 date: "2026-07-03"
-updated: "2026-10-02"
+updated: "2026-10-16"
 category: "photography"
 tags: ["low tide photography", "golden hour", "sun azimuth", "minus tide", "west coast"]
 faq:
@@ -24,6 +24,7 @@ sources:
   - "https://gml.noaa.gov/grad/solcalc/glossary.html"
   - "https://www.nps.gov/olym/planyourvisit/tides-and-your-safety.htm"
   - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+  - "https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm"
 ---
 
 **The 2026 dawn season is over. The August 10–13 run at La Push and Garibaldi was the year's last golden-hour low tide at sunrise, and no remaining 2026 window at these four stations puts a low within 90 minutes of sunrise with 30 daylight minutes to work with. What's left belongs to winter sunsets — and the geography has flipped south. The best remaining window is Friday, December 25 at La Jolla, CA (NOAA station 9410230): a −1.72 ft low at 4:33 PM, 16 minutes before sunset, scoring 90 of 100. Monterey's December 23 and 24 both score 80; the north tops out at Fair.**
@@ -107,7 +108,9 @@ Monterey's dormant season, promised back in August, has arrived on schedule: a t
 
 *Computed 2026-10-02 from NOAA station 9442396 predictions.*
 
-August's champion is winter's also-ran: every remaining La Push low with real depth arrives well after sunset. The honest picks are the shallow sun-edge crossers — December 21's −0.66 ft low lands 2 minutes before sunset, November 22's −0.42 ft eleven minutes after — twilight shoots on a falling tide rather than deep reef in full light. Access homework still applies: Olympic National Park's conditions page states "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026," with Rialto Beach not accessible via Mora Road during that period. Every window above falls after the scheduled end date, but a construction schedule is not a verified reopening — check the [park's conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) before planning a Rialto shoot. **Second Beach**, a 0.7-mile forest trail off La Push Road, doesn't depend on Mora Road; our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) covers the trail and the sea stacks.
+August's champion is winter's also-ran: every remaining La Push low with real depth arrives well after sunset. The honest picks are the shallow sun-edge crossers — December 21's −0.66 ft low lands 2 minutes before sunset, November 22's −0.42 ft eleven minutes after — twilight shoots on a falling tide rather than deep reef in full light.
+
+**Access checked October 16:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, updated October 15. The older [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated October 13, still carries the construction notice ending October 15. The road report does not establish current beach, trail or Hole-in-the-Wall passage conditions. Our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) links the differing reports and NPS route information; it continues to describe Second Beach and Third Beach as separate destinations.
 
 ### Garibaldi, OR (NOAA station 9437540)
 

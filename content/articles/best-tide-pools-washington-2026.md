@@ -1,8 +1,8 @@
 ---
 title: "Best Tide Pools in Washington 2026: Late-Year Guide to Three Coasts"
-description: "Compare La Push, Port Townsend and Seattle tide pools for late 2026: the NOAA low-tide windows left this year, autumn limits and the Rialto closure."
+description: "Compare La Push, Port Townsend and Seattle tide pools for late 2026: NOAA low-tide windows, autumn limits and current Mora Road access information."
 date: "2026-07-14"
-updated: "2026-10-08"
+updated: "2026-10-16"
 category: "regional-calendars"
 gateStations: ["la-push-wa", "port-townsend-wa", "seattle-wa"]
 tags: ["best tide pools washington", "washington tide pools", "puget sound tide pools", "olympic coast tide pools", "la push tide pools", "port townsend tide pools"]
@@ -14,7 +14,7 @@ faq:
   - q: "Are there daylight minus tides in Washington in late 2026?"
     a: "From October 8 through December 31, only La Push among these three reference stations has minus-tide windows with at least 30 minutes of daylight overlap. Eleven of its 12 lows occur after sunset. The exception is December 21: the −0.66 ft low lands at 4:26 PM, two minutes before sunset. Seattle and Port Townsend still have night lows; zero qualifying daylight windows does not mean there are no low tides."
   - q: "Can you visit Rialto Beach and Hole-in-the-Wall right now?"
-    a: "As checked October 8, the National Park Service still lists the July 8–October 15, 2026 Mora Road construction closure. Rialto Beach is inaccessible via that road during the closure. Second Beach is a separate destination off La Push Road; check current NPS conditions before travel, and do not assume the road reopens automatically on October 15."
+    a: "As checked October 16, NPS's road-status page lists Mora Road as Open, with an October 15 update. Its older conditions page still carries the construction notice ending October 15. Road access does not establish current beach, trail or Hole-in-the-Wall passage conditions. The La Push guide links both reports and NPS route information; Second Beach is a separate destination."
   - q: "Do you need a Discover Pass for Washington tide pools?"
     a: "Fort Worden is a Washington state park with Discover Pass parking. Second Beach has a different parking arrangement: NPS lists a $10 daily fee for parking on Quileute Tribal Lands, including Second Beach, effective May 1, 2026. Constellation Park is part of Seattle's Charles Richey Sr Viewpoint, not a Washington state park. Check the official destination pages for current access details."
 sources:
@@ -22,6 +22,7 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444900"
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130"
   - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+  - "https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm"
   - "https://www.nps.gov/olym/planyourvisit/second-beach-trail.htm"
   - "https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm"
   - "https://parks.wa.gov/find-parks/state-parks/fort-worden-historical-state-park"
@@ -113,7 +114,7 @@ Sunday August 9 was the best-scoring August window at Port Townsend (−2.05 ft 
 
 ## Access checks before choosing a beach
 
-**Rialto is still inaccessible via Mora Road.** The [NPS conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), checked October 8, lists the July 8–October 15 construction closure and says: "Rialto Beach will not be accessible via Mora Road during this construction period." Recheck after the scheduled closure; October 15 is not a confirmed reopening.
+**Mora Road status, checked October 16:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists the road as **Open**, updated October 15. The older [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated October 13, still carries the July 8–October 15 construction notice. The newer road report does not establish current beach, trail or Hole-in-the-Wall passage conditions; the [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) links the differing reports and NPS route information.
 
 **Second Beach has separate access and parking.** NPS lists a [0.7-mile forest-and-beach trail](https://www.nps.gov/olym/planyourvisit/second-beach-trail.htm) and a $10 daily fee for parking on Quileute Tribal Lands, including Second Beach, effective May 1, 2026. Its [tidepooling page](https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm) includes Second Beach among the park's intertidal destinations. This is not a Discover Pass parking arrangement.
 

@@ -1,14 +1,14 @@
 ---
-title: "La Push Tide Pools 2026: Second Beach's Best Low-Tide Days (Rialto Beach Is Closed)"
-description: "La Push's remaining 2026 lows shift toward dusk. Compare September–December windows, find full tide charts, and check the NPS Rialto access closure."
+title: "La Push Tide Pools 2026: Second Beach's Best Low-Tide Days"
+description: "La Push's remaining 2026 lows shift toward dusk. Compare September–December windows, find full tide charts, and check current NPS access notices."
 date: "2026-07-09"
-updated: "2026-09-18"
+updated: "2026-10-16"
 category: "station-guides"
 station: "la-push-wa"
 tags: ["la push tide pools", "second beach", "rialto beach", "hole in the wall", "olympic national park", "washington coast low tide"]
 faq:
   - q: "Is Rialto Beach and Hole-in-the-Wall open in 2026?"
-    a: "As checked September 18, NPS lists a July 8–October 15, 2026 construction closure of Mora Road beyond Mora Campground, including pedestrians, bicycles and vehicles. Rialto Beach is inaccessible via that road during construction; the campground remains open. October 15 is a scheduled construction endpoint, not a verified reopening. The current NPS conditions page controls the access question, not a tide prediction."
+    a: "As checked October 16, NPS's road-status page lists Mora Road as Open, with an October 15 update. Its older conditions and Rialto Beach pages still carry the construction notice ending October 15. The newer road listing reports road access; it does not verify current beach, trail or Hole-in-the-Wall passage conditions. Check NPS route information separately from the tide predictions."
   - q: "When is the best tidepooling at La Push for the rest of 2026?"
     a: "No remaining 2026 window reaches Tidewindow's Good band at NOAA station 9442396. Among windows with at least 30 minutes of daylight overlap, December 23 scores highest at 59 (Fair), with a −1.97 ft MLLW low at 6:03 PM, after sunset. October 25 is October's top-scoring window at 52, with a −0.71 ft low at 6:48 PM, also after sunset. These scores compare predictions; they do not establish beach or route access."
   - q: "How do I get to Second Beach near La Push, and how long is the hike?"
@@ -18,6 +18,8 @@ faq:
 sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442396"
   - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+  - "https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm"
+  - "https://www.nps.gov/olym/planyourvisit/rialto-beach.htm"
   - "https://www.nps.gov/olym/planyourvisit/visiting-mora-and-rialto.htm"
   - "https://www.nps.gov/olym/planyourvisit/second-beach-trail.htm"
   - "https://www.nps.gov/olym/planyourvisit/third-beach-trail.htm"
@@ -25,15 +27,15 @@ sources:
   - "https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm"
 ---
 
-**La Push's September 9–12 morning run has passed. At NOAA station 9442396, October's highest-scoring window is Sunday, October 25: −0.71 ft MLLW at 6:48 PM, score 52 (Fair), with 71 minutes of daylight elsewhere in the window—not at the low itself. No remaining 2026 window reaches Good. NPS still lists the Mora Road closure to Rialto; its scheduled October 15 endpoint is not a confirmed reopening.**
+**La Push's September 9–12 morning run has passed. At NOAA station 9442396, October's highest-scoring window is Sunday, October 25: −0.71 ft MLLW at 6:48 PM, score 52 (Fair), with 71 minutes of daylight elsewhere in the window—not at the low itself. No remaining 2026 window reaches Good. NPS now lists Mora Road open; road status does not confirm Hole-in-the-Wall passage.**
 
 The autumn story is a trade-off between depth and light. The full high-and-low charts show both; a short list of low windows does not. This guide keeps the summer tables as history and puts the remaining dates first.
 
-## First, the Rialto Beach closure
+## First, the Mora Road and Rialto access update
 
-If you searched "Hole-in-the-Wall Rialto Beach low tide," the access notice comes before the tide table. The [NPS conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), checked September 18, lists construction from July 8–October 15, 2026, closing Mora Road beyond Mora Campground to pedestrians, bicycles and vehicles. The campground remains open. NPS states: **"Rialto Beach will not be accessible via Mora Road during this construction period."**
+**Access checked October 16, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, last updated October 15. This is an explicit road-status report, not a reopening inferred from the construction calendar. The older [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated October 13, and [Rialto Beach page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm), updated July 31, still carry the July 8–October 15 construction notice.
 
-The listed end date does not confirm that the road will reopen that day. Nothing in the tables below overrides the closure or establishes a route to Hole-in-the-Wall.
+Those pages have not yet been reconciled. The newer road listing does not establish current beach, trail or Hole-in-the-Wall passage conditions. NPS's route information remains separate from the tide tables below; neither a road status nor a modeled low-tide window confirms a route is passable.
 
 Second Beach and Third Beach are separate trail destinations, described below using NPS trail information. A shared station reference does not mean identical local timing or verified access at either beach.
 
@@ -114,7 +116,7 @@ September 9 was the deepest of these four; September 11 scored highest at 57. Th
 
 The [NPS Second Beach trail page](https://www.nps.gov/olym/planyourvisit/second-beach-trail.htm) lists **0.7 mile each way**, an 80-foot gain and a 100-foot loss on the way in. It also lists a **$10 daily parking fee** on Quileute Tribal Lands, including Second Beach, effective May 1, 2026; payment information is on that page. NPS prohibits pets on coastal beaches and trails. These details were checked September 18; they are not a guarantee of conditions on a future visit.
 
-The [Third Beach trail page](https://www.nps.gov/olym/planyourvisit/third-beach-trail.htm) lists **1.4 miles each way**, with a 240-foot descent on the way in. It is a separate destination, not a route around the Mora Road closure.
+The [Third Beach trail page](https://www.nps.gov/olym/planyourvisit/third-beach-trail.htm) lists **1.4 miles each way**, with a 240-foot descent on the way in. It is a separate destination.
 
 The station is at the Quillayute River mouth. Its predictions are the reference used here, not measurements taken at each beach. The modeled window and "arrive by" time do not verify local timing, walking duration, opening hours or passage around a headland.
 

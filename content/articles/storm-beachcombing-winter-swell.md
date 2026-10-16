@@ -2,7 +2,7 @@
 title: "Storm Beachcombing: What Winter Swell Plus a Minus Tide Uncovers"
 description: "Winter swell strips sand and restocks the wrack line. The 2026-27 minus-tide daylight windows at La Push and Port Orford, plus NWS sneaker-wave rules."
 date: "2026-07-03"
-updated: "2026-10-14"
+updated: "2026-10-16"
 category: "beachcombing"
 tags: ["storm beachcombing", "winter swell", "wrack line", "La Push", "Port Orford"]
 faq:
@@ -18,6 +18,7 @@ sources:
   - "https://www.weather.gov/safety/sneaker-waves"
   - "https://www.nps.gov/olym/planyourvisit/exploring-the-coast.htm"
   - "https://www.nps.gov/olym/planyourvisit/conditions.htm"
+  - "https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm"
   - "https://www.nps.gov/articles/beach-profile-changes.htm"
   - "https://coasst.org/news-views/blog/float-in-with-the-wrack/"
   - "https://traveloregon.com/things-to-do/trip-ideas/favorite-trips/how-to-hunt-for-agates-on-the-oregon-coast/"
@@ -43,7 +44,7 @@ Two elevations, two different searches.
 
 **Low on the beach: the gravel beds.** These need the storm *and* the tide, because the lowest of the newly exposed beds only go dry on a good low. This is where minus-tide arithmetic earns its keep. The spots tracked at [Port Orford](/beaches/or/port-orford-or/) include Battle Rock Beach and, helpfully explicit, Agate Beach; the [La Push station listing](/beaches/wa/la-push-wa/) lists Second Beach and Third Beach. A station listing is not confirmation that either route is open or passable.
 
-**Access update, rechecked October 14, 2026:** the [National Park Service conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) still states, "Mora Road is closed to all traffic for construction from July 8–Oct. 15, 2026," and that Rialto Beach is not accessible via Mora Road during that period. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) carries the closure notice. October 15 is the scheduled end of construction, not a verified reopening; this calendar does not establish access to Rialto Beach or Hole-in-the-Wall afterward.
+**Access update, checked October 16, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, updated October 15. The older [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated October 13, still carries the construction notice ending October 15. The newer road report does not verify current beach, trail or Hole-in-the-Wall passage conditions. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) explains the differing reports; this tide calendar establishes neither route access nor surf conditions.
 
 ## What about glass floats?
 
