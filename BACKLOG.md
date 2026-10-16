@@ -5,14 +5,14 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] **2026-10-16 — refill the ready-now queue under §2a.**
-      Oct 15 heartbeat completed Pillar Point (`9f1ccba`), leaving only
-      sea-glass timing and Sunset Bay's full refresh independently ready.
-      Two is below the three-item floor. Refresh GSC demand and verify
-      candidate source claims before adding at least three bounded briefs;
-      do not duplicate shipped work or owner-held Haystack/minus-tide edits.
-      This is the next primary action unless build/refresh/reader issues
-      take precedence; no second primary action in the Oct 15 heartbeat.
+- [x] **2026-10-16 — refill the ready-now queue under §2a.**
+      **Done 2026-10-16:** three new demand-backed briefs added under the
+      `refill-2026-10-16` block in P1 (Acadia roll-forward, Fitzgerald
+      roll-forward, Washington king tides pre-season verification), each
+      with its GSC evidence (Sep 16–Oct 14 window) and staleness premise
+      verified in the article text today. With sea-glass and Sunset Bay
+      still open, the ready-now queue holds five items — above the floor.
+      No article shipped today; refill was the primary action.
 - [x] **2026-10-15 — unaided refresh and existing operator work verified.**
       Run `38683318333` started 04:47:30Z and pushed `f610aba` at
       04:49:58.499Z; all 12 live station JSONs match. Originating cron
@@ -430,6 +430,79 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- refill-2026-10-16:start -->
+Three ready-now factual-maintenance assignments, added Oct 16 under §2a.
+GSC evidence: Web/final, all countries/devices, 28-day window Sep 16–Oct 14
+(the script queries 30→2 days ago; GSC lags ~2 days). Page rows are exact-URL
+28-day aggregates from `pages 28`; query rows from `queries 28`/`flywheel 28`
+are property-level and NOT attributed to any single page. Missing or zero
+rows do not prove absent demand or indexing state. Standing rules: preserve
+titles (unless demonstrably inaccurate), URLs, original publish dates, valid
+historical tables and existing gates; recompute every number from current
+`docs-internal/facts/` at implementation (not from these briefs); re-fetch
+official access/safety sources at write time; distinguish raw lows, modeled
+windows and ≥30-min daylight overlap from daylight at the low; never derive
+access, arrival or route claims from tide arithmetic. One article per run;
+no new station, conversion variant, schema change, or any touch of the
+owner-held Haystack/minus-tide working-tree edits.
+
+- [ ] **Acadia guide roll-forward: the Sept 20–Oct 31 chart expires Oct 31.**
+      Target `acadia-tide-pools-bar-island-ship-harbor`. Premise verified
+      Oct 16: the lead still names Sunday Sep 27 as the best remaining
+      window (passed), and the full high/low chart covers Sep 20–Oct 31
+      only, computed Sep 20. Demand: page 22 clicks / 1,176 impressions /
+      position 7.8 (3rd-highest click earner); flywheel queries "acadia
+      national park tide chart" (1 click / 1 imp / pos 11), "acadia tide
+      chart" (0 / 3 / 15.0), "bar island trail tide chart" (1 / 4 / 14.5).
+      Scope: archive the passed September framing honestly, recompute the
+      chart and monthly-best table forward from current `bar-harbor-me`
+      facts (Nov 1–Dec 31; state the exact computed range and date), check
+      every remaining "best/first/last" claim against the full range and
+      sunset times (late-fall Maine lows will often be after sunset —
+      label daylight overlap vs light at the low), re-fetch the NPS Bar
+      Island / Ship Harbor / Wonderland pages and the paid-parking season
+      (listed as ending Oct 31 — re-verify, don't assume), and quote
+      crossing-safety language verbatim from NPS only. Honest `updated:`.
+- [ ] **Fitzgerald guide roll-forward: September dusk-run lead has passed.**
+      Target `fitzgerald-marine-reserve-tide-pooling-2026` (updated
+      2026-09-17). Premise verified Oct 16: the bolded lead still frames
+      "the rest of September and all of October" with the Sep 27–30 dusk
+      run as current, and the day-by-day chart ends Oct 31. Demand: the
+      site's largest flywheel cluster — "fitzgerald marine reserve tide
+      chart" 4 clicks / 192 imp / pos 8.1, plus variants (tide chart
+      reversed 2/10/8.4, tides 0/8/9.4, tide schedule 0/6/8.2, jv/j v
+      variants 1/15/7.5 and 1/3/6.3); page 39 clicks / 1,142 imp / pos 6.1.
+      Scope: archive the September run as passed, roll the chart forward
+      from current `pillar-point-ca` facts (Nov–Dec; state computed range),
+      re-verify the San Mateo County Parks seasonal hours ladder at write
+      time (article asserts 6 PM from Oct 12, 5 PM from Nov 2–Feb — the
+      posted-hours column depends on it), recheck the eight-deepest-lows
+      table and every inside-posted-hours verdict against current facts,
+      and audit king-season rows against sunset (an in-hours low can still
+      be after dark in December). Hours are gate times, not reef access
+      or walking-time claims. Honest `updated:`.
+- [ ] **Washington king tides: pre-season verification pass, never updated.**
+      Target `king-tides-washington-2027` (published 2026-09-04, no
+      `updated:` yet). Premise: the Nov 23–27 window opens in ~5 weeks;
+      every table was computed in early September and has never been
+      rechecked against a later refresh. Demand: "king tides washington
+      2026" is the property's top query, 11 clicks / 846 imp / pos 5.7;
+      page 42 clicks / 1,765 imp / pos 4.9 (2nd-highest click earner).
+      Scope: verify (not rewrite) — recompute the Seattle / Port Townsend /
+      La Push peak-high and daylight-window tables against current facts
+      and correct any drift; recheck the "zero daylight windows Nov–Dec at
+      Seattle and Port Townsend" claim against current month data; re-fetch
+      the official WA king-tides photo-initiative dates cited; confirm the
+      La Push section's numbers and sunset comparisons; keep the Mora Road
+      closure context consistent with the NPS conditions page (re-fetched
+      Oct 16: closure still posted, page last updated Oct 13, no confirmed
+      reopening — re-fetch again at implementation). If
+      nothing has drifted, a no-change verification is a valid outcome:
+      journal it instead of forcing an edit, and only set `updated:` on
+      real changes. This brief is §2b-adjacent: if a ≥90 window or king
+      tide lands within 14 days, §2b outranks it.
+<!-- refill-2026-10-16:end -->
 
 <!-- heartbeat-2026-10-11-refill:start -->
 Three ready-now factual-maintenance assignments, checked Oct 11. Exact-page

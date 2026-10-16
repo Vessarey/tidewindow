@@ -5,6 +5,71 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-16 — Queue refill under §2a; Mora Road still closed
+
+**Health (green, unaided day three):** today's refresh landed without help —
+scheduled run `38851592445` started 04:37:39Z, ran 2m50s, and commit
+`30d9cd7` ("data: daily NOAA refresh 2026-10-16") reached origin/main at
+04:40:24Z, well before the 12:00Z gate. Later slots at 07:32:53Z and
+09:18:05Z completed in 7–10s, consistent with the skip-if-refreshed guard.
+Originating cron expressions not inspected, so no slot identity or delay is
+inferred; three consecutive unaided days is a growing track record, not
+durable scheduler proof. Latest five scheduled runs green; no open GitHub
+issues. Owner-held working-tree files (Haystack + minus-tide edits, Oct
+1/8/15 newsletter drafts, three seo-refresh dirs) stashed around the pull
+and restored untouched, excluded from today's commit.
+
+**Primary — §2a refill (the standing P0 from Oct 15):** the ready-now queue
+held only sea-glass and Sunset Bay, below the three-item floor. Ran
+`gsc-query.mjs flywheel 28`, `queries 28`, `pages 28` (window Sep 16–Oct 14)
+and verified each candidate's staleness premise in the article text before
+writing briefs. Added three bounded factual-maintenance briefs under
+`refill-2026-10-16` in P1:
+1. **Acadia roll-forward** — chart covers Sep 20–Oct 31 only and the lead
+   still names the passed Sep 27 window; page 22 clicks / 1,176 impressions
+   / position 7.8, with acadia/bar-island chart queries at positions 11–15.
+2. **Fitzgerald roll-forward** — lead still frames the passed Sep 27–30
+   dusk run, chart ends Oct 31; the site's largest flywheel cluster
+   ("fitzgerald marine reserve tide chart" 192 impressions / 8.1 plus
+   variants), page 39 clicks / 1,142 impressions / 6.1.
+3. **Washington king tides pre-season verification** — top property query
+   "king tides washington 2026" 11 clicks / 846 impressions / 5.7; page
+   never rechecked since its 2026-09-04 publish and the Nov 23–27 window
+   is ~5 weeks out; a verified no-change outcome is explicitly valid.
+Queue now holds five ready items. No article shipped today; the refill was
+the primary action per §2a and the Oct 15 P0. Deliberately did NOT brief
+the Haystack or minus-tide guides: both have uncommitted owner-held edits
+in the working tree, and duplicating them was ruled out by the P0 itself.
+
+**Side item — Mora Road recheck (scheduled for today):** re-fetched the NPS
+Olympic conditions page. It still posts "Mora Road is closed to all traffic
+for construction from July 8–Oct. 15, 2026", last updated Oct 13, with no
+reopening confirmation. All five articles keep their closure notes; the
+scheduled end date passing is not a confirmed reopening. Re-fetch again at
+the next brief implementation that touches a Mora-adjacent page (the WA
+king-tides brief includes this).
+
+**Metrics snapshot (light):** PostHog 7-day host-filtered counts as of
+~09:40Z: 531 pageviews / 531 distinct pageview IDs / 3 signup events —
+simple counts, not bot-filtered or sessionized (Oct 15's deeper read stands
+as the baseline). GSC 28-day (Sep 16–Oct 14): leading pages national king
+tides 104 clicks, Washington king tides 42, Fitzgerald 39, Seattle guide 26,
+Oregon king tides 25, Acadia 22. No ≥90 window or king-tide event within
+14 days surfaced by today's checks, so §2b did not trigger.
+
+**Changes:** BACKLOG.md and JOURNAL.md only — no site code, content, or
+data touched, so no build was required; `git diff` reviewed, nothing
+unintended, `public/data-json` untouched.
+
+**Next:** implement ONE of the three new briefs (Acadia is the most
+time-sensitive — its chart expires Oct 31; Fitzgerald is the biggest demand
+cluster). Weekly indexing read (§2a′) is due on the first run of next week
+(~Oct 19–20). Keep verifying unaided refresh arrival daily; keep Golden
+Hour crawl review Oct 26 and the November-batch indexing gate ~Nov 1 in
+view. Monthly rollover (§2c) fires on the first November run.
+
+---
+
 ## 2026-10-15 — Heartbeat: Pillar Point sunset correction and daily health review
 
 **Coordination and scope:** pulled current main `92ec7fd`; the morning
