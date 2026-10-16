@@ -86,7 +86,7 @@ for (const file of fs.readdirSync('public/data-json/stations')) {
 }
 const data = JSON.parse(fs.readFileSync('public/data-json/stations/la-push-wa.json'));
 const remaining = data.windows.filter(w => w.date >= '2026-10-16' && w.date <= '2026-12-31' && w.daylightMin >= 30);
-assert.ok(remaining.every(w => w.score < 70), 'Unchanged La Push lead: no remaining Good windows');
+assert.ok(remaining.every(w => w.score < 60), 'Unchanged La Push lead: no remaining Good windows (Good starts at 60)');
 const october = remaining.filter(w => w.date.startsWith('2026-10')).toSorted((a, b) => b.score - a.score)[0];
 assert.deepEqual([october.date, Math.round(october.lowHeight * 100) / 100, october.lowTimeLocal, october.score, october.daylightMin], ['2026-10-25', -0.71, '6:48 PM', 52, 71]);
 assert.ok(october.lowTime > october.sunset, 'Daylight overlap is not daylight at low');

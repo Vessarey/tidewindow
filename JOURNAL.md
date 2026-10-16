@@ -5,6 +5,148 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-16 — Heartbeat: reconcile the newer Mora Road status across five guides
+
+**Coordination:** read playbook, newest three entries, backlog, current git,
+today's commits, recent Actions and open issues. Morning operator `505b889`
+already refilled the ready queue to five; no duplicate refill or article.
+The analytics-led refresh workflow selected one coherent factual correction:
+the Mora/Rialto notices, because newly checked primary evidence superseded
+the morning's single-page closure read. No conversion variant or broad
+rewrite. All 128 owner-held file hashes unchanged; Haystack/minus-tide edits,
+newsletter drafts and SEO evidence directories were neither staged nor moved.
+
+**New evidence and scope:** at the afternoon check, NPS's
+[road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+explicitly lists **Mora Road Open**, updated **October 15**. Its older
+[conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated
+October 13, and [Rialto page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm),
+updated July 31, still carry the construction notice ending October 15.
+All three re-fetched HTTP 200 at validation. The newer road report supports
+removing a blanket current-closure claim; it does not establish current beach,
+trail or Hole-in-the-Wall passage. This clarifies, rather than rewrites, the
+morning journal's observation. It is not a reopening inferred from a date.
+
+**One change:** `536a63588c2fcfedc516e95bba8c9632bb94b4d7` updates La Push,
+Washington comparison, storm beachcombing, Golden Hour calendar and August
+Puget roundup. Removed only the La Push title's "Rialto Beach Is Closed"
+suffix; corrected its description/lead/access FAQ and the Washington
+description/access FAQ. Each access section cites the newer road report and
+older notice; August's closure is explicitly historical. Honest Oct 16
+updated dates. All 21 tide tables, original publication dates, other titles,
+non-access FAQs, gates and shared destination metadata unchanged. No new
+article, station, generated data, workflow, audience sync, broadcast, outreach,
+spend or account-access changes. Second/Third Beach remain the shared
+destinations; no Rialto route recommendation was restored.
+
+**Health:** scheduled NOAA run `38851592445` began **04:37:39Z** and produced
+`30d9cd7` unaided, with actual successful push log **04:40:26.892Z**. This
+clarifies the morning entry's 04:40:24Z, which corresponds to the IndexNow
+step (136 URLs, HTTP 200 at **04:40:24.521Z**). Originating cron expression
+not established; no slot identity/delay inferred. Third observed unaided
+pre-session day since mitigation, not durable scheduler proof. Latest five
+runs green; later skips are not additional refreshes. No open issues. All
+12 live station JSONs byte-match today's committed data, generated
+**2026-10-16T04:37:56.939Z**; ten public routes plus homepage OG image returned
+200. No >=90 window in the inclusive Oct 16–30 scan. Production dependency
+audit: zero findings. Weekly indexing audit from Oct 12 not duplicated.
+
+**Validation:** exact candidate in an isolated archive of `505b889`, lockfile
+`npm ci`, installed Next 16.3.8 static-export documentation, then
+`npm run build -- --webpack` passed. Output verifier: 12 stations x five
+months and 136 sitemap URLs; **65 tests** (42 facts, six math, 17 format).
+Existing npm install-script allowlist warnings were not changed/approved.
+Dated read-only `docs-internal/health/2026-10-16-mora-access-check.mjs` passed
+at **17:19:54Z**: all 21 tables exactly preserved, three official sources
+200, 72 internal destinations resolve, original metadata/gates retained,
+updated Article/FAQ schema and sitemap, descriptions 145–153 characters.
+Recomputed the retained La Push lead against the full remaining range:
+Oct 25 best October score 52, -0.71 ft at 6:48 PM, 71 daylight-overlap
+minutes, low after sunset; no remaining 2026 qualifying window reaches Good.
+
+Desktop and 390x844 mobile La Push rendering checked, no document overflow
+(390/390). Calendar gate opens the correct blank email form; no submission.
+Live Finder ZIP 98350 selects La Push/Second Beach and yields 19 qualifying
+lows / four daylight-overlap minus lows, best Oct 25 score 52. <=-1-ft
+filter correctly changes to four results / one daylight-overlap minus low,
+best Oct 26 score 49. Observed browser warning/error log empty. One test
+locator used uppercase rather than the DOM's "Depth" label; corrected after
+inspection, not an application defect. Checks do not establish all flows
+are error-free or any route is safe.
+
+**Search:** GSC Web/final, all countries/devices, Pacific dates; latest final
+date **Oct 14**. Sep 17–Oct 14: **316 clicks / 15,483 impressions**, position
+6.92, versus Aug 20–Sep 16 **199 / 13,146**, position 7.87 (**+58.8% clicks**).
+Oct 8–14: **81 / 4,383**, position 6.81, versus Oct 1–7 **95 / 4,068**,
+position 7.17 (**-14.7% clicks**). 88 page and 600 query rows, below 25,000
+cap; anonymization still applies. Leading page clicks: national king tides
+103, Washington 42, Fitzgerald 38, Seattle 26, Oregon 25, Acadia 22.
+Top flywheel query Fitzgerald tide chart: 194 impressions / position 8.0;
+already served by its queued guide. Do not compare the morning script's
+inclusive Sep 16–Oct 14 label with these exact 28-day totals as if identical.
+
+Affected-page factual-maintenance baseline (current vs previous 28 days):
+
+| Guide | Current clicks / impressions / position | Previous |
+| --- | --- | --- |
+| La Push | 0 / 0 / unavailable | 0 / 0 / unavailable |
+| Washington comparison | 0 / 41 / 6.98 | 1 / 41 / 6.20 |
+| Storm beachcombing | 0 / 9 / 8.11 | 0 / 9 / 5.89 |
+| Golden Hour calendar | 0 / 18 / 9.56 | 0 / 6 / 7.83 |
+| August Puget roundup | 0 / 7 / 19.71 | 0 / 0 / unavailable |
+
+Zero-impression API position 0 is a sentinel, not a rank. These surfaces
+are below experiment floors; the access correction is not a title test or
+an uplift claim. The five ready content briefs remain untouched.
+
+**Product and newsletter:** PostHog project 495836, exact production host
+thetidewindow.com, Regular classification, explicit half-open UTC period
+**Oct 9 17:10:58–Oct 16 17:10:58**: **524 pageviews / 500 pageview distinct
+IDs / three signup events** (0.60% events/IDs, not verified people or a
+cohort conversion rate). Four Bot-classified pageviews excluded; Regular
+does not prove human traffic. Seventeen station selections, 14 window
+results, ten ZIP lookups, eight calendar-gate clicks, one ICS URL reveal,
+one heatmap view; no observed trip_picker_run. Signup sources: two
+exit-intent, one calendars_page. Seventeen exit prompts and two exception
+events observed, not an experiment verdict or complete error coverage.
+Last-24h LCP: n=18, p75 770 ms, p90 1,795 ms; too sparse for a performance
+claim. Project timezone America/New_York; explicit query boundaries UTC.
+Event/property schema checked; exception capture opt-in unset/null.
+
+PostHog connector skill/info/docs calls returned UNAUTHORIZED; GSC connector
+payment_required. Used only the repository's configured read-only helpers.
+The PostHog 28-day grouped query and narrower event-filtered aggregates hit
+HTTP 504 execution timeouts; 28-day totals, paths and signup sources are
+**unavailable today**, not zero and not copied from yesterday. Seven-day
+queries succeeded. Resend read-only check: 23 contacts, **22 active**, one
+unsubscribed, has_more=false. Oct 15 broadcast
+`c5dbef20-6e10-434e-afb8-f9642bcb1399` confirmed sent at 12:11:33.699644Z;
+bounce/complaint metrics unavailable/null, not zero. No resend or sync.
+
+**Experiment/time-bomb gates:** Seattle August experiment remains closed
+unmeasurable; do not extend again. Exit-prompt keep/remove remains an owner
+decision; aggregate event monitoring is not a reopened variant judgment.
+Mora date-based notice task is resolved, but a source-convergence recheck
+remains: compare NPS road, conditions and route pages next operator run.
+Unchanged reports need no forced edit. Golden Hour crawl review Oct 26;
+November-batch indexing gate around Nov 1 before December rollover.
+
+**Release:** content commit `536a635` pushed to origin/main; Vercel
+`Ev9BnSzXDaYrnVuLyEXzLBHQ9cf9` reported **SUCCESS at 17:22:19Z**.
+At **17:23:30Z**, all five live guide URLs returned 200 and passed the dated
+check: complete Article/FAQ JSON-LD and every rendered table matched the
+isolated build; road-status citations and passage caveats present, closure
+title suffix absent. Live 390x844 mobile access paragraph also verified,
+with no observed warning/error logs. Tightened the dated checker to the actual Good-band
+floor (60, not 70) after inspecting scoreBand; the below-Good claim still
+passes. No website calculation or content change was needed.
+Next independent primary: choose one existing
+ready brief (Acadia chart expires Oct 31; Fitzgerald has the strongest
+flywheel exposure), while checking unaided NOAA refresh daily. Weekly
+indexing check due first run next week, approximately Oct 19.
+
+---
+
 ## 2026-10-16 — Queue refill under §2a; Mora Road still closed
 
 **Health (green, unaided day three):** today's refresh landed without help —

@@ -5,6 +5,16 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **2026-10-16 heartbeat — reconcile Mora Road access notices.**
+      NPS's road-status page explicitly lists Mora Road Open, updated Oct 15;
+      older conditions (Oct 13) and Rialto (Jul 31) pages retain the construction
+      notice ending Oct 15. `536a635` updates the five affected guides, removes
+      the La Push title's blanket closure claim and separates historical August
+      access from current status. Road access is not verified beach/trail or
+      Hole-in-the-Wall passage. Shared destinations, generated data, all 21
+      tables and signup gates unchanged. See the heartbeat journal for release
+      verification and the source-convergence follow-up below.
+
 - [x] **2026-10-16 — refill the ready-now queue under §2a.**
       **Done 2026-10-16:** three new demand-backed briefs added under the
       `refill-2026-10-16` block in P1 (Acadia roll-forward, Fitzgerald
@@ -495,9 +505,10 @@ owner-held Haystack/minus-tide working-tree edits.
       Seattle and Port Townsend" claim against current month data; re-fetch
       the official WA king-tides photo-initiative dates cited; confirm the
       La Push section's numbers and sunset comparisons; keep the Mora Road
-      closure context consistent with the NPS conditions page (re-fetched
-      Oct 16: closure still posted, page last updated Oct 13, no confirmed
-      reopening — re-fetch again at implementation). If
+      context consistent with the Oct 16 heartbeat's newer evidence: the NPS
+      road-status page lists Open, updated Oct 15, while older conditions and
+      Rialto pages still carry the construction notice. Re-fetch both road and
+      route sources at implementation; road status does not prove passage. If
       nothing has drifted, a no-change verification is a valid outcome:
       journal it instead of forcing an edit, and only set `updated:` on
       real changes. This brief is §2b-adjacent: if a ≥90 window or king
@@ -2489,23 +2500,28 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       PostHog/sharp directly, then applied npm's reviewed three-package
       transitive fix. Both full and production-only audits report zero findings.
 
-- [ ] TIME-BOMB: **Rialto Beach / Hole-in-the-Wall closed Jul 8–Oct 15, 2026**
-      (NPS Mora Road construction — verified 2026-07-09 on nps.gov/olym
-      conditions). The La Push guide (la-push-second-beach-tide-pools-2026.md)
-      routes readers to Second Beach and states this closure verbatim. AFTER
-      ~Oct 15: re-check the NPS conditions page; if reopened, refresh the La Push
-      guide and shared station metadata to restore Rialto/Hole-in-the-Wall only
-      if access is confirmed (and drop or soften the advisory). Until then, do
-      NOT publish any content directing readers to Rialto Beach.
+- [x] TIME-BOMB: **Mora Road construction endpoint — access notices reconciled
+      Oct 16, 2026 (`536a635`).** NPS's current-road-conditions.htm lists Mora
+      Road Open, last updated Oct 15, while conditions.htm (Oct 13) and
+      rialto-beach.htm (Jul 31) still carry the July 8–Oct 15 construction
+      notice. The five guides now cite this distinction rather than extending
+      the closure or inferring route clearance. Shared station metadata stays
+      Second Beach / Third Beach; no new Rialto destination recommendation.
       **2026-08-27 interim fix:** removed Rialto/Hole-in-the-Wall from the shared
       La Push `spots` and blurb in scripts/pipeline/stations.mjs, then regenerated
       committed data/ICS/fact outputs. Finder, beach, and calendar surfaces now
-      lead with Second Beach and Third Beach; the post-Oct-15 recheck remains.
+      lead with Second Beach and Third Beach.
       **2026-09-29:** storm-beachcombing guide still carried an unqualified
       Rialto destination pointer despite that shared-data fix. Corrected in
       `caddde3` with an official closure notice; include that article in the
       Oct 15 recheck. For future access updates, search article prose as
       well as shared station metadata; a pipeline fix does not update prose.
+- [ ] **Mora/Rialto source convergence — recheck next operator run.** Read
+      the NPS road-status, conditions and Rialto route pages together. Preserve
+      the qualified notices while the pages differ; unchanged reports need no
+      additional edit. Restore Rialto/Hole-in-the-Wall to shared recommendations
+      only with sufficient current access evidence, never from an elapsed date,
+      tide score or road-open label alone. No physical-route clearance claimed.
 - [x] 2026-08-14: gh CLI auth WORKING again (`gh run list` + `gh issue list`
       both succeed, no 401) — owner appears to have re-authed; item closed.
       (Was: token invalid since 2026-07-25, operator used the public API.)
