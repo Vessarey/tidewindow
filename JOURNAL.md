@@ -5,6 +5,76 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-17 — Acadia roll-forward (§2d/§2e): Oct 17–Nov 30 chart, remaining-season lead
+
+**Health (green, unaided day four):** today's refresh landed without help —
+scheduled run `39003078792` started 04:34:33Z (2m14s) and commit `cda1794`
+("data: daily NOAA refresh 2026-10-17") reached origin/main at 04:36:43Z,
+well before the 12:00Z gate. Later slots (07:12, 08:49, 11:38Z) completed in
+7–9s, consistent with the skip-if-refreshed guard. No slot identity or delay
+inferred. Latest five scheduled runs green; no open GitHub issues. No ≥90
+window at any station in the inclusive Oct 17–31 scan (nothing above 85), so
+§2b does not apply. Not Thursday (newsletter is Oct 22); not a new month;
+weekly indexing check due next run (~Oct 19).
+
+**Primary action:** first ready brief from the Oct 16 refill — the Acadia
+guide roll-forward (`15d6cd8`). Premise held: the lead still named the passed
+Sep 27 window and the chart ended Oct 31. Changes: lead/FAQ/description now
+frame Oct 25 (−0.55 ft, 4:43 PM, 132 daylight min, score 59, Fair) as the
+best remaining window — verified against all 98 remaining Oct 17–Dec 31
+windows, not a top-N list; chart recomputed from today's fact sheet to
+Oct 17–Nov 30 (45 days, 174 extremes; spot-checked identical to the prior
+snapshot's overlapping rows). **Deviation from the brief noted honestly:**
+the brief asked for a Nov 1–Dec 31 chart, but the fact sheet's daily
+extremes cover only the current and next month, so December dailies are not
+computable today; the chart covers Oct 17–Nov 30, the footnote says so, and
+December is served by the verified monthly table (42/16/8, best Dec 23).
+Sunset labels added from the committed window data: Oct 25 low 49 min before
+the 5:32 PM sunset; Dec 24's −1.65 ft low 44 min after the 3:57 PM sunset;
+Dec 23's low nine min before sunset. Monthly Sept–Dec table recomputed —
+every figure unchanged from Sep 20. All four NPS sources re-fetched at write
+time (Bar Island updated Aug 26; tidepooling; Ship Harbor and Wonderland
+both updated Aug 20): crossing and collection quotes verbatim-verified,
+parking season (May 15–Oct 31) re-quoted, and both trail pages' Route 102A
+storm-closure warning added as a quoted caveat. Species snapshot re-dated to
+Oct 17 (Periwinkle 14, Dogwhelk 8). Sep 9 selected-lows table kept as dated
+history with an honest as-of line. Title, URL, original date, station gate
+unchanged. No other article, data file, or owner-held edit touched.
+
+**Mora source-convergence recheck (carried from Oct 16): resolved.** The
+road-status page lists Mora Road Open, updated 10/15/26; the conditions page
+(updated Oct 13) and Rialto page (updated Jul 31) still show the
+construction notice, but its stated period ("July 8–Oct. 15, 2026") has now
+passed, so the pages no longer conflict — the older notices are stale, not
+contradictory. The Oct 16 guide language (newer road report cited alongside
+the older notices; no passage claims) remains accurate; no edit made.
+
+**Quality gates:** `npm run build` green; verify-output OK (12 stations × 5
+months, 136 sitemap URLs); 65 tests pass (42 facts, 6 math, 17 format);
+every changed number traced to today's `bar-harbor-me` fact sheet or the
+committed window data; new internal link target /beaches/me/bar-harbor-me/2026-11/
+is a published month; diff reviewed — one file only.
+
+**Metrics snapshot (PostHog, trailing 7 days, host-filtered):** 536
+pageviews / 512 distinct IDs / 3 newsletter signups (~0.59% events/IDs, not
+a verified-person conversion rate). Top paths: national king tides 148,
+Oregon king tides 126, Washington king tides 48, home 18, Finder 15, Acadia
+guide 14. King-tide demand is clearly building ahead of the Nov 23–27
+window.
+
+**Working tree note:** `git pull --rebase` failed on the owner-held
+Haystack/minus-tide edits; pulled with `--autostash` instead — the held
+edits, newsletter drafts and SEO evidence directories were restored
+unchanged and remain uncommitted, per standing instruction.
+
+**Tomorrow:** first run of the new week → weekly indexing health (`inspect
+40`, §2a′) plus the Oct 26 Golden Hour crawl review is coming up. Fitzgerald
+and Washington-king-tides briefs remain ready (queue holds four writable
+items after today — above floor). Thursday Oct 22 is newsletter day. Keep
+verifying unaided refresh arrival daily.
+
+---
+
 ## 2026-10-16 — Heartbeat: reconcile the newer Mora Road status across five guides
 
 **Coordination:** read playbook, newest three entries, backlog, current git,

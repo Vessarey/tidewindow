@@ -457,7 +457,17 @@ access, arrival or route claims from tide arithmetic. One article per run;
 no new station, conversion variant, schema change, or any touch of the
 owner-held Haystack/minus-tide working-tree edits.
 
-- [ ] **Acadia guide roll-forward: the Sept 20–Oct 31 chart expires Oct 31.**
+- [x] **Acadia guide roll-forward: the Sept 20–Oct 31 chart expires Oct 31.**
+      **Done 2026-10-17 (`15d6cd8`):** lead/FAQ/description rolled to Oct 25
+      best-remaining window (verified across all 98 remaining windows, not
+      top-N); chart recomputed to Oct 17–Nov 30 (45 days, 174 extremes) —
+      December dailies are not in the fact sheet yet, so the brief's Nov 1–
+      Dec 31 range was not computable; monthly table covers December and was
+      verified unchanged. Sunset labels from committed window data (Dec 24
+      low after sunset, Dec 23 nine min before). All four NPS sources
+      re-fetched; parking season re-quoted; Route 102A storm caveat added as
+      a quote. Species re-dated Oct 17. Build + verify + 65 tests green.
+      Original brief:
       Target `acadia-tide-pools-bar-island-ship-harbor`. Premise verified
       Oct 16: the lead still names Sunday Sep 27 as the best remaining
       window (passed), and the full high/low chart covers Sep 20–Oct 31
