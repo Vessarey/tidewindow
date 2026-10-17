@@ -5,6 +5,117 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-17 — Heartbeat: correct GSC report windows and hidden opportunity rows
+
+**Coordination and one action:** morning `15d6cd8`/`ca3e8c7` already refreshed
+Acadia; four ready briefs remain. No second article, queue refill, conversion
+variant or access rewrite. The analytics-led review found a concrete reporting
+defect: `flywheel` filtered only the API's first 100 click-sorted rows, hiding
+zero-click opportunities; `28` requested 29 inclusive dates and used UTC rather
+than GSC's Pacific calendar. `42f3cbf` fixes this one measurement path. All 128
+owner-held file hashes match the starting snapshot; no held article, newsletter
+draft or SEO evidence was staged, moved or stashed.
+
+**Change:** new pure `gsc-report.mjs` helpers request exactly N inclusive Pacific
+dates, retain the established two-calendar-day lag without promising final data,
+and paginate Web/final rows in 25,000-row pages before filtering/ranking the
+flywheel. Ten full pages cause an explicit failure, never a silent partial report.
+Reports state requested dates, fetched/shown counts, and API/anonymization limits;
+date reports state the actual returned range and never zero-fill missing dates.
+The 40-row display limit remains explicit. Authentication, property, `sites` and
+`inspect` behavior are unchanged. Fourteen regression tests cover boundaries,
+leap/year/DST arithmetic, pagination/error limits, and zero-click rows beyond 100;
+they now run in postbuild. No dependencies, public content, generated outputs,
+workflow, analytics configuration, subscriptions or broadcasts changed.
+
+**Measured validation:** fresh `flywheel 28` requests **Sep 18–Oct 15** (28
+dates), retrieves **599 API rows**, then displays 40 ranked matches. It now shows
+zero-click `oregon coast king tides 2026` (62 impressions, position 8.2) and
+`king tides oregon 2027` (61, 9.5), alongside Fitzgerald (192, 8.0). These clusters
+already have guides; this is better observation, not newly created demand or an
+uplift claim. `pages 28` fetches 88/shows 40. `dates 60` requests Aug 17–Oct 15
+but returns **59 dates, Aug 17–Oct 14**: Oct 15 is not finalized yet. `sites`
+still succeeds. Do not compare these lag-based CLI windows with the latest-final
+28-day baseline below as though their start dates were identical.
+
+**Quality gates:** exact four-file candidate applied to an isolated archive of
+`ca3e8c7`; locked `npm ci --ignore-scripts`, installed Next 16.3.8 static-export
+guide, `PIPELINE_REFRESH=1 npm run build -- --webpack`, and lint all pass. The
+NOAA pipeline completed for all 12 stations; verifier passed 12 stations x five
+months and 136 sitemap URLs; **79 tests passed** (42 facts, six math, 17 format,
+14 GSC). Isolated regenerated data was not copied back or published. Diff check
+passed. Production audit remains **zero**; full audit remains **seven high
+development package entries** in the already-tracked braces and compression
+chains, not a clean full audit. No force downgrade or new dependency change.
+
+**Health:** scheduled run `39003078792` began **04:34:33Z**, produced `cda1794`,
+and its actual successful push log is **04:36:45.453Z**. This clarifies the
+morning entry's 04:36:43Z (the commit/IndexNow step, not the completed push).
+IndexNow accepted 136 URLs with HTTP 200 at **04:36:43.309Z**. Fourth observed
+unaided pre-session refresh since mitigation; no originating cron expression
+established, so no slot identity or delay inferred. Latest five scheduled runs
+green; no open GitHub issues. All 12 production station files byte-match today's
+commit, generated **04:34:51.809Z**. Nine checked public routes and the homepage
+OG image return 200. No >=90 window in the inclusive Oct 17–31 scan. A smoke
+check initially used a nonexistent longer La Push slug; the actual published
+slug passes, so that 404 was a checker-input mistake, not a broken site link.
+
+**Browser:** current Acadia update visibly live; desktop layout and 390px
+document width checked (390/390, no page overflow). Its calendar button reveals
+the correct blank Bar Harbor email form; no submission. Article ZIP 04609 opens
+Finder and selects Bar Harbor after hydration: 36 qualifying lows / seven
+daylight-minus lows, best Oct 25 score 59. The <=-1-ft filter gives two / one,
+best Oct 27 score 49. Captured browser warning/error log empty; this bounded
+check is not proof of all flows or physical shoreline access.
+
+**Search snapshot:** freshly queried GSC Web/final, all countries/devices,
+Pacific dates, latest available final date **Oct 14, unchanged since yesterday**.
+Sep 17–Oct 14: **316 clicks / 15,483 impressions / position 6.92**, versus
+Aug 20–Sep 16 **199 / 13,146 / 7.87** (**+58.8% clicks**). Oct 8–14:
+**81 / 4,383 / 6.81**, versus Oct 1–7 **95 / 4,068 / 7.17** (**-14.7% clicks**).
+88 page rows and 600 query rows in this exact baseline; anonymization/API limits
+still apply. Leading page clicks: national king tides 103, Washington 42,
+Fitzgerald 38, Seattle 26, Oregon 25, Acadia 22. Sitewide CTR is not the primary
+verdict metric; no causal growth claim or tiny-sample experiment verdict.
+
+**Product and subscribers:** configured read-only fallback used after PostHog
+connector authorization and GSC connector billing failures; no access changes.
+PostHog 495836, exact host `thetidewindow.com`, Regular classification, half-open
+UTC windows ending **Oct 17 17:19:33Z**: seven days **520 pageviews / 502
+pageview distinct IDs / three signup events** (0.60% events/IDs); 28 days
+**2,069 / 1,938 / ten** (0.52%). These are not verified-person/cohort conversion
+rates. Seven-day audit excludes six Bot-classified pageviews; all six have the
+bot flag, while 520 Regular rows do not. Regular still does not prove humanity.
+Seven-/28-day events: station selections **19/71**, window results **15/57**,
+ZIP lookups **15/42**, calendar gates **7/29**, trip runs **0 observed/9**,
+ICS reveals **1/3**, heatmap views **0 observed/1**, exit prompts **23/84**,
+exceptions **2/3**. Zero observed is not missing instrumentation or proof of
+health; exception capture remains incomplete. Seven-day signup sources: two
+exit-intent, one calendars_page. Top seven-day paths: national king tides 147,
+Oregon 123, Washington 46, Puget 15, Finder/Acadia/home 14 each. Referrers include
+Bing 145, Google 127, direct 96, DuckDuckGo 70, Yahoo 41; these are pageviews,
+not GSC clicks. Only 14 measured LCP values (p75 811ms): insufficient for a
+sitewide performance verdict. Resend read-only contacts: **23 total, 22 active,
+one unsubscribed**, complete page. No sync/send or invented delivery metrics.
+
+**Carry-forward:** retired Seattle-August and signup experiments stay retired;
+exit-prompt removal remains an owner choice. Mora road-status still says Open
+(Oct 15), while older route/conditions pages retain expired construction notices;
+leave the qualified Oct 16 guide wording and Second/Third Beach recommendations
+unchanged. The source-convergence/access check remains separate from an elapsed
+closure date or a road-open label. Weekly indexing is due **Monday Oct 19**,
+not Sunday Oct 18; Golden Hour crawl review Oct 26; newsletter Oct 22; November
+indexing/month-rollover gate Nov 1. Next primary editorial candidate remains the
+queued Fitzgerald roll-forward, subject to fresh priority checks and evidence.
+
+**Release:** `42f3cbf5730b9a6c3dd8f01404d3d5a38023c84f` pushed to origin/main;
+Vercel `Ba9niZhzrwopfPBDJ6fu36kHdjSF` reports success at **17:30:26Z**, and
+GitHub records Production deployment `7143213075` for that exact SHA. Live
+Acadia remains HTTP 200 with the morning's Oct 17 update/chart intact. This
+release repairs operator reporting, not reader-facing design or search rank.
+
+---
+
 ## 2026-10-17 — Acadia roll-forward (§2d/§2e): Oct 17–Nov 30 chart, remaining-season lead
 
 **Health (green, unaided day four):** today's refresh landed without help —

@@ -5,6 +5,16 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **2026-10-17 heartbeat — correct GSC report completeness and dates.**
+      `42f3cbf`: exactly N inclusive Pacific dates, explicit Web/final filters,
+      pagination before opportunity filtering/ranking, visible fetched/display
+      counts and API limits. Final-date coverage is reported without zero-fill.
+      Live flywheel check fetched 599 rows rather than the old first 100; zero-
+      click Oregon opportunities are visible. These queries already have pages.
+      Fourteen regressions added to postbuild; 79 total tests, isolated full
+      NOAA-refresh build, output checks and lint pass. Morning Acadia work and
+      all 128 held files preserved. See heartbeat journal for release/evidence.
+
 - [x] **2026-10-16 heartbeat — reconcile Mora Road access notices.**
       NPS's road-status page explicitly lists Mora Road Open, updated Oct 15;
       older conditions (Oct 13) and Rialto (Jul 31) pages retain the construction
