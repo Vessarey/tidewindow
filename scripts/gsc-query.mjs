@@ -16,6 +16,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { reportWindow, readReportRows, selectReportRows } from "./gsc-report.mjs";
 
 const ROOT = path.join(import.meta.dirname, "..");
 const CREDS = JSON.parse(fs.readFileSync(path.join(ROOT, "docs-internal", "gsc-service-account.json"), "utf8"));
@@ -63,12 +64,7 @@ async function api(token, url, body) {
   return data;
 }
 
-function dateStr(daysAgo) {
-  return new Date(Date.now() - daysAgo * 86400_000).toISOString().slice(0, 10);
-}
-
 const [cmd = "sites", daysArg] = process.argv.slice(2);
-const days = Number(daysArg) || 28;
 const token = await getAccessToken();
 
 if (cmd === "inspect") {
@@ -106,26 +102,28 @@ if (cmd === "inspect") {
   const data = await api(token, "https://www.googleapis.com/webmasters/v3/sites");
   console.log(JSON.stringify(data, null, 2));
 } else {
+  if (!["dates", "pages", "queries", "flywheel"].includes(cmd)) throw new Error(`Unknown report: ${cmd}`);
+  const { startDate, endDate, days } = reportWindow(daysArg);
   const dimension = cmd === "dates" ? "date" : cmd === "pages" ? "page" : "query";
   const body = {
-    startDate: dateStr(days + 2),
-    endDate: dateStr(2), // GSC data lags ~2 days
+    startDate,
+    endDate,
     dimensions: [dimension],
-    rowLimit: 100,
   };
-  const data = await api(
+  const rows = await readReportRows(request => api(
     token,
     `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(PROPERTY)}/searchAnalytics/query`,
-    body
-  );
-  let rows = data.rows ?? [];
-  if (cmd === "flywheel") {
-    rows = rows.filter((r) => r.position >= 8 && r.position <= 20).sort((a, b) => b.impressions - a.impressions);
-  }
-  if (!rows.length) {
-    console.log(`No ${cmd} rows for the last ${days} days (normal for a new site — GSC data lags and accumulates slowly).`);
+    request
+  ), body);
+  const selected = selectReportRows(rows, cmd);
+  console.log(`Requested window: ${startDate}–${endDate} (${days} inclusive Pacific dates); Web/final data.`);
+  console.log(`Fetched ${rows.length} API rows; showing ${selected.length} ${cmd} rows.`);
+  console.log('Recent dates may not be finalized. API top-row limits and anonymized queries still apply; these rows are not property totals.');
+  if (cmd === "dates" && rows.length) console.log(`Returned dates: ${rows[0].keys[0]}–${rows.at(-1).keys[0]}; missing dates are not zero-filled.`);
+  if (!selected.length) {
+    console.log(`No matching ${cmd} rows returned; this does not prove absent demand or indexing.`);
   } else {
-    for (const r of cmd === "dates" ? rows : rows.slice(0, 40)) {
+    for (const r of selected) {
       console.log(
         `${r.keys[0]}  clicks=${r.clicks} impressions=${r.impressions} ctr=${(r.ctr * 100).toFixed(1)}% pos=${r.position.toFixed(1)}`
       );

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/verify-output.mjs && npm run test:facts && npm run test:math && npm run test:format",
+    "postbuild": "node scripts/verify-output.mjs && npm run test:facts && npm run test:math && npm run test:format && npm run test:gsc",
+    "test:gsc": "node --test scripts/gsc-report.test.mjs",
     "test:facts": "node --test scripts/pipeline/facts.test.mjs",
     "test:math": "node --test scripts/pipeline/tide-math.test.mjs",
     "test:format": "node --experimental-strip-types --test scripts/format.test.mjs",
