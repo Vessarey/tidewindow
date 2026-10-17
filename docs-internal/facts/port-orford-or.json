@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-16",
+ "generated_on": "2026-10-17",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -2074,5 +2074,41 @@
    "min_to_sun_edge": 20
   }
  ],
- "species_last60d_5km": []
+ "species_last60d_5km": [
+  {
+   "commonName": "Spotted Dorid",
+   "scientificName": "Triopha maculata",
+   "count": 3
+  },
+  {
+   "commonName": "Clown Dorid",
+   "scientificName": "Triopha catalinae",
+   "count": 2
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 2
+  },
+  {
+   "commonName": "Nanaimo Dorid",
+   "scientificName": "Acanthodoris nanaimoensis",
+   "count": 2
+  },
+  {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 2
+  },
+  {
+   "commonName": "White-lined Dirona",
+   "scientificName": "Dirona albolineata",
+   "count": 1
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
+   "count": 1
+  }
+ ]
 }

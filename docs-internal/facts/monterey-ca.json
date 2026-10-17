@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-16",
+ "generated_on": "2026-10-17",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2074,5 +2074,56 @@
    "min_to_sun_edge": 16
   }
  ],
- "species_last60d_5km": []
+ "species_last60d_5km": [
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 62
+  },
+  {
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
+   "count": 34
+  },
+  {
+   "commonName": "cockscomb nudibranch",
+   "scientificName": "Antiopella barbarensis",
+   "count": 26
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 22
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 21
+  },
+  {
+   "commonName": null,
+   "scientificName": "Doto urak",
+   "count": 20
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 16
+  },
+  {
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 16
+  },
+  {
+   "commonName": "Fisher's Aeolid",
+   "scientificName": "Orienthella piunca",
+   "count": 16
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 15
+  }
+ ]
 }

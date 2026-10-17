@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-16",
+ "generated_on": "2026-10-17",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2050,5 +2050,56 @@
    "min_to_sun_edge": -26
   }
  ],
- "species_last60d_5km": []
+ "species_last60d_5km": [
+  {
+   "commonName": "Flat spoonclam",
+   "scientificName": "Periploma planiusculum",
+   "count": 3
+  },
+  {
+   "commonName": "Kelp Scallop",
+   "scientificName": "Leptopecten latiauratus",
+   "count": 2
+  },
+  {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 1
+  },
+  {
+   "commonName": "Cloudy Bubble Snail",
+   "scientificName": "Bulla gouldiana",
+   "count": 1
+  },
+  {
+   "commonName": "Gland Dorid",
+   "scientificName": "Polycerella glandulosa",
+   "count": 1
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 1
+  },
+  {
+   "commonName": "Kellet's Whelk",
+   "scientificName": "Kelletia kelletii",
+   "count": 1
+  },
+  {
+   "commonName": "Spiny Cup-and-Saucer",
+   "scientificName": "Crucibulum spinosum",
+   "count": 1
+  },
+  {
+   "commonName": "Pacific Calico Scallop",
+   "scientificName": "Argopecten ventricosus",
+   "count": 1
+  },
+  {
+   "commonName": "Pismo Clam",
+   "scientificName": "Tivela stultorum",
+   "count": 1
+  }
+ ]
 }

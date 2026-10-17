@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-16",
+ "generated_on": "2026-10-17",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2073,5 +2073,56 @@
    "min_to_sun_edge": -67
   }
  ],
- "species_last60d_5km": []
+ "species_last60d_5km": [
+  {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
+   "count": 12
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 9
+  },
+  {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 5
+  },
+  {
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
+   "count": 3
+  },
+  {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 3
+  },
+  {
+   "commonName": "Black Leather Chiton",
+   "scientificName": "Katharina tunicata",
+   "count": 2
+  },
+  {
+   "commonName": "Hind's Chiton",
+   "scientificName": "Mopalia hindsii",
+   "count": 2
+  },
+  {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 2
+  },
+  {
+   "commonName": "Nanaimo Dorid",
+   "scientificName": "Acanthodoris nanaimoensis",
+   "count": 1
+  },
+  {
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
+   "count": 1
+  }
+ ]
 }
