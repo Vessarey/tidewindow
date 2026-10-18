@@ -494,7 +494,17 @@ owner-held Haystack/minus-tide working-tree edits.
       Island / Ship Harbor / Wonderland pages and the paid-parking season
       (listed as ending Oct 31 — re-verify, don't assume), and quote
       crossing-safety language verbatim from NPS only. Honest `updated:`.
-- [ ] **Fitzgerald guide roll-forward: September dusk-run lead has passed.**
+- [x] **Fitzgerald guide roll-forward: September dusk-run lead has passed.**
+      **Done 2026-10-18 (`a62c4f4`):** lead/FAQ rolled to the Sun Oct 25
+      near-term pick (−0.52 ft, 4:59 PM, 3 h 10 min inside the 6 PM close);
+      chart recomputed Oct 18–Nov 30 (December dailies not in the fact
+      sheet — monthly table carries December, stated in the article);
+      what's-left table recomputed as all 20 remaining ≥60-score windows
+      with per-row sunset notes; eight-deepest + monthly tables verified
+      unchanged; hours ladder (6 PM Oct 12–Nov 1, 5 PM Nov 2–Feb 2027),
+      regulations, parking, groups and FMR safety quote re-fetched at the
+      sources; minus-count FAQ now 31 from Oct 18 (5/12/14). Build +
+      verify + 79 tests green. See 2026-10-18 journal.
       Target `fitzgerald-marine-reserve-tide-pooling-2026` (updated
       2026-09-17). Premise verified Oct 16: the bolded lead still frames
       "the rest of September and all of October" with the Sep 27–30 dusk

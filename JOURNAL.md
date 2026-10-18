@@ -5,6 +5,74 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-18 — Fitzgerald roll-forward (§2d/§2e): Oct 18–Nov 30 chart, Oct 25 near-term pick
+
+**Health (green, unaided day five):** scheduled run `39097886692` started
+04:40:07Z (2m29s) and its commit `5a7dda6` ("data: daily NOAA refresh
+2026-10-18") is on origin/main at 04:42:30Z, well before the 12:00Z gate.
+Later slots (07:26, 09:06Z) completed in ~10s, consistent with the
+skip-if-refreshed guard; no slot identity or delay inferred. Latest five
+scheduled runs green; no open GitHub issues. §2b scan of committed window
+data, Oct 18–Nov 1 inclusive: no ≥90 window at any station (best 68,
+Pillar Point Oct 25). Not Thursday (newsletter Oct 22); not a new month;
+weekly indexing is due tomorrow, Monday Oct 19 (§2a′). Owner-held
+Haystack/minus-tide edits, newsletter drafts and SEO evidence directories
+were preserved via `--autostash` and not staged, moved or edited.
+
+**Primary action:** second ready brief from the Oct 16 refill — the
+Fitzgerald guide roll-forward (`a62c4f4`). Premise held: the bolded lead
+still framed the passed Sep 27–30 dusk run as current and the chart ended
+Oct 31. Changes: lead/FAQ now frame Sunday Oct 25 (−0.52 ft, 4:59 PM,
+3 h 10 min inside the 6 PM close, score 68) as the near-term pick, with the
+Oct 25–29 run deepening to −1.17 ft but sliding past the close from the
+27th; chart recomputed from today's fact sheet to Oct 18–Nov 30 (44 days —
+December dailies are not in the fact sheet, same limitation as the Oct 17
+Acadia run; the brief's Nov–Dec chart range was therefore not computable
+and the monthly table carries December, stated in the article). What's-left
+table recomputed with an explicit, verifiable criterion: all 20 remaining
+2026 windows scoring ≥60, chronological, with per-row sunset notes (brief's
+sunset audit: Oct 27, Nov 25–26, Dec 24–26 lows all land after both close
+and sunset despite qualifying daylight windows — now labeled). Verified
+unchanged against today's facts: the eight-deepest table (every height,
+time, in-hours verdict), the monthly Sept–Dec summary (Sept kept as dated
+history), the Dec 23 / Nov 24 needle-threading examples, and the FAQ's
+arrive-by numbers. Minus-tide count FAQ updated: 31 remain from Oct 18
+(5 Oct / 12 Nov / 14 Dec), labeled as ≥30-min window overlap, not light at
+the low. All four claim sources re-fetched at write time: hours ladder
+confirmed verbatim (6 PM Oct 12–Nov 1, 5 PM Nov 2–Feb 2027), regulations
+quotes, free parking + Lake Street lot (FMR FAQ), 15+ group reservation at
+no fee, and the FMR "never turn your back on the ocean" quote. Species
+snapshot re-tallied to Oct 18 (spotted dorid 26; gumboot chiton 11, tied
+fourth). Title, URL, original date, station gate unchanged. Month links now
+point at October + November (2026-11 is in published-months.json).
+
+**Quality gates:** `npm run build` green (exit 0); verify-output OK — 12
+stations × 5 months, 136 sitemap URLs; 79 tests pass (42 facts, 6 math,
+17 format, 14 GSC). Every changed number traced to today's
+`pillar-point-ca` fact sheet or committed window data; selection
+completeness checked (exactly 20 windows ≥60, min daylight 53 min). Diff
+reviewed — one file only; no generated data touched.
+
+**Metrics snapshot (PostHog, trailing 7 days, host-filtered):** 516
+pageviews / 488 pageview distinct IDs / 2 newsletter signups (~0.41%
+events/IDs, not a verified-person conversion rate). Fitzgerald guide: 60
+pageviews in 28 days. The top-paths HogQL query failed twice with
+`clickhouse_at_capacity` (PostHog-side transient); totals and signup
+queries succeeded, so no path ranking today rather than an invented one.
+GSC not re-queried today (yesterday's heartbeat baseline stands; next
+flywheel read with the Monday indexing pass).
+
+**Velocity:** 0 new articles this week; today is a §2e refresh. Caps clear.
+
+**Tomorrow (Mon Oct 19):** weekly indexing health is the primary action —
+`node scripts/gsc-query.mjs inspect 40` plus `pages 28`; Golden Hour crawl
+review due Oct 26. Thursday Oct 22 is newsletter day. Washington king-tides
+verification brief remains ready (queue holds three writable items after
+today: WA king tides, sea-glass, Sunset Bay — at the floor, so consider a
+§2a refill check during the week). Keep verifying unaided refresh arrival.
+
+---
+
 ## 2026-10-17 — Heartbeat: correct GSC report windows and hidden opportunity rows
 
 **Coordination and one action:** morning `15d6cd8`/`ca3e8c7` already refreshed
