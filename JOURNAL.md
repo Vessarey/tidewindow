@@ -5,6 +5,135 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-18 — Heartbeat: correct Fitzgerald tide-window versus opening-hours claims
+
+**Coordination and one action:** morning `a62c4f4`/`c470667` already rolled
+Fitzgerald forward; the three ready briefs remain at the queue floor. No
+second article, refill or conversion variant. The analytics-led review found
+a factual contradiction on the freshly updated guide (38 GSC clicks in the
+latest final 28 days): its lead said Oct 25's whole event fit inside closing,
+but its own table showed 2:50–7:15 PM against a 6 PM close. `47fad24` fixes
+this single interpretation problem while preserving all four tables byte for
+byte, all headings/fragment targets, title/description, original July 3 date,
+today's honest updated date, station gate and unrelated FAQ entries. All 128
+owner-held file hashes match the starting snapshot; none were staged, moved
+or stashed.
+
+**Correction:** the 66-word answer-first lead now states the -0.52 ft low at
+4:59 PM, 3 h 10 min of interval overlap with posted hours, and that the full
+modeled interval extends beyond closing (75 minutes, versus the low itself
+61 minutes before close). FAQ/prose no longer turn an interval into usable
+visit time, a one-hour-before-low arrival allowance, or verified reef access.
+The eight-deepest ranking is explicitly July 1–December 31, not a full year;
+daylight eligibility means >=30 minutes of window overlap, not light at the
+low. Dec 23/Nov 24 examples retain their correct 210/195-minute overlaps but
+add 4:56/4:53 PM sunsets before the 5 PM close. Score description now includes
+depth, daylight overlap, weekend/holiday timing and regional season, not
+depth/daylight alone. Removed the non-government safety quote and its false
+validation of the arrival-time math. County hours and reserve pages were
+read at write time and fetch 200; county schedule remains 8 AM opening,
+6 PM closing Oct 12–Nov 1, 5 PM Nov 2–February 2027. No physical access or
+safe-visit claim follows from that schedule.
+
+**Quality gates:** exact article candidate built in an isolated archive of
+`c470667` with locked `npm ci --ignore-scripts` and `npm run build -- --webpack`
+(content-only; no pipeline regeneration needed). Next 16.3.8 static-export
+guidance read. Build/verifier pass: 149 generated routes, 136 sitemap URLs,
+12 stations x five months; **79 tests pass** (42 facts, six math, 17 format,
+14 GSC). Lint, syntax and diff checks pass. New standalone, dated read-only
+`docs-internal/health/2026-10-18-fitzgerald-hours-check.mjs` verifies table and
+metadata preservation, all 20 selected-row opening-hours overlaps, top-eight
+selection/range, deepest remaining in-hours low, lead, Article/FAQ schema,
+41 internal destinations and both county link responses; last pass 17:22:39Z.
+It is not wired into recurring postbuild against future rolling data.
+Production-only audit zero; full locked install still reports the already
+tracked seven high development package entries (braces and compression/serve),
+not a clean full audit. No dependency, application code, generated data or
+workflow change.
+
+**Browser checks:** isolated export served only on 127.0.0.1 with compression
+disabled. Corrected lead/FAQ visibly present; desktop layout and 390px
+document width checked (390/390, no page overflow). Calendar button reveals
+the correct blank Pillar Point email form; no submission. Guide ZIP 94038
+opens Finder and selects Pillar Point after hydration: 30 qualifying lows,
+11 daylight-minus lows, best Oct 25 score 68, interval 2:50–7:15 PM. Bounded
+warning/error log empty; not a claim that all flows or shore access are healthy.
+Live Finder separately verified the same 30/11 result and station for 94038;
+the <=-1-ft filter returns three/three, best Oct 27 score 65. Live captured
+warning/error log also empty. These checks occur after the metrics cutoff.
+
+**Operational health:** scheduled NOAA run `39097886692` started 04:40:07Z;
+its actual successful push was **04:42:32.469Z**, for `5a7dda6`. This clarifies
+the morning entry's 04:42:30Z commit timestamp. IndexNow accepted 136 URLs
+with HTTP 200 at 04:42:30.145Z. Fifth observed unaided refresh before the
+12:00Z operator session; no originating cron expression established, so no
+slot identity/delay inferred. Latest five scheduled runs green skips; no
+open issues. All 12 production station files byte-match today's commit,
+generated 04:40:29.866Z. Nine public routes and the homepage OG image return
+200. No >=90 window across Oct 18–Nov 1 inclusive (best 68, Pillar Point
+Oct 25). No recovery dispatch, newsletter sync/send, outreach or spending.
+
+**Search:** fresh GSC Web/final, all countries/devices, Pacific dates. Date
+probe through Oct 17 returns latest finalized **Oct 16**. Sep 19–Oct 16:
+**315 clicks / 15,484 impressions / position 6.93**, versus Aug 22–Sep 18
+**203 / 13,564 / 7.76** (**+55.2% clicks**). Oct 10–16: **71 / 4,085 / 6.87**,
+versus Oct 3–9 **101 / 4,289 / 7.02** (**-29.7% clicks**). 93 page rows and
+641 query rows fetched; pagination and anonymization limits acknowledged.
+Top page clicks: national king tides 98, Washington 43, Fitzgerald 38,
+Seattle 27, Oregon 25, Acadia 22. Fitzgerald chart flywheel: 4 clicks / 201
+impressions / position 8.10. Oregon 2026 (3/105/8.22) and 2027 (0/60/9.55)
+already have guides. No new-demand or change-caused uplift claim; CTR is not
+the primary verdict metric.
+
+**Product/subscribers:** PostHog connector authorization and GSC connector
+billing remain blocked; configured read-only fallbacks succeeded without
+access changes. PostHog 495836, exact host thetidewindow.com, Regular class,
+half-open UTC periods ending **Oct 18 17:14:38Z**: seven days (from Oct 11)
+**508 pageviews / 480 pageview distinct IDs / two signup events** (~0.42%
+events/IDs); 28 days (from Sep 20) **2,080 / 1,943 / ten** (~0.51%). Not
+verified-person/cohort conversion rates. Eight Bot-classified pageviews
+excluded in seven days; classification/flag agree, but Regular is not proof
+of humanity. Seven-/28-day events: station selections 18/72, window results
+16/59, ZIP lookups 16/46, gates 9/31, trip runs **0 observed/9**, ICS reveals
+1/3, heatmap views **0 observed/1**, exit prompts 21/82, exceptions 2/3.
+Two seven-day signup events: one exit-intent, one calendars_page. Definitions
+exist for trip/heatmap/errors; zero observed is not missing instrumentation.
+Exception remote-config field missing on 450 pageviews, false on 58, true
+on none: incomplete capture, not proof of zero errors. Sampled seven-day
+LCP p75 884ms from 149 non-null measurements; limited coverage, not sitewide
+performance. Top seven-day paths: national 144, Oregon 115, Washington 47,
+Finder/Puget/home 13 each, Fitzgerald/Acadia 12 each. Referrer pageviews:
+Bing 133, Google 123, direct 93, DuckDuckGo 71, Yahoo 41 (not search clicks).
+Resend read-only: 23 contacts, 22 active, one unsubscribed, complete page.
+
+**Carry-forward:** retired Seattle-August and signup experiments stay retired;
+exit-prompt removal remains an owner choice. NPS road-status still says Mora
+Road Open (Oct 15); conditions.htm now also says Open (updated Oct 17) and
+has removed construction text. The Rialto route page remains Jul 31 with
+the expired notice. Updated the queued Washington brief/source-convergence
+note; no second multi-guide rewrite or shared destination restoration.
+Road-open still does not verify trail or Hole-in-the-Wall passage. Monday
+**Oct 19: weekly indexing (`inspect 40` plus `pages 28`, native Pages report
+when accessible)**; newsletter Oct 22; Golden Hour crawl review Oct 26;
+November month/indexing gate Nov 1. Washington verification, sea-glass and
+Sunset Bay remain the three ready briefs, subject to higher-priority checks.
+
+**Release boundary:** `47fad24cd3c11539117bde3d598806bfe63f5bce` is on
+origin/main, but **not yet verified live**. At **17:29:15Z**, direct production
+fetch is HTTP 200 and still contains the morning's "whole event inside"
+claim, not the corrected lead. GitHub has no status/check run/deployment or
+commit comment for this SHA (combined status defaults to pending, which does
+not prove a build is running). Latest recorded Production remains morning
+`c470667`, deployment `7154401488`. Vercel's linked deployment details lead
+to a login page in the available browser; no login, new access or manual
+deployment attempted. Local preview proof saved in this chat's artifacts.
+Next action is exact-SHA deployment/live-content verification; if no automatic
+release appears, the owner must inspect the Vercel project/integration from
+their authenticated session. Do not call this correction published from the
+git push alone. Recheck this before the Oct 19 indexing/editorial work.
+
+---
+
 ## 2026-10-18 — Fitzgerald roll-forward (§2d/§2e): Oct 18–Nov 30 chart, Oct 25 near-term pick
 
 **Health (green, unaided day five):** scheduled run `39097886692` started

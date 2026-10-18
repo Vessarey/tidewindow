@@ -5,6 +5,28 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **Oct 18 Fitzgerald correction — verify automatic deployment first.**
+      Source/checker commit `47fad24` is on origin/main; at 17:29:15Z the
+      live guide still served the old lead, and GitHub had no deployment or
+      status for the SHA. Last recorded Production was morning `c470667`.
+      Vercel detail page requires login; no manual release or access change
+      authorized here. Check a successful deployment containing `47fad24`
+      and direct live lead/FAQ/schema before marking published. If automatic
+      delivery remains absent, owner inspection of Vercel/integration is
+      needed. This outranks the next indexing/editorial action until resolved.
+
+- [x] **2026-10-18 heartbeat — correct Fitzgerald hours/access inference.**
+      `47fad24` preserves the morning roll-forward and all four tables, but
+      corrects its claim that Oct 25's whole event fits before closing:
+      2:50–7:15 PM overlaps the 6 PM close for 3 h 10 min, ending 75 minutes
+      afterward. Lead/FAQ now separate modeled intervals, posted hours,
+      daylight, walking time and actual reef access; deepest-low ranking is
+      explicitly July–December, not a full year. Score description corrected.
+      Dated read-only checker, isolated build, 79 tests, lint, desktop/390px
+      layout and calendar/ZIP controls pass. No table, title, generated data,
+      signup variant or owner-held file changed. Source/checker are pushed;
+      publication remains unverified as noted above. See heartbeat journal.
+
 - [x] **2026-10-17 heartbeat — correct GSC report completeness and dates.**
       `42f3cbf`: exactly N inclusive Pacific dates, explicit Web/final filters,
       pagination before opportunity filtering/ranking, visible fetched/display
@@ -505,6 +527,11 @@ owner-held Haystack/minus-tide working-tree edits.
       regulations, parking, groups and FMR safety quote re-fetched at the
       sources; minus-count FAQ now 31 from Oct 18 (5/12/14). Build +
       verify + 79 tests green. See 2026-10-18 journal.
+      **Same-day correction (`47fad24`):** the new chart/tables stand, but
+      the lead's "whole event inside" claim did not match them. Corrected
+      interval-vs-hours arithmetic and access implications; removed the
+      inferred arrival-time allowance and non-government safety quote.
+      July–December ranking and all four score components are explicit.
       Target `fitzgerald-marine-reserve-tide-pooling-2026` (updated
       2026-09-17). Premise verified Oct 16: the bolded lead still frames
       "the rest of September and all of October" with the Sep 27–30 dusk
@@ -535,9 +562,10 @@ owner-held Haystack/minus-tide working-tree edits.
       Seattle and Port Townsend" claim against current month data; re-fetch
       the official WA king-tides photo-initiative dates cited; confirm the
       La Push section's numbers and sunset comparisons; keep the Mora Road
-      context consistent with the Oct 16 heartbeat's newer evidence: the NPS
-      road-status page lists Open, updated Oct 15, while older conditions and
-      Rialto pages still carry the construction notice. Re-fetch both road and
+      context consistent with the Oct 18 evidence: the NPS road-status page
+      lists Open (Oct 15); conditions.htm now also says Open (Oct 17) and no
+      longer carries the construction notice, while the Rialto route page
+      remains dated Jul 31 with the expired notice. Re-fetch both road and
       route sources at implementation; road status does not prove passage. If
       nothing has drifted, a no-change verification is a valid outcome:
       journal it instead of forcing an edit, and only set `updated:` on
@@ -2552,6 +2580,13 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       additional edit. Restore Rialto/Hole-in-the-Wall to shared recommendations
       only with sufficient current access evidence, never from an elapsed date,
       tide score or road-open label alone. No physical-route clearance claimed.
+      **Oct 18 check:** current-road-conditions.htm remains Open (Oct 15).
+      conditions.htm is now updated Oct 17, lists Mora Road Open and has
+      removed the construction notice. rialto-beach.htm remains updated
+      Jul 31 with the July 8–Oct 15 notice. Two road-status sources agree;
+      the route page is still stale. No second five-guide rewrite or shared
+      destination restoration in the Fitzgerald-correction run. Re-fetch
+      sources when implementing the queued Washington verification brief.
 - [x] 2026-08-14: gh CLI auth WORKING again (`gh run list` + `gh issue list`
       both succeed, no 401) — owner appears to have re-authed; item closed.
       (Was: token invalid since 2026-07-25, operator used the public API.)
