@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-17",
+ "generated_on": "2026-10-18",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -2091,11 +2091,6 @@
    "count": 4
   },
   {
-   "commonName": "Atlantic Jackknife",
-   "scientificName": "Ensis leei",
-   "count": 4
-  },
-  {
    "commonName": "Fuzzy Onchidoris",
    "scientificName": "Onchidoris muricata",
    "count": 3
@@ -2103,6 +2098,11 @@
   {
    "commonName": "Soft-shelled Clam",
    "scientificName": "Mya arenaria",
+   "count": 3
+  },
+  {
+   "commonName": "Atlantic Jackknife",
+   "scientificName": "Ensis leei",
    "count": 3
   },
   {
