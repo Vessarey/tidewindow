@@ -7,12 +7,12 @@ category: "station-guides"
 station: "pillar-point-ca"
 tags: ["fitzgerald marine reserve", "moss beach", "pillar point harbor", "tide chart", "tide table", "low tide schedule", "tide pooling"]
 faq:
-  - q: "What is the best day for tide pooling at Fitzgerald Marine Reserve in 2026?"
-    a: "Wednesday, December 23, 2026: a −1.85 ft MLLW low at 4:22 PM (NOAA Pillar Point Harbor station 9414131), inside the reserve's 8 AM–5 PM winter hours, with about 3.5 hours of usable window. The year's deepest daylight low, −1.90 ft on December 24, comes 10 minutes after the 5 PM close. Before the king season, the best day that fits the posted hours is Sunday, October 25 (−0.52 ft at 4:59 PM, about 3 hours of window before the 6 PM close)."
+  - q: "Which remaining 2026 low falls within Fitzgerald Marine Reserve's posted hours?"
+    a: "Among the remaining predictions in our July 1–December 31 record, December 23 has the deepest low within posted hours: −1.85 ft MLLW at 4:22 PM (NOAA station 9414131). Its 1:30–7:35 PM modeled window overlaps the 8 AM–5 PM schedule for 3 hours 30 minutes; sunset is 4:56 PM. October 25's −0.52 ft low is at 4:59 PM, before the 6 PM close, but its window continues to 7:15 PM. Neither a modeled interval nor posted hours verifies reef access."
   - q: "Where can I find a Fitzgerald Marine Reserve tide table for today?"
     a: "Tidewindow's Pillar Point Harbor station page shows the next seven days of highs and lows for NOAA station 9414131, the prediction station for the Moss Beach reef, and each monthly calendar page carries a complete day-by-day high-and-low table that refreshes daily. NOAA's own predictions page for station 9414131 is the primary source."
-  - q: "What time should I arrive for low tide at Fitzgerald Marine Reserve?"
-    a: "About an hour before the predicted low — for Tuesday, November 24, 2026 (−1.64 ft low at 4:31 PM), that means 3:31 PM. For the autumn and winter windows the 8 AM gate is no obstacle; it's the seasonal close that cuts things short. On November 24 the workable water starts around 1:45 PM and the reserve closes at 5:00 PM, so the practical window is about 3 hours 15 minutes."
+  - q: "Does a modeled tide window tell me when to arrive or leave Fitzgerald Marine Reserve?"
+    a: "No. It estimates when the reference-station tide is below +1.0 ft MLLW, not a walking-time allowance or site-access window. On November 24, 2026, the modeled interval is 1:45–7:40 PM and posted hours end at 5 PM: 3 hours 15 minutes overlap, with sunset at 4:53 PM. That calculation does not establish how much time a visit needs. Current county conditions and access guidance are separate from the tide calculation."
   - q: "Is parking free at Fitzgerald Marine Reserve?"
     a: "Yes. Per San Mateo County Parks and the Friends of Fitzgerald Marine Reserve, there is no cost for individual admission or parking. The lot is on Lake Street between California and Nevada Streets in Moss Beach (reserve address: 200 Nevada Ave). Groups of fewer than 15 can visit without a reservation; groups of 15 or more need one, at no fee."
   - q: "Can you collect shells or touch marine life at Fitzgerald Marine Reserve?"
@@ -29,11 +29,11 @@ sources:
   - "https://fitzgeraldreserve.org/faq"
 ---
 
-**The lowest tide you can stand in at Fitzgerald Marine Reserve during posted hours in 2026 is −1.85 ft MLLW on Wednesday, December 23, at 4:22 PM, computed from NOAA's Pillar Point Harbor station 9414131. The year's deepest daylight low (−1.90 ft, December 24) bottoms out ten minutes after the reserve's 5 PM winter close. The tide chart from October 18 through November 30 is below. The next good day is a weekend one: Sunday, October 25 — a −0.52 ft low at 4:59 PM, the whole event inside the 6 PM close. The run that follows deepens to −1.17 ft but slides later each evening, past the close by Tuesday the 27th; the season's real prizes are the November 22–26 and December 20–25 runs.**
+**On Sunday, October 25, NOAA station 9414131 predicts a −0.52 ft low at 4:59 PM. Its modeled below-+1-ft window is 2:50–7:15 PM, but Fitzgerald Marine Reserve's posted close is 6 PM: only 3 hours 10 minutes overlap opening hours. The low is before closing; the full window is not. This is reference-station timing, not verified reef access. The October 18–November 30 chart and remaining-season comparisons follow.**
 
 ## When is the lowest tide at Fitzgerald Marine Reserve in 2026?
 
-Tidewindow computes windows for the Moss Beach reef from the nearest NOAA prediction station, [Pillar Point Harbor (9414131)](/beaches/ca/pillar-point-ca/) in Half Moon Bay. Here are the eight deepest daylight lows of 2026, ranked by depth, with one column the tide chart never shows you: whether the moment of low water falls inside the reserve's posted hours.
+Tidewindow uses [Pillar Point Harbor (9414131)](/beaches/ca/pillar-point-ca/) in Half Moon Bay as its reference station, not a measurement at the Moss Beach reef. These are the eight deepest lows whose modeled windows overlap daylight by at least 30 minutes in our **July 1–December 31, 2026** record, ranked by depth — not a full-year ranking. The low itself can be after sunset. The last column compares its time with the reserve's posted hours; it does not establish reef access.
 
 | Rank | Date | Low (ft MLLW) | Time of low | Low inside posted hours? |
 |---|---|---|---|---|
@@ -118,11 +118,11 @@ Re-verified 2026-10-18 against the current fact sheet — October, November, and
 
 Look at where the deep lows land. July's cluster bottomed out between 4:45 and 5:33 AM — dawn events, hours before the gate. The November and December cluster bottoms out between 4:22 and 6:12 PM, right as the winter close arrives. The moon does not consult the county.
 
-The days that thread the needle are worth circling. December 23 gives you the window from 1:30 PM until the 5:00 PM close — about 3.5 hours — with the −1.85 ft low itself at 4:22 PM. November 24 is nearly as good: −1.64 ft at 4:31 PM, with roughly 3 h 15 min of usable window after 1:45 PM.
+December 23's 1:30–7:35 PM modeled interval overlaps the posted schedule until 5 PM: 3 h 30 min, with the −1.85 ft low at 4:22 PM and sunset at 4:56 PM. November 24's 1:45–7:40 PM interval overlaps it for 3 h 15 min, with the −1.64 ft low at 4:31 PM and sunset at 4:53 PM. These are clock comparisons, not usable-time allowances: they neither confirm local conditions nor include walking time, and the last few minutes before closing are after sunset.
 
 ## What's left in 2026, and how much of it fits inside the gates?
 
-Here is every day worth planning around for the rest of 2026, chronological, with the only column that matters at this reserve: how much of the tide window survives the posted hours.
+These are all remaining 2026 windows scoring at least 60, in chronological order. “Inside posted hours” is the overlap of the modeled below-+1-ft interval with the county's schedule, not an access or return-time guarantee. Daylight and current conditions remain separate constraints.
 
 | Date | Low (ft) | Time of low | Tide window | Inside posted hours | Score |
 |---|---|---|---|---|---|
@@ -147,9 +147,9 @@ Here is every day worth planning around for the rest of 2026, chronological, wit
 | Fri, Dec 25 | −1.72 | 5:58 PM | 3:10–9:05 PM | 1 h 50 min — low lands 58 min after the 5 PM close, 1 h 01 min after sunset | 77 |
 | Sat, Dec 26 | −1.31 | 6:45 PM | 4:05–9:40 PM | 55 min — low lands 1 h 45 min after the 5 PM close, 1 h 47 min after sunset | 60 |
 
-Computed 2026-10-18 from NOAA station 9414131 predictions and Tidewindow's window data: every remaining 2026 window the pipeline scores 60 or higher, in order. Hours per the San Mateo County Parks seasonal schedule, re-checked at the source on October 18. Scores (0–100) weigh tide depth and daylight only — they don't know about gates, which is why October 27 scores a 65 while handing its best half-hour to the closed reserve. The sunset notes matter as much as the gate notes: a deep low can clear the daylight filter on its early window and still bottom out in the dark.
+Computed 2026-10-18 from NOAA station 9414131 predictions and Tidewindow's window data: every remaining 2026 window the pipeline scores 60 or higher, in order. Hours per the [San Mateo County Parks seasonal schedule](https://www.smcgov.org/parks/fitzgerald-marine-reserve-hours), re-checked on October 18. Scores (0–100) combine depth, daylight overlap, weekend/holiday timing and a regional seasonal component; they do not include gates or route access. October 27 scores 65 even though its low is after closing and sunset. A window can pass the daylight-overlap filter while its lowest point is in the dark.
 
-The gate story flips as the year ends. In summer the reserve's 8 AM open ate the dawn minus tides whole; from late October the good lows are afternoon events, and the seasonal close becomes the deadline instead. The near-term pick is Sunday, October 25 — a −0.52 ft low at 4:59 PM on a weekend, a full hour before the 6 PM close. Then the November 22–24 and December 20–23 runs are the season's real prize: three-to-five-hour windows with the deep low inside posted hours, peaking at −1.85 ft on December 23. If a date here doesn't fit your calendar, the [Pillar Point reef guide](/guides/pillar-point-tide-pools-2026/) covers the unfenced side of the same tide, and the [California tide pools comparison](/guides/best-tide-pools-california-2026/) sets Fitzgerald's hours problem beside Cabrillo's.
+October 25's low is 61 minutes before the 6 PM close, but the modeled window ends 75 minutes after it. The November 22–24 and December 20–23 lows also occur within posted hours; their interval overlaps are shown above, not promised visit durations. December 23 is the deepest remaining in-hours low in this record. The [Pillar Point reef guide](/guides/pillar-point-tide-pools-2026/) covers the same reference station, and the [California tide pools comparison](/guides/best-tide-pools-california-2026/) compares Fitzgerald with other locations without making their access rules interchangeable.
 
 By the monthly count, 31 daylight minus tides remain in 2026 from October 18: 5 in October (the run of the 25th–29th), 12 in November, and 14 in December — where daylight means at least 30 minutes of window overlap, not light at the low itself.
 
@@ -169,10 +169,10 @@ Per San Mateo County Parks and the Friends of Fitzgerald Marine Reserve:
 - **Groups:** fewer than 15 people, no reservation needed; 15 or more require a reservation (no fee).
 - **Dogs:** not allowed at the tidepools; permitted on the Coastal Trail only.
 
-On safety, the Friends of Fitzgerald Marine Reserve put it plainly: "never turn your back on the ocean when you are out on the rocks – a big wave can come along any time!" Their rule of thumb matches our arrive-by math — pools are workable for at least an hour either side of the low, stretching to two or more on negative tides. The seasonal version of that timing question — dawn lows in summer, afternoon lows from October on — is the subject of [The Best Time to Go Tide Pooling](/guides/best-time-to-go-tide-pooling/).
+For current conditions and advisories, use the [county reserve page](https://www.smcgov.org/parks/fitzgerald-marine-reserve). A general tidepooling rule of thumb is not a validation of this site's modeled interval or its one-hour-before-low tool label. The seasonal timing comparison is covered in [The Best Time to Go Tide Pooling](/guides/best-time-to-go-tide-pooling/); neither that comparison nor this table establishes a route-specific arrival or departure time.
 
 ## How are these windows computed?
 
 Station 9414131's published harmonic constituents are thin by NOAA standards — the agency's constituent notes describe them as the average of three 29-day analyses, with the two seasonal constituents borrowed from San Francisco (station 9414290). Tidewindow takes NOAA's predicted highs and lows for the station and reconstructs the curve between them by cosine interpolation, so window edges (rounded to 5 minutes) are estimates; the high and low heights and times in the charts above are NOAA's own. These are astronomical predictions, not observations — the full formula set is on the [methodology page](/methodology/).
 
-To turn any of these dates into a plan, the [Tide Window Finder](/tools/tide-window-finder/) gives arrive-by times for every upcoming window, and the [Trip Picker](/tools/trip-picker/) filters for weekends — useful at a reserve where only 2 of the year's 8 deepest daylight lows fit inside the gates.
+The [Tide Window Finder](/tools/tide-window-finder/) ranks upcoming modeled windows, and the [Trip Picker](/tools/trip-picker/) compares chosen dates. Only two of the eight deepest daylight-overlap lows in the July–December record occur within Fitzgerald's posted hours; the tools do not incorporate those hours or establish access.
