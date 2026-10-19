@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-18",
+ "generated_on": "2026-10-19",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1777,6 +1777,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 254,
    "min_to_sun_edge": -54
+  },
+  {
+   "date": "2027-02-15",
+   "weekday": "Mon",
+   "low_ft": -0.774,
+   "low_time_local": "5:04 PM",
+   "window_local": "2:55 PM–7:35 PM",
+   "arrive_by_local": "4:04 PM",
+   "daylight_min": 158,
+   "score": 65,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 247,
+   "min_to_sun_edge": 29
   }
  ],
  "species_last60d_5km": [

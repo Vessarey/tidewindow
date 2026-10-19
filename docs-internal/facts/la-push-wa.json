@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-18",
+ "generated_on": "2026-10-19",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2100,8 +2100,8 @@
    "count": 2
   },
   {
-   "commonName": "Hind's Chiton",
-   "scientificName": "Mopalia hindsii",
+   "commonName": "Rough Keyhole Limpet",
+   "scientificName": "Diodora aspera",
    "count": 2
   },
   {
@@ -2120,8 +2120,8 @@
    "count": 1
   },
   {
-   "commonName": "Rough Keyhole Limpet",
-   "scientificName": "Diodora aspera",
+   "commonName": "Hind's Chiton",
+   "scientificName": "Mopalia hindsii",
    "count": 1
   }
  ]
