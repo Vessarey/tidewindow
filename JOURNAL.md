@@ -5,6 +5,111 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-19 — Heartbeat: refill the ready-now queue; release blocker resolved
+
+**One primary action (§2a, docs only):** morning `d115304` / `b89904d`
+completed WA pre-season verification and consumed the third Oct 16 brief.
+Only sea-glass and Sunset Bay remained ready. Fresh `flywheel 28`, `queries
+28`, paginated page/query reads and article/data checks support three bounded
+maintenance briefs, restoring five: WA's remaining daylight/arrival semantics,
+the tide-table worked example/score provenance, and Glass Beach's passed
+remaining-window framing. Leading queries already have pages; no duplicate
+article, new title or conversion experiment. The WA brief explicitly retains
+the morning fixes and tables: its residual lead calls the Dec 23 6:03 PM low
+daylight/dusk despite 4:29 PM sunset. Newport's Aug 12 teaching example still
+calls 5:46 AM an optimal arrival despite 6:15 AM sunrise. Glass Beach's four
+remaining dates all passed; a full Oct 19–Dec 31 scan yields zero qualifying
+daylight overlaps, not a route closure. These findings are queued, NOT fixed
+or newly published today. No public content, application code or data changed.
+
+**Resolved release blocker:** independently verified GitHub Production
+deployment `7158136993`, successful Oct 18 17:30:47Z, SHA `8a5c0bb` (verified
+descendant of Fitzgerald correction `47fad24`). Direct production HTML and
+today's browser show the corrected lead/FAQ and Oct 18 date; the old whole-
+event claim is absent. Today's `b89904d` also has a successful Vercel status
+and production serves the morning WA fixes. Closed the stale P0 item. No
+manual deployment, credentials/access change or owner intervention needed.
+
+**Health:** unaided scheduled refresh run `39201300349` STARTED 04:48:10Z
+and pushed `84b22cf` at 04:50:28.798Z. This corrects the morning entry's use
+of 04:48:10 as completion time. IndexNow accepted 136 URLs (HTTP 200) at
+04:50:26.568Z; CI's 79 tests passed. Latest five runs green (one actual
+refresh and later guard skips); no open issues. No originating cron expression
+available, so no slot identity/delay inferred. All 12 live station JSON files
+byte-match main, generated 04:48:27.527Z. Nine public routes plus the home OG
+image return 200. No >=90 window across Oct 19–Nov 2 inclusive; best 68 at
+Pillar Point Oct 25. No recovery dispatch. Production dependency audit: zero
+findings. No newsletter sync/send, outreach or spending.
+
+**Browser:** production WA guide renders at desktop width and at 390px
+without document overflow. Finder ZIP 98101 selects Seattle and loads today's
+data; the <=-1-ft filter changes 19 qualifying lows to 11. Calendar gate
+opens with the email field/button; nothing submitted. Fitzgerald corrected
+lead/FAQ verified at 390px, also no document overflow. No warning/error logs
+observed on these checked surfaces; not proof of every route or field health.
+
+**Indexing:** did not repeat the morning 40-URL read. Its reported tally is
+29 indexed / 9 Discovered / 1 Crawled / 1 unknown = 11/40 not confirmed
+indexed (27.5%). `inspect` samples deterministically, not randomly as the
+morning entry says. Existing guide/tool clause and saturated contextual paths
+remain documented, not proof that all possible crawl improvements are exhausted.
+Native GSC Pages is available: last update Oct 11, all submitted pages =
+85 indexed / 51 Discovered of 136 (37.5% not indexed); all known pages =
+85 indexed / 57 excluded (51 Discovered, 2 Crawled, 4 redirects). This older
+property report and today's fixed sample are different scopes, not a measured
+coverage improvement. Golden Hour review remains Oct 26; no extra link batch.
+
+**Search:** GSC Web/final, all countries/devices, inclusive Pacific dates;
+date probe through Oct 18 returns latest final Oct 17. Sep 20–Oct 17:
+**317 clicks / 15,627 impressions / position 6.97**, versus Aug 23–Sep 19
+**202 / 13,504 / 7.74** (**+56.9% clicks**). Oct 11–17: **68 / 3,899 / 7.11**,
+versus Oct 4–10 **102 / 4,483 / 6.84** (**-33.3% clicks**). All 95 page rows
+and 659 query rows fetched; API/anonymization limits remain. Page leaders:
+national king tides 96 clicks, WA 46, Fitzgerald 36, Seattle 28, Oregon 25,
+Acadia 22. No causal uplift claim or verdict based on contaminated site CTR.
+
+**Product/conversion:** native PostHog requires reauthentication; GSC Wizard
+requires payment. Configured read-only fallbacks succeeded, with no access or
+billing changes. PostHog 495836, exact production host thetidewindow.com,
+Regular class, half-open UTC periods ending Oct 19 17:17:13Z: 7d from Oct 12
+**495 pageviews / 468 pageview distinct IDs / 1 signup event** (~0.21% events/
+IDs); 28d from Sep 21 **2,088 / 1,952 / 9** (~0.46%). Classification agrees
+with stored bot flags; eight Bot pageviews excluded, Regular is not verified
+human traffic. 7d/28d events: station selections 16/75, ZIP uses 15/47,
+window views 13/60, Trip Picker 3/12, calendar gates 7/30, ICS reveals 1/3,
+heatmap clicks 0 observed/1, exit prompts 20/84. Counts are not ordered funnels.
+The one 7d signup is from calendars. Referrer pageviews (not acquisition
+sessions): Bing 131, Google 114, direct 93, DuckDuckGo 69, Yahoo 40. 7d LCP
+p75 759.75 ms on 136 LCP-bearing events out of 496 web-vitals events: partial
+coverage. Exceptions 0 observed/3 over 7d/28d, but capture remains uncertain:
+remote flag missing on 436 pageviews / false on 59 / true on zero; project
+opt-in null. Do not claim zero production errors.
+
+**Newsletter / operational gates:** read-only Resend list is complete: 23
+contacts, 22 subscribed, one unsubscribed; sending domain and listed records
+verified. Oct 15 broadcast `c5dbef20-6e10-434e-afb8-f9642bcb1399` remains sent
+at 12:11:33.699644Z. API detail does not expose delivery/bounce/complaint
+totals here; sent status is not delivery proof. Next standing send Oct 22;
+none sent today. Retired signup and Seattle-August tests stay retired; exit-
+prompt removal still needs the recorded owner reconciliation, not a new
+experiment verdict. NPS [road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+(Oct 15) and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+(Oct 17) agree Mora Road is open; Rialto's route page remains Jul 31 with
+the expired construction notice. Unchanged source mismatch: no shared
+destination restoration or additional guide rewrite. November month/indexing
+gate remains Nov 1; owner-held articles/drafts/evidence remain excluded.
+
+**Validation / next:** all 79 current facts/math/format/GSC tests pass;
+`git diff --check` passes, and SHA-256 comparison shows all 154 guarded files
+unchanged (including the 128 owner-held tracked/untracked paths). Only
+BACKLOG.md and JOURNAL.md are in this change; no build or generated-file
+rewrite needed for a queue update. Next primary editorial candidate is
+the bounded WA daylight/arrival correction, retaining the morning numerical
+fixes; then the tide-table example and Glass Beach roll-forward. No new
+station, title variant, experiment or automatic route-access claim.
+
+---
+
 ## 2026-10-19 — Weekly indexing read; WA king-tides pre-season verification (§2d)
 
 **Health (green, unaided day six):** scheduled run `39201300349` completed

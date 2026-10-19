@@ -5,7 +5,12 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] **Oct 18 Fitzgerald correction — verify automatic deployment first.**
+- [x] **Oct 18 Fitzgerald correction — automatic deployment verified Oct 19.**
+      Heartbeat independently confirmed Production deployment `7158136993`
+      succeeded Oct 18 at 17:30:47Z for `8a5c0bb`, a verified descendant of
+      `47fad24`. Direct live HTML and today's browser both show the corrected
+      lead/FAQ; the old whole-event claim is absent. No owner intervention,
+      manual release or access change is needed. Historical blocker:
       Source/checker commit `47fad24` is on origin/main; at 17:29:15Z the
       live guide still served the old lead, and GitHub had no deployment or
       status for the SHA. Last recorded Production was morning `c470667`.
@@ -14,6 +19,16 @@ with the date; add discoveries at the appropriate tier.
       and direct live lead/FAQ/schema before marking published. If automatic
       delivery remains absent, owner inspection of Vercel/integration is
       needed. This outranks the next indexing/editorial action until resolved.
+
+- [x] **2026-10-19 heartbeat — refill the ready-now queue (§2a), docs only.**
+      Morning WA verification consumed the third Oct 16 brief, leaving two.
+      Added three bounded factual-maintenance briefs below: remaining WA
+      daylight/arrival claims, tide-table example/score semantics, and Glass
+      Beach's passed remaining-window framing. Queue restored to five.
+      Existing query clusters already have pages; no duplicate article or
+      new conversion/title experiment. Morning tables and corrections stand;
+      the WA follow-up addresses separately verified prose/arrival defects,
+      not a repeat of that numerical verification. See heartbeat journal.
 
 - [x] **2026-10-18 heartbeat — correct Fitzgerald hours/access inference.**
       `47fad24` preserves the morning roll-forward and all four tables, but
@@ -472,6 +487,79 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-10-19-refill:start -->
+Three ready-now maintenance briefs, checked Oct 19. GSC baselines use Web/
+final, all countries/devices, Sep 20–Oct 17 inclusive Pacific dates. Page
+totals and page-filtered query rows are distinguished below; disclosed query
+rows are incomplete and must not be summed into page totals. Leading query
+clusters already have matching pages, so these are factual-maintenance
+assignments, not three uncovered keyword opportunities. Sea-glass and Sunset
+Bay remain the other two ready briefs. Preserve titles, URLs, original dates,
+valid historical tables and gates; no new station, conversion variant or
+shared-schema change. Recompute at implementation, re-fetch official sources,
+and keep the owner-held Haystack/minus-tide changes out of every release.
+
+- [ ] **First: Washington king tides — finish daylight/arrival semantics.**
+      Target `king-tides-washington-2027`. Page: 46 clicks / 2,128 impressions /
+      position 5.1 (rounded); exact-page query `king tides washington 2026`:
+      10 / 628 / 4.83. The Oct 19 morning verification fixed season rankings,
+      monthly counts and score components; preserve those fixes and verified
+      tables. A separate defect remains in the live lead: La Push Dec 23's
+      -1.97-ft low is described as visible in daylight/at dusk, but committed
+      data puts the low at 6:03 PM, sunset at 4:29 PM (94 minutes earlier),
+      and only 39 daylight minutes elsewhere in the 3:50–8:25 PM interval.
+      The same row's mechanical 5:03 PM arrive-by is after sunset. Scope:
+      distinguish qualifying-window overlap from daylight at each low in
+      lead/body/FAQ/table labels; remove unsupported arrival and route-use
+      instructions (including "show up when the window opens") rather than
+      deriving safe access from station arithmetic. Audit every listed row,
+      and qualify the Oregon/Puget comparison and calendar promise: feeds
+      include Good-or-better low windows, not every listed date/high/photo
+      series. Keep the morning PT Mar 14 result and all correct numbers;
+      check broader "most usable" claims against the full stated range or
+      label the selection. Official access/safety claims need current cited
+      sources; no physical access conclusion. Add a read-only regression
+      check for the daylight-at-low/arrival wording class and run a plain
+      build plus current tests before publication. This is unfinished factual
+      work, not a rerun of the completed pre-season brief.
+- [ ] **Tide-table explainer — correct the worked example's arrival inference.**
+      Target `how-to-read-a-tide-table`. Page: 5 clicks / 444 impressions /
+      position 10.09. Exact-page queries include `mllw meaning` 0 / 11 /
+      27.91, `mllw tide` 0 / 2 / 8 and `how to read a tide chart` 0 / 4 /
+      71.5; the page aggregate must not be attributed to these sparse rows.
+      The Sep 25 historical-example refresh stands. Remaining defect: body
+      and FAQ say arriving at 5:46 AM on Aug 12 used the window best and
+      supplied a walk-out/return plan, while current Newport data gives
+      sunrise 6:15 AM. An hour-before-low offset is not a route plan or
+      validated arrival rule. Keep the useful Aug 10–15 historical table,
+      recheck all rows and December comparison, and separate modeled
+      intervals, sunrise/sunset and actual access. The score paragraph also
+      incorrectly says every input is a NOAA prediction or solar position:
+      code includes weekend/holiday timing and regional seasonComfort in
+      addition to depth and daylight. Correct all score components and
+      provenance without changing the formula. Re-fetch NOAA datum/cycle
+      sources; preserve the original date/title/gates, set updated only for
+      real changes, and run a plain build plus factual/wording checks.
+- [ ] **Glass Beach — retire the four passed "remaining" windows.**
+      Target `glass-beach-port-townsend-low-tide-2026`. Page: 6 clicks / 106
+      impressions / position 6.54. Property-level query `glass beach port
+      townsend tide chart`: 0 / 22 / 8.5; NOT attributed to this page.
+      Its exact-page disclosed chart query `glass beach tide chart` is only
+      0 / 1 / 3. The Sept 22 chart addition stands, but lead/FAQ/heading
+      still call Sep 22 and Oct 5–7 remaining opportunities. All have passed;
+      today's complete Oct 19–Dec 31 station-window scan has zero qualifying
+      >=30-minute daylight overlaps. Scope: retain the four rows as clearly
+      dated history, lead with the actual remaining period, and roll the
+      daily high/low chart from the implementation date through the latest
+      complete fact-sheet month (currently Nov 30, not invented December
+      dailies). Recheck selected 2027 rows and full-range ranking language;
+      verify raw-low versus modeled-window counts. Keep the explicit warning
+      that the +1-ft filter does not establish Glass Beach passability,
+      closure, departure or turnaround time; re-fetch North Beach sources.
+      Preserve title/URL/gates and the distinct Fort Worden framing. Plain
+      build, row-by-row recomputation and honest updated date required.
+<!-- heartbeat-2026-10-19-refill:end -->
 
 <!-- refill-2026-10-16:start -->
 Three ready-now factual-maintenance assignments, added Oct 16 under §2a.
