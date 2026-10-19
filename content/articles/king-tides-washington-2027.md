@@ -2,6 +2,7 @@
 title: "King Tides Washington 2026 & 2027: Dates for Seattle, Port Townsend and La Push — and Where the Lows Go"
 description: "Washington king tide dates 2026-27: a 13.09 ft Seattle high on Jan 25, Christmas-week peaks at La Push, and why Puget Sound's deep lows land at night."
 date: "2026-09-04"
+updated: "2026-10-19"
 category: "king-tides"
 gateStations: ["seattle-wa", "port-townsend-wa", "la-push-wa"]
 featuredRoundup:
@@ -17,11 +18,11 @@ faq:
   - q: "When are the king tides in Washington in 2026 and 2027?"
     a: "Per NOAA predictions at the three Washington stations Tidewindow computes, the highest highs of the October-to-March season come in two runs: Christmas week (December 23-28, 2026) at La Push and Port Townsend, and January 24-26, 2027 at Seattle. The single highest is 13.09 ft MLLW at Seattle (station 9447130) on Monday, January 25, 2027 at 7:16 AM; La Push (9442396) peaks at 11.01 ft on Thursday, December 24, 2026 at 11:43 AM."
   - q: "Can you go tide pooling during Washington's king tides?"
-    a: "Mostly no — and that is the honest difference between Washington and Oregon. At Seattle and Port Townsend, November and December 2026 have zero daylight low-tide windows: 21-22 lows below +1.0 ft each month, every one of them after dark. The exception is La Push on the outer coast, which keeps 6-7 daylight windows a month through winter, with lows near -2.0 ft at dusk. Puget Sound's deep daylight lows come back in summer."
+    a: "Mostly no — and that is the honest difference between Washington and Oregon. At Seattle and Port Townsend, November and December 2026 have zero daylight low-tide windows: 21-22 lows below +1.0 ft each month, every one of them after dark. The exception is La Push on the outer coast, which keeps 6-8 daylight windows a month from October through January, more as the days lengthen, with lows near -2.0 ft at dusk. Puget Sound's deep daylight lows come back in summer."
   - q: "What is the deepest daylight low of Washington's 2026-27 king tide season?"
     a: "-1.97 ft MLLW at La Push (station 9442396) on Wednesday, December 23, 2026 at 6:03 PM — but only 39 minutes of its window are in daylight. The most usable deep window is La Push on Thursday, January 21, 2027: -1.82 ft at 5:50 PM with 82 daylight minutes, scoring 63 (Good). For comparison, Seattle's deepest daylight low of the whole season is just -0.65 ft, on March 25, 2027."
   - q: "What is the Washington King Tides Program?"
-    a: "A citizen-science project run by Washington Sea Grant, part of the University of Washington's College of the Environment. Participants photograph waterfront locations during king tides to document where future, higher sea levels may reach, and submit the photos through the MyCoast website or app. As of September 4, 2026 the program had not yet posted its 2026-27 photo dates; the NOAA-predicted highs on this page are the dates to watch."
+    a: "A citizen-science project run by Washington Sea Grant, part of the University of Washington's College of the Environment. Participants photograph waterfront locations during king tides to document where future, higher sea levels may reach, and submit the photos through the MyCoast website or app. As of October 19, 2026 the program had still not posted 2026-27 photo dates; the NOAA-predicted highs on this page are the dates to watch."
 sources:
   - "https://oceanservice.noaa.gov/facts/kingtide.html"
   - "https://oceanservice.noaa.gov/facts/perigean-spring-tide.html"
@@ -52,7 +53,7 @@ The Christmas run carries the coast and the northern Sound; Seattle's peak waits
 
 *Each station's five highest predicted highs of the October 2026 – March 2027 season. Computed 2026-09-04 from NOAA predictions, heights in ft MLLW, times local. Predictions are astronomical forecasts, not observations: a winter low-pressure system or a strong onshore wind can push the actual water level well above these numbers — which is exactly what the photos are for.*
 
-Those photos are the point of the **Washington King Tides Program**, a citizen-science project run by Washington Sea Grant (part of the University of Washington's College of the Environment). Participants photograph waterfront locations in their communities during king tides — ideally spots whose ordinary high tide they know — so the images document where a future, higher sea might reach. Photos go in through the [MyCoast website or app](https://mycoast.org/wa). When this page was written on September 4, 2026, the [program page](https://waseagrant.uw.edu/community-outreach/environmental-threats/king-tides/) had not yet posted 2026-27 photo dates; the NOAA-predicted highs above are the days to watch for.
+Those photos are the point of the **Washington King Tides Program**, a citizen-science project run by Washington Sea Grant (part of the University of Washington's College of the Environment). Participants photograph waterfront locations in their communities during king tides — ideally spots whose ordinary high tide they know — so the images document where a future, higher sea might reach. Photos go in through the [MyCoast website or app](https://mycoast.org/wa). When this page was written on September 4, 2026, the [program page](https://waseagrant.uw.edu/community-outreach/environmental-threats/king-tides/) had not yet posted 2026-27 photo dates, and a re-check on October 19, 2026 found that still true; the NOAA-predicted highs above are the days to watch for.
 
 ## The honest half: Puget Sound's deep lows are at night
 
@@ -66,13 +67,13 @@ It isn't that winter water is shallow here; it's that the deep lows and the dayl
 | Port Townsend (9444900) | -1.64 ft | Wed, Feb 17, 2027 | 7:06 PM | 57 min | 55 (Fair) |
 | La Push (9442396) | -1.97 ft | Wed, Dec 23, 2026 | 6:03 PM | 39 min | 59 (Fair) |
 
-*Computed 2026-09-04 from NOAA predictions. Heights in ft MLLW, times local. Score is Tidewindow's 0-100 rating of depth, daylight and timing; the [methodology page](/methodology/) shows the formula.*
+*Computed 2026-09-04 from NOAA predictions. Heights in ft MLLW, times local. Score is Tidewindow's 0-100 rating combining depth, daylight overlap, weekend/holiday timing and a regional seasonal component; the [methodology page](/methodology/) shows the formula.*
 
-Port Townsend sits between the two regimes: its -1.64 ft on February 17 is real depth, but the low itself lands at 7:06 PM and only 57 minutes of the window are lit. Its most *usable* king-season window is shallower — -0.77 ft on Monday, February 15, 2027 at 5:04 PM, with 158 daylight minutes, scoring 65 (Good).
+Port Townsend sits between the two regimes: its -1.64 ft on February 17 is real depth, but the low itself lands at 7:06 PM and only 57 minutes of the window are lit. Its most *usable* king-season windows are shallower: scored across the whole October–March season, the best is -0.71 ft on Sunday, March 14, 2027 at 3:21 PM, with 250 daylight minutes, scoring 69 (Good). Two days before the February 17 deep low, February 15 offers -0.77 ft at 5:04 PM with 158 daylight minutes, scoring 65.
 
 ## The exception: La Push keeps daylight windows all winter
 
-The outer coast never goes fully dark. While Seattle and Port Townsend post zero daylight windows in November and December, La Push keeps 6-7 a month through the winter, and its king-season lows have real depth:
+The outer coast never goes fully dark. While Seattle and Port Townsend post zero daylight windows in November and December, La Push keeps 6-8 a month from October through January — then 14 in February and 24 in March as the light returns — and its king-season lows have real depth:
 
 | Date | Low (ft MLLW) | Time of low | Walkable window | Arrive by | Daylight in window | Score |
 |---|---|---|---|---|---|---|
