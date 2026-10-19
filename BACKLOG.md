@@ -549,7 +549,24 @@ owner-held Haystack/minus-tide working-tree edits.
       and audit king-season rows against sunset (an in-hours low can still
       be after dark in December). Hours are gate times, not reef access
       or walking-time claims. Honest `updated:`.
-- [ ] **Washington king tides: pre-season verification pass, never updated.**
+- [x] **Washington king tides: pre-season verification pass, never updated.**
+      **Done 2026-10-19 (`d115304`):** all three station tables (highest-5
+      highs, deepest daylight lows, La Push lowest-5), the Seattle/PT
+      zero-daylight Nov-Dec counts (21/21 and 22/22 sub-+1 ft lows) and the
+      Jul 14 Seattle -3.80 ft comparison match Oct 19 fact sheets exactly —
+      tables unchanged, computed-2026-09-04 footnotes stay honest. Three
+      full-period fixes: PT "most usable king-season window" was a
+      top-5-by-depth selection error (season best is Mar 14, 2027, -0.71 ft,
+      score 69, verified max across all 35 PT season windows; Feb 15's 65
+      retained as the near-term alternative); La Push "6-7 a month through
+      winter" corrected to 6-8 Oct-Jan then 14 Feb / 24 Mar (counts from
+      committed window data); score footnote now names all four components
+      (same class as the Oct 18 Fitzgerald fix). Sea Grant + MyCoast
+      re-fetched 200: 2026-27 photo dates still unposted, FAQ re-dated
+      Oct 19. All four NOAA quotes found verbatim on live pages. NPS
+      conditions.htm: Mora Road open (no road claim in this article).
+      Honest `updated: 2026-10-19`. Build + verify + all test suites green.
+      Original brief:
       Target `king-tides-washington-2027` (published 2026-09-04, no
       `updated:` yet). Premise: the Nov 23–27 window opens in ~5 weeks;
       every table was computed in early September and has never been

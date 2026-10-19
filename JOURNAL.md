@@ -5,6 +5,81 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-19 — Weekly indexing read; WA king-tides pre-season verification (§2d)
+
+**Health (green, unaided day six):** scheduled run `39201300349` completed
+04:48:10Z (2m21s); its commit `84b22cf` ("data: daily NOAA refresh
+2026-10-19") was on origin/main before session start; later slots (08:06,
+10:18Z) were ~8-9s guard skips. Latest six scheduled runs green; no open
+issues. Yesterday's release-boundary carry-forward is RESOLVED: at session
+start the production Fitzgerald guide contained the corrected `47fad24` lead
+("window continues to 7:15 PM" present, "whole event" absent), so the Vercel
+pipeline did deploy it after the 17:29Z check — no owner action needed.
+Owner-held Haystack/minus-tide edits, newsletter drafts and SEO evidence
+dirs preserved via `--autostash`; not staged, moved or edited.
+
+**Weekly indexing (§2a′, Monday read):** `inspect 40` random sample: 29
+Submitted-and-indexed, 9 Discovered-not-indexed, 1 Crawled-not-indexed
+(puget-sound-low-tide-calendar, crawled Oct 17), 1 unknown — 27.5%
+unindexed, under the one-third threshold and better than Oct 12's
+deterministic 27/40. Trip Picker and best-tide-pools-california still
+trigger the guide/tool clause, but the §2a′ remedy is exhausted: both are
+already linked from the homepage, hubs, month-page templates and the body
+prose of the #1 click guide (national king tides); la-push-second-beach and
+the Puget guide are linked from the #2 and #4 click guides; no fake sitemap
+lastmod (checked Oct 12). No incremental link added — every candidate was
+already in place, and repeating a dead lever is not a crawl path. Golden
+Hour crawl review stays Oct 26; treat Trip Picker/CA guide as
+watch-and-wait, not actionable.
+
+**Primary action (§2d, third refill-2026-10-16 brief):** pre-season
+verification of `king-tides-washington-2027` (2nd-highest click earner,
+42→46 clicks/28d; Nov 23-27 window ~5 weeks out; computed Sep 4, never
+rechecked). Result: every table verified byte-honest against Oct 19 fact
+sheets — all 15 highest-5 rows, all 3 deepest-daylight rows, all 5 La Push
+rows, Seattle/PT Nov-Dec zero-daylight counts (21/21, 22/22), PT 5:49-8:22
+AM high-time range, Jul 14 -3.80 ft comparison, and the -0.65/-1.97 ft
+season extremes (full-season ranked, not top-N). Three full-period errors
+fixed in `d115304`: (1) PT "most usable king-season window" (Feb 15, 65)
+was a top-5-by-depth selection error — the season max across all 35 PT
+daylight windows is Mar 14, 2027, -0.71 ft, 3:21 PM, 250 daylight min,
+score 69 (Good); Feb 15 kept as the near-term alternative. (2) La Push
+"6-7 daylight windows a month through winter" — actual committed-data
+counts: Oct 6, Nov 7, Dec 6, Jan 8, Feb 14, Mar 24 → now "6-8 Oct-Jan,
+more as days lengthen" (FAQ) / explicit 14 Feb, 24 Mar (body). (3) Score
+footnote named depth/daylight/timing only → now all four components (same
+class as Oct 18 Fitzgerald fix; consider a shared-wording audit, see P2).
+Sources: Sea Grant king-tides page + MyCoast WA fetched 200 — 2026-27
+photo dates STILL unposted (FAQ re-dated Oct 19; body notes the re-check);
+all four NOAA quotes verbatim on live pages; NPS conditions.htm says Mora
+Road open (article makes no road claim — pointer to La Push guide only).
+Honest `updated: 2026-10-19`; title/URL/date/tables/gates preserved.
+
+**Quality gates:** `npm run build` green twice (149 routes; verify-output
+12 stations x 5 months, 136 sitemap URLs OK; facts/math/format/GSC suites
+all 0 fail). Diff reviewed: 7 insertions / 6 deletions in the one article;
+only that file staged; no generated data touched. Velocity: zero new
+articles this week (this was a verification edit, not an addition).
+
+**Metrics snapshot:** GSC Web/final Sep 20-Oct 17 top pages: national king
+tides 96 clicks / 5,297 imp / pos 6.8; WA king tides 46 / 2,128 / 5.1;
+Fitzgerald 36 / 1,117 / 6.2; Alki 28 / 547 / 6.0; OR king tides 25 /
+1,381 / 7.3. PostHog 495836 (thetidewindow.com host, query ~12:3xZ):
+7d 500 pageviews / 472 distinct IDs / 1 signup; 28d 2,079 / 1,944 / 9
+(~0.46%). Not verified-person conversion rates; no experiment verdicts.
+
+**Queue state:** content queue now holds TWO ready briefs (sea-glass,
+Sunset Bay full refresh) — below the three-item floor, so §2a refill from
+`flywheel 28` + `queries 28` is due next run before other editorial work.
+**Carry-forward:** newsletter Thursday Oct 22; Golden Hour crawl review
+Oct 26; November month/indexing gate Nov 1. Release: `d115304` pushed
+~12:30Z and VERIFIED LIVE within minutes — production WA guide serves the
+corrected PT sentence (x2), zero occurrences of the old "6-7 daylight
+windows" text, and the re-dated Oct 19 FAQ. No deployment-status API claim
+made; content verified directly.
+
+---
+
 ## 2026-10-18 — Heartbeat: correct Fitzgerald tide-window versus opening-hours claims
 
 **Coordination and one action:** morning `a62c4f4`/`c470667` already rolled
