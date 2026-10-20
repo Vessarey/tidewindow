@@ -2,13 +2,13 @@
 title: "Port Orford Tide Pools 2026: Battle Rock Beach & Oregon's Deepest Winter Low Tides"
 description: "27 daylight-overlap windows remain at Port Orford Oct 11–Dec 31 (NOAA 9431647). Dec 24's −2.21 ft low lands after sunset; Dec 22 is the one you can see."
 date: "2026-07-21"
-updated: "2026-10-11"
+updated: "2026-10-20"
 category: "station-guides"
 station: "port-orford-or"
 tags: ["port orford tide pools", "battle rock beach low tide", "port orford tides", "redfish rocks marine reserve", "agate beach port orford", "southern oregon coast tidepooling", "port orford oregon beaches"]
 faq:
   - q: "When is the best tidepooling at Port Orford in 2026?"
-    a: "As of October 11, 2026, 27 windows with at least 30 minutes of daylight overlap remain in 2026 at NOAA Port Orford station 9431647, 22 of them minus tides. The deepest are dusk tides whose lows arrive around or after the roughly 4:47–4:48 PM late-season sunset: November 24 (−1.82 ft, 5:38 PM), November 25 (−2.05 ft, 6:25 PM), December 23 (−2.07 ft, 5:26 PM), and December 24 (−2.21 ft, 6:14 PM). December 22's −1.63 ft low at 4:39 PM is the deepest remaining low that arrives before sunset. The deepest daylight low in our July–December 2026 data already passed: −2.46 ft on July 14."
+    a: "As of October 11, 2026, 27 windows with at least 30 minutes of daylight overlap remain in 2026 at NOAA Port Orford station 9431647, 22 of them minus tides. The deepest are evening tides whose lows all arrive after the roughly 4:47–4:48 PM late-season sunset: November 24 (−1.82 ft, 5:38 PM), November 25 (−2.05 ft, 6:25 PM), December 23 (−2.07 ft, 5:26 PM), and December 24 (−2.21 ft, 6:14 PM). December 22's −1.63 ft low at 4:39 PM is the deepest remaining low that arrives before sunset. The deepest daylight low in our July–December 2026 data already passed: −2.46 ft on July 14."
   - q: "Where are the tide pools at Port Orford?"
     a: "The rocky shore runs from Battle Rock Beach, at the wayside park right in town on US 101, south toward Rocky Point — the northern boundary of the Redfish Rocks Marine Reserve. North of town, Tseriadun State Recreation Site opens onto the gravel and sand of Agate Beach. Battle Rock Wayside Park has a city-maintained visitor center and restroom; Tseriadun is open for day use year round."
   - q: "Can I collect animals or seaweed near Redfish Rocks?"
@@ -27,9 +27,9 @@ sources:
   - "https://oregondiscovery.com/battle-rock-wayside-park"
 ---
 
-**Port Orford's deepest daylight water of 2026 came in July: −2.46 ft MLLW on Tuesday, July 14 at 6:37 AM (NOAA station 9431647). What's left belongs to dusk. As of October 11, 27 windows with at least 30 minutes of daylight overlap remain in 2026, 22 of them minus tides, and the deepest — November 24–25 and December 23–24 — all bottom out around or after the roughly 4:47 PM sunset. Christmas Eve's −2.21 ft at 6:14 PM is the deepest low among daylight-overlap windows at any of the four Oregon stations we compute this king season, but the low itself arrives in the dark.**
+**Port Orford's deepest daylight water of 2026 came in July: −2.46 ft MLLW on Tuesday, July 14 at 6:37 AM (NOAA station 9431647). What's left belongs to the evening. As of October 11, 27 windows with at least 30 minutes of daylight overlap remain in 2026, 22 of them minus tides, and the deepest — November 24–25 and December 23–24 — all bottom out after the roughly 4:47 PM sunset. Christmas Eve's −2.21 ft at 6:14 PM is the deepest low among daylight-overlap windows at any of the four Oregon stations we compute this king season, but the low itself arrives in the dark.**
 
-An earlier version of this guide called December 24 "the deepest daylight water of 2026, nearly half a foot below anything summer managed." That was wrong on both counts, and the corrected comparison is below: July 14's −2.46 ft beats Christmas Eve by a quarter foot, and the half-foot margin only holds against the August run, not against summer. What is true: at [Port Orford](/beaches/or/port-orford-or/) — the southernmost Oregon station we compute, on the far south coast where US 101 bends around a natural deepwater port — the four deepest lows still ahead in 2026 all land in November and December, at dusk. The [Oregon hub](/guides/best-tide-pools-oregon-2026/) calls the king-season depth chart a staircase that deepens as you go south; Port Orford is the bottom step.
+An earlier version of this guide called December 24 "the deepest daylight water of 2026, nearly half a foot below anything summer managed." That was wrong on both counts, and the corrected comparison is below: July 14's −2.46 ft beats Christmas Eve by a quarter foot, and the half-foot margin only holds against the August run, not against summer. What is true: at [Port Orford](/beaches/or/port-orford-or/) — the southernmost Oregon station we compute, on the far south coast where US 101 bends around a natural deepwater port — the four deepest lows still ahead in 2026 all land in November and December, after sunset — between roughly 40 and 100 minutes past it, per the table below. The [Oregon hub](/guides/best-tide-pools-oregon-2026/) calls the king-season depth chart a staircase that deepens as you go south; Port Orford is the bottom step.
 
 ## What's left in 2026 at Port Orford
 
@@ -69,7 +69,7 @@ For the record this guide originally led with, here is the table as computed on 
 
 *Computed 2026-07-21 from NOAA station 9431647 predictions, MLLW; "remaining" meant July 21 onward, which is why the deeper July 13–16 run — including the year's −2.46 ft on July 14 — is absent.*
 
-The score column against the depth column still tells the station's story. The four deepest rows — all winter, all dusk — score in the 60s because so much of their water arrives after sunset. The August rows gave up half a foot of depth and scored 7 to 17 points higher, because a 6 AM low in August had a full morning of light behind it. But the full-period ranking belongs to summer: July 14's −2.46 ft and July 15's −2.38 ft, both Exceptional-band 90s, were the deepest daylight lows in our July–December data — December 24 runs a quarter foot shallower and scores 25 points lower. The half-foot winter margin this guide once claimed only works against August 12's −1.74 ft, not against summer.
+The score column against the depth column still tells the station's story. The four deepest rows — all winter, all after sunset — score in the 60s because so much of their water arrives after sunset. The August rows gave up half a foot of depth and scored 7 to 17 points higher, because a 6 AM low in August had a full morning of light behind it. But the full-period ranking belongs to summer: July 14's −2.46 ft and July 15's −2.38 ft, both Exceptional-band 90s, were the deepest daylight lows in our July–December data — December 24 runs a quarter foot shallower and scores 25 points lower. The half-foot winter margin this guide once claimed only works against August 12's −1.74 ft, not against summer.
 
 ## The July and August windows (now past)
 
@@ -126,7 +126,7 @@ The row worth circling is the last one. January 21, 2027 — a −1.89 ft low at
 
 ## How to work the window
 
-For a morning low, use the arrive-by column: be on the rocks about an hour before the low and follow the water out, keeping your exit line in mind as it turns. For these winter dusk windows, invert the advice — show up when the window *opens* and work the falling tide while you can still see it, because the low itself may arrive after dark. These are predictions, not observations; check conditions before you commit to a scramble, especially on a south-coast shore known for winter swell. None of the times in this guide verifies park hours, trail conditions, or how long a safe return takes — those are yours to confirm on the day.
+For a morning low, use the arrive-by column: be on the rocks about an hour before the low and follow the water out, keeping your exit line in mind as it turns. These winter windows run the other way around: the lit minutes sit at the start, on the falling tide, and in most rows above the low itself arrives after dark — the usable light comes before the low, not around it. These are predictions, not observations; check conditions before you commit to a scramble, especially on a south-coast shore known for winter swell. None of the times in this guide verifies park hours, trail conditions, or how long a safe return takes — those are yours to confirm on the day.
 
 One honesty note: station 9431647 sits at the port itself, in the cove sheltered by the Heads, and its predictions are the standard reference for this stretch of coast. Battle Rock Beach is essentially next door, but Agate Beach and Paradise Point are open shore a couple of miles north, so the exact minute of low water there can differ a little from the table — margin the arrive-by column already builds in.
 
