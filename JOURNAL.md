@@ -5,6 +5,128 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-20 — Heartbeat: tide-table example separates predictions, daylight and access
+
+**One primary action (§2d):** completed the queued `how-to-read-a-tide-table`
+factual correction in `4bc5db8`, without repeating the morning WA/Port Orford
+work (`ce09f88`). The analytics-led refresh workflow supported factual repair
+of an already exposed page, not a speculative title/conversion experiment:
+latest 28-day GSC page baseline is 5 clicks / 462 impressions / position 10.21.
+The sparse exact-page queries (`mllw meaning` 0/13/27.15, `how to read a tide
+chart` 0/5/64, `mllw tide` 0/2/8) do not explain the page aggregate.
+
+**Correction:** the old body/FAQ recommended 5:46 AM as optimal and supplied
+a walk-out/return plan, despite the Aug 12 Newport example's 6:15 AM sunrise.
+Lead/body/FAQ now describe the modeled interval below +1.0 ft separately from
+sunrise/sunset, arrival and actual access. The historical Aug 10–15 table and
+all existing numeric cells in the August/December comparison are unchanged;
+the comparison adds the relevant sunrise/sunset row. The December low itself
+is after sunset despite 60 daylight minutes earlier in its interval. Full
+July–December, August and Oct 20–Dec 31 scans verify the scoped deepest-low
+claims. Corrected prediction-versus-observation language, unsupported
+all-station generalizations, and score provenance: depth, daylight,
+weekday/weekend/holiday timing and fixed regional seasonal comfort. No formula
+change. August's 32 raw low predictions are explicitly distinguished from 29
+bounded modeled windows, 17 qualifying daylight windows and 13 daylight
+minus-tide windows. Original title, publication date, URL, headings, links,
+gates and generated data retained; description says modeled rather than beach
+window, and `updated` honestly advances to Oct 20. Five existing NOAA source
+URLs returned 200; datum/cycle/spring-tide claims rechecked at write time.
+
+**Validation/preservation:** added two targeted read-only regressions to the
+morning wording suite; both fail on the old article and pass on the correction.
+An isolated copy of committed HEAD plus only our two files passed
+`PIPELINE_REFRESH=1 npm run build`, then plain committed-data builds, including
+the final prose. All 83 tests pass (42 facts, 6 math, 17 formatting, 4 wording,
+14 GSC); 149 routes and verify-output's 12 stations x 5 months / 136 sitemap
+URLs pass. Lint, diff whitespace, 76-word lead, 142-character description,
+five internal links, canonical and FAQ JSON-LD checks pass. Local desktop
+1280px and 390px render checks show no document overflow; comparison table is
+legible at 390px. No browser warning/error logs observed. All 128 pre-existing
+held files are SHA-256 unchanged; no stashing or owner patch/draft/evidence
+modification. Fresh pipeline outputs were confined to the disposable isolated
+validation copy, then replaced with committed data for the final build;
+none staged or published.
+
+**Release verified:** source/test commit
+`4bc5db8419882beae31b38fe175a768a59ec2080` pushed to origin/main. Vercel status
+for that exact SHA succeeded at 17:29:55Z, deployment
+`Gav9AEzVvmErhuNxuwBtEfqUMwEg`. Direct production HTTP 200 confirms the
+corrected lead/FAQ, sunrise/sunset comparison, score provenance, final prose
+and Oct 20 update date; old optimal-arrival advice is absent. The live browser
+also confirms these corrections at 390px with no document overflow or
+observed warning/error logs. Publication is verified; recrawl and performance
+effects are not.
+
+**Health:** unaided refresh run `39372250981` started 04:56:52Z and pushed
+`432f69b` at **04:59:29.4945335Z** (the morning entry's 04:59:27Z is the
+commit timestamp, not the push). IndexNow accepted 136 URLs, HTTP 200, at
+04:59:27.2439326Z. Latest five runs green, including later guards; no open
+issues. Originating cron expression unavailable, so no slot identity or delay
+inferred. All 12 live station JSONs byte-match main, generated
+04:57:21.103Z. Nine public routes plus home OG return 200. No score >=90 in
+Oct 20–Nov 3 inclusive; highest is 68 at Pillar Point Oct 25. No recovery
+dispatch. Production dependency audit has zero findings. Morning release
+chronology correction: `ce09f88` was committed around 12:15Z, with a successful
+Vercel status by 12:17:36Z, not the prior entry's claimed ~17:3xZ push.
+
+**Production browser:** ZIP 98101 selects Seattle and loads Oct 20 data;
+the <=-1-ft filter changes 19 qualifying lows to 11. Calendar gate opens with
+email field/button; nothing entered or submitted. No warning/error logs
+observed on this checked flow; not a claim about every route or field error.
+
+**Search:** GSC Web/final, all countries/devices, inclusive Pacific dates;
+probe through Oct 19 returns latest final Oct 18. Sep 21–Oct 18:
+**314 clicks / 15,865 impressions / position 6.99**, versus Aug 24–Sep 20
+**210 / 13,430 / 7.70** (**+49.5% clicks**). Oct 12–18:
+**65 / 3,821 / 7.22**, versus Oct 5–11 **97 / 4,474 / 6.88**
+(**-33.0% clicks**). All 96 page rows and 674 query rows fetched; platform
+limits/anonymization remain. Top page clicks: national king tides 94, WA 48,
+Fitzgerald 34, Oregon 28, Seattle 27, Acadia 20. Longer-term growth and a
+weaker latest week coexist; no causal uplift or CTR-based verdict.
+Monday's indexing read was already done Oct 19, not repeated. Its submitted-
+page report and deterministic sample remain different scopes/dates, not proof
+of a coverage gain. Golden Hour crawl review remains Oct 26.
+
+**Product/conversion:** native PostHog still requires reauthentication and
+GSC Wizard payment; configured read-only fallbacks succeeded without access
+or billing changes. PostHog 495836, exact host `thetidewindow.com`, Regular
+class, half-open UTC windows ending Oct 20 17:17:18Z: 7d from Oct 13 =
+**520 pageviews / 496 pageview distinct IDs / 1 signup event** (~0.20%);
+28d from Sep 22 = **2,139 / 2,004 / 9** (~0.45%). These are event/ID ratios,
+not verified-person conversion rates. Eight Bot pageviews excluded in 7d;
+Regular/bot flags agree but do not prove human traffic. 7d/28d events:
+station selections 15/75, ZIP uses 15/48, window views 13/61, Trip Picker
+3/11, calendar gates 7/31, ICS reveals 1/3, heatmap clicks 0 observed/1,
+exit prompts 19/85. The single 7d signup is calendars_page; counts are not
+ordered funnels. Referrer pageviews: Bing 129, direct 122, Google 119,
+DuckDuckGo 67, Yahoo 40. Top 7d paths: national king tides 142, Oregon 116,
+WA 40, Fitzgerald 16, home 14. LCP p75 776ms on 133 LCP-bearing events out
+of 487 web-vitals events: partial coverage. Exceptions 0 observed/3 over
+7d/28d; remote capture flag missing on 465 pageviews / false on 55 / true
+on zero, project opt-in null. Missing/uncertain instrumentation is not zero
+production errors. No experiment verdict below its documented floor; closed
+unmeasurable experiments stay closed, and the exit-prompt owner-instruction
+conflict remains unresolved rather than silently removed or restarted.
+
+**Newsletter/time-bombs:** read-only Resend confirms verified domain,
+23 contacts = 22 subscribed + 1 unsubscribed (`has_more=false`); latest
+broadcast is Oct 15 `c5dbef20-6e10-434e-afb8-f9642bcb1399`, sent
+12:11:33.699644Z. These endpoints do not establish bounce/complaint rates.
+No audience sync/send, outreach or spending. NPS road-status (Oct 15) and
+conditions (Oct 17) still list Mora Road Open; Rialto's Jul 31 page retains
+the expired construction notice. No new closure inference, shared destination
+restoration or physical-route clearance claim.
+
+**Next:** Glass Beach's passed remaining-window framing is the next ready
+factual brief; three ready briefs remain, so no queue refill today. Newsletter
+ritual Oct 22, Golden Hour Oct 26, and November rollover/indexing gate Nov 1
+remain scheduled work, not actions performed here. Recheck guide facts and
+recrawl/search direction in roughly four weeks (Nov 17), with no causal test
+claim or new automation.
+
+---
+
 ## 2026-10-20 — WA king tides daylight/arrival semantics fixed; wording gate added (§2d)
 
 **Health (green, unaided day seven):** scheduled run `39372250981` (04:56:52Z,

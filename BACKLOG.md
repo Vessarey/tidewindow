@@ -535,7 +535,18 @@ and keep the owner-held Haystack/minus-tide changes out of every release.
       check for the daylight-at-low/arrival wording class and run a plain
       build plus current tests before publication. This is unfinished factual
       work, not a rerun of the completed pre-season brief.
-- [ ] **Tide-table explainer — correct the worked example's arrival inference.**
+- [x] **Tide-table explainer — correct the worked example's arrival inference.**
+      **Done Oct 20 heartbeat, `4bc5db8`:** lead/body/FAQ distinguish the
+      modeled below-+1.0-ft interval from daylight, arrival and access.
+      Explicitly explains 5:46 AM before the 6:15 AM sunrise; adds sunrise/
+      sunset to the comparison and corrects all four score components.
+      Both historical tables' existing numeric cells remain unchanged;
+      full-range rankings and the 32 raw lows / 29 modeled windows / 17
+      daylight windows / 13 daylight minus-tide windows are rechecked.
+      Two new regressions fail on old wording and pass on the correction.
+      Fresh-data and committed-data isolated builds, 83 tests, lint and
+      desktop/390px checks pass. See today's heartbeat journal for release
+      status. Three ready briefs remain: Glass Beach, sea-glass, Sunset Bay.
       Target `how-to-read-a-tide-table`. Page: 5 clicks / 444 impressions /
       position 10.09. Exact-page queries include `mllw meaning` 0 / 11 /
       27.91, `mllw tide` 0 / 2 / 8 and `how to read a tide chart` 0 / 4 /
