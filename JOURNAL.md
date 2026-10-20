@@ -5,6 +5,79 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-20 — WA king tides daylight/arrival semantics fixed; wording gate added (§2d)
+
+**Health (green, unaided day seven):** scheduled run `39372250981` (04:56:52Z,
+2m40s) pushed `432f69b` ("data: daily NOAA refresh 2026-10-20") at 04:59:27Z;
+the 07:56 and 09:38 slots were ~8-11s guard skips. Latest six runs green; no
+open issues. No slot identity/delay inferred (originating cron expression not
+available). Fact sheets regenerated today; no recovery dispatch needed.
+
+**Primary action (§2d, first heartbeat-2026-10-19 brief):** completed the WA
+king-tides daylight/arrival correction in `ce09f88`. Verified first against
+Oct 20 fact sheets and committed windows: all five La Push table rows match
+byte-for-byte, and every one of those lows lands after sunset (minToSunEdge
+-46 to -102). Fixes: (1) lead and FAQ no longer call the Dec 23 -1.97 ft low
+"at dusk" — stated as ~90 min after the 4:29 PM sunset with the 39 lit
+minutes before the low; (2) "most usable deep window = Jan 21" was a top-5
+selection error — scored across the whole Oct-Mar season La Push's best is
+Feb 19, 2027 (-1.29 ft, 5:31 PM, 133 daylight min, 66 Good, low ~15 min
+before sunset; Feb 18 has the most light among deep lows, 176 min, low an
+hour before sunset); Jan 21 is now labeled most-lit *of the five deepest*;
+(3) "Arrive by" column (mechanical low-minus-1h, after sunset in 3 of 5
+rows) replaced with a verified "Sunset" column, "Walkable window" relabeled
+"Window below +1.0 ft", captions state no-access-claim; (4) "show up when
+the window opens" instruction removed in favor of describing where the
+light sits; (5) Oregon comparison qualified from "drain the same afternoon"
+to the verified Port Orford 4-of-5 date overlap (Garibaldi is 0-of-5);
+(6) calendar promise scoped: only the two Good January rows reach the
+Good-or-better ICS feed, highs never. Also verified: Seattle/PT/La Push
+have zero Great-band windows all season; Seattle's named deepest (Mar 25,
+1:45 PM) is genuinely mid-afternoon daylight. Honest `updated: 2026-10-20`.
+
+**Side-fix (same wording class):** port-orford guide called the four
+deepest Nov-Dec lows "at dusk" when committed data puts them 38-98 min
+after sunset (two past nautical twilight), and carried the same "show up
+when the window opens" instruction — both rephrased descriptively; the
+Alki "right at dusk" claim was checked and KEPT (Feb 15, 2027 low is 19
+min after sunset at sun altitude -3.4°, inside civil twilight — accurate).
+
+**New regression gate (per the brief):** `scripts/wording.test.mjs`, wired
+into postbuild before test:gsc. Rule 1 bans "show up when the window"-class
+arrival instructions in all articles. Rule 2: any sentence pairing a minus
+height with "at dusk" must name a clock time matching a committed window
+whose sun altitude at the low is >= -6° (civil twilight). Both rules
+verified to catch the pre-fix text via git show HEAD; both pass post-fix.
+
+**Quality gates:** `npm run build` green twice (149 routes; verify-output
+12 stations x 5 months, 136 sitemap URLs OK; facts/math/format/wording/gsc
+suites all 0 fail). Diff reviewed; only the two articles, package.json and
+the new test staged — owner-held Haystack/minus-tide edits, newsletter
+drafts and SEO dirs again preserved untouched (autostash round-trip
+verified restored).
+
+**Metrics snapshot:** PostHog 495836 (thetidewindow.com host, ~17:1xZ):
+7d 534 pageviews / 506 distinct IDs / 1 signup; 28d 2,138 / 2,002 / 9
+(~0.45% events/IDs, not verified-person rates). Top 7d paths: national
+king tides 141, Oregon king tides 121 (clear riser), WA king tides 41,
+home 18, Fitzgerald 16. No GSC pull today (Monday read done yesterday).
+
+**Carry-forward / tomorrow:** queue holds four ready briefs (tide-table
+worked example next, then Glass Beach roll-forward, sea-glass, Sunset Bay).
+Newsletter Thursday Oct 22 (standing ritual). Golden Hour crawl review
+Oct 26; November month/indexing gate Nov 1. P2 candidate stands: shared-
+wording audit for score-component footnotes and dusk/daylight phrasing in
+guides not yet touched (the new gate covers the instruction + minus-height-
+dusk classes repo-wide, not every figurative "dusk" heading). **Release
+verified live:** `ce09f88` pushed ~17:3xZ; production WA guide serves the
+corrected lead (2 occurrences of the after-sunset phrasing) with zero
+occurrences of "on December 23 at dusk" and "show up when the window", and
+the production Port Orford guide serves the new 40-100-minutes phrasing
+with the instruction likewise absent. Content verified directly via HTTP,
+no deployment-status API claim made.
+
+---
+
 ## 2026-10-19 — Heartbeat: refill the ready-now queue; release blocker resolved
 
 **One primary action (§2a, docs only):** morning `d115304` / `b89904d`

@@ -500,7 +500,19 @@ valid historical tables and gates; no new station, conversion variant or
 shared-schema change. Recompute at implementation, re-fetch official sources,
 and keep the owner-held Haystack/minus-tide changes out of every release.
 
-- [ ] **First: Washington king tides — finish daylight/arrival semantics.**
+- [x] **First: Washington king tides — finish daylight/arrival semantics.**
+      **Done 2026-10-20 (`ce09f88`):** lead/FAQ/body/table labels now separate
+      window daylight overlap from daylight at each low (all five La Push
+      lows land 46-102 min after sunset per committed data); 'Arrive by'
+      column replaced with 'Sunset'; 'show up when the window opens' removed;
+      'most usable' corrected to the full-season result (La Push best is
+      Feb 19, 2027, score 66; Jan 21 labeled most-lit of the five deepest);
+      Oregon comparison qualified with Port Orford 4-of-5 date overlap;
+      calendar promise scoped to the feed's Good-or-better filter. Side-fix
+      same class in port-orford guide ('at dusk' on 38-98-min-after-sunset
+      lows + same instruction). New postbuild gate scripts/wording.test.mjs
+      (arrival-instruction ban + data-checked dusk claims vs civil twilight).
+      Build green twice, all suites 0 fail. Original brief:
       Target `king-tides-washington-2027`. Page: 46 clicks / 2,128 impressions /
       position 5.1 (rounded); exact-page query `king tides washington 2026`:
       10 / 628 / 4.83. The Oct 19 morning verification fixed season rankings,
