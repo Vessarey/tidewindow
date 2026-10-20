@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-19",
+ "generated_on": "2026-10-20",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2078,12 +2078,12 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 64
+   "count": 61
   },
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 34
+   "count": 32
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -2106,23 +2106,23 @@
    "count": 20
   },
   {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 17
+  },
+  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
    "count": 17
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 16
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
+   "count": 15
   },
   {
    "commonName": "Fisher's Aeolid",
    "scientificName": "Orienthella piunca",
-   "count": 16
-  },
-  {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
    "count": 15
   }
  ]
