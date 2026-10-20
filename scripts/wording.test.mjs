@@ -83,3 +83,32 @@ test("a minus height paired with 'at dusk' matches a committed low inside civil 
     }
   }
 });
+
+test("tide-table worked example separates the model from arrival and access", () => {
+  const { text } = articles.find(({ file }) => file === "how-to-read-a-tide-table.md");
+  for (const phrase of [
+    "used the window best",
+    "following the water out",
+    "walking back in with the flood",
+    "Walkable window",
+    "bottomed out mid-morning",
+    "Every input is either a NOAA harmonic prediction",
+  ]) {
+    assert.ok(!text.includes(phrase), `Tide-table guide restores unsupported wording: ${phrase}`);
+  }
+  assert.match(text, /not a verified arrival time/i);
+  assert.match(text, /below \+1\.0 ft/);
+  assert.match(text, /weekend\/holiday/);
+  assert.match(text, /regional seasonal comfort/);
+});
+
+test("tide-table example explains its before-sunrise offset using Newport data", () => {
+  const { text } = articles.find(({ file }) => file === "how-to-read-a-tide-table.md");
+  const { windows } = JSON.parse(fs.readFileSync(path.join(STATIONS_DIR, "newport-or.json"), "utf8"));
+  const example = windows.find((w) => w.date === "2026-08-12" && w.lowTimeLocal === "6:46 AM");
+  assert.ok(example, "The historical Newport worked example must remain available.");
+  assert.ok(example.arriveBy < example.sunrise, "The example's offset precedes sunrise.");
+  assert.ok(text.includes(example.arriveByLocal), "Explain the model's actual one-hour offset.");
+  assert.ok(text.includes(example.sunriseLocal), "Show the example's actual sunrise.");
+  assert.match(text, /before sunrise/);
+});

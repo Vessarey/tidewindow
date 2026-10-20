@@ -1,19 +1,19 @@
 ---
 title: "How to Read a Tide Table (and What It Won't Tell You)"
-description: "What tide-table heights above MLLW mean, why the two daily lows differ, and how one Newport, OR table row becomes a 285-minute beach window."
+description: "What tide-table heights above MLLW mean, why the two daily lows differ, and how one Newport, OR table row becomes a 285-minute modeled window."
 date: "2026-07-02"
-updated: "2026-09-25"
+updated: "2026-10-20"
 category: "tide-basics"
 tags: ["tide table", "MLLW", "tide basics", "newport oregon", "window score"]
 faq:
   - q: "What do the numbers on a tide table mean?"
-    a: "Each line is a time and a predicted water height in feet relative to MLLW (Mean Lower Low Water), the 19-year average of each day's lowest tide — not water depth. At Newport, OR (NOAA station 9435380), the August 12, 2026 entry of −1.9 ft at 6:46 AM meant the sea surface dropped about 1.9 feet below that long-run average."
+    a: "Each line is a time and a predicted water height in feet relative to MLLW (Mean Lower Low Water), the average of each day's lower low over a 19-year tidal datum epoch — not water depth. At Newport, OR (NOAA station 9435380), the August 12, 2026 entry of −1.9 ft at 6:46 AM predicted a sea surface about 1.9 feet below that long-run average; it was not an observation."
   - q: "Why are there two low tides of different heights each day?"
-    a: "The US West Coast has mixed semidiurnal tides: two highs and two lows of unequal size every lunar day. Plan around the lower low — it's the one that exposes ground. The datum name says as much: Mean Lower Low Water averages only the lower of each day's two lows."
+    a: "The US West Coast generally has mixed semidiurnal tides: two highs and two lows of unequal size every lunar day. The lower low predicts a lower water level, but does not establish beach access. The datum name says Mean Lower Low Water because it averages each day's lower low."
   - q: "How long does a low tide last on the beach?"
-    a: "The listed time is one minute of minimum water; the walkable stretch is much longer. At Newport, OR (NOAA station 9435380) on August 12, 2026, a −1.913 ft low at 6:46 AM opened a computed window from 4:30 to 9:15 AM — 285 minutes, 179 of them in daylight. Arriving about an hour before the low, 5:46 AM, used the window best."
+    a: "The listed time marks a predicted minimum, not a visit duration. At Newport, OR (NOAA station 9435380) on August 12, 2026, the −1.913 ft low at 6:46 AM had a modeled interval below +1.0 ft from 4:30 to 9:15 AM — 285 minutes, 179 in daylight. The one-hour-before-low offset was 5:46 AM, before sunrise at 6:15 AM: not a verified arrival time or evidence of beach access."
   - q: "Is the lowest tide always the best day to go?"
-    a: "No. At Newport, OR in 2026, August 12 (−1.913 ft at 6:46 AM) and December 23 (−1.91 ft at 5:53 PM) are near-twins on the tide table, but the August window held 179 daylight minutes and scored 88 while the December window holds 60 and scores 61. December 23 is also the deepest low left on Newport's 2026 table with at least 30 daylight minutes in its window. Daylight, not depth, is the usual bottleneck."
+    a: "No. At Newport, OR in 2026, August 12 (−1.913 ft at 6:46 AM) and December 23 (−1.91 ft at 5:53 PM) are near-twins on the tide table, but their modeled windows have 179 and 60 daylight minutes respectively. December's low itself is after the 4:39 PM sunset. Across October 20–December 31, December 23 is the deepest low whose modeled window has at least 30 daylight minutes; that overlap does not establish access or daylight at the low."
 sources:
   - "https://tidesandcurrents.noaa.gov/datum_options.html"
   - "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html"
@@ -22,31 +22,31 @@ sources:
   - "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9435380.json"
 ---
 
-**A tide table gives you two facts per line: a time and a height measured from a zero called MLLW. Everything you plan around — how long the beach is walkable, whether it's light out — must be computed. At NOAA station 9435380 (Newport, OR), the entry for August 12, 2026 read −1.9 ft at 6:46 AM. Computed out, that one line became a 285-minute window, 4:30 to 9:15 AM, with 179 daylight minutes.**
+**A tide table gives you a predicted time and a height measured from a zero called MLLW, not water depth or beach access. At NOAA station 9435380 (Newport, OR), August 12, 2026's −1.913 ft low at 6:46 AM had a modeled interval below +1.0 ft from 4:30 to 9:15 AM: 285 minutes, only 179 in daylight. Sunrise was 6:15 AM. The interval describes predicted water levels, not when a route is open or when to arrive.**
 
 ## What does the height number actually mean?
 
 The feet on a tide table are not water depth. They are the predicted height of the sea surface relative to a fixed local zero called a datum. US tide predictions use **MLLW** — Mean Lower Low Water. NOAA takes each day's lower low tide and averages it over a 19-year span called the National Tidal Datum Epoch, currently 1983 through 2001. That average becomes 0.0 ft.
 
-This sets the intuition everything else hangs on: 0.0 ft is not "no water." It is an ordinary day's lowest water. A +6 ft high tide means the surface sits six feet above that mark. A −1.9 ft low means the surface drops nearly two feet *below* the average daily minimum, and ground that stays submerged through most low tides gets a few hours of open air. The negative numbers are the ones worth circling — with one catch this article keeps returning to. In Tidewindow's July–December 2026 data for Newport, the deepest low with a real daylight window, −2.522 ft, came and went on July 15, and August 12's −1.913 ft followed it. The deepest lows still ahead on the 2026 table — December 24 at −2.118 ft and November 25 at −2.077 ft — both bottom out about two hours after sunset, with under 20 daylight minutes at the very front of their windows. The deepest remaining low whose window clears 30 daylight minutes is December 23's −1.91 ft, and it appears again below.
+This sets the intuition everything else hangs on: 0.0 ft is not "no water." It is a long-run average, not a guarantee about any particular day. A positive height is above that mark; a −1.9 ft prediction is nearly two feet *below* it. Neither number tells you the depth over a particular rock or whether a route is passable. In Tidewindow's July–December 2026 data for Newport, the deepest low whose modeled window has at least 30 daylight minutes was July 15's −2.522 ft. For the remaining October 20–December 31 period, the two deepest lows — December 24 at −2.118 ft and November 25 at −2.077 ft — both fall about two hours after sunset, with only 15 and 5 daylight minutes respectively at the start of their modeled windows. The deepest remaining low whose window clears 30 daylight minutes is December 23's −1.91 ft, and it appears again below. Daylight overlap is a filter on the model, not an access assessment.
 
 ## Why does the table list two lows a day, and why is one deeper?
 
-Because on the US West Coast the tide is **mixed semidiurnal**: two highs and two lows of different size every lunar day, in NOAA's classification. A Newport tide table typically shows four events per date, and the day's two lows can sit far apart in height. The datum already told you which one matters — it is Mean *Lower* Low Water — and so should your plan. The lower low opens ground; the higher low is often barely an event. Every low quoted in this article is a day's lower low.
+Because the US West Coast generally has **mixed semidiurnal** tides: two highs and two lows of different size every lunar day, in NOAA's classification. A Newport tide table typically shows four events per date, and the day's two lows can sit far apart in height. Mean *Lower* Low Water refers to the lower of those lows. Compare both the time and the height: the lower one can fall before sunrise or after sunset. Every individually quoted low in this article is a day's lower low.
 
 The good lows also arrive in runs. Around new and full moons, the sun's pull stacks with the moon's — spring tides, when, as NOAA puts it, "high tides are a little higher and low tides are a little lower than average" — so lows deepen for several consecutive days, then flatten toward the quarter moons. One such run is in the next table.
 
 ## How do you read one real row?
 
-Take Wednesday, August 12, 2026 — the deepest daylight low of Newport's August run. The dates have passed, but the row stays here as a worked example because it teaches every part of the exercise. The raw table row said, in effect, *Low — 6:46 AM — −1.9 ft*. Standing on the sand at South Beach, here is what each part meant:
+Take Wednesday, August 12, 2026 — Newport's deepest August low with at least 30 daylight minutes in its modeled window. The dates have passed, but the row stays here as a worked example. The raw table row said, in effect, *Low — 6:46 AM — −1.9 ft*. Here is what each part means:
 
-- **−1.913 ft.** At the bottom of the tide, the surface sits nearly two feet below the long-run average of daily lowest tides. Ledges and boulder fields that a 0.0 ft low never uncovers are briefly walkable.
-- **6:46 AM.** The single minute of minimum water — not the visit. The tide is low *enough* for a long stretch on either side of it.
-- **What the row doesn't say.** Computed against the walkable threshold and the sun, this low opened a window from **4:30 AM to 9:15 AM**: 285 minutes, 179 of them after sunrise. Arriving by **5:46 AM**, an hour ahead of the low, meant following the water out and walking back in with the flood.
+- **−1.913 ft.** The predicted minimum is nearly two feet below the long-run average of daily lower lows. This is a water-level prediction, not a measurement of exposed terrain.
+- **6:46 AM.** The predicted time of minimum water, reported to the minute — not the start or duration of a visit.
+- **What the row doesn't say.** Tidewindow models the interval below +1.0 ft as **4:30 AM to 9:15 AM**: 285 minutes, 179 after sunrise at **6:15 AM**. Its mechanical one-hour-before-low offset is **5:46 AM**, about 29 minutes before sunrise, not a verified arrival time. The low itself is about half an hour after sunrise. Neither the offset nor the interval supplies walking time, a return rule or verified beach access.
 
 Now the run that row sits inside:
 
-| Date | Lower low (ft MLLW) | Time of low | Walkable window | Daylight min | Score |
+| Date | Lower low (ft MLLW) | Time of low | Modeled window below +1.0 ft | Daylight min | Score |
 |---|---|---|---|---|---|
 | Mon, Aug 10 | −1.374 | 5:10 AM | 2:55–7:40 AM | 87 | 62 |
 | Tue, Aug 11 | −1.761 | 6:00 AM | 3:45–8:30 AM | 136 | 78 |
@@ -55,9 +55,9 @@ Now the run that row sits inside:
 | Fri, Aug 14 | −1.378 | 8:06 AM | 6:05–10:15 AM | 237 | 83 |
 | Sat, Aug 15 | −0.714 | 8:43 AM | 7:00–10:30 AM | 210 | 74 |
 
-*Computed from NOAA station 9435380 (South Beach, Newport, OR) predictions; every row re-verified 2026-09-25 against Tidewindow's current data, unchanged.*
+*Computed from NOAA station 9435380 (South Beach, Newport, OR) predictions; every numeric cell re-verified 2026-10-20 against Tidewindow's current data, unchanged. Times are local. A modeled interval is not a statement about access.*
 
-Two patterns here hold at every station, so they are worth internalizing. First, the lows deepen toward the middle of the run and relax after — the shoulder days, August 11 and 13, differ by under three hundredths of a foot. Second, each day's low lands later than the last, by 37 to 50 minutes across this run; the tide keeps its own clock and drifts against ours. If Wednesday at 6:46 didn't fit your week, Thursday at 7:28 nearly repeated it. August was a generous month for this: [Newport's August calendar](/beaches/or/newport-or/2026-08/) listed 32 lows below +1.0 ft, and 17 of the walkable windows around them held at least 30 daylight minutes, 13 of those at minus tides.
+Two patterns are visible in this particular run. First, the lows deepen toward the middle and relax after — the shoulder days, August 11 and 13, differ by under three hundredths of a foot. Second, each day's low lands later than the last, by 37 to 50 minutes across these six dates. Those are observations about this table, not universal rules for every station or date. [Newport's August calendar](/beaches/or/newport-or/2026-08/) lists 32 predicted lows below +1.0 ft. The model produces 29 bounded windows around such lows, of which 17 have at least 30 daylight minutes and 13 of those surround minus tides. The raw low count and the modeled-window count are different quantities.
 
 ## Why isn't the lowest number automatically the best day?
 
@@ -67,22 +67,23 @@ Because a tide table is silent about the sun. The deepest row of the run above h
 |---|---|---|
 | Predicted lower low | −1.913 ft | −1.910 ft |
 | Time of low | 6:46 AM | 5:53 PM |
-| Walkable window | 4:30–9:15 AM | 3:40–8:20 PM |
+| Modeled window below +1.0 ft | 4:30–9:15 AM | 3:40–8:20 PM |
+| Relevant daylight boundary | Sunrise 6:15 AM | Sunset 4:39 PM |
 | Daylight minutes in window | 179 | 60 |
 | Window Score | 88 | 61 |
 
-*Computed from NOAA station 9435380 (South Beach, Newport, OR) predictions; both columns re-verified 2026-09-25 against Tidewindow's current data, unchanged.*
+*Computed from NOAA station 9435380 (South Beach, Newport, OR) predictions; existing numeric cells re-verified 2026-10-20, unchanged. Sunrise and sunset are computed for the station. All times are local.*
 
-On the tide table these are twins; the depths differ by 0.003 ft. On the beach they are not. The August low bottomed out mid-morning and handed you three hours of lit, walkable shore. The December window runs 280 minutes but only 60 of them in daylight — all at the front end, while the water is still on its way down. By the 5:53 PM low itself, the light is gone. And yet that December 23 row is now the deepest low left on Newport's 2026 table with a meaningful daylight window: the two deeper lows still ahead, December 24 and November 25, bottom out well after dark. Scanning a printed table for the year's most negative number would send you to the beach in the dark.
+On the tide table these are near-twins; the predicted heights differ by 0.003 ft. Their daylight is very different. The August low is shortly after sunrise, and its modeled interval has 179 daylight minutes. The December interval lasts 280 minutes but only 60 overlap daylight — all at the front end, before the low. The 5:53 PM low is over an hour after the 4:39 PM sunset. Across October 20–December 31, that December 23 row is the deepest low with at least 30 daylight minutes in its modeled window, even though the low itself is after sunset. A qualifying window does not mean a daylight low or an entirely daylight interval.
 
 That is the hidden filter in every tide table: depth and daylight are separate columns, and the table only prints one of them. To read it properly you'd check sunrise and sunset against every candidate row, every time.
 
 ## Is the Window Score just a shortcut?
 
-Yes. That is the design, and it is worth being plain about. The score compresses the arithmetic above into a 0–100 rating: how deep the low goes, how much of the walkable window overlaps daylight, and how the timing sits within the day. August 12's 88 ("Great") and December 23's 61 ("Good") are the two tables above, pre-computed. Every input is either a NOAA harmonic prediction or the sun's calculated position, and the formulas are public on the [methodology page](/methodology/).
+Yes, but it includes preferences as well as tide and daylight calculations. The 0–100 rating has four components: **depth (0–50), daylight overlap (0–30), weekday/weekend/holiday timing (0–10), and regional seasonal comfort (0–10)**. Timing gives Friday 5 points and weekends or US federal holidays 10; seasonal comfort comes from a fixed regional month table, not a weather forecast. Windows with under 30 daylight minutes score zero overall. The [methodology page](/methodology/) publishes the formula and provenance.
 
-Be equally plain about what the score is not. It knows nothing of swell, wind, rain, fog, or how carefully you move on wet rock. A 90 during a storm is still a bad trip. The score ranks tide-and-light geometry, nothing more — it saves you the sunrise arithmetic, not the judgment.
+In the comparison above, August 12's rounded component points are 48 + 30 + 0 + 10 = **88 ("Great")**; December 23's are 48 + 10 + 0 + 3 = **61 ("Good")**. The displayed component sums match the total for these two examples; the code rounds the total from unrounded components. The difference includes both daylight and the seasonal preference, not just the sun. The score does not establish weather, conditions, opening hours, walking time or access.
 
-Used that way, it turns table-reading from a chore into a glance. The [Tide Window Finder](/tools/tide-window-finder/) lists upcoming windows with their arrive-by times, the [Trip Picker](/tools/trip-picker/) compares candidate days side by side, and the [Newport station page](/beaches/or/newport-or/) keeps the running calendar for spots like Yaquina Head and Otter Rock.
+The [Tide Window Finder](/tools/tide-window-finder/) compares upcoming modeled windows, the [Trip Picker](/tools/trip-picker/) compares candidate dates, and the [Newport station page](/beaches/or/newport-or/) keeps the running calendar. Treat any displayed arrive-by value as the model's one-hour offset, not a validated instruction for a particular beach.
 
-None of this replaces the tide table; it finishes it. Read the height against MLLW, trust the lower low, then do the daylight arithmetic — or let a score that shows its work do it for you.
+Read the height against MLLW, compare the low's clock time with sunrise and sunset, and keep those predictions separate from access. A score can summarize its inputs; it cannot supply what they do not measure.
