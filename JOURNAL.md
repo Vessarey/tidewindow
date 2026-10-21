@@ -5,6 +5,117 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-21 — Heartbeat: restore five ready briefs without repeating Glass Beach
+
+**One primary action (§2a, docs only):** morning `76ae810` completed Glass
+Beach and left only sea-glass and Sunset Bay ready, below the three-item
+floor. Added three bounded P1 factual-maintenance briefs: sneaker-wave tide/
+safety framing, the existing trip-planning finding, and the family guide's
+passed July lead and timing claims. The P2 planning discovery now points to
+one P1 assignment; it is not marked as an implemented article repair.
+Queue is five. The analytics-led refresh workflow kept this evidence-led
+and narrow: no duplicate article, title/CTA experiment, source-code change,
+generated-data edit, station expansion or public factual correction today.
+
+**Why these briefs:** required `flywheel 28` and `queries 28` reads each
+fetched 679 rows before selecting 40 for display. Leading Fitzgerald/king-
+tide clusters already have matching pages. Sneaker-wave page exposure is
+0 clicks / 129 impressions / position 15.40; exact-page `sneaker wave` is
+0 / 33 / 19.12 and `what is a sneaker wave` 0 / 7 / 17.14. Its July-26
+copy still presents Aug 12 as upcoming and claims a calculated arrive-by
+time includes a 20-minute safety observation period. The planning and
+family guides return no page or exact-page query rows for this window:
+position is unavailable, not zero; their priority is verified factual
+maintenance, not established demand. Planning still calls Aug 8–14 best
+remaining and recommends Newport 5:46 AM despite 6:15 AM sunrise. Families
+still calls July 12 best "left" and Newport Oct 25's 8:30 PM window end
+dusk despite a 6:15 PM sunset. Premises checked against current articles,
+Oct 21 facts and committed windows; implementation must recompute complete
+selections and re-fetch official sources. The other exposed timing/dawn
+explainers were already refreshed; no duplicate repair queued for them.
+
+**Preservation/validation:** all 128 pre-existing held tracked/untracked
+files remain SHA-256 identical, including the Haystack/minus-tide edits,
+newsletter drafts and three SEO evidence directories. No stashing. Only
+BACKLOG/JOURNAL are this heartbeat's changes; generated data unchanged.
+All 83 existing tests pass (42 facts, 6 math, 17 format, 4 wording, 14 GSC),
+and verify-output passes 12 stations x 5 months / 136 sitemap URLs.
+Whitespace/diff checks pass. No full rebuild needed for two documentation
+files; this does not claim a new app/content deployment.
+
+**Refresh and release health:** latest five Actions runs green; no open
+issues. Actual scheduled run `39546721210` started 04:55:55Z and pushed
+`2b8094f` at **04:58:23.3981127Z**, before the morning operator. IndexNow
+accepted 136 URLs with HTTP 200 at 04:58:20.8700767Z. Later runs are guard
+skips, not additional refreshes. Originating cron expression unavailable,
+so no slot identity/delay inferred. All 12 live station JSONs byte-match
+main, generated **04:56:18.523Z**. Nine public routes and the homepage's
+actual Open Graph image return 200. Production dependency audit has zero
+findings. No score >=90 in Oct 21–Nov 4 inclusive; highest is Pillar Point
+68 on Oct 25. Zero new article additions this week; no recovery dispatch.
+
+Morning Glass Beach delivery independently verified: successful Vercel
+status on descendant `253970c` at 12:14:27Z (deployment
+`8Y72qoSZpaEqe8S2CdYK3jjspgt7`), plus live rendered Oct 21 update, no
+remaining 2026 daylight windows, Oct 21–Nov 30 chart and Jan 16, 2027
+first-qualifying-window note. Browser layout has no document overflow at
+1280px/390px. Its calendar gate opens with the email field and submit
+button; no information entered/submitted. Finder ZIP 98101 selects Seattle
+and displays Oct 21 data; <=-1-ft filtering changes 19 qualifying lows to
+11. No warning/error logs observed in the checked flow. These are bounded
+UI checks, not proof that every route and error state is healthy.
+
+**Search:** GSC `sc-domain:thetidewindow.com`, Web/final, all countries and
+devices, inclusive Pacific dates. Probe through Oct 20 returns latest final
+Oct 19. Sep 22–Oct 19: **321 clicks / 16,075 impressions / position 7.00**,
+versus Aug 25–Sep 21 **209 / 13,414 / 7.69** (**+53.6% clicks**).
+Oct 13–19: **64 / 3,742 / 7.31**, versus Oct 6–12
+**91 / 4,411 / 6.91** (**-29.7% clicks**). All 100 page and 679 query
+rows fetched; API limits/anonymization still apply. Top 28-day page clicks:
+national king tides 97, WA 50, Fitzgerald 33, Oregon 29, Seattle 27, Acadia
+19. Long-window growth and a weaker latest week coexist; no causal uplift
+or CTR-based judgment. Weekly indexing read was already completed Oct 19;
+Golden Hour's next crawl review remains Oct 26, not repeated today.
+
+**Product/conversion:** native PostHog requires reauthentication; GSC Wizard
+requires payment. Used configured read-only fallbacks without access/billing
+changes. PostHog project 495836, exact host `thetidewindow.com`, Regular
+class, half-open UTC Oct 14 17:17:23–Oct 21 17:17:23:
+**541 pageviews / 518 pageview distinct IDs / 0 observed signup events**.
+Eight Bot pageviews excluded; Regular classification is not proof of humans.
+Events: station selections 15 (10 IDs), ZIP uses 15 (9), window views 13
+(9), Trip Picker 3 (1), calendar gates 6 (6), exit prompts 22 (22).
+No ICS reveal, heatmap or exception event observed in this seven-day result;
+these counts are not an ordered funnel. Top paths: national king tides 143,
+Oregon 121, WA 49, Fitzgerald 16, Puget calendar 13. Referrer pageviews:
+direct 139, Bing 133, Google 114, DuckDuckGo 66, Yahoo 39. LCP p75 772ms
+on 143 LCP-bearing events out of 512 web-vitals events: partial coverage.
+Exception capture flag is missing on 488 pageviews, false on 53 and true
+on none; project opt-in null. No observed exceptions is not zero errors.
+
+Fresh **28-day PostHog results unavailable**: grouped, reduced-event and
+single-pageview/conversion reads all timed out with HTTP 504. The morning's
+separate snapshot is not silently reused as this heartbeat's measurement.
+No new conversion verdict, variant, restart or deadline extension. Existing
+sample floors apply; the exit-prompt owner-instruction conflict remains
+unresolved. Read-only Resend confirms verified domain, 23 contacts =
+**22 subscribed + 1 unsubscribed**, `has_more=false`; latest broadcast is
+Oct 15 `c5dbef20-6e10-434e-afb8-f9642bcb1399`, sent 12:11:33.699644Z.
+Those endpoints do not establish bounce/complaint rates. No sync or send.
+
+**Operational carry-forward:** current [NPS road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+(updated Oct 15) and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+(Oct 17) still list Mora Road Open. The [Rialto page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm)
+(Jul 31) retains its expired construction notice; no new road closure or
+physical-route clearance inferred. Newsletter ritual is tomorrow Oct 22
+under the established template/authorization, not a send today. Next
+non-Thursday editorial action: sneaker-wave brief. Golden Hour review Oct 26;
+November rollover/indexing gate Nov 1. Owner exit-prompt reconciliation and
+exception-instrumentation gap remain separate open work. No spending,
+outreach, credentials/configuration changes or new automation.
+
+---
+
 ## 2026-10-21 — Glass Beach: zero 2026 windows remain; chart rolled to Nov 30 (§2d)
 
 **Health (green, unaided day eight):** scheduled run `39546721210` (04:55:55Z,

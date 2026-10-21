@@ -5,6 +5,16 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **2026-10-21 heartbeat — restore the ready queue (§2a), docs only.**
+      Morning Glass Beach work is verified live and not repeated. Two ready
+      briefs remained, below the three-item floor. Added three bounded
+      maintenance assignments below: sneaker-wave timing claims, promotion
+      of the existing trip-planning finding, and the stale family guide.
+      Queue now holds five including sea-glass and Sunset Bay. Fresh GSC
+      supports the sneaker-wave page; the other two have no observed page
+      or exact-page query rows and are factual repairs, not proven demand
+      opportunities. No article, generated data, title or gate changed.
+
 - [x] **Oct 18 Fitzgerald correction — automatic deployment verified Oct 19.**
       Heartbeat independently confirmed Production deployment `7158136993`
       succeeded Oct 18 at 17:30:47Z for `8a5c0bb`, a verified descendant of
@@ -487,6 +497,84 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-10-21-refill:start -->
+Three ready-now factual-maintenance briefs, checked Oct 21. GSC: Web/final,
+all countries/devices, Sep 22–Oct 19 inclusive Pacific dates; all 100 page
+and 679 query rows fetched before filtering. The required flywheel/queries
+reads found the leading clusters already served by existing pages, not
+three uncovered intents. Page totals and disclosed query rows are separate;
+missing rows do not prove no demand or no indexing. Preserve original
+titles, URLs, publish dates, useful historical tables and gates. Recompute
+from current facts at implementation, qualify full-range versus top-N
+claims, re-fetch official sources and run a plain build plus factual and
+wording checks. No new title/conversion experiment, shared scoring change
+or owner-held Haystack/minus-tide edit. These briefs queue work; they do not
+claim the public defects are fixed. Thursday Oct 22's established newsletter
+ritual remains the operator's standing priority.
+
+- [ ] **First: sneaker-wave guide — separate tide arithmetic from safety.**
+      Target `what-is-a-sneaker-wave`. Page baseline: 0 clicks / 129
+      impressions / position 15.40. Exact-page query `sneaker wave`: 0 / 33 /
+      19.12; `what is a sneaker wave`: 0 / 7 / 17.14; `what causes sneaker
+      waves`: 0 / 3 / 9.33. Existing page matches the intent; this is not a
+      new keyword page or a CTR experiment. Current July-26 text still
+      presents August 12 as the next morning and calls 414/115 a 2026
+      daylight/dawn distribution. Recompute the explicitly scoped period
+      and hour bins, separate daylight overlap from daylight at low, and
+      retain the August table only as verified history. Remove the claim
+      that a low-minus-one-hour offset has a 20-minute safety observation
+      period "already built in" or ensures time to commit to a route. At
+      Newport the listed 5:46 AM offset precedes the 6:15 AM sunrise.
+      Do not infer sneaker-wave probability, calm water or a safe arrival
+      from tide time, depth, score or daylight. Verify the existing physical
+      explanation against its primary research; safety wording must be
+      tightly sourced to current NWS/NPS/state-park guidance, without new
+      rescue, medical or operational safety instructions. Preserve the
+      useful definition and source links; add a focused wording regression
+      against the built-in-safety-time claim before publication.
+- [ ] **Trip-planning guide — finish the Oct 12 freshness finding.**
+      Target `how-to-plan-a-tidepooling-trip-around-minus-tides`. No page
+      row or exact-page query rows returned in this 28-day window; position
+      is unavailable, not zero. Related property-level intent `best time
+      to go tidepooling` is 0 clicks / 8 impressions / position 8.63, but
+      cannot be attributed to this guide and already has a dedicated page.
+      Promotion of the existing P2 finding, not another implementation task.
+      Retire the passed August 8–14 "best remaining" lead/FAQ; retain the
+      worked example as history. Recompute 940/535 totals and histograms for
+      the actual July–December scope, and distinguish raw predictions from
+      bounded windows (the Newport August "31 lows" claim needs checking).
+      Explain a modeled below-threshold interval separately from its
+      daylight overlap and low's sunrise/sunset position: Aug 12 Newport
+      spans 4:30–9:15 AM but has 179 lit minutes, not an all-daylight window.
+      Remove universal one-hour arrival and ebb/flood route-return advice;
+      keep any current official guidance local to the named location.
+      Correct the Port Orford Dec 23 "pre-sunset" claim (5:26 PM low,
+      4:48 PM sunset) and all four scoring inputs/provenance without changing
+      the formula. Audit full-period superlatives, top-40 selection labels,
+      tool promises and FAQs; no blanket access or comfort recommendations.
+- [ ] **Family guide — retire July as upcoming and check weekend rankings.**
+      Target `tidepooling-with-kids`. No page or exact-page query rows in
+      the same 28 days; no family-specific query cluster established and
+      average position unavailable. This is reader-facing factual upkeep,
+      not a claim of measured search opportunity. The July-3 lead still
+      calls July 12 the best window "left" and the ending tells readers
+      to pack for it. Preserve/reverify the summer rows as history; compare
+      remaining dates only within an explicit range and ranking criterion.
+      Audit the 8-of-56 best-of-month selection and later 10-window/7-WA
+      claims against their actual selections, not as full-calendar totals.
+      Separate model scores from family suitability: the formula does not
+      independently optimize naps, morning preference or route access.
+      Remove the universal arrive-an-hour-before recommendation and the
+      claim Newport Oct 25's 8:30 PM window end is dusk (sunset 6:15 PM;
+      even its 6:37 PM low is after sunset). Monterey Dec 25's 5:53 PM low
+      is also after 4:57 PM sunset. Recheck every holiday row and relevant
+      land-manager hours/closures, including Cabrillo Christmas access,
+      without treating La Jolla/San Diego station dates as park-opening
+      promises. Retain only current sourced etiquette/safety quotations;
+      no newly invented child-safety or arrival rules. Add a focused check
+      for expired "best left" framing and daylight/arrival claims.
+<!-- heartbeat-2026-10-21-refill:end -->
 
 <!-- heartbeat-2026-10-19-refill:start -->
 Three ready-now maintenance briefs, checked Oct 19. GSC baselines use Web/
@@ -2346,7 +2434,10 @@ implementation; preserve historical evidence and the owner's Haystack hold.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
-- [ ] **Oct 12 crawl-path audit follow-up — planning guide freshness.**
+- [x] **Oct 12 crawl-path audit follow-up — planning guide freshness.**
+      **Promoted Oct 21 to the single P1 trip-planning brief above; article
+      repair is NOT completed.** This P2 discovery is closed only as a
+      duplicate queue location. Original finding:
       Before promoting `how-to-plan-a-tidepooling-trip-around-minus-tides`,
       remove its July-29 premise that August 8–14 is still upcoming. Recheck
       the annual-sounding 940/535 totals against the actual dataset scope,
