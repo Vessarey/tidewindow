@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-20",
+ "generated_on": "2026-10-21",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2082,6 +2082,11 @@
    "count": 10
   },
   {
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
+   "count": 10
+  },
+  {
    "commonName": "Freckled Ancula",
    "scientificName": "Ancula lentiginosa",
    "count": 9
@@ -2090,11 +2095,6 @@
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
    "count": 9
-  },
-  {
-   "commonName": "Lesser Two-spot Octopus",
-   "scientificName": "Octopus bimaculoides",
-   "count": 8
   },
   {
    "commonName": "Salt-and-pepper Doris",

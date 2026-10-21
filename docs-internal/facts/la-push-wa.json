@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-20",
+ "generated_on": "2026-10-21",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2105,6 +2105,11 @@
    "count": 2
   },
   {
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
+   "count": 2
+  },
+  {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
    "count": 2
@@ -2117,11 +2122,6 @@
   {
    "commonName": "Hind's Chiton",
    "scientificName": "Mopalia hindsii",
-   "count": 1
-  },
-  {
-   "commonName": "Fingered Limpet",
-   "scientificName": "Lottia digitalis",
    "count": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-20",
+ "generated_on": "2026-10-21",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2057,23 +2057,28 @@
    "count": 3
   },
   {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 2
+  },
+  {
+   "commonName": "Gland Dorid",
+   "scientificName": "Polycerella glandulosa",
+   "count": 2
+  },
+  {
    "commonName": "Kelp Scallop",
    "scientificName": "Leptopecten latiauratus",
    "count": 2
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
    "count": 1
   },
   {
    "commonName": "Cloudy Bubble Snail",
    "scientificName": "Bulla gouldiana",
-   "count": 1
-  },
-  {
-   "commonName": "Gland Dorid",
-   "scientificName": "Polycerella glandulosa",
    "count": 1
   },
   {
@@ -2094,11 +2099,6 @@
   {
    "commonName": "Pacific Calico Scallop",
    "scientificName": "Argopecten ventricosus",
-   "count": 1
-  },
-  {
-   "commonName": "Pismo Clam",
-   "scientificName": "Tivela stultorum",
    "count": 1
   }
  ]
