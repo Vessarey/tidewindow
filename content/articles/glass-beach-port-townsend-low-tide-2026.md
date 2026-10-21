@@ -1,8 +1,8 @@
 ---
 title: "Glass Beach Tides: Timing the Walk from North Beach in Port Townsend"
-description: "Glass Beach tide chart from Port Townsend station predictions: every high and low Sep 22–Oct 31, 2026, four daylight windows, selected 2027 lows."
+description: "Glass Beach tide chart from Port Townsend station predictions: every high and low Oct 21–Nov 30, 2026, zero remaining daylight windows, 2027 lows."
 date: "2026-09-12"
-updated: "2026-09-22"
+updated: "2026-10-21"
 category: "beachcombing"
 station: "port-townsend-wa"
 tags: ["glass beach", "port townsend", "sea glass", "north beach", "mccurdy point", "low tide walk", "beachcombing"]
@@ -12,7 +12,7 @@ faq:
   - q: "How far is the walk from North Beach to Glass Beach?"
     a: "Published route descriptions give about three miles one way from North Beach toward Glass Beach, with McCurdy Point along the route; Beachcombing Magazine describes a six-mile round trip. These older descriptions provide geographical context, not a current condition report or a walking-time guarantee."
   - q: "Which Port Townsend low-water windows remain in 2026?"
-    a: "As of September 12, NOAA station 9444900 has four remaining windows below +1.0 ft MLLW with at least 30 minutes of daylight overlap: September 22 and October 5–7. All score Skip. October 5's −0.23 ft low at 5:48 AM occurs before sunrise, although the later part of its window has 39 daylight minutes."
+    a: "None. As of October 21, every remaining below-+1.0-ft interval at NOAA station 9444900 through December 31, 2026 has no daylight overlap at all. The year's last four qualifying windows — September 22 and October 5–7, all scoring Skip — have passed. In the available predictions, the next window with at least 30 minutes of daylight overlap is January 16, 2027."
   - q: "Why is there sea glass at Glass Beach?"
     a: "A 2017 Spokesman-Review report describes Glass Beach as a former city dump used until the 1960s, with waves continuing to uncover and tumble discarded glass. That history explains the material; it does not predict what a particular visit will find."
   - q: "What does the March 15, 2027 row show?"
@@ -24,7 +24,7 @@ sources:
   - "https://www.beachcombingmagazine.com/blogs/news/port-townsend-s-glass-beach"
 ---
 
-**NOAA station 9444900 (Port Townsend) has four remaining 2026 windows below +1.0 ft MLLW with at least 30 minutes of daylight overlap: September 22 and October 5–7. These are station calculations, not four verified opportunities to complete the North Beach–Glass Beach walk. October 5's −0.23 ft low occurs before sunrise; its 39 daylight minutes arrive later. The selected 2027 rows below are comparisons, not a reopening schedule.**
+**NOAA station 9444900 (Port Townsend) has no remaining 2026 windows below +1.0 ft MLLW with at least 30 minutes of daylight overlap. The last four — September 22 and October 5–7 — have passed, and every remaining below-+1-ft interval through December 31 falls entirely in darkness. The next qualifying window in the available predictions is January 16, 2027. The chart below now covers October 21 – November 30, 2026; the 2027 rows are comparisons, not a reopening schedule.**
 
 A tide chart is useful here, but it cannot supply the whole walking plan. **The +1.0-ft threshold is not a verified route-access cutoff for Glass Beach.** It is the shared threshold in Tidewindow's [methodology](/methodology/), used to compare low-water periods across stations. No route-specific passability threshold, turnaround rule or walking-duration allowance is established by these tables.
 
@@ -36,9 +36,9 @@ A [2017 Spokesman-Review report](https://www.spokesman.com/stories/2017/aug/27/g
 
 The [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/) covers the neighboring park context and carries the complete Port Townsend tide chart — every predicted high and low at station 9444900 — through October 31. Sharing a prediction station does not make every shoreline section's access requirements identical.
 
-## Four remaining 2026 station windows with daylight overlap
+## The 2026 daylight windows: all four have passed
 
-The selection below covers September 12–December 31, 2026 at Port Townsend. “Daylight overlap” requires **at least 30 minutes of daylight somewhere in the below-+1.0-ft window**. It does not require the low itself, or the whole window, to occur in daylight.
+The selection below covered September 12–December 31, 2026 at Port Townsend when it was computed. “Daylight overlap” requires **at least 30 minutes of daylight somewhere in the below-+1.0-ft window**. It does not require the low itself, or the whole window, to occur in daylight. All four dates are now past; the rows stay here as a dated record.
 
 | Date | Low (ft MLLW) | Local time of low | Below +1 ft at station | Daylight overlap | Score |
 |---|---|---|---|---|---|
@@ -47,49 +47,20 @@ The selection below covers September 12–December 31, 2026 at Port Townsend. �
 | Tue, Oct 6, 2026 | +0.28 | 6:56 AM | 5:35 AM–8:25 AM | 67 min | 22 · Skip |
 | Wed, Oct 7, 2026 | +0.88 | 7:54 AM | 7:35 AM–8:20 AM | 45 min | 14 · Skip |
 
-*Computed September 12, 2026 from NOAA station 9444900 predictions and Tidewindow's daylight calculation. Heights are feet relative to the station's MLLW datum; all times are local. The score combines depth, daylight and calendar factors, not route access.*
+*Computed September 12, 2026 from NOAA station 9444900 predictions and Tidewindow's daylight calculation; re-verified against the committed predictions on October 21, by which date all four had passed. Heights are feet relative to the station's MLLW datum; all times are local. The score combines depth, daylight and calendar factors, not route access.*
 
-October 5 makes the distinction clear. Its low is at 5:48 AM, before sunrise. The below-+1-ft period lasts from 3:55 AM to 7:55 AM—four hours, or 240 minutes—but only 39 minutes overlap daylight. That does not describe four daylight hours on the beach.
+October 5 made the distinction clear. Its low was at 5:48 AM, before sunrise. The below-+1-ft period lasted from 3:55 AM to 7:55 AM—four hours, or 240 minutes—but only 39 minutes overlapped daylight. That did not describe four daylight hours on the beach.
 
-October 6 has the most daylight overlap of these four rows, at 67 minutes, while October 5 has the highest score, 27. Both rankings are station comparisons. Neither is a recommendation to complete the Glass Beach round trip, and the table does not establish a walkable route on any of the four dates.
+October 6 had the most daylight overlap of these four rows, at 67 minutes, while October 5 had the highest score, 27. Both rankings were station comparisons, and the table never established a walkable route on any of the four dates.
 
-**November and December each have 22 lows below +1 ft but zero windows meeting the daylight-overlap criterion.** That is a result of this station filter, not an announcement that Glass Beach is closed. The full station tide chart below and the [October Port Townsend calendar](/beaches/wa/port-townsend-wa/2026-10/) include the complete daily high/low predictions, including dates that do not appear in this short selection.
+**October, November and December each have 22 lows below +1 ft at this station, but after October 7 none meets the daylight-overlap criterion** (re-verified October 21). That is a result of this station filter, not an announcement that Glass Beach is closed. The full station tide chart below and the [October](/beaches/wa/port-townsend-wa/2026-10/) and [November](/beaches/wa/port-townsend-wa/2026-11/) Port Townsend calendars include the complete daily high/low predictions, including dates that do not appear in this short selection.
 
-## Glass Beach tide chart: Port Townsend predictions, September 22 – October 31, 2026
+## Glass Beach tide chart: Port Townsend predictions, October 21 – November 30, 2026
 
-There is no separate tide gauge at Glass Beach; the chart for this shoreline is the Port Townsend station's, NOAA 9444900. The table below lists every predicted high and low there from September 22 through October 31, 2026. Heights are feet relative to MLLW, times are local. It answers one question — when the station predicts low water — and cannot answer the other two a walker needs: whether the route is passable at that height, and whether there is enough daylight around it.
+There is no separate tide gauge at Glass Beach; the chart for this shoreline is the Port Townsend station's, NOAA 9444900. The table below lists every predicted high and low there from October 21 through November 30, 2026 — November is the latest complete month in the committed prediction files. Heights are feet relative to MLLW, times are local, including the November 1 return to Pacific Standard Time. It answers one question — when the station predicts low water — and cannot answer the other two a walker needs: whether the route is passable at that height, and whether there is enough daylight around it.
 
 | Date | Lows (MLLW) | Highs (MLLW) |
 |---|---|---|
-| Tue, Sep 22 | +0.90 ft @ 7:43 AM · +5.20 ft @ 9:13 PM | +6.30 ft @ 12:23 AM · +8.01 ft @ 3:52 PM |
-| Wed, Sep 23 | +0.93 ft @ 8:27 AM · +4.52 ft @ 9:29 PM | +6.48 ft @ 1:36 AM · +8.00 ft @ 4:09 PM |
-| Thu, Sep 24 | +1.12 ft @ 9:05 AM · +3.64 ft @ 9:50 PM | +6.73 ft @ 2:40 AM · +8.03 ft @ 4:23 PM |
-| Fri, Sep 25 | +1.52 ft @ 9:40 AM · +2.58 ft @ 10:17 PM | +7.00 ft @ 3:39 AM · +8.10 ft @ 4:36 PM |
-| Sat, Sep 26 | +2.14 ft @ 10:15 AM · +1.43 ft @ 10:47 PM | +7.27 ft @ 4:34 AM · +8.19 ft @ 4:54 PM |
-| Sun, Sep 27 | +2.96 ft @ 10:50 AM · +0.31 ft @ 11:22 PM | +7.53 ft @ 5:30 AM · +8.26 ft @ 5:15 PM |
-| Mon, Sep 28 | +3.91 ft @ 11:28 AM | +7.75 ft @ 6:26 AM · +8.28 ft @ 5:38 PM |
-| Tue, Sep 29 | −0.64 ft @ 12:01 AM · +4.89 ft @ 12:10 PM | +7.88 ft @ 7:25 AM · +8.25 ft @ 6:03 PM |
-| Wed, Sep 30 | −1.30 ft @ 12:45 AM · +5.79 ft @ 12:56 PM | +7.92 ft @ 8:30 AM · +8.15 ft @ 6:30 PM |
-| Thu, Oct 1 | −1.60 ft @ 1:33 AM · +6.53 ft @ 1:51 PM | +7.92 ft @ 9:46 AM · +7.97 ft @ 6:57 PM |
-| Fri, Oct 2 | −1.55 ft @ 2:27 AM · +7.00 ft @ 3:05 PM | +7.97 ft @ 11:12 AM · +7.67 ft @ 7:29 PM |
-| Sat, Oct 3 | −1.22 ft @ 3:28 AM · +7.05 ft @ 4:55 PM | +8.12 ft @ 12:34 PM · +7.21 ft @ 8:28 PM |
-| Sun, Oct 4 | −0.74 ft @ 4:37 AM · +6.51 ft @ 7:25 PM | +8.30 ft @ 1:35 PM · +6.72 ft @ 10:14 PM |
-| Mon, Oct 5 | −0.23 ft @ 5:48 AM · +5.65 ft @ 8:08 PM | +8.43 ft @ 2:20 PM · +6.44 ft @ 11:59 PM |
-| Tue, Oct 6 | +0.28 ft @ 6:56 AM · +4.61 ft @ 8:40 PM | +8.50 ft @ 2:56 PM |
-| Wed, Oct 7 | +0.88 ft @ 7:54 AM · +3.46 ft @ 9:11 PM | +6.48 ft @ 1:38 AM · +8.52 ft @ 3:26 PM |
-| Thu, Oct 8 | +1.61 ft @ 8:44 AM · +2.28 ft @ 9:42 PM | +6.76 ft @ 3:03 AM · +8.49 ft @ 3:51 PM |
-| Fri, Oct 9 | +2.48 ft @ 9:28 AM · +1.19 ft @ 10:13 PM | +7.14 ft @ 4:13 AM · +8.42 ft @ 4:12 PM |
-| Sat, Oct 10 | +3.43 ft @ 10:10 AM · +0.27 ft @ 10:45 PM | +7.52 ft @ 5:13 AM · +8.32 ft @ 4:30 PM |
-| Sun, Oct 11 | +4.38 ft @ 10:52 AM · −0.41 ft @ 11:18 PM | +7.86 ft @ 6:08 AM · +8.18 ft @ 4:48 PM |
-| Mon, Oct 12 | +5.24 ft @ 11:37 AM · −0.80 ft @ 11:52 PM | +8.12 ft @ 7:01 AM · +7.98 ft @ 5:09 PM |
-| Tue, Oct 13 | +5.96 ft @ 12:27 PM | +8.28 ft @ 7:54 AM · +7.73 ft @ 5:31 PM |
-| Wed, Oct 14 | −0.89 ft @ 12:28 AM · +6.48 ft @ 1:25 PM | +8.34 ft @ 8:50 AM · +7.43 ft @ 5:55 PM |
-| Thu, Oct 15 | −0.70 ft @ 1:08 AM · +6.78 ft @ 2:42 PM | +8.30 ft @ 9:50 AM · +7.11 ft @ 6:18 PM |
-| Fri, Oct 16 | −0.31 ft @ 1:52 AM | +8.24 ft @ 10:58 AM |
-| Sat, Oct 17 | +0.20 ft @ 2:42 AM | +8.21 ft @ 12:04 PM |
-| Sun, Oct 18 | +0.72 ft @ 3:39 AM | +8.20 ft @ 12:59 PM |
-| Mon, Oct 19 | +1.19 ft @ 4:43 AM · +5.50 ft @ 8:22 PM | +8.20 ft @ 1:40 PM · +5.71 ft @ 10:37 PM |
-| Tue, Oct 20 | +1.57 ft @ 5:47 AM · +4.88 ft @ 8:29 PM | +8.18 ft @ 2:08 PM |
 | Wed, Oct 21 | +1.94 ft @ 6:45 AM · +4.05 ft @ 8:37 PM | +5.67 ft @ 12:09 AM · +8.18 ft @ 2:27 PM |
 | Thu, Oct 22 | +2.38 ft @ 7:35 AM · +2.99 ft @ 8:53 PM | +5.90 ft @ 1:36 AM · +8.21 ft @ 2:42 PM |
 | Fri, Oct 23 | +2.95 ft @ 8:19 AM · +1.73 ft @ 9:15 PM | +6.37 ft @ 2:52 AM · +8.28 ft @ 2:58 PM |
@@ -101,10 +72,40 @@ There is no separate tide gauge at Glass Beach; the chart for this shoreline is 
 | Thu, Oct 29 | −2.77 ft @ 12:19 AM · +7.17 ft @ 12:53 PM | +9.03 ft @ 8:41 AM · +8.32 ft @ 5:31 PM |
 | Fri, Oct 30 | −2.55 ft @ 1:09 AM · +7.37 ft @ 2:04 PM | +9.00 ft @ 9:45 AM · +7.93 ft @ 6:06 PM |
 | Sat, Oct 31 | −1.97 ft @ 2:04 AM · +7.19 ft @ 3:46 PM | +8.95 ft @ 10:50 AM · +7.32 ft @ 6:58 PM |
+| Sun, Nov 1 | −1.14 ft @ 2:03 AM | +8.92 ft @ 10:49 AM |
+| Mon, Nov 2 | −0.14 ft @ 3:07 AM · +5.38 ft @ 6:27 PM | +8.91 ft @ 11:39 AM · +5.87 ft @ 9:32 PM |
+| Tue, Nov 3 | +0.92 ft @ 4:14 AM · +4.15 ft @ 7:00 PM | +8.89 ft @ 12:19 PM · +5.66 ft @ 11:34 PM |
+| Wed, Nov 4 | +2.00 ft @ 5:19 AM · +2.86 ft @ 7:29 PM | +8.85 ft @ 12:53 PM |
+| Thu, Nov 5 | +3.07 ft @ 6:19 AM · +1.61 ft @ 7:56 PM | +6.05 ft @ 1:23 AM · +8.77 ft @ 1:20 PM |
+| Fri, Nov 6 | +4.10 ft @ 7:14 AM · +0.50 ft @ 8:22 PM | +6.76 ft @ 2:43 AM · +8.65 ft @ 1:42 PM |
+| Sat, Nov 7 | +5.04 ft @ 8:04 AM · −0.41 ft @ 8:50 PM | +7.52 ft @ 3:47 AM · +8.51 ft @ 2:01 PM |
+| Sun, Nov 8 | +5.85 ft @ 8:53 AM · −1.06 ft @ 9:18 PM | +8.19 ft @ 4:40 AM · +8.36 ft @ 2:19 PM |
+| Mon, Nov 9 | +6.49 ft @ 9:41 AM · −1.44 ft @ 9:48 PM | +8.70 ft @ 5:28 AM · +8.18 ft @ 2:39 PM |
+| Tue, Nov 10 | +6.93 ft @ 10:32 AM · −1.54 ft @ 10:21 PM | +9.02 ft @ 6:13 AM · +7.98 ft @ 3:02 PM |
+| Wed, Nov 11 | +7.19 ft @ 11:28 AM · −1.39 ft @ 10:57 PM | +9.16 ft @ 6:57 AM · +7.74 ft @ 3:26 PM |
+| Thu, Nov 12 | +7.28 ft @ 12:36 PM · −1.05 ft @ 11:36 PM | +9.15 ft @ 7:41 AM · +7.47 ft @ 3:49 PM |
+| Fri, Nov 13 | — | +9.05 ft @ 8:27 AM |
+| Sat, Nov 14 | −0.57 ft @ 12:18 AM | +8.92 ft @ 9:14 AM |
+| Sun, Nov 15 | −0.01 ft @ 1:04 AM | +8.82 ft @ 9:59 AM |
+| Mon, Nov 16 | +0.62 ft @ 1:52 AM | +8.74 ft @ 10:38 AM |
+| Tue, Nov 17 | +1.33 ft @ 2:43 AM · +5.01 ft @ 6:35 PM | +8.69 ft @ 11:08 AM · +5.29 ft @ 9:11 PM |
+| Wed, Nov 18 | +2.14 ft @ 3:36 AM · +4.07 ft @ 6:36 PM | +8.66 ft @ 11:32 AM · +5.18 ft @ 10:56 PM |
+| Thu, Nov 19 | +3.02 ft @ 4:32 AM · +2.88 ft @ 6:49 PM | +8.66 ft @ 11:53 AM |
+| Fri, Nov 20 | +3.96 ft @ 5:30 AM · +1.50 ft @ 7:11 PM | +5.58 ft @ 12:46 AM · +8.71 ft @ 12:15 PM |
+| Sat, Nov 21 | +4.89 ft @ 6:26 AM · +0.05 ft @ 7:39 PM | +6.41 ft @ 2:17 AM · +8.79 ft @ 12:39 PM |
+| Sun, Nov 22 | +5.77 ft @ 7:19 AM · −1.33 ft @ 8:11 PM | +7.38 ft @ 3:23 AM · +8.90 ft @ 1:04 PM |
+| Mon, Nov 23 | +6.53 ft @ 8:10 AM · −2.46 ft @ 8:49 PM | +8.30 ft @ 4:16 AM · +9.02 ft @ 1:31 PM |
+| Tue, Nov 24 | +7.13 ft @ 9:00 AM · −3.21 ft @ 9:30 PM | +9.02 ft @ 5:06 AM · +9.10 ft @ 2:01 PM |
+| Wed, Nov 25 | +7.54 ft @ 9:51 AM · −3.51 ft @ 10:14 PM | +9.49 ft @ 5:54 AM · +9.09 ft @ 2:35 PM |
+| Thu, Nov 26 | +7.73 ft @ 10:47 AM · −3.34 ft @ 11:02 PM | +9.71 ft @ 6:43 AM · +8.90 ft @ 3:17 PM |
+| Fri, Nov 27 | +7.68 ft @ 11:51 AM · −2.76 ft @ 11:52 PM | +9.75 ft @ 7:33 AM · +8.49 ft @ 4:08 PM |
+| Sat, Nov 28 | +7.34 ft @ 1:12 PM | +9.69 ft @ 8:23 AM · +7.82 ft @ 5:11 PM |
+| Sun, Nov 29 | −1.83 ft @ 12:45 AM · +6.62 ft @ 2:55 PM | +9.59 ft @ 9:12 AM · +6.94 ft @ 6:27 PM |
+| Mon, Nov 30 | −0.63 ft @ 1:39 AM · +5.49 ft @ 4:39 PM | +9.50 ft @ 9:56 AM · +6.00 ft @ 7:59 PM |
 
-*Computed September 22, 2026 from NOAA station 9444900 predictions, MLLW.*
+*Computed October 21, 2026 from NOAA station 9444900 predictions, MLLW. Friday, November 13 has no predicted low within the calendar day; its overnight lows fall on the neighboring dates.*
 
-For planning a long shoreline walk, the chart is mostly a caution. All 18 minus tides in this range land between 10:15 PM and 5:48 AM — at night or before sunrise — including the deepest, −2.77 ft at 12:19 AM on Thursday, October 29. Of the 40 dates in the table, only the four rows in the section above have at least 30 minutes of daylight overlap while the station is below +1.0 ft. The per-date daylight-window math is on the [September](/beaches/wa/port-townsend-wa/2026-09/) and [October](/beaches/wa/port-townsend-wa/2026-10/) calendar pages, and the [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/) reads this same station chart in tide-pool terms rather than walk-timing terms.
+For planning a long shoreline walk, this chart is almost entirely a caution. All 24 minus tides in the range land between 8:11 PM and 3:07 AM local time — after sunset or hours before sunrise — including the deepest, −3.51 ft at 10:14 PM on Wednesday, November 25. None of the 41 dates in the table has a below-+1.0-ft period with at least 30 minutes of daylight overlap. The per-date daylight-window math is on the [October](/beaches/wa/port-townsend-wa/2026-10/) and [November](/beaches/wa/port-townsend-wa/2026-11/) calendar pages, and the [Port Townsend and Fort Worden guide](/guides/port-townsend-fort-worden-tide-pools-2026/) reads this same station chart in tide-pool terms rather than walk-timing terms.
 
 ## Selected low-water windows in early 2027
 
@@ -118,7 +119,9 @@ These are the **five lowest qualifying lows in the October 1, 2026–March 31, 2
 | Wed, Feb 17, 2027 | −1.64 | 7:06 PM | 4:40 PM–10:00 PM | 57 min | 55 · Fair |
 | Mon, Mar 15, 2027 | −0.77 | 4:24 PM | 2:20 PM–6:50 PM | 270 min | 60 · Good |
 
-*Computed September 12, 2026 from the same station predictions. The selection is ranked by low height before being displayed chronologically; it is not a full-season ranking by daylight or score.*
+*Computed September 12, 2026 from the same station predictions and re-verified against the October 21, 2026 committed data. The selection is ranked by low height before being displayed chronologically; it is not a full-season ranking by daylight or score.*
+
+The first qualifying window of 2027 in these predictions is earlier than any row above: January 16, a +0.62 ft low at 4:49 PM with 56 daylight minutes, scoring 22 (Skip). It qualifies on the 30-minute overlap rule without being among the five lowest, which is why it does not appear in the selection.
 
 February 17 has the deepest low in the selection, −1.64 ft at 7:06 PM, after sunset. Its 57 daylight minutes occur earlier in the window. February 15 has a shallower −0.77 ft low and 158 daylight minutes, scoring 65 (Good).
 
