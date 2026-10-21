@@ -5,6 +5,74 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-21 — Glass Beach: zero 2026 windows remain; chart rolled to Nov 30 (§2d)
+
+**Health (green, unaided day eight):** scheduled run `39546721210` (04:55:55Z,
+2m31s) pushed `2b8094f` ("data: daily NOAA refresh 2026-10-21"); the 08:01
+and 09:39 slots were 8–11s guard skips. Latest six runs green; no open
+issues. Fact sheets regenerated today (port-townsend generated_on
+2026-10-21). No recovery dispatch needed. Owner-held Haystack/minus-tide
+edits, newsletter drafts and SEO dirs preserved untouched (autostash
+round-trip verified: numstat 113/72 unchanged before and after pull).
+
+**Primary action (§2d, second heartbeat-2026-10-19 brief):** completed the
+Glass Beach passed-windows retirement in `76ae810`. Verified first against
+today's fact sheet and committed windows: all four Sep 22 / Oct 5–7 rows
+match the committed window data field-for-field, and the remaining-2026
+scan is unambiguous — `deepest_2026_daylight_lows_remaining_top8` is empty
+and all 51 remaining 2026 modeled windows have daylightMin 0, so the lead,
+FAQ and section heading now state no qualifying window remains and every
+remaining below-+1-ft interval is entirely dark. The four rows stay as a
+dated record with past-tense prose. Chart rolled Sep 22–Oct 31 → Oct 21–
+Nov 30 (41 days, from daily_extremes; Nov 13 has no in-day low, rendered
+"—" with a caption note): 24 minus tides, all between 8:11 PM and 3:07 AM,
+deepest −3.51 ft at 10:14 PM Wed Nov 25. "22 lows below +1 ft" claim
+re-verified and extended to October (22/22/22 for Oct/Nov/Dec, daylight
+windows 3/0/0). 2027 lowest-five rows re-verified against committed data
+(exact match); added a note that the chronologically first qualifying 2027
+window is Jan 16 (+0.62 ft, 4:49 PM, 56 min, 22 Skip), so the lowest-five
+selection cannot be misread as "next". Summer comparison re-verified
+(Jul 13/14 −3.478/−3.482 both round to −3.48; month aggregates 25/21 and
+21/13 match). Fort Worden guide cross-reference ("chart through October
+31") checked against that article — still accurate, left alone. All four
+external sources re-fetched 200 with claim text spot-checked (county North
+Beach listing quote, Spokesman 3-mile/Kuhn/McCurdy/1960s-dump, Beachcombing
+six-mile round trip). Lead trimmed to 78 words; description 146 chars;
+honest `updated: 2026-10-21`. No access/arrival/route claims derived from
+tide arithmetic; wording-gate classes absent.
+
+**Quality gates:** plain `npm run build` green twice (149 routes;
+verify-output 12 stations × 5 months, 136 sitemap URLs OK; facts/math/
+format/wording/gsc suites all 0 fail). Diff reviewed; only the one article
+staged and committed.
+
+**Release verified:** `76ae810` pushed; production page serves the new
+Oct 21–Nov 30 chart heading and the Jan 16, 2027 note, with zero
+occurrences of the old "four remaining 2026 windows" lead. Verified
+directly via HTTP; no deployment-status API claim made.
+
+**Metrics snapshot:** PostHog 495836 (thetidewindow.com host, ~12:2xZ):
+7d 536 pageviews / 507 distinct IDs / 0 signups; 28d 2,172 / 2,033 / 9
+(~0.44% events/IDs, not verified-person rates). Top 7d paths: national
+king tides 134, Oregon king tides 118, WA king tides 45, home 18,
+Fitzgerald 16, Puget calendar 13, Finder 12, PT station 10. The 7d signup
+count has dropped to zero (yesterday it was 1 — that event has aged out of
+the rolling window). Combined 7d/28d one-shot HogQL query now times out on
+PostHog's side; split 7d and 28d queries work — use split queries
+tomorrow. No GSC pull today (Monday read done Oct 19; next Golden Hour
+crawl review Oct 26).
+
+**Carry-forward / tomorrow:** TOMORROW IS THURSDAY OCT 22 — the standing
+newsletter ritual is the primary action (sync-audience → dry-run →
+recompute-check → send with --owner-reviewed, template/voice unchanged).
+Queue holds two ready briefs after today (sea-glass, Sunset Bay) — one
+below the three-item floor, so the first non-Thursday run should consider
+a §2a refill alongside or instead of the next brief. Golden Hour crawl
+review Oct 26; November rollover/indexing gate Nov 1. NPS Mora/Rialto
+watch unchanged.
+
+---
+
 ## 2026-10-20 — Heartbeat: tide-table example separates predictions, daylight and access
 
 **One primary action (§2d):** completed the queued `how-to-read-a-tide-table`

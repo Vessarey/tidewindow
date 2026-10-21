@@ -564,7 +564,17 @@ and keep the owner-held Haystack/minus-tide changes out of every release.
       provenance without changing the formula. Re-fetch NOAA datum/cycle
       sources; preserve the original date/title/gates, set updated only for
       real changes, and run a plain build plus factual/wording checks.
-- [ ] **Glass Beach — retire the four passed "remaining" windows.**
+- [x] **Glass Beach — retire the four passed "remaining" windows.**
+      **Done 2026-10-21 (`76ae810`):** lead/FAQ/section now state zero
+      qualifying 2026 windows remain (Oct 21 fact sheet: every remaining
+      below-+1-ft interval has 0 daylight minutes; verified independently
+      against committed windows). Four passed rows kept as a dated,
+      re-verified record. Chart rolled Sep 22–Oct 31 → Oct 21–Nov 30
+      (41 days; 24 minus tides all 8:11 PM–3:07 AM; deepest −3.51 ft
+      Nov 25). 2027 lowest-five re-verified; added Jan 16, 2027
+      first-qualifying-window note. All four sources re-fetched 200 and
+      spot-checked. Build + verify-output + all test suites green.
+      Original brief:
       Target `glass-beach-port-townsend-low-tide-2026`. Page: 6 clicks / 106
       impressions / position 6.54. Property-level query `glass beach port
       townsend tide chart`: 0 / 22 / 8.5; NOT attributed to this page.
