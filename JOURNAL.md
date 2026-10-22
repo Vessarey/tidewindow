@@ -5,6 +5,150 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-22 — Heartbeat: sneaker-wave factual correction, separate from the sent newsletter
+
+**One primary action (§2d):** published article/test commit `615b442`.
+The morning operator already sent today's newsletter; this heartbeat did not
+sync contacts or send again. Used the analytics-led refresh workflow to keep
+the queued correction evidence-led: original title, URL, July 26 publish
+date, useful historical tide rows and conversion surfaces preserved; honest
+`updated: 2026-10-22`. No new title/CTA experiment, station or formula change.
+Four ready briefs remain; next editorial item is trip-planning.
+
+**Correction and basis:** removed the claim that the low-minus-one-hour
+offset includes a 20-minute safety observation period, the route-commitment
+instruction, unsupported breaker-count rule and August 12-as-upcoming
+framing. Current [NWS](https://www.weather.gov/safety/sneaker-waves),
+[Oregon Parks](https://stateparks.oregon.gov/index.cfm?do=v.page&id=96) and
+[NPS](https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm) guidance
+is quoted narrowly; no medical/rescue instruction added. The
+[primary paper](https://nhess.copernicus.org/articles/23/107/2023/) supports
+a plausible infragravity mechanism, not certainty or an individual-wave
+timetable. All six retained sources re-fetched HTTP 200 at write time.
+
+Recomputed all 11 West Coast station windows for July 1–December 31, 2026,
+inclusive by station-local date: 953 minus tides, of which 548 have >=30
+minutes of daylight overlap. The 5/6/7 AM bins sum 53+58+53=164; the
+4/5/6 PM bins sum 45+51+36=132. These are neither full-year totals nor
+wave-risk frequencies. Five Aug 12 historical rows reverified against
+committed predictions (IDs, rounded heights, low times and scores); replaced
+the arrival column with sunrise. All five one-hour offsets precede sunrise:
+Newport 5:46 AM versus 6:15 AM; Port Orford's low itself is 6:19 AM before
+6:21 AM sunrise. La Push 4:30–9:25 AM is 295 total minutes / 195 daylight.
+No tide arithmetic establishes access, arrival or a wave forecast.
+
+**Validation and preservation:** two new wording/data regressions fail
+against the pre-change article, then pass with the correction. All **85 tests**
+pass (42 facts, 6 math, 17 format, 6 wording, 14 GSC); lint and TypeScript
+pass. Isolated archive build excludes all held edits. Fresh NOAA pipeline
+completed all 12 stations; the first build then failed because Turbopack
+rejects an external node_modules symlink. Removed only that temporary
+symlink and installed locked dependencies in the isolated folder. Next
+16.3.8 build on the freshly fetched data then passed, followed by a final
+plain build after restoring committed data in that isolated copy. Both
+successful builds generated 149 routes and verified 12 stations x 5 months /
+136 sitemap URLs. No generated files copied back to the real checkout.
+The main checkout's installed Next is still 16.3.3 despite its committed
+16.3.8 pin; no mutation of that shared installation. Future validation
+should use a locked clean install, not the stale shared node_modules.
+
+Lead 67 words; description 131 characters; four FAQ entries; original
+canonical/published date and Oct 22 modified date verified in generated
+schema. All 10 article-body internal links resolve in the export. Desktop
+1280px and mobile 390px preview have no document overflow; historical table
+checked on mobile. Live guide-footer ZIP 98101 navigates to Seattle's Finder
+with Oct 22 data; changing the depth filter changes 19 results to 11.
+Calendar gate opens with email field/submit button; no personal data entered
+or submitted. No warning/error logs observed in these bounded flows.
+All 130 held files remain SHA-256 identical (two owner-held articles,
+eight newsletter drafts, three SEO evidence directories), no stashing.
+Source/test diff and whitespace checked; public generated data unchanged.
+
+Fresh production-only npm audit: zero findings. Full audit: seven high
+development package entries in the already-queued braces/lint and
+compression/serve chains; not a clean full audit. The install summary's
+eight/critical count did not reproduce in the separate fresh audits.
+No force-fix, package/lock edit or new security-clearance claim. Local preview
+is loopback-only with compression disabled.
+
+**Release verified:** `615b442` pushed to main; Vercel success at
+17:23:48Z, deployment `B2Uf7t6BcWkop7qcR6UsrxyKUJSd`. Direct production
+HTTP confirms the corrected lead, historical heading, sunrise column,
+four FAQ entries and published/modified schema; old built-in observation
+claim absent. All 12 station JSONs still byte-match committed main after
+release. Live browser checks confirm the new copy and no document overflow
+at 1280px/390px, with no warning/error logs observed. This confirms delivery,
+not recrawl, indexing or a performance gain.
+
+**Refresh/health:** latest five Actions runs green; no open issues. Actual
+scheduled refresh `39725121593` started 04:55:54Z and pushed `13f075e` at
+**04:58:20.3634497Z**. The morning journal's 04:58:18 is commit time, not
+actual push time. IndexNow accepted 136 URLs, HTTP 200 at
+04:58:18.0234250Z. Later 07:59/09:39/12:59/15:19 runs are guards, not new
+refreshes. Originating cron expression unavailable: no slot identity/delay
+inferred and no recovery dispatch. All 12 live station JSONs byte-match
+main, generated 04:56:19.264Z. Nine selected routes, sitemap and homepage's
+actual Open Graph image return 200. No score >=90 in Oct 22–Nov 5 inclusive;
+best is Pillar Point 68 on Oct 25. Zero new article additions this week.
+
+**Search:** GSC `sc-domain:thetidewindow.com`, Web/final, all countries/devices,
+inclusive Pacific dates; latest final date Oct 20 (probe through Oct 21).
+Sep 23–Oct 20: **323 clicks / 16,255 impressions / position 6.98**, versus
+Aug 26–Sep 22 **213 / 13,440 / 7.60**, **+51.6% clicks**. Oct 14–20:
+**61 / 3,809 / 7.32**, versus Oct 7–13 **93 / 4,352 / 6.80**,
+**-34.4% clicks**. All 101 page and 696 query rows fetched before selection;
+query disclosure/API limits still apply. Top page clicks: national king
+tides 97, WA 51, Fitzgerald 32, Oregon 32, Seattle 26, Acadia 18.
+Sneaker-wave page: **0 / 133 / 15.79**; exact-page queries include
+`sneaker wave` 0/33/19.12 and `what is a sneaker wave` 0/7/17.14.
+This is a factual repair, not a low-CTR title test or evidence of uplift.
+Initial directional review after recrawl, no earlier than Nov 5; use
+28-day page/query clicks and position with seasonality and sample floors.
+Weekly indexing was already done Oct 19; Golden Hour review remains Oct 26.
+
+**Product/conversion:** native PostHog access checks remain unauthorized;
+GSC Wizard requires payment. Used configured read-only fallbacks with no
+access/billing changes. Project 495836, exact host `thetidewindow.com`,
+Regular class; half-open UTC intervals ending Oct 22 **17:10:29Z**, before
+this heartbeat's browser QA. Oct 15 onward: **569 pageviews / 520 pageview
+distinct IDs / 0 observed signups**. Four Bot pageviews excluded; Regular
+is not proof of humans. Events: station selections 15 (10 IDs), ZIP uses
+15 (9), window views 13 (9), gates 6 (6), Trip Picker 3 (1), exit prompts
+22 (22); no ICS reveal, heatmap or exception observed in this 7d result.
+Top pageviews: national king tides 141, Oregon 116, WA 58, home 19,
+Fitzgerald 16, Finder 13. Referrer pageviews: direct 168, Bing 123,
+Google 112, DuckDuckGo 69, Yahoo 44; Gemini 2. These are not sessions,
+verified people or an ordered funnel. LCP p75 813ms on 152 LCP-bearing
+events among 526 web-vitals events; partial coverage.
+
+The fresh 28d read **succeeded today**, unlike yesterday's timeouts:
+Sep 24 onward **2,227 pageviews / 2,062 pageview IDs / 8 signup events
+(8 IDs)**, event/ID ratio ~0.39%, not verified-human conversion. 28d tool
+events: station 76 (55 IDs), ZIP 50 (35), window views 63 (47), gates
+31 (30), Trip Picker 10 (5), ICS reveals 2 (2), heatmap_viewed 1 (1).
+Three exception events (2 IDs) observed in 28d; the 7d capture flag is
+missing on 491 pageviews, false on 78, true on none, project opt-in null.
+Neither zero 7d exceptions nor the three 28d events establishes full error
+coverage. No new variant, verdict or deadline extension; existing sample
+floors and retired tests retained. Exit-prompt owner-instruction conflict
+and instrumentation gap remain open.
+
+**Newsletter/operational carry-forward:** read-only Resend confirms 23
+contacts = **22 subscribed + 1 unsubscribed**, no more pages; today's
+`3acc9477-02a5-4e7e-bddb-78eb33b94ee4` is sent at
+12:12:05.460919Z. This verifies send state, not bounce/complaint rates;
+those remain an owner dashboard check. No duplicate send.
+NPS road status (Oct 15) and conditions (Oct 17) still list Mora Road Open;
+Rialto route page (Jul 31) retains the expired construction notice. No
+new closure or physical-route clearance inferred, no shared destination
+restoration. Next: trip-planning maintenance, Golden Hour Oct 26,
+newsletter Oct 29, November rollout/indexing gate Nov 1. Held
+Haystack/minus-tide drafts still contain passed timing claims; owner
+reconciliation remains separate, never commit/discard them implicitly.
+No spend, outreach, credentials/configuration changes or new automation.
+
+---
+
 ## 2026-10-22 — Thursday newsletter: first normal-week issue since Sep 3 sent
 
 **Health (green, unaided day nine):** scheduled run `39725121593` started

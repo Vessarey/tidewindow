@@ -513,7 +513,16 @@ or owner-held Haystack/minus-tide edit. These briefs queue work; they do not
 claim the public defects are fixed. Thursday Oct 22's established newsletter
 ritual remains the operator's standing priority.
 
-- [ ] **First: sneaker-wave guide — separate tide arithmetic from safety.**
+- [x] **First: sneaker-wave guide — separate tide arithmetic from safety.**
+      **Done Oct 22 heartbeat (`615b442`):** 548 qualifying minus tides,
+      164 morning / 132 afternoon hour-bin lows explicitly scoped to
+      July–December; August 12 table retained as history with sunrise
+      replacing arrival instructions. Removed the built-in observation
+      allowance and breaker-count rule; primary research is a plausible
+      mechanism, not an individual-wave forecast. Two new regressions
+      fail on the old article and pass after correction. Original title,
+      URL and publish date preserved; four ready briefs remain. See journal
+      for fresh/committed build, source, browser and release evidence.
       Target `what-is-a-sneaker-wave`. Page baseline: 0 clicks / 129
       impressions / position 15.40. Exact-page query `sneaker wave`: 0 / 33 /
       19.12; `what is a sneaker wave`: 0 / 7 / 17.14; `what causes sneaker
