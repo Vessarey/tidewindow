@@ -5,6 +5,69 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-10-22 — Thursday newsletter: first normal-week issue since Sep 3 sent
+
+**Health (green, unaided day nine):** scheduled run `39725121593` started
+04:55:54Z, ran 2m28s and pushed `13f075e` ("data: daily NOAA refresh
+2026-10-22") at 04:58:18Z, well before the session. The 07:59 and 09:39
+slots were ~10s guard skips. Latest five runs green; no open issues.
+Originating cron expression unavailable, so no slot identity or delay
+inferred. Owner-held files (haystack + minus-tide edits, Oct 1/8/15
+newsletter drafts, three seo-refresh dirs) preserved via autostash
+round-trip (numstat 65/48 + 37/35 identical before and after the pull)
+and excluded from this commit.
+
+**Primary — Thursday newsletter ritual (established template only):**
+1. `sync-audience`: PostHog 504/500 on the signup query (three failures,
+   same transient class as the last four Thursdays; PostHog's repeat-query
+   limiter kicked in after the third); fourth attempt succeeded with ~75s
+   spacing. 0 added, 23 already present, 23 total, 1 unsubscribed
+   untouched — no new signups since Oct 13, consistent with the 7d
+   `newsletter_signup` count of 0.
+2. `send-weekly --dry-run`: Oct 22–28, normal-week issue — the first
+   non-quiet week since Sep 3. Subject: Pillar Point Harbor −0.52 ft Sun.
+   10 Good windows across 4 CA stations, 0 Great / 0 Exceptional.
+3. Recompute-check: independent scan of `public/data-json/stations` for
+   Oct 22–28 across all 12 stations finds exactly 10 Good-band windows at
+   exactly those 4 stations (all other windows: 28 Fair, 39 Skip), and
+   every rendered number verified field-for-field — Pillar Point Oct 25
+   −0.52 ft 4:59 PM window 2:50–7:15 PM arrive-by 3:59 PM score 68, Oct 26
+   −0.93/67, Oct 27 −1.15/65; Monterey Oct 25 −0.17 ft 4:52 PM 2:50–6:55
+   PM 61; La Jolla Oct 27 −0.83 ft 4:57 PM 2:35–7:35 PM 65, Oct 25
+   −0.37/65, Oct 26 −0.70/62; San Diego Oct 25 −0.35 ft 3:31 PM 1:35–5:30
+   PM 65, Oct 26 −0.67/61, Oct 27 −0.78/64. Species block matches the
+   station JSON (Spotted Dorid 29, Opalescent Nudibranch 16, Hopkins' Rose
+   Nudibranch 13). Numerals-masked diff vs the sent Sep 3 normal-week
+   issue shows the identical section structure (best-window block, summary
+   line, regional sections, no-window regions line, species block,
+   disclaimer, footer); all differences are the template's own
+   conditionals filled with this week's data. Newsletter scripts unchanged
+   in git (only the ebb4efb docs-comment commit since the original
+   pipeline). All four station URLs and /newsletter/ fetch 200. Standing
+   blanket approval applies; no new sections, tone or promotions.
+4. Sent: Broadcast `3acc9477-02a5-4e7e-bddb-78eb33b94ee4` to 22
+   subscribers; Resend status `sent` at 12:12:05Z (re-polled after
+   `queued`, per the Oct 15 note). Broadcasts API still exposes no bounce/
+   complaint fields — dashboard remains an owner check. Oct 22 draft files
+   left uncommitted alongside the Oct 1/8/15 ones, matching prior runs.
+
+**Metrics snapshot (narrow split queries per Oct 21 note):** 7d
+thetidewindow.com: 572 pageviews / 523 distinct IDs / 0 signups. No 28d
+pull today — the send plus its gates were the budget; yesterday's
+heartbeat 28d reads timed out and were not retried here.
+
+**Tomorrow (Oct 23):** next non-Thursday editorial action is the
+sneaker-wave P1 brief (queue holds five ready briefs). Golden Hour crawl
+review Oct 26; November rollover + indexing gate Nov 1. NPS Mora/Rialto
+watch unchanged (last checked Oct 21: Mora Road listed Open). Watch
+today's broadcast for bounces/complaints in the Resend dashboard.
+Owner exit-prompt reconciliation and exception-instrumentation gap remain
+open. Haystack/minus-tide owner-held edits are now a month stale (their
+Oct 10 "first window" has passed) — flag for the owner rather than
+committing or discarding unilaterally.
+
+---
+
 ## 2026-10-21 — Heartbeat: restore five ready briefs without repeating Glass Beach
 
 **One primary action (§2a, docs only):** morning `76ae810` completed Glass
