@@ -1,74 +1,74 @@
 ---
 title: "What Is a Sneaker Wave? The Science Behind the Ocean's Quietest Trick"
-description: "Sneaker waves arrive after 10–20 minutes of small surf and run 150+ feet up dry beach. The NWS rules, the infragravity science, and the dawn-window link."
+description: "What sneaker waves are, what research says about extreme run-up, and why a low-tide time or daylight window is not a wave forecast."
 date: "2026-07-26"
+updated: "2026-10-22"
 category: "tide-basics"
 tags: ["sneaker waves", "beach safety", "pacific northwest", "infragravity waves", "oregon coast", "minus tide"]
 faq:
   - q: "What is a sneaker wave?"
-    a: "The National Weather Service defines sneaker waves as 'potentially deadly waves that surge further up the beach than expected, overtaking the unaware.' They can arrive after 10 to 20 minutes of deceptively small surf and can run up the beach by at least 150 feet (45 meters) into dry sand — which is why they catch people who believed they were standing well clear of the water."
+    a: "A sneaker wave is an unexpectedly far-reaching surge up a beach. The National Weather Service describes potentially deadly run-up that can follow a stretch of small waves; the preceding surf does not establish how far the next surge will reach."
   - q: "What causes sneaker waves?"
-    a: "Research led at Oregon State University, published in Natural Hazards and Earth System Sciences in 2023, ties extreme wave run-up on the Pacific Northwest coast to infragravity waves — long, low waves fed by the energy of ordinary swell. Large storms far offshore, near Alaska or the South Pacific, stretch out the time between swell waves; that spacing feeds infragravity energy that can surge far beyond the usual reach of the surf."
-  - q: "How can you tell when sneaker waves are more likely?"
-    a: "The rule of thumb from Oregon State University researchers who studied Pacific Northwest sneaker waves in 2023: count the seconds between waves breaking on the shore — the more time between waves, the more likely a sneaker wave, and 20 or more seconds between well-organized, clean lines of swell is the signature to treat with extra caution. The National Weather Service's standing instruction is to watch the ocean for at least 20 minutes and study its wave patterns before settling in on the beach."
+    a: "A 2023 Pacific Northwest study identifies energy transfer from swell into much longer infragravity waves as a plausible mechanism for extreme run-up. It is an explanation supported by observations and modeling, not a timetable for individual waves."
+  - q: "Can a low-tide window predict sneaker waves?"
+    a: "No. Tidewindow calculates tide heights, below-threshold intervals and daylight overlap; it does not forecast sneaker waves. Its one-hour-before-low offset and scores do not verify wave conditions, arrival times or route access. The linked National Weather Service page provides official guidance and forecast links."
   - q: "How far up the beach can a sneaker wave reach?"
-    a: "The National Weather Service says sneaker waves 'can run up the beach by at least 150 feet (45 meters) into the dry beach.' In the extreme January 16, 2016 event studied in Natural Hazards and Earth System Sciences — which produced run-up along roughly 1,000 km of the Washington, Oregon, and northern California coast in a single day — the researchers documented inland excursions of hundreds of meters at the worst-hit spots."
-  - q: "Do sneaker waves only happen in winter?"
-    a: "No. The National Weather Service notes sneaker waves 'can happen on any surf coast,' in any season, and its watch-the-ocean guidance applies year-round. The 2023 Oregon State study found the biggest events are fueled by large distant storms, which on the Pacific coast are most common from fall through spring — but a summer dawn with long, well-spaced swell lines deserves the same respect."
+    a: "The National Weather Service describes run-up of at least 150 feet (45 meters) into dry beach. That figure is not a maximum, a recommended setback or a boundary calculated by Tidewindow."
 sources:
   - "https://www.weather.gov/safety/sneaker-waves"
   - "https://nhess.copernicus.org/articles/23/107/2023/"
-  - "https://www.sciencedaily.com/releases/2023/01/230131160538.htm"
   - "https://stateparks.oregon.gov/index.cfm?do=v.page&id=96"
   - "https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm"
   - "https://www.nps.gov/olym/planyourvisit/exploring-the-coast.htm"
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442396"
 ---
 
-**Sneaker waves are, per the National Weather Service, "potentially deadly waves that surge further up the beach than expected, overtaking the unaware" — arriving after 10 to 20 minutes of small surf and running at least 150 feet up dry beach. They matter to tidepoolers because minus tides happen in the quietest hours: 115 of the West Coast's 414 daylight minus tides in 2026 bottom out between 5 and 8 AM, La Push (NOAA 9442396) included.**
+**A sneaker wave surges farther up a beach than the preceding surf suggests. Tide predictions do not forecast it: our July 1–December 31, 2026 data contain 548 minus tides with daylight-overlapping windows across 11 West Coast stations, including La Push (NOAA 9442396), but that count says nothing about wave risk. A low tide, daylight overlap or high Tidewindow score does not establish safe arrival or beach access.**
 
 ## What is a sneaker wave?
 
-The name is the mechanism. A sneaker wave is not a rogue wave out at sea or a tsunami; it is a single surge, on an otherwise ordinary day, that runs much farther up the beach than anything in the preceding minutes suggested was possible. The National Weather Service's [sneaker-wave safety page](https://www.weather.gov/safety/sneaker-waves) states the trap plainly: "There can be 10 to 20 minutes of small waves right before a sneaker wave strikes." Twenty minutes is longer than most people watch the ocean before deciding it is calm. Then the one wave arrives, and it "can run up the beach by at least 150 feet (45 meters) into the dry beach."
+The National Weather Service's [sneaker-wave page](https://www.weather.gov/safety/sneaker-waves) describes unexpectedly extensive, potentially deadly run-up. Small waves may precede it for 10–20 minutes. NWS gives an example reach of at least 150 feet (45 meters) into dry beach, not a maximum distance or a setback rule. It also describes heavy, water-soaked logs being lifted or rolled by the surge.
 
-Two details in the NWS guidance explain why the Pacific Northwest takes these waves so seriously. First, the logs: Northwest beaches are floored with drift logs, and "sneaker waves can run up on the beach, lifting or rolling these extremely heavy water soaked logs." A log that outweighs a car, briefly buoyant, is the most dangerous object on the beach. Second, the water itself: sneaker waves "can happen on any surf coast; however, in the Northwest, water temperatures are frigid," and "exposure to the cold water can cause cold water paralysis in the limbs within minutes, further impairing the individual's ability to escape the wave."
+A tide table answers a different question: the predicted water level at a reference station. It does not describe the reach of an individual breaking wave.
 
-## What causes them? Storms you can't see
+## What the research explains—and what it does not
 
-For a long time the honest answer was "we don't fully know." A 2023 study — [Observations of extreme wave runup events on the US Pacific Northwest coast](https://nhess.copernicus.org/articles/23/107/2023/), published in *Natural Hazards and Earth System Sciences* by Oregon State University researchers with a Pacific Northwest National Laboratory scientist and National Weather Service forecasters in Portland — filled in a large piece. The mechanism involves two kinds of waves. The swell you can see breaking is made of surface gravity waves. Underneath them travel infragravity waves: much longer, lower waves fed by the energy of the visible swell. When a large storm is running far away — near Alaska, or in the South Pacific — the swell that arrives here is long-period, with unusually generous spacing between waves, and that spacing pumps energy into the infragravity band. The result is a surge that periodically runs far beyond where the ordinary breakers have been reaching.
+The 2023 paper [Observations of extreme wave runup events on the US Pacific Northwest coast](https://nhess.copernicus.org/articles/23/107/2023/) examines observations and numerical simulations. Its central case is January 16, 2016, when extreme run-up occurred along roughly 1,000 kilometers of Washington, Oregon and northern California coastline within five hours.
 
-The study's centerpiece is January 16, 2016, a day that produced extreme run-up along roughly 1,000 kilometers of coast — Washington, Oregon, and northern California at once. At the onset of the event, peak wave periods lengthened from about 12 to about 25 seconds, and the worst-hit locations recorded inland excursions of hundreds of meters. Not every coast can produce this: per the university's summary of the work, the Pacific Northwest's narrow continental shelf and its exposure to far-offshore winter storms are what make it vulnerable.
+The authors identify a plausible mechanism: energy transfers from ordinary swell into much longer infragravity waves, producing an unusually large run-up response. Their observations link the event to a rapid increase in low-frequency wave energy. This helps explain the phenomenon; it does not turn a tide-table hour, a season or a count of visible breakers into a prediction of the next wave.
 
-The research also yields the one field observation a beach visitor can actually use, and it is a counting exercise: "Count the seconds between each wave breaking on the shore. The more time between waves, the more likely a sneaker wave could occur. If the waves are 20 or more seconds apart and look well-organized, with long, clean lines of swell waves, be especially cautious." Long, clean, widely spaced lines of swell look beautiful and calm. That is precisely the look to distrust. As study co-author Tuba Özkan-Haller put it: "One sneaker wave can change the course of life."
+## Dawn tide timing is not a wave-risk forecast
 
-## Why dawn windows are exactly when to remember this
+Our [Pacific dawn-tide explainer](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/) concerns tidal timing, not surf conditions. The current fact-sheet range is **July 1–December 31, 2026**, inclusive by station-local date—not a full calendar year. Across 11 West Coast stations, 548 minus tides have modeled windows with **at least 30 minutes of daylight overlap**.
 
-The tide calendar and the sneaker-wave problem intersect at an awkward hour. On the Pacific coast, [summer's lowest tides land at dawn](/guides/why-summer-lowest-tides-happen-at-dawn-pacific/), and the 2026 histogram makes the point numerically: of the 414 daylight minus tides across our 11 West Coast stations this year, 115 bottom out in the 5, 6, and 7 AM hours, and another 132 in the 4, 5, and 6 PM hours. The best tidepooling of the year happens at first light and last light — thin crowds, long shadows, and, on the open coast, nobody else watching the water.
+Within that selection, **164** lows fall in the 5:00–7:59 AM hour bins (53 + 58 + 53), and **132** lows fall in the 4:00–6:59 PM bins (45 + 51 + 36). These are counts of predicted lows, not the probability or frequency of sneaker waves. Daylight overlap also does not mean the low itself—or the entire below-threshold interval—is in daylight.
 
-That is the argument for building the watching into the schedule. Every window on our station pages carries an arrive-by time one hour before the low. The NWS instruction — "Watch the ocean for at least 20 minutes. Study its wave patterns." — fits inside that hour with room to spare: arrive on time, and the wave-watching is done from the top of the beach before you commit to the rocks at the bottom of it.
+The site's “arrive-by” field is a mechanical offset: low tide minus one hour. It is **not a verified arrival time**, an observation allowance or a route plan. No safety observation period is built into the calculation.
 
-Here is the next morning this matters concretely. The outer coast's deepest remaining run of 2026 peaks on Wednesday, August 12, when all five of our open-ocean stations bottom out between 6:19 and 7:04 AM:
+## Historical example: August 12, 2026
 
-| Station | NOAA id | Low (ft MLLW) | Low time | Arrive by | Score |
+These five station rows are retained as a historical example, not upcoming dates or a remaining-season ranking. Sunrise makes the distinction between a tide time and a daylight-overlapping window visible.
+
+| Station | NOAA id | Low (ft MLLW) | Low time | Sunrise | Score |
 |---|---|---|---|---|---|
-| [La Push](/beaches/wa/la-push-wa/) | 9442396 | −2.31 | 6:58 AM | 5:58 AM | 90 (Exceptional) |
-| [Garibaldi](/beaches/or/garibaldi-or/) | 9437540 | −1.77 | 7:04 AM | 6:04 AM | 85 (Great) |
-| [Newport](/beaches/or/newport-or/) | 9435380 | −1.91 | 6:46 AM | 5:46 AM | 88 (Great) |
-| [Charleston](/beaches/or/charleston-or/) | 9432780 | −1.72 | 6:35 AM | 5:35 AM | 81 (Great) |
-| [Port Orford](/beaches/or/port-orford-or/) | 9431647 | −1.74 | 6:19 AM | 5:19 AM | 80 (Great) |
+| [La Push](/beaches/wa/la-push-wa/) | 9442396 | −2.31 | 6:58 AM | 6:09 AM | 90 (Exceptional) |
+| [Garibaldi](/beaches/or/garibaldi-or/) | 9437540 | −1.77 | 7:04 AM | 6:12 AM | 85 (Great) |
+| [Newport](/beaches/or/newport-or/) | 9435380 | −1.91 | 6:46 AM | 6:15 AM | 88 (Great) |
+| [Charleston](/beaches/or/charleston-or/) | 9432780 | −1.72 | 6:35 AM | 6:19 AM | 81 (Great) |
+| [Port Orford](/beaches/or/port-orford-or/) | 9431647 | −1.74 | 6:19 AM | 6:21 AM | 80 (Great) |
 
-*Computed 2026-07-26 from NOAA predictions; windows and scores per our [methodology](/methodology/).*
+*Rechecked October 22, 2026 against the committed NOAA predictions and calculated windows. Times are local PDT; heights are relative to MLLW. Sunrise and Tidewindow scores are calculated, not NOAA observations. Scores follow our [methodology](/methodology/) and are not wave-risk or access ratings.*
 
-Note what the clock is doing: La Push's window that morning opens at 4:30 AM, but only 195 of its 295 minutes are in daylight — the front of the window is dark. A dawn arrival on an empty beach, eyes still adjusting, is the exact opposite of the NWS's twenty attentive minutes unless you plan those minutes deliberately. The [Puget Sound run of August 8–13](/guides/puget-sound-minus-tides-august-8-13-2026/) and the [Oregon hub](/beaches/or/) cover where to take these mornings; this page is about the part of the morning that happens before you look down at the pools.
+At Newport, the model's 5:46 AM offset is before the 6:15 AM sunrise. All five one-hour offsets precede sunrise. Port Orford's 6:19 AM low itself is before its 6:21 AM sunrise. At La Push, the below-threshold interval spans 4:30–9:25 AM: 295 minutes in total, but only 195 minutes of daylight overlap. None of those numbers supplies an arrival instruction.
 
-## What the officials ask of you
+The [August 8–13 Puget Sound guide](/guides/puget-sound-minus-tides-august-8-13-2026/) is another dated example; the [Oregon hub](/beaches/or/) links to station calendars. Neither replaces current wave forecasts or land-manager access information.
 
-Safety guidance on this site is quoted, not invented, so here is the standing advice from the three agencies whose beaches these are.
+## Official guidance, in the agencies' words
 
-The National Weather Service, from its sneaker-wave page: "Watch the ocean for at least 20 minutes. Study its wave patterns." And the two rules that never come off the list: "Never turn your back on the ocean," and "Stay off and well clear of large logs and debris fields that are anywhere near the surfline or below the high water marks."
+From the [National Weather Service](https://www.weather.gov/safety/sneaker-waves): “watch the ocean for at least 20 minutes. Study its wave patterns.” Also: “Never turn your back on the ocean.” These are agency instructions, not a guarantee produced by waiting for a fixed interval.
 
-Oregon State Parks, from its [beach safety page](https://stateparks.oregon.gov/index.cfm?do=v.page&id=96): "Always keep one eye on the ocean so you won't be caught off guard if a bigger wave surges up the beach." On the logs, the physics behind the rule: "Stay away from logs on the beach or in the surf. The logs absorb water like sponges, increasing their weight by up to several tons." And on the tide itself: "Know when the tide is coming in, especially when exploring tidepools or secluded beaches. Incoming tides can quickly leave you stranded away from shore."
+[Oregon State Parks](https://stateparks.oregon.gov/index.cfm?do=v.page&id=96): “Know when the tide is coming in, especially when exploring tidepools or secluded beaches.”
 
-Olympic National Park, whose coast includes La Push's beaches, folds both hazards into one line of its [tidepooling guidance](https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm): "Watch closely for the returning tide and 'sneaker waves.'" And its general coastal rule: "Wherever you go along the coast, always carry a tide table and know how to use it!"
+[Olympic National Park's tidepooling page](https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm): “Watch closely for the returning tide and 'sneaker waves.'” Its [coastal planning page](https://www.nps.gov/olym/planyourvisit/exploring-the-coast.htm) adds: “Wherever you go along the coast, always carry a tide table and know how to use it!”
 
-Before a dawn window, check the NWS forecast for your stretch of coast at weather.gov — coastal offices flag elevated sneaker-wave conditions in their beach-hazard messaging when the swell calls for it. Then let the [Tide Window Finder](/tools/tide-window-finder/) handle the tide half of the plan: the low, the window, and an arrive-by time with twenty minutes of ocean-watching already built in.
+The NWS page above includes official forecast links. The [Tide Window Finder](/tools/tide-window-finder/) supplies the tide portion: predicted lows, modeled below-threshold intervals and daylight overlap. It does not forecast sneaker waves or verify route access.

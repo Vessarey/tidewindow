@@ -112,3 +112,52 @@ test("tide-table example explains its before-sunrise offset using Newport data",
   assert.ok(text.includes(example.sunriseLocal), "Show the example's actual sunrise.");
   assert.match(text, /before sunrise/);
 });
+
+test("sneaker-wave guide does not turn tide offsets into a safety plan", () => {
+  const { text } = articles.find(({ file }) => file === "what-is-a-sneaker-wave.md");
+  for (const pattern of [
+    /ocean-watching already built in/i,
+    /fits inside that hour with room to spare/i,
+    /before you commit to the rocks/i,
+    /the next morning this matters/i,
+    /20 or more seconds apart/i,
+    /414 daylight minus tides|115 (?:of|bottom out)/i,
+  ]) {
+    assert.doesNotMatch(text, pattern, "Do not restore unsupported safety or expired timing claims.");
+  }
+  assert.match(text, /does not forecast sneaker waves/i);
+  assert.match(text, /not a verified arrival time/i);
+  assert.match(text, /historical example/i);
+  assert.match(text, /not.*(?:probability|frequency).*sneaker waves/i);
+});
+
+test("sneaker-wave historical table and scoped histogram match committed data", () => {
+  const { text } = articles.find(({ file }) => file === "what-is-a-sneaker-wave.md");
+  const facts = JSON.parse(fs.readFileSync(path.join(ROOT, "docs-internal/facts/global.json"), "utf8"));
+  assert.equal(facts.range_2026.start_date, "2026-07-01");
+  assert.equal(facts.range_2026.end_date, "2026-12-31");
+  assert.match(text, /July 1–December 31, 2026/);
+  assert.match(text, /at least 30 minutes of daylight overlap/);
+  const hours = facts.hour_histogram_2026_daylight_minus.west;
+  const morning = hours["5 AM"] + hours["6 AM"] + hours["7 AM"];
+  const evening = hours["4 PM"] + hours["5 PM"] + hours["6 PM"];
+  assert.ok(text.includes(`${facts.coasts.west.daylight_minus_tides_2026} minus tides`));
+  assert.ok(text.includes(`**${morning}** lows`));
+  assert.ok(text.includes(`**${evening}** lows`));
+  for (const slug of ["la-push-wa", "garibaldi-or", "newport-or", "charleston-or", "port-orford-or"]) {
+    const { station, windows } = JSON.parse(fs.readFileSync(path.join(STATIONS_DIR, `${slug}.json`), "utf8"));
+    const example = windows.find((w) => w.date === "2026-08-12" && w.lowHeight < 0);
+    assert.ok(example, `${slug}: historical example remains available`);
+    const row = text.split("\n").find((line) => line.startsWith("|") && line.includes(station.noaaId));
+    assert.ok(row, `${slug}: preserve the historical table row`);
+    for (const value of [
+      `−${Math.abs(example.lowHeight).toFixed(2)}`,
+      example.lowTimeLocal,
+      example.sunriseLocal,
+      `${example.score} (${example.band})`,
+    ]) assert.ok(row.includes(value), `${slug}: row must show ${value}`);
+    assert.ok(example.arriveBy < example.sunrise, `${slug}: the one-hour offset precedes sunrise`);
+  }
+  assert.match(text, /5:46 AM.*before.*6:15 AM sunrise/);
+  assert.match(text, /6:19 AM low.*before.*6:21 AM sunrise/);
+});
