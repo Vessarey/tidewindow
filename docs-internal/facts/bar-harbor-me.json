@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-21",
+ "generated_on": "2026-10-22",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -2086,6 +2086,11 @@
    "count": 8
   },
   {
+   "commonName": "Soft-shelled Clam",
+   "scientificName": "Mya arenaria",
+   "count": 4
+  },
+  {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
    "count": 4
@@ -2093,11 +2098,6 @@
   {
    "commonName": "Fuzzy Onchidoris",
    "scientificName": "Onchidoris muricata",
-   "count": 3
-  },
-  {
-   "commonName": "Soft-shelled Clam",
-   "scientificName": "Mya arenaria",
    "count": 3
   },
   {
