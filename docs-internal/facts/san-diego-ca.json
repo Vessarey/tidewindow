@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-22",
+ "generated_on": "2026-10-23",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -89,6 +89,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.933,
+   "low_time_local": "1:35 PM",
+   "window_local": "11:05 AM–4:20 PM",
+   "arrive_by_local": "12:35 PM",
+   "daylight_min": 315,
+   "score": 65,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-10-27",
    "weekday": "Tue",
    "low_ft": -0.777,
@@ -99,18 +111,6 @@
    "score": 64,
    "band": "Good",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.367,
-   "low_time_local": "2:43 PM",
-   "window_local": "12:45 PM–4:55 PM",
-   "arrive_by_local": "1:43 PM",
-   "daylight_min": 247,
-   "score": 64,
-   "band": "Good",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2052,23 +2052,23 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 3
+  },
+  {
+   "commonName": "Kelp Scallop",
+   "scientificName": "Leptopecten latiauratus",
+   "count": 3
+  },
+  {
    "commonName": "Flat spoonclam",
    "scientificName": "Periploma planiusculum",
    "count": 3
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 2
-  },
-  {
    "commonName": "Gland Dorid",
    "scientificName": "Polycerella glandulosa",
-   "count": 2
-  },
-  {
-   "commonName": "Kelp Scallop",
-   "scientificName": "Leptopecten latiauratus",
    "count": 2
   },
   {
@@ -2079,6 +2079,11 @@
   {
    "commonName": "Cloudy Bubble Snail",
    "scientificName": "Bulla gouldiana",
+   "count": 1
+  },
+  {
+   "commonName": "Owl Limpet",
+   "scientificName": "Lottia gigantea",
    "count": 1
   },
   {
@@ -2094,11 +2099,6 @@
   {
    "commonName": "Spiny Cup-and-Saucer",
    "scientificName": "Crucibulum spinosum",
-   "count": 1
-  },
-  {
-   "commonName": "Pacific Calico Scallop",
-   "scientificName": "Argopecten ventricosus",
    "count": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-22",
+ "generated_on": "2026-10-23",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -101,16 +101,16 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.165,
-   "low_time_local": "4:52 PM",
-   "window_local": "2:50 PM–6:55 PM",
-   "arrive_by_local": "3:52 PM",
-   "daylight_min": 208,
-   "score": 61,
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.884,
+   "low_time_local": "2:45 PM",
+   "window_local": "12:10 PM–5:35 PM",
+   "arrive_by_local": "1:45 PM",
+   "daylight_min": 286,
+   "score": 63,
    "band": "Good",
-   "weekend_or_holiday": true
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2078,17 +2078,17 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 63
+   "count": 55
   },
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 32
+   "count": 28
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 28
+   "count": 26
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
