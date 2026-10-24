@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-23",
+ "generated_on": "2026-10-24",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -24,6 +24,18 @@
    "window_local": "1:45 PM–7:25 PM",
    "arrive_by_local": "3:28 PM",
    "daylight_min": 189,
+   "score": 73,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -1.405,
+   "low_time_local": "3:31 PM",
+   "window_local": "12:45 PM–6:35 PM",
+   "arrive_by_local": "2:31 PM",
+   "daylight_min": 251,
    "score": 73,
    "band": "Good",
    "weekend_or_holiday": false
@@ -99,18 +111,6 @@
    "score": 63,
    "band": "Good",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-12-21",
-   "weekday": "Mon",
-   "low_ft": -0.884,
-   "low_time_local": "2:45 PM",
-   "window_local": "12:10 PM–5:35 PM",
-   "arrive_by_local": "1:45 PM",
-   "daylight_min": 286,
-   "score": 63,
-   "band": "Good",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2078,12 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 55
-  },
-  {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
-   "count": 28
+   "count": 54
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -2091,14 +2086,19 @@
    "count": 26
   },
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 22
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
+   "count": 26
   },
   {
    "commonName": null,
    "scientificName": "Doto urak",
-   "count": 21
+   "count": 25
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 22
   },
   {
    "commonName": "California Mussel",
@@ -2106,14 +2106,14 @@
    "count": 20
   },
   {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 18
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 17
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 18
   },
   {
    "commonName": "Hooded Nudibranch",
@@ -2123,7 +2123,7 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 13
+   "count": 14
   }
  ]
 }

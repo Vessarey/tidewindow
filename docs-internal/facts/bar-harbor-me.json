@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-23",
+ "generated_on": "2026-10-24",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -27,6 +27,18 @@
    "score": 59,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -0.925,
+   "low_time_local": "2:54 PM",
+   "window_local": "1:15 PM–4:30 PM",
+   "arrive_by_local": "1:54 PM",
+   "daylight_min": 162,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false
   },
   {
    "date": "2026-11-22",
@@ -97,18 +109,6 @@
    "arrive_by_local": "2:21 PM",
    "daylight_min": 134,
    "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.031,
-   "low_time_local": "4:00 PM",
-   "window_local": "2:50 PM–5:10 PM",
-   "arrive_by_local": "3:00 PM",
-   "daylight_min": 140,
-   "score": 49,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -2078,21 +2078,16 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 15
+   "count": 12
   },
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 7
+   "count": 6
   },
   {
    "commonName": "Soft-shelled Clam",
    "scientificName": "Mya arenaria",
-   "count": 4
-  },
-  {
-   "commonName": "Common Atlantic Slippersnail",
-   "scientificName": "Crepidula fornicata",
    "count": 4
   },
   {
@@ -2101,18 +2096,13 @@
    "count": 3
   },
   {
-   "commonName": "Atlantic Jackknife",
-   "scientificName": "Ensis leei",
+   "commonName": "Common Atlantic Slippersnail",
+   "scientificName": "Crepidula fornicata",
    "count": 3
   },
   {
    "commonName": "Eastern Oyster",
    "scientificName": "Crassostrea virginica",
-   "count": 2
-  },
-  {
-   "commonName": "Flat Periwinkle",
-   "scientificName": "Littorina obtusata",
    "count": 2
   },
   {
@@ -2124,6 +2114,16 @@
    "commonName": "Common Tortoiseshell Limpet",
    "scientificName": "Testudinalia testudinalis",
    "count": 2
+  },
+  {
+   "commonName": "Atlantic Jackknife",
+   "scientificName": "Ensis leei",
+   "count": 2
+  },
+  {
+   "commonName": "Flat Periwinkle",
+   "scientificName": "Littorina obtusata",
+   "count": 1
   }
  ]
 }

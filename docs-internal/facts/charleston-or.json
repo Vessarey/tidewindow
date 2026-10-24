@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-23",
+ "generated_on": "2026-10-24",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -1.459,
+   "low_time_local": "4:54 PM",
+   "window_local": "2:40 PM–7:20 PM",
+   "arrive_by_local": "3:54 PM",
+   "daylight_min": 125,
+   "score": 63,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-24",
    "weekday": "Tue",
@@ -99,18 +111,6 @@
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-27",
-   "weekday": "Tue",
-   "low_ft": -1.469,
-   "low_time_local": "7:53 PM",
-   "window_local": "5:45 PM–10:10 PM",
-   "arrive_by_local": "6:53 PM",
-   "daylight_min": 30,
-   "score": 50,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2076,6 +2076,21 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "Horned Nudibranch",
+   "scientificName": "Hermissenda crassicornis",
+   "count": 6
+  },
+  {
+   "commonName": "Ridge-tailed Dorid",
+   "scientificName": "Diaphorodoris lirulatocauda",
+   "count": 3
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 3
+  },
+  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
    "count": 2
@@ -2091,6 +2106,11 @@
    "count": 1
   },
   {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 1
+  },
+  {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
    "count": 1
@@ -2101,8 +2121,8 @@
    "count": 1
   },
   {
-   "commonName": "Purple Mahogany Clam",
-   "scientificName": "Nuttallia obscurata",
+   "commonName": "Spectacular Corolla",
+   "scientificName": "Corolla spectabilis",
    "count": 1
   }
  ]

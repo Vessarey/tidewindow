@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-23",
+ "generated_on": "2026-10-24",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -25,6 +25,18 @@
    "arrive_by_local": "5:04 PM",
    "daylight_min": 46,
    "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -1.418,
+   "low_time_local": "5:04 PM",
+   "window_local": "3:00 PM–7:20 PM",
+   "arrive_by_local": "4:04 PM",
+   "daylight_min": 99,
+   "score": 58,
    "band": "Fair",
    "weekend_or_holiday": false
   },
@@ -99,18 +111,6 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.357,
-   "low_time_local": "5:07 PM",
-   "window_local": "3:30 PM–6:55 PM",
-   "arrive_by_local": "4:07 PM",
-   "daylight_min": 87,
-   "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2078,27 +2078,42 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 25
+   "count": 33
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 10
+   "count": 18
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 10
+   "count": 12
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 5
+   "count": 12
   },
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
+   "count": 5
+  },
+  {
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
+   "count": 5
+  },
+  {
+   "commonName": "Pacific Corambe",
+   "scientificName": "Corambe pacifica",
    "count": 4
+  },
+  {
+   "commonName": null,
+   "scientificName": "Coryphella longicaudata",
+   "count": 3
   },
   {
    "commonName": "White-lined Dirona",
@@ -2106,23 +2121,8 @@
    "count": 2
   },
   {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
-   "count": 2
-  },
-  {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 2
-  },
-  {
-   "commonName": "Spiny Scallop",
-   "scientificName": "Chlamys hastata",
-   "count": 2
-  },
-  {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
+   "commonName": "Black and White Dorid",
+   "scientificName": "Acanthodoris rhodoceras",
    "count": 2
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-23",
+ "generated_on": "2026-10-24",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -37,6 +37,18 @@
    "arrive_by_local": "2:55 PM",
    "daylight_min": 213,
    "score": 77,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -1.485,
+   "low_time_local": "2:17 PM",
+   "window_local": "11:30 AM–5:25 PM",
+   "arrive_by_local": "1:17 PM",
+   "daylight_min": 317,
+   "score": 76,
    "band": "Great",
    "weekend_or_holiday": false
   },
@@ -97,18 +109,6 @@
    "arrive_by_local": "1:04 PM",
    "daylight_min": 290,
    "score": 66,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.366,
-   "low_time_local": "3:27 PM",
-   "window_local": "1:25 PM–5:35 PM",
-   "arrive_by_local": "2:27 PM",
-   "daylight_min": 250,
-   "score": 65,
    "band": "Good",
    "weekend_or_holiday": true
   }
