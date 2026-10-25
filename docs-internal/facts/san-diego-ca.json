@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.808,
+   "low_time_local": "3:05 PM",
+   "window_local": "12:20 PM–6:05 PM",
+   "arrive_by_local": "2:05 PM",
+   "daylight_min": 268,
+   "score": 82,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-26",
    "weekday": "Thu",
@@ -99,18 +111,6 @@
    "score": 65,
    "band": "Good",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-12-21",
-   "weekday": "Mon",
-   "low_ft": -0.933,
-   "low_time_local": "1:35 PM",
-   "window_local": "11:05 AM–4:20 PM",
-   "arrive_by_local": "12:35 PM",
-   "daylight_min": 315,
-   "score": 65,
-   "band": "Good",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2092,13 +2092,13 @@
    "count": 1
   },
   {
-   "commonName": "Kellet's Whelk",
-   "scientificName": "Kelletia kelletii",
+   "commonName": "Purple-Ring Topsnail",
+   "scientificName": "Calliostoma annulatum",
    "count": 1
   },
   {
-   "commonName": "Spiny Cup-and-Saucer",
-   "scientificName": "Crucibulum spinosum",
+   "commonName": "Kellet's Whelk",
+   "scientificName": "Kelletia kelletii",
    "count": 1
   }
  ]

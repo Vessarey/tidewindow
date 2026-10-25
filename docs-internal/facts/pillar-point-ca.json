@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -16,6 +16,18 @@
   "method": "cosine-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.855,
+   "low_time_local": "4:22 PM",
+   "window_local": "1:30 PM–7:35 PM",
+   "arrive_by_local": "3:22 PM",
+   "daylight_min": 206,
+   "score": 82,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-24",
    "weekday": "Tue",
@@ -96,18 +108,6 @@
    "window_local": "2:50 PM–7:15 PM",
    "arrive_by_local": "3:59 PM",
    "daylight_min": 209,
-   "score": 68,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.597,
-   "low_time_local": "4:13 PM",
-   "window_local": "1:55 PM–6:45 PM",
-   "arrive_by_local": "3:13 PM",
-   "daylight_min": 190,
    "score": 68,
    "band": "Good",
    "weekend_or_holiday": true

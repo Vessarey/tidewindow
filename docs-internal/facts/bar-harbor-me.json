@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -27,6 +27,18 @@
    "score": 59,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.38,
+   "low_time_local": "3:48 PM",
+   "window_local": "2:00 PM–5:30 PM",
+   "arrive_by_local": "2:48 PM",
+   "daylight_min": 117,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": false
   },
   {
    "date": "2026-12-22",
@@ -99,18 +111,6 @@
    "score": 52,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.297,
-   "low_time_local": "3:21 PM",
-   "window_local": "2:00 PM–4:35 PM",
-   "arrive_by_local": "2:21 PM",
-   "daylight_min": 134,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2106,6 +2106,11 @@
    "count": 2
   },
   {
+   "commonName": "Rough Periwinkle",
+   "scientificName": "Littorina saxatilis",
+   "count": 2
+  },
+  {
    "commonName": "Eastern White Slippersnail",
    "scientificName": "Crepidula plana",
    "count": 2
@@ -2119,11 +2124,6 @@
    "commonName": "Atlantic Jackknife",
    "scientificName": "Ensis leei",
    "count": 2
-  },
-  {
-   "commonName": "Flat Periwinkle",
-   "scientificName": "Littorina obtusata",
-   "count": 1
   }
  ]
 }

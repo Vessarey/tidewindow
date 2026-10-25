@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -15,6 +15,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.972,
+   "low_time_local": "6:03 PM",
+   "window_local": "3:50 PM–8:25 PM",
+   "arrive_by_local": "5:03 PM",
+   "daylight_min": 39,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-24",
    "weekday": "Tue",
@@ -98,18 +110,6 @@
    "score": 45,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.553,
-   "low_time_local": "5:57 PM",
-   "window_local": "4:15 PM–7:40 PM",
-   "arrive_by_local": "4:57 PM",
-   "daylight_min": 35,
-   "score": 41,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1989,20 +1989,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.145,
-   "low_time_local": "6:08 PM",
-   "window_local": "4:50 PM–7:25 PM",
-   "arrive_by_local": "5:08 PM",
-   "daylight_min": 83,
-   "score": 37,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 252,
-   "min_to_sun_edge": 5
-  },
-  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.714,
@@ -2071,6 +2057,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 258,
    "min_to_sun_edge": -67
+  },
+  {
+   "date": "2026-11-21",
+   "weekday": "Sat",
+   "low_ft": 0.626,
+   "low_time_local": "4:02 PM",
+   "window_local": "3:10 PM–4:55 PM",
+   "arrive_by_local": "3:02 PM",
+   "daylight_min": 85,
+   "score": 28,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 234,
+   "min_to_sun_edge": 33
   }
  ],
  "species_last60d_5km": [
@@ -2110,6 +2110,11 @@
    "count": 2
   },
   {
+   "commonName": "Pacific Razor Clam",
+   "scientificName": "Siliqua patula",
+   "count": 2
+  },
+  {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
    "count": 2
@@ -2117,11 +2122,6 @@
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
-   "count": 1
-  },
-  {
-   "commonName": "Hind's Chiton",
-   "scientificName": "Mopalia hindsii",
    "count": 1
   }
  ]

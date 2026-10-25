@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.91,
+   "low_time_local": "5:53 PM",
+   "window_local": "3:40 PM–8:20 PM",
+   "arrive_by_local": "4:53 PM",
+   "daylight_min": 60,
+   "score": 61,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-24",
    "weekday": "Tue",
@@ -99,18 +111,6 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-12-21",
-   "weekday": "Mon",
-   "low_ft": -0.686,
-   "low_time_local": "4:15 PM",
-   "window_local": "2:30 PM–6:15 PM",
-   "arrive_by_local": "3:15 PM",
-   "daylight_min": 129,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.017,
-   "low_time_local": "5:56 PM",
-   "window_local": "4:35 PM–7:20 PM",
-   "arrive_by_local": "4:56 PM",
-   "daylight_min": 102,
-   "score": 43,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 250,
-   "min_to_sun_edge": 21
-  },
-  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.786,
@@ -2072,57 +2058,71 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 255,
    "min_to_sun_edge": -49
+  },
+  {
+   "date": "2026-11-21",
+   "weekday": "Sat",
+   "low_ft": 0.434,
+   "low_time_local": "3:49 PM",
+   "window_local": "2:45 PM–5:00 PM",
+   "arrive_by_local": "2:49 PM",
+   "daylight_min": 118,
+   "score": 35,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 232,
+   "min_to_sun_edge": 54
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 33
+   "count": 35
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 18
+   "count": 20
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 12
+   "count": 14
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 12
-  },
-  {
-   "commonName": "Nanaimo Dorid",
-   "scientificName": "Acanthodoris nanaimoensis",
-   "count": 5
+   "count": 14
   },
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 5
+   "count": 11
+  },
+  {
+   "commonName": "Nanaimo Dorid",
+   "scientificName": "Acanthodoris nanaimoensis",
+   "count": 6
   },
   {
    "commonName": "Pacific Corambe",
    "scientificName": "Corambe pacifica",
-   "count": 4
+   "count": 6
   },
   {
    "commonName": null,
    "scientificName": "Coryphella longicaudata",
-   "count": 3
-  },
-  {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
-   "count": 2
+   "count": 4
   },
   {
    "commonName": "Black and White Dorid",
    "scientificName": "Acanthodoris rhodoceras",
+   "count": 3
+  },
+  {
+   "commonName": "Spotted Dorid",
+   "scientificName": "Triopha maculata",
    "count": 2
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.729,
+   "low_time_local": "4:19 PM",
+   "window_local": "1:25 PM–7:30 PM",
+   "arrive_by_local": "3:19 PM",
+   "daylight_min": 212,
+   "score": 80,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-24",
    "weekday": "Tue",
@@ -97,18 +109,6 @@
    "arrive_by_local": "2:22 PM",
    "daylight_min": 232,
    "score": 64,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.329,
-   "low_time_local": "4:09 PM",
-   "window_local": "1:55 PM–6:30 PM",
-   "arrive_by_local": "3:09 PM",
-   "daylight_min": 189,
-   "score": 63,
    "band": "Good",
    "weekend_or_holiday": true
   }
@@ -2081,19 +2081,19 @@
    "count": 54
   },
   {
-   "commonName": "cockscomb nudibranch",
-   "scientificName": "Antiopella barbarensis",
-   "count": 26
-  },
-  {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
    "count": 26
   },
   {
+   "commonName": "cockscomb nudibranch",
+   "scientificName": "Antiopella barbarensis",
+   "count": 25
+  },
+  {
    "commonName": null,
    "scientificName": "Doto urak",
-   "count": 25
+   "count": 24
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -2118,12 +2118,12 @@
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 15
+   "count": 16
   },
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 14
+   "count": 13
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 9437540 (Garibaldi) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "garibaldi-or",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.069,
-   "low_time_local": "6:20 PM",
-   "window_local": "5:05 PM–7:35 PM",
-   "arrive_by_local": "5:20 PM",
-   "daylight_min": 70,
-   "score": 36,
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.191,
+   "low_time_local": "5:08 PM",
+   "window_local": "3:40 PM–6:50 PM",
+   "arrive_by_local": "4:08 PM",
+   "daylight_min": 52,
+   "score": 35,
    "band": "Skip",
    "weekend_or_holiday": true
   }
@@ -444,14 +444,14 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-10-24",
+   "date": "2026-12-05",
    "weekday": "Sat",
-   "low_ft": 0.069,
-   "low_time_local": "6:20 PM",
-   "window_local": "5:05 PM–7:35 PM",
-   "arrive_by_local": "5:20 PM",
-   "daylight_min": 70,
-   "score": 36,
+   "low_ft": 0.251,
+   "low_time_local": "4:26 PM",
+   "window_local": "3:15 PM–5:50 PM",
+   "arrive_by_local": "3:26 PM",
+   "daylight_min": 77,
+   "score": 31,
    "band": "Skip",
    "weekend_or_holiday": true
   }
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.069,
-   "low_time_local": "6:20 PM",
-   "window_local": "5:05 PM–7:35 PM",
-   "arrive_by_local": "5:20 PM",
-   "daylight_min": 70,
-   "score": 36,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 255,
-   "min_to_sun_edge": -5
-  },
-  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.713,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 244,
    "min_to_sun_edge": -18
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "low_ft": -1.245,
+   "low_time_local": "5:43 PM",
+   "window_local": "3:50 PM–7:45 PM",
+   "arrive_by_local": "4:43 PM",
+   "daylight_min": 48,
+   "score": 47,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 252,
+   "min_to_sun_edge": -65
   }
  ],
  "species_last60d_5km": []

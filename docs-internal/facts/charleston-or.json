@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-24",
+ "generated_on": "2026-10-25",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-23",
+   "weekday": "Wed",
+   "low_ft": -1.897,
+   "low_time_local": "5:42 PM",
+   "window_local": "3:20 PM–8:15 PM",
+   "arrive_by_local": "4:42 PM",
+   "daylight_min": 86,
+   "score": 65,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-12-22",
    "weekday": "Tue",
@@ -99,18 +111,6 @@
    "score": 51,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-12-20",
-   "weekday": "Sun",
-   "low_ft": 0.091,
-   "low_time_local": "3:15 PM",
-   "window_local": "1:45 PM–4:50 PM",
-   "arrive_by_local": "2:15 PM",
-   "daylight_min": 179,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-24",
-   "weekday": "Sat",
-   "low_ft": 0.193,
-   "low_time_local": "5:47 PM",
-   "window_local": "4:30 PM–7:10 PM",
-   "arrive_by_local": "4:47 PM",
-   "daylight_min": 110,
-   "score": 40,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 248,
-   "min_to_sun_edge": 33
-  },
-  {
    "date": "2026-10-25",
    "weekday": "Sun",
    "low_ft": -0.585,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 253,
    "min_to_sun_edge": -35
+  },
+  {
+   "date": "2026-11-09",
+   "weekday": "Mon",
+   "low_ft": -0.713,
+   "low_time_local": "6:11 PM",
+   "window_local": "4:15 PM–8:10 PM",
+   "arrive_by_local": "5:11 PM",
+   "daylight_min": 44,
+   "score": 36,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 259,
+   "min_to_sun_edge": -72
   }
  ],
  "species_last60d_5km": [
