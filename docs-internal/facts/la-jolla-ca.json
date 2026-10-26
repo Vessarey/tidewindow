@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-25",
+ "generated_on": "2026-10-26",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "low_ft": -1.878,
+   "low_time_local": "3:47 PM",
+   "window_local": "12:55 PM–7:00 PM",
+   "arrive_by_local": "2:47 PM",
+   "daylight_min": 233,
+   "score": 84,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-11-26",
    "weekday": "Thu",
@@ -97,18 +109,6 @@
    "arrive_by_local": "12:38 PM",
    "daylight_min": 280,
    "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.429,
-   "low_time_local": "2:42 PM",
-   "window_local": "12:35 PM–5:05 PM",
-   "arrive_by_local": "1:42 PM",
-   "daylight_min": 257,
-   "score": 66,
    "band": "Good",
    "weekend_or_holiday": true
   }
@@ -2052,14 +2052,14 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 19
+  },
+  {
    "commonName": "Hamann's Aeolid",
    "scientificName": "Cuthona hamanni",
    "count": 18
-  },
-  {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 16
   },
   {
    "commonName": "Hunchback Doris",
@@ -2082,6 +2082,11 @@
    "count": 10
   },
   {
+   "commonName": "Yellow Umbrella Slug",
+   "scientificName": "Tylodina fungina",
+   "count": 10
+  },
+  {
    "commonName": "Lesser Two-spot Octopus",
    "scientificName": "Octopus bimaculoides",
    "count": 10
@@ -2095,11 +2100,6 @@
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
    "count": 9
-  },
-  {
-   "commonName": "Salt-and-pepper Doris",
-   "scientificName": "Aegires albopunctatus",
-   "count": 7
   }
  ]
 }

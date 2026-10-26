@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-25",
+ "generated_on": "2026-10-26",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -53,18 +53,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.786,
-   "low_time_local": "6:37 PM",
-   "window_local": "4:50 PM–8:30 PM",
-   "arrive_by_local": "5:37 PM",
-   "daylight_min": 85,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-11-22",
    "weekday": "Sun",
    "low_ft": -0.543,
@@ -111,6 +99,18 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.686,
+   "low_time_local": "4:15 PM",
+   "window_local": "2:30 PM–6:15 PM",
+   "arrive_by_local": "3:15 PM",
+   "daylight_min": 129,
+   "score": 48,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -420,18 +420,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.786,
-   "low_time_local": "6:37 PM",
-   "window_local": "4:50 PM–8:30 PM",
-   "arrive_by_local": "5:37 PM",
-   "daylight_min": 85,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-11-08",
    "weekday": "Sun",
    "low_ft": -0.702,
@@ -454,6 +442,18 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-22",
+   "weekday": "Sun",
+   "low_ft": -0.543,
+   "low_time_local": "4:34 PM",
+   "window_local": "2:50 PM–6:25 PM",
+   "arrive_by_local": "3:34 PM",
+   "daylight_min": 112,
+   "score": 54,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.786,
-   "low_time_local": "6:37 PM",
-   "window_local": "4:50 PM–8:30 PM",
-   "arrive_by_local": "5:37 PM",
-   "daylight_min": 85,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 257,
-   "min_to_sun_edge": -22
-  },
-  {
    "date": "2026-10-26",
    "weekday": "Mon",
    "low_ft": -1.366,
@@ -2072,33 +2058,52 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 232,
    "min_to_sun_edge": 54
+  },
+  {
+   "date": "2026-11-22",
+   "weekday": "Sun",
+   "low_ft": -0.543,
+   "low_time_local": "4:34 PM",
+   "window_local": "2:50 PM–6:25 PM",
+   "arrive_by_local": "3:34 PM",
+   "daylight_min": 112,
+   "score": 54,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 240,
+   "min_to_sun_edge": 8
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 35
+   "count": 37
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 20
+   "count": 21
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 14
+   "count": 15
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 14
+   "count": 15
   },
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 11
+   "count": 12
+  },
+  {
+   "commonName": "Pacific Corambe",
+   "scientificName": "Corambe pacifica",
+   "count": 8
   },
   {
    "commonName": "Nanaimo Dorid",
@@ -2106,24 +2111,19 @@
    "count": 6
   },
   {
-   "commonName": "Pacific Corambe",
-   "scientificName": "Corambe pacifica",
-   "count": 6
-  },
-  {
    "commonName": null,
    "scientificName": "Coryphella longicaudata",
-   "count": 4
+   "count": 5
+  },
+  {
+   "commonName": "Spotted Dorid",
+   "scientificName": "Triopha maculata",
+   "count": 3
   },
   {
    "commonName": "Black and White Dorid",
    "scientificName": "Acanthodoris rhodoceras",
    "count": 3
-  },
-  {
-   "commonName": "Spotted Dorid",
-   "scientificName": "Triopha maculata",
-   "count": 2
   }
  ]
 }

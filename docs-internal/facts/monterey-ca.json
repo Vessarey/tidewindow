@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-25",
+ "generated_on": "2026-10-26",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -24,6 +24,18 @@
    "window_local": "1:25 PM–7:30 PM",
    "arrive_by_local": "3:19 PM",
    "daylight_min": 212,
+   "score": 80,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "low_ft": -1.834,
+   "low_time_local": "5:06 PM",
+   "window_local": "2:10 PM–8:15 PM",
+   "arrive_by_local": "4:06 PM",
+   "daylight_min": 167,
    "score": 80,
    "band": "Great",
    "weekend_or_holiday": false
@@ -96,18 +108,6 @@
    "window_local": "12:45 PM–5:20 PM",
    "arrive_by_local": "1:56 PM",
    "daylight_min": 250,
-   "score": 64,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-12-06",
-   "weekday": "Sun",
-   "low_ft": -0.43,
-   "low_time_local": "3:22 PM",
-   "window_local": "1:00 PM–5:55 PM",
-   "arrive_by_local": "2:22 PM",
-   "daylight_min": 232,
    "score": 64,
    "band": "Good",
    "weekend_or_holiday": true
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.165,
-   "low_time_local": "4:52 PM",
-   "window_local": "2:50 PM–6:55 PM",
-   "arrive_by_local": "3:52 PM",
-   "daylight_min": 208,
-   "score": 61,
-   "band": "Good",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 241,
-   "min_to_sun_edge": 86
-  },
-  {
    "date": "2026-10-26",
    "weekday": "Mon",
    "low_ft": -0.582,
@@ -2072,22 +2058,36 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 247,
    "min_to_sun_edge": 16
+  },
+  {
+   "date": "2026-11-10",
+   "weekday": "Tue",
+   "low_ft": -0.41,
+   "low_time_local": "5:26 PM",
+   "window_local": "3:05 PM–8:00 PM",
+   "arrive_by_local": "4:26 PM",
+   "daylight_min": 117,
+   "score": 44,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 252,
+   "min_to_sun_edge": -24
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 54
-  },
-  {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
-   "count": 26
+   "count": 56
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
+   "count": 26
+  },
+  {
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
    "count": 25
   },
   {
@@ -2106,13 +2106,13 @@
    "count": 20
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 18
-  },
-  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
+   "count": 19
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 18
   },
   {
@@ -2123,7 +2123,7 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 13
+   "count": 15
   }
  ]
 }

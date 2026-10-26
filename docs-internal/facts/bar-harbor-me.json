@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-25",
+ "generated_on": "2026-10-26",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -16,18 +16,6 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
-  {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.551,
-   "low_time_local": "4:43 PM",
-   "window_local": "3:20 PM–6:10 PM",
-   "arrive_by_local": "3:43 PM",
-   "daylight_min": 132,
-   "score": 59,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
   {
    "date": "2026-12-23",
    "weekday": "Wed",
@@ -72,6 +60,18 @@
    "window_local": "2:25 PM–5:45 PM",
    "arrive_by_local": "3:05 PM",
    "daylight_min": 93,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "low_ft": -1.65,
+   "low_time_local": "4:41 PM",
+   "window_local": "2:50 PM–6:30 PM",
+   "arrive_by_local": "3:41 PM",
+   "daylight_min": 68,
    "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.551,
-   "low_time_local": "4:43 PM",
-   "window_local": "3:20 PM–6:10 PM",
-   "arrive_by_local": "3:43 PM",
-   "daylight_min": 132,
-   "score": 59,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 245,
-   "min_to_sun_edge": 49
-  },
-  {
    "date": "2026-10-26",
    "weekday": "Mon",
    "low_ft": -0.978,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 238,
    "min_to_sun_edge": 53
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.394,
+   "low_time_local": "4:05 PM",
+   "window_local": "2:45 PM–5:25 PM",
+   "arrive_by_local": "3:05 PM",
+   "daylight_min": 88,
+   "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 246,
+   "min_to_sun_edge": 8
   }
  ],
  "species_last60d_5km": [
@@ -2091,13 +2091,13 @@
    "count": 4
   },
   {
-   "commonName": "Fuzzy Onchidoris",
-   "scientificName": "Onchidoris muricata",
-   "count": 3
-  },
-  {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
+   "count": 4
+  },
+  {
+   "commonName": "Fuzzy Onchidoris",
+   "scientificName": "Onchidoris muricata",
    "count": 3
   },
   {

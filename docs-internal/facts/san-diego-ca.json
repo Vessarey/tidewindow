@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-25",
+ "generated_on": "2026-10-26",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "low_ft": -1.878,
+   "low_time_local": "3:50 PM",
+   "window_local": "1:05 PM–6:50 PM",
+   "arrive_by_local": "2:50 PM",
+   "daylight_min": 223,
+   "score": 84,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-12-23",
    "weekday": "Wed",
@@ -97,18 +109,6 @@
    "arrive_by_local": "12:40 PM",
    "daylight_min": 260,
    "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-10-25",
-   "weekday": "Sun",
-   "low_ft": -0.35,
-   "low_time_local": "3:31 PM",
-   "window_local": "1:35 PM–5:30 PM",
-   "arrive_by_local": "2:31 PM",
-   "daylight_min": 235,
-   "score": 65,
    "band": "Good",
    "weekend_or_holiday": true
   }
@@ -2054,7 +2054,7 @@
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 3
+   "count": 4
   },
   {
    "commonName": "Kelp Scallop",
@@ -2077,6 +2077,11 @@
    "count": 2
   },
   {
+   "commonName": "Pismo Clam",
+   "scientificName": "Tivela stultorum",
+   "count": 2
+  },
+  {
    "commonName": "Cloudy Bubble Snail",
    "scientificName": "Bulla gouldiana",
    "count": 1
@@ -2094,11 +2099,6 @@
   {
    "commonName": "Purple-Ring Topsnail",
    "scientificName": "Calliostoma annulatum",
-   "count": 1
-  },
-  {
-   "commonName": "Kellet's Whelk",
-   "scientificName": "Kelletia kelletii",
    "count": 1
   }
  ]
