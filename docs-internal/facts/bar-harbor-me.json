@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-26",
+ "generated_on": "2026-10-27",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -89,18 +89,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -0.978,
-   "low_time_local": "5:27 PM",
-   "window_local": "3:50 PM–7:05 PM",
-   "arrive_by_local": "4:27 PM",
-   "daylight_min": 101,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-11-25",
    "weekday": "Wed",
    "low_ft": -1.526,
@@ -111,6 +99,18 @@
    "score": 52,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "Sat",
+   "low_ft": -0.297,
+   "low_time_local": "3:21 PM",
+   "window_local": "2:00 PM–4:35 PM",
+   "arrive_by_local": "2:21 PM",
+   "daylight_min": 134,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -420,18 +420,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -0.978,
-   "low_time_local": "5:27 PM",
-   "window_local": "3:50 PM–7:05 PM",
-   "arrive_by_local": "4:27 PM",
-   "daylight_min": 101,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -0.925,
@@ -454,6 +442,18 @@
    "score": 54,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.394,
+   "low_time_local": "4:05 PM",
+   "window_local": "2:45 PM–5:25 PM",
+   "arrive_by_local": "3:05 PM",
+   "daylight_min": 88,
+   "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -0.978,
-   "low_time_local": "5:27 PM",
-   "window_local": "3:50 PM–7:05 PM",
-   "arrive_by_local": "4:27 PM",
-   "daylight_min": 101,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 252,
-   "min_to_sun_edge": 4
-  },
-  {
    "date": "2026-10-27",
    "weekday": "Tue",
    "low_ft": -1.195,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 246,
    "min_to_sun_edge": 8
+  },
+  {
+   "date": "2026-11-09",
+   "weekday": "Mon",
+   "low_ft": -0.324,
+   "low_time_local": "4:46 PM",
+   "window_local": "3:25 PM–6:05 PM",
+   "arrive_by_local": "3:46 PM",
+   "daylight_min": 47,
+   "score": 27,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 252,
+   "min_to_sun_edge": -34
   }
  ],
  "species_last60d_5km": [
@@ -2083,7 +2083,12 @@
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 6
+   "count": 7
+  },
+  {
+   "commonName": "Fuzzy Onchidoris",
+   "scientificName": "Onchidoris muricata",
+   "count": 4
   },
   {
    "commonName": "Soft-shelled Clam",
@@ -2094,11 +2099,6 @@
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
    "count": 4
-  },
-  {
-   "commonName": "Fuzzy Onchidoris",
-   "scientificName": "Onchidoris muricata",
-   "count": 3
   },
   {
    "commonName": "Eastern Oyster",
@@ -2116,13 +2116,13 @@
    "count": 2
   },
   {
-   "commonName": "Common Tortoiseshell Limpet",
-   "scientificName": "Testudinalia testudinalis",
+   "commonName": "Northern Lacuna",
+   "scientificName": "Lacuna vincta",
    "count": 2
   },
   {
-   "commonName": "Atlantic Jackknife",
-   "scientificName": "Ensis leei",
+   "commonName": "Common Tortoiseshell Limpet",
+   "scientificName": "Testudinalia testudinalis",
    "count": 2
   }
  ]

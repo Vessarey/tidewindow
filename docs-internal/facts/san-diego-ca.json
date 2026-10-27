@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-26",
+ "generated_on": "2026-10-27",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2026-12-25",
+   "weekday": "Fri",
+   "low_ft": -1.707,
+   "low_time_local": "4:36 PM",
+   "window_local": "1:55 PM–7:35 PM",
+   "arrive_by_local": "3:36 PM",
+   "daylight_min": 174,
+   "score": 89,
+   "band": "Great",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2026-12-24",
    "weekday": "Thu",
@@ -99,18 +111,6 @@
    "score": 68,
    "band": "Good",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-22",
-   "weekday": "Sun",
-   "low_ft": -0.48,
-   "low_time_local": "1:40 PM",
-   "window_local": "11:35 AM–3:55 PM",
-   "arrive_by_local": "12:40 PM",
-   "daylight_min": 260,
-   "score": 67,
-   "band": "Good",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-26",
+ "generated_on": "2026-10-27",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -101,16 +101,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -1.162,
-   "low_time_local": "7:09 PM",
-   "window_local": "5:05 PM–9:15 PM",
-   "arrive_by_local": "6:09 PM",
-   "daylight_min": 72,
+   "date": "2026-12-20",
+   "weekday": "Sun",
+   "low_ft": 0.091,
+   "low_time_local": "3:15 PM",
+   "window_local": "1:45 PM–4:50 PM",
+   "arrive_by_local": "2:15 PM",
+   "daylight_min": 179,
    "score": 51,
    "band": "Fair",
-   "weekend_or_holiday": false
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -432,18 +432,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -1.162,
-   "low_time_local": "7:09 PM",
-   "window_local": "5:05 PM–9:15 PM",
-   "arrive_by_local": "6:09 PM",
-   "daylight_min": 72,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-21",
    "weekday": "Mon",
    "low_ft": -0.776,
@@ -453,6 +441,18 @@
    "daylight_min": 159,
    "score": 55,
    "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-09",
+   "weekday": "Mon",
+   "low_ft": -0.713,
+   "low_time_local": "6:11 PM",
+   "window_local": "4:15 PM–8:10 PM",
+   "arrive_by_local": "5:11 PM",
+   "daylight_min": 44,
+   "score": 36,
+   "band": "Skip",
    "weekend_or_holiday": false
   }
  ],
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -1.162,
-   "low_time_local": "7:09 PM",
-   "window_local": "5:05 PM–9:15 PM",
-   "arrive_by_local": "6:09 PM",
-   "daylight_min": 72,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 262,
-   "min_to_sun_edge": -52
-  },
-  {
    "date": "2026-11-06",
    "weekday": "Fri",
    "low_ft": 0.329,
@@ -2072,13 +2058,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 231,
    "min_to_sun_edge": 68
+  },
+  {
+   "date": "2026-11-22",
+   "weekday": "Sun",
+   "low_ft": -0.475,
+   "low_time_local": "4:24 PM",
+   "window_local": "2:40 PM–6:15 PM",
+   "arrive_by_local": "3:24 PM",
+   "daylight_min": 127,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 238,
+   "min_to_sun_edge": 23
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 10
+   "count": 11
   },
   {
    "commonName": "Opalescent Nudibranch",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-26",
+ "generated_on": "2026-10-27",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -39,6 +39,18 @@
    "score": 80,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-25",
+   "weekday": "Fri",
+   "low_ft": -1.712,
+   "low_time_local": "5:53 PM",
+   "window_local": "3:00 PM–9:00 PM",
+   "arrive_by_local": "4:53 PM",
+   "daylight_min": 118,
+   "score": 79,
+   "band": "Great",
+   "weekend_or_holiday": true
   },
   {
    "date": "2026-11-24",
@@ -99,18 +111,6 @@
    "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-22",
-   "weekday": "Sun",
-   "low_ft": -0.387,
-   "low_time_local": "2:56 PM",
-   "window_local": "12:45 PM–5:20 PM",
-   "arrive_by_local": "1:56 PM",
-   "daylight_min": 250,
-   "score": 64,
-   "band": "Good",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-26",
-   "weekday": "Mon",
-   "low_ft": -0.582,
-   "low_time_local": "5:37 PM",
-   "window_local": "3:20 PM–8:05 PM",
-   "arrive_by_local": "4:37 PM",
-   "daylight_min": 177,
-   "score": 59,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 249,
-   "min_to_sun_edge": 40
-  },
-  {
    "date": "2026-10-27",
    "weekday": "Tue",
    "low_ft": -0.836,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 252,
    "min_to_sun_edge": -24
+  },
+  {
+   "date": "2026-11-11",
+   "weekday": "Wed",
+   "low_ft": -0.31,
+   "low_time_local": "6:06 PM",
+   "window_local": "3:45 PM–8:35 PM",
+   "arrive_by_local": "5:06 PM",
+   "daylight_min": 76,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 258,
+   "min_to_sun_edge": -65
   }
  ],
  "species_last60d_5km": [
@@ -2081,24 +2081,24 @@
    "count": 56
   },
   {
-   "commonName": "cockscomb nudibranch",
-   "scientificName": "Antiopella barbarensis",
-   "count": 26
-  },
-  {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 25
+   "count": 26
   },
   {
    "commonName": null,
    "scientificName": "Doto urak",
+   "count": 26
+  },
+  {
+   "commonName": "cockscomb nudibranch",
+   "scientificName": "Antiopella barbarensis",
    "count": 24
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 22
+   "count": 24
   },
   {
    "commonName": "California Mussel",
@@ -2108,7 +2108,7 @@
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 19
+   "count": 20
   },
   {
    "commonName": "Mossy Chiton",
@@ -2118,12 +2118,12 @@
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 16
+   "count": 17
   },
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 15
+   "count": 16
   }
  ]
 }
