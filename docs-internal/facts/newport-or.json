@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-27",
+ "generated_on": "2026-10-28",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2078,12 +2078,22 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 37
+   "count": 42
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 21
+   "count": 22
+  },
+  {
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
+   "count": 16
+  },
+  {
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
+   "count": 15
   },
   {
    "commonName": "Northern Leopard Dorid",
@@ -2091,18 +2101,13 @@
    "count": 15
   },
   {
-   "commonName": "White-and-orange-tipped Nudibranch",
-   "scientificName": "Antiopella fusca",
-   "count": 15
-  },
-  {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
-   "count": 12
-  },
-  {
    "commonName": "Pacific Corambe",
    "scientificName": "Corambe pacifica",
+   "count": 9
+  },
+  {
+   "commonName": null,
+   "scientificName": "Coryphella longicaudata",
    "count": 8
   },
   {
@@ -2111,18 +2116,13 @@
    "count": 6
   },
   {
-   "commonName": null,
-   "scientificName": "Coryphella longicaudata",
-   "count": 5
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 4
   },
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 3
-  },
-  {
-   "commonName": "Black and White Dorid",
-   "scientificName": "Acanthodoris rhodoceras",
    "count": 3
   }
  ]

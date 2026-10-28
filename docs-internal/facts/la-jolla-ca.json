@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-27",
+ "generated_on": "2026-10-28",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -101,16 +101,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.054,
-   "low_time_local": "2:21 PM",
-   "window_local": "11:50 AM–5:05 PM",
-   "arrive_by_local": "1:21 PM",
-   "daylight_min": 294,
-   "score": 68,
-   "band": "Good",
-   "weekend_or_holiday": false
+   "date": "2026-12-26",
+   "weekday": "Sat",
+   "low_ft": -1.346,
+   "low_time_local": "5:18 PM",
+   "window_local": "2:40 PM–8:15 PM",
+   "arrive_by_local": "4:18 PM",
+   "daylight_min": 130,
+   "score": 75,
+   "band": "Great",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1966,20 +1966,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-27",
-   "weekday": "Tue",
-   "low_ft": -0.835,
-   "low_time_local": "4:57 PM",
-   "window_local": "2:35 PM–7:35 PM",
-   "arrive_by_local": "3:57 PM",
-   "daylight_min": 207,
-   "score": 65,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 246,
-   "min_to_sun_edge": 65
-  },
-  {
    "date": "2026-10-28",
    "weekday": "Wed",
    "low_ft": -0.77,
@@ -2048,6 +2034,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 252,
    "min_to_sun_edge": -26
+  },
+  {
+   "date": "2026-11-13",
+   "weekday": "Fri",
+   "low_ft": 0.269,
+   "low_time_local": "6:05 PM",
+   "window_local": "4:05 PM–8:15 PM",
+   "arrive_by_local": "5:05 PM",
+   "daylight_min": 44,
+   "score": 24,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 259,
+   "min_to_sun_edge": -76
   }
  ],
  "species_last60d_5km": [
@@ -2064,12 +2064,22 @@
   {
    "commonName": "Hunchback Doris",
    "scientificName": "Atagema alba",
+   "count": 14
+  },
+  {
+   "commonName": "Yellow Umbrella Slug",
+   "scientificName": "Tylodina fungina",
    "count": 13
   },
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 12
+   "count": 13
+  },
+  {
+   "commonName": "Salt-and-pepper Doris",
+   "scientificName": "Aegires albopunctatus",
+   "count": 11
   },
   {
    "commonName": "Sorcerer's Dorid",
@@ -2082,24 +2092,14 @@
    "count": 10
   },
   {
-   "commonName": "Yellow Umbrella Slug",
-   "scientificName": "Tylodina fungina",
-   "count": 10
-  },
-  {
    "commonName": "Lesser Two-spot Octopus",
    "scientificName": "Octopus bimaculoides",
    "count": 10
   },
   {
-   "commonName": "Freckled Ancula",
-   "scientificName": "Ancula lentiginosa",
-   "count": 9
-  },
-  {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 9
+   "count": 10
   }
  ]
 }

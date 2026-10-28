@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-27",
+ "generated_on": "2026-10-28",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1810,11 +1810,6 @@
    "count": 3
   },
   {
-   "commonName": "Nuttall's Cockle",
-   "scientificName": "Clinocardium nuttallii",
-   "count": 3
-  },
-  {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
    "count": 3
@@ -1842,6 +1837,11 @@
   {
    "commonName": "Clown Dorid",
    "scientificName": "Triopha catalinae",
+   "count": 1
+  },
+  {
+   "commonName": "Nuttall's Cockle",
+   "scientificName": "Clinocardium nuttallii",
    "count": 1
   }
  ]

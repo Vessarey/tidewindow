@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-27",
+ "generated_on": "2026-10-28",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1806,16 +1806,11 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": null,
    "scientificName": "Aeolidia",
-   "count": 5
-  },
-  {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
    "count": 5
   },
   {
@@ -1846,6 +1841,11 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
+   "count": 1
+  },
+  {
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
    "count": 1
   },
   {

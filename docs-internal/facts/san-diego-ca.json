@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-27",
+ "generated_on": "2026-10-28",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -101,16 +101,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.032,
-   "low_time_local": "2:24 PM",
-   "window_local": "12:00 PM–5:00 PM",
-   "arrive_by_local": "1:24 PM",
-   "daylight_min": 284,
-   "score": 68,
+   "date": "2026-12-26",
+   "weekday": "Sat",
+   "low_ft": -1.33,
+   "low_time_local": "5:22 PM",
+   "window_local": "2:50 PM–8:10 PM",
+   "arrive_by_local": "4:22 PM",
+   "daylight_min": 120,
+   "score": 73,
    "band": "Good",
-   "weekend_or_holiday": false
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1966,20 +1966,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-27",
-   "weekday": "Tue",
-   "low_ft": -0.777,
-   "low_time_local": "5:00 PM",
-   "window_local": "2:45 PM–7:25 PM",
-   "arrive_by_local": "4:00 PM",
-   "daylight_min": 197,
-   "score": 64,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 246,
-   "min_to_sun_edge": 62
-  },
-  {
    "date": "2026-10-28",
    "weekday": "Wed",
    "low_ft": -0.67,
@@ -2048,6 +2034,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 253,
    "min_to_sun_edge": -26
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -1.448,
+   "low_time_local": "3:57 PM",
+   "window_local": "1:20 PM–6:50 PM",
+   "arrive_by_local": "2:57 PM",
+   "daylight_min": 203,
+   "score": 76,
+   "band": "Great",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 239,
+   "min_to_sun_edge": 46
   }
  ],
  "species_last60d_5km": [
