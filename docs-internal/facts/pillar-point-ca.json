@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-28",
+ "generated_on": "2026-10-29",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-28",
-   "weekday": "Wed",
-   "low_ft": -1.172,
-   "low_time_local": "7:21 PM",
-   "window_local": "4:40 PM–10:20 PM",
-   "arrive_by_local": "6:21 PM",
-   "daylight_min": 96,
-   "score": 57,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 263,
-   "min_to_sun_edge": -65
-  },
-  {
    "date": "2026-11-07",
    "weekday": "Sat",
    "low_ft": -0.363,
@@ -2072,38 +2058,57 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 258,
    "min_to_sun_edge": -67
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "Mon",
+   "low_ft": -1.276,
+   "low_time_local": "3:45 PM",
+   "window_local": "1:10 PM–6:40 PM",
+   "arrive_by_local": "2:45 PM",
+   "daylight_min": 224,
+   "score": 72,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 233,
+   "min_to_sun_edge": 69
   }
  ],
  "species_last60d_5km": [
   {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 58
+  },
+  {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 53
+   "count": 55
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 42
-  },
-  {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 42
+   "count": 51
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 34
+   "count": 37
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 28
+   "count": 29
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 21
+   "count": 22
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
+   "count": 10
   },
   {
    "commonName": "Gumboot Chiton",
@@ -2114,11 +2119,6 @@
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
    "count": 10
-  },
-  {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 8
   },
   {
    "commonName": "Clown Dorid",

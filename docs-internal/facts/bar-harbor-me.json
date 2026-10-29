@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-28",
+ "generated_on": "2026-10-29",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -2088,7 +2088,7 @@
   {
    "commonName": "Fuzzy Onchidoris",
    "scientificName": "Onchidoris muricata",
-   "count": 5
+   "count": 6
   },
   {
    "commonName": "Soft-shelled Clam",

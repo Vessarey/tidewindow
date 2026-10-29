@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-28",
+ "generated_on": "2026-10-29",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2077,12 +2077,12 @@
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
-   "count": 10
+   "count": 8
   },
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
-   "count": 10
+   "count": 7
   },
   {
    "commonName": "Fingered Limpet",
@@ -2090,19 +2090,9 @@
    "count": 3
   },
   {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
-   "count": 3
-  },
-  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
    "count": 3
-  },
-  {
-   "commonName": "Black Leather Chiton",
-   "scientificName": "Katharina tunicata",
-   "count": 2
   },
   {
    "commonName": "Rough Keyhole Limpet",
@@ -2115,6 +2105,11 @@
    "count": 2
   },
   {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 2
+  },
+  {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
    "count": 2
@@ -2122,6 +2117,11 @@
   {
    "commonName": "Nanaimo Dorid",
    "scientificName": "Acanthodoris nanaimoensis",
+   "count": 1
+  },
+  {
+   "commonName": "Gould's baby chiton",
+   "scientificName": "Cyanoplax dentiens",
    "count": 1
   }
  ]

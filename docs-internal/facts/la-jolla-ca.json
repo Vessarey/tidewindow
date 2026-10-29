@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-28",
+ "generated_on": "2026-10-29",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -1966,20 +1966,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-28",
-   "weekday": "Wed",
-   "low_ft": -0.77,
-   "low_time_local": "5:51 PM",
-   "window_local": "3:25 PM–8:35 PM",
-   "arrive_by_local": "4:51 PM",
-   "daylight_min": 156,
-   "score": 59,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 253,
-   "min_to_sun_edge": 10
-  },
-  {
    "date": "2026-10-29",
    "weekday": "Thu",
    "low_ft": -0.56,
@@ -2048,6 +2034,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 259,
    "min_to_sun_edge": -76
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -1.507,
+   "low_time_local": "3:55 PM",
+   "window_local": "1:10 PM–7:00 PM",
+   "arrive_by_local": "2:55 PM",
+   "daylight_min": 213,
+   "score": 77,
+   "band": "Great",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 239,
+   "min_to_sun_edge": 48
   }
  ],
  "species_last60d_5km": [
@@ -2062,24 +2062,29 @@
    "count": 18
   },
   {
-   "commonName": "Hunchback Doris",
-   "scientificName": "Atagema alba",
-   "count": 14
+   "commonName": "Colorful Aeolid",
+   "scientificName": "Anteaeolidiella chromosoma",
+   "count": 17
   },
   {
    "commonName": "Yellow Umbrella Slug",
    "scientificName": "Tylodina fungina",
-   "count": 13
+   "count": 16
   },
   {
-   "commonName": "Colorful Aeolid",
-   "scientificName": "Anteaeolidiella chromosoma",
-   "count": 13
+   "commonName": "Hunchback Doris",
+   "scientificName": "Atagema alba",
+   "count": 16
   },
   {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 11
+   "count": 12
+  },
+  {
+   "commonName": "Freckled Ancula",
+   "scientificName": "Ancula lentiginosa",
+   "count": 12
   },
   {
    "commonName": "Sorcerer's Dorid",
@@ -2087,18 +2092,13 @@
    "count": 10
   },
   {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 10
+  },
+  {
    "commonName": "Colorful Dirona",
    "scientificName": "Dirona picta",
-   "count": 10
-  },
-  {
-   "commonName": "Lesser Two-spot Octopus",
-   "scientificName": "Octopus bimaculoides",
-   "count": 10
-  },
-  {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
    "count": 10
   }
  ]
