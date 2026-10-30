@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-29",
+ "generated_on": "2026-10-30",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -1966,20 +1966,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-29",
-   "weekday": "Thu",
-   "low_ft": -0.56,
-   "low_time_local": "6:53 PM",
-   "window_local": "4:25 PM–9:40 PM",
-   "arrive_by_local": "5:53 PM",
-   "daylight_min": 96,
-   "score": 45,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 261,
-   "min_to_sun_edge": -52
-  },
-  {
    "date": "2026-11-10",
    "weekday": "Tue",
    "low_ft": -0.414,
@@ -2048,13 +2034,37 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 239,
    "min_to_sun_edge": 48
+  },
+  {
+   "date": "2026-11-26",
+   "weekday": "Thu",
+   "low_ft": -1.4,
+   "low_time_local": "4:46 PM",
+   "window_local": "2:00 PM–7:55 PM",
+   "arrive_by_local": "3:46 PM",
+   "daylight_min": 163,
+   "score": 82,
+   "band": "Great",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 246,
+   "min_to_sun_edge": -3
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
-   "count": 20
+   "count": 22
+  },
+  {
+   "commonName": "Yellow Umbrella Slug",
+   "scientificName": "Tylodina fungina",
+   "count": 18
+  },
+  {
+   "commonName": "Hunchback Doris",
+   "scientificName": "Atagema alba",
+   "count": 18
   },
   {
    "commonName": "Hamann's Aeolid",
@@ -2067,39 +2077,29 @@
    "count": 17
   },
   {
-   "commonName": "Yellow Umbrella Slug",
-   "scientificName": "Tylodina fungina",
-   "count": 16
-  },
-  {
-   "commonName": "Hunchback Doris",
-   "scientificName": "Atagema alba",
-   "count": 16
-  },
-  {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 12
+   "count": 15
   },
   {
    "commonName": "Freckled Ancula",
    "scientificName": "Ancula lentiginosa",
-   "count": 12
+   "count": 13
   },
   {
-   "commonName": "Sorcerer's Dorid",
-   "scientificName": "Polycera atra",
-   "count": 10
+   "commonName": "Owl Limpet",
+   "scientificName": "Lottia gigantea",
+   "count": 13
   },
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 10
+   "count": 12
   },
   {
    "commonName": "Colorful Dirona",
    "scientificName": "Dirona picta",
-   "count": 10
+   "count": 11
   }
  ]
 }

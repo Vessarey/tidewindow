@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-29",
+ "generated_on": "2026-10-30",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -2106,13 +2106,13 @@
    "count": 22
   },
   {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 10
-  },
-  {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
+   "count": 11
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
    "count": 10
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-29",
+ "generated_on": "2026-10-30",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -1966,20 +1966,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-10-29",
-   "weekday": "Thu",
-   "low_ft": -0.415,
-   "low_time_local": "6:55 PM",
-   "window_local": "4:40 PM–9:25 PM",
-   "arrive_by_local": "5:55 PM",
-   "daylight_min": 80,
-   "score": 40,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 261,
-   "min_to_sun_edge": -55
-  },
-  {
    "date": "2026-11-10",
    "weekday": "Tue",
    "low_ft": -0.308,
@@ -2048,6 +2034,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 246,
    "min_to_sun_edge": -6
+  },
+  {
+   "date": "2026-11-27",
+   "weekday": "Fri",
+   "low_ft": -1.012,
+   "low_time_local": "5:44 PM",
+   "window_local": "3:10 PM–8:35 PM",
+   "arrive_by_local": "4:44 PM",
+   "daylight_min": 93,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 253,
+   "min_to_sun_edge": -61
   }
  ],
  "species_last60d_5km": [
@@ -2077,13 +2077,13 @@
    "count": 2
   },
   {
-   "commonName": "Cloudy Bubble Snail",
-   "scientificName": "Bulla gouldiana",
+   "commonName": "Owl Limpet",
+   "scientificName": "Lottia gigantea",
    "count": 1
   },
   {
-   "commonName": "Owl Limpet",
-   "scientificName": "Lottia gigantea",
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
    "count": 1
   },
   {

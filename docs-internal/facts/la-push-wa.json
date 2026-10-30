@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-29",
+ "generated_on": "2026-10-30",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2087,7 +2087,7 @@
   {
    "commonName": "Fingered Limpet",
    "scientificName": "Lottia digitalis",
-   "count": 3
+   "count": 4
   },
   {
    "commonName": "Black Tegula",

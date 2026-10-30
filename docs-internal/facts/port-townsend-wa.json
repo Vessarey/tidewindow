@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-29",
+ "generated_on": "2026-10-30",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1805,11 +1805,6 @@
    "count": 4
   },
   {
-   "commonName": "Fingered Limpet",
-   "scientificName": "Lottia digitalis",
-   "count": 3
-  },
-  {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
    "count": 3
@@ -1827,6 +1822,11 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
+   "count": 2
+  },
+  {
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
    "count": 2
   },
   {

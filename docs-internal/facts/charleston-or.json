@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-29",
+ "generated_on": "2026-10-30",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2091,6 +2091,11 @@
    "count": 3
   },
   {
+   "commonName": "Brown-streaked Sapsucker",
+   "scientificName": "Stiliger fuscovittatus",
+   "count": 2
+  },
+  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
    "count": 2
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 1
-  },
-  {
-   "commonName": "Brown-streaked Sapsucker",
-   "scientificName": "Stiliger fuscovittatus",
    "count": 1
   }
  ]
