@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-30",
+ "generated_on": "2026-10-31",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2072,6 +2072,11 @@
    "count": 2
   },
   {
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
+   "count": 2
+  },
+  {
    "commonName": "Pismo Clam",
    "scientificName": "Tivela stultorum",
    "count": 2
@@ -2079,11 +2084,6 @@
   {
    "commonName": "Owl Limpet",
    "scientificName": "Lottia gigantea",
-   "count": 1
-  },
-  {
-   "commonName": "Lesser Two-spot Octopus",
-   "scientificName": "Octopus bimaculoides",
    "count": 1
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-30",
+ "generated_on": "2026-10-31",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2082,13 +2082,13 @@
    "count": 15
   },
   {
-   "commonName": "Freckled Ancula",
-   "scientificName": "Ancula lentiginosa",
-   "count": 13
-  },
-  {
    "commonName": "Owl Limpet",
    "scientificName": "Lottia gigantea",
+   "count": 14
+  },
+  {
+   "commonName": "Freckled Ancula",
+   "scientificName": "Ancula lentiginosa",
    "count": 13
   },
   {

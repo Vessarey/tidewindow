@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-30",
+ "generated_on": "2026-10-31",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2081,6 +2081,11 @@
    "count": 11
   },
   {
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 6
+  },
+  {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
    "count": 4
@@ -2091,13 +2096,13 @@
    "count": 3
   },
   {
-   "commonName": "Brown-streaked Sapsucker",
-   "scientificName": "Stiliger fuscovittatus",
+   "commonName": "Lined Chiton",
+   "scientificName": "Tonicella lineata",
    "count": 2
   },
   {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
+   "commonName": "Brown-streaked Sapsucker",
+   "scientificName": "Stiliger fuscovittatus",
    "count": 2
   },
   {
@@ -2108,11 +2113,6 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 1
-  },
-  {
-   "commonName": "Lined Chiton",
-   "scientificName": "Tonicella lineata",
    "count": 1
   },
   {

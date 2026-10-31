@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-30",
+ "generated_on": "2026-10-31",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 55
+   "count": 56
   },
   {
    "commonName": null,
