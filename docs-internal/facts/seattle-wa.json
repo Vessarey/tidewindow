@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-31",
+ "generated_on": "2026-11-01",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1806,22 +1806,12 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 13
+   "count": 9
   },
   {
    "commonName": null,
    "scientificName": "Aeolidia",
    "count": 5
-  },
-  {
-   "commonName": "Giant Nudibranch",
-   "scientificName": "Dendronotus iris",
-   "count": 4
-  },
-  {
-   "commonName": "Rocky Aeolid",
-   "scientificName": "Eubranchulus rupium",
-   "count": 3
   },
   {
    "commonName": "East Pacific Red Octopus",
@@ -1834,8 +1824,18 @@
    "count": 2
   },
   {
+   "commonName": "Giant Nudibranch",
+   "scientificName": "Dendronotus iris",
+   "count": 2
+  },
+  {
    "commonName": "Festive Tritonid",
    "scientificName": "Tritonia festiva",
+   "count": 2
+  },
+  {
+   "commonName": null,
+   "scientificName": "Coryphella longicaudata",
    "count": 2
   },
   {

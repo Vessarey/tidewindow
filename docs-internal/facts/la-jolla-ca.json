@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-31",
+ "generated_on": "2026-11-01",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2084,7 +2084,7 @@
   {
    "commonName": "Owl Limpet",
    "scientificName": "Lottia gigantea",
-   "count": 14
+   "count": 15
   },
   {
    "commonName": "Freckled Ancula",
@@ -2097,9 +2097,9 @@
    "count": 12
   },
   {
-   "commonName": "Colorful Dirona",
-   "scientificName": "Dirona picta",
-   "count": 11
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
+   "count": 12
   }
  ]
 }
