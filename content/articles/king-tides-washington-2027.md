@@ -2,7 +2,7 @@
 title: "King Tides Washington 2026 & 2027: Dates for Seattle, Port Townsend and La Push — and Where the Lows Go"
 description: "Washington king tide dates 2026-27: a 13.09 ft Seattle high on Jan 25, Christmas-week peaks at La Push, and why Puget Sound's deep lows land at night."
 date: "2026-09-04"
-updated: "2026-10-20"
+updated: "2026-11-02"
 category: "king-tides"
 gateStations: ["seattle-wa", "port-townsend-wa", "la-push-wa"]
 featuredRoundup:
@@ -97,4 +97,4 @@ Winter lows come with winter ocean, and the outer coast is the most exposed shor
 
 ## How to keep these dates
 
-They are months away, which is how they get lost. The [Tide Window Finder](/tools/tide-window-finder/) lists every upcoming daylight window at all three Washington stations with its arrive-by time, and takes a ZIP code to pick the nearest station (the lookup runs in your browser; nothing is sent). The [Trip Picker](/tools/trip-picker/) will chain the December 22-23 and January 21-22 La Push windows into a best consecutive-days answer if your travel dates are flexible. And the station picker at the end of this page hands you a calendar feed of upcoming Good-or-better daylight windows, each with an arrive-by alarm. Mind what that filter means here: of the five La Push dates above, only the two January windows score Good, so only they reach the feed — the Fair rows don't make the cut, and the high-tide photo dates are never in it; it is a low-window feed.
+They are months away, which is how they get lost. The [Tide Window Finder](/tools/tide-window-finder/) lists every upcoming daylight window at all three Washington stations with its arrive-by time, and takes a ZIP code to pick the nearest station (the lookup runs in your browser; nothing is sent). The [Trip Picker](/tools/trip-picker/) will chain the December 22-23 and January 21-22 La Push windows into a best consecutive-days answer if your travel dates are flexible. For shooting low water rather than high, [Golden Hour × Low Tide](/tools/golden-hour/) lists the lows that land within 90 minutes of sunrise or sunset, with the sun's bearing at each low — a low-tide tool, separate from the king-tide photo dates above. And the station picker at the end of this page hands you a calendar feed of upcoming Good-or-better daylight windows, each with an arrive-by alarm. Mind what that filter means here: of the five La Push dates above, only the two January windows score Good, so only they reach the feed — the Fair rows don't make the cut, and the high-tide photo dates are never in it; it is a low-window feed.

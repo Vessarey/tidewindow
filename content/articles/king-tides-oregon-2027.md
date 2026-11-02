@@ -2,7 +2,7 @@
 title: "Oregon Coast King Tides 2026 & 2027: Official Dates, Highs and Low-Tide Windows"
 description: "Oregon king tide dates: Nov 23–27 and Dec 22–26, 2026; Jan 20–24, 2027. Compare official photo dates, NOAA high tides and daylight low-tide windows."
 date: "2026-09-02"
-updated: "2026-09-13"
+updated: "2026-11-02"
 category: "king-tides"
 gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 featuredRoundup:
@@ -128,6 +128,6 @@ For more Oregon context, see the [Oregon tide-pools guide](/guides/best-tide-poo
 
 ## Compare your dates and keep qualifying low-tide windows
 
-For the next 30 days, the [Tide Window Finder](/tools/tide-window-finder/) compares computed low-tide windows and can select the nearest covered station from a ZIP code. For a later trip, the [Trip Picker](/tools/trip-picker/) ranks windows within your chosen station and date range. These tools are for low-water comparisons, not the official high-water photography schedule.
+For the next 30 days, the [Tide Window Finder](/tools/tide-window-finder/) compares computed low-tide windows and can select the nearest covered station from a ZIP code. For a later trip, the [Trip Picker](/tools/trip-picker/) ranks windows within your chosen station and date range. These tools are for low-water comparisons, not the official high-water photography schedule. If it's low-water light you're after, [Golden Hour × Low Tide](/tools/golden-hour/) flags the lows that land within 90 minutes of sunrise or sunset, with the sun's bearing at each low.
 
 The station picker below offers calendar feeds for **Good-or-better daylight low-tide windows**. It will not include every row in this guide, the high-tide peaks or the project's photo-series dates. See [how the calendar feeds work](/calendars/) for the subscription steps.
