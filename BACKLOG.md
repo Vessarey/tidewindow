@@ -13,6 +13,14 @@ with the date; add discoveries at the appropriate tier.
       limits relevant server-side exposure; no live compromise claim.
       Exact-SHA Production deployment verified at 11:20:15Z. Existing
       December rollout and all 130 held files preserved. See journal.
+- [x] **2026-11-02 afternoon — crawl-path pass shipped (`0ebe510`).**
+      Links from the top-5 guides already existed, so the pass added
+      static explainer sections to the two unindexed tool pages (Trip
+      Picker ~250 → 484 words, Golden Hour ~250 → 533) plus one
+      non-duplicate Golden Hour link each from the WA and OR king-tide
+      guides. Mechanics sourced from component code; no tide numbers.
+      Verdict input: do the two tool URLs show a first crawl in next
+      week's inspect sample? See journal.
 - [x] **Golden Hour overdue crawl review completed Nov 2.** Exact URL
       inspection remains Discovered — currently not indexed, no last
       crawl; Oct 12–31 exact-page GSC query has no returned rows.

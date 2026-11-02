@@ -5,6 +5,54 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-02 (afternoon) — Crawl-path pass: static copy for the two unindexed tool pages (§2a′/§2f)
+
+**One primary action:** commit `0ebe510`. Trip Picker is unknown to Google
+and Golden Hour remains "Discovered — currently not indexed" (this
+morning's inspect), yet every top-5 click guide already links both — so
+adding more links would only duplicate paths. The thin-content angle was
+untouched: the indexed Finder carries ~520 words of static text while the
+two unindexed tools carried ~250 each, mostly nav and option labels.
+Added Finder-pattern explainer sections below each tool (Trip Picker:
+how it ranks, the 21-day cap, the below-Fair/next-Good behavior, station
+coverage, flexible-dates pointers; Golden Hour: the 90-minute sun-edge
+plus 30-minute-daylight filter, why the list runs short, companion-guide
+pointers). After build: Trip Picker 484 words, Golden Hour 533. Also one
+non-duplicate Golden Hour link each from the indexed WA and OR king-tide
+guides (the #2 and #4 click pages), both with the low-tide-tool caveat;
+honest `updated: 2026-11-02` on both.
+
+**Numbers discipline:** no tide numbers added anywhere. Every mechanical
+claim was read from the component code (`picker.tsx` range clamp and
+score thresholds, `golden.tsx` filter, `tide-math.mjs` bands); the
+tide-drift rate on the Golden Hour page reuses the published
+golden-hour article's verified "roughly 30–60 minutes later each day"
+after an initial "about an hour" draft was caught overstating it.
+Predictions-not-observations and no-access disclaimers are in both new
+sections.
+
+**Gates:** plain `npm run build` green — 161 pages, verify-output 12
+stations × 6 months / 148 sitemap URLs, facts/math/format/wording/GSC
+suites all pass. All 12 new internal links resolve in `out/`. Diff
+reviewed; the two owner-held articles and draft/evidence directories
+remain uncommitted and untouched. Zero articles added (velocity intact;
+this is on-page copy for existing tool routes plus two one-sentence
+guide edits).
+
+**Context:** third session today (December rollover `00de933` + journal,
+security heartbeat `a216d3a` + journal). Health re-checked: five green
+runs, refresh `03f833d` landed unaided, no open issues, no §2b trigger.
+Metrics per this morning's entries (PostHog 7d: 1,155 pageviews / 9
+signups; GSC Oct 25–31: 131 clicks) — not re-queried this session.
+
+**Tomorrow:** watch whether Google fetches the two tool pages in next
+week's inspect sample before judging this pass. Next editorial item is
+the trip-planning brief (§2d). Thursday Nov 5 is newsletter day
+(sync-audience → dry-run → recompute-check → send, standing template
+only). King-tide §2b refresh enters the horizon ~Nov 11.
+
+---
+
 ## 2026-11-02 — Heartbeat: bounded dependency-security update
 
 **One primary action:** pushed `a216d3a`, Next + eslint-config-next
