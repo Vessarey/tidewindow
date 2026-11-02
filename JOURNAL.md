@@ -5,6 +5,87 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-02 — Later heartbeat: correct the new tool explanations
+
+**One primary action:** source `24c641f` corrects factual overstatements
+in the static sections added by today's `0ebe510`. Trip Picker ranks
+nighttime lows too; it only offers a later Good window when one exists
+after the selected end date. Golden Hour's 30-minute daylight overlap
+does not put the low itself in daylight, and computed sun bearing is
+not a promise of visible sunlight. Removed the blanket daily-drift
+explanation, documented the 20-result cap, and narrowed the companion
+article's claim to selected 2026 overlaps. Kept all links, titles,
+canonicals, tool logic, shared vocabulary, signup flows and generated
+data unchanged. This accuracy correction does not repeat the crawl-path
+work or constitute a new conversion experiment.
+
+**Reproductions:** committed Seattle predictions for Nov 6–8 have lows
+at 9:16, 9:46 and 10:16 PM, all score 0 and zero daylight overlap.
+Trip Picker visibly chooses Nov 6, then offers Mar 13, 2027 as the next
+Good window. Golden Hour includes Feb 15, 2027 at 5:52 PM with 78
+minutes of window daylight, but the low is 19 minutes after sunset and
+sun altitude is -3.4 degrees. The two new wording regressions failed
+against the published copy and pass after correction; they inspect
+actual predictions without depending on a specific retained date.
+
+**Validation:** isolated archive of `6036d0d`, excluding held edits.
+Both fresh-NOAA `PIPELINE_REFRESH=1 npm run build` and a second build
+restored to committed data pass: 161 static pages, 12 stations × 6
+months, 148 sitemap URLs, 87 tests (42 facts / 6 math / 17 format /
+8 wording / 14 GSC). Lint, TypeScript, diff check and all 148 local
+HTTP routes pass. Both target canonicals and indexability are intact.
+Desktop browser checks reproduce both examples and open the calendar
+form without submitting; 390px DOM layout checks show no page overflow
+and the Golden Hour table remains horizontally contained. No browser
+warning/error logs. Date-field automation needed native key input to
+trigger React changes; the resulting dates and result were verified.
+All 130 pre-existing dirty/untracked files remain SHA-256 unchanged.
+
+**Release verified:** `24c641fd06e9c5440a4f775b9280c0e8b75f19b4`
+received Vercel success at **18:30:11Z**, exact-SHA Production deployment
+`7500147458`. Both live URLs return 200 with the corrected text, old
+claims absent, intended canonicals and no noindex. Reloaded live browser
+confirms both explanations with no warning/error logs; all 12 live
+station JSONs still match today's committed refresh. [Vercel release](https://vercel.com/vessareys-projects/tidewindow/BiJkXRn8WHVjgZ7hLTxCjNhuFfjW).
+
+**Operations:** latest six refresh runs are green; the newest run at
+17:08:01Z is a skip, not a new refresh. Today's unaided `03f833d` remains
+on main (06:19Z push, documented above); all 12 live station JSONs
+matched it before this release. No open GitHub issues. Production audit
+still has zero findings; the 21 development-only entries remain a
+separate backlog item. No new near-term ≥90 or king-tide trigger beyond
+the morning check. Nov 5 newsletter and ~Nov 11 king-tide review remain
+the next dated duties; no broadcast, catch-up send or manual refresh.
+
+**Fresh product snapshot:** configured read-only PostHog API, project
+495836, exact production host and native Regular classification, explicit
+UTC bounds ending Nov 2 at 18:19:59Z. Oct 26–Nov 2: 1,129 pageviews /
+1,079 distinct IDs; 9 signup events / 8 IDs; 14 calendar-gate clicks,
+7 URL reveals, 13 station selections and 11 result views. Oct 5–Nov 2:
+3,058 pageviews / 2,871 IDs; 14 signup events / 13 IDs; 39 gate clicks,
+10 reveals and 8 Trip Picker runs / 4 IDs. These are event counts,
+not an ordered funnel or active subscribers. Three 7d pageviews match
+the known Chrome 149/Linux signature; removing those leaves 1,126,
+still not verified human traffic. LCP p75 780 ms over 283 non-null
+records, not a CrUX verdict. Zero 7d exceptions observed, with complete
+capture still unverified; two events / one ID in 28d.
+
+**Search / decision limits:** fresh configured GSC `dates 28` returns
+all Oct 4–31 Pacific dates, Web/final, summing to 390 clicks; the settled
+window has not advanced since this morning's property-total comparison.
+The +49.4% prior-period comparison above is that morning's read, not a
+new causal result. Today's operator already performed indexing review;
+no second inspection or extra links added. Wait for a first crawl of
+the two tools and adequate samples before judging the explainer pass.
+Exit-intent stays closed-unmeasurable; its owner keep/remove conflict
+is not resolved by this week's traffic. PostHog OAuth and GSC Wizard
+plan/access failures are unchanged: stopped those skill workflows and
+used configured read-only reports, without access or billing changes.
+The analytics-led refresh skill kept this action narrow and separated
+verified copy accuracy from unproven indexing/conversion benefit.
+
+---
+
 ## 2026-11-02 (afternoon) — Crawl-path pass: static copy for the two unindexed tool pages (§2a′/§2f)
 
 **One primary action:** commit `0ebe510`. Trip Picker is unknown to Google

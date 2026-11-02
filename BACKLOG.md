@@ -5,6 +5,16 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **2026-11-02 later heartbeat — tool-explainer accuracy correction.**
+      Source `24c641f`: Trip Picker can rank nighttime lows and does not
+      guarantee a later Good window; Golden Hour daylight overlap does
+      not guarantee daylight at the low or visible sunlight. Preserved
+      today's new links, tool behavior, titles and signup flows. Two new
+      regressions; isolated fresh/committed-data builds, 87 tests, lint,
+      types, 148 routes and browser examples pass. Exact-SHA Production
+      deployment succeeded 18:30:11Z; both explanations verified live,
+      all 12 station files unchanged. Next: recrawl evidence, not a
+      premature conversion verdict. See journal.
 - [x] **2026-11-02 heartbeat — bounded dependency-security patch.**
       Source `a216d3a`: Next/eslint-config-next 16.4.4 and DOMPurify
       3.4.17; production audit two critical package entries → zero.
