@@ -5,6 +5,22 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **2026-11-02 heartbeat — bounded dependency-security patch.**
+      Source `a216d3a`: Next/eslint-config-next 16.4.4 and DOMPurify
+      3.4.17; production audit two critical package entries → zero.
+      Fresh/committed-data builds, 85 tests, lint, types, 148 local routes
+      and Finder ZIP/calendar-form browser checks pass. Static export
+      limits relevant server-side exposure; no live compromise claim.
+      Exact-SHA Production deployment verified at 11:20:15Z. Existing
+      December rollout and all 130 held files preserved. See journal.
+- [x] **Golden Hour overdue crawl review completed Nov 2.** Exact URL
+      inspection remains Discovered — currently not indexed, no last
+      crawl; Oct 12–31 exact-page GSC query has no returned rows.
+      No conversion judgment or experiment extension. Next crawl-path
+      pass should inspect Golden Hour, Trip Picker and La Push guide
+      links from indexed high-traffic guides; avoid duplicating the
+      Oct 12 national-guide → Golden Hour link. Indexing still unresolved.
+
 - [x] **2026-11-02 — December rollover shipped (`00de933`), §2c gate passed.**
       GSC evidence (stronger than the Bing site: check used Oct 1): November
       month pages indexed and clicking in Oct 4–31; December dailies present
@@ -12,7 +28,7 @@ with the date; add discoveries at the appropriate tier.
       Operator gap Oct 23–Nov 1 acknowledged in journal: Oct 29 newsletter
       was not sent (latest broadcast remains Oct 22 `3acc9477`); no catch-up
       send — next issue Thursday Nov 5. Golden Hour review (was due Oct 26)
-      re-slotted: do with a §2e/§2f pass this week. Weekly inspect: 24/30
+      completed by Nov 2 heartbeat above; still unindexed. Weekly inspect: 24/30
       indexed; `/tools/trip-picker/` unknown to Google → §2f candidate:
       contextual links from the king-tide pages (current top surface) into
       Trip Picker and the Finder. §2b watch: November king-tide cluster
@@ -133,6 +149,7 @@ with the date; add discoveries at the appropriate tier.
       All 65 tests and output checks pass; see journal/evidence directory
       for deployment status and source/report discrepancy. Review crawl
       status Oct 26, without claiming link-caused indexing or uplift.
+      **Nov 2 review:** still Discovered, no last crawl; see new entry above.
 <!-- heartbeat-2026-10-12:end -->
 
 <!-- heartbeat-2026-10-11:start -->
@@ -2457,6 +2474,15 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       relevance first; prefer harmonic.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
+
+- [ ] **Nov 2 development-dependency audit follow-up.** Patched production
+      lock has zero production findings, but full audit reports 21
+      development package entries (18 moderate, 3 high). Compression/serve
+      remain high; zod is also high. Moderate chains include minimatch
+      and fast-uri. Review compatible narrow fixes in isolation; never
+      accept npm's proposed ESLint/Next-config/serve force-downgrades.
+      Preview remains loopback-only with compression disabled. This
+      supersedes old package-count snapshots, not the exposure caveats.
 
 - [x] **Oct 12 crawl-path audit follow-up — planning guide freshness.**
       **Promoted Oct 21 to the single P1 trip-planning brief above; article

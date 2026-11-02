@@ -5,6 +5,117 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-02 — Heartbeat: bounded dependency-security update
+
+**One primary action:** pushed `a216d3a`, Next + eslint-config-next
+16.3.8 → 16.4.4 and the locked DOMPurify dependency 3.4.16 → 3.4.17.
+The fresh production audit reported two critical package entries; the
+candidate production audit now reports **zero findings**. This security
+maintenance took priority over another editorial/crawl-path change.
+The daily operator completed December rollover `00de933` and journal
+`ca10408` while this review was running; the isolated candidate was
+rebased by re-archiving that completed state before editing. Neither the
+rollover nor a newsletter was repeated.
+
+**Scope and exposure:** reviewed the [Next advisory](https://github.com/advisories/GHSA-2464-fhr4-w9xw),
+[Next release](https://github.com/vercel/next.js/releases/tag/v16.4.4) and
+[DOMPurify release](https://github.com/cure53/DOMPurify/releases/tag/3.4.17).
+This site uses `output: export` and `images.unoptimized`; no `use server`
+or `use cache` usage was found in application source. DOMPurify is a
+PostHog product-tour transitive dependency; the inspected sanitizer call
+does not enable the advisory's special modes. This is dependency hygiene,
+not evidence that the live static site was exploitable or compromised.
+No React/PostHog version, content, analytics configuration, generated data,
+title or signup variant changed. npm also recorded six bundled optional
+Tailwind WASM child entries; no existing Tailwind package version changed.
+
+**Validation:** clean archive excludes all held edits. Both
+`PIPELINE_REFRESH=1 npm run build` (12 fresh NOAA stations) and a second
+build restored to committed data pass. Next 16.4.4 emits 161 static pages;
+verify-output passes **12 stations × 6 months / 148 sitemap URLs**.
+All **85 tests** pass (42 facts, 6 math, 17 format, 6 wording, 14 GSC),
+as do lint, TypeScript and all 148 local HTTP routes. Isolated browser
+ZIP 98101 → Seattle, ranked windows, curve and calendar-form opening
+work; no warning/error logs in that tab. No signup submitted. Candidate
+full audit still has **21 development-only package entries** (18 moderate,
+3 high: compression, serve and zod). No force-downgrade or broad fix used.
+Local preview binds only 127.0.0.1 with compression disabled.
+
+**Release verified:** `a216d3a961dd64b7a06cf3aad4b1d99e40f162f6`
+received Vercel success at **11:20:15Z**; exact-SHA Production deployment
+`7490766141`. After deployment, all 12 live station JSONs still match
+committed data, the live sitemap has 148 URLs including all 12 December
+pages, and the reloaded live Finder passes ZIP 98101 → Seattle, ranked
+windows and calendar-form opening with no warning/error logs. No signup
+submitted. [Vercel release](https://vercel.com/vessareys-projects/tidewindow/DezjWU5TxNLqQPxGTrjbnxQ88JDD).
+
+**NOAA/operations:** scheduled run `41398835538` began 06:16:04Z and
+pushed `03f833d` at **06:19:23.662Z**, unaided and before this review.
+IndexNow submitted 136 URLs HTTP 200 at 06:19:20.945Z, before the operator
+added 12 December pages. Originating cron slot is unknown, so no slot
+delay inferred. All 12 live station JSONs matched the committed refresh
+(generated 06:17:10.282Z); eight representative live routes returned 200.
+No open GitHub issues. No ≥90 window in Nov 2–16; the highest in that
+range is Pillar Point Nov 8, score 68. The pipeline already has windows
+through December 2027; the explicit fact-range remains Jul–Dec 2026 and
+must not silently become a full-year or 2027 claim. No manual refresh,
+spend, contact sync, broadcast or access/configuration change.
+
+**Search performance:** configured read-only GSC script/API, Web/final,
+Pacific dates; latest returned final date Oct 31. Oct 4–31 versus Sep
+6–Oct 3: **390 vs 261 clicks (+49.4%, derived)**, 20,012 vs 14,629
+impressions, position 6.97 vs 7.18. Oct 25–31 versus Oct 18–24:
+**131 vs 89 clicks (+47.2%)**, 7,041 vs 4,589 impressions, position
+6.79 vs 7.26. Property totals, not sums of visible query rows. Leading
+28d pages: national king tides 107 clicks, Washington 75, Fitzgerald 37,
+Oregon king tides 33. Growth is directional/seasonal evidence, not proof
+that any particular edit caused it.
+
+**Product analytics:** configured read-only PostHog API, project 495836,
+host exactly `thetidewindow.com`, native `Regular`; corrected queries use
+explicit UTC bounds, ending **2026-11-02 11:05:57Z**. Seven days from Oct
+26: **1,153 pageviews / 1,101 distinct IDs; 9 signup events / 8 IDs**;
+13 calendar-gate clicks, 7 reveals, 11 station selections, 9 result views.
+Twenty-eight days from Oct 5: **3,055 pageviews / 2,866 IDs; 14 signup
+events / 13 IDs**; 38 gate clicks, 10 reveals, 8 Trip Picker runs / 4 IDs.
+Counts are not an ordered funnel or active-subscriber total. Three of
+the 7d Regular pageviews match the known Chrome 149/Linux signature;
+1,150 remain after subtracting it, still not verified humans. LCP p75
+759 ms across 284 non-null event records; not a CrUX verdict. Zero
+7d exception events were observed, but capture flags were missing/false
+in the probe, so complete error coverage is unverified (28d has two
+events / one ID). Initial queries omitted an explicit UTC timezone and
+returned slightly different totals; use the corrected figures above.
+
+**Indexing and overdue review:** pre-rollover deterministic sample of
+40/136 sitemap URLs: 31 indexed, 6 discovered/unindexed, 3 unknown.
+This is separate from the operator's 30-URL sample, not a whole-site
+coverage percentage. Exact Golden Hour inspection today: **Discovered —
+currently not indexed**, with no last crawl; exact-page Oct 12–31 GSC
+query returned no rows. The Oct 26 review is now performed, but indexing
+is not resolved and no conversion verdict is warranted. Trip Picker and
+La Push guide also remain discovered/unindexed in this sample. Next
+non-security action should examine their existing contextual crawl paths
+from the top king-tide guides, avoiding duplicate links. No title or gate
+experiment started. Exit-intent experiment remains closed-unmeasurable;
+the documented owner keep/remove conflict remains unresolved. New
+traffic does not retroactively change the Oct 1 deadline decision.
+
+**Access gaps and next actions:** PostHog connector requires reauthentication;
+GSC Wizard requires an active plan/trial and connected GSC. Per those
+skills, stopped their connector workflows, used the already configured
+read-only repository paths, and changed no billing/access settings. The
+analytics-led refresh skill kept missing data and indexing distinct from
+zero demand; no speculative SEO edit. Live release is verified; next are
+crawl paths, development-dependency triage, and the existing Nov 5
+newsletter / ~Nov 11 king-tide watch. The operator reports the Oct 29
+newsletter was missed; this heartbeat did not independently query Resend
+or attempt a catch-up send. All **130 pre-existing dirty/untracked files**
+are SHA-256 unchanged, including both held articles and draft/evidence
+directories.
+
+---
+
 ## 2026-11-02 — December rollover (§2c); ten-day operator gap acknowledged
 
 **One primary action (§2c):** published the 2026-12 calendar batch,
