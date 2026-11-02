@@ -5,6 +5,21 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **2026-11-02 — December rollover shipped (`00de933`), §2c gate passed.**
+      GSC evidence (stronger than the Bing site: check used Oct 1): November
+      month pages indexed and clicking in Oct 4–31; December dailies present
+      for all 12 stations; verify-output 12 x 6 months, 148 sitemap URLs.
+      Operator gap Oct 23–Nov 1 acknowledged in journal: Oct 29 newsletter
+      was not sent (latest broadcast remains Oct 22 `3acc9477`); no catch-up
+      send — next issue Thursday Nov 5. Golden Hour review (was due Oct 26)
+      re-slotted: do with a §2e/§2f pass this week. Weekly inspect: 24/30
+      indexed; `/tools/trip-picker/` unknown to Google → §2f candidate:
+      contextual links from the king-tide pages (current top surface) into
+      Trip Picker and the Finder. §2b watch: November king-tide cluster
+      peaks Nov 25 and enters the 14-day horizon ~Nov 11 — refresh the
+      king-tide roundups then. January 2027 rollover gate: check
+      December-batch indexing ~Dec 1.
+
 - [x] **2026-10-21 heartbeat — restore the ready queue (§2a), docs only.**
       Morning Glass Beach work is verified live and not repeated. Two ready
       briefs remained, below the three-item floor. Added three bounded

@@ -5,6 +5,77 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-02 — December rollover (§2c); ten-day operator gap acknowledged
+
+**One primary action (§2c):** published the 2026-12 calendar batch,
+commit `00de933` — a one-line `published-months.json` change, the twelfth
+month across 12 stations. Staged-rollout gate passed on GSC evidence, not
+a Bing site: check this time: November month pages are indexed and earning
+clicks in the Oct 4–31 window (san-diego 2026-11 at 10 clicks / 407
+impressions, plus pillar-point, charleston, la-push, la-jolla,
+port-townsend and bar-harbor 2026-11 rows), and today's weekly inspect
+sample shows garibaldi and port-orford 2026-11 "Submitted and indexed".
+December dailies are present for all 12 stations in committed data-json
+(cron `03f833d`). Plain build green: verify-output 12 stations x 6 months,
+148 sitemap URLs (136 + 12), wording/facts/format/GSC suites all pass.
+Velocity: zero articles added this week; config-only release.
+
+**Operator gap, stated plainly:** no operator session ran Oct 23–Nov 1 —
+only data refreshes landed in that span. Consequences: (1) the Thursday
+Oct 29 newsletter was NOT sent; read-only Resend confirms the latest
+broadcast is still Oct 22 `3acc9477` (23 contacts = 22 subscribed + 1
+unsubscribed). No catch-up send today — the ritual is Thursday; next issue
+is Nov 5. (2) The Golden Hour review scheduled for Oct 26 did not happen;
+re-slot it. (3) Weekly indexing skipped Oct 26-week; done today instead.
+
+**Health:** latest five Actions runs green; no open issues. Today's actual
+refresh is run `41398835538` (3m23s, started ~06:16Z); the 10:03Z run is
+an 11s skip-guard. `03f833d` was on origin/main before this session —
+refresh landed unaided. Facts regenerated today (global.json
+2026-11-02); no recovery dispatch needed.
+
+**Indexing health (§2a′, first run of week):** inspect sample 30 URLs:
+24 indexed / 6 unknown to Google (20%, below the one-third alarm).
+Unknowns: `/tools/trip-picker/` plus five month/archive pages
+(seattle 2026-11, garibaldi 2026-08, newport 2026-09, charleston 2026-10,
+bar-harbor 2026-10). Trip Picker never fetched is the one that matters —
+it has had 10 uses (5 IDs) in 28d from on-site traffic only. Candidate
+§2f action: contextual links from the king-tide pages (now the top traffic
+surface) into Trip Picker and the Finder.
+
+**Metrics snapshot:** PostHog 7d (host thetidewindow.com): 1,155 pageviews
+/ 1,103 distinct IDs, **9 newsletter_signup events (8 IDs)** — more than
+the whole prior 28-day window (8). Signup pages: king-tides-oregon 2,
+finder 2, newport, la-push, seattle, monterey, /calendars/ 1 each. Tool
+events: station_selected 11 (7), window_result_viewed 9 (7). King-tide
+season is the story: the three king-tide guides took 852 of 1,155
+pageviews (national 486, OR 233, WA 133). Referrer pageviews: Bing 278,
+DDG 243, direct 212, Google 189, Yahoo 124. GSC Oct 4–31: daily
+impressions climbed from ~550–700 (early Oct) to a 1,284 peak Oct 28;
+clicks 27 on Oct 28 vs ~13/day earlier; position steady ~6.5–7.5.
+28d pages: national king tides 107 clicks / 6,058 impr / 6.8, WA 75 /
+4,124 / 5.8, OR 33 / 2,096 / 7.4. These are counts, not verified humans.
+
+**No §2b trigger yet:** no window scores ≥85 within 14 days at any
+station; the November king-tide cluster peaks Nov 25 (8 of 12 stations
+have it in their season top-5 highs; e.g. La Push 10.79 ft, Garibaldi
+10.13 ft). It enters the 14-day §2b horizon around **Nov 11** — the
+king-tide pages should get their event-proximity refresh then, while
+they are the site's top traffic surface.
+
+**Held work untouched:** the two owner-held article edits
+(haystack-rock, what-is-a-minus-tide) and the draft/evidence directories
+remain uncommitted and unstashed; today's pull used fetch + ff-only merge
+around them. No spend, outreach, credential or configuration changes.
+
+**Tomorrow:** next editorial item is the trip-planning brief (§2d) or the
+Trip Picker crawl-path §2f pass; Thursday Nov 5 is newsletter day
+(sync-audience → dry-run → recompute-check → send with the standing
+template only). Re-slot the Golden Hour review. Watch the December pages'
+first crawl in next week's inspect.
+
+---
+
 ## 2026-10-22 — Heartbeat: sneaker-wave factual correction, separate from the sent newsletter
 
 **One primary action (§2d):** published article/test commit `615b442`.
