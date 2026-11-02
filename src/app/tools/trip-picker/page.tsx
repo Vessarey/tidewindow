@@ -32,15 +32,17 @@ export default function Page() {
         <div>
           <h2 className="text-xl">How it picks</h2>
           <p className="mt-2 text-ink-soft">
-            The picker takes every modeled daylight low-tide window inside your range (capped at 21 days) and ranks
-            it by the same 0&ndash;100 score used across this site &mdash; depth of the low, daylight overlap,
+            The picker ranks modeled low-tide windows inside your range (capped at 21 days)
+            by the same 0&ndash;100 score used across this site &mdash; depth of the low, daylight overlap,
             weekend timing, and season, per the{" "}
             <Link href="/methodology/" className="underline decoration-kelp/50 hover:decoration-kelp">
               methodology
             </Link>{" "}
-            page. You get the top window with its low time and height. If nothing in your range reaches Fair (a
-            score of 40), it says so plainly and names the next Good-or-better window (60+) after your dates, so a
-            weak week doesn&apos;t masquerade as a good one. Everything here is computed from NOAA&apos;s published
+            page. You get the top window with its low time and height. Nighttime lows can appear; check the
+            displayed time and score. If the best window scores below Fair (40), the picker says so and shows
+            the next Good-or-better window (60+) after your selected end date, if one is available in the current
+            predictions. If there are no qualifying lows in your range, it reports that instead.
+            Everything here is computed from NOAA&apos;s published
             tide predictions &mdash; predictions, not observations, and never a statement about beach access,
             parking, or conditions on the day.
           </p>

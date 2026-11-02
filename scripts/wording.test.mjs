@@ -38,6 +38,30 @@ const allWindows = fs
 
 const sentencesOf = (text) => text.split(/(?<=[.!?])\s+|\n/);
 
+test("Trip Picker copy admits nighttime lows and makes later Good windows conditional", () => {
+  const text = fs.readFileSync(path.join(ROOT, "src/app/tools/trip-picker/page.tsx"), "utf8")
+    .replace(/\s+/g, " ");
+  const example = allWindows.find((w) => w.lowTime > w.sunset && w.score < 40);
+  assert.ok(example, "The predictions include nighttime lows that Trip Picker can rank.");
+  assert.doesNotMatch(text, /every modeled daylight low-tide window/i);
+  assert.match(text, /Nighttime lows can appear/);
+  assert.match(text, /if one is available in the current predictions/);
+});
+
+test("Golden Hour copy separates daylight overlap from sunlight at the low", () => {
+  const text = fs.readFileSync(path.join(ROOT, "src/app/tools/golden-hour/page.tsx"), "utf8")
+    .replace(/\s+/g, " ");
+  const example = allWindows.find((w) => w.minToSunEdge !== null && Math.abs(w.minToSunEdge) <= 90
+    && w.daylightMin >= 30 && (w.lowTime < w.sunrise || w.lowTime > w.sunset));
+  assert.ok(example, "A qualifying window can have its low outside sunrise–sunset.");
+  assert.match(text, /within 90 minutes of sunrise or sunset/);
+  assert.match(text, /at least 30 minutes of daylight/);
+  assert.match(text, /low itself can fall before sunrise or after sunset/);
+  assert.match(text, /not a guarantee of visible sunlight/);
+  assert.doesNotMatch(text, /which side of your subject it lands on/);
+  assert.doesNotMatch(text, /shows every upcoming daylight window/);
+});
+
 test("no article instructs readers to arrive when a window opens", () => {
   for (const { file, text } of articles) {
     assert.ok(
