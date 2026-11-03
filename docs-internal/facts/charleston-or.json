@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-02",
+ "generated_on": "2026-11-03",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2102,6 +2102,11 @@
    "count": 2
   },
   {
+   "commonName": "Pacific Razor Clam",
+   "scientificName": "Siliqua patula",
+   "count": 2
+  },
+  {
    "commonName": "Pacific Oyster",
    "scientificName": "Magallana gigas",
    "count": 2
@@ -2114,11 +2119,6 @@
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 1
-  },
-  {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
    "count": 1
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-02",
+ "generated_on": "2026-11-03",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2073,11 +2073,6 @@
    "count": 4
   },
   {
-   "commonName": "Kelp Scallop",
-   "scientificName": "Leptopecten latiauratus",
-   "count": 3
-  },
-  {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
    "count": 2
@@ -2090,6 +2085,11 @@
   {
    "commonName": "Lesser Two-spot Octopus",
    "scientificName": "Octopus bimaculoides",
+   "count": 2
+  },
+  {
+   "commonName": "Kelp Scallop",
+   "scientificName": "Leptopecten latiauratus",
    "count": 2
   },
   {

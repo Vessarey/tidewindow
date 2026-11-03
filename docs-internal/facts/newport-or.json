@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-02",
+ "generated_on": "2026-11-03",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2079,7 +2079,7 @@
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 30
+   "count": 31
   },
   {
    "commonName": "Branched Dendronotid",
@@ -2117,9 +2117,9 @@
    "count": 7
   },
   {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
-   "count": 6
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 7
   }
  ]
 }

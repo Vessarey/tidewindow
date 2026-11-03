@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-02",
+ "generated_on": "2026-11-03",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
-   "count": 7
+   "count": 8
   },
   {
    "commonName": "Fingered Limpet",
