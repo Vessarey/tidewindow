@@ -185,3 +185,37 @@ test("sneaker-wave historical table and scoped histogram match committed data", 
   assert.match(text, /5:46 AM.*before.*6:15 AM sunrise/);
   assert.match(text, /6:19 AM low.*before.*6:21 AM sunrise/);
 });
+
+test("trip-planning guide retires expired framing and matches committed July–December data", () => {
+  const { text } = articles.find(
+    ({ file }) => file === "how-to-plan-a-tidepooling-trip-around-minus-tides.md",
+  );
+  for (const pattern of [
+    /best remaining stretch is August/i,
+    /be on the sand by/i,
+    /we build in sixty/i,
+    /full hour before the predicted low/i,
+    /walk out \*?with\*? the ebb/i,
+    /arrive-by time/i,
+    /940 minus tides|only 535\b/,
+    /blends depth below threshold, daylight overlap, and a weekend bonus/i,
+    /pre-sunset winter lows/i,
+  ]) {
+    assert.doesNotMatch(text, pattern, "Do not restore expired or unsupported trip-planning wording.");
+  }
+  const facts = JSON.parse(fs.readFileSync(path.join(ROOT, "docs-internal/facts/global.json"), "utf8"));
+  const west = facts.coasts.west;
+  assert.ok(text.includes(`${west.minus_tides_2026} minus tides`), "West total must match facts.");
+  assert.ok(text.includes(`only ${west.daylight_minus_tides_2026}`), "Daylight total must match facts.");
+  // Port Orford's December 23 low is after sunset in committed data; say so.
+  const { windows } = JSON.parse(
+    fs.readFileSync(path.join(STATIONS_DIR, "port-orford-or.json"), "utf8"),
+  );
+  const dec23 = windows.find((w) => w.date === "2026-12-23" && w.lowHeight < -2);
+  assert.ok(dec23 && dec23.lowTime > dec23.sunset, "Committed Dec 23 Port Orford low is after sunset.");
+  assert.match(text, /38 minutes \*after\* the 4:48 PM sunset/);
+  // All four score components, matching scoreWindow in tide-math.mjs.
+  for (const part of ["up to 50", "up to 30", "+10 for a Saturday", "season-comfort"]) {
+    assert.ok(text.includes(part), `Score explanation must keep: ${part}`);
+  }
+});
