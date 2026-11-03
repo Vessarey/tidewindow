@@ -5,6 +5,65 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-03 — Trip-planning guide rolled to the remaining season (§2d brief)
+
+**One primary action:** `92a015b` executes the Oct 21 trip-planning brief,
+the item the Nov 2 journal named next. The guide's lead, FAQs and body
+retired the passed August 8–14 "best remaining" framing and now lead
+with the verified remaining season: La Jolla December afternoons
+(16 daylight minus tides; −1.88 ft at 3:47 PM Dec 24 about an hour
+before sunset; −1.72 ft at 4:33 PM Christmas Day, 15 minutes before
+sunset), while the deepest remaining lows (Port Orford −2.21 ft Dec 24,
+−2.07 ft Dec 23) are labeled after-sunset with their daylight earlier
+in the window — correcting the old "pre-sunset winter lows" claim.
+All totals recomputed in the July 1–Dec 31 fact-sheet scope: 953/548
+(58%) replacing 940/535, Newport August 29 raw lows vs 17 windows vs
+13 daylight minus tides (was "31 lows"), monthly table (July counts
+20/19/16/12), Oregon July 74 → Sept 18, hour histogram 6 AM = 58,
+325/548 (59%) before 1 PM. Score explanation now states all four
+components (depth 50 / daylight 30 / timing +10 weekend-holiday,
++5 Friday / regional season-comfort 10) and their provenance.
+Removed the universal one-hour arrival habit and ebb/flood route-return
+advice; arrival timing now defers to the quoted NPS Olympic Coast line.
+Weekend table's arrive-by column replaced with sunset (Monterey's
+Christmas low flagged 56 min after sunset). Tool blurbs aligned with
+the Nov 2 corrected Trip Picker (21-day cap, nighttime lows,
+conditional later-Good) and Golden Hour (90-min sun edge, low can be
+dark) copy. Newport Aug 12 worked example kept as dated history with
+sunrise/sunset replacing arrive-by. New wording regression in
+scripts/wording.test.mjs pins the class (expired framing, restored
+arrival advice, Port Orford after-sunset claim, four score parts,
+facts-matched totals).
+
+**Verification:** every number traced to today's regenerated fact
+sheets (docs-internal/facts, generated 2026-11-03) or committed
+station JSONs; scratchpad recompute script checked the 40-deepest
+selection (5 weekend/holiday entries confirmed), all history rows,
+and sunset relations. Three NPS sources re-fetched 200 with quoted
+text confirmed (including Enderts' "never turn your back"). Plain
+`npm run build` green: 161 pages, verify-output 12 stations × 6
+months / 148 sitemap URLs, 88 tests pass (42 facts / 6 math / 17
+format / 9 wording incl. the new one / 14 GSC). All article internal
+links resolve in `out/`. Diff reviewed; owner-held Haystack and
+minus-tide edits and draft/evidence directories remain uncommitted.
+
+**Health:** today's unaided refresh `1d68ed5` landed 06:56Z (green;
+within the ~3h norm), six latest runs green, no open issues. No §2b
+trigger yet — king-tide refresh enters the 14-day horizon ~Nov 11.
+
+**Metrics (PostHog, 7d to Nov 3):** pageviews led by the king-tide
+cluster (national 448 / Oregon 230 / Washington 117; next path is the
+homepage at 20); 8 newsletter_signup events / 7 IDs. Top-path event
+counts only — no total queried; not verified humans.
+
+**Tomorrow:** Wednesday — normal queue; next ready brief is the family
+guide (tidepooling-with-kids). Thursday Nov 5 is newsletter day
+(sync-audience → dry-run → recompute-check → send, standing template
+only). Watch for a first Google crawl of the two tool pages in next
+week's inspect before judging the Nov 2 explainer pass.
+
+---
+
 ## 2026-11-02 — Later heartbeat: correct the new tool explanations
 
 **One primary action:** source `24c641f` corrects factual overstatements

@@ -592,7 +592,16 @@ ritual remains the operator's standing priority.
       rescue, medical or operational safety instructions. Preserve the
       useful definition and source links; add a focused wording regression
       against the built-in-safety-time claim before publication.
-- [ ] **Trip-planning guide — finish the Oct 12 freshness finding.**
+- [x] **Trip-planning guide — finish the Oct 12 freshness finding.**
+      **Done 2026-11-03 (`92a015b`):** lead/FAQs/body rolled to the
+      remaining season; 953/548 July–December totals; Newport August
+      29 raw lows vs 17 windows vs 13 daylight minus tides; Port Orford
+      Dec 23 corrected to 38 min after sunset; four score components
+      stated with provenance; universal arrival/route advice removed
+      (NPS quote retained); weekend table arrive-by → sunset; tool
+      blurbs aligned with Nov 2 corrected copy; Aug 12 worked example
+      kept as dated history. New wording regression pins the class.
+      Build + verify-output + 88 tests green. See journal. Original brief:
       Target `how-to-plan-a-tidepooling-trip-around-minus-tides`. No page
       row or exact-page query rows returned in this 28-day window; position
       is unavailable, not zero. Related property-level intent `best time
