@@ -121,7 +121,7 @@ export default function Home() {
             <Link href="/guides/best-time-to-go-tide-pooling/" className="font-semibold text-ink underline hover:text-anemone">
               The best time to go tide pooling
             </Link>{" "}
-            — which hours and which months line up daylight with deep water, and the one-hour rule for when to arrive.
+            — which hours and which months line up daylight with low water, and the limits of a computed arrival time.
           </p>
           <p className="text-[0.95rem] text-ink-soft">
             <Link href="/guides/how-low-does-the-tide-need-to-be-for-tide-pools/" className="font-semibold text-ink underline hover:text-anemone">
@@ -140,8 +140,7 @@ export default function Home() {
             <Link href="/tools/trip-picker/" className="font-semibold text-ink underline hover:text-anemone">
               Trip Picker
             </Link>{" "}
-            — enter your vacation dates and coast; it finds the single best low-tide hour inside them, or says
-            honestly that there isn&apos;t one.
+            — rank modeled low-tide windows for your dates (up to 21 days); low scores and nighttime lows can still appear.
           </p>
           <p className="text-[0.95rem] text-ink-soft">
             <Link href="/guides/best-tide-pools-oregon-2026/" className="font-semibold text-ink underline hover:text-anemone">
@@ -175,8 +174,8 @@ export default function Home() {
         <div>
           <h3 className="text-xl">Scored honestly</h3>
           <p className="mt-2 text-[0.95rem] text-ink-soft">
-            Depth, daylight, weekends, season — one 0–100 score. When a week is a washout, we say “skip it” and show
-            you the next date that isn&apos;t.
+            Depth, daylight, calendar timing, season — one 0–100 score. Low scores stay visible; they are not a
+            forecast of weather or beach access.
           </p>
         </div>
         <div>

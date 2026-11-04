@@ -7,7 +7,7 @@ import { WebApplicationJsonLd } from "@/components/json-ld";
 export const metadata: Metadata = {
   title: "Trip Picker — the best low tide during your vacation dates",
   description:
-    "Enter your coast trip dates and get the single best low-tide hour — or an honest “skip it, here's the next good date.” Computed from NOAA predictions.",
+    "Compare NOAA low-tide windows for a trip of up to 21 days. Ranked by depth, daylight overlap, timing and season; predictions do not establish beach access.",
   alternates: { canonical: "./" },
 };
 
@@ -21,9 +21,9 @@ export default function Page() {
       />
       <h1 className="text-3xl sm:text-4xl">Trip Picker</h1>
       <p className="mt-3 max-w-2xl text-ink-soft">
-        You&apos;ve got the dates; the moon has opinions. Pick your beach and vacation week (up to 21 days) and get the
-        one hour that&apos;s worth building the day around — or a straight answer that it isn&apos;t, plus the next
-        date that is.
+        Pick a station and your trip dates (up to 21 days) to find the highest-scoring modeled low-tide window.
+        The low can fall at night. If your best window scores below Fair, a later Good-or-better window after
+        your selected end date is shown only if one exists in the current predictions.
       </p>
       <div className="mt-6">
         <TripPicker stations={getStationOptions()} />
