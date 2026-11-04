@@ -5,6 +5,130 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-04 — Heartbeat: align short tool summaries with their actual limits
+
+**One primary action:** source `6c88e63` corrects the homepage's outdated
+one-hour arrival-rule teaser and its unconditional better-date promise,
+plus the Trip Picker introduction and metadata. The linked best-time guide
+already rejects a universal arrival rule. Trip Picker ranks nighttime lows
+and only renders a later Good window when one exists after the selected
+end date; its first-screen copy now says so. The homepage score summary no
+longer sounds like a weather/access forecast. This is factual maintenance,
+not a new conversion or search experiment. Titles, URLs, links, ranking
+logic, signup flows and generated data are unchanged. Today's family-guide
+release `5002009` was verified live and was not repeated. All 132 pre-existing
+dirty/untracked files, including the held trip-planning patch and wording
+tests, remain SHA-256 unchanged.
+
+**Reproduction and verification:** the live Seattle Trip Picker for Dec 4,
+2027 returns a 2:10 AM low, score 0, without a later Good window. This
+directly contradicts the old introduction's guaranteed alternative. Date
+inputs needed keyboard changes after filling to update React state; final
+dates and result were checked. Two dedicated summary regressions fail on
+the old copy and pass on the correction. They run inside `test:wording`
+without editing the owner-held `scripts/wording.test.mjs`.
+
+An isolated archive of `61b5d5f` plus only the four release files passes
+both `PIPELINE_REFRESH=1 npm run build` and a second build restored to
+committed data: 161 static pages, 12 stations x 6 months, 148 sitemap
+URLs, 91 tests (42 facts / 6 math / 17 format / 12 wording / 14 GSC).
+Lint, TypeScript, all 148 local HTTP routes, target canonicals/indexability
+and rendered-copy checks pass. Desktop and 390px DOM checks show no page
+overflow; browser logs contain no warnings/errors. Live ZIP 98101 selects
+Seattle and opens the calendar form without an email submission.
+
+**Validation-environment caveat:** the first copy of local node_modules
+contained Next 16.3.3 despite the lockfile pinning 16.4.4. That first build
+is not the release evidence. Ran `npm ci` only in the isolated checkout,
+confirmed 16.4.4, then repeated both builds and lint/type checks above.
+Main-checkout dependencies were left untouched. Current production audit
+has zero findings; the isolated full audit has 12 development entries
+(9 moderate / 3 high), not proof that the prior 21-entry snapshot was fixed.
+No dependency or lockfile change is part of this release.
+
+**Release verified:** `6c88e634d4a4d5bd24df36b887a38e0a345e3811` is on
+origin/main; Vercel succeeded **18:23:30Z**, with exact-SHA Production
+deployment `7554223235` successful at 18:23:31Z. Both public URLs return
+the corrected summaries and intended canonicals, old claims absent,
+no noindex. Reloaded live browser confirms the copy with no warning/error
+logs. All 12 station JSONs still match today's committed refresh after
+release. [Vercel release](https://vercel.com/vessareys-projects/tidewindow/24fcQyoaT2W4CfXSXoAruekPESMC).
+
+**Operations:** eight latest Actions runs are green; today's unaided
+refresh run `41786215152` started **06:32:36Z** and pushed `8d205dd` at
+**06:35:04.999Z**. The morning entry's 06:32 landing time was the start,
+not the push. Originating cron expression is unavailable, so no per-slot
+delay is inferred. IndexNow submitted 148 URLs, HTTP 200 at 06:35:02Z.
+Later runs are skips, not additional refreshes. All 12 live station JSONs
+matched the committed refresh (generated 06:33:03.188Z). Homepage and
+family-guide freshness, Finder, Trip Picker, Golden Hour and sitemap
+respond successfully; no open GitHub issues. No recovery dispatch.
+
+**Product performance:** configured read-only PostHog, project 495836,
+exact `properties.$host = 'thetidewindow.com'` and native Regular filter.
+UTC bounds are start-inclusive/end-exclusive, ending **Nov 4 00:00Z**:
+
+- **Oct 28–Nov 3:** 996 pageviews / 947 distinct IDs; 8 signup events /
+  7 IDs; 13 calendar-gate clicks, 6 URL reveals, 14 station selections /
+  10 IDs and 12 result views / 10 IDs. National/Oregon/Washington king-tide
+  pages lead with 380/228/94 pageviews; homepage 20, Finder 14. Exit prompt
+  has 39 shown events and one signup event with source `exit-intent`.
+- **Oct 7–Nov 3:** 3,109 pageviews / 2,924 IDs; 13 signup events / 12 IDs;
+  38 gate clicks, 9 reveals, 71 station selections / 51 IDs, 58 result
+  views / 45 IDs, and 8 Trip Picker runs / 4 IDs. The consolidated query
+  timed out with 504; narrower pageview and action reads succeeded.
+- Seven-day classification is 996 Regular + 1 Bot pageviews. No Regular
+  pageviews match the known Chrome 149/Linux signature in this window;
+  Regular is still not proof of human traffic. Events are not an ordered
+  funnel, verified people, delivered email or active subscribers.
+- Field p75: LCP 780 ms (265 non-null values), INP 36 ms (75), CLS 0 (92).
+  Small, self-instrumented samples, not a CrUX verdict. Zero `$exception`
+  events observed in 7d and two / one ID in 28d do not prove complete
+  capture: remote exception flag is false on 99 pageviews, missing on 897,
+  true on none. The instrumentation-validation backlog remains open.
+
+**Search performance:** configured read-only Search Analytics API,
+`sc-domain:thetidewindow.com`, Web/final, all countries/devices, property
+aggregation without query/page dimensions. Oct 5–Nov 1 inclusive Pacific:
+**389 clicks / 20,047 impressions / 1.94% CTR / position 7.00**, versus
+274 / 14,759 / 1.86% / 7.13 for Sep 7–Oct 4 (clicks +42.0%, calculated).
+Oct 26–Nov 1: **137 / 6,717 / 2.04% / 6.79**, versus 90 / 5,035 / 1.79% /
+7.21 for Oct 19–25 (clicks +52.2%). Directional growth, not attribution to
+an edit; metadata-query contamination still limits sitewide CTR.
+Separately, the standard `dates`, `queries`, `flywheel` and `pages` reports
+use Oct 6–Nov 2: all 28 daily rows, 804 query rows and 102 page rows were
+fetched before display caps. National, WA and OR king-tide guides lead
+page clicks at 98/72/37. These page/query reads are not property totals;
+their newer edge can still settle. Existing pages cover the leading
+clusters. November's seasonal preview is now eligible alongside sea-glass
+and Sunset Bay; held drafts are not available work. No duplicate refill.
+
+**Gates and next action:** PostHog OAuth still requires reauthentication;
+GSC Wizard still refuses calls without an active plan. Stopped those skill
+workflows and used already-configured read-only reports, with no new
+credentials, permissions or spending. Their measurement guidance kept
+missing data separate from zeros and prevented a conversion verdict.
+The Nov 2 tool crawl-path work waits for next week's inspection, not a
+second same-week link pass or a below-floor experiment judgment. Exit
+intent remains closed-unmeasurable; the recorded owner retirement versus
+operator keep-live conflict still needs owner reconciliation, not another
+extension. Main-checkout dependency drift and development advisories are
+separate follow-ups, not silent repairs in this copy-only run.
+
+Tomorrow **Nov 5** remains the existing operator's established-template
+newsletter duty; no broadcast or audience sync was performed here. No
+score-90+ window appears through Nov 18 in the current next-30-day index;
+the Nov 25 king-tide cluster enters the 14-day review horizon **Nov 11**.
+Mora access evidence is unchanged in substance: current NPS
+[road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm), both
+updated Nov 3, say open; the
+[Rialto route page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm)
+still carries its July 31 notice through Oct 15. Preserve existing
+qualifications and do not infer physical route clearance.
+
+---
+
 ## 2026-11-04 — Family guide rolled to the remaining season (§2e brief)
 
 **One primary action:** `5002009` executes the Oct 21 family-guide brief,

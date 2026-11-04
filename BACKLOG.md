@@ -5,6 +5,17 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 4 heartbeat — short tool-summary accuracy correction.**
+      Source `6c88e63` aligns the homepage arrival-rule/Trip Picker/score
+      summaries and Trip Picker introduction/metadata with the actual
+      model: nighttime lows can rank, and a later Good window is conditional.
+      Two new regressions; fresh and committed-data builds on locked Next
+      16.4.4, 91 tests, lint/types, 148 routes and responsive browser checks
+      pass. Exact-SHA Production deployment verified 18:23:31Z; both pages
+      checked live. Morning family-guide work, all 132 held files, tool
+      logic, links, titles, signup flows and generated data preserved.
+      Factual maintenance only; no conversion experiment or verdict.
+
 - [x] **2026-11-02 later heartbeat — tool-explainer accuracy correction.**
       Source `24c641f`: Trip Picker can rank nighttime lows and does not
       guarantee a later Good window; Golden Hour daylight overlap does
@@ -2515,6 +2526,15 @@ implementation; preserve historical evidence and the owner's Haystack hold.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
+- [ ] **Nov 4 local dependency-install drift.** The main checkout's
+      installed Next is 16.3.3 while package.json/lock pin 16.4.4. Today's
+      refresh CI did use 16.4.4. Before relying on another local build,
+      install the lock in an isolated checkout (or deliberately synchronize
+      the main installation without touching held source). Nov 4 heartbeat
+      ran `npm ci` only in isolation and repeated both builds with 16.4.4;
+      the first copied-dependency build was not counted as release evidence.
+      No production downgrade or dependency change is implied.
+
 - [ ] **Nov 2 development-dependency audit follow-up.** Patched production
       lock has zero production findings, but full audit reports 21
       development package entries (18 moderate, 3 high). Compression/serve
@@ -2523,6 +2543,10 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       accept npm's proposed ESLint/Next-config/serve force-downgrades.
       Preview remains loopback-only with compression disabled. This
       supersedes old package-count snapshots, not the exposure caveats.
+      **Nov 4 read:** fresh locked installation reports 12 full-audit
+      entries (9 moderate / 3 high); production-only audit remains zero.
+      Compression/serve and zod remain high. No lockfile patch or audit fix
+      was applied; count drift is not evidence of resolved advisories.
 
 - [x] **Oct 12 crawl-path audit follow-up — planning guide freshness.**
       **Promoted Oct 21 to the single P1 trip-planning brief above; article
