@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-03",
+ "generated_on": "2026-11-04",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2083,7 +2083,7 @@
   {
    "commonName": "Fingered Limpet",
    "scientificName": "Lottia digitalis",
-   "count": 4
+   "count": 3
   },
   {
    "commonName": "Rough Keyhole Limpet",

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-03",
+ "generated_on": "2026-11-04",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1860,8 +1860,8 @@
    "count": 1
   },
   {
-   "commonName": "Nuttall's Cockle",
-   "scientificName": "Clinocardium nuttallii",
+   "commonName": "Sitka Periwinkle",
+   "scientificName": "Littorina sitkana",
    "count": 1
   }
  ]

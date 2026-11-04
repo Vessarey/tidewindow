@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-03",
+ "generated_on": "2026-11-04",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2106,11 +2106,6 @@
    "count": 27
   },
   {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
-   "count": 23
-  },
-  {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
    "count": 22
@@ -2123,6 +2118,11 @@
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
+   "count": 20
+  },
+  {
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
    "count": 20
   }
  ]
