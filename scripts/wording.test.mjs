@@ -219,3 +219,29 @@ test("trip-planning guide retires expired framing and matches committed July–D
     assert.ok(text.includes(part), `Score explanation must keep: ${part}`);
   }
 });
+
+test("family guide retires expired July framing and matches committed holiday sunset data", () => {
+  const { text } = articles.find(({ file }) => file === "tidepooling-with-kids.md");
+  const la = JSON.parse(fs.readFileSync(path.join(STATIONS_DIR, "la-jolla-ca.json"), "utf8"));
+  const thanksgiving = la.windows.find((w) => w.date === "2026-11-26");
+  const christmas = la.windows.find((w) => w.date === "2026-12-25");
+  assert.ok(thanksgiving.lowTime > thanksgiving.sunset, "Committed data: the Thanksgiving low is after sunset.");
+  assert.ok(christmas.lowTime < christmas.sunset, "Committed data: the Christmas low is before sunset.");
+  // Expired-upcoming framing and the retired universal arrival rule stay out.
+  assert.ok(!/best (?:one|window) left/i.test(text), "No expired 'best left' framing.");
+  assert.ok(!/(?:exactly |about an hour )?(?:one hour|an hour) (?:ahead|before the predicted low)/i.test(text),
+    "No universal arrive-an-hour-early rule.");
+  assert.ok(!/\| *Arrive by *\|/.test(text), "Tables carry a sunset column, not arrive-by.");
+  assert.ok(!/at dusk/i.test(text), "No dusk claims; lows are placed against sunset clock times.");
+  // The remaining ranking states its date range, eligibility and incompleteness.
+  assert.ok(text.includes("November 4–December 31 weekend and holiday windows with at least 30 minutes of daylight overlap"),
+    "State the remaining ranking's range and daylight eligibility.");
+  assert.ok(text.includes("excludes nighttime-only lows"));
+  // Holiday sunset semantics must match the committed data above.
+  assert.ok(text.includes("three minutes after the 4:43 PM sunset"),
+    "Thanksgiving's after-sunset low is stated, not implied daylight.");
+  assert.ok(text.includes("15 minutes before sunset"), "Christmas's pre-sunset low is stated.");
+  // The holiday recommendations never ship without the Cabrillo closure note.
+  assert.ok(text.includes("Cabrillo National Monument is closed on Thanksgiving Day and Christmas Day"),
+    "Cabrillo's Thanksgiving/Christmas closure accompanies the holiday rows.");
+});
