@@ -621,7 +621,20 @@ ritual remains the operator's standing priority.
       4:48 PM sunset) and all four scoring inputs/provenance without changing
       the formula. Audit full-period superlatives, top-40 selection labels,
       tool promises and FAQs; no blanket access or comfort recommendations.
-- [ ] **Family guide — retire July as upcoming and check weekend rankings.**
+- [x] **Family guide — retire July as upcoming and check weekend rankings.**
+      **Done 2026-11-04 (`5002009`):** July 12 lead retired to verified
+      history; remaining Nov 4–Dec 31 weekend/holiday daylight windows
+      ranked with explicit range/criterion (labeled selection of 88);
+      arrive-by column/rules removed (sunset column, quoted NPS guidance
+      only); Newport Oct 25 "ends at dusk" corrected (low 22 min after
+      sunset); after-sunset holiday lows flagged (La Jolla Thanksgiving
+      +3 min, Monterey Christmas +56 min); sourced Cabrillo closure added
+      (no public access Thanksgiving/Christmas; Dec 24 in-hours
+      alternative); stale aggregates recomputed (9/66 best-of-month,
+      20 weekend-holiday 80+ with 13 WA, Oregon's four 80+ weekend
+      windows all July 12 predawn, Seattle July 20 daylight minus tides).
+      New wording regression pins the class. Build + verify-output +
+      all suites green. See journal. Original brief:
       Target `tidepooling-with-kids`. No page or exact-page query rows in
       the same 28 days; no family-specific query cluster established and
       average position unavailable. This is reader-facing factual upkeep,

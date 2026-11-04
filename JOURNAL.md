@@ -5,6 +5,70 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-04 — Family guide rolled to the remaining season (§2e brief)
+
+**One primary action:** `5002009` executes the Oct 21 family-guide brief,
+the item the Nov 3 journal named next. The expired "best one left in
+2026 is Sunday, July 12" lead is now verified history, and the article
+ranks what remains: the Nov 4–Dec 31 weekend/holiday windows with ≥30
+min daylight overlap (a labeled selection of the 88 such windows,
+ranked by score; nighttime-only lows excluded). Claims recomputed
+against today's fact sheets (generated 2026-11-04): 9 of 66
+best-of-month windows land weekend/holiday at 80+ across the 11 West
+Coast stations (was "8 of 56" over ten); 20 weekend/holiday windows
+score 80+ with 13 in Washington, last on Sep 7 (was "10, 7 in WA");
+the published "zero Oregon weekend windows score 80 or better" was
+false — all four Oregon 80+ weekend windows landed Sunday July 12 with
+4:58–5:42 AM lows, now used to illustrate score ≠ kid-friendly;
+Seattle July daylight minus tides corrected 18 → 20 with the criterion
+stated. Arrival semantics follow the Oct 20/Nov 3 convention: arrive-by
+FAQ/column/habits removed, sunset columns added, the only arrival
+guidance is the quoted NPS Olympic line; Newport Oct 25 "ends at dusk"
+corrected (−0.8 ft low 6:37 PM is 22 min after the 6:15 PM sunset,
+window runs dark to 8:30 PM). Holiday sunset semantics stated: La Jolla
+Thanksgiving low 3 min after sunset (daylight all earlier in window),
+Christmas lows 15/13 min before sunset at La Jolla/San Diego, Monterey
+Christmas 56 min after. New at-write-time source: Cabrillo hours page —
+park closed Thanksgiving and Christmas Day, "no public access"; added
+as the access caveat on both holiday recommendations plus the Dec 24
+in-hours alternative (−1.9 ft at 3:50 PM, 58 min before sunset,
+tidepool area's 4:30 PM posted closing 40 min after the low). Cabrillo
+and Olympic etiquette quotes re-fetched and confirmed verbatim. New
+wording regression (expired framing, arrive-by ban, dusk ban, stated
+range/eligibility, data-matched holiday sunset relations, closure note
+required) appended to scripts/wording.test.mjs.
+
+**Verification:** every number traced to today's fact sheets or
+committed station JSONs via scratchpad recompute (history rows, both
+tables, aggregates, sunset deltas — two self-caught fixes: Dec 6 sunset
+margin is 87 min not 90+, and the remaining table labeled a selection,
+not the full ranking). Plain `npm run build` green: 161 pages,
+verify-output 12 stations × 6 months / 148 sitemap URLs, all suites 0
+fail (wording now 12 locally incl. 2 owner-held working-tree tests; the
+commit carries only mine). All six internal links resolve in `out/`.
+Staging kept owner-held edits out: wording.test.mjs staged as
+HEAD+my-test only; haystack, minus-tide and trip-planning working-tree
+edits remain uncommitted.
+
+**Health:** today's unaided refresh `8d205dd` landed 06:32Z (green,
+2m32s run; within norm), eight latest runs green incl. two post-refresh
+skips, no open issues. King-tide §2b horizon check: ~Nov 11 per Nov 3
+note, not yet.
+
+**Metrics (PostHog, 7d to Nov 4):** king-tide cluster still leads
+(national 368 / Oregon 224 / Washington 92; homepage 18, finder 15);
+8 newsletter_signup events / 7 IDs; tool events station_selected 19/13,
+window_result_viewed 13/11, trip_picker_run 2/1. Top-path event counts
+only; not verified humans.
+
+**Tomorrow:** THURSDAY NOV 5 IS NEWSLETTER DAY — primary action is
+sync-audience → send-weekly --dry-run → recompute-check against fact
+sheets → send-weekly --send --owner-reviewed (standing template only),
+journal the Broadcast id, watch bounce/complaint. After that, next
+ready briefs are sea-glass and Sunset Bay (Oct 19 refill).
+
+---
+
 ## 2026-11-03 — Trip-planning guide rolled to the remaining season (§2d brief)
 
 **One primary action:** `92a015b` executes the Oct 21 trip-planning brief,
