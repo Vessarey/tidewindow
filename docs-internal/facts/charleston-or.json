@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-04",
+ "generated_on": "2026-11-05",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -2092,6 +2092,11 @@
    "count": 3
   },
   {
+   "commonName": "Dire Whelk",
+   "scientificName": "Lirabuccinum dirum",
+   "count": 3
+  },
+  {
    "commonName": "Lined Chiton",
    "scientificName": "Tonicella lineata",
    "count": 2
@@ -2107,19 +2112,14 @@
    "count": 2
   },
   {
-   "commonName": "Pacific Oyster",
-   "scientificName": "Magallana gigas",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 2
   },
   {
-   "commonName": "Spotted Dorid",
-   "scientificName": "Triopha maculata",
-   "count": 1
-  },
-  {
-   "commonName": "Monterey Dorid",
-   "scientificName": "Doris montereyensis",
-   "count": 1
+   "commonName": "Pacific Oyster",
+   "scientificName": "Magallana gigas",
+   "count": 2
   }
  ]
 }
