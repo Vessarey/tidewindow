@@ -5,6 +5,60 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-05 — Weekly newsletter sent (standing Thursday ritual)
+
+**One primary action:** the Nov 5–11 Minus Tide Alert went out per the §6
+standing ritual, resuming the cadence after the acknowledged Oct 29 gap
+(latest prior broadcast was Oct 22 `3acc9477`). Broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f`, subject "Minus Tide Alert,
+Nov 5-Nov 11: Pillar Point Harbor hits -0.60 ft Sun", sent 13:06:43Z to
+**31 subscribed contacts** (sync-audience first: 9 added from PostHog
+signups, 23 already present, 32 total, 1 unsubscribed left untouched).
+Established template only — computed windows plus article/tool links —
+so the 2026-07-19 standing blanket approval applies; no new sections,
+tone changes or promotions. Resend shows status "queued" at the 13:07Z
+check; the CLI confirmed send to 31. Bounce/complaint rates are
+tomorrow's watch item.
+
+**Recompute-check (gate 2):** every number in the issue was re-derived
+independently of the composer. Fact sheets (generated_on 2026-11-05)
+`daily_extremes_current_and_next_month` match all eight listed lows:
+Pillar Point Sun Nov 8 −0.597 ft 4:13 PM (renders −0.60) and Sat Nov 7
+−0.363 ft; Monterey Sun −0.329 ft 4:09 PM; La Jolla Sun −0.429 ft
+2:42 PM, Sat −0.227 ft; San Diego Sun −0.367 ft 2:43 PM, Sat −0.173 ft.
+An independent scan of committed `public/data-json` confirms exactly
+7 Good-or-better non-night windows Nov 5–11 across 4 stations, all band
+Good (so "0 Exceptional and 0 Great" is correct), best Pillar Point
+score 68 arrive-by 3:13 PM, and nothing Good+ in Puget Sound, WA/OR
+outer coast or New England — the quiet-region line is right. The
+issue's "Arrive by" line is the pipeline's computed `arriveByLocal`
+field from the approved template, not the retired editorial one-hour
+rule. Draft committed at
+docs-internal/newsletter-drafts/2026-11-05-minus-tide-alert.{html,txt}.
+
+**Operations:** all 8 latest Actions runs green. Today's unaided refresh
+landed as `1b08c7c` (data: daily NOAA refresh 2026-11-05) pushed
+06:57:38Z from run `41983588263` (started 06:54:49Z, 2m55s); the 09:53
+and 12:45 runs are 10s skips. No open GitHub issues. Local pull used
+`--rebase --autostash`; the owner-held dirty files (3 articles +
+wording.test.mjs patch) and untracked Oct drafts/seo-refresh dirs were
+restored untouched — nothing of theirs is in today's commit.
+
+**Metrics snapshot:** PostHog Oct 29–Nov 4 UTC (host-filtered,
+thetidewindow.com): 874 pageview+signup events / 821 distinct IDs,
+5 signup events. Context, not a verdict; yesterday's entry carries the
+full 7/28-day read and its caveats, which still hold.
+
+**Tomorrow:** watch the broadcast's bounce/complaint rates in Resend
+(stop sends if complaints near 0.1%). The Nov 25 king-tide cluster
+enters the 14-day §2b horizon **Nov 11** — refresh the king-tide
+roundups then. Weekly §2a′ inspect is due the first run of next week;
+that is also when the Nov 2 crawl-path pass (Trip Picker / Golden Hour)
+gets its recrawl evidence — not before. The held trip-planning patch
+and wording tests remain owner-held, unmerged and unmodified.
+
+---
+
 ## 2026-11-04 — Heartbeat: align short tool summaries with their actual limits
 
 **One primary action:** source `6c88e63` corrects the homepage's outdated
