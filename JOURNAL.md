@@ -5,6 +5,122 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-05 — Heartbeat: reconcile newsletter delivery and queue one template correction
+
+**One safe improvement, docs only:** added a bounded, approval-gated
+newsletter-copy repair to BACKLOG. The morning operator already completed
+Thursday's send; no duplicate broadcast, audience sync, public edit or
+experiment change was made here. The HTML in sent broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f`, matching
+`scripts/newsletter/send-weekly.mjs:196`, still says Trip Picker ranks
+"every daylight window ... for the rest of the year." The current picker
+ranks modeled lows in a selected range capped at 21 days, including night
+lows. Live Port Townsend reproduction with Nov 6–Dec 6 input returns
+Nov 6 at **8:22 PM**, score **0**, and "Range capped at 21 days."
+It also offers Feb 15, 2027 as a later Good window, not a full-year list.
+The linked page's Nov 4 correction is live; the email is a separate
+consumer of the outdated description. Proposed replacement and validation
+steps are in BACKLOG. The established-template approval does not silently
+approve a changed template: obtain explicit owner approval before using
+the revision in a future send. No correction email or template edit here.
+This does not reopen September's separate shared-vocabulary decision.
+
+**Newsletter reconciliation (Resend read-only, about 18:16–18:20Z):** status
+is now **sent**, `sent_at` **13:07:16.045617Z**, superseding the morning's
+13:07 queued observation. Recipient-event reads, limit 100, return
+**30 sent / 30 delivered / 1 suppressed / 0 bounced / 0 complained**.
+This reconciles the morning's 31 subscribed targets; it is not 31 confirmed
+deliveries. Suppression was left intact, with no inference about its cause
+and no retry. These are current recorded outcomes, not a guarantee against
+later complaints; the next operator should recheck them. No recipient
+addresses were copied into the repository.
+
+**Operations and live verification:** latest eight refresh runs are green,
+no open GitHub issues. Unaided refresh run `41983588263` started
+**06:54:49Z**; commit `1b08c7c` is dated **06:57:38Z**, and the log confirms
+the push at **06:57:40.355Z**. It built with Next **16.4.4**, verified
+12 stations x 6 months / 148 sitemap URLs, and submitted 148 URLs to
+IndexNow (HTTP 200 at 06:57:37.863Z). Later runs skipped already-fresh data.
+Originating cron expression is not exposed in this evidence, so no slot
+delay is guessed. No recovery dispatch was needed. Exact-SHA Production
+deployment `7574450313` for morning HEAD `548136b` succeeded **13:09:27Z**.
+All **12 live station JSONs are byte-identical** to committed data,
+generated **06:55:38.634Z**; homepage shows computed Nov 5, and live sitemap
+contains 148 URLs. ZIP 98101 selects Seattle and loads results; its calendar
+gate reveals the form without submitting an email. Trip Picker result and
+range cap work after native date input commits (direct fill alone did not
+update client state). At the observed 1280px viewport, no horizontal
+overflow or warning/error console entries were seen. Not a mobile audit.
+
+**Product analytics:** configured read-only PostHog query API, project
+495836, exact host `thetidewindow.com`, `Regular` classification; complete
+UTC days, end-exclusive Nov 5. Oct 29–Nov 4: **868 pageviews / 817 distinct
+IDs**, **5 signup events / 4 IDs**, 10 calendar-gate clicks / 10 IDs,
+4 calendar reveals / 4 IDs, 16 station selections / 12 IDs, 13 result views
+/ 11 IDs, 1 Trip Picker run / 1 ID. Signup `source`: station_gate 3,
+tool_gate 1, exit-intent 1. The `form` property was null on all five; source
+is the implemented field, so null form is not a missing signup.
+Oct 8–Nov 4: **3,096 pageviews**, 13 signup events / 12 IDs, 35 gate clicks,
+9 reveals, 65 station selections / 48 IDs, 53 result views / 42 IDs and
+7 Trip Picker runs / 4 IDs. Combined 28d count/distinct query timed out;
+count-only and action reads succeeded. No 28d pageview-ID total is claimed.
+
+Seven-day native classification: 868 Regular + 1 Bot pageviews; zero Regular
+pageviews match the known Chrome 149/Linux signature. Regular is not verified
+human traffic, IDs are not people/subscribers, and these event counts are not
+an ordered funnel. Top pageviews: national/OR/WA king-tide guides 288/206/84;
+Finder 16. Referring-domain pageviews: Bing 185, Google 173, direct 171,
+DuckDuckGo 164, Yahoo 80; not acquisition-session or GSC click counts.
+Self-instrumented nearest-rank p75: **LCP 804 ms (250 non-null samples),
+INP 40 ms (66), CLS 0 (89)** from 868 Web Vitals events. Not a CrUX verdict.
+No `$exception` event observed in 7d, two / one ID in 28d; capture remains
+uncertain (remote flag false on 93 pageviews, missing on 775, true on none),
+not a zero-error assurance. No synthetic exception or setting change.
+
+**Search:** configured read-only Search Analytics API, property
+`sc-domain:thetidewindow.com`, Web/final, all countries/devices, no query/page
+dimension, byProperty aggregation. Oct 27–Nov 2 inclusive Pacific:
+**128 clicks / 6,356 impressions / 2.01% CTR / position 6.87**, versus
+99 / 5,596 / 1.77% / 7.10 for Oct 20–26 (**+29.3% clicks**, calculated).
+Oct 6–Nov 2: **382 / 20,105 / 1.90% / 7.03**, versus
+284 / 14,852 / 1.91% / 7.12 for Sep 8–Oct 5 (**+34.5% clicks**).
+Directional growth, not attribution to edits; metadata-query contamination
+still limits sitewide CTR. Standard dates/queries/flywheel/pages commands
+separately use Oct 7–Nov 3: all 28 daily / 795 query / 106 page rows fetched
+before display caps; that newer edge can still settle. National/WA/OR
+king-tide guides lead page clicks 93/77/39; existing pages cover the leading
+query clusters. Sea-glass, Sunset Bay and November preview are three ready
+briefs; held work is not available capacity. No duplicate queue refill.
+
+**Validation, gates and next actions:** production-only npm audit has zero
+findings. The 16 summary/reporting tests and `git diff --check` pass. No new
+site build was needed for these internal-doc-only changes; today's CI build
+is separate evidence. Main local Next remains 16.3.3 versus locked 16.4.4;
+use an isolated locked install before relying on another local build.
+All 132 pre-existing dirty/untracked files remain SHA-256 unchanged.
+PostHog OAuth requires reauthentication; GSC Wizard refuses access without
+an active plan/trial. Stopped those skill workflows and used only configured
+read-only fallbacks, with no spending or permission change. Their guidance
+kept missing instrumentation separate from zero observed and kept GSC
+headline windows lag-adjusted. Reconnect PostHog; GSC Wizard also needs an
+active plan/trial and connected Search Console account if that connector is
+to be used again. Direct reporting remains available.
+
+Exit intent remains closed-unmeasurable: 118 impressions in the latest 28d
+does not retroactively change the Oct 1 lifetime result or resolve the owner
+retirement/keep-live conflict. No restart, extension or causal conversion
+verdict. Nov 2 tool crawl-path work waits for next week's inspection.
+No score-90+ window appears through Nov 19 in today's next-30-day index;
+Nov 25 king tides enter the 14-day review horizon **Nov 11**. Next newsletter
+is **Nov 12**: resolve the bounded template approval first. Mora sources
+remain substantively divergent: [road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+(updated Nov 3) and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+(now Nov 5) say open, while [Rialto's route page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm)
+still carries its July 31 notice through Oct 15. Existing qualifications stay;
+no physical-route clearance or restoration inferred.
+
+---
+
 ## 2026-11-05 — Weekly newsletter sent (standing Thursday ritual)
 
 **One primary action:** the Nov 5–11 Minus Tide Alert went out per the §6

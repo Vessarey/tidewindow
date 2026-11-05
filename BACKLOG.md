@@ -5,6 +5,31 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **Nov 5 newsletter consumer finding — approve the Trip Picker sentence
+      before the Nov 12 issue.** The sent HTML and current
+      `scripts/newsletter/send-weekly.mjs:196` still promise "every daylight
+      window ... for the rest of the year." The picker ranks modeled lows
+      in a selected range capped at 21 days; nighttime lows can appear.
+      Live Nov 5 reproduction: Port Townsend, input Nov 6–Dec 6, returns
+      Nov 6 at 8:22 PM / score 0 and a 21-day cap. This is separate from the
+      Nov 4 web-summary correction, which is already live.
+      **Proposed sentence, not approved or implemented:** "Planning a trip?
+      The Trip Picker ranks modeled low-tide windows for your chosen dates
+      (up to 21 days); nighttime lows can appear."
+      Preserve the existing link, computed tables, subject, signup flow,
+      unsubscribe handling and other established-template content. Do not
+      reopen the separate shared-vocabulary decision or expand this into a
+      redesign. Obtain explicit owner approval before putting the revised
+      template into the sending path; §6 blanket approval covers the
+      established template only. Then make the bounded correction, add a
+      regression for the annual/daylight-only promise, render/recompute in
+      isolation without overwriting committed issues or held drafts, and
+      verify the approved preview before the next regular send. This is a
+      queued repair, not permission for a correction broadcast or a resend.
+      Nov 5 status reconciled: 30 sent/delivered, 1 suppressed, no recorded
+      bounces/complaints at the afternoon check; suppression untouched.
+      Recheck adverse-event counts next operator run. See journal.
+
 - [x] **Nov 4 heartbeat — short tool-summary accuracy correction.**
       Source `6c88e63` aligns the homepage arrival-rule/Trip Picker/score
       summaries and Trip Picker introduction/metadata with the actual
