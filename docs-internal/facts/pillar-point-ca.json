@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-05",
+ "generated_on": "2026-11-06",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -2088,7 +2088,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 53
+   "count": 54
   },
   {
    "commonName": "Monterey Dorid",
@@ -2111,13 +2111,13 @@
    "count": 17
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 11
-  },
-  {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
+   "count": 10
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
    "count": 10
   },
   {

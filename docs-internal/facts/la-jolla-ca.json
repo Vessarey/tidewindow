@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-05",
+ "generated_on": "2026-11-06",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2068,8 +2068,8 @@
  ],
  "species_last60d_5km": [
   {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
+   "commonName": "Yellow Umbrella Slug",
+   "scientificName": "Tylodina fungina",
    "count": 19
   },
   {
@@ -2078,8 +2078,8 @@
    "count": 19
   },
   {
-   "commonName": "Yellow Umbrella Slug",
-   "scientificName": "Tylodina fungina",
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
    "count": 18
   },
   {
