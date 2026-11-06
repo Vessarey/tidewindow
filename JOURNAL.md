@@ -5,6 +5,108 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-06 — Heartbeat: replenish the maintenance queue after the morning publication
+
+**One primary action, docs only:** fulfilled the morning operator's §2a
+follow-up with three exact-page, demand-backed maintenance briefs: Seattle
+daylight-at-low accuracy, Fitzgerald November/December chart roll, and the
+Oregon calendar's remaining-season pointers. Together with sea-glass and
+Sunset Bay, five assignments are ready; owner-held Haystack/minus-tide work
+and the generic refresh queue do not count. No duplicate winter article,
+retitle, conversion variant, newsletter edit or send. The Seattle example
+is computed from today's complete station data: Feb 15, 2027 low at
+5:52 PM versus sunset 5:32 PM (19.4 minutes later), with 78 minutes of
+daylight earlier in the modeled interval. The briefs queue corrections;
+they do not claim the three public articles have been changed.
+
+**Coordination and health:** morning content commit `e308721` is confirmed
+in Production deployment `7601013556`, successful **13:16:29Z**. Latest
+five scheduled refresh runs are green; no open GitHub issues. Unaided run
+`42177409294` started **06:54:28Z**, generated data **06:55:21.383Z**,
+and pushed `e8169f8` at **06:57:28.695Z**. Its locked Next **16.4.4**
+build verified 12 stations × 6 months / 148 sitemap URLs and IndexNow
+accepted 148 URLs (HTTP 200 at 06:57:26.446Z). Later runs skip already-fresh
+data. Originating cron expression is unavailable; no guessed slot delay
+or recovery dispatch. The live sitemap now has **149 URLs** after the
+morning guide; verify that count in the next data refresh's IndexNow log.
+All **12 live station files match committed bytes**. Homepage shows
+computed Nov 6. Browser ZIP 98101 selects Seattle and renders its results;
+calendar button exposes the email form without submission. No warning/error
+console entries or horizontal overflow observed at **1425px**. This was
+a desktop check, not a mobile audit. Shared walkable/arrival vocabulary
+remains subject to its existing owner decision.
+
+**Product analytics:** configured read-only query API, PostHog project
+495836, exact host `thetidewindow.com`, `Regular` classification; complete
+UTC days ending before Nov 6. **Oct 30–Nov 5:** 853 pageviews / 801 distinct
+IDs; 4 signup events / 3 IDs; 9 calendar-gate clicks / 9 IDs; 3 reveals /
+3 IDs; 22 station selections / 16 IDs; 17 result views / 15 IDs; 2 Trip
+Picker runs / 2 IDs. Signup sources: station_gate 2, tool_gate 1,
+exit-intent 1. **Oct 9–Nov 5:** 3,181 pageviews / 2,995 IDs; 13 signups /
+12 IDs; 35 gate clicks / 35 IDs; 9 reveals / 9 IDs; 64 station selections /
+49 IDs; 51 result views / 44 IDs; 6 Trip Picker runs / 4 IDs. These are
+event counts, not an ordered funnel, people or subscribers.
+
+Seven-day classification is 853 Regular + 5 Automation + 1 Bot pageviews;
+Regular is not verified human traffic. This explains why the morning's
+all-classification 859-pageview snapshot differs; no traffic loss inferred.
+Top Regular pageviews: national/OR/WA king-tide guides **259/202/80**;
+Finder **20**. Referring-domain pageviews: Google 181, Bing 178, direct
+168, DuckDuckGo 141, Yahoo 77 — not acquisition sessions or search clicks.
+Self-instrumented nearest-rank p75: **LCP 804 ms (245 non-null samples),
+INP 48 ms (59), CLS 0 (98)** from 836 Web Vitals events, not CrUX.
+No `$exception` observed in 7d; 2 events / 1 ID in 28d. Capture flag is
+false on 96 pageviews and missing on 757, true on none: zero observed
+does not establish zero errors. No instrumentation change or synthetic
+error. Exit prompt recorded 36 displays/36 IDs in 7d, 118/118 in 28d;
+these rolling counts do not resolve the recorded Oct 1 authority conflict
+or restart its retired/inconclusive experiment.
+
+**Search:** configured read-only Search Analytics API, property
+`sc-domain:thetidewindow.com`, Web/final, all countries/devices, no query/page
+dimension and byProperty aggregation for totals. **Oct 28–Nov 3 inclusive
+Pacific:** 128 clicks / 5,825 impressions / 2.20% CTR / position 6.91,
+versus 104 / 6,239 / 1.67% / 7.08 for Oct 21–27 (**+23.1% clicks**).
+**Oct 7–Nov 3:** 386 / 20,225 / 1.91% / 7.02, versus
+285 / 14,970 / 1.90% / 7.11 for Sep 9–Oct 6 (**+35.4% clicks**).
+Date-dimension read returned all 28 dates; no causal experiment verdict.
+Required flywheel/query reads still lead to covered king-tide/place
+intents. Separate exact-page baselines in BACKLOG support maintenance,
+not three invented uncovered clusters. Two exploratory guide URLs had no
+returned page/query row; that is unavailable evidence, not proof of zero
+demand or deindexing. Native PostHog/GSC connector reads failed; the
+already-configured read-only fallbacks worked.
+
+**Other operational checks:** Resend readback for Nov 5 broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f` remains sent, with 30 delivered
+recipients and no recorded bounces or complaints. Yesterday's suppressed
+recipient was not retried; no audience writes. Nov 12 template-sentence
+approval remains pending, with no new approval inferred. Main-checkout
+Next and lock both read **16.4.4**, confirming the morning operator's
+deliberate installation sync; closed only that stale backlog item.
+Production dependency audit reports **zero findings**; this does not close
+the separate development-advisory follow-up. NPS
+[road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm), both
+updated Nov 5, say Mora Road is open; the
+[Rialto route page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm)
+still carries the July-31 notice through Oct 15. Source mismatch persists;
+no route-clearance claim or shared recommendation restored.
+
+**Validation and next action:** documentation-only diff; no application,
+article or generated-data edits. `git diff --check` passes, and all **132
+held files remain byte-identical** to the pre-edit hash guard. No build
+is needed for this docs-only update; the
+morning's build/deployment evidence above is not a new build claim.
+Next operator: use the replenished queue (Seattle accuracy first), rather
+than repeating §2a. Keep §5 sample floors and existing owner gates.
+Nov 9: weekly indexing/Trip Picker and Golden Hour recrawl checks;
+Nov 11: Nov 25 king-tide roundup enters the 14-day horizon; Nov 12:
+newsletter sentence remains approval-gated. Routine health remains green;
+no new immediate owner action identified.
+
+---
+
 ## 2026-11-06 — Winter 2026–27 seasonal preview published (§2d)
 
 **One primary action:** published `winter-tide-pooling-2026-2027`

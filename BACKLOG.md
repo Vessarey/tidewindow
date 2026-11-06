@@ -584,6 +584,76 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
+<!-- heartbeat-2026-11-06-refill:start -->
+**Nov 6 afternoon refill — five ready assignments now.** The morning winter
+preview is already published; its §2a follow-up is completed here, so do not
+repeat the refill tomorrow. Sea-glass and Sunset Bay remain open; add these
+three bounded maintenance briefs. The required flywheel and query reads
+(Oct 8–Nov 4, Web/final) still lead to already-covered king-tide/place
+intents. Do not create three duplicate pages to satisfy a numerical quota.
+The exact-page baselines below use Oct 7–Nov 3 inclusive Pacific dates,
+Web/final, all countries/devices; 106 page rows fetched. Disclosed queries
+are separate from page totals and are not complete demand counts.
+
+Preserve each existing title, URL, original publication date, useful
+historical tables and signup gates. These are factual-maintenance briefs,
+not new title or conversion experiments. At implementation, recompute from
+current fact sheets, inspect the complete range before superlatives,
+re-fetch official sources for access claims, update `updated:` honestly,
+and run the plain build plus relevant factual/wording checks. No shared
+score/vocabulary change and no owner-held Haystack/minus-tide edits.
+
+- [ ] **Seattle / Constellation — distinguish daylight overlap from the
+      February low itself.** Target
+      `seattle-alki-constellation-park-tide-pools-2026`. Page baseline:
+      **19 clicks / 463 impressions / position 6.45**. Exact-page queries:
+      `constellation park tide pools` 1 / 27 / 4.78;
+      `constellation park seattle` 1 / 14 / 9.29;
+      `alki beach tide pools` 2 / 10 / 4.80 (clicks / impressions / position;
+      21 disclosed query rows fetched). The description, lead, FAQ and
+      return ladder call Feb 15, 2027 a daylight low or "right at dusk."
+      Nov 6 data shows **5:52 PM low / 5:32 PM sunset**, approximately
+      19.4 minutes after sunset, with 78 daylight minutes earlier in the
+      4:15–7:30 PM modeled window. State that distinction consistently;
+      verify the first qualifying window separately from the first low
+      occurring in daylight. Audit the March/April return ladder and the
+      claimed 2026 season closure against the full relevant range, not a
+      top-five list. Retire October-as-upcoming wording; retain verified
+      September/July history. Remove unsourced arrival/footing instructions
+      and recheck Seattle Aquarium/parks access statements without deriving
+      route access from score or depth. No retitle or reopening of the old
+      September package verdict. Repair remains queued, not public.
+- [ ] **Fitzgerald — replace the passed October lead and extend the chart
+      through December.** Target `fitzgerald-marine-reserve-tide-pooling-2026`.
+      Page baseline: **37 clicks / 1,034 impressions / position 5.90**.
+      Exact-page `fitzgerald marine reserve tide chart`: 10 / 238 / 6.97;
+      `tide chart fitzgerald marine reserve`: 1 / 23 / 7.13;
+      `fitzgerald marine reserve tide table`: 1 / 8 / 6.75 (42 disclosed
+      query rows fetched). The answer box still leads with Oct 25 and the
+      inline H/L chart ends Nov 30; its claim that December extremes are
+      unavailable is now stale. Render November/December rows from current
+      `daily_extremes_current_and_next_month`, verify every row, and retain
+      useful October rows as clearly dated history. Recompute remaining
+      counts/rankings from the actual refresh date. Preserve the Oct 18
+      separation of posted hours, daylight and modeled intervals; recheck
+      county hours/conditions before repeating them. Keep the existing title
+      and chart intent, rather than creating a competing page or experiment.
+- [ ] **Oregon minus-tide calendar — roll October pointers to the remaining
+      November/December period.** Target `oregon-coast-minus-tide-calendar-2026`.
+      Page baseline: **14 clicks / 454 impressions / position 7.27**.
+      Exact-page `minus tides oregon 2026`: 1 / 21 / 8.05;
+      `negative tides oregon coast 2026`: 1 / 10 / 5.50 (29 disclosed query
+      rows fetched). The dated September answer box still foregrounds
+      October 25; replace the current-planning pointers in lead/FAQ/weekend
+      prose with current remaining-season comparisons. Keep July–October
+      tables as history, validate the explicit July–December count scope,
+      and check all best/first/next claims over their complete stated range.
+      Keep the Dec 23 daylight-at-low qualification; remove any unsupported
+      fixed arrival or route-return rules and re-fetch Oregon Parks guidance.
+      Preserve September's factual repair; this is its next seasonal update,
+      not a duplicate of that completed assignment.
+<!-- heartbeat-2026-11-06-refill:end -->
+
 <!-- heartbeat-2026-10-21-refill:start -->
 Three ready-now factual-maintenance briefs, checked Oct 21. GSC: Web/final,
 all countries/devices, Sep 22–Oct 19 inclusive Pacific dates; all 100 page
@@ -2560,7 +2630,10 @@ implementation; preserve historical evidence and the owner's Haystack hold.
 
 ## P2 — infra / reliability (discovered 2026-07-03)
 
-- [ ] **Nov 4 local dependency-install drift.** The main checkout's
+- [x] **Nov 4 local dependency-install drift — resolved Nov 6.** Morning
+      operator deliberately ran `npm ci`; afternoon readback confirms
+      installed Next and the lockfile both **16.4.4**. No dependency-file
+      edit here. Original finding: the main checkout's
       installed Next is 16.3.3 while package.json/lock pin 16.4.4. Today's
       refresh CI did use 16.4.4. Before relying on another local build,
       install the lock in an isolated checkout (or deliberately synchronize
