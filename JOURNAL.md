@@ -5,6 +5,68 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-06 — Winter 2026–27 seasonal preview published (§2d)
+
+**One primary action:** published `winter-tide-pooling-2026-2027`
+(regional-calendars), the dated ready brief from the queue — the seasonal
+counterpart to the summer-dawn explainer, now in season. Core computed
+claims, every number from today's fact sheets (generated 2026-11-06):
+West Coast November 261 predicted lows below +1 ft / 100 daylight-qualifying
+windows / 74 daylight minus; December 243 / 113 / 88. All 60 per-station
+king-season (Oct 1 2026–Mar 31 2027) deepest daylight-qualifying lows have
+PM low times (1:45–7:06 PM; verified programmatically, zero AM rows).
+Seattle and Port Townsend: zero daylight-qualifying windows in both Nov and
+Dec. Deepest daylight-qualifying low of the season is Port Orford Dec 24
+(−2.21 ft, 6:14 PM) with the low itself after the window's daylight ends
+(3:40 PM + 69 min ≈ 4:49 PM) — stated explicitly, per the §4.2
+daylight-at-low rule. La Jolla Dec 25 (score 90) verified as the only
+Exceptional row in any station's next-60-day list. The Jan 20–23 cluster
+appears in nine of twelve stations' top-five lists (not Seattle, Port
+Townsend or Pillar Point — "every station" was drafted and corrected
+before commit). Rankings are labeled as excluding nighttime-only lows;
+Trip Picker/Finder descriptions match the Nov 2–4 corrected copy (21-day
+cap, nighttime lows can appear). No safety advice beyond links to the
+sneaker-wave and storm-beachcombing pages; NWS surf-zone forecast named
+as the authority. Six external sources fetched 200 at write time; the
+declination quote re-verified against the NOAA tutorial page.
+
+**Health (§0):** today's unaided refresh landed as `e8169f8` (2026-11-06)
+pushed 06:57Z from run `42177409294` (started 06:54:28Z, 3m3s); the 09:55
+and 12:29 runs are ~10s skips. Latest eight runs green; no open issues.
+§2b re-checked against fresh `next_60d_best_8`: no score-90+ window within
+14 days (max upcoming is Dec 25). Nov 25 king tides enter the 14-day
+horizon Nov 11, as previously noted.
+
+**Metrics snapshot:** PostHog Oct 30–Nov 5 UTC (host-filtered):
+859 pageviews / 807 distinct IDs, 4 newsletter_signup / 3 IDs,
+22 station_selected / 16 IDs, 17 window_result_viewed / 15 IDs,
+2 trip_picker_run / 2 IDs. Consistent with yesterday's fuller read;
+context, not a verdict. No GSC read today (not a §2a/a′ run).
+
+**Build & fidelity:** synchronized the main checkout's node_modules to the
+lockfile with `npm ci` (Next 16.3.6→16.4.4), the deliberate-sync option the
+Nov 4 drift item allows; no tracked file touched. Plain `npm run build`
+green on locked 16.4.4: verify-output 12 stations × 6 months, sitemap now
+**149 URLs** (+1 for the new guide), and all five postbuild test suites
+pass (facts, math, format, wording incl. the owner-held additions, gsc).
+Diff review: only the new article; no `public/` changes. The four
+owner-held files and untracked draft/evidence dirs remain uncommitted and
+untouched (pull used `--rebase --autostash`, restored cleanly). Velocity:
+first editorial addition since Nov 2 (cap 5/week intact).
+
+**Tomorrow:** the ready queue is now two items (sea-glass, Sunset Bay) —
+below the three-item floor, so tomorrow's first priority is a §2a
+demand-led refill (flywheel + queries 28) before any editorial work.
+IndexNow picks up the 149-URL sitemap at the next refresh push — confirm
+in that run's log. Nov 11: king-tide roundup refresh enters §2b. Nov 12
+newsletter: the template-sentence approval item in BACKLOG P0 is still
+owner-blocked; absent approval, send with the established template. Weekly
+§2a′ inspect due the first run of next week (also the Trip Picker /
+Golden Hour recrawl check). Mora/Rialto source convergence recheck remains
+open. Watch Nov 5 broadcast adverse events in Resend before Thursday.
+
+---
+
 ## 2026-11-05 — Heartbeat: reconcile newsletter delivery and queue one template correction
 
 **One safe improvement, docs only:** added a bounded, approval-gated

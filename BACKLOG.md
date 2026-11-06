@@ -2216,7 +2216,16 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       4 clicks/498 impressions/pos 7.7; two chart/schedule queries 1 impression
       each, pos 19/16. Build, 18 fact tests, 55 content/source checks and live
       deployment passed. Roll the dated near-term lead after Sep 13.
-- [ ] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
+- [x] Winter 2026-27 seasonal preview (Nov): daylight afternoon lows arrive.
+      **Done 2026-11-06** — `winter-tide-pooling-2026-2027` (regional-
+      calendars): station-by-station Nov/Dec daylight minus-window counts,
+      Puget Sound winter pause (Seattle/Port Townsend zero daylight windows
+      Nov–Dec), all-PM king-season deepest daylight lows, Nov 23–26 /
+      Dec 22–25 / Jan 20–23 clusters. Every number recomputed from the
+      2026-11-06 fact sheets; daylight-at-low vs window-overlap stated per
+      §4.2; build + verify-output (149 sitemap URLs) + all test suites
+      green. Queue is now below the three-item floor: §2a refill is the
+      next run's first priority.
 - [x] **2026-09-10 CA hub refresh DONE (8b53e98)** —
       `best-tide-pools-california-2026`: replaced July-as-upcoming with
       Sep 27 / Oct 25 comparisons, whole-month Sep–Dec daylight-minus
