@@ -5,6 +5,67 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-07 — Seattle guide: daylight overlap vs. the Feb 15 low (queue item 1)
+
+**One primary action (`ab91365`):** executed the first Nov 6 brief — the
+Constellation Park guide's claim that Feb 15, 2027 is the next "daylight
+minus tide," "right at dusk." Today's station data confirms the brief:
+the −0.47 ft low lands at 5:52 PM, 19.4 minutes after the 5:32 PM sunset
+(sun altitude −3.4°); the window's 78 daylight minutes all precede sunset.
+Lead, meta description, FAQ and return ladder now separate the first
+qualifying window (Feb 15) from the first minus tide that bottoms in
+daylight — Mar 12, 2027, −0.11 ft at 1:31 PM, newly added to the ladder.
+Audited the full ladder against the complete windows file (2026-06-30 →
+2027-12-11), not a top-five list: Mar 13–14 Good (−0.47/−0.55, 2:18/4:12
+PM), Apr 10–11 first-and-only-first Exceptional of 2027 (94/92), May 7–9
+deepest daylight-qualifying of Jan–May (−3.18 Sat May 8) all hold. Season
+closure re-verified: Oct 2026 had exactly two daylight windows (Oct 5–6,
+neither minus, both Skip-tier), Nov/Dec zero — October rolled to past
+tense. Sep 8–10 history table matches current data byte-for-value; its
+Arrive-by column replaced with Sunset (7:35/7:33/7:31 PM) and the stamp
+notes re-verification. "Year-best score of 100" qualified: Jul 11 also
+scored 100 (2026's only two). Removed our unsourced arrive-an-hour-early,
+test-rocks and start-back-before-it-fills instructions; Aquarium quotes
+retained verbatim. Non-tide sources re-fetched at write time: Aquarium
+one-pager PDF, parks page (address/marine-reserve text confirmed), beach
+naturalist page (purpose quote confirmed), West Seattle Blog — all 200.
+No retitle, no gate/table/species changes, no owner-held file touched
+(held hashes verified identical before and after the autostash pull).
+
+**Health:** today's refresh landed unaided before the session — run
+`42345470245` (06:05:42Z start) pushed `6ef38b5` dated 2026-11-07; the
+09:17 and 11:20 runs skipped as already-fresh. Last six runs green; no
+open issues. Plain `npm run build` green: verify-output 12 stations × 6
+months, 149 sitemap URLs; facts/math/format/wording/gsc suites all pass
+(wording includes the two owner-held working-tree tests). Diff review
+clean — no generated-data drift from the local pipeline run.
+
+**Metrics (PostHog, 7d to Nov 7, host thetidewindow.com):** 837 pageviews
+/ 786 distinct IDs; 1 newsletter signup; 17 station selections / 15 IDs;
+14 result views; 2 Trip Picker runs. Top pageviews still the king-tide
+trio: national 241, Oregon 214, Washington 73; Finder 19. The Seattle
+guide drew 5 views in 7d — this was an accuracy repair per the brief,
+not a traffic play. Event counts, not sessions or people.
+
+**Resend recheck (P0 follow-up):** broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f` status remains `sent` (Nov 5
+13:07:16Z). The per-broadcast events endpoint 404s, so no new
+bounce/complaint readback was available via API today; the Nov 6
+delivered-30 / zero-adverse readback stands as the latest evidence. No
+audience writes, no sends. Nov 12 template-sentence approval remains
+pending — owner gate untouched.
+
+**Tomorrow:** queue holds four ready briefs — Fitzgerald
+November/December chart roll is the natural next (its lead is the most
+reader-visible staleness), then the Oregon calendar roll. Nov 9 (Mon):
+weekly `inspect 40` plus Trip Picker / Golden Hour recrawl checks.
+Nov 11: Nov 25 king-tide cluster enters the 14-day §2b horizon — refresh
+the king-tide roundups then. Nov 12 newsletter sentence stays
+approval-gated; do not fold it into the send path without an explicit
+owner OK.
+
+---
+
 ## 2026-11-06 — Heartbeat: replenish the maintenance queue after the morning publication
 
 **One primary action, docs only:** fulfilled the morning operator's §2a

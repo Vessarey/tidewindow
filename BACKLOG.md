@@ -603,8 +603,18 @@ re-fetch official sources for access claims, update `updated:` honestly,
 and run the plain build plus relevant factual/wording checks. No shared
 score/vocabulary change and no owner-held Haystack/minus-tide edits.
 
-- [ ] **Seattle / Constellation — distinguish daylight overlap from the
-      February low itself.** Target
+- [x] **Seattle / Constellation — distinguish daylight overlap from the
+      February low itself.**
+      **Done 2026-11-07 (`ab91365`):** lead/description/FAQ/ladder now
+      separate the Feb 15 qualifying window (low 19.4 min after sunset,
+      78 daylight minutes earlier) from the first minus tide bottoming
+      in daylight (Mar 12, 2027, −0.11 ft at 1:31 PM, added). Full-range
+      ladder audit: Mar 13–14 Good, Apr 10–11 first 2027 Exceptional,
+      May 7–9 deepest Jan–May all verified; October retired to past
+      tense (two non-minus daylight windows); year-best 100 qualified
+      (Jul 11 tied). Unsourced arrival/footing/route-return instructions
+      removed; Arrive-by column → Sunset; sources re-fetched (all 200).
+      Title, URL, dates, tables, gates preserved. See journal. Target
       `seattle-alki-constellation-park-tide-pools-2026`. Page baseline:
       **19 clicks / 463 impressions / position 6.45**. Exact-page queries:
       `constellation park tide pools` 1 / 27 / 4.78;
