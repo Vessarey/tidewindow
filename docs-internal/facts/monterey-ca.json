@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-06",
+ "generated_on": "2026-11-07",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2096,33 +2096,33 @@
    "count": 28
   },
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 28
-  },
-  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
    "count": 27
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 23
-  },
-  {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 22
+   "count": 24
+  },
+  {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 24
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 21
+   "count": 20
   },
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
+   "count": 19
+  },
+  {
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
    "count": 19
   }
  ]

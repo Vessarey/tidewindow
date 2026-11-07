@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-06",
+ "generated_on": "2026-11-07",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -1985,20 +1985,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-06",
-   "weekday": "Fri",
-   "low_ft": 0.42,
-   "low_time_local": "4:40 PM",
-   "window_local": "3:40 PM–5:40 PM",
-   "arrive_by_local": "3:40 PM",
-   "daylight_min": 72,
-   "score": 23,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 244,
-   "min_to_sun_edge": 12
-  },
-  {
    "date": "2026-11-07",
    "weekday": "Sat",
    "low_ft": -0.188,
@@ -2067,18 +2053,32 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 250,
    "min_to_sun_edge": -56
+  },
+  {
+   "date": "2026-12-05",
+   "weekday": "Sat",
+   "low_ft": 0.342,
+   "low_time_local": "4:24 PM",
+   "window_local": "3:15 PM–5:35 PM",
+   "arrive_by_local": "3:24 PM",
+   "daylight_min": 71,
+   "score": 28,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 236,
+   "min_to_sun_edge": 2
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
-   "count": 8
+   "count": 7
   },
   {
    "commonName": "Striped Dogwinkle",
    "scientificName": "Nucella ostrina",
-   "count": 8
+   "count": 7
   },
   {
    "commonName": "Fingered Limpet",

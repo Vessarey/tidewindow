@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-06",
+ "generated_on": "2026-11-07",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2073,13 +2073,13 @@
    "count": 19
   },
   {
-   "commonName": "Hunchback Doris",
-   "scientificName": "Atagema alba",
-   "count": 19
-  },
-  {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
+   "count": 18
+  },
+  {
+   "commonName": "Hunchback Doris",
+   "scientificName": "Atagema alba",
    "count": 18
   },
   {
@@ -2093,13 +2093,13 @@
    "count": 17
   },
   {
-   "commonName": "Salt-and-pepper Doris",
-   "scientificName": "Aegires albopunctatus",
-   "count": 15
-  },
-  {
    "commonName": "Owl Limpet",
    "scientificName": "Lottia gigantea",
+   "count": 16
+  },
+  {
+   "commonName": "Salt-and-pepper Doris",
+   "scientificName": "Aegires albopunctatus",
    "count": 15
   },
   {
