@@ -40,3 +40,33 @@ gitignored files listed in AGENT_PLAYBOOK.md section 1; nothing here is secret.
    /newsletter/ page), per BACKLOG P0 step 3.
 6. Send day: Thursday. Watch bounce/complaint rates in Resend; stop sends if
    complaint rate nears 0.1%.
+
+## Read-only delivery checks
+
+Verified 2026-11-07 through the connected Resend tools. A failed or missing
+per-broadcast events endpoint does not establish zero adverse events, and
+does not make the previous day's counts the newest available evidence.
+
+1. Resolve the exact sent broadcast ID from the journal and read it with
+   `get-broadcast`. Confirm status and sent time; status `sent` alone does
+   not prove delivery or zero complaints.
+2. Use `list-broadcast-recipients` for that same ID, separately for `sent`,
+   `delivered`, `bounced`, `complained`, and `suppressed`. Set `limit: 100`
+   and follow returned pagination cursors when more rows exist. These are
+   recipient lists for each event type; do not add sent and delivered
+   together, or count a suppressed contact as a delivery or a bounce.
+3. Record the check date, broadcast ID, aggregate recipient counts and any
+   unavailable event types in JOURNAL. Keep recipient addresses and contact
+   IDs out of repository records. A successful empty bounced/complained
+   response means no recorded recipients of that type at check time;
+   a failed request means unavailable, not zero.
+4. If the connector is unavailable, inspect the existing broadcast's
+   Resend dashboard when accessible; otherwise retain a dated last-known
+   result and mark the new check unavailable. Do not invent API routes,
+   retry a send, sync the audience, or change suppression to obtain metrics.
+
+Nov 7 verification: broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f` remains
+sent at 2026-11-05 13:07:16Z; **30 sent, 30 delivered, 1 suppressed, no
+recorded bounced or complained recipients**. These are dated observations,
+not a guarantee against later adverse events. This procedure adds no send
+or template approval; the existing playbook and owner gates still apply.

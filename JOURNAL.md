@@ -5,6 +5,97 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-07 — Heartbeat: document the working delivery-check path
+
+**One improvement, internal documentation only:** added the verified
+connected-Resend recipient-read procedure to `docs-internal/resend-newsletter.md`
+and linked it from the existing P0 follow-up. This addresses the morning
+operator's per-broadcast events 404: the supported `list-broadcast-recipients`
+tool still provides current delivery/adverse evidence. Nov 5 broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f` remains sent at 13:07:16Z, with
+**30 sent, 30 delivered, 1 suppressed, no recorded bounced or complained
+recipients** at this afternoon's check. All five event-type reads succeeded;
+counts fit within a 100-recipient page. No addresses/contact IDs stored,
+no send, audience sync, suppression change or template edit. The Nov 12
+sentence still requires the already-recorded explicit owner approval.
+
+**Coordination:** the morning Seattle accuracy repair `ab91365` and its
+docs commit `23536ce` are already on main. Exact-SHA Production deployment
+`7621590887` for `23536ce` succeeded **13:11:02Z**. Browser readback shows
+the updated Nov 7 guide, including the Feb 15 after-sunset low, March 12
+first low bottoming in daylight, and Sunset table column. No duplicate
+editorial change. Four ready briefs remain; Fitzgerald is next, followed
+by Oregon, with sea-glass and Sunset Bay still open. No refill needed.
+
+**Refresh and browser health:** latest seven Actions runs green, no open
+GitHub issues. Unaided refresh `42345470245` began **06:05:42Z**, generated
+data **06:06:15.894Z**, and pushed `6ef38b5` at **06:08:16.662Z**. Next
+16.4.4 build verified 12 stations × 6 months / **149 sitemap URLs**;
+IndexNow accepted all **149** (HTTP 200 at 06:08:14.468Z), closing yesterday's
+148→149 count follow-up. No originating cron expression observed, so no
+slot-delay inference. Later runs skipped already-fresh data; no dispatch.
+All **12 live station files are byte-identical** to committed data; live
+sitemap also has 149 URLs. Guide calendar gate reveals the email form;
+guide ZIP 98101 routes to Finder, selects Seattle and loads Nov 7 data.
+No email submission, console warning/error, or horizontal overflow observed
+at **1425px**. Desktop check only; no new mobile validation claimed.
+
+**PostHog:** project 495836, exact production host `thetidewindow.com`,
+`Regular`, complete UTC dates ending before Nov 7. **Oct 31–Nov 6:**
+**821 pageviews / 771 distinct IDs**; 1 signup / 1 ID (station_gate),
+9 calendar-gate clicks / 9 IDs, 1 reveal / 1 ID, 17 station selections /
+15 IDs, 14 results / 14 IDs, 2 Trip Picker runs / 2 IDs. **Oct 10–Nov 6:**
+**3,224 pageviews / 3,028 IDs**; 13 signups / 12 IDs, 36 gate clicks /
+36 IDs, 9 reveals / 9 IDs, 63 station selections / 48 IDs, 50 results /
+43 IDs, 6 Trip Picker runs / 4 IDs. Events and IDs are not people,
+subscribers or an ordered funnel. Rolling signup counts remain too small
+for a conversion verdict; no experiment change. Exit prompt had 33/116
+displays in 7d/28d; its Oct 1 owner-authority conflict remains unresolved,
+not restarted or extended by these rolling counts.
+
+Seven-day pageview classification: **821 Regular, 5 Automation, 1 Bot**;
+Regular does not prove human traffic. The morning's 837-pageview report
+is not treated as a comparable loss without identical filters and cutoffs.
+Leading paths: national/OR/WA king-tide guides **243/208/71**, Finder 19,
+Fitzgerald 15. Referring-domain pageviews: Google 183, direct 171, Bing
+157, DuckDuckGo 128, Yahoo 80, not search clicks or acquisition sessions.
+Self-instrumented nearest-rank p75: **LCP 780 ms (242 samples), INP 32 ms
+(52), CLS 0 (97)** from 808 Web Vitals events; not CrUX. Zero exceptions
+observed in 7d, 2 events / 1 ID in 28d. Capture flag false on 90 pageviews,
+missing on 731, true on none: cannot conclude zero errors.
+
+**Search:** configured read-only GSC API, Web/final, all countries/devices,
+byProperty totals with no page/query dimension. **Oct 29–Nov 4 inclusive
+Pacific:** **118 clicks / 5,274 impressions / 2.24% CTR / position 7.02**,
+versus 119 / 6,929 / 1.72% / 6.99 for Oct 22–28 (clicks **−0.8%**).
+**Oct 8–Nov 4:** 387 / 20,431 / 1.89% / 7.01, versus
+288 / 15,039 / 1.92% / 7.11 for Sep 10–Oct 7 (clicks **+34.4%**).
+All 28 date rows returned. Impressions are lower week-over-week while
+clicks and position are broadly steady; no traffic-drop or causal-change
+verdict. PostHog connector still requires reauthentication; GSC Wizard
+still reports subscription required. Configured read-only fallbacks worked,
+without credential changes or spending.
+
+**Risks and next action:** no score-90+ window in the next 14 days;
+Nov 25 king tides enter the action horizon Nov 11. Installed/locked Next
+both 16.4.4 and production-only dependency audit has zero findings; this
+does not close development-advisory items. NPS
+[road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm) still
+say Mora Road open (Nov 5 updates), while the
+[Rialto page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm) retains
+the Jul 31 construction notice through Oct 15. Existing qualifications stay;
+road status is not route clearance. Nov 9 weekly indexing and Trip Picker /
+Golden Hour recrawl check remain due; Nov 12 template approval remains open.
+Next operator should execute Fitzgerald's queued maintenance, using the
+new read-only delivery procedure for adverse checks. No new immediate
+owner action identified. Changes here are docs only; `git diff --check`
+passes and all **132 held files remain byte-identical** to the pre-edit
+hash guard. Only the three named documentation files are added to the
+existing dirty set. No build or new application-test claim for this update.
+
+---
+
 ## 2026-11-07 — Seattle guide: daylight overlap vs. the Feb 15 low (queue item 1)
 
 **One primary action (`ab91365`):** executed the first Nov 6 brief — the

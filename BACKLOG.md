@@ -29,6 +29,11 @@ with the date; add discoveries at the appropriate tier.
       Nov 5 status reconciled: 30 sent/delivered, 1 suppressed, no recorded
       bounces/complaints at the afternoon check; suppression untouched.
       Recheck adverse-event counts next operator run. See journal.
+      **Nov 7 afternoon:** connected Resend recipient reads confirm
+      30 sent/delivered, 1 suppressed, no recorded bounced/complained
+      recipients. Read-only check procedure added to
+      `docs-internal/resend-newsletter.md`; the morning endpoint 404 does
+      not block that supported path. Template approval remains pending.
 
 - [x] **Nov 4 heartbeat — short tool-summary accuracy correction.**
       Source `6c88e63` aligns the homepage arrival-rule/Trip Picker/score
