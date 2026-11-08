@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-07",
+ "generated_on": "2026-11-08",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2073,13 +2073,13 @@
    "count": 4
   },
   {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
-   "count": 2
-  },
-  {
    "commonName": "Gland Dorid",
    "scientificName": "Polycerella glandulosa",
+   "count": 3
+  },
+  {
+   "commonName": "Hooded Nudibranch",
+   "scientificName": "Melibe leonina",
    "count": 2
   },
   {

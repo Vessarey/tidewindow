@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-07",
+ "generated_on": "2026-11-08",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.297,
-   "low_time_local": "3:21 PM",
-   "window_local": "2:00 PM–4:35 PM",
-   "arrive_by_local": "2:21 PM",
-   "daylight_min": 134,
-   "score": 51,
+   "date": "2026-11-08",
+   "weekday": "Sun",
+   "low_ft": -0.394,
+   "low_time_local": "4:05 PM",
+   "window_local": "2:45 PM–5:25 PM",
+   "arrive_by_local": "3:05 PM",
+   "daylight_min": 88,
+   "score": 46,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.297,
-   "low_time_local": "3:21 PM",
-   "window_local": "2:00 PM–4:35 PM",
-   "arrive_by_local": "2:21 PM",
-   "daylight_min": 134,
-   "score": 51,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 238,
-   "min_to_sun_edge": 53
-  },
-  {
    "date": "2026-11-08",
    "weekday": "Sun",
    "low_ft": -0.394,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 251,
    "min_to_sun_edge": -57
+  },
+  {
+   "date": "2026-11-28",
+   "weekday": "Sat",
+   "low_ft": 0.303,
+   "low_time_local": "6:55 AM",
+   "window_local": "5:55 AM–7:50 AM",
+   "arrive_by_local": "5:55 AM",
+   "daylight_min": 65,
+   "score": 28,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 121,
+   "min_to_sun_edge": 10
   }
  ],
  "species_last60d_5km": [

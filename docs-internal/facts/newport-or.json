@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-07",
+ "generated_on": "2026-11-08",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.357,
-   "low_time_local": "5:07 PM",
-   "window_local": "3:30 PM–6:55 PM",
-   "arrive_by_local": "4:07 PM",
-   "daylight_min": 87,
-   "score": 46,
+   "date": "2026-12-20",
+   "weekday": "Sun",
+   "low_ft": 0.226,
+   "low_time_local": "3:24 PM",
+   "window_local": "2:05 PM–4:50 PM",
+   "arrive_by_local": "2:24 PM",
+   "daylight_min": 153,
+   "score": 44,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -1986,20 +1986,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-07",
-   "weekday": "Sat",
-   "low_ft": -0.357,
-   "low_time_local": "5:07 PM",
-   "window_local": "3:30 PM–6:55 PM",
-   "arrive_by_local": "4:07 PM",
-   "daylight_min": 87,
-   "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 249,
-   "min_to_sun_edge": -10
-  },
-  {
    "date": "2026-11-08",
    "weekday": "Sun",
    "low_ft": -0.702,
@@ -2068,6 +2054,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 255,
    "min_to_sun_edge": -83
+  },
+  {
+   "date": "2026-12-04",
+   "weekday": "Fri",
+   "low_ft": 0.778,
+   "low_time_local": "3:25 PM",
+   "window_local": "2:45 PM–4:10 PM",
+   "arrive_by_local": "2:25 PM",
+   "daylight_min": 85,
+   "score": 22,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 226,
+   "min_to_sun_edge": 71
   }
  ],
  "species_last60d_5km": [

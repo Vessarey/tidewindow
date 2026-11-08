@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-07",
+ "generated_on": "2026-11-08",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1840,13 +1840,13 @@
    "count": 1
   },
   {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
+   "commonName": "Pacific Batwing Seaslug",
+   "scientificName": "Gastropteron pacificum",
    "count": 1
   },
   {
-   "commonName": "Pacific Batwing Seaslug",
-   "scientificName": "Gastropteron pacificum",
+   "commonName": "Rough Piddock",
+   "scientificName": "Zirfaea pilsbryi",
    "count": 1
   }
  ]

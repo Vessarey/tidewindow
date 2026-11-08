@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-07",
+ "generated_on": "2026-11-08",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 59
+   "count": 63
   },
   {
    "commonName": null,
@@ -2093,7 +2093,7 @@
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
-   "count": 28
+   "count": 27
   },
   {
    "commonName": "Black Tegula",
@@ -2108,7 +2108,7 @@
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 24
+   "count": 23
   },
   {
    "commonName": "cockscomb nudibranch",
