@@ -5,6 +5,52 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-08 — Fitzgerald guide: October lead rolled forward, chart extended through December (queue item 2)
+
+**One primary action (`4fa4cdd`):** executed the Nov 6 Fitzgerald brief —
+the guide's answer box still led with the passed Oct 25 window and its
+inline H/L chart ended Nov 30 while claiming December extremes were
+unavailable. New lead: Dec 23's −1.85 ft at 4:22 PM is the deepest
+remaining in-hours low (38 min before the 5 PM close); the Nov 22–27
+six-day minus run bottoms −1.77 ft Nov 25 at 5:20 PM, 20 min after close.
+Rendered the complete Nov 1–Dec 31 chart (61 rows) from today's
+`daily_extremes_current_and_next_month`; every row generated from the
+fact sheet, none hand-typed. Late-October run (Oct 23–31) retained as a
+clearly dated history subsection, past tense. Remaining counts recomputed
+from Nov 8: 25 daylight minus tides (11 Nov: 8–12 and 22–27; 14 Dec: 5–11
+and 20–26) — FAQ and body agree. Score-60 table now starts Nov 8 (passed
+Oct 25–27 and Nov 7 rows removed, noted as history). Top-8 deepest table,
+monthly summary and all retained window rows verified unchanged against
+the 2026-11-08 facts; October's completed month confirms its summary row.
+Species tallies refreshed (Hopkins' rose now leads, 59 in 60d; gumboot
+chiton 17 still the only non-slug in the top seven). County hours
+re-fetched at write time: schedule unchanged (5 PM close Nov 2–Feb 2027).
+No retitle, no new page, no conversion experiment; owner-held files
+untouched (autostash pull, held diff byte-identical before and after).
+
+**Health:** today's refresh landed unaided — run `42453608947` (06:09:55Z)
+pushed `554a8da` dated 2026-11-08; the 09:33 and 11:32 slots skipped as
+already-fresh. Last eight runs green; no open issues. Plain `npm run
+build` green: verify-output 12 stations × 6 months, 149 sitemap URLs;
+facts/math/format/wording/gsc suites all pass (wording includes the two
+owner-held working-tree tests).
+
+**Metrics (PostHog, Nov 1–7 UTC, host thetidewindow.com):** 840 pageviews
+/ 782 distinct IDs; 0 newsletter signups this window; 21 station
+selections / 17 IDs; 18 result views / 16 IDs; 2 Trip Picker runs. Top
+paths: king-tide trio 224/214/82 (national/OR/WA), Finder 23, Fitzgerald
+guide 18 — the top non-king-tide guide, which supports today's pick.
+Event counts, not sessions or people.
+
+**Tomorrow (Nov 9, Mon):** weekly §2a′ indexing pass — `node
+scripts/gsc-query.mjs inspect 40` plus the Trip Picker / Golden Hour
+recrawl checks. Then the Oregon calendar roll is the last ready brief
+(plus sea-glass and Sunset Bay). Nov 11: Nov 25 king-tide cluster enters
+the §2b 14-day horizon — refresh the king-tide roundups. Nov 12
+newsletter template sentence remains owner-approval-gated.
+
+---
+
 ## 2026-11-07 — Heartbeat: document the working delivery-check path
 
 **One improvement, internal documentation only:** added the verified

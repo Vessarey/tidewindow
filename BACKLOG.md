@@ -638,8 +638,16 @@ score/vocabulary change and no owner-held Haystack/minus-tide edits.
       and recheck Seattle Aquarium/parks access statements without deriving
       route access from score or depth. No retitle or reopening of the old
       September package verdict. Repair remains queued, not public.
-- [ ] **Fitzgerald — replace the passed October lead and extend the chart
-      through December.** Target `fitzgerald-marine-reserve-tide-pooling-2026`.
+- [x] **Fitzgerald — replace the passed October lead and extend the chart
+      through December.** **Done Nov 8 (`4fa4cdd`):** lead now Dec 23
+      in-hours low + Nov 22–27 run; full Nov 1–Dec 31 H/L chart rendered
+      from the 2026-11-08 `daily_extremes_current_and_next_month`; stale
+      "December unavailable" claim removed; late-October run kept as dated
+      history; remaining counts recomputed from Nov 8 (25: 11 Nov + 14 Dec);
+      passed rows dropped from the score-60 table; species tallies
+      refreshed; county hours re-fetched (unchanged). Top-8/monthly/window
+      rows verified unchanged. Build + verify-output green, 149 URLs.
+      Target `fitzgerald-marine-reserve-tide-pooling-2026`.
       Page baseline: **37 clicks / 1,034 impressions / position 5.90**.
       Exact-page `fitzgerald marine reserve tide chart`: 10 / 238 / 6.97;
       `tide chart fitzgerald marine reserve`: 1 / 23 / 7.13;
