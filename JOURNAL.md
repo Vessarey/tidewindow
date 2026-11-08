@@ -5,6 +5,86 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-08 — Heartbeat: verify the morning release; no additional intervention
+
+**Decision:** the operator already completed Fitzgerald's seasonal refresh.
+Verified that release and the current health evidence; no second article,
+conversion variant, newsletter change or infrastructure intervention is
+supported today. Only this audit record changes. Three ready briefs remain
+(Oregon, sea-glass, Sunset Bay), so no queue refill is due.
+
+**Release and refresh:** morning HEAD `02160b1` has exact-SHA Production
+deployment `7636312189`, successful **13:11:39Z**. The live Fitzgerald guide
+shows updated Nov 8, its new December lead and November–December chart;
+the rendered chart has **61 data rows plus its header**, ending Dec 31.
+Calendar gate reveals the email form without submission. ZIP 94038 from
+the guide selects Pillar Point in Finder and loads Nov 8 results. No
+console warnings/errors or horizontal overflow observed at **1425px**;
+desktop check only, with no end-to-end signup or mobile claim.
+
+Latest seven refresh runs green; no open GitHub issues. Unaided run
+`42453608947` began **06:09:55Z**, generated data **06:10:49.621Z**, and
+pushed `554a8da` at **06:13:06.191Z**. Locked Next 16.4.4 build verified
+12 stations × 6 months / **149 URLs**; IndexNow accepted 149 (HTTP 200 at
+06:13:03.600Z). Later runs skip fresh data. No originating cron expression
+observed, no inferred slot delay or recovery dispatch. All **12 live
+station files match committed bytes**; live sitemap contains 149 URLs.
+
+**Product:** PostHog project 495836, exact host `thetidewindow.com`,
+`Regular`, complete UTC days ending before Nov 8. **Nov 1–7:**
+**830 pageviews / 772 distinct IDs**, 0 observed signup events and calendar
+reveals, 10 gate clicks / 10 IDs, 21 station selections / 17 IDs,
+18 results / 16 IDs, 2 Trip Picker runs / 2 IDs. The combined 7d
+count/distinct query timed out (504); classification counts and a separate
+distinct-ID query recovered those totals. **Oct 11–Nov 7:** 3,247 pageviews /
+3,051 IDs, 12 signup events / 11 IDs, 38 gate clicks / 38 IDs, 9 reveals /
+9 IDs, 63 station selections / 48 IDs, 52 results / 43 IDs, 6 Trip Picker
+runs / 4 IDs. Events and IDs are not subscribers/people or an ordered funnel.
+Ten gate clicks and zero signups in 7d do not meet the 30-event conversion
+floor or establish a broken form. No test signup or experiment verdict.
+
+Seven-day classification: 830 Regular + 9 Automation + 1 Bot (the morning's
+840 all-classification pageviews reconcile); Regular is not verified human
+traffic. Leading paths: national/OR/WA king-tide guides **224/214/82**,
+Finder 23, Fitzgerald 17. Google/Bing referring-domain pageviews 202/145,
+not GSC clicks. Self-instrumented p75 **LCP 792 ms (246 samples), INP 32 ms
+(58), CLS 0 (96)** from 818 Web Vitals events, not CrUX. No exception event
+observed in 7d; 2 events / 1 ID in 28d. Capture flag false on 95 pageviews,
+missing on 735, true on none: zero errors is not established. Exit prompt
+30/115 displays in 7d/28d does not resolve its existing Oct 1 authority
+conflict or justify restarting/extending the experiment.
+
+**Search:** configured read-only GSC API, Web/final, all countries/devices,
+byProperty totals without page/query dimensions. **Oct 30–Nov 5 inclusive
+Pacific:** **117 clicks / 5,030 impressions / 2.33% CTR / position 7.09**
+versus 126 / 7,303 / 1.73% / 6.85 for Oct 23–29 (**−7.1% clicks**).
+**Oct 9–Nov 5:** 400 / 20,637 / 1.94% / 7.02 versus
+291 / 15,074 / 1.93% / 7.08 for Sep 11–Oct 8 (**+37.5% clicks**).
+All 28 date rows returned; the latest week has 12–22 clicks/day, with 22
+on Nov 5. No causal conclusion from the rolling comparison. Native
+PostHog reauthentication and GSC Wizard subscription errors persist;
+configured read-only fallbacks worked, without credential changes or spend.
+
+**Other checks and next action:** Nov 5 broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f` has 30 delivered recipients and no
+recorded bounced/complained recipients on today's connected-tool read.
+No audience writes or retries. Installed/locked Next both 16.4.4;
+production-only dependency audit has zero findings, with development
+follow-ups still separate. No score-90+ window within the next 14 days.
+NPS [road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still say Mora Road open, while the
+[Rialto page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm) retains
+the expired construction notice. Preserve existing qualifications; no
+route-clearance inference. Tomorrow Nov 9: weekly `inspect 40` and Trip
+Picker/Golden Hour recrawl checks, then Oregon's queued maintenance.
+Nov 11 king-tide refresh and Nov 12 template-sentence approval remain due.
+No new immediate owner action. Documentation-only diff reviewed;
+`git diff --check` passes and all **132 held files remain byte-identical**
+to the pre-edit hash guard. No new build required for this audit record.
+
+---
+
 ## 2026-11-08 — Fitzgerald guide: October lead rolled forward, chart extended through December (queue item 2)
 
 **One primary action (`4fa4cdd`):** executed the Nov 6 Fitzgerald brief —
