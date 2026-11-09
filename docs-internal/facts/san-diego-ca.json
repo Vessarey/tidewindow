@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-08",
+ "generated_on": "2026-11-09",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2098,6 +2098,11 @@
    "count": 2
   },
   {
+   "commonName": "File Limpet",
+   "scientificName": "Lottia limatula",
+   "count": 2
+  },
+  {
    "commonName": "Owl Limpet",
    "scientificName": "Lottia gigantea",
    "count": 1
@@ -2110,11 +2115,6 @@
   {
    "commonName": "Purple-Ring Topsnail",
    "scientificName": "Calliostoma annulatum",
-   "count": 1
-  },
-  {
-   "commonName": "Spiny Cup-and-Saucer",
-   "scientificName": "Crucibulum spinosum",
    "count": 1
   }
  ]

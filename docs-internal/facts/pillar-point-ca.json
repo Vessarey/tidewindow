@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-08",
+ "generated_on": "2026-11-09",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.597,
-   "low_time_local": "4:13 PM",
-   "window_local": "1:55 PM–6:45 PM",
-   "arrive_by_local": "3:13 PM",
-   "daylight_min": 190,
-   "score": 68,
-   "band": "Good",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 241,
-   "min_to_sun_edge": 52
-  },
-  {
    "date": "2026-11-09",
    "weekday": "Mon",
    "low_ft": -0.668,
@@ -2072,38 +2058,52 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 241,
    "min_to_sun_edge": 23
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "Wed",
+   "low_ft": -1.77,
+   "low_time_local": "5:20 PM",
+   "window_local": "2:30 PM–8:35 PM",
+   "arrive_by_local": "4:20 PM",
+   "daylight_min": 144,
+   "score": 75,
+   "band": "Great",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 248,
+   "min_to_sun_edge": -26
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Hopkins' Rose Nudibranch",
-   "scientificName": "Ceratodoris rosacea",
-   "count": 59
-  },
-  {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 58
+   "count": 68
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 54
+   "count": 61
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 60
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 39
+   "count": 45
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 32
+   "count": 34
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 23
+   "count": 24
   },
   {
    "commonName": "Gumboot Chiton",

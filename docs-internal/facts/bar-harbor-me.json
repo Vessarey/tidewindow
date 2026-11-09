@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-08",
+ "generated_on": "2026-11-09",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -101,16 +101,16 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.394,
-   "low_time_local": "4:05 PM",
-   "window_local": "2:45 PM–5:25 PM",
-   "arrive_by_local": "3:05 PM",
-   "daylight_min": 88,
-   "score": 46,
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.342,
+   "low_time_local": "1:59 PM",
+   "window_local": "12:35 PM–3:20 PM",
+   "arrive_by_local": "12:59 PM",
+   "daylight_min": 165,
+   "score": 45,
    "band": "Fair",
-   "weekend_or_holiday": true
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -432,18 +432,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.394,
-   "low_time_local": "4:05 PM",
-   "window_local": "2:45 PM–5:25 PM",
-   "arrive_by_local": "3:05 PM",
-   "daylight_min": 88,
-   "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-12-21",
    "weekday": "Mon",
    "low_ft": -0.342,
@@ -453,6 +441,18 @@
    "daylight_min": 165,
    "score": 45,
    "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-09",
+   "weekday": "Mon",
+   "low_ft": -0.324,
+   "low_time_local": "4:46 PM",
+   "window_local": "3:25 PM–6:05 PM",
+   "arrive_by_local": "3:46 PM",
+   "daylight_min": 47,
+   "score": 27,
+   "band": "Skip",
    "weekend_or_holiday": false
   }
  ],
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-08",
-   "weekday": "Sun",
-   "low_ft": -0.394,
-   "low_time_local": "4:05 PM",
-   "window_local": "2:45 PM–5:25 PM",
-   "arrive_by_local": "3:05 PM",
-   "daylight_min": 88,
-   "score": 46,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 246,
-   "min_to_sun_edge": 8
-  },
-  {
    "date": "2026-11-09",
    "weekday": "Mon",
    "low_ft": -0.324,
@@ -2072,13 +2058,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 121,
    "min_to_sun_edge": 10
+  },
+  {
+   "date": "2026-11-29",
+   "weekday": "Sun",
+   "low_ft": 0.565,
+   "low_time_local": "7:56 AM",
+   "window_local": "7:15 AM–8:35 AM",
+   "arrive_by_local": "6:56 AM",
+   "daylight_min": 80,
+   "score": 26,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 133,
+   "min_to_sun_edge": 69
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 14
+   "count": 16
   },
   {
    "commonName": "Atlantic Dogwhelk",

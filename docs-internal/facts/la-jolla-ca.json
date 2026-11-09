@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-08",
+ "generated_on": "2026-11-09",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2068,6 +2068,11 @@
  ],
  "species_last60d_5km": [
   {
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
+   "count": 20
+  },
+  {
    "commonName": "Yellow Umbrella Slug",
    "scientificName": "Tylodina fungina",
    "count": 19
@@ -2078,24 +2083,14 @@
    "count": 18
   },
   {
+   "commonName": "Owl Limpet",
+   "scientificName": "Lottia gigantea",
+   "count": 18
+  },
+  {
    "commonName": "Hunchback Doris",
    "scientificName": "Atagema alba",
    "count": 16
-  },
-  {
-   "commonName": "Owl Limpet",
-   "scientificName": "Lottia gigantea",
-   "count": 16
-  },
-  {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 15
-  },
-  {
-   "commonName": "Hamann's Aeolid",
-   "scientificName": "Cuthona hamanni",
-   "count": 15
   },
   {
    "commonName": "Salt-and-pepper Doris",
@@ -2110,12 +2105,17 @@
   {
    "commonName": "Lesser Two-spot Octopus",
    "scientificName": "Octopus bimaculoides",
-   "count": 12
+   "count": 11
   },
   {
    "commonName": "Freckled Ancula",
    "scientificName": "Ancula lentiginosa",
-   "count": 10
+   "count": 9
+  },
+  {
+   "commonName": "Speckled Tegula",
+   "scientificName": "Tegula gallina",
+   "count": 8
   }
  ]
 }
