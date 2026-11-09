@@ -101,8 +101,12 @@ signup metadata and all 12 station files are unchanged; rendered Article/
 FAQ schema matches source, modified dates/sitemap are Nov 9, and all 72
 unique internal links resolve. No source-code or shared-destination edit.
 Diff review and `git diff --check` pass; all **132 protected files remain
-byte-identical** to the pre-edit guard. Verify the exact production SHA and live
-notices after push. Next operator: recheck NPS's conflicting notices,
+byte-identical** to the pre-edit guard. Source commit `ee35074` has exact-SHA
+Production deployment `7662566701`, successful **18:21:03Z**. All five live
+pages' Article/FAQ schemas and numerical tables matched the verified release
+at **18:21:24Z**; the La Push notice was also checked in Chrome at 1425px,
+with no console warning/error or horizontal overflow observed. Next operator:
+recheck NPS's conflicting notices,
 refill the two-item queue under §2a, then resume the scheduled seasonal work.
 
 ---
