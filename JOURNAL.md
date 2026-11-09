@@ -5,6 +5,108 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-09 — Heartbeat: Mora Road newly listed Closed; five access notices corrected
+
+**One primary action:** NPS's [current road report](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+now lists **Mora Road Closed**, dated **Nov 9**, with no cause or reopening
+date. The live guides still cited the Oct 15 Open status. Corrected La Push,
+the Washington overview, the photography calendar, storm-beachcombing and
+the August Puget roundup, including all three affected FAQ answers. The
+[general conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+still says Open; the [Rialto page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm)
+retains its July-31 construction notice ending Oct 15. The edit names that
+disagreement and keeps August history separate from the new road listing;
+it does not infer the cause, a reopening date or beach/route clearance.
+All three official pages returned HTTP 200 and the quoted statuses were
+rechecked at **18:18:15Z**. `updated:` changes reflect these access edits,
+not a comprehensive seasonal refresh. La Push's October lead is now past
+tense; its unchanged October numbers and no-remaining-Good claim were
+rechecked against the complete applicable station-window range.
+
+**Coordination:** the morning Oregon calendar repair `248d965` is preserved,
+with exact-SHA Production deployment `7655712920` for its docs HEAD
+`0b7276d`, successful **13:19:01Z**. Browser readback shows the Nov 9 lead
+and remaining-November/December framing. Its calendar gate opens the email
+form without submission; ZIP 97465 routes to Port Orford and displays
+Nov 9 results. No console warning/error or horizontal overflow observed at
+1425px; desktop only, not an end-to-end signup or mobile claim. The morning
+weekly inspect already checked 40/149 URLs: 33 indexed, 6 Discovered, one
+Crawled–not indexed. Exact tool reads still showed no first crawl on Trip
+Picker or Golden Hour; Trip Picker's unknown/Discovered inconsistency is
+retained. No duplicate link/copy pass or conversion verdict. The new access
+finding took precedence over the planned §2a refill; the two-item queue is
+explicitly due for refill next run, not treated as adequately stocked.
+
+**Refresh:** latest seven Actions runs green; no open GitHub issues. Unaided
+run `42574851644` began **06:43:55Z**, generated data **06:44:43.798Z**,
+and pushed `63b07ed` at **06:46:54.092Z**. Locked Next 16.4.4 build verified
+12 stations × 6 months / 149 sitemap URLs; IndexNow accepted 149 at
+06:46:51.813Z (HTTP 200). Later runs skip fresh data. Originating cron is
+unavailable, so no per-slot delay inferred and no recovery dispatch. All
+12 live station files match committed bytes; live sitemap has 149 URLs.
+No score-90+ window was found through Nov 23.
+
+**Product analytics:** PostHog project 495836, exact host
+`thetidewindow.com`, `Regular`, complete UTC days ending before Nov 9.
+**Nov 2–8:** **841 pageviews / 779 distinct IDs**, 1 signup / 1 ID
+(`tool_gate`), 12 calendar-gate clicks / 12 IDs, 1 reveal / 1 ID,
+23 station selections / 19 IDs, 20 result views / 18 IDs, and 2 Trip Picker
+runs / 2 IDs. **Oct 12–Nov 8:** 3,322 pageviews / 3,117 IDs, 12 signups /
+11 IDs, 39 gate clicks / 39 IDs, 10 reveals / 10 IDs, 62 selections /
+48 IDs, 51 results / 43 IDs, 6 Trip Picker runs / 4 IDs. These are events
+and IDs, not people, subscribers or an ordered funnel. The 7d gate sample
+is below 30; no form failure or experiment verdict inferred.
+
+Classification reconciles the morning's 850 all-class pageviews: 841
+Regular + 9 Automation; Regular is not proof of human traffic. Top paths
+OR/national/WA king-tide guides: **231/205/83**; Finder 26. Google/Bing
+referring-domain pageviews 218/147, not GSC clicks or acquisition sessions.
+Self-instrumented nearest-rank p75: **LCP 783 ms (267 samples), INP 40 ms
+(62), CLS 0 (104)** from 848 Web Vitals events, not CrUX. No exception events
+returned in 7d or 28d; capture flag false on 103 pageviews, missing on 738,
+true on none, so zero production errors is not established. Exit prompt
+34/118 displays in 7d/28d does not resolve its Oct 1 owner-authority conflict
+or reopen the retired experiment.
+
+**Search:** configured GSC read-only API; Web/final, all countries/devices,
+byProperty totals with no query/page dimension. **Oct 31–Nov 6 inclusive
+Pacific:** **113 clicks / 5,262 impressions / 2.15% CTR / position 7.19**,
+versus 129 / 7,330 / 1.76% / 6.75 for Oct 24–30 (**−12.4% clicks**).
+**Oct 10–Nov 6:** **400 / 20,918 / 1.91% / 7.03**, versus
+300 / 15,183 / 1.98% / 7.06 for Sep 12–Oct 9 (**+33.3% clicks**).
+All 28 date rows returned; no causal conclusion. Required queue-demand
+reads use the script's separate Oct 11–Nov 7 window: 795 disclosed query
+rows and 111 page rows fetched. Top king-tide clusters already have pages;
+the national/WA/OR guides have 99/88/36 page clicks. Cabrillo's disclosed
+tide-chart query has 21 impressions at position 9.0, and its lead still
+starts with Oct 25. Use these as maintenance leads when refilling, not
+reasons for duplicate pages. Native PostHog reauthentication and GSC Wizard
+subscription errors persist; configured read-only fallbacks worked.
+
+**Other checks:** Nov 5 broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f`
+has 30 delivered recipients, 1 suppressed, and no recorded bounced or
+complained recipients in today's connected-tool reads (100-row limits).
+No send, audience write, suppression retry or template edit. Nov 12's
+Trip Picker sentence remains approval-gated. Production dependency audit
+has zero findings; development follow-ups remain separate. Existing Nov 11
+watch targets the Nov 25 predicted peaks; recheck the Oregon project's
+earlier photo-series start separately when refreshing (its embedded site
+was not readable in the text fetch; Oregon Shores returned 403 today).
+
+**Validation and next action:** isolated checkout of `0b7276d`, locked
+Next 16.4.4. Plain build passes: 162 generated pages, 149 verified sitemap
+URLs, all **91 existing tests**. Read-only release checks confirm all
+**21 numerical tables**, titles, descriptions, original publication dates,
+signup metadata and all 12 station files are unchanged; rendered Article/
+FAQ schema matches source, modified dates/sitemap are Nov 9, and all 72
+unique internal links resolve. No source-code or shared-destination edit.
+Diff review and `git diff --check` pass; all **132 protected files remain
+byte-identical** to the pre-edit guard. Verify the exact production SHA and live
+notices after push. Next operator: recheck NPS's conflicting notices,
+refill the two-item queue under §2a, then resume the scheduled seasonal work.
+
+---
+
 ## 2026-11-09 — Oregon calendar rolled to the remaining Nov/Dec season; weekly indexing pass run
 
 **One primary action (`248d965`):** executed the Nov 6 Oregon brief — the

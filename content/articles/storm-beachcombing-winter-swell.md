@@ -2,7 +2,7 @@
 title: "Storm Beachcombing: What Winter Swell Plus a Minus Tide Uncovers"
 description: "Winter swell strips sand and restocks the wrack line. The 2026-27 minus-tide daylight windows at La Push and Port Orford, plus NWS sneaker-wave rules."
 date: "2026-07-03"
-updated: "2026-10-16"
+updated: "2026-11-09"
 category: "beachcombing"
 tags: ["storm beachcombing", "winter swell", "wrack line", "La Push", "Port Orford"]
 faq:
@@ -44,7 +44,7 @@ Two elevations, two different searches.
 
 **Low on the beach: the gravel beds.** These need the storm *and* the tide, because the lowest of the newly exposed beds only go dry on a good low. This is where minus-tide arithmetic earns its keep. The spots tracked at [Port Orford](/beaches/or/port-orford-or/) include Battle Rock Beach and, helpfully explicit, Agate Beach; the [La Push station listing](/beaches/wa/la-push-wa/) lists Second Beach and Third Beach. A station listing is not confirmation that either route is open or passable.
 
-**Access update, checked October 16, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, updated October 15. The older [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated October 13, still carries the construction notice ending October 15. The newer road report does not verify current beach, trail or Hole-in-the-Wall passage conditions. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) explains the differing reports; this tide calendar establishes neither route access nor surf conditions.
+**Access update, checked November 9, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Closed**, updated November 9, with no reopening date. The general [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) still says it is open. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) explains the conflicting reports; this tide calendar establishes neither route access nor surf conditions.
 
 ## What about glass floats?
 

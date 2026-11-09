@@ -2,7 +2,7 @@
 title: "Golden Hour Low Tide Photography Calendar 2026: La Push, Garibaldi, Monterey, La Jolla"
 description: "The 2026 dawn season is over; what remains belongs to winter sunsets in the south. La Jolla's Dec 25 window scores 90. Four West Coast station calendars."
 date: "2026-07-03"
-updated: "2026-10-16"
+updated: "2026-11-09"
 category: "photography"
 tags: ["low tide photography", "golden hour", "sun azimuth", "minus tide", "west coast"]
 faq:
@@ -110,7 +110,7 @@ Monterey's dormant season, promised back in August, has arrived on schedule: a t
 
 August's champion is winter's also-ran: every remaining La Push low with real depth arrives well after sunset. The honest picks are the shallow sun-edge crossers — December 21's −0.66 ft low lands 2 minutes before sunset, November 22's −0.42 ft eleven minutes after — twilight shoots on a falling tide rather than deep reef in full light.
 
-**Access checked October 16:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, updated October 15. The older [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated October 13, still carries the construction notice ending October 15. The road report does not establish current beach, trail or Hole-in-the-Wall passage conditions. Our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) links the differing reports and NPS route information; it continues to describe Second Beach and Third Beach as separate destinations.
+**Access checked November 9:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Closed**, updated November 9, with no reopening date. The general [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) still says it is open. Our [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) explains the conflicting reports and describes Second Beach and Third Beach separately. Tide and light calculations do not establish beach, trail or Hole-in-the-Wall passage conditions.
 
 ### Garibaldi, OR (NOAA station 9437540)
 

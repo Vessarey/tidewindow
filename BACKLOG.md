@@ -5,6 +5,20 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 9 heartbeat — correct Mora Road's new Closed status.**
+      NPS's current-road-conditions page now lists Mora Road **Closed**,
+      updated Nov 9, with no stated cause or reopening date. Replaced the
+      older Open citations in the La Push, Washington overview, photography,
+      storm-beachcombing and August Puget guides, including affected FAQs.
+      The general conditions page still says Open; the Rialto page retains
+      its expired Oct 15 construction notice. Kept that disagreement explicit
+      and the August history separate. No route-clearance claim, shared
+      destination restoration or tide-table change. Isolated build, 91 tests,
+      rendered FAQ/schema/link checks pass; see journal for evidence.
+      This current-access correction took priority over the planned queue
+      refill. **Nov 10: only sea-glass and Sunset Bay remain ready; complete
+      §2a's demand-backed refill before another editorial assignment.**
+
 - [ ] **Nov 5 newsletter consumer finding — approve the Trip Picker sentence
       before the Nov 12 issue.** The sent HTML and current
       `scripts/newsletter/send-weekly.mjs:196` still promise "every daylight
@@ -3058,6 +3072,12 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       additional edit. Restore Rialto/Hole-in-the-Wall to shared recommendations
       only with sufficient current access evidence, never from an elapsed date,
       tide score or road-open label alone. No physical-route clearance claimed.
+      **Nov 9:** road-status page changed to **Closed**, dated Nov 9; the
+      general conditions page still says Open, and the Jul 31 Rialto page
+      retains the expired Oct 15 construction notice. Five guide notices and
+      relevant FAQs corrected in this heartbeat. Do not treat the old
+      construction notice as the cause of the new closure or infer a reopening
+      date. Recheck all three sources; no shared recommendations restored.
       **Oct 18 check:** current-road-conditions.htm remains Open (Oct 15).
       conditions.htm is now updated Oct 17, lists Mora Road Open and has
       removed the construction notice. rialto-beach.htm remains updated
