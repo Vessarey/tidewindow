@@ -661,8 +661,13 @@ score/vocabulary change and no owner-held Haystack/minus-tide edits.
       separation of posted hours, daylight and modeled intervals; recheck
       county hours/conditions before repeating them. Keep the existing title
       and chart intent, rather than creating a competing page or experiment.
-- [ ] **Oregon minus-tide calendar — roll October pointers to the remaining
+- [x] 2026-11-09 (`248d965`): **Oregon minus-tide calendar — roll October pointers to the remaining
       November/December period.** Target `oregon-coast-minus-tide-calendar-2026`.
+      Done per brief: Nov 9 framing, Nov 22–25 run + Dec 23 lead verified
+      against same-day fact sheets, Sept/Oct now dated history, weekend
+      claims carry explicit top-eight-selection limits, feed sentence
+      verified against committed ICS files, Oregon Parks re-fetched
+      (quote unchanged), no arrival-rule prose. See journal.
       Page baseline: **14 clicks / 454 impressions / position 7.27**.
       Exact-page `minus tides oregon 2026`: 1 / 21 / 8.05;
       `negative tides oregon coast 2026`: 1 / 10 / 5.50 (29 disclosed query

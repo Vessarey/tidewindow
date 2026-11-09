@@ -5,6 +5,72 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-09 — Oregon calendar rolled to the remaining Nov/Dec season; weekly indexing pass run
+
+**One primary action (`248d965`):** executed the Nov 6 Oregon brief — the
+calendar's lead, FAQ 1–3 and weekend section still planned around the
+passed October 25 and a September 17 "as of" date. New framing from
+Nov 9: Sunday Nov 22 opens a minus-tide run at all four stations
+(−0.48 ft Garibaldi to −0.54 ft Newport, 74–154 daylight minutes),
+station bests fall Nov 23 (Garibaldi −1.25) and Nov 24 (Newport −1.86,
+Charleston −1.75, Port Orford −1.83), and Port Orford Dec 23 (−2.07 ft,
+72 Good, 113 daylight minutes before an after-sunset low) remains the
+strongest 2026 window — the Dec 23 daylight-at-low qualification kept
+per the brief. October/September sections converted to past tense and
+dated history; weekend FAQ/section rebuilt on Nov 22 with explicit
+top-eight-selection limits (deepest December weekend low in those
+selections: Newport −0.25 ft, Sun Dec 6). Every retained Nov/Dec table
+row, monthly count (206 Jul–Dec station-windows, all monthly cells
+unchanged), July/August lows-below-+1.0 comparison and the Jan 21 2027
+Port Orford claim re-verified against today's fact sheets; the new
+feeds sentence (Garibaldi: no remaining 2026 dates; Port Orford:
+Nov 22–25 + Dec 21–24) verified against the committed ICS files
+themselves. Oregon Parks guidance re-fetched at write time: quote
+unchanged. No retitle, no new page, no arrival-rule prose added.
+
+**Health:** today's refresh landed unaided — run `42574851644` pushed
+`63b07ed` dated 2026-11-09; the 10:24 UTC slot completed in 10s
+(skip-if-refreshed). Last six runs green; no open issues. Plain
+`npm run build` green: 162 pages, verify-output 12 stations × 6 months
+/ 149 sitemap URLs, facts/math/format/wording/gsc suites all pass
+(wording includes the owner-held working-tree tests). Owner-held files
+untouched — both hash-guarded articles byte-identical to
+`held-file-hashes.json`; autostash pull preserved all working-tree
+holds.
+
+**Weekly §2a′ indexing pass (first run of the week):** `inspect 40` of
+149 — 33 indexed, 6 Discovered–never crawled, 1 Crawled–not indexed
+(bar-harbor 2026-08). Exact-URL recrawl checks (the Nov 2 crawl-path
+pass's verdict input): Trip Picker and the La Push guide return "URL is
+unknown to Google" (the sampled inspect minutes earlier showed Trip
+Picker as Discovered — API inconsistency noted, never crawled either
+way); Golden Hour and the Port Orford guide remain Discovered — never
+crawled. One week after the Nov 2 static-copy pass there is NO first
+crawl on either tool. Links from top guides exist and copy is no longer
+thin, so another crawl-path pass would duplicate; observation extended
+to next week's inspect rather than escalated. Not a §2a′ failure day:
+33/40 indexed is above the one-third line, and the unindexed tool/guide
+URLs already received their targeted intervention.
+
+**Metrics (PostHog, Nov 2–8 UTC, host thetidewindow.com):** 850
+pageviews / 788 distinct IDs; 1 newsletter signup; 23 station
+selections / 19 IDs; 20 result views / 18 IDs; 2 Trip Picker runs. Top
+paths: king-tide trio 231 (OR) / 205 (national) / 83 (WA), home 29,
+Fitzgerald and Finder 26 each. Event counts, not sessions or people.
+The Oregon king-tides guide is now the single top path, which supports
+today's Oregon-cluster maintenance pick. GSC pages 28d: king-tide trio
+99/88/36 clicks; Oregon calendar page 13 clicks at position 7.4.
+
+**Tomorrow (Nov 10, Tue):** two ready briefs remain — sea-glass and
+Sunset Bay. Nov 11: the Nov 25 king-tide cluster enters the §2b 14-day
+horizon — refresh the king-tide roundups (now also the top-traffic
+pages). Nov 12 newsletter template sentence remains owner-approval-
+gated; use the read-only Resend delivery-check procedure for adverse
+events. Next weekly inspect: watch for a first crawl on Trip Picker /
+Golden Hour before judging the Nov 2 pass.
+
+---
+
 ## 2026-11-08 — Heartbeat: verify the morning release; no additional intervention
 
 **Decision:** the operator already completed Fitzgerald's seasonal refresh.
