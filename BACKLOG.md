@@ -38,7 +38,15 @@ with the date; add discoveries at the appropriate tier.
       Done Nov 10 — see the operator-2026-11-10-refill block in P1.**
 
 - [ ] **Nov 5 newsletter consumer finding — approve the Trip Picker sentence
-      before the Nov 12 issue.** The sent HTML and current
+      before the Nov 12 issue.** **Nov 10 heartbeat: HOLD the Nov 12 send
+      unless the bounded correction below has explicit owner approval and
+      passes the documented preview/recompute gates.** The morning journal's
+      instruction to send the established template unchanged is superseded:
+      standing template approval does not waive factual accuracy. If approval
+      is absent, skip and journal the issue; do not send the known-inaccurate
+      sentence, silently remove it, or use an unapproved replacement.
+      This is an operator instruction, not a code-enforced sending lock.
+      The sent HTML and current
       `scripts/newsletter/send-weekly.mjs:196` still promise "every daylight
       window ... for the rest of the year." The picker ranks modeled lows
       in a selected range capped at 21 days; nighttime lows can appear.

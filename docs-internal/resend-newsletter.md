@@ -24,6 +24,27 @@ gitignored files listed in AGENT_PLAYBOOK.md section 1; nothing here is secret.
 
 ## Weekly send runbook (once real signups exist)
 
+### Active Nov 12 accuracy hold — recorded Nov 10
+
+Do not send the Nov 12 issue with the known-inaccurate Trip Picker sentence
+in `scripts/newsletter/send-weekly.mjs`. The standing template approval in
+AGENT_PLAYBOOK §6 does not waive its accuracy gates or authorize a replacement.
+The Nov 10 morning journal instruction to send unchanged is superseded.
+
+The exact bounded proposal remains unapproved:
+
+> Planning a trip? The Trip Picker ranks modeled low-tide windows for your
+> chosen dates (up to 21 days); nighttime lows can appear.
+
+Preserve the existing Trip Picker link and all other established-template
+content. Release this hold only after explicit owner approval is recorded,
+the bounded change and its regression check are implemented, and an isolated
+preview is rendered and recomputed against current facts. If these gates are
+not complete on Nov 12, skip the issue and journal the reason. Do not silently
+remove the sentence, substitute new copy, resend an old issue, or send a
+correction broadcast. This documentation does not create a code-enforced
+lock or grant permission to send.
+
 1. `node scripts/newsletter/sync-audience.mjs` — pull new signups into the
    audience. Zero-event runs are safe and idempotent.
 2. `node scripts/newsletter/send-weekly.mjs --dry-run` — render the issue to

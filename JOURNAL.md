@@ -5,6 +5,116 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-10 — Heartbeat: reconcile the Nov 12 newsletter accuracy hold
+
+**One improvement, internal documentation only:** corrected today's morning
+handoff that said to send the established newsletter unchanged without
+approval. That conflicts with the known Nov 5 Trip Picker finding and the
+playbook's accuracy gates. BACKLOG P0 and the newsletter runbook now say:
+**hold the Nov 12 send unless the bounded sentence correction receives
+explicit owner approval and completes the preview/recompute gates.** If
+those gates remain incomplete, skip and journal the issue. The proposed
+sentence remains exactly as previously queued; neither the sending template
+nor consent, suppression or audience state changed. This is a documented
+operator hold, not an automated code lock or new send authorization.
+
+Re-read the sent Nov 5 HTML and `scripts/newsletter/send-weekly.mjs:196`:
+both retain the annual/daylight-only promise. Current picker code caps the
+range at 21 days and ranks modeled lows without excluding nighttime lows.
+A read-only recomputation using current station data and the source filter
+for Port Townsend, Nov 11–Dec 11 (capped at Dec 1), selects Nov 11
+at 10:57 PM, score 0, `night: true`. This is source/model verification.
+The live introduction and explainer agree with the bounded proposal. Today's
+attempt to fill its date fields through browser automation did not establish
+a completed result; no new live date-range reproduction is claimed. The
+Nov 5 reproduction stays historical evidence. Existing owner approval for
+this exact template change has not been recorded in the current handoff.
+
+**Coordination and freshness:** morning content `2f1ea05` and docs
+`1cf37c2` are already on main. Exact-SHA Production deployment `7683501856`
+for `1cf37c2` succeeded **13:33:36Z**. The live Washington overview shows
+its Nov 10 access notice. Re-fetched NPS [road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm),
+[conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm) and
+[Rialto](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm): the first
+still lists Mora Road closed with no reopening date, the second attributes
+the closure to storm damage, and Rialto retains its expired construction
+notice. No further access edit or inference. Five ready briefs remain;
+no duplicate queue refill or article. The overview's separate seasonal FAQ
+still calls Oct 10 "next" within its Oct 8-dated comparison; a later factual
+roll-forward should retire that passed framing, preserving historical rows.
+
+Latest seven Actions runs green; no open GitHub issues. Unaided refresh
+`42775174281` began **07:25:20Z**, generated data **07:26:05.330Z**, and
+successfully pushed `4da1165` at **07:28:05.558Z** (07:28:02 is its commit
+time). Build verified 12 stations × 6 months / **149 sitemap URLs**;
+IndexNow accepted 149 at **07:28:02.800Z**, HTTP 200. Later slots skipped
+already-fresh data. Originating cron expression unavailable: no slot-delay
+inference or recovery dispatch. At **18:22:18Z**, all **12 live station
+files matched committed bytes** and live sitemap contained 149 URLs.
+
+**Browser health:** Washington guide calendar gate reveals the email form;
+ZIP 98101 routes into the Finder, selects Seattle and loads Nov 10 data.
+No email submission. No console warning/error or horizontal overflow
+observed at **1425px**. Desktop-only check; no new mobile or end-to-end signup
+claim. Trip Picker interaction limitation is recorded above. Installed
+production dependency audit reports zero vulnerabilities; this does not
+resolve development-only advisory items.
+
+**PostHog:** configured read-only query path, project 495836, exact host
+`thetidewindow.com`, `Regular`, complete UTC days ending before Nov 10.
+**Nov 3–9:** **927 pageviews / 873 distinct IDs**, 1 signup / 1 ID
+(`tool_gate`), 11 calendar-gate clicks / 11 IDs, 1 reveal / 1 ID,
+22 station selections / 18 IDs, 19 results / 17 IDs, 2 Trip Picker runs /
+2 IDs. **Oct 13–Nov 9:** **3,458 pageviews / 3,248 IDs**, 12 signups /
+11 IDs, 38 gate clicks / 38 IDs, 10 reveals / 10 IDs, 60 selections /
+46 IDs, 51 results / 43 IDs, 6 picker runs / 4 IDs. Events/IDs are not
+people, subscribers or an ordered funnel. Rolling signups remain below the
+30-event floor; no conversion verdict or variant. Exit prompt 31/119 displays
+in 7d/28d does not restart/extend its closed-unmeasurable experiment or settle
+the unresolved Oct 1 owner-authority conflict.
+
+Seven-day pageviews classify as **927 Regular, 9 Automation, 2 AI Agent**
+(total 938, matching the morning's reported count). Regular does not
+establish human traffic. Leading paths: OR/national/WA king-tide guides **284/222/103**,
+Fitzgerald 27, Finder 25. Referring-domain pageviews: Google 214, DuckDuckGo
+174, direct 169, Bing 167, Yahoo 81 — not search clicks or sessions.
+Self-instrumented nearest-rank p75: **LCP 772 ms (275 samples), INP 40 ms
+(63), CLS 0 (113)** from 930 Web Vitals events; not CrUX. No exceptions
+observed in either window; capture flag false on 97 pageviews, absent on
+830, true on none, so this cannot establish zero errors.
+
+**Search:** configured read-only GSC API, Web/final, all countries/devices,
+byProperty totals without query/page dimensions. **Nov 1–7 inclusive
+Pacific:** **122 clicks / 5,793 impressions / 2.11% CTR / position 7.19**,
+versus 131 / 7,041 / 1.86% / 6.79 for Oct 25–31 (clicks **−6.9%**).
+**Oct 11–Nov 7:** **410 / 21,322 / 1.92% / 7.06**, versus
+305 / 15,423 / 1.98% / 7.02 for Sep 13–Oct 10 (clicks **+34.4%**).
+All 28 date rows returned. Long-window growth and the weekly dip do not
+establish change attribution. Yesterday's weekly indexing review is already
+documented (33/40 indexed; Trip Picker/Golden Hour still without a verified
+first crawl); no duplicate inspection or conversion pass. PostHog connector
+still requires reauthentication; GSC Wizard requires a subscription. Existing
+read-only fallbacks worked, without access changes or spending.
+
+**Delivery and next actions:** connected Resend reads succeeded for Nov 5
+broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f`, still sent at
+13:07:16Z: **30 sent, 30 delivered, 1 suppressed, no recorded bounced or
+complained recipients**. All five event lists fit in a 100-row page;
+addresses/contact IDs are not stored in repo evidence. No sends or audience
+writes. No score-90+ modeled window through Nov 24. Tomorrow, the Nov 25
+king-tide cluster enters the 14-day action horizon; execute the existing
+WA/national briefs. Nov 12 template approval/validation remains the immediate
+owner-dependent deadline; the documented fallback is to skip the issue.
+
+**Validation:** documentation-only changes; `git diff --check` and exact
+hold-instruction readback, with all **132 pre-existing held files** hash
+checked unchanged before commit. No application build/test claim for these
+doc edits. Application/deployment checks above describe the existing morning
+release, not a newly changed site. Only BACKLOG, JOURNAL and the newsletter
+runbook are staged.
+
+---
+
 ## 2026-11-10 — NPS notices converged: five guides corrected; §2a queue refilled
 
 **One primary action (per the Nov 9 directive):** rechecked all three NPS
@@ -79,8 +189,11 @@ observations. No send, audience write or suppression change.
 **Tomorrow (Nov 11):** the Nov 25 king-tide cluster enters the 14-day
 §2b horizon — execute the WA and/or national king-tide briefs from
 today's refill. Nov 12 (Thursday) newsletter: the Trip Picker sentence
-remains approval-gated; absent explicit owner approval, send the
-established template unchanged per §6.
+remains approval-gated. **Afternoon correction:** the original morning
+instruction to send the established template unchanged is superseded by
+the Nov 10 heartbeat accuracy hold above. Without explicit approval and
+completed validation of the bounded correction, skip and journal Nov 12;
+standing template approval does not waive factual accuracy.
 
 ---
 
