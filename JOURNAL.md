@@ -5,6 +5,69 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-10 — NPS notices converged: five guides corrected; §2a queue refilled
+
+**One primary action (per the Nov 9 directive):** rechecked all three NPS
+pages. The [general conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm),
+updated Nov 9, now says "Mora Road is currently closed due to storm
+damage" — converging with the [road report](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+(Closed, updated 11/9, no cause or reopening date in the listing) and
+supplying the cause the road report lacks. The [Rialto page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm)
+still carries its expired Jul 31/Oct 15 construction notice. The five
+guides' live claim that "the general conditions page still says it is
+open" was therefore stale; corrected same-run per §5 in La Push, the
+Washington overview, the photography calendar, storm-beachcombing and
+the August Puget roundup (lead notices and all three affected FAQs).
+New wording: both pages closed, cause attributed only to the conditions
+page, Rialto notice called expired, checked Nov 10. No route-clearance,
+reopening or beach-access inference added; `updated:` reflects these
+access edits only. All three pages fetched at write time (HTTP 200).
+
+**§2a refill (required by the Nov 9/Nov 10 queue note):** ran
+`flywheel 28` and `queries 28`/`pages 28` (Oct 12–Nov 8 inclusive
+Pacific, Web/final; 806 query rows, 110 page rows fetched). Added the
+`operator-2026-11-10-refill` block — three demand-backed briefs, queue
+back to five with sea-glass and Sunset Bay: (1) WA king-tides §2b
+refresh plus sourced Long Beach Peninsula / Cape Disappointment coverage
+(`king tides long beach wa 2026` 0cl/62impr/pos 8.2; the site has no
+Long Beach text anywhere); (2) Cabrillo roll-forward (passed Oct 25
+lead; `cabrillo tide pools tide chart` 0/21/9.2); (3) national dates
+guide "lowest tides of the year" section (`lowest tides of the year
+2026` 0/11/8.0; no matching section on the site). None duplicates an
+existing page; the big king-tide clusters stay on their pages.
+
+**Health:** today's refresh landed unaided — run `42820513785`'s
+predecessor `42775174281` started **07:25:20Z** and pushed `4da1165`
+(data: daily NOAA refresh 2026-11-10) at **07:28:02Z**; IndexNow
+submitted 149 URLs, HTTP 200, 07:28:02.8Z. Last seven runs green; later
+slots skipped as designed; no open GitHub issues. Originating cron
+expression unavailable; no slot delay inferred.
+
+**Metrics (PostHog 495836, host thetidewindow.com, complete UTC days
+Nov 3–9):** 938 pageviews / 884 distinct IDs (prior week 841/779);
+1 newsletter_signup, 22 station_selected / 18 IDs, 19
+window_result_viewed / 17 IDs, 11 calendar_gate_clicked / 11 IDs,
+1 ics_url_revealed, 2 trip_picker_run, 31 exit_intent_shown,
+26 zip_lookup_used / 15 IDs. Events and IDs, not people or an ordered
+funnel. Top paths: OR king-tides 284, national dates 224, WA king-tides
+103, Fitzgerald 28, home 27, Finder 25 — king-tide demand still
+building toward the Nov 25 cluster.
+
+**Validation:** plain `npm run build` green — verify-output 12 stations
+× 6 months, 149 sitemap URLs; facts/math/format/wording/gsc suites all
+pass (fail 0); `git diff --check` clean. Both owner-held hash-guarded
+articles byte-identical to `held-file-hashes.json`; owner-held
+working-tree files (haystack, minus-tide explainer, trip-planning
+guide, wording tests) left unstaged and untouched.
+
+**Tomorrow (Nov 11):** the Nov 25 king-tide cluster enters the 14-day
+§2b horizon — execute the WA and/or national king-tide briefs from
+today's refill. Nov 12 (Thursday) newsletter: the Trip Picker sentence
+remains approval-gated; absent explicit owner approval, send the
+established template unchanged per §6.
+
+---
+
 ## 2026-11-09 — Heartbeat: Mora Road newly listed Closed; five access notices corrected
 
 **One primary action:** NPS's [current road report](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)

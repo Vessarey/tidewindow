@@ -2,13 +2,13 @@
 title: "La Push Tide Pools 2026: Second Beach's Best Low-Tide Days"
 description: "La Push's remaining 2026 lows shift toward dusk. Compare September–December windows, find full tide charts, and check current NPS access notices."
 date: "2026-07-09"
-updated: "2026-11-09"
+updated: "2026-11-10"
 category: "station-guides"
 station: "la-push-wa"
 tags: ["la push tide pools", "second beach", "rialto beach", "hole in the wall", "olympic national park", "washington coast low tide"]
 faq:
   - q: "Is Rialto Beach and Hole-in-the-Wall open in 2026?"
-    a: "As checked November 9, NPS's road-status page lists Mora Road as Closed, updated November 9. Its general conditions page still says the road is open, while the older Rialto Beach page retains a construction notice ending October 15. The current road-status entry gives no reopening date. Tide predictions do not establish beach, trail or Hole-in-the-Wall passage conditions."
+    a: "As checked November 10, NPS's road-status page lists Mora Road as Closed, updated November 9, with no reopening date. Its general conditions page, also updated November 9, says the road is closed due to storm damage, while the older Rialto Beach page retains an expired construction notice ending October 15. Tide predictions do not establish beach, trail or Hole-in-the-Wall passage conditions."
   - q: "When is the best tidepooling at La Push for the rest of 2026?"
     a: "No remaining 2026 window reaches Tidewindow's Good band at NOAA station 9442396. Among windows with at least 30 minutes of daylight overlap, December 23 scores highest at 59 (Fair), with a −1.97 ft MLLW low at 6:03 PM, after sunset. October 25 is October's top-scoring window at 52, with a −0.71 ft low at 6:48 PM, also after sunset. These scores compare predictions; they do not establish beach or route access."
   - q: "How do I get to Second Beach near La Push, and how long is the hike?"
@@ -33,7 +33,7 @@ The autumn story is a trade-off between depth and light. The full high-and-low c
 
 ## First, the Mora Road and Rialto access update
 
-**Access checked November 9, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Closed**, updated November 9. That entry gives no cause or reopening date. The general [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm) still says the road is open, while the [Rialto Beach page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm), updated July 31, retains the construction notice ending October 15.
+**Access checked November 10, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Closed**, updated November 9, with no reopening date. The general [conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), also updated November 9, says the road is closed due to storm damage, while the [Rialto Beach page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm), updated July 31, retains the expired construction notice ending October 15.
 
 The reports still disagree; the dated November 9 road listing supersedes the Open status cited in this guide's October 16 check. The expired construction notice does not explain the new closure or establish a reopening. NPS's current road and route information remains separate from the tide tables below; a modeled low-tide window does not establish beach, trail or Hole-in-the-Wall passage conditions.
 

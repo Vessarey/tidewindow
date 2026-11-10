@@ -5,6 +5,23 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 10 operator — NPS notices converged; five guides updated;
+      §2a refill complete.** Rechecked all three NPS pages per the Nov 9
+      directive: the general conditions page (updated Nov 9) now also says
+      Mora Road is closed, "due to storm damage", agreeing with the road
+      report (Closed, Nov 9, no reopening date); the Rialto page still
+      retains its expired Jul 31/Oct 15 construction notice. The five
+      guides' "conditions page still says open" disagreement wording was
+      therefore stale on the live site and was corrected same-run
+      (checked-Nov-10 wording, cause attributed to the conditions page
+      only). §2a refill done: `operator-2026-11-10-refill` block in P1
+      adds three demand-backed briefs (WA king-tides §2b + Long Beach
+      coverage, Cabrillo roll-forward, national guide lowest-tides
+      section); queue back to five with sea-glass and Sunset Bay.
+      §2b horizon note: the Nov 25 king-tide cluster enters the 14-day
+      window Nov 11 — the WA/national briefs above are tomorrow's
+      scheduled seasonal work. See the 2026-11-10 journal.
+
 - [x] **Nov 9 heartbeat — correct Mora Road's new Closed status.**
       NPS's current-road-conditions page now lists Mora Road **Closed**,
       updated Nov 9, with no stated cause or reopening date. Replaced the
@@ -17,7 +34,8 @@ with the date; add discoveries at the appropriate tier.
       rendered FAQ/schema/link checks pass; see journal for evidence.
       This current-access correction took priority over the planned queue
       refill. **Nov 10: only sea-glass and Sunset Bay remain ready; complete
-      §2a's demand-backed refill before another editorial assignment.**
+      §2a's demand-backed refill before another editorial assignment.
+      Done Nov 10 — see the operator-2026-11-10-refill block in P1.**
 
 - [ ] **Nov 5 newsletter consumer finding — approve the Trip Picker sentence
       before the Nov 12 issue.** The sent HTML and current
@@ -602,6 +620,63 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- operator-2026-11-10-refill:start -->
+**Nov 10 refill — five ready assignments now.** Required §2a reads run today:
+`flywheel 28` and `queries 28` (Oct 12–Nov 8 inclusive Pacific dates,
+Web/final; 806 query rows and 110 page rows fetched). The leading king-tide
+clusters already have pages holding positions 6–8, so none of these creates
+a duplicate page. Disclosed query rows are not complete demand counts.
+Sea-glass and Sunset Bay remain open; these three briefs restore five.
+Preserve each existing title, URL, original publication date, useful
+historical tables and signup gates. At implementation: recompute from
+current fact sheets, inspect the complete stated range before any
+superlative, re-fetch official sources for access claims at write time,
+update `updated:` honestly, run the plain build plus factual/wording
+checks. No shared score/vocabulary change and no owner-held
+Haystack/minus-tide edits.
+
+- [ ] **WA king-tides guide — §2b pre-peak refresh plus sourced Long Beach
+      Peninsula / Cape Disappointment coverage.** Target
+      `king-tides-washington-2027`. The November king-tide cluster peaks
+      ~Nov 25 and enters the 14-day horizon Nov 11, making this the
+      scheduled §2b action. Page baseline Oct 12–Nov 8: **82 clicks /
+      4,900 impressions / position 6.3**. Disclosed queries with no
+      Long Beach text anywhere on the site: `king tides long beach wa 2026`
+      0 / 62 / 8.2; `king tides cape disappointment 2026` 3 / 53 / 6.6;
+      `king tides washington 2026` 7 / 1,496 / 7.5. The guide currently
+      has no Long Beach Peninsula or Cape Disappointment mention. Add a
+      bounded, sourced section (Washington State Parks / official pages
+      fetched at write time) and roll the November framing to the Nov 25
+      cluster from current fact sheets. Covered stations remain La Push,
+      Port Townsend, Seattle; do not imply a Long Beach station exists —
+      state plainly which NOAA stations the numbers come from. No retitle.
+- [ ] **Cabrillo guide — retire the passed Oct 25 lead and recompute the
+      in-hours schedule.** Target `cabrillo-tide-pools-2026`. Page intent
+      still ranks without clicking: `cabrillo tide pools tide chart`
+      0 / 21 / 9.2; `low tide cabrillo national monument` 0 / 9 / 9.9
+      (Nov 9 journal also flagged the stale Oct 25 lead). The answer box
+      says "As of October 14 ... The first is October 25", now passed.
+      Recompute remaining in-hours minus lows from the current fact
+      sheets over the complete remaining range, keep October rows as
+      dated history, re-fetch the NPS hours page at write time (holiday
+      closures included), and keep the existing separation of time-of-low
+      matches from confirmed access or usable shore time. No retitle.
+- [ ] **National king-tides dates guide — serve the "lowest tides of the
+      year" intent during the §2b November refresh.** Target
+      `king-tides-2026-2027-dates`. Page baseline: **99 clicks / 6,156
+      impressions / position 6.9**. Disclosed queries with no matching
+      section on the site: `when are the lowest tides of the year`
+      0 / 12 / 10.1; `lowest tides of the year 2026` 0 / 11 / 8.0;
+      `king tides november 2026` 0 / 47 / 8.5. King-tide events pair the
+      year's highest highs with its lowest lows; add one bounded section
+      giving the deepest predicted lows per covered station for the
+      remaining season, explicitly scoped to the stations tracked and the
+      stated date range, computed only from fact sheets. Roll the
+      November cluster framing forward for the Nov 25 peak at the same
+      time. No new page, no retitle, no annual-total claims beyond the
+      covered period.
+<!-- operator-2026-11-10-refill:end -->
 
 <!-- heartbeat-2026-11-06-refill:start -->
 **Nov 6 afternoon refill — five ready assignments now.** The morning winter
