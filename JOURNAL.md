@@ -60,6 +60,22 @@ articles byte-identical to `held-file-hashes.json`; owner-held
 working-tree files (haystack, minus-tide explainer, trip-planning
 guide, wording tests) left unstaged and untouched.
 
+**Release verification (added same run):** commit `2f1ea05` has
+exact-SHA Production deployment `7682999395`, successful **13:11:42Z**.
+All five live pages were then fetched directly: each now contains the
+storm-damage convergence wording and zero occurrences of the stale
+"still says" phrasing. Desktop HTML fetch only; no browser or schema
+re-render claim beyond the wording check.
+
+**Resend standing recheck:** broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f` reads status `sent`, sent_at
+2026-11-05 13:07:16Z via the documented GET /broadcasts/{id} endpoint.
+The per-recipient-type lists used Nov 7/9 require the connected
+recipient tool, unavailable in this session — those reads are marked
+unavailable today, not zero; last-known Nov 9 counts (30 delivered,
+1 suppressed, no recorded bounced/complained) are retained as dated
+observations. No send, audience write or suppression change.
+
 **Tomorrow (Nov 11):** the Nov 25 king-tide cluster enters the 14-day
 §2b horizon — execute the WA and/or national king-tide briefs from
 today's refill. Nov 12 (Thursday) newsletter: the Trip Picker sentence
