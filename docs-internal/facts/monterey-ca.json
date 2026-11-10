@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-09",
+ "generated_on": "2026-11-10",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-09",
-   "weekday": "Mon",
-   "low_ft": -0.426,
-   "low_time_local": "4:47 PM",
-   "window_local": "2:30 PM–7:15 PM",
-   "arrive_by_local": "3:47 PM",
-   "daylight_min": 153,
-   "score": 50,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 247,
-   "min_to_sun_edge": 16
-  },
-  {
    "date": "2026-11-10",
    "weekday": "Tue",
    "low_ft": -0.41,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 248,
    "min_to_sun_edge": -25
+  },
+  {
+   "date": "2026-11-26",
+   "weekday": "Thu",
+   "low_ft": -1.517,
+   "low_time_local": "6:09 PM",
+   "window_local": "3:20 PM–9:15 PM",
+   "arrive_by_local": "5:09 PM",
+   "daylight_min": 93,
+   "score": 72,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 255,
+   "min_to_sun_edge": -76
   }
  ],
  "species_last60d_5km": [
@@ -2091,14 +2091,14 @@
    "count": 28
   },
   {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 26
-  },
-  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
    "count": 26
+  },
+  {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 25
   },
   {
    "commonName": "Noble Dorid",
@@ -2108,12 +2108,12 @@
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 22
+   "count": 24
   },
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 21
+   "count": 22
   },
   {
    "commonName": "Spanish Shawl",
@@ -2121,9 +2121,9 @@
    "count": 19
   },
   {
-   "commonName": "Hooded Nudibranch",
-   "scientificName": "Melibe leonina",
-   "count": 18
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 19
   }
  ]
 }

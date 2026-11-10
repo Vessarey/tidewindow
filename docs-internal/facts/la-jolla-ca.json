@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-09",
+ "generated_on": "2026-11-10",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2070,7 +2070,7 @@
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 20
+   "count": 25
   },
   {
    "commonName": "Yellow Umbrella Slug",
@@ -2090,7 +2090,7 @@
   {
    "commonName": "Hunchback Doris",
    "scientificName": "Atagema alba",
-   "count": 16
+   "count": 15
   },
   {
    "commonName": "Salt-and-pepper Doris",
@@ -2100,7 +2100,7 @@
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 14
+   "count": 13
   },
   {
    "commonName": "Lesser Two-spot Octopus",
@@ -2113,8 +2113,8 @@
    "count": 9
   },
   {
-   "commonName": "Speckled Tegula",
-   "scientificName": "Tegula gallina",
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
    "count": 8
   }
  ]

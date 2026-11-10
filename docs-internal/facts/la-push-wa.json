@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-09",
+ "generated_on": "2026-11-10",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2101,16 +2101,6 @@
    "count": 2
   },
   {
-   "commonName": "Horned Nudibranch",
-   "scientificName": "Hermissenda crassicornis",
-   "count": 2
-  },
-  {
-   "commonName": "Nanaimo Dorid",
-   "scientificName": "Acanthodoris nanaimoensis",
-   "count": 1
-  },
-  {
    "commonName": "Gould's baby chiton",
    "scientificName": "Cyanoplax dentiens",
    "count": 1
@@ -2118,6 +2108,16 @@
   {
    "commonName": "Frilled Dogwinkle",
    "scientificName": "Nucella lamellosa",
+   "count": 1
+  },
+  {
+   "commonName": "Mask Limpet",
+   "scientificName": "Lottia persona",
+   "count": 1
+  },
+  {
+   "commonName": "Northwest Ugly Clam",
+   "scientificName": "Entodesma navicula",
    "count": 1
   }
  ]
