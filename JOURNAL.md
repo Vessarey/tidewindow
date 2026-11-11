@@ -87,8 +87,7 @@ No exception event was returned; exception-capture flags on pageviews were
 904 null and 111 false. Missing/disabled instrumentation does not prove
 zero errors. No instrumentation change made.
 
-**Search Console:** fallback configured read-only API (`gsc_wizard` account
-path unavailable), `sc-domain:thetidewindow.com`, Web/final, by-property
+**Search Console:** configured read-only API, `sc-domain:thetidewindow.com`, Web/final, by-property
 aggregation. **Oct 12–Nov 8: 415 clicks / 21,929 impressions / position 7.10**
 versus Sep 14–Oct 11 **305 / 15,664 / 7.00**: clicks **+36.1%**.
 **Nov 2–8: 123 clicks / 6,356 impressions / position 7.26** versus
@@ -96,7 +95,12 @@ Oct 26–Nov 1 **137 / 6,717 / 6.79**: clicks **−10.2%**. Date-dimension rows
 read for the full 28 days; weekly softness is recorded, not attributed to
 recent copy. Page/query rows remain separate from property totals. The WA
 brief baseline remains 82 clicks / 4,900 impressions / position 6.3 for
-Oct 12–Nov 8. Recheck this guide after a complete 14 post-release days have
+Oct 12–Nov 8. Today's separately windowed `pages 28` read (Oct 13–Nov 9,
+109 page rows fetched, recent-date finalization caveat) reports this guide at
+84 clicks / 5,117 impressions / position 6.3. `flywheel 28` fetched 797 query
+rows; Long Beach WA 2026 is 0 clicks / 71 impressions / position 8.3.
+These shifted-window values are not a post-change result.
+Recheck this guide after a complete 14 post-release days have
 final data (approximately Nov 28), using page/date data; no causal verdict
 from the rolling baseline. First-of-week indexing read already occurred;
 next weekly review must re-inspect Trip Picker and Golden Hour.
@@ -110,6 +114,16 @@ No sending-path, consent, audience, suppression or campaign change made.
 Read-only Resend checks of Nov 5 broadcast
 `07bf317d-b839-4aac-9d62-246d4c24b51f`: 30 sent, 30 delivered, 1 suppressed;
 no recorded bounced or complained recipients. No broadcast sent.
+
+**Release verified:** content/audit commit `09d21f7` pushed to main. Exact-SHA
+Production deployment **7718322260 succeeded at 18:30:49Z**. After deployment,
+live guide and WA hub returned 200 and passed the same rendered tables,
+FAQ/schema, updated-date and feature checks. Production browser confirmed
+the Nov 11 lead, no horizontal overflow at 1425px, calendar-form reveal, and
+ZIP 98101 → Seattle Finder with Nov 11 data; no warn/error during this live
+check and no email submitted. All 132 held files remain byte-identical.
+The first pre-completion live fetch still showed the prior release; only
+the post-success checks are counted as release validation.
 
 **Next:** Nov 12 first resolve/record the newsletter hold; absent the required
 gates, skip the issue. Then consider the queued national November king-tides
