@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-10",
+ "generated_on": "2026-11-11",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-10",
-   "weekday": "Tue",
-   "low_ft": -0.41,
-   "low_time_local": "5:26 PM",
-   "window_local": "3:05 PM–8:00 PM",
-   "arrive_by_local": "4:26 PM",
-   "daylight_min": 117,
-   "score": 44,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 252,
-   "min_to_sun_edge": -24
-  },
-  {
    "date": "2026-11-11",
    "weekday": "Wed",
    "low_ft": -0.31,
@@ -2072,18 +2058,37 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 255,
    "min_to_sun_edge": -76
+  },
+  {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.43,
+   "low_time_local": "3:22 PM",
+   "window_local": "1:00 PM–5:55 PM",
+   "arrive_by_local": "2:22 PM",
+   "daylight_min": 232,
+   "score": 64,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 227,
+   "min_to_sun_edge": 90
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 64
+   "count": 63
+  },
+  {
+   "commonName": "Hopkins' Rose Nudibranch",
+   "scientificName": "Ceratodoris rosacea",
+   "count": 32
   },
   {
    "commonName": null,
    "scientificName": "Doto urak",
-   "count": 34
+   "count": 32
   },
   {
    "commonName": "Mossy Chiton",
@@ -2093,12 +2098,7 @@
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 26
-  },
-  {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 25
+   "count": 27
   },
   {
    "commonName": "Noble Dorid",
@@ -2106,9 +2106,14 @@
    "count": 24
   },
   {
+   "commonName": "California Mussel",
+   "scientificName": "Mytilus californianus",
+   "count": 24
+  },
+  {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 24
+   "count": 23
   },
   {
    "commonName": "cockscomb nudibranch",
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 19
-  },
-  {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
    "count": 19
   }
  ]

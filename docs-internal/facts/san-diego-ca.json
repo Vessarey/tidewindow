@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-10",
+ "generated_on": "2026-11-11",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -1982,20 +1982,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-10",
-   "weekday": "Tue",
-   "low_ft": -0.308,
-   "low_time_local": "3:54 PM",
-   "window_local": "1:50 PM–6:10 PM",
-   "arrive_by_local": "2:54 PM",
-   "daylight_min": 181,
-   "score": 53,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 242,
-   "min_to_sun_edge": 57
-  },
-  {
    "date": "2026-11-11",
    "weekday": "Wed",
    "low_ft": -0.103,
@@ -2064,6 +2050,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 253,
    "min_to_sun_edge": -61
+  },
+  {
+   "date": "2026-12-09",
+   "weekday": "Wed",
+   "low_ft": -0.583,
+   "low_time_local": "3:45 PM",
+   "window_local": "1:25 PM–6:20 PM",
+   "arrive_by_local": "2:45 PM",
+   "daylight_min": 198,
+   "score": 58,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 235,
+   "min_to_sun_edge": 58
   }
  ],
  "species_last60d_5km": [
@@ -2088,6 +2088,11 @@
    "count": 2
   },
   {
+   "commonName": "Pacific Calico Scallop",
+   "scientificName": "Argopecten ventricosus",
+   "count": 2
+  },
+  {
    "commonName": "Kelp Scallop",
    "scientificName": "Leptopecten latiauratus",
    "count": 2
@@ -2103,18 +2108,13 @@
    "count": 2
   },
   {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 1
+  },
+  {
    "commonName": "Owl Limpet",
    "scientificName": "Lottia gigantea",
-   "count": 1
-  },
-  {
-   "commonName": "California Mussel",
-   "scientificName": "Mytilus californianus",
-   "count": 1
-  },
-  {
-   "commonName": "Purple-Ring Topsnail",
-   "scientificName": "Calliostoma annulatum",
    "count": 1
   }
  ]

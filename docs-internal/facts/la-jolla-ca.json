@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-10",
+ "generated_on": "2026-11-11",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -1982,20 +1982,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-10",
-   "weekday": "Tue",
-   "low_ft": -0.414,
-   "low_time_local": "3:54 PM",
-   "window_local": "1:35 PM–6:25 PM",
-   "arrive_by_local": "2:54 PM",
-   "daylight_min": 196,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 242,
-   "min_to_sun_edge": 57
-  },
-  {
    "date": "2026-11-11",
    "weekday": "Wed",
    "low_ft": -0.238,
@@ -2064,23 +2050,37 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 246,
    "min_to_sun_edge": -3
+  },
+  {
+   "date": "2026-11-27",
+   "weekday": "Fri",
+   "low_ft": -1.121,
+   "low_time_local": "5:41 PM",
+   "window_local": "3:00 PM–8:45 PM",
+   "arrive_by_local": "4:41 PM",
+   "daylight_min": 103,
+   "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 252,
+   "min_to_sun_edge": -58
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 25
+   "count": 30
+  },
+  {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 19
   },
   {
    "commonName": "Yellow Umbrella Slug",
    "scientificName": "Tylodina fungina",
    "count": 19
-  },
-  {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 18
   },
   {
    "commonName": "Owl Limpet",
@@ -2115,7 +2115,7 @@
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 8
+   "count": 9
   }
  ]
 }

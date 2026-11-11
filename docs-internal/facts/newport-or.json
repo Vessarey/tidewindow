@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-10",
+ "generated_on": "2026-11-11",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2074,52 +2074,52 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 69
+   "count": 70
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 55
+   "count": 57
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 33
+   "count": 34
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
    "scientificName": "Antiopella fusca",
-   "count": 25
+   "count": 27
   },
   {
    "commonName": null,
    "scientificName": "Coryphella longicaudata",
-   "count": 22
+   "count": 27
   },
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 21
+   "count": 22
   },
   {
    "commonName": "Pacific Corambe",
    "scientificName": "Corambe pacifica",
-   "count": 15
+   "count": 17
   },
   {
    "commonName": "White-crusted Aeolid",
    "scientificName": "Tenellia albocrusta",
-   "count": 15
+   "count": 16
   },
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 14
+   "count": 15
   },
   {
    "commonName": "White-lined Dirona",
    "scientificName": "Dirona albolineata",
-   "count": 13
+   "count": 14
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-10",
+ "generated_on": "2026-11-11",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-10",
-   "weekday": "Tue",
-   "low_ft": -0.612,
-   "low_time_local": "5:30 PM",
-   "window_local": "3:05 PM–8:15 PM",
-   "arrive_by_local": "4:30 PM",
-   "daylight_min": 118,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 253,
-   "min_to_sun_edge": -27
-  },
-  {
    "date": "2026-11-11",
    "weekday": "Wed",
    "low_ft": -0.463,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 255,
    "min_to_sun_edge": -79
+  },
+  {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.589,
+   "low_time_local": "3:24 PM",
+   "window_local": "1:00 PM–6:05 PM",
+   "arrive_by_local": "2:24 PM",
+   "daylight_min": 232,
+   "score": 67,
+   "band": "Good",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 227,
+   "min_to_sun_edge": 88
   }
  ],
  "species_last60d_5km": [
@@ -2083,41 +2083,41 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 62
+   "count": 64
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 60
+   "count": 62
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 50
+   "count": 51
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 34
-  },
-  {
-   "commonName": "San Diego Dorid",
-   "scientificName": "Diaulula sandiegensis",
-   "count": 24
+   "count": 36
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 19
+   "count": 26
   },
   {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 10
+   "commonName": "San Diego Dorid",
+   "scientificName": "Diaulula sandiegensis",
+   "count": 22
   },
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
+   "count": 13
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
    "count": 10
   },
   {
