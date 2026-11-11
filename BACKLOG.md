@@ -644,7 +644,7 @@ update `updated:` honestly, run the plain build plus factual/wording
 checks. No shared score/vocabulary change and no owner-held
 Haystack/minus-tide edits.
 
-- [ ] **WA king-tides guide — §2b pre-peak refresh plus sourced Long Beach
+- [x] **WA king-tides guide — §2b pre-peak refresh plus sourced Long Beach
       Peninsula / Cape Disappointment coverage.** Target
       `king-tides-washington-2027`. The November king-tide cluster peaks
       ~Nov 25 and enters the 14-day horizon Nov 11, making this the
@@ -659,6 +659,14 @@ Haystack/minus-tide edits.
       cluster from current fact sheets. Covered stations remain La Push,
       Port Townsend, Seattle; do not imply a Long Beach station exists —
       state plainly which NOAA stations the numbers come from. No retitle.
+      **Completed Nov 11 heartbeat:** November 25 La Push and November 27
+      Seattle/Port Townsend peaks recomputed from all 169 November highs;
+      lead, FAQ and WA hub feature updated. Added bounded Long Beach/Cape
+      Disappointment coverage with Washington Sea Grant's newly published
+      calendar and the park's January 1 North Jetty closure notice. Existing
+      three seasonal tables retained/rechecked; title, station coverage and
+      signup gates unchanged. Isolated build, 91 tests and rendered checks
+      pass. Four ready assignments remain; see journal for the audit.
 - [ ] **Cabrillo guide — retire the passed Oct 25 lead and recompute the
       in-hours schedule.** Target `cabrillo-tide-pools-2026`. Page intent
       still ranks without clicking: `cabrillo tide pools tide chart`

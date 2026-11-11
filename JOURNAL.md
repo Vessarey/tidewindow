@@ -5,6 +5,122 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-11 — Heartbeat: November Washington king tides and Long Beach sources
+
+**One primary improvement:** completed the queued §2b Washington guide refresh
+as November 25 entered the 14-day horizon. Today's only existing commit was
+`88d86b9` (NOAA refresh); no Nov 11 editorial commit or journal entry was
+present on main. The Nov 10 queue refill and NPS corrections were not repeated.
+Updated `king-tides-washington-2027` and its existing WA state-hub feature to
+show the **November 25–27** monthly peaks, rather than foreground December.
+From all **169 November high predictions** across three current fact sheets:
+La Push peaks **Nov 25, 10.79 ft at 11:55 AM**; Seattle **Nov 27, 12.70 ft at
+7:39 AM**; Port Townsend **Nov 27, 9.75 ft at 7:33 AM** (MLLW, PST). These are
+station predictions, not a statewide time, observed levels or access advice.
+The three existing October–March tables were retained byte-for-byte and
+rechecked against complete station data. Clarified daylight overlap versus
+daylight at the low and corrected this guide's old Finder/Trip Picker promise
+of daylight-only results and a consecutive-day itinerary. Tool behavior,
+titles, descriptions, signup gates, station definitions and shared vocabulary
+remain unchanged. No new article or station; no conversion experiment.
+
+**Official sources rechecked at write time:** [Washington Sea Grant's
+2026–27 calendar](https://waseagrant.uw.edu/our-programs/coastal-hazards-climate-resilience/king-tides/king-tides-calendar/)
+is now published, replacing the guide's stale unavailable-dates statement.
+Added a bounded Long Beach Peninsula/Cape Disappointment section pointing to
+its Ilwaco and Toke Point entries; explicitly says our three WA station tables
+are not local Long Beach/Cape Disappointment charts. The [park notice](https://parks.wa.gov/find-parks/state-parks/cape-disappointment-state-park)
+was checked in the browser as well as fetched: North Jetty closure is scheduled
+to start January 1, 2027, anticipated through November 30, 2029. These are the
+park's announced dates, not a claim of current closure or route clearance.
+All article external links returned 200 (redirects followed). NPS road status
+and conditions still list Mora Road closed, with storm damage attributed by
+the conditions page; Rialto retains its expired construction notice. No new
+NPS edit. No Exceptional windows in the Nov 11–25 scan of all 12 stations.
+
+**Freshness and operations:** unaided scheduled Actions run `42973381407`
+started **06:34:28Z**, generated data **06:35:18.172Z**, and successfully
+pushed `88d86b9` at **06:37:32.473Z** (commit time 06:37:30Z); completed green
+06:37:36Z. It verified **12 stations × 6 months / 149 sitemap URLs** and
+IndexNow accepted 149 URLs at **06:37:29.891Z**, HTTP 200. Later scheduled
+runs skipped already-fresh data. Originating cron expression unavailable,
+so no slot-delay calculation or recovery dispatch. Exact-SHA Production
+for the refresh was successful. No open GitHub issues; recent Actions green.
+At **18:24:02Z**, all **12 live station files matched main byte-for-byte**;
+live sitemap had 149 URLs. Installed production dependency audit: zero
+reported vulnerabilities; development-only advisories are outside that result.
+
+**Validation before release:** isolated export from `88d86b9`, with only the
+revised article overlaid and locked Next 16.4.4 dependencies. Plain content
+build, lint/types, **91 tests**, and output verification passed; no introduced
+warnings. Bespoke recomputation checked complete November highs, retained
+seasonal rankings and daylight counts, five rendered FAQs/JSON-LD,
+Article dateModified, sitemap lastmod, WA hub feature, and internal links.
+All 12 data files and station definitions match the base. Desktop browser
+check at **1425px**: updated guide renders without horizontal overflow,
+calendar gate reveals the email form, ZIP 98101 selects Seattle in the Finder
+and loads Nov 11 data. No email submitted. Console's two warnings belonged
+to the previously opened external park page; no guide-origin warning/error
+observed. This was local preview QA; production release verification follows
+below. No new mobile or end-to-end signup claim. All **132 pre-existing
+working files** match their starting hashes and are excluded from release.
+
+**PostHog:** configured read-only path, project 495836, exact production host
+`thetidewindow.com`, `Regular`, complete UTC days ending before Nov 11.
+**Nov 4–10:** **1,015 pageviews / 950 distinct IDs**, 2 signup events / 2 IDs
+(both `tool_gate`), 13 calendar clicks / 13 IDs, 2 reveals / 2 IDs,
+24 station selections / 19 IDs, 20 results / 18 IDs, 2 Trip Picker runs /
+2 IDs. **Oct 14–Nov 10:** **3,562 pageviews / 3,341 IDs**, 12 signups /
+11 IDs, 39 calendar clicks / 39 IDs, 10 reveals / 10 IDs, 63 selections /
+48 IDs, 53 results / 45 IDs, 6 picker runs / 4 IDs. IDs and events are not
+verified people, subscribers or an ordered funnel. Below the 30-event signup
+floor; no conversion verdict. Exit-prompt displays 28/122 (7d/28d) do not
+restart the closed-unmeasurable experiment or resolve the owner-authority
+conflict. Seven-day pageviews: 1,015 Regular, 13 Automation, 2 AI Agent.
+Regular is not proof of human traffic. Leading 7d paths: OR king tides 315,
+national king tides 246, WA king tides 123, Fitzgerald 29, Finder 26.
+
+Browser vitals, same host/class/window: p75 LCP **788 ms (n=301)**,
+INP **40 ms (n=64)**, CLS **0 (n=111)**, nearest-rank over available numeric
+values from 1,018 vitals events; not CrUX, sessions or verified people.
+No exception event was returned; exception-capture flags on pageviews were
+904 null and 111 false. Missing/disabled instrumentation does not prove
+zero errors. No instrumentation change made.
+
+**Search Console:** fallback configured read-only API (`gsc_wizard` account
+path unavailable), `sc-domain:thetidewindow.com`, Web/final, by-property
+aggregation. **Oct 12–Nov 8: 415 clicks / 21,929 impressions / position 7.10**
+versus Sep 14–Oct 11 **305 / 15,664 / 7.00**: clicks **+36.1%**.
+**Nov 2–8: 123 clicks / 6,356 impressions / position 7.26** versus
+Oct 26–Nov 1 **137 / 6,717 / 6.79**: clicks **−10.2%**. Date-dimension rows
+read for the full 28 days; weekly softness is recorded, not attributed to
+recent copy. Page/query rows remain separate from property totals. The WA
+brief baseline remains 82 clicks / 4,900 impressions / position 6.3 for
+Oct 12–Nov 8. Recheck this guide after a complete 14 post-release days have
+final data (approximately Nov 28), using page/date data; no causal verdict
+from the rolling baseline. First-of-week indexing read already occurred;
+next weekly review must re-inspect Trip Picker and Golden Hour.
+
+**Newsletter deadline:** no approval for the bounded Trip Picker template
+correction is recorded. The sending template still has the known annual /
+daylight-only promise. **Nov 12 send stays on HOLD unless explicit owner
+approval and preview/recompute validation are complete; otherwise skip and
+journal it.** This is the existing documented operator hold, not a code lock.
+No sending-path, consent, audience, suppression or campaign change made.
+Read-only Resend checks of Nov 5 broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f`: 30 sent, 30 delivered, 1 suppressed;
+no recorded bounced or complained recipients. No broadcast sent.
+
+**Next:** Nov 12 first resolve/record the newsletter hold; absent the required
+gates, skip the issue. Then consider the queued national November king-tides
+refresh as the next single editorial task. Four ready briefs remain, so no
+queue refill needed. Keep the December rollover indexing gate and weekly
+tool recrawl review; recheck park/NPS notices before any access claim. WA
+feature expires Nov 30: roll it forward to the verified December dates at
+that seasonal pass. Keep owner-held source edits and drafts untouched.
+
+---
+
 ## 2026-11-10 — Heartbeat: reconcile the Nov 12 newsletter accuracy hold
 
 **One improvement, internal documentation only:** corrected today's morning
