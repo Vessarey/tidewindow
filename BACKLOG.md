@@ -37,25 +37,24 @@ with the date; add discoveries at the appropriate tier.
       §2a's demand-backed refill before another editorial assignment.
       Done Nov 10 — see the operator-2026-11-10-refill block in P1.**
 
-- [ ] **Nov 12 wording correction — implemented locally; publication pending.**
-      Owner approval of the exact bounded sentence is now recorded. Source
-      `62b365e` corrects it and adds regressions; representative preview and
-      numeric recomputation, all five unit suites, lint/types and the held
-      wording checks pass. All 132 held files are unchanged. Automatic review
-      denied the protected GitHub main push; do not retry or include this
-      unpublished correction in another push without publication approval.
-      **Nov 12 heartbeat follow-up:** the ordinary aggregate build now passes
-      in an isolated copy of local `f45b0b2` on locked Next 16.4.4: TypeScript,
-      93 tests and 12-station / 6-month / 149-URL output verification pass.
-      No code, sending path or production change; all 132 held files match.
-      Newsletter visual review remains unverified; the earlier file-URL
-      denial was not retried or routed around. See the newsletter runbook
-      and latest Nov 12 journal. Nov 12 remains skipped, never backfill it.
-      Wording approval and the aggregate-build check are resolved; publication,
-      visual review and Nov 19 fresh-data/recompute/sending gates remain.
+- [x] **Nov 12 wording correction — published after explicit owner approval.**
+      Source `62b365e` corrects the exact approved sentence and adds regressions.
+      The normal main push published `0ef1e56`; Vercel status succeeded at
+      21:18:08 UTC and Production deployment `7749922796` at 21:18:09 UTC.
+      Only the approved correction/tests and related handoff records shipped.
+      All 132 held files remain byte-identical. The isolated aggregate build
+      passed on locked Next 16.4.4: types, 93 tests, 12 stations × 6 months
+      and 149-URL output verification. Earlier preview/recompute and lint
+      checks passed. Prior publication denials are superseded by direct
+      owner approval and verified publication, not bypassed.
+      **Remaining before Nov 19:** newsletter visual review is unverified
+      after the file-URL denial (not retried), and the actual issue still
+      needs fresh-data rendering/recomputation plus all normal consent,
+      suppression and adverse-event gates. Nov 12 stays skipped; no backfill,
+      new send, test email, schedule or audience change was authorized here.
 
       **Historical Nov 5 newsletter finding — approval resolved locally Nov 12;
-      publication pending as recorded above.** **Nov 12 operator: no owner approval was
+      publication completed as recorded above.** **Nov 12 operator: no owner approval was
       recorded by the Nov 12 run, so the Thursday send was SKIPPED per this
       hold and journaled. No broadcast, template, audience or suppression
       change was made. The item stays open: the next regular send (Nov 19)
@@ -68,8 +67,8 @@ with the date; add discoveries at the appropriate tier.
       is absent, skip and journal the issue; do not send the known-inaccurate
       sentence, silently remove it, or use an unapproved replacement.
       This is an operator instruction, not a code-enforced sending lock.
-      The sent HTML and current
-      `scripts/newsletter/send-weekly.mjs:196` still promise "every daylight
+      The historical sent HTML and pre-correction
+      `scripts/newsletter/send-weekly.mjs:196` promised "every daylight
       window ... for the rest of the year." The picker ranks modeled lows
       in a selected range capped at 21 days; nighttime lows can appear.
       Live Nov 5 reproduction: Port Townsend, input Nov 6–Dec 6, returns
@@ -81,8 +80,8 @@ with the date; add discoveries at the appropriate tier.
       Preserve the existing link, computed tables, subject, signup flow,
       unsubscribe handling and other established-template content. Do not
       reopen the separate shared-vocabulary decision or expand this into a
-      redesign. Owner wording approval is now resolved; source publication
-      remains pending explicit GitHub approval as recorded above; §6 blanket approval covers the
+      redesign. Owner wording approval and source publication are now
+      resolved as recorded above; §6 blanket approval covers the
       established template only. Then make the bounded correction, add a
       regression for the annual/daylight-only promise, render/recompute in
       isolation without overwriting committed issues or held drafts, and

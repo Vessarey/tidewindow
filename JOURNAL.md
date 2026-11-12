@@ -5,6 +5,56 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-12 — Owner-approved newsletter correction published and deployed
+
+Direct owner approval specifically covered publishing Tide Window main and
+its normal automatic Vercel deployment. This supplied new authority for one
+normal push after the earlier known-not-executed denials; no alternate route
+was used. Rechecked the established Tide task (idle/completed), project records,
+all unpublished commits and both branch tips. Remote main was `d1c496f`;
+local main `0ef1e56` contained only source `62b365e`, tests and related
+BACKLOG/JOURNAL/newsletter-runbook handoffs (`f45b0b2`, `0ef1e56`). All 132
+held files matched the saved SHA-256 baseline before publication. No source
+or generated-data changes were added during this publication task.
+
+**Publication verified:** normal `git push origin main` succeeded. Exact
+`0ef1e561b208e4b20ad16171f819b069d1e82931` Vercel commit status became
+success at **21:18:08 UTC**. GitHub's exact-SHA Production deployment
+**7749922796** succeeded at **21:18:09 UTC**. The GitHub branch API reports
+no required status checks configured (branch not protected); no check runs
+are present. Repository Actions workflows are scheduled/manual, not triggered
+by this push. Vercel is the observed normal build/deployment check. Do not
+conflate absence of Actions check runs with independently rerun tests.
+The earlier isolated build/export/output evidence is still 93 passing tests,
+12 stations × 6 months / 149 sitemap URLs, on matching Next 16.4.4 and sender,
+test and lockfile bytes. Prior lint/types, held wording checks and representative
+Nov 19 dry-run/numeric recomputation remain saved validation, not fresh tests.
+
+The approved sentence is now in published source: “Planning a trip? The Trip
+Picker ranks modeled low-tide windows for your chosen dates (up to 21 days);
+nighttime lows can appear.” Existing link, remaining HTML, plaintext and
+sending behavior remain unchanged. Reviewed push/build workflows contain no
+newsletter dispatch or backfill. No Resend request, audience sync, broadcast,
+test email, subscriber email, schedule/suppression change or sender activation.
+November 12 remains SKIPPED. November 19 retains final visual review,
+fresh-data render/recompute and normal consent/suppression/adverse-event gates.
+The wording/source-publication blocker is closed; no permission for a send
+is created by this record.
+
+The earlier denied file-URL preview and public-production batch were not
+retried or routed around. No new public live-page readback or newsletter
+visual pass is claimed. Verification used exact-revision GitHub status and
+deployment evidence, without reopening Vercel dashboard authentication.
+No queued-job interaction or session-directory access. Rollback remains an
+independent revert of source `62b365e`; reinstate the accuracy hold before any
+future send if reverting to the old wording. Preserve the existing production
+and rollback deployment records. This entry updates the owner handoff only.
+
+Evidence: audit workspace `tide-newsletter-2026-11-12-evidence/`, including
+`publication-0ef1e56-status.json` and `deployment-7749922796-statuses.json`.
+
+---
+
 ## 2026-11-12 — Heartbeat: local newsletter build verified; publication hold preserved
 
 **One safe improvement:** completed the previously blocked aggregate build

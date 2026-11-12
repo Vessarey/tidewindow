@@ -24,10 +24,10 @@ gitignored files listed in AGENT_PLAYBOOK.md section 1; nothing here is secret.
 
 ## Weekly send runbook (once real signups exist)
 
-### Nov 12 wording approval resolved locally; publication approval pending
+### Nov 12 correction published; November 19 issue gates remain
 
 The owner approved the bounded Trip Picker wording correction on Nov 12.
-Local source commit `62b365e` implements exactly:
+Source commit `62b365e`, published through `0ef1e56`, implements exactly:
 
 > Planning a trip? The Trip Picker ranks modeled low-tide windows for your
 > chosen dates (up to 21 days); nighttime lows can appear.
@@ -41,11 +41,16 @@ recomputed against the fact sheets. This is a readiness example, not a final
 Nov 19 issue approval. All five unit suites, lint, typecheck and the 16 checks
 including owner-held wording tests passed.
 
-**Source publication remains blocked.** Automatic approval review rejected
-`git push origin main` to `github.com/Vessarey/tidewindow`, requiring explicit
-approval of that external protected-branch publication and its automatic Vercel
-build. No push ran. Do not retry or automatically include this unpublished
-correction in another push until that publication approval is obtained.
+**Publication resolved Nov 12 after direct owner approval of repository main
+and its normal automatic deployment.** The normal push advanced remote main
+from `d1c496f` to `0ef1e56`. Exact-SHA Vercel commit status succeeded at
+21:18:08 UTC; Production deployment `7749922796` succeeded at 21:18:09 UTC.
+The prior publication denials remain historical records, not an active hold.
+Only the corrected paragraph, regression tests and related handoff records
+were published; no owner-held drafts or data changes were included. The
+push/build workflow invokes no newsletter sender and performs no backfill.
+GitHub reports no required branch-status checks configured and no check runs
+for this revision; Vercel is the observed push-triggered build status.
 **Nov 12 health follow-up:** the aggregate site build is now verified in an
 isolated archive of local `f45b0b2`, using the ordinary `npm run build` in the
 current environment, locked Next 16.4.4 and committed Nov 12 predictions.
@@ -55,11 +60,12 @@ Turbopack build blocker; no code or permissions were changed. The newsletter's
 local HTML visual review remains unverified after the earlier `file:` URL
 policy denial; that access was not retried or routed around. Site browser
 health checks are not a newsletter-preview review. Evidence is recorded
-in the latest Nov 12 JOURNAL entry; source publication remains blocked.
+in the Nov 12 JOURNAL entries; source publication is now verified as above.
 
 **Nov 12 stays SKIPPED; no backfill, resend, test email or new send is authorized
-by this correction.** The wording-approval and aggregate-build gates are resolved; publication,
-newsletter visual review and every issue-specific gate remain separate. The next regular
+by this correction.** Wording approval, source publication, normal deployment
+and aggregate-build checks are resolved. Newsletter visual review and every
+issue-specific gate remain separate. The next regular
 send is Thursday Nov 19 under the existing operator ritual, with no newly
 established clock time or sender activation. Before that issue, confirm the
 corrected revision is in the operator's source, refresh its data, render the
