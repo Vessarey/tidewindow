@@ -193,7 +193,7 @@ if (bestOverall && bestOverall.species.length) {
 }
 
 htmlParts.push(
-  `<p style="margin:18px 0;font-size:14px;line-height:1.6;">Planning further out? The <a href="https://thetidewindow.com/tools/trip-picker/" style="color:#0b5568;">trip picker</a> ranks every daylight window at your station for the rest of the year.</p>`
+  `<p style="margin:18px 0;font-size:14px;line-height:1.6;">Planning a trip? The <a href="https://thetidewindow.com/tools/trip-picker/" style="color:#0b5568;">Trip Picker</a> ranks modeled low-tide windows for your chosen dates (up to 21 days); nighttime lows can appear.</p>`
 );
 htmlParts.push(
   `<p style="${muted}">Times are NOAA astronomical predictions, not observations &#8212; wind, swell, and pressure routinely shift actual water levels by half a foot or more. Predictions apply exactly at each station; nearby beaches can differ.</p>`
