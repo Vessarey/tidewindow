@@ -24,26 +24,47 @@ gitignored files listed in AGENT_PLAYBOOK.md section 1; nothing here is secret.
 
 ## Weekly send runbook (once real signups exist)
 
-### Active Nov 12 accuracy hold — recorded Nov 10
+### Nov 12 wording approval resolved locally; publication approval pending
 
-Do not send the Nov 12 issue with the known-inaccurate Trip Picker sentence
-in `scripts/newsletter/send-weekly.mjs`. The standing template approval in
-AGENT_PLAYBOOK §6 does not waive its accuracy gates or authorize a replacement.
-The Nov 10 morning journal instruction to send unchanged is superseded.
-
-The exact bounded proposal remains unapproved:
+The owner approved the bounded Trip Picker wording correction on Nov 12.
+Local source commit `62b365e` implements exactly:
 
 > Planning a trip? The Trip Picker ranks modeled low-tide windows for your
 > chosen dates (up to 21 days); nighttime lows can appear.
 
-Preserve the existing Trip Picker link and all other established-template
-content. Release this hold only after explicit owner approval is recorded,
-the bounded change and its regression check are implemented, and an isolated
-preview is rendered and recomputed against current facts. If these gates are
-not complete on Nov 12, skip the issue and journal the reason. Do not silently
-remove the sentence, substitute new copy, resend an old issue, or send a
-correction broadcast. This documentation does not create a code-enforced
-lock or grant permission to send.
+The Trip Picker link, other HTML paragraphs, plaintext, audience, consent,
+suppression, schedule and send gates are unchanged. Actual picker-code tests
+confirm an inclusive 21-day cap and possible nighttime selection. A credential-free,
+network-blocked dry-run passed. A representative Nov 19–25 preview was rendered
+from Nov 12 committed data and its 21 qualifying windows / six stations were
+recomputed against the fact sheets. This is a readiness example, not a final
+Nov 19 issue approval. All five unit suites, lint, typecheck and the 16 checks
+including owner-held wording tests passed.
+
+**Source publication remains blocked.** Automatic approval review rejected
+`git push origin main` to `github.com/Vessarey/tidewindow`, requiring explicit
+approval of that external protected-branch publication and its automatic Vercel
+build. No push ran. Do not retry or automatically include this unpublished
+correction in another push until that publication approval is obtained.
+The local site build is also unverified: the sandboxed attempt could not fetch
+Google Fonts, and the network-enabled attempt hit Turbopack's internal
+port-binding restriction. Local HTML browser review was denied by URL policy
+for the `file:` protocol; no alternate route was attempted. The rendered files
+and textual/numeric checks succeeded; no visual-browser pass is claimed.
+
+**Nov 12 stays SKIPPED; no backfill, resend, test email or new send is authorized
+by this correction.** The wording-approval gate is resolved; publication/build
+verification and every issue-specific gate remain separate. The next regular
+send is Thursday Nov 19 under the existing operator ritual, with no newly
+established clock time or sender activation. Before that issue, confirm the
+corrected revision is in the operator's source, refresh its data, render the
+actual week, recompute it against current fact sheets, review the complete
+preview, and perform the existing consent/suppression and adverse-event gates.
+This record changes no sending code lock and does not itself grant a send.
+
+Rollback: revert source commit `62b365e` if needed and reinstate the documented
+accuracy hold before any future send; do not restore the old sentence to a sent
+issue. The source patch has no data migrations or campaign side effects.
 
 1. `node scripts/newsletter/sync-audience.mjs` — pull new signups into the
    audience. Zero-event runs are safe and idempotent.

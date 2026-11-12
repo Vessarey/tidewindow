@@ -5,6 +5,64 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-12 — Owner-approved newsletter wording correction; publication blocked
+
+The owner requested the bounded correction and Tide readiness check. Reviewed
+AGENTS, playbook, latest journal/BACKLOG and newsletter runbook first. Supported
+task status showed the established Tide health task idle with its latest turn
+completed; source/main stayed at `d1c496f`. Process inspection was denied by
+the Mac sandbox, so no claim about every external worker is made. Used an
+isolated worktree; no operator was messaged, started or restarted. Preserved
+all 132 held files by SHA-256 before and after the source fast-forward.
+
+Source `62b365e` changes only the HTML Trip Picker paragraph plus regressions
+in `scripts/tool-summary.test.mjs`. Before: “Planning further out? The trip
+picker ranks every daylight window at your station for the rest of the year.”
+After: “Planning a trip? The Trip Picker ranks modeled low-tide windows for
+your chosen dates (up to 21 days); nighttime lows can appear.” Existing link
+and every other HTML paragraph are unchanged; plaintext is byte-identical.
+Actual picker selection code confirms from + 20 days (21 inclusive), with no
+night exclusion. Tests exercise the real selection on boundary/night fixtures;
+Nov 12 Port Townsend data also ranks a Nov 12 11:36 PM low, score 0, in a
+one-day range. No model or sender behavior changed.
+
+Validation: four focused checks pass, all five aggregate unit suites pass,
+lint and TypeScript pass, and all 16 wording checks including the owner-held
+file pass. Dry-run tested without credential files with fetch blocked. Nov
+19–25 representative HTML/text render from Nov 12 data passes numeric
+recomputation: 21 Good-or-better windows across six stations, headline Pillar
+Point Nov 24 at 4:31 PM, -1.638 ft rounded -1.64. All selected lows match the
+fact sheets. This is not the final November 19 issue. Preview/evidence saved
+in the audit workspace `tide-newsletter-2026-11-12-evidence/`.
+
+Verification limits: local Next build initially failed Google Font retrieval;
+the network-enabled attempt reached a Turbopack internal port-bind denial.
+No aggregate build success is claimed. Browser file-URL preview was denied
+by URL policy; no retry or alternate access route was attempted. Rendered
+HTML/text and numeric checks passed, but visual-browser review is unverified.
+
+Publication: corrected source was fast-forwarded into LOCAL main. Automatic
+approval review rejected `git push origin main` to the configured
+`github.com/Vessarey/tidewindow` destination, citing protected-branch external
+publication without sufficiently explicit destination/side-effect approval.
+The push did not execute; do not retry or roll this unpublished patch into
+another push without that approval. No deployment/revision verification is
+claimed. Inspected repository workflows: push/Vercel builds do not invoke
+newsletter scripts, and dry-run exits before any Resend credential/API path.
+
+The wording-approval gate is resolved; external publication/build verification
+is pending. November 12 remains SKIPPED. Next regular send remains Thursday
+November 19, operator-driven with no exact clock time established here.
+Re-render/recompute the actual issue from fresh data and retain all normal
+consent, suppression, adverse-event and template gates. No audience sync,
+schedule/sender change, broadcast, test email, resend or backfill occurred.
+No queued-job interaction, Vercel dashboard access, public-production batch
+request or session-directory access. Rollback: independently revert `62b365e`
+and restore the accuracy hold before a future send. Existing unrelated release
+gates remain in force.
+
+---
+
 ## 2026-11-12 — Operator: lowest-tides section on the national guide; Thursday send skipped per hold
 
 **Newsletter resolved first, as directed:** no owner approval for the bounded

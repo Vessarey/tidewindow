@@ -37,8 +37,21 @@ with the date; add discoveries at the appropriate tier.
       §2a's demand-backed refill before another editorial assignment.
       Done Nov 10 — see the operator-2026-11-10-refill block in P1.**
 
-- [ ] **Nov 5 newsletter consumer finding — approve the Trip Picker sentence
-      before the Nov 12 issue.** **Nov 12 operator: no owner approval was
+- [ ] **Nov 12 wording correction — implemented locally; publication pending.**
+      Owner approval of the exact bounded sentence is now recorded. Source
+      `62b365e` corrects it and adds regressions; representative preview and
+      numeric recomputation, all five unit suites, lint/types and the held
+      wording checks pass. All 132 held files are unchanged. Automatic review
+      denied the protected GitHub main push; do not retry or include this
+      unpublished correction in another push without publication approval.
+      Local aggregate build is blocked on Turbopack port binding; file-URL
+      visual preview was denied. See the current newsletter runbook and
+      Nov 12 correction journal. Nov 12 remains skipped, never backfill it.
+      Wording approval is resolved; publication/build verification and Nov 19
+      fresh-data, full-preview, recompute and normal sending gates remain.
+
+      **Historical Nov 5 newsletter finding — approval resolved locally Nov 12;
+      publication pending as recorded above.** **Nov 12 operator: no owner approval was
       recorded by the Nov 12 run, so the Thursday send was SKIPPED per this
       hold and journaled. No broadcast, template, audience or suppression
       change was made. The item stays open: the next regular send (Nov 19)
@@ -58,14 +71,14 @@ with the date; add discoveries at the appropriate tier.
       Live Nov 5 reproduction: Port Townsend, input Nov 6–Dec 6, returns
       Nov 6 at 8:22 PM / score 0 and a 21-day cap. This is separate from the
       Nov 4 web-summary correction, which is already live.
-      **Proposed sentence, not approved or implemented:** "Planning a trip?
+      **Approved and implemented locally Nov 12 in `62b365e` (historical proposal):** "Planning a trip?
       The Trip Picker ranks modeled low-tide windows for your chosen dates
       (up to 21 days); nighttime lows can appear."
       Preserve the existing link, computed tables, subject, signup flow,
       unsubscribe handling and other established-template content. Do not
       reopen the separate shared-vocabulary decision or expand this into a
-      redesign. Obtain explicit owner approval before putting the revised
-      template into the sending path; §6 blanket approval covers the
+      redesign. Owner wording approval is now resolved; source publication
+      remains pending explicit GitHub approval as recorded above; §6 blanket approval covers the
       established template only. Then make the bounded correction, add a
       regression for the annual/daylight-only promise, render/recompute in
       isolation without overwriting committed issues or held drafts, and
