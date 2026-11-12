@@ -46,15 +46,20 @@ including owner-held wording tests passed.
 approval of that external protected-branch publication and its automatic Vercel
 build. No push ran. Do not retry or automatically include this unpublished
 correction in another push until that publication approval is obtained.
-The local site build is also unverified: the sandboxed attempt could not fetch
-Google Fonts, and the network-enabled attempt hit Turbopack's internal
-port-binding restriction. Local HTML browser review was denied by URL policy
-for the `file:` protocol; no alternate route was attempted. The rendered files
-and textual/numeric checks succeeded; no visual-browser pass is claimed.
+**Nov 12 health follow-up:** the aggregate site build is now verified in an
+isolated archive of local `f45b0b2`, using the ordinary `npm run build` in the
+current environment, locked Next 16.4.4 and committed Nov 12 predictions.
+TypeScript, 93 tests and output verification (12 stations × 6 months,
+149 sitemap URLs) pass. This supersedes only the earlier font-fetch /
+Turbopack build blocker; no code or permissions were changed. The newsletter's
+local HTML visual review remains unverified after the earlier `file:` URL
+policy denial; that access was not retried or routed around. Site browser
+health checks are not a newsletter-preview review. Evidence is recorded
+in the latest Nov 12 JOURNAL entry; source publication remains blocked.
 
 **Nov 12 stays SKIPPED; no backfill, resend, test email or new send is authorized
-by this correction.** The wording-approval gate is resolved; publication/build
-verification and every issue-specific gate remain separate. The next regular
+by this correction.** The wording-approval and aggregate-build gates are resolved; publication,
+newsletter visual review and every issue-specific gate remain separate. The next regular
 send is Thursday Nov 19 under the existing operator ritual, with no newly
 established clock time or sender activation. Before that issue, confirm the
 corrected revision is in the operator's source, refresh its data, render the

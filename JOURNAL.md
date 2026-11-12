@@ -5,6 +5,130 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-12 — Heartbeat: local newsletter build verified; publication hold preserved
+
+**One safe improvement:** completed the previously blocked aggregate build
+verification for the already-approved newsletter correction. Coordinated
+with both today's operator and the later correction task: national guide
+`e2e0a07` and its journal `d1c496f` are published; newsletter source `62b365e`
+and handoff `f45b0b2` are LOCAL only. `git pull --ff-only` was up to date;
+remote main remains `d1c496f`. No duplicate editorial refresh, audience sync,
+send, cancellation or publication. Updated only the local BACKLOG/runbook
+status and this journal; historical accounts of earlier failures remain.
+
+**Build evidence:** archived local `f45b0b2` into an isolated temporary
+folder, without the owner-held drafts or credential files, with matching
+locked Next 16.4.4 dependencies. Ordinary **`npm run build` passed**, using
+committed Nov 12 predictions (no fresh pipeline request). Compilation,
+TypeScript, static export and output verification passed: **12 stations ×
+6 months / 149 sitemap URLs**. The five postbuild suites ran **93 tests,
+0 failures** (42 facts, 6 math, 17 formatting, 14 wording/tool-summary,
+14 GSC). An intermediate commentary count of 95 was corrected to 93 after
+reading the suite totals. No warnings introduced. Sender source, new tests
+and lockfile match the checked local revision. Lint and held-file tests were
+already recorded by the earlier correction task, not rerun or claimed as
+new evidence here. All **132 pre-existing working files** remain byte-identical.
+No source code or generated data in the main checkout changed.
+
+This resolves the earlier aggregate site-build blocker only. Newsletter
+visual-browser review remains unverified after the earlier file-URL policy
+denial; no retry or alternate route to that denied preview was attempted.
+The representative Nov 19 dry-run/recompute checks remain the earlier task's
+evidence, not a new actual-issue approval. No new newsletter render or send.
+
+**Publication hold:** automatic approval review previously rejected
+`git push origin main` to `github.com/Vessarey/tidewindow` because explicit
+approval for protected-branch external publication and the automatic Vercel
+build was insufficient. No push attempted here, no alternate branch/PR used
+to publish the held correction. Local main stays ahead of remote; current
+wording approval does not resolve the separately recorded publication hold.
+**Nov 12 remains SKIPPED; never backfill it.** Next regular issue remains
+Nov 19, requiring publication approval, newsletter visual review, fresh-data
+render/recompute and the existing consent/suppression/adverse-event gates.
+The site build does not send email or establish a future send time.
+
+**Live health:** exact-SHA Production deployment `7738229205` for `d1c496f`
+succeeded **13:13:49Z**. Live national guide shows the Nov 12 lead and the
+new remaining-2026-low table. At **18:16:54Z**, all **12 live station files
+matched committed bytes**, generated **07:18:49.326Z**; sitemap contains
+149 URLs. Desktop browser at **1425px**: no horizontal overflow; calendar
+gate reveals the La Jolla email form, ZIP 98101 routes to Seattle Finder,
+which loads Nov 12 data and its completed results. No console warning/error
+observed and no email submitted. No mobile or end-to-end signup claim.
+Production dependency audit: zero reported vulnerabilities; that excludes
+development-only advisories. No Exceptional windows in Nov 12–26 at the
+12 covered stations; seasonal king-tide work is already published.
+
+**NOAA refresh:** scheduled run `43174241633` started **07:18:06Z**, generated
+at 07:18:49.326Z, and pushed `12e0ff5` at **07:20:46.956Z** (commit timestamp
+07:20:44Z), before operator start. Output verification passed; IndexNow
+accepted 149 URLs at **07:20:44.462Z**, HTTP 200. Subsequent runs are green
+and skip already-fresh data. Originating cron expression unavailable, so
+no slot-delay estimate or recovery dispatch. No open GitHub issues.
+Run `43097064631` still reports **queued, zero jobs**, created Nov 11
+20:36:36Z (~21h40m at this check). Its `startedAt` field equals creation even
+though status is queued; this does not prove a runner started. Today's data
+landed independently, so it is not a refresh outage. Kept the operator's
+Nov 13 recheck/cancel-if-still-stuck follow-up; no queue mutation here.
+
+**PostHog:** connected skill discovery returned reauthentication required;
+used the already-configured read-only repository query path, project 495836,
+exact host `thetidewindow.com`, `Regular`, complete UTC days before Nov 12.
+**Nov 5–11:** **1,072 pageviews / 1,010 distinct IDs**, 2 signup events /
+2 IDs (both `tool_gate`), 13 calendar clicks / 13 IDs, 2 reveals / 2 IDs,
+23 station selections / 18 IDs, 20 results / 18 IDs, 1 Trip Picker run /
+1 ID. **Oct 15–Nov 11:** **3,640 pageviews / 3,426 IDs**, 12 signup events /
+11 IDs, 40 calendar clicks / 40 IDs, 10 reveals / 10 IDs, 64 selections /
+49 IDs, 54 results / 46 IDs, 6 picker runs / 4 IDs. Events and IDs are not
+verified people, subscribers or an ordered funnel. Seven-day traffic classes
+are 1,072 Regular + 13 Automation + 2 AI Agent + 2 Bot = **1,089** pageviews,
+which reconciles the morning's all-class total; Regular is not proof of humans.
+Top Regular paths: OR king tides 346, national 273, WA 133, Fitzgerald 34,
+Finder 25. No conversion verdict: 12 rolling signup events remain below the
+30-event floor. Exit displays 29/123 (7d/28d) do not restart the closed-
+unmeasurable experiment or resolve its Oct 1 owner-authority conflict.
+
+Same-filter vitals: nearest-rank p75 LCP **745.699 ms (n=321)**, INP
+**32 ms (n=72)**, CLS **0 (n=113)** from 1,097 vitals events; not CrUX or
+verified people. No exception event returned, but capture flags were 955
+null and 117 false. Missing/disabled instrumentation is not zero errors.
+No instrumentation or experiment state changed.
+
+**Search Console:** GSC Wizard refused access because its trial/subscription
+is inactive; no purchase or retries. Used configured read-only API for
+`sc-domain:thetidewindow.com`, Web/final, property aggregation.
+**Oct 13–Nov 9: 422 clicks / 22,561 impressions / position 7.10** versus
+Sep 15–Oct 12 **308 / 15,800 / 6.99**: clicks **+37.0%**.
+**Nov 3–9: 131 clicks / 6,867 impressions / position 7.19** versus
+Oct 27–Nov 2 **128 / 6,356 / 6.87**: clicks **+2.3%**. All 28 date rows
+read. These lagged windows predate both latest guide changes; no causal
+claim or premature experiment readout. WA review remains ~Nov 28; a national
+review needs at least 14 complete post-release days and finalized data.
+
+**Resend read-only:** Nov 5 broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f`
+still shows sent at Nov 5 13:07:16Z. Recipient reads: **30 sent / 30 delivered,
+1 suppressed, no recorded bounced or complained recipients**. No recipient
+addresses stored in this report; no new campaign or account state changed.
+
+**Next:** obtain the recorded explicit publication approval before any push
+that contains the held newsletter correction; finish its visual review through
+an allowed review workflow and re-render the actual Nov 19 issue from fresh
+data. On Nov 13 recheck the queued Actions anomaly. Three independent briefs
+remain ready (Cabrillo, sea-glass, Sunset Bay), so no refill was needed. Weekly
+indexing review must re-inspect Trip Picker/Golden Hour; WA hub feature expires
+Nov 30 and December rollover still needs the staged indexing gate. NPS [road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm) still
+report Mora Road closed (storm damage in conditions); [Rialto](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm)
+retains its expired Oct 15 construction notice. No new access claim.
+
+Evidence saved locally at
+`/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-12/`:
+build log, live byte comparisons, exact-window aggregate analytics, production
+dependency audit and `audit-summary.json`. No credentials or recipient data.
+This heartbeat's documentation is committed locally only; nothing pushed.
+
+---
+
 ## 2026-11-12 — Owner-approved newsletter wording correction; publication blocked
 
 The owner requested the bounded correction and Tide readiness check. Reviewed

@@ -44,11 +44,15 @@ with the date; add discoveries at the appropriate tier.
       wording checks pass. All 132 held files are unchanged. Automatic review
       denied the protected GitHub main push; do not retry or include this
       unpublished correction in another push without publication approval.
-      Local aggregate build is blocked on Turbopack port binding; file-URL
-      visual preview was denied. See the current newsletter runbook and
-      Nov 12 correction journal. Nov 12 remains skipped, never backfill it.
-      Wording approval is resolved; publication/build verification and Nov 19
-      fresh-data, full-preview, recompute and normal sending gates remain.
+      **Nov 12 heartbeat follow-up:** the ordinary aggregate build now passes
+      in an isolated copy of local `f45b0b2` on locked Next 16.4.4: TypeScript,
+      93 tests and 12-station / 6-month / 149-URL output verification pass.
+      No code, sending path or production change; all 132 held files match.
+      Newsletter visual review remains unverified; the earlier file-URL
+      denial was not retried or routed around. See the newsletter runbook
+      and latest Nov 12 journal. Nov 12 remains skipped, never backfill it.
+      Wording approval and the aggregate-build check are resolved; publication,
+      visual review and Nov 19 fresh-data/recompute/sending gates remain.
 
       **Historical Nov 5 newsletter finding — approval resolved locally Nov 12;
       publication pending as recorded above.** **Nov 12 operator: no owner approval was
