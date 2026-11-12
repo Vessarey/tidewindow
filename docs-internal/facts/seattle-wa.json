@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-11",
+ "generated_on": "2026-11-12",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1810,21 +1810,6 @@
    "count": 3
   },
   {
-   "commonName": "East Pacific Red Octopus",
-   "scientificName": "Octopus rubescens",
-   "count": 2
-  },
-  {
-   "commonName": "White-lined Dirona",
-   "scientificName": "Dirona albolineata",
-   "count": 2
-  },
-  {
-   "commonName": "Festive Tritonid",
-   "scientificName": "Tritonia festiva",
-   "count": 2
-  },
-  {
    "commonName": null,
    "scientificName": "Coryphella longicaudata",
    "count": 2
@@ -1840,13 +1825,13 @@
    "count": 1
   },
   {
-   "commonName": "Rough Piddock",
-   "scientificName": "Zirfaea pilsbryi",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 1
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "White-and-orange-tipped Nudibranch",
+   "scientificName": "Antiopella fusca",
    "count": 1
   }
  ]

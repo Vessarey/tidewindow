@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-11",
+ "generated_on": "2026-11-12",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-11",
-   "weekday": "Wed",
-   "low_ft": -0.463,
-   "low_time_local": "6:09 PM",
-   "window_local": "3:45 PM–8:55 PM",
-   "arrive_by_local": "5:09 PM",
-   "daylight_min": 77,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 258,
-   "min_to_sun_edge": -67
-  },
-  {
    "date": "2026-11-23",
    "weekday": "Mon",
    "low_ft": -1.276,
@@ -2072,13 +2058,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 227,
    "min_to_sun_edge": 88
+  },
+  {
+   "date": "2026-12-07",
+   "weekday": "Mon",
+   "low_ft": -0.755,
+   "low_time_local": "4:01 PM",
+   "window_local": "1:30 PM–6:50 PM",
+   "arrive_by_local": "3:01 PM",
+   "daylight_min": 202,
+   "score": 60,
+   "band": "Good",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 234,
+   "min_to_sun_edge": 51
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 71
+   "count": 70
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -2088,27 +2088,27 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 62
+   "count": 61
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 51
+   "count": 49
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 36
+   "count": 37
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 26
+   "count": 21
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 22
+   "count": 21
   },
   {
    "commonName": "California Mussel",
@@ -2118,12 +2118,12 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 10
+   "count": 9
   },
   {
-   "commonName": "Hammerhead Doto",
-   "scientificName": "Doto amyra",
-   "count": 7
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 8
   }
  ]
 }

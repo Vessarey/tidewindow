@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-11",
+ "generated_on": "2026-11-12",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -2096,6 +2096,11 @@
    "count": 4
   },
   {
+   "commonName": "Red-fingered Coryphella",
+   "scientificName": "Coryphella verrucosa",
+   "count": 3
+  },
+  {
    "commonName": "Eastern Oyster",
    "scientificName": "Crassostrea virginica",
    "count": 2
@@ -2118,11 +2123,6 @@
   {
    "commonName": "Northern Lacuna",
    "scientificName": "Lacuna vincta",
-   "count": 2
-  },
-  {
-   "commonName": "Common Tortoiseshell Limpet",
-   "scientificName": "Testudinalia testudinalis",
    "count": 2
   }
  ]

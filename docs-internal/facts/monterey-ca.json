@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-11",
+ "generated_on": "2026-11-12",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -1990,20 +1990,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-11",
-   "weekday": "Wed",
-   "low_ft": -0.31,
-   "low_time_local": "6:06 PM",
-   "window_local": "3:45 PM–8:35 PM",
-   "arrive_by_local": "5:06 PM",
-   "daylight_min": 76,
-   "score": 45,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 258,
-   "min_to_sun_edge": -65
-  },
-  {
    "date": "2026-11-23",
    "weekday": "Mon",
    "low_ft": -0.951,
@@ -2072,6 +2058,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 227,
    "min_to_sun_edge": 90
+  },
+  {
+   "date": "2026-12-07",
+   "weekday": "Mon",
+   "low_ft": -0.594,
+   "low_time_local": "3:59 PM",
+   "window_local": "1:30 PM–6:40 PM",
+   "arrive_by_local": "2:59 PM",
+   "daylight_min": 202,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 234,
+   "min_to_sun_edge": 53
   }
  ],
  "species_last60d_5km": [
@@ -2091,13 +2091,13 @@
    "count": 32
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 28
-  },
-  {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
+   "count": 29
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 27
   },
   {
@@ -2118,7 +2118,7 @@
   {
    "commonName": "cockscomb nudibranch",
    "scientificName": "Antiopella barbarensis",
-   "count": 22
+   "count": 23
   },
   {
    "commonName": "Spanish Shawl",
