@@ -38,7 +38,12 @@ with the date; add discoveries at the appropriate tier.
       Done Nov 10 — see the operator-2026-11-10-refill block in P1.**
 
 - [ ] **Nov 5 newsletter consumer finding — approve the Trip Picker sentence
-      before the Nov 12 issue.** **Nov 10 heartbeat: HOLD the Nov 12 send
+      before the Nov 12 issue.** **Nov 12 operator: no owner approval was
+      recorded by the Nov 12 run, so the Thursday send was SKIPPED per this
+      hold and journaled. No broadcast, template, audience or suppression
+      change was made. The item stays open: the next regular send (Nov 19)
+      needs either the approved bounded correction or a fresh decision.**
+      **Nov 10 heartbeat: HOLD the Nov 12 send
       unless the bounded correction below has explicit owner approval and
       passes the documented preview/recompute gates.** The morning journal's
       instruction to send the established template unchanged is superseded:
@@ -678,8 +683,18 @@ Haystack/minus-tide edits.
       dated history, re-fetch the NPS hours page at write time (holiday
       closures included), and keep the existing separation of time-of-low
       matches from confirmed access or usable shore time. No retitle.
-- [ ] **National king-tides dates guide — serve the "lowest tides of the
-      year" intent during the §2b November refresh.** Target
+- [x] **National king-tides dates guide — serve the "lowest tides of the
+      year" intent during the §2b November refresh.**
+      **Completed Nov 12 operator:** added the bounded "lowest tides of the
+      rest of 2026" section comparing every predicted low Nov 12–Dec 31 per
+      station from same-day fact sheets (Nov 25 deepest remaining November
+      low at all 12 stations; Dec 24 the period's deepest at 11, Bar Harbor
+      Dec 25), explicitly scoped as a remaining-season selection, not a
+      full-year ranking. Lead rolled to the Nov 25–27 cluster, October
+      table marked passed history, one matching FAQ, honest updated date.
+      verify-output national-schedule gate extended to the six-table shape.
+      Isolated build + all postbuild suites green; see 2026-11-12 journal.
+      Original brief follows. Target
       `king-tides-2026-2027-dates`. Page baseline: **99 clicks / 6,156
       impressions / position 6.9**. Disclosed queries with no matching
       section on the site: `when are the lowest tides of the year`

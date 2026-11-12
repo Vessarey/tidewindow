@@ -5,6 +5,82 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-12 — Operator: lowest-tides section on the national guide; Thursday send skipped per hold
+
+**Newsletter resolved first, as directed:** no owner approval for the bounded
+Trip Picker sentence correction was recorded anywhere in the handoff, BACKLOG
+or journal by this run, so the **Thursday Nov 12 send was SKIPPED** per the
+documented Nov 10 hold. No broadcast, template, audience, consent or
+suppression change was made; the P0 item stays open and now notes the skip.
+The next regular send (Nov 19) needs the approved correction or a fresh
+owner decision — do not send the known-inaccurate sentence.
+
+**One primary improvement (BACKLOG P1 refill brief #3):** added the bounded
+"When are the lowest tides of the rest of 2026?" section to
+`king-tides-2026-2027-dates` (this week's #2 page), serving the disclosed
+no-coverage queries ("when are the lowest tides of the year" 0/12/10.1,
+"lowest tides of the year 2026" 0/11/8.0, "king tides november 2026"
+0/47/8.5; page baseline 99 clicks / 6,156 impressions / position 6.9).
+The table compares **every predicted low Nov 12–Dec 31, 2026 per station**
+from same-day fact sheets (`daily_extremes_current_and_next_month`), with
+no daylight filter and an explicit remaining-season scope (data covers
+Jul–Dec 2026; not a full-year ranking). Computed findings: the deepest
+remaining November low falls **Nov 25 at all 12 stations**; the period's
+deepest falls **Dec 24 at 11 of 12** (Bar Harbor Dec 25). Seattle bottoms
+at **-3.93 ft, Dec 24, 10:58 PM** — stated with clock times, no new
+sunset/darkness claims. Cross-table statements verified against current
+sheets: Charleston/Port Orford/Monterey/Pillar Point Dec 24 rows are the
+same events as their daylight-table rows; Newport's deepest (-2.12, Dec 24)
+differs from its daylight row (-1.91, Dec 23); La Jolla/San Diego/Bar
+Harbor daylight rows reach deeper January lows outside this cutoff. Also
+rolled the lead to the Nov 25–27 cluster (within 14 days; La Push +10.79
+Nov 25 11:55 AM, Seattle +12.70 Nov 27, Bar Harbor +13.08 Nov 26 — all 12
+November and December table rows re-verified against today's sheets),
+marked the October table as passed history, added one matching FAQ, set
+`updated: 2026-11-12`. No retitle, no new page, no gate/station change.
+Extended `scripts/verify-output.mjs`'s national-schedule gate to the new
+six-table / 71-row shape so the guard keeps covering the added table.
+
+**Validation:** isolated worktree from `12e0ff5` with only the revised
+article and extended verifier overlaid; `npm ci` locked deps; full build
+plus postbuild green — verify-output OK (12 stations × 6 months, 149
+sitemap URLs), facts (42), math, format, wording and gsc suites all pass.
+The owner-held modified `scripts/wording.test.mjs` in the main tree was
+also run against the new article and passes. Release commit `e2e0a07`
+pushed to main (two files only; diff reviewed). **Release verified:** the
+live guide at thetidewindow.com now renders the new section (checked after
+the Vercel deploy completed, same run).
+
+**Health:** latest Actions runs green; no open GitHub issues. Unaided
+scheduled refresh `43174241633` started **07:18:06Z**, ran 2m43s and pushed
+today's `12e0ff5` (daily NOAA refresh 2026-11-12) before session start; the
+10:22Z slot skipped already-fresh data in 9s. Originating cron expressions
+unavailable — no slot-delay calculation. **Anomaly to watch:** run
+`43097064631` (created 2026-11-11T20:36:36Z) still shows `queued` with no
+jobs ~16h later; it never started, other slots succeeded around it, and
+today's refresh landed, so no recovery dispatch — check tomorrow whether
+GitHub cleared it, and cancel it if still stuck. Owner-held working-tree
+files (three article drafts, `wording.test.mjs`, newsletter drafts,
+seo-refresh dirs) left untouched; pull used `--autostash`.
+
+**Metrics (PostHog, project 495836, host thetidewindow.com, Nov 5–11
+complete UTC days):** 1,089 pageviews / 1,027 distinct IDs, 2
+`newsletter_signup`, 23 station selections, 20 window results, 1 Trip
+Picker run. Top paths: OR king tides 346, **national king-tides guide 275**,
+WA king tides 123, Fitzgerald 35, Finder 25. Still far below the 30-event
+signup floor — no conversion verdict. IDs/events are not verified people.
+
+**Next:** (1) Nov 19 send needs the newsletter approval resolved.
+(2) Recheck the stuck queued Actions run `43097064631`; cancel if still
+queued. (3) WA hub feature expires Nov 30 — roll to verified December dates at the
+seasonal pass. (4) December rollover (§2c) on the first December run,
+subject to the staged indexing gate. (5) Weekly GSC indexing read next
+week must re-inspect Trip Picker and Golden Hour. Two P1 briefs remain
+ready (Cabrillo roll-forward, sea-glass/Sunset Bay per earlier refills);
+guide recheck date for the WA release stays ~Nov 28.
+
+---
+
 ## 2026-11-11 — Heartbeat: November Washington king tides and Long Beach sources
 
 **One primary improvement:** completed the queued §2b Washington guide refresh
