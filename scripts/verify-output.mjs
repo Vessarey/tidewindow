@@ -121,8 +121,8 @@ for (const slug of fs.readdirSync(path.join(OUT, "guides"))) {
   if (hasPrintButton !== (slug === scheduleSlug)) fail(`${slug}: print opt-in drifted`);
   if (slug !== scheduleSlug) continue;
   const body = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/)?.[1] ?? "";
-  if ((body.match(/<table>/g) ?? []).length !== 5 || (body.match(/<tr>/g) ?? []).length !== 58) {
-    fail("national schedule: expected all five tables and 53 data rows plus headers");
+  if ((body.match(/<table>/g) ?? []).length !== 6 || (body.match(/<tr>/g) ?? []).length !== 71) {
+    fail("national schedule: expected all six tables and 65 data rows plus headers");
   }
   for (const text of ["Predictions are not observations", "after sunset", "park opening hours", "Sources"])
     if (!html.includes(text)) fail(`national schedule: missing context: ${text}`);

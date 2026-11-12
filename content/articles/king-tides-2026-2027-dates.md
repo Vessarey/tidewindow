@@ -2,7 +2,7 @@
 title: "King Tides 2026 & 2027 Dates: High-Tide Schedule and Low-Tide Windows"
 description: "King tide dates for 12 NOAA stations: October–December 2026 monthly high-tide peaks, plus low-tide windows through March 2027. Local times and heights."
 date: "2026-07-03"
-updated: "2026-10-12"
+updated: "2026-11-12"
 category: "king-tides"
 gateStations: ["la-jolla-ca", "newport-or", "bar-harbor-me", "seattle-wa"]
 endSignup:
@@ -18,6 +18,8 @@ faq:
     a: "Spring tides have higher highs and lower lows than average, but the monthly high-tide maximum and the best low-tide window are different selections. At La Jolla (NOAA 9410230), December's high peaks at +7.10 ft MLLW on December 24, 2026 at 8:23 AM. Its lowest low with daylight overlap in the October–March comparison is -1.89 ft on January 21, 2027 at 2:48 PM."
   - q: "Does a daylight window mean low tide happens in daylight?"
     a: "No. Tidewindow's season table requires at least 30 minutes of daylight somewhere in the below-+1.0-ft window. The low itself can be after sunset. Newport (NOAA 9435380) on December 23, 2026 has a -1.91 ft low at 5:53 PM, after sunset, even though the window includes 60 daylight minutes."
+  - q: "When are the lowest tides of the rest of 2026?"
+    a: "Comparing every predicted low from November 12 through December 31, 2026 at Tidewindow's 12 NOAA stations: the deepest remaining November low falls on November 25 at all 12, and the deepest low of the whole period falls on December 24 at 11 of them — Bar Harbor's is December 25. Seattle (9447130) reaches -3.93 ft MLLW on December 24 at 10:58 PM. Depth and daylight are different selections — several of these lows fall late in the evening — and the underlying data covers July–December 2026, so this is not a full-year ranking."
   - q: "Are these tide predictions an access or flooding forecast?"
     a: "No. Heights are relative to each station's MLLW datum, not flood depth. Tidewindow scores use tide depth, daylight and calendar factors, not park opening hours or local access restrictions. The NOAA monthly high-tide flooding outlook and the relevant park's current notices answer different questions from this tide schedule."
 sources:
@@ -40,7 +42,7 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=8413320"
 ---
 
-**King-tide dates are local, not one national weekend. Across our 12 NOAA stations, October's highest predicted tides fall October 27–29, November's November 25–27, and December's December 24–26, 2026. Seattle (9447130) reaches +13.01 ft MLLW on December 26; La Jolla (9410230) reaches +7.10 ft on December 24. These are computed monthly peaks, not flooding forecasts. The high-tide schedule comes first below, followed by low-tide windows through March 2027.**
+**King-tide dates are local, not one national weekend. The next cluster at our 12 NOAA stations peaks November 25–27, 2026: La Push (9442396) reaches +10.79 ft MLLW on November 25 at 11:55 AM, Seattle (9447130) +12.70 ft on November 27, Bar Harbor (8413320) +13.08 ft on November 26. December's peaks follow December 24–26; October's fell October 27–29. These are computed monthly peaks, not flooding forecasts. The high-tide schedule comes first below, followed by low-tide windows through March 2027 and the deepest remaining 2026 lows.**
 
 Looking for one state? The [Washington king tides 2026–27 guide](/guides/king-tides-washington-2027/) covers Seattle, Port Townsend and La Push, and the [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) covers Garibaldi through Port Orford, each with its own dates, heights and daylight low-tide windows. California and Maine stations appear in the tables on this page.
 
@@ -50,7 +52,9 @@ Each row selects the **highest predicted high tide in that calendar month** at o
 
 These are station-specific monthly maxima, not a list of every date an official local king-tide program might name. Times are local to the station, including daylight-saving changes. Heights are feet above that station's MLLW datum; they are not flood depths and should not be read as elevations on a common national scale. Predictions are not observations.
 
-### October 2026: monthly high-tide peaks
+### October 2026: monthly high-tide peaks (passed)
+
+October's dates have passed; the table is kept as dated history of the predictions.
 
 | Station (NOAA id) | Date | High (ft MLLW) | Local time |
 |---|---|---|---|
@@ -133,6 +137,31 @@ The high-water question and the tidepooling question therefore need separate tab
 *Computed September 11, 2026 from the same station predictions and Tidewindow's daylight calculation. All times are local. The score combines depth, daylight and calendar factors; see the [methodology](/methodology/). It does not establish access, weather conditions or park opening hours.*
 
 The distinction matters at [Newport](/beaches/or/newport-or/): December 23's -1.91 ft low is at 5:53 PM, **after sunset**. Its 60 daylight minutes are earlier in the 3:40 PM–8:20 PM computed window. Calling that a “daylight low” would give the wrong impression. [Bar Harbor's](/beaches/me/bar-harbor-me/) January 23 low likewise occurs after sunset despite 60 minutes of overlap.
+
+## When are the lowest tides of the rest of 2026?
+
+The same new- and full-moon alignments that produce the high-tide peaks above also pull low water further down, so “king tide dates” and “lowest tides” largely share a calendar. The table below selects the **deepest predicted low at each station from November 12 through December 31, 2026**, comparing every remaining low in that period with **no daylight requirement**. Our prediction data covers July–December 2026, so this is a remaining-season selection — not a full-year ranking, and not the October–March daylight comparison above.
+
+Two dates dominate it. The deepest remaining November low falls on **Wednesday, November 25** at all 12 stations — the same date as most of November's high-tide peaks — and the deepest low of the whole period falls on **Thursday, December 24** at 11 of the 12 stations; [Bar Harbor's](/beaches/me/bar-harbor-me/) is December 25.
+
+| Station (NOAA id) | Nov 25 low (ft MLLW) | Time of Nov 25 low | Deepest low through Dec 31 | Time of that low |
+|---|---|---|---|---|
+| [Seattle (Puget Sound), WA](/beaches/wa/seattle-wa/) (9447130) | -3.84 | 11:11 PM | -3.93 on Thu, Dec 24 | 10:58 PM |
+| [Port Townsend, WA](/beaches/wa/port-townsend-wa/) (9444900) | -3.51 | 10:14 PM | -3.53 on Thu, Dec 24 | 10:01 PM |
+| [La Push (Olympic Coast), WA](/beaches/wa/la-push-wa/) (9442396) | -2.07 | 7:01 PM | -2.18 on Thu, Dec 24 | 6:51 PM |
+| [Garibaldi (Tillamook Bay), OR](/beaches/or/garibaldi-or/) (9437540) | -1.95 | 7:15 PM | -2.01 on Thu, Dec 24 | 7:02 PM |
+| [Newport (South Beach), OR](/beaches/or/newport-or/) (9435380) | -2.08 | 6:51 PM | -2.12 on Thu, Dec 24 | 6:40 PM |
+| [Charleston (Coos Bay), OR](/beaches/or/charleston-or/) (9432780) | -1.96 | 6:41 PM | -2.05 on Thu, Dec 24 | 6:30 PM |
+| [Port Orford, OR](/beaches/or/port-orford-or/) (9431647) | -2.05 | 6:25 PM | -2.21 on Thu, Dec 24 | 6:14 PM |
+| [Monterey, CA](/beaches/ca/monterey-ca/) (9413450) | -1.53 | 5:18 PM | -1.83 on Thu, Dec 24 | 5:06 PM |
+| [Pillar Point Harbor (Half Moon Bay), CA](/beaches/ca/pillar-point-ca/) (9414131) | -1.77 | 5:20 PM | -1.90 on Thu, Dec 24 | 5:10 PM |
+| [La Jolla (Scripps Pier), CA](/beaches/ca/la-jolla-ca/) (9410230) | -1.51 | 3:55 PM | -1.88 on Thu, Dec 24 | 3:47 PM |
+| [San Diego (Cabrillo), CA](/beaches/ca/san-diego-ca/) (9410170) | -1.45 | 3:57 PM | -1.88 on Thu, Dec 24 | 3:50 PM |
+| [Bar Harbor (Acadia), ME](/beaches/me/bar-harbor-me/) (8413320) | -1.53 | 4:55 PM | -1.71 on Fri, Dec 25 | 5:35 PM |
+
+*Computed November 12, 2026 from NOAA CO-OPS predictions, comparing every predicted low November 12–December 31, 2026 per station. Times are local. Heights are relative to each station's MLLW datum; they are predictions, not observations, access information or a flooding forecast.*
+
+Read the clocks before reading the depths. Both Puget Sound entries bottom out late at night — Seattle's -3.93 ft arrives at 10:58 PM — which is why this table and the daylight-overlap table above disagree. Depth alone also selects different events: Newport's deepest remaining low (-2.12 ft, December 24, 6:40 PM) is not the same low as its lowest-with-daylight row above (-1.91 ft, December 23). At Charleston, Port Orford, Monterey and Pillar Point Harbor, by contrast, the December 24 low is the same event in both tables — and at La Jolla, San Diego and Bar Harbor the daylight table reaches past this table's December 31 cutoff to a deeper January low. To plan a daytime outing, start from the daylight table or the [Trip Picker](/tools/trip-picker/); this table answers only the depth question.
 
 ## Puget Sound: high-water dates are not daylight low-water dates
 
