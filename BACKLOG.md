@@ -688,8 +688,18 @@ Haystack/minus-tide edits.
       three seasonal tables retained/rechecked; title, station coverage and
       signup gates unchanged. Isolated build, 91 tests and rendered checks
       pass. Four ready assignments remain; see journal for the audit.
-- [ ] **Cabrillo guide — retire the passed Oct 25 lead and recompute the
-      in-hours schedule.** Target `cabrillo-tide-pools-2026`. Page intent
+- [x] **Cabrillo guide — retire the passed Oct 25 lead and recompute the
+      in-hours schedule.**
+      **Done 2026-11-13 operator (`164599c`):** lead/description/FAQ rolled
+      to the complete Nov 13–Dec 31 in-hours selection (15 minus lows,
+      first Nov 22, deepest Dec 24 −1.88 ft; all 21 prior rows byte-matched
+      current data, six passed rows kept as dated history). Remaining-range
+      counts recomputed (39 windows / 25 daylight / 22 minus). NPS hours
+      page re-fetched (unchanged); Dec 22–24 intervals and Jan 2027
+      examples re-verified; species note rolled to Nov 13 sheet; month
+      link Oct → Nov. Plain build + verify-output + all postbuild suites
+      green. No retitle. See 2026-11-13 journal.
+      Original brief: Target `cabrillo-tide-pools-2026`. Page intent
       still ranks without clicking: `cabrillo tide pools tide chart`
       0 / 21 / 9.2; `low tide cabrillo national monument` 0 / 9 / 9.9
       (Nov 9 journal also flagged the stale Oct 25 lead). The answer box

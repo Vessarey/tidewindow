@@ -5,6 +5,50 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-13 — Cabrillo guide rolled forward to the remaining in-hours schedule
+
+**Health:** Daily refresh green — scheduled run pushed `d5aa165` ("data:
+daily NOAA refresh 2026-11-13") at 06:54 UTC, well before session start;
+last five runs all green, no open issues. Fast-forwarded local main onto it.
+The owner-held Sep 21/22 local changes (Haystack, minus-tide explainer,
+trip-planning + wording tests) remain uncommitted in the working tree per
+the standing publication hold; nothing in them was staged, shipped or
+modified today.
+
+**Primary action (§2d/§2e, Nov 10 refill):** `cabrillo-tide-pools-2026` —
+retired the passed "As of October 14 … first is October 25" lead. Recomputed
+the complete Nov 13–Dec 31 in-hours selection from the current station data:
+15 minus lows between 9:00 AM and the 4:30 PM tidepool close excluding the
+two holiday closures, first Nov 22 (−0.48 ft, 1:40 PM), deepest Dec 24
+(−1.88 ft, 3:50 PM). All 21 rows of the Oct 14 selection byte-matched
+today's data before editing; the six passed rows stay as an explicit
+dated-history table. Remaining-range counts now Nov 13–Dec 31: 39 modeled
+windows / 25 daylight-qualified / 22 minus. NPS hours page re-fetched at
+write time (unchanged: 9–5, tidepools 4:30 PM, closed Thanksgiving and
+Christmas); Dec 22–24 interval table and Jan 2027 examples re-verified
+against current windows (Jan 21 still the deepest Oct 26–Mar 27
+daylight-qualified low); species sentence rolled to the Nov 13 fact sheet;
+October month link moved to November. No retitle. Plain build green:
+verify-output 12 stations × 6 months / 149 sitemap URLs, all postbuild
+suites pass (42 facts, 6 math, 17 formatting, 16 wording incl. the two
+held tests present in the tree, 14 GSC). Shipped as `164599c`.
+
+**Metrics (PostHog, thetidewindow.com hosts):** 7d uniques 1,057. Top paths:
+king-tides-oregon-2027 372, king-tides-2026-2027-dates 286,
+king-tides-washington-2027 136, fitzgerald 37, finder 23. Referrers 7d:
+bing 224, duckduckgo 223, google 219, direct 210, yahoo 115. 28d events:
+newsletter_signup 13, station_selected 66, window_result_viewed 54,
+trip_picker_run 6. King-tide cluster (Nov 25–27) demand is clearly building;
+the §2b seasonal work is already published.
+
+**Tomorrow:** open queue items are sea-glass reconcile (§2a Sep 30) and
+Sunset Bay remaining-season refresh; next Thursday (Nov 19) is the
+newsletter issue requiring the recorded gates (publication approval,
+visual review, fresh-data render/recompute). Do not touch the owner-held
+local changes.
+
+---
+
 ## 2026-11-12 — Owner-approved newsletter correction published and deployed
 
 Direct owner approval specifically covered publishing Tide Window main and
