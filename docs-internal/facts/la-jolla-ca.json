@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-12",
+ "generated_on": "2026-11-13",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -1982,20 +1982,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-12",
-   "weekday": "Thu",
-   "low_ft": 0.005,
-   "low_time_local": "5:15 PM",
-   "window_local": "3:05 PM–7:40 PM",
-   "arrive_by_local": "4:15 PM",
-   "daylight_min": 104,
-   "score": 34,
-   "band": "Skip",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 252,
-   "min_to_sun_edge": -26
-  },
-  {
    "date": "2026-11-13",
    "weekday": "Fri",
    "low_ft": 0.269,
@@ -2064,6 +2050,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 235,
    "min_to_sun_edge": 58
+  },
+  {
+   "date": "2026-12-10",
+   "weekday": "Thu",
+   "low_ft": -0.563,
+   "low_time_local": "4:19 PM",
+   "window_local": "1:50 PM–7:05 PM",
+   "arrive_by_local": "3:19 PM",
+   "daylight_min": 173,
+   "score": 56,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 240,
+   "min_to_sun_edge": 24
   }
  ],
  "species_last60d_5km": [
@@ -2075,7 +2075,7 @@
   {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
-   "count": 19
+   "count": 20
   },
   {
    "commonName": "Yellow Umbrella Slug",
@@ -2103,11 +2103,6 @@
    "count": 13
   },
   {
-   "commonName": "Lesser Two-spot Octopus",
-   "scientificName": "Octopus bimaculoides",
-   "count": 10
-  },
-  {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
    "count": 10
@@ -2115,6 +2110,11 @@
   {
    "commonName": "Freckled Ancula",
    "scientificName": "Ancula lentiginosa",
+   "count": 9
+  },
+  {
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
    "count": 9
   }
  ]

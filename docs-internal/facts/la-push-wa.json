@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-12",
+ "generated_on": "2026-11-13",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -2076,11 +2076,6 @@
    "count": 7
   },
   {
-   "commonName": "Striped Dogwinkle",
-   "scientificName": "Nucella ostrina",
-   "count": 4
-  },
-  {
    "commonName": "Fingered Limpet",
    "scientificName": "Lottia digitalis",
    "count": 3
@@ -2106,6 +2101,11 @@
    "count": 1
   },
   {
+   "commonName": "Striped Dogwinkle",
+   "scientificName": "Nucella ostrina",
+   "count": 1
+  },
+  {
    "commonName": "Mask Limpet",
    "scientificName": "Lottia persona",
    "count": 1
@@ -2113,11 +2113,6 @@
   {
    "commonName": "Northwest Ugly Clam",
    "scientificName": "Entodesma navicula",
-   "count": 1
-  },
-  {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
    "count": 1
   }
  ]

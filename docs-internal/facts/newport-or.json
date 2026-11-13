@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-12",
+ "generated_on": "2026-11-13",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2074,17 +2074,17 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 70
+   "count": 71
   },
   {
    "commonName": "Northern Leopard Dorid",
    "scientificName": "Diaulula odonoghuei",
-   "count": 59
+   "count": 60
   },
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 34
+   "count": 36
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
@@ -2099,7 +2099,7 @@
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
-   "count": 24
+   "count": 25
   },
   {
    "commonName": "Pacific Corambe",
