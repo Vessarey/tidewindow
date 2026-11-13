@@ -5,6 +5,136 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-13 — Heartbeat: refill the ready queue; verify current publication and health
+
+**One primary improvement (§2a):** added three demand-backed P1 briefs,
+restoring five independent ready assignments after this morning's Cabrillo
+release: Oregon's November high-water section/feature, a California
+king-tides guide, and a focused MLLW explainer. Sea-glass and Sunset Bay
+remain open. Each brief records exact queries, impressions, positions,
+target slug, coverage gap and verification boundaries. The Oregon brief
+extends an existing page; the two new-page proposals have modest samples
+and are not declared winners. No article, application code, generated data,
+conversion variant, audience or sending state changed. No duplicate of
+today's Cabrillo work or the owner-held Haystack/minus-tide changes.
+
+**Coordination and authority:** `git pull --ff-only` found local main current
+at `9c4685a`. Today's operator published Cabrillo `164599c` and its journal;
+exact-SHA Production deployment `7766069315` succeeded at **13:11:31Z**.
+The Nov 12 owner's separate approval and successful normal publication
+(`0ef1e56`, deployment `7749922796`) resolve the newsletter correction's
+previous publication hold. The earlier denial is historical; do not ask
+for the same approval again. Nov 13 morning's mention of outstanding
+publication approval is superseded by the Nov 12 publication entry and
+current newsletter runbook. The separate owner-held draft releases remain
+unapproved. This heartbeat changes only BACKLOG and this journal, under
+the playbook's ordinary documentation commit/push protocol.
+
+**NOAA and live health:** scheduled run `43381631081` started **06:51:41Z**,
+generated data at **06:52:36.466Z**, and pushed `d5aa165` at
+**06:54:49.325Z**, before the operator session. Output verification passed
+for **12 stations × 6 months / 149 sitemap URLs**; IndexNow accepted 149
+URLs, HTTP 200, at **06:54:46.357Z**. Later scheduled runs are green.
+Originating cron expression remains unavailable, so no inferred slot-delay
+calculation or recovery dispatch. At **18:14:20.998Z**, all **12 production
+station JSONs were HTTP 200 and byte-identical to committed Nov 13 data**;
+the live sitemap has 149 URLs. No Exceptional windows in the complete
+Nov 13–27 scan across the covered stations. No open GitHub issues.
+Production dependency audit reports zero vulnerabilities; development-only
+dependencies were excluded.
+
+Desktop browser checks confirm Cabrillo's Nov 13 lead and 15-row remaining
+in-hours selection. At 1425px the document width is also 1425px (no horizontal
+overflow). The calendar button reveals the San Diego email form; test ZIP
+92101 selects San Diego in Finder and renders completed results labeled
+Nov 13 / NOAA 9410170. No warning/error console logs observed in this bounded
+check. No email entered or submitted; no mobile, end-to-end signup or
+newsletter visual-review claim. Finder's ranking remains station-level
+prediction, not a park-hours filter; the article explains that distinction.
+
+**PostHog:** connected discovery requires reauthentication; used the
+playbook's configured read-only API, project **495836**, exact host
+`thetidewindow.com`, `Regular`, complete UTC days before Nov 13.
+**Nov 6–12:** **1,099 pageviews / 1,033 distinct IDs**, 3 signup events /
+3 IDs (all `tool_gate`), 15 calendar clicks / 15 IDs, 3 ICS reveals / 3 IDs,
+20 station selections / 17 IDs, 18 results / 16 IDs, zero observed Trip
+Picker runs. **Oct 16–Nov 12:** **3,751 pageviews / 3,524 IDs**, 13 signups /
+12 IDs, 42 calendar clicks / 42 IDs, 11 reveals / 11 IDs, 66 selections /
+51 IDs, 54 results / 47 IDs, 6 picker runs / 4 IDs. Events/IDs are not
+verified people, subscribers or an ordered funnel; Regular does not prove
+human traffic. Seven-day classes reconcile to 1,113 pageviews: 1,099 Regular,
+8 Automation, 2 AI Agent and 4 Bot. Top Regular paths: Oregon king tides
+373, national king tides 287, Washington 136, Fitzgerald 36, Finder 23.
+Referrer pageviews: DuckDuckGo 225, Bing 223, Google 211, direct 195,
+Yahoo 114; these are not search clicks or sessions.
+
+Same-filter nearest-rank p75 vitals: LCP **698 ms (n=312)**, INP **32 ms
+(n=69)**, CLS **0 (n=94)**, from 1,117 vitals events, not CrUX or verified
+people. No exception event returned, but exception-capture flags on pageviews
+were 976 null / 123 false: missing/disabled instrumentation is not zero
+errors. Signup counts remain below the 30-event floor; no conversion verdict.
+Exit displays 34/132 (7d/28d) neither restart the closed-unmeasurable
+experiment nor resolve its recorded owner-authority conflict. No experiment
+or instrumentation change.
+
+**Search Console:** GSC Wizard is subscription-blocked; the configured
+read-only Search Console API works. Property `sc-domain:thetidewindow.com`,
+Web/final, property aggregation, lagged windows:
+**Oct 14–Nov 10: 432 clicks / 23,517 impressions / position 7.09**, versus
+Sep 16–Oct 13 **315 / 15,622 / 6.95** (**clicks +37.1%**).
+**Nov 4–10: 139 clicks / 7,644 impressions / position 7.14**, versus
+Oct 28–Nov 3 **128 / 5,825 / 6.91** (**clicks +8.6%**). All 28 date rows
+were returned. These windows predate the Nov 11–13 releases; no causal
+claim. The queue's separate Oct 15–Nov 11 query/page report fetched all
+770 disclosed query rows and 109 page rows; it is not the property-total
+window, and anonymized/top-row limits remain. Prioritize clicks and position,
+not aggregate CTR distorted by irrelevant station/codec queries.
+
+**Operational follow-ups:**
+
+- Newsletter: **Nov 12 stays skipped; no backfill.** Nov 19 still requires
+  an allowed full visual review, actual-week fresh-data rendering/recompute,
+  and the existing consent, suppression and adverse-event checks. Prior
+  file-URL denial was not retried or routed around. Read-only Resend checks
+  still show Nov 5 broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f` sent at
+  13:07:16Z, 30 sent / 30 delivered recipients, 1 suppressed, no recorded
+  bounced or complained recipients. No addresses saved; no new campaign.
+- Old scheduled run `43097064631` remains **queued, zero jobs**, created
+  Nov 11 at 20:36:36Z, roughly 46 hours old. Its creation-matching
+  `startedAt` does not establish runner execution. Independent daily
+  refreshes are succeeding; this is a queue anomaly, not a data outage.
+  The existing cancel-if-still-stuck follow-up remains outstanding; no
+  queue mutation or extra recovery run in this one-primary-action pass.
+- Nov 9 weekly inspection already ran (33/40 indexed). Next weekly pass
+  must re-inspect Trip Picker and Golden Hour before judging Nov 2's crawl
+  work; no duplicate linking pass or conversion change on an unfetched tool.
+- WA hub feature expires **Nov 30**. Recompute the December feature before
+  expiry. WA release review remains approximately **Nov 28**, with at least
+  14 complete post-release days and finalized GSC data; national review
+  also needs that post-release window. December month pages already shipped
+  Nov 2; do not repeat that rollover. Apply the staged indexing gate to the
+  next monthly expansion, including checking December indexing around Dec 1.
+- NPS [road status](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm)
+  and [conditions](https://www.nps.gov/olym/planyourvisit/conditions.htm)
+  still report Mora Road closed, with storm damage stated in conditions.
+  [Rialto](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm) retains its
+  expired Oct 15 construction notice. Existing corrected guides need no
+  duplicate edit; the expired notice does not prove reopening.
+
+**Validation and evidence:** documentation-only diff, whitespace checks,
+exact query/page metric checks, three new open briefs and five independent
+ready assignments confirmed. All **132 pre-existing working files** remain
+byte-identical. No new application build or tests warranted by these internal
+documentation edits; today's successful refresh/build and exact-SHA deployment
+are observed evidence, not a new local-build claim. Aggregate analytics,
+query/page evidence, live hashes, refresh log, audit and browser findings are
+saved under
+`/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-13/`.
+Next primary candidate: the bounded Oregon November section/feature, after
+reconciling that day's operator work and current data.
+
+---
+
 ## 2026-11-13 — Cabrillo guide rolled forward to the remaining in-hours schedule
 
 **Health:** Daily refresh green — scheduled run pushed `d5aa165` ("data:

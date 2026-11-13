@@ -650,6 +650,78 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
+<!-- heartbeat-2026-11-13-refill:start -->
+**Nov 13 afternoon refill — five ready assignments.** Today's Cabrillo
+roll-forward is already published (`164599c`); sea-glass and Sunset Bay
+were the only two independent ready briefs. Required `flywheel 28` and
+`queries 28` reads fetched 770 query rows, with 109 page rows in the
+companion report: Oct 15–Nov 11 inclusive Pacific dates, Web/final.
+The evidence below uses exact disclosed query rows, not complete demand,
+page totals or verified people. The two proposed new pages have small
+samples; these are bounded editorial opportunities, not proven winners.
+At implementation, recheck current demand and competing coverage, use
+same-day fact sheets and official sources, verify the complete range for
+any superlative, and run the normal content build and factual gates.
+Preserve owner-held files and the distinct newsletter/experiment gates.
+
+- [ ] **First: Oregon king tides — November high-water times for Newport
+      and Coos Bay, plus the near-term hub feature (§2b).** Existing target
+      `king-tides-oregon-2027`; preserve title/URL. Exact queries:
+      `king tides newport oregon 2026` 0 clicks / 59 impressions / position
+      7.54; `newport oregon king tides 2026` 0 / 25 / 8.44;
+      `king tides coos bay 2026` 0 / 29 / 8.55. Selected-row subtotal:
+      113 impressions, 0 clicks, impression-weighted position 8.00.
+      Separate page baseline: 43 clicks / 2,925 impressions / position 7.57.
+      Existing city sections cover selected low tides; the high-water
+      table covers December's seasonal maximum, and the OR hub feature
+      already points to December. Add a bounded November high-water
+      comparison for the four covered stations, with Newport/South Beach
+      and Charleston/Coos Bay clearly identified. Recompute the November
+      maxima from all November highs, re-fetch the Oregon King Tides
+      Project dates (currently cited as checked Sep 13), and surface the
+      verified November event until its actual end, then return to December.
+      Retain/recheck the seasonal tables; distinguish official project
+      dates, station predictions, daylight overlap and access. This is a
+      section gap and seasonal refresh, not an uncovered standalone city
+      topic. Do not duplicate the Nov 9 Oregon minus-tide calendar refresh
+      or create competing Newport/Coos Bay pages.
+
+- [ ] **California king tides — one state guide for the San Diego and
+      Monterey queries.** Intended new slug `king-tides-california-2027`.
+      Exact queries: `king tides san diego 2027` 0 / 12 / 9.17;
+      `king tides san diego 2026 times` 0 / 8 / 8.13;
+      `king tides monterey 2026` 0 / 10 / 9.10. Selected-row subtotal:
+      30 impressions, 0 clicks, weighted position 8.87. No dedicated
+      California king-tides guide currently exists; the national guide
+      and individual tidepool guides serve broader/different intents.
+      Create one concise 2026–27 California comparison, not separate
+      thin city pages: San Diego, La Jolla, Monterey and Pillar Point,
+      with station IDs and local datums explicit. Verify the current
+      California King Tides Project dates from its official source and
+      separate them from NOAA high-water times and selected low windows.
+      Use current November/December daily extremes and explicitly scoped
+      seasonal fact-sheet selections; do not infer an entire month's or
+      year's maximum from a top-five selection. Link from the CA hub and
+      national guide without repeating their full tables. No new station,
+      access promise, flood-depth inference or shared tool change.
+
+- [ ] **MLLW meaning — a focused datum explainer.** Intended new slug
+      `what-does-mllw-mean`. Exact queries: `mllw meaning`
+      0 / 20 / 24.80; `mean lower low water` 0 / 4 / 26.25;
+      `what is mllw tide` 0 / 2 / 12.00; `mllw tide meaning`
+      0 / 1 / 9.00. Selected-row subtotal: 27 impressions, 0 clicks,
+      weighted position 23.48; most exposure is outside flywheel positions
+      8–20, so this follows the seasonal assignments. No title/slug directly
+      answers this datum query today. Keep its scope distinct from
+      `how-to-read-a-tide-table` (4 clicks / 395 impressions / position 8.31):
+      explain the local reference zero, MLLW versus mean sea level/MLW,
+      and why a negative tide height is not water depth or beach access.
+      Fetch NOAA's current datum definitions/epoch documentation at write
+      time; use one recomputed station example and link to the existing
+      table-reading walkthrough instead of copying it. Do not alter or
+      publish the owner-held minus-tide explainer through this assignment.
+<!-- heartbeat-2026-11-13-refill:end -->
+
 <!-- operator-2026-11-10-refill:start -->
 **Nov 10 refill — five ready assignments now.** Required §2a reads run today:
 `flywheel 28` and `queries 28` (Oct 12–Nov 8 inclusive Pacific dates,
