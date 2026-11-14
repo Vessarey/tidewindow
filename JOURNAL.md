@@ -5,6 +5,63 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-14 — Oregon November king-tide section; hub feature rolled to the Nov 23–27 event
+
+**Health:** Daily refresh green — scheduled run pushed `a3b35e5` ("data: daily
+NOAA refresh 2026-11-14") at 06:36 UTC, before session start; last six runs
+green; no open GitHub issues. Pulled with `--rebase --autostash` so the
+owner-held Sep 21/22 working-tree files (Haystack, minus-tide explainer,
+trip-planning, wording tests) survived untouched and remain uncommitted per
+the standing publication hold; none of them was staged or shipped today.
+
+**Primary action (§2b, Nov 13 queue's first brief):** the Nov 25 king-tide
+cluster is 11 days out and `king-tides-oregon-2027` is the week's top path,
+so the scheduled Oregon November work ran today. Added a bounded "November
+23–27: where the month's highest water lands" section: computed from ALL 58
+predicted November highs per station in today's fact sheets, every covered
+Oregon station's November maximum falls Wed Nov 25 (Garibaldi 10.13 ft
+12:23 PM, Newport/South Beach 10.27 ft 11:52 AM, Charleston/Coos Bay 9.42 ft
+11:35 AM, Port Orford 9.10 ft 11:07 AM), with Nov 26/24 the adjacent
+runners-up — scoped as November-only, with December 24 explicitly retained
+as the season maximum. Re-fetched the Oregon King Tides Project dates at
+write time (the oregonkingtides.net shell's stale 2025 meta description
+notwithstanding, the embedded ArcGIS experience lists Nov 23–27 / Dec 22–26,
+2026 and Jan 20–24, 2027 — unchanged); "checked" notes rolled to Nov 14.
+Rolled the OR hub `featuredRoundup` from the December event to November
+23–27 (`until: 2026-11-27`) per the brief's surface-the-near-event rule.
+Re-verified all 20 existing low rows and the 4 seasonal highs against the
+Nov 14 fact sheets — byte-identical to the September 13 computation; the
+footnotes now say so honestly. FAQ 2 gained the November-peak sentence;
+lead updated. No retitle, no new page, no tool or shared-score change.
+
+**Quality gates:** plain `npm run build` green — 162 pages, verify-output OK
+(12 stations × 6 months, 149 sitemap URLs), all postbuild suites 0 failures.
+Rendered OR hub shows the November feature with the roundup link. Diff
+review: only `king-tides-oregon-2027.md` + JOURNAL/BACKLOG staged; owner-held
+files excluded. Internal links verified against existing routes; the one
+external link added is the already-cited project site, fetched live today.
+
+**Metrics snapshot (PostHog, Nov 7–13, thetidewindow.com):** top paths
+OR king tides 396, national king tides 326, WA king tides 159, Fitzgerald 35,
+Finder 24; 3 `newsletter_signup` events / 3 IDs. Events are not verified
+people; no conversion verdict (below the 30-event floor).
+
+**Side-fix:** attempted the standing cancel of stuck queued run
+`43097064631` — the API refuses ("cannot cancel a completed run") while the
+list still shows `queued`: a GitHub-side zombie record, not a live job.
+Independent refreshes succeed around it. Closing the follow-up as
+unactionable via API; ignore the row unless it starts absorbing runners.
+
+**Tomorrow:** Nov 15 is in the Nov 16 weekly-inspection neighborhood — first
+run of next week must re-inspect Trip Picker and Golden Hour (Nov 9 pass was
+33/40) before judging Nov 2's crawl work. After Nov 27 the OR hub feature
+expires: recompute and restore the December 22–26 feature (BACKLOG P0 item
+added). WA hub feature still expires Nov 30. Next editorial candidates:
+California king-tides guide or the MLLW explainer from the Nov 13 refill;
+sea-glass and Sunset Bay remain open.
+
+---
+
 ## 2026-11-13 — Heartbeat: refill the ready queue; verify current publication and health
 
 **One primary improvement (§2a):** added three demand-backed P1 briefs,

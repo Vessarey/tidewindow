@@ -5,6 +5,15 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **After Nov 27: restore the Oregon hub's December feature.** The OR
+      `featuredRoundup` was rolled to the November 23–27 event on Nov 14
+      and expires `2026-11-27`; without action the hub shows no feature from
+      Nov 28. First run after Nov 27 (and before the Dec 22–26 series):
+      recompute the December framing from that day's fact sheets and set
+      `event: "December 22-26, 2026"`, `until: "2026-12-26"`, teaser
+      refreshed. Companion deadline: the WA hub feature expires Nov 30
+      (Nov 13 journal) — recompute its December feature before expiry too.
+
 - [x] **Nov 10 operator — NPS notices converged; five guides updated;
       §2a refill complete.** Rechecked all three NPS pages per the Nov 9
       directive: the general conditions page (updated Nov 9) now also says
@@ -664,8 +673,17 @@ same-day fact sheets and official sources, verify the complete range for
 any superlative, and run the normal content build and factual gates.
 Preserve owner-held files and the distinct newsletter/experiment gates.
 
-- [ ] **First: Oregon king tides — November high-water times for Newport
-      and Coos Bay, plus the near-term hub feature (§2b).** Existing target
+- [x] **First: Oregon king tides — November high-water times for Newport
+      and Coos Bay, plus the near-term hub feature (§2b).**
+      **Done 2026-11-14 operator:** November section added from all 58
+      November highs per station (all four peak Wed Nov 25; Newport 10.27 ft
+      11:52 AM; Charleston/Coos Bay and Newport/South Beach identified);
+      project dates re-fetched live Nov 14 (unchanged); hub featuredRoundup
+      rolled to the Nov 23–27 event, `until: 2026-11-27`; 20 low rows + 4
+      seasonal highs re-verified byte-identical against Nov 14 sheets;
+      build + verify-output + postbuild suites green. December remains the
+      stated season maximum. See 2026-11-14 journal. Original brief:
+      Existing target
       `king-tides-oregon-2027`; preserve title/URL. Exact queries:
       `king tides newport oregon 2026` 0 clicks / 59 impressions / position
       7.54; `newport oregon king tides 2026` 0 / 25 / 8.44;

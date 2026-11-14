@@ -2,23 +2,23 @@
 title: "Oregon Coast King Tides 2026 & 2027: Official Dates, Highs and Low-Tide Windows"
 description: "Oregon king tide dates: Nov 23–27 and Dec 22–26, 2026; Jan 20–24, 2027. Compare official photo dates, NOAA high tides and daylight low-tide windows."
 date: "2026-09-02"
-updated: "2026-11-02"
+updated: "2026-11-14"
 category: "king-tides"
 gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 featuredRoundup:
   states: ["or"]
-  event: "December 22-26, 2026"
-  until: "2026-12-26"
-  teaser: "Oregon's December king-tide photo series: compare official dates, predicted high-water peaks and the daylight portion of low-tide windows."
+  event: "November 23-27, 2026"
+  until: "2026-11-27"
+  teaser: "Oregon's November king-tide photo series is here: all four covered stations post their highest November high midday on November 25. Compare official dates, high-water peaks and low-tide windows."
 endSignup:
   headline: "A heads-up before each Oregon king-tide low"
   blurb: "One email a week, sent Thursdays: upcoming daylight low-tide windows on the Oregon coast, with king-tide lows included as they come into range. Computed from NOAA predictions."
 tags: ["king tides oregon 2027", "king tides oregon 2026", "king tides oregon coast", "oregon king tides", "king tide dates 2027", "perigean spring tide", "winter tidepooling", "port orford", "charleston", "newport", "garibaldi"]
 faq:
   - q: "When are the Oregon coast king tides in 2026 and 2027?"
-    a: "The Oregon King Tides Project lists November 23–27, 2026; December 22–26, 2026; and January 20–24, 2027 for its 2026–27 photo series, checked September 13, 2026. These are official project dates, not identical high-water times at every beach. Tidewindow's four Oregon NOAA stations have their highest predicted October–March tide on December 24, 2026."
+    a: "The Oregon King Tides Project lists November 23–27, 2026; December 22–26, 2026; and January 20–24, 2027 for its 2026–27 photo series, re-checked November 14, 2026. These are official project dates, not identical high-water times at every beach. Tidewindow's four Oregon NOAA stations have their highest predicted October–March tide on December 24, 2026."
   - q: "What is the highest predicted king tide at Oregon's covered stations?"
-    a: "Among Tidewindow's four Oregon stations, Newport (NOAA 9435380) has the largest October 2026–March 2027 predicted high: 10.58 ft above local Mean Lower Low Water on December 24, 2026 at 11:39 AM Pacific. That is a tide height relative to a local datum, not a predicted flood depth or a beach-access assessment."
+    a: "Among Tidewindow's four Oregon stations, Newport (NOAA 9435380) has the largest October 2026–March 2027 predicted high: 10.58 ft above local Mean Lower Low Water on December 24, 2026 at 11:39 AM Pacific. Within November 2026, every covered station's highest predicted high falls on November 25 instead, topping out at 10.27 ft at Newport at 11:52 AM. Heights are relative to a local datum, not predicted flood depths or a beach-access assessment."
   - q: "Are the lowest Oregon king tides visible in daylight?"
     a: "Not necessarily. Tidewindow includes a low-tide window when at least 30 minutes overlap daylight; the low itself can occur after sunset. Nineteen of the twenty lows in this guide's selection do. Port Orford's December 24, 2026 low is -2.21 ft at 6:14 PM, after sunset, while its earlier below-+1-ft window contains 69 daylight minutes."
   - q: "Which listed Oregon low-tide window has the highest score?"
@@ -37,11 +37,11 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9431647"
 ---
 
-**Oregon's official 2026–27 king-tide photo series runs November 23–27 and December 22–26, 2026, then January 20–24, 2027. Among Tidewindow's four Oregon NOAA stations, the largest predicted October–March high is 10.58 ft MLLW at Newport (9435380), December 24 at 11:39 AM. High-water photo dates and low-tide daylight windows answer different questions: most of the listed low tides occur after sunset.**
+**Oregon's official 2026–27 king-tide photo series runs November 23–27 and December 22–26, 2026, then January 20–24, 2027. The November series is now days away: all four of Tidewindow's Oregon NOAA stations post their highest predicted November high midday on Wednesday, November 25 — 10.27 ft MLLW at Newport (9435380) at 11:52 AM. The season's overall maximum still belongs to December 24. High-water photo dates and low-tide daylight windows answer different questions: most of the listed low tides occur after sunset.**
 
 ## Official Oregon king tide dates for 2026–27
 
-The [Oregon King Tides Project](https://www.oregonkingtides.net/) lists these dates for its current photo series, checked September 13, 2026:
+The [Oregon King Tides Project](https://www.oregonkingtides.net/) lists these dates for its current photo series, re-checked November 14, 2026:
 
 | Photo series | Official dates |
 |---|---|
@@ -50,6 +50,21 @@ The [Oregon King Tides Project](https://www.oregonkingtides.net/) lists these da
 | January 2027 | January 20–24, 2027 |
 
 The project is coordinated by the Oregon Coastal Management Program and Oregon Shores. Its dates provide a shared period for documenting high-water conditions; the exact predicted high differs by station and day. Use the project website for participation details. The tables below compare NOAA predictions, not photo locations or a flooding forecast.
+
+## November 23–27: where the month's highest water lands
+
+The November photo series contains the month's highest predicted water at every covered Oregon station. Checked across **all predicted November 2026 highs** (58 per station), each station's November maximum falls on **Wednesday, November 25**, late morning to midday — inside the official November 23–27 window. The next-highest November highs are the adjacent midday tides of November 26 and 24.
+
+| Station (NOAA id) | Highest November high | Date | Time of high |
+|---|---|---|---|
+| [Garibaldi](/beaches/or/garibaldi-or/) (9437540) | 10.13 ft | Wed, Nov 25, 2026 | 12:23 PM |
+| [Newport / South Beach](/beaches/or/newport-or/) (9435380) | 10.27 ft | Wed, Nov 25, 2026 | 11:52 AM |
+| [Charleston / Coos Bay](/beaches/or/charleston-or/) (9432780) | 9.42 ft | Wed, Nov 25, 2026 | 11:35 AM |
+| [Port Orford](/beaches/or/port-orford-or/) (9431647) | 9.10 ft | Wed, Nov 25, 2026 | 11:07 AM |
+
+*Computed November 14, 2026 from the complete set of predicted November highs in the current fact sheets. Heights are feet above each station's local MLLW datum, not flood depths; times are Pacific. A predicted high is not a flooding forecast and says nothing about conditions or access at a particular beach.*
+
+November 25 is a peak, not the season's peak: every one of these stations still has its October–March maximum on December 24, 2026 (next section). If you photograph the November series, the project's [participation pages](https://www.oregonkingtides.net/) explain where and how to submit.
 
 ## The highest predicted tides at four Oregon stations
 
@@ -62,7 +77,7 @@ At all four covered Oregon stations, the highest predicted tide of **October 1, 
 | [Charleston](/beaches/or/charleston-or/) (9432780) | 9.60 ft | Thu, Dec 24, 2026 | 11:23 AM |
 | [Port Orford](/beaches/or/port-orford-or/) (9431647) | 9.29 ft | Thu, Dec 24, 2026 | 10:54 AM |
 
-*Checked against the September 13, 2026 fact sheets computed from NOAA predictions. Heights are feet above each station's local Mean Lower Low Water (MLLW), not flood depths or a common land elevation. All times on this page are local Pacific time. Predictions are not observations and do not establish conditions or access at a particular beach.*
+*Re-checked against the November 14, 2026 fact sheets computed from NOAA predictions; unchanged since the September 13 computation. Heights are feet above each station's local Mean Lower Low Water (MLLW), not flood depths or a common land elevation. All times on this page are local Pacific time. Predictions are not observations and do not establish conditions or access at a particular beach.*
 
 ## What makes a tide “king”?
 
@@ -116,7 +131,7 @@ These are **each station's five lowest lows whose below-+1.0-ft MLLW window over
 | Wed, Jan 20, 2027 | -1.23 | 5:10 PM | 3:20 PM–7:25 PM | 105 min | 55 (Fair) |
 | Sat, Feb 20, 2027 | -1.18 | 6:21 PM | 4:35 PM–8:20 PM | 75 min | 59 (Fair) |
 
-*All twenty rows checked against the September 13, 2026 fact sheets. Heights are rounded to two decimals; times are Pacific. Score is Tidewindow's 0–100 rating of depth, daylight and timing, not an access or safety rating. The [methodology page](/methodology/) explains the calculation and its limits.*
+*All twenty rows re-checked against the November 14, 2026 fact sheets; unchanged since the September 13 computation. Heights are rounded to two decimals; times are Pacific. Score is Tidewindow's 0–100 rating of depth, daylight and timing, not an access or safety rating. The [methodology page](/methodology/) explains the calculation and its limits.*
 
 ## Daylight in the window is not daylight at the low
 
