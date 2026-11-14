@@ -704,8 +704,19 @@ Preserve owner-held files and the distinct newsletter/experiment gates.
       topic. Do not duplicate the Nov 9 Oregon minus-tide calendar refresh
       or create competing Newport/Coos Bay pages.
 
-- [ ] **California king tides — one state guide for the San Diego and
-      Monterey queries.** Intended new slug `king-tides-california-2027`.
+- [x] **California king tides — one state guide for the San Diego and
+      Monterey queries.** **Done 2026-11-14 heartbeat:** new
+      `king-tides-california-2027` guide covers official Nov–Jan project
+      dates, 12 monthly station peaks checked against all 710 raw highs,
+      and four Nov 25 lower-low/daylight comparisons. CA hub feature runs
+      through Jan 23; national-guide cross-link added. Isolated content
+      build, 93 tests, 150-URL verification, desktop/mobile layout and
+      calendar/Finder navigation pass. Fresh selected-query baseline
+      remains 0 clicks / 30 impressions / position 8.87 (Oct 16–Nov 12).
+      Review after 14 complete post-release days plus GSC final-data lag;
+      no early traffic verdict. MLLW, sea-glass and Sunset Bay leave three
+      ready assignments. See Nov 14 heartbeat journal. Original brief:
+      Intended new slug `king-tides-california-2027`.
       Exact queries: `king tides san diego 2027` 0 / 12 / 9.17;
       `king tides san diego 2026 times` 0 / 8 / 8.13;
       `king tides monterey 2026` 0 / 10 / 9.10. Selected-row subtotal:

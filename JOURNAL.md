@@ -5,6 +5,130 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-14 — Heartbeat: California king-tides guide and verified release
+
+**One primary improvement (§2b/P1):** wrote `king-tides-california-2027`
+for the near-term Nov 24–26 California project dates and the full Nov–Jan
+season. San Diego, La Jolla, Monterey and Pillar Point share one comparison:
+12 monthly high-water peaks, official project dates, and four Nov 25 lower
+lows with sunset/daylight overlap. Every maximum was checked against the
+complete month's raw predictions (710 highs total), then matched to the
+Nov 14 fact sheets; January fact-sheet selection was independently verified
+against all January highs. The low table recomputes window/daylight overlap
+and explicitly separates daylight at the low from daylight earlier in the
+interval, and predictions from access or flooding. All eight cited official
+URLs returned 200 at write time. No route-opening or safety inference.
+
+Added the CA hub feature through Jan 23 and one national-guide cross-link;
+other national tables/title/date retained. Morning operator's Oregon work
+(`6ee2165`, Production deployment `7788006659`, succeeded 13:10:09Z) was
+already live and was not repeated. Zero new articles had been added this
+week; this is one, within the five-piece cap. Three ready P1 assignments
+remain: MLLW, sea-glass and Sunset Bay.
+
+**Baseline and review:** fresh GSC query report, Oct 16–Nov 12, Web/final,
+769 disclosed query rows. Target queries remain `king tides san diego 2027`
+0 clicks / 12 impressions / position 9.17; `king tides san diego 2026 times`
+0 / 8 / 8.13; `king tides monterey 2026` 0 / 10 / 9.10. Selected-row subtotal
+30 impressions, 0 clicks, weighted position 8.87; small sample, not complete
+demand or a demonstrated winner. New URL has no pre-publication traffic or
+indexing baseline. Hypothesis: a focused state guide makes local high-water
+times and the daylight distinction easier to find. First review after 14
+complete post-release days (Nov 15–28) plus finalized GSC lag, approximately
+Dec 1; apply the 100-impression/30-click-event floor before a performance
+verdict and account for the Nov 25 seasonal peak. Publication is not indexing.
+
+**Validation:** isolated archive of committed HEAD plus exactly the two
+article changes, excluding all owner-held edits. Plain `npm run build`
+passed with types, 93 tests, 12 stations × 6 months and 150 sitemap URLs.
+Rendered checks pass: 4 tables / 19 data rows, all 12 monthly peaks, 4 low
+examples, 22 internal links, canonical, 4 FAQs, OG image and both inbound
+links. At 1242px desktop and 390px mobile, document width equals viewport;
+all four mobile tables fit their 350px article. Monterey selector opens
+its calendar email form, and test ZIP 93940 reaches completed Finder
+results for NOAA 9413450 / computed Nov 14. No email submitted or signup
+claimed. No warning/error console logs observed in this bounded local test.
+All 132 pre-existing working files hash-verified unchanged before release.
+
+**Release:** source `acc218a` pushed normally to main. Exact-SHA Vercel
+Production deployment `7791853188` succeeded **18:23:55Z**. At
+**18:24:13.968Z**, guide, CA hub, national guide and sitemap all returned
+200; new guide/link/feature present, sitemap **150 URLs**, and all 12 live
+station JSONs still matched committed Nov 14 data. The live article HTML
+matches the locally verified article exactly. Live desktop browser confirms
+published Nov 14 heading/lead and official-date table; no warning/error
+console logs observed. Screenshot saved with the evidence. Journal/backlog
+are recorded in the follow-up documentation commit; no newsletter sent.
+
+**NOAA/operations:** scheduled refresh `43566901938` started 06:33:14Z,
+generated at 06:34:08.882Z, and pushed `a3b35e5` at 06:36:25.179Z,
+before the operator session. IndexNow accepted 149 URLs, HTTP 200, at
+06:36:22.756Z. Originating cron expression unavailable: no inferred slot
+delay. At 18:12:49.347Z, all 12 production station files returned 200 and
+matched committed Nov 14 data; sitemap had 149 URLs before this addition.
+No Exceptional windows in the complete Nov 14–28 scan; no open issues.
+Production dependency audit: zero vulnerabilities, excludes development
+packages. Old run `43097064631` is the morning operator's documented zombie
+row (cancel API considers it completed, list says queued, zero jobs).
+Independent refreshes work; no second cancellation or recovery dispatch.
+
+**PostHog:** connector unauthorized; configured read-only API worked,
+project 495836, exact host `thetidewindow.com`, `Regular`, complete UTC days.
+Nov 7–13: **1,209 pageviews / 1,129 distinct IDs**, 3 signup events / 3 IDs
+(all `tool_gate`), 14 calendar clicks / 14 IDs, 3 ICS reveals / 3 IDs,
+22 station selections / 18 IDs, 20 results / 17 IDs, no observed Trip
+Picker runs. Oct 17–Nov 13: **3,901 pageviews / 3,650 IDs**, 13 signups /
+12 IDs, 43 calendar clicks / 43 IDs, 11 reveals / 11 IDs, 68 selections /
+52 IDs, 55 results / 48 IDs and 6 picker runs / 4 IDs. IDs/events are not
+verified people, subscribers or an ordered funnel; Regular is not proof
+of humans. Signups remain below the 30-event decision floor. Exit displays
+43/138 (7d/28d) do not restart the closed-unmeasurable experiment or resolve
+its owner-authority conflict. No conversion variant changed.
+
+Seven-day classes reconcile to 1,225 views: 1,209 Regular, 8 Automation,
+2 AI Agent, 6 Bot. Top Regular paths: Oregon king tides 396, national 324,
+Washington 159, Fitzgerald 35, Finder 24. Referrer pageviews: DuckDuckGo
+260, Bing 250, Google 230, direct 199, Yahoo 120; these are not search
+clicks or sessions. Same-filter nearest-rank p75 vitals: LCP 700ms (n=343),
+INP 32ms (n=80), CLS 0 (n=105), from 1,225 vitals events; not CrUX.
+No exception row returned, but capture flags were 1,072 null / 137 false:
+missing/disabled instrumentation is not zero errors.
+
+**Search Console:** GSC Wizard subscription-blocked; configured read-only
+API worked. `sc-domain:thetidewindow.com`, Web/final, property aggregation:
+Oct 15–Nov 11 **450 clicks / 24,372 impressions / position 7.05**, versus
+Sep 17–Oct 14 **316 / 15,483 / 6.92** (**clicks +42.4%**).
+Nov 5–11 **144 / 8,324 / 7.02**, versus Oct 29–Nov 4
+**118 / 5,274 / 7.02** (**clicks +22.0%**). All 28 date rows returned.
+Search exposure and clicks grew; position was broadly stable. These
+windows predate this guide and cannot establish its effect. The separate
+query-report dates above differ; anonymized/disclosed-row limits remain.
+
+**Time-sensitive follow-ups:**
+- First run of week Nov 16: weekly inspection must include Trip Picker and
+  Golden Hour before judging Nov 2 crawl work; Nov 9 was already 33/40.
+- Nov 19 newsletter: source correction is already approved and published.
+  Visual review remains unverified after the earlier file-URL denial;
+  that denial was not retried or routed around. Actual-week fresh-data
+  rendering/recomputation plus consent, suppression and adverse-event
+  checks remain. Nov 12 stays skipped, with no backfill. Read-only Resend
+  check still shows Nov 5 broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f`
+  sent 13:07:16Z, 30 sent/delivered, 1 suppressed, no recorded bounced or
+  complained recipients. No sending, audience sync or schedule change.
+- Restore Oregon's December feature after Nov 27; refresh Washington's
+  December feature before its Nov 30 expiry. Check December-batch indexing
+  around Dec 1 before the next monthly expansion.
+- NPS roads/conditions still report Mora Road closed (storm damage in the
+  conditions page, updated Nov 14). No duplicate access edit; Rialto's
+  expired construction notice does not establish reopening.
+
+Aggregate evidence, factual/rendered checks, build log and browser findings:
+`/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-14/`.
+Next primary candidate: MLLW explainer if health/indexing priority stays
+clear; preserve owner-held drafts and the distinct newsletter gates.
+
+---
+
 ## 2026-11-14 — Oregon November king-tide section; hub feature rolled to the Nov 23–27 event
 
 **Health:** Daily refresh green — scheduled run pushed `a3b35e5` ("data: daily
