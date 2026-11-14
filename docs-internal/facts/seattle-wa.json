@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-13",
+ "generated_on": "2026-11-14",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1813,11 +1813,6 @@
    "commonName": null,
    "scientificName": "Coryphella longicaudata",
    "count": 2
-  },
-  {
-   "commonName": "Pacific Batwing Seaslug",
-   "scientificName": "Gastropteron pacificum",
-   "count": 1
   },
   {
    "commonName": "Fingered Limpet",

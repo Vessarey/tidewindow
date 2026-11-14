@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-13",
+ "generated_on": "2026-11-14",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Opalescent Nudibranch",
    "scientificName": "Hermissenda opalescens",
-   "count": 63
+   "count": 62
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
@@ -2101,13 +2101,13 @@
    "count": 27
   },
   {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 24
-  },
-  {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
+   "count": 25
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
    "count": 24
   },
   {
