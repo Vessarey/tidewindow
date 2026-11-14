@@ -44,7 +44,7 @@ sources:
 
 **King-tide dates are local, not one national weekend. The next cluster at our 12 NOAA stations peaks November 25–27, 2026: La Push (9442396) reaches +10.79 ft MLLW on November 25 at 11:55 AM, Seattle (9447130) +12.70 ft on November 27, Bar Harbor (8413320) +13.08 ft on November 26. December's peaks follow December 24–26; October's fell October 27–29. These are computed monthly peaks, not flooding forecasts. The high-tide schedule comes first below, followed by low-tide windows through March 2027 and the deepest remaining 2026 lows.**
 
-Looking for one state? The [Washington king tides 2026–27 guide](/guides/king-tides-washington-2027/) covers Seattle, Port Townsend and La Push, and the [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) covers Garibaldi through Port Orford, each with its own dates, heights and daylight low-tide windows. California and Maine stations appear in the tables on this page.
+Looking for one state? The [Washington king tides 2026–27 guide](/guides/king-tides-washington-2027/) covers Seattle, Port Townsend and La Push; the [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) covers Garibaldi through Port Orford. The [California king tides 2026–27 guide](/guides/king-tides-california-2027/) compares official project dates with local high-water times from San Diego to Pillar Point. All twelve stations, including Maine, appear in the tables on this page.
 
 ## King tide schedule: October, November and December 2026
 
