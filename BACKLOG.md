@@ -734,7 +734,14 @@ Preserve owner-held files and the distinct newsletter/experiment gates.
       national guide without repeating their full tables. No new station,
       access promise, flood-depth inference or shared tool change.
 
-- [ ] **MLLW meaning — a focused datum explainer.** Intended new slug
+- [x] **MLLW meaning — a focused datum explainer.** Done 2026-11-15
+      (`29c552e`, `/guides/what-does-mllw-mean/`): local-zero/MSL/MLW
+      distinctions and negative-height-is-not-depth via Seattle 9447130
+      (NOAA accepted datum ladder, Nov 25 unequal lows, king-season
+      daylight contrast), all against Nov 15 fact sheets and write-time
+      NOAA fetches; tide-table walkthrough linked, owner-held minus-tide
+      explainer untouched. Baseline below; first review ~Dec 1.
+      Original brief: intended new slug
       `what-does-mllw-mean`. Exact queries: `mllw meaning`
       0 / 20 / 24.80; `mean lower low water` 0 / 4 / 26.25;
       `what is mllw tide` 0 / 2 / 12.00; `mllw tide meaning`

@@ -5,6 +5,81 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-15 — MLLW datum explainer published
+
+**Health:** Daily refresh green — scheduled run pushed `230c1e7` ("data: daily
+NOAA refresh 2026-11-15") at 06:43 UTC, well before session start; last eight
+listed runs green; no open GitHub issues. Pulled with `--rebase --autostash`;
+the owner-held Sep 21/22 working-tree files (Haystack, minus-tide explainer,
+trip-planning, wording tests) and the untracked docs-internal drafts survived
+untouched and remain uncommitted per the standing publication hold. None was
+staged or shipped today.
+
+**Primary action (§2d, P1 top — Nov 13 refill brief, flagged Nov 14 as next
+candidate):** wrote `what-does-mllw-mean`, a focused datum explainer for the
+`mllw meaning` query cluster (27 impressions / 0 clicks / weighted position
+23.48 across four exact queries; no page answered the datum query directly).
+Scope kept distinct from `how-to-read-a-tide-table` per the brief: the local
+reference zero, MLLW versus MSL/MLW, and why a negative height is not water
+depth or beach access. One recomputed station example throughout — Seattle,
+NOAA 9447130: the accepted datum ladder restated MLLW-relative (MSL +6.64 ft,
+MLW +2.83 ft, MHHW +11.36 ft; values 14.58/10.77/19.3/7.94 on station datum,
+accepted Apr 17 2003, epoch 1983–2001, all fetched from the MDAPI datums
+endpoint at write time and recompute-checked), the Nov 25, 2026 unequal-lows
+pair (8.105 ft 11:06 AM vs −3.844 ft 11:11 PM, 11.9 ft apart; DLQ 2.84 ft),
+the three deepest Nov–Dec lows (all 10 PM–midnight, deepest −3.928 ft
+Dec 24 10:58 PM), and the king-season daylight contrast (deepest ≥30-min-
+daylight window low Oct 2026–Mar 2027 is −0.65 ft, Thu Mar 25 2027 1:45 PM).
+Every tide number verified by script against the Nov 15 Seattle fact sheet;
+NOAA datum_options and tides07_cycles fetched at write time for the datum/
+epoch/mixed-tide claims; 4 sources cited; 5 self-contained FAQs; internal
+links (table walkthrough, minus-tide explainer, Finder, Seattle page,
+methodology) checked against routes. No safety or access claims derived from
+tide data. Weekly cap: second article this week (CA guide Nov 14), within 5.
+
+**Validation:** the four owner-held tracked files were stashed, plain
+`npm run build` ran against exactly what deploys (committed HEAD + the new
+article): green, verify-output OK (12 stations × 6 months, 151 sitemap URLs,
+one more than Nov 14's 150), facts/math/format/wording/gsc suites all 0
+failures. Rendered page script-checked for every cited number, all five
+internal links, FAQPage JSON-LD and sitemap presence. Stash popped and
+diff-verified byte-identical afterward. Only the new file was committed.
+
+**Release:** `29c552e` pushed to main; Vercel deployed on push. The guide
+returned 404 at 13:09:29Z and 200 at 13:09:55Z; live HTML carries every
+spot-checked number, the FAQ JSON-LD and the station id (byte-identity not
+expected across build ids). Live sitemap counts 151 URLs and includes the
+new guide.
+
+**Metrics (PostHog, trailing 7d at 13:04 UTC, host thetidewindow.com):**
+1,326 pageviews / 1,249 distinct IDs (prior journal's Nov 7–13 week: 1,209 /
+1,129). Top paths: OR king tides 416, national dates guide 369, WA king
+tides 177, Fitzgerald 30, /beaches/ 25, Finder 22; the Nov 14 CA guide
+already shows 15 views / 14 IDs. Events: 18 station_selected / 16 IDs,
+16 window_result_viewed / 15 IDs, 4 newsletter_signup / 4 IDs, no Trip
+Picker runs. IDs/events are not verified people or an ordered funnel;
+signups remain far below the 30-event decision floor.
+
+**Release baseline (GSC, from the Nov 13 brief):** `mllw meaning` 0/20/24.80,
+`mean lower low water` 0/4/26.25, `what is mllw tide` 0/2/12.00, `mllw tide
+meaning` 0/1/9.00 — subtotal 27 impressions / 0 clicks. Most exposure sits
+outside flywheel positions, so the aim is a page that can rank at all, not a
+reshuffle. First review ~Dec 1 after 14 complete post-release days plus GSC
+lag; apply the 100-impression floor before any verdict. Publication is not
+indexing.
+
+**Tomorrow (Nov 16, first run of week):**
+- §2a′ weekly inspection (`inspect 40`) must include Trip Picker and Golden
+  Hour before judging the Nov 2 crawl work (Nov 9 was 33/40).
+- §2a refill is due first: with MLLW done and minus-tide/Haystack owner-held,
+  only sea-glass and Sunset Bay remain writable — below the three-item floor.
+- Nov 19 Thursday newsletter gates per the Nov 14 notes (fresh-data
+  recompute, consent/suppression/adverse-event checks; Nov 12 stays skipped).
+- After Nov 27 restore the OR hub December feature; before Nov 30 refresh
+  the WA hub December feature. December-batch indexing check around Dec 1.
+
+---
+
 ## 2026-11-14 — Heartbeat: California king-tides guide and verified release
 
 **One primary improvement (§2b/P1):** wrote `king-tides-california-2027`
