@@ -5,6 +5,14 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 15 heartbeat — ready queue refilled after the MLLW release.**
+      Three bounded assignments added in P1: Puget Sound Nov–Dec charts,
+      national January high-water table with its facts-generator prerequisite,
+      and La Jolla current H/L chart/framing. Five writable assignments
+      including sea-glass and Sunset Bay; no second refill needed Nov 16.
+      Weekly inspection must still include Trip Picker and Golden Hour.
+      Morning MLLW publication verified; no article or code changed here.
+
 - [ ] **After Nov 27: restore the Oregon hub's December feature.** The OR
       `featuredRoundup` was rolled to the November 23–27 event on Nov 14
       and expires `2026-11-27`; without action the hub shows no feature from
@@ -658,6 +666,99 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-11-15-refill:start -->
+**Nov 15 heartbeat refill — five assignments writable this week.** The
+morning operator published `what-does-mllw-mean` (`29c552e`); only sea-glass
+and Sunset Bay remained. Required `flywheel 28` and `queries 28` reads:
+Oct 17–Nov 13 inclusive Pacific dates, Web/final, 810 disclosed query rows;
+companion report has 109 page rows. Query clusters below are property-wide,
+not query-by-page attribution or complete demand. No title experiment or
+performance verdict is implied. All three briefs preserve existing URLs,
+titles, original dates, gates and useful historical material; use honest
+`updated:` dates, same-day facts, current official sources where relevant,
+and rendered/link/number checks. Do not release owner-held drafts.
+
+- [ ] **First: Puget Sound chart — replace expired current framing with
+      November–December high/low detail.** Target existing slug
+      `puget-sound-low-tide-calendar-2026`. Exact queries:
+      `puget sound tide chart 2026` 0 clicks / 39 impressions / position 5.97;
+      `seattle tide chart 2026` 0 / 6 / 20.33;
+      `tide chart puget sound` 0 / 2 / 5.00. Selected subtotal: 47
+      impressions, 0 clicks, weighted position 7.77. Separate guide baseline:
+      4 clicks / 291 impressions / position 6.68. The two inline high/low
+      charts still say September–October 2026; the Oct 10 maintenance
+      retained them as history but added no November–December chart.
+      Add current remaining-November and December complete H/L rows for
+      Seattle 9447130 and Port Townsend 9444900 from
+      `daily_extremes_current_and_next_month`, with an explicit as-of date,
+      Pacific clock times, MLLW and station identities. Retain useful
+      September history clearly labeled; make the current chart the clear
+      entry point. Recheck the winter daylight pause from the full relevant
+      window range, without equating no qualifying window with no low tides.
+      Preserve the 2027-return distinction between window overlap and a
+      low occurring in daylight; update existing current-month station
+      links where needed. Do not duplicate the separate Port Townsend
+      article, Seattle Nov 7 refresh, or WA king-tides guide. Content-only
+      build and complete row reconciliation required.
+
+- [ ] **January 2027 high tides — fill the national guide's year/section
+      gap, with the missing monthly fact generated first.** Target existing
+      `king-tides-2026-2027-dates`. Exact queries:
+      `king tides january 2027` 1 click / 65 impressions / position 7.22;
+      `high tide 2027` 0 / 4 / 9.25. Selected subtotal: 69 impressions,
+      1 click, weighted position 7.33. Separate page baseline: 109 clicks /
+      7,173 impressions / position 7.10. Title includes 2027, but the
+      monthly high-water schedule stops at December 2026; the Oct–Mar
+      low-window table answers a different question. Add a scoped January
+      high-water table while keeping November's near-term lead useful and
+      preserving the Nov 12 lowest-remaining section and Nov 14 state links.
+      **Readiness check Nov 15:** complete January raw highs exist for all
+      12 stations (718 total). Eleven monthly maxima also occur in the
+      seasonal fact-sheet top five; Port Townsend's does not. Therefore
+      generate complete monthly high maxima through the normal facts
+      generator before writing a 12-station table; add a bounded fact field
+      and a regression covering Port Townsend's 58 January highs, first-on-
+      tie behavior and no daylight filter. Do not hand-edit fact JSON or
+      infer monthly maxima from the seasonal top five. This prerequisite
+      is part of this one assignment, not a separate unapproved calendar
+      rollout. Code change requires `PIPELINE_REFRESH=1 npm run build` and
+      checks that existing 2026 facts remain stable. No new January month
+      pages or `published-months.json` change; that expansion retains its
+      December indexing gate. Check the print layout after adding the table.
+
+- [ ] **La Jolla / Scripps Pier — current high/low chart plus stale
+      near-term framing.** Target existing
+      `la-jolla-tide-pools-best-dates-2026`. Exact queries:
+      `scripps pier la jolla tides` 0 / 14 / 18.93;
+      `scripps pier tide chart` 0 / 3 / 8.67;
+      `la jolla tide chart` 0 / 4 / 34.25;
+      `la jolla low tide` 0 / 3 / 54.33;
+      `la jolla tide schedule` 0 / 3 / 44.67. Selected subtotal: 27
+      impressions, 0 clicks, weighted position 26.85 (the Scripps pair
+      supplies the flywheel signal; most generic terms rank poorly).
+      Separate guide baseline: 0 clicks / 37 impressions / position 5.65.
+      Modest evidence: factual freshness and matching chart intent are the
+      rationale, not a projected traffic win. Current guide has ranked lows
+      and a September–December summary, but no complete H/L chart; its
+      'Near-term' paragraph still points forward to October 10–29 and its
+      October calendar. Add a bounded remaining-November/December H/L
+      chart for NOAA 9410230 using current daily-extremes facts and update
+      those passed-date pointers. Keep the Sep 28 historical computation
+      honest; recheck all remaining top-eight rankings, raw-low versus
+      modeled-window counts, and low-time-versus-sunset claims over their
+      full stated ranges. Link the now-live California king-tides guide
+      for official project dates rather than duplicating its high-peak
+      comparison. No access guarantee from the table and no new station
+      or city page. Content-only build, all rows and internal links checked.
+
+The existing national guide already has a scoped print view and browser
+Save as PDF path (Sep 14 release); do not create that feature again. The
+'how long does low tide last' question is already answered in the tide-table
+walkthrough. Sea-glass and Sunset Bay are the other two ready assignments.
+The Nov 16 weekly indexing check remains the next higher-priority read;
+this refill resolves the morning journal's request to refill tomorrow.
+<!-- heartbeat-2026-11-15-refill:end -->
 
 <!-- heartbeat-2026-11-13-refill:start -->
 **Nov 13 afternoon refill — five ready assignments.** Today's Cabrillo

@@ -5,6 +5,131 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-15 — Heartbeat: refill the ready queue; verify MLLW release and site health
+
+**One primary improvement (§2a):** added three bounded P1 assignments,
+restoring five writable items after today's MLLW release: Puget Sound's
+current Nov–Dec high/low charts, January high-water detail in the national
+guide, and La Jolla/Scripps Pier chart/freshness maintenance. Each records
+exact query rows, separate page baseline, target slug and verification
+boundaries. Sea-glass and Sunset Bay remain open. No article, application
+code, generated data, conversion variant or newsletter state changed.
+
+Candidate review excluded duplicate work: the national print view already
+shipped Sep 14, and the tide-table walkthrough already answers low-tide
+duration. January's prerequisite is explicit: all 12 stations have complete
+raw highs (718 total); only 11 monthly maxima appear in current seasonal
+fact-sheet top fives. Port Townsend needs a generated monthly fact and
+regression before a complete 12-station January table can ship. No top-five
+selection may substitute for a full-month maximum. This is writable this
+week with bounded pipeline support, and is not January month-page rollout.
+
+**Coordination:** `git pull --ff-only` found main current at `4e1f08b`.
+The morning operator's new MLLW article (`29c552e`) and journal reached
+exact-SHA Production deployment **7803908559**, successful **13:11:05Z**.
+This heartbeat does not repeat that publication. All **132 pre-existing
+working files** were hashed before work and preserved; only BACKLOG and
+this journal are included in this pass's normal documentation commit/push.
+
+**NOAA and live health:** scheduled refresh **43686528568** started
+**06:40:38Z**, generated data at **06:41:31.146Z**, and pushed `230c1e7`
+at **06:43:47.251Z**, before the morning session. IndexNow accepted **150
+URLs / HTTP 200** at **06:43:44.337Z** (before today's new article).
+Refresh output verification passed 12 stations × 6 months / 150 sitemap
+URLs. Later schedule runs are green; no recovery dispatch. Originating cron
+expression unavailable, so no inferred slot-delay calculation. At
+**18:17:57.071Z**, all **12 production station files returned 200 and
+matched committed Nov 15 data**; live sitemap has **151 URLs**, including
+MLLW. No Exceptional window in the complete Nov 15–29 scan; no open issues.
+Production audit reports zero vulnerabilities, excluding dev dependencies.
+The old zombie run remains the Nov 14 operator's resolved API anomaly;
+independent successful refreshes give no reason to repeat cancellation.
+
+**Browser:** today's live MLLW guide renders its Nov 15 date, datum ladder
+and three-low table; desktop viewport/document both 1242px, no horizontal
+overflow. Test ZIP 98116 reaches completed Seattle results, NOAA 9447130,
+computed Nov 15, explicitly showing no daylight minus tide and nighttime
+score-zero rows. Calendar button opens the Seattle email form. No email
+entered/submitted, no subscriber or end-to-end signup claim. No warning/error
+console logs observed in this bounded check. No new mobile or newsletter
+visual-review claim. Screenshot and aggregate browser checks saved.
+
+**PostHog:** connector still requires reauthentication; configured read-only
+API worked for project **495836**, exact host `thetidewindow.com`, `Regular`,
+complete UTC days. **Nov 8–14:** **1,293 pageviews / 1,215 distinct IDs**;
+4 signups / 4 IDs (3 `tool_gate`, 1 `month_gate`), 13 calendar clicks /
+13 IDs, 4 ICS reveals / 4 IDs, 18 station selections / 16 IDs, 16 results /
+15 IDs, no observed Trip Picker runs. **Oct 18–Nov 14:** **4,040 views /
+3,789 IDs**, 14 signups / 13 IDs, 42 calendar clicks / 42 IDs, 12 reveals /
+12 IDs, 64 selections / 51 IDs, 53 results / 47 IDs, 6 picker runs / 4 IDs.
+Events and IDs are not verified people, subscribers or an ordered funnel;
+Regular does not establish human traffic. These complete-day windows differ
+from the morning operator's rolling 13:04 UTC snapshot, not a regression.
+
+Seven-day classes reconcile to **1,307** pageviews: 1,293 Regular,
+4 Automation, 2 AI Agent, 8 Bot. Top paths: Oregon king tides 411,
+national 358, Washington 176, Fitzgerald 33, beaches 25, Finder 21;
+yesterday's California guide has 11 views in this window, too early for a
+performance verdict. Referrer views: DuckDuckGo 274, Bing 270, Google 229,
+direct 222, Yahoo 134 (not search clicks/sessions). Same-filter nearest-rank
+p75 vitals: LCP **672ms (n=363)**, INP **32ms (n=81)**, CLS **0 (n=109)**,
+from 1,315 vitals events, not CrUX. No exception event row returned; capture
+flags were **1,153 null / 140 false**, so this is not evidence of zero errors.
+Signups remain below the 30-event floor; no conversion verdict. Exit displays
+45/139 (7d/28d) neither restart the closed-unmeasurable experiment nor
+resolve the documented owner-authority conflict. No variant/gate changed.
+
+**Search Console:** GSC Wizard remains subscription-blocked; configured
+read-only API worked. Property `sc-domain:thetidewindow.com`, Web/final,
+property aggregation: **Oct 16–Nov 12: 457 clicks / 25,076 impressions /
+position 7.03**, versus **Sep 18–Oct 15: 316 / 15,371 / 6.93**
+(**clicks +44.6%**). **Nov 6–12: 137 / 8,754 / 6.98**, versus
+**Oct 30–Nov 5: 117 / 5,030 / 7.09** (**clicks +17.1%**).
+All 28 date rows returned. Search clicks/exposure grew; average position
+broadly stable. These dates predate both new guides, so no causal claim.
+
+The queue's separate **Oct 17–Nov 13** report fetched all **810 disclosed
+query rows and 109 page rows**. Selected cluster totals: Puget/Seattle chart
+0 clicks / 47 impressions / weighted position 7.77; January highs
+1 / 69 / 7.33; La Jolla/Scripps chart 0 / 27 / 26.85. These are small,
+property-wide disclosed-query samples, not page attribution or full demand.
+The three existing-page baselines and exact queries are in BACKLOG. No
+premature retitle, new thin page or claim of improved indexing.
+
+**Operational deadlines:**
+- **Nov 16:** first run of week must inspect 40 URLs, explicitly including
+  Trip Picker and Golden Hour, before judging Nov 2 crawl work. Nov 9
+  inspection already returned 33/40; no repeat today. Queue refill now done.
+- **Nov 19:** newsletter source correction is approved and published, but
+  allowed full visual review, actual-week fresh rendering/recomputation,
+  consent/suppression and adverse-event checks remain. The earlier file-URL
+  denial was not retried or routed around. Nov 12 stays skipped; no backfill.
+  Read-only check of Nov 5 broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f`
+  still shows sent **13:07:16Z**, **30 sent / 30 delivered**, **1 suppressed**,
+  zero recorded bounced/complained recipients, all pages complete. No new
+  broadcast, sync, recipient record, schedule or account-setting change.
+- Restore Oregon's December feature after **Nov 27**; refresh Washington's
+  before **Nov 30** expiry. Check December month-page indexing around Dec 1
+  before January expansion. California guide review follows 14 complete
+  post-release days plus GSC lag, about Dec 1; today's MLLW release needs
+  its own full post-release window and sample floor.
+- NPS road report and conditions still say Mora Road closed (storm damage
+  in conditions; both pages last updated Nov 14). Rialto's older Oct 15
+  construction notice remains expired, not a reopening signal. No duplicate
+  edit to the already-corrected guides.
+
+**Validation:** documentation-only whitespace/diff check, exact selected
+query/page arithmetic and ready-queue count verified; all 132 held files
+remain byte-identical. No application build or tests rerun for internal
+queue/journal edits; morning refresh/deployment checks are observed health
+evidence, not a new local-build claim. Aggregate API results, candidate
+proof, January readiness check, refresh log, live hashes and browser image:
+`/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-15/`.
+Next action: Nov 16 weekly indexing check; if healthy, Puget Sound chart
+refresh leads the replenished queue.
+
+---
+
 ## 2026-11-15 — MLLW datum explainer published
 
 **Health:** Daily refresh green — scheduled run pushed `230c1e7` ("data: daily
