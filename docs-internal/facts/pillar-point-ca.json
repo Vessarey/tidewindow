@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-14",
+ "generated_on": "2026-11-15",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -2078,7 +2078,7 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 71
+   "count": 72
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -2088,12 +2088,12 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 62
+   "count": 63
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 52
+   "count": 53
   },
   {
    "commonName": "Hilton's Aeolid",
@@ -2103,12 +2103,12 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 22
+   "count": 23
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 21
+   "count": 22
   },
   {
    "commonName": "California Mussel",
@@ -2118,7 +2118,7 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 9
+   "count": 10
   },
   {
    "commonName": "Heath's Dorid",
