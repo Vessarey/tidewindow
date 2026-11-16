@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-15",
+ "generated_on": "2026-11-16",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2080,7 +2080,7 @@
   {
    "commonName": "Yellow Umbrella Slug",
    "scientificName": "Tylodina fungina",
-   "count": 19
+   "count": 20
   },
   {
    "commonName": "Owl Limpet",

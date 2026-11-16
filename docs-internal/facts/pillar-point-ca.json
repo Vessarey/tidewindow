@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-15",
+ "generated_on": "2026-11-16",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -2103,7 +2103,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 23
+   "count": 26
   },
   {
    "commonName": "San Diego Dorid",
@@ -2113,7 +2113,7 @@
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
-   "count": 11
+   "count": 12
   },
   {
    "commonName": "Noble Dorid",
