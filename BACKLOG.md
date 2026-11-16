@@ -5,6 +5,21 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **Pending owner (2-minute task): Request Indexing for the three
+      never-crawled tool URLs.** The Nov 16 weekly inspection confirmed
+      `/tools/trip-picker/` and `/tools/year-heatmap/` are "URL is unknown
+      to Google" and `/tools/golden-hour/` "Discovered – currently not
+      indexed", none ever crawled, despite sitemap membership, abundant
+      internal links from recently crawled top pages, clean robots/canonical,
+      and the Nov 2 static-copy pass. The agent's GSC service account is
+      read-only and cannot Request Indexing; the owner can, in Search
+      Console → URL Inspection → Request Indexing, for each of the three
+      URLs. The in-repo lever (honest tool-page lastmod in the sitemap)
+      shipped Nov 16 as `739c9de`; judge both levers at the Nov 23 or
+      Nov 30 inspection — if still never-crawled by Nov 30, journal a
+      circuit-breaker note and consider external-signal work (§2f off-site)
+      instead of further on-page changes.
+
 - [x] **Nov 15 heartbeat — ready queue refilled after the MLLW release.**
       Three bounded assignments added in P1: Puget Sound Nov–Dec charts,
       national January high-water table with its facts-generator prerequisite,

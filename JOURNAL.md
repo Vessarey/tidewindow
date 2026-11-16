@@ -5,6 +5,66 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-16 — Weekly indexing inspection; honest lastmod for tool pages
+
+**Health:** Daily refresh green — scheduled run pushed `751b112` ("data: daily
+NOAA refresh 2026-11-16") at 06:38 UTC, before session start; the 10:11 UTC
+slot was a 9s skip (refresh already on main); last eight listed runs green;
+no open GitHub issues. Pulled with `--rebase --autostash`; the owner-held
+Sep 21/22 working-tree files (Haystack, minus-tide explainer, trip-planning,
+wording tests) and untracked docs-internal drafts survived untouched and
+remain uncommitted per the standing publication hold. None was staged today.
+
+**Primary action (§2a′, first run of week — Nov 15 deadline note):** ran
+`gsc-query.mjs inspect 40`: 33 of 40 sampled sitemap URLs Submitted and
+indexed, 3 Discovered–not indexed, 2 Crawled–not indexed, 2 unknown.
+Overall coverage healthy (82.5% of sample ≥ the two-thirds bar). The
+required explicit tool check (one-off inspection of all four tool URLs with
+the same read-only credential) found: Finder Submitted and indexed (last
+crawl Nov 9); Trip Picker and Year Heatmap "URL is unknown to Google",
+never crawled; Golden Hour "Discovered – currently not indexed", never
+crawled. **Verdict on the Nov 2 crawl-path pass: two weeks of zero fetches
+— the static-copy addition did not trigger a crawl.** Diagnosis today ruled
+out the known causes: all four tools are in the live sitemap, robots.txt
+allows all, each live page serves `index, follow` plus a correct canonical,
+and the top-5 click guides (fresh `pages 28` read) already link the tools
+(27 articles link Trip Picker, 17 Year Heatmap, 8 Golden Hour). No fake
+sitemap lastmod exists — the opposite: tool pages emitted no lastmod at
+all, so Google gets no freshness signal on exactly these URLs even when
+their copy genuinely changes. Shipped the one honest in-repo lever as
+`739c9de`: a hand-maintained TOOL_UPDATED map in `src/app/sitemap.ts`
+emitting each tool page's last real copy-change date from git history
+(Finder 2026-10-08, Trip Picker 2026-11-04, Year Heatmap 2026-09-17,
+Golden Hour 2026-11-02), with the policy comment updated and an explicit
+never-stamp-with-daily-refresh rule. Added a P0 pending-owner item:
+Request Indexing in the Search Console UI for the three never-crawled
+URLs (the service account is read-only and cannot). Judgment date for
+both levers: the Nov 23/30 inspections; if still never-crawled by Nov 30,
+circuit-breaker note and shift to external-signal work, not more on-page.
+
+**Gates:** `PIPELINE_REFRESH=1 npm run build` in an isolated worktree of
+`751b112` plus only the sitemap change (owner-held edits excluded): green —
+164 static pages, verify-output 12 stations × 6 months / 151 sitemap URLs,
+facts/math/format/wording/GSC suites all pass (14/14 GSC shown, zero
+failures across the chain, exit 0). Built sitemap verified emitting
+`<lastmod>2026-11-04</lastmod>` for Trip Picker. Diff review: only
+`src/app/sitemap.ts` committed; held files byte-identical and unstaged.
+
+**Metrics (PostHog, project 495836, Nov 9–15 UTC complete days):** 1,372
+pageviews / 1,297 distinct IDs; 3 `newsletter_signup` / 3 IDs; 18
+`station_selected` / 16 IDs; 16 `window_result_viewed` / 15 IDs; no
+`trip_picker_run` rows. Flat week-over-week against Nov 8–14 (1,293 views,
+4 signups). Events/IDs are not verified people; signups remain far below
+the 30-event verdict floor — no conversion claims.
+
+**Tomorrow:** queue is full (five writable P1 items; Puget Sound Nov–Dec
+chart refresh leads per the Nov 15 heartbeat). Standing deadlines: Nov 19
+newsletter gates (visual review, fresh-data recompute, consent/suppression
+checks) before any send; Oregon December feature after Nov 27; Washington
+hub feature before Nov 30; December month-page indexing check ~Dec 1.
+
+---
+
 ## 2026-11-15 — Heartbeat: refill the ready queue; verify MLLW release and site health
 
 **One primary improvement (§2a):** added three bounded P1 assignments,
