@@ -17,6 +17,9 @@ export const dynamic = "force-static";
  *   - articles use their frontmatter date/updated; the guides index and the
  *     category pages take the newest article they list;
  *   - finished months keep their real end-of-month date;
+ *   - tool pages carry the date of their last real copy change (hand-maintained
+ *     TOOL_UPDATED below; added 2026-11-16 as a crawl signal for the three
+ *     never-fetched tool URLs — see that day's JOURNAL entry);
  *   - static shells, and current/future month pages whose NOAA predictions do
  *     not change from one day to the next, omit lastmod rather than fake one.
  */
@@ -29,13 +32,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return stamps.length ? new Date(stamps[stamps.length - 1]) : undefined;
   };
 
+  // Dates of the last real, user-visible copy change to each tool page (from
+  // git history of src/app/tools/<slug>/). Update by hand when a tool's
+  // rendered copy actually changes; never stamp these with the daily refresh.
+  const TOOL_UPDATED = {
+    "tide-window-finder": new Date("2026-10-08"),
+    "trip-picker": new Date("2026-11-04"),
+    "year-heatmap": new Date("2026-09-17"),
+    "golden-hour": new Date("2026-11-02"),
+  };
+
   const staticPages: MetadataRoute.Sitemap = [
     { url: absoluteUrl("/"), lastModified: daily, changeFrequency: "daily", priority: 1 },
     { url: absoluteUrl("/tools/"), changeFrequency: "monthly", priority: 0.9 },
-    { url: absoluteUrl("/tools/tide-window-finder/"), changeFrequency: "monthly", priority: 0.9 },
-    { url: absoluteUrl("/tools/trip-picker/"), changeFrequency: "monthly", priority: 0.8 },
-    { url: absoluteUrl("/tools/year-heatmap/"), changeFrequency: "monthly", priority: 0.8 },
-    { url: absoluteUrl("/tools/golden-hour/"), changeFrequency: "monthly", priority: 0.7 },
+    { url: absoluteUrl("/tools/tide-window-finder/"), lastModified: TOOL_UPDATED["tide-window-finder"], changeFrequency: "monthly", priority: 0.9 },
+    { url: absoluteUrl("/tools/trip-picker/"), lastModified: TOOL_UPDATED["trip-picker"], changeFrequency: "monthly", priority: 0.8 },
+    { url: absoluteUrl("/tools/year-heatmap/"), lastModified: TOOL_UPDATED["year-heatmap"], changeFrequency: "monthly", priority: 0.8 },
+    { url: absoluteUrl("/tools/golden-hour/"), lastModified: TOOL_UPDATED["golden-hour"], changeFrequency: "monthly", priority: 0.7 },
     { url: absoluteUrl("/calendars/"), changeFrequency: "monthly", priority: 0.7 },
     { url: absoluteUrl("/beaches/"), lastModified: daily, changeFrequency: "daily", priority: 0.9 },
     { url: absoluteUrl("/guides/"), lastModified: newestOf(articles), changeFrequency: "weekly", priority: 0.8 },
