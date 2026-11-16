@@ -5,6 +5,116 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-16 — Heartbeat: current Puget Sound charts; production health and analytics
+
+**One primary improvement (§2e / ready P1 brief):** refreshed the existing
+`puget-sound-low-tide-calendar-2026` guide with complete November 16–December
+31 high/low tables for Seattle 9447130 and Port Townsend 9444900. All 92 daily
+rows / 352 individual extremes (177 Seattle, 175 Port Townsend) reconcile
+with today's `daily_extremes_current_and_next_month` facts and the complete
+raw predictions, including nighttime lows and highs. The current charts now
+lead, with station jump links, PST/MLLW labels and honest snapshot dates.
+Retained every historical table row and existing heading anchor; marked old
+chart framing as history, changed current-month links to November, and dated
+the historical species snapshot explicitly. Original title, publication date,
+URL and gates stay unchanged. Full November 16–December 31 window scans found
+31 Seattle / 32 Port Townsend below-1-ft modeled windows but zero with ≥30
+minutes of daylight overlap. Rechecked all return milestones across complete
+January 1–November 30, 2027 predictions, including both first minus lows
+occurring after sunset. No score, daylight definition or access claim changed.
+
+**Coordination and release:** the morning operator already ran weekly indexing
+inspection and shipped honest tool-page sitemap dates (`739c9de`, journal
+`e092b83`). Its Vercel status is successful and the four live tool lastmod dates
+match the policy. This pass did not repeat inspection or crawl-path edits.
+Source refresh **`59a862d`** is pushed; exact-SHA Production deployment **7832655357** succeeded at **18:23:04Z**.
+At **18:24:09Z**, live article HTML matched the verified build; the subsequent
+live browser check showed both 46-day charts and the Nov 16 update date. All **132 pre-existing
+working files** remain hash-identical; owner-held September edits and drafts
+were excluded from the isolated source/build and staging.
+
+**Validation:** normal content-only `npm run build` on an isolated archive
+of `e092b83` plus only this article, using the locked dependencies and committed
+Nov 16 data: green, 164 static pages, **93 tests**, output verification for
+12 stations × 6 months / 151 sitemap URLs. Final rendered row reconciliation,
+all article internal links and local anchors pass. External NOAA and NPS
+source URLs returned 200; the existing Federal Reserve holiday source was
+read successfully through web retrieval (direct Python fetch returned 403).
+Desktop (1242px) and mobile (390px) document widths match their viewports;
+both station jump links work, tables wrap within the page, and no warning/error
+console entries were observed in this bounded check. No generated data or
+application code is part of the change. Production dependency audit reports
+zero vulnerabilities, excluding dev dependencies.
+
+**NOAA and live health:** unaided scheduled refresh **43818191303** started
+**06:38:54Z**, generated data at **06:39:45.581Z**, and pushed `751b112` at
+**06:42:01.428Z**, before either operator session. IndexNow accepted **151
+URLs / HTTP 200 at 06:41:58.684Z**; output verification passed. Last eight
+listed scheduled runs are green; the later Nov 16 runs skip today's already
+landed refresh. Originating cron expression unavailable, so no inferred slot
+delay. At **18:18:13.922Z**, all **12 live station JSONs returned 200 and
+matched committed Nov 16 data**. Live sitemap has 151 URLs; no Exceptional
+window in the full Nov 16–30 scan. No open GitHub issues, no recovery dispatch.
+Live Finder test ZIP 98116 selected Seattle, NOAA 9447130, computed Nov 16,
+with completed results and explicit nighttime score-zero rows. Calendar CTA
+opened the Seattle email form; no email entered/submitted and no signup claim.
+
+**Search Console:** native connector unavailable; configured read-only API
+worked. Web/final, property aggregation, `sc-domain:thetidewindow.com`:
+**Oct 17–Nov 13: 476 clicks / 25,970 impressions / position 7.02**, versus
+**Sep 19–Oct 16: 315 / 15,484 / 6.93** (clicks +51.1%; position slightly worse).
+Nov 7–13: 147 clicks / 9,137 impressions / 6.92 versus Oct 31–Nov 6:
+113 / 5,262 / 7.19. These are dated search results, not attribution to today's
+refresh. Separate current content baseline **Oct 18–Nov 14**: Puget guide
+5 clicks / 316 impressions / position 6.70. Exact disclosed query rows:
+`puget sound tide chart 2026` 0/44/5.93; `seattle tide chart 2026` 0/7/18.71;
+`tide chart puget sound` 0/2/5.00. Selected subtotal 0 clicks / 53 impressions /
+weighted position 7.58, property-wide demand rather than query-by-page proof.
+
+**PostHog:** native connector unavailable; configured read-only API returned
+partial results for project **495836**, exact host `thetidewindow.com`,
+**Regular**, complete UTC days. **Nov 9–15: 1,354 pageviews**, 3 signup events /
+3 IDs (2 `tool_gate`, 1 `month_gate`), 12 calendar clicks / 12 IDs, 3 ICS reveals /
+3 IDs, 16 station selections / 14 IDs, 14 window-result views / 13 IDs; no
+Trip Picker event row. **Oct 19–Nov 15: 4,182 views**, 14 signups / 13 IDs,
+43 calendar clicks / 43 IDs, 12 reveals / 12 IDs, 63 selections / 50 IDs,
+51 results / 46 IDs, 6 picker runs / 4 IDs. View totals come from successful
+classification group queries: 7d all-class 1,368 = 1,354 Regular + 4 Automation
++ 2 AI Agent + 8 Bot; 28d all-class 4,206 = 4,182 + 13 + 2 + 9. Repeated
+standalone count/distinct-ID, top-path and vitals queries timed out (HTTP 504).
+**Pageview distinct IDs, top paths and p75 vitals are unavailable in this
+pass, not zero.** Morning journal metrics use a different filter/query snapshot
+and are not silently substituted. Referrer views: DuckDuckGo 284, Bing 283,
+direct 243, Google 224, Yahoo 140 (not search clicks or sessions). No exception
+row returned; capture flags were 1,219 null / 135 false, so absence is not
+proof of zero errors. Regular is not proof of human traffic; event IDs are
+not people/subscribers or an ordered funnel. Signup events remain below the
+30-event floor; no conversion verdict. Exit displays 43/141 (7d/28d) do not
+reopen the closed-unmeasurable experiment or resolve its owner-authority
+conflict. No gate/variant change.
+
+**Operational gates:** read-only Resend refresh of Nov 5 broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f`: still sent, 30 sent, 30 delivered,
+1 suppressed, no recorded bounced/complained recipients (separate recipient
+queries, limit 100, no further page). No broadcast/audience/suppression changes.
+Nov 12 stays skipped. **Nov 19** still needs complete newsletter visual review,
+fresh actual-issue rendering/recomputation and consent/suppression/adverse-event
+gates; source publication approval does not close those gates. The prior
+preview-access denial was not retried or routed around. Three never-crawled
+tools still have a **pending-owner Request Indexing** task; review Nov 23/30,
+with the Nov 30 external-signal circuit breaker preserved. Oregon December
+feature remains after Nov 27; WA hub before Nov 30; December month-page
+indexing review around Dec 1, without early January rollout.
+
+**Next:** four writable P1 assignments remain. January high-water detail in
+the national guide leads, with the complete monthly-fact generator prerequisite
+and Port Townsend regression before any 12-station maximum table. Judge this
+Puget refresh after 14 complete post-release days plus GSC final-data lag
+(earliest check around Dec 3), with the usual sample floors; no forecasted win.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-16/`.
+
+---
+
 ## 2026-11-16 — Weekly indexing inspection; honest lastmod for tool pages
 
 **Health:** Daily refresh green — scheduled run pushed `751b112` ("data: daily

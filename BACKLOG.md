@@ -694,8 +694,20 @@ titles, original dates, gates and useful historical material; use honest
 `updated:` dates, same-day facts, current official sources where relevant,
 and rendered/link/number checks. Do not release owner-held drafts.
 
-- [ ] **First: Puget Sound chart — replace expired current framing with
-      November–December high/low detail.** Target existing slug
+- [x] **Puget Sound chart — current November–December detail.**
+      **Done 2026-11-16 heartbeat, `59a862d`:** added complete Nov 16–Dec 31
+      charts (92 rows / 352 extremes), with full fact/raw/rendered
+      reconciliation and the current chart first. Preserved historical
+      rows, title, URL, date, heading anchors and gates. Full remaining-year
+      daylight scan and 2027 milestones rechecked; content build, 93 tests,
+      desktop/mobile and navigation checks pass. Production deployment
+      `7832655357` succeeded 18:23:04Z; live HTML matches the checked build.
+      Fresh Oct 18–Nov 14 baseline: 0/53/7.58 for the three selected query
+      rows; guide 5 clicks / 316 impressions / 6.70. Review after 14 complete
+      post-release days plus GSC lag (~Dec 3), subject to sample floors.
+      Four writable briefs remain; January high-water detail leads with its
+      required monthly-fact generation/regression prerequisite. Original brief:
+      Target existing slug
       `puget-sound-low-tide-calendar-2026`. Exact queries:
       `puget sound tide chart 2026` 0 clicks / 39 impressions / position 5.97;
       `seattle tide chart 2026` 0 / 6 / 20.33;
