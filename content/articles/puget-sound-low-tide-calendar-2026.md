@@ -1,8 +1,8 @@
 ---
 title: "Puget Sound Tide Chart 2026: Seattle & Port Townsend Low-Tide Calendar"
-description: "September–October 2026 tide charts for Seattle and Port Townsend, the season's archived daylight lows, and the 2027 minus-tide return schedule."
+description: "November–December 2026 tide charts for Seattle and Port Townsend, archived summer lows, and the 2027 daylight minus-tide return schedule."
 date: "2026-07-03"
-updated: "2026-10-10"
+updated: "2026-11-16"
 category: "regional-calendars"
 gateStations: ["port-townsend-wa", "seattle-wa"]
 tags: ["puget sound", "tide chart", "tide table", "low tide calendar", "seattle", "port townsend", "minus tide"]
@@ -10,7 +10,7 @@ faq:
   - q: "What was the deepest daylight low tide in Puget Sound in July–December 2026?"
     a: "−3.80 ft MLLW at Seattle (NOAA station 9447130) on Tuesday, July 14, at 11:20 AM, and −3.48 ft at Port Townsend (station 9444900) the same morning at 10:25 AM. The deepest tide of the whole July–December stretch is actually deeper — −3.93 ft at Seattle on Thursday, December 24 — but it bottoms out at 10:58 PM, in the dark."
   - q: "Are there any daylight minus tides left in Puget Sound in 2026?"
-    a: "No. As of October 10, neither Seattle nor Port Townsend has a qualifying window left in 2026 — a modeled below-+1-ft interval with at least 30 minutes of daylight overlap. Seattle's last was September 10 (−0.35 ft at 10:51 AM); Port Townsend's was October 5 (−0.23 ft at 5:48 AM, before sunrise, scored Skip). Zero qualifying windows does not mean zero low tides: both stations still post 20-plus lows below +1 ft every remaining month, with the deepest arriving after dark."
+    a: "No. As of November 16, neither Seattle nor Port Townsend has a qualifying window left in 2026 — a modeled below-+1-ft interval with at least 30 minutes of daylight overlap. Seattle's last qualifying minus-tide window was September 10 (−0.35 ft at 10:51 AM); Port Townsend's was October 5 (−0.23 ft at 5:48 AM, before sunrise, scored Skip). Zero qualifying windows does not mean zero low tides: each full November and December month has at least 20 lows below +1 ft at both stations, with the deepest arriving after dark."
   - q: "Where can I find a complete Puget Sound tide table for today?"
     a: "Tidewindow's Seattle and Port Townsend station pages show the next seven days of predicted highs and lows for NOAA stations 9447130 and 9444900, and each monthly calendar page carries a complete day-by-day high-and-low table that refreshes daily. NOAA's own predictions pages for those stations are the primary source."
   - q: "When do daylight minus tides return to Puget Sound in 2027?"
@@ -24,7 +24,119 @@ sources:
   - "https://www.federalreserve.gov/aboutthefed/k8.htm"
 ---
 
-**As of October 10, Puget Sound's 2026 daylight season is over: neither Seattle (NOAA 9447130) nor Port Townsend (9444900) has a window with at least 30 minutes of daylight overlap left this year, checked across the full October 10–December 31 predictions. Port Townsend's final one passed on October 5 — −0.23 ft MLLW at 5:48 AM, before sunrise, scored Skip. The tide itself keeps running: 20-plus lows below +1 ft per month at both stations, the deepest after dark. Below are both stations' September–October high-and-low charts, the historical summer dates, and the 2027 return schedule. A modeled window is not a beach-access guarantee.**
+**Seattle (NOAA 9447130) and Port Townsend (9444900) have no remaining 2026 low-tide windows with at least 30 minutes of daylight overlap, checked November 16 across predictions through December 31. Low tides continue: the charts below list every predicted high and low for November 16–December 31, in Pacific time and feet MLLW. Earlier charts are archived below, followed by the 2027 daylight return. These are station predictions; a modeled window does not establish beach access.**
+
+Jump to the [Seattle chart](#seattle-tide-chart-novemberdecember-2026), [Port Townsend chart](#port-townsend-tide-chart-novemberdecember-2026), or [2027 return schedule](#when-do-daylight-minus-tides-return-in-2027).
+
+## Seattle tide chart: November–December 2026
+
+Every predicted high and low from November 16 through December 31 at NOAA station 9447130. All times are local Pacific Standard Time (PST); heights are feet relative to mean lower low water (MLLW). This includes nighttime lows and lows above +1 ft, regardless of their window score.
+
+| Date | Lows (MLLW) | Highs (MLLW) |
+|---|---|---|
+| Mon, Nov 16 | +0.86 ft @ 2:47 AM · +6.74 ft @ 5:35 PM | +11.16 ft @ 10:34 AM · +7.44 ft @ 9:05 PM |
+| Tue, Nov 17 | +1.71 ft @ 3:39 AM · +5.79 ft @ 6:21 PM | +11.16 ft @ 11:18 AM · +7.20 ft @ 10:32 PM |
+| Wed, Nov 18 | +2.64 ft @ 4:35 AM · +4.61 ft @ 6:55 PM | +11.22 ft @ 11:55 AM |
+| Thu, Nov 19 | +3.61 ft @ 5:34 AM · +3.20 ft @ 7:25 PM | +7.41 ft @ 12:00 AM · +11.32 ft @ 12:29 PM |
+| Fri, Nov 20 | +4.59 ft @ 6:34 AM · +1.64 ft @ 7:56 PM | +8.10 ft @ 1:20 AM · +11.44 ft @ 12:59 PM |
+| Sat, Nov 21 | +5.54 ft @ 7:33 AM · +0.02 ft @ 8:30 PM | +9.08 ft @ 2:27 AM · +11.57 ft @ 1:28 PM |
+| Sun, Nov 22 | +6.42 ft @ 8:29 AM · −1.48 ft @ 9:05 PM | +10.16 ft @ 3:25 AM · +11.71 ft @ 1:58 PM |
+| Mon, Nov 23 | +7.16 ft @ 9:22 AM · −2.70 ft @ 9:44 PM | +11.15 ft @ 4:17 AM · +11.81 ft @ 2:31 PM |
+| Tue, Nov 24 | +7.74 ft @ 10:14 AM · −3.52 ft @ 10:26 PM | +11.93 ft @ 5:08 AM · +11.83 ft @ 3:07 PM |
+| Wed, Nov 25 | +8.11 ft @ 11:06 AM · −3.84 ft @ 11:11 PM | +12.44 ft @ 5:57 AM · +11.71 ft @ 3:48 PM |
+| Thu, Nov 26 | +8.25 ft @ 12:00 PM · −3.67 ft @ 11:59 PM | +12.67 ft @ 6:48 AM · +11.40 ft @ 4:35 PM |
+| Fri, Nov 27 | +8.16 ft @ 12:59 PM | +12.70 ft @ 7:39 AM · +10.85 ft @ 5:28 PM |
+| Sat, Nov 28 | −3.01 ft @ 12:49 AM · +7.79 ft @ 2:05 PM | +12.59 ft @ 8:31 AM · +10.06 ft @ 6:29 PM |
+| Sun, Nov 29 | −1.95 ft @ 1:41 AM · +7.07 ft @ 3:20 PM | +12.45 ft @ 9:22 AM · +9.11 ft @ 7:41 PM |
+| Mon, Nov 30 | −0.55 ft @ 2:36 AM · +5.96 ft @ 4:39 PM | +12.31 ft @ 10:12 AM · +8.20 ft @ 9:07 PM |
+| Tue, Dec 1 | +1.08 ft @ 3:33 AM · +4.54 ft @ 5:49 PM | +12.20 ft @ 10:58 AM · +7.69 ft @ 10:50 PM |
+| Wed, Dec 2 | +2.81 ft @ 4:35 AM · +2.99 ft @ 6:46 PM | +12.07 ft @ 11:42 AM |
+| Thu, Dec 3 | +4.46 ft @ 5:44 AM · +1.53 ft @ 7:32 PM | +7.93 ft @ 12:41 AM · +11.90 ft @ 12:21 PM |
+| Fri, Dec 4 | +5.85 ft @ 6:57 AM · +0.30 ft @ 8:12 PM | +8.82 ft @ 2:16 AM · +11.67 ft @ 12:56 PM |
+| Sat, Dec 5 | +6.88 ft @ 8:09 AM · −0.64 ft @ 8:47 PM | +9.92 ft @ 3:29 AM · +11.37 ft @ 1:30 PM |
+| Sun, Dec 6 | +7.57 ft @ 9:15 AM · −1.26 ft @ 9:19 PM | +10.90 ft @ 4:26 AM · +11.04 ft @ 2:02 PM |
+| Mon, Dec 7 | +7.98 ft @ 10:12 AM · −1.62 ft @ 9:51 PM | +11.62 ft @ 5:12 AM · +10.71 ft @ 2:34 PM |
+| Tue, Dec 8 | +8.20 ft @ 11:01 AM · −1.75 ft @ 10:23 PM | +12.03 ft @ 5:52 AM · +10.40 ft @ 3:08 PM |
+| Wed, Dec 9 | +8.26 ft @ 11:45 AM · −1.71 ft @ 10:57 PM | +12.20 ft @ 6:26 AM · +10.12 ft @ 3:44 PM |
+| Thu, Dec 10 | +8.20 ft @ 12:24 PM · −1.53 ft @ 11:33 PM | +12.20 ft @ 6:56 AM · +9.84 ft @ 4:22 PM |
+| Fri, Dec 11 | +8.04 ft @ 1:03 PM | +12.14 ft @ 7:25 AM · +9.55 ft @ 5:03 PM |
+| Sat, Dec 12 | −1.22 ft @ 12:10 AM · +7.76 ft @ 1:43 PM | +12.07 ft @ 7:55 AM · +9.19 ft @ 5:47 PM |
+| Sun, Dec 13 | −0.75 ft @ 12:49 AM · +7.36 ft @ 2:28 PM | +12.02 ft @ 8:27 AM · +8.74 ft @ 6:35 PM |
+| Mon, Dec 14 | −0.09 ft @ 1:29 AM · +6.77 ft @ 3:16 PM | +11.98 ft @ 9:00 AM · +8.21 ft @ 7:30 PM |
+| Tue, Dec 15 | +0.82 ft @ 2:09 AM · +5.94 ft @ 4:07 PM | +11.95 ft @ 9:33 AM · +7.69 ft @ 8:36 PM |
+| Wed, Dec 16 | +2.00 ft @ 2:52 AM · +4.86 ft @ 4:56 PM | +11.90 ft @ 10:07 AM · +7.37 ft @ 9:56 PM |
+| Thu, Dec 17 | +3.39 ft @ 3:38 AM · +3.53 ft @ 5:42 PM | +11.82 ft @ 10:41 AM · +7.50 ft @ 11:28 PM |
+| Fri, Dec 18 | +4.91 ft @ 4:31 AM · +2.03 ft @ 6:26 PM | +11.76 ft @ 11:15 AM |
+| Sat, Dec 19 | +6.36 ft @ 5:36 AM · +0.46 ft @ 7:09 PM | +8.22 ft @ 1:03 AM · +11.72 ft @ 11:50 AM |
+| Sun, Dec 20 | +7.55 ft @ 6:50 AM · −1.04 ft @ 7:53 PM | +9.35 ft @ 2:27 AM · +11.73 ft @ 12:28 PM |
+| Mon, Dec 21 | +8.33 ft @ 8:03 AM · −2.33 ft @ 8:37 PM | +10.54 ft @ 3:33 AM · +11.80 ft @ 1:08 PM |
+| Tue, Dec 22 | +8.70 ft @ 9:08 AM · −3.30 ft @ 9:23 PM | +11.54 ft @ 4:26 AM · +11.88 ft @ 1:53 PM |
+| Wed, Dec 23 | +8.75 ft @ 10:06 AM · −3.85 ft @ 10:10 PM | +12.26 ft @ 5:13 AM · +11.89 ft @ 2:42 PM |
+| Thu, Dec 24 | +8.53 ft @ 11:00 AM · −3.93 ft @ 10:58 PM | +12.70 ft @ 5:58 AM · +11.77 ft @ 3:34 PM |
+| Fri, Dec 25 | +8.09 ft @ 11:54 AM · −3.52 ft @ 11:46 PM | +12.93 ft @ 6:40 AM · +11.44 ft @ 4:30 PM |
+| Sat, Dec 26 | +7.43 ft @ 12:49 PM | +13.01 ft @ 7:22 AM · +10.85 ft @ 5:29 PM |
+| Sun, Dec 27 | −2.64 ft @ 12:34 AM · +6.59 ft @ 1:48 PM | +13.00 ft @ 8:02 AM · +10.04 ft @ 6:33 PM |
+| Mon, Dec 28 | −1.30 ft @ 1:22 AM · +5.56 ft @ 2:50 PM | +12.92 ft @ 8:42 AM · +9.11 ft @ 7:44 PM |
+| Tue, Dec 29 | +0.43 ft @ 2:10 AM · +4.39 ft @ 3:54 PM | +12.75 ft @ 9:20 AM · +8.26 ft @ 9:05 PM |
+| Wed, Dec 30 | +2.40 ft @ 3:00 AM · +3.15 ft @ 4:57 PM | +12.49 ft @ 9:58 AM · +7.83 ft @ 10:46 PM |
+| Thu, Dec 31 | +4.46 ft @ 3:56 AM · +1.76 ft @ 5:50 PM | +12.11 ft @ 10:37 AM |
+
+*Computed November 16, 2026, from the complete daily-extremes fact sheet for NOAA 9447130. For the full current months, use the [Seattle November calendar](/beaches/wa/seattle-wa/2026-11/) and [December calendar](/beaches/wa/seattle-wa/2026-12/), which refresh daily. The inline chart is a dated snapshot.*
+
+## Port Townsend tide chart: November–December 2026
+
+Every predicted high and low from November 16 through December 31 at NOAA station 9444900. All times are local Pacific Standard Time (PST); heights are feet relative to mean lower low water (MLLW). This includes nighttime lows and lows above +1 ft, regardless of their window score.
+
+| Date | Lows (MLLW) | Highs (MLLW) |
+|---|---|---|
+| Mon, Nov 16 | +0.62 ft @ 1:52 AM | +8.74 ft @ 10:38 AM |
+| Tue, Nov 17 | +1.33 ft @ 2:43 AM · +5.01 ft @ 6:35 PM | +8.69 ft @ 11:08 AM · +5.29 ft @ 9:11 PM |
+| Wed, Nov 18 | +2.14 ft @ 3:36 AM · +4.07 ft @ 6:36 PM | +8.66 ft @ 11:32 AM · +5.18 ft @ 10:56 PM |
+| Thu, Nov 19 | +3.02 ft @ 4:32 AM · +2.88 ft @ 6:49 PM | +8.66 ft @ 11:53 AM |
+| Fri, Nov 20 | +3.96 ft @ 5:30 AM · +1.50 ft @ 7:11 PM | +5.58 ft @ 12:46 AM · +8.71 ft @ 12:15 PM |
+| Sat, Nov 21 | +4.89 ft @ 6:26 AM · +0.05 ft @ 7:39 PM | +6.41 ft @ 2:17 AM · +8.79 ft @ 12:39 PM |
+| Sun, Nov 22 | +5.77 ft @ 7:19 AM · −1.33 ft @ 8:11 PM | +7.38 ft @ 3:23 AM · +8.90 ft @ 1:04 PM |
+| Mon, Nov 23 | +6.53 ft @ 8:10 AM · −2.46 ft @ 8:49 PM | +8.30 ft @ 4:16 AM · +9.02 ft @ 1:31 PM |
+| Tue, Nov 24 | +7.13 ft @ 9:00 AM · −3.21 ft @ 9:30 PM | +9.02 ft @ 5:06 AM · +9.10 ft @ 2:01 PM |
+| Wed, Nov 25 | +7.54 ft @ 9:51 AM · −3.51 ft @ 10:14 PM | +9.49 ft @ 5:54 AM · +9.09 ft @ 2:35 PM |
+| Thu, Nov 26 | +7.73 ft @ 10:47 AM · −3.34 ft @ 11:02 PM | +9.71 ft @ 6:43 AM · +8.90 ft @ 3:17 PM |
+| Fri, Nov 27 | +7.68 ft @ 11:51 AM · −2.76 ft @ 11:52 PM | +9.75 ft @ 7:33 AM · +8.49 ft @ 4:08 PM |
+| Sat, Nov 28 | +7.34 ft @ 1:12 PM | +9.69 ft @ 8:23 AM · +7.82 ft @ 5:11 PM |
+| Sun, Nov 29 | −1.83 ft @ 12:45 AM · +6.62 ft @ 2:55 PM | +9.59 ft @ 9:12 AM · +6.94 ft @ 6:27 PM |
+| Mon, Nov 30 | −0.63 ft @ 1:39 AM · +5.49 ft @ 4:39 PM | +9.50 ft @ 9:56 AM · +6.00 ft @ 7:59 PM |
+| Tue, Dec 1 | +0.78 ft @ 2:34 AM · +4.14 ft @ 5:40 PM | +9.40 ft @ 10:36 AM · +5.33 ft @ 9:55 PM |
+| Wed, Dec 2 | +2.29 ft @ 3:31 AM · +2.76 ft @ 6:23 PM | +9.28 ft @ 11:11 AM |
+| Thu, Dec 3 | +3.80 ft @ 4:32 AM · +1.47 ft @ 6:58 PM | +5.46 ft @ 12:16 AM · +9.13 ft @ 11:40 AM |
+| Fri, Dec 4 | +5.14 ft @ 5:39 AM · +0.37 ft @ 7:28 PM | +6.33 ft @ 2:00 AM · +8.94 ft @ 12:06 PM |
+| Sat, Dec 5 | +6.21 ft @ 6:47 AM · −0.49 ft @ 7:56 PM | +7.39 ft @ 3:13 AM · +8.74 ft @ 12:28 PM |
+| Sun, Dec 6 | +6.96 ft @ 7:51 AM · −1.09 ft @ 8:25 PM | +8.31 ft @ 4:08 AM · +8.54 ft @ 12:50 PM |
+| Mon, Dec 7 | +7.42 ft @ 8:51 AM · −1.45 ft @ 8:54 PM | +8.99 ft @ 4:53 AM · +8.36 ft @ 1:14 PM |
+| Tue, Dec 8 | +7.64 ft @ 9:46 AM · −1.59 ft @ 9:26 PM | +9.40 ft @ 5:33 AM · +8.19 ft @ 1:41 PM |
+| Wed, Dec 9 | +7.70 ft @ 10:39 AM · −1.54 ft @ 10:00 PM | +9.57 ft @ 6:10 AM · +8.03 ft @ 2:13 PM |
+| Thu, Dec 10 | +7.63 ft @ 11:32 AM · −1.36 ft @ 10:37 PM | +9.59 ft @ 6:46 AM · +7.84 ft @ 2:49 PM |
+| Fri, Dec 11 | +7.47 ft @ 12:29 PM · −1.05 ft @ 11:15 PM | +9.51 ft @ 7:21 AM · +7.60 ft @ 3:30 PM |
+| Sat, Dec 12 | +7.20 ft @ 1:37 PM · −0.62 ft @ 11:54 PM | +9.42 ft @ 7:54 AM · +7.28 ft @ 4:13 PM |
+| Sun, Dec 13 | +6.78 ft @ 2:53 PM | +9.34 ft @ 8:25 AM · +6.83 ft @ 5:02 PM |
+| Mon, Dec 14 | −0.05 ft @ 12:33 AM · +6.17 ft @ 3:50 PM | +9.28 ft @ 8:53 AM · +6.25 ft @ 6:06 PM |
+| Tue, Dec 15 | +0.70 ft @ 1:12 AM · +5.37 ft @ 4:23 PM | +9.23 ft @ 9:19 AM · +5.62 ft @ 7:26 PM |
+| Wed, Dec 16 | +1.66 ft @ 1:50 AM · +4.35 ft @ 4:50 PM | +9.18 ft @ 9:44 AM · +5.13 ft @ 8:59 PM |
+| Thu, Dec 17 | +2.81 ft @ 2:31 AM · +3.12 ft @ 5:19 PM | +9.13 ft @ 10:09 AM · +5.08 ft @ 10:52 PM |
+| Fri, Dec 18 | +4.08 ft @ 3:17 AM · +1.74 ft @ 5:51 PM | +9.09 ft @ 10:35 AM |
+| Sat, Dec 19 | +5.38 ft @ 4:17 AM · +0.30 ft @ 6:26 PM | +5.78 ft @ 1:19 AM · +9.10 ft @ 11:01 AM |
+| Sun, Dec 20 | +6.51 ft @ 5:31 AM · −1.07 ft @ 7:04 PM | +6.93 ft @ 2:49 AM · +9.17 ft @ 11:28 AM |
+| Mon, Dec 21 | +7.33 ft @ 6:44 AM · −2.23 ft @ 7:45 PM | +8.02 ft @ 3:43 AM · +9.28 ft @ 11:58 AM |
+| Tue, Dec 22 | +7.82 ft @ 7:47 AM · −3.08 ft @ 8:28 PM | +8.89 ft @ 4:27 AM · +9.38 ft @ 12:35 PM |
+| Wed, Dec 23 | +8.02 ft @ 8:44 AM · −3.52 ft @ 9:14 PM | +9.48 ft @ 5:08 AM · +9.41 ft @ 1:21 PM |
+| Thu, Dec 24 | +7.97 ft @ 9:39 AM · −3.53 ft @ 10:01 PM | +9.81 ft @ 5:49 AM · +9.29 ft @ 2:16 PM |
+| Fri, Dec 25 | +7.69 ft @ 10:38 AM · −3.10 ft @ 10:49 PM | +9.95 ft @ 6:28 AM · +8.97 ft @ 3:19 PM |
+| Sat, Dec 26 | +7.18 ft @ 11:42 AM · −2.27 ft @ 11:37 PM | +9.96 ft @ 7:08 AM · +8.40 ft @ 4:23 PM |
+| Sun, Dec 27 | +6.42 ft @ 12:55 PM | +9.91 ft @ 7:46 AM · +7.60 ft @ 5:31 PM |
+| Mon, Dec 28 | −1.09 ft @ 12:25 AM · +5.40 ft @ 2:13 PM | +9.83 ft @ 8:22 AM · +6.64 ft @ 6:45 PM |
+| Tue, Dec 29 | +0.38 ft @ 1:12 AM · +4.19 ft @ 3:27 PM | +9.72 ft @ 8:56 AM · +5.75 ft @ 8:14 PM |
+| Wed, Dec 30 | +2.04 ft @ 1:58 AM · +2.92 ft @ 4:32 PM | +9.55 ft @ 9:28 AM · +5.34 ft @ 10:21 PM |
+| Thu, Dec 31 | +3.75 ft @ 2:47 AM · +1.56 ft @ 5:21 PM | +9.33 ft @ 9:57 AM |
+
+*Computed November 16, 2026, from the complete daily-extremes fact sheet for NOAA 9444900. For the full current months, use the [Port Townsend November calendar](/beaches/wa/port-townsend-wa/2026-11/) and [December calendar](/beaches/wa/port-townsend-wa/2026-12/), which refresh daily. The inline chart is a dated snapshot.*
 
 ## The last run of 2026: September 5–10
 
@@ -43,7 +155,7 @@ Port Townsend ran the same mornings roughly 50 minutes earlier and a shade deepe
 
 ## Seattle tide chart: September–October 2026
 
-The chart below covers September 9–October 31 for NOAA station 9447130 — every predicted extreme, not just lows with daylight overlap. September 9–October 9 is retained for reference; October 10 onward is the current planning range. Times are local Pacific time and heights are feet relative to MLLW. A negative low is below that reference level, not proof of access. Notice the September 29–30 minus tides: they occur around 1–2 AM.
+The chart below covers September 9–October 31 for NOAA station 9447130 — every predicted extreme, not just lows with daylight overlap. The entire September 9–October 31 range is now historical reference; use the November–December chart above for current dates. Times are local Pacific time and heights are feet relative to MLLW. A negative low is below that reference level, not proof of access. The September 29–30 minus tides occurred around 1–2 AM.
 
 | Date | Lows (MLLW) | Highs (MLLW) |
 |---|---|---|
@@ -101,13 +213,13 @@ The chart below covers September 9–October 31 for NOAA station 9447130 — eve
 | Fri, Oct 30 | −2.69 ft @ 2:05 AM · +8.03 ft @ 3:03 PM | +11.82 ft @ 9:41 AM · +10.22 ft @ 7:32 PM |
 | Sat, Oct 31 | −1.97 ft @ 2:59 AM · +7.92 ft @ 4:24 PM | +11.61 ft @ 10:47 AM · +9.38 ft @ 8:37 PM |
 
-*Computed 2026-09-19 from NOAA station 9447130 predictions via the daily-extremes fact sheet; every row re-verified unchanged against the 2026-10-10 refresh. The [September calendar for Seattle](/beaches/wa/seattle-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/seattle-wa/2026-10/) carries the next month's complete chart. Both refresh daily.*
+*Computed 2026-09-19 from NOAA station 9447130 predictions via the daily-extremes fact sheet; every row re-verified unchanged against the 2026-10-10 refresh. The [September calendar for Seattle](/beaches/wa/seattle-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/seattle-wa/2026-10/) retains that month's complete chart. Both are archived month pages.*
 
 September's deepest low at Seattle is −1.47 ft on the 30th at 1:41 AM. The month's deepest low with a qualifying daylight window was Tuesday the 8th's −1.02 ft. Neither number establishes beach access.
 
 ## Port Townsend tide chart: September–October 2026
 
-The same September 9–October 31 range for NOAA station 9444900, retaining the earlier September rows for reference. Compare each date directly: the roughly 50-minute difference on the summer dates is not a fixed offset for every high or low.
+The same archived September 9–October 31 range for NOAA station 9444900; every date in this table is now past. Compare each date directly: the roughly 50-minute difference on the summer dates is not a fixed offset for every high or low.
 
 | Date | Lows (MLLW) | Highs (MLLW) |
 |---|---|---|
@@ -165,7 +277,7 @@ The same September 9–October 31 range for NOAA station 9444900, retaining the 
 | Fri, Oct 30 | −2.55 ft @ 1:09 AM · +7.37 ft @ 2:04 PM | +9.00 ft @ 9:45 AM · +7.93 ft @ 6:06 PM |
 | Sat, Oct 31 | −1.97 ft @ 2:04 AM · +7.19 ft @ 3:46 PM | +8.95 ft @ 10:50 AM · +7.32 ft @ 6:58 PM |
 
-*Computed 2026-09-19 from NOAA station 9444900 predictions via the daily-extremes fact sheet; every row re-verified unchanged against the 2026-10-10 refresh. The [September calendar for Port Townsend](/beaches/wa/port-townsend-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/port-townsend-wa/2026-10/) carries the next month's complete chart. Both refresh daily.*
+*Computed 2026-09-19 from NOAA station 9444900 predictions via the daily-extremes fact sheet; every row re-verified unchanged against the 2026-10-10 refresh. The [September calendar for Port Townsend](/beaches/wa/port-townsend-wa/2026-09/) retains the full month; the [October calendar](/beaches/wa/port-townsend-wa/2026-10/) retains that month's complete chart. Both are archived month pages.*
 
 ## October–December 2026: the tide keeps going, daylight doesn't
 
@@ -236,7 +348,7 @@ All four scored 77 or better on our 0–100 window scale; July 11 and 12 scored 
 
 ## When do daylight minus tides return in 2027?
 
-Here's the ladder back, rechecked 2026-10-10 across the available January–November 2027 predictions. "Daylight" again means at least 30 minutes of overlap in the modeled interval, not that the low instant is in daylight. Good, Great and Exceptional describe Tidewindow scores, not verified access conditions.
+Here's the ladder back, rechecked November 16, 2026, across the complete January 1–November 30, 2027 prediction range. "Daylight" again means at least 30 minutes of overlap in the modeled interval, not that the low instant is in daylight. Good, Great and Exceptional describe Tidewindow scores, not verified access conditions.
 
 | Milestone | Seattle (9447130) | Port Townsend (9444900) |
 |---|---|---|
@@ -252,7 +364,7 @@ Three things worth noting. First, both initial returns bottom out after sunset; 
 
 Same moon, different clock. Port Townsend's lows run about 50 minutes ahead of Seattle's — 7:20 AM versus 8:12 AM on Labor Day — and its windows stretch longer once the sun is fully up: on Tuesday, September 8, Port Townsend got 251 minutes of daylight window against Seattle's 220. Early risers and photographers get more room to work up north.
 
-For place-specific context, use our [Constellation Park tide pools guide](/guides/seattle-alki-constellation-park-tide-pools-2026/) and [Port Townsend guide](/guides/port-townsend-fort-worden-tide-pools-2026/), including their linked park sources. Recent observations within 5 km of the Seattle station include 13 sightings of horned nudibranchs and 7 of white-lined dironas in the last 60 days (station data refreshed 2026-09-19); these are nearby records, not a sighting promise. Full date lists and seven-day high/low tables live on the [Seattle station page](/beaches/wa/seattle-wa/) and the [Port Townsend station page](/beaches/wa/port-townsend-wa/); the [October calendar for Seattle](/beaches/wa/seattle-wa/2026-10/) and [for Port Townsend](/beaches/wa/port-townsend-wa/2026-10/) retain the full daily high-and-low schedules.
+For place-specific context, use our [Constellation Park tide pools guide](/guides/seattle-alki-constellation-park-tide-pools-2026/) and [Port Townsend guide](/guides/port-townsend-fort-worden-tide-pools-2026/), including their linked park sources. The September 19 snapshot recorded 13 horned nudibranch and 7 white-lined dirona observations within 5 km of the Seattle station during the preceding 60 days; these are historical nearby records, not a sighting promise. Full date lists and seven-day high/low tables live on the [Seattle station page](/beaches/wa/seattle-wa/) and the [Port Townsend station page](/beaches/wa/port-townsend-wa/); the [November calendar for Seattle](/beaches/wa/seattle-wa/2026-11/) and [for Port Townsend](/beaches/wa/port-townsend-wa/2026-11/) show the current month’s full daily high-and-low schedules.
 
 ## What does a modeled window tell you?
 
