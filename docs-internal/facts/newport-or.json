@@ -253,6 +253,16 @@
    }
   }
  },
+ "jan_2027": {
+  "highs_compared": 60,
+  "days_with_highs": 31,
+  "highest_tide": {
+   "date": "2027-01-22",
+   "weekday": "Fri",
+   "high_ft": 10.39,
+   "high_time_local": "11:34 AM"
+  }
+ },
  "range_2026": {
   "start_date": "2026-07-01",
   "end_date": "2026-12-31",

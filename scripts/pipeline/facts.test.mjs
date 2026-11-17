@@ -96,6 +96,39 @@ for (const { slug } of index.stations) {
 }
 
 for (const { slug } of index.stations) {
+  test(`${slug} January 2027 high fact compares the complete raw month, first-on-tie, no daylight filter`, () => {
+    const f = facts[slug];
+    // Recomputed from ALL raw January 2027 high predictions: windows (the
+    // low subset) and daylight play no part in this selection.
+    const highs = data[slug].tides.filter((t) => t.type === "H" && t.date.startsWith("2027-01"));
+    assert.equal(f.jan_2027.highs_compared, highs.length, `${slug} highs_compared`);
+    assert.equal(f.jan_2027.days_with_highs, new Set(highs.map((t) => t.date)).size, `${slug} days_with_highs`);
+    // A complete January: high predictions on every one of the 31 days.
+    assert.equal(f.jan_2027.days_with_highs, 31, `${slug} complete-month coverage`);
+    const maxHeight = Math.max(...highs.map((t) => t.height));
+    // On equal heights retain the first prediction in the source sequence.
+    const expected = highs.find((t) => t.height === maxHeight);
+    assert.deepEqual(f.jan_2027.highest_tide, {
+      date: expected.date,
+      weekday: expected.weekday,
+      high_ft: expected.height,
+      high_time_local: expected.timeLocal,
+    }, `${slug} jan 2027 highest`);
+  });
+}
+
+test("port-townsend-wa January 2027 fact is built from its 58 raw highs (the seasonal top five omits its January maximum)", () => {
+  // The Nov 15 readiness check: Port Townsend's January monthly maximum does
+  // not appear in king_season_oct26_mar27_highest5, so a top-five selection
+  // can never substitute for this complete-month fact.
+  const f = facts["port-townsend-wa"];
+  assert.equal(f.jan_2027.highs_compared, 58);
+  const top5Dates = f.king_season_oct26_mar27_highest5.map((t) => t.date);
+  assert.ok(!top5Dates.includes(f.jan_2027.highest_tide.date),
+    "Port Townsend's January maximum must come from jan_2027, not the seasonal top five");
+});
+
+for (const { slug } of index.stations) {
   test(`${slug} daily extremes cover the station-local current and next month and match every prediction`, () => {
     const f = facts[slug];
     const d = data[slug];

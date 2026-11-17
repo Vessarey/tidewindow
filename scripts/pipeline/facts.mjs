@@ -48,6 +48,22 @@ function dailyExtremes(d, now) {
   return out;
 }
 
+// Monthly king-tide schedules need complete H/L predictions, not the
+// low-window subset or the season's top five (which can omit a month).
+// Retain the first source prediction on a tie; do not filter by daylight.
+function highestHighOfMonth(tides, mm) {
+  return (tides ?? [])
+    .filter((t) => t.type === "H" && t.date.startsWith(mm))
+    .reduce((best, t) => (!best || t.height > best.height ? t : best), null);
+}
+
+const briefHigh = (t) => t ? {
+  date: t.date,
+  weekday: t.weekday,
+  high_ft: t.height,
+  high_time_local: t.timeLocal,
+} : null;
+
 function stationFacts(slug) {
   const d = stations[slug];
   const now = d.generatedAt;
@@ -66,25 +82,26 @@ function stationFacts(slug) {
     const dl = daylight(inMonth);
     const minusDl = dl.filter((w) => w.isMinusTide);
     const best = [...dl].sort((a, b) => b.score - a.score)[0];
-    // Monthly king-tide schedules need complete H/L predictions, not the
-    // low-window subset or the season's top five (which can omit a month).
-    // Retain the first source prediction on a tie; do not filter by daylight.
-    const highest = (d.tides ?? [])
-      .filter((t) => t.type === "H" && t.date.startsWith(mm))
-      .reduce((bestHigh, t) => !bestHigh || t.height > bestHigh.height ? t : bestHigh, null);
     months2026[mm] = {
       lows_below_1ft: inMonth.length,
       daylight_windows: dl.length,
       daylight_minus_tides: minusDl.length,
       best_window: best ? brief(best) : null,
-      highest_tide: highest ? {
-        date: highest.date,
-        weekday: highest.weekday,
-        high_ft: highest.height,
-        high_time_local: highest.timeLocal,
-      } : null,
+      highest_tide: briefHigh(highestHighOfMonth(d.tides, mm)),
     };
   }
+
+  // Bounded January 2027 high-water fact for the national king-tides guide's
+  // schedule gap (title says 2027; the monthly tables stopped at Dec 2026).
+  // Same selection rules as months_2026 highest_tide via highestHighOfMonth.
+  // The counts let a writer confirm the complete month was compared; this is
+  // a single-month fact, not a 2027 month-page or calendar rollout.
+  const jan27Highs = (d.tides ?? []).filter((t) => t.type === "H" && t.date.startsWith("2027-01"));
+  const jan2027 = {
+    highs_compared: jan27Highs.length,
+    days_with_highs: new Set(jan27Highs.map((t) => t.date)).size,
+    highest_tide: briefHigh(highestHighOfMonth(d.tides, "2027-01")),
+  };
 
   return {
     generated_on: new Date(now).toISOString().slice(0, 10),
@@ -104,6 +121,7 @@ function stationFacts(slug) {
       .slice(0, 8)
       .map(brief),
     months_2026: months2026,
+    jan_2027: jan2027,
     range_2026: FACT_RANGE_2026,
     annual_note: "2026 aggregates cover Jul 1–Dec 31 inclusive in station-local dates, not the full year; June 30 backfill is excluded. Ended months are included, so cite past windows in the past tense.",
     deepest_2026_daylight_lows_top8: daylight(y2026)

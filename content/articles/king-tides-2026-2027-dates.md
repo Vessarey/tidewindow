@@ -1,8 +1,8 @@
 ---
 title: "King Tides 2026 & 2027 Dates: High-Tide Schedule and Low-Tide Windows"
-description: "King tide dates for 12 NOAA stations: October–December 2026 monthly high-tide peaks, plus low-tide windows through March 2027. Local times and heights."
+description: "King tide dates for 12 NOAA stations: October 2026–January 2027 monthly high-tide peaks, plus low-tide windows through March 2027. Local times and heights."
 date: "2026-07-03"
-updated: "2026-11-12"
+updated: "2026-11-17"
 category: "king-tides"
 gateStations: ["la-jolla-ca", "newport-or", "bar-harbor-me", "seattle-wa"]
 endSignup:
@@ -10,8 +10,8 @@ endSignup:
   blurb: "One email a week, sent Thursdays: the daylight windows worth the drive on your coast, this season's king-tide lows included as they come into range. Computed from NOAA predictions, never padded."
 tags: ["king tides 2027", "king tides 2026", "king tide dates", "king tide schedule", "perigean spring tide", "minus tide", "winter tidepooling", "2026-2027 season"]
 faq:
-  - q: "When are the king tides in late 2026?"
-    a: "There is no single national king-tide date. Across Tidewindow's 12 NOAA stations, the highest predicted tide in each month falls October 27–29, November 25–27, and December 24–26, 2026. These are computed monthly maxima, not an official king-tide event calendar or a flooding forecast. Check the station rows for the exact local time."
+  - q: "When are the king tides in late 2026 and January 2027?"
+    a: "There is no single national king-tide date. Across Tidewindow's 12 NOAA stations, the highest predicted tide in each month falls October 27–29, November 25–27, and December 24–26, 2026, then January 21–25, 2027: Monterey and Pillar Point Harbor peak January 21, seven stations January 22, Bar Harbor January 23, Port Townsend January 24 and Seattle January 25. These are computed monthly maxima, not an official king-tide event calendar or a flooding forecast. Check the station rows for the exact local time."
   - q: "What is a king tide?"
     a: "King tide is an informal name for an exceptionally high tide. A perigean spring tide occurs when a new or full moon aligns near the moon's closest approach to Earth. NOAA explains that local tidal patterns and seasonal conditions also influence high water; an unusually high tide does not by itself identify a perigean event."
   - q: "Do the high-tide dates also give the lowest tides?"
@@ -42,13 +42,13 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=8413320"
 ---
 
-**King-tide dates are local, not one national weekend. The next cluster at our 12 NOAA stations peaks November 25–27, 2026: La Push (9442396) reaches +10.79 ft MLLW on November 25 at 11:55 AM, Seattle (9447130) +12.70 ft on November 27, Bar Harbor (8413320) +13.08 ft on November 26. December's peaks follow December 24–26; October's fell October 27–29. These are computed monthly peaks, not flooding forecasts. The high-tide schedule comes first below, followed by low-tide windows through March 2027 and the deepest remaining 2026 lows.**
+**King-tide dates are local, not one national weekend. The next cluster at our 12 NOAA stations peaks November 25–27, 2026: La Push (9442396) reaches +10.79 ft MLLW on November 25 at 11:55 AM, Seattle (9447130) +12.70 ft on November 27, Bar Harbor (8413320) +13.08 ft on November 26. December's peaks follow December 24–26; October's fell October 27–29. January 2027's peaks land January 21–25. These are computed monthly peaks, not flooding forecasts. The high-tide schedule comes first below, followed by low-tide windows through March 2027 and the deepest remaining 2026 lows.**
 
 Looking for one state? The [Washington king tides 2026–27 guide](/guides/king-tides-washington-2027/) covers Seattle, Port Townsend and La Push; the [Oregon coast king tides 2026–27 guide](/guides/king-tides-oregon-2027/) covers Garibaldi through Port Orford. The [California king tides 2026–27 guide](/guides/king-tides-california-2027/) compares official project dates with local high-water times from San Diego to Pillar Point. All twelve stations, including Maine, appear in the tables on this page.
 
-## King tide schedule: October, November and December 2026
+## King tide schedule: October 2026 through January 2027
 
-Each row selects the **highest predicted high tide in that calendar month** at one station, using all its high-tide predictions—not just daytime tides or the season's five highest. If two predictions tie, the first is shown. This answers the late-2026 schedule question without letting a December peak hide October and November.
+Each row selects the **highest predicted high tide in that calendar month** at one station, using all its high-tide predictions—not just daytime tides or the season's five highest. If two predictions tie, the first is shown. This answers the schedule question month by month without letting a December peak hide October, November or January.
 
 These are station-specific monthly maxima, not a list of every date an official local king-tide program might name. Times are local to the station, including daylight-saving changes. Heights are feet above that station's MLLW datum; they are not flood depths and should not be read as elevations on a common national scale. Predictions are not observations.
 
@@ -105,7 +105,28 @@ October's dates have passed; the table is kept as dated history of the predictio
 | [San Diego (Cabrillo), CA](/beaches/ca/san-diego-ca/) (9410170) | Thu, Dec 24, 2026 | +7.56 | 8:29 AM |
 | [Bar Harbor (Acadia), ME](/beaches/me/bar-harbor-me/) (8413320) | Fri, Dec 25, 2026 | +13.19 | 11:04 AM |
 
-*Computed September 11, 2026 from NOAA CO-OPS predictions. The complete daily high/low tables are different from these one-row-per-month selections: use a station link above for its published month tables, or its NOAA station source below.*
+*The three 2026 tables above were computed September 11, 2026 from NOAA CO-OPS predictions. The complete daily high/low tables are different from these one-row-per-month selections: use a station link above for its published month tables, or its NOAA station source below.*
+
+### January 2027: monthly high-tide peaks
+
+January's peaks spread across five days rather than two or three: Monterey and Pillar Point Harbor peak on January 21, seven stations on January 22, and Bar Harbor, Port Townsend and Seattle on January 23, 24 and 25 respectively. January does not back down from December: Seattle's +13.09 ft on January 25 slightly exceeds its +13.01 ft December peak, and Bar Harbor's +13.19 ft on January 23 is essentially level with its December height. The same new-moon alignment puts the deepest daylight-overlap lows at La Jolla, San Diego and Bar Harbor in this same January 21–23 stretch — see the low-water table further down.
+
+| Station (NOAA id) | Date | High (ft MLLW) | Local time |
+|---|---|---|---|
+| [Seattle (Puget Sound), WA](/beaches/wa/seattle-wa/) (9447130) | Mon, Jan 25, 2027 | +13.09 | 7:16 AM |
+| [Port Townsend, WA](/beaches/wa/port-townsend-wa/) (9444900) | Sun, Jan 24, 2027 | +9.81 | 6:22 AM |
+| [La Push (Olympic Coast), WA](/beaches/wa/la-push-wa/) (9442396) | Fri, Jan 22, 2027 | +10.78 | 11:39 AM |
+| [Garibaldi (Tillamook Bay), OR](/beaches/or/garibaldi-or/) (9437540) | Fri, Jan 22, 2027 | +10.19 | 12:05 PM |
+| [Newport (South Beach), OR](/beaches/or/newport-or/) (9435380) | Fri, Jan 22, 2027 | +10.39 | 11:34 AM |
+| [Charleston (Coos Bay), OR](/beaches/or/charleston-or/) (9432780) | Fri, Jan 22, 2027 | +9.44 | 11:19 AM |
+| [Port Orford, OR](/beaches/or/port-orford-or/) (9431647) | Fri, Jan 22, 2027 | +9.05 | 10:50 AM |
+| [Monterey, CA](/beaches/ca/monterey-ca/) (9413450) | Thu, Jan 21, 2027 | +6.82 | 8:30 AM |
+| [Pillar Point Harbor (Half Moon Bay), CA](/beaches/ca/pillar-point-ca/) (9414131) | Thu, Jan 21, 2027 | +7.11 | 8:43 AM |
+| [La Jolla (Scripps Pier), CA](/beaches/ca/la-jolla-ca/) (9410230) | Fri, Jan 22, 2027 | +6.95 | 8:19 AM |
+| [San Diego (Cabrillo), CA](/beaches/ca/san-diego-ca/) (9410170) | Fri, Jan 22, 2027 | +7.41 | 8:25 AM |
+| [Bar Harbor (Acadia), ME](/beaches/me/bar-harbor-me/) (8413320) | Sat, Jan 23, 2027 | +13.19 | 10:54 AM |
+
+*Computed November 17, 2026 from NOAA CO-OPS predictions, comparing all of each station's January 2027 high-tide predictions — every station has highs on all 31 days — with the same rules as the 2026 tables: first prediction kept on a tie, no daylight filter. Predictions, not observations or a flooding forecast.*
 
 ## What makes a king tide “king”?
 
