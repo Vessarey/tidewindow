@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-16",
+ "generated_on": "2026-11-17",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -2074,7 +2074,7 @@
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 71
+   "count": 70
   },
   {
    "commonName": "Northern Leopard Dorid",

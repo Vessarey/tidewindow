@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-16",
+ "generated_on": "2026-11-17",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1796,6 +1796,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 256,
    "min_to_sun_edge": -19
+  },
+  {
+   "date": "2027-03-16",
+   "weekday": "Tue",
+   "low_ft": -0.409,
+   "low_time_local": "6:24 PM",
+   "window_local": "4:50 PM–8:05 PM",
+   "arrive_by_local": "5:24 PM",
+   "daylight_min": 146,
+   "score": 48,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 259,
+   "min_to_sun_edge": 52
   }
  ],
  "species_last60d_5km": [
@@ -1813,6 +1827,11 @@
    "commonName": null,
    "scientificName": "Coryphella longicaudata",
    "count": 2
+  },
+  {
+   "commonName": "Hind's Chiton",
+   "scientificName": "Mopalia hindsii",
+   "count": 1
   },
   {
    "commonName": "Fingered Limpet",
