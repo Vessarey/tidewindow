@@ -729,8 +729,20 @@ and rendered/link/number checks. Do not release owner-held drafts.
       article, Seattle Nov 7 refresh, or WA king-tides guide. Content-only
       build and complete row reconciliation required.
 
-- [ ] **January 2027 high tides — fill the national guide's year/section
-      gap, with the missing monthly fact generated first.** Target existing
+- [x] **January 2027 high tides — fill the national guide's year/section
+      gap, with the missing monthly fact generated first.**
+      **Done 2026-11-17, `6fd486f`:** bounded `jan_2027` fact per station
+      (complete-month maximum, shared `highestHighOfMonth` helper,
+      first-on-tie, no daylight filter, coverage counts), per-station
+      regressions plus the dedicated Port Townsend test (58 raw January
+      highs; its maximum is absent from the seasonal top five). January
+      table added for all 12 stations (peaks Jan 21–25), FAQ/lede extended,
+      honest per-table computed dates, verify-output gate now 7 tables.
+      Isolated `PIPELINE_REFRESH=1` build green (164 pages, 151 URLs, all
+      suites); fresh-fetch facts byte-identical to committed. No January
+      month pages or `published-months.json` change — that rollout keeps
+      its December indexing gate. Judge the section no earlier than ~Dec 3
+      (GSC lag + sample floors). Original brief: Target existing
       `king-tides-2026-2027-dates`. Exact queries:
       `king tides january 2027` 1 click / 65 impressions / position 7.22;
       `high tide 2027` 0 / 4 / 9.25. Selected subtotal: 69 impressions,
