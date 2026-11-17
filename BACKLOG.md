@@ -5,6 +5,18 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 17 heartbeat — independently verified Next security patch.**
+      Source `2ead089`: Next/eslint-config-next 16.4.4 → 16.4.6;
+      official registry/advisories independently confirmed the affected
+      version. Production audit one moderate package entry → zero;
+      fresh/committed-data builds, 106 tests, lint, 151-URL verification,
+      local/mobile and live Finder/calendar-form checks pass. Production
+      deployment 7862340435 succeeded 18:25:14Z. All 132 held files
+      preserved; main installed dependencies synchronized. Morning January
+      release also verified live. No content edit or newsletter send;
+      La Jolla remains the next ready P1 item. See Nov 17 heartbeat journal
+      for remaining development audit findings and operational gates.
+
 - [ ] **Pending owner (2-minute task): Request Indexing for the three
       never-crawled tool URLs.** The Nov 16 weekly inspection confirmed
       `/tools/trip-picker/` and `/tools/year-heatmap/` are "URL is unknown
@@ -3072,6 +3084,13 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       accept npm's proposed ESLint/Next-config/serve force-downgrades.
       Preview remains loopback-only with compression disabled. This
       supersedes old package-count snapshots, not the exposure caveats.
+      **Nov 17 recheck:** after the bounded Next 16.4.6 patch,
+      production audit remains zero; full audit is **19 development
+      entries (7 moderate, 12 high)**, down from today's 20 entries
+      (8 moderate, 12 high). This is the current count, not the Nov 2
+      snapshot above. No new affected package names introduced. The
+      compression/serve and lint/glob/type-tooling follow-ups remain;
+      today's preview used Python bound to 127.0.0.1.
       **Nov 4 read:** fresh locked installation reports 12 full-audit
       entries (9 moderate / 3 high); production-only audit remains zero.
       Compression/serve and zod remain high. No lockfile patch or audit fix

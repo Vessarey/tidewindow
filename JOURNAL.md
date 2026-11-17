@@ -5,6 +5,105 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-17 — Heartbeat: independently verified Next security patch
+
+**One primary improvement:** Next and eslint-config-next 16.4.4 → 16.4.6,
+source `2ead089`. Deferred La Jolla's ready P1 brief after independently
+checking the morning build advisory: today's production npm audit reports
+one moderate package entry (Next), with GHSA-mfr8-8qww-v76h and
+GHSA-vc7v-qv4w-wrv8. Both official advisories affect 16.4.4 and are fixed
+from 16.4.5; selected the verified stable 16.4.6 patch, including the
+subsequent maintenance fixes. This follows the existing bounded-security
+maintenance workflow, based on registry/vendor evidence rather than executing
+the agent-directed command in the morning log. No broad/force upgrade or
+security-check bypass. Only the two manifest/lock files changed; lock diff
+is confined to Next's package family. Static export, unoptimized images,
+no use-cache/unstable-cache call sites and no dynamic request handlers limit
+applicable runtime exposure; this is not an observed-compromise claim.
+Sources: https://github.com/vercel/next.js/security/advisories/GHSA-mfr8-8qww-v76h
+and https://github.com/vercel/next.js/security/advisories/GHSA-vc7v-qv4w-wrv8;
+maintenance release https://github.com/vercel/next.js/releases/tag/v16.4.6.
+
+**Gates/release:** isolated archive of `75b84b4`, clean lockfile install,
+`PIPELINE_REFRESH=1 npm run build`, then restored committed pipeline outputs
+and ran plain `npm run build`: both green, 164 static pages, **106 tests**,
+12 stations × 6 months / 151 sitemap URLs verified. Lint green; TypeScript
+checked in builds. No warning/security abort observed in either build.
+Fresh NOAA tides match all 12 committed station prediction arrays; facts
+byte-identical. Window differences were confined to refreshed `conditions`
+fields; no Action-owned output committed. National-guide article HTML matches
+the pre-change live baseline. Browser ZIP 98116 → Seattle results → calendar
+email form passes; no email submitted, no console warn/error observed, and
+mobile viewport/document both 390px. Main dependencies synchronized with
+`npm ci`; installed/locked Next and lint config 16.4.6. All **132 held files**
+hash-preserved. Exact-source Vercel status succeeded at 18:25:13Z; Production deployment
+7862340435 succeeded at 18:25:14Z. Live home, Finder, national guide and
+sitemap return 200; all ten Finder script assets return 200. Live national
+article HTML matches the tested build. The live chunk names differ from
+local output, so exact asset-byte parity is not claimed. Live ZIP → Seattle
+results → calendar form verified after load, without submitting an email;
+no browser warn/error observed. The immediate post-navigation fill was
+cleared before the first click; the post-load interaction succeeded.
+
+Production audit: **one moderate package → zero findings**. Full audit:
+20 entries (8 moderate / 12 high) → 19 (7 moderate / 12 high), no new affected
+package names. Development findings remain, including serve/compression and
+lint/glob/type tooling; do not call the full dependency tree clean. Preview
+used Python on loopback, not the vulnerable serve/compression path.
+
+**Coordination/health:** morning January release is confirmed live: exact-SHA
+`75b84b4` Production deployment 7854345197 succeeded 13:17:06Z; browser shows
+all 12 January rows. No duplicate content edit. Scheduled refresh 44042984661
+started 07:59:44Z, generated at 08:00:34.479Z and pushed `25bac75` at
+08:02:41.314Z, before the operator. IndexNow accepted 151 URLs / HTTP 200
+at 08:02:38.856Z. Last eight scheduled runs green; no open issues, no recovery.
+Originating cron expression unavailable, so no inferred slot delay. At
+18:18:22.175Z all 12 production station files returned 200 and matched today's
+committed data. Sitemap 151 URLs; no Exceptional window in Nov 17–Dec 1.
+
+**Analytics:** native PostHog requires reauthentication; GSC Wizard requires
+a paid subscription. No access/billing changes; configured read-only APIs
+worked. GSC Web/final, property aggregation, complete date rows:
+Oct 19–Nov 15 **511 clicks / 27,868 impressions / position 7.02**, versus
+Sep 21–Oct 18 **314 / 15,865 / 6.99** (clicks +62.7%; position nearly flat).
+Nov 9–15: 161 / 9,760 / 6.91 versus Nov 2–8: 123 / 6,356 / 7.26.
+No causal attribution to today's patch or this morning's content.
+
+PostHog project 495836, exact host `thetidewindow.com`, Regular, complete UTC
+days. Nov 10–16: **1,355 views / 1,288 distinct IDs**, 3 signup events / 3 IDs
+(2 tool_gate, 1 month_gate), 14 calendar clicks / 14 IDs, 3 ICS reveals / 3 IDs,
+17 selections / 15 IDs, 13 results / 12 IDs; no Trip Picker row. Oct 20–Nov 16:
+**4,313 views / 4,064 IDs**, 14 signups / 13 IDs, 45 calendar clicks / 45 IDs,
+12 reveals / 12 IDs, 62 selections / 51 IDs, 51 results / 46 IDs, 3 picker runs /
+3 IDs. Seven-day classes reconcile to 1,367 views: 1,355 Regular + 4 Automation
++ 8 Bot. Morning 1,367 matches the all-class count, not a subsequent drop.
+IDs/Regular are not verified humans or subscribers; events are not an ordered
+funnel. Signup events remain below the 30-event floor; no conversion verdict.
+Exit displays 48/147 (7d/28d) do not reopen the closed-unmeasurable experiment
+or resolve the owner-authority conflict. No gate or variant changed.
+
+Top 7d paths: Oregon king tides 392, national 385, Washington 192, California
+57, Fitzgerald 28, beaches 24, Puget guide 21, Finder 19. Referrer views:
+Bing 283, DuckDuckGo 274, direct 242, Google 228, Yahoo 144; not search clicks.
+Nearest-rank p75: LCP 632ms (n=387), INP 32ms (n=89), CLS 0 (n=122), from
+1,402 vitals events, not CrUX. No exception row; capture flags 1,223 null /
+132 false mean this cannot establish zero errors.
+
+**Operational gates/next:** Nov 5 Resend broadcast
+`07bf317d-b839-4aac-9d62-246d4c24b51f` remains sent: read-only checks found
+30 sent, 30 delivered, 1 suppressed, no recorded bounced/complained recipients.
+No send, audience or suppression change. Approved Trip Picker wording remains
+in source; Nov 19 still needs full newsletter visual review, fresh actual-issue
+render/recompute and consent/suppression/adverse-event gates. Prior denied
+preview access was not retried. Owner Request Indexing for three tools remains
+pending (Nov 23/30 review, Nov 30 circuit breaker). OR feature after Nov 27;
+WA before Nov 30; December indexing before January month-page expansion.
+Three writable P1 items remain: La Jolla leads, then sea-glass and Sunset Bay.
+Keep the existing development-dependency follow-up open. Evidence:
+`/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-17/`.
+
+---
+
 ## 2026-11-17 — January 2027 high-water schedule in the national guide
 
 **Health:** Daily refresh green — the 07:59:44Z scheduled run pushed `25bac75`
