@@ -778,9 +778,15 @@ and rendered/link/number checks. Do not release owner-held drafts.
       pages or `published-months.json` change; that expansion retains its
       December indexing gate. Check the print layout after adding the table.
 
-- [ ] **La Jolla / Scripps Pier — current high/low chart plus stale
-      near-term framing.** Target existing
-      `la-jolla-tide-pools-best-dates-2026`. Exact queries:
+- [x] **La Jolla / Scripps Pier — current high/low chart plus stale
+      near-term framing.** **Done 2026-11-18 operator (`7bc8ecf`):** 44-day
+      Nov 18–Dec 31 H/L chart from same-day daily-extremes facts; passed
+      October pointers replaced with the verified Nov 22–27 run; top-8 and
+      monthly tables re-verified unchanged; chart FAQ added; stale species
+      snapshot rebuilt from same-day facts; CA king-tides guide linked.
+      Isolated content build green (164 pages, 151 URLs, 106 tests);
+      all rows recompute-checked. See 2026-11-18 journal. Original brief:
+      Target existing `la-jolla-tide-pools-best-dates-2026`. Exact queries:
       `scripps pier la jolla tides` 0 / 14 / 18.93;
       `scripps pier tide chart` 0 / 3 / 8.67;
       `la jolla tide chart` 0 / 4 / 34.25;

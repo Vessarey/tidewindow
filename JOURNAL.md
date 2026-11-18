@@ -5,6 +5,73 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-18 — La Jolla: current Scripps Pier tide chart; stale framing retired
+
+**Health:** Daily refresh green — the 07:36:40Z scheduled run pushed `5f552b4`
+("data: daily NOAA refresh 2026-11-18") before session start; the 10:45Z slot
+was a 10s skip (refresh already on main). Last eight listed runs green; no
+open GitHub issues; no recovery dispatch. Originating cron expressions
+unavailable, so no slot-delay calculation. Pulled with `--rebase --autostash`;
+the owner-held Sep 21/22 files (Haystack, minus-tide explainer, trip-planning,
+wording tests) and untracked docs-internal drafts survived untouched and
+remain uncommitted per the standing publication hold. None was staged today.
+
+**Primary action (§2d/§2e, the leading P1 brief):** shipped `7bc8ecf` —
+the La Jolla guide (`la-jolla-tide-pools-best-dates-2026`) now carries a
+complete 44-day high/low chart for NOAA 9410230, November 18–December 31,
+generated programmatically from today's `daily_extremes_current_and_next_month`
+facts (Puget-chart format: PST, MLLW, nighttime lows included, no-access
+disclaimer, daily-refresh calendar links, dated-snapshot note). The stale
+'Near-term' paragraph (October 10–29 pointers, all passed) was replaced with
+the verified Thanksgiving run: afternoon minus lows every day Nov 22
+(−0.51 ft 1:38 PM) through Nov 27 (−1.12 ft 5:41 PM), bottom Nov 25 −1.51 ft
+3:55 PM, drift 43–55 min/day, Nov 26/27 lows 3 and 58 minutes after sunset
+(golden-hour facts `min_to_sun_edge`). The remaining top-8 table re-verified
+row-for-row against today's `deepest_2026_daylight_lows_remaining_top8`
+(unchanged since 2026-08-18) and reframed from the passed Sep 28 range; the
+Sep 28 after-sunset count is now explicitly attributed to that edition. The
+monthly table re-verified against `months_2026` (all four months OK). Stale
+FAQ 3 (fall pivot, passed dates) replaced with a Scripps Pier tide-chart FAQ
+matching the brief's flywheel queries. Side-fix: the 'right now' species
+section was two months stale and factually wrong for current data — rebuilt
+from today's `species_last60d_5km` (California seahare leads at 33; owl
+limpet and lesser two-spot octopus crack the top ten; 163 observations;
+compiled-date updated). Added the California king-tides guide link for
+official project dates per the brief; no new station, page, or tool change.
+
+**Gates:** isolated worktree of `5f552b4` plus only the article change
+(owner-held edits excluded), cloned node_modules (a symlinked node_modules
+breaks Turbopack's hermetic root — note for future isolated builds): prebuild
+pipeline refetched NOAA and left all tracked facts/data byte-identical; build
+exit 0, 164 static pages, verify-output 12 stations × 6 months / 151 sitemap
+URLs, 106 tests pass / 0 fail. Recompute-check script verified all 44 chart
+rows, the top-8 rows, the monthly table and the species table against the
+fact sheets (all MATCH/OK). Built HTML confirms the chart anchor id and the
+CA-guide link render. Diff review: only the one intended file committed.
+
+**Metrics (PostHog, project 495836, host thetidewindow.com, trailing 7 days
+at query time):** 1,404 pageviews / 1,345 distinct IDs; 2 `newsletter_signup`;
+13 `station_selected` / 10 `window_result_viewed`; no `trip_picker_run` rows.
+Top paths: OR king tides 401, national 388, WA 187, CA 93, Fitzgerald 32.
+Events/IDs are not verified people; signups remain far below the 30-event
+verdict floor — no conversion claims. La Jolla guide baseline from the brief:
+0 clicks / 37 impressions / position 5.65; judge the chart no earlier than
+~Dec 3 with sample floors.
+
+**Velocity:** 0 new articles this week; today is a chart/refresh pass on an
+existing guide. Caps respected.
+
+**Tomorrow (Nov 19, Thursday):** (1) newsletter run — the full gate list from
+the Nov 12/16 entries stands: complete visual review, fresh actual-issue
+rendering/recomputation, consent/suppression/adverse-event checks;
+`--owner-reviewed` covers the established template only. (2) Verify today's
+`7bc8ecf` Production deployment went green and the live guide serves the
+chart. (3) Remaining P1: sea-glass and Sunset Bay. (4) P0 pending owner:
+Request Indexing for the three never-crawled tool URLs (review Nov 23/30).
+(5) After Nov 27: OR hub December feature; WA hub before Nov 30.
+
+---
+
 ## 2026-11-17 — Heartbeat: independently verified Next security patch
 
 **One primary improvement:** Next and eslint-config-next 16.4.4 → 16.4.6,
