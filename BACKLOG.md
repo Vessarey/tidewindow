@@ -5,6 +5,14 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 18 heartbeat — ready queue refilled after La Jolla.**
+      Three bounded P1 briefs added from current GSC and article evidence:
+      Oregon January high-water times, Cabrillo complete H/L chart, Pacific
+      Grove stale October lead. Five independent writable assignments with
+      sea-glass and Sunset Bay. La Jolla deployment verified; only operating
+      records changed. See today's journal for explicit-UTC metrics and
+      the six-event Brave exception sample; no app fix or suppression.
+
 - [x] **Nov 17 heartbeat — independently verified Next security patch.**
       Source `2ead089`: Next/eslint-config-next 16.4.4 → 16.4.6;
       official registry/advisories independently confirmed the affected
@@ -693,6 +701,99 @@ with the date; add discoveries at the appropriate tier.
       verified; recorded in docs-internal/resend-newsletter.md).
 
 ## P1 — content queue (one per day max; ≤5/week)
+
+<!-- heartbeat-2026-11-18-refill:start -->
+**Nov 18 heartbeat refill — five assignments writable this week.** The
+morning operator completed La Jolla (`7bc8ecf`); only sea-glass and Sunset
+Bay remained independent and ready. Per §2a, added the three bounded briefs
+below. Required `flywheel 28` and `queries 28` reads cover Oct 20–Nov 16
+inclusive Pacific dates, Web/final: 870 disclosed query rows and 107 page
+rows in the companion report. Selected query clusters are property-wide,
+not page attribution or complete demand. Preserve URLs, titles, original
+publication dates and gates; keep historical rows labeled; use same-day
+facts, current official sources, honest `updated:` and the normal content
+build with full number/link/rendered checks. No title experiment or expected
+traffic uplift is established. Owner-held drafts are excluded.
+
+- [ ] **Oregon king tides — add the missing January high-water times.**
+      Target existing `king-tides-oregon-2027`. Six exact queries:
+      `king tides oregon 2027` 1 click / 67 impressions / position 10.07;
+      `oregon king tides 2027` 0 / 45 / 10.09;
+      `king tides 2027 oregon coast` 0 / 34 / 9.50;
+      `oregon coast king tides 2027` 1 / 22 / 10.14;
+      `king tides oregon coast 2027` 0 / 13 / 9.08;
+      `king tides 2027 oregon` 0 / 9 / 10.11.
+      Selected total: **2 clicks / 190 impressions / weighted position
+      9.92**. Separate guide baseline: 49 clicks / 3,300 impressions /
+      position 7.49. The regional guide names January's official photo
+      dates, but its high-water tables show November and the December
+      seasonal peak; January's low-water selections answer another question.
+      Add one four-station January monthly-high table using `jan_2027` in
+      the current fact sheets: Garibaldi, Newport, Charleston and Port Orford.
+      Readiness checked Nov 18: all four have 31 days / 60 raw highs in
+      January, so no new facts-generator work is required. Recompute the
+      monthly maxima from the complete raw range at implementation, not the
+      seasonal top five, and distinguish official photo dates from the
+      station-specific predicted maxima. Re-fetch the Oregon King Tides
+      Project source. Keep November's imminent event prominent; preserve
+      existing tables and the Nov 14 state-hub feature. Link the national
+      January table instead of duplicating its all-station scope. This is
+      independent of the after-Nov-27 Oregon feature rollover: do not mark
+      that later action complete or remove the current feature. No January
+      month-page expansion; the December indexing gate still applies.
+
+- [ ] **Cabrillo — answer complete tide-chart intent beside the hours table.**
+      Target existing `cabrillo-tide-pools-2026`. Exact queries:
+      `cabrillo tide pools tide chart` 0 / 28 / 8.71;
+      `cabrillo tide chart` 0 / 6 / 9.17;
+      `cabrillo national monument tide chart` 0 / 4 / 8.00;
+      `tide chart cabrillo national monument` 0 / 6 / 9.00.
+      Selected total: **0 clicks / 44 impressions / weighted position
+      8.75**. No guide row was returned in the 107-row page report; that
+      is not proof of zero exposure or non-indexing. Separate San Diego
+      November calendar: 18 clicks / 830 impressions / position 5.16;
+      station page: 7 / 649 / 9.19. The Nov 13 guide refresh correctly
+      lists selected minus lows against posted hours, but has no complete
+      high/low chart. Add a dated remaining-November/December chart for
+      NOAA 9410170 from `daily_extremes_current_and_next_month`; 44 days
+      Nov 18–Dec 31 are present in today's facts. Include every high and
+      low, nights, positive lows and closed holidays; label PST/MLLW and
+      explain that a chart is not an access calendar. Retain the separate
+      Nov 13 hours/holiday comparison and its provenance, rechecking NPS
+      hours/closures at write time. Do not repeat its completed 15-low
+      repair or create a Cabrillo Beach/Los Angeles page from the unrelated
+      one-impression query. Keep the La Jolla chart and CA high-water guide
+      distinct; verify all rendered rows and link current station calendars.
+
+- [ ] **Pacific Grove — retire the passed October 25 next-window lead.**
+      Target existing `pacific-grove-tide-pools-2026`. Exact queries:
+      `pacific grove tide chart` 0 / 2 / 2.50;
+      `pacific grove tides` 0 / 1 / 27.00;
+      `low tide monterey` 1 / 2 / 3.00;
+      `what are the best spots and tide times for tidepooling in monterey?`
+      0 / 2 / 6.00. Selected total: **1 click / 7 impressions / weighted
+      position 7.14**; separate guide baseline 1 / 12 / 6.75. Demand is
+      small: factual freshness is the rationale, not a projected SEO win.
+      The September 30 description, bold answer, first table, next-Good
+      paragraph and FAQ 1 still point to October 25; update all current
+      framing from the complete remaining-2026 Monterey 9413450 windows.
+      Preserve the Oct 25–28 rows as an explicitly dated archive. Recheck
+      the existing Nov–Dec rankings, low-time-versus-sunset statements and
+      model offsets, and refresh or clearly date the species snapshot.
+      Same-day November/December daily-extremes facts and complete remaining
+      windows are available. Link the current Monterey calendars and the
+      California king-tides guide; no new H/L chart is required by this
+      small-sample brief. Re-fetch official access/rules sources and do not
+      imply any tide score or one-hour offset establishes access or safety.
+      Preserve title/slug/gates and the September numerical corrections.
+
+Sea-glass and Sunset Bay remain the other two ready briefs. Fitzgerald's
+Nov–Dec chart, La Jolla's new chart, the national January table, California's
+high-water comparison and the national print/Save as PDF path are already
+covered; do not recreate them. Tomorrow's Nov 19 newsletter ritual and its
+unresolved visual/issue-specific gates take priority over this queue.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-18/queue-evidence.json`.
+<!-- heartbeat-2026-11-18-refill:end -->
 
 <!-- heartbeat-2026-11-15-refill:start -->
 **Nov 15 heartbeat refill — five assignments writable this week.** The
@@ -3082,7 +3183,11 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       the first copied-dependency build was not counted as release evidence.
       No production downgrade or dependency change is implied.
 
-- [ ] **Nov 2 development-dependency audit follow-up.** Patched production
+- [ ] **Nov 2 development-dependency audit follow-up.**
+      **Latest Nov 18 read:** production audit zero; full audit 11 entries
+      (8 moderate / 3 high), with high compression/serve/zod. No dependency
+      edit this run; earlier dated counts below are historical snapshots.
+ Patched production
       lock has zero production findings, but full audit reports 21
       development package entries (18 moderate, 3 high). Compression/serve
       remain high; zod is also high. Moderate chains include minimatch

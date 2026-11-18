@@ -5,6 +5,125 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-18 — Heartbeat: refill the ready queue; reconcile UTC analytics
+
+**One primary improvement (§2a):** added three non-conflicting, demand-backed
+P1 briefs after the morning La Jolla release left only sea-glass and Sunset
+Bay ready. Queue now has five independent writable items: Oregon January
+high-water times (190 selected query impressions / weighted position 9.92),
+a complete Cabrillo H/L chart (44 / 8.75), Pacific Grove's stale Oct 25 lead
+(7 / 7.14; freshness rationale, tiny demand), plus the existing two. Read
+`flywheel 28`, `queries 28`, all disclosed queries/pages and actual current
+article coverage first; 870 query rows, 107 page rows, Oct 20–Nov 16 Web/final.
+No duplication of La Jolla, the national January table, Fitzgerald's chart,
+California's high-water guide or the national print path. Oregon's complete
+monthly facts already exist (31 January days / 60 highs at each station);
+Cabrillo/Monterey daily-extremes facts contain all 44 Nov 18–Dec 31 days.
+No app, article, dependency, generated-data or experiment change here.
+
+**Coordination and live health:** local main and origin/main both began at
+`419f1e7`, clean staging area. Morning La Jolla source `7bc8ecf` is included
+in exact-SHA Production deployment 7884230217 (`419f1e7`), successful at
+13:11:49Z. Live guide shows the Nov 18 update, complete Nov 18–Dec 31 chart,
+working chart jump and calendar-email form. Guide → Finder → ZIP 92037
+loads La Jolla's current results (computed Nov 18); no warn/error in the
+observed Chrome session, no email submitted. All 12 live station files
+returned HTTP 200 and byte-match today's committed data at 18:15:34Z;
+generated 07:37:21.986Z. Sitemap has 151 URLs. No Exceptional-score window
+in Nov 18–Dec 2. The imminent November king-tide series is already surfaced
+in the current regional guides/features; no duplicate seasonal article.
+
+**NOAA refresh:** scheduled run 44260232362 started 07:36:40Z, generated
+07:37:21.986Z and pushed `5f552b4` at 07:39:15.167Z, before the operator.
+IndexNow accepted 151 URLs / HTTP 200 at 07:39:12.784Z. Last eight listed
+scheduled runs green; later slots skipped after detecting today's refresh.
+No recovery needed; originating cron expression unavailable, so no inferred
+slot-delay calculation. No open GitHub issues. Today's scheduled build's
+106 tests and 151-URL output gate passed; these are CI observations, not a
+new local build for this documentation-only change.
+
+**Search:** configured read-only GSC API works; GSC Wizard requires an active
+paid subscription. No billing/access change. Web/final property totals and
+all 28 daily rows: Oct 20–Nov 16 **520 clicks / 28,627 impressions / position
+7.00**, versus Sep 22–Oct 19 **321 / 16,075 / 7.00** (clicks +62.0%; position
+flat). Nov 10–16 **162 / 9,808 / 6.90**, versus Nov 3–9 **131 / 6,867 / 7.19**.
+No causal attribution to yesterday's dependency patch or today's chart.
+Query selections are property-wide, not page attribution; anonymous rows
+are omitted. La Jolla baseline now 0 / 31 / 3.77: not enough to judge the
+new chart, and it predates release. Retain the post-release review window
+around Dec 3, with the playbook's sample floors.
+
+**Measurement correction:** PostHog's native connector still needs
+reauthentication; the configured read-only API worked. The initial bare-date
+queries used project-local boundaries: the exception detail included Nov 17
+23:53 at UTC−5, outside a Nov 18 00:00 UTC cutoff. Reran every reported
+product query with explicit `toDateTime('…', 'UTC')` endpoints and converted
+exception timestamps with `toTimeZone(timestamp, 'UTC')`. The figures below
+are the corrected complete UTC-day results. Earlier heartbeat labels of
+“complete UTC days” on bare-date queries should be treated as project-timezone
+snapshots, not used as UTC-aligned comparisons. This entry corrects the
+reporting method; it does not rewrite historical evidence. Use explicit UTC
+endpoints in future complete-day queries. Initial 504s were unavailable
+reads, not zeros; the corrected queries all completed.
+
+Project 495836, exact host `thetidewindow.com`, Regular classification.
+Nov 11–17 UTC: **1,393 pageviews / 1,329 distinct IDs**, 2 signup events /
+2 IDs (1 month_gate, 1 tool_gate), 14 calendar clicks / 14 IDs, 2 ICS reveals /
+2 IDs, 14 station selections / 13 IDs, 11 results / 10 IDs; no Trip Picker row.
+Oct 21–Nov 17 UTC: **4,386 pageviews / 4,137 IDs**, 14 signup events / 13 IDs,
+46 calendar clicks / 46 IDs, 12 reveals / 12 IDs, 62 selections / 51 IDs,
+51 results / 46 IDs, 3 picker runs / 3 IDs. IDs and Regular classification
+are not verified people/subscribers; these event counts are not an ordered
+funnel. Signups remain below 30 events; no conversion verdict or variant
+change. Exit displays 55/155 (7d/28d) do not reopen the closed-unmeasurable
+experiment or resolve its existing owner-authority conflict.
+
+Seven-day pageviews reconcile to 1,401 across returned classes: 1,393 Regular
++ 8 Bot; no Automation row. Top paths: national king tides 397, Oregon 391,
+Washington 187, California 85, Fitzgerald 31, beaches 26, Puget 21, Finder 16.
+Referrer views: DuckDuckGo 291, Bing 288, direct 257, Google 226, Yahoo 147;
+these are not search clicks. Nearest-rank p75 from 1,463 web-vitals events:
+LCP 620ms (n=407), INP 32ms (n=99), CLS 0 (n=138), not CrUX.
+
+**Exceptions:** six recorded events / one ID in the explicit UTC window,
+all on the Oregon king-tides guide in Brave at 14:45:57Z Nov 17, before the
+18:25Z Next patch deployment. One says `undefined is not an object
+(evaluating 'window.ethereum.selectedAddress = undefined')`; five are
+opaque `Script error.` events. Source search across src/scripts/public
+found no ethereum/selectedAddress/wallet references. A browser wallet or
+injected-script origin is plausible but unconfirmed; the in-app marker and
+missing sourcemap do not prove app ownership. No fix or suppression justified
+from this sample. Keep under observation for reproducible first-party stacks.
+Capture flags on the 1,393 pageviews are 1,256 null / 137 false; coverage is
+incomplete, so this is not a zero-errors claim.
+
+**Operational gates:** Nov 5 broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f`
+remains sent; current connected read-only recipient checks confirm 30 sent,
+30 delivered, 1 suppressed, no recorded bounced/complained recipients. No
+send, audience sync, schedule or suppression change. Nov 19 still requires
+complete visual review, fresh actual-issue rendering/recomputation and the
+normal consent/suppression/adverse-event gates; the prior denied local-preview
+access was not retried or routed around. Source wording/publication approval
+does not close issue-specific gates. Three owner Request Indexing actions
+remain pending; review Nov 23/30, circuit breaker Nov 30. OR feature must roll
+after Nov 27; WA before Nov 30. December indexing still gates January pages.
+
+Read-only audit today: production zero; full tree **11 development package
+entries (8 moderate / 3 high)**. The audit count changed from yesterday's 19 entries without a lockfile
+change; no dependency fix was made here.
+High entries are compression, serve and zod; compatible narrow follow-up stays
+open, no force-downgrade. Main installed/locked Next remains 16.4.6.
+
+**Validation/next:** queue totals/weighted positions recomputed from saved
+rows, fact availability and duplicate coverage checked; documentation diff
+review and `git diff --check` pass. All **132 held files** hash-preserved.
+Only BACKLOG.md and JOURNAL.md committed. No local app build needed for these
+operating records. Tomorrow: finish the newsletter gates; if sending is blocked,
+record why rather than backfill. Next editorial brief: Oregon January detail.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-18/`.
+
+---
+
 ## 2026-11-18 — La Jolla: current Scripps Pier tide chart; stale framing retired
 
 **Health:** Daily refresh green — the 07:36:40Z scheduled run pushed `5f552b4`
