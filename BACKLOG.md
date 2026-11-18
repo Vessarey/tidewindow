@@ -3187,7 +3187,7 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       **Latest Nov 18 read:** production audit zero; full audit 11 entries
       (8 moderate / 3 high), with high compression/serve/zod. No dependency
       edit this run; earlier dated counts below are historical snapshots.
- Patched production
+      Historical Nov 2 snapshot: patched production
       lock has zero production findings, but full audit reports 21
       development package entries (18 moderate, 3 high). Compression/serve
       remain high; zod is also high. Moderate chains include minimatch
