@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-18",
+ "generated_on": "2026-11-19",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -2080,7 +2080,7 @@
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 4
+   "count": 3
   },
   {
    "commonName": "Gland Dorid",

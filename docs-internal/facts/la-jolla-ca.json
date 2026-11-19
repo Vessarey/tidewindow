@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-18",
+ "generated_on": "2026-11-19",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -2113,18 +2113,18 @@
    "count": 13
   },
   {
-   "commonName": "Lesser Two-spot Octopus",
-   "scientificName": "Octopus bimaculoides",
-   "count": 10
-  },
-  {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
+   "commonName": "Hartweg's Chiton",
+   "scientificName": "Cyanoplax hartwegii",
    "count": 10
   },
   {
    "commonName": "Freckled Ancula",
    "scientificName": "Ancula lentiginosa",
+   "count": 9
+  },
+  {
+   "commonName": "Lesser Two-spot Octopus",
+   "scientificName": "Octopus bimaculoides",
    "count": 9
   }
  ]

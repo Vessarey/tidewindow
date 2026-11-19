@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-18",
+ "generated_on": "2026-11-19",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2027-01-17",
+   "weekday": "Sun",
+   "low_ft": -0.479,
+   "low_time_local": "5:40 PM",
+   "window_local": "3:45 PM–7:55 PM",
+   "arrive_by_local": "4:40 PM",
+   "daylight_min": 63,
+   "score": 43,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
   {
    "date": "2027-01-16",
    "weekday": "Sat",
@@ -1873,11 +1885,6 @@
    "count": 2
   },
   {
-   "commonName": "Purple Mahogany Clam",
-   "scientificName": "Nuttallia obscurata",
-   "count": 2
-  },
-  {
    "commonName": "Clown Dorid",
    "scientificName": "Triopha catalinae",
    "count": 1
@@ -1885,6 +1892,11 @@
   {
    "commonName": "Sitka Periwinkle",
    "scientificName": "Littorina sitkana",
+   "count": 1
+  },
+  {
+   "commonName": "Plate Limpet",
+   "scientificName": "Lottia scutum",
    "count": 1
   }
  ]

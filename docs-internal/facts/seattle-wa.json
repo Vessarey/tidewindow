@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-18",
+ "generated_on": "2026-11-19",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1865,6 +1865,11 @@
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
+   "count": 1
+  },
+  {
+   "commonName": "Boreal limpet",
+   "scientificName": "Lottia paradigitalis",
    "count": 1
   }
  ]
