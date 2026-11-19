@@ -5,6 +5,84 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-19 — Thursday newsletter sent: Nov 19–25 issue, all gates passed
+
+**Health:** Daily refresh green — the 07:31:40Z scheduled run pushed `bae4564`
+("data: daily NOAA refresh 2026-11-19") before session start; the 10:46Z slot
+was an 8s skip (refresh already on main). Last six listed runs green; no open
+GitHub issues; no recovery dispatch. Pulled with `--rebase --autostash`; the
+owner-held Sep 21/22 files (Haystack, minus-tide explainer, trip-planning,
+wording tests) and untracked docs-internal drafts survived untouched and
+remain uncommitted per the standing publication hold. None was staged today.
+
+**Primary action (playbook §6 Thursday ritual):** sent the weekly Minus Tide
+Alert for Nov 19–25. Gate record, in order:
+
+1. *Corrected revision in source:* `62b365e` (Trip Picker wording) confirmed
+   an ancestor of HEAD; `send-weekly.mjs:196` carries the exact approved
+   sentence. No template change since — `--owner-reviewed` invokes the
+   standing 2026-07-19 blanket approval of the established template only.
+2. *Audience sync:* `sync-audience.mjs` added 4 new PostHog `newsletter_signup`
+   contacts (host-filtered), 32 already present, 36 total, 1 unsubscribed
+   left untouched.
+3. *Fresh-data render:* `--dry-run` from today's committed data (facts
+   `generated_on` 2026-11-19). Subject: "Minus Tide Alert, Nov 19-Nov 25:
+   Pillar Point Harbor hits -1.64 ft Tue". 21 Good-or-better windows across
+   6 of 12 stations; 0 Exceptional / 5 Great; Puget Sound and New England
+   quiet.
+4. *Recompute-check:* independent re-selection from `public/data-json`
+   (same filter, separate code path) reproduced all 21 rows — station,
+   date, height, low time, walkable window, arrive-by, score, band — and
+   the 0/5 band counts and the Pillar Point species trio (Spotted Dorid 73,
+   Opalescent Nudibranch 67, Hopkins' Rose Nudibranch 63). Spot-checked
+   Pillar Point, Port Orford and La Jolla Nov 22–25 rows against
+   `docs-internal/facts/*.json` daily extremes: all match (e.g. Pillar
+   Nov 24 −1.638 ft 4:31 PM window 1:45–7:40 PM score 79 Great).
+5. *Visual review (previously the unverified gate):* served the rendered
+   HTML over localhost:8471 (allowed local route; the previously denied
+   `file:` URL was not used) and reviewed the complete issue in the
+   browser pane top to bottom — header, best-window lead, three regional
+   sections, quiet-regions line, species block, corrected Trip Picker
+   sentence, prediction disclaimer, consent line, unsubscribe footer.
+   Clean render, no layout faults, no deviations from the established
+   template. Preview server stopped after review.
+6. *Link check:* all 9 thetidewindow.com URLs in the issue fetch HTTP 200.
+7. *Consent/suppression/adverse-event:* read-only Resend recipient reads on
+   the Nov 5 broadcast `07bf317d-b839-4aac-9d62-246d4c24b51f` (correct
+   param is `type=`, not `event_type=` — first attempt errored): 30 sent /
+   30 delivered / 0 bounced / 0 complained / 1 suppressed / 0 unsubscribed.
+   Complaint rate 0%, far under the 0.1% stop threshold. Send proceeds.
+
+**Send:** `send-weekly.mjs --send --owner-reviewed` created and sent
+Broadcast **`ebd30056-5cc8-4331-bff2-20291c33d3f9`** to **35 subscribed
+contacts** at ~18:45Z (status read back `queued` immediately after the
+send call — Resend processes asynchronously; next run must do the §
+read-only delivery check per `docs-internal/resend-newsletter.md` and
+watch bounced/complained). Nov 12 remains SKIPPED, not backfilled. The
+Nov 19 drafts are committed alongside this entry (Nov 5 precedent);
+October's owner-held drafts stay untracked.
+
+**Metrics (PostHog, project 495836, host thetidewindow.com, complete UTC
+days Nov 12–18, explicit `toDateTime(...,'UTC')` endpoints per the Nov 18
+correction):** 1,425 pageviews / 1,366 distinct IDs; 2 `newsletter_signup` /
+2 IDs; 13 `station_selected` / 12 IDs; 10 `window_result_viewed` / 9 IDs;
+no `trip_picker_run` rows. IDs are not verified people; signups remain far
+below the 30-event verdict floor — no conversion claims.
+
+**Velocity:** no articles this week so far; today is a newsletter run, no
+site content changed. Caps respected. No build needed (no app/content/code
+change; only docs and gitignored-adjacent draft files committed).
+
+**Tomorrow (Nov 20):** (1) read-only delivery check on broadcast
+`ebd30056...` (sent/delivered/bounced/complained/suppressed, limit 100,
+follow cursors); (2) P1 queue has five ready briefs — Oregon January
+high-water times is the designated next editorial; (3) P0 pending owner:
+Request Indexing for the three never-crawled tool URLs (review Nov 23/30);
+(4) after Nov 27: OR hub December feature; WA hub before Nov 30; December
+indexing still gates January pages.
+
+---
+
 ## 2026-11-18 — Heartbeat: refill the ready queue; reconcile UTC analytics
 
 **One primary improvement (§2a):** added three non-conflicting, demand-backed

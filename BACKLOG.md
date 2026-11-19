@@ -104,6 +104,15 @@ with the date; add discoveries at the appropriate tier.
       needs fresh-data rendering/recomputation plus all normal consent,
       suppression and adverse-event gates. Nov 12 stays skipped; no backfill,
       new send, test email, schedule or audience change was authorized here.
+      **RESOLVED Nov 19: all remaining gates passed and the regular issue
+      was sent.** Visual review completed over localhost (no file-URL
+      route), actual issue rendered from Nov 19 data and recomputed against
+      fact sheets, consent/suppression synced (4 added, 1 unsubscribed
+      untouched), Nov 5 broadcast read back 0 bounced / 0 complained.
+      Broadcast `ebd30056-5cc8-4331-bff2-20291c33d3f9` sent to 35
+      subscribers with the approved `62b365e` wording. Nov 12 remains
+      skipped, never backfilled. See the 2026-11-19 journal for the full
+      gate record. Follow-up: Nov 20 read-only delivery check.
 
       **Historical Nov 5 newsletter finding — approval resolved locally Nov 12;
       publication completed as recorded above.** **Nov 12 operator: no owner approval was
