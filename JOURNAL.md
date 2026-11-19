@@ -100,6 +100,12 @@ five guides plus operating records; all 132 pre-existing held files remain
 byte-identical. Production dependency audit zero; full audit 11 development
 entries (8 moderate / 3 high), unchanged from yesterday. No dependency edit.
 
+**Release:** source `c3da705` pushed normally to main. Exact-SHA Production
+deployment 7921998578 succeeded at 18:22:07Z; all five public guides returned
+HTTP 200 with the corrected notices at 18:22:46Z. Live La Push body and FAQ
+show the Nov 19 check and source disagreement, with no warn/error in the
+observed browser session. All 132 held files still byte-identical.
+
 **Next:** recheck all three NPS sources before another access change; do not
 infer destination access from the road row. Oregon January high-water times
 remains the next of five ready P1 briefs. Owner Request Indexing is still
