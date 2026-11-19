@@ -5,6 +5,111 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-19 — Heartbeat: reconcile conflicting Mora Road reports
+
+**One primary improvement:** corrected the current-access notices in the La
+Push, Washington overview, golden-hour photography, storm-beachcombing and
+August Puget guides, including three FAQs and La Push's answer-first lead.
+Fresh HTTP 200 reads of all three official sources show a material mismatch:
+NPS's road table lists Mora Road **Open**, row dated Nov 16; its general
+conditions page, updated Nov 17, still says closed due to storm damage;
+the Rialto Beach page still carries the expired Oct 15 construction notice
+(last updated Jul 31). The guides had still described both current reports
+as Closed based on Nov 10 checks. They now state the disagreement, checked
+Nov 19, without claiming current beach/trail/Hole-in-the-Wall access or
+restoring Rialto to shared destination recommendations. August's construction
+closure remains explicitly historical. No tide number, table, title, original
+publication date, gate, station configuration or generated data changed.
+
+Sources re-fetched at write time:
+- https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm
+- https://www.nps.gov/olym/planyourvisit/conditions.htm
+- https://www.nps.gov/olym/planyourvisit/rialto-beach.htm
+
+**Coordination and health:** began at `9648c55`, matching origin/main after
+`git pull --ff-only`; reviewed today's newsletter work rather than repeating
+it. Production deployment 7914015238 for that exact SHA succeeded 13:09:09Z.
+Scheduled NOAA run 44480294198 began 07:31:40Z, generated at
+07:32:21.141Z and pushed `bae4564` at 07:34:17.614Z unaided. IndexNow
+accepted all 151 URLs at 07:34:15.297Z (HTTP 200). Last ten listed runs green;
+16:36 run 44568016480 skipped because today's refresh was already on main.
+No recovery dispatch or inferred cron-slot delay. No open GitHub issues.
+All 12 live station files returned 200 and byte-matched today's committed
+data at 18:16:57.969Z; live sitemap has 151 URLs. No score-90+ window in
+Nov 19–Dec 3; imminent November king-tide coverage is already present.
+Live home → ZIP 92037 → La Jolla Finder returned current Nov 19 results;
+calendar button opened the email form; no submission and no warn/error in
+that observed Chrome session.
+
+**Search, configured read-only API:** GSC Wizard remains subscription-blocked;
+no spend or access change. Web/final property totals, with all 28 daily rows:
+Oct 21–Nov 17 **527 clicks / 29,274 impressions / position 7.01**, versus
+Sep 23–Oct 20 **323 / 16,255 / 6.98** (clicks +63.2%; position essentially
+flat). Nov 11–17 **156 / 9,566 / 6.94**, versus Nov 4–10 **139 / 7,644 /
+7.14**. These trends do not establish causality from any individual release.
+
+**Product, explicit complete UTC days:** native PostHog connection requires
+reauthentication; the configured read-only project-495836 API succeeded.
+All figures below filter host `thetidewindow.com` and `Regular` traffic;
+Regular is not verified human, distinct IDs are not people, and event totals
+are not a sequenced funnel. Nov 12–18: **1,419 pageviews / 1,360 distinct IDs**;
+2 newsletter signup events / 2 IDs; 13 station selections / 12 IDs; 10 result
+views / 9 IDs; 14 calendar clicks / 14 IDs; 2 ICS reveals / 2 IDs; no
+`trip_picker_run` row. Six Bot-classified pageviews were excluded (the
+morning's 1,425 host-only total used a different filter). Oct 22–Nov 18:
+**4,501 pageviews / 4,253 IDs**, 14 signups / 13 IDs, 62 station selections /
+51 IDs, 51 result views / 46 IDs, 47 calendar clicks / 47 IDs, 12 ICS reveals /
+12 IDs and 3 Trip Picker runs / 3 IDs. Seven-day signups came from month_gate
+and tool_gate, one each. Retired conversion experiments stay closed;
+14 signup events remain below the 30-event floor, and the exit-prompt owner
+instruction conflict remains unresolved. No variant change or new verdict.
+
+Top 7d paths: national king-tides guide 408 views, Oregon 398, Washington
+184, California 103; Finder 14. Referrer views are not search clicks.
+Measured p75 nearest-rank vitals: LCP 632 ms (n=394), INP 32 ms (n=96), CLS
+0 (n=132). These event samples do not represent all visits.
+
+**Exceptions:** 19 captured events / 5 distinct IDs, all Brave on the Oregon
+king-tides guide on Nov 17–18 UTC. Fifteen are opaque “Script error.” and
+four mention `window.ethereum.selectedAddress`; no such reference exists
+in repository src/scripts/public source. Browser injection remains plausible,
+not established; no first-party defect reproduced or suppression justified.
+Capture remains incomplete: among 1,419 Regular pageviews, the remote capture
+flag was missing on 1,293, false on 126, true on none. No zero-error claim.
+
+**Newsletter follow-through and timestamp correction:** read-only Resend
+confirms broadcast `ebd30056-5cc8-4331-bff2-20291c33d3f9` is **sent**, with
+server `sent_at` **2026-11-19 13:07:20.428787+00**, not the morning entry's
+~18:45Z. The queued status in that entry was an immediate snapshot.
+Separate recipient-type reads at limit 100 returned **34 sent / 34 delivered /
+0 bounced / 0 complained / 1 suppressed / 0 unsubscribed**, with no further
+page indicated. The 35 subscribed-contact target is not 35 deliveries;
+suppression is neither a delivery nor a bounce. Keep the Nov 20 follow-up
+for late adverse events. No send, audience sync, contact or suppression edit;
+only aggregate counts retained in the evidence artifact.
+
+**Validation:** isolated worktree from today's HEAD, locked dependency install,
+plain `npm run build` and all **106 existing tests** passed; output gate
+verified 12 stations × 6 months and 151 sitemap URLs. All **163 Markdown table
+rows** (including header/separator rows), titles/descriptions/original dates,
+featured-roundup metadata and gate settings are identical. All 23 rendered
+FAQ answers match source, and all 34 linked internal routes resolve in the
+export. The three official source URLs return 200. Local browser renders the
+corrected La Push notice and FAQ cleanly with no warn/error. Diff scope is
+five guides plus operating records; all 132 pre-existing held files remain
+byte-identical. Production dependency audit zero; full audit 11 development
+entries (8 moderate / 3 high), unchanged from yesterday. No dependency edit.
+
+**Next:** recheck all three NPS sources before another access change; do not
+infer destination access from the road row. Oregon January high-water times
+remains the next of five ready P1 briefs. Owner Request Indexing is still
+pending for three never-crawled tools, with Nov 23/30 inspection checkpoints.
+Restore OR hub December feature after Nov 27 and WA feature before Nov 30;
+December indexing still gates January month pages. Evidence:
+`/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-19/`.
+
+---
+
 ## 2026-11-19 — Thursday newsletter sent: Nov 19–25 issue, all gates passed
 
 **Health:** Daily refresh green — the 07:31:40Z scheduled run pushed `bae4564`

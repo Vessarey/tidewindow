@@ -5,6 +5,17 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 19 heartbeat — reconcile Mora Road source disagreement.**
+      Five guide notices and three FAQs now reflect the road table's Open
+      row dated Nov 16 versus the general conditions page's storm-closure
+      text (page updated Nov 17). Rialto's expired Oct 15 notice remains.
+      No current route clearance or shared destination restoration inferred.
+      Isolated build, 106 tests, 163 unchanged table rows, 23 rendered FAQ
+      answers and 34 internal routes verified; all 132 held files preserved.
+      Newsletter readback: 34 sent/delivered, 1 suppressed, no recorded
+      bounce/complaint; server sent_at 13:07:20Z corrects the morning journal's
+      ~18:45Z. Repeat late-event read Nov 20. See heartbeat journal.
+
 - [x] **Nov 18 heartbeat — ready queue refilled after La Jolla.**
       Three bounded P1 briefs added from current GSC and article evidence:
       Oregon January high-water times, Cabrillo complete H/L chart, Pacific
@@ -799,8 +810,8 @@ traffic uplift is established. Owner-held drafts are excluded.
 Sea-glass and Sunset Bay remain the other two ready briefs. Fitzgerald's
 Nov–Dec chart, La Jolla's new chart, the national January table, California's
 high-water comparison and the national print/Save as PDF path are already
-covered; do not recreate them. Tomorrow's Nov 19 newsletter ritual and its
-unresolved visual/issue-specific gates take priority over this queue.
+covered; do not recreate them. The Nov 19 newsletter ritual and its gates
+were completed by the morning operator; Oregon January remains next.
 Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-18/queue-evidence.json`.
 <!-- heartbeat-2026-11-18-refill:end -->
 
@@ -3591,6 +3602,10 @@ implementation; preserve historical evidence and the owner's Haystack hold.
       additional edit. Restore Rialto/Hole-in-the-Wall to shared recommendations
       only with sufficient current access evidence, never from an elapsed date,
       tide score or road-open label alone. No physical-route clearance claimed.
+      **Nov 19:** road table Open (row Nov 16), general conditions still
+      closed due to storm damage (page Nov 17), Rialto notice still expired.
+      All five notices and three FAQs updated to describe this disagreement;
+      the check remains open until the sources provide consistent evidence.
       **Nov 9:** road-status page changed to **Closed**, dated Nov 9; the
       general conditions page still says Open, and the Jul 31 Rialto page
       retains the expired Oct 15 construction notice. Five guide notices and
