@@ -2,13 +2,13 @@
 title: "La Push Tide Pools 2026: Second Beach's Best Low-Tide Days"
 description: "La Push's remaining 2026 lows shift toward dusk. Compare September–December windows, find full tide charts, and check current NPS access notices."
 date: "2026-07-09"
-updated: "2026-11-19"
+updated: "2026-11-20"
 category: "station-guides"
 station: "la-push-wa"
 tags: ["la push tide pools", "second beach", "rialto beach", "hole in the wall", "olympic national park", "washington coast low tide"]
 faq:
   - q: "Is Rialto Beach and Hole-in-the-Wall open in 2026?"
-    a: "As checked November 19, the NPS road-status page lists Mora Road as Open, with the row dated November 16. Its general conditions page, updated November 17, still says the road is closed due to storm damage, while the older Rialto Beach page retains an expired construction notice ending October 15. The reports disagree. Neither the road listing nor tide predictions establish beach, trail or Hole-in-the-Wall passage conditions."
+    a: "As checked November 20, the NPS road-status page lists Mora Road as Open, with the row dated November 16. Its general conditions page, updated November 20, now also says the road is open to Rialto Beach. The older Rialto Beach page still retains an expired construction notice ending October 15. Neither the road reports nor tide predictions establish beach, trail or Hole-in-the-Wall passage conditions."
   - q: "When is the best tidepooling at La Push for the rest of 2026?"
     a: "No remaining 2026 window reaches Tidewindow's Good band at NOAA station 9442396. Among windows with at least 30 minutes of daylight overlap, December 23 scores highest at 59 (Fair), with a −1.97 ft MLLW low at 6:03 PM, after sunset. October 25 is October's top-scoring window at 52, with a −0.71 ft low at 6:48 PM, also after sunset. These scores compare predictions; they do not establish beach or route access."
   - q: "How do I get to Second Beach near La Push, and how long is the hike?"
@@ -27,15 +27,15 @@ sources:
   - "https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm"
 ---
 
-**La Push's September 9–12 morning run has passed. At NOAA station 9442396, October's highest-scoring window was Sunday, October 25: −0.71 ft MLLW at 6:48 PM, score 52 (Fair), with 71 minutes of daylight elsewhere in the window—not at the low itself. No remaining 2026 window reaches Good. NPS's road and general conditions reports disagree on Mora Road; tide predictions do not confirm Hole-in-the-Wall passage.**
+**La Push's September 9–12 morning run has passed. At NOAA station 9442396, October's highest-scoring window was Sunday, October 25: −0.71 ft MLLW at 6:48 PM, score 52 (Fair), with 71 minutes of daylight elsewhere in the window—not at the low itself. No remaining 2026 window reaches Good. NPS's current road reports list Mora Road open; tide predictions do not confirm Hole-in-the-Wall passage.**
 
 The autumn story is a trade-off between depth and light. The full high-and-low charts show both; a short list of low windows does not. This guide keeps the summer tables as history and puts the remaining dates first.
 
 ## First, the Mora Road and Rialto access update
 
-**Access checked November 19, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, with the row dated November 16. The [general conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated November 17, still says the road is closed due to storm damage. These reports disagree. The [Rialto Beach page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm), updated July 31, also retains the expired construction notice ending October 15.
+**Access checked November 20, 2026:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, with the row dated November 16. The [general conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated November 20, now also says the road is open to Rialto Beach. The [Rialto Beach page](https://www.nps.gov/olym/planyourvisit/rialto-beach.htm), updated July 31, still retains the expired construction notice ending October 15.
 
-The road listing alone does not confirm beach, trail or Hole-in-the-Wall passage conditions. The expired construction notice does not resolve the disagreement or establish current access. Check the NPS road and destination information separately from the tide tables below.
+The road reports alone do not confirm beach, trail or Hole-in-the-Wall passage conditions. The expired construction notice does not establish current shoreline access. Check the NPS road and destination information separately from the tide tables below.
 
 Second Beach and Third Beach are separate trail destinations, described below using NPS trail information. A shared station reference does not mean identical local timing or verified access at either beach.
 

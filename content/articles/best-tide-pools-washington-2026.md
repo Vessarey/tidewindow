@@ -2,7 +2,7 @@
 title: "Best Tide Pools in Washington 2026: Late-Year Guide to Three Coasts"
 description: "Compare La Push, Port Townsend and Seattle tide pools for late 2026: NOAA low-tide windows, autumn limits and current Mora Road access information."
 date: "2026-07-14"
-updated: "2026-11-19"
+updated: "2026-11-20"
 category: "regional-calendars"
 gateStations: ["la-push-wa", "port-townsend-wa", "seattle-wa"]
 tags: ["best tide pools washington", "washington tide pools", "puget sound tide pools", "olympic coast tide pools", "la push tide pools", "port townsend tide pools"]
@@ -14,7 +14,7 @@ faq:
   - q: "Are there daylight minus tides in Washington in late 2026?"
     a: "From October 8 through December 31, only La Push among these three reference stations has minus-tide windows with at least 30 minutes of daylight overlap. Eleven of its 12 lows occur after sunset. The exception is December 21: the −0.66 ft low lands at 4:26 PM, two minutes before sunset. Seattle and Port Townsend still have night lows; zero qualifying daylight windows does not mean there are no low tides."
   - q: "Can you visit Rialto Beach and Hole-in-the-Wall right now?"
-    a: "As checked November 19, the NPS road-status page lists Mora Road as Open, with the row dated November 16. Its general conditions page, updated November 17, still says the road is closed due to storm damage, while the older Rialto Beach page retains an expired construction notice ending October 15. The reports disagree. Neither the road listing nor tide predictions establish beach, trail or Hole-in-the-Wall passage conditions. Second Beach is a separate destination."
+    a: "As checked November 20, the NPS road-status page lists Mora Road as Open, with the row dated November 16. Its general conditions page, updated November 20, now also says the road is open to Rialto Beach. The older Rialto Beach page still retains an expired construction notice ending October 15. Neither the road reports nor tide predictions establish beach, trail or Hole-in-the-Wall passage conditions. Second Beach is a separate destination."
   - q: "Do you need a Discover Pass for Washington tide pools?"
     a: "Fort Worden is a Washington state park with Discover Pass parking. Second Beach has a different parking arrangement: NPS lists a $10 daily fee for parking on Quileute Tribal Lands, including Second Beach, effective May 1, 2026. Constellation Park is part of Seattle's Charles Richey Sr Viewpoint, not a Washington state park. Check the official destination pages for current access details."
 sources:
@@ -114,7 +114,7 @@ Sunday August 9 was the best-scoring August window at Port Townsend (−2.05 ft 
 
 ## Access checks before choosing a beach
 
-**Mora Road status, checked November 19:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, with the row dated November 16. The [general conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated November 17, still says the road is closed due to storm damage. These reports disagree. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) links the NPS sources; tide predictions do not establish beach, trail or Hole-in-the-Wall passage conditions.
+**Mora Road status, checked November 20:** the [NPS road-status page](https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm) lists Mora Road as **Open**, with the row dated November 16. The [general conditions page](https://www.nps.gov/olym/planyourvisit/conditions.htm), updated November 20, now also says the road is open to Rialto Beach. The [La Push guide](/guides/la-push-second-beach-tide-pools-2026/) links the NPS sources; tide predictions do not establish beach, trail or Hole-in-the-Wall passage conditions.
 
 **Second Beach has separate access and parking.** NPS lists a [0.7-mile forest-and-beach trail](https://www.nps.gov/olym/planyourvisit/second-beach-trail.htm) and a $10 daily fee for parking on Quileute Tribal Lands, including Second Beach, effective May 1, 2026. Its [tidepooling page](https://www.nps.gov/olym/planyourvisit/tidepool-activities.htm) includes Second Beach among the park's intertidal destinations. This is not a Discover Pass parking arrangement.
 
