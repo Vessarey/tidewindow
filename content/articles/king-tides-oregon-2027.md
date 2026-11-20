@@ -2,7 +2,7 @@
 title: "Oregon Coast King Tides 2026 & 2027: Official Dates, Highs and Low-Tide Windows"
 description: "Oregon king tide dates: Nov 23–27 and Dec 22–26, 2026; Jan 20–24, 2027. Compare official photo dates, NOAA high tides and daylight low-tide windows."
 date: "2026-09-02"
-updated: "2026-11-14"
+updated: "2026-11-20"
 category: "king-tides"
 gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 featuredRoundup:
@@ -16,7 +16,7 @@ endSignup:
 tags: ["king tides oregon 2027", "king tides oregon 2026", "king tides oregon coast", "oregon king tides", "king tide dates 2027", "perigean spring tide", "winter tidepooling", "port orford", "charleston", "newport", "garibaldi"]
 faq:
   - q: "When are the Oregon coast king tides in 2026 and 2027?"
-    a: "The Oregon King Tides Project lists November 23–27, 2026; December 22–26, 2026; and January 20–24, 2027 for its 2026–27 photo series, re-checked November 14, 2026. These are official project dates, not identical high-water times at every beach. Tidewindow's four Oregon NOAA stations have their highest predicted October–March tide on December 24, 2026."
+    a: "The Oregon King Tides Project lists November 23–27, 2026; December 22–26, 2026; and January 20–24, 2027 for its 2026–27 photo series, re-checked November 20, 2026. These are official project dates, not identical high-water times at every beach. Tidewindow's four Oregon NOAA stations have their highest predicted October–March tide on December 24, 2026."
   - q: "What is the highest predicted king tide at Oregon's covered stations?"
     a: "Among Tidewindow's four Oregon stations, Newport (NOAA 9435380) has the largest October 2026–March 2027 predicted high: 10.58 ft above local Mean Lower Low Water on December 24, 2026 at 11:39 AM Pacific. Within November 2026, every covered station's highest predicted high falls on November 25 instead, topping out at 10.27 ft at Newport at 11:52 AM. Heights are relative to a local datum, not predicted flood depths or a beach-access assessment."
   - q: "Are the lowest Oregon king tides visible in daylight?"
@@ -41,7 +41,7 @@ sources:
 
 ## Official Oregon king tide dates for 2026–27
 
-The [Oregon King Tides Project](https://www.oregonkingtides.net/) lists these dates for its current photo series, re-checked November 14, 2026:
+The [Oregon King Tides Project](https://www.oregonkingtides.net/) lists these dates for its current photo series, re-checked November 20, 2026:
 
 | Photo series | Official dates |
 |---|---|
@@ -78,6 +78,21 @@ At all four covered Oregon stations, the highest predicted tide of **October 1, 
 | [Port Orford](/beaches/or/port-orford-or/) (9431647) | 9.29 ft | Thu, Dec 24, 2026 | 10:54 AM |
 
 *Re-checked against the November 14, 2026 fact sheets computed from NOAA predictions; unchanged since the September 13 computation. Heights are feet above each station's local Mean Lower Low Water (MLLW), not flood depths or a common land elevation. All times on this page are local Pacific time. Predictions are not observations and do not establish conditions or access at a particular beach.*
+
+## January 20–24: where January's highest water lands
+
+The January series closes the project's listed 2026–27 schedule, and its timing matches the tides: checked across **all predicted January 2027 highs** (60 per station, with highs on all 31 days), every covered station's January maximum falls on **Friday, January 22, 2027**, late morning to midday. Each station's five highest January highs all land inside the official January 20–24 window.
+
+| Station (NOAA id) | Highest January high | Date | Time of high |
+|---|---|---|---|
+| [Garibaldi](/beaches/or/garibaldi-or/) (9437540) | 10.19 ft | Fri, Jan 22, 2027 | 12:05 PM |
+| [Newport / South Beach](/beaches/or/newport-or/) (9435380) | 10.39 ft | Fri, Jan 22, 2027 | 11:34 AM |
+| [Charleston / Coos Bay](/beaches/or/charleston-or/) (9432780) | 9.44 ft | Fri, Jan 22, 2027 | 11:19 AM |
+| [Port Orford](/beaches/or/port-orford-or/) (9431647) | 9.05 ft | Fri, Jan 22, 2027 | 10:50 AM |
+
+*Computed November 20, 2026 from the complete set of predicted January 2027 highs in the current fact sheets. Heights are feet above each station's local MLLW datum, not flood depths; times are Pacific standard time. A predicted high is not a flooding forecast and says nothing about conditions or access at a particular beach.*
+
+January does not quite rewrite the season's rankings: at Garibaldi, Newport and Charleston the January 22 peak slightly exceeds the station's November 25 peak, while Port Orford's January peak (9.05 ft) stays just under its November one (9.10 ft) — and every station's October–March maximum remains December 24, 2026. For the January peaks at all twelve covered stations, including the Washington, California and Maine spread from January 21 to 25, see the [national guide's January table](/guides/king-tides-2026-2027-dates/).
 
 ## What makes a tide “king”?
 

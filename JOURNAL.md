@@ -5,6 +5,69 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-20 — January 2027 high-water table added to the Oregon king-tides guide
+
+**Health:** Daily refresh green and landed before session: the 07:23:50Z
+scheduled run pushed `ce73929` ("data: daily NOAA refresh 2026-11-20") at
+07:26:58Z; the 10:35Z slot was an 11s skip. Last eight listed runs green;
+no open GitHub issues; no recovery dispatch. Pulled with `--rebase
+--autostash`; the owner-held Sep 21/22 files and untracked docs-internal
+drafts survived untouched and remain uncommitted per the standing
+publication hold. None was staged today.
+
+**Primary action (§2d, top ready P1 brief from the Nov 18 refill):** the
+`king-tides-oregon-2027` guide named the official January 20–24, 2027 photo
+dates but carried high-water tables only for November and the December
+seasonal peak. Added a "January 20–24: where January's highest water lands"
+section with the four-station January monthly-high table: Garibaldi 10.19 ft,
+Newport 10.39 ft, Charleston 9.44 ft, Port Orford 9.05 ft — every station's
+January maximum on Friday, January 22, late morning to midday. Claims
+verified against the complete range: 60 January highs across all 31 days per
+station, recomputed independently from `public/data-json/stations/*.json`
+(separate code path) and matched to the `jan_2027` fact blocks and the
+national guide's January table (same four values). Each station's five
+highest January highs all fall inside the official Jan 20–24 window — stated
+from the full sorted list, not a top-N excerpt. Noted honestly that Port
+Orford's January peak (9.05 ft) sits under its November one (9.10 ft) while
+the other three stations' January peaks exceed November's, and that every
+station's season maximum remains December 24. Official dates re-verified at
+write time on oregonkingtides.net (JS-rendered; read via browser — the
+"This Season's King Tides" block lists Nov 23rd–27th, Dec 22nd–26th, Jan
+20th–24th). `updated:` → 2026-11-20; the two "re-checked November 14"
+stamps for the official dates updated to November 20; December/November
+tables, FAQs, title, slug, gates and the Nov 14 state-hub feature untouched.
+Linked the national January table instead of duplicating its twelve-station
+scope.
+
+**Newsletter Nov 20 follow-up (directed by the Nov 19 heartbeat):** read-only
+Resend reads show broadcast `ebd30056` still status sent, server sent_at
+13:07:20Z Nov 19; per-recipient tally 34 delivered / 1 suppressed / 0 bounced
+/ 0 complained. No late adverse events; no send or audience change.
+
+**Metrics snapshot (PostHog, rolling 7 days at query time, host
+thetidewindow.com):** 1,515 pageviews / 1,426 distinct IDs; 15
+station_selected / 14 IDs; 12 window_result_viewed / 11 IDs; 1
+newsletter_signup. Rolling window, not complete UTC days; calendar/ICS/trip
+events returned no rows under the event names queried today — compare
+against the Nov 19 heartbeat's explicit-UTC read, not this one.
+
+**Gates:** plain `npm run build` green — 164 pages, verify-output OK (12
+stations × 6 months, 151 sitemap URLs), all test suites 0 fail (including
+the owner-held wording tests present in the working tree). Rendered page
+contains the new section and all four Jan 22 rows. Diff review: only
+`king-tides-oregon-2027.md` plus operating records staged; owner-held files
+excluded. Velocity: no new article files this week before today; this is an
+expansion of an existing guide. External link in the new section
+(oregonkingtides.net) verified live at write time.
+
+**Tomorrow:** next ready P1 briefs are Cabrillo complete H/L chart, Pacific
+Grove stale October lead, sea-glass, and Sunset Bay. Nov 23 GSC inspection
+checkpoint for the three never-crawled tools (owner Request Indexing still
+pending). After Nov 27: restore the OR hub December feature; WA hub feature
+before Nov 30. December indexing still gates January month pages.
+
+---
+
 ## 2026-11-19 — Heartbeat: reconcile conflicting Mora Road reports
 
 **One primary improvement:** corrected the current-access notices in the La

@@ -735,7 +735,14 @@ facts, current official sources, honest `updated:` and the normal content
 build with full number/link/rendered checks. No title experiment or expected
 traffic uplift is established. Owner-held drafts are excluded.
 
-- [ ] **Oregon king tides — add the missing January high-water times.**
+- [x] **Oregon king tides — add the missing January high-water times.**
+      DONE 2026-11-20: added the four-station January 2027 monthly-high
+      table (all peaks Fri Jan 22; 60 highs / 31 days per station,
+      recomputed independently from public/data-json and matched to
+      jan_2027 fact blocks and the national guide's January table).
+      Official Jan 20–24 dates re-verified on oregonkingtides.net at
+      write time; photo dates kept distinct from station maxima; November
+      feature and all existing tables preserved. See 2026-11-20 journal.
       Target existing `king-tides-oregon-2027`. Six exact queries:
       `king tides oregon 2027` 1 click / 67 impressions / position 10.07;
       `oregon king tides 2027` 0 / 45 / 10.09;
