@@ -5,6 +5,101 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-20 — Heartbeat: reflect NPS's newly consistent Mora Road reports
+
+**One primary improvement:** updated five existing guide notices and three
+FAQs after today's NPS general conditions page changed to say Mora Road is
+open to Rialto Beach. The road table still lists Open (row Nov 16), while the
+general conditions page is now dated Nov 20. Yesterday's source disagreement
+was real but is no longer current. The Rialto destination page still carries
+its expired Oct 15 construction notice (page Jul 31); road status does not
+establish beach/trail/Hole-in-the-Wall passage. Retained that distinction,
+August's historical closure and the existing shared destination exclusions.
+The fresh source change took priority over the planned Cabrillo chart; no
+chart or new code was added. All three official URLs fetched HTTP 200:
+- https://www.nps.gov/olym/planyourvisit/current-road-conditions.htm
+- https://www.nps.gov/olym/planyourvisit/conditions.htm
+- https://www.nps.gov/olym/planyourvisit/rialto-beach.htm
+
+**Coordination/refresh:** pulled current main `26ff81b`; morning Oregon January
+expansion is live (four new values visible), exact-SHA Production deployment
+7942467458 succeeded 13:10:53Z. No duplicate January work or newsletter send.
+NOAA scheduled run 44694654339 began 07:23:50Z, generated 07:24:51.150Z,
+pushed `ce73929` at 07:27:01.275Z. IndexNow accepted 151 URLs / HTTP 200
+at 07:26:58.807Z. Last ten listed runs green; latest 16:11:44Z run skipped
+because today's refresh was already on main. No recovery dispatch; originating
+cron expression unavailable, so no slot-delay inference. No open issues.
+All 12 live station files returned 200 and byte-matched committed data at
+18:19:19.582Z; sitemap 151 URLs; no Exceptional window Nov 20–Dec 4.
+Home → ZIP 92037 → La Jolla Finder showed Nov 20 results; calendar button
+opened the email form, no submission, no captured browser warn/error.
+
+**Search:** connectors still require PostHog reauthentication / a GSC Wizard
+subscription; configured read-only APIs succeeded, with no billing/access
+change. GSC Web/final property totals Oct 22–Nov 18: **534 clicks / 30,068
+impressions / position 7.01**, versus Sep 24–Oct 21 **326 / 16,454 / 6.99**
+(clicks +63.8%, position essentially flat). All 28 daily rows returned.
+Nov 12–18: **153 / 9,541 / 7.01**, versus Nov 5–11 **144 / 8,324 / 7.02**.
+No causal release attribution. Demand read returned 953 disclosed query rows
+and 111 page rows. Cabrillo's four chart queries total 0 clicks / 46 impressions /
+weighted position 9.00; guide baseline 0 / 1 / 3.00. Property query rows do not
+establish guide attribution. Four ready briefs remain; no queue refill needed.
+
+**Product:** project 495836, host thetidewindow.com, Regular traffic, explicit
+UTC boundaries. Nov 13–19: **1,459 pageviews / 1,400 distinct IDs**, one
+newsletter_signup / one ID (month_gate); 13 station selections / 12 IDs,
+10 result views / 9 IDs, 14 calendar clicks / 14 IDs, one ICS reveal / one ID,
+no Trip Picker event row. Four Bot pageviews excluded. Oct 23–Nov 19:
+**4,549 pageviews / 4,326 IDs**, 14 signups / 13 IDs, 63 station selections /
+52 IDs, 52 result views / 47 IDs, 49 calendar clicks / 49 IDs, 12 ICS reveals /
+12 IDs and 3 Trip Picker runs / 3 IDs. Regular is not verified human traffic;
+IDs are not people, events are not a sequenced funnel. Use the actual
+`calendar_gate_clicked`, `ics_url_revealed` and `trip_picker_run` names rather
+than treating the morning's alternate-name empty results as zeros.
+Retired conversion experiments stay closed; 14 signups remain below the
+30-event floor. Exit-prompt owner-instruction conflict remains unresolved.
+
+Top 7d guide views: national king tides 409, Oregon 399, Washington 187,
+California 124; Finder 16. Referrer pageviews are not search clicks.
+Measured p75 nearest-rank vitals: LCP 660 ms (n=433), INP 40 ms (n=104),
+CLS 0 (n=142). Nineteen exceptions / five IDs remain the Nov 17–18 Brave
+sample on Oregon: 15 opaque Script errors and four ethereum.selectedAddress
+errors; no new signature or reproduced first-party defect. Capture flag
+missing on 1,321 Regular pageviews, false on 138, true on none. Incomplete
+capture is not zero errors; no suppression or instrumentation change.
+
+**Newsletter:** read-only follow-up corroborates the morning check: broadcast
+`ebd30056-5cc8-4331-bff2-20291c33d3f9` sent Nov 19 13:07:20Z; separate
+recipient-type reads (limit 100, no further page indicated) returned 34 sent,
+34 delivered, 0 bounced, 0 complained, 1 suppressed, 0 unsubscribed. No late
+adverse event recorded. Sent and delivered are not additive; suppression is
+neither delivery nor bounce. No send, audience or recipient edit.
+
+**Validation:** isolated locked install and plain build passed, all 106 existing
+tests; output gate checked 12 stations × 6 months and 151 sitemap URLs.
+All 163 Markdown table rows, original dates/titles/descriptions, featured
+metadata and gates unchanged. All 23 FAQ schema answers match source and
+34 internal routes resolve in the export. Local La Push notice/FAQ reviewed
+in browser. Production dependency audit zero; full audit 11 development
+findings (8 moderate, 3 high), no package change. All 132 owner-held files
+preserved. No new article additions this week; this is factual maintenance.
+
+**Release:** source `aefc908` pushed normally to main. Exact-SHA Production
+deployment 7949329756 succeeded at 18:23:10Z; all five public guides returned
+HTTP 200 with the updated notices at 18:24:30Z. The live La Push notice and
+FAQ show the Nov 20 check and both road reports now agreeing, with no
+warn/error captured in this browser session. All 132 held files remain
+byte-identical.
+
+**Next:** Cabrillo complete H/L chart, then Pacific Grove freshness, sea-glass
+and Sunset Bay. Request Indexing for the three tools still needs owner action;
+review Nov 23/30. OR December feature after Nov 27; WA feature before Nov 30.
+December indexing still gates January month pages. Retain the separate Rialto
+destination-page check; do not infer shoreline access from a road report.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-20/`.
+
+---
+
 ## 2026-11-20 — January 2027 high-water table added to the Oregon king-tides guide
 
 **Health:** Daily refresh green and landed before session: the 07:23:50Z

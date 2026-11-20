@@ -5,6 +5,16 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 20 heartbeat — refresh Mora Road notices after NPS reports converge.**
+      Five guide notices and three FAQs now reflect the general conditions
+      page's Nov 20 update to Open, agreeing with the road table's Nov 16
+      row. Retained the expired Rialto destination notice and separate
+      shoreline-access caveat. Source `aefc908` deployed and all five pages
+      verified live; isolated build, 106 tests and rendered FAQ/link checks
+      passed. All 132 held files preserved. Nov 20 newsletter follow-up:
+      34 sent/delivered, 1 suppressed, no recorded bounce or complaint.
+      Four ready briefs remain; Cabrillo H/L chart is next. See journal.
+
 - [x] **Nov 19 heartbeat — reconcile Mora Road source disagreement.**
       Five guide notices and three FAQs now reflect the road table's Open
       row dated Nov 16 versus the general conditions page's storm-closure
