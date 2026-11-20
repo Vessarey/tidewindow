@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-19",
+ "generated_on": "2026-11-20",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -64,6 +64,18 @@
    "weekend_or_holiday": false
   },
   {
+   "date": "2027-01-18",
+   "weekday": "Mon",
+   "low_ft": 0.189,
+   "low_time_local": "3:14 PM",
+   "window_local": "1:50 PM–4:40 PM",
+   "arrive_by_local": "2:14 PM",
+   "daylight_min": 170,
+   "score": 48,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-11-22",
    "weekday": "Sun",
    "low_ft": -0.421,
@@ -96,18 +108,6 @@
    "arrive_by_local": "2:36 PM",
    "daylight_min": 123,
    "score": 37,
-   "band": "Skip",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-12-06",
-   "weekday": "Sun",
-   "low_ft": -0.11,
-   "low_time_local": "5:05 PM",
-   "window_local": "3:35 PM–6:35 PM",
-   "arrive_by_local": "4:05 PM",
-   "daylight_min": 51,
-   "score": 34,
    "band": "Skip",
    "weekend_or_holiday": true
   }

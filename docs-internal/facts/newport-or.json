@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-19",
+ "generated_on": "2026-11-20",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -89,6 +89,18 @@
    "weekend_or_holiday": false
   },
   {
+   "date": "2027-01-18",
+   "weekday": "Mon",
+   "low_ft": 0.182,
+   "low_time_local": "3:02 PM",
+   "window_local": "1:40 PM–4:30 PM",
+   "arrive_by_local": "2:02 PM",
+   "daylight_min": 170,
+   "score": 48,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
    "date": "2026-12-20",
    "weekday": "Sun",
    "low_ft": 0.226,
@@ -97,18 +109,6 @@
    "arrive_by_local": "2:24 PM",
    "daylight_min": 153,
    "score": 44,
-   "band": "Fair",
-   "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-12-06",
-   "weekday": "Sun",
-   "low_ft": -0.252,
-   "low_time_local": "4:51 PM",
-   "window_local": "3:15 PM–6:35 PM",
-   "arrive_by_local": "3:51 PM",
-   "daylight_min": 81,
-   "score": 42,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -2094,7 +2094,7 @@
   {
    "commonName": "Branched Dendronotid",
    "scientificName": "Dendronotus venustus",
-   "count": 36
+   "count": 38
   },
   {
    "commonName": "White-and-orange-tipped Nudibranch",
