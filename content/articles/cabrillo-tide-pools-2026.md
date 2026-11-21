@@ -1,8 +1,8 @@
 ---
 title: "Cabrillo Tide Pools in 2026: The Low-Tide Schedule the Gate Hours Actually Allow"
-description: "Compare the 15 remaining 2026 minus lows with Cabrillo's published hours. NOAA times, holiday exclusions and why clock overlap does not establish access."
+description: "Complete November-December 2026 high/low chart for NOAA 9410170, plus the minus lows that fall within Cabrillo's published hours and holiday closures."
 date: "2026-07-03"
-updated: "2026-11-13"
+updated: "2026-11-21"
 category: "station-guides"
 station: "san-diego-ca"
 tags: ["Cabrillo National Monument", "San Diego", "minus tides", "tide pool schedule", "station 9410170"]
@@ -32,7 +32,7 @@ Most tide pool guides give you the tide table and stop. At Cabrillo, the tide ta
 
 ## Does the tide table matter if the gate is closed?
 
-Cabrillo National Monument sits at the tip of Point Loma. The [NPS hours page](https://www.nps.gov/cabr/planyourvisit/hours.htm), re-checked November 13, lists the main park at 9:00 AM–5:00 PM and the tidepools and coastal area closing at 4:30 PM. Thanksgiving and Christmas are closed days, and public access outside main-park hours is prohibited.
+Cabrillo National Monument sits at the tip of Point Loma. The [NPS hours page](https://www.nps.gov/cabr/planyourvisit/hours.htm), re-checked November 21, lists the main park at 9:00 AM–5:00 PM and the tidepools and coastal area closing at 4:30 PM. Thanksgiving and Christmas are closed days, and public access outside main-park hours is prohibited.
 
 The comparison below uses those published hours, not a new arrival rule. It does not account for parking queues, temporary restrictions, walking time or conditions on the rocks. NPS also describes capacity-related road closures on its [tidepool page](https://www.nps.gov/cabr/learn/nature/tidepools.htm). A predicted low inside the clock interval is not a promise that a visit is possible.
 
@@ -70,6 +70,56 @@ Six dates from the October 14 recompute have now passed; their predicted values 
 | Sun, Nov 8 | −0.37 | 2:43 PM |
 | Mon, Nov 9 | −0.41 | 3:18 PM |
 | Tue, Nov 10 | −0.31 | 3:54 PM |
+
+## The complete November–December high/low chart
+
+The selection above answers one narrow question: which minus lows fall inside the published hours. For the complete picture, the chart below lists **every predicted high and low at NOAA station 9410170 from November 21 through December 31, 2026** — nighttime extremes, positive lows and the two closed holidays included, regardless of hours or window score. All times are local Pacific Standard Time (PST); heights are feet relative to mean lower low water (MLLW). Recomputed November 21 from the station's predicted high/low record. A tide chart is not an access calendar: per the published hours re-checked today, the park is closed on Thanksgiving and Christmas and outside 9:00 AM–5:00 PM on every other day, and the tidepool area closes at 4:30 PM. The current station calendars show the same months with window scores: [November](/beaches/ca/san-diego-ca/2026-11/) and [December](/beaches/ca/san-diego-ca/2026-12/).
+
+| Date | Lows (MLLW) | Highs (MLLW) |
+|---|---|---|
+| Sat, Nov 21 | +0.23 ft @ 12:58 PM | +6.14 ft @ 6:09 AM · +4.28 ft @ 6:59 PM |
+| Sun, Nov 22 | +1.54 ft @ 12:18 AM · −0.48 ft @ 1:40 PM | +6.66 ft @ 6:40 AM · +4.31 ft @ 7:50 PM |
+| Mon, Nov 23 | +1.74 ft @ 12:54 AM · −1.03 ft @ 2:24 PM | +7.09 ft @ 7:15 AM · +4.28 ft @ 8:40 PM |
+| Tue, Nov 24 | +1.93 ft @ 1:32 AM · −1.36 ft @ 3:09 PM | +7.37 ft @ 7:53 AM · +4.18 ft @ 9:31 PM |
+| Wed, Nov 25 | +2.12 ft @ 2:12 AM · −1.45 ft @ 3:57 PM | +7.45 ft @ 8:34 AM · +4.05 ft @ 10:25 PM |
+| Thu, Nov 26 (park closed) | +2.32 ft @ 2:56 AM · −1.31 ft @ 4:49 PM | +7.30 ft @ 9:19 AM · +3.94 ft @ 11:25 PM |
+| Fri, Nov 27 | +2.53 ft @ 3:46 AM · −1.01 ft @ 5:44 PM | +6.92 ft @ 10:10 AM |
+| Sat, Nov 28 | +2.76 ft @ 4:48 AM · −0.61 ft @ 6:42 PM | +3.93 ft @ 12:29 AM · +6.35 ft @ 11:07 AM |
+| Sun, Nov 29 | +2.92 ft @ 6:10 AM · −0.17 ft @ 7:42 PM | +4.07 ft @ 1:37 AM · +5.66 ft @ 12:14 PM |
+| Mon, Nov 30 | +2.85 ft @ 7:49 AM · +0.27 ft @ 8:43 PM | +4.36 ft @ 2:45 AM · +4.96 ft @ 1:31 PM |
+| Tue, Dec 1 | +2.41 ft @ 9:34 AM · +0.67 ft @ 9:40 PM | +4.79 ft @ 3:43 AM · +4.40 ft @ 3:00 PM |
+| Wed, Dec 2 | +1.71 ft @ 10:55 AM · +1.06 ft @ 10:29 PM | +5.25 ft @ 4:30 AM · +4.08 ft @ 4:25 PM |
+| Thu, Dec 3 | +0.98 ft @ 11:56 AM · +1.44 ft @ 11:12 PM | +5.68 ft @ 5:10 AM · +3.93 ft @ 5:39 PM |
+| Fri, Dec 4 | +0.36 ft @ 12:45 PM · +1.78 ft @ 11:50 PM | +6.02 ft @ 5:45 AM · +3.88 ft @ 6:42 PM |
+| Sat, Dec 5 | −0.11 ft @ 1:27 PM | +6.26 ft @ 6:18 AM · +3.87 ft @ 7:36 PM |
+| Sun, Dec 6 | +2.07 ft @ 12:25 AM · −0.42 ft @ 2:04 PM | +6.39 ft @ 6:50 AM · +3.86 ft @ 8:20 PM |
+| Mon, Dec 7 | +2.29 ft @ 12:58 AM · −0.59 ft @ 2:38 PM | +6.44 ft @ 7:21 AM · +3.85 ft @ 8:59 PM |
+| Tue, Dec 8 | +2.44 ft @ 1:30 AM · −0.64 ft @ 3:11 PM | +6.42 ft @ 7:51 AM · +3.81 ft @ 9:37 PM |
+| Wed, Dec 9 | +2.53 ft @ 2:02 AM · −0.58 ft @ 3:45 PM | +6.34 ft @ 8:21 AM · +3.75 ft @ 10:14 PM |
+| Thu, Dec 10 | +2.60 ft @ 2:33 AM · −0.46 ft @ 4:20 PM | +6.21 ft @ 8:52 AM · +3.69 ft @ 10:54 PM |
+| Fri, Dec 11 | +2.68 ft @ 3:05 AM · −0.28 ft @ 4:57 PM | +6.01 ft @ 9:23 AM · +3.65 ft @ 11:36 PM |
+| Sat, Dec 12 | +2.79 ft @ 3:40 AM · −0.05 ft @ 5:34 PM | +5.73 ft @ 9:56 AM |
+| Sun, Dec 13 | +2.92 ft @ 4:21 AM · +0.21 ft @ 6:13 PM | +3.65 ft @ 12:22 AM · +5.37 ft @ 10:31 AM |
+| Mon, Dec 14 | +3.05 ft @ 5:18 AM · +0.50 ft @ 6:53 PM | +3.73 ft @ 1:10 AM · +4.91 ft @ 11:11 AM |
+| Tue, Dec 15 | +3.10 ft @ 6:37 AM · +0.82 ft @ 7:35 PM | +3.90 ft @ 1:59 AM · +4.37 ft @ 12:03 PM |
+| Wed, Dec 16 | +2.91 ft @ 8:20 AM · +1.16 ft @ 8:20 PM | +4.19 ft @ 2:47 AM · +3.81 ft @ 1:19 PM |
+| Thu, Dec 17 | +2.34 ft @ 9:58 AM · +1.47 ft @ 9:09 PM | +4.59 ft @ 3:31 AM · +3.39 ft @ 3:04 PM |
+| Fri, Dec 18 | +1.54 ft @ 11:06 AM · +1.75 ft @ 9:59 PM | +5.08 ft @ 4:10 AM · +3.27 ft @ 4:41 PM |
+| Sat, Dec 19 | +0.66 ft @ 12:00 PM · +1.97 ft @ 10:49 PM | +5.62 ft @ 4:48 AM · +3.38 ft @ 5:59 PM |
+| Sun, Dec 20 | −0.19 ft @ 12:49 PM · +2.10 ft @ 11:38 PM | +6.18 ft @ 5:28 AM · +3.58 ft @ 7:03 PM |
+| Mon, Dec 21 | −0.93 ft @ 1:35 PM | +6.71 ft @ 6:11 AM · +3.79 ft @ 7:56 PM |
+| Tue, Dec 22 | +2.15 ft @ 12:28 AM · −1.49 ft @ 2:20 PM | +7.16 ft @ 6:56 AM · +3.96 ft @ 8:44 PM |
+| Wed, Dec 23 | +2.12 ft @ 1:19 AM · −1.81 ft @ 3:05 PM | +7.46 ft @ 7:42 AM · +4.08 ft @ 9:30 PM |
+| Thu, Dec 24 | +2.05 ft @ 2:09 AM · −1.88 ft @ 3:50 PM | +7.56 ft @ 8:29 AM · +4.17 ft @ 10:17 PM |
+| Fri, Dec 25 (park closed) | +2.00 ft @ 2:59 AM · −1.71 ft @ 4:36 PM | +7.40 ft @ 9:17 AM · +4.26 ft @ 11:05 PM |
+| Sat, Dec 26 | +2.01 ft @ 3:53 AM · −1.33 ft @ 5:22 PM | +6.96 ft @ 10:06 AM · +4.37 ft @ 11:55 PM |
+| Sun, Dec 27 | +2.07 ft @ 4:53 AM · −0.79 ft @ 6:07 PM | +6.28 ft @ 10:59 AM |
+| Mon, Dec 28 | +2.15 ft @ 6:01 AM · −0.14 ft @ 6:53 PM | +4.52 ft @ 12:45 AM · +5.42 ft @ 11:56 AM |
+| Tue, Dec 29 | +2.15 ft @ 7:21 AM · +0.55 ft @ 7:39 PM | +4.71 ft @ 1:39 AM · +4.50 ft @ 1:01 PM |
+| Wed, Dec 30 | +1.91 ft @ 8:59 AM · +1.22 ft @ 8:30 PM | +4.94 ft @ 2:35 AM · +3.68 ft @ 2:23 PM |
+| Thu, Dec 31 | +1.38 ft @ 10:36 AM · +1.81 ft @ 9:20 PM | +5.18 ft @ 3:31 AM · +3.21 ft @ 4:07 PM |
+
+Days with a single listed low or high are not missing data: the other extreme falls just past midnight on the neighboring date — November 27's second high, for example, is November 28's +3.93 ft row at 12:29 AM. The deepest low in the chart, −1.88 ft on December 24 at 3:50 PM, matches the hours-filtered selection above. The next-deepest values cluster on the same spring runs: −1.81 ft on December 23 and −1.71 ft on December 25, the latter on a closed day.
 
 ## Whole-month tide context, including the passed September record
 
