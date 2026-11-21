@@ -5,6 +5,14 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 21 heartbeat — pending Cabrillo release completed.**
+      Configured GitHub authentication was already working at check-in;
+      independent build/raw-data/render checks passed and normal push
+      succeeded. Exact-commit Production deployment and live chart verified.
+      Earlier owner-login request is resolved. No second editorial change;
+      all 132 held files preserved. See the heartbeat journal for current
+      production health, search/product metrics and remaining Nov deadlines.
+
 - [x] **Nov 20 heartbeat — refresh Mora Road notices after NPS reports converge.**
       Five guide notices and three FAQs now reflect the general conditions
       page's Nov 20 update to Open, agreeing with the road table's Nov 16
@@ -779,13 +787,14 @@ traffic uplift is established. Owner-held drafts are excluded.
       that later action complete or remove the current feature. No January
       month-page expansion; the December indexing gate still applies.
 
-- [ ] **Cabrillo — answer complete tide-chart intent beside the hours table.**
-      **Implemented locally 2026-11-21, commit `3603a68`; NOT yet published —
-      push blocked by expired GitHub auth (see 2026-11-21 journal). Owner must
-      re-run `gh auth login`; then push local main and verify the Vercel
-      deployment before checking this off. All gates passed locally: build,
-      verify-output, 108 test assertions, 158/158 rendered chart values
-      byte-matched to the Nov 21 fact sheet, NPS pages re-fetched 200.**
+- [x] **Cabrillo — answer complete tide-chart intent beside the hours table.**
+      **Published 2026-11-21 by the heartbeat after configured GitHub access
+      recovered. Source `3603a68`; exact-SHA Production deployment
+      7967492872 for `fc12c62` succeeded 18:23:49Z. All 41 dates / 158
+      extrema verified against raw tides, facts, Markdown and live HTML;
+      isolated build and 106 committed tests passed. The morning's 108
+      count included two held local tests, excluded from publication.
+      All 132 held files preserved. No further auth/login action needed.**
       Target existing `cabrillo-tide-pools-2026`. Exact queries:
       `cabrillo tide pools tide chart` 0 / 28 / 8.71;
       `cabrillo tide chart` 0 / 6 / 9.17;
@@ -834,7 +843,8 @@ Sea-glass and Sunset Bay remain the other two ready briefs. Fitzgerald's
 Nov–Dec chart, La Jolla's new chart, the national January table, California's
 high-water comparison and the national print/Save as PDF path are already
 covered; do not recreate them. The Nov 19 newsletter ritual and its gates
-were completed by the morning operator; Oregon January remains next.
+were completed by the morning operator. Oregon January and Cabrillo are now
+published; Pacific Grove is next (Nov 21 heartbeat).
 Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-18/queue-evidence.json`.
 <!-- heartbeat-2026-11-18-refill:end -->
 

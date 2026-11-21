@@ -5,6 +5,103 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-21 — Heartbeat: release the verified Cabrillo chart after GitHub access recovered
+
+**One primary action:** completed the morning operator's pending release,
+rather than starting a second editorial assignment. At check-in, local main
+`fc12c62` was two commits ahead of origin/main `14e8eda`: Cabrillo source
+`3603a68` plus its operating records. `git pull --ff-only` was current;
+`gh auth status` now showed the configured Vessarey account authenticated.
+No login, credential edit, identity switch or access expansion was needed.
+After independent verification, the normal `git push origin main` succeeded.
+The earlier expired-auth report was accurate for the morning session; it no
+longer requires owner action. The three ready briefs after this release are
+Pacific Grove, sea-glass and Sunset Bay, so no queue refill was needed.
+
+**Independent release checks:** an isolated locked install and plain build
+passed, including all **106 committed tests**, 12 stations × 6 months and
+151 sitemap URLs. The morning's 108 assertion count included two owner-held
+local wording additions; those were excluded from the release worktree.
+Recomputed all **41 chart dates / 158 highs and lows** for Nov 21–Dec 31
+from raw station tides and independently compared every time/height/type
+with the fact sheet and both Markdown and rendered HTML rows. All match.
+Both holiday rows are explicitly closed; PST, MLLW and the distinction
+between a tide chart and an access calendar are visible. NPS hours and
+tidepool sources re-fetched HTTP 200 and support the existing hours/holiday
+claims. Preserved all 36 pre-existing Markdown table rows, title, original
+publication date, station, FAQs, sources and gates. Five FAQ schema answers
+match source; seven internal routes resolve; description is 150 characters.
+Local browser chart review passed. No article or code was rewritten here.
+
+Official sources checked:
+- https://www.nps.gov/cabr/planyourvisit/hours.htm
+- https://www.nps.gov/cabr/learn/nature/tidepools.htm
+
+**Release verified:** exact-SHA Production deployment 7967492872 for
+`fc12c6251c78836bc5a266579ebd5c2c8e2a03be` succeeded at 18:23:49Z.
+Public guide returned HTTP 200 at 18:24:29Z; every live chart row passed the
+same independent check. Live browser showed the Nov 21 update, full date
+range and both closed holidays, with no captured warn/error. Source
+`3603a68` is now published; the backlog's pending-auth state is resolved.
+
+**Freshness/operations:** scheduled NOAA run 44879501981 began 07:16:48Z,
+generated at 07:17:27.470Z, and pushed `14e8eda` at 07:19:15.269Z.
+IndexNow accepted 151 URLs / HTTP 200 at 07:19:13.139Z. Last ten listed
+runs green; the latest 17:36:33Z scheduled run skipped at 17:36:38.984Z
+because today's data was already on main. No recovery dispatch. Originating
+cron expression unavailable, so no schedule-delay inference. No open issues.
+All 12 live station files returned HTTP 200 and byte-matched committed data
+at 18:20:24.438Z; sitemap contains 151 URLs; no score-90+ window Nov 21–Dec 5.
+Home → ZIP 92037 → La Jolla Finder showed computed Nov 21 results; calendar
+button opened the email form, without submission or captured warn/error.
+NPS Olympic conditions still says Mora Road is open, page updated Nov 20;
+no new access-copy change was warranted from that read.
+
+**Search:** GSC Web/final property totals **Oct 23–Nov 19: 549 clicks /
+30,833 impressions / position 6.95**, versus Sep 25–Oct 22 **337 / 16,624 /
+7.04** (+62.9% clicks). All 28 daily rows returned. Nov 13–19: **169 clicks /
+9,746 impressions / 6.92**, versus Nov 6–12 **137 / 8,754 / 6.98**. These
+are property-level observations, not a causal result of today's publication.
+GSC Wizard still requires a subscription; PostHog connector still requires
+reauthentication. Configured read-only APIs worked; no access/billing change.
+
+**Product:** project 495836, host thetidewindow.com, Regular classification,
+explicit UTC bounds. **Nov 14–20: 1,528 pageviews / 1,448 distinct IDs**;
+1 signup / 1 ID (month_gate), 13 station selections / 13 IDs, 10 result views /
+10 IDs, 20 calendar clicks / 17 IDs, 1 ICS reveal / 1 ID; no Trip Picker row.
+Four Bot pageviews excluded. **Oct 24–Nov 20: 4,736 pageviews / 4,474 IDs**;
+14 signups / 13 IDs, 66 station selections / 55 IDs, 54 result views / 49 IDs,
+56 calendar clicks / 53 IDs, 12 ICS reveals / 12 IDs, 3 Trip Picker runs /
+3 IDs. Regular is not verified human traffic, distinct IDs are not people,
+and aggregate event totals are not a sequenced funnel. Retired experiments
+stay closed; 14 signup events remain below the 30-event floor. The existing
+exit-prompt owner-instruction conflict remains unchanged; no prompt edit.
+
+Top seven-day guide pageviews: Oregon king tides 413, national king tides
+408, Washington 179, California 152, Fitzgerald 35; Finder 19. Referrer
+pageviews are not search clicks. Measured p75 nearest-rank vitals: LCP 652 ms
+(n=463), INP 40 ms (n=112), CLS 0 (n=159). The same 19 exceptions / five IDs
+remain dated Nov 17–18, all Brave on Oregon: 15 opaque Script errors and
+four ethereum.selectedAddress errors. No new signature or reproduced
+first-party failure. Capture flag absent on 1,349 Regular pageviews and
+false on 179, true on none; incomplete capture is not zero errors.
+
+**Other gates:** production dependency audit zero findings; full audit still
+11 development findings (8 moderate, 3 high), no package edits. All 132
+owner-held files remained byte-identical. No new article, station, January
+month batch, email send, audience change or outreach. Nov 19 newsletter's
+late-delivery follow-up was already completed Nov 20; not duplicated here.
+
+**Next:** Pacific Grove's stale October lead. Weekly GSC inspection remains
+due Nov 23; the three tool Request Indexing actions still need the owner,
+with Nov 30 as the circuit-breaker checkpoint. Restore Oregon's December
+feature after Nov 27; refresh Washington's before Nov 30. December indexing
+continues to gate January month pages. For the Nov 26 Thanksgiving newsletter,
+recheck fresh window rendering and all existing send gates in its own run.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-21/`.
+
+---
+
 ## 2026-11-21 — Cabrillo complete H/L chart written; push blocked by expired GitHub auth
 
 **Health:** Daily refresh green and landed before session: the 07:16:48Z
