@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-20",
+ "generated_on": "2026-11-21",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -65,6 +65,18 @@
    "weekend_or_holiday": false
   },
   {
+   "date": "2027-01-19",
+   "weekday": "Tue",
+   "low_ft": -0.775,
+   "low_time_local": "3:49 PM",
+   "window_local": "1:45 PM–6:00 PM",
+   "arrive_by_local": "2:49 PM",
+   "daylight_min": 207,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-11-23",
    "weekday": "Mon",
    "low_ft": -1.238,
@@ -99,18 +111,6 @@
    "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2027-01-18",
-   "weekday": "Mon",
-   "low_ft": -0.055,
-   "low_time_local": "2:52 PM",
-   "window_local": "1:10 PM–4:40 PM",
-   "arrive_by_local": "1:52 PM",
-   "daylight_min": 210,
-   "score": 54,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2089,7 +2089,7 @@
   {
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Opalescent Nudibranch",
