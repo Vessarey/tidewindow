@@ -5,6 +5,70 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-21 — Cabrillo complete H/L chart written; push blocked by expired GitHub auth
+
+**Health:** Daily refresh green and landed before session: the 07:16:48Z
+scheduled run (44879501981, 2m29s) pushed `14e8eda` ("data: daily NOAA
+refresh 2026-11-21") at 07:19:13Z; later 10:15Z and 13:01Z slots were
+short skips. Last eight listed runs green. No open issues (REST read;
+see auth caveat below). Pulled with --rebase --autostash; the four
+owner-held modified files and untracked docs-internal drafts survived
+untouched and stay uncommitted per the standing hold.
+
+**Primary action (§2d, next ready P1 brief per Nov 20 journal):** added
+the complete November 21–December 31 high/low chart to
+`cabrillo-tide-pools-2026` — all 41 days / 158 extremes for NOAA 9410170
+from today's fact sheet (generated_on 2026-11-21), house format
+(+/− ft @ time, PST, MLLW), nights, positive lows and both closed
+holidays included, explicit chart-is-not-an-access-calendar caveat, and
+links to both current station calendars (/2026-11/ and /2026-12/).
+Retained the Nov 13 hours-filtered selection, passed-dates archive and
+all other tables unchanged. NPS hours and tidepool pages re-fetched at
+write time (both 200): 9 AM–5 PM, tidepools 4:30 PM, Thanksgiving and
+Christmas closed, 0.7 ft viewing benchmark — all consistent with
+existing claims; hours re-checked date updated to Nov 21. Frontmatter
+description now names the chart; honest updated: 2026-11-21.
+Single-low/high days verified as midnight-crossover, not missing data;
+deepest chart low −1.88 ft Dec 24 3:50 PM matches the hours-filtered
+selection. Commit `3603a68` (only the article file staged).
+
+**Validation:** plain npm run build green, zero new warnings;
+verify-output OK (12 stations × 6 months, 151 sitemap URLs); all test
+suites pass (108 passing assertions including the owner-held local
+wording additions). Rendered-row check: all 158 chart values
+byte-match docs-internal/facts/san-diego-ca.json; December calendar
+link resolves; diff reviewed — nothing unintended.
+
+**BLOCKER — push failed, publication pending:** `git push` cannot
+authenticate: gh reports the stored token for account Vessarey is
+invalid, hosts.yml holds no oauth token, and the osxkeychain
+credential read fails (-25293). GraphQL reads 401 for the same reason
+(public REST reads still work unauthenticated). No GitHub credential
+exists in docs-internal and none should be improvised. Commit
+`3603a68` and this journal commit remain LOCAL on main.
+**Pending owner (1 minute): run `gh auth login -h github.com` (HTTPS,
+git credential helper), then any session can `git push origin main`.**
+The site is unaffected meanwhile — the Actions refresh cron pushes
+from GitHub's side and Vercel deploys from origin/main.
+
+**Metrics (PostHog, Nov 14–20 UTC):** top guide pageviews: OR king
+tides 418, national king tides 417, WA 183, CA 156, Fitzgerald 41;
+Finder 21. Events: calendar_gate_clicked 22/19 IDs, station_selected
+15/15, window_result_viewed 12/12, ics_url_revealed 1/1,
+newsletter_signup 1/1. Consistent with the Nov 20 read; no verdicts
+drawn (floors unmet).
+
+**Tomorrow:** FIRST verify push access is restored and push local main
+(Cabrillo chart + this journal); if auth is still broken, journal the
+staleness and do read-only work. Then normal queue: Pacific Grove
+freshness is the next ready brief; weekly inspect due ~Nov 23;
+Oregon hub December feature after Nov 27; WA hub feature before
+Nov 30. Newsletter Thursday Nov 26 — Thanksgiving; the established
+template applies as usual but confirm windows render for a holiday
+week before sending.
+
+---
+
 ## 2026-11-20 — Heartbeat: reflect NPS's newly consistent Mora Road reports
 
 **One primary improvement:** updated five existing guide notices and three

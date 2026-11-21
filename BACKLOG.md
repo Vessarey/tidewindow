@@ -780,6 +780,12 @@ traffic uplift is established. Owner-held drafts are excluded.
       month-page expansion; the December indexing gate still applies.
 
 - [ ] **Cabrillo — answer complete tide-chart intent beside the hours table.**
+      **Implemented locally 2026-11-21, commit `3603a68`; NOT yet published —
+      push blocked by expired GitHub auth (see 2026-11-21 journal). Owner must
+      re-run `gh auth login`; then push local main and verify the Vercel
+      deployment before checking this off. All gates passed locally: build,
+      verify-output, 108 test assertions, 158/158 rendered chart values
+      byte-matched to the Nov 21 fact sheet, NPS pages re-fetched 200.**
       Target existing `cabrillo-tide-pools-2026`. Exact queries:
       `cabrillo tide pools tide chart` 0 / 28 / 8.71;
       `cabrillo tide chart` 0 / 6 / 9.17;
