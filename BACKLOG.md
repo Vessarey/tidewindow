@@ -5,6 +5,14 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 22 heartbeat — ready queue refilled after Pacific Grove.**
+      Three bounded P1 refresh briefs added from current GSC and source
+      evidence: Washington January monthly peaks, Acadia's passed October
+      lead/current chart, and Glass Beach's November–December chart.
+      Five ready assignments including sea-glass and Sunset Bay. Morning
+      Pacific Grove release and all 12 live station files verified; no
+      second editorial publication. See today's heartbeat journal.
+
 - [x] **Nov 21 heartbeat — pending Cabrillo release completed.**
       Configured GitHub authentication was already working at check-in;
       independent build/raw-data/render checks passed and normal push
@@ -740,6 +748,91 @@ with the date; add discoveries at the appropriate tier.
 
 ## P1 — content queue (one per day max; ≤5/week)
 
+<!-- heartbeat-2026-11-22-refill:start -->
+**Nov 22 heartbeat refill — five assignments writable this week.** Pacific
+Grove is published; only sea-glass and Sunset Bay remained ready. Required
+`flywheel 28` and `queries 28` reads cover **Oct 24–Nov 20 inclusive Pacific
+dates, Web/final**, with 1,022 disclosed query rows and 113 companion page
+rows. Selected query subtotals below are property-wide, not query-by-page
+attribution or complete demand. These are bounded additions/refreshes to
+existing pages; preserve titles, URLs, original publication dates, gates and
+useful historical rows. Use same-day facts, re-fetch official sources at
+write time, set `updated:` honestly, and pass the normal content build plus
+complete number/link/rendered checks. No title or conversion experiment.
+Owner-held files remain excluded. Nov 23 weekly indexing inspection still
+comes before the next routine editorial assignment.
+
+- [ ] **Washington king tides — complete the January comparison.**
+      Target existing `king-tides-washington-2027`. Exact queries:
+      `king tides washington 2027` 2 clicks / 34 impressions / position 3.97;
+      `king tides washington 2026` 11 / 2,533 / 7.37;
+      `king tides 2026 washington state` 2 / 104 / 8.31;
+      `king tides washington coast 2026` 1 / 110 / 7.92.
+      Selected subtotal **16 clicks / 2,781 impressions / weighted position
+      7.38**; only the first row is explicitly 2027 demand. Separate guide
+      baseline: **129 / 8,864 / 6.22**. The guide provides November maxima
+      and seasonal top-five highs, but not all three January monthly peaks;
+      Port Townsend's January maximum is absent from its seasonal top five.
+      Add a three-station January table from the existing `jan_2027` blocks
+      for Seattle 9447130, Port Townsend 9444900 and La Push 9442396.
+      Readiness Nov 22: complete January highs counts 60/58/60, all 31 days.
+      Recompute maxima against the full raw month, preserve monthly versus
+      seasonal scope, and link the national comparison. Re-fetch Washington
+      Sea Grant's calendar; keep its location-specific program rows separate
+      from independently computed NOAA station values. Preserve the Long
+      Beach/Cape Disappointment coverage caveat and recheck its park notice.
+      Keep November prominent through the current event. This brief does
+      not complete the separate WA feature rollover due before Nov 30, or
+      authorize January month pages before the December indexing gate.
+
+- [ ] **Acadia — retire the passed October 25 lead and add December chart.**
+      Target existing `acadia-tide-pools-bar-island-ship-harbor`.
+      Exact queries: `acadia national park tide chart` 0 / 2 / 6.50;
+      `acadia tide schedule` 0 / 2 / 22.50; `acadia tide times` 0 / 1 / 27.00;
+      `bar island trail tide chart` 0 / 3 / 8.33;
+      `tide chart acadia national park` 0 / 1 / 10.00.
+      Selected subtotal **0 clicks / 9 impressions / weighted position
+      13.33**; separate guide baseline **1 / 253 / 7.39**. Small disclosed
+      demand: factual freshness, not a projected traffic gain, is the reason.
+      The Oct 17 lead still calls Oct 25 the best remaining 2026 window;
+      description/FAQ/chart stop Nov 30 and say December daily facts are
+      unavailable. They are now available: Nov 22–Dec 31 has 40 dates and
+      155 extrema for Bar Harbor 8413320. Recompute the best remaining
+      window over the full relevant range at implementation, roll current
+      framing/FAQ/monthly comparisons, and add all remaining November and
+      December highs/lows. Preserve dated historical rows as history; update
+      links to the November/December station calendars. Re-fetch the four
+      NPS destination/tidepooling sources. Keep Bar Harbor reference-station
+      predictions distinct from each shoreline's timing and NPS crossing
+      guidance; no tide-derived permission for the Bar Island route.
+
+- [ ] **Glass Beach — extend the current chart through December.**
+      Target existing `glass-beach-port-townsend-low-tide-2026`.
+      Exact queries: `glass beach port townsend tide chart` 1 / 14 / 5.86;
+      `north beach port townsend tide chart` 0 / 6 / 10.50;
+      `north beach port townsend tides` 0 / 1 / 10.00.
+      Selected subtotal **1 click / 21 impressions / weighted position
+      7.38**; separate guide baseline **6 / 98 / 6.48**. Its current chart
+      still spans Oct 21–Nov 30, with October/November links and range-bound
+      counts. Use Port Townsend 9444900 daily facts for a dated remaining-
+      November/December chart (Nov 22 readiness: 40 dates / 154 extrema),
+      including nighttime highs/lows and positive lows. Recompute chart
+      extrema, minus-low counts, clock ranges and all daylight statements
+      over the complete new range; verify the January 16 first qualifying
+      window from the complete prediction range, not a top-five selection.
+      Preserve useful October rows as history and link current calendars.
+      Re-fetch the article's official North Beach/route sources; no station
+      threshold or score establishes walking time, turnaround or access.
+      The Nov 16 Puget Sound chart is already published: this refresh is
+      specifically the Glass Beach guide, not another Puget Sound rebuild.
+
+The two existing sea-glass and Sunset Bay briefs remain independent and
+ready. California already has December/January monthly peaks; national and
+Oregon January tables, Cabrillo and La Jolla charts, and Pacific Grove's
+current lead are published. Do not recreate those assignments.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-22/queue-evidence.json`.
+<!-- heartbeat-2026-11-22-refill:end -->
+
 <!-- heartbeat-2026-11-18-refill:start -->
 **Nov 18 heartbeat refill — five assignments writable this week.** The
 morning operator completed La Jolla (`7bc8ecf`); only sea-glass and Sunset
@@ -857,7 +950,8 @@ covered; do not recreate them. The Nov 19 newsletter ritual and its gates
 were completed by the morning operator. Oregon January and Cabrillo are now
 published; Pacific Grove done 2026-11-22. Only sea-glass and Sunset Bay
 remain ready — below the three-item floor, so a §2a refill outranks the
-next routine article.
+next routine article. **Superseded by the Nov 22 refill above: five ready
+assignments now; this paragraph records the pre-refill state.**
 Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-18/queue-evidence.json`.
 <!-- heartbeat-2026-11-18-refill:end -->
 

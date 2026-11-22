@@ -5,6 +5,83 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-22 — Heartbeat: refill the ready queue after Pacific Grove
+
+**One primary action (§2a):** the morning operator completed Pacific Grove
+(`1e98426`, records `02677ab`), leaving only sea-glass and Sunset Bay ready.
+Added three bounded refresh briefs to BACKLOG: Washington's missing complete
+January monthly-peak comparison, Acadia's passed October 25 lead/current
+chart, and Glass Beach's chart through December. Five ready assignments now.
+Required GSC flywheel/queries reads returned 1,022 disclosed query rows for
+Oct 24–Nov 20, with 113 companion page rows. Exact query subtotals, separate
+page baselines, source gaps and same-day fact readiness are recorded per
+brief. No public article/code change or new experiment; the morning release
+was verified rather than duplicated. Operating-record checks and held-file
+hash comparison passed; no app build needed for these Markdown records.
+
+**Health and refresh:** `git pull --ff-only` was current. Latest six Actions
+runs green, no open issues. Scheduled run 44996013992 started 06:57:16Z;
+refresh commit `c566e55` is dated 06:59:58Z, and the log confirms push at
+07:00:00.751Z. IndexNow submitted 151 URLs, HTTP 200 at 06:59:58.376Z.
+The latest 17:51:47Z run skipped because today's data already landed.
+Originating cron expression was not established, so no slot-delay estimate.
+All 12 live station JSON files returned 200 and matched local bytes, generated
+2026-11-22; sitemap has 151 URLs. No Exceptional (90+) window in the next
+14-day scan. Pacific Grove Production deployment 7979198993 succeeded
+13:12:52Z; live article contains its Nov 22 lead/current run and October
+archive. Chrome Finder selection for Monterey rendered today's data and
+Nov 24 top result, and its calendar button opened the email form. No form
+submission; no warnings/errors captured in this sample Chrome session.
+NPS Olympic conditions still says Mora Road open (page updated Nov 20),
+agreeing with the road table's Nov 16 row. No access-copy change warranted.
+
+**Search:** GSC Web/final property totals, inclusive Pacific dates:
+**Oct 24–Nov 20: 567 clicks / 31,844 impressions / position 6.87**, versus
+Sep 26–Oct 23 **345 / 16,745 / 7.07** (+64.3% clicks). All 28 daily rows
+returned. **Nov 14–20: 178 / 10,115 / 6.75**, versus Nov 7–13
+**147 / 9,137 / 6.92** (+21.1% clicks). Observational, not causal credit
+for today's release. GSC Wizard remains subscription-blocked and the
+PostHog connector needs reauthentication; configured read-only API fallbacks
+worked without access or billing changes.
+
+**Product:** PostHog 495836, host thetidewindow.com, Regular classification,
+explicit UTC bounds. **Nov 15–21: 1,595 pageviews / 1,523 distinct IDs**;
+1 signup / 1 ID (month_gate), 13 station selections / 13 IDs, 10 results /
+10 IDs, 22 calendar clicks / 19 IDs, 1 ICS reveal / 1 ID; no Trip Picker
+event row. **Oct 25–Nov 21: 4,866 pageviews / 4,606 IDs**; 14 signups /
+13 IDs, 65 station selections / 55 IDs, 54 results / 49 IDs, 58 calendar
+clicks / 55 IDs, 12 ICS reveals / 12 IDs, 3 Trip Picker runs / 3 IDs.
+Regular does not verify humans, IDs are not people, and aggregate counts
+are not a sequenced funnel. These explicit-UTC readings differ from the
+morning journal's totals; preserve the window/filter definitions. Retired
+experiments remain closed; 14 signup events are below the 30-event floor.
+No prompt changes or new experiment; the recorded exit-prompt authority
+conflict remains unresolved.
+
+Seven-day guide pageviews: national king tides 441, Oregon 420, Washington
+192, California 164, Fitzgerald 46; Finder 17. Referrer pageviews are not
+search clicks. Nearest-rank p75 vitals: LCP 652 ms (n=478), INP 40 ms
+(n=117), CLS 0 (n=165), from 1,693 vitals events. The same 19 exceptions /
+5 IDs, Nov 17–18, all Brave on Oregon: 15 opaque Script errors, four
+ethereum.selectedAddress errors. No new signature or reproduced first-party
+failure. Capture flag absent on 1,416 pageviews and false on 179; incomplete
+capture is not zero errors. Production dependency audit has zero findings;
+the documented development-audit follow-up remains open, not re-audited here.
+
+**Preservation and next:** all 132 owner-held files remained byte-identical.
+Nov 23 weekly `inspect 40` comes next, including the three tool URLs whose
+Request Indexing actions still need the owner; Nov 30 is their circuit-
+breaker checkpoint. Acadia's expired lead is the first factual-refresh
+candidate once inspection priorities are handled; Washington has the largest
+search baseline. Nov 26 newsletter needs fresh rendering/recomputation and
+all send gates in its own run; Nov 19 delivery follow-up is already complete.
+Restore Oregon's December feature after Nov 27 and refresh Washington's
+before Nov 30. December indexing continues to gate January month pages.
+No send, audience change, outreach, station expansion or held-draft release.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-22/`.
+
+---
+
 ## 2026-11-22 — Pacific Grove: passed October lead retired, current Nov 22–27 run published
 
 **Health:** Daily refresh green and landed before session: the 06:57 scheduled
