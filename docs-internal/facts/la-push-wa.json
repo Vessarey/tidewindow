@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-21",
+ "generated_on": "2026-11-22",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -15,6 +15,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2027-01-20",
+   "weekday": "Wed",
+   "low_ft": -1.363,
+   "low_time_local": "5:03 PM",
+   "window_local": "2:55 PM–7:15 PM",
+   "arrive_by_local": "4:03 PM",
+   "daylight_min": 125,
+   "score": 61,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-12-23",
    "weekday": "Wed",
@@ -98,18 +110,6 @@
    "score": 47,
    "band": "Fair",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-12-21",
-   "weekday": "Mon",
-   "low_ft": -0.659,
-   "low_time_local": "4:26 PM",
-   "window_local": "2:35 PM–6:20 PM",
-   "arrive_by_local": "3:26 PM",
-   "daylight_min": 113,
-   "score": 45,
-   "band": "Fair",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -1995,20 +1995,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-21",
-   "weekday": "Sat",
-   "low_ft": 0.626,
-   "low_time_local": "4:02 PM",
-   "window_local": "3:10 PM–4:55 PM",
-   "arrive_by_local": "3:02 PM",
-   "daylight_min": 85,
-   "score": 28,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 234,
-   "min_to_sun_edge": 33
-  },
-  {
    "date": "2026-11-22",
    "weekday": "Sun",
    "low_ft": -0.421,
@@ -2077,6 +2063,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 225,
    "min_to_sun_edge": 52
+  },
+  {
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.659,
+   "low_time_local": "4:26 PM",
+   "window_local": "2:35 PM–6:20 PM",
+   "arrive_by_local": "3:26 PM",
+   "daylight_min": 113,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 234,
+   "min_to_sun_edge": 2
   }
  ],
  "species_last60d_5km": [

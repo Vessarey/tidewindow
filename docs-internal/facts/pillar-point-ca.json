@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-21",
+ "generated_on": "2026-11-22",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.276,
-   "low_time_local": "3:45 PM",
-   "window_local": "1:10 PM–6:40 PM",
-   "arrive_by_local": "2:45 PM",
-   "daylight_min": 224,
-   "score": 72,
+   "date": "2027-01-20",
+   "weekday": "Wed",
+   "low_ft": -1.456,
+   "low_time_local": "3:21 PM",
+   "window_local": "12:35 PM–6:25 PM",
+   "arrive_by_local": "2:21 PM",
+   "daylight_min": 286,
+   "score": 74,
    "band": "Good",
    "weekend_or_holiday": false
   }
@@ -2088,7 +2088,7 @@
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 74
+   "count": 80
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -2098,27 +2098,27 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 64
+   "count": 66
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 55
+   "count": 61
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 42
+   "count": 44
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 41
+   "count": 42
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 22
+   "count": 23
   },
   {
    "commonName": "California Mussel",

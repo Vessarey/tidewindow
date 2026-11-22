@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-21",
+ "generated_on": "2026-11-22",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -53,6 +53,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2027-01-20",
+   "weekday": "Wed",
+   "low_ft": -1.53,
+   "low_time_local": "3:18 PM",
+   "window_local": "12:30 PM–6:25 PM",
+   "arrive_by_local": "2:18 PM",
+   "daylight_min": 291,
+   "score": 76,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-11-24",
    "weekday": "Tue",
    "low_ft": -1.342,
@@ -97,18 +109,6 @@
    "arrive_by_local": "4:18 PM",
    "daylight_min": 143,
    "score": 70,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2027-01-19",
-   "weekday": "Tue",
-   "low_ft": -1.129,
-   "low_time_local": "2:31 PM",
-   "window_local": "11:45 AM–5:35 PM",
-   "arrive_by_local": "1:31 PM",
-   "daylight_min": 335,
-   "score": 68,
    "band": "Good",
    "weekend_or_holiday": false
   }
@@ -2093,7 +2093,12 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 29
+   "count": 30
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
+   "count": 26
   },
   {
    "commonName": "Mossy Chiton",
@@ -2109,11 +2114,6 @@
    "commonName": "Black Tegula",
    "scientificName": "Tegula funebralis",
    "count": 25
-  },
-  {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 24
   },
   {
    "commonName": null,

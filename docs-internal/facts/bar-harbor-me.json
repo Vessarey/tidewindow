@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-21",
+ "generated_on": "2026-11-22",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -36,6 +36,18 @@
    "window_local": "1:15 PM–4:30 PM",
    "arrive_by_local": "1:54 PM",
    "daylight_min": 162,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2027-01-20",
+   "weekday": "Wed",
+   "low_ft": -0.786,
+   "low_time_local": "2:39 PM",
+   "window_local": "1:00 PM–4:10 PM",
+   "arrive_by_local": "1:39 PM",
+   "daylight_min": 190,
    "score": 57,
    "band": "Fair",
    "weekend_or_holiday": false
@@ -97,18 +109,6 @@
    "arrive_by_local": "3:55 PM",
    "daylight_min": 48,
    "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-12-21",
-   "weekday": "Mon",
-   "low_ft": -0.342,
-   "low_time_local": "1:59 PM",
-   "window_local": "12:35 PM–3:20 PM",
-   "arrive_by_local": "12:59 PM",
-   "daylight_min": 165,
-   "score": 45,
    "band": "Fair",
    "weekend_or_holiday": false
   }
@@ -2093,7 +2093,7 @@
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 8
+   "count": 9
   },
   {
    "commonName": "Fuzzy Onchidoris",
@@ -2104,11 +2104,6 @@
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
    "count": 3
-  },
-  {
-   "commonName": "Rough Periwinkle",
-   "scientificName": "Littorina saxatilis",
-   "count": 2
   },
   {
    "commonName": "Soft-shelled Clam",
@@ -2134,6 +2129,11 @@
    "commonName": "Red-fingered Coryphella",
    "scientificName": "Coryphella verrucosa",
    "count": 2
+  },
+  {
+   "commonName": "barnacle-eating dorid",
+   "scientificName": "Onchidoris bilamellata",
+   "count": 1
   }
  ]
 }

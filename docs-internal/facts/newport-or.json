@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-21",
+ "generated_on": "2026-11-22",
  "source": "NOAA CO-OPS station 9435380 (South Beach) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "newport-or",
@@ -16,6 +16,18 @@
   "method": "hourly-interpolation"
  },
  "next_60d_best_8": [
+  {
+   "date": "2027-01-20",
+   "weekday": "Wed",
+   "low_ft": -1.287,
+   "low_time_local": "4:51 PM",
+   "window_local": "2:50 PM–7:10 PM",
+   "arrive_by_local": "3:51 PM",
+   "daylight_min": 138,
+   "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
   {
    "date": "2026-12-23",
    "weekday": "Wed",
@@ -99,18 +111,6 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2027-01-18",
-   "weekday": "Mon",
-   "low_ft": 0.182,
-   "low_time_local": "3:02 PM",
-   "window_local": "1:40 PM–4:30 PM",
-   "arrive_by_local": "2:02 PM",
-   "daylight_min": 170,
-   "score": 48,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1996,20 +1996,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-21",
-   "weekday": "Sat",
-   "low_ft": 0.434,
-   "low_time_local": "3:49 PM",
-   "window_local": "2:45 PM–5:00 PM",
-   "arrive_by_local": "2:49 PM",
-   "daylight_min": 118,
-   "score": 35,
-   "band": "Skip",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 232,
-   "min_to_sun_edge": 54
-  },
-  {
    "date": "2026-11-22",
    "weekday": "Sun",
    "low_ft": -0.543,
@@ -2078,13 +2064,27 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 234,
    "min_to_sun_edge": 25
+  },
+  {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.252,
+   "low_time_local": "4:51 PM",
+   "window_local": "3:15 PM–6:35 PM",
+   "arrive_by_local": "3:51 PM",
+   "daylight_min": 81,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 241,
+   "min_to_sun_edge": -15
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Horned Nudibranch",
    "scientificName": "Hermissenda crassicornis",
-   "count": 70
+   "count": 69
   },
   {
    "commonName": "Northern Leopard Dorid",
