@@ -817,7 +817,18 @@ traffic uplift is established. Owner-held drafts are excluded.
       one-impression query. Keep the La Jolla chart and CA high-water guide
       distinct; verify all rendered rows and link current station calendars.
 
-- [ ] **Pacific Grove — retire the passed October 25 next-window lead.**
+- [x] **Pacific Grove — retire the passed October 25 next-window lead.**
+      DONE 2026-11-22 (`1e98426`): lead/description/FAQ 1/FAQ 3 and first
+      table now show the Nov 22–27 run from same-day facts (Nov 24 top,
+      73, low before sunset; Nov 25–27 lows after sunset); Oct 25–28 rows
+      kept as an explicitly dated archive; deep-lows table reframed to
+      Nov 22–Dec 31 with the identical verified eight rows; month counts
+      12/14 re-verified; species snapshot refreshed to Nov 22; Monterey
+      2026-11/2026-12 calendars and CA king-tides guide linked; all four
+      official sources re-fetched 200, claims unchanged. Build + 108
+      assertions green; Production deployment verified and live page
+      checked. See the 2026-11-22 journal.
+      Original brief:
       Target existing `pacific-grove-tide-pools-2026`. Exact queries:
       `pacific grove tide chart` 0 / 2 / 2.50;
       `pacific grove tides` 0 / 1 / 27.00;
@@ -844,7 +855,9 @@ Nov–Dec chart, La Jolla's new chart, the national January table, California's
 high-water comparison and the national print/Save as PDF path are already
 covered; do not recreate them. The Nov 19 newsletter ritual and its gates
 were completed by the morning operator. Oregon January and Cabrillo are now
-published; Pacific Grove is next (Nov 21 heartbeat).
+published; Pacific Grove done 2026-11-22. Only sea-glass and Sunset Bay
+remain ready — below the three-item floor, so a §2a refill outranks the
+next routine article.
 Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-18/queue-evidence.json`.
 <!-- heartbeat-2026-11-18-refill:end -->
 

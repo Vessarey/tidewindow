@@ -5,6 +5,65 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-22 — Pacific Grove: passed October lead retired, current Nov 22–27 run published
+
+**Health:** Daily refresh green and landed before session: the 06:57 scheduled
+run pushed `c566e55` ("data: daily NOAA refresh 2026-11-22") at 06:59:58Z;
+the later 10:22 and 12:52 slots were short skips. Last six listed runs green.
+No open issues. Pulled with --rebase --autostash; the four owner-held modified
+files and untracked docs-internal drafts survived untouched and stay
+uncommitted per the standing hold.
+
+**Primary action (§2e/§2d, next ready P1 brief per Nov 21 journal):** refreshed
+`pacific-grove-tide-pools-2026`, whose description, bold lead, first table,
+next-Good paragraph and FAQ 1 still pointed at the passed October 25 window.
+From today's Monterey 9413450 facts (generated_on 2026-11-22) and the complete
+remaining-2026 window list (34 windows Nov 22–Dec 31; 23 with ≥30 min daylight
+overlap, 20 of those minus tides — stated in the article with that scope):
+new lead and six-row Nov 22–27 run table (five consecutive Good windows,
+Nov 24 top at 73, its 4:28 PM low 25 min before the 4:53 PM sunset; Nov 25–27
+lows after sunset), October rows preserved as an explicitly dated archive,
+deep-lows table reframed to Nov 22–Dec 31 — the same eight rows, every
+time/height/score recomputed and matched against
+deepest_2026_daylight_lows_remaining_top8; "five of eight after sunset"
+re-verified. November 12 / December 14 month counts re-verified from full-month
+window data. Species snapshot refreshed to the Nov 22 pipeline data (opalescent
+nudibranch 43, Hopkins' rose 30, noble dorid 26, mossy chiton 26, sea hare 25,
+black tegula 25, Doto urak 24, California mussel 20). Added links to the
+current Monterey 2026-11/2026-12 calendars and the CA king-tides guide. FAQ 3's
+arrive-by example moved to Nov 24; title/slug/date/gates and the September
+numerical corrections preserved. All four official sources re-fetched 200 at
+write time; CDFW take rules, exposure notes and the Asilomar
+27-entry-points/no-collecting claims all still supported; no claim changed.
+
+**Validation:** plain `npm run build` exit 0, zero new warnings; verify-output
+OK (12 stations × 6 months, 151 sitemap URLs); 108 passing assertions
+(including the two owner-held local wording tests). Rendered-row check: all
+new table values present in built HTML; internal links resolve. Diff reviewed:
+only the article file staged; owner-held files untouched. Commit `1e98426`.
+
+**Release verified:** Production deployment for `1e98426` created 13:10:01Z,
+combined status success. Live page fetched after deploy: Nov 22 lead, run
+table, October archive, species counts and five-of-eight sentence all present.
+
+**Metrics (PostHog, project 495836, host thetidewindow.com, UTC Nov 15–21):**
+1,622 pageviews / 1,550 distinct IDs; 13 station selections / 13 IDs,
+10 result views / 10 IDs, 0 newsletter signups, 0 Trip Picker runs in window.
+Top pages: national king tides 447, Oregon 418, Washington 207, California 165,
+Fitzgerald 52; Finder 17. Distinct IDs are not people; referrer pageviews are
+not search clicks.
+
+**Next:** Nov 23 is the weekly `inspect 40` indexing run (due per Nov 21
+journal) — include the three never-crawled tool URLs; Nov 30 remains their
+Request-Indexing circuit-breaker checkpoint. Thursday Nov 26 is the
+Thanksgiving newsletter: recheck fresh window rendering and all existing send
+gates in its own run. After Nov 27 restore the Oregon hub's December feature;
+refresh the WA hub feature before Nov 30. Ready P1 briefs now: sea-glass and
+Sunset Bay (queue at two → §2a refill outranks another routine article when
+next editorial capacity frees up, likely after the Nov 23 inspection run).
+
+---
+
 ## 2026-11-21 — Heartbeat: release the verified Cabrillo chart after GitHub access recovered
 
 **One primary action:** completed the morning operator's pending release,
