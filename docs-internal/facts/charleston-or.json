@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-22",
+ "generated_on": "2026-11-23",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -24,6 +24,18 @@
    "window_local": "2:30 PM–7:05 PM",
    "arrive_by_local": "3:41 PM",
    "daylight_min": 163,
+   "score": 67,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2027-01-21",
+   "weekday": "Thu",
+   "low_ft": -1.7,
+   "low_time_local": "5:28 PM",
+   "window_local": "3:15 PM–7:55 PM",
+   "arrive_by_local": "4:28 PM",
+   "daylight_min": 120,
    "score": 67,
    "band": "Good",
    "weekend_or_holiday": false
@@ -99,18 +111,6 @@
    "score": 56,
    "band": "Fair",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-22",
-   "weekday": "Sun",
-   "low_ft": -0.475,
-   "low_time_local": "4:24 PM",
-   "window_local": "2:40 PM–6:15 PM",
-   "arrive_by_local": "3:24 PM",
-   "daylight_min": 127,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -1996,20 +1996,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-22",
-   "weekday": "Sun",
-   "low_ft": -0.475,
-   "low_time_local": "4:24 PM",
-   "window_local": "2:40 PM–6:15 PM",
-   "arrive_by_local": "3:24 PM",
-   "daylight_min": 127,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 238,
-   "min_to_sun_edge": 23
-  },
-  {
    "date": "2026-11-23",
    "weekday": "Mon",
    "low_ft": -1.238,
@@ -2078,6 +2064,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 239,
    "min_to_sun_edge": 0
+  },
+  {
+   "date": "2026-12-07",
+   "weekday": "Mon",
+   "low_ft": -0.533,
+   "low_time_local": "5:19 PM",
+   "window_local": "3:30 PM–7:20 PM",
+   "arrive_by_local": "4:19 PM",
+   "daylight_min": 71,
+   "score": 35,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 245,
+   "min_to_sun_edge": -38
   }
  ],
  "species_last60d_5km": [

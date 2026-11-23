@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-22",
+ "generated_on": "2026-11-23",
  "source": "NOAA CO-OPS station 9413450 (Monterey) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "monterey-ca",
@@ -53,6 +53,18 @@
    "weekend_or_holiday": true
   },
   {
+   "date": "2027-01-21",
+   "weekday": "Thu",
+   "low_ft": -1.721,
+   "low_time_local": "4:02 PM",
+   "window_local": "1:10 PM–7:05 PM",
+   "arrive_by_local": "3:02 PM",
+   "daylight_min": 252,
+   "score": 79,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2027-01-20",
    "weekday": "Wed",
    "low_ft": -1.53,
@@ -99,18 +111,6 @@
    "score": 72,
    "band": "Good",
    "weekend_or_holiday": true
-  },
-  {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.531,
-   "low_time_local": "5:18 PM",
-   "window_local": "2:30 PM–8:25 PM",
-   "arrive_by_local": "4:18 PM",
-   "daylight_min": 143,
-   "score": 70,
-   "band": "Good",
-   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -2101,14 +2101,14 @@
    "count": 26
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
+   "commonName": "California Seahare",
+   "scientificName": "Aplysia californica",
    "count": 26
   },
   {
-   "commonName": "California Seahare",
-   "scientificName": "Aplysia californica",
-   "count": 25
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 26
   },
   {
    "commonName": "Black Tegula",
