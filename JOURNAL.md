@@ -5,6 +5,94 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-23 — Heartbeat: verify Acadia release and reconcile tool discovery
+
+**Coordination:** the morning operator completed the weekly 40-URL inspection
+and Acadia refresh (`dded202`, records `ea81dfc`). Four independent ready
+briefs remain: Washington January peaks, Glass Beach December, sea-glass,
+Sunset Bay. No refill or second editorial change warranted. Updated only
+the pending indexing backlog record and this journal with current evidence;
+no new app/content release, experiment, send or outreach. `git pull --ff-only`
+was current; all 132 held files remained byte-identical.
+
+**Release verification:** Production deployment 7999871576 for `ea81dfc`
+succeeded 13:21:10Z. Acadia live HTTP 200; all **39 chart dates / 151 tidal
+extrema** independently matched the current Bar Harbor fact sheet and raw
+station data, including clock times and rounded heights. Full remaining-year
+scan of 22 daylight-eligible windows independently confirms Dec 23 as the
+highest score: 58, low −1.38 ft at 3:48 PM, 117 daylight minutes. Chrome
+render shows the Nov 23 lead/current chart and update date. Finder selected
+Bar Harbor and rendered today's data; its 30-day scope ends Dec 22 and
+correctly picks that date, not the guide's full-year Dec 23 maximum. Calendar
+button opened the email form; no submission and no captured Chrome warnings
+or errors. No local build was rerun for operating-record-only changes;
+the morning's build/test evidence is recorded separately below.
+
+**NOAA and operations:** latest eight listed Actions runs green; no open
+issues. Scheduled refresh 45133575388 started 07:46:44Z, generated today's
+data, and pushed `24db8d1` at **07:49:58.781Z** (commit time 07:49:56Z).
+IndexNow submitted 151 URLs, HTTP 200 at 07:49:56.167Z. Latest 15:23:56Z
+scheduled run skipped because today's refresh was already on main. No
+originating cron expression established; no inferred slot-delay figure.
+All 12 live station JSON files returned 200 and matched local bytes, dated
+Nov 23; sitemap has 151 URLs. No score-90+ window in the near-term scan.
+Production dependency audit zero findings. NPS Olympic conditions, now
+updated Nov 22, still says Mora Road open to Rialto; no relevant status
+change or reason to rewrite the dated Nov 20 guide notices.
+
+**Indexing:** did not repeat the morning's full `inspect 40` (reported
+34/40 indexed). Independently inspected the four tools: Finder remains
+Submitted and indexed, last crawled Nov 9; Trip Picker, Year Heatmap and
+Golden Hour all return Discovered–currently not indexed with no crawl time.
+The former two were unknown Nov 16, so this is discovery progress only.
+No causal attribution to the lastmod change; owner Request Indexing remains
+pending. Preserve the Nov 30 circuit-breaker review and no-more-on-page-work
+observation period; no conversion changes on the uncrawled tools.
+
+**Search:** GSC Web/final property totals, inclusive Pacific dates:
+**Oct 25–Nov 21: 602 clicks / 33,200 impressions / position 6.82**, versus
+Sep 27–Oct 24 **351 / 17,055 / 7.05** (+71.5% clicks). All 28 daily rows
+returned. **Nov 15–21: 198 / 10,850 / 6.51**, versus Nov 8–14
+**151 / 9,516 / 6.96** (+31.1% clicks). Observational, not a causal readout
+of an individual refresh. GSC Wizard still requires a subscription and the
+PostHog connector still requires reauthentication; configured read-only API
+fallbacks worked without billing or access changes.
+
+**Product:** PostHog project 495836, host thetidewindow.com, Regular class,
+explicit UTC bounds. **Nov 16–22: 1,796 pageviews / 1,716 distinct IDs**;
+14 station selections / 14 IDs, 11 result views / 11 IDs, 21 calendar clicks /
+18 IDs, and no signup, ICS reveal or Trip Picker event rows in this scope.
+**Oct 26–Nov 22: 5,098 pageviews / 4,831 IDs**; 13 signup events / 12 IDs,
+64 station selections / 54 IDs, 54 results / 49 IDs, 58 calendar clicks /
+55 IDs, 11 ICS reveals / 11 IDs, 2 Trip Picker runs / 2 IDs. Regular is not
+verified human traffic, IDs are not people, and aggregate event counts are
+not a sequenced funnel. Preserve exact bounds/filters when comparing with
+the morning readings. Signup sample remains below the 30-event floor;
+retired experiments stay closed and the exit-prompt authority conflict is
+unchanged. No new prompt or variant decision.
+
+Seven-day guide pageviews: national king tides 512, Oregon 440, Washington
+247, California 175, Fitzgerald 53; Finder 18. Referrer pageviews are not
+search clicks. Nearest-rank p75 vitals: LCP 632 ms (n=547), INP 40 ms
+(n=136), CLS 0 (n=184), from 1,922 vitals events. **20 exception events /
+6 IDs**: the prior 19 Brave events on Oregon remain; one additional opaque
+Safari "Script error." occurred Nov 22 20:40:22Z on the national king-tides
+guide, with no stack or actionable source. No first-party failure reproduced;
+the Chrome check does not establish Safari health. Capture flag absent on
+1,586 pageviews, false on 210; incomplete capture is not zero errors. Keep
+the error investigation open; no suppression or speculative app fix.
+
+**Next:** Washington January detail or Glass Beach's December chart is the
+next editorial work. Nov 26 newsletter requires fresh rendering/recomputation
+and all established send gates. Restore Oregon's December feature after
+Nov 27 and Washington's before Nov 30; repeat tool indexing Nov 30. December
+indexing still gates January month pages. Development-audit follow-up and
+the owner exit-prompt reconciliation remain open. No held draft, audience,
+credential, station or publication-setting change.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-23/`.
+
+---
+
 ## 2026-11-23 — Weekly indexing inspection; Acadia December chart published
 
 **Health:** Daily refresh green and landed before session: the 07:46Z run

@@ -63,18 +63,22 @@ with the date; add discoveries at the appropriate tier.
       for remaining development audit findings and operational gates.
 
 - [ ] **Pending owner (2-minute task): Request Indexing for the three
-      never-crawled tool URLs.** The Nov 16 weekly inspection confirmed
-      `/tools/trip-picker/` and `/tools/year-heatmap/` are "URL is unknown
-      to Google" and `/tools/golden-hour/` "Discovered – currently not
-      indexed", none ever crawled, despite sitemap membership, abundant
-      internal links from recently crawled top pages, clean robots/canonical,
+      never-crawled tool URLs.** **Nov 23 inspection and heartbeat readback:**
+      `/tools/trip-picker/`, `/tools/year-heatmap/` and `/tools/golden-hour/`
+      all report "Discovered – currently not indexed", with no last crawl.
+      Trip Picker and Year Heatmap progressed from Nov 16's "URL is unknown
+      to Google"; discovery is not crawling or indexing. Finder remains
+      indexed, last crawled Nov 9. The three tools still await a fetch despite
+      sitemap membership, abundant internal links from recently crawled top
+      pages, clean robots/canonical,
       and the Nov 2 static-copy pass. The agent's GSC service account is
       read-only and cannot Request Indexing; the owner can, in Search
       Console → URL Inspection → Request Indexing, for each of the three
       URLs. The in-repo lever (honest tool-page lastmod in the sitemap)
-      shipped Nov 16 as `739c9de`; judge both levers at the Nov 23 or
-      Nov 30 inspection — if still never-crawled by Nov 30, journal a
-      circuit-breaker note and consider external-signal work (§2f off-site)
+      shipped Nov 16 as `739c9de`; the Nov 23 interim read confirms discovery
+      only. Preserve the standing observation period: no additional on-page
+      crawl changes before Nov 30. At that inspection, if still never-crawled,
+      journal a circuit-breaker note and consider external-signal work (§2f off-site)
       instead of further on-page changes.
 
 - [x] **Nov 15 heartbeat — ready queue refilled after the MLLW release.**
