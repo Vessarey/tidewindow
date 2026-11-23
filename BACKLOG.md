@@ -785,7 +785,22 @@ comes before the next routine editorial assignment.
       not complete the separate WA feature rollover due before Nov 30, or
       authorize January month pages before the December indexing gate.
 
-- [ ] **Acadia — retire the passed October 25 lead and add December chart.**
+- [x] **Acadia — retire the passed October 25 lead and add December chart.**
+      DONE 2026-11-23 (`dded202`): lead/description/FAQ 1/FAQ 2/FAQ 5 now
+      point at the best remaining 2026 window, Dec 23 (−1.38 ft, 3:48 PM,
+      117 min, 58 Fair — verified over the complete remaining range via
+      monthly aggregates, not a top-N list), plus the Nov 23–25 daylight
+      minus-tide run. New Nov 23–Dec 31 chart (39 dates / 151 extrema from
+      the same-day fact sheet) with every December daily high/low; the
+      passed Oct 17–Nov 22 rows kept as a dated history table (Nov 23–30
+      overlap rows verified identical before trimming from the old table).
+      Month table recomputed, unchanged; Dec 23 vs Dec 24 vs Dec 25
+      daylight arithmetic shown from window bounds; species snapshot
+      refreshed to Nov 23; November and December Bar Harbor calendars
+      linked. All four NPS sources re-fetched 200, every quoted claim
+      still supported. Build + verify-output green; rendered rows and all
+      internal links checked. See the 2026-11-23 journal.
+      Original brief:
       Target existing `acadia-tide-pools-bar-island-ship-harbor`.
       Exact queries: `acadia national park tide chart` 0 / 2 / 6.50;
       `acadia tide schedule` 0 / 2 / 22.50; `acadia tide times` 0 / 1 / 27.00;

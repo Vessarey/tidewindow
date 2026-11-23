@@ -5,6 +5,78 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-23 — Weekly indexing inspection; Acadia December chart published
+
+**Health:** Daily refresh green and landed before session: the 07:46Z run
+pushed `24db8d1` ("data: daily NOAA refresh 2026-11-23") at 07:49:56Z; the
+11:20Z slot was a short skip (data already current). Last six listed runs
+green, no open issues. Pulled with --rebase --autostash; the four owner-held
+modified files and untracked docs-internal drafts survived untouched and stay
+uncommitted per the standing hold.
+
+**Weekly §2a′ inspection (first run of week, due per Nov 22 journal):**
+`inspect 40`: 34 of 40 sampled sitemap URLs Submitted and indexed (85%,
+above the two-thirds bar), 3 Discovered–not indexed, 2 Crawled–not indexed,
+1 unknown (newport-or/2026-08). Explicit four-tool check: Finder Submitted
+and indexed (last crawl Nov 9); **Trip Picker and Year Heatmap progressed
+from "URL is unknown to Google" (Nov 16) to "Discovered – currently not
+indexed"; Golden Hour unchanged at Discovered. All three remain
+never-crawled.** Interim read on the Nov 16 sitemap-lastmod lever: Google
+now knows all three URLs but has fetched none. Per the Nov 16 standing
+decision, no additional on-page crawl work before the Nov 30 checkpoint;
+the pending-owner Request Indexing item stands. If still never-crawled
+Nov 30: circuit-breaker note and shift to external-signal work.
+
+**Primary action (§2e, next ready P1 brief per Nov 22 journal):** refreshed
+`acadia-tide-pools-bar-island-ship-harbor`, whose description, bold lead,
+FAQ 1/2/5 and chart still led with the passed October 25 window and said
+December daily facts were unavailable. From today's Bar Harbor 8413320
+facts (generated_on 2026-11-23): new lead naming the best remaining 2026
+window — Dec 23, −1.38 ft at 3:48 PM, 117 daylight min, score 58, Fair,
+verified over the complete remaining range via monthly aggregates (November's
+monthly best was Nov 22 at 55, passed; December's monthly best is Dec 23),
+not from a top-N list — plus the Nov 23–25 daylight minus-tide run
+(−0.88/−1.31/−1.53 ft, daylight 139/93/48 min). New Nov 23–Dec 31 chart:
+39 dates / 151 extrema including all December dailies; the Nov 23–30 rows
+of the old Oct 17–Nov 30 table verified identical before trimming it to an
+explicitly dated Oct 17–Nov 22 history table. Dec 23 vs Dec 24 reframed
+with shown window arithmetic (daylight ends 3:57/3:58 PM; Dec 24's low 43
+min after dark) and a note that Dec 25's deeper −1.71 ft low misses the
+30-minute daylight threshold entirely. Month table recomputed — every
+figure unchanged. Species snapshot refreshed to Nov 23 (Periwinkle 12,
+Dogwhelk 9, Fuzzy Onchidoris 6). November and December Bar Harbor calendars
+linked. All four NPS sources re-fetched 200 at write time; every quoted
+claim (1.5-hour exposure, nine-hour stranding, 1.9 mi, parking dates,
+102A storm closures, collection prohibited) still supported; no claim
+changed. Commit `dded202`.
+
+**Validation:** plain `npm run build` exit 0 (content-only change);
+verify-output OK — 12 stations × 6 months, 151 sitemap URLs; facts/math/
+format/wording/GSC suites all 0 failures (including the owner-held local
+wording tests). Rendered-row check: new chart rows, Dec 23 lead numbers,
+species counts and "39 days and 151" caption all present in built HTML;
+all nine internal link targets exist in out/. Diff review: only the Acadia
+article committed; owner-held files untouched.
+
+**Metrics (PostHog, project 495836, host thetidewindow.com, UTC Nov 16–22):**
+1,802 pageviews / 1,722 distinct IDs (prior week 1,595 / 1,523);
+14 station selections / 14 IDs, 11 result views / 11 IDs, 0 newsletter
+signups, 0 Trip Picker runs. Top pages: national king tides 528, Oregon 424,
+Washington 245, California 175, Fitzgerald 57; Finder 18. Distinct IDs are
+not people; referrer pageviews are not search clicks. Signups remain far
+below the 30-event verdict floor — no conversion claims.
+
+**Next:** Thursday Nov 26 is the Thanksgiving newsletter — fresh
+rendering/recomputation and all send gates in its own run. After Nov 27
+restore the Oregon hub's December feature; refresh the WA hub feature
+before Nov 30. Nov 30 is the tool-indexing circuit-breaker checkpoint
+(owner Request Indexing still pending). Ready P1 queue after closing
+Acadia: four briefs (Washington January peaks, Glass Beach December,
+sea-glass, Sunset Bay) — at the ≥3 floor, no refill due. December
+indexing continues to gate January month pages (check ~Dec 1).
+
+---
+
 ## 2026-11-22 — Heartbeat: refill the ready queue after Pacific Grove
 
 **One primary action (§2a):** the morning operator completed Pacific Grove
