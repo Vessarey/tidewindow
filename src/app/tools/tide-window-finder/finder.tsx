@@ -1,5 +1,8 @@
 "use client";
 
+import AccessNotice from "@/components/access-notice";
+import { visitWindows } from "@/lib/access.mjs";
+
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { StationSelect, StationDataStatus, useStationData, useNow, PredictionCaveat, type StationOption } from "@/components/tools-shared";
@@ -116,7 +119,7 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
   const clock = useNow();
   const now = data ? liveNow(clock, data.generatedAt) : clock;
   const results = data
-    ? liveWindows(data.windows, now, 30)
+    ? liveWindows(visitWindows(data.station.slug, data.windows), now, 30)
         .filter((w) => (depth === "minus" ? w.lowHeight < 0 : depth === "deep" ? w.lowHeight <= -1 : true))
         .sort((a, b) => b.score - a.score)
     : [];
@@ -184,6 +187,7 @@ export default function Finder({ stations }: { stations: StationOption[] }) {
       </div>
 
       <StationDataStatus loading={loading} error={error} retry={retry} />
+      {data && <AccessNotice slug={data.station.slug} />}
 
       {data && (
         <>

@@ -29,6 +29,7 @@
  *       alerts@updates.thetidewindow.com and sends it.
  */
 import fs from "node:fs";
+import { visitWindows } from "../../src/lib/access.mjs";
 import path from "node:path";
 import { AUDIENCE_NAME, FROM, ROOT, findAudience, listContacts, resend, resendKey } from "./lib.mjs";
 
@@ -98,7 +99,7 @@ const byScore = (a, b) => b.score - a.score || a.lowHeight - b.lowHeight || a.da
 
 const stations = index.stations.map((meta) => {
   const file = JSON.parse(fs.readFileSync(path.join(DATA, "stations", `${meta.slug}.json`), "utf8"));
-  const inRange = file.windows.filter((w) => w.date >= start && w.date <= end && !w.night);
+  const inRange = visitWindows(meta.slug, file.windows).filter((w) => w.date >= start && w.date <= end && !w.night);
   const good = [...inRange].sort(byScore).filter((w) => w.score >= GOOD);
   return { meta, species: file.species ?? [], inRange, good, best: good[0] ?? null };
 });

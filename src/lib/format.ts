@@ -1,4 +1,5 @@
 /** Client-safe types and formatters — no Node imports here. */
+import { visitWindows } from "./access.mjs";
 
 /** Keep the full modeled interval distinct from its stored daylight overlap. */
 export function fmtPredictionTiming(w: {
@@ -120,9 +121,10 @@ export function liveWindows(windows: TideWindow[], now: number, days: number): T
 
 /** One-sentence summary for the Finder: counts only windows live at `now`. */
 export function synthesis(data: StationData, days: number, now: number, selectedWindows?: TideWindow[]): string {
-  const lows = liveWindows(selectedWindows ?? data.windows, now, days);
+  const lows = liveWindows(visitWindows(data.station?.slug, selectedWindows ?? data.windows), now, days);
   const minusDaylight = lows.filter((w) => w.isMinusTide && w.daylightMin >= 30);
   const best = [...lows].sort((a, b) => b.score - a.score)[0];
+  if (!best && data.station?.slug === "san-diego-ca") return `No visit-eligible lows match in the next ${days} days; known Cabrillo holiday closures are excluded.`;
   if (!best) return selectedWindows
     ? `No lows match this depth filter in the next ${days} days at this station.`
     : `No lows below +1.0 ft in the next ${days} days at this station.`;

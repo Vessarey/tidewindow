@@ -1,5 +1,8 @@
 "use client";
 
+import AccessNotice from "@/components/access-notice";
+import { visitWindows } from "@/lib/access.mjs";
+
 import { useState } from "react";
 import { StationSelect, StationDataStatus, useStationData, useNow, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
@@ -16,7 +19,7 @@ export default function GoldenHour({ stations }: { stations: StationOption[] }) 
 
   const clock = useNow();
   const results = data
-    ? data.windows
+    ? visitWindows(data.station.slug, data.windows)
         .filter((w) => w.windowEnd > liveNow(clock, data.generatedAt))
         .filter((w) => w.minToSunEdge !== null && Math.abs(w.minToSunEdge) <= 90 && w.daylightMin >= 30)
         .slice(0, 20)
@@ -26,6 +29,7 @@ export default function GoldenHour({ stations }: { stations: StationOption[] }) 
     <div>
       <StationSelect stations={stations} value={slug} onChange={setSlug} toolName="golden_hour" />
       <StationDataStatus loading={loading} error={error} retry={retry} />
+      {data && <AccessNotice slug={data.station.slug} />}
       {data && (
         <>
           <div className="answer-box">

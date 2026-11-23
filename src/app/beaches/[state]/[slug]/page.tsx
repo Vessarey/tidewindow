@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AccessNotice from "@/components/access-notice";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getIndex, getStationData, upcomingWindows, fmtDate, fmtMonth, fmtStamp } from "@/lib/windows";
@@ -69,7 +70,7 @@ export default async function StationPage({ params }: { params: Promise<{ state:
     },
     {
       q: `How many daylight minus tides does ${s.name} get in the next 30 days?`,
-      a: `${daylightMinus} of the next 30 days' ${minusCount} minus tides overlap daylight by at least 30 minutes, as of ${fmtStamp(data.generatedAt)}. The full list is in the table above.`,
+      a: `${daylightMinus} of the next 30 days' ${minusCount} ${s.slug === "san-diego-ca" ? "visit-eligible " : ""}minus tides overlap daylight by at least 30 minutes, as of ${fmtStamp(data.generatedAt)}. The full list is in the table above.`,
     },
   ];
 
@@ -99,6 +100,7 @@ export default async function StationPage({ params }: { params: Promise<{ state:
         Covers: {s.spots.join(" · ")}
       </p>
 
+      <AccessNotice slug={s.slug} />
       <div className="answer-box">
         <span className="stamp">Next best window · computed {fmtStamp(data.generatedAt)}</span>
         {best ? (
@@ -125,20 +127,20 @@ export default async function StationPage({ params }: { params: Promise<{ state:
 
       {best && <TideCurve window={best} />}
 
-      <h2 className="mt-10 text-2xl">Every qualifying low-tide window, next 30 days</h2>
+      <h2 className="mt-10 text-2xl">{s.slug === "san-diego-ca" ? "Every predicted low-tide window, next 30 days" : "Every qualifying low-tide window, next 30 days"}</h2>
       <p className="mb-3 mt-1 text-[0.9rem] text-ink-soft">
         Heights in feet MLLW from NOAA station {s.noaaId} ({s.officialName}) predictions
         {s.kind === "subordinate" ? ", window bounds cosine-interpolated" : ""}. Includes daytime and night windows;
         see the Daylight column. ✳ = federal holiday.
       </p>
-      <WindowTable windows={next30} />
+      <WindowTable stationSlug={s.slug} windows={data.windows.filter((w) => w.lowTime > data.generatedAt && w.lowTime < data.generatedAt + 30 * 86400_000)} />
 
       <h2 className="mt-10 text-2xl">Next 7 days of high and low tides</h2>
       <p className="mb-3 mt-1 text-[0.9rem] text-ink-soft">
         The complete high/low sequence from NOAA station {s.noaaId}, in local time. Tidewindow&apos;s scored table
         above is the smaller decision set: lows under +1.0 ft with a usable shoreline window.
       </p>
-      <TideTable tides={nextTides} caption={`NOAA ${s.noaaId} predictions · feet MLLW · local time`} />
+      <TideTable stationSlug={s.slug} tides={nextTides} caption={`NOAA ${s.noaaId} predictions · feet MLLW · local time`} />
 
       <div className="mt-6">
         <CalendarGate stationSlug={s.slug} stationName={s.name} source="station_gate" />

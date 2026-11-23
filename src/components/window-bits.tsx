@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { accessClosure } from "@/lib/access.mjs";
 import type { StationMeta, TideExtreme, TideWindow } from "@/lib/format";
 import { fmtDate } from "@/lib/format";
 
@@ -18,10 +19,12 @@ export function WindowTable({
   windows,
   showDaylight = true,
   caption,
+  stationSlug,
 }: {
   windows: TideWindow[];
   showDaylight?: boolean;
   caption?: string;
+  stationSlug?: string;
 }) {
   if (!windows.length) {
     return <p className="text-ink-soft italic">No qualifying daylight windows in this range.</p>;
@@ -45,6 +48,7 @@ export function WindowTable({
             <tr key={`${w.date}-${w.lowTime}`}>
               <td className="whitespace-nowrap">
                 <time dateTime={w.date}>{fmtDate(w.date)}</time>{" "}
+                {accessClosure(stationSlug, w.date) && <strong className="block">{accessClosure(stationSlug, w.date)} Tide data only.</strong>}
                 <span className={w.isWeekend || w.isHoliday ? "font-semibold text-kelp-deep" : "text-ink-soft"}>
                   {w.weekday}
                   {w.isHoliday ? " ✳" : ""}
@@ -73,7 +77,7 @@ export function WindowTable({
 
 /** NOAA-published high/low events, kept separate from Tidewindow's scored
  *  daylight-window table so chart-seeking readers get the complete sequence. */
-export function TideTable({ tides, caption }: { tides: TideExtreme[]; caption?: string }) {
+export function TideTable({ tides, caption, stationSlug }: { tides: TideExtreme[]; caption?: string; stationSlug?: string }) {
   if (!tides.length) {
     return <p className="text-ink-soft italic">No high/low events are available in this range.</p>;
   }
@@ -92,7 +96,8 @@ export function TideTable({ tides, caption }: { tides: TideExtreme[]; caption?: 
         <tbody>
           {tides.map((t) => (
             <tr key={`${t.time}-${t.type}`}>
-              <td className="whitespace-nowrap"><time dateTime={t.date}>{fmtDate(t.date)}</time> {t.weekday}</td>
+              <td className="whitespace-nowrap"><time dateTime={t.date}>{fmtDate(t.date)}</time> {t.weekday}
+                {accessClosure(stationSlug, t.date) && <strong className="block">{accessClosure(stationSlug, t.date)} Tide data only.</strong>}</td>
               <td>{t.type === "H" ? "High" : "Low"}</td>
               <td className="num whitespace-nowrap">{t.timeLocal}</td>
               <td className="num whitespace-nowrap">{t.height.toFixed(1)} ft</td>

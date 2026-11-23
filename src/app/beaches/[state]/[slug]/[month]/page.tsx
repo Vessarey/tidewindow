@@ -1,4 +1,6 @@
 import Link from "next/link";
+import AccessNotice from "@/components/access-notice";
+import { accessClosure, visitWindows } from "@/lib/access.mjs";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getIndex, getStationData, fmtMonth, fmtStamp, fmtDate } from "@/lib/windows";
@@ -64,7 +66,7 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
   const daylight = monthWindows.filter((w) => !w.night && w.daylightMin >= 30);
   const minus = monthWindows.filter((w) => w.isMinusTide);
   const daylightMinus = minus.filter((w) => w.daylightMin >= 30);
-  const best = [...daylight].sort((a, b) => b.score - a.score)[0];
+  const best = visitWindows(s.slug, [...daylight]).sort((a, b) => b.score - a.score)[0];
   const monthTides = (data.tides ?? []).filter((t) => t.date.startsWith(month));
 
   // month grid
@@ -133,6 +135,7 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
         </div>
       )}
 
+      <AccessNotice slug={s.slug} />
       <div className="answer-box">
         <span className="stamp">Computed {fmtStamp(data.generatedAt)} · NOAA station {s.noaaId}</span>
         <p>
@@ -162,26 +165,27 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
         {Array.from({ length: daysInMonth }).map((_, i) => {
           const day = i + 1;
           const w = byDay.get(day);
-          const color = w && !w.night ? bandColor[w.band] : "#e7ece9";
+          const closure = accessClosure(s.slug, `${month}-${String(day).padStart(2, "0")}`);
+          const color = w && !w.night && !closure ? bandColor[w.band] : "#e7ece9";
           return (
             <div
               key={day}
               className="heatmap-cell"
               style={{ background: color }}
-              title={w ? `${w.date}: ${w.lowHeight.toFixed(1)} ft at ${w.lowTimeLocal} — score ${w.score} (${w.band})` : `${month}-${String(day).padStart(2, "0")}: no window below +1.0 ft`}
+              title={closure ?? (w ? `${w.date}: ${w.lowHeight.toFixed(1)} ft at ${w.lowTimeLocal} — score ${w.score} (${w.band})` : `${month}-${String(day).padStart(2, "0")}: no window below +1.0 ft`)}
             >
-              <span className={w && (w.band === "Great" || w.band === "Exceptional") ? "font-bold" : ""}>{day}</span>
+              <span className={w && (w.band === "Great" || w.band === "Exceptional") ? "font-bold" : ""}>{day}{closure ? " ×" : ""}</span>
             </div>
           );
         })}
       </div>
       <p className="mt-1 text-[0.78rem] text-ink-soft">
-        Day color = best window that day: gold Exceptional · deep green Great · sea-green Good · sand Fair · grey none/night.
+        Day color = best window that day: gold Exceptional · deep green Great · sea-green Good · sand Fair · grey none/night; × marks a known closed date.
       </p>
 
       <h2 className="mt-8 text-2xl">Every window in {fmtMonth(month)}</h2>
       <p className="mb-3 mt-1 text-[0.9rem] text-ink-soft">Heights in feet MLLW. ✳ = federal holiday. Night lows score 0.</p>
-      <WindowTable windows={monthWindows} />
+      <WindowTable stationSlug={s.slug} windows={monthWindows} />
 
       <details className="mt-8 rounded-lg border border-ink/15 bg-white/60 p-4" open={monthTides.length <= 40}>
         <summary className="cursor-pointer font-semibold">
@@ -191,7 +195,7 @@ export default async function MonthPage({ params }: { params: Promise<{ state: s
           Every NOAA-published high and low for station {s.noaaId}, in local time and feet MLLW. Use this complete
           chart for water-level timing; use the scored table above to decide when the shore is both low enough and light.
         </p>
-        <TideTable tides={monthTides} caption={`NOAA ${s.noaaId} predictions · ${fmtMonth(month)}`} />
+        <TideTable stationSlug={s.slug} tides={monthTides} caption={`NOAA ${s.noaaId} predictions · ${fmtMonth(month)}`} />
       </details>
 
       <div className="no-print mt-6 flex flex-wrap items-center gap-3">

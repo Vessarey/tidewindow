@@ -1,5 +1,8 @@
 "use client";
 
+import AccessNotice from "@/components/access-notice";
+import { accessClosure } from "@/lib/access.mjs";
+
 import { useEffect, useState } from "react";
 import { StationSelect, StationDataStatus, useStationData, type StationOption } from "@/components/tools-shared";
 import CalendarGate from "@/components/calendar-gate";
@@ -56,8 +59,9 @@ export default function YearHeatmap({ stations }: { stations: StationOption[] })
       </div>
       <p className="mt-1 text-[0.85rem] text-ink-soft">
         Each day is colored by its best window: gold Exceptional · deep green Great · sea-green Good · sand Fair ·
-        grey none/night. Hover any day for the numbers.
+        grey none/night; × marks a known closed date. Hover any day for the numbers.
       </p>
+      <AccessNotice slug={data.station.slug} />
       <div className="mt-5 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {monthKeys.map((ym) => {
           const [y, m] = ym.split("-").map(Number);
@@ -74,19 +78,20 @@ export default function YearHeatmap({ stations }: { stations: StationOption[] })
                 {Array.from({ length: daysInMonth }).map((_, i) => {
                   const day = i + 1;
                   const w = byDay.get(day);
-                  const color = w && !w.night ? bandColor[w.band] : "#e7ece9";
+                  const closure = accessClosure(data.station.slug, `${ym}-${String(day).padStart(2, "0")}`);
+                  const color = w && !w.night && !closure ? bandColor[w.band] : "#e7ece9";
                   return (
                     <div
                       key={day}
                       className="heatmap-cell"
                       style={{ background: color }}
                       title={
-                        w
+                        closure ?? (w
                           ? `${w.date}: ${w.lowHeight.toFixed(1)} ft at ${w.lowTimeLocal}, ${w.windowStartLocal}–${w.windowEndLocal} — score ${w.score} (${w.band})`
-                          : `no window`
+                          : `no window`)
                       }
                     >
-                      {day}
+                      {day}{closure ? " ×" : ""}
                     </div>
                   );
                 })}

@@ -45,7 +45,7 @@ test("Trip Picker's actual selection caps inclusive ranges at 21 days and can ra
     { date: "2026-12-10", lowTime: "2026-12-10T12:00:00Z", score: 100, night: false },
   ];
   const result = vm.runInNewContext(`(() => { ${selection}; return { ranked, clampedNote }; })()`, {
-    from, to: "2026-12-19", data: { generatedAt: "2026-11-12T00:00:00Z", windows },
+    visitWindows: (_slug, windows) => windows, from, to: "2026-12-19", data: { station: {}, generatedAt: "2026-11-12T00:00:00Z", windows },
   });
   assert.equal(result.ranked.length, 2);
   assert.equal(result.ranked[0].night, true);
@@ -56,10 +56,11 @@ test("Trip Picker's actual selection caps inclusive ranges at 21 days and can ra
 test("newsletter dry-run renders the approved Trip Picker sentence without credentials or network", () => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), "tide-newsletter-copy-"));
   try {
-    for (const dir of ["scripts/newsletter", "public/data-json/stations"]) fs.mkdirSync(path.join(temp, dir), { recursive: true });
+    for (const dir of ["scripts/newsletter", "src/lib", "public/data-json/stations"]) fs.mkdirSync(path.join(temp, dir), { recursive: true });
     for (const file of ["send-weekly.mjs", "lib.mjs"]) {
       fs.copyFileSync(new URL(`scripts/newsletter/${file}`, root), path.join(temp, "scripts/newsletter", file));
     }
+    fs.copyFileSync(new URL("src/lib/access.mjs", root), path.join(temp, "src/lib/access.mjs"));
     const index = JSON.parse(read("public/data-json/index.json"));
     fs.writeFileSync(path.join(temp, "public/data-json/index.json"), JSON.stringify(index));
     for (const { slug } of index.stations) {

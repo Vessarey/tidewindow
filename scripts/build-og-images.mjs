@@ -1,5 +1,6 @@
 /** Generate stable 1200x630 PNG social cards for guides and station routes. */
 import fs from "node:fs";
+import { visitWindows } from "../src/lib/access.mjs";
 import path from "node:path";
 import sharp from "sharp";
 import { parse as parseYaml } from "yaml";
@@ -117,7 +118,7 @@ async function buildStationImages() {
   for (const station of index.stations) {
     const data = JSON.parse(fs.readFileSync(path.join(ROOT, "public", "data-json", "stations", `${station.slug}.json`), "utf8"));
     const byDate = new Map();
-    for (const window of data.windows.filter((window) => window.lowTime >= data.generatedAt && window.lowTime < data.generatedAt + 30 * 86400_000)) {
+    for (const window of visitWindows(station.slug, data.windows).filter((window) => window.lowTime >= data.generatedAt && window.lowTime < data.generatedAt + 30 * 86400_000)) {
       const prior = byDate.get(window.date);
       if (!prior || window.score > prior) byDate.set(window.date, window.score);
     }

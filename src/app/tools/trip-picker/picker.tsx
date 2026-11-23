@@ -1,5 +1,8 @@
 "use client";
 
+import AccessNotice from "@/components/access-notice";
+import { visitWindows } from "@/lib/access.mjs";
+
 import { useEffect, useState } from "react";
 import { StationSelect, StationDataStatus, useStationData, PredictionCaveat, type StationOption } from "@/components/tools-shared";
 import { ScoreBadge } from "@/components/window-bits";
@@ -26,13 +29,13 @@ export default function TripPicker({ stations }: { stations: StationOption[] }) 
     }
     // lowTime floor: the windows array also carries past months for the
     // published month pages — a trip can only be planned forward.
-    ranked = data.windows
+    ranked = visitWindows(data.station.slug, data.windows)
       .filter((w) => w.lowTime > data.generatedAt && w.date >= from && w.date <= end)
       .sort((a, b) => b.score - a.score);
   }
   const best = ranked[0];
   const nextGreat = data && best && best.score < 40
-    ? data.windows.find((w) => w.lowTime > data.generatedAt && w.date > to && w.score >= 60)
+    ? visitWindows(data.station.slug, data.windows).find((w) => w.lowTime > data.generatedAt && w.date > to && w.score >= 60)
     : null;
 
   useEffect(() => {
@@ -60,6 +63,7 @@ export default function TripPicker({ stations }: { stations: StationOption[] }) 
       </div>
 
       <StationDataStatus loading={loading} error={error} retry={retry} />
+      {data && <AccessNotice slug={data.station.slug} />}
       {dateError && <p className="mt-6 text-anemone" role="alert">{dateError}</p>}
 
       {data && from && to && !dateError && (
@@ -117,7 +121,7 @@ export default function TripPicker({ stations }: { stations: StationOption[] }) 
             </>
           ) : (
             <p className="mt-6 text-ink-soft">
-              No lows below +1.0 ft during those dates (or they&apos;re beyond the 400-day prediction range). Try
+              No visit-eligible lows below +1.0 ft during those dates (known closed dates excluded) (or they&apos;re beyond the 400-day prediction range). Try
               different dates.
             </p>
           )}

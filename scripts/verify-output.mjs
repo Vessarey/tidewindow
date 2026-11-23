@@ -9,6 +9,7 @@
  * the committed data says, so a data/template drift can never ship silently.
  */
 import fs from "node:fs";
+import { visitWindows, accessClosure } from "../src/lib/access.mjs";
 import path from "node:path";
 
 const ROOT = path.join(import.meta.dirname, "..");
@@ -23,6 +24,13 @@ const fail = (msg) => failures.push(msg);
 
 const index = JSON.parse(fs.readFileSync(path.join(DATA, "index.json"), "utf8"));
 const { generatedAt, stations } = index;
+for (const s of stations) {
+  if (s.slug !== "san-diego-ca") continue;
+  const data = JSON.parse(fs.readFileSync(path.join(DATA, "stations", `${s.slug}.json`), "utf8"));
+  const upcoming = visitWindows(s.slug, data.windows).filter((w) => w.lowTime > generatedAt);
+  s.best30 = upcoming.filter((w) => w.lowTime < generatedAt + 30 * 86400_000).sort((a,b) => b.score-a.score).slice(0,5);
+  s.nextWindow = upcoming[0] ?? null;
+}
 
 const stripComments = (html) => html.replace(/<!--[\s\S]*?-->/g, "");
 
@@ -158,6 +166,24 @@ const homeStation = stations.find((s) => s.best30.some((w) => w.lowTime === home
 const homeFullWindow = homeStation && JSON.parse(fs.readFileSync(path.join(DATA, "stations", `${homeStation.slug}.json`), "utf8"))
   .windows.find((w) => w.lowTime === homeFeatured.lowTime);
 if (homeFullWindow?.sunsetLocal && !homeText.includes(`Sunset: ${homeFullWindow.sunsetLocal}.`)) fail("home: existing sunset value missing or incorrect");
+
+// Known Cabrillo closures must remain chart data without becoming visit recommendations.
+const cabrillo = JSON.parse(fs.readFileSync(path.join(DATA, "stations", "san-diego-ca.json"), "utf8"));
+const cabStation = stations.find((s) => s.slug === "san-diego-ca");
+for (const month of PUBLISHED_MONTHS) {
+  const html = stripComments(fs.readFileSync(path.join(OUT,"beaches","ca","san-diego-ca",month,"index.html"),"utf8"));
+  const answer = html.match(/<div class="answer-box">([\s\S]*?)<\/div>/)?.[1] ?? "";
+  for (const w of cabrillo.windows.filter((w) => w.date.startsWith(month) && accessClosure(cabStation.slug,w.date))) {
+    const label = accessClosure(cabStation.slug,w.date);
+    if (!html.includes(label) || !html.includes(`dateTime="${w.date}"`) && !html.includes(`datetime="${w.date}"`)) fail(`Cabrillo ${w.date}: missing closed chart row/label`);
+    const pretty = new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"}).format(new Date(w.date+"T12:00:00Z"));
+    if (answer.includes(`<strong>${pretty}`)) fail(`Cabrillo ${w.date}: closed date promoted as month's best`);
+  }
+}
+const cabIcs = fs.readFileSync(path.join(OUT,"ics","san-diego-ca.ics"),"utf8");
+for (const w of cabrillo.windows.filter((w) => accessClosure(cabStation.slug,w.date))) {
+  if (cabIcs.includes(`UID:san-diego-ca-${w.date.replaceAll("-","")}-`)) fail(`Cabrillo ${w.date}: closed date in visit calendar`);
+}
 
 // ---------- verdict ----------
 

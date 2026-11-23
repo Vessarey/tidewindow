@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { visitWindows } from "@/lib/access.mjs";
+import AccessNotice from "@/components/access-notice";
 import type { Metadata } from "next";
 import { getIndex, getStationData, fmtStamp } from "@/lib/windows";
 import CalendarGate from "@/components/calendar-gate";
@@ -18,7 +20,7 @@ export default function CalendarsPage() {
 
   const feedCount = (slug: string) => {
     try {
-      return getStationData(slug).windows.filter(
+      return visitWindows(slug, getStationData(slug).windows).filter(
         (w) => w.score >= 60 && w.windowEnd > generatedAt && w.windowStart <= yearAhead
       ).length;
     } catch {
@@ -66,6 +68,7 @@ export default function CalendarsPage() {
                         {n} window{n === 1 ? "" : "s"} in the feed right now
                       </p>
                     )}
+                    <AccessNotice slug={s.slug} />
                     <div className="mt-3">
                       <CalendarGate stationSlug={s.slug} stationName={s.name} source="calendars_page" />
                     </div>

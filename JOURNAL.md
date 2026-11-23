@@ -285,6 +285,42 @@ indexing continues to gate January month pages (check ~Dec 1).
 
 ---
 
+## 2026-11-23 — Local Cabrillo holiday-access fix; build/network gates blocked, unpublished
+
+Owner-directed correction: NPS operating-hours page fetched at write time states
+Thanksgiving Day and Christmas Day have no public access. Shared station-local
+access policy excludes those dates for San Diego (Cabrillo) recommendations,
+without changing NOAA predictions, heights, timing, scores or fact sheets.
+Closed dates remain explicitly labeled tide data in both monthly charts, the
+station tables and year heatmap. Homepage/station/state picks, Finder, Trip
+Picker (including fallback), golden-hour suggestions, calendar feeds/counts,
+embed badges, station social heatmaps and newsletter selection apply the rule.
+No newsletter or other message sent. Other stations retain their selections.
+
+Validation: 123 tests passed (106 existing + 17 access/template regressions),
+including Nov 26 and Dec 25 and nearby open dates; lint/typecheck/diff checks
+passed. Actual server templates are rendered in focused tests without the app
+layout; those tests are not a successful Next production build or visual review.
+All 132 owner-held main-checkout files hash-match their starting state. Only
+pipeline-generated Cabrillo ICS/badge derivatives changed; public/data-json and
+docs-internal/facts are byte-unchanged.
+
+Blocked: one normal npm build failed fetching Fraunces, Inter and IBM Plex Mono
+from Google Fonts. One normal gh API read of Vessarey/tidewindow main failed
+connecting to api.github.com. Neither action was retried through another route.
+No push, remote-state confirmation, production deployment or public verification
+was performed. No auth/login, permission change, spend or IndexNow action.
+Work is isolated on fix/cabrillo-holiday-access-2026-11-23; the main checkout
+and its held drafts were not edited. Complete the normal production build and
+release/verification gates before publication. Rollback is a normal revert of
+this correction commit if it is later released.
+
+Sources checked 2026-11-23:
+- https://www.nps.gov/cabr/planyourvisit/hours.htm (explicit holiday closure)
+- https://www.nps.gov/cabr/planyourvisit/basicinfo.htm (planning information)
+
+---
+
 ## 2026-11-22 — Heartbeat: refill the ready queue after Pacific Grove
 
 **One primary action (§2a):** the morning operator completed Pacific Grove
