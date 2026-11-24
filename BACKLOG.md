@@ -5,6 +5,19 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [ ] **Before Nov 26: complete the existing Cabrillo holiday-access release.**
+      Owner-directed correction `d978c64` is still local-only on
+      `fix/cabrillo-holiday-access-2026-11-23`; no later publication recorded
+      at the Nov 24 heartbeat. It excludes Thanksgiving/Christmas closures
+      from recommendations while preserving tide predictions and labeled
+      historical/raw charts. Nov 23 focused tests passed, but the full build
+      failed on Google Fonts fetches and the remote-state read failed.
+      Resume that existing change's normal build, diff, release and live
+      checks before Thanksgiving; do not duplicate it or treat its focused
+      tests as a completed production build. Reconcile with current main and
+      preserve held files. This precedes the next routine editorial brief.
+      Evidence and exact local worktree are in the Nov 24 journal.
+
 - [x] **Nov 22 heartbeat — ready queue refilled after Pacific Grove.**
       Three bounded P1 refresh briefs added from current GSC and source
       evidence: Washington January monthly peaks, Acadia's passed October

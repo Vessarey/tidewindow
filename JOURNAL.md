@@ -5,6 +5,30 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-24 — Washington publication verified; Cabrillo deadline carried forward
+
+Source `28fd91ebebd7b76d41afbed681152f1b20ee8cb4` pushed normally.
+Exact-SHA Production deployment **8036906134** succeeded at **18:21:45Z**.
+Washington guide returned HTTP 200 at 18:22:04Z; saved live HTML passes
+all three January-row checks and the same 30 internal-route checks. Chrome
+visually renders the new table, monthly/seasonal distinction and Nov 24
+update date; no captured browser warnings/errors. All 132 held files still
+hash-match. The preceding entry's pending publication check is complete.
+Only operating records changed after that verified content release.
+
+**Next priority before Nov 26:** the separate, owner-directed Cabrillo
+holiday-access correction `d978c64` remains local-only on
+`fix/cabrillo-holiday-access-2026-11-23`. Its recorded build/network gates
+were blocked Nov 23; no later publication is recorded. Complete that existing
+fix's normal build/release/live checks before Thanksgiving, including all
+recommendation surfaces and generated derivatives, without altering raw
+NOAA predictions. This takes priority over the next Glass Beach editorial
+brief. It was not merged or retested in this single-improvement run.
+See the existing evidence at
+`/Users/vanessa/Documents/Codex/2026-10-04/task/cabrillo-access-2026-11-23-evidence/result.json`.
+
+---
+
 ## 2026-11-24 — Heartbeat: complete Washington's January high-tide comparison
 
 **One primary action:** completed the existing Washington January brief in
