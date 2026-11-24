@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-23",
+ "generated_on": "2026-11-24",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-23",
+   "date": "2026-12-21",
    "weekday": "Mon",
-   "low_ft": -1.238,
-   "low_time_local": "5:09 PM",
-   "window_local": "3:00 PM–7:20 PM",
-   "arrive_by_local": "4:09 PM",
-   "daylight_min": 106,
-   "score": 56,
+   "low_ft": -0.776,
+   "low_time_local": "4:05 PM",
+   "window_local": "2:05 PM–6:15 PM",
+   "arrive_by_local": "3:05 PM",
+   "daylight_min": 159,
+   "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
   }
@@ -418,18 +418,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.238,
-   "low_time_local": "5:09 PM",
-   "window_local": "3:00 PM–7:20 PM",
-   "arrive_by_local": "4:09 PM",
-   "daylight_min": 106,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-21",
    "weekday": "Mon",
    "low_ft": -0.776,
@@ -464,6 +452,18 @@
    "score": 35,
    "band": "Skip",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.286,
+   "low_time_local": "4:41 PM",
+   "window_local": "2:55 PM–6:30 PM",
+   "arrive_by_local": "3:41 PM",
+   "daylight_min": 106,
+   "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -1996,20 +1996,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.238,
-   "low_time_local": "5:09 PM",
-   "window_local": "3:00 PM–7:20 PM",
-   "arrive_by_local": "4:09 PM",
-   "daylight_min": 106,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 246,
-   "min_to_sun_edge": -23
-  },
-  {
    "date": "2026-11-24",
    "weekday": "Tue",
    "low_ft": -1.747,
@@ -2078,6 +2064,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 245,
    "min_to_sun_edge": -38
+  },
+  {
+   "date": "2026-12-08",
+   "weekday": "Tue",
+   "low_ft": -0.631,
+   "low_time_local": "5:56 PM",
+   "window_local": "4:00 PM–8:00 PM",
+   "arrive_by_local": "4:56 PM",
+   "daylight_min": 41,
+   "score": 32,
+   "band": "Skip",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 251,
+   "min_to_sun_edge": -75
   }
  ],
  "species_last60d_5km": [

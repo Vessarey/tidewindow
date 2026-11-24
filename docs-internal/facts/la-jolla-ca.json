@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-23",
+ "generated_on": "2026-11-24",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -27,6 +27,18 @@
    "score": 90,
    "band": "Exceptional",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2027-01-22",
+   "weekday": "Fri",
+   "low_ft": -1.872,
+   "low_time_local": "3:27 PM",
+   "window_local": "12:40 PM–6:25 PM",
+   "arrive_by_local": "2:27 PM",
+   "daylight_min": 272,
+   "score": 88,
+   "band": "Great",
+   "weekend_or_holiday": false
   },
   {
    "date": "2026-12-24",
@@ -97,18 +109,6 @@
    "arrive_by_local": "2:55 PM",
    "daylight_min": 213,
    "score": 77,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-12-22",
-   "weekday": "Tue",
-   "low_ft": -1.485,
-   "low_time_local": "2:17 PM",
-   "window_local": "11:30 AM–5:25 PM",
-   "arrive_by_local": "1:17 PM",
-   "daylight_min": 317,
-   "score": 76,
    "band": "Great",
    "weekend_or_holiday": false
   }
@@ -2120,12 +2120,12 @@
   {
    "commonName": "Hartweg's Chiton",
    "scientificName": "Cyanoplax hartwegii",
-   "count": 10
+   "count": 11
   },
   {
-   "commonName": "Freckled Ancula",
-   "scientificName": "Ancula lentiginosa",
-   "count": 9
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
+   "count": 11
   }
  ]
 }

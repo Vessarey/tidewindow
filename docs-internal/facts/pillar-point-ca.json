@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-23",
+ "generated_on": "2026-11-24",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -25,6 +25,18 @@
    "arrive_by_local": "3:22 PM",
    "daylight_min": 206,
    "score": 82,
+   "band": "Great",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2027-01-22",
+   "weekday": "Fri",
+   "low_ft": -1.559,
+   "low_time_local": "4:51 PM",
+   "window_local": "2:10 PM–7:45 PM",
+   "arrive_by_local": "3:51 PM",
+   "daylight_min": 193,
+   "score": 81,
    "band": "Great",
    "weekend_or_holiday": false
   },
@@ -99,18 +111,6 @@
    "score": 75,
    "band": "Great",
    "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-26",
-   "weekday": "Thu",
-   "low_ft": -1.682,
-   "low_time_local": "6:12 PM",
-   "window_local": "3:20 PM–9:25 PM",
-   "arrive_by_local": "5:12 PM",
-   "daylight_min": 93,
-   "score": 75,
-   "band": "Great",
-   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -2000,20 +2000,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.276,
-   "low_time_local": "3:45 PM",
-   "window_local": "1:10 PM–6:40 PM",
-   "arrive_by_local": "2:45 PM",
-   "daylight_min": 224,
-   "score": 72,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 233,
-   "min_to_sun_edge": 69
-  },
-  {
    "date": "2026-11-24",
    "weekday": "Tue",
    "low_ft": -1.638,
@@ -2082,22 +2068,36 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 234,
    "min_to_sun_edge": 51
+  },
+  {
+   "date": "2026-12-08",
+   "weekday": "Tue",
+   "low_ft": -0.799,
+   "low_time_local": "4:38 PM",
+   "window_local": "2:05 PM–7:30 PM",
+   "arrive_by_local": "3:38 PM",
+   "daylight_min": 167,
+   "score": 59,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 239,
+   "min_to_sun_edge": 14
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "Spotted Dorid",
    "scientificName": "Triopha maculata",
-   "count": 80
-  },
-  {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 67
+   "count": 82
   },
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
+   "count": 70
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
    "count": 67
   },
   {
@@ -2106,19 +2106,24 @@
    "count": 63
   },
   {
+   "commonName": "Gumboot Chiton",
+   "scientificName": "Cryptochiton stelleri",
+   "count": 50
+  },
+  {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
    "count": 44
   },
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 42
-  },
-  {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 23
+   "count": 24
+  },
+  {
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
+   "count": 15
   },
   {
    "commonName": "California Mussel",
@@ -2126,14 +2131,9 @@
    "count": 14
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 13
-  },
-  {
-   "commonName": "Noble Dorid",
-   "scientificName": "Peltodoris nobilis",
-   "count": 10
+   "commonName": "Black Tegula",
+   "scientificName": "Tegula funebralis",
+   "count": 14
   }
  ]
 }
