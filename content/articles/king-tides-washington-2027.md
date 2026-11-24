@@ -2,7 +2,7 @@
 title: "King Tides Washington 2026 & 2027: Dates for Seattle, Port Townsend and La Push — and Where the Lows Go"
 description: "Washington king tide dates 2026-27: a 13.09 ft Seattle high on Jan 25, Christmas-week peaks at La Push, and why Puget Sound's deep lows land at night."
 date: "2026-09-04"
-updated: "2026-11-11"
+updated: "2026-11-24"
 category: "king-tides"
 gateStations: ["seattle-wa", "port-townsend-wa", "la-push-wa"]
 featuredRoundup:
@@ -22,9 +22,9 @@ faq:
   - q: "What is the deepest low with a daylight window in Washington's 2026-27 king tide season?"
     a: "-1.97 ft MLLW at La Push (station 9442396) on Wednesday, December 23, 2026 at 6:03 PM — but that low arrives about an hour and a half after the 4:29 PM sunset, and only 39 minutes of its window, all before the low, are in daylight. Of the five deepest, Thursday, January 21, 2027 carries the most light: -1.82 ft at 5:50 PM with 82 daylight minutes, scoring 63 (Good). Scored across the whole October-March season, La Push's best window is Friday, February 19, 2027: -1.29 ft at 5:31 PM with 133 daylight minutes and the low about a quarter-hour before sunset, scoring 66 (Good)."
   - q: "What is the Washington King Tides Program?"
-    a: "Washington Sea Grant's project uses shoreline photographs to document high-water reach, with submissions through MyCoast. Its 2026-27 king-tides calendar is now published, verified November 11, 2026, and lists five high tides per month at selected locations. The three-station tables on this page are independently computed from NOAA predictions."
+    a: "Washington Sea Grant's project uses shoreline photographs to document high-water reach, with submissions through MyCoast. Its 2026-27 king-tides calendar is published, verified November 24, 2026, and lists five high tides per month at selected locations. The three-station tables on this page are independently computed from NOAA predictions."
   - q: "Where can I find king tide information for Long Beach Peninsula and Cape Disappointment?"
-    a: "Washington Sea Grant's calendar includes Ilwaco and Toke Point under Pacific County. Tidewindow does not compute a Long Beach Peninsula or Cape Disappointment station: the La Push, Seattle and Port Townsend tables are not local charts for those shores. Check Cape Disappointment State Park's current notices separately; its North Jetty closure is scheduled to start January 1, 2027, with closure anticipated through November 30, 2029, according to the park alert checked November 11, 2026."
+    a: "Washington Sea Grant's calendar includes Ilwaco and Toke Point under Pacific County. Tidewindow does not compute a Long Beach Peninsula or Cape Disappointment station: the La Push, Seattle and Port Townsend tables are not local charts for those shores. Check Cape Disappointment State Park's current notices separately; its North Jetty closure is scheduled to start January 1, 2027, with closure anticipated through November 30, 2029, according to the park alert checked November 24, 2026."
 sources:
   - "https://oceanservice.noaa.gov/facts/kingtide.html"
   - "https://oceanservice.noaa.gov/facts/perigean-spring-tide.html"
@@ -54,6 +54,20 @@ The late-November high tides are now the next monthly peaks at these three stati
 The October–March seasonal comparison below still peaks later: December 24 at La Push, December 26 at Port Townsend and January 25 at Seattle. On the low-water side, La Push's November 24 low is -1.84 ft at 6:14 PM, after the 4:32 PM sunset. Its modeled window has only 32 minutes of daylight overlap. Seattle and Port Townsend have no November windows meeting the 30-minute daylight-overlap criterion. The high-tide dates above are not the Good-or-better low windows included in our calendar feeds.
 
 
+## January 2027: three stations, three peak dates
+
+**January's highest predicted tide falls on January 22 at La Push, January 24 at Port Townsend and January 25 at Seattle.** The coastal peak arrives near noon; the two Puget Sound peaks arrive in the morning. Here is each station's maximum across the complete January 1–31 month.
+
+| Station (NOAA id) | Highest predicted high in January | Date | Local time |
+|---|---|---|---|
+| [La Push](/beaches/wa/la-push-wa/) (9442396) | 10.78 ft | Fri, Jan 22, 2027 | 11:39 AM |
+| [Port Townsend](/beaches/wa/port-townsend-wa/) (9444900) | 9.81 ft | Sun, Jan 24, 2027 | 6:22 AM |
+| [Seattle](/beaches/wa/seattle-wa/) (9447130) | 13.09 ft | Mon, Jan 25, 2027 | 7:16 AM |
+
+*Computed November 24, 2026 from NOAA predictions in the current fact sheets, checking all 60 January highs at La Push, 58 at Port Townsend and 60 at Seattle across all 31 days. Heights are feet above MLLW, rounded to two decimals after ranking the unrounded predictions; times are Pacific Standard Time. Predictions do not establish observed water levels or shoreline access.*
+
+These are **January monthly maxima**, separate from the October–March seasonal ranking below. Seattle's January 25 high is also its seasonal maximum; Port Townsend and La Push reach their seasonal maxima in December. Port Townsend's January peak does not appear in its seasonal top five, so that shorter list alone cannot answer the January question. Compare these with the other covered coasts in the [national king-tide schedule](/guides/king-tides-2026-2027-dates/).
+
 ## What makes a tide "king"
 
 NOAA describes a **king tide** as an informal term for an exceptionally high tide. One mechanism is a **perigean spring tide**, when a new or full moon occurs near the Moon's closest approach to Earth. These alignments can raise predicted high tides; they are not a forecast of the weather or the observed water level. This guide compares the high tides people photograph with the separate low-tide windows. [NOAA's explanation](https://oceanservice.noaa.gov/facts/perigean-spring-tide.html) describes the astronomical mechanism.
@@ -72,7 +86,7 @@ The Christmas run carries the coast and the northern Sound; Seattle's peak waits
 
 *Each station's five highest predicted highs of the October 2026 – March 2027 season. Computed 2026-09-04 from NOAA predictions, re-verified 2026-11-11; heights in ft MLLW, times local. Predictions are astronomical forecasts, not observations: a winter low-pressure system or a strong onshore wind can push the actual water level well above these numbers — which is exactly what the photos are for.*
 
-Those photos are the point of the **Washington King Tides Program**, a citizen-science project run by Washington Sea Grant (part of the University of Washington's College of the Environment). Participants photograph waterfront locations in their communities during king tides — ideally spots whose ordinary high tide they know — so the images document where a future, higher sea might reach. Photos go in through the [MyCoast website or app](https://mycoast.org/wa). The [2026–27 Washington Sea Grant calendar](https://waseagrant.uw.edu/our-programs/coastal-hazards-climate-resilience/king-tides/king-tides-calendar/) is now published, checked November 11, 2026. It lists five high tides per month at selected locations; this replaces our earlier note that dates had not been posted. The tables on this page remain independently computed from the NOAA predictions in Tidewindow's fact sheets.
+Those photos are the point of the **Washington King Tides Program**, a citizen-science project run by Washington Sea Grant (part of the University of Washington's College of the Environment). Participants photograph waterfront locations in their communities during king tides — ideally spots whose ordinary high tide they know — so the images document where a future, higher sea might reach. Photos go in through the [MyCoast website or app](https://mycoast.org/wa). The [2026–27 Washington Sea Grant calendar](https://waseagrant.uw.edu/our-programs/coastal-hazards-climate-resilience/king-tides/king-tides-calendar/) is published, checked November 24, 2026. It lists five high tides per month at selected locations; this replaces our earlier note that dates had not been posted. The tables on this page remain independently computed from the NOAA predictions in Tidewindow's fact sheets.
 
 ## The honest half: Puget Sound's deep lows are at night
 
@@ -118,7 +132,7 @@ Winter lows come with winter ocean, and the outer coast is the most exposed shor
 
 [Cape Disappointment State Park](https://parks.wa.gov/find-parks/state-parks/cape-disappointment-state-park) is on the Long Beach Peninsula, beside the mouth of the Columbia River. For this part of southwest Washington, the [Washington Sea Grant calendar](https://waseagrant.uw.edu/our-programs/coastal-hazards-climate-resilience/king-tides/king-tides-calendar/) includes **Ilwaco and Toke Point** entries under Pacific County. Tidewindow's computed Washington coverage remains Seattle, Port Townsend and La Push; none of the tables above is a local Cape Disappointment or Long Beach tide chart.
 
-**Park notice, checked November 11:** Washington State Parks says the **North Jetty is scheduled to close January 1, 2027**, with closure anticipated through November 30, 2029, for a US Army Corps of Engineers project. That affects the January portion of this king-tide season. The park's current alerts and access rules are separate from the astronomical tide dates; the November dates here do not establish access to any particular shoreline or viewpoint.
+**Park notice, checked November 24:** Washington State Parks says the **North Jetty is scheduled to close January 1, 2027**, with closure anticipated through November 30, 2029, for a US Army Corps of Engineers project. That affects the January portion of this king-tide season. The park's current alerts and access rules are separate from the astronomical tide dates; the November dates here do not establish access to any particular shoreline or viewpoint.
 
 ## How to keep these dates
 

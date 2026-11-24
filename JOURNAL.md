@@ -5,6 +5,102 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-24 — Heartbeat: complete Washington's January high-tide comparison
+
+**One primary action:** completed the existing Washington January brief in
+`king-tides-washington-2027`. Added a three-station January monthly-maximum
+table, verified against every raw January high: La Push **60**, Port Townsend
+**58**, Seattle **60**, each spanning all **31 days**. Peaks are Jan 22,
+10.78 ft at 11:39 AM; Jan 24, 9.81 ft at 6:22 AM; Jan 25, 13.09 ft at
+7:16 AM, respectively (MLLW, PST). Rankings use unrounded heights. Monthly
+versus October–March seasonal scope is explicit, including why Port
+Townsend's seasonal top five omits its January maximum. Linked the national
+comparison; retained November's imminent lead/feature, title, URL and original
+publication date. Sea Grant's 2026–27 calendar fetched 200; Cape
+Disappointment's rendered official park page still gives the North Jetty
+closure Jan 1, 2027–anticipated Nov 30, 2029. Web text fetch returned 403;
+ordinary Chrome navigation displayed the notice. Updated only the two
+source-check dates and the article's honest `updated:` date.
+
+**Coordination:** read playbook, recent journal/backlog, git/worktrees,
+today's commits, Actions and open issues before choosing work. No Nov 24
+editorial commit or active competing Tidewindow operator appeared in the
+current checks. Acadia was completed Nov 23; no duplicate refresh. The
+separate Cabrillo holiday-access fix `d978c64` remains in its clean local
+branch, with no publication evidence; it was not absorbed into this change.
+Three independent ready briefs remain (Glass Beach, sea-glass, Sunset Bay),
+so no queue refill. All 132 held files remained byte-identical. No new
+experiment, station, month rollout, send, outreach or access-setting change.
+
+**Validation and release:** Normal main-worktree build passed. A separate clean
+checkout containing only the intended article change also passed the full
+production build, output verification (12 stations × 6 months, 151 sitemap
+URLs) and 106 tests. The first clean-copy attempt failed because copying
+dependencies had dereferenced package executable symlinks; restoring those
+copied links resolved the local setup error. Rendered checks confirm all
+3 new rows, 30 internal routes and the updated park-check date; all 22
+earlier source table lines and November feature metadata are preserved. `git diff --check`
+passed. Publication verification will be recorded after the normal push.
+
+**NOAA/operations:** latest eight listed Actions runs succeeded; no open
+issues. Scheduled refresh 45303162800 started 01:11:38Z, generated Nov 24
+data, and pushed `8e9dfd1` at **01:14:27.356Z** (commit logged 01:14:21Z).
+IndexNow submitted 151 URLs, HTTP 200 at 01:14:20.871Z. Latest 15:17:58Z
+scheduled run skipped after finding today's refresh. No originating cron
+expression established, so no slot-delay inference. All 12 live station
+JSON files returned 200, matched local bytes and carried today's generation
+date; sitemap has 151 URLs. No score-90+ window in the near-term scan.
+Production dependency audit: zero findings. Chrome Finder selection loaded
+La Push's Nov 24 data and calendar button opened the email form; no
+submission and no captured warnings/errors. Browser evidence does not
+establish other browsers' health.
+
+**Search:** GSC Web/final property totals, inclusive Pacific dates:
+**Oct 26–Nov 22: 639 clicks / 34,836 impressions / position 6.74**, versus
+Sep 28–Oct 25 **351 / 17,536 / 7.07** (+82.1% clicks). All 28 daily rows
+returned. **Nov 16–22: 218 / 12,003 / 6.30**, versus Nov 9–15
+**161 / 9,760 / 6.91** (+35.4% clicks). Washington guide baseline for the
+same 28 days: **145 clicks / 9,890 impressions / position 6.06**. These are
+observational totals, not a causal verdict on a particular refresh. GSC
+Wizard still requires a subscription; PostHog connector requires
+reauthentication. Configured read-only API fallbacks supplied the results;
+no billing or credential changes.
+
+**Product:** PostHog project 495836, host thetidewindow.com, Regular class,
+explicit UTC bounds. **Nov 17–23: 2,017 pageviews / 1,913 distinct IDs**;
+16 station selections / 13 IDs, 11 result views / 11 IDs, 21 calendar clicks /
+18 IDs. No signup, ICS reveal or Trip Picker event rows in that scope.
+**Oct 27–Nov 23: 5,397 pageviews / 5,116 IDs**; 12 signup events / 11 IDs,
+67 station selections / 54 IDs, 53 results / 48 IDs, 58 calendar clicks /
+55 IDs, 10 ICS reveals / 10 IDs, 2 Trip Picker runs / 2 IDs. Regular does not
+verify human traffic; IDs are not people; these aggregates are not a
+sequenced funnel. Signup count remains below the 30-event floor. Retired
+experiments remain closed; the exit-prompt authority conflict is unchanged.
+
+Seven-day guide pageviews: national king tides 577, Oregon 510, Washington
+263, California 175, Fitzgerald 67; Finder 18. Referrer pageviews are not
+search clicks. Nearest-rank p75 vitals: LCP **624 ms (n=585)**, INP
+**40 ms (n=141)**, CLS **0 (n=199)**, from 2,127 vitals events. **24
+exception events / 8 IDs**: prior 19 Brave/Oregon and 1 Safari/national,
+plus 2 opaque Google Search App/national and 2 Brave/California events on
+Nov 23. Brave includes the previously observed `window.ethereum` error;
+opaque Script errors do not identify a first-party cause. No app failure
+reproduced in Chrome, no suppression or speculative code fix. Capture flag
+absent on 1,772 pageviews and false on 245; this is incomplete instrumentation,
+not proof of zero errors. Investigation stays open.
+
+**Next:** Glass Beach's December chart is the next ready editorial brief.
+Keep the Nov 26 newsletter under its existing render/recompute/send gates;
+restore Oregon's December feature after Nov 27 and Washington's before
+Nov 30. Three tools remain under the Nov 23 discovery-only finding and
+Nov 30 reinspection deadline; owner Request Indexing remains pending.
+No repeat full inspection or further on-page crawl work today. December
+indexing still gates January month pages. Separate Cabrillo holiday-access
+release, development-audit follow-up and exit-prompt reconciliation remain
+open. Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-24/`.
+
+---
+
 ## 2026-11-23 — Heartbeat: verify Acadia release and reconcile tool discovery
 
 **Coordination:** the morning operator completed the weekly 40-URL inspection

@@ -766,7 +766,15 @@ complete number/link/rendered checks. No title or conversion experiment.
 Owner-held files remain excluded. Nov 23 weekly indexing inspection still
 comes before the next routine editorial assignment.
 
-- [ ] **Washington king tides — complete the January comparison.**
+- [x] **Washington king tides — complete the January comparison.**
+      DONE 2026-11-24: added all three January monthly peaks, independently
+      verified across 178 raw high predictions covering 31 days per station.
+      La Push Jan 22, Port Townsend Jan 24, Seattle Jan 25; monthly and
+      October–March seasonal scope remain explicit. November lead/feature,
+      title, URL and original date preserved. Sea Grant calendar and Cape
+      Disappointment North Jetty notice rechecked today. Normal build and
+      release checks recorded in the Nov 24 heartbeat journal.
+      Original brief:
       Target existing `king-tides-washington-2027`. Exact queries:
       `king tides washington 2027` 2 clicks / 34 impressions / position 3.97;
       `king tides washington 2026` 11 / 2,533 / 7.37;
