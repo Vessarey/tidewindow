@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-24",
+ "generated_on": "2026-11-25",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -37,18 +37,6 @@
    "arrive_by_local": "3:51 PM",
    "daylight_min": 193,
    "score": 81,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.638,
-   "low_time_local": "4:31 PM",
-   "window_local": "1:45 PM–7:40 PM",
-   "arrive_by_local": "3:31 PM",
-   "daylight_min": 189,
-   "score": 79,
    "band": "Great",
    "weekend_or_holiday": false
   },
@@ -111,6 +99,18 @@
    "score": 75,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-11-26",
+   "weekday": "Thu",
+   "low_ft": -1.682,
+   "low_time_local": "6:12 PM",
+   "window_local": "3:20 PM–9:25 PM",
+   "arrive_by_local": "5:12 PM",
+   "daylight_min": 93,
+   "score": 75,
+   "band": "Great",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -430,18 +430,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.638,
-   "low_time_local": "4:31 PM",
-   "window_local": "1:45 PM–7:40 PM",
-   "arrive_by_local": "3:31 PM",
-   "daylight_min": 189,
-   "score": 79,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.562,
@@ -464,6 +452,18 @@
    "score": 55,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-26",
+   "weekday": "Sat",
+   "low_ft": -1.315,
+   "low_time_local": "6:45 PM",
+   "window_local": "4:05 PM–9:40 PM",
+   "arrive_by_local": "5:45 PM",
+   "daylight_min": 53,
+   "score": 60,
+   "band": "Good",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -2000,20 +2000,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.638,
-   "low_time_local": "4:31 PM",
-   "window_local": "1:45 PM–7:40 PM",
-   "arrive_by_local": "3:31 PM",
-   "daylight_min": 189,
-   "score": 79,
-   "band": "Great",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 241,
-   "min_to_sun_edge": 23
-  },
-  {
    "date": "2026-11-25",
    "weekday": "Wed",
    "low_ft": -1.77,
@@ -2082,57 +2068,71 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 239,
    "min_to_sun_edge": 14
+  },
+  {
+   "date": "2026-12-09",
+   "weekday": "Wed",
+   "low_ft": -0.753,
+   "low_time_local": "5:15 PM",
+   "window_local": "2:40 PM–8:10 PM",
+   "arrive_by_local": "4:15 PM",
+   "daylight_min": 132,
+   "score": 52,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 245,
+   "min_to_sun_edge": -23
   }
  ],
  "species_last60d_5km": [
   {
-   "commonName": "Spotted Dorid",
-   "scientificName": "Triopha maculata",
-   "count": 82
-  },
-  {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 70
+   "count": 99
   },
   {
-   "commonName": "Opalescent Nudibranch",
-   "scientificName": "Hermissenda opalescens",
-   "count": 67
+   "commonName": "Spotted Dorid",
+   "scientificName": "Triopha maculata",
+   "count": 97
   },
   {
    "commonName": "Monterey Dorid",
    "scientificName": "Doris montereyensis",
-   "count": 63
+   "count": 77
+  },
+  {
+   "commonName": "Opalescent Nudibranch",
+   "scientificName": "Hermissenda opalescens",
+   "count": 69
   },
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 50
+   "count": 58
   },
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 44
+   "count": 48
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 24
+   "count": 44
   },
   {
    "commonName": "Mossy Chiton",
    "scientificName": "Mopalia muscosa",
-   "count": 15
+   "count": 22
+  },
+  {
+   "commonName": "Noble Dorid",
+   "scientificName": "Peltodoris nobilis",
+   "count": 18
   },
   {
    "commonName": "California Mussel",
    "scientificName": "Mytilus californianus",
-   "count": 14
-  },
-  {
-   "commonName": "Black Tegula",
-   "scientificName": "Tegula funebralis",
    "count": 14
   }
  ]

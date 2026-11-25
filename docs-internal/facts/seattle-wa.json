@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-24",
+ "generated_on": "2026-11-25",
  "source": "NOAA CO-OPS station 9447130 (Seattle) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "seattle-wa",
@@ -1851,6 +1851,16 @@
    "commonName": null,
    "scientificName": "Coryphella longicaudata",
    "count": 2
+  },
+  {
+   "commonName": "Monterey Dorid",
+   "scientificName": "Doris montereyensis",
+   "count": 1
+  },
+  {
+   "commonName": "barnacle-eating dorid",
+   "scientificName": "Onchidoris bilamellata",
+   "count": 1
   },
   {
    "commonName": "Hind's Chiton",

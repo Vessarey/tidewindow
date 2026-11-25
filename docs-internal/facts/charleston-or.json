@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-24",
+ "generated_on": "2026-11-25",
  "source": "NOAA CO-OPS station 9432780 (Charleston) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "charleston-or",
@@ -41,6 +41,18 @@
    "weekend_or_holiday": false
   },
   {
+   "date": "2027-01-22",
+   "weekday": "Fri",
+   "low_ft": -1.774,
+   "low_time_local": "6:13 PM",
+   "window_local": "4:00 PM–8:35 PM",
+   "arrive_by_local": "5:13 PM",
+   "daylight_min": 76,
+   "score": 66,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
    "date": "2026-12-23",
    "weekday": "Wed",
    "low_ft": -1.897,
@@ -61,18 +73,6 @@
    "arrive_by_local": "3:54 PM",
    "daylight_min": 125,
    "score": 63,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.747,
-   "low_time_local": "5:54 PM",
-   "window_local": "3:40 PM–8:20 PM",
-   "arrive_by_local": "4:54 PM",
-   "daylight_min": 66,
-   "score": 60,
    "band": "Good",
    "weekend_or_holiday": false
   },
@@ -394,18 +394,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.747,
-   "low_time_local": "5:54 PM",
-   "window_local": "3:40 PM–8:20 PM",
-   "arrive_by_local": "4:54 PM",
-   "daylight_min": 66,
-   "score": 60,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.459,
@@ -462,6 +450,18 @@
    "arrive_by_local": "3:41 PM",
    "daylight_min": 106,
    "score": 46,
+   "band": "Fair",
+   "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-12-20",
+   "weekday": "Sun",
+   "low_ft": 0.091,
+   "low_time_local": "3:15 PM",
+   "window_local": "1:45 PM–4:50 PM",
+   "arrive_by_local": "2:15 PM",
+   "daylight_min": 179,
+   "score": 51,
    "band": "Fair",
    "weekend_or_holiday": true
   }
@@ -1996,20 +1996,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.747,
-   "low_time_local": "5:54 PM",
-   "window_local": "3:40 PM–8:20 PM",
-   "arrive_by_local": "4:54 PM",
-   "daylight_min": 66,
-   "score": 60,
-   "band": "Good",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 253,
-   "min_to_sun_edge": -68
-  },
-  {
    "date": "2026-12-04",
    "weekday": "Fri",
    "low_ft": 0.722,
@@ -2078,6 +2064,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 251,
    "min_to_sun_edge": -75
+  },
+  {
+   "date": "2026-12-20",
+   "weekday": "Sun",
+   "low_ft": 0.091,
+   "low_time_local": "3:15 PM",
+   "window_local": "1:45 PM–4:50 PM",
+   "arrive_by_local": "2:15 PM",
+   "daylight_min": 179,
+   "score": 51,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 221,
+   "min_to_sun_edge": 89
   }
  ],
  "species_last60d_5km": [

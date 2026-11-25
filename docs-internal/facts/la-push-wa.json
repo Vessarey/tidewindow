@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-24",
+ "generated_on": "2026-11-25",
  "source": "NOAA CO-OPS station 9442396 (La Push, Quillayute River) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-push-wa",
@@ -23,6 +23,18 @@
    "window_local": "3:40 PM–8:05 PM",
    "arrive_by_local": "4:50 PM",
    "daylight_min": 82,
+   "score": 63,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2027-01-22",
+   "weekday": "Fri",
+   "low_ft": -1.957,
+   "low_time_local": "6:35 PM",
+   "window_local": "4:25 PM–8:45 PM",
+   "arrive_by_local": "5:35 PM",
+   "daylight_min": 38,
    "score": 63,
    "band": "Good",
    "weekend_or_holiday": false
@@ -52,18 +64,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.837,
-   "low_time_local": "6:14 PM",
-   "window_local": "4:00 PM–8:30 PM",
-   "arrive_by_local": "5:14 PM",
-   "daylight_min": 32,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.447,
@@ -88,18 +88,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.27,
-   "low_time_local": "5:29 PM",
-   "window_local": "3:30 PM–7:30 PM",
-   "arrive_by_local": "4:29 PM",
-   "daylight_min": 63,
-   "score": 50,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2027-01-18",
    "weekday": "Mon",
    "low_ft": 0.189,
@@ -110,6 +98,18 @@
    "score": 48,
    "band": "Fair",
    "weekend_or_holiday": true
+  },
+  {
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.659,
+   "low_time_local": "4:26 PM",
+   "window_local": "2:35 PM–6:20 PM",
+   "arrive_by_local": "3:26 PM",
+   "daylight_min": 113,
+   "score": 45,
+   "band": "Fair",
+   "weekend_or_holiday": false
   }
  ],
  "months_2026": {
@@ -381,18 +381,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-24",
-   "weekday": "Tue",
-   "low_ft": -1.837,
-   "low_time_local": "6:14 PM",
-   "window_local": "4:00 PM–8:30 PM",
-   "arrive_by_local": "5:14 PM",
-   "daylight_min": 32,
-   "score": 56,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.447,
@@ -401,18 +389,6 @@
    "arrive_by_local": "4:15 PM",
    "daylight_min": 79,
    "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.27,
-   "low_time_local": "5:29 PM",
-   "window_local": "3:30 PM–7:30 PM",
-   "arrive_by_local": "4:29 PM",
-   "daylight_min": 63,
-   "score": 50,
    "band": "Fair",
    "weekend_or_holiday": false
   },
@@ -1995,20 +1971,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-23",
-   "weekday": "Mon",
-   "low_ft": -1.27,
-   "low_time_local": "5:29 PM",
-   "window_local": "3:30 PM–7:30 PM",
-   "arrive_by_local": "4:29 PM",
-   "daylight_min": 63,
-   "score": 50,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 250,
-   "min_to_sun_edge": -56
-  },
-  {
    "date": "2026-12-05",
    "weekday": "Sat",
    "low_ft": 0.342,
@@ -2077,6 +2039,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 243,
    "min_to_sun_edge": -46
+  },
+  {
+   "date": "2027-01-03",
+   "weekday": "Sun",
+   "low_ft": 0.61,
+   "low_time_local": "4:04 PM",
+   "window_local": "3:05 PM–5:05 PM",
+   "arrive_by_local": "3:04 PM",
+   "daylight_min": 93,
+   "score": 29,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 229,
+   "min_to_sun_edge": 34
   }
  ],
  "species_last60d_5km": [
@@ -2091,6 +2067,11 @@
    "count": 3
   },
   {
+   "commonName": "Frilled Dogwinkle",
+   "scientificName": "Nucella lamellosa",
+   "count": 2
+  },
+  {
    "commonName": "Rough Keyhole Limpet",
    "scientificName": "Diodora aspera",
    "count": 1
@@ -2098,11 +2079,6 @@
   {
    "commonName": "Gould's baby chiton",
    "scientificName": "Cyanoplax dentiens",
-   "count": 1
-  },
-  {
-   "commonName": "Frilled Dogwinkle",
-   "scientificName": "Nucella lamellosa",
    "count": 1
   },
   {
