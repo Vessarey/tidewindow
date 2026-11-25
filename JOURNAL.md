@@ -5,6 +5,101 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-25 — Heartbeat: independently verify Cabrillo closure release
+
+**Coordination/action:** morning operator completed the P0 holiday-access
+release (`da93421`, records `a8ee7ad`). No duplicate implementation or second
+editorial release. This heartbeat independently checked production behavior,
+read current analytics/operations and added this record. Three ready P1
+briefs remain; no refill warranted. `git pull --ff-only` was current, no
+open issues, and all 132 held files remained byte-identical. No newsletter,
+audience sync, outreach, new experiment or settings change.
+
+**Release evidence:** exact-SHA Production deployment **8058403813** for
+`da93421a1d2126d478c662f7155878c1f86eaf19` succeeded **13:09:45Z**.
+NPS hours re-fetched today: Thanksgiving and Christmas remain closed with
+no public access (`https://www.nps.gov/cabr/planyourvisit/hours.htm`).
+Independent `npm run test:access`: **17/17 pass**, covering holiday dates,
+neighboring dates/stations, actual recommendation selectors, rendered
+server templates, feeds and isolated network-disabled newsletter fixtures.
+These focused tests are separate from the morning's recorded successful
+full fresh-data build and 123 tests; no full build repeated for this
+journal-only change.
+
+All **12 live ICS feeds** returned 200 and byte-matched `buildIcs` using
+current code and committed station data. Cabrillo has **66 events**, no
+UID for Nov 26/Dec 25, 2026 or Nov 25, 2027. UID checks use the station-local
+date and avoid confusing a UTC DTEND crossing midnight with a holiday
+visit. Live station, November and December pages returned 200 and labeled
+their holiday closures. Raw tide predictions remain available.
+
+**Chrome behavior:** Cabrillo Trip Picker returns no visit-eligible result
+for Nov 26 alone and Dec 25 alone; Nov 26–27 selects Nov 27. Switching the
+same Christmas selection to La Jolla returns its Dec 25 result, confirming
+the restriction is destination-specific. Finder displays today's Nov 25
+data, omits Thanksgiving from its results and opens the calendar email
+form. No submission; no captured console warnings/errors. Date-input fill
+initially did not commit React state; ordinary native keystrokes completed
+the selections. A control timeout was not an application-error finding.
+Nonholiday selection is not proof of park-hours or route access; the
+existing access caveat remains. These checks do not establish Safari or
+Brave health.
+
+**NOAA/operations:** latest eight Actions runs succeeded. Scheduled refresh
+45578757581 started **08:43:16Z**, committed `82beee2` at 08:46:18Z and
+actually pushed at **08:46:21.183Z**. IndexNow submitted 151 URLs, HTTP 200
+at 08:46:18.379Z. Latest scheduled run 45670436197 started 17:59:12Z and
+explicitly skipped at 17:59:18.510Z because today's refresh was on main.
+No originating cron expression established, so no inferred slot delay.
+All 12 live station JSON files returned 200, matched local bytes and are
+dated Nov 25; sitemap has 151 URLs. No score-90+ window in the near-term
+scan. Production dependency audit: zero findings.
+
+**Search:** GSC Web/final property totals, inclusive Pacific dates:
+**Oct 27–Nov 23: 671 clicks / 36,800 impressions / position 6.65**, versus
+Sep 29–Oct 26 **360 / 18,004 / 7.08** (+86.4% clicks); all 28 daily rows
+returned. **Nov 17–23: 250 / 13,769 / 6.10**, versus Nov 10–16
+**162 / 9,808 / 6.90** (+54.3% clicks). Observational, not causal attribution
+to yesterday's content or today's code. GSC Wizard still requires a paid
+subscription and PostHog connector requires reauthentication; configured
+read-only API fallbacks worked, without billing or access changes.
+
+**Product:** PostHog project 495836, host thetidewindow.com, Regular class,
+explicit UTC bounds. **Nov 18–24: 2,310 pageviews / 2,190 distinct IDs**;
+20 station selections / 17 IDs, 13 results / 13 IDs, 22 calendar clicks /
+19 IDs, **3 signup events / 3 IDs**, 3 ICS reveals / 3 IDs, 1 Trip Picker
+run / 1 ID. Signup sources: calendars_page, article_gate,
+article_gate_multi, one each. **Oct 28–Nov 24: 5,709 pageviews / 5,417 IDs**;
+15 signup events / 14 IDs, 72 station selections / 59 IDs, 56 results /
+51 IDs, 61 calendar clicks / 58 IDs, 13 ICS reveals / 13 IDs, 3 Trip Picker
+runs / 3 IDs. Regular is not verified human traffic, IDs are not people,
+and aggregates are not a sequenced funnel. Preserve these exact bounds and
+filters when comparing the morning read. Signup samples remain below the
+30-event floor; retired experiments stay closed and the exit-prompt
+owner-instruction conflict remains unresolved. No variant decision.
+
+Seven-day guide pageviews: national king tides 673, Oregon 582, Washington
+325, California 183, Fitzgerald 66; Finder 20. Referrer views are not GSC
+clicks. Nearest-rank p75 vitals: LCP **620 ms (n=648)**, INP **40 ms
+(n=155)**, CLS **0 (n=217)**, from 2,434 vitals events. **26 exception
+events / 10 IDs** in seven days, 32 / 11 in 28 days. Nov 24 adds eight
+events: two Brave/California, five Brave/Oregon, one opaque Mobile
+Safari/Washington. Brave again includes `window.ethereum.selectedAddress`
+and opaque Script errors; no actionable first-party stack or Chrome
+reproduction established. Capture flag absent on 2,043 pageviews and false
+on 267: incomplete capture is not zero errors. Investigation stays open.
+
+**Next:** Nov 26 newsletter requires its fresh preview, recomputation,
+consent/suppression and established send gates. No preemptive send today.
+Restore Oregon's December feature after Nov 27 and Washington's before
+Nov 30. Preserve the Nov 30 tool-indexing checkpoint and no-further-on-page
+observation period; owner Request Indexing remains pending. December
+indexing still gates January month pages. Glass Beach's December chart is
+the next editorial brief; development-audit and exit-prompt follow-ups remain.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-25/`.
+
+---
+
 ## 2026-11-25 — Cabrillo holiday-access fix released and verified live (P0)
 
 **One primary action (§2a / P0):** completed the owner-directed Cabrillo
