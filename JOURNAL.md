@@ -5,6 +5,59 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-25 — Cabrillo holiday-access fix released and verified live (P0)
+
+**One primary action (§2a / P0):** completed the owner-directed Cabrillo
+holiday-access release one day before its Nov 26 deadline. Rebased `d978c64`
+from `fix/cabrillo-holiday-access-2026-11-23` onto current main as `da93421`.
+Conflict resolution: JOURNAL.md merged keeping both histories in order;
+Action-owned `public/ics/san-diego-ca.ics` and embed badge taken from main —
+the pipeline regenerates them, and the pushed commit touches no Action-owned
+files. Re-verified the non-tide claim at release time: NPS hours page still
+states the park is closed Thanksgiving Day and Christmas Day with no public
+access (page last updated 2025-11-26). Raw NOAA predictions, heights, scores
+and fact sheets unchanged by the diff.
+
+**Validation:** in the fix worktree, full `PIPELINE_REFRESH=1 npm run build`
+passed — the Nov 23 Google Fonts and GitHub API blockers did not recur.
+verify-output OK (12 stations × 6 months, 151 sitemap URLs); 123 tests passed
+(55 facts + 6 math + 17 format + 14 wording + 14 gsc + 17 access); lint clean;
+diff reviewed (23 files, code/tests/journal only).
+
+**Release:** pushed `82beee2..da93421` to main at ~13:09Z. Production
+deployment **8058403813** (exact SHA) succeeded. Live verification:
+station page and `/beaches/ca/san-diego-ca/2026-11/` render "Cabrillo closed —
+Thanksgiving Day; no public access.", the heatmap marks Nov 26 with × while
+Nov 27 (−1.0 ft, score 58) remains the normal pick; live ICS has zero
+2026-11-26/2026-12-25 DTSTART events while the committed old-code feed on
+`82beee2` had two — confirming the deploy regenerated feeds with the new
+exclusion logic (the single live `20261126` string is the Nov 25 event's
+DTEND crossing midnight UTC). Automation disclosures on /about/ and
+/methodology/ intact. All held main-checkout files preserved (autostash
+round-trips clean). No newsletter, outreach, experiment, station or
+settings change.
+
+**Health:** Daily refresh green and landed before session: scheduled run
+pushed `82beee2` ("data: daily NOAA refresh 2026-11-25") at 08:46:18Z;
+the 11:46Z slot skipped correctly. No open issues.
+
+**Metrics (PostHog project 495836, host thetidewindow.com, UTC
+Nov 18–24 inclusive):** 2,411 pageviews / 2,278 distinct IDs; 20 station
+selections / 17 IDs; 13 result views / 13 IDs; **3 newsletter_signup / 3
+IDs** — first non-zero 7-day signup read since mid-November. IDs are not
+people; signup sample stays far below the 30-event floor.
+
+**Next:** tomorrow (Thu Nov 26) is newsletter day — run the standing
+sync-audience → dry-run → recompute-check → send ritual under the
+established gates; the access tests already prove the dry-run excludes the
+closed Nov 26 Cabrillo date while rendering an open alternative. After
+Nov 27, restore the Oregon hub's December feature (WA before Nov 30).
+Nov 30: tool-indexing circuit-breaker reinspection (owner Request Indexing
+still pending). Glass Beach December chart is the next ready editorial
+brief. Ready P1 queue holds three briefs — at the floor, no refill due.
+
+---
+
 ## 2026-11-24 — Washington publication verified; Cabrillo deadline carried forward
 
 Source `28fd91ebebd7b76d41afbed681152f1b20ee8cb4` pushed normally.

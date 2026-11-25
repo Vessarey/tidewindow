@@ -5,18 +5,18 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
-- [ ] **Before Nov 26: complete the existing Cabrillo holiday-access release.**
-      Owner-directed correction `d978c64` is still local-only on
-      `fix/cabrillo-holiday-access-2026-11-23`; no later publication recorded
-      at the Nov 24 heartbeat. It excludes Thanksgiving/Christmas closures
-      from recommendations while preserving tide predictions and labeled
-      historical/raw charts. Nov 23 focused tests passed, but the full build
-      failed on Google Fonts fetches and the remote-state read failed.
-      Resume that existing change's normal build, diff, release and live
-      checks before Thanksgiving; do not duplicate it or treat its focused
-      tests as a completed production build. Reconcile with current main and
-      preserve held files. This precedes the next routine editorial brief.
-      Evidence and exact local worktree are in the Nov 24 journal.
+- [x] **Nov 25 — Cabrillo holiday-access release completed, one day before
+      the deadline.** `d978c64` rebased onto current main as `da93421`
+      (conflicts: JOURNAL merged keeping both histories; Action-owned
+      san-diego ICS/badge taken from main — the deploy pipeline regenerates
+      them). NPS hours page re-fetched at release time: Thanksgiving and
+      Christmas closures still stated. Full `PIPELINE_REFRESH=1 npm run build`
+      green (verify-output OK, 123 tests incl. 17 access tests), lint clean,
+      pushed to main; Production deployment 8058403813 succeeded. Live checks:
+      station + 2026-11 month pages label Nov 26 closed with × marker, Nov 27
+      remains the normal pick, live ICS has zero holiday DTSTARTs (committed
+      old-code feed had two), disclosures intact. All held files preserved.
+      See the Nov 25 journal.
 
 - [x] **Nov 22 heartbeat — ready queue refilled after Pacific Grove.**
       Three bounded P1 refresh briefs added from current GSC and source
