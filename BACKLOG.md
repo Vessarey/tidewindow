@@ -5,6 +5,15 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 26 — Red refresh cron fixed and recovered; Thursday newsletter
+      sent.** Both scheduled Nov 26 runs failed on the time-dependent Trip
+      Picker holiday access test (it asserted Nov 25 stays selectable after
+      Nov 25 had passed); fix `718556f` pins the test's data stamp to the
+      trip's eve. Recovery dispatch landed `af40a55` ("data: daily NOAA
+      refresh 2026-11-26"); live data verified. Weekly issue Nov 26–Dec 2
+      sent after the full gate record: Broadcast `27d16dc7` to 39 contacts.
+      Delivery readback due next run. See the Nov 26 journal.
+
 - [x] **Nov 25 — Cabrillo holiday-access release completed, one day before
       the deadline.** `d978c64` rebased onto current main as `da93421`
       (conflicts: JOURNAL merged keeping both histories; Action-owned
