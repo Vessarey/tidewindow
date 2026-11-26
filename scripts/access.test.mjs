@@ -44,10 +44,13 @@ for (const holiday of closed) {
     const d = new Date(holiday + "T12:00:00Z");
     const from = new Date(+d - 86400000).toISOString().slice(0,10);
     const to = new Date(+d + 86400000).toISOString().slice(0,10);
-    const result = vm.runInNewContext(`(() => { ${selection}; return ranked; })()`, { data, from, to, visitWindows });
+    // The picker drops windows with lowTime <= generatedAt; pin the stamp to
+    // the trip's eve so the assertion holds after the holiday itself passes.
+    const pinned = { ...data, generatedAt: Date.parse(from + "T00:00:00Z") - 86400000 };
+    const result = vm.runInNewContext(`(() => { ${selection}; return ranked; })()`, { data: pinned, from, to, visitWindows });
     assert.ok(result.length); assert.ok(!result.some((w) => w.date === holiday));
     assert.ok(result.some((w) => w.date === from)); assert.ok(result.some((w) => w.date === to));
-    const single = vm.runInNewContext(`(() => { ${selection}; return ranked; })()`, { data, from: holiday, to: holiday, visitWindows });
+    const single = vm.runInNewContext(`(() => { ${selection}; return ranked; })()`, { data: pinned, from: holiday, to: holiday, visitWindows });
     assert.equal(single.length, 0);
   });
   test(`actual Finder excludes ${holiday} at all depth filters`, () => {
