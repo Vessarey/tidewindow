@@ -5,6 +5,99 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-26 — Heartbeat: recovery verified; newsletter delivery confirmed
+
+**Coordination/action:** read the current playbook, three newest journal
+entries, backlog, working tree, today's commits and recent Actions. Morning
+operator already fixed the failed refresh (`718556f`), recovered today's data
+(`af40a55`) and submitted the Thursday issue. No duplicate recovery, send,
+audience sync, editorial release or experiment. This heartbeat's bounded
+improvement is the delivery/incident follow-up record and correction of two
+approximate morning timestamps. Three ready P1 briefs remain. All 132 held
+files remained byte-identical; no open GitHub issues.
+
+**Recovery evidence:** independently read failed run **45811413468**: the
+Nov 26 Trip Picker neighbor-date assertion failed at **11:35:01Z**. Reviewed
+the test-only fix, which pins the test data stamp so past-day filtering does
+not invalidate the closure test. Independent `npm run test:access` passes
+**17/17** against current data. Recovery **45826017645** began **13:07:02Z**,
+generated data at **13:08:04.679Z**, committed `af40a55` at **13:10:27Z**,
+and actually pushed at **13:10:30.898Z** — the morning journal's ~13:08Z
+describes generation, not the landed commit. IndexNow submitted 151 URLs,
+HTTP 200 at 13:10:27.615Z. Later scheduled runs **45839490253** and
+**45870314375** succeeded; the latest explicitly skipped at **17:44:57.173Z**
+because today's refresh was already on main. This is verified recovery,
+not proof of an unaided scheduled refresh. No originating cron expression
+established; no inferred slot delay. Check tomorrow's unaided refresh.
+
+**Production/browser:** exact-SHA Production deployment **8086232055** for
+`c88886155ba303c578a045f4872d8973f9fb1d41` succeeded **13:15:12Z**.
+All 12 station JSON files returned 200, match committed bytes and carry
+Nov 26 data. All 12 live ICS feeds byte-match current `buildIcs`; Cabrillo
+has 65 events and no closed-holiday UID. Live station, November and December
+pages retain closure labels. Chrome Finder displays Nov 26 computed data,
+omits Thanksgiving from Cabrillo recommendations, retains Nov 27, and opens
+the calendar email form; no submission and no captured warnings/errors.
+Other-date results remain predictions, not access clearance. Safari/Brave
+health is not established by this Chrome check. Production dependency audit
+has zero findings. No score-90+ window found in the near-term scan. The
+morning full build and 123-test result remains separately recorded; this
+records-only follow-up did not repeat a full build.
+
+**Newsletter readback at 18:12:04Z:** exact broadcast
+`27d16dc7-e26a-4251-9d42-96b89786068e` is **sent**, with server `sent_at`
+**2026-11-26 13:13:37.515416Z**, correcting the morning journal's ~13:50Z.
+Separate recipient-event reads (limit 100, all `has_more: false`) report
+**38 sent / 38 delivered / 1 suppressed / 0 bounced / 0 complained**.
+The 39 subscribed contacts in the morning send record are not 39 deliveries;
+the suppressed recipient is not a delivery or bounce. No recorded adverse
+events at check time, not a guarantee against later events. No recipient
+addresses or contact IDs stored in this record. Repeat the late-event check
+Nov 27; no resend, suppression change or audience mutation.
+
+**Search:** GSC Web/final property totals, inclusive Pacific dates:
+**Nov 18–24: 308 clicks / 16,061 impressions / position 5.91**, versus
+Nov 11–17 **156 / 9,566 / 6.94** (**+97.4% clicks**).
+**Oct 28–Nov 24: 731 / 39,096 / 6.55**, versus Sep 30–Oct 27
+**364 / 18,590 / 7.09** (+100.8% clicks); all 28 daily rows returned.
+Observed growth, not causal attribution to recent releases. GSC Wizard
+still requires a paid subscription and PostHog requires reauthentication;
+configured read-only API fallbacks worked without access/billing changes.
+
+**Product:** PostHog project 495836, host thetidewindow.com, Regular class,
+explicit UTC bounds. **Nov 19–25: 2,742 pageviews / 2,599 distinct IDs**;
+22 station selections / 18 IDs, 13 results / 13 IDs, 22 calendar clicks /
+19 IDs, **4 signup events / 4 IDs**, 3 ICS reveals / 3 IDs, 6 Trip Picker
+runs / 2 IDs. One signup each from calendars_page, article_gate,
+end_article_gated and article_gate_multi. **Oct 29–Nov 25: 6,111 pageviews /
+5,796 IDs**; 13 signup events / 12 IDs, 74 station selections / 60 IDs,
+56 results / 51 IDs, 59 calendar clicks / 56 IDs, 11 ICS reveals / 11 IDs,
+8 Trip Picker runs / 4 IDs. Regular is not verified human traffic; IDs are
+not people, signup events are not confirmed subscribers, and aggregates
+are not a sequenced funnel. Below the 30-event signup verdict floor;
+retired experiments remain closed, with no variant decision. The exit-prompt
+owner-instruction conflict remains unresolved.
+
+Seven-day top guide pageviews: national king tides 817, Oregon 683,
+Washington 410, California 194, Fitzgerald 66; Finder 21. Referrer views
+are not search clicks. Nearest-rank p75: LCP **608 ms (n=735)**, INP
+**32 ms (n=179)**, CLS **0 (n=260)**, from 2,862 vitals events. Exceptions:
+**13 events / 6 IDs** in seven days, **32 / 11** in 28 days; no Nov 25
+exception in the returned seven-day list. The lower rolling count is not
+evidence of a fix. Capture flag absent on 2,434 pageviews and false on 308:
+incomplete capture is not zero errors. Existing investigation remains open.
+
+**Next:** Nov 27 late newsletter-event check and confirm an unaided scheduled
+NOAA refresh. Restore Oregon's December feature on the first run **after
+Nov 27** (Nov 28, not Nov 27); Washington's feature before Nov 30. Preserve
+the Nov 30 tool-indexing checkpoint and observation period; owner Request
+Indexing remains pending. December indexing gates January month pages.
+Glass Beach's December chart is the next editorial brief; development-audit
+and exit-prompt reconciliation remain open. Evidence:
+`/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-26/`.
+
+---
+
 ## 2026-11-26 — Red cron fixed (time-bomb access test), refresh recovered; Thursday newsletter sent
 
 **Health (red at session start, §2a):** both of today's scheduled "Daily data

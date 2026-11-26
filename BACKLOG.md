@@ -12,7 +12,11 @@ with the date; add discoveries at the appropriate tier.
       trip's eve. Recovery dispatch landed `af40a55` ("data: daily NOAA
       refresh 2026-11-26"); live data verified. Weekly issue Nov 26–Dec 2
       sent after the full gate record: Broadcast `27d16dc7` to 39 contacts.
-      Delivery readback due next run. See the Nov 26 journal.
+      Heartbeat readback at 18:12Z: 38 sent/delivered, 1 suppressed,
+      no recorded bounce/complaint; all event lists complete. Server send
+      time 13:13:37Z corrects the morning approximation. Repeat late-event
+      check Nov 27 and confirm that day's refresh lands unaided. See the
+      Nov 26 heartbeat journal; no resend or audience change.
 
 - [x] **Nov 25 — Cabrillo holiday-access release completed, one day before
       the deadline.** `d978c64` rebased onto current main as `da93421`
