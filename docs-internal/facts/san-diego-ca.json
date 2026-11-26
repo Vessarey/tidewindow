@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-25",
+ "generated_on": "2026-11-26",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-26",
-   "weekday": "Thu",
-   "low_ft": -1.313,
-   "low_time_local": "4:49 PM",
-   "window_local": "2:15 PM–7:40 PM",
-   "arrive_by_local": "3:49 PM",
-   "daylight_min": 148,
-   "score": 78,
+   "date": "2027-01-24",
+   "weekday": "Sun",
+   "low_ft": -1.209,
+   "low_time_local": "4:45 PM",
+   "window_local": "2:20 PM–7:15 PM",
+   "arrive_by_local": "3:45 PM",
+   "daylight_min": 174,
+   "score": 79,
    "band": "Great",
    "weekend_or_holiday": true
   }
@@ -418,18 +418,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.448,
-   "low_time_local": "3:57 PM",
-   "window_local": "1:20 PM–6:50 PM",
-   "arrive_by_local": "2:57 PM",
-   "daylight_min": 203,
-   "score": 76,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-26",
    "weekday": "Sat",
    "low_ft": -1.33,
@@ -463,6 +451,18 @@
    "daylight_min": 93,
    "score": 58,
    "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.933,
+   "low_time_local": "1:35 PM",
+   "window_local": "11:05 AM–4:20 PM",
+   "arrive_by_local": "12:35 PM",
+   "daylight_min": 315,
+   "score": 65,
+   "band": "Good",
    "weekend_or_holiday": false
   }
  ],
@@ -1992,20 +1992,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.448,
-   "low_time_local": "3:57 PM",
-   "window_local": "1:20 PM–6:50 PM",
-   "arrive_by_local": "2:57 PM",
-   "daylight_min": 203,
-   "score": 76,
-   "band": "Great",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 239,
-   "min_to_sun_edge": 46
-  },
-  {
    "date": "2026-11-26",
    "weekday": "Thu",
    "low_ft": -1.313,
@@ -2074,6 +2060,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 245,
    "min_to_sun_edge": -14
+  },
+  {
+   "date": "2026-12-12",
+   "weekday": "Sat",
+   "low_ft": -0.05,
+   "low_time_local": "5:34 PM",
+   "window_local": "3:30 PM–7:45 PM",
+   "arrive_by_local": "4:34 PM",
+   "daylight_min": 73,
+   "score": 39,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 249,
+   "min_to_sun_edge": -51
   }
  ],
  "species_last60d_5km": [
@@ -2090,6 +2090,11 @@
   {
    "commonName": "Hooded Nudibranch",
    "scientificName": "Melibe leonina",
+   "count": 2
+  },
+  {
+   "commonName": "Cloudy Bubble Snail",
+   "scientificName": "Bulla gouldiana",
    "count": 2
   },
   {
@@ -2120,11 +2125,6 @@
   {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
-   "count": 1
-  },
-  {
-   "commonName": "Brown-streaked Sapsucker",
-   "scientificName": "Stiliger fuscovittatus",
    "count": 1
   }
  ]

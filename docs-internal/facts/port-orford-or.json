@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-25",
+ "generated_on": "2026-11-26",
  "source": "NOAA CO-OPS station 9431647 (Port Orford) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-orford-or",
@@ -101,13 +101,13 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -2.053,
-   "low_time_local": "6:25 PM",
-   "window_local": "3:55 PM–9:05 PM",
-   "arrive_by_local": "5:25 PM",
-   "daylight_min": 53,
+   "date": "2027-01-19",
+   "weekday": "Tue",
+   "low_ft": -1.009,
+   "low_time_local": "3:35 PM",
+   "window_local": "1:20 PM–6:00 PM",
+   "arrive_by_local": "2:35 PM",
+   "daylight_min": 234,
    "score": 63,
    "band": "Good",
    "weekend_or_holiday": false
@@ -394,18 +394,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -2.053,
-   "low_time_local": "6:25 PM",
-   "window_local": "3:55 PM–9:05 PM",
-   "arrive_by_local": "5:25 PM",
-   "daylight_min": 53,
-   "score": 63,
-   "band": "Good",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.629,
@@ -464,6 +452,18 @@
    "score": 44,
    "band": "Fair",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.411,
+   "low_time_local": "4:29 PM",
+   "window_local": "2:35 PM–6:25 PM",
+   "arrive_by_local": "3:29 PM",
+   "daylight_min": 129,
+   "score": 53,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [

@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-25",
+ "generated_on": "2026-11-26",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -101,14 +101,14 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.526,
-   "low_time_local": "4:55 PM",
-   "window_local": "3:10 PM–6:40 PM",
-   "arrive_by_local": "3:55 PM",
-   "daylight_min": 48,
-   "score": 52,
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.342,
+   "low_time_local": "1:59 PM",
+   "window_local": "12:35 PM–3:20 PM",
+   "arrive_by_local": "12:59 PM",
+   "daylight_min": 165,
+   "score": 45,
    "band": "Fair",
    "weekend_or_holiday": false
   }
@@ -382,18 +382,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.526,
-   "low_time_local": "4:55 PM",
-   "window_local": "3:10 PM–6:40 PM",
-   "arrive_by_local": "3:55 PM",
-   "daylight_min": 48,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-23",
    "weekday": "Wed",
    "low_ft": -1.38,
@@ -464,6 +452,18 @@
    "score": 19,
    "band": "Skip",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-06",
+   "weekday": "Sun",
+   "low_ft": -0.024,
+   "low_time_local": "3:02 PM",
+   "window_local": "1:50 PM–4:10 PM",
+   "arrive_by_local": "2:02 PM",
+   "daylight_min": 123,
+   "score": 42,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -2000,20 +2000,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.526,
-   "low_time_local": "4:55 PM",
-   "window_local": "3:10 PM–6:40 PM",
-   "arrive_by_local": "3:55 PM",
-   "daylight_min": 48,
-   "score": 52,
-   "band": "Fair",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 251,
-   "min_to_sun_edge": -57
-  },
-  {
    "date": "2026-11-28",
    "weekday": "Sat",
    "low_ft": 0.303,
@@ -2082,6 +2068,20 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 244,
    "min_to_sun_edge": -35
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "Tue",
+   "low_ft": -0.925,
+   "low_time_local": "2:54 PM",
+   "window_local": "1:15 PM–4:30 PM",
+   "arrive_by_local": "1:54 PM",
+   "daylight_min": 162,
+   "score": 57,
+   "band": "Fair",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 226,
+   "min_to_sun_edge": 63
   }
  ],
  "species_last60d_5km": [
@@ -2093,12 +2093,12 @@
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 9
+   "count": 8
   },
   {
    "commonName": "Fuzzy Onchidoris",
    "scientificName": "Onchidoris muricata",
-   "count": 6
+   "count": 5
   },
   {
    "commonName": "Common Atlantic Slippersnail",
@@ -2108,11 +2108,6 @@
   {
    "commonName": "Soft-shelled Clam",
    "scientificName": "Mya arenaria",
-   "count": 2
-  },
-  {
-   "commonName": "Eastern White Slippersnail",
-   "scientificName": "Crepidula plana",
    "count": 2
   },
   {
@@ -2133,6 +2128,11 @@
   {
    "commonName": "barnacle-eating dorid",
    "scientificName": "Onchidoris bilamellata",
+   "count": 1
+  },
+  {
+   "commonName": "Rough Periwinkle",
+   "scientificName": "Littorina saxatilis",
    "count": 1
   }
  ]

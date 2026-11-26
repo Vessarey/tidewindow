@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-25",
+ "generated_on": "2026-11-26",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -406,18 +406,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.507,
-   "low_time_local": "3:55 PM",
-   "window_local": "1:10 PM–7:00 PM",
-   "arrive_by_local": "2:55 PM",
-   "daylight_min": 213,
-   "score": 77,
-   "band": "Great",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-22",
    "weekday": "Tue",
    "low_ft": -1.485,
@@ -462,6 +450,18 @@
    "arrive_by_local": "4:41 PM",
    "daylight_min": 103,
    "score": 62,
+   "band": "Good",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-21",
+   "weekday": "Mon",
+   "low_ft": -0.943,
+   "low_time_local": "1:33 PM",
+   "window_local": "10:55 AM–4:25 PM",
+   "arrive_by_local": "12:33 PM",
+   "daylight_min": 330,
+   "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
   }
@@ -1992,20 +1992,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-25",
-   "weekday": "Wed",
-   "low_ft": -1.507,
-   "low_time_local": "3:55 PM",
-   "window_local": "1:10 PM–7:00 PM",
-   "arrive_by_local": "2:55 PM",
-   "daylight_min": 213,
-   "score": 77,
-   "band": "Great",
-   "weekend_or_holiday": false,
-   "sun_azimuth_at_low": 239,
-   "min_to_sun_edge": 48
-  },
-  {
    "date": "2026-11-26",
    "weekday": "Thu",
    "low_ft": -1.4,
@@ -2074,23 +2060,42 @@
    "weekend_or_holiday": false,
    "sun_azimuth_at_low": 244,
    "min_to_sun_edge": -12
+  },
+  {
+   "date": "2026-12-12",
+   "weekday": "Sat",
+   "low_ft": -0.166,
+   "low_time_local": "5:32 PM",
+   "window_local": "3:15 PM–8:05 PM",
+   "arrive_by_local": "4:32 PM",
+   "daylight_min": 88,
+   "score": 44,
+   "band": "Fair",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 249,
+   "min_to_sun_edge": -49
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 42
+   "count": 45
   },
   {
    "commonName": "Hunchback Doris",
    "scientificName": "Atagema alba",
-   "count": 29
+   "count": 32
   },
   {
    "commonName": "Yellow Umbrella Slug",
    "scientificName": "Tylodina fungina",
-   "count": 24
+   "count": 26
+  },
+  {
+   "commonName": "California Aglaja",
+   "scientificName": "Navanax inermis",
+   "count": 22
   },
   {
    "commonName": "Owl Limpet",
@@ -2098,33 +2103,28 @@
    "count": 21
   },
   {
-   "commonName": "California Aglaja",
-   "scientificName": "Navanax inermis",
-   "count": 20
-  },
-  {
    "commonName": "Salt-and-pepper Doris",
    "scientificName": "Aegires albopunctatus",
-   "count": 18
+   "count": 19
   },
   {
    "commonName": "Spanish Shawl",
    "scientificName": "Flabellinopsis iodinea",
-   "count": 15
+   "count": 16
   },
   {
    "commonName": "Lesser Two-spot Octopus",
    "scientificName": "Octopus bimaculoides",
-   "count": 13
+   "count": 15
   },
   {
    "commonName": "Colorful Aeolid",
    "scientificName": "Anteaeolidiella chromosoma",
-   "count": 13
+   "count": 14
   },
   {
-   "commonName": "Hartweg's Chiton",
-   "scientificName": "Cyanoplax hartwegii",
+   "commonName": "Banded Tegula",
+   "scientificName": "Agathistoma eiseni",
    "count": 11
   }
  ]
