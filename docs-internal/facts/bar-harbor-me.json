@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-26",
+ "generated_on": "2026-11-27",
  "source": "NOAA CO-OPS station 8413320 (Bar Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "bar-harbor-me",
@@ -2088,12 +2088,12 @@
   {
    "commonName": "Common Periwinkle",
    "scientificName": "Littorina littorea",
-   "count": 12
+   "count": 13
   },
   {
    "commonName": "Atlantic Dogwhelk",
    "scientificName": "Nucella lapillus",
-   "count": 8
+   "count": 9
   },
   {
    "commonName": "Fuzzy Onchidoris",
@@ -2101,8 +2101,18 @@
    "count": 5
   },
   {
+   "commonName": "Pearly Topshell",
+   "scientificName": "Margarites helicinus",
+   "count": 4
+  },
+  {
    "commonName": "Common Atlantic Slippersnail",
    "scientificName": "Crepidula fornicata",
+   "count": 3
+  },
+  {
+   "commonName": "Northern Lacuna",
+   "scientificName": "Lacuna vincta",
    "count": 3
   },
   {
@@ -2111,29 +2121,19 @@
    "count": 2
   },
   {
-   "commonName": "Northern Lacuna",
-   "scientificName": "Lacuna vincta",
+   "commonName": "Common Tortoiseshell Limpet",
+   "scientificName": "Testudinalia testudinalis",
    "count": 2
   },
   {
-   "commonName": "Common Tortoiseshell Limpet",
-   "scientificName": "Testudinalia testudinalis",
+   "commonName": "Sea Lemon",
+   "scientificName": "Archidoris pseudoargus",
    "count": 2
   },
   {
    "commonName": "Red-fingered Coryphella",
    "scientificName": "Coryphella verrucosa",
    "count": 2
-  },
-  {
-   "commonName": "barnacle-eating dorid",
-   "scientificName": "Onchidoris bilamellata",
-   "count": 1
-  },
-  {
-   "commonName": "Rough Periwinkle",
-   "scientificName": "Littorina saxatilis",
-   "count": 1
   }
  ]
 }

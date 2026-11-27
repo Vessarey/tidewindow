@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-26",
+ "generated_on": "2026-11-27",
  "source": "NOAA CO-OPS station 9410230 (La Jolla) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "la-jolla-ca",
@@ -77,18 +77,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-26",
-   "weekday": "Thu",
-   "low_ft": -1.4,
-   "low_time_local": "4:46 PM",
-   "window_local": "2:00 PM–7:55 PM",
-   "arrive_by_local": "3:46 PM",
-   "daylight_min": 163,
-   "score": 82,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-12-23",
    "weekday": "Wed",
    "low_ft": -1.803,
@@ -111,6 +99,18 @@
    "score": 79,
    "band": "Great",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2027-01-24",
+   "weekday": "Sun",
+   "low_ft": -1.136,
+   "low_time_local": "4:41 PM",
+   "window_local": "2:15 PM–7:15 PM",
+   "arrive_by_local": "3:41 PM",
+   "daylight_min": 179,
+   "score": 79,
+   "band": "Great",
+   "weekend_or_holiday": true
   }
  ],
  "months_2026": {
@@ -418,18 +418,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-26",
-   "weekday": "Thu",
-   "low_ft": -1.4,
-   "low_time_local": "4:46 PM",
-   "window_local": "2:00 PM–7:55 PM",
-   "arrive_by_local": "3:46 PM",
-   "daylight_min": 163,
-   "score": 82,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-12-26",
    "weekday": "Sat",
    "low_ft": -1.346,
@@ -464,6 +452,18 @@
    "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-27",
+   "weekday": "Sun",
+   "low_ft": -0.818,
+   "low_time_local": "6:04 PM",
+   "window_local": "3:35 PM–8:45 PM",
+   "arrive_by_local": "5:04 PM",
+   "daylight_min": 75,
+   "score": 55,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -1992,20 +1992,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-26",
-   "weekday": "Thu",
-   "low_ft": -1.4,
-   "low_time_local": "4:46 PM",
-   "window_local": "2:00 PM–7:55 PM",
-   "arrive_by_local": "3:46 PM",
-   "daylight_min": 163,
-   "score": 82,
-   "band": "Great",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 246,
-   "min_to_sun_edge": -3
-  },
-  {
    "date": "2026-11-27",
    "weekday": "Fri",
    "low_ft": -1.121,
@@ -2074,23 +2060,37 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 249,
    "min_to_sun_edge": -49
+  },
+  {
+   "date": "2026-12-13",
+   "weekday": "Sun",
+   "low_ft": 0.092,
+   "low_time_local": "6:11 PM",
+   "window_local": "4:00 PM–8:25 PM",
+   "arrive_by_local": "5:11 PM",
+   "daylight_min": 44,
+   "score": 31,
+   "band": "Skip",
+   "weekend_or_holiday": true,
+   "sun_azimuth_at_low": 253,
+   "min_to_sun_edge": -87
   }
  ],
  "species_last60d_5km": [
   {
    "commonName": "California Seahare",
    "scientificName": "Aplysia californica",
-   "count": 45
+   "count": 47
   },
   {
    "commonName": "Hunchback Doris",
    "scientificName": "Atagema alba",
-   "count": 32
+   "count": 35
   },
   {
    "commonName": "Yellow Umbrella Slug",
    "scientificName": "Tylodina fungina",
-   "count": 26
+   "count": 30
   },
   {
    "commonName": "California Aglaja",
@@ -2108,14 +2108,14 @@
    "count": 19
   },
   {
-   "commonName": "Spanish Shawl",
-   "scientificName": "Flabellinopsis iodinea",
-   "count": 16
-  },
-  {
    "commonName": "Lesser Two-spot Octopus",
    "scientificName": "Octopus bimaculoides",
-   "count": 15
+   "count": 19
+  },
+  {
+   "commonName": "Spanish Shawl",
+   "scientificName": "Flabellinopsis iodinea",
+   "count": 18
   },
   {
    "commonName": "Colorful Aeolid",

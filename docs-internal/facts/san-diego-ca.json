@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-26",
+ "generated_on": "2026-11-27",
  "source": "NOAA CO-OPS station 9410170 (San Diego) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "san-diego-ca",
@@ -430,18 +430,6 @@
    "weekend_or_holiday": true
   },
   {
-   "date": "2026-11-26",
-   "weekday": "Thu",
-   "low_ft": -1.313,
-   "low_time_local": "4:49 PM",
-   "window_local": "2:15 PM–7:40 PM",
-   "arrive_by_local": "3:49 PM",
-   "daylight_min": 148,
-   "score": 78,
-   "band": "Great",
-   "weekend_or_holiday": true
-  },
-  {
    "date": "2026-11-27",
    "weekday": "Fri",
    "low_ft": -1.012,
@@ -464,6 +452,18 @@
    "score": 65,
    "band": "Good",
    "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-27",
+   "weekday": "Sun",
+   "low_ft": -0.789,
+   "low_time_local": "6:07 PM",
+   "window_local": "3:45 PM–8:40 PM",
+   "arrive_by_local": "5:07 PM",
+   "daylight_min": 65,
+   "score": 53,
+   "band": "Fair",
+   "weekend_or_holiday": true
   }
  ],
  "king_season_oct26_mar27_lowest5_daylight": [
@@ -1992,20 +1992,6 @@
  },
  "golden_hour_overlaps_next120d_top6": [
   {
-   "date": "2026-11-26",
-   "weekday": "Thu",
-   "low_ft": -1.313,
-   "low_time_local": "4:49 PM",
-   "window_local": "2:15 PM–7:40 PM",
-   "arrive_by_local": "3:49 PM",
-   "daylight_min": 148,
-   "score": 78,
-   "band": "Great",
-   "weekend_or_holiday": true,
-   "sun_azimuth_at_low": 246,
-   "min_to_sun_edge": -6
-  },
-  {
    "date": "2026-11-27",
    "weekday": "Fri",
    "low_ft": -1.012,
@@ -2074,6 +2060,20 @@
    "weekend_or_holiday": true,
    "sun_azimuth_at_low": 249,
    "min_to_sun_edge": -51
+  },
+  {
+   "date": "2026-12-24",
+   "weekday": "Thu",
+   "low_ft": -1.878,
+   "low_time_local": "3:50 PM",
+   "window_local": "1:05 PM–6:50 PM",
+   "arrive_by_local": "2:50 PM",
+   "daylight_min": 223,
+   "score": 84,
+   "band": "Great",
+   "weekend_or_holiday": false,
+   "sun_azimuth_at_low": 234,
+   "min_to_sun_edge": 58
   }
  ],
  "species_last60d_5km": [
@@ -2103,11 +2103,6 @@
    "count": 2
   },
   {
-   "commonName": "Pacific Calico Scallop",
-   "scientificName": "Argopecten ventricosus",
-   "count": 2
-  },
-  {
    "commonName": "Kelp Scallop",
    "scientificName": "Leptopecten latiauratus",
    "count": 2
@@ -2125,6 +2120,11 @@
   {
    "commonName": "California Aglaja",
    "scientificName": "Navanax inermis",
+   "count": 1
+  },
+  {
+   "commonName": "Brown-streaked Sapsucker",
+   "scientificName": "Stiliger fuscovittatus",
    "count": 1
   }
  ]
