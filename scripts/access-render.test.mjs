@@ -24,7 +24,9 @@ function load(file) {
     if (name === "next/link") return { __esModule:true, default:({children,href,...props}) => React.createElement("a",{href,...props},children) };
     if (name === "next/navigation") return { notFound:() => { throw Error("notFound"); } };
     if (name.endsWith("access.mjs")) return access;
-    if (name === "@/components/tools-shared") return { useStationData:() => ({data,loading:false,error:null,retry:Noop}), StationSelect:Noop, StationDataStatus:Noop };
+    // The heatmap drops past months as the data stamp advances. Keep the
+    // holiday fixture in view even after November leaves the live range.
+    if (name === "@/components/tools-shared") return { useStationData:() => ({data:{ ...data, generatedAt:Date.parse("2026-11-25T20:00:00Z") },loading:false,error:null,retry:Noop}), StationSelect:Noop, StationDataStatus:Noop };
     if (name === "@/lib/content") return { getStationGuide:() => null };
     if (name.startsWith("@/components/") && !["@/components/window-bits","@/components/access-notice"].includes(name)) return stub;
     if (name.startsWith("@/") || name.startsWith(".")) {
