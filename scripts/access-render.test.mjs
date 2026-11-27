@@ -61,7 +61,16 @@ test("actual homepage cards exclude both closed Cabrillo dates and retain an ope
 });
 test("actual station page labels closed chart rows while selecting an open next-best window", async () => {
   const page = load("src/app/beaches/[state]/[slug]/page.tsx").default;
-  const html = renderToStaticMarkup(await page({params:Promise.resolve({state:"ca",slug:"san-diego-ca"})}));
+  // The page's 30-day chart only lists windows with lowTime > generatedAt, so
+  // once the holiday passes a fresh data stamp drops the closed row and the
+  // label assertion could never hold again (it broke both Nov 27 scheduled
+  // refreshes). Pin the stamp to Thanksgiving's eve for this render only.
+  const real = windows.getStationData;
+  windows.getStationData = (slug) => ({ ...real(slug), generatedAt: Date.parse("2026-11-25T20:00:00Z") });
+  let html;
+  try {
+    html = renderToStaticMarkup(await page({params:Promise.resolve({state:"ca",slug:"san-diego-ca"})}));
+  } finally { windows.getStationData = real; }
   assert.ok(html.includes("Cabrillo closed — Thanksgiving Day; no public access."));
   const answer = html.match(/<div class="answer-box">([\s\S]*?)<\/div>/)[1];
   assert.ok(!answer.includes("Nov 26, 2026"));
