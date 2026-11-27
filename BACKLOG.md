@@ -5,6 +5,19 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 27 heartbeat — prevent heatmap test failure at month rollover.**
+      A Dec 2 data-clock simulation reproduced another access assertion
+      failure (16 pass / 1 fail): November leaves the live heatmap, but the
+      test still expects Thanksgiving's `26 ×`. Fix `2148c79` pins only
+      that test fixture's clock. Nov 28, Dec 2, Dec 26 and Jan 2 simulations
+      pass 17/17 each; isolated full fresh-data build passes 123 tests,
+      output verification and lint. Application code and pipeline outputs
+      unchanged by the commit. See today's heartbeat journal for release
+      verification. Newsletter late-event read now completed through the
+      connector: 38 sent/delivered, 1 suppressed, no recorded bounce or
+      complaint at 18:18Z. No resend or audience change. The Nov 28 unaided
+      refresh check and Oregon feature rollover remain next.
+
 - [x] **Nov 27 — Red refresh cron fixed again (station-page render test)
       and recovered.** Both Nov 27 scheduled runs failed on the
       access-render station-page test asserting the Thanksgiving closure

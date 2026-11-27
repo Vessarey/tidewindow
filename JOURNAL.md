@@ -5,6 +5,112 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-27 — Heartbeat: prevent the next heatmap test rollover failure
+
+**One primary reliability action:** independently verified the morning
+recovery, then found another failure in the same class. At current dates,
+the access suite passes. Advancing only the data `generatedAt` in memory to
+**Dec 2, 2026 13:00Z** produces **16 pass / 1 fail**: the year-heatmap test
+still demands `26 ×` after November 2026 leaves the displayed range. Unlike
+the morning inference, the heatmap does filter on `generatedAt` (minus one
+day); today's green build alone could not establish rollover safety.
+This is a test-fixture failure, not incorrect live filtering.
+
+**Fix `2148c79`:** pin only the mocked `useStationData` timestamp in
+`scripts/access-render.test.mjs` to the holiday period, retaining the actual
+component renderer and every closure assertion. Application code, prediction
+data and newsletter behavior are unchanged. Verified in an isolated checkout:
+all **17 access tests pass at each of Nov 28, Dec 2, Dec 26 and Jan 2**,
+using an in-memory read shim without editing pipeline files. The pre-fix
+Dec 2 failure is saved separately. Full **`PIPELINE_REFRESH=1 npm run build`**
+then passes with newly fetched data, **123 tests**, 12 stations × 6 months,
+151 sitemap URLs; lint clean. Production dependency audit: zero findings.
+Existing development findings remain separate. Only the tested fixture file
+was transferred to main and pushed; isolated regenerated files were excluded.
+All **132 owner-held files** remained byte-identical. No second editorial
+release, refresh dispatch, newsletter send, audience sync or experiment.
+
+**Publication:** source `2148c79fb5091e1cbb0308f0ed6db425a4bda562` pushed
+normally. Exact-SHA Production deployment **8116752619** succeeded
+**2026-11-27T18:22:55Z**. After deployment, all 12 live station datasets and
+all 12 feeds again returned 200 and matched current committed data/code
+(checked 2026-11-27T18:24:16.103Z). Only the test fixture changed.
+
+**Today's recovered refresh:** failed run **45990621633** confirms the
+station-page assertion failure at **11:30:25.987Z**. Morning fix `bf50472`
+and recovery **46004594382** started **13:08:55Z**, generated the live data
+at **13:09:48.687Z**, committed `bcacbb5` at **13:12:03Z**, and pushed at
+**13:12:05.652Z**. IndexNow submitted 151 URLs, HTTP 200 at 13:12:03.016Z.
+The two later scheduled runs succeeded; latest **46042204480** explicitly
+skipped at **17:29:20.286Z** because today's refresh was on main. Today's
+data is recovered; an unaided successful scheduled refresh remains to be
+confirmed Nov 28. No originating cron expression established, so no inferred
+slot delay. No open GitHub issues; three ready P1 briefs remain.
+
+**Live checks:** morning Production deployment **8110707938** for `f77b986`
+succeeded **13:15:26Z**. All 12 live station JSON files return 200 and match
+committed Nov 27 data; all 12 calendar feeds match current `buildIcs` output,
+with no closed Cabrillo holiday UID. Current station notice and historical
+November/December chart labels remain present. Chrome Finder shows Nov 27
+computed data, excludes Christmas, retains today's Nov 27 result, and opens
+the calendar email form. No submission and no captured warnings/errors.
+These checks do not establish Safari/Brave health or physical route access.
+No score-90+ window in the near-term scan.
+
+**Newsletter late-event check completed at 18:18:15Z:** connected Resend
+tools are available in this heartbeat, resolving the morning read limitation.
+Broadcast `27d16dc7-e26a-4251-9d42-96b89786068e` remains sent at
+**Nov 26 13:13:37.515416Z**. Separate complete event lists (limit 100,
+`has_more: false`) remain **38 sent / 38 delivered / 1 suppressed /
+0 bounced / 0 complained**. No recorded adverse events at this check;
+suppressed is not delivered or bounced. No recipient identities recorded,
+and no sending, audience or suppression change. Recheck before the next send.
+
+**Search:** GSC Web/final property totals, inclusive Pacific dates:
+**Nov 19–25: 364 clicks / 18,704 impressions / position 5.83**, versus
+Nov 12–18 **153 / 9,541 / 7.01** (**+137.9% clicks**).
+**Oct 29–Nov 25: 779 / 41,843 / 6.48**, versus Oct 1–28
+**364 / 19,225 / 7.05** (+114.0% clicks); all 28 daily rows returned.
+Observed growth, not attribution to the test fixes. GSC Wizard still needs
+a paid subscription and PostHog reauthentication; configured read-only API
+fallbacks worked without billing or access changes.
+
+**Product:** PostHog project 495836, host thetidewindow.com, Regular class,
+explicit UTC bounds. **Nov 20–26: 3,155 pageviews / 3,011 distinct IDs**;
+23 station selections / 19 IDs, 14 results / 14 IDs, 20 calendar clicks /
+17 IDs, **4 signup events / 4 IDs**, 3 ICS reveals / 3 IDs, 6 Trip Picker
+runs / 2 IDs. One signup each from calendars_page, article_gate,
+end_article_gated and article_gate_multi. **Oct 30–Nov 26: 6,541 pageviews /
+6,219 IDs**; 12 signups / 11 IDs, 77 selections / 63 IDs, 59 results /
+54 IDs, 58 calendar clicks / 55 IDs, 10 ICS reveals / 10 IDs, 8 Trip Picker
+runs / 4 IDs. Preserve these exact bounds and filters when comparing the
+different morning snapshot. IDs are not people, Regular is not verified
+human traffic, signups are not confirmed subscribers, and these aggregates
+are not a sequenced funnel. Below the 30-event signup verdict floor;
+retired experiments remain closed and the exit-prompt owner conflict remains.
+
+Seven-day guide views: national king tides 989, Oregon 759, Washington 475,
+California 209, Fitzgerald 67. Nearest-rank p75: LCP **604 ms (n=828)**,
+INP **32 ms (n=201)**, CLS **0 (n=287)** from 3,256 vitals events.
+Exceptions: **23 events / 8 IDs** in seven days, **42 / 13** in 28 days.
+Nov 26 adds nine Chrome/La Jolla unhandled rejections, all within 55 ms,
+with `Object Not Found Matching Id:6, MethodName:update, ParamCount:4`,
+and one Mobile Safari/Washington `_G` ReferenceError. The Chrome sample
+contains no actionable stack; no cause or first-party fix established.
+Today's Finder check did not reproduce them. Capture flag absent on 2,825
+pageviews and false on 330: incomplete capture is not zero errors.
+
+**Next:** Nov 28 confirm an unaided scheduled refresh, then restore the
+Oregon December feature (source `until: 2026-11-27` verified today).
+Washington's feature expires Nov 30; recompute before expiry. Keep the
+Nov 30 tool-indexing checkpoint and no-further-on-page observation period;
+owner Request Indexing remains pending. December indexing still gates
+January month pages. Glass Beach's December chart is next editorial;
+development audit, error investigation and exit-prompt reconciliation remain.
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-27/`.
+
+---
+
 ## 2026-11-27 — Red cron fixed (second time-bomb render test); refresh recovered
 
 **Health (red at session start, §2a):** both of today's scheduled "Daily data
