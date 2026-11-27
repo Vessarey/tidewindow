@@ -5,6 +5,23 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 27 — Red refresh cron fixed again (station-page render test)
+      and recovered.** Both Nov 27 scheduled runs failed on the
+      access-render station-page test asserting the Thanksgiving closure
+      row still renders; the page's 30-day chart drops windows with
+      `lowTime <= generatedAt`, and the Nov 26 low (epoch Nov 27 00:49Z)
+      passed. Same time-bomb class as `718556f`, one file over. Fix
+      `bf50472` pins that render's data stamp to the holiday's eve;
+      full fresh-data build green (CI condition reproduced); remaining
+      access assertions swept, Dec 25 analog covered. Recovery dispatch
+      landed `bcacbb5` ("data: daily NOAA refresh 2026-11-27"); live data
+      verified at 13:09:48Z stamp. Unaided-refresh confirmation rolls to
+      Nov 28 (both fired slots failed on the test, so the schedule itself
+      is still unproven). Resend late-event re-check: broadcast status
+      unchanged (`sent`, 13:13:37Z); recipient-event lists unavailable
+      without the Resend connector — Nov 26 18:12Z counts remain the last
+      dated result. See the Nov 27 journal.
+
 - [x] **Nov 26 — Red refresh cron fixed and recovered; Thursday newsletter
       sent.** Both scheduled Nov 26 runs failed on the time-dependent Trip
       Picker holiday access test (it asserted Nov 25 stays selectable after
