@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-27",
+ "generated_on": "2026-11-28",
  "source": "NOAA CO-OPS station 9444900 (Port Townsend) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "port-townsend-wa",
@@ -1867,23 +1867,13 @@
    "count": 4
   },
   {
-   "commonName": "Mossy Chiton",
-   "scientificName": "Mopalia muscosa",
-   "count": 3
-  },
-  {
    "commonName": "Hedgpeth's Sapsucker",
    "scientificName": "Elysia hedgpethi",
    "count": 2
   },
   {
-   "commonName": "Gumboot Chiton",
-   "scientificName": "Cryptochiton stelleri",
-   "count": 2
-  },
-  {
-   "commonName": "Fingered Limpet",
-   "scientificName": "Lottia digitalis",
+   "commonName": "Mossy Chiton",
+   "scientificName": "Mopalia muscosa",
    "count": 2
   },
   {
@@ -1902,6 +1892,11 @@
    "count": 1
   },
   {
+   "commonName": "Fingered Limpet",
+   "scientificName": "Lottia digitalis",
+   "count": 1
+  },
+  {
    "commonName": "Sitka Periwinkle",
    "scientificName": "Littorina sitkana",
    "count": 1
@@ -1909,6 +1904,11 @@
   {
    "commonName": "Plate Limpet",
    "scientificName": "Lottia scutum",
+   "count": 1
+  },
+  {
+   "commonName": "Northwest Ugly Clam",
+   "scientificName": "Entodesma navicula",
    "count": 1
   }
  ]

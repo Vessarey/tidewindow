@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-11-27",
+ "generated_on": "2026-11-28",
  "source": "NOAA CO-OPS station 9414131 (Pillar Point Harbor) predictions, MLLW, computed by Tidewindow pipeline",
  "station": {
   "slug": "pillar-point-ca",
@@ -418,18 +418,6 @@
    "weekend_or_holiday": false
   },
   {
-   "date": "2026-11-27",
-   "weekday": "Fri",
-   "low_ft": -1.399,
-   "low_time_local": "7:04 PM",
-   "window_local": "4:15 PM–10:15 PM",
-   "arrive_by_local": "6:04 PM",
-   "daylight_min": 38,
-   "score": 55,
-   "band": "Fair",
-   "weekend_or_holiday": false
-  },
-  {
    "date": "2026-12-26",
    "weekday": "Sat",
    "low_ft": -1.315,
@@ -463,6 +451,18 @@
    "daylight_min": 167,
    "score": 59,
    "band": "Fair",
+   "weekend_or_holiday": false
+  },
+  {
+   "date": "2026-12-07",
+   "weekday": "Mon",
+   "low_ft": -0.755,
+   "low_time_local": "4:01 PM",
+   "window_local": "1:30 PM–6:50 PM",
+   "arrive_by_local": "3:01 PM",
+   "daylight_min": 202,
+   "score": 60,
+   "band": "Good",
    "weekend_or_holiday": false
   }
  ],
@@ -2088,7 +2088,7 @@
   {
    "commonName": "Hopkins' Rose Nudibranch",
    "scientificName": "Ceratodoris rosacea",
-   "count": 95
+   "count": 99
   },
   {
    "commonName": "Spotted Dorid",
@@ -2103,7 +2103,7 @@
   {
    "commonName": "Gumboot Chiton",
    "scientificName": "Cryptochiton stelleri",
-   "count": 67
+   "count": 73
   },
   {
    "commonName": "Opalescent Nudibranch",
@@ -2113,12 +2113,12 @@
   {
    "commonName": "Hilton's Aeolid",
    "scientificName": "Phidiana hiltoni",
-   "count": 48
+   "count": 44
   },
   {
    "commonName": "San Diego Dorid",
    "scientificName": "Diaulula sandiegensis",
-   "count": 40
+   "count": 39
   },
   {
    "commonName": "Mossy Chiton",
@@ -2128,7 +2128,7 @@
   {
    "commonName": "Noble Dorid",
    "scientificName": "Peltodoris nobilis",
-   "count": 21
+   "count": 22
   },
   {
    "commonName": "Black and White Dorid",
