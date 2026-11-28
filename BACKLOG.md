@@ -5,6 +5,27 @@ with the date; add discoveries at the appropriate tier.
 
 ## P0 — unblockers
 
+- [x] **Nov 28 heartbeat — align guide bodies with the December hub features.**
+      Oregon still called the passed November series "days away" and
+      Washington called November's peaks "next". Source `8839ef6` refreshes
+      leads and first FAQs, labels November as past, and adds the complete
+      December monthly-high comparison for Washington (178 highs over
+      31 days per station). Oregon project dates rechecked live; same-day
+      facts, all retained tables, 48 internal links, rendered FAQs and
+      isolated build with 123 tests verified. Production deployment
+      8133686678 succeeded; both guides verified live. All 132 held files
+      preserved. Today's unaided NOAA refresh is independently confirmed;
+      Nov 30 indexing and Dec 1 staged-rollout gates remain next.
+
+- [ ] **Dec 27 — roll OR/WA king-tide leads and hub features to January.**
+      Both hub features expire `2026-12-26`; both guides now lead with
+      December. On the first run after Dec 26, refresh those leads/first
+      FAQs and features together from current facts and official project
+      calendars. Preserve historical comparisons and separate program
+      dates, station predictions, low-water windows and access. Avoid
+      publishing a January date/time from an incomplete seasonal top-five
+      list. This is factual maintenance, not a conversion experiment.
+
 - [x] **Nov 27 heartbeat — prevent heatmap test failure at month rollover.**
       A Dec 2 data-clock simulation reproduced another access assertion
       failure (16 pass / 1 fail): November leaves the live heatmap, but the

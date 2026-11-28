@@ -5,6 +5,91 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-28 — Heartbeat: retire passed November leads in the two December-featured guides
+
+**Coordination / health:** read today's operator entry and commits first;
+`git pull --ff-only` was already current. The operator's `603088d` hub
+rollover is live. Independently confirmed scheduled run **46123443698**
+landed today's NOAA refresh `7d5086e` at **07:59:07Z**, without dispatch;
+the latest scheduled run **46174928921** succeeded at **18:16:18Z** after
+the already-fresh guard. No originating cron expression established, so
+no slot-delay estimate. No open GitHub issues. After this release, all
+12 station JSON datasets returned 200 and byte-matched committed data at
+**18:26:54Z**; all 12 calendar feeds passed current-code/access checks.
+No Exceptional window falls within the next 14 days. Production dependency
+audit: zero vulnerabilities; the separate development audit remains open.
+
+**One primary follow-up:** the hubs correctly featured December, but Oregon's
+linked guide still said November was "now days away" and Washington's said
+November was "now the next monthly peaks". These two guides received
+826 and 511 production Regular pageviews respectively on Nov 21–27.
+Updated both leads and first FAQs for December, explicitly labeled November
+as passed, and set `updated: 2026-11-28`. Oregon's official project homepage
+was rechecked in Chrome, including its ArcGIS iframe: Nov 23–27,
+Dec 22–26, and Jan 20–24 remain the published photo-series dates.
+Washington now has a three-station December monthly-maxima table: La Push
+11.01 ft on Dec 24 at 11:43 AM; Seattle 13.01 ft on Dec 26 at 7:22 AM;
+Port Townsend 9.96 ft on Dec 26 at 7:08 AM (Pacific, local MLLW).
+Checked all 60/59/59 December highs across all 31 days using today's facts;
+Seattle's January seasonal maximum remains separate. Oregon's December
+maxima were also checked across the full month. Historical tables, titles,
+URLs, gates and the morning's hub metadata remain intact.
+
+**Validation / publication:** isolated plain `npm run build` passed with
+164 pages, verify-output for 12 stations × 6 months / 151 sitemap URLs,
+and **123 tests, zero failures**. Checked all retained table blocks,
+40–80-word leads, both rendered first FAQs, updated dates and 48 internal
+link occurrences. All **132 owner-held files** are byte-identical.
+Source **`8839ef68dbd25197dbe141afef467f1bdf59abcd`** pushed normally;
+exact-SHA Production deployment **8133686678** succeeded **18:25:23Z**.
+Chrome verified both updated guides and Washington's new table live;
+Finder selection loaded today's Newport data. La Jolla's station page
+also rendered current data. No warning/error console entries in these
+observed smoke checks; this does not clear the recorded analytics errors.
+
+**Search (GSC final Web data):** Nov 20–26 **395 clicks / 20,744 impressions /
+position 5.85**, versus Nov 13–19 **169 / 9,746 / 6.92**: clicks **+133.7%**.
+Oct 30–Nov 26 **818 / 44,274 / 6.45**, versus Oct 2–29
+**376 / 19,734 / 7.01**. Date-dimension rows support the increase;
+seasonal demand and prior work confound attribution to any individual change.
+
+**Product (PostHog 495836, exact `thetidewindow.com` host + Regular,
+complete UTC days):** Nov 21–27 **3,364 pageviews, 6 signup events**;
+Oct 31–Nov 27 **6,889 pageviews / 6,570 pageview distinct IDs / 11 signup
+events**. Seven-day aggregate pageview query timed out; the focused
+classification and capture-property queries both independently total 3,364.
+IDs and Regular classification are not verified people or subscribers.
+Seven-day actions: 23 station selections, 13 window results, 10 ZIP uses,
+7 Trip Picker runs, 15 calendar-gate clicks, 4 URL reveals. Six signup
+sources each have one event. No conversion verdict or experiment restart;
+the closed exit-intent experiment and its owner-deadline reconciliation
+remain separate from today's 128 prompt-shown events / one signup.
+
+**Observed errors / measurement limit:** 23 exception events on 8 IDs in
+seven days: 10 generic Script errors, 3 Brave `window.ethereum` errors,
+9 La Jolla promise rejections on Nov 26, and one Washington Mobile Safari
+`_G` ReferenceError on Nov 26. No application defect reproduced in the
+Chrome checks; these causes remain unconfirmed. Capture property is missing
+on 3,059 pageviews and false on 305, true on none: ingestion exists but
+coverage is still unverified. Sampled p75 nearest-rank web vitals:
+LCP 592 ms (n=857), INP 32 ms (n=197), CLS 0 (n=281), not all visitors.
+
+**Next:** Glass Beach's December chart is the next ready editorial brief;
+sea-glass and Sunset Bay keep the ready queue at three. Nov 30: weekly
+40-URL inspection including the three never-crawled tools; preserve the
+observation period and owner Request Indexing task. Dec 1: January month
+pages remain subject to the December-indexing gate. Dec 27: roll both
+king-tide leads/FAQs and expiring hub features to the remaining January
+events, with fresh official sources and facts. No send, audience change,
+instrumentation change, or second improvement in this heartbeat.
+
+Evidence: `/Users/vanessa/Documents/Codex/2026-08-21/re/artifacts/tidewindow-health-2026-11-28/`
+(`result.json`, `content-facts.json`, `render-checks.json`, `build.log`,
+`official-oregon-dates.json`, `content-deployment-status.json`, analytics
+JSONL and live checks).
+
+---
+
 ## 2026-11-28 — OR and WA hub features rolled to the December king-tide events
 
 **Health (§2a, green):** today's refresh landed unaided by a scheduled run —
