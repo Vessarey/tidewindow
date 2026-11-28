@@ -2,7 +2,7 @@
 title: "King Tides Washington 2026 & 2027: Dates for Seattle, Port Townsend and La Push — and Where the Lows Go"
 description: "Washington king tide dates 2026-27: a 13.09 ft Seattle high on Jan 25, Christmas-week peaks at La Push, and why Puget Sound's deep lows land at night."
 date: "2026-09-04"
-updated: "2026-11-24"
+updated: "2026-11-28"
 category: "king-tides"
 gateStations: ["seattle-wa", "port-townsend-wa", "la-push-wa"]
 featuredRoundup:
@@ -16,7 +16,7 @@ endSignup:
 tags: ["king tides washington 2026", "king tides washington 2027", "king tides seattle", "king tide dates washington", "perigean spring tide", "puget sound tides", "la push", "port townsend", "winter tidepooling"]
 faq:
   - q: "When are the king tides in Washington in 2026 and 2027?"
-    a: "The November 2026 monthly peaks are 10.79 ft MLLW at La Push (NOAA 9442396) on November 25 at 11:55 AM, 12.70 ft at Seattle (9447130) on November 27 at 7:39 AM, and 9.75 ft at Port Townsend (9444900) on November 27 at 7:33 AM. Within the October 2026–March 2027 comparison, La Push peaks on December 24, Port Townsend on December 26, and Seattle on January 25. These are predictions for three stations, not one statewide tide time."
+    a: "The December 2026 monthly peaks are 11.01 ft MLLW at La Push (NOAA 9442396) on December 24 at 11:43 AM, 13.01 ft at Seattle (9447130) on December 26 at 7:22 AM, and 9.96 ft at Port Townsend (9444900) on December 26 at 7:08 AM Pacific. Within the October 2026–March 2027 comparison, La Push and Port Townsend peak on those December dates, while Seattle peaks on January 25. These are predictions for three stations, not one statewide tide time."
   - q: "Can you go tide pooling during Washington's king tides?"
     a: "High-tide dates are separate from low-tide windows. At Seattle and Port Townsend, November and December 2026 have no modeled windows with at least 30 minutes of daylight overlap. La Push retains daylight-overlapping windows, including November 24's -1.84 ft low at 6:14 PM, but that low is after the 4:32 PM sunset; only 32 minutes of its window are in daylight. Predictions do not establish beach access or suitable conditions."
   - q: "What is the deepest low with a daylight window in Washington's 2026-27 king tide season?"
@@ -37,11 +37,25 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442396"
 ---
 
-**Washington's November 2026 high-tide peaks differ by station: La Push (NOAA 9442396) reaches 10.79 ft MLLW on November 25 at 11:55 AM; Seattle (9447130) reaches 12.70 ft on November 27 at 7:39 AM, and Port Townsend (9444900) reaches 9.75 ft that morning at 7:33 AM. These are NOAA predictions for three reference stations, not a statewide tide time or a Long Beach Peninsula forecast.**
+**Washington's December 2026 high-tide peaks differ by station: La Push (NOAA 9442396) reaches 11.01 ft MLLW on December 24 at 11:43 AM; Seattle (9447130) reaches 13.01 ft on December 26 at 7:22 AM, and Port Townsend (9444900) reaches 9.96 ft that morning at 7:08 AM Pacific. November's peaks have passed. These are NOAA predictions for three reference stations, not a statewide tide time or a Long Beach Peninsula forecast.**
+
+## December 2026: coastal and Puget Sound peak dates
+
+December's highest predicted tides fall on December 24 at La Push and December 26 at Seattle and Port Townsend. These are each station's maxima across the complete December 1–31 month, not a shared statewide event time.
+
+| Station (NOAA id) | Highest predicted high in December | Date | Local time |
+|---|---|---|---|
+| [La Push](/beaches/wa/la-push-wa/) (9442396) | 11.01 ft | Thu, Dec 24, 2026 | 11:43 AM |
+| [Seattle](/beaches/wa/seattle-wa/) (9447130) | 13.01 ft | Sat, Dec 26, 2026 | 7:22 AM |
+| [Port Townsend](/beaches/wa/port-townsend-wa/) (9444900) | 9.96 ft | Sat, Dec 26, 2026 | 7:08 AM |
+
+*Computed November 28, 2026 from NOAA predictions in the current fact sheets, checking all 60 December highs at La Push and 59 each at Seattle and Port Townsend across all 31 days. Heights are feet above each station's local MLLW datum, rounded after ranking the unrounded predictions; times are Pacific Standard Time. Predictions do not establish observed water levels, flood depths or shoreline access.*
+
+La Push and Port Townsend also reach their October–March seasonal maxima on these December dates. Seattle's seasonal maximum is higher and later: 13.09 ft on January 25, 2027 at 7:16 AM.
 
 ## November 2026: La Push peaks first, Puget Sound follows
 
-The late-November high tides are now the next monthly peaks at these three stations. La Push's highest November tide falls two days before the Puget Sound peaks. Use the date and clock for the named station; a high-tide photograph and a low-tide outing are different plans.
+The November peaks below have passed and remain here for seasonal comparison. La Push's highest predicted November tide fell two days before the Puget Sound peaks. Use the date and clock for the named station; a high-tide photograph and a low-tide outing are different plans.
 
 | Station (NOAA id) | Highest predicted high in November | Date | Local time |
 |---|---|---|---|

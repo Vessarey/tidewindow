@@ -2,7 +2,7 @@
 title: "Oregon Coast King Tides 2026 & 2027: Official Dates, Highs and Low-Tide Windows"
 description: "Oregon king tide dates: Nov 23–27 and Dec 22–26, 2026; Jan 20–24, 2027. Compare official photo dates, NOAA high tides and daylight low-tide windows."
 date: "2026-09-02"
-updated: "2026-11-20"
+updated: "2026-11-28"
 category: "king-tides"
 gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 featuredRoundup:
@@ -16,7 +16,7 @@ endSignup:
 tags: ["king tides oregon 2027", "king tides oregon 2026", "king tides oregon coast", "oregon king tides", "king tide dates 2027", "perigean spring tide", "winter tidepooling", "port orford", "charleston", "newport", "garibaldi"]
 faq:
   - q: "When are the Oregon coast king tides in 2026 and 2027?"
-    a: "The Oregon King Tides Project lists November 23–27, 2026; December 22–26, 2026; and January 20–24, 2027 for its 2026–27 photo series, re-checked November 20, 2026. These are official project dates, not identical high-water times at every beach. Tidewindow's four Oregon NOAA stations have their highest predicted October–March tide on December 24, 2026."
+    a: "The Oregon King Tides Project's remaining 2026–27 photo series are December 22–26, 2026 and January 20–24, 2027, re-checked November 28, 2026. Its November 23–27 series has passed. These are official project dates, not identical high-water times at every beach. Tidewindow's four Oregon NOAA stations have their highest predicted October–March tide on December 24, 2026."
   - q: "What is the highest predicted king tide at Oregon's covered stations?"
     a: "Among Tidewindow's four Oregon stations, Newport (NOAA 9435380) has the largest October 2026–March 2027 predicted high: 10.58 ft above local Mean Lower Low Water on December 24, 2026 at 11:39 AM Pacific. Within November 2026, every covered station's highest predicted high falls on November 25 instead, topping out at 10.27 ft at Newport at 11:52 AM. Heights are relative to a local datum, not predicted flood depths or a beach-access assessment."
   - q: "Are the lowest Oregon king tides visible in daylight?"
@@ -37,11 +37,11 @@ sources:
   - "https://tidesandcurrents.noaa.gov/stationhome.html?id=9431647"
 ---
 
-**Oregon's official 2026–27 king-tide photo series runs November 23–27 and December 22–26, 2026, then January 20–24, 2027. The November series is now days away: all four of Tidewindow's Oregon NOAA stations post their highest predicted November high midday on Wednesday, November 25 — 10.27 ft MLLW at Newport (9435380) at 11:52 AM. The season's overall maximum still belongs to December 24. High-water photo dates and low-tide daylight windows answer different questions: most of the listed low tides occur after sunset.**
+**Oregon's next official king-tide photo series is December 22–26, 2026, followed by January 20–24, 2027; the November series has passed. All four covered Oregon NOAA stations reach their highest predicted October–March tide on December 24, led by Newport (9435380) at 10.58 ft MLLW at 11:39 AM Pacific. High-water photo dates and low-tide daylight windows answer different questions: most of the listed low tides occur after sunset.**
 
 ## Official Oregon king tide dates for 2026–27
 
-The [Oregon King Tides Project](https://www.oregonkingtides.net/) lists these dates for its current photo series, re-checked November 20, 2026:
+The [Oregon King Tides Project](https://www.oregonkingtides.net/) lists these dates for its current photo series, re-checked November 28, 2026. The November series has ended; December and January remain ahead:
 
 | Photo series | Official dates |
 |---|---|
@@ -53,7 +53,7 @@ The project is coordinated by the Oregon Coastal Management Program and Oregon S
 
 ## November 23–27: where the month's highest water lands
 
-The November photo series contains the month's highest predicted water at every covered Oregon station. Checked across **all predicted November 2026 highs** (58 per station), each station's November maximum falls on **Wednesday, November 25**, late morning to midday — inside the official November 23–27 window. The next-highest November highs are the adjacent midday tides of November 26 and 24.
+The November 23–27 photo series has passed. For comparison, it contained the month's highest predicted water at every covered Oregon station. Checked across **all predicted November 2026 highs** (58 per station), each station's November maximum fell on **Wednesday, November 25**, late morning to midday — inside the official November 23–27 window. The next-highest November highs were the adjacent midday tides of November 26 and 24.
 
 | Station (NOAA id) | Highest November high | Date | Time of high |
 |---|---|---|---|
@@ -64,7 +64,7 @@ The November photo series contains the month's highest predicted water at every 
 
 *Computed November 14, 2026 from the complete set of predicted November highs in the current fact sheets. Heights are feet above each station's local MLLW datum, not flood depths; times are Pacific. A predicted high is not a flooding forecast and says nothing about conditions or access at a particular beach.*
 
-November 25 is a peak, not the season's peak: every one of these stations still has its October–March maximum on December 24, 2026 (next section). If you photograph the November series, the project's [participation pages](https://www.oregonkingtides.net/) explain where and how to submit.
+November 25 was the November peak in these predictions; every one of these stations has a higher October–March maximum on December 24, 2026 (next section). The project's [participation pages](https://www.oregonkingtides.net/) explain how to take part in the December and January series.
 
 ## The highest predicted tides at four Oregon stations
 
