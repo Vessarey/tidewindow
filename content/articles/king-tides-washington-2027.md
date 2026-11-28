@@ -7,9 +7,9 @@ category: "king-tides"
 gateStations: ["seattle-wa", "port-townsend-wa", "la-push-wa"]
 featuredRoundup:
   states: ["wa"]
-  event: "November 25-27, 2026"
-  until: "2026-11-30"
-  teaser: "November peaks fall on Nov 25 at La Push and Nov 27 at Seattle and Port Townsend. Compare station times and the separate Long Beach Peninsula sources."
+  event: "December 24-26, 2026"
+  until: "2026-12-26"
+  teaser: "La Push tops its October-March season at 11.01 ft on December 24 and Port Townsend at 9.96 ft on December 26; Seattle's own maximum waits for January 25. Compare station times and the separate Long Beach Peninsula sources."
 endSignup:
   headline: "A heads-up before each Washington king-tide window"
   blurb: "One email a week, sent Thursdays: the daylight windows worth the drive in Washington, with the king-tide dates flagged as they come into range. Computed from NOAA predictions, never padded."

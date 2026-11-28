@@ -145,7 +145,9 @@ with the date; add discoveries at the appropriate tier.
       Weekly inspection must still include Trip Picker and Golden Hour.
       Morning MLLW publication verified; no article or code changed here.
 
-- [ ] **After Nov 27: restore the Oregon hub's December feature.** The OR
+- [x] **(Done 2026-11-28 — both features rolled; WA done early in the same
+      pass, teasers recomputed from the Nov 28 fact sheets, build + rendered
+      hubs verified.)** After Nov 27: restore the Oregon hub's December feature. The OR
       `featuredRoundup` was rolled to the November 23–27 event on Nov 14
       and expires `2026-11-27`; without action the hub shows no feature from
       Nov 28. First run after Nov 27 (and before the Dec 22–26 series):

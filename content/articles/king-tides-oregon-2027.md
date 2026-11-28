@@ -7,9 +7,9 @@ category: "king-tides"
 gateStations: ["port-orford-or", "charleston-or", "newport-or", "garibaldi-or"]
 featuredRoundup:
   states: ["or"]
-  event: "November 23-27, 2026"
-  until: "2026-11-27"
-  teaser: "Oregon's November king-tide photo series is here: all four covered stations post their highest November high midday on November 25. Compare official dates, high-water peaks and low-tide windows."
+  event: "December 22-26, 2026"
+  until: "2026-12-26"
+  teaser: "Oregon's December king-tide photo series peaks December 24: all four covered stations post their October-March maximum that midday, topping out at 10.58 ft MLLW at Newport at 11:39 AM. Compare official dates, high-water peaks and low-tide windows."
 endSignup:
   headline: "A heads-up before each Oregon king-tide low"
   blurb: "One email a week, sent Thursdays: upcoming daylight low-tide windows on the Oregon coast, with king-tide lows included as they come into range. Computed from NOAA predictions."

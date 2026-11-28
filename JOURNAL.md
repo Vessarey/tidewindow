@@ -5,6 +5,64 @@ snapshot (once PostHog is live), and notes for tomorrow.
 
 ---
 
+## 2026-11-28 — OR and WA hub features rolled to the December king-tide events
+
+**Health (§2a, green):** today's refresh landed unaided by a scheduled run —
+run **46123443698** (schedule trigger) started **07:55:57Z**, pushed
+`7d5086e` "data: daily NOAA refresh 2026-11-28" at **07:59:07Z**, completed
+green in 3m19s. That closes the Nov 26/27 open question: after fixes
+`718556f`, `bf50472` and `2148c79`, the schedule itself has now produced a
+refresh with no dispatch. The later 10:55Z run (14s) skipped as already
+fresh, consistent with the guard; no originating cron expression
+established, so no slot-delay claim. No open GitHub issues.
+
+**Primary action (BACKLOG P0, queued Nov 14):** restored the Oregon hub's
+December feature, expired since `until: 2026-11-27`, and rolled Washington's
+(would have expired Nov 30) in the same pass — same class, both deadlines
+inside this run's window. Both `featuredRoundup` blocks now carry the
+December events, `until: 2026-12-26`:
+- **OR** `event: "December 22-26, 2026"` (the Oregon King Tides Project
+  series dates already cited in the article, last re-fetched Nov 20).
+  Teaser recomputed from today's fact sheets (generated_on 2026-11-28):
+  all four covered stations' October–March maximum falls Dec 24, Newport
+  deepest at 10.58 ft MLLW, 11:39 AM (king_season_oct26_mar27_highest5,
+  top row per station) — matches the article FAQ already live.
+- **WA** `event: "December 24-26, 2026"` (station peak dates, same
+  derivation as November's feature). Teaser: La Push season max 11.01 ft
+  Dec 24, Port Townsend 9.96 ft Dec 26, Seattle's max stays Jan 25 —
+  verified against today's sheets and consistent with the article's
+  seasonal-comparison section. Dec 26 is Seattle's December monthly max
+  (highest December entry in the complete descending seasonal ranking),
+  but the teaser makes no Seattle December claim.
+Article bodies untouched; `updated:` frontmatter deliberately not bumped
+(hub-slot metadata only, no article content change).
+
+**Quality gates:** plain `npm run build` green — 164 pages, verify-output
+OK (12 stations × 6 months, 151 sitemap URLs), all postbuild suites 0
+failures (17/17 access). Rendered `out/beaches/or/` and `out/beaches/wa/`
+both show the new event, teaser and roundup link. Diff review: only the two
+frontmatter blocks changed; owner-held files (three articles,
+wording.test.mjs, newsletter drafts, seo-refresh dirs) untouched and
+uncommitted per the standing hold; pull used `--autostash`.
+
+**Metrics snapshot (PostHog, project 495836, thetidewindow.com hosts,
+Nov 21–27 complete UTC days):** 3,396 pageviews, 3,463 distinct IDs
+(all-event IDs, not pageview uniques), **6 `newsletter_signup` events**.
+Still below the 30-event verdict floor; no conversion judgment. IDs are
+not verified people.
+
+**Next:** Nov 30 is both the tool-indexing checkpoint (owner Request
+Indexing still pending) and the first run of next week — weekly §2a′
+`gsc-query.mjs inspect 40` read, including Trip Picker and Golden Hour.
+Dec 1: monthly rollover (§2c) subject to the staged indexing gate —
+December indexing still gates January month pages. Glass Beach's December
+chart remains the next editorial brief; development audit, La Jolla
+exception investigation and exit-prompt reconciliation remain open.
+Thursday Dec 3 newsletter per the standing ritual; recheck Resend events
+before the send.
+
+---
+
 ## 2026-11-27 — Heartbeat: prevent the next heatmap test rollover failure
 
 **One primary reliability action:** independently verified the morning
