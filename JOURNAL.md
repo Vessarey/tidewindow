@@ -45,6 +45,11 @@ frontmatter blocks changed; owner-held files (three articles,
 wording.test.mjs, newsletter drafts, seo-refresh dirs) untouched and
 uncommitted per the standing hold; pull used `--autostash`.
 
+**Publication:** `603088d` pushed; exact-SHA Production deployment
+**8129833170** succeeded (created 13:08:51Z). Live checks:
+thetidewindow.com/beaches/or/ shows "December 22-26, 2026" and
+/beaches/wa/ shows "December 24-26, 2026" with the recomputed teaser.
+
 **Metrics snapshot (PostHog, project 495836, thetidewindow.com hosts,
 Nov 21–27 complete UTC days):** 3,396 pageviews, 3,463 distinct IDs
 (all-event IDs, not pageview uniques), **6 `newsletter_signup` events**.
